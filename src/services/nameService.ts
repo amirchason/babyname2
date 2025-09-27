@@ -91,12 +91,23 @@ class NameService {
     const searchTerm = query.toLowerCase();
     const names = this.loaded && this.database ? this.database.names : this.popularNames;
 
-    return names
-      .filter(name =>
-        name.name.toLowerCase().includes(searchTerm) ||
-        name.originalName?.toLowerCase().includes(searchTerm)
-      )
-      .slice(0, limit);
+    // Separate names that start with searchTerm vs contain it
+    const startsWithNames: NameEntry[] = [];
+    const containsNames: NameEntry[] = [];
+
+    names.forEach(name => {
+      const nameLower = name.name.toLowerCase();
+      const originalLower = name.originalName?.toLowerCase() || '';
+
+      if (nameLower.startsWith(searchTerm) || originalLower.startsWith(searchTerm)) {
+        startsWithNames.push(name);
+      } else if (nameLower.includes(searchTerm) || originalLower.includes(searchTerm)) {
+        containsNames.push(name);
+      }
+    });
+
+    // Combine: first show names starting with searchTerm, then names containing it
+    return [...startsWithNames, ...containsNames].slice(0, limit);
   }
 
   getNamesByGender(gender: 'male' | 'female', limit: number = 50): NameEntry[] {
