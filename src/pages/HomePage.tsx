@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, User } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
 import nameService, { NameEntry } from '../services/nameService';
+import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
 
@@ -15,6 +18,12 @@ const HomePage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [totalNames, setTotalNames] = useState(0);
   const [showFilterMessage, setShowFilterMessage] = useState(false);
+  const [showFavorites, setShowFavorites] = useState(false);
+  const [favoritesCount, setFavoritesCount] = useState(0);
+  const [, forceUpdate] = useState({});
+  const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const { user, isAuthenticated, login, logout } = useAuth();
 
   useEffect(() => {
     // Load initial names
@@ -34,9 +43,44 @@ const HomePage: React.FC = () => {
     loadNames();
   }, []);
 
-  const applySorting = (namesToSort: NameEntry[]): NameEntry[] => {
+  const applySorting = useCallback((namesToSort: NameEntry[], preserveSearchOrder: boolean = false): NameEntry[] => {
     let sorted = [...namesToSort];
 
+    // If we have search priorities, sort within each priority group
+    if (preserveSearchOrder && sorted.some(n => n.searchPriority)) {
+      const priority1 = sorted.filter(n => n.searchPriority === 1);
+      const priority2 = sorted.filter(n => n.searchPriority === 2);
+      const noPriority = sorted.filter(n => !n.searchPriority);
+
+      // Sort each group separately
+      const sortGroup = (group: NameEntry[]) => {
+        let sortedGroup = [...group];
+        switch (sortBy) {
+          case 'alphabetical':
+            sortedGroup = sortedGroup.sort((a, b) => a.name.localeCompare(b.name));
+            break;
+          case 'random':
+            for (let i = sortedGroup.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [sortedGroup[i], sortedGroup[j]] = [sortedGroup[j], sortedGroup[i]];
+            }
+            break;
+          case 'popularity':
+          default:
+            // Already sorted by popularity
+            break;
+        }
+        if (sortReverse && sortBy !== 'random') {
+          sortedGroup = sortedGroup.reverse();
+        }
+        return sortedGroup;
+      };
+
+      // Combine sorted groups preserving priority order
+      return [...sortGroup(priority1), ...sortGroup(priority2), ...sortGroup(noPriority)];
+    }
+
+    // Regular sorting (no search priorities)
     switch (sortBy) {
       case 'alphabetical':
         sorted = sorted.sort((a, b) => a.name.localeCompare(b.name));
@@ -62,14 +106,26 @@ const HomePage: React.FC = () => {
     }
 
     return sorted;
-  };
+  }, [sortBy, sortReverse]);
 
   useEffect(() => {
     // Handle search and filter
     let results = names;
 
+    if (showFavorites) {
+      // Show only favorite names
+      results = results.filter(name => favoritesService.isFavorite(name.name));
+    } else {
+      // Filter out disliked names (never show them unless viewing favorites)
+      results = favoritesService.filterOutDislikes(results);
+    }
+
     if (searchTerm) {
       results = nameService.searchNames(searchTerm, 100);
+      // Apply dislikes filter to search results too
+      if (!showFavorites) {
+        results = favoritesService.filterOutDislikes(results);
+      }
     }
 
     if (activeFilter !== 'all') {
@@ -79,11 +135,12 @@ const HomePage: React.FC = () => {
       });
     }
 
-    // Apply sorting
-    results = applySorting(results);
+    // Apply sorting - preserve search order when searching
+    results = applySorting(results, !!searchTerm);
 
     setFilteredNames(results);
-  }, [searchTerm, activeFilter, names, sortBy, sortReverse]);
+    setFavoritesCount(favoritesService.getFavoritesCount());
+  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites]);
 
   const handleFilterClick = (filter: 'all' | 'male' | 'female') => {
     setActiveFilter(filter);
@@ -118,15 +175,110 @@ const HomePage: React.FC = () => {
                 <p className="text-xs text-gray-500">676,468 Names • 2M+ Happy Parents</p>
               </div>
             </div>
-            <nav className="hidden md:flex space-x-6">
-              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium">Trending Now</button>
-              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium">By Origin</button>
-              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium">Success Stories</button>
-              <button className="px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:shadow-lg transition-shadow font-medium animate-pulse">
-                Get AI Help Free
+
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center space-x-4">
+              <button
+                onClick={() => navigate('/favorites')}
+                className="flex items-center gap-2 px-4 py-2 rounded-full transition-all font-medium text-gray-700 hover:text-red-500 hover:bg-red-50">
+                <Heart className="w-4 h-4" />
+                Favorites {favoritesCount > 0 && `(${favoritesCount})`}
               </button>
+              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium px-4 py-2">
+                By Origin
+              </button>
+              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium px-4 py-2">
+                AI Assistant
+              </button>
+
+              {/* Login/Profile Button */}
+              {isAuthenticated && user ? (
+                <div className="flex items-center gap-3">
+                  <img
+                    src={user.picture}
+                    alt={user.name}
+                    className="w-10 h-10 rounded-full border-2 border-purple-200"
+                  />
+                  <button
+                    onClick={logout}
+                    className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-red-600 transition-colors"
+                  >
+                    <LogOut className="w-4 h-4" />
+                    Logout
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={login}
+                  className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full hover:shadow-lg transition-all font-medium"
+                >
+                  <LogIn className="w-4 h-4" />
+                  Sign in with Google
+                </button>
+              )}
             </nav>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="md:hidden p-2 text-gray-700 hover:text-purple-600"
+            >
+              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
           </div>
+
+          {/* Mobile Menu */}
+          {menuOpen && (
+            <div className="md:hidden mt-4 pt-4 border-t border-gray-200">
+              <div className="flex flex-col space-y-3">
+                <button
+                  onClick={() => {
+                    navigate('/favorites');
+                    setMenuOpen(false);
+                  }}
+                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+                >
+                  <Heart className="w-4 h-4" />
+                  Favorites {favoritesCount > 0 && `(${favoritesCount})`}
+                </button>
+                <button className="text-left px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                  By Origin
+                </button>
+                <button className="text-left px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
+                  AI Assistant
+                </button>
+
+                {isAuthenticated && user ? (
+                  <div className="flex items-center justify-between px-4 py-2 border-t pt-4">
+                    <div className="flex items-center gap-2">
+                      <img
+                        src={user.picture}
+                        alt={user.name}
+                        className="w-8 h-8 rounded-full"
+                      />
+                      <span className="text-sm font-medium text-gray-700">{user.name}</span>
+                    </div>
+                    <button
+                      onClick={logout}
+                      className="text-red-600 text-sm"
+                    >
+                      Logout
+                    </button>
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => {
+                      login();
+                      setMenuOpen(false);
+                    }}
+                    className="mx-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                  >
+                    Sign in with Google
+                  </button>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       </header>
 
@@ -337,7 +489,7 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center mb-8">
             <h3 className="text-3xl font-bold text-gray-800">
-              {searchTerm ? 'Search Results' : 'Popular Names'}
+              {showFavorites ? 'Your Favorite Names' : searchTerm ? 'Search Results' : 'Popular Names'}
             </h3>
             <span className="text-gray-500">
               Showing {filteredNames.length} names
@@ -369,6 +521,8 @@ const HomePage: React.FC = () => {
                   key={name.name}
                   name={name}
                   onClick={setSelectedName}
+                  onFavoriteToggle={() => forceUpdate({})}
+                  onDislikeToggle={() => forceUpdate({})}
                 />
               ))}
             </div>

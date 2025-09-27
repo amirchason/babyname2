@@ -52,9 +52,10 @@ env/
 venv/
 .venv
 
-# Data files (optional - uncomment if needed)
-# /data/*.json
-# /data/*.csv
+# Data files (large database files)
+/data/*.json
+/data/*.csv
+data/namesDatabase.json
 
 # Documentation builds
 docs/_build/

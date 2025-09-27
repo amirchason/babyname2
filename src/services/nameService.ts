@@ -20,6 +20,7 @@ export interface NameEntry {
   isAbbreviation?: boolean;
   isPotentialAbbreviation?: boolean;
   variants?: string[];
+  searchPriority?: number; // 1 for starts with, 2 for contains
 }
 
 export interface NamesDatabase {
@@ -100,9 +101,9 @@ class NameService {
       const originalLower = name.originalName?.toLowerCase() || '';
 
       if (nameLower.startsWith(searchTerm) || originalLower.startsWith(searchTerm)) {
-        startsWithNames.push(name);
+        startsWithNames.push({ ...name, searchPriority: 1 });
       } else if (nameLower.includes(searchTerm) || originalLower.includes(searchTerm)) {
-        containsNames.push(name);
+        containsNames.push({ ...name, searchPriority: 2 });
       }
     });
 

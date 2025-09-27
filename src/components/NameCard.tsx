@@ -1,13 +1,39 @@
-import React from 'react';
-import { Globe, Users, Sparkles } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Globe, Users, Sparkles, Heart, X } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
+import favoritesService from '../services/favoritesService';
 
 interface NameCardProps {
   name: NameEntry;
   onClick: (name: NameEntry) => void;
+  onFavoriteToggle?: () => void;
+  onDislikeToggle?: () => void;
 }
 
-const NameCard: React.FC<NameCardProps> = ({ name, onClick }) => {
+const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, onDislikeToggle }) => {
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [isDisliked, setIsDisliked] = useState(false);
+
+  useEffect(() => {
+    setIsFavorite(favoritesService.isFavorite(name.name));
+    setIsDisliked(favoritesService.isDisliked(name.name));
+  }, [name.name]);
+
+  const handleFavoriteClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent card click
+    const newState = favoritesService.toggleFavorite(name.name);
+    setIsFavorite(newState);
+    if (newState) setIsDisliked(false); // Remove from dislikes if favorited
+    onFavoriteToggle?.();
+  };
+
+  const handleDislikeClick = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent card click
+    const newState = favoritesService.toggleDislike(name.name);
+    setIsDisliked(newState);
+    if (newState) setIsFavorite(false); // Remove from favorites if disliked
+    onDislikeToggle?.();
+  };
   const isMale = (name.gender.Male || 0) > (name.gender.Female || 0);
   const genderColor = isMale ? 'from-blue-400 to-blue-600' : 'from-pink-400 to-pink-600';
   const genderBg = isMale ? 'bg-blue-50' : 'bg-pink-50';
@@ -34,6 +60,7 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick }) => {
       </div>
 
       <div className="relative p-6">
+
         {/* Header */}
         <div className="flex justify-between items-start mb-3">
           <div className="flex-1 min-w-0">
@@ -93,6 +120,47 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick }) => {
             </span>
           )}
         </div>
+      </div>
+
+      {/* Tinder-style action buttons */}
+      <div className="absolute bottom-6 left-6 right-6 flex justify-between items-center">
+        {/* Nope button (left) */}
+        <button
+          onClick={handleDislikeClick}
+          className={`group relative w-14 h-14 rounded-full transition-all duration-300 transform hover:scale-110 active:scale-95 shadow-lg ${
+            isDisliked
+              ? 'bg-red-500 text-white shadow-red-200'
+              : 'bg-white text-gray-600 hover:bg-red-50 hover:text-red-500 hover:shadow-red-100'
+          }`}
+          title={isDisliked ? 'Remove from hidden' : 'Pass on this name'}
+        >
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white to-gray-50 opacity-20"></div>
+          <X className={`w-7 h-7 mx-auto transition-all duration-200 ${
+            isDisliked ? 'stroke-[3px]' : 'stroke-[2.5px] group-hover:stroke-[3px]'
+          }`} />
+          {/* Ripple effect */}
+          <div className="absolute inset-0 rounded-full bg-red-500 opacity-0 group-active:opacity-20 group-active:animate-ping"></div>
+        </button>
+
+        {/* Like button (right) */}
+        <button
+          onClick={handleFavoriteClick}
+          className={`group relative w-14 h-14 rounded-full transition-all duration-300 transform hover:scale-110 active:scale-95 shadow-lg ${
+            isFavorite
+              ? 'bg-red-500 text-white shadow-red-200'
+              : 'bg-white text-gray-600 hover:bg-red-50 hover:text-red-500 hover:shadow-red-100'
+          }`}
+          title={isFavorite ? 'Remove from favorites' : 'Love this name'}
+        >
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white to-gray-50 opacity-20"></div>
+          <Heart className={`w-7 h-7 mx-auto transition-all duration-200 ${
+            isFavorite
+              ? 'fill-current stroke-[2px]'
+              : 'stroke-[2.5px] group-hover:stroke-[3px] group-hover:fill-red-50'
+          }`} />
+          {/* Ripple effect */}
+          <div className="absolute inset-0 rounded-full bg-red-500 opacity-0 group-active:opacity-20 group-active:animate-ping"></div>
+        </button>
       </div>
     </div>
   );
