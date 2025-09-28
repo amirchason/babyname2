@@ -6,6 +6,8 @@ import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
+import Pagination from '../components/Pagination';
+import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 
 const HomePage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -23,6 +25,9 @@ const HomePage: React.FC = () => {
   const [dislikesCount, setDislikesCount] = useState(0);
   const [, forceUpdate] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(15); // 15 names per page (5x3 grid)
+  const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const navigate = useNavigate();
   const { user, isAuthenticated, login, logout } = useAuth();
 
@@ -30,13 +35,18 @@ const HomePage: React.FC = () => {
     // Load initial names
     const loadNames = async () => {
       setLoading(true);
-      const popularNames = nameService.getPopularNames(100);
+
+      // Start with enough names to immediately show pagination
+      const popularNames = nameService.getPopularNames(100); // 100 names = 7 pages with 15 per page
       setNames(popularNames);
       setFilteredNames(popularNames);
       setTotalNames(nameService.getTotalNames());
 
-      // Load full database in background
+      // Load full database in background for complete pagination
       await nameService.loadFullDatabase();
+      const allNames = await nameService.getPopularNames(2000); // Load 2k names for extensive pagination
+      setNames(allNames);
+      setFilteredNames(allNames);
       setTotalNames(nameService.getTotalNames());
       setLoading(false);
     };
@@ -156,12 +166,40 @@ const HomePage: React.FC = () => {
     setFavoritesCount(favoritesService.getFavoritesCount());
   }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites]);
 
+  // Reset page when search term changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm]);
+
   const handleFilterClick = (filter: 'all' | 'male' | 'female') => {
     setActiveFilter(filter);
+    setCurrentPage(1); // Reset to first page when filter changes
     if (filter !== 'all' && !searchTerm) {
       const genderNames = nameService.getNamesByGender(filter, 100);
       setFilteredNames(genderNames);
     }
+  };
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredNames.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentNames = filteredNames.slice(startIndex, endIndex);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Scroll to top of names section
+    window.scrollTo({ top: 600, behavior: 'smooth' });
+  };
+
+  const handleQuestionnaireComplete = (filters: { gender: 'all' | 'male' | 'female' }) => {
+    // Apply the gender filter from questionnaire
+    setActiveFilter(filters.gender);
+    setCurrentPage(1); // Reset to first page
+    // Close questionnaire
+    setShowQuestionnaire(false);
+    // Scroll to names section
+    window.scrollTo({ top: 600, behavior: 'smooth' });
   };
 
   return (
@@ -359,6 +397,30 @@ const HomePage: React.FC = () => {
             )}
           </div>
 
+          {/* Giant Start Swiping Button */}
+          <div className="flex justify-center mb-8">
+            <button
+              onClick={() => setShowQuestionnaire(true)}
+              className="group relative px-12 py-6 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600
+                       text-white rounded-full text-2xl font-bold shadow-2xl hover:shadow-pink-300/50
+                       transform hover:scale-105 transition-all duration-300 border-4 border-white/20
+                       hover:border-white/40 animate-pulse hover:animate-none"
+            >
+              <div className="flex items-center gap-4">
+                <Heart className="w-8 h-8 animate-bounce group-hover:animate-pulse" fill="currentColor" />
+                <span className="text-white drop-shadow-lg">Start Swiping</span>
+                <Heart className="w-8 h-8 animate-bounce group-hover:animate-pulse" fill="currentColor" />
+              </div>
+
+              {/* Floating hearts animation */}
+              <div className="absolute -top-2 -right-2 w-4 h-4 text-pink-200 animate-ping">💕</div>
+              <div className="absolute -bottom-2 -left-2 w-4 h-4 text-red-200 animate-ping animation-delay-1000">💖</div>
+
+              {/* Glow effect */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-400 to-red-400 opacity-30 blur-xl group-hover:opacity-50 transition-opacity duration-300"></div>
+            </button>
+          </div>
+
           {/* Filter Buttons */}
           <div className="flex justify-center gap-3">
             <button
@@ -522,7 +584,7 @@ const HomePage: React.FC = () => {
               {showFavorites ? 'Your Favorite Names' : searchTerm ? 'Search Results' : 'Popular Names'}
             </h3>
             <span className="text-gray-500">
-              Showing {filteredNames.length} names
+              {filteredNames.length > 0 ? `${filteredNames.length.toLocaleString()} names found` : ''}
             </span>
           </div>
 
@@ -545,36 +607,145 @@ const HomePage: React.FC = () => {
               </button>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredNames.map((name) => (
-                <NameCard
-                  key={name.name}
-                  name={name}
-                  onClick={setSelectedName}
-                  onFavoriteToggle={() => {
-                    setFavoritesCount(favoritesService.getFavoritesCount());
-                    setDislikesCount(favoritesService.getDislikesCount());
-                    forceUpdate({});
-                  }}
-                  onDislikeToggle={() => {
-                    setFavoritesCount(favoritesService.getFavoritesCount());
-                    setDislikesCount(favoritesService.getDislikesCount());
-                    forceUpdate({});
-                  }}
-                />
-              ))}
-            </div>
-          )}
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {currentNames.map((name) => (
+                  <NameCard
+                    key={name.name}
+                    name={name}
+                    onClick={setSelectedName}
+                    onFavoriteToggle={() => {
+                      setFavoritesCount(favoritesService.getFavoritesCount());
+                      setDislikesCount(favoritesService.getDislikesCount());
+                      forceUpdate({});
+                    }}
+                    onDislikeToggle={() => {
+                      setFavoritesCount(favoritesService.getFavoritesCount());
+                      setDislikesCount(favoritesService.getDislikesCount());
+                      forceUpdate({});
+                    }}
+                  />
+                ))}
+              </div>
 
-          {!loading && filteredNames.length > 0 && filteredNames.length < totalNames && (
-            <div className="text-center mt-12">
-              <p className="text-gray-500 mb-4">
-                Showing top {filteredNames.length} of {totalNames.toLocaleString()} names
-              </p>
-              <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:shadow-lg transition-shadow font-medium">
-                Load More Names
-              </button>
-            </div>
+              {/* Amazing Beautiful Pagination - Always Show */}
+              <div className="mt-16 mb-8">
+                <div className="flex flex-col items-center space-y-6">
+                  {/* Page Statistics */}
+                  <div className="text-center">
+                    <p className="text-lg text-gray-700 mb-2">
+                      Showing <span className="font-bold text-purple-600">{((currentPage - 1) * itemsPerPage) + 1}</span> to{' '}
+                      <span className="font-bold text-purple-600">{Math.min(currentPage * itemsPerPage, filteredNames.length)}</span> of{' '}
+                      <span className="font-bold text-purple-600">{filteredNames.length.toLocaleString()}</span> beautiful names
+                    </p>
+                    {totalPages > 1 && (
+                      <p className="text-sm text-gray-500">
+                        Page {currentPage} of {totalPages}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Beautiful Pagination Controls */}
+                  {totalPages > 1 && (
+                    <div className="flex items-center space-x-2">
+                      {/* Previous Button */}
+                      <button
+                        onClick={() => handlePageChange(currentPage - 1)}
+                        disabled={currentPage === 1}
+                        className={`
+                          flex items-center justify-center px-4 py-3 rounded-lg font-medium transition-all duration-200
+                          ${currentPage === 1
+                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                            : 'bg-white text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 hover:text-purple-600 shadow-md hover:shadow-lg border border-gray-200 hover:border-purple-200'
+                          }
+                        `}
+                      >
+                        ← Previous
+                      </button>
+
+                      {/* Page Numbers */}
+                      <div className="flex items-center space-x-1">
+                        {(() => {
+                          const pages: number[] = [];
+                          const maxVisible = Math.min(totalPages, 7);
+
+                          for (let i = 0; i < maxVisible; i++) {
+                            if (totalPages <= 7) {
+                              pages.push(i + 1);
+                            } else if (currentPage <= 4) {
+                              pages.push(i + 1);
+                            } else if (currentPage >= totalPages - 3) {
+                              pages.push(totalPages - 6 + i);
+                            } else {
+                              pages.push(currentPage - 3 + i);
+                            }
+                          }
+
+                          return pages.map((pageNum) => {
+                            if (pageNum < 1 || pageNum > totalPages) return null;
+
+                            return (
+                              <button
+                                key={pageNum}
+                                onClick={() => handlePageChange(pageNum)}
+                                className={`
+                                  flex items-center justify-center w-12 h-12 rounded-lg font-bold transition-all duration-200 text-sm
+                                  ${currentPage === pageNum
+                                    ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg transform scale-110'
+                                    : 'bg-white text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 hover:text-purple-600 shadow-md hover:shadow-lg border border-gray-200 hover:border-purple-200 hover:scale-105'
+                                  }
+                                `}
+                              >
+                                {pageNum}
+                              </button>
+                            );
+                          });
+                        })()}
+                      </div>
+
+                      {/* Next Button */}
+                      <button
+                        onClick={() => handlePageChange(currentPage + 1)}
+                        disabled={currentPage === totalPages}
+                        className={`
+                          flex items-center justify-center px-4 py-3 rounded-lg font-medium transition-all duration-200
+                          ${currentPage === totalPages
+                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                            : 'bg-white text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 hover:to-pink-50 hover:text-purple-600 shadow-md hover:shadow-lg border border-gray-200 hover:border-purple-200'
+                          }
+                        `}
+                      >
+                        Next →
+                      </button>
+                    </div>
+                  )}
+
+                  {/* Quick Jump for Large Datasets */}
+                  {totalPages > 10 && (
+                    <div className="flex items-center space-x-3">
+                      <span className="text-sm text-gray-600">Jump to page:</span>
+                      <input
+                        type="number"
+                        min="1"
+                        max={totalPages}
+                        value={currentPage}
+                        onChange={(e) => {
+                          const page = parseInt(e.target.value);
+                          if (page >= 1 && page <= totalPages) {
+                            handlePageChange(page);
+                          }
+                        }}
+                        className="w-20 px-3 py-2 text-center border border-gray-300 rounded-lg focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200"
+                      />
+                      <span className="text-sm text-gray-600">of {totalPages}</span>
+                    </div>
+                  )}
+
+                  {/* Stylish Divider */}
+                  <div className="w-full max-w-md h-px bg-gradient-to-r from-transparent via-purple-200 to-transparent"></div>
+                </div>
+              </div>
+            </>
           )}
         </div>
       </section>
@@ -584,6 +755,14 @@ const HomePage: React.FC = () => {
         name={selectedName}
         onClose={() => setSelectedName(null)}
       />
+
+      {/* Swiping Questionnaire */}
+      {showQuestionnaire && (
+        <SwipingQuestionnaire
+          onClose={() => setShowQuestionnaire(false)}
+          onComplete={handleQuestionnaireComplete}
+        />
+      )}
 
       {/* Trust Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-purple-50 to-pink-50">

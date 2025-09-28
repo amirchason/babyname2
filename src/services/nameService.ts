@@ -66,27 +66,32 @@ class NameService {
 
     this.loading = true;
     try {
-      const response = await fetch('/data/namesDatabase.json');
+      // Try to load the full database file first
+      const response = await fetch('/babyname2/data/popularNames_cache.json');
       if (!response.ok) {
         throw new Error(`Failed to load database: ${response.statusText}`);
       }
       this.database = await response.json();
       this.loaded = true;
-      console.log(`Loaded full database with ${this.database?.metadata.totalNames} names`);
+      console.log(`Loaded full database with ${this.database?.names?.length} names`);
     } catch (error) {
       console.error('Error loading full database:', error);
-      // Fall back to using just the cache
+      // Fall back to using the imported cache
       this.database = {
-        metadata: (namesCache as any).metadata || {},
+        metadata: (namesCache as any).metadata || { totalNames: this.popularNames.length },
         names: this.popularNames
       } as NamesDatabase;
+      this.loaded = true;
+      console.log(`Using fallback cache with ${this.popularNames.length} names`);
     } finally {
       this.loading = false;
     }
   }
 
   getPopularNames(limit: number = 100): NameEntry[] {
-    return this.popularNames.slice(0, limit);
+    // Use full database if loaded, otherwise use cache
+    const names = this.loaded && this.database ? this.database.names : this.popularNames;
+    return names.slice(0, limit);
   }
 
   searchNames(query: string, limit: number = 50): NameEntry[] {
