@@ -20,6 +20,7 @@ const HomePage: React.FC = () => {
   const [showFilterMessage, setShowFilterMessage] = useState(false);
   const [showFavorites, setShowFavorites] = useState(false);
   const [favoritesCount, setFavoritesCount] = useState(0);
+  const [dislikesCount, setDislikesCount] = useState(0);
   const [, forceUpdate] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -41,6 +42,19 @@ const HomePage: React.FC = () => {
     };
 
     loadNames();
+  }, []);
+
+  // Update counts
+  useEffect(() => {
+    const updateCounts = () => {
+      setFavoritesCount(favoritesService.getFavoritesCount());
+      setDislikesCount(favoritesService.getDislikesCount());
+    };
+
+    updateCounts();
+    // Update counts when localStorage changes
+    window.addEventListener('storage', updateCounts);
+    return () => window.removeEventListener('storage', updateCounts);
   }, []);
 
   const applySorting = useCallback((namesToSort: NameEntry[], preserveSearchOrder: boolean = false): NameEntry[] => {
@@ -184,6 +198,12 @@ const HomePage: React.FC = () => {
                 <Heart className="w-4 h-4" />
                 Favorites {favoritesCount > 0 && `(${favoritesCount})`}
               </button>
+              <button
+                onClick={() => navigate('/dislikes')}
+                className="flex items-center gap-2 px-4 py-2 rounded-full transition-all font-medium text-gray-700 hover:text-red-500 hover:bg-red-50">
+                <X className="w-4 h-4" />
+                Dislikes {dislikesCount > 0 && `(${dislikesCount})`}
+              </button>
               <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium px-4 py-2">
                 By Origin
               </button>
@@ -240,6 +260,16 @@ const HomePage: React.FC = () => {
                 >
                   <Heart className="w-4 h-4" />
                   Favorites {favoritesCount > 0 && `(${favoritesCount})`}
+                </button>
+                <button
+                  onClick={() => {
+                    navigate('/dislikes');
+                    setMenuOpen(false);
+                  }}
+                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+                >
+                  <X className="w-4 h-4" />
+                  Dislikes {dislikesCount > 0 && `(${dislikesCount})`}
                 </button>
                 <button className="text-left px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
                   By Origin
@@ -521,8 +551,16 @@ const HomePage: React.FC = () => {
                   key={name.name}
                   name={name}
                   onClick={setSelectedName}
-                  onFavoriteToggle={() => forceUpdate({})}
-                  onDislikeToggle={() => forceUpdate({})}
+                  onFavoriteToggle={() => {
+                    setFavoritesCount(favoritesService.getFavoritesCount());
+                    setDislikesCount(favoritesService.getDislikesCount());
+                    forceUpdate({});
+                  }}
+                  onDislikeToggle={() => {
+                    setFavoritesCount(favoritesService.getFavoritesCount());
+                    setDislikesCount(favoritesService.getDislikesCount());
+                    forceUpdate({});
+                  }}
                 />
               ))}
             </div>

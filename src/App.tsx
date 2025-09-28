@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContext';
 import HomePage from './pages/HomePage';
 import FavoritesPage from './pages/FavoritesPage';
+import DislikesPage from './pages/DislikesPage';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/favorites" element={<FavoritesPage />} />
+            <Route path="/dislikes" element={<DislikesPage />} />
           </Routes>
         </div>
       </Router>

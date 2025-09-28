@@ -1,4 +1,5 @@
 import namesCache from '../data/popularNames_cache.json';
+import { ScrapingFlags } from './scrapingFlagsService';
 
 export interface NameEntry {
   name: string;
@@ -21,6 +22,8 @@ export interface NameEntry {
   isPotentialAbbreviation?: boolean;
   variants?: string[];
   searchPriority?: number; // 1 for starts with, 2 for contains
+  scrapingFlags?: ScrapingFlags; // Track what data has been scraped
+  meaning?: string; // Short meaning (up to 4 words)
 }
 
 export interface NamesDatabase {

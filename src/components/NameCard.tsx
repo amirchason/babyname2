@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Globe, Users, Sparkles, Heart, X } from 'lucide-react';
+import { Sparkles, Heart, X } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 
@@ -40,8 +40,24 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
   const genderBorder = isMale ? 'border-blue-200' : 'border-pink-200';
   const genderIcon = isMale ? '♂' : '♀';
 
-  const countryCount = Object.keys(name.countries).length;
-  const popularityPercent = Math.min(100, 100 - (name.popularityRank / 100));
+  // Calculate popularity percentage based on logarithmic scale for better distribution
+  const calculatePopularityPercent = (rank: number) => {
+    // Use a logarithmic scale that gives meaningful differences
+    // Top 10: 90-100%, Top 100: 70-89%, Top 1000: 40-69%, etc.
+    if (rank <= 10) {
+      return Math.round(100 - (rank - 1) * 1); // 100% to 91%
+    } else if (rank <= 100) {
+      return Math.round(90 - (rank - 10) * 0.22); // 90% to 70%
+    } else if (rank <= 1000) {
+      return Math.round(70 - (rank - 100) * 0.033); // 70% to 40%
+    } else if (rank <= 10000) {
+      return Math.round(40 - (rank - 1000) * 0.0033); // 40% to 10%
+    } else {
+      return Math.max(1, Math.round(10 - (rank - 10000) * 0.0001)); // 10% to 1%
+    }
+  };
+
+  const popularityPercent = calculatePopularityPercent(name.popularityRank);
 
   return (
     <div
@@ -61,64 +77,46 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
 
       <div className="relative p-6">
 
-        {/* Header */}
-        <div className="flex justify-between items-start mb-3">
-          <div className="flex-1 min-w-0">
-            <h3 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+        {/* Header with Left-aligned Rating */}
+        <div className="mb-4">
+          <div className="flex items-start justify-between mb-2">
+            <div className={`px-3 py-1 rounded-full bg-gradient-to-r ${genderColor} text-white text-sm font-bold`}>
+              #{name.popularityRank}
+            </div>
+          </div>
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-gray-800 flex justify-center items-center gap-2">
               {name.name}
-              {(name as any).abbreviations && (name as any).abbreviations.length > 0 && (
-                <span className="text-sm font-normal text-gray-500">
-                  ({(name as any).abbreviations.join(', ')})
-                </span>
-              )}
               <span className={`text-xl font-medium bg-gradient-to-r ${genderColor}
                              bg-clip-text text-transparent`}>
                 {genderIcon}
               </span>
             </h3>
-          </div>
-          <div className={`px-3 py-1 rounded-full bg-gradient-to-r ${genderColor} text-white text-sm font-bold`}>
-            #{name.popularityRank}
-          </div>
-        </div>
-
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 gap-2 mb-3">
-          <div className="flex items-center gap-1 text-sm text-gray-600">
-            <Globe className="w-4 h-4 text-gray-400" />
-            <span>{countryCount} countries</span>
-          </div>
-          <div className="flex items-center gap-1 text-sm text-gray-600">
-            <Users className="w-4 h-4 text-gray-400" />
-            <span>{name.globalFrequency || name.appearances} uses</span>
-          </div>
-        </div>
-
-        {/* Popularity Bar */}
-        <div className="mb-4">
-          <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
-            <div
-              className={`h-full bg-gradient-to-r ${genderColor} transition-all duration-300`}
-              style={{ width: `${popularityPercent}%` }}
-            />
+            {(name as any).abbreviations && (name as any).abbreviations.length > 0 && (
+              <div className="mt-1">
+                <span className="text-sm text-gray-500">
+                  ({(name as any).abbreviations.join(', ')})
+                </span>
+              </div>
+            )}
+            {name.meaning && (
+              <div className="mt-2">
+                <span className="text-sm text-gray-600 italic">
+                  {name.meaning}
+                </span>
+              </div>
+            )}
           </div>
         </div>
 
-        {/* Country Preview */}
-        <div className="flex flex-wrap gap-1">
-          {Object.keys(name.countries).slice(0, 5).map(country => (
-            <span
-              key={country}
-              className="px-2 py-1 bg-white border border-gray-200 rounded text-xs text-gray-600"
-            >
-              {country}
+        {/* Simplified Stats - Only Popularity Score */}
+        <div className="mb-4 text-center">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/60 rounded-full border border-gray-200">
+            <span className="text-sm font-medium text-gray-600">Popularity</span>
+            <span className={`text-lg font-bold bg-gradient-to-r ${genderColor} bg-clip-text text-transparent`}>
+              {Math.round(popularityPercent)}%
             </span>
-          ))}
-          {countryCount > 5 && (
-            <span className="px-2 py-1 bg-gray-100 rounded text-xs text-gray-500">
-              +{countryCount - 5}
-            </span>
-          )}
+          </div>
         </div>
       </div>
 
