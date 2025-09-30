@@ -1,23 +1,41 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Heart, X } from 'lucide-react';
+import { Sparkles, Heart, X, BookOpen, Tag, Globe } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
+import enrichmentService from '../services/enrichmentService';
 
 interface NameCardProps {
   name: NameEntry;
   onClick: (name: NameEntry) => void;
   onFavoriteToggle?: () => void;
   onDislikeToggle?: () => void;
+  contextualRank?: number; // Rank within current filter context
+  filterContext?: 'all' | 'male' | 'female'; // Current filter context
 }
 
-const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, onDislikeToggle }) => {
+const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, onDislikeToggle, contextualRank, filterContext = 'all' }) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [isDisliked, setIsDisliked] = useState(false);
+  const [meaning, setMeaning] = useState<string | undefined>(name.meaning);
+  const [origin, setOrigin] = useState<string | undefined>(undefined);
+  const [enriched, setEnriched] = useState(false);
 
   useEffect(() => {
     setIsFavorite(favoritesService.isFavorite(name.name));
     setIsDisliked(favoritesService.isDisliked(name.name));
-  }, [name.name]);
+
+    // Get enriched data from service
+    const enrichedData = enrichmentService.getNameData(name.name);
+    if (enrichedData) {
+      setMeaning(enrichedData.meaning || name.meaning);
+      setOrigin(enrichedData.origin);
+      setEnriched(enrichedData.enriched || false);
+    } else {
+      setMeaning(name.meaning);
+      setOrigin(undefined);
+      setEnriched(false);
+    }
+  }, [name.name, name.meaning]);
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
@@ -34,11 +52,27 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
     if (newState) setIsFavorite(false); // Remove from favorites if disliked
     onDislikeToggle?.();
   };
-  const isMale = (name.gender.Male || 0) > (name.gender.Female || 0);
+  const genderData = typeof name.gender === 'object' ? name.gender : null;
+  const isMale = (genderData?.Male || 0) > (genderData?.Female || 0);
   const genderColor = isMale ? 'from-blue-400 to-blue-600' : 'from-pink-400 to-pink-600';
   const genderBg = isMale ? 'bg-blue-50' : 'bg-pink-50';
   const genderBorder = isMale ? 'border-blue-200' : 'border-pink-200';
   const genderIcon = isMale ? '♂' : '♀';
+
+  // Determine what rank to display and how to label it
+  const getDisplayRank = () => {
+    const rank = contextualRank || name.popularityRank || 999999;
+
+    switch (filterContext) {
+      case 'male':
+        return `Male #${rank}`;
+      case 'female':
+        return `Female #${rank}`;
+      case 'all':
+      default:
+        return `#${rank}`;
+    }
+  };
 
   // Calculate popularity percentage based on logarithmic scale for better distribution
   const calculatePopularityPercent = (rank: number) => {
@@ -57,7 +91,7 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
     }
   };
 
-  const popularityPercent = calculatePopularityPercent(name.popularityRank);
+  const popularityPercent = calculatePopularityPercent(name.popularityRank || 999999);
 
   return (
     <div
@@ -81,7 +115,7 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
         <div className="mb-4">
           <div className="flex items-start justify-between mb-2">
             <div className={`px-3 py-1 rounded-full bg-gradient-to-r ${genderColor} text-white text-sm font-bold`}>
-              #{name.popularityRank}
+              {getDisplayRank()}
             </div>
           </div>
           <div className="text-center">
@@ -92,18 +126,29 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
                 {genderIcon}
               </span>
             </h3>
-            {(name as any).abbreviations && (name as any).abbreviations.length > 0 && (
-              <div className="mt-1">
-                <span className="text-sm text-gray-500">
-                  ({(name as any).abbreviations.join(', ')})
-                </span>
+            {meaning && (
+              <div className="mt-3 px-3 py-2 bg-white/50 rounded-lg border border-white/80">
+                <div className="flex items-center gap-1 justify-center">
+                  <BookOpen className="w-3 h-3 text-gray-500" />
+                  <span className="text-sm font-medium text-gray-700 italic">
+                    "{meaning}"
+                  </span>
+                </div>
               </div>
             )}
-            {name.meaning && (
-              <div className="mt-2">
-                <span className="text-sm text-gray-600 italic">
-                  {name.meaning}
-                </span>
+            {origin && (
+              <div className="mt-2 flex items-center justify-center gap-2">
+                <div className="inline-flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-purple-50 to-indigo-50 rounded-full border border-purple-200">
+                  <Globe className="w-3 h-3 text-purple-600" />
+                  <span className="text-xs font-semibold text-purple-700">
+                    {origin}
+                  </span>
+                </div>
+                {enriched && (
+                  <div className="inline-flex items-center px-2 py-1 bg-green-50 rounded-full border border-green-200" title="AI Enriched">
+                    <Sparkles className="w-3 h-3 text-green-600" />
+                  </div>
+                )}
               </div>
             )}
           </div>

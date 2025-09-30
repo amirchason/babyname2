@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, User } from 'lucide-react';
+import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
+import enrichmentService from '../services/enrichmentService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
-import Pagination from '../components/Pagination';
+import CommandHandler from '../components/CommandHandler';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 
 const HomePage: React.FC = () => {
@@ -19,6 +20,8 @@ const HomePage: React.FC = () => {
   const [sortReverse, setSortReverse] = useState(false);
   const [loading, setLoading] = useState(true);
   const [totalNames, setTotalNames] = useState(0);
+  const [genderCounts, setGenderCounts] = useState({ total: 0, male: 0, female: 0, unisex: 0 });
+  const [currentFilteredCount, setCurrentFilteredCount] = useState(0);
   const [showFilterMessage, setShowFilterMessage] = useState(false);
   const [showFavorites, setShowFavorites] = useState(false);
   const [favoritesCount, setFavoritesCount] = useState(0);
@@ -26,29 +29,91 @@ const HomePage: React.FC = () => {
   const [, forceUpdate] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(15); // 15 names per page (5x3 grid)
+  const [itemsPerPage] = useState(100); // 100 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const navigate = useNavigate();
-  const { user, isAuthenticated, login, logout } = useAuth();
+  const { user, isAuthenticated, login, logout, isSyncing, syncError, manualSync } = useAuth();
 
   useEffect(() => {
     // Load initial names
-    const loadNames = async () => {
-      setLoading(true);
+    const loadNames = () => {
+      try {
+        console.log('HomePage: Starting to load names...');
+        setLoading(true);
 
-      // Start with enough names to immediately show pagination
-      const popularNames = nameService.getPopularNames(100); // 100 names = 7 pages with 15 per page
-      setNames(popularNames);
-      setFilteredNames(popularNames);
-      setTotalNames(nameService.getTotalNames());
+        // Start with enough names to immediately show pagination
+        const popularNames = nameService.getPopularNames(1000); // Show first 1000 names immediately
+        console.log(`HomePage: Got ${popularNames.length} popular names`);
+        setNames(popularNames);
+        setFilteredNames(popularNames);
+        setTotalNames(nameService.getTotalNames());
+        console.log('HomePage: Names set, stopping loading spinner...');
+        setLoading(false);
 
-      // Load full database in background for complete pagination
-      await nameService.loadFullDatabase();
-      const allNames = await nameService.getPopularNames(2000); // Load 2k names for extensive pagination
-      setNames(allNames);
-      setFilteredNames(allNames);
-      setTotalNames(nameService.getTotalNames());
-      setLoading(false);
+        // Initialize enrichment service with popular names for processing (non-blocking) - DISABLED FOR NOW
+        /* if (popularNames.length > 0) {
+        enrichmentService.initialize(popularNames);
+
+        // Set up callback to update names when they are enriched
+        enrichmentService.setDatabaseUpdateCallback((updatedNames) => {
+          // Update the names array with enriched data
+          setNames(prevNames => {
+            return prevNames.map(name => {
+              const enrichedData = updatedNames.find(n => n.name === name.name);
+              if (enrichedData) {
+                return {
+                  ...name,
+                  meaning: enrichedData.meaning,
+                  origin: enrichedData.origin,
+                  enriched: enrichedData.enriched,
+                  culturalContext: enrichedData.culturalContext
+                };
+              }
+              return name;
+            });
+          });
+
+          // Also update filtered names
+          setFilteredNames(prevNames => {
+            return prevNames.map(name => {
+              const enrichedData = updatedNames.find(n => n.name === name.name);
+              if (enrichedData) {
+                return {
+                  ...name,
+                  meaning: enrichedData.meaning,
+                  origin: enrichedData.origin,
+                  enriched: enrichedData.enriched,
+                  culturalContext: enrichedData.culturalContext
+                };
+              }
+              return name;
+            });
+          });
+        });
+      } */
+
+        // Load full database in background for complete pagination (non-blocking)
+        setTimeout(() => {
+          console.log('HomePage: Starting background database load...');
+          nameService.loadFullDatabase().then(() => {
+            const allNames = nameService.getAllNames(250000);
+            console.log(`HomePage: Loaded ${allNames.length} names in background`);
+            setNames(allNames);
+            setFilteredNames(allNames);
+            setTotalNames(nameService.getTotalNames());
+
+            // Get gender counts
+            const counts = nameService.getGenderCounts();
+            setGenderCounts(counts);
+            setCurrentFilteredCount(counts.total);
+          }).catch(err => {
+            console.error('HomePage: Error loading full database:', err);
+          });
+        }, 100);
+      } catch (error) {
+        console.error('HomePage: Error in loadNames:', error);
+        setLoading(false);
+      }
     };
 
     loadNames();
@@ -64,7 +129,13 @@ const HomePage: React.FC = () => {
     updateCounts();
     // Update counts when localStorage changes
     window.addEventListener('storage', updateCounts);
-    return () => window.removeEventListener('storage', updateCounts);
+    // Also update when cloud data changes
+    window.addEventListener('cloudDataUpdate', updateCounts);
+
+    return () => {
+      window.removeEventListener('storage', updateCounts);
+      window.removeEventListener('cloudDataUpdate', updateCounts);
+    };
   }, []);
 
   const applySorting = useCallback((namesToSort: NameEntry[], preserveSearchOrder: boolean = false): NameEntry[] => {
@@ -133,37 +204,47 @@ const HomePage: React.FC = () => {
   }, [sortBy, sortReverse]);
 
   useEffect(() => {
-    // Handle search and filter
-    let results = names;
+    const updateNames = async () => {
+      // Handle search and filter
+      let results = names;
 
-    if (showFavorites) {
-      // Show only favorite names
-      results = results.filter(name => favoritesService.isFavorite(name.name));
-    } else {
-      // Filter out disliked names (never show them unless viewing favorites)
-      results = favoritesService.filterOutDislikes(results);
-    }
-
-    if (searchTerm) {
-      results = nameService.searchNames(searchTerm, 100);
-      // Apply dislikes filter to search results too
-      if (!showFavorites) {
+      if (showFavorites) {
+        // Show only favorite names
+        results = results.filter(name => favoritesService.isFavorite(name.name));
+      } else {
+        // Filter out disliked names (never show them unless viewing favorites)
         results = favoritesService.filterOutDislikes(results);
       }
-    }
 
-    if (activeFilter !== 'all') {
-      results = results.filter(name => {
-        const isMale = (name.gender.Male || 0) > (name.gender.Female || 0);
-        return activeFilter === 'male' ? isMale : !isMale;
-      });
-    }
+      if (searchTerm) {
+        results = await nameService.searchNames(searchTerm);
+        // Apply dislikes filter to search results too
+        if (!showFavorites) {
+          results = favoritesService.filterOutDislikes(results);
+        }
+      }
 
-    // Apply sorting - preserve search order when searching
-    results = applySorting(results, !!searchTerm);
+      if (activeFilter !== 'all') {
+        results = results.filter(name => {
+          if (typeof name.gender === 'object' && name.gender) {
+            const isMale = (name.gender.Male || 0) > (name.gender.Female || 0);
+            return activeFilter === 'male' ? isMale : !isMale;
+          }
+          return false;
+        });
+      }
 
-    setFilteredNames(results);
-    setFavoritesCount(favoritesService.getFavoritesCount());
+      // Apply sorting - preserve search order when searching
+      results = applySorting(results, !!searchTerm);
+
+      setFilteredNames(results);
+      setFavoritesCount(favoritesService.getFavoritesCount());
+
+      // Update current filtered count
+      setCurrentFilteredCount(results.length);
+    };
+
+    updateNames();
   }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites]);
 
   // Reset page when search term changes
@@ -175,7 +256,7 @@ const HomePage: React.FC = () => {
     setActiveFilter(filter);
     setCurrentPage(1); // Reset to first page when filter changes
     if (filter !== 'all' && !searchTerm) {
-      const genderNames = nameService.getNamesByGender(filter, 100);
+      const genderNames = nameService.getNamesByGender(filter);
       setFilteredNames(genderNames);
     }
   };
@@ -192,18 +273,14 @@ const HomePage: React.FC = () => {
     window.scrollTo({ top: 600, behavior: 'smooth' });
   };
 
-  const handleQuestionnaireComplete = (filters: { gender: 'all' | 'male' | 'female' }) => {
-    // Apply the gender filter from questionnaire
-    setActiveFilter(filters.gender);
-    setCurrentPage(1); // Reset to first page
-    // Close questionnaire
+  const handleQuestionnaireComplete = (preferences: any) => {
     setShowQuestionnaire(false);
-    // Scroll to names section
-    window.scrollTo({ top: 600, behavior: 'smooth' });
+    // Navigate to names page with preferences
+    navigate('/names', { state: { preferences } });
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
       {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
@@ -222,9 +299,9 @@ const HomePage: React.FC = () => {
               </div>
               <div>
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  BabyNames 2025
+                  New Baby Name
                 </h1>
-                <p className="text-xs text-gray-500">676,468 Names • 2M+ Happy Parents</p>
+                <p className="text-xs text-gray-500">164K+ Unique Names • English Only Database</p>
               </div>
             </div>
 
@@ -252,6 +329,21 @@ const HomePage: React.FC = () => {
               {/* Login/Profile Button */}
               {isAuthenticated && user ? (
                 <div className="flex items-center gap-3">
+                  {/* Sync Status Indicator - Clickable */}
+                  <button
+                    onClick={manualSync}
+                    disabled={isSyncing}
+                    className="flex items-center gap-1 px-2 py-1 rounded hover:bg-gray-100 transition-colors disabled:cursor-not-allowed"
+                    title={isSyncing ? 'Syncing...' : syncError ? 'Sync failed - Click to retry' : 'Click to sync now'}
+                  >
+                    {isSyncing ? (
+                      <RefreshCw className="w-4 h-4 text-blue-500 animate-spin" />
+                    ) : syncError ? (
+                      <CloudOff className="w-4 h-4 text-red-500" />
+                    ) : (
+                      <Cloud className="w-4 h-4 text-green-500" />
+                    )}
+                  </button>
                   <img
                     src={user.picture}
                     alt={user.name}
@@ -366,7 +458,7 @@ const HomePage: React.FC = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-700 mb-4 font-medium">
-            The moment has arrived. From {totalNames.toLocaleString()} carefully curated names,
+            The moment has arrived. From {currentFilteredCount.toLocaleString()} carefully curated names,
             <br />discover the one that will shape your child's destiny.
           </p>
           <p className="text-lg text-gray-600 mb-10">
@@ -397,61 +489,49 @@ const HomePage: React.FC = () => {
             )}
           </div>
 
-          {/* Giant Start Swiping Button */}
-          <div className="flex justify-center mb-8">
+          {/* Start Swiping Button */}
+          <div className="flex justify-center mb-6">
             <button
               onClick={() => setShowQuestionnaire(true)}
-              className="group relative px-12 py-6 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600
-                       text-white rounded-full text-2xl font-bold shadow-2xl hover:shadow-pink-300/50
-                       transform hover:scale-105 transition-all duration-300 border-4 border-white/20
-                       hover:border-white/40 animate-pulse hover:animate-none"
+              className="px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full text-lg font-bold hover:shadow-2xl transition-all transform hover:scale-105 flex items-center gap-2"
             >
-              <div className="flex items-center gap-4">
-                <Heart className="w-8 h-8 animate-bounce group-hover:animate-pulse" fill="currentColor" />
-                <span className="text-white drop-shadow-lg">Start Swiping</span>
-                <Heart className="w-8 h-8 animate-bounce group-hover:animate-pulse" fill="currentColor" />
-              </div>
-
-              {/* Floating hearts animation */}
-              <div className="absolute -top-2 -right-2 w-4 h-4 text-pink-200 animate-ping">💕</div>
-              <div className="absolute -bottom-2 -left-2 w-4 h-4 text-red-200 animate-ping animation-delay-1000">💖</div>
-
-              {/* Glow effect */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-400 to-red-400 opacity-30 blur-xl group-hover:opacity-50 transition-opacity duration-300"></div>
+              <span>🔥</span>
+              Start Swiping Names
+              <span>→</span>
             </button>
           </div>
 
           {/* Filter Buttons */}
-          <div className="flex justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3">
             <button
               onClick={() => handleFilterClick('all')}
-              className={`px-6 py-3 rounded-xl font-medium transition-all ${
+              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all ${
                 activeFilter === 'all'
                   ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg'
                   : 'bg-white text-gray-700 hover:shadow-md'
               }`}
             >
-              All Names
+              All Names ({genderCounts.total.toLocaleString()})
             </button>
             <button
               onClick={() => handleFilterClick('male')}
-              className={`px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
+              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
                 activeFilter === 'male'
                   ? 'bg-gradient-to-r from-blue-500 to-blue-700 text-white shadow-lg'
                   : 'bg-white text-gray-700 hover:shadow-md'
               }`}
             >
-              <span>♂</span> Male Names
+              <span>♂</span> Male Names ({genderCounts.male.toLocaleString()})
             </button>
             <button
               onClick={() => handleFilterClick('female')}
-              className={`px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
+              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
                 activeFilter === 'female'
                   ? 'bg-gradient-to-r from-pink-500 to-pink-700 text-white shadow-lg'
                   : 'bg-white text-gray-700 hover:shadow-md'
               }`}
             >
-              <span>♀</span> Female Names
+              <span>♀</span> Female Names ({genderCounts.female.toLocaleString()})
             </button>
           </div>
 
@@ -549,7 +629,7 @@ const HomePage: React.FC = () => {
             <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-700 rounded-xl flex items-center justify-center mx-auto mb-3">
               <Baby className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-3xl font-bold text-gray-800">{totalNames.toLocaleString()}</h3>
+            <h3 className="text-3xl font-bold text-gray-800">{genderCounts.total.toLocaleString()}</h3>
             <p className="text-gray-600 font-medium">Unique Names</p>
           </div>
           <div className="bg-white/80 backdrop-blur rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
@@ -584,7 +664,7 @@ const HomePage: React.FC = () => {
               {showFavorites ? 'Your Favorite Names' : searchTerm ? 'Search Results' : 'Popular Names'}
             </h3>
             <span className="text-gray-500">
-              {filteredNames.length > 0 ? `${filteredNames.length.toLocaleString()} names found` : ''}
+              {filteredNames.length > 0 ? `${currentFilteredCount.toLocaleString()} names found` : ''}
             </span>
           </div>
 
@@ -608,24 +688,31 @@ const HomePage: React.FC = () => {
             </div>
           ) : (
             <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {currentNames.map((name) => (
-                  <NameCard
-                    key={name.name}
-                    name={name}
-                    onClick={setSelectedName}
-                    onFavoriteToggle={() => {
-                      setFavoritesCount(favoritesService.getFavoritesCount());
-                      setDislikesCount(favoritesService.getDislikesCount());
-                      forceUpdate({});
-                    }}
-                    onDislikeToggle={() => {
-                      setFavoritesCount(favoritesService.getFavoritesCount());
-                      setDislikesCount(favoritesService.getDislikesCount());
-                      forceUpdate({});
-                    }}
-                  />
-                ))}
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                {currentNames.map((name, index) => {
+                  // Calculate contextual rank: position within filtered results + page offset
+                  const contextualRank = (currentPage - 1) * itemsPerPage + index + 1;
+
+                  return (
+                    <NameCard
+                      key={name.name}
+                      name={name}
+                      onClick={setSelectedName}
+                      contextualRank={contextualRank}
+                      filterContext={activeFilter}
+                      onFavoriteToggle={() => {
+                        setFavoritesCount(favoritesService.getFavoritesCount());
+                        setDislikesCount(favoritesService.getDislikesCount());
+                        forceUpdate({});
+                      }}
+                      onDislikeToggle={() => {
+                        setFavoritesCount(favoritesService.getFavoritesCount());
+                        setDislikesCount(favoritesService.getDislikesCount());
+                        forceUpdate({});
+                      }}
+                    />
+                  );
+                })}
               </div>
 
               {/* Amazing Beautiful Pagination - Always Show */}
@@ -635,8 +722,8 @@ const HomePage: React.FC = () => {
                   <div className="text-center">
                     <p className="text-lg text-gray-700 mb-2">
                       Showing <span className="font-bold text-purple-600">{((currentPage - 1) * itemsPerPage) + 1}</span> to{' '}
-                      <span className="font-bold text-purple-600">{Math.min(currentPage * itemsPerPage, filteredNames.length)}</span> of{' '}
-                      <span className="font-bold text-purple-600">{filteredNames.length.toLocaleString()}</span> beautiful names
+                      <span className="font-bold text-purple-600">{Math.min(currentPage * itemsPerPage, currentFilteredCount)}</span> of{' '}
+                      <span className="font-bold text-purple-600">{currentFilteredCount.toLocaleString()}</span> beautiful names
                     </p>
                     {totalPages > 1 && (
                       <p className="text-sm text-gray-500">
@@ -756,11 +843,14 @@ const HomePage: React.FC = () => {
         onClose={() => setSelectedName(null)}
       />
 
-      {/* Swiping Questionnaire */}
+      {/* Command Handler for slash commands */}
+      <CommandHandler />
+
+      {/* Swiping Questionnaire Modal */}
       {showQuestionnaire && (
         <SwipingQuestionnaire
-          onClose={() => setShowQuestionnaire(false)}
           onComplete={handleQuestionnaireComplete}
+          onClose={() => setShowQuestionnaire(false)}
         />
       )}
 
@@ -818,7 +908,7 @@ const HomePage: React.FC = () => {
           <div className="space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-bold mb-3 text-purple-600">How do I choose the perfect baby name?</h3>
-              <p className="text-gray-600">Start with names that have personal meaning. Consider family heritage, sound with your surname, and future nicknames. Our AI chat helps narrow down from 676,468 options to your perfect match.</p>
+              <p className="text-gray-600">Start with names that have personal meaning. Consider family heritage, sound with your surname, and future nicknames. Our AI chat helps narrow down from 164,374 clean English options to your perfect match.</p>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
@@ -857,7 +947,7 @@ const HomePage: React.FC = () => {
           </button>
 
           <div className="mt-8 flex justify-center gap-8 text-sm opacity-90">
-            <span>✓ 676,468 Names</span>
+            <span>✓ 164,374 Names</span>
             <span>✓ Instant Results</span>
             <span>✓ 100% Free</span>
           </div>

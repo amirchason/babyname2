@@ -1,0 +1,52 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create .env file
+        run: |
+          echo "REACT_APP_GOOGLE_CLIENT_ID=${{ secrets.REACT_APP_GOOGLE_CLIENT_ID || '792099154161-uaip42pbpskojmrq1jl9j1r6ksoct9t8.apps.googleusercontent.com' }}" >> .env
+          echo "REACT_APP_GOOGLE_API_KEY=${{ secrets.REACT_APP_GOOGLE_API_KEY || 'AIzaSyCydKy79vU999mXO60x-mmg8MRuozPCqqE' }}" >> .env
+          echo "REACT_APP_GEMINI_API_KEY=${{ secrets.REACT_APP_GEMINI_API_KEY || 'AIzaSyCydKy79vU999mXO60x-mmg8MRuozPCqqE' }}" >> .env
+          echo "REACT_APP_YOUTUBE_API_KEY=${{ secrets.REACT_APP_YOUTUBE_API_KEY || 'AIzaSyCydKy79vU999mXO60x-mmg8MRuozPCqqE' }}" >> .env
+          echo "REACT_APP_SHOPIFY_ACCESS_TOKEN=${{ secrets.REACT_APP_SHOPIFY_ACCESS_TOKEN || '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' }}" >> .env
+          echo "REACT_APP_SHOPIFY_STORE_URL=${{ secrets.REACT_APP_SHOPIFY_STORE_URL || 'future-fashion-oracle.myshopify.com' }}" >> .env
+
+      - name: Build app
+        run: npm run build
+        env:
+          CI: false
+          NODE_ENV: production
+          PUBLIC_URL: /babyname2
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build
+          clean: true

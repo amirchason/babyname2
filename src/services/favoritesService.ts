@@ -1,4 +1,5 @@
 import { NameEntry } from './nameService';
+import userDataService, { UserPreferences } from './userDataService';
 
 interface FavoritesData {
   favorites: string[]; // Array of name strings (liked names)
@@ -11,9 +12,47 @@ class FavoritesService {
     favorites: [],
     dislikes: []
   };
+  private isLoggedIn: boolean = false;
+  private userId: string | null = null;
 
   constructor() {
     this.loadFromStorage();
+    this.setupCloudSync();
+  }
+
+  private setupCloudSync() {
+    // Listen for cloud data updates
+    window.addEventListener('cloudDataUpdate', (event: any) => {
+      const cloudData = event.detail as UserPreferences;
+      if (cloudData) {
+        this.handleCloudUpdate(cloudData);
+      }
+    });
+
+    // Check if user is logged in
+    const user = localStorage.getItem('user');
+    if (user) {
+      const userData = JSON.parse(user);
+      this.isLoggedIn = true;
+      this.userId = userData.id;
+    }
+  }
+
+  private handleCloudUpdate(cloudData: UserPreferences) {
+    // Merge cloud data with local data
+    const merged = userDataService.mergePreferences(
+      { favorites: this.data.favorites, dislikes: this.data.dislikes },
+      cloudData
+    );
+
+    // Update local data
+    this.data = merged;
+    this.saveToStorage();
+  }
+
+  setUserContext(userId: string | null) {
+    this.userId = userId;
+    this.isLoggedIn = !!userId;
   }
 
   private loadFromStorage(): void {
@@ -35,8 +74,23 @@ class FavoritesService {
   private saveToStorage(): void {
     try {
       localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+      // Sync to cloud if user is logged in
+      this.syncToCloud();
     } catch (error) {
       console.error('Error saving favorites to storage:', error);
+    }
+  }
+
+  private async syncToCloud() {
+    if (this.isLoggedIn && this.userId) {
+      try {
+        await userDataService.saveToCloud(
+          this.data.favorites,
+          this.data.dislikes
+        );
+      } catch (error) {
+        console.error('Error syncing to cloud:', error);
+      }
     }
   }
 
@@ -154,6 +208,22 @@ class FavoritesService {
 
   getDislikesCount(): number {
     return this.data.dislikes.length;
+  }
+
+  // Set methods for bulk updates (used during merge)
+  setFavorites(favorites: string[]): void {
+    this.data.favorites = favorites;
+    this.saveToStorage();
+  }
+
+  setDislikes(dislikes: string[]): void {
+    this.data.dislikes = dislikes;
+    this.saveToStorage();
+  }
+
+  // Get all data
+  getAllData(): FavoritesData {
+    return { ...this.data };
   }
 }
 

@@ -23,5 +23,11 @@
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "src/data/fullNames_cache.json",
+    "src/data/unifiedNames.json",
+    "src/data/unifiedNamesDatabase.json",
+    "src/data/popularNames_cache.json"
   ]
 }

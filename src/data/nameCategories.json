@@ -1,0 +1,425 @@
+{
+  "styles": {
+    "classic": {
+      "name": "Classic & Timeless",
+      "description": "Traditional names that have stood the test of time",
+      "examples": ["Elizabeth", "James", "William", "Catherine", "Robert", "Margaret"]
+    },
+    "modern": {
+      "name": "Modern & Contemporary",
+      "description": "Fresh, current names popular in recent years",
+      "examples": ["Jayden", "Aria", "Mason", "Luna", "Ethan", "Nova"]
+    },
+    "unique": {
+      "name": "Unique & Uncommon",
+      "description": "Rare and distinctive names",
+      "examples": ["Zephyr", "Seraphina", "Atlas", "Lyra", "Orion", "Indigo"]
+    },
+    "vintage": {
+      "name": "Vintage & Retro",
+      "description": "Old-fashioned names making a comeback",
+      "examples": ["Hazel", "Theodore", "Pearl", "Arthur", "Iris", "Felix"]
+    },
+    "trendy": {
+      "name": "Trendy & Popular",
+      "description": "Currently trending names",
+      "examples": ["Olivia", "Liam", "Emma", "Noah", "Ava", "Oliver"]
+    },
+    "short": {
+      "name": "Short & Sweet",
+      "description": "Names with 4 letters or less",
+      "examples": ["Max", "Zoe", "Leo", "Eva", "Kai", "Mia"]
+    },
+    "long": {
+      "name": "Long & Elegant",
+      "description": "Names with 8+ letters",
+      "examples": ["Alexander", "Anastasia", "Sebastian", "Penelope", "Christopher", "Evangeline"]
+    },
+    "nicknameFriendly": {
+      "name": "Nickname-Friendly",
+      "description": "Names with great nickname options",
+      "examples": ["Benjamin", "Elizabeth", "Nicholas", "Katherine", "Alexander", "Victoria"]
+    },
+    "unisex": {
+      "name": "Gender Neutral",
+      "description": "Names that work for any gender",
+      "examples": ["Quinn", "River", "Sage", "Blake", "Avery", "Jordan"]
+    },
+    "royal": {
+      "name": "Royal & Regal",
+      "description": "Names with royal connections",
+      "examples": ["Diana", "William", "Victoria", "Henry", "Charlotte", "Philip"]
+    },
+    "celebrity": {
+      "name": "Celebrity Inspired",
+      "description": "Names of famous people or celebrity babies",
+      "examples": ["Blue", "North", "Apple", "Stormi", "Saint", "Chicago"]
+    },
+    "hipster": {
+      "name": "Hipster & Indie",
+      "description": "Quirky, artistic names",
+      "examples": ["Clover", "Jasper", "Juniper", "Arlo", "Wren", "Fox"]
+    }
+  },
+
+  "origins": {
+    "african": {
+      "name": "African",
+      "regions": ["Nigerian", "Kenyan", "Ethiopian", "Ghanaian", "South African"],
+      "examples": ["Amara", "Kioni", "Zuri", "Malik", "Nia", "Jabari"]
+    },
+    "arabic": {
+      "name": "Arabic",
+      "examples": ["Amir", "Layla", "Omar", "Fatima", "Hassan", "Aisha"]
+    },
+    "british": {
+      "name": "British/English",
+      "examples": ["Oliver", "Amelia", "Harry", "Poppy", "George", "Charlotte"]
+    },
+    "celtic": {
+      "name": "Celtic",
+      "regions": ["Irish", "Scottish", "Welsh"],
+      "examples": ["Finn", "Maeve", "Declan", "Siobhan", "Cian", "Aoife"]
+    },
+    "chinese": {
+      "name": "Chinese",
+      "examples": ["Wei", "Mei", "Chen", "Li", "Xiao", "Ming"]
+    },
+    "dutch": {
+      "name": "Dutch",
+      "examples": ["Lars", "Femke", "Daan", "Lotte", "Sem", "Emma"]
+    },
+    "french": {
+      "name": "French",
+      "examples": ["Pierre", "Camille", "Louis", "Chloe", "Antoine", "Margot"]
+    },
+    "german": {
+      "name": "German",
+      "examples": ["Hans", "Greta", "Klaus", "Liesel", "Fritz", "Heidi"]
+    },
+    "greek": {
+      "name": "Greek",
+      "examples": ["Alexander", "Sophia", "Nicholas", "Elena", "Theodore", "Athena"]
+    },
+    "hebrew": {
+      "name": "Hebrew",
+      "examples": ["David", "Sarah", "Benjamin", "Rachel", "Daniel", "Hannah"]
+    },
+    "indian": {
+      "name": "Indian",
+      "regions": ["Hindi", "Sanskrit", "Tamil", "Bengali", "Punjabi"],
+      "examples": ["Arjun", "Priya", "Dev", "Anjali", "Raj", "Kavya"]
+    },
+    "irish": {
+      "name": "Irish",
+      "examples": ["Liam", "Saoirse", "Sean", "Niamh", "Patrick", "Aisling"]
+    },
+    "italian": {
+      "name": "Italian",
+      "examples": ["Marco", "Sofia", "Luca", "Giulia", "Giovanni", "Isabella"]
+    },
+    "japanese": {
+      "name": "Japanese",
+      "examples": ["Hiroshi", "Yuki", "Kenji", "Sakura", "Takashi", "Aiko"]
+    },
+    "latin": {
+      "name": "Latin",
+      "examples": ["Marcus", "Julia", "Felix", "Clara", "Augustus", "Luna"]
+    },
+    "nordic": {
+      "name": "Nordic/Scandinavian",
+      "regions": ["Swedish", "Norwegian", "Danish", "Finnish", "Icelandic"],
+      "examples": ["Erik", "Astrid", "Magnus", "Freya", "Lars", "Ingrid"]
+    },
+    "persian": {
+      "name": "Persian",
+      "examples": ["Cyrus", "Jasmine", "Darius", "Roxana", "Arash", "Parisa"]
+    },
+    "polish": {
+      "name": "Polish",
+      "examples": ["Piotr", "Anna", "Jakub", "Katarzyna", "Pawel", "Maria"]
+    },
+    "portuguese": {
+      "name": "Portuguese",
+      "examples": ["Miguel", "Ana", "Pedro", "Maria", "Tiago", "Beatriz"]
+    },
+    "russian": {
+      "name": "Russian",
+      "examples": ["Ivan", "Natasha", "Dimitri", "Anastasia", "Boris", "Olga"]
+    },
+    "spanish": {
+      "name": "Spanish",
+      "examples": ["Diego", "Sofia", "Carlos", "Maria", "Alejandro", "Isabella"]
+    },
+    "slavic": {
+      "name": "Slavic",
+      "examples": ["Vladimir", "Milena", "Nikola", "Zara", "Alexei", "Vera"]
+    },
+    "turkish": {
+      "name": "Turkish",
+      "examples": ["Mehmet", "Ayse", "Mustafa", "Fatma", "Ahmet", "Zeynep"]
+    },
+    "welsh": {
+      "name": "Welsh",
+      "examples": ["Rhys", "Gwendolyn", "Dylan", "Bronwyn", "Owen", "Cerys"]
+    },
+    "korean": {
+      "name": "Korean",
+      "examples": ["Min-jun", "Ji-woo", "Sung", "Ha-eun", "Jun", "Seo-yeon"]
+    },
+    "hawaiian": {
+      "name": "Hawaiian",
+      "examples": ["Kai", "Leilani", "Koa", "Malia", "Keoni", "Kaia"]
+    },
+    "native_american": {
+      "name": "Native American",
+      "examples": ["Dakota", "Cheyenne", "Sequoia", "Winona", "Kai", "Nova"]
+    }
+  },
+
+  "themes": {
+    "nature": {
+      "name": "Nature & Earth",
+      "subcategories": {
+        "floral": ["Rose", "Lily", "Jasmine", "Daisy", "Violet", "Iris"],
+        "trees": ["Willow", "Aspen", "Cedar", "Rowan", "Ash", "Oakley"],
+        "water": ["River", "Ocean", "Marina", "Brooks", "Lake", "Rain"],
+        "sky": ["Sky", "Aurora", "Luna", "Stella", "Orion", "Nova"],
+        "seasons": ["Summer", "Autumn", "Winter", "Spring"],
+        "animals": ["Leo", "Felix", "Wolf", "Fox", "Bear", "Phoenix"],
+        "gemstones": ["Ruby", "Pearl", "Jade", "Crystal", "Diamond", "Opal"]
+      }
+    },
+    "biblical": {
+      "name": "Biblical & Religious",
+      "examples": ["Noah", "Mary", "David", "Sarah", "Joshua", "Ruth", "Matthew", "Rebecca"]
+    },
+    "mythological": {
+      "name": "Mythological",
+      "subcategories": {
+        "greek": ["Apollo", "Athena", "Zeus", "Hera", "Hermes", "Artemis"],
+        "roman": ["Jupiter", "Diana", "Mars", "Venus", "Aurora", "Mercury"],
+        "norse": ["Thor", "Freya", "Odin", "Loki", "Valkyrie", "Saga"]
+      }
+    },
+    "literary": {
+      "name": "Literary & Book Inspired",
+      "examples": ["Hermione", "Atticus", "Scarlett", "Holden", "Juliet", "Darcy"]
+    },
+    "musical": {
+      "name": "Musical",
+      "examples": ["Melody", "Harmony", "Cadence", "Aria", "Reed", "Lyric"]
+    },
+    "virtue": {
+      "name": "Virtues & Values",
+      "examples": ["Grace", "Faith", "Hope", "Joy", "Honor", "Justice"]
+    },
+    "color": {
+      "name": "Colors",
+      "examples": ["Violet", "Scarlett", "Gray", "Blue", "Rose", "Ruby"]
+    },
+    "occupational": {
+      "name": "Occupational",
+      "examples": ["Mason", "Taylor", "Hunter", "Cooper", "Parker", "Sawyer"]
+    },
+    "place": {
+      "name": "Place Names",
+      "examples": ["Brooklyn", "London", "Paris", "Austin", "Phoenix", "Sydney"]
+    },
+    "word": {
+      "name": "Word Names",
+      "examples": ["Journey", "Dream", "Story", "True", "Sage", "Chance"]
+    },
+    "spiritual": {
+      "name": "Spiritual & Mystical",
+      "examples": ["Zen", "Karma", "Spirit", "Angel", "Seraphina", "Eden"]
+    },
+    "pop_culture": {
+      "name": "Pop Culture",
+      "subcategories": {
+        "movies": ["Leia", "Neo", "Trinity", "Arya", "Khaleesi", "Hermione"],
+        "tv": ["Chandler", "Phoebe", "Eleven", "Sherlock", "Walter", "Skyler"],
+        "games": ["Zelda", "Link", "Mario", "Cloud", "Lara", "Ezio"]
+      }
+    },
+    "food": {
+      "name": "Food & Spice",
+      "examples": ["Ginger", "Pepper", "Olive", "Basil", "Sage", "Rosemary"]
+    },
+    "astronomy": {
+      "name": "Astronomy & Space",
+      "examples": ["Luna", "Stella", "Orion", "Atlas", "Nova", "Cosmos", "Leo", "Lyra"]
+    }
+  },
+
+  "popularity": {
+    "top10": {
+      "name": "Top 10 Most Popular",
+      "description": "Currently in top 10"
+    },
+    "top100": {
+      "name": "Top 100",
+      "description": "In the top 100 most popular names"
+    },
+    "top1000": {
+      "name": "Top 1000",
+      "description": "In the top 1000 most popular names"
+    },
+    "rising": {
+      "name": "Rising in Popularity",
+      "description": "Names climbing the charts"
+    },
+    "rare": {
+      "name": "Rare & Unique",
+      "description": "Given to fewer than 100 babies per year"
+    },
+    "vintage_comeback": {
+      "name": "Vintage Comeback",
+      "description": "Old names becoming popular again"
+    }
+  },
+
+  "letters": {
+    "vowel_start": {
+      "name": "Starts with Vowel",
+      "letters": ["A", "E", "I", "O", "U"]
+    },
+    "consonant_start": {
+      "name": "Starts with Consonant",
+      "letters": ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
+    },
+    "popular_initials": {
+      "name": "Popular Starting Letters",
+      "letters": ["A", "J", "M", "S", "C", "E", "L"]
+    }
+  },
+
+  "syllables": {
+    "one": {
+      "name": "One Syllable",
+      "examples": ["James", "Grace", "Luke", "Rose", "Jack", "Claire"]
+    },
+    "two": {
+      "name": "Two Syllables",
+      "examples": ["Emma", "Liam", "Noah", "Ava", "Mason", "Sophie"]
+    },
+    "three": {
+      "name": "Three Syllables",
+      "examples": ["Olivia", "Benjamin", "Sophia", "Theodore", "Emily", "Nicholas"]
+    },
+    "four_plus": {
+      "name": "Four+ Syllables",
+      "examples": ["Alexandria", "Maximilian", "Anastasia", "Penelope", "Evangelina", "Valentina"]
+    }
+  },
+
+  "endings": {
+    "a_ending": {
+      "name": "Ends with A",
+      "examples": ["Emma", "Sophia", "Olivia", "Isabella", "Ava", "Mia"]
+    },
+    "n_ending": {
+      "name": "Ends with N",
+      "examples": ["Ethan", "Mason", "Aiden", "Logan", "Ryan", "Nathan"]
+    },
+    "y_ending": {
+      "name": "Ends with Y",
+      "examples": ["Emily", "Henry", "Lucy", "Harry", "Lily", "Ruby"]
+    },
+    "ie_ending": {
+      "name": "Ends with IE",
+      "examples": ["Charlie", "Sadie", "Sophie", "Rosie", "Archie", "Alfie"]
+    },
+    "er_ending": {
+      "name": "Ends with ER",
+      "examples": ["Alexander", "Oliver", "Hunter", "Cooper", "Parker", "Tyler"]
+    },
+    "lyn_ending": {
+      "name": "Ends with LYN",
+      "examples": ["Brooklyn", "Evelyn", "Madelyn", "Carolyn", "Jocelyn", "Marilyn"]
+    }
+  },
+
+  "special_lists": {
+    "presidential": {
+      "name": "Presidential Names",
+      "examples": ["George", "Thomas", "Abraham", "Theodore", "Franklin", "John"]
+    },
+    "saints": {
+      "name": "Saint Names",
+      "examples": ["Patrick", "Francis", "Teresa", "Catherine", "Joseph", "Anne"]
+    },
+    "shakespearean": {
+      "name": "Shakespearean",
+      "examples": ["Romeo", "Juliet", "Ophelia", "Hamlet", "Cordelia", "Miranda"]
+    },
+    "disney": {
+      "name": "Disney Inspired",
+      "examples": ["Elsa", "Belle", "Ariel", "Jasmine", "Aurora", "Tiana"]
+    },
+    "harry_potter": {
+      "name": "Harry Potter Universe",
+      "examples": ["Hermione", "Luna", "Draco", "Sirius", "Minerva", "Albus"]
+    },
+    "game_of_thrones": {
+      "name": "Game of Thrones",
+      "examples": ["Arya", "Jon", "Daenerys", "Tyrion", "Sansa", "Bran"]
+    },
+    "star_wars": {
+      "name": "Star Wars",
+      "examples": ["Luke", "Leia", "Anakin", "Rey", "Kylo", "Padme"]
+    },
+    "marvel": {
+      "name": "Marvel Universe",
+      "examples": ["Tony", "Steve", "Natasha", "Peter", "Bruce", "Wanda"]
+    },
+    "historical": {
+      "name": "Historical Figures",
+      "examples": ["Napoleon", "Cleopatra", "Caesar", "Alexander", "Eleanor", "Winston"]
+    },
+    "artists": {
+      "name": "Artists & Creatives",
+      "examples": ["Leonardo", "Vincent", "Pablo", "Frida", "Georgia", "Andy"]
+    },
+    "scientists": {
+      "name": "Scientists & Inventors",
+      "examples": ["Albert", "Marie", "Isaac", "Charles", "Nikola", "Ada"]
+    },
+    "athletes": {
+      "name": "Athletes & Sports",
+      "examples": ["Jordan", "Serena", "Muhammad", "Tiger", "Kobe", "Venus"]
+    },
+    "musicians": {
+      "name": "Musicians & Composers",
+      "examples": ["Mozart", "Beethoven", "Elvis", "Lennon", "Aretha", "Prince"]
+    }
+  },
+
+  "combinations": {
+    "short_and_sweet": {
+      "name": "Short & Sweet",
+      "description": "1-2 syllables, easy to spell",
+      "filters": ["syllables.one", "syllables.two", "styles.short"]
+    },
+    "classic_biblical": {
+      "name": "Classic Biblical",
+      "description": "Traditional biblical names",
+      "filters": ["styles.classic", "themes.biblical"]
+    },
+    "modern_nature": {
+      "name": "Modern Nature",
+      "description": "Contemporary nature-inspired names",
+      "filters": ["styles.modern", "themes.nature"]
+    },
+    "unique_international": {
+      "name": "Unique International",
+      "description": "Uncommon names from around the world",
+      "filters": ["styles.unique", "origins.!british", "origins.!american"]
+    },
+    "vintage_floral": {
+      "name": "Vintage Floral",
+      "description": "Old-fashioned flower names",
+      "filters": ["styles.vintage", "themes.nature.floral"]
+    }
+  }
+}
