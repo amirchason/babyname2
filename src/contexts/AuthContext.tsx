@@ -1,6 +1,7 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
 import { GoogleOAuthProvider, useGoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
+import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
@@ -234,67 +235,94 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
   const login = useGoogleLogin({
     onSuccess: async (response) => {
       try {
-        // Fetch user info from Google
+        console.log('[AUTH DEBUG] Google OAuth successful, access_token received');
+
+        // 1. Fetch user info from Google
         const userInfoResponse = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
           headers: {
             Authorization: `Bearer ${response.access_token}`,
           },
         });
-
         const userInfo: GoogleUserInfo = await userInfoResponse.json();
+        console.log('[AUTH DEBUG] Google user info:', userInfo.email);
 
+        // 2. Sign into Firebase Auth using Google OAuth token
+        console.log('[AUTH DEBUG] Signing into Firebase Auth...');
+        const credential = GoogleAuthProvider.credential(null, response.access_token);
+        const auth = getAuth();
+        const firebaseResult = await signInWithCredential(auth, credential);
+        console.log('[AUTH DEBUG] Firebase Auth successful, UID:', firebaseResult.user.uid);
+
+        // 3. Use Firebase UID (not Google ID) - this is what Firestore recognizes
         const userData: User = {
-          id: userInfo.id,
+          id: firebaseResult.user.uid,  // ← Firebase UID, not Google OAuth ID
           email: userInfo.email,
           name: userInfo.name,
           picture: userInfo.picture,
         };
 
+        console.log('[AUTH DEBUG] Setting user with Firebase UID:', userData.id);
         setUser(userData);
         localStorage.setItem('user', JSON.stringify(userData));
         localStorage.setItem('userEmail', userData.email);
         localStorage.setItem('google_access_token', response.access_token);
 
         // Set user ID for cloud sync
+        console.log('[AUTH DEBUG] Setting userDataService userId:', userData.id);
         userDataService.setUserId(userData.id);
         favoritesService.setUserContext(userData.id);
 
         // Load and merge user data from cloud
+        console.log('[AUTH DEBUG] Loading user data from Firestore...');
         await loadUserData(userData.id);
         toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
       } catch (error) {
-        console.error('Failed to get user info:', error);
-        toast.error('Login failed. Please try again.');
+        console.error('[AUTH DEBUG] Login failed:', error);
+        toast.error(`Login failed: ${(error as Error).message || 'Please try again'}`);
       }
     },
     onError: (error) => {
-      console.error('Login Failed:', error);
+      console.error('[AUTH DEBUG] Google OAuth failed:', error);
       toast.error('Login failed. Please try again.');
     },
     flow: 'implicit',
   });
 
-  const logout = () => {
-    // Save data before logout
-    if (user) {
-      const favorites = favoritesService.getFavorites();
-      const dislikes = favoritesService.getDislikes();
-      userDataService.saveToCloud(favorites, dislikes)
-        .then(() => {
-          toast.success('Favorites saved. See you next time!');
-        })
-        .catch((error) => {
-          console.error('Error saving data on logout:', error);
-          toast.warning('Logged out, but some favorites may not have synced.');
-        });
-    }
+  const logout = async () => {
+    try {
+      // Save data before logout
+      if (user) {
+        const favorites = favoritesService.getFavorites();
+        const dislikes = favoritesService.getDislikes();
+        await userDataService.saveToCloud(favorites, dislikes);
+        console.log('[AUTH DEBUG] Favorites saved before logout');
+      }
 
-    setUser(null);
-    userDataService.disconnect();
-    favoritesService.setUserContext(null);
-    localStorage.removeItem('user');
-    localStorage.removeItem('userEmail');
-    localStorage.removeItem('google_access_token');
+      // Sign out of Firebase Auth
+      const auth = getAuth();
+      await auth.signOut();
+      console.log('[AUTH DEBUG] Signed out of Firebase Auth');
+
+      setUser(null);
+      userDataService.disconnect();
+      favoritesService.setUserContext(null);
+      localStorage.removeItem('user');
+      localStorage.removeItem('userEmail');
+      localStorage.removeItem('google_access_token');
+
+      toast.success('Favorites saved. See you next time!');
+    } catch (error) {
+      console.error('[AUTH DEBUG] Error during logout:', error);
+      toast.warning('Logged out, but some favorites may not have synced.');
+
+      // Force cleanup even if save failed
+      setUser(null);
+      userDataService.disconnect();
+      favoritesService.setUserContext(null);
+      localStorage.removeItem('user');
+      localStorage.removeItem('userEmail');
+      localStorage.removeItem('google_access_token');
+    }
   };
 
   const manualSync = async () => {
