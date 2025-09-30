@@ -76,13 +76,13 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       return false;
     }
 
-    // Google user IDs are typically 21-digit numeric strings
-    if (!/^\d{15,}$/.test(data.id)) {
-      console.log('[AUTH DEBUG] Invalid: id format wrong (should be numeric):', data.id);
-      return false;
-    }
-
-    console.log('[AUTH DEBUG] Validation PASSED');
+    // Relaxed validation: Accept any non-empty ID format
+    // This allows for:
+    // - Google OAuth IDs (numeric, 15-21 digits)
+    // - Firebase UIDs (alphanumeric, 28 chars)
+    // - Old auth system IDs (any format)
+    // - Legacy user data from previous app versions
+    console.log('[AUTH DEBUG] Validation PASSED - ID format:', data.id.length, 'chars');
     return true;
   }, []);
 
