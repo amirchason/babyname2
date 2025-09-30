@@ -2,15 +2,14 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
 
-// Firebase configuration
+// Firebase configuration - REAL PROJECT
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_GOOGLE_API_KEY || "AIzaSyCydKy79vU999mXO60x-mmg8MRuozPCqqE",
-  authDomain: "babynames-app.firebaseapp.com",
-  projectId: "babynames-app",
-  storageBucket: "babynames-app.appspot.com",
-  messagingSenderId: "792099154161",
-  appId: "1:792099154161:web:babynames2024",
-  measurementId: "G-BABYNAMES"
+  apiKey: "AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA",
+  authDomain: "babynames-app-9fa2a.firebaseapp.com",
+  projectId: "babynames-app-9fa2a",
+  storageBucket: "babynames-app-9fa2a.firebasestorage.app",
+  messagingSenderId: "1093132372253",
+  appId: "1:1093132372253:web:0327c13610942d60f4f9f4"
 };
 
 // Initialize Firebase
