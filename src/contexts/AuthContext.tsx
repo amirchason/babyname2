@@ -21,6 +21,7 @@ interface AuthContextType {
   isSyncing: boolean;
   syncError: string | null;
   manualSync: () => Promise<void>;
+  clearCache: () => void;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -54,13 +55,37 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     // Check if user is already logged in
     const storedUser = localStorage.getItem('user');
     if (storedUser) {
-      const userData = JSON.parse(storedUser);
-      setUser(userData);
-      // Set user ID for cloud sync
-      userDataService.setUserId(userData.id);
-      favoritesService.setUserContext(userData.id);
-      // Load user data from cloud
-      loadUserData(userData.id);
+      try {
+        const userData = JSON.parse(storedUser);
+
+        // Validate user data structure
+        if (!userData.id || !userData.email || !userData.name) {
+          console.warn('Invalid user data in localStorage, clearing...');
+          localStorage.removeItem('user');
+          localStorage.removeItem('userEmail');
+          localStorage.removeItem('google_access_token');
+          toast.warning('Your session expired. Please sign in again.');
+          setLoading(false);
+          return;
+        }
+
+        setUser(userData);
+        // Set user ID for cloud sync
+        userDataService.setUserId(userData.id);
+        favoritesService.setUserContext(userData.id);
+        // Load user data from cloud
+        loadUserData(userData.id).catch((error) => {
+          console.error('Failed to load user data on init:', error);
+          // Don't clear user on sync failure, just show error
+          toast.error('Failed to sync favorites. Click the cloud icon to retry.', 6000);
+        });
+      } catch (error) {
+        console.error('Error parsing stored user data:', error);
+        localStorage.removeItem('user');
+        localStorage.removeItem('userEmail');
+        localStorage.removeItem('google_access_token');
+        toast.error('Session data corrupted. Please sign in again.');
+      }
     }
     setLoading(false);
   }, []);
@@ -75,6 +100,7 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const loadUserData = async (userId: string) => {
+    console.log('AuthContext: Loading user data for userId:', userId);
     try {
       setIsSyncing(true);
       setSyncError(null);
@@ -106,12 +132,30 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       console.error('Error loading user data:', error);
       const errorMessage = (error as Error).message;
       setSyncError(errorMessage);
-      toast.error(
-        `Failed to sync favorites: ${errorMessage}`,
-        6000,
-        'Retry',
-        () => loadUserData(userId)
-      );
+
+      // Handle specific error cases
+      if (errorMessage.includes('No user logged in')) {
+        toast.error(
+          'Session expired. Please sign in again.',
+          8000,
+          'Clear Cache',
+          clearCache
+        );
+      } else if (errorMessage.includes('permission-denied') || errorMessage.includes('auth/')) {
+        toast.error(
+          'Authentication error. Try clearing cache and signing in again.',
+          8000,
+          'Clear Cache',
+          clearCache
+        );
+      } else {
+        toast.error(
+          `Failed to sync favorites: ${errorMessage}`,
+          6000,
+          'Retry',
+          () => loadUserData(userId)
+        );
+      }
     } finally {
       setIsSyncing(false);
     }
@@ -193,6 +237,17 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     await loadUserData(user.id);
   };
 
+  const clearCache = () => {
+    // Clear all user data and force re-login
+    setUser(null);
+    userDataService.disconnect();
+    favoritesService.setUserContext(null);
+    localStorage.removeItem('user');
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('google_access_token');
+    toast.success('Cache cleared! Please sign in again.');
+  };
+
   return (
     <AuthContext.Provider value={{
       user,
@@ -202,7 +257,8 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       loading,
       isSyncing,
       syncError,
-      manualSync
+      manualSync,
+      clearCache
     }}>
       {children}
     </AuthContext.Provider>
@@ -227,7 +283,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         loading: false,
         isSyncing: false,
         syncError: null,
-        manualSync: async () => {}
+        manualSync: async () => {},
+        clearCache: () => {}
       }}>
         {children}
       </AuthContext.Provider>
