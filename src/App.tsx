@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import NameListPage from './pages/NameListPage';
 import FavoritesPage from './pages/FavoritesPage';
 import DislikesPage from './pages/DislikesPage';
+import DebugPage from './pages/DebugPage';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/names" element={<NameListPage />} />
               <Route path="/favorites" element={<FavoritesPage />} />
               <Route path="/dislikes" element={<DislikesPage />} />
+              <Route path="/debug" element={<DebugPage />} />
             </Routes>
           </div>
         </Router>
