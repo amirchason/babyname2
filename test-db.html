@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database Test</title>
+</head>
+<body>
+    <h1>Database Loading Test</h1>
+    <div id="log"></div>
+
+    <script>
+        const log = (msg) => {
+            const div = document.getElementById('log');
+            div.innerHTML += `<p>${msg}</p>`;
+            console.log(msg);
+        };
+
+        log('Starting tests...');
+
+        // Test 1: Check if index file is accessible
+        fetch('/babyname2/data/names-index.json')
+            .then(res => {
+                log(`Index fetch: ${res.status}`);
+                return res.json();
+            })
+            .then(data => {
+                log(`✅ Index loaded: ${data.totalNames} names`);
+            })
+            .catch(err => {
+                log(`❌ Index error: ${err.message}`);
+            });
+
+        // Test 2: Check if core chunk is accessible
+        fetch('/babyname2/data/names-core.json')
+            .then(res => {
+                log(`Core fetch: ${res.status}`);
+                return res.json();
+            })
+            .then(data => {
+                log(`✅ Core loaded: ${data.names.length} names`);
+                log(`First name: ${data.names[0].name}`);
+            })
+            .catch(err => {
+                log(`❌ Core error: ${err.message}`);
+            });
+
+        // Test 3: Check if popularNames_cache is accessible
+        fetch('/babyname2/data/popularNames_cache.json')
+            .then(res => {
+                log(`Popular fetch: ${res.status}`);
+                return res.json();
+            })
+            .then(data => {
+                const names = data.names || data;
+                log(`✅ Popular loaded: ${names.length} names`);
+            })
+            .catch(err => {
+                log(`❌ Popular error: ${err.message}`);
+            });
+    </script>
+</body>
+</html>

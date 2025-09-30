@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "totalNames": 212809,
+  "chunks": {
+    "core": {
+      "file": "names-core.json",
+      "fileGz": "names-core.json.gz",
+      "count": 910,
+      "startIndex": 0,
+      "endIndex": 999
+    },
+    "chunk1": {
+      "file": "names-chunk1.json",
+      "fileGz": "names-chunk1.json.gz",
+      "count": 47302,
+      "startIndex": 1000,
+      "endIndex": 49999
+    },
+    "chunk2": {
+      "file": "names-chunk2.json",
+      "fileGz": "names-chunk2.json.gz",
+      "count": 47577,
+      "startIndex": 50000,
+      "endIndex": 99999
+    },
+    "chunk3": {
+      "file": "names-chunk3.json",
+      "fileGz": "names-chunk3.json.gz",
+      "count": 47152,
+      "startIndex": 100000,
+      "endIndex": 149999
+    },
+    "chunk4": {
+      "file": "names-chunk4.json",
+      "fileGz": "names-chunk4.json.gz",
+      "count": 69868,
+      "startIndex": 150000,
+      "endIndex": 224057
+    }
+  }
+}
