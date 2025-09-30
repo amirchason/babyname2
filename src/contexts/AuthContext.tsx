@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
 import { GoogleOAuthProvider, useGoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import userDataService from '../services/userDataService';
@@ -51,44 +51,114 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
   const [syncError, setSyncError] = useState<string | null>(null);
   const toast = useToast();
 
+  // Validate user data structure and format
+  const isValidUserData = useCallback((data: any): data is User => {
+    console.log('[AUTH DEBUG] Validating user data:', JSON.stringify(data, null, 2));
+
+    if (!data || typeof data !== 'object') {
+      console.log('[AUTH DEBUG] Invalid: not an object');
+      return false;
+    }
+
+    // Check required fields exist and are non-empty strings
+    if (!data.id || typeof data.id !== 'string' || data.id.trim() === '') {
+      console.log('[AUTH DEBUG] Invalid: id missing or empty:', data.id);
+      return false;
+    }
+
+    if (!data.email || typeof data.email !== 'string' || data.email.trim() === '') {
+      console.log('[AUTH DEBUG] Invalid: email missing or empty:', data.email);
+      return false;
+    }
+
+    if (!data.name || typeof data.name !== 'string' || data.name.trim() === '') {
+      console.log('[AUTH DEBUG] Invalid: name missing or empty:', data.name);
+      return false;
+    }
+
+    // Google user IDs are typically 21-digit numeric strings
+    if (!/^\d{15,}$/.test(data.id)) {
+      console.log('[AUTH DEBUG] Invalid: id format wrong (should be numeric):', data.id);
+      return false;
+    }
+
+    console.log('[AUTH DEBUG] Validation PASSED');
+    return true;
+  }, []);
+
+  // Clear all user data and reload page
+  const clearCache = useCallback(() => {
+    console.log('[AUTH DEBUG] Clearing cache...');
+    setUser(null);
+    userDataService.disconnect();
+    favoritesService.setUserContext(null);
+    localStorage.removeItem('user');
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('google_access_token');
+    setSyncError(null);
+
+    // Reload page after a short delay to ensure clean state
+    setTimeout(() => {
+      console.log('[AUTH DEBUG] Reloading page...');
+      window.location.reload();
+    }, 500);
+  }, []);
+
   useEffect(() => {
+    console.log('[AUTH DEBUG] AuthContext useEffect running...');
+
     // Check if user is already logged in
     const storedUser = localStorage.getItem('user');
+    console.log('[AUTH DEBUG] localStorage user:', storedUser);
+
     if (storedUser) {
       try {
         const userData = JSON.parse(storedUser);
 
-        // Validate user data structure
-        if (!userData.id || !userData.email || !userData.name) {
-          console.warn('Invalid user data in localStorage, clearing...');
+        // Validate user data structure with strict checking
+        if (!isValidUserData(userData)) {
+          console.warn('[AUTH DEBUG] Invalid user data in localStorage, clearing...');
           localStorage.removeItem('user');
           localStorage.removeItem('userEmail');
           localStorage.removeItem('google_access_token');
-          toast.warning('Your session expired. Please sign in again.');
+          toast.error('Session expired or invalid. Please sign in again.', 8000, 'Clear & Reload', clearCache);
           setLoading(false);
           return;
         }
 
+        console.log('[AUTH DEBUG] Setting user:', userData.email);
         setUser(userData);
+
         // Set user ID for cloud sync
+        console.log('[AUTH DEBUG] Setting userDataService userId:', userData.id);
         userDataService.setUserId(userData.id);
+
+        console.log('[AUTH DEBUG] Setting favoritesService context:', userData.id);
         favoritesService.setUserContext(userData.id);
+
+        // Verify userId was set
+        console.log('[AUTH DEBUG] userDataService.userId after set:', (userDataService as any).userId);
+
         // Load user data from cloud
+        console.log('[AUTH DEBUG] Calling loadUserData...');
         loadUserData(userData.id).catch((error) => {
-          console.error('Failed to load user data on init:', error);
+          console.error('[AUTH DEBUG] Failed to load user data on init:', error);
           // Don't clear user on sync failure, just show error
           toast.error('Failed to sync favorites. Click the cloud icon to retry.', 6000);
         });
       } catch (error) {
-        console.error('Error parsing stored user data:', error);
+        console.error('[AUTH DEBUG] Error parsing stored user data:', error);
         localStorage.removeItem('user');
         localStorage.removeItem('userEmail');
         localStorage.removeItem('google_access_token');
-        toast.error('Session data corrupted. Please sign in again.');
+        toast.error('Session data corrupted. Clearing...', 8000, 'Reload Now', clearCache);
       }
+    } else {
+      console.log('[AUTH DEBUG] No stored user found');
     }
+
     setLoading(false);
-  }, []);
+  }, [isValidUserData, clearCache]);
 
   // Subscribe to sync status
   useEffect(() => {
@@ -235,17 +305,6 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
 
     toast.info('Syncing favorites...');
     await loadUserData(user.id);
-  };
-
-  const clearCache = () => {
-    // Clear all user data and force re-login
-    setUser(null);
-    userDataService.disconnect();
-    favoritesService.setUserContext(null);
-    localStorage.removeItem('user');
-    localStorage.removeItem('userEmail');
-    localStorage.removeItem('google_access_token');
-    toast.success('Cache cleared! Please sign in again.');
   };
 
   return (

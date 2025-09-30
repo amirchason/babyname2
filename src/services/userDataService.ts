@@ -48,6 +48,8 @@ class UserDataService {
 
   // Set the current user ID
   setUserId(userId: string | null) {
+    console.log('[USERDATA DEBUG] setUserId called with:', userId);
+
     // Unsubscribe from previous user's data
     if (this.unsubscribe) {
       this.unsubscribe();
@@ -55,6 +57,7 @@ class UserDataService {
     }
 
     this.userId = userId;
+    console.log('[USERDATA DEBUG] userId set to:', this.userId);
 
     // Subscribe to new user's data if userId is provided
     if (userId) {
@@ -104,7 +107,9 @@ class UserDataService {
 
   // Save preferences to cloud
   async saveToCloud(favorites: string[], dislikes: string[]): Promise<void> {
+    console.log('[USERDATA DEBUG] saveToCloud called, userId:', this.userId);
     if (!this.userId) {
+      console.error('[USERDATA DEBUG] saveToCloud failed - no userId set!');
       throw new Error('No user logged in');
     }
 
@@ -141,7 +146,9 @@ class UserDataService {
 
   // Load preferences from cloud
   async loadFromCloud(): Promise<UserPreferences | null> {
+    console.log('[USERDATA DEBUG] loadFromCloud called, userId:', this.userId);
     if (!this.userId) {
+      console.error('[USERDATA DEBUG] loadFromCloud failed - no userId set!');
       throw new Error('No user logged in');
     }
 

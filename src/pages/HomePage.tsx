@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
   const [itemsPerPage] = useState(100); // 100 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const navigate = useNavigate();
-  const { user, isAuthenticated, login, logout, isSyncing, syncError, manualSync } = useAuth();
+  const { user, isAuthenticated, login, logout, isSyncing, syncError, manualSync, clearCache } = useAuth();
 
   useEffect(() => {
     // Load initial names
@@ -344,6 +344,19 @@ const HomePage: React.FC = () => {
                       <Cloud className="w-4 h-4 text-green-500" />
                     )}
                   </button>
+
+                  {/* Clear Cache Button - Visible when sync error */}
+                  {syncError && (
+                    <button
+                      onClick={clearCache}
+                      className="flex items-center gap-2 px-3 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors text-sm font-medium"
+                      title="Clear cache and reload page"
+                    >
+                      <RefreshCw className="w-4 h-4" />
+                      Clear Cache
+                    </button>
+                  )}
+
                   <img
                     src={user.picture}
                     alt={user.name}
