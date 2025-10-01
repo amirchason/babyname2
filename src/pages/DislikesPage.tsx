@@ -34,10 +34,19 @@ const DislikesPage: React.FC = () => {
     loadDislikes();
   };
 
-  const clearAllDislikes = () => {
-    if (window.confirm('Are you sure you want to clear all disliked names?')) {
-      favoritesService.clearDislikes();
+  const clearAllDislikes = async () => {
+    if (window.confirm('Are you sure you want to clear all disliked names? This will delete your dislikes from both device and cloud.')) {
+      // Clear the dislikes
+      await favoritesService.clearDislikes();
+      console.log('[DislikesPage] Dislikes cleared and saved');
+
+      // Immediately clear the UI state
       setDislikedNames([]);
+
+      // Force a reload after a brief delay to ensure everything is synced
+      setTimeout(() => {
+        loadDislikes();
+      }, 100);
     }
   };
 
@@ -109,7 +118,7 @@ const DislikesPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {dislikedNames.map((name) => (
               <NameCard
-                key={name.name}
+                key={`${name.name}-${dislikedNames.length}`}
                 name={name}
                 onClick={setSelectedName}
                 onFavoriteToggle={handleRefresh}

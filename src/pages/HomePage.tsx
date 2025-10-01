@@ -2,12 +2,12 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import enrichmentService from '../services/enrichmentService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
-import CommandHandler from '../components/CommandHandler';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 
 const HomePage: React.FC = () => {
@@ -29,7 +29,7 @@ const HomePage: React.FC = () => {
   const [, forceUpdate] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(100); // 100 names per page
+  const [itemsPerPage] = useState(30); // 30 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const navigate = useNavigate();
   const { user, isAuthenticated, login, logout, isSyncing, syncError, manualSync, clearCache } = useAuth();
@@ -191,7 +191,12 @@ const HomePage: React.FC = () => {
 
       case 'popularity':
       default:
-        // Already sorted by popularity from the service
+        // Sort by popularity rank
+        sorted = sorted.sort((a, b) => {
+          const rankA = a.popularityRank || 999999;
+          const rankB = b.popularityRank || 999999;
+          return rankA - rankB;
+        });
         break;
     }
 
@@ -211,17 +216,12 @@ const HomePage: React.FC = () => {
       if (showFavorites) {
         // Show only favorite names
         results = results.filter(name => favoritesService.isFavorite(name.name));
-      } else {
-        // Filter out disliked names (never show them unless viewing favorites)
-        results = favoritesService.filterOutDislikes(results);
       }
+      // REMOVED: Don't filter out liked/disliked names - show ALL names with proper rankings
 
       if (searchTerm) {
         results = await nameService.searchNames(searchTerm);
-        // Apply dislikes filter to search results too
-        if (!showFavorites) {
-          results = favoritesService.filterOutDislikes(results);
-        }
+        // REMOVED: Don't filter search results either - show all matching names
       }
 
       if (activeFilter !== 'all') {
@@ -245,7 +245,7 @@ const HomePage: React.FC = () => {
     };
 
     updateNames();
-  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites]);
+  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites, favoritesCount, dislikesCount]);
 
   // Reset page when search term changes
   useEffect(() => {
@@ -289,7 +289,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-40">
+      <header className="bg-white/80 backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
@@ -298,10 +298,22 @@ const HomePage: React.FC = () => {
                 <Sparkles className="h-4 w-4 text-yellow-400 absolute -top-1 -right-1 animate-pulse" />
               </div>
               <div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  New Baby Name
+                <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  Baby Name
                 </h1>
-                <p className="text-xs text-gray-500">164K+ Unique Names • English Only Database</p>
+                <p className="text-xs text-gray-500">The perfect baby, The perfect name.</p>
+              </div>
+
+              {/* Liked Names Counter Badge */}
+              <div className="flex relative">
+                <div className="flex items-center gap-2 px-4 py-2 md:px-5 md:py-3 bg-gradient-to-r from-red-500 to-pink-500 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105 cursor-pointer"
+                     onClick={() => navigate('/favorites')}
+                     title="View your liked names">
+                  <Heart className="w-5 h-5 md:w-6 md:h-6 text-white fill-white" />
+                  <span className="text-xl md:text-2xl font-bold text-white">
+                    {favoritesCount}
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -357,13 +369,24 @@ const HomePage: React.FC = () => {
                     </button>
                   )}
 
-                  <img
-                    src={user.picture}
-                    alt={user.name}
-                    className="w-10 h-10 rounded-full border-2 border-purple-200"
-                  />
+                  {user.picture ? (
+                    <img
+                      src={user.picture}
+                      alt={user.name}
+                      className="w-10 h-10 rounded-full border-2 border-purple-200"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  ) : (
+                    <div className="w-10 h-10 rounded-full border-2 border-purple-200 bg-purple-100 flex items-center justify-center text-purple-600 font-bold">
+                      {user.name?.charAt(0).toUpperCase()}
+                    </div>
+                  )}
                   <button
-                    onClick={logout}
+                    onClick={() => {
+                      logout();
+                    }}
                     className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-red-600 transition-colors"
                   >
                     <LogOut className="w-4 h-4" />
@@ -424,16 +447,28 @@ const HomePage: React.FC = () => {
                 {isAuthenticated && user ? (
                   <div className="flex items-center justify-between px-4 py-2 border-t pt-4">
                     <div className="flex items-center gap-2">
-                      <img
-                        src={user.picture}
-                        alt={user.name}
-                        className="w-8 h-8 rounded-full"
-                      />
+                      {user.picture ? (
+                        <img
+                          src={user.picture}
+                          alt={user.name}
+                          className="w-8 h-8 rounded-full"
+                          onError={(e) => {
+                            e.currentTarget.style.display = 'none';
+                          }}
+                        />
+                      ) : (
+                        <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold text-sm">
+                          {user.name?.charAt(0).toUpperCase()}
+                        </div>
+                      )}
                       <span className="text-sm font-medium text-gray-700">{user.name}</span>
                     </div>
                     <button
-                      onClick={logout}
-                      className="text-red-600 text-sm"
+                      onClick={() => {
+                        logout();
+                        setMenuOpen(false);
+                      }}
+                      className="text-red-600 text-sm font-medium hover:text-red-700"
                     >
                       Logout
                     </button>
@@ -456,7 +491,7 @@ const HomePage: React.FC = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-16 px-4">
+      <section className="relative pt-32 pb-16 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-50 to-yellow-100 backdrop-blur rounded-full mb-6 border border-yellow-300">
             <span className="text-yellow-600">🔥</span>
@@ -502,15 +537,20 @@ const HomePage: React.FC = () => {
             )}
           </div>
 
-          {/* Start Swiping Button */}
-          <div className="flex justify-center mb-6">
+          {/* Mode Toggle: Grid vs Swipe */}
+          <div className="flex justify-center mb-6 gap-4">
             <button
-              onClick={() => setShowQuestionnaire(true)}
-              className="px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-full text-lg font-bold hover:shadow-2xl transition-all transform hover:scale-105 flex items-center gap-2"
+              className="px-6 py-3 rounded-full text-sm font-bold transition-all transform hover:scale-105 flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg"
+            >
+              <span>📋</span>
+              Grid View
+            </button>
+            <button
+              onClick={() => navigate('/swipe')}
+              className="px-6 py-3 rounded-full text-sm font-bold transition-all transform hover:scale-105 flex items-center gap-2 bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-400"
             >
               <span>🔥</span>
-              Start Swiping Names
-              <span>→</span>
+              Swipe Mode
             </button>
           </div>
 
@@ -700,32 +740,42 @@ const HomePage: React.FC = () => {
               </button>
             </div>
           ) : (
+            // Grid Mode - Original layout
             <>
               <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                {currentNames.map((name, index) => {
-                  // Calculate contextual rank: position within filtered results + page offset
-                  const contextualRank = (currentPage - 1) * itemsPerPage + index + 1;
-
-                  return (
-                    <NameCard
-                      key={name.name}
-                      name={name}
-                      onClick={setSelectedName}
-                      contextualRank={contextualRank}
-                      filterContext={activeFilter}
-                      onFavoriteToggle={() => {
-                        setFavoritesCount(favoritesService.getFavoritesCount());
-                        setDislikesCount(favoritesService.getDislikesCount());
-                        forceUpdate({});
-                      }}
-                      onDislikeToggle={() => {
-                        setFavoritesCount(favoritesService.getFavoritesCount());
-                        setDislikesCount(favoritesService.getDislikesCount());
-                        forceUpdate({});
-                      }}
-                    />
-                  );
-                })}
+                <AnimatePresence mode="popLayout">
+                  {currentNames.map((name) => {
+                    return (
+                      <motion.div
+                        key={name.name}
+                        layout
+                        initial={{ opacity: 0, y: 15 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, scale: 0.9 }}
+                        transition={{
+                          duration: 0.08,  // Super snappy
+                          layout: { type: "spring", stiffness: 800, damping: 40 }  // Very stiff spring for instant response
+                        }}
+                      >
+                        <NameCard
+                          name={name}
+                          onClick={setSelectedName}
+                          filterContext={activeFilter}
+                          onFavoriteToggle={() => {
+                            setFavoritesCount(favoritesService.getFavoritesCount());
+                            setDislikesCount(favoritesService.getDislikesCount());
+                            forceUpdate({});
+                          }}
+                          onDislikeToggle={() => {
+                            setFavoritesCount(favoritesService.getFavoritesCount());
+                            setDislikesCount(favoritesService.getDislikesCount());
+                            forceUpdate({});
+                          }}
+                        />
+                      </motion.div>
+                    );
+                  })}
+                </AnimatePresence>
               </div>
 
               {/* Amazing Beautiful Pagination - Always Show */}
@@ -855,9 +905,6 @@ const HomePage: React.FC = () => {
         name={selectedName}
         onClose={() => setSelectedName(null)}
       />
-
-      {/* Command Handler for slash commands */}
-      <CommandHandler />
 
       {/* Swiping Questionnaire Modal */}
       {showQuestionnaire && (

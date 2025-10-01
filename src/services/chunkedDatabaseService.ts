@@ -127,8 +127,12 @@ class ChunkedDatabaseService {
       const data = await response.json();
       const chunkNames = data.names || [];
 
-      // Append to existing names
-      this.allNames = [...this.allNames, ...chunkNames];
+      // Deduplicate before appending
+      const existingNameSet = new Set(this.allNames.map(n => n.name.toLowerCase()));
+      const newNames = chunkNames.filter(name => !existingNameSet.has(name.name.toLowerCase()));
+
+      // Append only unique names
+      this.allNames = [...this.allNames, ...newNames];
       this.loadedChunks.add(chunkName);
 
       console.log(`✅ ${chunkName} loaded: ${chunkNames.length} names (total: ${this.allNames.length})`);

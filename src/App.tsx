@@ -7,6 +7,7 @@ import NameListPage from './pages/NameListPage';
 import FavoritesPage from './pages/FavoritesPage';
 import DislikesPage from './pages/DislikesPage';
 import DebugPage from './pages/DebugPage';
+import SwipeModePage from './pages/SwipeModePage';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
               <Route path="/favorites" element={<FavoritesPage />} />
               <Route path="/dislikes" element={<DislikesPage />} />
               <Route path="/debug" element={<DebugPage />} />
+              <Route path="/swipe" element={<SwipeModePage />} />
             </Routes>
           </div>
         </Router>

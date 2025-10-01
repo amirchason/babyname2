@@ -60,9 +60,10 @@ class FavoritesService {
       const stored = localStorage.getItem(this.STORAGE_KEY);
       if (stored) {
         const parsed = JSON.parse(stored);
+        // Normalize all names to ensure consistency (trim and filter out empty)
         this.data = {
-          favorites: parsed.favorites || [],
-          dislikes: parsed.dislikes || []
+          favorites: (parsed.favorites || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0),
+          dislikes: (parsed.dislikes || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0)
         };
       }
     } catch (error) {
@@ -96,17 +97,20 @@ class FavoritesService {
 
   // Favorites (Liked names) methods
   addFavorite(name: string): void {
-    if (!this.isFavorite(name)) {
+    const normalizedName = name.trim();
+    if (!normalizedName) return;
+    if (!this.isFavorite(normalizedName)) {
       // Remove from dislikes if it was there
-      this.removeDislikes(name);
+      this.removeDislikes(normalizedName);
       // Add to favorites
-      this.data.favorites.push(name);
+      this.data.favorites.push(normalizedName);
       this.saveToStorage();
     }
   }
 
   removeFavorite(name: string): void {
-    const index = this.data.favorites.indexOf(name);
+    const normalizedName = name.trim();
+    const index = this.data.favorites.findIndex(f => f.trim() === normalizedName);
     if (index > -1) {
       this.data.favorites.splice(index, 1);
       this.saveToStorage();
@@ -114,7 +118,8 @@ class FavoritesService {
   }
 
   isFavorite(name: string): boolean {
-    return this.data.favorites.includes(name);
+    const normalizedName = name.trim();
+    return this.data.favorites.some(f => f.trim() === normalizedName);
   }
 
   getFavorites(): string[] {
@@ -123,17 +128,20 @@ class FavoritesService {
 
   // Dislikes (Hidden names) methods
   addDislike(name: string): void {
-    if (!this.isDisliked(name)) {
+    const normalizedName = name.trim();
+    if (!normalizedName) return;
+    if (!this.isDisliked(normalizedName)) {
       // Remove from favorites if it was there
-      this.removeFavorite(name);
+      this.removeFavorite(normalizedName);
       // Add to dislikes
-      this.data.dislikes.push(name);
+      this.data.dislikes.push(normalizedName);
       this.saveToStorage();
     }
   }
 
   removeDislikes(name: string): void {
-    const index = this.data.dislikes.indexOf(name);
+    const normalizedName = name.trim();
+    const index = this.data.dislikes.findIndex(d => d.trim() === normalizedName);
     if (index > -1) {
       this.data.dislikes.splice(index, 1);
       this.saveToStorage();
@@ -141,27 +149,64 @@ class FavoritesService {
   }
 
   isDisliked(name: string): boolean {
-    return this.data.dislikes.includes(name);
+    const normalizedName = name.trim();
+    return this.data.dislikes.some(d => d.trim() === normalizedName);
   }
 
   getDislikes(): string[] {
     return [...this.data.dislikes];
   }
 
-  // Clear methods
-  clearFavorites(): void {
+  // Clear methods - async to ensure cloud sync completes
+  async clearFavorites(): Promise<void> {
+    console.log('[FavoritesService] Clearing favorites...');
     this.data.favorites = [];
-    this.saveToStorage();
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+    console.log('[FavoritesService] Favorites cleared from localStorage');
+
+    // Force immediate cloud sync
+    if (this.isLoggedIn && this.userId) {
+      try {
+        await userDataService.saveToCloud(this.data.favorites, this.data.dislikes);
+        console.log('[FavoritesService] Empty favorites synced to cloud');
+      } catch (error) {
+        console.error('[FavoritesService] Failed to sync empty favorites to cloud:', error);
+      }
+    }
   }
 
-  clearDislikes(): void {
+  async clearDislikes(): Promise<void> {
+    console.log('[FavoritesService] Clearing dislikes...');
     this.data.dislikes = [];
-    this.saveToStorage();
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+    console.log('[FavoritesService] Dislikes cleared from localStorage');
+
+    // Force immediate cloud sync
+    if (this.isLoggedIn && this.userId) {
+      try {
+        await userDataService.saveToCloud(this.data.favorites, this.data.dislikes);
+        console.log('[FavoritesService] Empty dislikes synced to cloud');
+      } catch (error) {
+        console.error('[FavoritesService] Failed to sync empty dislikes to cloud:', error);
+      }
+    }
   }
 
-  clearAll(): void {
+  async clearAll(): Promise<void> {
+    console.log('[FavoritesService] Clearing all favorites and dislikes...');
     this.data = { favorites: [], dislikes: [] };
-    this.saveToStorage();
+    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+    console.log('[FavoritesService] All data cleared from localStorage');
+
+    // Force immediate cloud sync
+    if (this.isLoggedIn && this.userId) {
+      try {
+        await userDataService.saveToCloud([], []);
+        console.log('[FavoritesService] Empty lists synced to cloud');
+      } catch (error) {
+        console.error('[FavoritesService] Failed to sync empty lists to cloud:', error);
+      }
+    }
   }
 
   // Filter method to exclude disliked names
@@ -170,6 +215,22 @@ class FavoritesService {
       return names;
     }
     return names.filter(name => !this.isDisliked(name.name));
+  }
+
+  // Filter method to exclude favorited names
+  filterOutFavorites(names: NameEntry[]): NameEntry[] {
+    if (this.data.favorites.length === 0) {
+      return names;
+    }
+    return names.filter(name => !this.isFavorite(name.name));
+  }
+
+  // Filter method to exclude BOTH liked and disliked names
+  filterOutLikedAndDisliked(names: NameEntry[]): NameEntry[] {
+    if (this.data.favorites.length === 0 && this.data.dislikes.length === 0) {
+      return names;
+    }
+    return names.filter(name => !this.isFavorite(name.name) && !this.isDisliked(name.name));
   }
 
   // Get names that are favorites from a list

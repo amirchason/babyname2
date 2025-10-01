@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, Heart, X, BookOpen, Tag, Globe } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
@@ -9,16 +10,18 @@ interface NameCardProps {
   onClick: (name: NameEntry) => void;
   onFavoriteToggle?: () => void;
   onDislikeToggle?: () => void;
-  contextualRank?: number; // Rank within current filter context
   filterContext?: 'all' | 'male' | 'female'; // Current filter context
+  contextualRank?: number; // Rank within the current filtered list
 }
 
-const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, onDislikeToggle, contextualRank, filterContext = 'all' }) => {
+const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, onDislikeToggle, filterContext = 'all', contextualRank }) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [isDisliked, setIsDisliked] = useState(false);
   const [meaning, setMeaning] = useState<string | undefined>(name.meaning);
   const [origin, setOrigin] = useState<string | undefined>(undefined);
   const [enriched, setEnriched] = useState(false);
+  const [isFlying, setIsFlying] = useState(false);
+  const [flyDirection, setFlyDirection] = useState<'left' | 'right' | null>(null);
 
   useEffect(() => {
     setIsFavorite(favoritesService.isFavorite(name.name));
@@ -39,18 +42,46 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
-    const newState = favoritesService.toggleFavorite(name.name);
-    setIsFavorite(newState);
-    if (newState) setIsDisliked(false); // Remove from dislikes if favorited
-    onFavoriteToggle?.();
+
+    // START ANIMATION FIRST (no delay!)
+    setFlyDirection('right');
+    setIsFlying(true);
+
+    // Then update everything else in next tick
+    requestAnimationFrame(() => {
+      favoritesService.toggleFavorite(name.name);
+      setIsFavorite(favoritesService.isFavorite(name.name));
+      setIsDisliked(favoritesService.isDisliked(name.name));
+      onFavoriteToggle?.();
+    });
+
+    // Clean up animation state after it completes
+    setTimeout(() => {
+      setIsFlying(false);
+      setFlyDirection(null);
+    }, 120);
   };
 
   const handleDislikeClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
-    const newState = favoritesService.toggleDislike(name.name);
-    setIsDisliked(newState);
-    if (newState) setIsFavorite(false); // Remove from favorites if disliked
-    onDislikeToggle?.();
+
+    // START ANIMATION FIRST (no delay!)
+    setFlyDirection('left');
+    setIsFlying(true);
+
+    // Then update everything else in next tick
+    requestAnimationFrame(() => {
+      favoritesService.toggleDislike(name.name);
+      setIsFavorite(favoritesService.isFavorite(name.name));
+      setIsDisliked(favoritesService.isDisliked(name.name));
+      onDislikeToggle?.();
+    });
+
+    // Clean up animation state after it completes
+    setTimeout(() => {
+      setIsFlying(false);
+      setFlyDirection(null);
+    }, 120);
   };
   const genderData = typeof name.gender === 'object' ? name.gender : null;
   const isMale = (genderData?.Male || 0) > (genderData?.Female || 0);
@@ -61,13 +92,14 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
 
   // Determine what rank to display and how to label it
   const getDisplayRank = () => {
-    const rank = contextualRank || name.popularityRank || 999999;
+    // ALWAYS show the actual popularity rank from the database
+    const rank = name.popularityRank || 999999;
 
     switch (filterContext) {
       case 'male':
-        return `Male #${rank}`;
+        return `Boys #${rank}`;
       case 'female':
-        return `Female #${rank}`;
+        return `Girls #${rank}`;
       case 'all':
       default:
         return `#${rank}`;
@@ -91,14 +123,44 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
     }
   };
 
-  const popularityPercent = calculatePopularityPercent(name.popularityRank || 999999);
+  // ALWAYS use actual rank for popularity percent calculation
+  const rankForPopularity = name.popularityRank || 999999;
+  const popularityPercent = calculatePopularityPercent(rankForPopularity);
+
+  // Animation variants for flying cards - ultra fast and snappy
+  const flyVariants = {
+    initial: {
+      x: 0,
+      rotate: 0,
+      opacity: 1,
+      scale: 1
+    },
+    flyLeft: {
+      x: -400,
+      rotate: -30,
+      opacity: 0,
+      scale: 0.7,
+      transition: { duration: 0.12, ease: "easeOut" }  // Super fast
+    },
+    flyRight: {
+      x: 400,
+      rotate: 30,
+      opacity: 0,
+      scale: 0.7,
+      transition: { duration: 0.12, ease: "easeOut" }  // Super fast
+    }
+  };
 
   return (
-    <div
+    <motion.div
       onClick={() => onClick(name)}
       className={`relative overflow-hidden rounded-xl ${genderBg} border ${genderBorder}
                   hover:shadow-xl transform hover:scale-105
-                  transition-all duration-200 cursor-pointer group`}
+                  cursor-pointer group`}
+      style={{ transition: isFlying ? 'none' : 'all 200ms' }}  // Disable CSS transitions during animation
+      initial="initial"
+      animate={isFlying ? (flyDirection === 'left' ? 'flyLeft' : 'flyRight') : 'initial'}
+      variants={flyVariants}
     >
       {/* Gradient overlay - lighter on mobile */}
       <div className={`absolute inset-0 bg-gradient-to-br ${genderColor} opacity-5
@@ -166,46 +228,42 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
       </div>
 
       {/* Tinder-style action buttons */}
-      <div className="absolute bottom-6 left-6 right-6 flex justify-between items-center">
-        {/* Nope button (left) */}
+      <div className="absolute bottom-4 left-0 right-0 flex justify-between items-center px-4">
+        {/* Dislike button - Tinder Nope style */}
         <button
           onClick={handleDislikeClick}
-          className={`group relative w-14 h-14 rounded-full transition-all duration-300 transform hover:scale-110 active:scale-95 shadow-lg ${
+          className={`flex items-center justify-center w-16 h-16 rounded-full transition-all duration-300 ${
             isDisliked
-              ? 'bg-red-500 text-white shadow-red-200'
-              : 'bg-white text-gray-600 hover:bg-red-50 hover:text-red-500 hover:shadow-red-100'
-          }`}
+              ? 'bg-rose-500 border-4 border-rose-500 shadow-xl'
+              : 'bg-white border-4 border-rose-500 shadow-lg hover:shadow-xl'
+          } transform hover:scale-110 active:scale-95`}
           title={isDisliked ? 'Remove from hidden' : 'Pass on this name'}
         >
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white to-gray-50 opacity-20"></div>
-          <X className={`w-7 h-7 mx-auto transition-all duration-200 ${
-            isDisliked ? 'stroke-[3px]' : 'stroke-[2.5px] group-hover:stroke-[3px]'
+          <X className={`w-9 h-9 transition-all duration-300 ${
+            isDisliked
+              ? 'text-white stroke-[3.5px]'
+              : 'text-rose-500 stroke-[3.5px]'
           }`} />
-          {/* Ripple effect */}
-          <div className="absolute inset-0 rounded-full bg-red-500 opacity-0 group-active:opacity-20 group-active:animate-ping"></div>
         </button>
 
-        {/* Like button (right) */}
+        {/* Like button - Tinder Like style */}
         <button
           onClick={handleFavoriteClick}
-          className={`group relative w-14 h-14 rounded-full transition-all duration-300 transform hover:scale-110 active:scale-95 shadow-lg ${
+          className={`flex items-center justify-center w-16 h-16 rounded-full transition-all duration-300 ${
             isFavorite
-              ? 'bg-red-500 text-white shadow-red-200'
-              : 'bg-white text-gray-600 hover:bg-red-50 hover:text-red-500 hover:shadow-red-100'
-          }`}
+              ? 'bg-teal-400 border-4 border-teal-400 shadow-xl'
+              : 'bg-white border-4 border-teal-400 shadow-lg hover:shadow-xl'
+          } transform hover:scale-110 active:scale-95`}
           title={isFavorite ? 'Remove from favorites' : 'Love this name'}
         >
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white to-gray-50 opacity-20"></div>
-          <Heart className={`w-7 h-7 mx-auto transition-all duration-200 ${
+          <Heart className={`w-8 h-8 transition-all duration-300 ${
             isFavorite
-              ? 'fill-current stroke-[2px]'
-              : 'stroke-[2.5px] group-hover:stroke-[3px] group-hover:fill-red-50'
+              ? 'text-white fill-white stroke-[2.5px]'
+              : 'text-teal-400 stroke-[2.5px]'
           }`} />
-          {/* Ripple effect */}
-          <div className="absolute inset-0 rounded-full bg-red-500 opacity-0 group-active:opacity-20 group-active:animate-ping"></div>
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

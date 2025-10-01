@@ -147,19 +147,6 @@ class NameService {
     };
   }
 
-  /**
-   * Get popular names (with emergency fallback)
-   */
-  getPopularNames(limit: number = 100): NameEntry[] {
-    // If we have cached names, return them
-    if (this.allNames.length > 0) {
-      return this.allNames.slice(0, Math.min(limit, this.allNames.length));
-    }
-
-    // Emergency fallback: return hardcoded top names to ensure homepage always shows names
-    console.log(`⚡ Using emergency fallback: returning ${Math.min(limit, this.emergencyFallbackNames.length)} hardcoded names`);
-    return this.emergencyFallbackNames.slice(0, Math.min(limit, this.emergencyFallbackNames.length));
-  }
 
   /**
    * Search names
@@ -198,6 +185,20 @@ class NameService {
     const actualLimit = Math.min(limit, this.allNames.length);
     console.log(`📊 Returning ${actualLimit} names from database of ${this.allNames.length} total names`);
     return this.allNames.slice(0, actualLimit);
+  }
+
+  /**
+   * Get popular names (top N) sorted by popularity rank
+   */
+  getPopularNames(limit = 100): NameEntry[] {
+    const actualLimit = Math.min(limit, this.allNames.length);
+    // Sort by popularityRank first, then slice
+    const sorted = [...this.allNames].sort((a, b) => {
+      const rankA = a.popularityRank || 999999;
+      const rankB = b.popularityRank || 999999;
+      return rankA - rankB;
+    });
+    return sorted.slice(0, actualLimit);
   }
 
   /**

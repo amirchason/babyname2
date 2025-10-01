@@ -34,10 +34,19 @@ const FavoritesPage: React.FC = () => {
     loadFavorites();
   };
 
-  const clearAllFavorites = () => {
-    if (window.confirm('Are you sure you want to clear all favorites?')) {
-      favoritesService.clearFavorites();
+  const clearAllFavorites = async () => {
+    if (window.confirm('Are you sure you want to clear all favorites? This will delete your favorites from both device and cloud.')) {
+      // Clear the favorites
+      await favoritesService.clearFavorites();
+      console.log('[FavoritesPage] Favorites cleared and saved');
+
+      // Immediately clear the UI state
       setFavoriteNames([]);
+
+      // Force a reload after a brief delay to ensure everything is synced
+      setTimeout(() => {
+        loadFavorites();
+      }, 100);
     }
   };
 
@@ -105,7 +114,7 @@ const FavoritesPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {favoriteNames.map((name) => (
               <NameCard
-                key={name.name}
+                key={`${name.name}-${favoriteNames.length}`}
                 name={name}
                 onClick={setSelectedName}
                 onFavoriteToggle={handleRefresh}
