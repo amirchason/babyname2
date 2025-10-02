@@ -4,6 +4,7 @@
  */
 
 import optimizedNameService, { OptimizedNameEntry } from './optimizedNameService';
+import favoritesService from './favoritesService';
 
 export type SwipeDirection = 'left' | 'right' | 'up';
 export type DeckType = 'quick' | 'male' | 'female' | 'unisex' | 'full';
@@ -85,7 +86,12 @@ class SwipeService {
 
     const currentNames = await optimizedNameService.getNamesByIds(currentIds);
 
-    this.currentStack = currentNames.map((name, index) => ({
+    // Filter out disliked names from the stack
+    const filteredNames = currentNames.filter(name =>
+      !favoritesService.isDisliked(name.n)
+    );
+
+    this.currentStack = filteredNames.map((name, index) => ({
       name,
       position: this.currentPosition + index,
       isPreloaded: true
@@ -111,7 +117,12 @@ class SwipeService {
 
     // Load asynchronously
     optimizedNameService.getNamesByIds(nextIds).then(names => {
-      this.nextStack = names.map((name, index) => ({
+      // Filter out disliked names from the preloaded stack
+      const filteredNames = names.filter(name =>
+        !favoritesService.isDisliked(name.n)
+      );
+
+      this.nextStack = filteredNames.map((name, index) => ({
         name,
         position: nextPosition + index,
         isPreloaded: true

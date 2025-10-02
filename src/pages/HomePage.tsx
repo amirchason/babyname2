@@ -1,21 +1,24 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw } from 'lucide-react';
+import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw, Target } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import enrichmentService from '../services/enrichmentService';
+import unisexService from '../services/unisexService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
+import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background';
 
 const HomePage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchOpen, setSearchOpen] = useState(false);
   const [names, setNames] = useState<NameEntry[]>([]);
   const [filteredNames, setFilteredNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
-  const [activeFilter, setActiveFilter] = useState<'all' | 'male' | 'female'>('all');
+  const [activeFilter, setActiveFilter] = useState<'all' | 'male' | 'female' | 'unisex'>('all');
   const [sortBy, setSortBy] = useState<'popularity' | 'alphabetical' | 'random'>('popularity');
   const [sortReverse, setSortReverse] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -31,6 +34,7 @@ const HomePage: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(30); // 30 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
+  const [heartBeat, setHeartBeat] = useState(false);
   const navigate = useNavigate();
   const { user, isAuthenticated, login, logout, isSyncing, syncError, manualSync, clearCache } = useAuth();
 
@@ -106,6 +110,14 @@ const HomePage: React.FC = () => {
             const counts = nameService.getGenderCounts();
             setGenderCounts(counts);
             setCurrentFilteredCount(counts.total);
+
+            // Initialize unisex service in background
+            unisexService.startProcessing().then(() => {
+              console.log('HomePage: Unisex processing started in background');
+              // Update gender counts after processing
+              const updatedCounts = nameService.getGenderCounts();
+              setGenderCounts(updatedCounts);
+            });
           }).catch(err => {
             console.error('HomePage: Error loading full database:', err);
           });
@@ -132,14 +144,28 @@ const HomePage: React.FC = () => {
     // Also update when cloud data changes
     window.addEventListener('cloudDataUpdate', updateCounts);
 
+    // Listen for favorite additions to trigger heart animation
+    const handleFavoriteAdded = () => {
+      setHeartBeat(true);
+      setTimeout(() => setHeartBeat(false), 600);
+      updateCounts();
+    };
+    window.addEventListener('favoriteAdded', handleFavoriteAdded);
+
     return () => {
       window.removeEventListener('storage', updateCounts);
       window.removeEventListener('cloudDataUpdate', updateCounts);
+      window.removeEventListener('favoriteAdded', handleFavoriteAdded);
     };
   }, []);
 
   const applySorting = useCallback((namesToSort: NameEntry[], preserveSearchOrder: boolean = false): NameEntry[] => {
     let sorted = [...namesToSort];
+
+    // If searching, preserve the order from search function (already sorted alphabetically)
+    if (preserveSearchOrder) {
+      return sorted;
+    }
 
     // If we have search priorities, sort within each priority group
     if (preserveSearchOrder && sorted.some(n => n.searchPriority)) {
@@ -216,17 +242,22 @@ const HomePage: React.FC = () => {
       if (showFavorites) {
         // Show only favorite names
         results = results.filter(name => favoritesService.isFavorite(name.name));
+      } else {
+        // Filter out disliked names from all views (except dislikes page)
+        results = results.filter(name => !favoritesService.isDisliked(name.name));
       }
-      // REMOVED: Don't filter out liked/disliked names - show ALL names with proper rankings
 
       if (searchTerm) {
         results = await nameService.searchNames(searchTerm);
-        // REMOVED: Don't filter search results either - show all matching names
+        // Also filter out disliked names from search results
+        results = results.filter(name => !favoritesService.isDisliked(name.name));
       }
 
       if (activeFilter !== 'all') {
         results = results.filter(name => {
-          if (typeof name.gender === 'object' && name.gender) {
+          if (activeFilter === 'unisex') {
+            return nameService.isUnisexName(name);
+          } else if (typeof name.gender === 'object' && name.gender) {
             const isMale = (name.gender.Male || 0) > (name.gender.Female || 0);
             return activeFilter === 'male' ? isMale : !isMale;
           }
@@ -252,7 +283,7 @@ const HomePage: React.FC = () => {
     setCurrentPage(1);
   }, [searchTerm]);
 
-  const handleFilterClick = (filter: 'all' | 'male' | 'female') => {
+  const handleFilterClick = (filter: 'all' | 'male' | 'female' | 'unisex') => {
     setActiveFilter(filter);
     setCurrentPage(1); // Reset to first page when filter changes
     if (filter !== 'all' && !searchTerm) {
@@ -288,121 +319,103 @@ const HomePage: React.FC = () => {
         <div className="absolute top-40 left-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
       </div>
 
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50">
+      {/* Header - Minimalist */}
+      <header className="bg-white/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <div className="relative">
-                <Baby className="h-10 w-10 text-purple-500" />
-                <Sparkles className="h-4 w-4 text-yellow-400 absolute -top-1 -right-1 animate-pulse" />
-              </div>
-              <div>
-                <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  Baby Name
-                </h1>
-                <p className="text-xs text-gray-500">The perfect baby, The perfect name.</p>
-              </div>
+            <div className="flex items-center space-x-8">
+              {/* Logo - Minimal */}
+              <h1 className="text-lg font-light tracking-wide text-gray-900">
+                babynames
+              </h1>
 
-              {/* Liked Names Counter Badge */}
-              <div className="flex relative">
-                <div className="flex items-center gap-2 px-4 py-2 md:px-5 md:py-3 bg-gradient-to-r from-red-500 to-pink-500 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105 cursor-pointer"
-                     onClick={() => navigate('/favorites')}
-                     title="View your liked names">
-                  <Heart className="w-5 h-5 md:w-6 md:h-6 text-white fill-white" />
-                  <span className="text-xl md:text-2xl font-bold text-white">
-                    {favoritesCount}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-4">
+              {/* Favorites Counter - Enhanced */}
               <button
                 onClick={() => navigate('/favorites')}
-                className="flex items-center gap-2 px-4 py-2 rounded-full transition-all font-medium text-gray-700 hover:text-red-500 hover:bg-red-50">
-                <Heart className="w-4 h-4" />
-                Favorites {favoritesCount > 0 && `(${favoritesCount})`}
+                className={`flex items-center gap-2 text-sm transition-all ${
+                  favoritesCount > 0
+                    ? 'text-pink-500 hover:text-pink-600'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+                title="View favorites"
+              >
+                <Heart
+                  className={`transition-all ${
+                    heartBeat ? 'animate-heartbeat' : ''
+                  } ${
+                    favoritesCount > 0 ? 'fill-pink-500' : ''
+                  }`}
+                  style={{ width: '1.15rem', height: '1.15rem' }} // 15% bigger than w-4 h-4 (16px -> 18.4px)
+                />
+                <span className={favoritesCount > 0 ? 'font-medium' : ''}>{favoritesCount}</span>
               </button>
+            </div>
+
+            {/* Search and Navigation Container */}
+            <div className="flex items-center space-x-4">
+              {/* Search Icon - Minimalist */}
+              <button
+                onClick={() => {
+                  setSearchOpen(!searchOpen);
+                  if (searchOpen) {
+                    setSearchTerm('');
+                  }
+                }}
+                className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
+                title={searchOpen ? "Close search" : "Search names"}
+              >
+                {searchOpen ? (
+                  <X className="w-4 h-4" />
+                ) : (
+                  <Search className="w-4 h-4" />
+                )}
+              </button>
+
+              {/* Desktop Navigation - Minimal */}
+              <nav className="hidden md:flex items-center space-x-6">
               <button
                 onClick={() => navigate('/dislikes')}
-                className="flex items-center gap-2 px-4 py-2 rounded-full transition-all font-medium text-gray-700 hover:text-red-500 hover:bg-red-50">
-                <X className="w-4 h-4" />
-                Dislikes {dislikesCount > 0 && `(${dislikesCount})`}
+                className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                Dislikes
               </button>
-              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium px-4 py-2">
-                By Origin
-              </button>
-              <button className="text-gray-700 hover:text-purple-600 transition-colors font-medium px-4 py-2">
-                AI Assistant
+              <button className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
+                Origins
               </button>
 
-              {/* Login/Profile Button */}
+              {/* Login/Profile - Minimal */}
               {isAuthenticated && user ? (
-                <div className="flex items-center gap-3">
-                  {/* Sync Status Indicator - Clickable */}
-                  <button
-                    onClick={manualSync}
-                    disabled={isSyncing}
-                    className="flex items-center gap-1 px-2 py-1 rounded hover:bg-gray-100 transition-colors disabled:cursor-not-allowed"
-                    title={isSyncing ? 'Syncing...' : syncError ? 'Sync failed - Click to retry' : 'Click to sync now'}
-                  >
-                    {isSyncing ? (
-                      <RefreshCw className="w-4 h-4 text-blue-500 animate-spin" />
-                    ) : syncError ? (
-                      <CloudOff className="w-4 h-4 text-red-500" />
-                    ) : (
-                      <Cloud className="w-4 h-4 text-green-500" />
-                    )}
-                  </button>
-
-                  {/* Clear Cache Button - Visible when sync error */}
-                  {syncError && (
-                    <button
-                      onClick={clearCache}
-                      className="flex items-center gap-2 px-3 py-2 bg-red-100 text-red-700 rounded-lg hover:bg-red-200 transition-colors text-sm font-medium"
-                      title="Clear cache and reload page"
-                    >
-                      <RefreshCw className="w-4 h-4" />
-                      Clear Cache
-                    </button>
-                  )}
-
+                <div className="flex items-center gap-4">
                   {user.picture ? (
                     <img
                       src={user.picture}
                       alt={user.name}
-                      className="w-10 h-10 rounded-full border-2 border-purple-200"
+                      className="w-8 h-8 rounded-full"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
                       }}
                     />
                   ) : (
-                    <div className="w-10 h-10 rounded-full border-2 border-purple-200 bg-purple-100 flex items-center justify-center text-purple-600 font-bold">
+                    <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 text-sm">
                       {user.name?.charAt(0).toUpperCase()}
                     </div>
                   )}
                   <button
-                    onClick={() => {
-                      logout();
-                    }}
-                    className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-red-600 transition-colors"
+                    onClick={logout}
+                    className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
                   >
-                    <LogOut className="w-4 h-4" />
                     Logout
                   </button>
                 </div>
               ) : (
                 <button
                   onClick={login}
-                  className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full hover:shadow-lg transition-all font-medium"
+                  className="text-sm text-gray-900 hover:text-gray-600 transition-colors"
                 >
-                  <LogIn className="w-4 h-4" />
-                  Sign in with Google
+                  Sign in
                 </button>
               )}
-            </nav>
+              </nav>
+            </div>
 
             {/* Mobile Menu Button */}
             <button
@@ -490,103 +503,193 @@ const HomePage: React.FC = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
-      <section className="relative pt-32 pb-16 px-4">
-        <div className="max-w-5xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-50 to-yellow-100 backdrop-blur rounded-full mb-6 border border-yellow-300">
-            <span className="text-yellow-600">🔥</span>
-            <span className="text-sm font-bold text-gray-800">
-              2,847 Parents Found Their Perfect Name This Week
-            </span>
-          </div>
+      {/* Full-width Search Bar - Below Header */}
+      <AnimatePresence>
+        {searchOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed top-[57px] left-0 right-0 z-40 bg-white border-b border-gray-200 overflow-hidden"
+          >
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+              <div className="relative">
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                <input
+                  type="text"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') {
+                      setSearchOpen(false);
+                      setSearchTerm('');
+                    }
+                  }}
+                  placeholder="Search for a name..."
+                  className="w-full pl-12 pr-4 py-3 text-base border border-gray-200 rounded-lg
+                           bg-gray-50 focus:bg-white
+                           focus:outline-none focus:border-gray-400 font-light
+                           placeholder:text-gray-400 transition-all duration-200"
+                  autoFocus
+                />
+                {searchTerm && (
+                  <button
+                    onClick={() => setSearchTerm('')}
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2
+                             text-gray-400 hover:text-gray-600 transition-colors"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+              {searchTerm && (
+                <p className="mt-2 text-sm text-gray-500">
+                  Found {filteredNames.length} names matching "{searchTerm}"
+                </p>
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
-          <h2 className="text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
-              Your Baby's Perfect Name Awaits
-            </span>
-          </h2>
-          <p className="text-xl text-gray-700 mb-4 font-medium">
-            The moment has arrived. From {currentFilteredCount.toLocaleString()} carefully curated names,
-            <br />discover the one that will shape your child's destiny.
-          </p>
-          <p className="text-lg text-gray-600 mb-10">
-            <span className="text-green-600 font-semibold">✓ Scientifically researched meanings</span> •
-            <span className="text-blue-600 font-semibold">✓ Cultural authenticity verified</span> •
-            <span className="text-purple-600 font-semibold">✓ 2025 popularity predictions</span>
-          </p>
+      {/* Hero Section with Animated Background - Adjusted padding when search is open */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-32'} pb-16 px-4 min-h-[75vh] overflow-hidden transition-all duration-200`}>
+        {/* Animated Background Layer */}
+        <div className="absolute inset-0 z-0">
+          <AnimatedBackground />
+        </div>
 
-          {/* Search Bar */}
-          <div className="relative max-w-2xl mx-auto mb-6">
-            <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
-            <input
-              type="text"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Try: Olivia, Liam, Luna, Noah - Trending in 2025 ✨"
-              className="w-full pl-14 pr-6 py-5 rounded-2xl border-2 border-purple-100
-                       focus:outline-none focus:border-purple-400 shadow-xl text-lg
-                       placeholder:text-gray-400 transition-all"
-            />
-            {searchTerm && (
-              <button
-                onClick={() => setSearchTerm('')}
-                className="absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
-              >
-                ✕
-              </button>
-            )}
-          </div>
-
-          {/* Mode Toggle: Grid vs Swipe */}
-          <div className="flex justify-center mb-6 gap-4">
-            <button
-              className="px-6 py-3 rounded-full text-sm font-bold transition-all transform hover:scale-105 flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg"
+        {/* Floating Names Overlay */}
+        <div className="absolute inset-0 z-[1] pointer-events-none">
+          {['Emma', 'Noah', 'Olivia', 'Liam', 'Sophia', 'Ethan', 'Isabella', 'Mason', 'Mia', 'Lucas'].map((name, i) => (
+            <motion.div
+              key={name}
+              initial={{ opacity: 0 }}
+              animate={{
+                opacity: [0.2, 0.4, 0.2],
+                x: [0, 100, 0],
+                y: [0, -50, 0]
+              }}
+              transition={{
+                duration: 10 + i * 2,
+                repeat: Infinity,
+                delay: i * 0.5,
+                ease: "easeInOut"
+              }}
+              className={`absolute text-purple-400/30 font-light`}
+              style={{
+                left: `${10 + i * 15}%`,
+                top: `${20 + (i % 3) * 25}%`,
+                fontSize: `${1.5 + (i % 2) * 0.5}rem`
+              }}
             >
-              <span>📋</span>
-              Grid View
-            </button>
-            <button
-              onClick={() => navigate('/swipe')}
-              className="px-6 py-3 rounded-full text-sm font-bold transition-all transform hover:scale-105 flex items-center gap-2 bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-400"
-            >
-              <span>🔥</span>
-              Swipe Mode
-            </button>
-          </div>
+              {name}
+            </motion.div>
+          ))}
+        </div>
 
-          {/* Filter Buttons */}
-          <div className="flex flex-wrap justify-center gap-3">
+        {/* Subtle Gradient Overlay */}
+        <div className="absolute inset-0 z-[2] bg-gradient-to-b from-white/60 to-white/80"></div>
+
+        {/* Hero Content - Minimalist */}
+        <div className="relative z-10 max-w-4xl mx-auto text-center pt-12">
+          {/* Main Headline - Simplified */}
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-5xl md:text-7xl font-light mb-6 tracking-tight"
+          >
+            <span className="text-gray-900">Find the</span>
+            <br />
+            <span className="font-medium bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+              perfect name
+            </span>
+          </motion.h1>
+
+          {/* Subheadline - Minimal */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="text-lg text-gray-600 mb-12 font-light"
+          >
+            {currentFilteredCount.toLocaleString()} curated names with meaning
+          </motion.p>
+
+          {/* Filter Buttons - Minimal */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="flex justify-center gap-6 mb-8 text-sm"
+          >
             <button
               onClick={() => handleFilterClick('all')}
-              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all ${
+              className={`transition-all duration-200 ${
                 activeFilter === 'all'
-                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:shadow-md'
+                  ? 'text-gray-900 font-medium border-b-2 border-purple-600'
+                  : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              All Names ({genderCounts.total.toLocaleString()})
+              All
             </button>
             <button
               onClick={() => handleFilterClick('male')}
-              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
+              className={`transition-all duration-200 ${
                 activeFilter === 'male'
-                  ? 'bg-gradient-to-r from-blue-500 to-blue-700 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:shadow-md'
+                  ? 'text-gray-900 font-medium border-b-2 border-blue-600'
+                  : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              <span>♂</span> Male Names ({genderCounts.male.toLocaleString()})
+              Boys
             </button>
             <button
               onClick={() => handleFilterClick('female')}
-              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
+              className={`transition-all duration-200 ${
                 activeFilter === 'female'
-                  ? 'bg-gradient-to-r from-pink-500 to-pink-700 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:shadow-md'
+                  ? 'text-gray-900 font-medium border-b-2 border-pink-600'
+                  : 'text-gray-500 hover:text-gray-700'
               }`}
             >
-              <span>♀</span> Female Names ({genderCounts.female.toLocaleString()})
+              Girls
             </button>
-          </div>
+            <button
+              onClick={() => handleFilterClick('unisex')}
+              className={`transition-all duration-200 ${
+                activeFilter === 'unisex'
+                  ? 'text-gray-900 font-medium border-b-2 border-violet-600'
+                  : 'text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              Unisex
+            </button>
+          </motion.div>
+
+          {/* Action Buttons - Full Width */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex flex-col sm:flex-row gap-3 w-full max-w-xl mx-auto"
+          >
+            <button
+              className="w-full py-4 rounded-full text-sm font-light
+                       bg-gray-900 text-white hover:bg-gray-800
+                       transition-all duration-200"
+            >
+              Browse Names
+            </button>
+            <button
+              onClick={() => navigate('/swipe')}
+              className="w-full py-4 rounded-full text-sm font-light
+                       bg-white text-gray-900 border border-gray-200
+                       hover:border-gray-400 transition-all duration-200"
+            >
+              Swipe Mode
+            </button>
+          </motion.div>
 
           {/* Sorting and Filter Controls */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
@@ -675,39 +778,6 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Quick Stats */}
-      <section className="py-8 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-white/80 backdrop-blur rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-            <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-700 rounded-xl flex items-center justify-center mx-auto mb-3">
-              <Baby className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-3xl font-bold text-gray-800">{genderCounts.total.toLocaleString()}</h3>
-            <p className="text-gray-600 font-medium">Unique Names</p>
-          </div>
-          <div className="bg-white/80 backdrop-blur rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-            <div className="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-700 rounded-xl flex items-center justify-center mx-auto mb-3">
-              <Globe className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-3xl font-bold text-gray-800">105</h3>
-            <p className="text-gray-600 font-medium">Countries</p>
-          </div>
-          <div className="bg-white/80 backdrop-blur rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-            <div className="w-14 h-14 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-3">
-              <Star className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-3xl font-bold text-gray-800">100%</h3>
-            <p className="text-gray-600 font-medium">Gender Data</p>
-          </div>
-          <div className="bg-white/80 backdrop-blur rounded-2xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-            <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-indigo-700 rounded-xl flex items-center justify-center mx-auto mb-3">
-              <TrendingUp className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-3xl font-bold text-gray-800">2025</h3>
-            <p className="text-gray-600 font-medium">Latest Data</p>
-          </div>
-        </div>
-      </section>
 
       {/* Names Grid */}
       <section className="py-12 px-4">
@@ -914,45 +984,50 @@ const HomePage: React.FC = () => {
         />
       )}
 
-      {/* Trust Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-purple-50 to-pink-50">
+      {/* Trust Section - Minimalistic */}
+      <section className="py-6 px-4 bg-white/90">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
-            Why 2 Million Parents Trust BabyNames
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-3xl text-white">🎯</span>
-              </div>
-              <h3 className="text-xl font-bold mb-2">Scientifically Curated</h3>
-              <p className="text-gray-600">Every name verified by linguistics experts. Real meanings, authentic origins, no guesswork.</p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-3xl text-white">🌟</span>
-              </div>
-              <h3 className="text-xl font-bold mb-2">AI-Powered Insights</h3>
-              <p className="text-gray-600">Our AI analyzes trends, predicts popularity, and suggests names that match your family's story.</p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-red-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-3xl text-white">💝</span>
-              </div>
-              <h3 className="text-xl font-bold mb-2">Emotional Connection</h3>
-              <p className="text-gray-600">Find names that resonate with your heart. Each suggestion considers meaning, sound, and feeling.</p>
-            </div>
+          <div className="text-center mb-4">
+            <h2 className="text-lg font-light text-gray-700">Trusted by 2 Million Parents</h2>
           </div>
 
-          {/* Social Proof */}
-          <div className="mt-12 text-center">
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-white rounded-full shadow-lg">
-              <span className="text-yellow-500">⭐⭐⭐⭐⭐</span>
-              <span className="font-bold text-gray-800">4.9/5</span>
-              <span className="text-gray-600">from 2,847 reviews this month</span>
+          <div className="flex justify-center items-center">
+            <div className="flex flex-row items-center gap-8 md:gap-12">
+              {/* Expert Verified */}
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full border border-blue-200 flex items-center justify-center">
+                  <Target className="w-4 h-4 text-blue-400" strokeWidth={1.5} />
+                </div>
+                <span className="text-sm text-gray-600 font-light whitespace-nowrap">Expert Verified</span>
+              </div>
+
+              {/* AI Insights */}
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full border border-pink-200 flex items-center justify-center">
+                  <Sparkles className="w-4 h-4 text-pink-400" strokeWidth={1.5} />
+                </div>
+                <span className="text-sm text-gray-600 font-light whitespace-nowrap">AI Insights</span>
+              </div>
+
+              {/* Emotional Match */}
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full border border-blue-200 flex items-center justify-center">
+                  <Heart className="w-4 h-4 text-blue-400" strokeWidth={1.5} />
+                </div>
+                <span className="text-sm text-gray-600 font-light whitespace-nowrap">Emotional Match</span>
+              </div>
+
+              {/* Divider */}
+              <div className="h-6 w-px bg-gray-200"></div>
+
+              {/* Rating */}
+              <div className="flex items-center gap-2">
+                <Star className="w-4 h-4 text-pink-400" strokeWidth={1.5} />
+                <span className="text-sm font-light">
+                  <span className="text-gray-900">4.9/5</span>
+                  <span className="text-gray-500 ml-1">· 2,847 reviews</span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -1010,6 +1085,30 @@ const HomePage: React.FC = () => {
             <span>✓ 164,374 Names</span>
             <span>✓ Instant Results</span>
             <span>✓ 100% Free</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section - Minimalistic */}
+      <section className="py-8 px-4 bg-white/90 backdrop-blur-sm border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+              <h3 className="text-2xl font-light text-gray-900">{genderCounts.total.toLocaleString()}</h3>
+              <p className="text-sm text-gray-600 font-light mt-1">Unique Names</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-light text-gray-900">105</h3>
+              <p className="text-sm text-gray-600 font-light mt-1">Countries</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-light text-gray-900">100%</h3>
+              <p className="text-sm text-gray-600 font-light mt-1">Gender Data</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-light text-gray-900">2025</h3>
+              <p className="text-sm text-gray-600 font-light mt-1">Latest Data</p>
+            </div>
           </div>
         </div>
       </section>

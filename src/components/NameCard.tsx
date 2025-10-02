@@ -168,7 +168,7 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
 
       {/* Sparkle animation on hover */}
       <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-        <Sparkles className="w-4 h-4 text-yellow-400 animate-pulse" />
+        <Sparkles className="w-4 h-4 text-yellow-400/60 animate-pulse" strokeWidth={1.5} />
       </div>
 
       <div className="relative p-6">
@@ -176,7 +176,7 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
         {/* Header with Left-aligned Rating */}
         <div className="mb-4">
           <div className="flex items-start justify-between mb-2">
-            <div className={`px-3 py-1 rounded-full bg-gradient-to-r ${genderColor} text-white text-sm font-bold`}>
+            <div className={`px-3 py-1 rounded-full border border-gray-200 bg-white/40 text-gray-600 text-sm font-light`}>
               {getDisplayRank()}
             </div>
           </div>
@@ -189,10 +189,10 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
               </span>
             </h3>
             {meaning && (
-              <div className="mt-3 px-3 py-2 bg-white/50 rounded-lg border border-white/80">
+              <div className="mt-3 px-3 py-2 bg-white/30 rounded-lg border border-white/50">
                 <div className="flex items-center gap-1 justify-center">
-                  <BookOpen className="w-3 h-3 text-gray-500" />
-                  <span className="text-sm font-medium text-gray-700 italic">
+                  <BookOpen className="w-3 h-3 text-gray-400" strokeWidth={1.5} />
+                  <span className="text-sm font-light text-gray-600 italic">
                     "{meaning}"
                   </span>
                 </div>
@@ -200,15 +200,15 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
             )}
             {origin && (
               <div className="mt-2 flex items-center justify-center gap-2">
-                <div className="inline-flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-purple-50 to-indigo-50 rounded-full border border-purple-200">
-                  <Globe className="w-3 h-3 text-purple-600" />
-                  <span className="text-xs font-semibold text-purple-700">
+                <div className="inline-flex items-center gap-1 px-3 py-1 bg-white/40 rounded-full border border-gray-200">
+                  <Globe className="w-3 h-3 text-gray-500" strokeWidth={1.5} />
+                  <span className="text-xs font-light text-gray-600">
                     {origin}
                   </span>
                 </div>
                 {enriched && (
-                  <div className="inline-flex items-center px-2 py-1 bg-green-50 rounded-full border border-green-200" title="AI Enriched">
-                    <Sparkles className="w-3 h-3 text-green-600" />
+                  <div className="inline-flex items-center px-2 py-1 bg-white/40 rounded-full border border-gray-200" title="AI Enriched">
+                    <Sparkles className="w-3 h-3 text-gray-500" strokeWidth={1.5} />
                   </div>
                 )}
               </div>
@@ -218,48 +218,48 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
 
         {/* Simplified Stats - Only Popularity Score */}
         <div className="mb-4 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/60 rounded-full border border-gray-200">
-            <span className="text-sm font-medium text-gray-600">Popularity</span>
-            <span className={`text-lg font-bold bg-gradient-to-r ${genderColor} bg-clip-text text-transparent`}>
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/40 rounded-full border border-gray-200">
+            <span className="text-sm font-light text-gray-600">Popularity</span>
+            <span className={`text-lg font-medium bg-gradient-to-r ${genderColor} bg-clip-text text-transparent`}>
               {Math.round(popularityPercent)}%
             </span>
           </div>
         </div>
       </div>
 
-      {/* Tinder-style action buttons */}
+      {/* Minimalistic action buttons */}
       <div className="absolute bottom-4 left-0 right-0 flex justify-between items-center px-4">
-        {/* Dislike button - Tinder Nope style */}
+        {/* Dislike button - Minimalistic */}
         <button
           onClick={handleDislikeClick}
-          className={`flex items-center justify-center w-16 h-16 rounded-full transition-all duration-300 ${
+          className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-300 ${
             isDisliked
-              ? 'bg-rose-500 border-4 border-rose-500 shadow-xl'
-              : 'bg-white border-4 border-rose-500 shadow-lg hover:shadow-xl'
-          } transform hover:scale-110 active:scale-95`}
+              ? 'bg-red-50 border-2 border-red-300 shadow-md'
+              : 'bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-red-200'
+          } transform hover:scale-105 active:scale-95`}
           title={isDisliked ? 'Remove from hidden' : 'Pass on this name'}
         >
-          <X className={`w-9 h-9 transition-all duration-300 ${
+          <X className={`w-6 h-6 transition-all duration-300 ${
             isDisliked
-              ? 'text-white stroke-[3.5px]'
-              : 'text-rose-500 stroke-[3.5px]'
+              ? 'text-red-400 stroke-[1.5]'
+              : 'text-gray-400 hover:text-red-400 stroke-[1.5]'
           }`} />
         </button>
 
-        {/* Like button - Tinder Like style */}
+        {/* Like button - Minimalistic */}
         <button
           onClick={handleFavoriteClick}
-          className={`flex items-center justify-center w-16 h-16 rounded-full transition-all duration-300 ${
+          className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-300 ${
             isFavorite
-              ? 'bg-teal-400 border-4 border-teal-400 shadow-xl'
-              : 'bg-white border-4 border-teal-400 shadow-lg hover:shadow-xl'
-          } transform hover:scale-110 active:scale-95`}
+              ? 'bg-pink-50 border-2 border-pink-300 shadow-md'
+              : 'bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-pink-200'
+          } transform hover:scale-105 active:scale-95`}
           title={isFavorite ? 'Remove from favorites' : 'Love this name'}
         >
-          <Heart className={`w-8 h-8 transition-all duration-300 ${
+          <Heart className={`w-6 h-6 transition-all duration-300 ${
             isFavorite
-              ? 'text-white fill-white stroke-[2.5px]'
-              : 'text-teal-400 stroke-[2.5px]'
+              ? 'text-pink-400 fill-pink-400 stroke-[1.5]'
+              : 'text-gray-400 hover:text-pink-400 stroke-[1.5]'
           }`} />
         </button>
       </div>

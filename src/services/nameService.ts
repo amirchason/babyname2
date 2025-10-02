@@ -16,6 +16,8 @@ export interface NameEntry {
     Male?: number;
     Female?: number;
   };
+  isUnisex?: boolean;
+  unisexScore?: number; // 0-1 scale, where 0.5 is perfectly unisex
   origin?: string;
   meaning?: string;
   popularity?: number;
@@ -155,19 +157,34 @@ class NameService {
     if (!searchTerm) return [];
 
     const lowerSearch = searchTerm.toLowerCase();
+    const exactMatches: NameEntry[] = [];
+    const startsWithResults: NameEntry[] = [];
+    const containsResults: NameEntry[] = [];
 
-    // Prioritize names that START with the search term
-    const startsWithResults = this.allNames.filter(name =>
-      name.name.toLowerCase().startsWith(lowerSearch)
-    );
+    // Single pass through all names for efficiency
+    for (const name of this.allNames) {
+      const lowerName = name.name.toLowerCase();
 
-    // Then include names that contain the search term
-    const containsResults = this.allNames.filter(name =>
-      name.name.toLowerCase().includes(lowerSearch) &&
-      !name.name.toLowerCase().startsWith(lowerSearch)
-    );
+      if (lowerName === lowerSearch) {
+        // FIRST PRIORITY: Exact match (e.g., "Jo" as a complete name)
+        exactMatches.push(name);
+      } else if (lowerName.startsWith(lowerSearch)) {
+        // SECOND PRIORITY: Names that START with the search term
+        startsWithResults.push(name);
+      } else if (lowerName.includes(lowerSearch)) {
+        // THIRD PRIORITY: Names that contain the search term elsewhere
+        containsResults.push(name);
+      }
+    }
 
-    return [...startsWithResults, ...containsResults].slice(0, 100);
+    // Sort each category alphabetically for perfect ordering
+    // This ensures Jo -> Joana -> Joan -> Joanna -> John -> Jordan -> Joseph
+    exactMatches.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    startsWithResults.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    containsResults.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+
+    // Combine results in priority order and limit to 100
+    return [...exactMatches, ...startsWithResults, ...containsResults].slice(0, 100);
   }
 
   /**
@@ -211,17 +228,71 @@ class NameService {
   /**
    * Get names by gender
    */
-  getNamesByGender(gender: 'male' | 'female'): NameEntry[] {
+  getNamesByGender(gender: 'male' | 'female' | 'unisex'): NameEntry[] {
     return this.allNames.filter(n => {
       if (typeof n.gender === 'object') {
-        if (gender === 'male') {
-          return (n.gender.Male || 0) > (n.gender.Female || 0);
+        const maleScore = n.gender.Male || 0;
+        const femaleScore = n.gender.Female || 0;
+
+        if (gender === 'unisex') {
+          // Calculate if name is unisex
+          return this.isUnisexName(n);
+        } else if (gender === 'male') {
+          return maleScore > femaleScore;
         } else {
-          return (n.gender.Female || 0) > (n.gender.Male || 0);
+          return femaleScore > maleScore;
         }
       }
       return false;
     });
+  }
+
+  /**
+   * Check if a name is unisex based on gender scores
+   */
+  isUnisexName(name: NameEntry): boolean {
+    if (name.isUnisex !== undefined) {
+      return name.isUnisex;
+    }
+
+    if (typeof name.gender === 'object' && name.gender) {
+      const maleScore = name.gender.Male || 0;
+      const femaleScore = name.gender.Female || 0;
+      const total = maleScore + femaleScore;
+
+      if (total === 0) return false;
+
+      const maleRatio = maleScore / total;
+      // Consider unisex if ratio is between 35% and 65%
+      const threshold = 0.35;
+
+      return maleRatio >= threshold && maleRatio <= (1 - threshold);
+    }
+
+    return false;
+  }
+
+  /**
+   * Calculate unisex score (0-1 scale, 0.5 is perfectly balanced)
+   */
+  getUnisexScore(name: NameEntry): number {
+    if (name.unisexScore !== undefined) {
+      return name.unisexScore;
+    }
+
+    if (typeof name.gender === 'object' && name.gender) {
+      const maleScore = name.gender.Male || 0;
+      const femaleScore = name.gender.Female || 0;
+      const total = maleScore + femaleScore;
+
+      if (total === 0) return 0;
+
+      const maleRatio = maleScore / total;
+      // Return how close to 0.5 (perfect balance) the ratio is
+      return 1 - Math.abs(0.5 - maleRatio) * 2;
+    }
+
+    return 0;
   }
 
   /**
@@ -254,7 +325,9 @@ class NameService {
     let unisex = 0;
 
     this.allNames.forEach(name => {
-      if (typeof name.gender === 'object' && name.gender) {
+      if (this.isUnisexName(name)) {
+        unisex++;
+      } else if (typeof name.gender === 'object' && name.gender) {
         const maleScore = name.gender.Male || 0;
         const femaleScore = name.gender.Female || 0;
 
@@ -262,8 +335,6 @@ class NameService {
           male++;
         } else if (femaleScore > maleScore) {
           female++;
-        } else {
-          unisex++;
         }
       }
     });
@@ -281,7 +352,7 @@ class NameService {
    */
   getFilteredCount(
     searchTerm: string = '',
-    gender: 'all' | 'male' | 'female' = 'all',
+    gender: 'all' | 'male' | 'female' | 'unisex' = 'all',
     showFavorites: boolean = false
   ): number {
     let results = this.allNames;
@@ -296,7 +367,9 @@ class NameService {
     // Apply gender filter
     if (gender !== 'all') {
       results = results.filter(name => {
-        if (typeof name.gender === 'object' && name.gender) {
+        if (gender === 'unisex') {
+          return this.isUnisexName(name);
+        } else if (typeof name.gender === 'object' && name.gender) {
           const isMale = (name.gender.Male || 0) > (name.gender.Female || 0);
           return gender === 'male' ? isMale : !isMale;
         }

@@ -196,10 +196,10 @@ const SwipeModePage: React.FC = () => {
     setLastAction({ name: currentCard.name, action });
 
     if (direction === 'right') {
-      favoritesService.toggleFavorite(currentCard.name);
+      favoritesService.addFavorite(currentCard.name);
       setFavoritesCount(favoritesService.getFavoritesCount());
     } else {
-      favoritesService.toggleDislike(currentCard.name);
+      favoritesService.addDislike(currentCard.name);
       setDislikesCount(favoritesService.getDislikesCount());
     }
 
@@ -240,10 +240,10 @@ const SwipeModePage: React.FC = () => {
       setLastAction({ name: currentCard.name, action });
 
       if (action === 'like') {
-        favoritesService.toggleFavorite(currentCard.name);
+        favoritesService.addFavorite(currentCard.name);
         setFavoritesCount(favoritesService.getFavoritesCount());
       } else {
-        favoritesService.toggleDislike(currentCard.name);
+        favoritesService.addDislike(currentCard.name);
         setDislikesCount(favoritesService.getDislikesCount());
       }
 

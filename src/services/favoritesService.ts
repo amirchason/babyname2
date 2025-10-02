@@ -105,6 +105,9 @@ class FavoritesService {
       // Add to favorites
       this.data.favorites.push(normalizedName);
       this.saveToStorage();
+
+      // Dispatch custom event for heart animation
+      window.dispatchEvent(new CustomEvent('favoriteAdded', { detail: { name: normalizedName } }));
     }
   }
 
