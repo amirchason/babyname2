@@ -48,8 +48,15 @@ const HomePage: React.FC = () => {
         // Start with enough names to immediately show pagination
         const popularNames = nameService.getPopularNames(1000); // Show first 1000 names immediately
         console.log(`HomePage: Got ${popularNames.length} popular names`);
+
+        // Apply filters immediately to avoid flash of unfiltered content
+        const initialFiltered = popularNames.filter(name =>
+          !favoritesService.isDisliked(name.name) &&
+          !favoritesService.isFavorite(name.name)
+        );
+
         setNames(popularNames);
-        setFilteredNames(popularNames);
+        setFilteredNames(initialFiltered);
         setTotalNames(nameService.getTotalNames());
         console.log('HomePage: Names set, stopping loading spinner...');
         setLoading(false);
@@ -102,8 +109,15 @@ const HomePage: React.FC = () => {
           nameService.loadFullDatabase().then(() => {
             const allNames = nameService.getAllNames(250000);
             console.log(`HomePage: Loaded ${allNames.length} names in background`);
+
+            // Apply filters immediately to avoid flash of unfiltered content
+            const backgroundFiltered = allNames.filter(name =>
+              !favoritesService.isDisliked(name.name) &&
+              !favoritesService.isFavorite(name.name)
+            );
+
             setNames(allNames);
-            setFilteredNames(allNames);
+            setFilteredNames(backgroundFiltered);
             setTotalNames(nameService.getTotalNames());
 
             // Get gender counts

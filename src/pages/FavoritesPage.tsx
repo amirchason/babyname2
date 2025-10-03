@@ -5,12 +5,16 @@ import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
+import { useToast } from '../contexts/ToastContext';
+import { useAuth } from '../contexts/AuthContext';
 
 const FavoritesPage: React.FC = () => {
   const [favoriteNames, setFavoriteNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+  const toast = useToast();
+  const { isAuthenticated } = useAuth();
 
   useEffect(() => {
     loadFavorites();
@@ -36,17 +40,33 @@ const FavoritesPage: React.FC = () => {
 
   const clearAllFavorites = async () => {
     if (window.confirm('Are you sure you want to clear all favorites? This will delete your favorites from both device and cloud.')) {
-      // Clear the favorites
-      await favoritesService.clearFavorites();
-      console.log('[FavoritesPage] Favorites cleared and saved');
+      try {
+        console.log('[FavoritesPage] Starting to clear favorites...');
 
-      // Immediately clear the UI state
-      setFavoriteNames([]);
+        // Clear the favorites and wait for cloud sync to complete
+        await favoritesService.clearFavorites();
+        console.log('[FavoritesPage] Favorites cleared successfully');
 
-      // Force a reload after a brief delay to ensure everything is synced
-      setTimeout(() => {
-        loadFavorites();
-      }, 100);
+        // Immediately clear the UI state
+        setFavoriteNames([]);
+
+        // Show success message
+        if (isAuthenticated) {
+          toast.success('All favorites cleared from device and cloud!');
+        } else {
+          toast.success('All favorites cleared from device!');
+        }
+      } catch (error) {
+        console.error('[FavoritesPage] Error clearing favorites:', error);
+        // Still clear UI even if cloud sync fails
+        setFavoriteNames([]);
+
+        if (isAuthenticated) {
+          toast.warning('Favorites cleared locally, but cloud sync failed. They will sync next time you log in.');
+        } else {
+          toast.success('All favorites cleared!');
+        }
+      }
     }
   };
 

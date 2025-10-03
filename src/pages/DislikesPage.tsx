@@ -5,12 +5,16 @@ import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
+import { useToast } from '../contexts/ToastContext';
+import { useAuth } from '../contexts/AuthContext';
 
 const DislikesPage: React.FC = () => {
   const [dislikedNames, setDislikedNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+  const toast = useToast();
+  const { isAuthenticated } = useAuth();
 
   useEffect(() => {
     loadDislikes();
@@ -36,17 +40,33 @@ const DislikesPage: React.FC = () => {
 
   const clearAllDislikes = async () => {
     if (window.confirm('Are you sure you want to clear all disliked names? This will delete your dislikes from both device and cloud.')) {
-      // Clear the dislikes
-      await favoritesService.clearDislikes();
-      console.log('[DislikesPage] Dislikes cleared and saved');
+      try {
+        console.log('[DislikesPage] Starting to clear dislikes...');
 
-      // Immediately clear the UI state
-      setDislikedNames([]);
+        // Clear the dislikes and wait for cloud sync to complete
+        await favoritesService.clearDislikes();
+        console.log('[DislikesPage] Dislikes cleared successfully');
 
-      // Force a reload after a brief delay to ensure everything is synced
-      setTimeout(() => {
-        loadDislikes();
-      }, 100);
+        // Immediately clear the UI state
+        setDislikedNames([]);
+
+        // Show success message
+        if (isAuthenticated) {
+          toast.success('All dislikes cleared from device and cloud!');
+        } else {
+          toast.success('All dislikes cleared from device!');
+        }
+      } catch (error) {
+        console.error('[DislikesPage] Error clearing dislikes:', error);
+        // Still clear UI even if cloud sync fails
+        setDislikedNames([]);
+
+        if (isAuthenticated) {
+          toast.warning('Dislikes cleared locally, but cloud sync failed. They will sync next time you log in.');
+        } else {
+          toast.success('All dislikes cleared!');
+        }
+      }
     }
   };
 

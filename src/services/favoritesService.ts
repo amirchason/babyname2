@@ -51,8 +51,10 @@ class FavoritesService {
   }
 
   setUserContext(userId: string | null) {
+    console.log('[FavoritesService] Setting user context:', userId);
     this.userId = userId;
     this.isLoggedIn = !!userId;
+    console.log('[FavoritesService] User context set - isLoggedIn:', this.isLoggedIn);
   }
 
   private loadFromStorage(): void {
@@ -163,52 +165,94 @@ class FavoritesService {
   // Clear methods - async to ensure cloud sync completes
   async clearFavorites(): Promise<void> {
     console.log('[FavoritesService] Clearing favorites...');
-    this.data.favorites = [];
-    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
-    console.log('[FavoritesService] Favorites cleared from localStorage');
+    console.log('[FavoritesService] Current isLoggedIn:', this.isLoggedIn, 'userId:', this.userId);
 
-    // Force immediate cloud sync
+    // Clear favorites from memory
+    this.data.favorites = [];
+
+    // Immediately save to localStorage
+    try {
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+      console.log('[FavoritesService] Favorites cleared from localStorage');
+    } catch (error) {
+      console.error('[FavoritesService] Error saving to localStorage:', error);
+      throw error;
+    }
+
+    // Force immediate cloud sync if logged in
     if (this.isLoggedIn && this.userId) {
+      console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
         await userDataService.saveToCloud(this.data.favorites, this.data.dislikes);
-        console.log('[FavoritesService] Empty favorites synced to cloud');
+        console.log('[FavoritesService] Empty favorites successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty favorites to cloud:', error);
+        throw error; // Propagate error so the UI can handle it
       }
+    } else {
+      console.log('[FavoritesService] User not logged in, skipping cloud sync');
     }
   }
 
   async clearDislikes(): Promise<void> {
     console.log('[FavoritesService] Clearing dislikes...');
-    this.data.dislikes = [];
-    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
-    console.log('[FavoritesService] Dislikes cleared from localStorage');
+    console.log('[FavoritesService] Current isLoggedIn:', this.isLoggedIn, 'userId:', this.userId);
 
-    // Force immediate cloud sync
+    // Clear dislikes from memory
+    this.data.dislikes = [];
+
+    // Immediately save to localStorage
+    try {
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+      console.log('[FavoritesService] Dislikes cleared from localStorage');
+    } catch (error) {
+      console.error('[FavoritesService] Error saving to localStorage:', error);
+      throw error;
+    }
+
+    // Force immediate cloud sync if logged in
     if (this.isLoggedIn && this.userId) {
+      console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
         await userDataService.saveToCloud(this.data.favorites, this.data.dislikes);
-        console.log('[FavoritesService] Empty dislikes synced to cloud');
+        console.log('[FavoritesService] Empty dislikes successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty dislikes to cloud:', error);
+        throw error; // Propagate error so the UI can handle it
       }
+    } else {
+      console.log('[FavoritesService] User not logged in, skipping cloud sync');
     }
   }
 
   async clearAll(): Promise<void> {
     console.log('[FavoritesService] Clearing all favorites and dislikes...');
-    this.data = { favorites: [], dislikes: [] };
-    localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
-    console.log('[FavoritesService] All data cleared from localStorage');
+    console.log('[FavoritesService] Current isLoggedIn:', this.isLoggedIn, 'userId:', this.userId);
 
-    // Force immediate cloud sync
+    // Clear all data from memory
+    this.data = { favorites: [], dislikes: [] };
+
+    // Immediately save to localStorage
+    try {
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+      console.log('[FavoritesService] All data cleared from localStorage');
+    } catch (error) {
+      console.error('[FavoritesService] Error saving to localStorage:', error);
+      throw error;
+    }
+
+    // Force immediate cloud sync if logged in
     if (this.isLoggedIn && this.userId) {
+      console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
         await userDataService.saveToCloud([], []);
-        console.log('[FavoritesService] Empty lists synced to cloud');
+        console.log('[FavoritesService] Empty lists successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty lists to cloud:', error);
+        throw error; // Propagate error so the UI can handle it
       }
+    } else {
+      console.log('[FavoritesService] User not logged in, skipping cloud sync');
     }
   }
 
