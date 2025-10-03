@@ -21,6 +21,11 @@ export interface NameEntry {
   origin?: string;
   originProcessed?: boolean; // Track if origin has been AI-processed
   meaning?: string;
+  meaningShort?: string; // Up to 4 words for name cards
+  meaningFull?: string; // Up to 15 words for detail view
+  meanings?: string[]; // Array of up to 3 meanings
+  meaningProcessed?: boolean; // Track if meaning has been AI-processed
+  meaningProcessedAt?: string; // Timestamp of processing
   popularity?: number;
   popularityRank?: number;
   isPopular?: boolean;

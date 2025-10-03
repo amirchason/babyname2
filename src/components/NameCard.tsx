@@ -30,17 +30,19 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
     // Get enriched data from service
     const enrichedData = enrichmentService.getNameData(name.name);
     if (enrichedData) {
-      setMeaning(enrichedData.meaning || name.meaning);
+      // Prioritize short meaning for cards, fall back to regular meaning
+      setMeaning(name.meaningShort || enrichedData.meaning || name.meaning);
       // Prioritize origin from name entry (batch processed), then enrichment service
       setOrigin(name.origin || enrichedData.origin);
-      setEnriched(enrichedData.enriched || name.originProcessed || false);
+      setEnriched(enrichedData.enriched || name.originProcessed || name.meaningProcessed || false);
     } else {
-      setMeaning(name.meaning);
+      // Use short meaning if available, otherwise regular meaning
+      setMeaning(name.meaningShort || name.meaning);
       // Use origin from name entry if available
       setOrigin(name.origin);
-      setEnriched(name.originProcessed || false);
+      setEnriched(name.originProcessed || name.meaningProcessed || false);
     }
-  }, [name.name, name.meaning, name.origin, name.originProcessed]);
+  }, [name.name, name.meaning, name.meaningShort, name.origin, name.originProcessed, name.meaningProcessed]);
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click

@@ -67,16 +67,33 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, onClose }) => {
         {/* Content */}
         <div className="p-4 sm:p-8">
           {/* Meaning Section */}
-          {enrichedData.meaning && (
+          {(name.meaningFull || name.meaning || enrichedData.meaning) && (
             <div className="mb-4 sm:mb-6 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl border border-purple-200">
               <div className="flex items-center gap-2 mb-2">
                 <BookOpen className="w-5 h-5 text-purple-600" />
                 <h3 className="text-lg font-semibold text-purple-800">Meaning</h3>
-                {enrichedData.enriched && (
+                {(name.meaningProcessed || enrichedData.enriched) && (
                   <Sparkles className="w-4 h-4 text-green-600" />
                 )}
               </div>
-              <p className="text-lg italic text-gray-700">"{enrichedData.meaning}"</p>
+
+              {/* Primary meaning (full version) */}
+              <p className="text-lg italic text-gray-700">
+                "{name.meaningFull || enrichedData.meaning || name.meaning}"
+              </p>
+
+              {/* Multiple meanings if available */}
+              {name.meanings && name.meanings.length > 1 && (
+                <div className="mt-3 space-y-1">
+                  <p className="text-sm font-medium text-purple-700">Alternative meanings:</p>
+                  {name.meanings.slice(1, 3).map((altMeaning, index) => (
+                    <p key={index} className="text-sm text-gray-600 pl-3 border-l-2 border-purple-200">
+                      • {altMeaning}
+                    </p>
+                  ))}
+                </div>
+              )}
+
               {enrichedData.culturalContext && (
                 <p className="text-sm text-gray-600 mt-2">{enrichedData.culturalContext}</p>
               )}
