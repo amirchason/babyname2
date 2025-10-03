@@ -96,9 +96,14 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, onClose }) => {
               <div className="text-center">
                 <Globe className="w-8 h-8 text-indigo-500 mx-auto mb-2" />
                 <div className="text-xl font-bold text-gray-800 capitalize">
-                  {enrichedData.origin || name.origin || 'Unknown'}
+                  {name.origin || enrichedData.origin || 'Unknown'}
                 </div>
-                <div className="text-sm text-gray-500">Origin</div>
+                <div className="text-sm text-gray-500">
+                  Origin
+                  {name.originProcessed && (
+                    <span className="ml-1 text-xs text-green-600">✓</span>
+                  )}
+                </div>
               </div>
             </div>
           </div>

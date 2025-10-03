@@ -19,6 +19,7 @@ export interface NameEntry {
   isUnisex?: boolean;
   unisexScore?: number; // 0-1 scale, where 0.5 is perfectly unisex
   origin?: string;
+  originProcessed?: boolean; // Track if origin has been AI-processed
   meaning?: string;
   popularity?: number;
   popularityRank?: number;

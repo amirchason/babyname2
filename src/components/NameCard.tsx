@@ -31,14 +31,16 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
     const enrichedData = enrichmentService.getNameData(name.name);
     if (enrichedData) {
       setMeaning(enrichedData.meaning || name.meaning);
-      setOrigin(enrichedData.origin);
-      setEnriched(enrichedData.enriched || false);
+      // Prioritize origin from name entry (batch processed), then enrichment service
+      setOrigin(name.origin || enrichedData.origin);
+      setEnriched(enrichedData.enriched || name.originProcessed || false);
     } else {
       setMeaning(name.meaning);
-      setOrigin(undefined);
-      setEnriched(false);
+      // Use origin from name entry if available
+      setOrigin(name.origin);
+      setEnriched(name.originProcessed || false);
     }
-  }, [name.name, name.meaning]);
+  }, [name.name, name.meaning, name.origin, name.originProcessed]);
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
