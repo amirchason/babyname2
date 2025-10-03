@@ -3,16 +3,17 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, AI-powered suggestions, Tinder-style swiping, and cloud sync.
+BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, AI-powered suggestions, Tinder-style swiping, and Firebase cloud sync.
 
 ## Essential Commands
 
 ### Development
 ```bash
-npm start              # Start dev server (http://localhost:3000)
+npm start              # Start dev server (http://localhost:3000) with NODE_OPTIONS='--max-old-space-size=1024'
 npm run build          # Production build
-npm test               # Run test suite
+npm test               # Run test suite (Note: No tests currently written)
 npm run lint           # ESLint check
+npm run eject          # Eject from react-scripts (NOT RECOMMENDED)
 ```
 
 ### Deployment
@@ -20,19 +21,29 @@ npm run lint           # ESLint check
 npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
 ```
 
+### Continuous Deployment
+Auto-deployment via GitHub Actions (`.github/workflows/deploy.yml`):
+- **Trigger**: Push to `master` or `main` branch
+- **Deploy Action**: JamesIves/github-pages-deploy-action@v4
+- **CI**: false (ignores build warnings)
+
 ## Architecture & Key Concepts
 
 ### Data Layer Architecture
-The app uses a **dual-database system** with progressive loading:
+The app uses a **multi-tier database system** with progressive loading:
 
-1. **Full Database Import** (`src/data/fullDatabase.ts`):
-   - 174,000+ names imported directly from `src/data/fullNames_cache.json`
-   - Loaded synchronously at module initialization for instant availability
+1. **Initial Fallback** (`src/data/largeFallbackNames.ts`):
+   - Hardcoded array of popular names for instant display
+   - Loaded synchronously at module initialization
+
+2. **Full Database** (`src/data/fullDatabase.ts`):
+   - Imports `largeFallbackNames` as initial data
+   - **NOTE**: Does NOT load from `fullNames_cache.json` (file doesn't exist)
    - Used by `nameService` as the primary data source
 
-2. **Optimized Service** (`src/services/optimizedNameService.ts`):
-   - Progressive chunk loading system for 228k names
-   - Compressed JSON chunks in `public/data/names-*.json.gz`
+3. **Optimized Service** (`src/services/optimizedNameService.ts`):
+   - Progressive chunk loading from `public/data/names-chunk[1-4].json`
+   - Chunk 1: ~23MB, Chunks 2-4: variable sizes
    - Three-tier cache: memory → chunks → disk
    - Used for advanced features (swipe decks, search indexing)
 
@@ -67,6 +78,14 @@ Component → nameService → optimizedNameService → chunks
 - Stored in localStorage: `favorites`, `dislikes`
 - Cloud sync via `userDataService` when authenticated
 - Automatic merge strategy on login
+
+### Firebase Configuration
+
+The app uses **Firebase** for cloud sync and authentication:
+- **Project ID**: `babynames-app-9fa2a`
+- **Config File**: `src/config/firebase.ts`
+- **Features**: Google Authentication, Firestore with offline persistence (IndexedDB)
+- **Important**: Only one browser tab can have active persistence at a time
 
 ### Component Structure
 
@@ -154,12 +173,36 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 
 ## Tech Stack
 - React 19.1 + TypeScript 4.9
-- React Router v7.9
-- Tailwind CSS 3.4
+- React Router v7.9 (not v6!)
+- Tailwind CSS 3.4 with custom pastel colors & animations
+- Firebase 12.3.0 (auth & cloud sync)
 - Google Gemini AI (@google/generative-ai)
 - Framer Motion (animations)
 - @react-oauth/google (auth)
 - Lucide React (icons)
+
+## Testing
+
+**Current State**: No tests written yet!
+- Uses default `react-scripts test` configuration (Jest + React Testing Library)
+- No custom `jest.config.js` or `setupTests.ts` files
+- Testing libraries are installed and ready
+
+**To add tests**:
+1. Create `*.test.tsx` files in `src/` directory
+2. Run with `npm test`
+3. Tests will auto-detect and run via Jest
+
+## Additional Documentation
+
+**Important**: Always check `SESSION_LOG.md` FIRST for recent changes and context!
+
+Other key docs in the repository:
+- **SESSION_LOG.md** - Detailed recent session notes and changes
+- **GOOGLE_AUTH_SETUP.md** - OAuth configuration guide
+- **todos.md** - Project roadmap and task list
+- **DATABASE_FIX_REPORT.md** - Database maintenance history
+- **README.md** - Public-facing project description
 
 ## Known Issues / Important Notes
 
@@ -168,6 +211,8 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 - Swipe deck feature is implemented but questionnaire integration is in progress
 - Background enrichment may hit API rate limits with free tier Gemini key
 - GitHub Pages deployment requires `PUBLIC_URL=/babyname2` and `homepage` in package.json
+- TypeScript path alias `@/*` configured but has module resolution issues (use relative imports)
+- `scripts/` contains 47 Python data processing scripts (mostly one-off utilities, data already processed)
 
 ---
-*Last updated: 2025-09-29*
+*Last updated: 2025-10-03*
