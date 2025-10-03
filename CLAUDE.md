@@ -3,17 +3,17 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, AI-powered suggestions, Tinder-style swiping, and Firebase cloud sync.
+BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, AI-powered suggestions, Tinder-style swiping, and Firebase cloud sync. Features animated UI with UnicornStudio background animations and minimalist design.
 
 ## Essential Commands
 
 ### Development
 ```bash
-npm start              # Start dev server (http://localhost:3000) with NODE_OPTIONS='--max-old-space-size=1024'
-npm run build          # Production build
+npm start              # Start dev server at http://localhost:3000/babyname2 (NODE_OPTIONS='--max-old-space-size=1024')
+npm run build          # Production build for GitHub Pages deployment
 npm test               # Run test suite (Note: No tests currently written)
-npm run lint           # ESLint check
-npm run eject          # Eject from react-scripts (NOT RECOMMENDED)
+npm run lint           # ESLint check with react-app rules
+npm run eject          # Eject from react-scripts (NOT RECOMMENDED - breaks CRA benefits)
 ```
 
 ### Deployment
@@ -73,11 +73,18 @@ Component → nameService → optimizedNameService → chunks
 - Automatic cloud sync on login/logout
 - Guest mode when GOOGLE_CLIENT_ID not configured
 - User data merged between local storage and cloud
+- JWT decode for token validation
 
 **Favorites System**:
 - Stored in localStorage: `favorites`, `dislikes`
 - Cloud sync via `userDataService` when authenticated
 - Automatic merge strategy on login
+- Custom 'favoriteAdded' event dispatched for heart animations
+- Dislikes filtered out from all views except DislikesPage
+
+**Toast Notifications** (`contexts/ToastContext.tsx`):
+- Global toast provider for user feedback
+- Auto-dismiss after 3 seconds
 
 ### Firebase Configuration
 
@@ -90,22 +97,29 @@ The app uses **Firebase** for cloud sync and authentication:
 ### Component Structure
 
 **Pages** (all in `src/pages/`):
-- `HomePage.tsx` - Main interface with search, filters, pagination
+- `HomePage.tsx` - Main interface with hero section, search in header, filters, pagination
 - `NameListPage.tsx` - Full browsable list with advanced filtering
-- `FavoritesPage.tsx` - User's liked names
-- `DislikesPage.tsx` - User's disliked names
+- `FavoritesPage.tsx` - User's liked names with remove functionality
+- `DislikesPage.tsx` - User's disliked names with restore functionality
+- `SwipeModePage.tsx` - Tinder-style swipe interface
+- `DebugPage.tsx` - Debug interface for development
 
 **Key Components** (`src/components/`):
-- `NameCard.tsx` - Individual name display with favorite/dislike actions
+- `NameCard.tsx` - Individual name display with favorite/dislike actions, fly animations
 - `NameDetailModal.tsx` - Detailed view with origin, meaning, stats
-- `SwipingQuestionnaire.tsx` - Onboarding flow for swipe mode
+- `SwipingQuestionnaire.tsx` - Onboarding flow for swipe mode preferences
+- `SwipeableNameCard.tsx` & `SwipeableNameProfile.tsx` - Tinder-style card components
 - `CommandHandler.tsx` - CLI-style command interface
 - `Pagination.tsx` - Infinite scroll & page navigation
+- `Toast.tsx` - Toast notifications component
+- `EnrichmentProcessor.tsx` & `MeaningProcessor.tsx` - Background data enrichment
+- `ui/open-ai-codex-animated-background.tsx` - UnicornStudio floating names animation
 
 ### Routing
-- Uses React Router v6 with basename `/babyname2`
+- Uses React Router v7.9 (latest version, not v6) with basename `/babyname2`
 - Same basename for both dev and production
-- All routes wrapped in `<AuthProvider>`
+- All routes wrapped in `<AuthProvider>` and `<ToastProvider>`
+- Routes defined in `App.tsx`
 
 ### AI Features
 
@@ -159,9 +173,11 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 
 1. **Initial Load**: 1000 popular names shown immediately, full database loads in background
 2. **Pagination**: 100 names per page to keep DOM manageable
-3. **Search**: Prioritizes names starting with search term (see `src/pages/HomePage.tsx:309`)
-4. **Memory**: Node max-old-space-size set to 1024MB in `package.json`
+3. **Search Priority**: Three-tier system (exact → starts-with → contains) at `src/pages/HomePage.tsx:309-371`
+4. **Memory**: Node max-old-space-size set to 1024MB to handle large dataset builds
 5. **Caching**: Service worker enabled, 1-hour cache duration
+6. **Animations**: Hardware-accelerated CSS transforms for card fly effects
+7. **Chunk Loading**: Progressive loading of 4 data chunks to reduce initial bundle
 
 ## Key Files to Understand First
 
@@ -204,11 +220,24 @@ Other key docs in the repository:
 - **DATABASE_FIX_REPORT.md** - Database maintenance history
 - **README.md** - Public-facing project description
 
-## Known Issues / Important Notes
+## Recent UI Enhancements
 
-- Database files in `public/data/` have many duplicates/variants (consolidated vs ultimate vs unified)
-- The "secondary 230k database" mentioned in notes is in `public/data/ultimateNamesDatabase.json`
-- Swipe deck feature is implemented but questionnaire integration is in progress
+1. **Hero Section**: Animated floating baby names background with minimalist design
+2. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
+3. **Heart Animations**: Pink color and heartbeat effect when favorites > 0
+4. **Search Redesign**: Moved to expandable header icon from hero section
+5. **Card Animations**: Fly-away effects on like/dislike actions
+
+## Known Issues / Warnings
+
+### TypeScript Warnings
+- **Framer Motion Variants**: Type mismatch in `NameCard.tsx:163` (ease property string type)
+- **Filter Context**: Unisex filter type mismatch in `HomePage.tsx:833`
+- **Implicit Any**: Missing type in `chunkedDatabaseService.ts:132`
+
+### Architectural Notes
+- Database files in `public/data/` have duplicates (consolidated vs ultimate vs unified)
+- The "secondary 230k database" is in `public/data/ultimateNamesDatabase.json`
 - Background enrichment may hit API rate limits with free tier Gemini key
 - GitHub Pages deployment requires `PUBLIC_URL=/babyname2` and `homepage` in package.json
 - TypeScript path alias `@/*` configured but has module resolution issues (use relative imports)

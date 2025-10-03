@@ -243,14 +243,20 @@ const HomePage: React.FC = () => {
         // Show only favorite names
         results = results.filter(name => favoritesService.isFavorite(name.name));
       } else {
-        // Filter out disliked names from all views (except dislikes page)
-        results = results.filter(name => !favoritesService.isDisliked(name.name));
+        // Filter out both liked AND disliked names from main view
+        results = results.filter(name =>
+          !favoritesService.isDisliked(name.name) &&
+          !favoritesService.isFavorite(name.name)
+        );
       }
 
       if (searchTerm) {
         results = await nameService.searchNames(searchTerm);
-        // Also filter out disliked names from search results
-        results = results.filter(name => !favoritesService.isDisliked(name.name));
+        // Also filter out both liked and disliked names from search results
+        results = results.filter(name =>
+          !favoritesService.isDisliked(name.name) &&
+          !favoritesService.isFavorite(name.name)
+        );
       }
 
       if (activeFilter !== 'all') {
@@ -832,14 +838,24 @@ const HomePage: React.FC = () => {
                           onClick={setSelectedName}
                           filterContext={activeFilter}
                           onFavoriteToggle={() => {
+                            // Update counts
                             setFavoritesCount(favoritesService.getFavoritesCount());
                             setDislikesCount(favoritesService.getDislikesCount());
-                            forceUpdate({});
+
+                            // Force re-render to remove from list after animation
+                            setTimeout(() => {
+                              forceUpdate({});
+                            }, 120); // Match the animation duration
                           }}
                           onDislikeToggle={() => {
+                            // Update counts
                             setFavoritesCount(favoritesService.getFavoritesCount());
                             setDislikesCount(favoritesService.getDislikesCount());
-                            forceUpdate({});
+
+                            // Force re-render to remove from list after animation
+                            setTimeout(() => {
+                              forceUpdate({});
+                            }, 120); // Match the animation duration
                           }}
                         />
                       </motion.div>
