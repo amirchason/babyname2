@@ -12,13 +12,32 @@ BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, A
 npm start              # Start dev server at http://localhost:3000/babyname2 (NODE_OPTIONS='--max-old-space-size=1024')
 npm run build          # Production build for GitHub Pages deployment
 npm test               # Run test suite (Note: No tests currently written)
-npm run lint           # ESLint check with react-app rules
-npm run eject          # Eject from react-scripts (NOT RECOMMENDED - breaks CRA benefits)
+npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
 ```
 
-### Deployment
+### API Testing (Node Scripts)
 ```bash
-npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
+node testAllAPIs.js              # Test all API connections (OpenAI, Gemini, GPT-4)
+node testOpenAI.js               # Test OpenAI API connection specifically
+node testGemini.js               # Test Gemini API connection
+node testGPT4Demo.js             # Test GPT-4 demo functionality
+```
+
+### Data Processing Scripts
+```bash
+node processTop200.js            # Process top 200 names with AI enrichment
+node processFirst10999.js        # Process first 10,999 names batch
+node processNext90000.js         # Process next 90,000 names batch
+node processNext90000WithMini.js # Process with GPT-4-mini model
+node processNamesWithGPT4.js     # Enrich names with GPT-4 meanings/origins
+node enrichWithGemini.js         # Enrich using Gemini API
+node enrichWithMini.js           # Enrich using GPT-4-mini
+node enrichUnknownOrigins.js     # Process names with unknown origins
+node monitorAndContinue.js       # Resume interrupted processing
+node miniMonitorAndContinue.js   # Resume mini model processing
+node checkOpenAIStatus.js        # Check OpenAI API status
+node compareModelQuality.js      # Compare AI model output quality
+node cleanDatabase.js            # Clean and validate database entries
 ```
 
 ### Continuous Deployment
@@ -38,22 +57,29 @@ The app uses a **multi-tier database system** with progressive loading:
 
 2. **Full Database** (`src/data/fullDatabase.ts`):
    - Imports `largeFallbackNames` as initial data
+   - Attempts to fetch `/data/popularNames_cache.json` (10k names)
    - **NOTE**: Does NOT load from `fullNames_cache.json` (file doesn't exist)
-   - Used by `nameService` as the primary data source
 
-3. **Optimized Service** (`src/services/optimizedNameService.ts`):
-   - Progressive chunk loading from `public/data/names-chunk[1-4].json`
-   - Chunk 1: ~23MB, Chunks 2-4: variable sizes
+3. **Chunked Database Service** (`src/services/chunkedDatabaseService.ts`):
+   - Progressive loading from `public/data/names-chunk[1-4].json`
+   - Core chunk: 1000 names (instant load)
+   - Additional chunks: ~3.4MB each
    - Three-tier cache: memory → chunks → disk
-   - Used for advanced features (swipe decks, search indexing)
+   - **THIS IS THE ACTIVE SERVICE** used by nameService.ts
 
-**Critical**: `nameService.ts` wraps `optimizedNameService` for backward compatibility. Most components use `nameService` as the main interface.
+**Data Flow**:
+```
+Component → nameService → chunkedDatabaseService → chunks
+```
+
+**Critical**: `optimizedNameService.ts` exists but is UNUSED. `nameService.ts` uses `chunkedDatabaseService` as the actual data provider.
 
 ### Service Architecture
 
 **Core Services**:
-- `nameService.ts` - Main API for name data (wraps optimizedNameService)
-- `optimizedNameService.ts` - Chunk-based loading, search indexing
+- `nameService.ts` - Main API for name data (uses chunkedDatabaseService)
+- `chunkedDatabaseService.ts` - Progressive chunk loading (ACTIVE)
+- `optimizedNameService.ts` - Alternative implementation (UNUSED)
 - `swipeService.ts` - Tinder-style card stack management
 - `favoritesService.ts` - Local storage for likes/dislikes
 - `userDataService.ts` - Cloud sync with Google OAuth
@@ -70,17 +96,19 @@ Component → nameService → optimizedNameService → chunks
 
 **Authentication** (`contexts/AuthContext.tsx`):
 - Google OAuth 2.0 integration via `@react-oauth/google`
+- **CRITICAL**: Uses Firebase UID (NOT Google OAuth ID) for Firestore - see lines 256-258
 - Automatic cloud sync on login/logout
 - Guest mode when GOOGLE_CLIENT_ID not configured
 - User data merged between local storage and cloud
 - JWT decode for token validation
 
 **Favorites System**:
-- Stored in localStorage: `favorites`, `dislikes`
+- Stored in localStorage: `favorites`, `dislikes`, `pinnedFavorites`
 - Cloud sync via `userDataService` when authenticated
-- Automatic merge strategy on login
+- Automatic merge strategy on login (union of local + cloud)
 - Custom 'favoriteAdded' event dispatched for heart animations
 - Dislikes filtered out from all views except DislikesPage
+- Pinned favorites (max 20) shown at top of favorites page
 
 **Toast Notifications** (`contexts/ToastContext.tsx`):
 - Global toast provider for user feedback
@@ -116,7 +144,7 @@ The app uses **Firebase** for cloud sync and authentication:
 - `ui/open-ai-codex-animated-background.tsx` - UnicornStudio floating names animation
 
 ### Routing
-- Uses React Router v7.9 (latest version, not v6) with basename `/babyname2`
+- **Uses React Router v7.9** (latest version, NOT v6 as README states!) with basename `/babyname2`
 - Same basename for both dev and production
 - All routes wrapped in `<AuthProvider>` and `<ToastProvider>`
 - Routes defined in `App.tsx`
@@ -128,15 +156,22 @@ The app uses **Firebase** for cloud sync and authentication:
 - Background enrichment of name meanings and origins
 - Batch processing to avoid rate limits
 - Cached results stored with name entries
+- **NOTE**: Enrichment currently DISABLED in HomePage.tsx (lines 71-110 commented out)
 
-**Enrichment Pipeline**:
-1. Initialize with popular names
-2. Process in background (10 names/batch, 5s delay)
-3. Update callback triggers UI refresh
-4. Results persisted in name entries
+**Unisex Detection Algorithm**:
+- 35% threshold: Names with 35-65% gender ratio marked as unisex
+- Background processing via `unisexService.ts`
+- Results cached in localStorage
+- Used for "Unisex" filter button in UI
+
+**Search Priority System** (Three-tier):
+1. Exact matches first
+2. Names starting with search term (alphabetical)
+3. Names containing term elsewhere (alphabetical)
+- Located at `src/services/nameService.ts:173-204`
 
 ### Database Scripts
-33 Python scripts in `scripts/` for data processing:
+47 Python scripts in `scripts/` for data processing (13,128 lines total):
 - `consolidate_*.py` - Merge datasets
 - `clean_*.py` - Data sanitization
 - `split_*.py` - Chunk generation
@@ -172,30 +207,34 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 ## Performance Considerations
 
 1. **Initial Load**: 1000 popular names shown immediately, full database loads in background
-2. **Pagination**: 100 names per page to keep DOM manageable
-3. **Search Priority**: Three-tier system (exact → starts-with → contains) at `src/pages/HomePage.tsx:309-371`
+2. **Pagination**: 30 names per page to keep DOM manageable
+3. **Search Priority**: Three-tier system with 100 result limit
 4. **Memory**: Node max-old-space-size set to 1024MB to handle large dataset builds
 5. **Caching**: Service worker enabled, 1-hour cache duration
 6. **Animations**: Hardware-accelerated CSS transforms for card fly effects
 7. **Chunk Loading**: Progressive loading of 4 data chunks to reduce initial bundle
+8. **Firebase Persistence**: Only ONE browser tab can have active persistence at a time
 
 ## Key Files to Understand First
 
-1. `src/services/nameService.ts` - Central data API
-2. `src/contexts/AuthContext.tsx` - Auth + sync logic
-3. `src/pages/HomePage.tsx` - Main UI + interactions
-4. `src/data/fullDatabase.ts` - Database import mechanism
-5. `.env` - Configuration
+1. `src/services/nameService.ts` - Central data API (uses chunkedDatabaseService)
+2. `src/services/chunkedDatabaseService.ts` - Active data loading service
+3. `src/contexts/AuthContext.tsx` - Auth + sync logic (Firebase UID fix at line 256)
+4. `src/pages/HomePage.tsx` - Main UI + interactions
+5. `src/data/fullDatabase.ts` - Database import mechanism
+6. `.env` - Configuration (includes OpenAI keys for Node scripts)
 
 ## Tech Stack
 - React 19.1 + TypeScript 4.9
-- React Router v7.9 (not v6!)
+- React Router v7.9 (NOT v6 as README incorrectly states!)
 - Tailwind CSS 3.4 with custom pastel colors & animations
 - Firebase 12.3.0 (auth & cloud sync)
 - Google Gemini AI (@google/generative-ai)
+- OpenAI API (for Node.js enrichment scripts)
 - Framer Motion (animations)
 - @react-oauth/google (auth)
 - Lucide React (icons)
+- jwt-decode (token validation)
 
 ## Testing
 
@@ -220,13 +259,15 @@ Other key docs in the repository:
 - **DATABASE_FIX_REPORT.md** - Database maintenance history
 - **README.md** - Public-facing project description
 
-## Recent UI Enhancements
+## Recent UI Enhancements (from SESSION_LOG.md)
 
 1. **Hero Section**: Animated floating baby names background with minimalist design
 2. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
-3. **Heart Animations**: Pink color and heartbeat effect when favorites > 0
+3. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
 4. **Search Redesign**: Moved to expandable header icon from hero section
 5. **Card Animations**: Fly-away effects on like/dislike actions
+6. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
+7. **Custom Events**: 'favoriteAdded' event for cross-component animations
 
 ## Known Issues / Warnings
 
@@ -236,12 +277,14 @@ Other key docs in the repository:
 - **Implicit Any**: Missing type in `chunkedDatabaseService.ts:132`
 
 ### Architectural Notes
-- Database files in `public/data/` have duplicates (consolidated vs ultimate vs unified)
-- The "secondary 230k database" is in `public/data/ultimateNamesDatabase.json`
+- Database files in `public/data/` have duplicates (53 JSON files total, many are backups)
+- The "secondary 230k database" is in `public/data/ultimateNames_tier1.json`
 - Background enrichment may hit API rate limits with free tier Gemini key
 - GitHub Pages deployment requires `PUBLIC_URL=/babyname2` and `homepage` in package.json
-- TypeScript path alias `@/*` configured but has module resolution issues (use relative imports)
+- TypeScript path alias `@/*` configured but doesn't work without ejecting (use relative imports)
 - `scripts/` contains 47 Python data processing scripts (mostly one-off utilities, data already processed)
+- Firebase UID vs Google OAuth ID bug was fixed in AuthContext (line 256)
+- optimizedNameService.ts exists but is NOT USED (nameService uses chunkedDatabaseService instead)
 
 ---
-*Last updated: 2025-10-03*
+*Last updated: 2025-10-04*
