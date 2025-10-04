@@ -47,7 +47,25 @@ const DislikesPage: React.FC = () => {
         await favoritesService.clearDislikes();
         console.log('[DislikesPage] Dislikes cleared successfully');
 
-        // Immediately clear the UI state
+        // Wait a moment for the service to finish clearing
+        await new Promise(resolve => setTimeout(resolve, 200));
+
+        // Verify that dislikes are actually empty
+        const remainingDislikes = favoritesService.getDislikes();
+        console.log('[DislikesPage] After clear, remaining dislikes:', remainingDislikes.length);
+
+        if (remainingDislikes.length > 0) {
+          console.error('[DislikesPage] Failed to clear - still has', remainingDislikes.length, 'dislikes');
+          // Force clear by calling the service method again
+          await favoritesService.clearDislikes();
+
+          // Wait and check again
+          await new Promise(resolve => setTimeout(resolve, 200));
+          const stillRemaining = favoritesService.getDislikes();
+          console.log('[DislikesPage] After second clear, remaining:', stillRemaining.length);
+        }
+
+        // Clear the UI state - dislikes should be empty now
         setDislikedNames([]);
 
         // Show success message

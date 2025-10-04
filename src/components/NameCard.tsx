@@ -4,6 +4,7 @@ import { Sparkles, Heart, X, BookOpen, Tag, Globe } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import enrichmentService from '../services/enrichmentService';
+import { useToast } from '../contexts/ToastContext';
 
 interface NameCardProps {
   name: NameEntry;
@@ -12,9 +13,22 @@ interface NameCardProps {
   onDislikeToggle?: () => void;
   filterContext?: 'all' | 'male' | 'female'; // Current filter context
   contextualRank?: number; // Rank within the current filtered list
+  isPinned?: boolean;
+  onPin?: () => void;
+  showPinOption?: boolean;
 }
 
-const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, onDislikeToggle, filterContext = 'all', contextualRank }) => {
+const NameCard: React.FC<NameCardProps> = ({
+  name,
+  onClick,
+  onFavoriteToggle,
+  onDislikeToggle,
+  filterContext = 'all',
+  contextualRank,
+  isPinned = false,
+  onPin,
+  showPinOption = false
+}) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [isDisliked, setIsDisliked] = useState(false);
   const [meaning, setMeaning] = useState<string | undefined>(name.meaning);
@@ -22,6 +36,9 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
   const [enriched, setEnriched] = useState(false);
   const [isFlying, setIsFlying] = useState(false);
   const [flyDirection, setFlyDirection] = useState<'left' | 'right' | null>(null);
+  const [showContextMenu, setShowContextMenu] = useState(false);
+  const [longPressTimer, setLongPressTimer] = useState<NodeJS.Timeout | null>(null);
+  const toast = useToast();
 
   useEffect(() => {
     setIsFavorite(favoritesService.isFavorite(name.name));
@@ -87,6 +104,67 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
       setFlyDirection(null);
     }, 120);
   };
+
+  // Long press handlers for pin functionality
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (!showPinOption) return;
+    e.preventDefault(); // Prevent text selection
+
+    const timer = setTimeout(() => {
+      setShowContextMenu(true);
+    }, 1000); // 1 second long press
+
+    setLongPressTimer(timer);
+  };
+
+  const handleMouseUp = () => {
+    if (longPressTimer) {
+      clearTimeout(longPressTimer);
+      setLongPressTimer(null);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    handleMouseUp();
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (!showPinOption) return;
+
+    const timer = setTimeout(() => {
+      setShowContextMenu(true);
+      // Add haptic feedback on mobile
+      if ('vibrate' in navigator) {
+        navigator.vibrate(50);
+      }
+    }, 1000);
+
+    setLongPressTimer(timer);
+  };
+
+  const handleTouchEnd = () => {
+    handleMouseUp();
+  };
+
+  const handlePinClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    const result = favoritesService.togglePin(name.name);
+    setShowContextMenu(false);
+
+    if (!result.success && result.message) {
+      // Show warning toast when limit is reached
+      toast.warning(result.message, 5000);
+    } else if (result.success) {
+      // Optionally show success message
+      if (result.pinned) {
+        toast.success('Name pinned to top!', 2000);
+      } else {
+        toast.info('Name unpinned', 2000);
+      }
+      onPin?.();
+    }
+  };
+
   const genderData = typeof name.gender === 'object' ? name.gender : null;
   const isMale = (genderData?.Male || 0) > (genderData?.Female || 0);
   const genderColor = isMale ? 'from-blue-400 to-blue-600' : 'from-pink-400 to-pink-600';
@@ -158,6 +236,11 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
   return (
     <motion.div
       onClick={() => onClick(name)}
+      onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
       className={`relative overflow-hidden rounded-xl ${genderBg} border ${genderBorder}
                   hover:shadow-xl transform hover:scale-105
                   cursor-pointer group`}
@@ -202,12 +285,12 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
                 </div>
               </div>
             )}
-            {origin && (
+            {(origin || name.origins) && (
               <div className="mt-2 flex items-center justify-center gap-2">
                 <div className="inline-flex items-center gap-1 px-3 py-1 bg-white/40 rounded-full border border-gray-200">
                   <Globe className="w-3 h-3 text-gray-500" strokeWidth={1.5} />
                   <span className="text-xs font-light text-gray-600">
-                    {origin}
+                    {name.origins ? name.origins.join(' • ') : origin}
                   </span>
                 </div>
                 {enriched && (
@@ -267,6 +350,38 @@ const NameCard: React.FC<NameCardProps> = ({ name, onClick, onFavoriteToggle, on
           }`} />
         </button>
       </div>
+
+      {/* Pin indicator */}
+      {isPinned && (
+        <div className="absolute top-2 left-2 bg-yellow-400/90 p-1.5 rounded-full shadow-md">
+          <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+          </svg>
+        </div>
+      )}
+
+      {/* Context menu for pin/unpin */}
+      {showContextMenu && (
+        <div
+          className="absolute inset-0 bg-black/20 flex items-center justify-center z-50"
+          onClick={(e) => {
+            e.stopPropagation();
+            setShowContextMenu(false);
+          }}
+        >
+          <div className="bg-white rounded-lg shadow-xl p-4 mx-4">
+            <button
+              onClick={handlePinClick}
+              className="flex items-center gap-3 px-6 py-3 text-lg font-medium text-gray-700 hover:bg-yellow-50 rounded-lg transition-colors w-full"
+            >
+              <svg className="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+              </svg>
+              {isPinned ? 'Unpin from Top' : 'Pin to Top'}
+            </button>
+          </div>
+        </div>
+      )}
     </motion.div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw, Target } from 'lucide-react';
+import { Search, Baby, Star, TrendingUp, Sparkles, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw, Target, ChevronDown, Check } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -18,6 +18,7 @@ const HomePage: React.FC = () => {
   const [names, setNames] = useState<NameEntry[]>([]);
   const [filteredNames, setFilteredNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [activeFilter, setActiveFilter] = useState<'all' | 'male' | 'female' | 'unisex'>('all');
   const [sortBy, setSortBy] = useState<'popularity' | 'alphabetical' | 'random'>('popularity');
   const [sortReverse, setSortReverse] = useState(false);
@@ -35,6 +36,11 @@ const HomePage: React.FC = () => {
   const [itemsPerPage] = useState(30); // 30 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const [heartBeat, setHeartBeat] = useState(false);
+
+  // Origin filter states
+  const [selectedOrigins, setSelectedOrigins] = useState<Set<string>>(new Set());
+  const [showOriginAccordion, setShowOriginAccordion] = useState(false);
+  const [allOrigins, setAllOrigins] = useState<{origin: string; count: number}[]>([]);
   const navigate = useNavigate();
   const { user, isAuthenticated, login, logout, isSyncing, syncError, manualSync, clearCache } = useAuth();
 
@@ -173,6 +179,42 @@ const HomePage: React.FC = () => {
     };
   }, []);
 
+  // Calculate available origins when names are loaded
+  useEffect(() => {
+    if (names.length > 0) {
+      const originCounts = new Map<string, number>();
+
+      names.forEach(name => {
+        const origin = name.origin || 'Unknown';
+        originCounts.set(origin, (originCounts.get(origin) || 0) + 1);
+      });
+
+      const originsArray = Array.from(originCounts.entries())
+        .map(([origin, count]) => ({ origin, count }))
+        .sort((a, b) => b.count - a.count);
+
+      setAllOrigins(originsArray);
+    }
+  }, [names]);
+
+  // Toggle origin selection
+  const toggleOriginFilter = (origin: string) => {
+    setSelectedOrigins(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(origin)) {
+        newSet.delete(origin);
+      } else {
+        newSet.add(origin);
+      }
+      return newSet;
+    });
+  };
+
+  // Clear all origin filters
+  const clearOriginFilters = () => {
+    setSelectedOrigins(new Set());
+  };
+
   const applySorting = useCallback((namesToSort: NameEntry[], preserveSearchOrder: boolean = false): NameEntry[] => {
     let sorted = [...namesToSort];
 
@@ -285,6 +327,15 @@ const HomePage: React.FC = () => {
         });
       }
 
+      // Apply origin filter
+      if (selectedOrigins.size > 0) {
+        results = results.filter(name => {
+          if (!name.origin) return false;
+          const origins = Array.isArray(name.origin) ? name.origin : [name.origin];
+          return origins.some(origin => selectedOrigins.has(origin.trim()));
+        });
+      }
+
       // Apply sorting - preserve search order when searching
       results = applySorting(results, !!searchTerm);
 
@@ -296,12 +347,37 @@ const HomePage: React.FC = () => {
     };
 
     updateNames();
-  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites, favoritesCount, dislikesCount]);
+  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites, favoritesCount, dislikesCount, selectedOrigins]);
 
   // Reset page when search term changes
   useEffect(() => {
     setCurrentPage(1);
   }, [searchTerm]);
+
+  // Extract origins from loaded names
+  useEffect(() => {
+    if (names.length === 0) return;
+
+    const originCounts = new Map<string, number>();
+
+    names.forEach(name => {
+      if (name.origin) {
+        const origins = Array.isArray(name.origin) ? name.origin : [name.origin];
+        origins.forEach(origin => {
+          if (origin && origin.trim()) {
+            const cleanOrigin = origin.trim();
+            originCounts.set(cleanOrigin, (originCounts.get(cleanOrigin) || 0) + 1);
+          }
+        });
+      }
+    });
+
+    const sortedOrigins = Array.from(originCounts.entries())
+      .map(([origin, count]) => ({ origin, count }))
+      .sort((a, b) => b.count - a.count);
+
+    setAllOrigins(sortedOrigins);
+  }, [names]);
 
   const handleFilterClick = (filter: 'all' | 'male' | 'female' | 'unisex') => {
     setActiveFilter(filter);
@@ -328,6 +404,25 @@ const HomePage: React.FC = () => {
     setShowQuestionnaire(false);
     // Navigate to names page with preferences
     navigate('/names', { state: { preferences } });
+  };
+
+  // Origin filter handlers
+  const handleOriginToggle = (origin: string) => {
+    setSelectedOrigins(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(origin)) {
+        newSet.delete(origin);
+      } else {
+        newSet.add(origin);
+      }
+      return newSet;
+    });
+    setCurrentPage(1); // Reset to first page when filter changes
+  };
+
+  const handleClearOrigins = () => {
+    setSelectedOrigins(new Set());
+    setCurrentPage(1);
   };
 
   return (
@@ -687,6 +782,124 @@ const HomePage: React.FC = () => {
             </button>
           </motion.div>
 
+          {/* Origin Filters - Beautiful Modern Design */}
+          {allOrigins.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.35 }}
+              className="w-full max-w-4xl mx-auto mt-8"
+            >
+              {/* Origin Filter Title */}
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-sm font-medium text-gray-700">Filter by Origin</h3>
+                {selectedOrigins.size > 0 && (
+                  <button
+                    onClick={handleClearOrigins}
+                    className="text-xs text-purple-600 hover:text-purple-700 font-medium"
+                  >
+                    Clear All ({selectedOrigins.size})
+                  </button>
+                )}
+              </div>
+
+              {/* Top 6 Origins - Visible Pills */}
+              <div className="flex flex-wrap gap-2 justify-center">
+                {allOrigins.slice(0, 6).map(({ origin, count }) => {
+                  const isSelected = selectedOrigins.has(origin);
+                  const gradientColors = {
+                    'Hebrew': 'from-purple-500 to-purple-600',
+                    'Spanish': 'from-red-500 to-pink-600',
+                    'Latin': 'from-amber-500 to-yellow-600',
+                    'Germanic': 'from-green-500 to-emerald-600',
+                    'Greek': 'from-blue-500 to-indigo-600',
+                    'English': 'from-rose-500 to-pink-600',
+                  };
+                  const gradient = gradientColors[origin as keyof typeof gradientColors] || 'from-gray-500 to-gray-600';
+
+                  return (
+                    <button
+                      key={origin}
+                      onClick={() => handleOriginToggle(origin)}
+                      className={`
+                        relative px-4 py-2 rounded-full text-sm font-medium
+                        transition-all duration-200 transform hover:scale-105
+                        ${isSelected
+                          ? `bg-gradient-to-r ${gradient} text-white shadow-lg`
+                          : 'bg-white border border-gray-200 text-gray-700 hover:border-gray-300'
+                        }
+                      `}
+                    >
+                      <span className="flex items-center gap-2">
+                        {isSelected && <Check className="w-3 h-3" />}
+                        {origin}
+                        <span className={`text-xs ${isSelected ? 'text-white/80' : 'text-gray-500'}`}>
+                          ({count})
+                        </span>
+                      </span>
+                    </button>
+                  );
+                })}
+
+                {/* Show More Button for Accordion */}
+                {allOrigins.length > 6 && (
+                  <button
+                    onClick={() => setShowOriginAccordion(!showOriginAccordion)}
+                    className="px-4 py-2 rounded-full text-sm font-medium
+                             bg-white border border-gray-200 text-gray-700
+                             hover:border-gray-300 transition-all duration-200
+                             flex items-center gap-2"
+                  >
+                    {showOriginAccordion ? 'Show Less' : `More Origins (${allOrigins.length - 6})`}
+                    <ChevronDown
+                      className={`w-4 h-4 transition-transform duration-200
+                                 ${showOriginAccordion ? 'rotate-180' : ''}`}
+                    />
+                  </button>
+                )}
+              </div>
+
+              {/* Accordion for Remaining Origins */}
+              <AnimatePresence>
+                {showOriginAccordion && allOrigins.length > 6 && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3 }}
+                    className="mt-4 overflow-hidden"
+                  >
+                    <div className="flex flex-wrap gap-2 justify-center p-4 bg-gray-50 rounded-lg">
+                      {allOrigins.slice(6).map(({ origin, count }) => {
+                        const isSelected = selectedOrigins.has(origin);
+                        return (
+                          <button
+                            key={origin}
+                            onClick={() => handleOriginToggle(origin)}
+                            className={`
+                              px-3 py-1.5 rounded-full text-sm
+                              transition-all duration-200
+                              ${isSelected
+                                ? 'bg-purple-100 text-purple-700 border border-purple-300'
+                                : 'bg-white border border-gray-200 text-gray-600 hover:border-gray-300'
+                              }
+                            `}
+                          >
+                            <span className="flex items-center gap-1.5">
+                              {isSelected && <Check className="w-3 h-3" />}
+                              {origin}
+                              <span className="text-xs text-gray-500">({count})</span>
+                            </span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </motion.div>
+          )}
+
           {/* Action Buttons - Full Width */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -834,7 +1047,7 @@ const HomePage: React.FC = () => {
             <>
               <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                 <AnimatePresence mode="popLayout">
-                  {currentNames.map((name) => {
+                  {currentNames.map((name, index) => {
                     return (
                       <motion.div
                         key={name.name}
@@ -849,7 +1062,10 @@ const HomePage: React.FC = () => {
                       >
                         <NameCard
                           name={name}
-                          onClick={setSelectedName}
+                          onClick={(name) => {
+                            setSelectedName(name);
+                            setSelectedIndex(index + startIndex);
+                          }}
                           filterContext={activeFilter}
                           onFavoriteToggle={() => {
                             // Update counts
@@ -1003,7 +1219,23 @@ const HomePage: React.FC = () => {
       {/* Name Detail Modal */}
       <NameDetailModal
         name={selectedName}
+        names={filteredNames}
+        currentIndex={selectedIndex}
         onClose={() => setSelectedName(null)}
+        onNavigate={(newIndex) => {
+          if (newIndex >= 0 && newIndex < filteredNames.length) {
+            setSelectedName(filteredNames[newIndex]);
+            setSelectedIndex(newIndex);
+          }
+        }}
+        onFavoriteToggle={() => {
+          setFavoritesCount(favoritesService.getFavoritesCount());
+          setDislikesCount(favoritesService.getDislikesCount());
+        }}
+        onDislikeToggle={() => {
+          setFavoritesCount(favoritesService.getFavoritesCount());
+          setDislikesCount(favoritesService.getDislikesCount());
+        }}
       />
 
       {/* Swiping Questionnaire Modal */}

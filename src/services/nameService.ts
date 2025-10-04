@@ -18,14 +18,25 @@ export interface NameEntry {
   };
   isUnisex?: boolean;
   unisexScore?: number; // 0-1 scale, where 0.5 is perfectly unisex
-  origin?: string;
+  origin?: string; // Keep for backward compatibility (will be primary origin)
+  origins?: string[]; // Multiple origins (up to 3, only if name has multiple)
+  originsDetails?: {
+    primary: string;
+    secondary?: string;
+    tertiary?: string;
+    percentages?: number[]; // Distribution percentages if known
+  };
   originProcessed?: boolean; // Track if origin has been AI-processed
+  originProcessedAt?: string;
+  originSource?: string; // 'gpt-4-turbo' or 'gemini' etc
   meaning?: string;
   meaningShort?: string; // Up to 4 words for name cards
   meaningFull?: string; // Up to 15 words for detail view
-  meanings?: string[]; // Array of up to 3 meanings
+  meanings?: string[]; // Array of 1-3 meanings (only if multiple exist)
+  meaningEtymology?: string; // Detailed etymology information
   meaningProcessed?: boolean; // Track if meaning has been AI-processed
   meaningProcessedAt?: string; // Timestamp of processing
+  meaningSource?: string; // 'gpt-4-turbo' or other source
   popularity?: number;
   popularityRank?: number;
   isPopular?: boolean;

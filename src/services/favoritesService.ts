@@ -4,16 +4,20 @@ import userDataService, { UserPreferences } from './userDataService';
 interface FavoritesData {
   favorites: string[]; // Array of name strings (liked names)
   dislikes: string[];  // Array of name strings (disliked/hidden names)
+  pinnedFavorites?: string[]; // Array of pinned favorite names (shown at top)
 }
 
 class FavoritesService {
   private readonly STORAGE_KEY = 'babynames_preferences';
+  private readonly MAX_PINNED_FAVORITES = 20; // Maximum number of pinned favorites
   private data: FavoritesData = {
     favorites: [],
-    dislikes: []
+    dislikes: [],
+    pinnedFavorites: []
   };
   private isLoggedIn: boolean = false;
   private userId: string | null = null;
+  private isClearingData: boolean = false; // Flag to prevent cloud sync during clear operations
 
   constructor() {
     this.loadFromStorage();
@@ -39,6 +43,12 @@ class FavoritesService {
   }
 
   private handleCloudUpdate(cloudData: UserPreferences) {
+    // Skip cloud merge if we're in the middle of clearing data
+    if (this.isClearingData) {
+      console.log('[FavoritesService] Skipping cloud merge - clearing in progress');
+      return;
+    }
+
     // Merge cloud data with local data
     const merged = userDataService.mergePreferences(
       { favorites: this.data.favorites, dislikes: this.data.dislikes },
@@ -65,12 +75,13 @@ class FavoritesService {
         // Normalize all names to ensure consistency (trim and filter out empty)
         this.data = {
           favorites: (parsed.favorites || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0),
-          dislikes: (parsed.dislikes || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0)
+          dislikes: (parsed.dislikes || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0),
+          pinnedFavorites: (parsed.pinnedFavorites || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0)
         };
       }
     } catch (error) {
       console.error('Error loading favorites from storage:', error);
-      this.data = { favorites: [], dislikes: [] };
+      this.data = { favorites: [], dislikes: [], pinnedFavorites: [] };
     }
   }
 
@@ -131,6 +142,81 @@ class FavoritesService {
     return [...this.data.favorites];
   }
 
+  // Pinned favorites methods
+  pinFavorite(name: string): { success: boolean; message?: string } {
+    const normalizedName = name.trim();
+    if (!normalizedName) return { success: false };
+
+    // Check if we're at the limit
+    if (!this.isPinned(normalizedName)) {
+      if ((this.data.pinnedFavorites?.length || 0) >= this.MAX_PINNED_FAVORITES) {
+        return {
+          success: false,
+          message: `You can only pin up to ${this.MAX_PINNED_FAVORITES} names. Please unpin a name to add another.`
+        };
+      }
+    }
+
+    // Must be a favorite to pin
+    if (!this.isFavorite(normalizedName)) {
+      this.addFavorite(normalizedName);
+    }
+
+    // Add to pinned if not already
+    if (!this.isPinned(normalizedName)) {
+      if (!this.data.pinnedFavorites) {
+        this.data.pinnedFavorites = [];
+      }
+      this.data.pinnedFavorites.push(normalizedName);
+      this.saveToStorage();
+    }
+
+    return { success: true };
+  }
+
+  unpinFavorite(name: string): void {
+    const normalizedName = name.trim();
+    if (!this.data.pinnedFavorites) return;
+
+    const index = this.data.pinnedFavorites.findIndex(p => p.trim() === normalizedName);
+    if (index > -1) {
+      this.data.pinnedFavorites.splice(index, 1);
+      this.saveToStorage();
+    }
+  }
+
+  isPinned(name: string): boolean {
+    if (!this.data.pinnedFavorites) return false;
+    const normalizedName = name.trim();
+    return this.data.pinnedFavorites.some(p => p.trim() === normalizedName);
+  }
+
+  togglePin(name: string): { success: boolean; pinned: boolean; message?: string } {
+    if (this.isPinned(name)) {
+      this.unpinFavorite(name);
+      return { success: true, pinned: false };
+    } else {
+      const result = this.pinFavorite(name);
+      return {
+        success: result.success,
+        pinned: result.success,
+        message: result.message
+      };
+    }
+  }
+
+  getPinnedFavorites(): string[] {
+    return [...(this.data.pinnedFavorites || [])];
+  }
+
+  getPinnedCount(): number {
+    return this.data.pinnedFavorites?.length || 0;
+  }
+
+  getMaxPinnedFavorites(): number {
+    return this.MAX_PINNED_FAVORITES;
+  }
+
   // Dislikes (Hidden names) methods
   addDislike(name: string): void {
     const normalizedName = name.trim();
@@ -167,15 +253,40 @@ class FavoritesService {
     console.log('[FavoritesService] Clearing favorites...');
     console.log('[FavoritesService] Current isLoggedIn:', this.isLoggedIn, 'userId:', this.userId);
 
-    // Clear favorites from memory
-    this.data.favorites = [];
+    // Set flag to prevent cloud sync from restoring data
+    this.isClearingData = true;
 
-    // Immediately save to localStorage
+    // Clear favorites from memory (including pinned)
+    this.data.favorites = [];
+    this.data.pinnedFavorites = [];
+
+    // Force complete localStorage update - remove then set
     try {
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+      localStorage.removeItem(this.STORAGE_KEY);
+
+      // Save clean data with empty favorites but preserved dislikes
+      const cleanData = {
+        favorites: [],
+        dislikes: this.data.dislikes,
+        pinnedFavorites: []
+      };
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(cleanData));
+
+      // Verify the clear worked
+      const stored = localStorage.getItem(this.STORAGE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed.favorites && parsed.favorites.length > 0) {
+          console.error('[FavoritesService] Failed to clear favorites - still has', parsed.favorites.length, 'items');
+          // Force clear again
+          cleanData.favorites = [];
+          localStorage.setItem(this.STORAGE_KEY, JSON.stringify(cleanData));
+        }
+      }
       console.log('[FavoritesService] Favorites cleared from localStorage');
     } catch (error) {
       console.error('[FavoritesService] Error saving to localStorage:', error);
+      this.isClearingData = false; // Reset flag on error
       throw error;
     }
 
@@ -183,30 +294,63 @@ class FavoritesService {
     if (this.isLoggedIn && this.userId) {
       console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
-        await userDataService.saveToCloud(this.data.favorites, this.data.dislikes);
+        await userDataService.saveToCloud([], this.data.dislikes);
         console.log('[FavoritesService] Empty favorites successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty favorites to cloud:', error);
+        this.isClearingData = false; // Reset flag on error
         throw error; // Propagate error so the UI can handle it
       }
     } else {
       console.log('[FavoritesService] User not logged in, skipping cloud sync');
     }
+
+    // Reload from storage to ensure we have clean data
+    this.loadFromStorage();
+
+    // Reset the flag after a delay to ensure cloud sync has completed
+    setTimeout(() => {
+      this.isClearingData = false;
+      console.log('[FavoritesService] Clearing flag reset - cloud sync can resume');
+    }, 1000);
   }
 
   async clearDislikes(): Promise<void> {
     console.log('[FavoritesService] Clearing dislikes...');
     console.log('[FavoritesService] Current isLoggedIn:', this.isLoggedIn, 'userId:', this.userId);
 
+    // Set flag to prevent cloud sync from restoring data
+    this.isClearingData = true;
+
     // Clear dislikes from memory
     this.data.dislikes = [];
 
-    // Immediately save to localStorage
+    // Force complete localStorage update - remove then set
     try {
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+      localStorage.removeItem(this.STORAGE_KEY);
+
+      // Save clean data with empty dislikes but preserved favorites
+      const cleanData = {
+        favorites: this.data.favorites,
+        dislikes: []
+      };
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(cleanData));
+
+      // Verify the clear worked
+      const stored = localStorage.getItem(this.STORAGE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (parsed.dislikes && parsed.dislikes.length > 0) {
+          console.error('[FavoritesService] Failed to clear dislikes - still has', parsed.dislikes.length, 'items');
+          // Force clear again
+          cleanData.dislikes = [];
+          localStorage.setItem(this.STORAGE_KEY, JSON.stringify(cleanData));
+        }
+      }
       console.log('[FavoritesService] Dislikes cleared from localStorage');
     } catch (error) {
       console.error('[FavoritesService] Error saving to localStorage:', error);
+      this.isClearingData = false; // Reset flag on error
       throw error;
     }
 
@@ -214,15 +358,25 @@ class FavoritesService {
     if (this.isLoggedIn && this.userId) {
       console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
-        await userDataService.saveToCloud(this.data.favorites, this.data.dislikes);
+        await userDataService.saveToCloud(this.data.favorites, []);
         console.log('[FavoritesService] Empty dislikes successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty dislikes to cloud:', error);
+        this.isClearingData = false; // Reset flag on error
         throw error; // Propagate error so the UI can handle it
       }
     } else {
       console.log('[FavoritesService] User not logged in, skipping cloud sync');
     }
+
+    // Reload from storage to ensure we have clean data
+    this.loadFromStorage();
+
+    // Reset the flag after a delay to ensure cloud sync has completed
+    setTimeout(() => {
+      this.isClearingData = false;
+      console.log('[FavoritesService] Clearing flag reset - cloud sync can resume');
+    }, 1000);
   }
 
   async clearAll(): Promise<void> {

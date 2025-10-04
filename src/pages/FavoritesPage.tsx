@@ -10,6 +10,8 @@ import { useAuth } from '../contexts/AuthContext';
 
 const FavoritesPage: React.FC = () => {
   const [favoriteNames, setFavoriteNames] = useState<NameEntry[]>([]);
+  const [pinnedNames, setPinnedNames] = useState<NameEntry[]>([]);
+  const [unpinnedNames, setUnpinnedNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
@@ -26,11 +28,19 @@ const FavoritesPage: React.FC = () => {
     await nameService.loadFullDatabase();
     const allNames = await nameService.getPopularNames(10000);
 
-    // Get favorites
+    // Get favorites and pinned favorites
     const favoritesList = favoritesService.getFavorites();
+    const pinnedList = favoritesService.getPinnedFavorites();
+
     const favorites = allNames.filter(name => favoritesList.includes(name.name));
 
+    // Separate pinned and unpinned
+    const pinned = favorites.filter(name => pinnedList.includes(name.name));
+    const unpinned = favorites.filter(name => !pinnedList.includes(name.name));
+
     setFavoriteNames(favorites);
+    setPinnedNames(pinned);
+    setUnpinnedNames(unpinned);
     setLoading(false);
   };
 
@@ -47,7 +57,25 @@ const FavoritesPage: React.FC = () => {
         await favoritesService.clearFavorites();
         console.log('[FavoritesPage] Favorites cleared successfully');
 
-        // Immediately clear the UI state
+        // Wait a moment for the service to finish clearing
+        await new Promise(resolve => setTimeout(resolve, 200));
+
+        // Verify that favorites are actually empty
+        const remainingFavorites = favoritesService.getFavorites();
+        console.log('[FavoritesPage] After clear, remaining favorites:', remainingFavorites.length);
+
+        if (remainingFavorites.length > 0) {
+          console.error('[FavoritesPage] Failed to clear - still has', remainingFavorites.length, 'favorites');
+          // Force clear by calling the service method again
+          await favoritesService.clearFavorites();
+
+          // Wait and check again
+          await new Promise(resolve => setTimeout(resolve, 200));
+          const stillRemaining = favoritesService.getFavorites();
+          console.log('[FavoritesPage] After second clear, remaining:', stillRemaining.length);
+        }
+
+        // Clear the UI state - favorites should be empty now
         setFavoriteNames([]);
 
         // Show success message
@@ -131,16 +159,60 @@ const FavoritesPage: React.FC = () => {
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {favoriteNames.map((name) => (
-              <NameCard
-                key={`${name.name}-${favoriteNames.length}`}
-                name={name}
-                onClick={setSelectedName}
-                onFavoriteToggle={handleRefresh}
-                onDislikeToggle={handleRefresh}
-              />
-            ))}
+          <div>
+            {/* Pinned Names Section */}
+            {pinnedNames.length > 0 && (
+              <div className="mb-8">
+                <h2 className="text-lg font-semibold text-gray-700 mb-4 flex items-center justify-between">
+                  <span className="flex items-center gap-2">
+                    <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+                    </svg>
+                    Pinned Favorites
+                  </span>
+                  <span className="text-sm text-gray-500 font-normal">
+                    {pinnedNames.length}/20 pinned
+                  </span>
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-yellow-50/30 rounded-xl">
+                  {pinnedNames.map((name) => (
+                    <NameCard
+                      key={`pinned-${name.name}`}
+                      name={name}
+                      onClick={setSelectedName}
+                      onFavoriteToggle={handleRefresh}
+                      onDislikeToggle={handleRefresh}
+                      isPinned={true}
+                      onPin={handleRefresh}
+                      showPinOption={true}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Unpinned Names Section */}
+            {unpinnedNames.length > 0 && (
+              <div>
+                {pinnedNames.length > 0 && (
+                  <h2 className="text-lg font-semibold text-gray-700 mb-4">Other Favorites</h2>
+                )}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {unpinnedNames.map((name) => (
+                    <NameCard
+                      key={`unpinned-${name.name}`}
+                      name={name}
+                      onClick={setSelectedName}
+                      onFavoriteToggle={handleRefresh}
+                      onDislikeToggle={handleRefresh}
+                      isPinned={false}
+                      onPin={handleRefresh}
+                      showPinOption={true}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </main>
