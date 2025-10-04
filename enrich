@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Simple wrapper for enrichment agent
+# Usage: ./enrich [command]
+
+# Default to auto mode if no command provided
+COMMAND=${1:-auto}
+
+# Run the enrichment agent
+node enrichmentAgent.js "$COMMAND"
