@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { X, Home, Trash2 } from 'lucide-react';
+import { X, Home, Trash2, Baby } from 'lucide-react';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
@@ -95,6 +95,13 @@ const DislikesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
+              <button
+                onClick={() => navigate('/')}
+                className="hover:opacity-80 transition-opacity"
+                title="Go to home"
+              >
+                <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
+              </button>
               <button
                 onClick={() => navigate('/')}
                 className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-purple-600 transition-colors"

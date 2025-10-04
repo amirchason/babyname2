@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Heart, Home, Trash2 } from 'lucide-react';
+import { Heart, Home, Trash2, Baby } from 'lucide-react';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
@@ -99,47 +99,83 @@ const FavoritesPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+      {/* Elegant Sticky Header */}
+      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-lg border-b border-purple-100/50 shadow-lg shadow-purple-100/20 transition-all duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between py-4 sm:py-5">
+            {/* Left Section - Baby Logo & Back to Home */}
+            <div className="flex items-center gap-2">
               <button
                 onClick={() => navigate('/')}
-                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-purple-600 transition-colors"
+                className="hover:opacity-80 transition-opacity"
+                title="Go to home"
               >
-                <Home className="w-5 h-5" />
-                <span className="font-medium">Home</span>
+                <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
               </button>
-              <div className="flex items-center gap-2">
-                <Heart className="w-6 h-6 text-red-500 fill-current" />
-                <h1 className="text-2xl font-bold text-gray-800">My Favorite Names</h1>
-              </div>
-            </div>
-            {favoriteNames.length > 0 && (
               <button
-                onClick={clearAllFavorites}
-                className="flex items-center gap-2 px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                onClick={() => navigate('/')}
+                className="group flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-purple-600 transition-all duration-300 rounded-lg hover:bg-purple-50"
               >
-                <Trash2 className="w-4 h-4" />
-                Clear All
+                <Home className="w-5 h-5 transition-transform group-hover:-translate-x-0.5" />
+                <span className="hidden sm:inline font-medium">Home</span>
               </button>
-            )}
+            </div>
+
+            {/* Center Section - Title with Heart Counter */}
+            <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-3">
+              {favoriteNames.length > 0 && (
+                <div className="relative flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-red-500 bg-white shadow-md">
+                  <div className="flex flex-col items-center justify-center">
+                    <span className="text-xs sm:text-sm font-bold text-red-500 leading-none">
+                      {favoriteNames.length > 99 ? '99+' : favoriteNames.length}
+                    </span>
+                    <Heart className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-red-500 fill-current mt-0.5" />
+                  </div>
+                </div>
+              )}
+              <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-red-500 bg-clip-text text-transparent">
+                Favorites
+              </h1>
+            </div>
+
+            {/* Right Section - Clear All */}
+            <div className="w-24 sm:w-auto flex justify-end">
+              {favoriteNames.length > 0 && (
+                <button
+                  onClick={clearAllFavorites}
+                  className="group flex items-center gap-2 px-3 sm:px-4 py-2 text-red-600 hover:text-white bg-red-50 hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
+                >
+                  <Trash2 className="w-4 h-4 transition-transform group-hover:scale-110" />
+                  <span className="hidden sm:inline font-medium">Clear All</span>
+                </button>
+              )}
+            </div>
           </div>
+
+          {/* Subtitle with count - only show on non-mobile */}
+          {!loading && favoriteNames.length > 0 && (
+            <div className="hidden sm:block pb-3 -mt-1">
+              <p className="text-center text-sm text-gray-500">
+                {pinnedNames.length > 0 && (
+                  <span className="inline-flex items-center gap-1 mr-3">
+                    <svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+                    </svg>
+                    <span className="font-medium text-yellow-700">{pinnedNames.length} pinned</span>
+                  </span>
+                )}
+                <span>
+                  {favoriteNames.length} favorite name{favoriteNames.length === 1 ? '' : 's'}
+                </span>
+              </p>
+            </div>
+          )}
         </div>
       </header>
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="mb-6">
-          <p className="text-gray-600">
-            {favoriteNames.length === 0
-              ? "You haven't added any names to your favorites yet."
-              : `You have ${favoriteNames.length} favorite name${favoriteNames.length === 1 ? '' : 's'}`}
-          </p>
-        </div>
-
         {loading ? (
           <div className="text-center py-20">
             <div className="inline-flex items-center gap-3 text-gray-500">
@@ -174,7 +210,7 @@ const FavoritesPage: React.FC = () => {
                     {pinnedNames.length}/20 pinned
                   </span>
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-yellow-50/30 rounded-xl">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-yellow-50/30 rounded-xl">
                   {pinnedNames.map((name) => (
                     <NameCard
                       key={`pinned-${name.name}`}
@@ -197,7 +233,7 @@ const FavoritesPage: React.FC = () => {
                 {pinnedNames.length > 0 && (
                   <h2 className="text-lg font-semibold text-gray-700 mb-4">Other Favorites</h2>
                 )}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {unpinnedNames.map((name) => (
                     <NameCard
                       key={`unpinned-${name.name}`}

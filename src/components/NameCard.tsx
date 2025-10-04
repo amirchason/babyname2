@@ -255,59 +255,57 @@ const NameCard: React.FC<NameCardProps> = ({
 
       {/* Sparkle animation on hover */}
       <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-        <Sparkles className="w-4 h-4 text-yellow-400/60 animate-pulse" strokeWidth={1.5} />
+        <Sparkles className="w-3.5 h-3.5 text-yellow-400/60 animate-pulse" strokeWidth={1.5} />
       </div>
 
-      <div className="relative p-6">
+      {/* Rank Badge - Absolute Position Top-Left */}
+      <div className="absolute top-2 left-2 z-10">
+        <div className={`px-2.5 py-0.5 rounded-full border border-gray-200 bg-white/90 text-gray-600 text-xs font-light shadow-sm`}>
+          {getDisplayRank()}
+        </div>
+      </div>
 
-        {/* Header with Left-aligned Rating */}
-        <div className="mb-4">
-          <div className="flex items-start justify-between mb-2">
-            <div className={`px-3 py-1 rounded-full border border-gray-200 bg-white/40 text-gray-600 text-sm font-light`}>
-              {getDisplayRank()}
-            </div>
-          </div>
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-800 flex justify-center items-center gap-2">
-              {name.name}
-              <span className={`text-xl font-medium bg-gradient-to-r ${genderColor}
-                             bg-clip-text text-transparent`}>
-                {genderIcon}
-              </span>
-            </h3>
-            {meaning && (
-              <div className="mt-3 px-3 py-2 bg-white/30 rounded-lg border border-white/50">
-                <div className="flex items-center gap-1 justify-center">
-                  <BookOpen className="w-3 h-3 text-gray-400" strokeWidth={1.5} />
-                  <span className="text-sm font-light text-gray-600 italic">
-                    "{meaning}"
-                  </span>
-                </div>
-              </div>
-            )}
-            {(origin || name.origins) && (
-              <div className="mt-2 flex items-center justify-center gap-2">
-                <div className="inline-flex items-center gap-1 px-3 py-1 bg-white/40 rounded-full border border-gray-200">
-                  <Globe className="w-3 h-3 text-gray-500" strokeWidth={1.5} />
-                  <span className="text-xs font-light text-gray-600">
-                    {name.origins ? name.origins.join(' • ') : origin}
-                  </span>
-                </div>
-                {enriched && (
-                  <div className="inline-flex items-center px-2 py-1 bg-white/40 rounded-full border border-gray-200" title="AI Enriched">
-                    <Sparkles className="w-3 h-3 text-gray-500" strokeWidth={1.5} />
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
+      <div className="relative p-1.5 pb-12">
+        {/* Name - Very Thin, Much Bigger */}
+        <div className="mb-1 pt-6 text-center">
+          <h3 className="text-[52px] font-thin text-gray-800 flex justify-center items-center gap-2">
+            {name.name}
+            <span className={`text-[52px] font-thin bg-gradient-to-r ${genderColor}
+                           bg-clip-text text-transparent`}>
+              {genderIcon}
+            </span>
+          </h3>
         </div>
 
-        {/* Simplified Stats - Only Popularity Score */}
-        <div className="mb-4 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/40 rounded-full border border-gray-200">
-            <span className="text-sm font-light text-gray-600">Popularity</span>
-            <span className={`text-lg font-medium bg-gradient-to-r ${genderColor} bg-clip-text text-transparent`}>
+        {/* Meaning - Much Bigger Font */}
+        {meaning && (
+          <div className="mt-2 px-2.5 py-0 bg-white/30 rounded-lg border border-white/50">
+            <div className="flex items-center gap-1 justify-center py-1">
+              <BookOpen className="w-3 h-3 text-gray-400" strokeWidth={1.5} />
+              <span className="text-[24px] font-light text-gray-600 italic">
+                "{meaning}"
+              </span>
+            </div>
+          </div>
+        )}
+
+        {/* Origin & Popularity - Same Line */}
+        <div className="mt-2 flex items-center justify-center gap-3 flex-wrap">
+          {(origin || name.origins) && (
+            <div className="inline-flex items-center gap-1 px-3 py-0.5 bg-white/40 rounded-full border border-gray-200">
+              <Globe className="w-2.5 h-2.5 text-gray-500" strokeWidth={1.5} />
+              <span className="text-[11px] font-light text-gray-600">
+                {name.origins ? name.origins.join(' • ') : origin}
+              </span>
+              {enriched && (
+                <Sparkles className="w-2.5 h-2.5 text-gray-500 ml-1" strokeWidth={1.5} title="AI Enriched" />
+              )}
+            </div>
+          )}
+
+          <div className="inline-flex items-center gap-2 px-2.5 py-0.5 bg-white/40 rounded-full border border-gray-200">
+            <span className="text-xs font-light text-gray-600">Popularity</span>
+            <span className={`text-base font-medium bg-gradient-to-r ${genderColor} bg-clip-text text-transparent`}>
               {Math.round(popularityPercent)}%
             </span>
           </div>
@@ -315,35 +313,35 @@ const NameCard: React.FC<NameCardProps> = ({
       </div>
 
       {/* Minimalistic action buttons */}
-      <div className="absolute bottom-4 left-0 right-0 flex justify-between items-center px-4">
-        {/* Dislike button - Minimalistic */}
+      <div className="absolute bottom-2 left-0 right-0 flex justify-between items-center px-4">
+        {/* Dislike button - Smaller */}
         <button
           onClick={handleDislikeClick}
-          className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-300 ${
+          className={`flex items-center justify-center w-9 h-9 rounded-full transition-all duration-300 ${
             isDisliked
               ? 'bg-red-50 border-2 border-red-300 shadow-md'
               : 'bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-red-200'
           } transform hover:scale-105 active:scale-95`}
           title={isDisliked ? 'Remove from hidden' : 'Pass on this name'}
         >
-          <X className={`w-6 h-6 transition-all duration-300 ${
+          <X className={`w-4 h-4 transition-all duration-300 ${
             isDisliked
               ? 'text-red-400 stroke-[1.5]'
               : 'text-gray-400 hover:text-red-400 stroke-[1.5]'
           }`} />
         </button>
 
-        {/* Like button - Minimalistic */}
+        {/* Like button - Smaller */}
         <button
           onClick={handleFavoriteClick}
-          className={`flex items-center justify-center w-14 h-14 rounded-full transition-all duration-300 ${
+          className={`flex items-center justify-center w-9 h-9 rounded-full transition-all duration-300 ${
             isFavorite
               ? 'bg-pink-50 border-2 border-pink-300 shadow-md'
               : 'bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-pink-200'
           } transform hover:scale-105 active:scale-95`}
           title={isFavorite ? 'Remove from favorites' : 'Love this name'}
         >
-          <Heart className={`w-6 h-6 transition-all duration-300 ${
+          <Heart className={`w-4 h-4 transition-all duration-300 ${
             isFavorite
               ? 'text-pink-400 fill-pink-400 stroke-[1.5]'
               : 'text-gray-400 hover:text-pink-400 stroke-[1.5]'
@@ -351,10 +349,10 @@ const NameCard: React.FC<NameCardProps> = ({
         </button>
       </div>
 
-      {/* Pin indicator */}
+      {/* Pin indicator - Position next to rank */}
       {isPinned && (
-        <div className="absolute top-2 left-2 bg-yellow-400/90 p-1.5 rounded-full shadow-md">
-          <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+        <div className="absolute top-2 left-16 bg-yellow-400/90 p-1 rounded-full shadow-md z-10">
+          <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 20 20">
             <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
           </svg>
         </div>

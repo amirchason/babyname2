@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, useTransform, useAnimation, PanInfo } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Heart, X, Sparkles, Baby, RotateCcw } from 'lucide-react';
+import { ArrowLeft, Heart, X, Sparkles, Baby, RotateCcw, Info } from 'lucide-react';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
+import NameDetailModal from '../components/NameDetailModal';
 
 interface CardProps {
   name: NameEntry;
@@ -11,9 +12,10 @@ interface CardProps {
   onSwipeLeft: () => void;
   onSwipeRight: () => void;
   dragEnabled: boolean;
+  onInfoClick: () => void;
 }
 
-const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dragEnabled }) => {
+const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dragEnabled, onInfoClick }) => {
   const x = useMotionValue(0);
   const controls = useAnimation();
 
@@ -77,23 +79,35 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
       onDragEnd={isTop ? handleDragEnd : undefined}
       animate={controls}
     >
-      <div className={`relative w-full h-full ${genderBg} rounded-3xl shadow-2xl border-2 border-white overflow-hidden`}>
+      <div className={`relative w-full h-full ${genderBg} rounded-2xl sm:rounded-3xl shadow-2xl border-2 border-white overflow-hidden`}>
+        {/* Info Button - Top Right (always visible) */}
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            onInfoClick();
+          }}
+          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 bg-white/90 hover:bg-white rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 active:scale-95"
+          title="View name details"
+        >
+          <Info className="w-4 h-4 sm:w-5 sm:h-5 text-purple-600" />
+        </button>
+
         {/* Like/Nope Indicators */}
         {isTop && (
           <>
             <motion.div
-              className="absolute top-8 left-8 z-10"
+              className="absolute top-4 sm:top-8 left-4 sm:left-8 z-10"
               style={{ opacity: nopeOpacity }}
             >
-              <div className="text-red-500 border-4 border-red-500 rounded-xl px-4 py-2 font-bold text-4xl transform -rotate-12">
+              <div className="text-red-500 border-3 sm:border-4 border-red-500 rounded-lg sm:rounded-xl px-3 py-1.5 sm:px-4 sm:py-2 font-bold text-2xl sm:text-4xl transform -rotate-12">
                 NOPE
               </div>
             </motion.div>
             <motion.div
-              className="absolute top-8 right-8 z-10"
+              className="absolute top-4 sm:top-8 right-4 sm:right-8 z-10"
               style={{ opacity: likeOpacity }}
             >
-              <div className="text-green-500 border-4 border-green-500 rounded-xl px-4 py-2 font-bold text-4xl transform rotate-12">
+              <div className="text-green-500 border-3 sm:border-4 border-green-500 rounded-lg sm:rounded-xl px-3 py-1.5 sm:px-4 sm:py-2 font-bold text-2xl sm:text-4xl transform rotate-12">
                 LIKE
               </div>
             </motion.div>
@@ -103,35 +117,35 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
         {/* Gradient Header */}
         <div className={`h-1/3 bg-gradient-to-br ${genderColor} relative`}>
           <div className="absolute inset-0 bg-black opacity-10" />
-          <div className="absolute bottom-4 left-0 right-0 text-center">
-            <h2 className="text-5xl font-bold text-white drop-shadow-lg">
+          <div className="absolute bottom-3 sm:bottom-4 left-0 right-0 text-center px-4">
+            <h2 className="text-3xl sm:text-5xl font-bold text-white drop-shadow-lg truncate">
               {name.name}
             </h2>
           </div>
         </div>
 
         {/* Card Content */}
-        <div className="p-6 h-2/3 flex flex-col justify-between">
+        <div className="p-4 sm:p-6 h-2/3 flex flex-col justify-between">
           <div>
             {/* Rank Badge */}
-            <div className="flex justify-center mb-4">
-              <span className={`px-4 py-2 rounded-full bg-gradient-to-r ${genderColor} text-white font-bold text-lg`}>
+            <div className="flex justify-center mb-3 sm:mb-4">
+              <span className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-gradient-to-r ${genderColor} text-white font-bold text-sm sm:text-lg`}>
                 Rank #{name.popularityRank || 999999}
               </span>
             </div>
 
             {/* Meaning */}
             {name.meaning && (
-              <div className="text-center mb-4">
-                <p className="text-xl italic text-gray-700">"{name.meaning}"</p>
+              <div className="text-center mb-3 sm:mb-4">
+                <p className="text-base sm:text-xl italic text-gray-700 line-clamp-3">"{name.meaning}"</p>
               </div>
             )}
 
             {/* Origin */}
             {name.origin && (
               <div className="text-center">
-                <span className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 rounded-full">
-                  <span className="text-sm font-semibold text-purple-700">{name.origin}</span>
+                <span className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 bg-purple-100 rounded-full">
+                  <span className="text-xs sm:text-sm font-semibold text-purple-700">{name.origin}</span>
                 </span>
               </div>
             )}
@@ -141,15 +155,15 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
           <div className="mt-auto">
             <div className="flex gap-2 items-center justify-center">
               <div className="flex-1 text-center">
-                <span className="text-sm text-gray-600">Male</span>
-                <div className="h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
+                <span className="text-xs sm:text-sm text-gray-600">Male</span>
+                <div className="h-1.5 sm:h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
                   <div className="h-full bg-gradient-to-r from-blue-400 to-blue-600"
                        style={{ width: `${(genderData?.Male || 0) * 100}%` }} />
                 </div>
               </div>
               <div className="flex-1 text-center">
-                <span className="text-sm text-gray-600">Female</span>
-                <div className="h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
+                <span className="text-xs sm:text-sm text-gray-600">Female</span>
+                <div className="h-1.5 sm:h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
                   <div className="h-full bg-gradient-to-r from-pink-400 to-pink-600"
                        style={{ width: `${(genderData?.Female || 0) * 100}%` }} />
                 </div>
@@ -171,6 +185,7 @@ const SwipeModePage: React.FC = () => {
   const [dislikesCount, setDislikesCount] = useState(0);
   const [lastAction, setLastAction] = useState<{ name: string; action: 'like' | 'dislike' } | null>(null);
   const [undoStack, setUndoStack] = useState<{ name: string; action: 'like' | 'dislike' }[]>([]);
+  const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
 
   useEffect(() => {
     // Load initial batch of names
@@ -278,50 +293,58 @@ const SwipeModePage: React.FC = () => {
   const visibleCards = cards.slice(currentIndex, currentIndex + 3).reverse();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden">
+    <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-sm fixed top-0 left-0 right-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          <button
-            onClick={() => navigate('/')}
-            className="flex items-center gap-2 text-gray-700 hover:text-purple-600 transition-colors"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span className="font-medium">Back</span>
-          </button>
+      <header className="flex-none bg-white/95 backdrop-blur-lg shadow-md border-b border-purple-100/50 z-50">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => navigate('/')}
+              className="hover:opacity-80 transition-opacity"
+              title="Go to home"
+            >
+              <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
+            </button>
+            <button
+              onClick={() => navigate('/')}
+              className="flex items-center gap-1.5 text-gray-700 hover:text-purple-600 transition-colors px-2 py-1.5 rounded-lg hover:bg-purple-50"
+            >
+              <ArrowLeft className="w-5 h-5" />
+              <span className="hidden sm:inline font-medium">Back</span>
+            </button>
+          </div>
 
           <div className="flex items-center gap-2">
-            <Baby className="h-8 w-8 text-purple-500" />
-            <h1 className="text-lg font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <h1 className="text-base sm:text-lg font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Swipe Mode
             </h1>
           </div>
 
-          <div className="flex gap-4">
+          <div className="flex gap-2 sm:gap-4">
             <div className="flex items-center gap-1">
-              <Heart className="w-5 h-5 text-red-500 fill-red-500" />
-              <span className="font-bold text-gray-700">{favoritesCount}</span>
+              <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-red-500 fill-red-500" />
+              <span className="font-bold text-gray-700 text-sm sm:text-base">{favoritesCount}</span>
             </div>
             <div className="flex items-center gap-1">
-              <X className="w-5 h-5 text-gray-500" />
-              <span className="font-bold text-gray-700">{dislikesCount}</span>
+              <X className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500" />
+              <span className="font-bold text-gray-700 text-sm sm:text-base">{dislikesCount}</span>
             </div>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <div className="pt-20 px-4 h-screen flex flex-col">
+      <div className="flex-1 flex flex-col min-h-0 px-3 sm:px-4">
         {/* Progress */}
-        <div className="text-center mb-4">
-          <p className="text-sm text-gray-600">
-            Reviewing name {currentIndex + 1} of {cards.length}
+        <div className="flex-none text-center py-2">
+          <p className="text-xs sm:text-sm text-gray-600">
+            {currentIndex + 1} / {cards.length}
           </p>
         </div>
 
         {/* Card Stack and Buttons Container */}
-        <div className="flex-1 flex flex-col items-center justify-center">
-          <div className="relative w-full max-w-md h-[600px]">
+        <div className="flex-1 flex flex-col items-center justify-center min-h-0 pb-2">
+          <div className="relative w-full max-w-xs sm:max-w-md h-full max-h-[65vh] sm:max-h-[580px]">
             {loading ? (
               <div className="flex items-center justify-center h-full">
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
@@ -348,6 +371,7 @@ const SwipeModePage: React.FC = () => {
                         onSwipeLeft={() => handleSwipe('left')}
                         onSwipeRight={() => handleSwipe('right')}
                         dragEnabled={true}
+                        onInfoClick={() => setSelectedName(card)}
                       />
                     </motion.div>
                   );
@@ -370,27 +394,27 @@ const SwipeModePage: React.FC = () => {
 
           {/* Action Buttons - Below the card stack */}
           {!loading && currentIndex < cards.length && (
-            <div className="w-full max-w-md mt-8 pb-8">
-              <div className="flex justify-between items-center px-8">
+            <div className="flex-none w-full max-w-xs sm:max-w-md mt-3 sm:mt-6 pb-3 sm:pb-6">
+              <div className="flex justify-between items-center px-4 sm:px-8">
                 {/* Dislike Button - Left */}
                 <button
                   onClick={() => handleButtonClick('dislike')}
-                  className="flex items-center justify-center w-16 h-16 rounded-full bg-white border-4 border-red-500 shadow-xl hover:scale-110 transition-transform z-50"
+                  className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white border-3 sm:border-4 border-red-500 shadow-xl hover:scale-110 active:scale-95 transition-transform z-50"
                 >
-                  <X className="w-8 h-8 text-red-500 stroke-[3px]" />
+                  <X className="w-7 h-7 sm:w-8 sm:h-8 text-red-500 stroke-[3px]" />
                 </button>
 
                 {/* Undo Button - Center */}
                 <button
                   onClick={handleUndo}
                   disabled={undoStack.length === 0}
-                  className={`flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-xl transition-all z-50 ${
+                  className={`flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white shadow-xl transition-all z-50 ${
                     undoStack.length === 0
                       ? 'border-2 border-gray-300 opacity-50 cursor-not-allowed'
-                      : 'border-4 border-yellow-500 hover:scale-110'
+                      : 'border-3 sm:border-4 border-yellow-500 hover:scale-110 active:scale-95'
                   }`}
                 >
-                  <RotateCcw className={`w-6 h-6 ${
+                  <RotateCcw className={`w-5 h-5 sm:w-6 sm:h-6 ${
                     undoStack.length === 0 ? 'text-gray-400' : 'text-yellow-500'
                   } stroke-[2.5px]`} />
                 </button>
@@ -398,19 +422,27 @@ const SwipeModePage: React.FC = () => {
                 {/* Like Button - Right */}
                 <button
                   onClick={() => handleButtonClick('like')}
-                  className="flex items-center justify-center w-16 h-16 rounded-full bg-white border-4 border-green-500 shadow-xl hover:scale-110 transition-transform z-50"
+                  className="flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white border-3 sm:border-4 border-green-500 shadow-xl hover:scale-110 active:scale-95 transition-transform z-50"
                 >
-                  <Heart className="w-8 h-8 text-green-500 stroke-[2px]" />
+                  <Heart className="w-7 h-7 sm:w-8 sm:h-8 text-green-500 stroke-[2px]" />
                 </button>
               </div>
 
-              <p className="text-center text-sm text-gray-500 mt-4">
-                Swipe left to pass • Swipe right to like • Tap undo to go back
+              <p className="text-center text-xs sm:text-sm text-gray-500 mt-2 sm:mt-3 hidden sm:block">
+                Swipe or tap • Undo anytime
               </p>
             </div>
           )}
         </div>
       </div>
+
+      {/* Name Detail Modal */}
+      {selectedName && (
+        <NameDetailModal
+          name={selectedName}
+          onClose={() => setSelectedName(null)}
+        />
+      )}
     </div>
   );
 };

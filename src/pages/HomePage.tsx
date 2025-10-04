@@ -440,9 +440,16 @@ const HomePage: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
               {/* Logo - Minimal */}
-              <h1 className="text-lg font-light tracking-wide text-gray-900">
-                babynames
-              </h1>
+              <button
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
+                title="Scroll to top"
+              >
+                <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
+                <h1 className="text-lg font-light tracking-wide text-gray-900">
+                  babynames
+                </h1>
+              </button>
 
               {/* Favorites Counter - Enhanced */}
               <button

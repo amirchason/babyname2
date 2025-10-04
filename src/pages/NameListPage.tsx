@@ -312,10 +312,14 @@ const NameListPage: React.FC = () => {
                 <ArrowLeft className="h-6 w-6 text-purple-600" />
               </button>
 
-              <div className="relative">
+              <button
+                onClick={() => navigate('/')}
+                className="relative hover:opacity-80 transition-opacity"
+                title="Go to home"
+              >
                 <Baby className="h-10 w-10 text-purple-500" />
                 <Sparkles className="h-4 w-4 text-yellow-400 absolute -top-1 -right-1 animate-pulse" />
-              </div>
+              </button>
               <div>
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                   BabyNames 2025
