@@ -34,6 +34,8 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   // Swipe indicators
   const likeOpacity = useTransform(x, [0, 150], [0, 1]);
   const nopeOpacity = useTransform(x, [-150, 0], [1, 0]);
+  const likeScale = useTransform(x, [0, 150], [0.8, 1.3]);
+  const nopeScale = useTransform(x, [-150, 0], [1.3, 0.8]);
 
   // Check if swipeable (has navigation props)
   const isSwipeable = !!names && currentIndex !== undefined && !!onNavigate;
@@ -73,7 +75,7 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
       if (info.offset.x > 0) {
         // Swipe right - Like
         setExitDirection('right');
-        favoritesService.toggleFavorite(name.name);
+        favoritesService.addFavorite(name.name);
         onFavoriteToggle?.();
 
         setTimeout(() => {
@@ -96,7 +98,7 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
 
   const handleFavoriteClick = () => {
     // Update favorites
-    favoritesService.toggleFavorite(name.name);
+    favoritesService.addFavorite(name.name);
     setIsFavorite(favoritesService.isFavorite(name.name));
     setIsDisliked(favoritesService.isDisliked(name.name));
     onFavoriteToggle?.();
@@ -151,7 +153,7 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
 
   // Main card component
   const CardContent = () => (
-    <div className={`relative max-w-2xl w-full h-full sm:h-[90vh] sm:max-h-[800px] ${genderBg} sm:rounded-3xl shadow-2xl flex flex-col`}
+    <div className={`w-full h-screen ${genderBg} shadow-2xl flex flex-col overflow-hidden`}
          onClick={(e) => e.stopPropagation()}>
       {/* Close Button */}
       <button
@@ -163,7 +165,7 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
       </button>
 
       {/* Header with Gradient */}
-      <div className={`relative h-32 sm:h-44 bg-gradient-to-br ${genderColor} sm:rounded-t-3xl overflow-hidden`}>
+      <div className={`relative h-32 sm:h-44 bg-gradient-to-br ${genderColor} overflow-hidden`}>
         <div className="absolute inset-0 bg-black opacity-20" />
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <h2 className="text-5xl sm:text-8xl font-bold text-white drop-shadow-lg">
@@ -329,49 +331,69 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   );
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center sm:p-4 bg-black bg-opacity-50"
+    <div className="fixed inset-0 z-50 bg-black bg-opacity-50"
          onClick={onClose}>
 
       {/* Preview cards (stack effect) */}
       {previewCards.map((preview) => (
         <div
           key={preview.index}
-          className="fixed inset-0 flex items-center justify-center sm:p-4 pointer-events-none"
+          className="fixed inset-0 pointer-events-none"
           style={{
             zIndex: 50 - preview.index,
             transform: `scale(${preview.scale}) translateY(${preview.y}px)`,
             opacity: 0.6,
           }}
         >
-          <div className={`relative max-w-2xl w-full h-full sm:h-[90vh] sm:max-h-[800px] ${
+          <div className={`w-full h-screen ${
             typeof preview.name.gender === 'object' && (preview.name.gender.Male || 0) > (preview.name.gender.Female || 0)
               ? 'bg-blue-50'
               : 'bg-pink-50'
-          } sm:rounded-3xl shadow-xl`} />
+          } shadow-xl`} />
         </div>
       ))}
 
       {/* Swipe indicators (only if swipeable) */}
       {isSwipeable && (
         <>
-          {/* Dislike Indicator (Red - Left) */}
+          {/* Dislike Indicator (Left) - Up and Left motion */}
           <motion.div
             className="fixed left-8 top-1/4 pointer-events-none z-[60]"
-            style={{ opacity: nopeOpacity }}
+            style={{ opacity: nopeOpacity, scale: nopeScale }}
           >
-            <div className="bg-red-500 text-white px-6 py-3 rounded-2xl font-bold text-xl shadow-2xl rotate-12 border-4 border-white">
-              ✖ NOPE
-            </div>
+            <motion.div
+              animate={{
+                x: [-5, -15, -5],
+                y: [-5, -15, -5],
+              }}
+              transition={{
+                duration: 1,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              <X className="w-20 h-20 text-gray-400/70" strokeWidth={3} />
+            </motion.div>
           </motion.div>
 
-          {/* Like Indicator (Green - Right) */}
+          {/* Like Indicator (Right) - Up and Right motion */}
           <motion.div
             className="fixed right-8 top-1/4 pointer-events-none z-[60]"
-            style={{ opacity: likeOpacity }}
+            style={{ opacity: likeOpacity, scale: likeScale }}
           >
-            <div className="bg-green-500 text-white px-6 py-3 rounded-2xl font-bold text-xl shadow-2xl -rotate-12 border-4 border-white">
-              ❤️ LIKE
-            </div>
+            <motion.div
+              animate={{
+                x: [5, 15, 5],
+                y: [-5, -15, -5],
+              }}
+              transition={{
+                duration: 1,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              <Heart className={`w-20 h-20 ${isMale ? 'text-blue-400/70' : 'text-pink-400/70'}`} strokeWidth={3} />
+            </motion.div>
           </motion.div>
         </>
       )}

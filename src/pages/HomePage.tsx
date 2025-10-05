@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
   const [, forceUpdate] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(30); // 30 names per page
+  const [itemsPerPage] = useState(10); // 10 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
   const [heartBeat, setHeartBeat] = useState(false);
 
@@ -912,12 +912,12 @@ const HomePage: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-3 w-full max-w-xl mx-auto"
+            className="flex flex-col sm:flex-row gap-3 w-full max-w-xl mx-auto mt-2"
           >
             <button
               className="w-full py-4 rounded-full text-sm font-light
-                       bg-gray-900 text-white hover:bg-gray-800
-                       transition-all duration-200"
+                       bg-white text-gray-900 border border-gray-200
+                       hover:border-gray-400 transition-all duration-200"
             >
               Browse Names
             </button>

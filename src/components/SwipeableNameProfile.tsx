@@ -7,17 +7,21 @@ import enrichmentService from '../services/enrichmentService';
 
 interface SwipeableNameProfileProps {
   name: NameEntry;
+  nextName?: NameEntry; // Add next name for stacking
   onSwipeLeft: () => void;
   onSwipeRight: () => void;
   contextualRank?: number;
+  nextRank?: number; // Add rank for next card
   filterContext?: 'all' | 'male' | 'female';
 }
 
 const SwipeableNameProfile: React.FC<SwipeableNameProfileProps> = ({
   name,
+  nextName,
   onSwipeLeft,
   onSwipeRight,
   contextualRank,
+  nextRank,
   filterContext
 }) => {
   const [exitDirection, setExitDirection] = useState<'left' | 'right' | null>(null);
@@ -29,10 +33,14 @@ const SwipeableNameProfile: React.FC<SwipeableNameProfileProps> = ({
     culturalContext?: string;
     enriched?: boolean;
   }>({});
+  const [nextEnrichedData, setNextEnrichedData] = useState<{
+    meaning?: string;
+    origin?: string;
+  }>({});
 
   const x = useMotionValue(0);
 
-  // Transform x position to rotation and opacity
+  // Transform x position to rotation and opacity for TOP card
   const rotate = useTransform(x, [-200, 0, 200], [-10, 0, 10]);
   const opacity = useTransform(x, [-200, -150, 0, 150, 200], [0.5, 1, 1, 1, 0.5]);
 
@@ -40,11 +48,18 @@ const SwipeableNameProfile: React.FC<SwipeableNameProfileProps> = ({
   const likeOpacity = useTransform(x, [0, 150], [0, 1]);
   const dislikeOpacity = useTransform(x, [-150, 0], [1, 0]);
 
+  // UNDERLAYER REVEAL: Transform for BOTTOM card (next profile)
+  // As top card drags away (abs(x) increases), bottom card scales up and moves into position
+  const dragProgress = useTransform(x, [-200, 0, 200], [1, 0, 1]); // 0 at center, 1 when dragged
+  const nextScale = useTransform(dragProgress, [0, 1], [0.95, 1]); // Grow from 95% to 100%
+  const nextY = useTransform(dragProgress, [0, 1], [10, 0]); // Move up slightly
+  const nextOpacity = useTransform(dragProgress, [0, 1], [0.8, 1]); // Fade in
+
   useEffect(() => {
     setIsFavorite(favoritesService.isFavorite(name.name));
     setIsDisliked(favoritesService.isDisliked(name.name));
 
-    // Get enriched data
+    // Get enriched data for current card
     const data = enrichmentService.getNameData(name.name);
     if (data) {
       setEnrichedData(data);
@@ -54,7 +69,20 @@ const SwipeableNameProfile: React.FC<SwipeableNameProfileProps> = ({
         origin: name.origin
       });
     }
-  }, [name.name, name.meaning, name.origin]);
+
+    // Get enriched data for next card
+    if (nextName) {
+      const nextData = enrichmentService.getNameData(nextName.name);
+      if (nextData) {
+        setNextEnrichedData(nextData);
+      } else {
+        setNextEnrichedData({
+          meaning: nextName.meaning,
+          origin: nextName.origin
+        });
+      }
+    }
+  }, [name.name, name.meaning, name.origin, nextName]);
 
   const handleDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
     const swipeThreshold = 40;
@@ -99,30 +127,102 @@ const SwipeableNameProfile: React.FC<SwipeableNameProfileProps> = ({
   const genderColor = isMale ? 'from-blue-500 to-blue-700' : 'from-pink-500 to-pink-700';
   const genderBg = isMale ? 'bg-blue-50' : 'bg-pink-50';
 
+  // Next card gender data
+  const nextGenderData = nextName && typeof nextName.gender === 'object' ? nextName.gender : null;
+  const nextIsMale = (nextGenderData?.Male || 0) > (nextGenderData?.Female || 0);
+  const nextGenderColor = nextIsMale ? 'from-blue-500 to-blue-700' : 'from-pink-500 to-pink-700';
+  const nextGenderBg = nextIsMale ? 'bg-blue-50' : 'bg-pink-50';
+
   return (
-    <motion.div
-      className="fixed inset-0 top-16"
-      style={{ x, rotate, opacity, touchAction: 'pan-y' }}
-      drag="x"
-      dragConstraints={{ left: -500, right: 500 }}
-      dragElastic={0.3}
-      dragMomentum={false}
-      onDragEnd={handleDragEnd}
-      animate={exitDirection ? {
-        x: exitDirection === 'right' ? 800 : -800,
-        opacity: 0,
-        rotate: exitDirection === 'right' ? 30 : -30,
-      } : {}}
-      transition={exitDirection ? {
-        type: 'tween',
-        duration: 0.2,
-        ease: 'easeOut'
-      } : {
-        type: 'spring',
-        stiffness: 700,
-        damping: 20,
-      }}
-    >
+    <div className="fixed inset-0 top-16">
+      {/* BOTTOM CARD (Next profile) - Reveals from underneath */}
+      {nextName && (
+        <motion.div
+          className="absolute inset-0"
+          style={{
+            scale: nextScale,
+            y: nextY,
+            opacity: nextOpacity,
+            touchAction: 'none',
+            pointerEvents: 'none'
+          }}
+        >
+          {/* Next Profile Preview */}
+          <div className={`h-full w-full ${nextGenderBg} overflow-y-auto pt-4`}>
+            {/* Header with Gradient */}
+            <div className={`relative h-48 bg-gradient-to-br ${nextGenderColor} overflow-hidden`}>
+              <div className="absolute inset-0 bg-black opacity-20" />
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <h2 className="text-6xl font-bold text-white drop-shadow-lg mb-2">
+                  {nextName.name}
+                </h2>
+                <span className="px-4 py-1 bg-white bg-opacity-30 backdrop-blur-sm rounded-full text-white text-sm font-medium">
+                  Rank #{nextRank || nextName.popularityRank}
+                </span>
+              </div>
+            </div>
+
+            {/* Content */}
+            <div className="p-6 pb-32">
+              {/* Meaning Section */}
+              {nextEnrichedData.meaning && (
+                <div className="mb-6 p-6 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl border border-purple-200 shadow-lg">
+                  <div className="flex items-center gap-2 mb-3">
+                    <BookOpen className="w-6 h-6 text-purple-600" />
+                    <h3 className="text-xl font-semibold text-purple-800">Meaning</h3>
+                  </div>
+                  <p className="text-xl italic text-gray-700">"{nextEnrichedData.meaning}"</p>
+                </div>
+              )}
+
+              {/* Essential Info */}
+              <div className="mb-6 p-6 bg-white rounded-2xl border border-gray-200 shadow-lg">
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <Award className="w-12 h-12 text-yellow-500 mx-auto mb-3" />
+                    <div className="text-3xl font-bold text-gray-800">
+                      #{nextRank || nextName.popularityRank || 'N/A'}
+                    </div>
+                    <div className="text-sm text-gray-500 mt-1">Global Rank</div>
+                  </div>
+                  <div className="text-center">
+                    <Globe className="w-12 h-12 text-indigo-500 mx-auto mb-3" />
+                    <div className="text-2xl font-bold text-gray-800 capitalize">
+                      {nextEnrichedData.origin || nextName.origin || 'Unknown'}
+                    </div>
+                    <div className="text-sm text-gray-500 mt-1">Origin</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      )}
+
+      {/* TOP CARD (Current profile) - Swipeable */}
+      <motion.div
+        className="absolute inset-0"
+        style={{ x, rotate, opacity, touchAction: 'pan-y' }}
+        drag="x"
+        dragConstraints={{ left: -500, right: 500 }}
+        dragElastic={0.3}
+        dragMomentum={false}
+        onDragEnd={handleDragEnd}
+        animate={exitDirection ? {
+          x: exitDirection === 'right' ? 800 : -800,
+          opacity: 0,
+          rotate: exitDirection === 'right' ? 30 : -30,
+        } : {}}
+        transition={exitDirection ? {
+          type: 'tween',
+          duration: 0.2,
+          ease: 'easeOut'
+        } : {
+          type: 'spring',
+          stiffness: 700,
+          damping: 20,
+        }}
+      >
       {/* Dislike Indicator (Red - Left) */}
       <motion.div
         className="absolute left-8 top-1/4 pointer-events-none z-10"
@@ -272,7 +372,8 @@ const SwipeableNameProfile: React.FC<SwipeableNameProfileProps> = ({
           </p>
         </div>
       </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

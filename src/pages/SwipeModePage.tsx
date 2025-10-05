@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { motion, useMotionValue, useTransform, useAnimation, PanInfo } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Heart, X, Sparkles, Baby, RotateCcw, Info } from 'lucide-react';
@@ -9,17 +9,23 @@ import NameDetailModal from '../components/NameDetailModal';
 interface CardProps {
   name: NameEntry;
   isTop: boolean;
+  isSecond: boolean; // Track if this is the second card (underneath top)
+  dragX?: any; // Motion value for drag (passed from parent for top card)
+  topCardX?: any; // Motion value from top card's drag (for second card reveal)
   onSwipeLeft: () => void;
   onSwipeRight: () => void;
   dragEnabled: boolean;
   onInfoClick: () => void;
 }
 
-const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dragEnabled, onInfoClick }) => {
-  const x = useMotionValue(0);
+// Memoized Card component to prevent unnecessary re-renders
+const Card = React.memo<CardProps>(({ name, isTop, isSecond, dragX, topCardX, onSwipeLeft, onSwipeRight, dragEnabled, onInfoClick }) => {
+  // Use provided dragX for top card, or create local one for others
+  const localX = useMotionValue(0);
+  const x = dragX || localX;
   const controls = useAnimation();
 
-  // Transform values for smooth animations
+  // Transform values for smooth animations (for TOP card)
   const rotate = useTransform(x, [-200, 0, 200], [-25, 0, 25]);
   const opacity = useTransform(x, [-200, -100, 0, 100, 200], [0.5, 1, 1, 1, 0.5]);
 
@@ -27,7 +33,21 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
   const likeOpacity = useTransform(x, [0, 100], [0, 1]);
   const nopeOpacity = useTransform(x, [-100, 0], [1, 0]);
 
-  const handleDragEnd = (event: any, info: PanInfo) => {
+  // UNDERLAYER REVEAL: Second card scales up as top card drags
+  // Always create transforms, but use a fallback static motion value if topCardX doesn't exist
+  const fallbackX = useMotionValue(0);
+  const revealScale = useTransform(
+    topCardX || fallbackX,
+    [-200, 0, 200],
+    [1, 0.95, 1]
+  );
+  const revealY = useTransform(
+    topCardX || fallbackX,
+    [-200, 0, 200],
+    [0, 10, 0]
+  );
+
+  const handleDragEnd = useCallback((event: any, info: PanInfo) => {
     const threshold = 50;
     const velocity = info.velocity.x;
     const offset = info.offset.x;
@@ -41,6 +61,9 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
           rotate: 45,
           opacity: 0,
           transition: { duration: 0.3 }
+        }).then(() => {
+          // Reset motion values after animation completes
+          x.set(0);
         });
         setTimeout(onSwipeRight, 300);
       } else {
@@ -50,6 +73,9 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
           rotate: -45,
           opacity: 0,
           transition: { duration: 0.3 }
+        }).then(() => {
+          // Reset motion values after animation completes
+          x.set(0);
         });
         setTimeout(onSwipeLeft, 300);
       }
@@ -61,7 +87,7 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
         transition: { type: "spring", stiffness: 200, damping: 25 }
       });
     }
-  };
+  }, [controls, onSwipeLeft, onSwipeRight, x]);
 
   const genderData = typeof name.gender === 'object' ? name.gender : null;
   const isMale = (genderData?.Male || 0) > (genderData?.Female || 0);
@@ -71,7 +97,14 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
   return (
     <motion.div
       className="absolute w-full h-full"
-      style={{ x: isTop ? x : 0, rotate: isTop ? rotate : 0, opacity }}
+      style={{
+        x: isTop ? x : 0,
+        rotate: isTop ? rotate : 0,
+        opacity,
+        // Apply reveal animation to second card
+        scale: isSecond ? revealScale : 1,
+        y: isSecond ? revealY : 0,
+      }}
       drag={dragEnabled && isTop ? "x" : false}
       dragConstraints={{ left: -250, right: 250 }}
       dragElastic={0.5}
@@ -174,7 +207,17 @@ const Card: React.FC<CardProps> = ({ name, isTop, onSwipeLeft, onSwipeRight, dra
       </div>
     </motion.div>
   );
-};
+});
+
+Card.displayName = 'Card';
+
+// Constants for performance optimization
+const INITIAL_LOAD_SIZE = 500; // Load more initially to reduce loading frequency
+const LOAD_MORE_THRESHOLD = 50; // Load when 50 cards remaining (was 10)
+const LOAD_MORE_BATCH = 300; // Load 300 at once (was 100) to reduce load frequency
+const MAX_CARDS_IN_MEMORY = 100; // Keep max 100 cards in memory
+const MAX_UNDO_STACK = 20; // Limit undo history to 20 actions
+const VISIBLE_CARDS_COUNT = 3; // Only render 3 cards at a time
 
 const SwipeModePage: React.FC = () => {
   const navigate = useNavigate();
@@ -187,51 +230,101 @@ const SwipeModePage: React.FC = () => {
   const [undoStack, setUndoStack] = useState<{ name: string; action: 'like' | 'dislike' }[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
+  const [loadOffset, setLoadOffset] = useState(0); // Track where to load next batch from
+
+  // Motion value for top card's drag - shared with second card for reveal animation
+  const topCardX = useMotionValue(0);
+
+  // Load names with proper batching and memory management
+  const loadNamesBatch = useCallback((offset: number, limit: number) => {
+    // Get popular names sorted (service caches this internally)
+    let names = nameService.getPopularNames(offset + limit);
+
+    // Slice to get only the new batch
+    names = names.slice(offset, offset + limit);
+
+    // Filter out already liked and disliked names
+    names = favoritesService.filterOutLikedAndDisliked(names);
+
+    return names;
+  }, []);
 
   useEffect(() => {
     // Load initial batch of names
     const loadNames = async () => {
       setLoading(true);
-      let names = nameService.getPopularNames(200); // Load more to account for filtering
-      // Filter out already liked and disliked names
-      names = favoritesService.filterOutLikedAndDisliked(names);
+      const names = loadNamesBatch(0, INITIAL_LOAD_SIZE);
       setCards(names);
+      setLoadOffset(INITIAL_LOAD_SIZE);
       setFavoritesCount(favoritesService.getFavoritesCount());
       setDislikesCount(favoritesService.getDislikesCount());
       setLoading(false);
     };
     loadNames();
-  }, []);
+  }, [loadNamesBatch]);
 
-  const handleSwipe = (direction: 'left' | 'right') => {
+  // Cleanup old cards from memory when we have too many
+  const cleanupOldCards = useCallback(() => {
+    // Only cleanup if we have way too many swiped cards
+    if (currentIndex > MAX_CARDS_IN_MEMORY) {
+      setCards(prev => {
+        // Keep cards from currentIndex onwards (remove swiped cards)
+        const cardsToKeep = prev.slice(currentIndex);
+        return cardsToKeep;
+      });
+
+      // Reset index AFTER slicing (in next tick to ensure cards updated first)
+      setTimeout(() => {
+        setCurrentIndex(0);
+      }, 0);
+    }
+  }, [currentIndex]);
+
+  // Load more cards when running low
+  const loadMoreCards = useCallback(() => {
+    const remainingCards = cards.length - currentIndex;
+
+    if (remainingCards <= LOAD_MORE_THRESHOLD) {
+      const newBatch = loadNamesBatch(loadOffset, LOAD_MORE_BATCH);
+
+      if (newBatch.length > 0) {
+        setCards(prev => [...prev, ...newBatch]);
+        setLoadOffset(prev => prev + LOAD_MORE_BATCH);
+      }
+    }
+  }, [cards.length, currentIndex, loadOffset, loadNamesBatch]);
+
+  const handleSwipe = useCallback((direction: 'left' | 'right') => {
     const currentCard = cards[currentIndex];
+    if (!currentCard) return;
+
     const action = direction === 'right' ? 'like' : 'dislike';
 
-    // Track the action for undo
-    setUndoStack(prev => [...prev, { name: currentCard.name, action }]);
-    setLastAction({ name: currentCard.name, action });
-
+    // Update services FIRST (before state updates)
     if (direction === 'right') {
       favoritesService.addFavorite(currentCard.name);
-      setFavoritesCount(favoritesService.getFavoritesCount());
     } else {
       favoritesService.addDislike(currentCard.name);
-      setDislikesCount(favoritesService.getDislikesCount());
     }
 
-    // Move to next card
+    // Batch all state updates together using react's automatic batching
+    // This prevents multiple re-renders and glitches
+    setUndoStack(prev => {
+      const newStack = [...prev, { name: currentCard.name, action }];
+      return newStack.slice(-MAX_UNDO_STACK);
+    });
+    setLastAction({ name: currentCard.name, action });
     setCurrentIndex(prev => prev + 1);
+    setFavoritesCount(favoritesService.getFavoritesCount());
+    setDislikesCount(favoritesService.getDislikesCount());
 
-    // Load more cards if running low
-    if (currentIndex >= cards.length - 5) {
-      let moreNames = nameService.getPopularNames(100); // Load more to account for filtering
-      // Filter out already liked and disliked names
-      moreNames = favoritesService.filterOutLikedAndDisliked(moreNames);
-      setCards(prev => [...prev, ...moreNames]);
-    }
-  };
+    // Load more cards AFTER swipe animation completes (500ms delay)
+    setTimeout(() => {
+      loadMoreCards();
+    }, 500);
+  }, [cards, currentIndex, loadMoreCards]);
 
-  const handleButtonClick = (action: 'like' | 'dislike') => {
+  const handleButtonClick = useCallback((action: 'like' | 'dislike') => {
     // Don't do anything if no cards left
     if (currentIndex >= cards.length) return;
 
@@ -251,23 +344,31 @@ const SwipeModePage: React.FC = () => {
 
     // Delay the actual action to let animation play
     setTimeout(() => {
-      // Track the action for undo
-      setUndoStack(prev => [...prev, { name: currentCard.name, action }]);
-      setLastAction({ name: currentCard.name, action });
-
+      // Update services FIRST
       if (action === 'like') {
         favoritesService.addFavorite(currentCard.name);
-        setFavoritesCount(favoritesService.getFavoritesCount());
       } else {
         favoritesService.addDislike(currentCard.name);
-        setDislikesCount(favoritesService.getDislikesCount());
       }
 
+      // Batch all state updates together
+      setUndoStack(prev => {
+        const newStack = [...prev, { name: currentCard.name, action }];
+        return newStack.slice(-MAX_UNDO_STACK);
+      });
+      setLastAction({ name: currentCard.name, action });
       setCurrentIndex(prev => prev + 1);
-    }, 300);
-  };
+      setFavoritesCount(favoritesService.getFavoritesCount());
+      setDislikesCount(favoritesService.getDislikesCount());
 
-  const handleUndo = () => {
+      // Load more cards AFTER animation (500ms)
+      setTimeout(() => {
+        loadMoreCards();
+      }, 500);
+    }, 300);
+  }, [cards, currentIndex, loadMoreCards, cleanupOldCards]);
+
+  const handleUndo = useCallback(() => {
     if (undoStack.length === 0 || currentIndex === 0) return;
 
     const lastItem = undoStack[undoStack.length - 1];
@@ -288,10 +389,17 @@ const SwipeModePage: React.FC = () => {
 
     // Move back to previous card
     setCurrentIndex(prev => Math.max(0, prev - 1));
-  };
+  }, [undoStack, currentIndex]);
 
-  // Get visible cards (current + next 2)
-  const visibleCards = cards.slice(currentIndex, currentIndex + 3).reverse();
+  // Get visible cards (current + next 2) - memoized for performance
+  const visibleCards = useMemo(() => {
+    return cards.slice(currentIndex, currentIndex + VISIBLE_CARDS_COUNT).reverse();
+  }, [cards, currentIndex]);
+
+  // Stable key generation for cards
+  const getCardKey = useCallback((card: NameEntry, index: number) => {
+    return `${card.name}-${currentIndex + index}`;
+  }, [currentIndex]);
 
   return (
     <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
@@ -355,11 +463,12 @@ const SwipeModePage: React.FC = () => {
                 {/* Stack of cards */}
                 {visibleCards.map((card, index) => {
                   const isTop = index === visibleCards.length - 1;
+                  const isSecond = index === visibleCards.length - 2; // The card right beneath the top
                   const stackIndex = visibleCards.length - 1 - index;
 
                   return (
                     <motion.div
-                      key={`${card.name}-${currentIndex + stackIndex}`}
+                      key={getCardKey(card, stackIndex)}
                       className="absolute inset-0"
                       data-card-index={stackIndex}
                       initial={{ scale: 1 - stackIndex * 0.05, y: stackIndex * 10 }}
@@ -369,12 +478,15 @@ const SwipeModePage: React.FC = () => {
                       <Card
                         name={card}
                         isTop={isTop}
+                        isSecond={isSecond}
+                        dragX={isTop ? topCardX : undefined} // Pass motion value to top card
+                        topCardX={isSecond ? topCardX : undefined} // Pass top card's motion value to second card
                         onSwipeLeft={() => handleSwipe('left')}
                         onSwipeRight={() => handleSwipe('right')}
                         dragEnabled={true}
                         onInfoClick={() => {
                           setSelectedName(card);
-                          setSelectedIndex(index + currentIndex);
+                          setSelectedIndex(currentIndex + stackIndex);
                         }}
                       />
                     </motion.div>

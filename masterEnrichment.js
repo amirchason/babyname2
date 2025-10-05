@@ -6,10 +6,15 @@ const OpenAI = require('openai');
 
 // Constants
 const BATCH_SIZE = 10;
-const DELAY_MS = 1500;
+const CONCURRENCY = 5; // Run 5 API calls in parallel (safe for 500 RPM limit)
+const DELAY_MS = 300; // 300ms between parallel batches (conservative)
 const MAX_RETRIES = 3;
 const REPORT_INTERVAL = 300000; // 5 minutes
 const MAX_DURATION_MS = (process.env.MAX_DURATION_HOURS || 5.5) * 60 * 60 * 1000; // Default 5.5 hours
+
+// OpenAI Rate Limits (gpt-4o-mini)
+const RPM_LIMIT = 500; // 500 requests per minute
+const SAFE_RPM = 400; // Stay under limit with 20% buffer
 
 // Paths
 const MASTER_STATE_PATH = 'enrichment_logs/master_state.json';
@@ -210,7 +215,7 @@ function checkTimeLimit() {
 }
 
 async function processChunk(chunkNumber, startIndex = 0) {
-  log(`Processing chunk ${chunkNumber} from index ${startIndex}`);
+  log(`Processing chunk ${chunkNumber} from index ${startIndex} (PARALLEL MODE: ${CONCURRENCY}x)`);
 
   const allNames = loadChunk(chunkNumber);
   if (allNames.length === 0) return;
@@ -221,8 +226,9 @@ async function processChunk(chunkNumber, startIndex = 0) {
   }
   masterState.chunks[chunkNumber].total = allNames.length;
 
-  for (let i = startIndex; i < allNames.length; i += BATCH_SIZE) {
-    // Check time limit before each batch
+  // Process in parallel batches
+  for (let i = startIndex; i < allNames.length; i += (BATCH_SIZE * CONCURRENCY)) {
+    // Check time limit before each parallel batch group
     if (checkTimeLimit()) {
       masterState.lastCheckpoint = {
         chunk: chunkNumber,
@@ -233,65 +239,91 @@ async function processChunk(chunkNumber, startIndex = 0) {
       saveToChunk(chunkNumber, allNames);
       return;
     }
-    const batch = allNames.slice(i, i + BATCH_SIZE).map((name, idx) => ({
-      ...name,
-      index: i + idx,
-      chunk: chunkNumber
-    }));
 
-    if (batch.length === 0) continue;
+    // Create concurrent batches
+    const parallelBatches = [];
+    for (let j = 0; j < CONCURRENCY; j++) {
+      const batchStart = i + (j * BATCH_SIZE);
+      if (batchStart >= allNames.length) break;
 
-    // Check if already processed
-    const needsProcessing = batch.filter(n => !n.meaningProcessed);
-    if (needsProcessing.length === 0) {
-      continue;
-    }
+      const batch = allNames.slice(batchStart, batchStart + BATCH_SIZE).map((name, idx) => ({
+        ...name,
+        index: batchStart + idx,
+        chunk: chunkNumber
+      }));
 
-    log(`Batch ${Math.floor(i/BATCH_SIZE) + 1}: ${needsProcessing.map(n => n.name).join(', ')}`);
+      if (batch.length === 0) continue;
 
-    const result = await enrichBatch(needsProcessing);
+      // Check if already processed
+      const needsProcessing = batch.filter(n => !n.meaningProcessed);
+      if (needsProcessing.length === 0) continue;
 
-    if (result.success) {
-      // Update names in array
-      result.enrichedNames.forEach(enriched => {
-        allNames[enriched.index] = enriched;
+      parallelBatches.push({
+        names: needsProcessing,
+        batchNum: Math.floor(batchStart / BATCH_SIZE) + 1
       });
-
-      sessionStats.processed += result.enrichedNames.length;
-      masterState.totalNamesProcessed += result.enrichedNames.length;
-      masterState.chunks[chunkNumber].processed += result.enrichedNames.length;
-
-      // Estimate cost
-      const cost = result.enrichedNames.length * 0.00005;
-      sessionStats.cost += cost;
-      masterState.estimatedCost += cost;
-
-      log(`✓ Enriched ${result.enrichedNames.length} names`);
-    } else {
-      sessionStats.errors += batch.length;
-      masterState.totalErrors += batch.length;
-      masterState.chunks[chunkNumber].errors += batch.length;
-
-      // Log errors
-      const errorEntry = {
-        timestamp: new Date().toISOString(),
-        chunk: chunkNumber,
-        batch: batch.map(n => n.name),
-        error: result.error
-      };
-
-      let errors = [];
-      if (fs.existsSync(ERRORS_LOG_PATH)) {
-        errors = JSON.parse(fs.readFileSync(ERRORS_LOG_PATH, 'utf8'));
-      }
-      errors.push(errorEntry);
-      fs.writeFileSync(ERRORS_LOG_PATH, JSON.stringify(errors, null, 2));
     }
+
+    if (parallelBatches.length === 0) continue;
+
+    log(`Processing ${parallelBatches.length} batches in parallel (${parallelBatches.reduce((sum, b) => sum + b.names.length, 0)} names)...`);
+
+    // Execute all batches in parallel
+    const results = await Promise.allSettled(
+      parallelBatches.map(batch => enrichBatch(batch.names))
+    );
+
+    // Process results from parallel batches
+    let totalEnriched = 0;
+    let totalErrors = 0;
+
+    results.forEach((result, idx) => {
+      if (result.status === 'fulfilled' && result.value.success) {
+        // Update names in array
+        result.value.enrichedNames.forEach(enriched => {
+          allNames[enriched.index] = enriched;
+        });
+
+        const count = result.value.enrichedNames.length;
+        totalEnriched += count;
+        sessionStats.processed += count;
+        masterState.totalNamesProcessed += count;
+        masterState.chunks[chunkNumber].processed += count;
+
+        // Estimate cost
+        const cost = count * 0.00005;
+        sessionStats.cost += cost;
+        masterState.estimatedCost += cost;
+      } else {
+        const batchNames = parallelBatches[idx].names;
+        totalErrors += batchNames.length;
+        sessionStats.errors += batchNames.length;
+        masterState.totalErrors += batchNames.length;
+        masterState.chunks[chunkNumber].errors += batchNames.length;
+
+        // Log errors
+        const errorEntry = {
+          timestamp: new Date().toISOString(),
+          chunk: chunkNumber,
+          batch: batchNames.map(n => n.name),
+          error: result.status === 'fulfilled' ? result.value.error : result.reason?.message || 'Unknown error'
+        };
+
+        let errors = [];
+        if (fs.existsSync(ERRORS_LOG_PATH)) {
+          errors = JSON.parse(fs.readFileSync(ERRORS_LOG_PATH, 'utf8'));
+        }
+        errors.push(errorEntry);
+        fs.writeFileSync(ERRORS_LOG_PATH, JSON.stringify(errors, null, 2));
+      }
+    });
+
+    log(`✓ Completed parallel batch: ${totalEnriched} enriched, ${totalErrors} errors`);
 
     // Update checkpoint
     masterState.lastCheckpoint = {
       chunk: chunkNumber,
-      index: i + BATCH_SIZE,
+      index: i + (BATCH_SIZE * CONCURRENCY),
       timestamp: new Date().toISOString()
     };
 
@@ -305,8 +337,8 @@ async function processChunk(chunkNumber, startIndex = 0) {
       lastReportTime = Date.now();
     }
 
-    // Delay between batches
-    if (i + BATCH_SIZE < allNames.length) {
+    // Delay between parallel batch groups (rate limiting)
+    if (i + (BATCH_SIZE * CONCURRENCY) < allNames.length) {
       await new Promise(resolve => setTimeout(resolve, DELAY_MS));
     }
   }
@@ -321,6 +353,14 @@ function generateProgressReport() {
 
   const totalRemaining = estimateTotalRemaining();
   const eta = totalRemaining / rate; // minutes
+
+  // Calculate estimated finish time
+  const finishTime = new Date(Date.now() + (eta * 60 * 1000));
+  const finishTimeStr = finishTime.toLocaleTimeString('en-US', {
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true
+  });
 
   const report = `
 ============================================================
@@ -339,7 +379,9 @@ Overall Progress:
   - Total cost: $${masterState.estimatedCost.toFixed(2)}
   - Current chunk: ${masterState.currentChunk}
 
-Estimated Time Remaining: ${eta.toFixed(0)} minutes
+Time Estimates:
+  - Time remaining: ${eta.toFixed(0)} minutes (${(eta/60).toFixed(1)} hours)
+  - Estimated finish: ${finishTimeStr}
 ============================================================
 `;
 
@@ -375,20 +417,33 @@ async function main() {
   // Load state
   loadMasterState();
 
-  // Step 1: Process error names first
+  // Step 1: Process error names first (with parallel processing)
   if (masterState.totalErrors > 0 && !masterState.errorsRetried) {
-    log('Step 1: Retrying error names...');
+    log('Step 1: Retrying error names (parallel mode)...');
     const errorNames = loadErrorNames();
 
-    for (let i = 0; i < errorNames.length; i += BATCH_SIZE) {
-      const batch = errorNames.slice(i, i + BATCH_SIZE);
-      const result = await enrichBatch(batch);
+    for (let i = 0; i < errorNames.length; i += (BATCH_SIZE * CONCURRENCY)) {
+      const parallelBatches = [];
 
-      if (result.success) {
-        // Update original chunks
-        // This would need more complex logic to update the right chunk
-        sessionStats.retries += result.enrichedNames.length;
+      for (let j = 0; j < CONCURRENCY; j++) {
+        const batchStart = i + (j * BATCH_SIZE);
+        if (batchStart >= errorNames.length) break;
+
+        const batch = errorNames.slice(batchStart, batchStart + BATCH_SIZE);
+        if (batch.length > 0) {
+          parallelBatches.push(batch);
+        }
       }
+
+      const results = await Promise.allSettled(
+        parallelBatches.map(batch => enrichBatch(batch))
+      );
+
+      results.forEach(result => {
+        if (result.status === 'fulfilled' && result.value.success) {
+          sessionStats.retries += result.value.enrichedNames.length;
+        }
+      });
 
       await new Promise(resolve => setTimeout(resolve, DELAY_MS));
     }

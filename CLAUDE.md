@@ -9,8 +9,11 @@ BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, A
 
 ### Development
 ```bash
-npm start              # Start dev server at http://localhost:3000/babyname2 (NODE_OPTIONS='--max-old-space-size=1024')
+npm start              # Start dev server at http://localhost:3000/babyname2
+                       # (use --legacy-peer-deps if install issues with React 19)
+                       # (NODE_OPTIONS='--max-old-space-size=1024' set in package.json)
 npm run build          # Production build for GitHub Pages deployment
+npm run lint           # Run ESLint on codebase
 npm test               # Run test suite (Note: No tests currently written)
 npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
 ```
@@ -86,12 +89,6 @@ Component → nameService → chunkedDatabaseService → chunks
 - `enrichmentService.ts` - Background AI enrichment (meanings, origins)
 - `claudeApiService.ts` - Google Gemini AI integration
 
-**Data Flow**:
-```
-Component → nameService → optimizedNameService → chunks
-                       ↘ fullDatabase (direct import)
-```
-
 ### State Management
 
 **Authentication** (`contexts/AuthContext.tsx`):
@@ -134,9 +131,10 @@ The app uses **Firebase** for cloud sync and authentication:
 
 **Key Components** (`src/components/`):
 - `NameCard.tsx` - Individual name display with favorite/dislike actions, fly animations
-- `NameDetailModal.tsx` - Detailed view with origin, meaning, stats
+- `NameDetailModal.tsx` - Detailed view with origin, meaning, stats (includes swipeable profile)
 - `SwipingQuestionnaire.tsx` - Onboarding flow for swipe mode preferences
-- `SwipeableNameCard.tsx` & `SwipeableNameProfile.tsx` - Tinder-style card components
+- `SwipeableNameCard.tsx` - Tinder-style swipe card for SwipeModePage
+- `SwipeableNameProfile.tsx` - Swipeable profile component used in NameDetailModal
 - `CommandHandler.tsx` - CLI-style command interface
 - `Pagination.tsx` - Infinite scroll & page navigation
 - `Toast.tsx` - Toast notifications component
@@ -184,9 +182,10 @@ The app uses **Firebase** for cloud sync and authentication:
 Required (see `.env` for full config):
 ```bash
 REACT_APP_GOOGLE_API_KEY          # Google services
-REACT_APP_GEMINI_API_KEY          # AI features
+REACT_APP_GEMINI_API_KEY          # AI features (React app)
 REACT_APP_GOOGLE_CLIENT_ID        # OAuth login
 REACT_APP_GOOGLE_CLIENT_SECRET    # OAuth secret
+OPENAI_API_KEY                    # For Node.js enrichment scripts ONLY (not React app)
 ```
 
 Feature Flags:
@@ -225,7 +224,7 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 6. `.env` - Configuration (includes OpenAI keys for Node scripts)
 
 ## Tech Stack
-- React 19.1 + TypeScript 4.9
+- React 19.1 + TypeScript 4.9 (Note: May need `npm install --legacy-peer-deps` for some packages)
 - React Router v7.9 (NOT v6 as README incorrectly states!)
 - Tailwind CSS 3.4 with custom pastel colors & animations
 - Firebase 12.3.0 (auth & cloud sync)
@@ -259,15 +258,17 @@ Other key docs in the repository:
 - **DATABASE_FIX_REPORT.md** - Database maintenance history
 - **README.md** - Public-facing project description
 
-## Recent UI Enhancements (from SESSION_LOG.md)
+## Recent UI Enhancements
 
-1. **Hero Section**: Animated floating baby names background with minimalist design
-2. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
-3. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
-4. **Search Redesign**: Moved to expandable header icon from hero section
-5. **Card Animations**: Fly-away effects on like/dislike actions
-6. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
-7. **Custom Events**: 'favoriteAdded' event for cross-component animations
+1. **Swipeable Modal Profiles** (Latest): Tinder-style swipe gestures in NameDetailModal with animated like/dislike buttons
+2. **Hero Section**: Animated floating baby names background with minimalist design
+3. **Code Splitting**: 30% faster initial load via dynamic imports
+4. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
+5. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
+6. **Search Redesign**: Moved to expandable header icon from hero section
+7. **Card Animations**: Fly-away effects on like/dislike actions
+8. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
+9. **Custom Events**: 'favoriteAdded' event for cross-component animations
 
 ## Known Issues / Warnings
 
@@ -282,9 +283,19 @@ Other key docs in the repository:
 - Background enrichment may hit API rate limits with free tier Gemini key
 - GitHub Pages deployment requires `PUBLIC_URL=/babyname2` and `homepage` in package.json
 - TypeScript path alias `@/*` configured but doesn't work without ejecting (use relative imports)
+- Module resolution: Always use relative imports (e.g., `../lib/utils`), not `@/lib/utils`, as path aliases require ejecting
 - `scripts/` contains 47 Python data processing scripts (mostly one-off utilities, data already processed)
 - Firebase UID vs Google OAuth ID bug was fixed in AuthContext (line 256)
 - optimizedNameService.ts exists but is NOT USED (nameService uses chunkedDatabaseService instead)
 
+## Quick Development Tips
+
+- **Data Service**: Always use `nameService.ts` (not optimizedNameService.ts)
+- **Module Imports**: Use relative imports (`../lib/utils`), NOT path aliases (`@/lib/utils`)
+- **React 19**: May need `npm install --legacy-peer-deps` for some packages
+- **API Keys**: OPENAI_API_KEY is for Node scripts only; React app uses GEMINI_API_KEY
+- **Firebase Tab Limit**: Only ONE browser tab can have active persistence at a time
+- **Swipe Animations**: Both SwipeModePage and NameDetailModal support swipe gestures
+
 ---
-*Last updated: 2025-10-04*
+*Last updated: 2025-10-05*
