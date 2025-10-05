@@ -52,6 +52,11 @@ const FavoritesPage: React.FC = () => {
     loadFavorites();
   };
 
+  const handleLikeIncrement = (nameName: string) => {
+    favoritesService.incrementLikeCount(nameName);
+    loadFavorites(); // Refresh to show updated count
+  };
+
   const clearAllFavorites = async () => {
     if (window.confirm('Are you sure you want to clear all favorites? This will delete your favorites from both device and cloud.')) {
       try {
@@ -223,11 +228,12 @@ const FavoritesPage: React.FC = () => {
                         setSelectedName(name);
                         setSelectedIndex(index);
                       }}
-                      onFavoriteToggle={() => {}} // Disabled on favorites page
+                      onFavoriteToggle={() => handleLikeIncrement(name.name)}
                       onDislikeToggle={handleRefresh}
                       isPinned={true}
                       onPin={handleRefresh}
                       showPinOption={true}
+                      likeCount={favoritesService.getLikeCount(name.name)}
                     />
                   ))}
                 </div>
@@ -250,11 +256,12 @@ const FavoritesPage: React.FC = () => {
                         // Add offset for pinned names
                         setSelectedIndex(pinnedNames.length + index);
                       }}
-                      onFavoriteToggle={() => {}} // Disabled on favorites page
+                      onFavoriteToggle={() => handleLikeIncrement(name.name)}
                       onDislikeToggle={handleRefresh}
                       isPinned={false}
                       onPin={handleRefresh}
                       showPinOption={true}
+                      likeCount={favoritesService.getLikeCount(name.name)}
                     />
                   ))}
                 </div>

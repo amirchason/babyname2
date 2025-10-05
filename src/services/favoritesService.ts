@@ -5,6 +5,7 @@ interface FavoritesData {
   favorites: string[]; // Array of name strings (liked names)
   dislikes: string[];  // Array of name strings (disliked/hidden names)
   pinnedFavorites?: string[]; // Array of pinned favorite names (shown at top)
+  likeCounts?: { [name: string]: number }; // Like counts for each favorite name
 }
 
 class FavoritesService {
@@ -14,7 +15,8 @@ class FavoritesService {
   private data: FavoritesData = {
     favorites: [],
     dislikes: [],
-    pinnedFavorites: []
+    pinnedFavorites: [],
+    likeCounts: {}
   };
   private isLoggedIn: boolean = false;
   private userId: string | null = null;
@@ -78,12 +80,13 @@ class FavoritesService {
         this.data = {
           favorites: (parsed.favorites || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0),
           dislikes: (parsed.dislikes || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0),
-          pinnedFavorites: (parsed.pinnedFavorites || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0)
+          pinnedFavorites: (parsed.pinnedFavorites || []).map((n: string) => n.trim()).filter((n: string) => n.length > 0),
+          likeCounts: parsed.likeCounts || {}
         };
       }
     } catch (error) {
       console.error('Error loading favorites from storage:', error);
-      this.data = { favorites: [], dislikes: [], pinnedFavorites: [] };
+      this.data = { favorites: [], dislikes: [], pinnedFavorites: [], likeCounts: {} };
     }
   }
 
@@ -260,6 +263,25 @@ class FavoritesService {
 
   getPinnedCount(): number {
     return this.data.pinnedFavorites?.length || 0;
+  }
+
+  // Like count methods
+  incrementLikeCount(name: string): number {
+    const normalizedName = name.trim();
+    if (!this.data.likeCounts) {
+      this.data.likeCounts = {};
+    }
+
+    const currentCount = this.data.likeCounts[normalizedName] || 0;
+    this.data.likeCounts[normalizedName] = currentCount + 1;
+    this.saveToStorage();
+
+    return this.data.likeCounts[normalizedName];
+  }
+
+  getLikeCount(name: string): number {
+    const normalizedName = name.trim();
+    return this.data.likeCounts?.[normalizedName] || 0;
   }
 
   getMaxPinnedFavorites(): number {

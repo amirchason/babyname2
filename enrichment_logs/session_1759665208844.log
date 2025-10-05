@@ -5557,3 +5557,50 @@ Estimated Time Remaining: 117 minutes
 [2025-10-05T16:44:26.930Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
 [2025-10-05T16:44:27.694Z] [INFO] Saved 39011 names to chunk 4
 [2025-10-05T16:44:27.995Z] [INFO] Processing 5 batches in parallel (50 names)...
+[2025-10-05T16:44:42.662Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
+[2025-10-05T16:44:43.430Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:44:43.732Z] [INFO] Processing 5 batches in parallel (50 names)...
+[2025-10-05T16:44:53.864Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
+[2025-10-05T16:44:54.602Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:44:54.903Z] [INFO] Processing 5 batches in parallel (50 names)...
+[2025-10-05T16:45:07.849Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
+[2025-10-05T16:45:08.804Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:45:09.105Z] [INFO] Processing 5 batches in parallel (50 names)...
+[2025-10-05T16:45:28.306Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
+[2025-10-05T16:45:29.518Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:45:29.820Z] [INFO] Processing 5 batches in parallel (50 names)...
+[2025-10-05T16:45:39.857Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
+[2025-10-05T16:45:40.945Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:45:41.248Z] [INFO] Processing 5 batches in parallel (50 names)...
+[2025-10-05T16:45:50.639Z] [INFO] ✓ Completed parallel batch: 50 enriched, 0 errors
+[2025-10-05T16:45:51.472Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:45:51.773Z] [INFO] Processing 2 batches in parallel (11 names)...
+[2025-10-05T16:46:01.338Z] [INFO] ✓ Completed parallel batch: 11 enriched, 0 errors
+[2025-10-05T16:46:03.393Z] [INFO] Saved 39011 names to chunk 4
+[2025-10-05T16:46:03.395Z] [INFO] Completed chunk 4
+[2025-10-05T16:46:03.396Z] [INFO] 
+============================================================
+PROGRESS REPORT - 10/5/2025, 6:46:03 PM
+============================================================
+Session Stats:
+  - Processed: 74012 names
+  - Errors: 10
+  - Session time: 292.6 minutes
+  - Processing rate: 253.0 names/minute
+  - Session cost: $3.701
+
+Overall Progress:
+  - Total processed: 117836
+  - Total errors: 1603
+  - Total cost: $6.01
+  - Current chunk: 4
+
+Estimated Time Remaining: 115 minutes
+============================================================
+
+[2025-10-05T16:46:03.403Z] [INFO] ============================================================
+[2025-10-05T16:46:03.403Z] [INFO] ENRICHMENT COMPLETE!
+[2025-10-05T16:46:03.403Z] [INFO] Total processed: 117836
+[2025-10-05T16:46:03.403Z] [INFO] Total errors: 1603
+[2025-10-05T16:46:03.403Z] [INFO] Total cost: $6.01
+[2025-10-05T16:46:03.404Z] [INFO] ============================================================

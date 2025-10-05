@@ -16,6 +16,7 @@ interface NameCardProps {
   isPinned?: boolean;
   onPin?: () => void;
   showPinOption?: boolean;
+  likeCount?: number; // Number of likes for this name
 }
 
 const NameCard: React.FC<NameCardProps> = ({
@@ -27,7 +28,8 @@ const NameCard: React.FC<NameCardProps> = ({
   contextualRank,
   isPinned = false,
   onPin,
-  showPinOption = false
+  showPinOption = false,
+  likeCount = 0
 }) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [isDisliked, setIsDisliked] = useState(false);
@@ -334,7 +336,7 @@ const NameCard: React.FC<NameCardProps> = ({
         {/* Like button - Smaller */}
         <button
           onClick={handleFavoriteClick}
-          className={`flex items-center justify-center w-9 h-9 rounded-full transition-all duration-300 ${
+          className={`relative flex items-center justify-center w-9 h-9 rounded-full transition-all duration-300 ${
             isFavorite
               ? 'bg-pink-50 border-2 border-pink-300 shadow-md'
               : 'bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-pink-200'
@@ -346,6 +348,11 @@ const NameCard: React.FC<NameCardProps> = ({
               ? 'text-pink-400 fill-pink-400 stroke-[1.5]'
               : 'text-gray-400 hover:text-pink-400 stroke-[1.5]'
           }`} />
+          {likeCount > 0 && (
+            <span className="absolute -top-1 -right-1 bg-pink-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center shadow-md">
+              {likeCount > 99 ? '99+' : likeCount}
+            </span>
+          )}
         </button>
       </div>
 
