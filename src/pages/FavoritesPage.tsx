@@ -223,7 +223,7 @@ const FavoritesPage: React.FC = () => {
                         setSelectedName(name);
                         setSelectedIndex(index);
                       }}
-                      onFavoriteToggle={handleRefresh}
+                      onFavoriteToggle={() => {}} // Disabled on favorites page
                       onDislikeToggle={handleRefresh}
                       isPinned={true}
                       onPin={handleRefresh}
@@ -250,7 +250,7 @@ const FavoritesPage: React.FC = () => {
                         // Add offset for pinned names
                         setSelectedIndex(pinnedNames.length + index);
                       }}
-                      onFavoriteToggle={handleRefresh}
+                      onFavoriteToggle={() => {}} // Disabled on favorites page
                       onDislikeToggle={handleRefresh}
                       isPinned={false}
                       onPin={handleRefresh}
