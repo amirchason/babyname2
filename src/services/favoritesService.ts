@@ -273,7 +273,12 @@ class FavoritesService {
     }
 
     const currentCount = this.data.likeCounts[normalizedName] || 0;
-    this.data.likeCounts[normalizedName] = currentCount + 1;
+    // If this is the first like and name is already favorited, start at 1, otherwise increment
+    if (currentCount === 0 && this.isFavorite(normalizedName)) {
+      this.data.likeCounts[normalizedName] = 2; // Heart = 1, first click = 2
+    } else {
+      this.data.likeCounts[normalizedName] = currentCount + 1;
+    }
     this.saveToStorage();
 
     return this.data.likeCounts[normalizedName];

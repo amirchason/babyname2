@@ -66,6 +66,12 @@ const NameCard: React.FC<NameCardProps> = ({
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
 
+    // If already a favorite and we have a like counter (on favorites page), just increment
+    if (isFavorite && likeCount !== undefined) {
+      onFavoriteToggle?.();
+      return;
+    }
+
     // START ANIMATION FIRST (no delay!)
     setFlyDirection('right');
     setIsFlying(true);
@@ -348,9 +354,9 @@ const NameCard: React.FC<NameCardProps> = ({
               ? 'text-pink-400 fill-pink-400 stroke-[1.5]'
               : 'text-gray-400 hover:text-pink-400 stroke-[1.5]'
           }`} />
-          {likeCount > 0 && (
+          {(isFavorite && likeCount !== undefined) && (
             <span className="absolute -top-1 -right-1 bg-pink-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center shadow-md">
-              {likeCount > 99 ? '99+' : likeCount}
+              {likeCount > 99 ? '99+' : (likeCount || 1)}
             </span>
           )}
         </button>
