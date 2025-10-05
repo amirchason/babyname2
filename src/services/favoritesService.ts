@@ -55,12 +55,22 @@ class FavoritesService {
 
     // Merge cloud data with local data
     const merged = userDataService.mergePreferences(
-      { favorites: this.data.favorites, dislikes: this.data.dislikes },
+      {
+        favorites: this.data.favorites,
+        dislikes: this.data.dislikes,
+        pinnedFavorites: this.data.pinnedFavorites,
+        likeCounts: this.data.likeCounts
+      },
       cloudData
     );
 
     // Update local data
-    this.data = merged;
+    this.data = {
+      favorites: merged.favorites,
+      dislikes: merged.dislikes,
+      pinnedFavorites: merged.pinnedFavorites || [],
+      likeCounts: merged.likeCounts || {}
+    };
     this.saveToStorage();
   }
 
@@ -111,7 +121,9 @@ class FavoritesService {
         try {
           await userDataService.saveToCloud(
             this.data.favorites,
-            this.data.dislikes
+            this.data.dislikes,
+            this.data.pinnedFavorites,
+            this.data.likeCounts
           );
         } catch (error) {
           console.error('Error syncing to cloud:', error);
@@ -134,7 +146,9 @@ class FavoritesService {
       try {
         await userDataService.saveToCloud(
           this.data.favorites,
-          this.data.dislikes
+          this.data.dislikes,
+          this.data.pinnedFavorites,
+          this.data.likeCounts
         );
         console.log('[FavoritesService] Pending sync flushed successfully');
       } catch (error) {

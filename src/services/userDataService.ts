@@ -11,6 +11,8 @@ import { db } from '../config/firebase';
 export interface UserPreferences {
   favorites: string[];  // Liked names
   dislikes: string[];   // Disliked names
+  pinnedFavorites?: string[]; // Pinned favorites
+  likeCounts?: { [name: string]: number }; // Like counts for each name
   lastUpdated: Timestamp | null;
   deviceId: string;
 }
@@ -106,7 +108,12 @@ class UserDataService {
   }
 
   // Save preferences to cloud
-  async saveToCloud(favorites: string[], dislikes: string[]): Promise<void> {
+  async saveToCloud(
+    favorites: string[],
+    dislikes: string[],
+    pinnedFavorites?: string[],
+    likeCounts?: { [name: string]: number }
+  ): Promise<void> {
     console.log('[USERDATA DEBUG] saveToCloud called, userId:', this.userId);
     if (!this.userId) {
       console.error('[USERDATA DEBUG] saveToCloud failed - no userId set!');
@@ -122,6 +129,8 @@ class UserDataService {
         preferences: {
           favorites,
           dislikes,
+          pinnedFavorites: pinnedFavorites || [],
+          likeCounts: likeCounts || {},
           lastUpdated: serverTimestamp(),
           deviceId: this.deviceId
         },
@@ -190,9 +199,9 @@ class UserDataService {
 
   // Merge local and cloud data
   mergePreferences(
-    local: { favorites: string[]; dislikes: string[] },
+    local: { favorites: string[]; dislikes: string[]; pinnedFavorites?: string[]; likeCounts?: { [name: string]: number } },
     cloud: UserPreferences
-  ): { favorites: string[]; dislikes: string[] } {
+  ): { favorites: string[]; dislikes: string[]; pinnedFavorites?: string[]; likeCounts?: { [name: string]: number } } {
     // Simple merge strategy: combine both sets and remove duplicates
     const mergedFavorites = Array.from(new Set([
       ...local.favorites,
@@ -204,6 +213,25 @@ class UserDataService {
       ...cloud.dislikes
     ]));
 
+    // Merge pinned favorites
+    const mergedPinned = Array.from(new Set([
+      ...(local.pinnedFavorites || []),
+      ...(cloud.pinnedFavorites || [])
+    ]));
+
+    // Merge like counts (keep highest count for each name)
+    const mergedLikeCounts: { [name: string]: number } = {};
+    const allLikeNames = new Set([
+      ...Object.keys(local.likeCounts || {}),
+      ...Object.keys(cloud.likeCounts || {})
+    ]);
+
+    allLikeNames.forEach(name => {
+      const localCount = (local.likeCounts || {})[name] || 0;
+      const cloudCount = (cloud.likeCounts || {})[name] || 0;
+      mergedLikeCounts[name] = Math.max(localCount, cloudCount);
+    });
+
     // Remove any names that appear in both lists (dislikes take precedence)
     const finalFavorites = mergedFavorites.filter(
       name => !mergedDislikes.includes(name)
@@ -211,7 +239,9 @@ class UserDataService {
 
     return {
       favorites: finalFavorites,
-      dislikes: mergedDislikes
+      dislikes: mergedDislikes,
+      pinnedFavorites: mergedPinned,
+      likeCounts: mergedLikeCounts
     };
   }
 
