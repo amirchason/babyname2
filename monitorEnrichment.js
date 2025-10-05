@@ -1,189 +1,166 @@
-#!/usr/bin/env node
 const fs = require('fs');
-const path = require('path');
 
-// Configuration
-const REPORT_INTERVAL = 300000; // 5 minutes
-const MASTER_STATE_PATH = 'enrichment_logs/master_state.json';
+const REFRESH_INTERVAL = 5000; // 5 seconds
 
-let previousState = null;
-let startTime = Date.now();
-
-function loadMasterState() {
-  try {
-    if (fs.existsSync(MASTER_STATE_PATH)) {
-      return JSON.parse(fs.readFileSync(MASTER_STATE_PATH, 'utf8'));
-    }
-  } catch (error) {
-    console.error('Error loading master state:', error.message);
-  }
-  return null;
+function formatNumber(num) {
+  return num.toLocaleString();
 }
 
-function generateReport() {
-  const currentState = loadMasterState();
-  if (!currentState) {
-    console.log('⚠️ Unable to load master state');
-    return;
-  }
+function clearScreen() {
+  console.log('\x1Bc'); // Clear console
+}
 
-  const now = new Date();
-  console.log('\n============================================================');
-  console.log(`📊 ENRICHMENT PROGRESS REPORT - ${now.toLocaleString()}`);
-  console.log('============================================================');
+function getChunkStats() {
+  const stats = [];
 
-  // Calculate progress since last report
-  let intervalProcessed = 0;
-  let intervalErrors = 0;
-
-  if (previousState) {
-    intervalProcessed = currentState.totalNamesProcessed - previousState.totalNamesProcessed;
-    intervalErrors = currentState.totalErrors - previousState.totalErrors;
-  }
-
-  // Overall stats
-  console.log('\n📈 Overall Progress:');
-  console.log(`   Total processed: ${currentState.totalNamesProcessed} names`);
-  console.log(`   Total errors: ${currentState.totalErrors}`);
-  console.log(`   Status: ${currentState.status}`);
-  console.log(`   Current chunk: ${currentState.currentChunk}`);
-  console.log(`   Total cost: $${currentState.estimatedCost?.toFixed(3) || '0.000'}`);
-
-  // Interval stats
-  if (previousState) {
-    console.log('\n📊 Last 5 Minutes:');
-    console.log(`   Names processed: ${intervalProcessed}`);
-    console.log(`   Errors: ${intervalErrors}`);
-    console.log(`   Processing rate: ${(intervalProcessed / 5).toFixed(1)} names/minute`);
-    console.log(`   Cost added: $${(intervalProcessed * 0.00005).toFixed(3)}`);
-  }
-
-  // Chunk details
-  console.log('\n📦 Chunk Status:');
   for (let i = 1; i <= 4; i++) {
-    if (currentState.chunks[i]) {
-      const chunk = currentState.chunks[i];
-      const total = chunk.total || 'Unknown';
-      const processed = chunk.processed || 0;
-      const errors = chunk.errors || 0;
-      const percentage = total !== 'Unknown' && total !== null && total > 0
-        ? ((processed / total) * 100).toFixed(1)
-        : '?';
+    try {
+      const chunkPath = `public/data/names-chunk${i}.json`;
+      if (!fs.existsSync(chunkPath)) continue;
 
-      const status = i < currentState.currentChunk ? '✅' :
-                    i === currentState.currentChunk ? '⏳' : '⏸️';
+      const data = JSON.parse(fs.readFileSync(chunkPath, 'utf8'));
+      const names = data.names || data;
+      const total = names.length;
+      const withMeaning = names.filter(n => n.meaning && n.meaning !== 'Unknown' && n.meaning !== '').length;
+      const withOrigin = names.filter(n => n.origin && n.origin !== 'Unknown' && n.origin !== '').length;
 
-      console.log(`   ${status} Chunk ${i}: ${processed}/${total} (${percentage}%) - ${errors} errors`);
+      stats.push({
+        chunk: i,
+        total,
+        withMeaning,
+        withOrigin,
+        meaningPercent: (withMeaning / total * 100).toFixed(1),
+        originPercent: (withOrigin / total * 100).toFixed(1)
+      });
+    } catch (e) {
+      // Skip
     }
   }
 
-  // Estimate remaining time
-  if (intervalProcessed > 0) {
-    const rate = intervalProcessed / 5; // per minute
-    let totalRemaining = 0;
+  return stats;
+}
 
-    // Calculate remaining
-    for (let i = 1; i <= 4; i++) {
-      if (currentState.chunks[i]) {
-        const chunk = currentState.chunks[i];
-        if (chunk.total && chunk.total !== 'Unknown') {
-          const remaining = Math.max(0, chunk.total - (chunk.processed || 0));
-          totalRemaining += remaining;
-        }
+function getProgressFiles() {
+  const files = [
+    'master_enrichment_progress.json',
+    'first10999_progress.json',
+    'mini_enrichment_progress.json',
+    'unknown_origins_progress.json'
+  ];
+
+  const progress = [];
+
+  files.forEach(file => {
+    if (fs.existsSync(file)) {
+      try {
+        const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+        const lastUpdate = new Date(data.lastUpdate);
+        const timeSinceUpdate = Date.now() - lastUpdate.getTime();
+        const minutesAgo = Math.floor(timeSinceUpdate / 60000);
+
+        progress.push({
+          file: file.replace('_progress.json', '').replace(/_/g, ' '),
+          processed: data.totalProcessed || 0,
+          errors: data.totalErrors || 0,
+          cost: data.estimatedCost ? `$${data.estimatedCost.toFixed(3)}` : 'N/A',
+          lastUpdate: minutesAgo < 1 ? 'Just now' : `${minutesAgo}m ago`,
+          isActive: timeSinceUpdate < 60000 // Active if updated in last minute
+        });
+      } catch (e) {
+        // Skip
       }
     }
+  });
 
-    // Add error retries if not done
-    if (!currentState.errorsRetried) {
-      totalRemaining += currentState.totalErrors;
-    }
-
-    if (totalRemaining > 0) {
-      const minutesRemaining = totalRemaining / rate;
-      const hoursRemaining = (minutesRemaining / 60).toFixed(1);
-      console.log(`\n⏰ Estimated Time Remaining: ${hoursRemaining} hours (${totalRemaining} names)`);
-    }
-  }
-
-  // Check if completed
-  if (currentState.status === 'completed') {
-    console.log('\n✅ ENRICHMENT COMPLETED!');
-    console.log(`   Final count: ${currentState.totalNamesProcessed} names`);
-    console.log(`   Final cost: $${currentState.estimatedCost?.toFixed(2)}`);
-    console.log('\n🎉 All done! Exiting monitor.');
-    process.exit(0);
-  }
-
-  // Save report to file
-  const reportDir = 'enrichment_logs/progress_reports';
-  if (!fs.existsSync(reportDir)) {
-    fs.mkdirSync(reportDir, { recursive: true });
-  }
-
-  const reportPath = path.join(reportDir, `report_${Date.now()}.txt`);
-  const reportContent = `
-Progress Report - ${now.toISOString()}
-=====================================
-Total Processed: ${currentState.totalNamesProcessed}
-Total Errors: ${currentState.totalErrors}
-Interval Processed: ${intervalProcessed}
-Current Chunk: ${currentState.currentChunk}
-Status: ${currentState.status}
-Cost: $${currentState.estimatedCost?.toFixed(3)}
-`;
-  fs.writeFileSync(reportPath, reportContent);
-
-  console.log(`\n📁 Report saved to: ${reportPath}`);
-  console.log('============================================================\n');
-
-  // Update previous state for next interval
-  previousState = JSON.parse(JSON.stringify(currentState));
+  return progress;
 }
 
-// Check if enrichment is running
-function checkIfRunning() {
-  try {
-    const { execSync } = require('child_process');
-    const result = execSync('ps aux | grep -v grep | grep "node masterEnrichment.js"', {
-      encoding: 'utf8',
-      stdio: 'pipe'
+function getRecentLogs() {
+  const logFiles = [
+    'master_enrichment_output.log',
+    'enrichment_resume.log',
+    'master_enrichment.log'
+  ];
+
+  for (const file of logFiles) {
+    if (fs.existsSync(file)) {
+      try {
+        const content = fs.readFileSync(file, 'utf8');
+        const lines = content.split('\n').filter(l => l.trim());
+        return lines.slice(-5);
+      } catch (e) {
+        // Skip
+      }
+    }
+  }
+
+  return ['No recent logs found'];
+}
+
+function displayDashboard() {
+  clearScreen();
+
+  console.log('╔════════════════════════════════════════════════════════════╗');
+  console.log('║         BABYNAMES ENRICHMENT MONITOR v1.0                  ║');
+  console.log('╚════════════════════════════════════════════════════════════╝\n');
+
+  // Chunk statistics
+  console.log('📊 CHUNK ENRICHMENT STATUS:\n');
+  const chunkStats = getChunkStats();
+  let totalNames = 0;
+  let totalEnriched = 0;
+
+  chunkStats.forEach(stat => {
+    const bar = '█'.repeat(Math.floor(stat.meaningPercent / 2)) + '░'.repeat(50 - Math.floor(stat.meaningPercent / 2));
+    console.log(`Chunk ${stat.chunk}: [${bar}] ${stat.meaningPercent}%`);
+    console.log(`  ${formatNumber(stat.withMeaning)} / ${formatNumber(stat.total)} names enriched\n`);
+
+    totalNames += stat.total;
+    totalEnriched += stat.withMeaning;
+  });
+
+  const overallPercent = (totalEnriched / totalNames * 100).toFixed(1);
+  console.log(`🎯 OVERALL: ${formatNumber(totalEnriched)} / ${formatNumber(totalNames)} (${overallPercent}%)\n`);
+
+  console.log('─'.repeat(60) + '\n');
+
+  // Progress files
+  console.log('🔄 ACTIVE ENRICHMENT PROCESSES:\n');
+  const progressFiles = getProgressFiles();
+
+  if (progressFiles.length === 0) {
+    console.log('  No active processes found\n');
+  } else {
+    progressFiles.forEach(p => {
+      const status = p.isActive ? '🟢 ACTIVE' : '⚪ IDLE';
+      console.log(`${status} ${p.file}`);
+      console.log(`  Processed: ${formatNumber(p.processed)} | Errors: ${formatNumber(p.errors)} | Cost: ${p.cost}`);
+      console.log(`  Last update: ${p.lastUpdate}\n`);
     });
-    return result.trim().length > 0;
-  } catch (e) {
-    return false;
   }
+
+  console.log('─'.repeat(60) + '\n');
+
+  // Recent logs
+  console.log('📝 RECENT ACTIVITY:\n');
+  const recentLogs = getRecentLogs();
+  recentLogs.forEach(log => {
+    const shortLog = log.substring(0, 100);
+    console.log(`  ${shortLog}`);
+  });
+
+  console.log('\n' + '─'.repeat(60));
+  console.log(`Refreshing every ${REFRESH_INTERVAL/1000}s... Press Ctrl+C to exit`);
 }
 
-// Main monitoring loop
-console.log('🔍 Starting enrichment monitor...');
-console.log('   Reports every 5 minutes');
-console.log('   Press Ctrl+C to stop\n');
+// Main loop
+console.log('Starting enrichment monitor...\n');
 
-// Generate initial report
-generateReport();
-
-// Set up interval
-const interval = setInterval(() => {
-  // Check if enrichment is still running
-  if (!checkIfRunning()) {
-    console.log('⚠️ Enrichment process not running!');
-    console.log('   Run "node resumeEnrichment.js" to restart');
-
-    // Check if completed
-    const state = loadMasterState();
-    if (state && state.status === 'completed') {
-      console.log('✅ Enrichment completed successfully!');
-      clearInterval(interval);
-      process.exit(0);
-    }
-  }
-
-  generateReport();
-}, REPORT_INTERVAL);
+displayDashboard();
+setInterval(displayDashboard, REFRESH_INTERVAL);
 
 // Handle graceful shutdown
 process.on('SIGINT', () => {
-  console.log('\n👋 Stopping monitor...');
-  clearInterval(interval);
+  console.log('\n\n👋 Monitor stopped. Enrichment continues in background.');
   process.exit(0);
 });

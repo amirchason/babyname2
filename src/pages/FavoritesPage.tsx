@@ -33,9 +33,12 @@ const FavoritesPage: React.FC = () => {
     const favoritesList = favoritesService.getFavorites();
     const pinnedList = favoritesService.getPinnedFavorites();
 
-    const favorites = allNames.filter(name => favoritesList.includes(name.name));
+    // Preserve favorites array order (this is the ranking!)
+    const favorites = favoritesList
+      .map(favName => allNames.find(n => n.name === favName))
+      .filter(Boolean) as NameEntry[];
 
-    // Separate pinned and unpinned
+    // Separate pinned and unpinned (also preserving order)
     const pinned = favorites.filter(name => pinnedList.includes(name.name));
     const unpinned = favorites.filter(name => !pinnedList.includes(name.name));
 
@@ -43,6 +46,13 @@ const FavoritesPage: React.FC = () => {
     setPinnedNames(pinned);
     setUnpinnedNames(unpinned);
     setLoading(false);
+  };
+
+  const handleUpvote = (nameName: string) => {
+    const moved = favoritesService.moveFavoriteUp(nameName);
+    if (moved) {
+      loadFavorites(); // Refresh to show new order
+    }
   };
 
   const handleRefresh = () => {
@@ -212,21 +222,30 @@ const FavoritesPage: React.FC = () => {
                   </span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-yellow-50/30 rounded-xl">
-                  {pinnedNames.map((name, index) => (
-                    <NameCard
-                      key={`pinned-${name.name}`}
-                      name={name}
-                      onClick={(name) => {
-                        setSelectedName(name);
-                        setSelectedIndex(index);
-                      }}
-                      onFavoriteToggle={handleRefresh}
-                      onDislikeToggle={handleRefresh}
-                      isPinned={true}
-                      onPin={handleRefresh}
-                      showPinOption={true}
-                    />
-                  ))}
+                  {pinnedNames.map((name, index) => {
+                    // Find rank in overall favorites list
+                    const overallRank = favoriteNames.findIndex(f => f.name === name.name) + 1;
+                    return (
+                      <div key={`pinned-${name.name}`} className="relative">
+                        {/* Rank Badge */}
+                        <div className="absolute -top-2 -left-2 z-10 w-8 h-8 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full shadow-lg flex items-center justify-center border-2 border-white">
+                          <span className="text-xs font-bold text-white">{overallRank}</span>
+                        </div>
+                        <NameCard
+                          name={name}
+                          onClick={(name) => {
+                            setSelectedName(name);
+                            setSelectedIndex(index);
+                          }}
+                          onFavoriteToggle={() => handleUpvote(name.name)}
+                          onDislikeToggle={handleRefresh}
+                          isPinned={true}
+                          onPin={handleRefresh}
+                          showPinOption={true}
+                        />
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
@@ -238,22 +257,31 @@ const FavoritesPage: React.FC = () => {
                   <h2 className="text-lg font-semibold text-gray-700 mb-4">Other Favorites</h2>
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {unpinnedNames.map((name, index) => (
-                    <NameCard
-                      key={`unpinned-${name.name}`}
-                      name={name}
-                      onClick={(name) => {
-                        setSelectedName(name);
-                        // Add offset for pinned names
-                        setSelectedIndex(pinnedNames.length + index);
-                      }}
-                      onFavoriteToggle={handleRefresh}
-                      onDislikeToggle={handleRefresh}
-                      isPinned={false}
-                      onPin={handleRefresh}
-                      showPinOption={true}
-                    />
-                  ))}
+                  {unpinnedNames.map((name, index) => {
+                    // Find rank in overall favorites list
+                    const overallRank = favoriteNames.findIndex(f => f.name === name.name) + 1;
+                    return (
+                      <div key={`unpinned-${name.name}`} className="relative">
+                        {/* Rank Badge */}
+                        <div className="absolute -top-2 -left-2 z-10 w-8 h-8 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full shadow-lg flex items-center justify-center border-2 border-white">
+                          <span className="text-xs font-bold text-white">{overallRank}</span>
+                        </div>
+                        <NameCard
+                          name={name}
+                          onClick={(name) => {
+                            setSelectedName(name);
+                            // Add offset for pinned names
+                            setSelectedIndex(pinnedNames.length + index);
+                          }}
+                          onFavoriteToggle={() => handleUpvote(name.name)}
+                          onDislikeToggle={handleRefresh}
+                          isPinned={false}
+                          onPin={handleRefresh}
+                          showPinOption={true}
+                        />
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}

@@ -130,26 +130,6 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     }
   };
 
-  // Get preview cards for stack effect
-  const getPreviewCards = () => {
-    if (!isSwipeable || !names || currentIndex === undefined) return [];
-
-    const previews = [];
-    for (let i = 1; i <= 2; i++) {
-      const previewIndex = (currentIndex + i) % names.length;
-      if (previewIndex !== currentIndex) {
-        previews.push({
-          name: names[previewIndex],
-          index: i,
-          scale: 1 - (i * 0.05),
-          y: i * 4
-        });
-      }
-    }
-    return previews;
-  };
-
-  const previewCards = getPreviewCards();
 
   // Main card component
   const CardContent = () => (
@@ -333,25 +313,6 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-50"
          onClick={onClose}>
-
-      {/* Preview cards (stack effect) */}
-      {previewCards.map((preview) => (
-        <div
-          key={preview.index}
-          className="fixed inset-0 pointer-events-none"
-          style={{
-            zIndex: 50 - preview.index,
-            transform: `scale(${preview.scale}) translateY(${preview.y}px)`,
-            opacity: 0.6,
-          }}
-        >
-          <div className={`w-full h-screen ${
-            typeof preview.name.gender === 'object' && (preview.name.gender.Male || 0) > (preview.name.gender.Female || 0)
-              ? 'bg-blue-50'
-              : 'bg-pink-50'
-          } shadow-xl`} />
-        </div>
-      ))}
 
       {/* Swipe indicators (only if swipeable) */}
       {isSwipeable && (

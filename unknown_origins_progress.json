@@ -1,0 +1,17 @@
+{
+  "lastBatchIndex": 840,
+  "totalProcessed": 615,
+  "totalErrors": 220,
+  "categorized": {
+    "educatedGuess": 0,
+    "modern": 131,
+    "typo": 0,
+    "code": 2,
+    "regional": 50,
+    "hybrid": 54,
+    "variant": 292,
+    "uncertain": 86
+  },
+  "startTime": "2025-10-04T05:48:36.635Z",
+  "lastUpdate": "2025-10-04T06:20:59.015Z"
+}

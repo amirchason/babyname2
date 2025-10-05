@@ -1,0 +1,40 @@
+{
+  "status": "ready",
+  "currentChunk": 4,
+  "totalNamesProcessed": 117525,
+  "totalErrors": 1603,
+  "errorNames": [],
+  "errorsRetried": true,
+  "lastCheckpoint": {
+    "chunk": 4,
+    "index": 38700,
+    "timestamp": "2025-10-05T16:44:26.931Z"
+  },
+  "chunks": {
+    "1": {
+      "total": 29012,
+      "processed": 29001,
+      "errors": 1463
+    },
+    "2": {
+      "total": 39011,
+      "processed": 9971,
+      "errors": 20
+    },
+    "3": {
+      "total": 39011,
+      "processed": 38901,
+      "errors": 110
+    },
+    "4": {
+      "total": 39011,
+      "processed": 38690,
+      "errors": 10
+    }
+  },
+  "model": "gpt-4o-mini",
+  "estimatedCost": 5.99704999999942,
+  "sessions": [],
+  "lastUpdate": "2025-10-05T16:44:26.931Z",
+  "currentIndex": 0
+}

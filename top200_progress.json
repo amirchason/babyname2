@@ -1,0 +1,14 @@
+{
+  "lastBatchIndex": 200,
+  "totalProcessed": 175,
+  "totalErrors": 0,
+  "startTime": "2025-10-03T14:58:10.875Z",
+  "lastUpdate": "2025-10-03T15:13:13.225Z",
+  "stats": {
+    "singleMeaning": 165,
+    "twoMeanings": 34,
+    "threeMeanings": 1,
+    "singleOrigin": 145,
+    "multipleOrigins": 55
+  }
+}

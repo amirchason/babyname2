@@ -473,6 +473,7 @@ const SwipeModePage: React.FC = () => {
                       data-card-index={stackIndex}
                       initial={{ scale: 1 - stackIndex * 0.05, y: stackIndex * 10 }}
                       animate={{ scale: 1 - stackIndex * 0.05, y: stackIndex * 10 }}
+                      transition={{ duration: 0 }}
                       style={{ zIndex: index + 1 }}
                     >
                       <Card

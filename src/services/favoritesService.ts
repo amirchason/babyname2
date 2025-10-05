@@ -166,6 +166,22 @@ class FavoritesService {
     }
   }
 
+  // Move a favorite up one position in the ranking
+  moveFavoriteUp(name: string): boolean {
+    const normalizedName = name.trim();
+    const index = this.data.favorites.findIndex(f => f.trim() === normalizedName);
+
+    // Can't move up if not found or already at top
+    if (index <= 0) return false;
+
+    // Swap with the item above it
+    [this.data.favorites[index - 1], this.data.favorites[index]] =
+    [this.data.favorites[index], this.data.favorites[index - 1]];
+
+    this.saveToStorage();
+    return true;
+  }
+
   isFavorite(name: string): boolean {
     const normalizedName = name.trim();
     return this.data.favorites.some(f => f.trim() === normalizedName);
