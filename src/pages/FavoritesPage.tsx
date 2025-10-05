@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Heart, Home, Trash2, Baby } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
@@ -235,20 +236,32 @@ const FavoritesPage: React.FC = () => {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-yellow-50/30 rounded-xl">
                   {pinnedNames.map((name, index) => (
-                    <NameCard
+                    <motion.div
                       key={`pinned-${name.name}`}
-                      name={name}
-                      onClick={(name) => {
-                        setSelectedName(name);
-                        setSelectedIndex(index);
+                      layout
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.8 }}
+                      transition={{
+                        layout: { duration: 0.3, ease: "easeOut" },
+                        opacity: { duration: 0.2 },
+                        scale: { duration: 0.2 }
                       }}
-                      onFavoriteToggle={() => handleLikeIncrement(name.name)}
-                      onDislikeToggle={handleRefresh}
-                      isPinned={true}
-                      onPin={handleRefresh}
-                      showPinOption={true}
-                      likeCount={favoritesService.getLikeCount(name.name)}
-                    />
+                    >
+                      <NameCard
+                        name={name}
+                        onClick={(name) => {
+                          setSelectedName(name);
+                          setSelectedIndex(index);
+                        }}
+                        onFavoriteToggle={() => handleLikeIncrement(name.name)}
+                        onDislikeToggle={handleRefresh}
+                        isPinned={true}
+                        onPin={handleRefresh}
+                        showPinOption={true}
+                        likeCount={favoritesService.getLikeCount(name.name)}
+                      />
+                    </motion.div>
                   ))}
                 </div>
               </div>
@@ -262,21 +275,33 @@ const FavoritesPage: React.FC = () => {
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {unpinnedNames.map((name, index) => (
-                    <NameCard
+                    <motion.div
                       key={`unpinned-${name.name}`}
-                      name={name}
-                      onClick={(name) => {
-                        setSelectedName(name);
-                        // Add offset for pinned names
-                        setSelectedIndex(pinnedNames.length + index);
+                      layout
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.8 }}
+                      transition={{
+                        layout: { duration: 0.3, ease: "easeOut" },
+                        opacity: { duration: 0.2 },
+                        scale: { duration: 0.2 }
                       }}
-                      onFavoriteToggle={() => handleLikeIncrement(name.name)}
-                      onDislikeToggle={handleRefresh}
-                      isPinned={false}
-                      onPin={handleRefresh}
-                      showPinOption={true}
-                      likeCount={favoritesService.getLikeCount(name.name)}
-                    />
+                    >
+                      <NameCard
+                        name={name}
+                        onClick={(name) => {
+                          setSelectedName(name);
+                          // Add offset for pinned names
+                          setSelectedIndex(pinnedNames.length + index);
+                        }}
+                        onFavoriteToggle={() => handleLikeIncrement(name.name)}
+                        onDislikeToggle={handleRefresh}
+                        isPinned={false}
+                        onPin={handleRefresh}
+                        showPinOption={true}
+                        likeCount={favoritesService.getLikeCount(name.name)}
+                      />
+                    </motion.div>
                   ))}
                 </div>
               </div>
