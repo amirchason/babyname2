@@ -101,15 +101,13 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     setIsDisliked(favoritesService.isDisliked(name.name));
     onFavoriteToggle?.();
 
-    // If we have a list of names, go to next immediately
-    if (names && currentIndex !== undefined && onNavigate) {
-      const nextIndex = currentIndex + 1;
-      if (nextIndex < names.length) {
-        onNavigate(nextIndex);
-      } else {
-        // Loop back to beginning instead of closing
-        onNavigate(0);
-      }
+    // If swipeable, trigger fly-right animation before navigating
+    if (isSwipeable) {
+      setExitDirection('right');
+      setTimeout(() => {
+        const nextIndex = (currentIndex! + 1) % names!.length;
+        onNavigate!(nextIndex);
+      }, 200);
     }
   };
 
@@ -120,15 +118,13 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     setIsDisliked(favoritesService.isDisliked(name.name));
     onDislikeToggle?.();
 
-    // If we have a list of names, go to next immediately
-    if (names && currentIndex !== undefined && onNavigate) {
-      const nextIndex = currentIndex + 1;
-      if (nextIndex < names.length) {
-        onNavigate(nextIndex);
-      } else {
-        // Loop back to beginning instead of closing
-        onNavigate(0);
-      }
+    // If swipeable, trigger fly-left animation before navigating
+    if (isSwipeable) {
+      setExitDirection('left');
+      setTimeout(() => {
+        const nextIndex = (currentIndex! + 1) % names!.length;
+        onNavigate!(nextIndex);
+      }, 200);
     }
   };
 
