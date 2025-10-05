@@ -13,6 +13,7 @@ const FavoritesPage: React.FC = () => {
   const [pinnedNames, setPinnedNames] = useState<NameEntry[]>([]);
   const [unpinnedNames, setUnpinnedNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
   const toast = useToast();
@@ -211,11 +212,14 @@ const FavoritesPage: React.FC = () => {
                   </span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-yellow-50/30 rounded-xl">
-                  {pinnedNames.map((name) => (
+                  {pinnedNames.map((name, index) => (
                     <NameCard
                       key={`pinned-${name.name}`}
                       name={name}
-                      onClick={setSelectedName}
+                      onClick={(name) => {
+                        setSelectedName(name);
+                        setSelectedIndex(index);
+                      }}
                       onFavoriteToggle={handleRefresh}
                       onDislikeToggle={handleRefresh}
                       isPinned={true}
@@ -234,11 +238,15 @@ const FavoritesPage: React.FC = () => {
                   <h2 className="text-lg font-semibold text-gray-700 mb-4">Other Favorites</h2>
                 )}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {unpinnedNames.map((name) => (
+                  {unpinnedNames.map((name, index) => (
                     <NameCard
                       key={`unpinned-${name.name}`}
                       name={name}
-                      onClick={setSelectedName}
+                      onClick={(name) => {
+                        setSelectedName(name);
+                        // Add offset for pinned names
+                        setSelectedIndex(pinnedNames.length + index);
+                      }}
                       onFavoriteToggle={handleRefresh}
                       onDislikeToggle={handleRefresh}
                       isPinned={false}
@@ -257,7 +265,17 @@ const FavoritesPage: React.FC = () => {
       {selectedName && (
         <NameDetailModal
           name={selectedName}
+          names={favoriteNames}
+          currentIndex={selectedIndex}
           onClose={() => setSelectedName(null)}
+          onNavigate={(newIndex) => {
+            if (newIndex >= 0 && newIndex < favoriteNames.length) {
+              setSelectedName(favoriteNames[newIndex]);
+              setSelectedIndex(newIndex);
+            }
+          }}
+          onFavoriteToggle={handleRefresh}
+          onDislikeToggle={handleRefresh}
         />
       )}
     </div>

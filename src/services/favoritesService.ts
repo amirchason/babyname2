@@ -10,6 +10,7 @@ interface FavoritesData {
 class FavoritesService {
   private readonly STORAGE_KEY = 'babynames_preferences';
   private readonly MAX_PINNED_FAVORITES = 20; // Maximum number of pinned favorites
+  private readonly DEBOUNCE_DELAY = 1500; // 1.5 seconds debounce for cloud sync
   private data: FavoritesData = {
     favorites: [],
     dislikes: [],
@@ -18,6 +19,7 @@ class FavoritesService {
   private isLoggedIn: boolean = false;
   private userId: string | null = null;
   private isClearingData: boolean = false; // Flag to prevent cloud sync during clear operations
+  private syncTimeout: NodeJS.Timeout | null = null; // Debounce timer for cloud sync
 
   constructor() {
     this.loadFromStorage();
@@ -96,14 +98,45 @@ class FavoritesService {
   }
 
   private async syncToCloud() {
+    // Debounce cloud sync to batch rapid changes (prevents lag and reduces Firebase writes)
+    if (this.syncTimeout) {
+      clearTimeout(this.syncTimeout);
+    }
+
+    this.syncTimeout = setTimeout(async () => {
+      if (this.isLoggedIn && this.userId) {
+        try {
+          await userDataService.saveToCloud(
+            this.data.favorites,
+            this.data.dislikes
+          );
+        } catch (error) {
+          console.error('Error syncing to cloud:', error);
+        }
+      }
+      this.syncTimeout = null;
+    }, this.DEBOUNCE_DELAY);
+  }
+
+  // Flush any pending sync immediately (used during logout)
+  async flushPendingSync(): Promise<void> {
+    // Clear any pending debounced sync
+    if (this.syncTimeout) {
+      clearTimeout(this.syncTimeout);
+      this.syncTimeout = null;
+    }
+
+    // Immediately save to cloud if logged in
     if (this.isLoggedIn && this.userId) {
       try {
         await userDataService.saveToCloud(
           this.data.favorites,
           this.data.dislikes
         );
+        console.log('[FavoritesService] Pending sync flushed successfully');
       } catch (error) {
-        console.error('Error syncing to cloud:', error);
+        console.error('[FavoritesService] Error flushing pending sync:', error);
+        throw error;
       }
     }
   }

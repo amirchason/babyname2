@@ -186,6 +186,7 @@ const SwipeModePage: React.FC = () => {
   const [lastAction, setLastAction] = useState<{ name: string; action: 'like' | 'dislike' } | null>(null);
   const [undoStack, setUndoStack] = useState<{ name: string; action: 'like' | 'dislike' }[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
 
   useEffect(() => {
     // Load initial batch of names
@@ -371,7 +372,10 @@ const SwipeModePage: React.FC = () => {
                         onSwipeLeft={() => handleSwipe('left')}
                         onSwipeRight={() => handleSwipe('right')}
                         dragEnabled={true}
-                        onInfoClick={() => setSelectedName(card)}
+                        onInfoClick={() => {
+                          setSelectedName(card);
+                          setSelectedIndex(index + currentIndex);
+                        }}
                       />
                     </motion.div>
                   );
@@ -440,7 +444,21 @@ const SwipeModePage: React.FC = () => {
       {selectedName && (
         <NameDetailModal
           name={selectedName}
+          names={cards}
+          currentIndex={selectedIndex}
           onClose={() => setSelectedName(null)}
+          onNavigate={(newIndex) => {
+            if (newIndex >= 0 && newIndex < cards.length) {
+              setSelectedName(cards[newIndex]);
+              setSelectedIndex(newIndex);
+            }
+          }}
+          onFavoriteToggle={() => {
+            setFavoritesCount(favoritesService.getFavoritesCount());
+          }}
+          onDislikeToggle={() => {
+            setDislikesCount(favoritesService.getDislikesCount());
+          }}
         />
       )}
     </div>

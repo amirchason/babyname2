@@ -5,6 +5,7 @@ import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
+import LogoutOverlay from '../components/LogoutOverlay';
 
 interface User {
   id: string;
@@ -50,6 +51,7 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
   const [loading, setLoading] = useState(true);
   const [isSyncing, setIsSyncing] = useState(false);
   const [syncError, setSyncError] = useState<string | null>(null);
+  const [showLogoutOverlay, setShowLogoutOverlay] = useState(false);
   const toast = useToast();
 
   // Validate user data structure and format
@@ -290,13 +292,17 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
 
   const logout = async () => {
     try {
-      // Save data before logout
+      // Show beautiful overlay animation
+      setShowLogoutOverlay(true);
+
+      // Flush any pending debounced sync immediately (ensures all data is saved)
       if (user) {
-        const favorites = favoritesService.getFavorites();
-        const dislikes = favoritesService.getDislikes();
-        await userDataService.saveToCloud(favorites, dislikes);
-        console.log('[AUTH DEBUG] Favorites saved before logout');
+        await favoritesService.flushPendingSync();
+        console.log('[AUTH DEBUG] All favorites flushed to cloud');
       }
+
+      // Keep overlay visible for animation (1 second total)
+      await new Promise(resolve => setTimeout(resolve, 1000));
 
       // Sign out of Firebase Auth
       const auth = getAuth();
@@ -310,9 +316,13 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       localStorage.removeItem('userEmail');
       localStorage.removeItem('google_access_token');
 
+      // Hide overlay
+      setShowLogoutOverlay(false);
+
       toast.success('Favorites saved. See you next time!');
     } catch (error) {
       console.error('[AUTH DEBUG] Error during logout:', error);
+      setShowLogoutOverlay(false);
       toast.warning('Logged out, but some favorites may not have synced.');
 
       // Force cleanup even if save failed
@@ -348,6 +358,10 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       clearCache
     }}>
       {children}
+      <LogoutOverlay
+        isVisible={showLogoutOverlay}
+        favoritesCount={favoritesService.getFavoritesCount()}
+      />
     </AuthContext.Provider>
   );
 };

@@ -11,6 +11,7 @@ import { useAuth } from '../contexts/AuthContext';
 const DislikesPage: React.FC = () => {
   const [dislikedNames, setDislikedNames] = useState<NameEntry[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
   const toast = useToast();
@@ -161,11 +162,14 @@ const DislikesPage: React.FC = () => {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {dislikedNames.map((name) => (
+            {dislikedNames.map((name, index) => (
               <NameCard
                 key={`${name.name}-${dislikedNames.length}`}
                 name={name}
-                onClick={setSelectedName}
+                onClick={(name) => {
+                  setSelectedName(name);
+                  setSelectedIndex(index);
+                }}
                 onFavoriteToggle={handleRefresh}
                 onDislikeToggle={handleRefresh}
               />
@@ -178,7 +182,17 @@ const DislikesPage: React.FC = () => {
       {selectedName && (
         <NameDetailModal
           name={selectedName}
+          names={dislikedNames}
+          currentIndex={selectedIndex}
           onClose={() => setSelectedName(null)}
+          onNavigate={(newIndex) => {
+            if (newIndex >= 0 && newIndex < dislikedNames.length) {
+              setSelectedName(dislikedNames[newIndex]);
+              setSelectedIndex(newIndex);
+            }
+          }}
+          onFavoriteToggle={handleRefresh}
+          onDislikeToggle={handleRefresh}
         />
       )}
     </div>
