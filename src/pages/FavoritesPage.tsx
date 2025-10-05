@@ -33,18 +33,32 @@ const FavoritesPage: React.FC = () => {
     const favoritesList = favoritesService.getFavorites();
     const pinnedList = favoritesService.getPinnedFavorites();
 
-    // Preserve favorites array order (this is the ranking!)
+    // Map favorites to name entries
     const favorites = favoritesList
       .map(favName => allNames.find(n => n.name === favName))
       .filter(Boolean) as NameEntry[];
 
-    // Separate pinned and unpinned (also preserving order)
+    // Separate pinned and unpinned
     const pinned = favorites.filter(name => pinnedList.includes(name.name));
     const unpinned = favorites.filter(name => !pinnedList.includes(name.name));
 
-    setFavoriteNames(favorites);
-    setPinnedNames(pinned);
-    setUnpinnedNames(unpinned);
+    // Sort pinned by like count (most likes first)
+    const sortedPinned = [...pinned].sort((a, b) => {
+      const likesA = favoritesService.getLikeCount(a.name) || 1;
+      const likesB = favoritesService.getLikeCount(b.name) || 1;
+      return likesB - likesA;
+    });
+
+    // Sort unpinned by like count (most likes first)
+    const sortedUnpinned = [...unpinned].sort((a, b) => {
+      const likesA = favoritesService.getLikeCount(a.name) || 1;
+      const likesB = favoritesService.getLikeCount(b.name) || 1;
+      return likesB - likesA;
+    });
+
+    setFavoriteNames([...sortedPinned, ...sortedUnpinned]);
+    setPinnedNames(sortedPinned);
+    setUnpinnedNames(sortedUnpinned);
     setLoading(false);
   };
 
