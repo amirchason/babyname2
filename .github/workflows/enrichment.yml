@@ -1,0 +1,154 @@
+name: Name Enrichment (Cloud)
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      max_duration_hours:
+        description: 'Max run duration in hours'
+        required: false
+        default: '5.5'
+        type: string
+
+  # Scheduled runs every 6 hours (can be adjusted)
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+
+jobs:
+  enrich-names:
+    runs-on: ubuntu-latest
+
+    # Only run if not already running
+    concurrency:
+      group: enrichment
+      cancel-in-progress: false
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Full history for proper commits
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci --only=production
+          npm install openai dotenv
+
+      - name: Create enrichment logs directory
+        run: mkdir -p enrichment_logs/progress_reports
+
+      - name: Check enrichment status
+        id: check_status
+        run: |
+          if [ -f "enrichment_logs/master_state.json" ]; then
+            STATUS=$(node -p "JSON.parse(require('fs').readFileSync('enrichment_logs/master_state.json', 'utf8')).status")
+            echo "status=$STATUS" >> $GITHUB_OUTPUT
+
+            if [ "$STATUS" = "completed" ]; then
+              echo "✅ Enrichment already completed!"
+              exit 0
+            fi
+          else
+            echo "status=not_started" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run enrichment
+        if: steps.check_status.outputs.status != 'completed'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MAX_DURATION_HOURS: ${{ inputs.max_duration_hours || '5.5' }}
+        run: |
+          echo "🚀 Starting enrichment (max ${MAX_DURATION_HOURS}h)..."
+          node masterEnrichment.js
+
+      - name: Generate status report
+        if: always()
+        run: |
+          echo "📊 Enrichment Status Report" > enrichment_report.txt
+          echo "================================" >> enrichment_report.txt
+          echo "" >> enrichment_report.txt
+
+          if [ -f "enrichment_logs/master_state.json" ]; then
+            node -e "
+              const state = JSON.parse(require('fs').readFileSync('enrichment_logs/master_state.json', 'utf8'));
+              console.log('Status:', state.status);
+              console.log('Total processed:', state.totalNamesProcessed);
+              console.log('Total errors:', state.totalErrors);
+              console.log('Estimated cost: $' + (state.estimatedCost || 0).toFixed(2));
+              console.log('Current chunk:', state.currentChunk);
+              console.log('Last update:', state.lastUpdate);
+              console.log('');
+              console.log('Chunk Progress:');
+              for (let i = 1; i <= 4; i++) {
+                if (state.chunks[i]) {
+                  const c = state.chunks[i];
+                  const pct = c.total ? ((c.processed / c.total) * 100).toFixed(1) : '?';
+                  console.log('  Chunk ' + i + ':', c.processed + '/' + (c.total || '?') + ' (' + pct + '%)');
+                }
+              }
+            " >> enrichment_report.txt
+          fi
+
+          cat enrichment_report.txt
+
+      - name: Commit enriched data
+        if: always()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+
+          # Add changed files
+          git add public/data/names-chunk*.json
+          git add enrichment_logs/
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TOTAL=$(node -p "JSON.parse(require('fs').readFileSync('enrichment_logs/master_state.json', 'utf8')).totalNamesProcessed")
+            COST=$(node -p "JSON.parse(require('fs').readFileSync('enrichment_logs/master_state.json', 'utf8')).estimatedCost.toFixed(2)")
+
+            git commit -m "chore: Enrich names (${TOTAL} total, \$${COST} cost)
+
+🤖 Automated enrichment via GitHub Actions
+
+$(cat enrichment_report.txt)"
+
+            git push
+            echo "✅ Changes committed and pushed"
+          fi
+
+      - name: Check if completed
+        if: always()
+        run: |
+          if [ -f "enrichment_logs/master_state.json" ]; then
+            STATUS=$(node -p "JSON.parse(require('fs').readFileSync('enrichment_logs/master_state.json', 'utf8')).status")
+
+            if [ "$STATUS" = "completed" ]; then
+              echo "🎉 ENRICHMENT COMPLETED!"
+              echo "All names have been processed."
+            else
+              echo "⏸️  Run paused at checkpoint"
+              echo "Next scheduled run will continue from here"
+            fi
+          fi
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: enrichment-logs-${{ github.run_number }}
+          path: |
+            enrichment_logs/*.log
+            enrichment_logs/*.json
+            enrichment_report.txt
+          retention-days: 7

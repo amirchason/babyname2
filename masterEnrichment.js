@@ -9,6 +9,7 @@ const BATCH_SIZE = 10;
 const DELAY_MS = 1500;
 const MAX_RETRIES = 3;
 const REPORT_INTERVAL = 300000; // 5 minutes
+const MAX_DURATION_MS = (process.env.MAX_DURATION_HOURS || 5.5) * 60 * 60 * 1000; // Default 5.5 hours
 
 // Paths
 const MASTER_STATE_PATH = 'enrichment_logs/master_state.json';
@@ -30,6 +31,7 @@ let sessionStats = {
   retries: 0,
   cost: 0
 };
+let shouldExit = false;
 
 // Logging functions
 function log(message, level = 'INFO') {
@@ -90,9 +92,9 @@ function loadErrorNames() {
 function loadChunk(chunkNumber) {
   const paths = {
     1: 'public/data/names-chunk1.json',
-    2: 'public/data/names-chunk-2.json',
-    3: 'public/data/names-chunk-3.json',
-    4: 'public/data/names-chunk-4.json'
+    2: 'public/data/names-chunk2.json',
+    3: 'public/data/names-chunk3.json',
+    4: 'public/data/names-chunk4.json'
   };
 
   const chunkPath = paths[chunkNumber];
@@ -102,7 +104,7 @@ function loadChunk(chunkNumber) {
   }
 
   const data = JSON.parse(fs.readFileSync(chunkPath, 'utf8'));
-  const names = chunkNumber === 1 ? (data.names || data) : data;
+  const names = data.names || data;
 
   log(`Loaded chunk ${chunkNumber}: ${names.length} names`);
   return names;
@@ -111,13 +113,13 @@ function loadChunk(chunkNumber) {
 function saveToChunk(chunkNumber, names) {
   const paths = {
     1: 'public/data/names-chunk1.json',
-    2: 'public/data/names-chunk-2.json',
-    3: 'public/data/names-chunk-3.json',
-    4: 'public/data/names-chunk-4.json'
+    2: 'public/data/names-chunk2.json',
+    3: 'public/data/names-chunk3.json',
+    4: 'public/data/names-chunk4.json'
   };
 
   const chunkPath = paths[chunkNumber];
-  const outputData = chunkNumber === 1 ? { names } : names;
+  const outputData = { names };
 
   fs.writeFileSync(chunkPath, JSON.stringify(outputData, null, 2));
   log(`Saved ${names.length} names to chunk ${chunkNumber}`);
@@ -196,6 +198,17 @@ Important:
   }
 }
 
+function checkTimeLimit() {
+  const elapsed = Date.now() - sessionStartTime;
+  if (elapsed >= MAX_DURATION_MS) {
+    shouldExit = true;
+    log(`⏱️  Time limit reached (${(elapsed / 1000 / 60 / 60).toFixed(2)}h)`, 'WARN');
+    log('Saving progress and exiting gracefully...');
+    return true;
+  }
+  return false;
+}
+
 async function processChunk(chunkNumber, startIndex = 0) {
   log(`Processing chunk ${chunkNumber} from index ${startIndex}`);
 
@@ -209,6 +222,17 @@ async function processChunk(chunkNumber, startIndex = 0) {
   masterState.chunks[chunkNumber].total = allNames.length;
 
   for (let i = startIndex; i < allNames.length; i += BATCH_SIZE) {
+    // Check time limit before each batch
+    if (checkTimeLimit()) {
+      masterState.lastCheckpoint = {
+        chunk: chunkNumber,
+        index: i,
+        timestamp: new Date().toISOString()
+      };
+      saveProgress();
+      saveToChunk(chunkNumber, allNames);
+      return;
+    }
     const batch = allNames.slice(i, i + BATCH_SIZE).map((name, idx) => ({
       ...name,
       index: i + idx,
@@ -375,25 +399,40 @@ async function main() {
 
   // Step 2: Process remaining chunks
   for (let chunk = masterState.currentChunk; chunk <= 4; chunk++) {
+    if (shouldExit) break;
+
     const startIndex = chunk === masterState.currentChunk
       ? (masterState.lastCheckpoint?.index || 0)
       : 0;
 
     masterState.currentChunk = chunk;
     await processChunk(chunk, startIndex);
+
+    if (shouldExit) break;
   }
 
   // Final report
   generateProgressReport();
 
-  log('============================================================');
-  log('ENRICHMENT COMPLETE!');
-  log(`Total processed: ${masterState.totalNamesProcessed}`);
-  log(`Total errors: ${masterState.totalErrors}`);
-  log(`Total cost: $${masterState.estimatedCost.toFixed(2)}`);
-  log('============================================================');
+  if (shouldExit) {
+    log('============================================================');
+    log('ENRICHMENT PAUSED (Time limit reached)');
+    log(`Total processed: ${masterState.totalNamesProcessed}`);
+    log(`Total errors: ${masterState.totalErrors}`);
+    log(`Total cost: $${masterState.estimatedCost.toFixed(2)}`);
+    log(`Will resume from: Chunk ${masterState.currentChunk}, Index ${masterState.lastCheckpoint?.index || 0}`);
+    log('============================================================');
+    masterState.status = 'paused';
+  } else {
+    log('============================================================');
+    log('ENRICHMENT COMPLETE!');
+    log(`Total processed: ${masterState.totalNamesProcessed}`);
+    log(`Total errors: ${masterState.totalErrors}`);
+    log(`Total cost: $${masterState.estimatedCost.toFixed(2)}`);
+    log('============================================================');
+    masterState.status = 'completed';
+  }
 
-  masterState.status = 'completed';
   saveProgress();
 }
 
