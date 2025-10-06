@@ -67,8 +67,9 @@ const HomePage: React.FC = () => {
         console.log('HomePage: Names set, stopping loading spinner...');
         setLoading(false);
 
-        // Initialize enrichment service with popular names for processing (non-blocking) - DISABLED FOR NOW
-        /* if (popularNames.length > 0) {
+        // Initialize enrichment service with popular names for processing (non-blocking)
+        // Now using OpenAI GPT-4 Mini for cost-effective enrichment
+        if (popularNames.length > 0) {
         enrichmentService.initialize(popularNames);
 
         // Set up callback to update names when they are enriched
@@ -107,7 +108,7 @@ const HomePage: React.FC = () => {
             });
           });
         });
-      } */
+      }
 
         // Load full database in background for complete pagination (non-blocking)
         setTimeout(() => {
@@ -327,11 +328,13 @@ const HomePage: React.FC = () => {
         });
       }
 
-      // Apply origin filter
+      // Apply origin filter (using consolidated originGroup)
       if (selectedOrigins.size > 0) {
         results = results.filter(name => {
-          if (!name.origin) return false;
-          const origins = Array.isArray(name.origin) ? name.origin : [name.origin];
+          // Use originGroup if available, fallback to origin for backwards compatibility
+          const originField = (name as any).originGroup || name.origin;
+          if (!originField) return false;
+          const origins = Array.isArray(originField) ? originField : [originField];
           return origins.some(origin => selectedOrigins.has(origin.trim()));
         });
       }
@@ -354,15 +357,17 @@ const HomePage: React.FC = () => {
     setCurrentPage(1);
   }, [searchTerm]);
 
-  // Extract origins from loaded names
+  // Extract origins from loaded names (using consolidated originGroup)
   useEffect(() => {
     if (names.length === 0) return;
 
     const originCounts = new Map<string, number>();
 
     names.forEach(name => {
-      if (name.origin) {
-        const origins = Array.isArray(name.origin) ? name.origin : [name.origin];
+      // Use originGroup if available, fallback to origin for backwards compatibility
+      const originField = (name as any).originGroup || name.origin;
+      if (originField) {
+        const origins = Array.isArray(originField) ? originField : [originField];
         origins.forEach(origin => {
           if (origin && origin.trim()) {
             const cleanOrigin = origin.trim();

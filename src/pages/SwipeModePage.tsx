@@ -430,14 +430,22 @@ const SwipeModePage: React.FC = () => {
           </div>
 
           <div className="flex gap-2 sm:gap-4">
-            <div className="flex items-center gap-1">
+            <button
+              onClick={() => navigate('/favorites')}
+              className="flex items-center gap-1 px-2 py-1 rounded-lg hover:bg-red-50 active:scale-95 transition-all"
+              title="View favorites"
+            >
               <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-red-500 fill-red-500" />
               <span className="font-bold text-gray-700 text-sm sm:text-base">{favoritesCount}</span>
-            </div>
-            <div className="flex items-center gap-1">
+            </button>
+            <button
+              onClick={() => navigate('/dislikes')}
+              className="flex items-center gap-1 px-2 py-1 rounded-lg hover:bg-gray-100 active:scale-95 transition-all"
+              title="View dislikes"
+            >
               <X className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500" />
               <span className="font-bold text-gray-700 text-sm sm:text-base">{dislikesCount}</span>
-            </div>
+            </button>
           </div>
         </div>
       </header>

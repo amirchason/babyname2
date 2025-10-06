@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, useMotionValue, useTransform, PanInfo } from 'framer-motion';
+import { motion, useMotionValue, useTransform, PanInfo, animate } from 'framer-motion';
 import { X, Globe, Heart, Award, BookOpen, Sparkles } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import enrichmentService from '../services/enrichmentService';
@@ -24,18 +24,14 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   }>({});
   const [isFavorite, setIsFavorite] = useState(false);
   const [isDisliked, setIsDisliked] = useState(false);
-  const [exitDirection, setExitDirection] = useState<'left' | 'right' | null>(null);
+  const [isSliding, setIsSliding] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Motion values for swipe gestures
+  // Motion values for swipe gestures - Tinder-style
   const x = useMotionValue(0);
-  const rotate = useTransform(x, [-200, 0, 200], [-10, 0, 10]);
-  const opacity = useTransform(x, [-200, -150, 0, 150, 200], [0.5, 1, 1, 1, 0.5]);
-
-  // Swipe indicators
-  const likeOpacity = useTransform(x, [0, 150], [0, 1]);
-  const nopeOpacity = useTransform(x, [-150, 0], [1, 0]);
-  const likeScale = useTransform(x, [0, 150], [0.8, 1.3]);
-  const nopeScale = useTransform(x, [-150, 0], [1.3, 0.8]);
+  const rotate = useTransform(x, [-200, 0, 200], [-20, 0, 20]); // More rotation
+  const opacity = useTransform(x, [-200, -150, 0, 150, 200], [0.8, 1, 1, 1, 0.8]);
+  const scale = useTransform(x, [-200, 0, 200], [0.95, 1, 0.95]); // Scale down slightly when swiping
 
   // Check if swipeable (has navigation props)
   const isSwipeable = !!names && currentIndex !== undefined && !!onNavigate;
@@ -50,8 +46,9 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
       setIsFavorite(favoritesService.isFavorite(name.name));
       setIsDisliked(favoritesService.isDisliked(name.name));
     }
-    // Reset exit direction and position when name changes
-    setExitDirection(null);
+    // Reset position when name changes
+    setIsSliding(false);
+    setIsTransitioning(false);
     x.set(0);
   }, [name, x]);
 
@@ -63,7 +60,7 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   const genderBg = isMale ? 'bg-blue-50' : 'bg-pink-50';
 
   const handleDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
-    if (!isSwipeable) return;
+    if (!isSwipeable || isSliding) return;
 
     const swipeThreshold = 40;
     const swipeVelocityThreshold = 200;
@@ -72,27 +69,47 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     const isHorizontalSwipe = Math.abs(info.offset.x) > Math.abs(info.offset.y);
 
     if (isHorizontalSwipe && (Math.abs(info.offset.x) > swipeThreshold || Math.abs(info.velocity.x) > swipeVelocityThreshold)) {
-      if (info.offset.x > 0) {
-        // Swipe right - Like
-        setExitDirection('right');
+      setIsSliding(true);
+      setIsTransitioning(true);
+
+      const direction = info.offset.x > 0 ? 'right' : 'left';
+      const targetX = direction === 'right' ? 1000 : -1000;
+
+      // Update favorites/dislikes
+      if (direction === 'right') {
         favoritesService.addFavorite(name.name);
         onFavoriteToggle?.();
-
-        setTimeout(() => {
-          const nextIndex = (currentIndex! + 1) % names!.length;
-          onNavigate!(nextIndex);
-        }, 200);
       } else {
-        // Swipe left - Dislike
-        setExitDirection('left');
         favoritesService.toggleDislike(name.name);
         onDislikeToggle?.();
-
-        setTimeout(() => {
-          const nextIndex = (currentIndex! + 1) % names!.length;
-          onNavigate!(nextIndex);
-        }, 200);
       }
+
+      // Animate the card flying off screen - Tinder style (snappy & smooth)
+      animate(x, targetX, {
+        type: 'spring',
+        stiffness: 300,
+        damping: 30,
+        mass: 0.5
+      }).then(() => {
+        // Small delay to prevent flash of wrong card
+        setTimeout(() => {
+          // After slide completes, navigate to next card
+          const nextIndex = (currentIndex! + 1) % names!.length;
+          // If we've looped back to the start, close modal (finished the list)
+          if (nextIndex === 0 && currentIndex! === names!.length - 1) {
+            onClose();
+          } else {
+            onNavigate!(nextIndex);
+          }
+        }, 50);
+      });
+    } else {
+      // Didn't meet threshold - snap back to center with spring
+      animate(x, 0, {
+        type: 'spring',
+        stiffness: 400,
+        damping: 25
+      });
     }
   };
 
@@ -103,13 +120,28 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     setIsDisliked(favoritesService.isDisliked(name.name));
     onFavoriteToggle?.();
 
-    // If swipeable, trigger fly-right animation before navigating
-    if (isSwipeable) {
-      setExitDirection('right');
-      setTimeout(() => {
-        const nextIndex = (currentIndex! + 1) % names!.length;
-        onNavigate!(nextIndex);
-      }, 200);
+    // If swipeable, trigger slide-right animation before navigating
+    if (isSwipeable && !isSliding) {
+      setIsSliding(true);
+      setIsTransitioning(true);
+
+      // Animate the card flying off screen to the right - Tinder style
+      animate(x, 1000, {
+        type: 'spring',
+        stiffness: 300,
+        damping: 30,
+        mass: 0.5
+      }).then(() => {
+        // Small delay to prevent flash of wrong card
+        setTimeout(() => {
+          const nextIndex = (currentIndex! + 1) % names!.length;
+          if (nextIndex === 0 && currentIndex! === names!.length - 1) {
+            onClose();
+          } else {
+            onNavigate!(nextIndex);
+          }
+        }, 50);
+      });
     }
   };
 
@@ -120,13 +152,28 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     setIsDisliked(favoritesService.isDisliked(name.name));
     onDislikeToggle?.();
 
-    // If swipeable, trigger fly-left animation before navigating
-    if (isSwipeable) {
-      setExitDirection('left');
-      setTimeout(() => {
-        const nextIndex = (currentIndex! + 1) % names!.length;
-        onNavigate!(nextIndex);
-      }, 200);
+    // If swipeable, trigger slide-left animation before navigating
+    if (isSwipeable && !isSliding) {
+      setIsSliding(true);
+      setIsTransitioning(true);
+
+      // Animate the card flying off screen to the left - Tinder style
+      animate(x, -1000, {
+        type: 'spring',
+        stiffness: 300,
+        damping: 30,
+        mass: 0.5
+      }).then(() => {
+        // Small delay to prevent flash of wrong card
+        setTimeout(() => {
+          const nextIndex = (currentIndex! + 1) % names!.length;
+          if (nextIndex === 0 && currentIndex! === names!.length - 1) {
+            onClose();
+          } else {
+            onNavigate!(nextIndex);
+          }
+        }, 50);
+      });
     }
   };
 
@@ -310,78 +357,67 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
     </div>
   );
 
+  // Get next name for background card - always visible when swipeable
+  const nextName = isSwipeable && names && currentIndex !== undefined
+    ? names[(currentIndex + 1) % names.length]
+    : null;
+
+  const nextNameGenderData = nextName && typeof nextName.gender === 'object' ? nextName.gender : null;
+  const nextNameIsMale = nextNameGenderData ? (nextNameGenderData.Male || 0) > (nextNameGenderData.Female || 0) : true;
+  const nextNameGenderBg = nextNameIsMale ? 'bg-blue-50' : 'bg-pink-50';
+  const nextNameGenderColor = nextNameIsMale ? 'from-blue-500 to-blue-700' : 'from-pink-500 to-pink-700';
+
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-50"
+    <div className="fixed inset-0 z-50 bg-white"
          onClick={onClose}>
 
-      {/* Swipe indicators (only if swipeable) */}
-      {isSwipeable && (
-        <>
-          {/* Dislike Indicator (Left) - Up and Left motion */}
-          <motion.div
-            className="fixed left-8 top-1/4 pointer-events-none z-[60]"
-            style={{ opacity: nopeOpacity, scale: nopeScale }}
-          >
-            <motion.div
-              animate={{
-                x: [-5, -15, -5],
-                y: [-5, -15, -5],
-              }}
-              transition={{
-                duration: 1,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-            >
-              <X className="w-20 h-20 text-gray-400/70" strokeWidth={3} />
-            </motion.div>
-          </motion.div>
-
-          {/* Like Indicator (Right) - Up and Right motion */}
-          <motion.div
-            className="fixed right-8 top-1/4 pointer-events-none z-[60]"
-            style={{ opacity: likeOpacity, scale: likeScale }}
-          >
-            <motion.div
-              animate={{
-                x: [5, 15, 5],
-                y: [-5, -15, -5],
-              }}
-              transition={{
-                duration: 1,
-                repeat: Infinity,
-                ease: "easeInOut"
-              }}
-            >
-              <Heart className={`w-20 h-20 ${isMale ? 'text-blue-400/70' : 'text-pink-400/70'}`} strokeWidth={3} />
-            </motion.div>
-          </motion.div>
-        </>
+      {/* Next card in background - slides up smoothly from bottom */}
+      {nextName && !isTransitioning && (
+        <motion.div
+          key={nextName.name}
+          className="absolute inset-0 z-[50] pointer-events-none opacity-50"
+          style={{ opacity: 0.5 }}  // Force constant opacity
+          initial={{ y: 80, scale: 0.95 }}
+          animate={{
+            y: 0,
+            scale: 0.95
+          }}
+          transition={{
+            duration: 0.2,
+            ease: [0.25, 0.46, 0.45, 0.94]  // Smooth easeOutQuad
+          }}
+        >
+          <div className={`w-full h-screen ${nextNameGenderBg} shadow-2xl flex flex-col overflow-hidden`}>
+            {/* Next card header */}
+            <div className={`relative h-32 sm:h-44 bg-gradient-to-br ${nextNameGenderColor} overflow-hidden`}>
+              <div className="absolute inset-0 bg-black opacity-20" />
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <h2 className="text-5xl sm:text-8xl font-bold text-white drop-shadow-lg">
+                  {nextName.name}
+                </h2>
+              </div>
+              <div className="absolute top-2 left-2 sm:top-4 sm:left-4">
+                <span className="px-2 py-0.5 sm:px-3 sm:py-1 bg-white bg-opacity-20 backdrop-blur-sm
+                               rounded-full text-white text-xs sm:text-sm font-medium">
+                  Rank #{nextName.popularityRank}
+                </span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
       )}
 
-      {/* Main card - draggable if swipeable */}
+
+      {/* Main card - draggable if swipeable, slides to reveal card underneath */}
       {isSwipeable ? (
         <motion.div
-          className="relative z-[55]"
-          style={{ x, rotate, opacity }}
+          className="relative z-[55] will-change-transform"
+          style={{ x, rotate, opacity, scale }}  // Added scale for Tinder-like feel
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.7}
+          dragElastic={0.1}  // Slight elastic for natural feel
           onDragEnd={handleDragEnd}
-          animate={exitDirection ? {
-            x: exitDirection === 'right' ? 1000 : -1000,
-            opacity: 0,
-            rotate: exitDirection === 'right' ? 30 : -30,
-          } : {}}
-          transition={exitDirection ? {
-            type: 'tween',
-            duration: 0.2,
-            ease: 'easeOut'
-          } : {
-            type: 'spring',
-            stiffness: 700,
-            damping: 30,
-          }}
+          initial={false}  // No entry animation - card just appears
         >
           <CardContent />
         </motion.div>

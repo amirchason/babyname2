@@ -16,6 +16,7 @@ const FavoritesPage: React.FC = () => {
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loading, setLoading] = useState(true);
+  const [animatingName, setAnimatingName] = useState<string | null>(null);
   const navigate = useNavigate();
   const toast = useToast();
   const { isAuthenticated } = useAuth();
@@ -68,8 +69,55 @@ const FavoritesPage: React.FC = () => {
   };
 
   const handleLikeIncrement = (nameName: string) => {
+    // Get old sort order
+    const oldOrder = favoriteNames.map(n => n.name);
+    const oldIndex = oldOrder.indexOf(nameName);
+
+    // Increment like count
     favoritesService.incrementLikeCount(nameName);
-    loadFavorites(); // Refresh to show updated count
+
+    // Get updated like counts and check if sort order would change
+    const updatedPinned = [...pinnedNames].sort((a, b) => {
+      const likesA = favoritesService.getLikeCount(a.name) || 1;
+      const likesB = favoritesService.getLikeCount(b.name) || 1;
+      return likesB - likesA;
+    });
+
+    const updatedUnpinned = [...unpinnedNames].sort((a, b) => {
+      const likesA = favoritesService.getLikeCount(a.name) || 1;
+      const likesB = favoritesService.getLikeCount(b.name) || 1;
+      return likesB - likesA;
+    });
+
+    const newOrder = [...updatedPinned, ...updatedUnpinned].map(n => n.name);
+    const newIndex = newOrder.indexOf(nameName);
+
+    // Check if position changed (moved up)
+    const orderChanged = oldOrder.some((name, index) => name !== newOrder[index]);
+    const movedUp = newIndex < oldIndex;
+
+    if (orderChanged && movedUp) {
+      // Set animation state BEFORE updating the list
+      setAnimatingName(nameName);
+
+      // Update state immediately to show new positions
+      setPinnedNames(updatedPinned);
+      setUnpinnedNames(updatedUnpinned);
+      setFavoriteNames([...updatedPinned, ...updatedUnpinned]);
+
+      // Clear animation after it completes
+      setTimeout(() => setAnimatingName(null), 600);
+    } else if (orderChanged) {
+      // Position changed but didn't move up (moved down or sideways)
+      setPinnedNames(updatedPinned);
+      setUnpinnedNames(updatedUnpinned);
+      setFavoriteNames([...updatedPinned, ...updatedUnpinned]);
+    } else {
+      // Just update the state without reloading to avoid unnecessary animations
+      setPinnedNames(updatedPinned);
+      setUnpinnedNames(updatedUnpinned);
+      setFavoriteNames([...updatedPinned, ...updatedUnpinned]);
+    }
   };
 
   const clearAllFavorites = async () => {
@@ -240,12 +288,27 @@ const FavoritesPage: React.FC = () => {
                       key={`pinned-${name.name}`}
                       layout
                       initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
+                      animate={
+                        animatingName === name.name
+                          ? {
+                              opacity: 1,
+                              scale: [1, 1.1, 1],
+                              y: [-30, 0],
+                              boxShadow: [
+                                "0 0 0 0 rgba(234, 179, 8, 0)",
+                                "0 0 30px 10px rgba(234, 179, 8, 0.5)",
+                                "0 0 0 0 rgba(234, 179, 8, 0)"
+                              ]
+                            }
+                          : { opacity: 1, scale: 1, y: 0 }
+                      }
                       exit={{ opacity: 0, scale: 0.8 }}
                       transition={{
-                        layout: { duration: 0.3, ease: "easeOut" },
+                        layout: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
                         opacity: { duration: 0.2 },
-                        scale: { duration: 0.2 }
+                        scale: { duration: 0.2 },
+                        y: { duration: 0.4, ease: [0.34, 1.56, 0.64, 1] },
+                        boxShadow: { duration: 0.4 }
                       }}
                     >
                       <NameCard
@@ -279,12 +342,27 @@ const FavoritesPage: React.FC = () => {
                       key={`unpinned-${name.name}`}
                       layout
                       initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
+                      animate={
+                        animatingName === name.name
+                          ? {
+                              opacity: 1,
+                              scale: [1, 1.1, 1],
+                              y: [-30, 0],
+                              boxShadow: [
+                                "0 0 0 0 rgba(168, 85, 247, 0)",
+                                "0 0 30px 10px rgba(168, 85, 247, 0.5)",
+                                "0 0 0 0 rgba(168, 85, 247, 0)"
+                              ]
+                            }
+                          : { opacity: 1, scale: 1, y: 0 }
+                      }
                       exit={{ opacity: 0, scale: 0.8 }}
                       transition={{
-                        layout: { duration: 0.3, ease: "easeOut" },
+                        layout: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
                         opacity: { duration: 0.2 },
-                        scale: { duration: 0.2 }
+                        scale: { duration: 0.2 },
+                        y: { duration: 0.4, ease: [0.34, 1.56, 0.64, 1] },
+                        boxShadow: { duration: 0.4 }
                       }}
                     >
                       <NameCard
