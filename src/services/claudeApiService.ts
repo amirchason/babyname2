@@ -34,6 +34,7 @@ export const STANDARD_ORIGINS = [
   'Japanese',
   'Chinese',
   'Korean',
+  'Filipino',
   'African',
   'Persian',
   'Turkish',

@@ -11,6 +11,7 @@ import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background';
+import AppHeader from '../components/AppHeader';
 
 const HomePage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -28,14 +29,10 @@ const HomePage: React.FC = () => {
   const [currentFilteredCount, setCurrentFilteredCount] = useState(0);
   const [showFilterMessage, setShowFilterMessage] = useState(false);
   const [showFavorites, setShowFavorites] = useState(false);
-  const [favoritesCount, setFavoritesCount] = useState(0);
-  const [dislikesCount, setDislikesCount] = useState(0);
   const [, forceUpdate] = useState({});
-  const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(10); // 10 names per page
   const [showQuestionnaire, setShowQuestionnaire] = useState(false);
-  const [heartBeat, setHeartBeat] = useState(false);
 
   // Origin filter states
   const [selectedOrigins, setSelectedOrigins] = useState<Set<string>>(new Set());
@@ -150,34 +147,6 @@ const HomePage: React.FC = () => {
     };
 
     loadNames();
-  }, []);
-
-  // Update counts
-  useEffect(() => {
-    const updateCounts = () => {
-      setFavoritesCount(favoritesService.getFavoritesCount());
-      setDislikesCount(favoritesService.getDislikesCount());
-    };
-
-    updateCounts();
-    // Update counts when localStorage changes
-    window.addEventListener('storage', updateCounts);
-    // Also update when cloud data changes
-    window.addEventListener('cloudDataUpdate', updateCounts);
-
-    // Listen for favorite additions to trigger heart animation
-    const handleFavoriteAdded = () => {
-      setHeartBeat(true);
-      setTimeout(() => setHeartBeat(false), 600);
-      updateCounts();
-    };
-    window.addEventListener('favoriteAdded', handleFavoriteAdded);
-
-    return () => {
-      window.removeEventListener('storage', updateCounts);
-      window.removeEventListener('cloudDataUpdate', updateCounts);
-      window.removeEventListener('favoriteAdded', handleFavoriteAdded);
-    };
   }, []);
 
   // Calculate available origins when names are loaded
@@ -343,14 +312,13 @@ const HomePage: React.FC = () => {
       results = applySorting(results, !!searchTerm);
 
       setFilteredNames(results);
-      setFavoritesCount(favoritesService.getFavoritesCount());
 
       // Update current filtered count
       setCurrentFilteredCount(results.length);
     };
 
     updateNames();
-  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites, favoritesCount, dislikesCount, selectedOrigins]);
+  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, showFavorites, selectedOrigins]);
 
   // Reset page when search term changes
   useEffect(() => {
@@ -439,196 +407,8 @@ const HomePage: React.FC = () => {
         <div className="absolute top-40 left-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
       </div>
 
-      {/* Header - Minimalist */}
-      <header className="bg-white/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-8">
-              {/* Logo - Minimal */}
-              <button
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
-                title="Scroll to top"
-              >
-                <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
-                <h1 className="text-lg font-light tracking-wide text-gray-900">
-                  babynames
-                </h1>
-              </button>
-
-              {/* Favorites Counter - Enhanced */}
-              <button
-                onClick={() => navigate('/favorites')}
-                className={`flex items-center gap-2 text-sm transition-all ${
-                  favoritesCount > 0
-                    ? 'text-pink-500 hover:text-pink-600'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-                title="View favorites"
-              >
-                <Heart
-                  className={`transition-all ${
-                    heartBeat ? 'animate-heartbeat' : ''
-                  } ${
-                    favoritesCount > 0 ? 'fill-pink-500' : ''
-                  }`}
-                  style={{ width: '1.15rem', height: '1.15rem' }} // 15% bigger than w-4 h-4 (16px -> 18.4px)
-                />
-                <span className={favoritesCount > 0 ? 'font-medium' : ''}>{favoritesCount}</span>
-              </button>
-            </div>
-
-            {/* Search and Navigation Container */}
-            <div className="flex items-center space-x-4">
-              {/* Search Icon - Minimalist */}
-              <button
-                onClick={() => {
-                  setSearchOpen(!searchOpen);
-                  if (searchOpen) {
-                    setSearchTerm('');
-                  }
-                }}
-                className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
-                title={searchOpen ? "Close search" : "Search names"}
-              >
-                {searchOpen ? (
-                  <X className="w-4 h-4" />
-                ) : (
-                  <Search className="w-4 h-4" />
-                )}
-              </button>
-
-              {/* Desktop Navigation - Minimal */}
-              <nav className="hidden md:flex items-center space-x-6">
-              <button
-                onClick={() => navigate('/dislikes')}
-                className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
-                Dislikes
-              </button>
-              <button className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
-                Origins
-              </button>
-
-              {/* Login/Profile - Minimal */}
-              {isAuthenticated && user ? (
-                <div className="flex items-center gap-4">
-                  {user.picture ? (
-                    <img
-                      src={user.picture}
-                      alt={user.name}
-                      className="w-8 h-8 rounded-full"
-                      onError={(e) => {
-                        e.currentTarget.style.display = 'none';
-                      }}
-                    />
-                  ) : (
-                    <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 text-sm">
-                      {user.name?.charAt(0).toUpperCase()}
-                    </div>
-                  )}
-                  <button
-                    onClick={logout}
-                    className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
-                  >
-                    Logout
-                  </button>
-                </div>
-              ) : (
-                <button
-                  onClick={login}
-                  className="text-sm text-gray-900 hover:text-gray-600 transition-colors"
-                >
-                  Sign in
-                </button>
-              )}
-              </nav>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden p-2 text-gray-700 hover:text-purple-600"
-            >
-              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {menuOpen && (
-            <div className="md:hidden mt-4 pt-4 border-t border-gray-200">
-              <div className="flex flex-col space-y-3">
-                <button
-                  onClick={() => {
-                    navigate('/favorites');
-                    setMenuOpen(false);
-                  }}
-                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
-                >
-                  <Heart className="w-4 h-4" />
-                  Favorites {favoritesCount > 0 && `(${favoritesCount})`}
-                </button>
-                <button
-                  onClick={() => {
-                    navigate('/dislikes');
-                    setMenuOpen(false);
-                  }}
-                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
-                >
-                  <X className="w-4 h-4" />
-                  Dislikes {dislikesCount > 0 && `(${dislikesCount})`}
-                </button>
-                <button className="text-left px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                  By Origin
-                </button>
-                <button className="text-left px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors">
-                  AI Assistant
-                </button>
-
-                {isAuthenticated && user ? (
-                  <div className="flex items-center justify-between px-4 py-2 border-t pt-4">
-                    <div className="flex items-center gap-2">
-                      {user.picture ? (
-                        <img
-                          src={user.picture}
-                          alt={user.name}
-                          className="w-8 h-8 rounded-full"
-                          onError={(e) => {
-                            e.currentTarget.style.display = 'none';
-                          }}
-                        />
-                      ) : (
-                        <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold text-sm">
-                          {user.name?.charAt(0).toUpperCase()}
-                        </div>
-                      )}
-                      <span className="text-sm font-medium text-gray-700">{user.name}</span>
-                    </div>
-                    <button
-                      onClick={() => {
-                        logout();
-                        setMenuOpen(false);
-                      }}
-                      className="text-red-600 text-sm font-medium hover:text-red-700"
-                    >
-                      Logout
-                    </button>
-                  </div>
-                ) : (
-                  <button
-                    onClick={() => {
-                      login();
-                      setMenuOpen(false);
-                    }}
-                    className="mx-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                  >
-                    Sign in with Google
-                  </button>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
+      {/* AppHeader with consistent counters */}
+      <AppHeader title="babynames" showBackButton={false} />
 
       {/* Full-width Search Bar - Below Header */}
       <AnimatePresence>
@@ -920,11 +700,19 @@ const HomePage: React.FC = () => {
             className="flex flex-col sm:flex-row gap-3 w-full max-w-xl mx-auto mt-2"
           >
             <button
+              onClick={() => {
+                setSearchOpen(!searchOpen);
+                if (searchOpen) {
+                  setSearchTerm('');
+                }
+              }}
               className="w-full py-4 rounded-full text-sm font-light
                        bg-white text-gray-900 border border-gray-200
-                       hover:border-gray-400 transition-all duration-200"
+                       hover:border-gray-400 transition-all duration-200
+                       flex items-center justify-center gap-2"
             >
-              Browse Names
+              <Search className="w-4 h-4" />
+              Search Names
             </button>
             <button
               onClick={() => navigate('/swipe')}
@@ -1080,9 +868,8 @@ const HomePage: React.FC = () => {
                           }}
                           filterContext={activeFilter}
                           onFavoriteToggle={() => {
-                            // Update counts
-                            setFavoritesCount(favoritesService.getFavoritesCount());
-                            setDislikesCount(favoritesService.getDislikesCount());
+                            // Dispatch event for AppHeader to update counts
+                            window.dispatchEvent(new Event('storage'));
 
                             // Force re-render to remove from list after animation
                             setTimeout(() => {
@@ -1090,9 +877,8 @@ const HomePage: React.FC = () => {
                             }, 120); // Match the animation duration
                           }}
                           onDislikeToggle={() => {
-                            // Update counts
-                            setFavoritesCount(favoritesService.getFavoritesCount());
-                            setDislikesCount(favoritesService.getDislikesCount());
+                            // Dispatch event for AppHeader to update counts
+                            window.dispatchEvent(new Event('storage'));
 
                             // Force re-render to remove from list after animation
                             setTimeout(() => {
@@ -1241,12 +1027,12 @@ const HomePage: React.FC = () => {
           }
         }}
         onFavoriteToggle={() => {
-          setFavoritesCount(favoritesService.getFavoritesCount());
-          setDislikesCount(favoritesService.getDislikesCount());
+          // Dispatch event for AppHeader to update counts
+          window.dispatchEvent(new Event('storage'));
         }}
         onDislikeToggle={() => {
-          setFavoritesCount(favoritesService.getFavoritesCount());
-          setDislikesCount(favoritesService.getDislikesCount());
+          // Dispatch event for AppHeader to update counts
+          window.dispatchEvent(new Event('storage'));
         }}
       />
 

@@ -5,6 +5,7 @@ import { ArrowLeft, Heart, X, Sparkles, Baby, RotateCcw, Info } from 'lucide-rea
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameDetailModal from '../components/NameDetailModal';
+import AppHeader from '../components/AppHeader';
 
 interface CardProps {
   name: NameEntry;
@@ -224,8 +225,6 @@ const SwipeModePage: React.FC = () => {
   const [cards, setCards] = useState<NameEntry[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [favoritesCount, setFavoritesCount] = useState(0);
-  const [dislikesCount, setDislikesCount] = useState(0);
   const [lastAction, setLastAction] = useState<{ name: string; action: 'like' | 'dislike' } | null>(null);
   const [undoStack, setUndoStack] = useState<{ name: string; action: 'like' | 'dislike' }[]>([]);
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
@@ -256,8 +255,6 @@ const SwipeModePage: React.FC = () => {
       const names = loadNamesBatch(0, INITIAL_LOAD_SIZE);
       setCards(names);
       setLoadOffset(INITIAL_LOAD_SIZE);
-      setFavoritesCount(favoritesService.getFavoritesCount());
-      setDislikesCount(favoritesService.getDislikesCount());
       setLoading(false);
     };
     loadNames();
@@ -358,8 +355,9 @@ const SwipeModePage: React.FC = () => {
       });
       setLastAction({ name: currentCard.name, action });
       setCurrentIndex(prev => prev + 1);
-      setFavoritesCount(favoritesService.getFavoritesCount());
-      setDislikesCount(favoritesService.getDislikesCount());
+
+      // Dispatch event for header to update counts
+      window.dispatchEvent(new Event('storage'));
 
       // Load more cards AFTER animation (500ms)
       setTimeout(() => {
@@ -380,9 +378,8 @@ const SwipeModePage: React.FC = () => {
       favoritesService.removeDislikes(lastItem.name);
     }
 
-    // Update counts
-    setFavoritesCount(favoritesService.getFavoritesCount());
-    setDislikesCount(favoritesService.getDislikesCount());
+    // Dispatch event for header to update counts
+    window.dispatchEvent(new Event('storage'));
 
     // Remove from undo stack
     setUndoStack(prev => prev.slice(0, -1));
@@ -403,52 +400,10 @@ const SwipeModePage: React.FC = () => {
 
   return (
     <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
-      {/* Header */}
-      <header className="flex-none bg-white/95 backdrop-blur-lg shadow-md border-b border-purple-100/50 z-50">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => navigate('/')}
-              className="hover:opacity-80 transition-opacity"
-              title="Go to home"
-            >
-              <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
-            </button>
-            <button
-              onClick={() => navigate('/')}
-              className="flex items-center gap-1.5 text-gray-700 hover:text-purple-600 transition-colors px-2 py-1.5 rounded-lg hover:bg-purple-50"
-            >
-              <ArrowLeft className="w-5 h-5" />
-              <span className="hidden sm:inline font-medium">Back</span>
-            </button>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <h1 className="text-base sm:text-lg font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Swipe Mode
-            </h1>
-          </div>
-
-          <div className="flex gap-2 sm:gap-4">
-            <button
-              onClick={() => navigate('/favorites')}
-              className="flex items-center gap-1 px-2 py-1 rounded-lg hover:bg-red-50 active:scale-95 transition-all"
-              title="View favorites"
-            >
-              <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-red-500 fill-red-500" />
-              <span className="font-bold text-gray-700 text-sm sm:text-base">{favoritesCount}</span>
-            </button>
-            <button
-              onClick={() => navigate('/dislikes')}
-              className="flex items-center gap-1 px-2 py-1 rounded-lg hover:bg-gray-100 active:scale-95 transition-all"
-              title="View dislikes"
-            >
-              <X className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500" />
-              <span className="font-bold text-gray-700 text-sm sm:text-base">{dislikesCount}</span>
-            </button>
-          </div>
-        </div>
-      </header>
+      {/* AppHeader with consistent counters */}
+      <div className="flex-none">
+        <AppHeader title="Swipe Mode" showBackButton={true} />
+      </div>
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col min-h-0 px-3 sm:px-4">

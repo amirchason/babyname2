@@ -20,7 +20,7 @@ class EnrichmentService {
   private isInitialized: boolean = false;
   private storageKey = 'nameEnrichment_v2';
   private databaseUpdateCallback?: (updatedNames: NameData[]) => void;
-  private autoProcessing: boolean = false; // Disabled - using manual commands
+  private autoProcessing: boolean = true; // Enabled - auto-start enrichment
   private processingInterval?: NodeJS.Timeout;
 
   constructor() {

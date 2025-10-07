@@ -1,9 +1,11 @@
 /**
  * Name Enrichment Agent - Autonomous background agent for enriching names
  * Processes names to add meanings, origins, and cultural context
+ * Now using OpenAI GPT-4 Mini for cost-effective enrichment
  */
 
-import claudeApiService, { NameAnalysis, StandardOrigin } from '../services/claudeApiService';
+import openaiApiService from '../services/openaiApiService';
+import { NameAnalysis, StandardOrigin } from '../services/claudeApiService';
 
 export interface EnrichedName {
   name: string;
@@ -14,6 +16,7 @@ export interface EnrichedName {
   enrichedAt?: string;
   processingStatus?: 'pending' | 'processing' | 'completed' | 'failed';
   errorMessage?: string;
+  primaryCountry?: string; // Country code for better origin detection
 }
 
 export interface EnrichmentStatus {
@@ -64,7 +67,8 @@ export class NameEnrichmentAgent {
         culturalContext: existing?.culturalContext,
         enriched: existing?.enriched || !!name.meaning || false,
         enrichedAt: existing?.enrichedAt || name.enrichedAt,
-        processingStatus: existing?.processingStatus || (name.meaning ? 'completed' : 'pending')
+        processingStatus: existing?.processingStatus || (name.meaning ? 'completed' : 'pending'),
+        primaryCountry: name.primaryCountry // Preserve country code for better origin detection
       };
     });
 
@@ -88,9 +92,21 @@ export class NameEnrichmentAgent {
     console.log(`Starting enrichment for up to ${limit} names...`);
     this.emitProgress('Initializing enrichment process...');
 
-    // Prioritize specific names if provided
-    let namesToProcess = this.database.filter(n => !n.enriched || n.processingStatus === 'pending');
+    // Prioritize Modern origin names for re-enrichment, then unenriched names
+    let modernNames = this.database.filter(n =>
+      n.origin === 'Modern' ||
+      n.origin === 'Modern Invented' ||
+      (n.origin && n.origin.includes('Modern'))
+    );
+    let unenrichedNames = this.database.filter(n => !n.enriched || n.processingStatus === 'pending');
 
+    // Combine: Modern names first, then unenriched
+    let namesToProcess = [
+      ...modernNames,
+      ...unenrichedNames.filter(n => !modernNames.includes(n))
+    ];
+
+    // Prioritize specific names if provided
     if (priorityNames && priorityNames.length > 0) {
       const prioritySet = new Set(priorityNames.map(n => n.toLowerCase()));
       namesToProcess = [
@@ -103,6 +119,7 @@ export class NameEnrichmentAgent {
     namesToProcess = namesToProcess.slice(0, limit);
 
     console.log(`Found ${namesToProcess.length} names to enrich`);
+    console.log(`Using batch processing: ${this.batchSize} names per API call with 1.5s delay between batches`);
 
     // Process in batches for better performance
     for (let i = 0; i < namesToProcess.length; i += this.batchSize) {
@@ -112,7 +129,19 @@ export class NameEnrichmentAgent {
       }
 
       const batch = namesToProcess.slice(i, i + this.batchSize);
+      const batchNum = Math.floor(i / this.batchSize) + 1;
+      const totalBatches = Math.ceil(namesToProcess.length / this.batchSize);
+
+      console.log(`\n📦 Batch ${batchNum}/${totalBatches} (${batch.length} names)`);
+
       await this.processBatch(batch);
+
+      // Add delay between batches to respect rate limits (1.5 seconds)
+      // This allows ~40 batches/minute = 400 names/minute (well under any rate limit)
+      if (i + this.batchSize < namesToProcess.length) {
+        console.log('⏱️  Waiting 1.5s before next batch...');
+        await this.delay(1500);
+      }
     }
 
     this.isProcessing = false;
@@ -130,14 +159,63 @@ export class NameEnrichmentAgent {
   }
 
   /**
-   * Process a batch of names
+   * Process a batch of names using SINGLE API call (much faster and more efficient)
    */
   private async processBatch(batch: EnrichedName[]) {
-    console.log(`Processing batch of ${batch.length} names...`);
+    console.log(`Processing batch of ${batch.length} names with single API call...`);
 
-    // Process names in parallel within the batch
-    const promises = batch.map(name => this.processName(name));
-    await Promise.all(promises);
+    try {
+      // Extract name strings and country hints
+      const nameStrings = batch.map(entry => entry.name);
+      const countryHints = batch.map(entry => entry.primaryCountry || '');
+
+      // Call batch API - sends all names in ONE request with country context
+      const analyses = await openaiApiService.analyzeNamesBatch(nameStrings, 0, countryHints);
+
+      // Update all entries with results
+      batch.forEach((entry, index) => {
+        const analysis = analyses[index];
+
+        if (!analysis) {
+          console.error(`No analysis returned for ${entry.name}`);
+          entry.processingStatus = 'failed';
+          entry.errorMessage = 'No result from batch API';
+          this.errorCount++;
+          return;
+        }
+
+        try {
+          // Update the entry with enriched data
+          entry.meaning = analysis.meaning;
+          entry.origin = this.mapToValidOrigin(analysis.origin);
+          entry.culturalContext = analysis.culturalContext;
+          entry.enriched = true;
+          entry.enrichedAt = new Date().toISOString();
+          entry.processingStatus = 'completed';
+
+          this.processedCount++;
+          this.processedNames.add(entry.name);
+
+          console.log(`  ✓ ${entry.name}: "${analysis.meaning}" (${analysis.origin})`);
+
+        } catch (error) {
+          console.error(`Error updating ${entry.name}:`, error);
+          entry.processingStatus = 'failed';
+          entry.errorMessage = error instanceof Error ? error.message : 'Update failed';
+          this.errorCount++;
+        }
+      });
+
+    } catch (error) {
+      console.error('Batch processing error:', error);
+
+      // Mark all as failed on batch error
+      batch.forEach(entry => {
+        entry.processingStatus = 'failed';
+        entry.errorMessage = 'Batch API call failed';
+        this.errorCount++;
+      });
+    }
   }
 
   /**
@@ -151,8 +229,8 @@ export class NameEnrichmentAgent {
     nameEntry.processingStatus = 'processing';
 
     try {
-      // Analyze name using Claude API service
-      const analysis = await claudeApiService.analyzeName(nameEntry.name);
+      // Analyze name using OpenAI GPT-4 Mini
+      const analysis = await openaiApiService.analyzeName(nameEntry.name);
 
       // Update the name entry with enriched data
       nameEntry.meaning = analysis.meaning;
@@ -178,6 +256,13 @@ export class NameEnrichmentAgent {
       console.error(`✗ Failed to enrich "${nameEntry.name}":`, error);
       this.emitProgress(`Error: Failed to process ${nameEntry.name}`);
     }
+  }
+
+  /**
+   * Delay helper for rate limiting
+   */
+  private delay(ms: number): Promise<void> {
+    return new Promise(resolve => setTimeout(resolve, ms));
   }
 
   /**
@@ -340,6 +425,7 @@ export class NameEnrichmentAgent {
     if (lowerOrigin === 'japanese') return 'Japanese';
     if (lowerOrigin === 'chinese') return 'Chinese';
     if (lowerOrigin === 'korean') return 'Korean';
+    if (lowerOrigin === 'filipino') return 'Filipino';
     if (lowerOrigin === 'african') return 'African';
     if (lowerOrigin === 'persian') return 'Persian';
     if (lowerOrigin === 'turkish') return 'Turkish';
@@ -352,6 +438,7 @@ export class NameEnrichmentAgent {
     if (lowerOrigin.includes('celt')) return 'Celtic';
     if (lowerOrigin.includes('scot')) return 'Scottish';
     if (lowerOrigin.includes('slav')) return 'Slavic';
+    if (lowerOrigin.includes('philippine') || lowerOrigin.includes('tagalog')) return 'Filipino';
     if (lowerOrigin.includes('america') || lowerOrigin.includes('native')) return 'Native-American';
     if (lowerOrigin.includes('bible') || lowerOrigin.includes('christian')) return 'Biblical';
 

@@ -149,12 +149,22 @@ The app uses **Firebase** for cloud sync and authentication:
 
 ### AI Features
 
-**Google Gemini Integration**:
-- API key from `REACT_APP_GEMINI_API_KEY` in `.env`
-- Background enrichment of name meanings and origins
-- Batch processing to avoid rate limits
+**OpenAI GPT-4 Mini Integration** (Active):
+- API key from `REACT_APP_OPENAI_API_KEY` in `.env`
+- Background enrichment of name meanings and origins using GPT-4o-mini
+- Service: `src/services/openaiApiService.ts`
+- Agent: `src/agents/NameEnrichmentAgent.ts`
+- **FAST BATCH PROCESSING**: 10 names per API call (10x more efficient than individual requests)
+- 1.5 second delay between batches = ~400 names/minute processing speed
+- Exponential backoff retry logic for rate limit errors (429)
+- Name-by-name validation to ensure accuracy of each result
 - Cached results stored with name entries
-- **NOTE**: Enrichment currently DISABLED in HomePage.tsx (lines 71-110 commented out)
+- **STATUS**: ✅ ENABLED in HomePage.tsx (lines 70-111)
+- **Auto-processing**: ✅ ENABLED (processes 100 names on load, then 20 at a time in background)
+
+**Google Gemini** (Backup):
+- API key from `REACT_APP_GEMINI_API_KEY` in `.env`
+- Available via `src/services/claudeApiService.ts` (fallback mode)
 
 **Unisex Detection Algorithm**:
 - 35% threshold: Names with 35-65% gender ratio marked as unisex
@@ -247,12 +257,24 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 2. Run with `npm test`
 3. Tests will auto-detect and run via Jest
 
+## MCP Server Integration
+
+**Active MCP Servers** (Model Context Protocol):
+- **filesystem**: File system operations (read/write, directories)
+- **memory**: Knowledge graph for persistent memory across sessions
+- **sequential-thinking**: Step-by-step reasoning and problem solving
+
+See **MCP_SETUP.md** for complete setup guide, platform limitations, and how to add more servers.
+
+**Platform Note**: Running on Termux/Android - only npm-based MCPs work (Python/Chrome-based MCPs incompatible).
+
 ## Additional Documentation
 
 **Important**: Always check `SESSION_LOG.md` FIRST for recent changes and context!
 
 Other key docs in the repository:
 - **SESSION_LOG.md** - Detailed recent session notes and changes
+- **MCP_SETUP.md** - MCP server configuration and troubleshooting guide
 - **GOOGLE_AUTH_SETUP.md** - OAuth configuration guide
 - **todos.md** - Project roadmap and task list
 - **DATABASE_FIX_REPORT.md** - Database maintenance history

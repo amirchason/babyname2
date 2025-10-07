@@ -8,6 +8,7 @@ import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
 import Pagination from '../components/Pagination';
+import AppHeader from '../components/AppHeader';
 
 const NameListPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -18,8 +19,6 @@ const NameListPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<'popularity' | 'alphabetical' | 'random'>('popularity');
   const [sortReverse, setSortReverse] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [favoritesCount, setFavoritesCount] = useState(0);
-  const [dislikesCount, setDislikesCount] = useState(0);
   const [, forceUpdate] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -248,7 +247,6 @@ const NameListPage: React.FC = () => {
       results = applySorting(results, !!searchTerm);
 
       setFilteredNames(results);
-      setFavoritesCount(favoritesService.getFavoritesCount());
     };
 
     updateNames();
@@ -298,147 +296,8 @@ const NameListPage: React.FC = () => {
         <div className="absolute top-40 left-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
       </div>
 
-      {/* Sticky Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              {/* Back Button */}
-              <button
-                onClick={() => navigate('/')}
-                className="p-2 rounded-full hover:bg-purple-100 transition-colors"
-                title="Back to Home"
-              >
-                <ArrowLeft className="h-6 w-6 text-purple-600" />
-              </button>
-
-              <button
-                onClick={() => navigate('/')}
-                className="relative hover:opacity-80 transition-opacity"
-                title="Go to home"
-              >
-                <Baby className="h-10 w-10 text-purple-500" />
-                <Sparkles className="h-4 w-4 text-yellow-400 absolute -top-1 -right-1 animate-pulse" />
-              </button>
-              <div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  BabyNames 2025
-                </h1>
-                <p className="text-xs text-gray-500">
-                  Unified Database • {filteredNames.length.toLocaleString()} Names
-                </p>
-              </div>
-            </div>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-4">
-              <button
-                onClick={() => navigate('/favorites')}
-                className="flex items-center gap-2 px-4 py-2 rounded-full transition-all font-medium text-gray-700 hover:text-red-500 hover:bg-red-50">
-                <Heart className="w-4 h-4" />
-                Favorites {favoritesCount > 0 && `(${favoritesCount})`}
-              </button>
-              <button
-                onClick={() => navigate('/dislikes')}
-                className="flex items-center gap-2 px-4 py-2 rounded-full transition-all font-medium text-gray-700 hover:text-red-500 hover:bg-red-50">
-                <X className="w-4 h-4" />
-                Dislikes {dislikesCount > 0 && `(${dislikesCount})`}
-              </button>
-
-              {/* Login/Profile Button */}
-              {isAuthenticated && user ? (
-                <div className="flex items-center gap-3">
-                  <img
-                    src={user.picture}
-                    alt={user.name}
-                    className="w-10 h-10 rounded-full border-2 border-purple-200"
-                  />
-                  <button
-                    onClick={logout}
-                    className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-red-600 transition-colors"
-                  >
-                    <LogOut className="w-4 h-4" />
-                    Logout
-                  </button>
-                </div>
-              ) : (
-                <button
-                  onClick={login}
-                  className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full hover:shadow-lg transition-all font-medium"
-                >
-                  <LogIn className="w-4 h-4" />
-                  Sign in with Google
-                </button>
-              )}
-            </nav>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden p-2 text-gray-700 hover:text-purple-600"
-            >
-              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {menuOpen && (
-            <div className="md:hidden mt-4 pt-4 border-t border-gray-200">
-              <div className="flex flex-col space-y-3">
-                <button
-                  onClick={() => {
-                    navigate('/favorites');
-                    setMenuOpen(false);
-                  }}
-                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
-                >
-                  <Heart className="w-4 h-4" />
-                  Favorites {favoritesCount > 0 && `(${favoritesCount})`}
-                </button>
-                <button
-                  onClick={() => {
-                    navigate('/dislikes');
-                    setMenuOpen(false);
-                  }}
-                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
-                >
-                  <X className="w-4 h-4" />
-                  Dislikes {dislikesCount > 0 && `(${dislikesCount})`}
-                </button>
-
-                {isAuthenticated && user ? (
-                  <div className="flex items-center justify-between px-4 py-2 border-t pt-4">
-                    <div className="flex items-center gap-2">
-                      <img
-                        src={user.picture}
-                        alt={user.name}
-                        className="w-8 h-8 rounded-full"
-                      />
-                      <span className="text-sm font-medium text-gray-700">{user.name}</span>
-                    </div>
-                    <button
-                      onClick={logout}
-                      className="text-red-600 text-sm"
-                    >
-                      Logout
-                    </button>
-                  </div>
-                ) : (
-                  <button
-                    onClick={() => {
-                      login();
-                      setMenuOpen(false);
-                    }}
-                    className="mx-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                  >
-                    Sign in with Google
-                  </button>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
+      {/* AppHeader with consistent counters */}
+      <AppHeader title="BabyNames 2025" showBackButton={true} />
 
       {/* Search and Filters Section */}
       <section className="py-8 px-4">

@@ -7,6 +7,7 @@ import NameCard from '../components/NameCard';
 import NameDetailModal from '../components/NameDetailModal';
 import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
+import AppHeader from '../components/AppHeader';
 
 const DislikesPage: React.FC = () => {
   const [dislikedNames, setDislikedNames] = useState<NameEntry[]>([]);
@@ -91,55 +92,43 @@ const DislikesPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      {/* AppHeader with consistent counters */}
+      <AppHeader title="Dislikes" showBackButton={true} />
+
+      {/* Page-specific actions bar */}
+      <div className="sticky top-[73px] z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <button
-                onClick={() => navigate('/')}
-                className="hover:opacity-80 transition-opacity"
-                title="Go to home"
-              >
-                <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
-              </button>
-              <button
-                onClick={() => navigate('/')}
-                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:text-purple-600 transition-colors"
-              >
-                <Home className="w-5 h-5" />
-                <span className="font-medium">Home</span>
-              </button>
-              <div className="flex items-center gap-2">
-                <X className="w-6 h-6 text-red-500" />
-                <h1 className="text-2xl font-bold text-gray-800">Disliked Names</h1>
-              </div>
+            {/* Left: Info text */}
+            <div className="flex-1">
+              <p className="text-sm text-gray-600">
+                {dislikedNames.length === 0
+                  ? "You haven't disliked any names yet."
+                  : `${dislikedNames.length} disliked name${dislikedNames.length === 1 ? '' : 's'}`}
+              </p>
+              {dislikedNames.length > 0 && (
+                <p className="text-xs text-gray-500 mt-0.5">
+                  These names won't appear in your search results or recommendations.
+                </p>
+              )}
             </div>
+
+            {/* Right: Clear All */}
             {dislikedNames.length > 0 && (
               <button
                 onClick={clearAllDislikes}
-                className="flex items-center gap-2 px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                className="group flex items-center gap-2 px-3 sm:px-4 py-2 text-red-600 hover:text-white bg-red-50 hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
               >
-                <Trash2 className="w-4 h-4" />
-                Clear All
+                <Trash2 className="w-4 h-4 transition-transform group-hover:scale-110" />
+                <span className="hidden sm:inline font-medium">Clear All</span>
               </button>
             )}
           </div>
         </div>
-      </header>
+      </div>
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="mb-6">
-          <p className="text-gray-600">
-            {dislikedNames.length === 0
-              ? "You haven't disliked any names yet."
-              : `You have ${dislikedNames.length} disliked name${dislikedNames.length === 1 ? '' : 's'}`}
-          </p>
-          <p className="text-sm text-gray-500 mt-1">
-            These names won't appear in your search results or recommendations.
-          </p>
-        </div>
 
         {loading ? (
           <div className="text-center py-20">
