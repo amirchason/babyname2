@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, useTransform, PanInfo, animate } from 'framer-motion';
-import { X, Globe, Heart, Award, BookOpen, Sparkles } from 'lucide-react';
+import { X, Globe, Heart, Award, BookOpen, Sparkles, Tag } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import enrichmentService from '../services/enrichmentService';
 import favoritesService from '../services/favoritesService';
+import AppHeader from './AppHeader';
 
 interface NameDetailModalProps {
   name: NameEntry | null;
@@ -182,14 +183,17 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   const CardContent = () => (
     <div className={`w-full h-screen ${genderBg} shadow-2xl flex flex-col overflow-hidden`}
          onClick={(e) => e.stopPropagation()}>
-      {/* Close Button */}
+      {/* Close Button - positioned below AppHeader */}
       <button
         onClick={onClose}
-        className="absolute top-2 right-2 sm:top-4 sm:right-4 p-1.5 sm:p-2 rounded-full bg-white shadow-md
-                   hover:bg-gray-100 z-10"
+        className="absolute top-[68px] right-2 sm:top-[72px] sm:right-4 p-1.5 sm:p-2 rounded-full bg-white shadow-md
+                   hover:bg-gray-100 z-[70]"
       >
         <X className="w-4 h-4 sm:w-5 sm:h-5 text-gray-600" />
       </button>
+
+      {/* Spacer for AppHeader */}
+      <div className="h-16" />
 
       {/* Header with Gradient */}
       <div className={`relative h-32 sm:h-44 bg-gradient-to-br ${genderColor} overflow-hidden`}>
@@ -261,7 +265,7 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
             <div className="text-center flex flex-col justify-center">
               <Globe className="w-8 h-8 text-indigo-500 mx-auto mb-2" />
               <div className="text-xl font-bold text-gray-800 capitalize">
-                {name.origin || enrichedData.origin || 'Unknown'}
+                {(name as any).originGroup || name.origin || enrichedData.origin || 'Unknown'}
               </div>
               <div className="text-sm text-gray-500">
                 Origin
@@ -302,6 +306,45 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
             </div>
           </div>
         </div>
+
+        {/* Themed Lists Section - Show if name is validated for any themed lists */}
+        {name.validatedForLists && name.validatedForLists.length > 0 && (
+          <div className="mt-4 p-4 bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl border border-purple-200">
+            <h3 className="text-base sm:text-lg font-semibold mb-2 flex items-center gap-2">
+              <Tag className="w-4 h-4 sm:w-5 sm:h-5 text-purple-600" />
+              Curated Collections
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {name.validatedForLists.map((listId) => (
+                <span
+                  key={listId}
+                  className="px-3 py-1 bg-white/80 backdrop-blur-sm rounded-full text-xs sm:text-sm
+                           font-medium text-purple-700 border border-purple-200 shadow-sm"
+                >
+                  {listId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                </span>
+              ))}
+            </div>
+            {name.themedListEnriched && (
+              <p className="mt-2 text-xs text-gray-500 flex items-center gap-1">
+                <Sparkles className="w-3 h-3 text-green-600" />
+                AI-validated meaning matches theme
+              </p>
+            )}
+          </div>
+        )}
+
+        {/* Short meaning display if available and different from full */}
+        {name.meaningShort && name.meaningShort !== name.meaning && (
+          <div className="mt-4 p-3 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg border border-yellow-200">
+            <p className="text-sm text-gray-600 flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-yellow-600" />
+              <span className="font-medium text-yellow-800">Quick meaning:</span>
+              <span className="italic">"{name.meaningShort}"</span>
+            </p>
+          </div>
+        )}
+
         </div>
       </div>
 
@@ -370,6 +413,11 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   return (
     <div className="fixed inset-0 z-50 bg-white"
          onClick={onClose}>
+
+      {/* AppHeader - sticky header matching main page */}
+      <div className="relative z-[60]" onClick={(e) => e.stopPropagation()}>
+        <AppHeader />
+      </div>
 
       {/* Next card in background - slides up smoothly from bottom */}
       {nextName && !isTransitioning && (

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Heart, Home, Trash2, Baby } from 'lucide-react';
+import { Heart, Home, Trash2, Baby, Grid3x3, List, Share2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
+import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -18,6 +19,7 @@ const FavoritesPage: React.FC = () => {
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loading, setLoading] = useState(true);
   const [animatingName, setAnimatingName] = useState<string | null>(null);
+  const [viewMode, setViewMode] = useState<'card' | 'compact'>('compact');
   const navigate = useNavigate();
   const toast = useToast();
   const { isAuthenticated } = useAuth();
@@ -171,50 +173,153 @@ const FavoritesPage: React.FC = () => {
     }
   };
 
+  const handleShare = async () => {
+    if (favoriteNames.length === 0) {
+      toast.warning('No favorites to share!');
+      return;
+    }
+
+    // Create shareable text
+    let shareText = '✨ My Favorite Baby Names ✨\n\n';
+
+    if (pinnedNames.length > 0) {
+      shareText += '📌 Top Picks:\n';
+      pinnedNames.forEach((name, index) => {
+        const likeCount = favoritesService.getLikeCount(name.name);
+        shareText += `${index + 1}. ${name.name}`;
+        if (likeCount > 1) shareText += ` (${likeCount}❤️)`;
+        if (name.origin) shareText += ` - ${name.origin}`;
+        shareText += '\n';
+      });
+      shareText += '\n';
+    }
+
+    if (unpinnedNames.length > 0) {
+      shareText += pinnedNames.length > 0 ? 'Other Favorites:\n' : '';
+      unpinnedNames.forEach((name, index) => {
+        const likeCount = favoritesService.getLikeCount(name.name);
+        shareText += `${pinnedNames.length + index + 1}. ${name.name}`;
+        if (likeCount > 1) shareText += ` (${likeCount}❤️)`;
+        if (name.origin) shareText += ` - ${name.origin}`;
+        shareText += '\n';
+      });
+    }
+
+    shareText += '\n🍼 Created with SoulSeed - where your baby name blooms';
+
+    try {
+      // Try Web Share API first (mobile)
+      if (navigator.share) {
+        await navigator.share({
+          title: 'My Favorite Baby Names',
+          text: shareText
+        });
+        toast.success('Shared successfully!');
+      } else {
+        // Fallback to clipboard
+        await navigator.clipboard.writeText(shareText);
+        toast.success('Copied to clipboard!');
+      }
+    } catch (error) {
+      console.error('Error sharing:', error);
+      // If share was cancelled or failed, try clipboard as fallback
+      try {
+        await navigator.clipboard.writeText(shareText);
+        toast.success('Copied to clipboard!');
+      } catch (clipboardError) {
+        toast.error('Failed to share. Please try again.');
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* AppHeader with consistent counters */}
-      <AppHeader title="Favorites" showBackButton={true} />
+      <AppHeader title="SoulSeed" showBackButton={true} />
 
-      {/* Page-specific actions bar */}
-      <div className="sticky top-[73px] z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <div className="flex items-center justify-between">
-            {/* Left: Subtitle with count */}
-            {!loading && favoriteNames.length > 0 && (
-              <div className="flex-1">
-                <p className="text-sm text-gray-500">
-                  {pinnedNames.length > 0 && (
-                    <span className="inline-flex items-center gap-1 mr-3">
-                      <svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
-                      </svg>
-                      <span className="font-medium text-yellow-700">{pinnedNames.length} pinned</span>
-                    </span>
-                  )}
-                  <span>
-                    {favoriteNames.length} favorite name{favoriteNames.length === 1 ? '' : 's'}
+      {/* Page-specific actions bar - Sticky below header */}
+      <div className="sticky z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+          <div className="flex items-center justify-between gap-3">
+            {/* Left: Title with inline count */}
+            <div className="flex-1 min-w-0">
+              <div className="flex items-baseline gap-2 flex-wrap">
+                <h2 className="text-base font-semibold text-gray-900">Favorites</h2>
+                {!loading && favoriteNames.length > 0 && (
+                  <span className="text-xs text-gray-500 flex items-center gap-1.5 flex-wrap">
+                    {pinnedNames.length > 0 && (
+                      <>
+                        <span className="inline-flex items-center gap-0.5 whitespace-nowrap">
+                          <svg className="w-3 h-3 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+                          </svg>
+                          <span className="font-medium text-yellow-700">{pinnedNames.length}</span>
+                        </span>
+                        <span className="text-gray-400">•</span>
+                      </>
+                    )}
+                    <span className="whitespace-nowrap">{favoriteNames.length} total</span>
                   </span>
-                </p>
+                )}
               </div>
-            )}
+            </div>
 
-            {/* Right: Clear All */}
+            {/* Right: Share + View Mode Toggle + Clear All */}
             {favoriteNames.length > 0 && (
-              <button
-                onClick={clearAllFavorites}
-                className="group flex items-center gap-2 px-3 sm:px-4 py-2 text-red-600 hover:text-white bg-red-50 hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
-              >
-                <Trash2 className="w-4 h-4 transition-transform group-hover:scale-110" />
-                <span className="hidden sm:inline font-medium">Clear All</span>
-              </button>
+              <div className="flex items-center gap-2">
+                {/* Share Button - Compact */}
+                <button
+                  onClick={handleShare}
+                  className="group flex items-center gap-1.5 px-3 py-1.5 text-purple-600 hover:text-white bg-purple-50 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
+                  title="Share favorites list"
+                >
+                  <Share2 className="w-4 h-4 transition-transform group-hover:scale-110" />
+                  <span className="text-xs font-medium hidden sm:inline">Share</span>
+                </button>
+
+                {/* View Mode Toggle */}
+                <div className="flex items-center gap-0.5 bg-gray-100 rounded-lg p-0.5">
+                  <button
+                    onClick={() => setViewMode('card')}
+                    className={`p-1.5 rounded transition-all ${
+                      viewMode === 'card'
+                        ? 'bg-white text-purple-600 shadow-sm'
+                        : 'text-gray-500 hover:text-gray-700'
+                    }`}
+                    title="Card view"
+                  >
+                    <Grid3x3 className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={() => setViewMode('compact')}
+                    className={`p-1.5 rounded transition-all ${
+                      viewMode === 'compact'
+                        ? 'bg-white text-purple-600 shadow-sm'
+                        : 'text-gray-500 hover:text-gray-700'
+                    }`}
+                    title="Compact view"
+                  >
+                    <List className="w-4 h-4" />
+                  </button>
+                </div>
+
+                {/* Clear All */}
+                <button
+                  onClick={clearAllFavorites}
+                  className="group flex items-center gap-1.5 px-3 py-1.5 text-red-600 hover:text-white bg-red-50 hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
+                  title="Clear all favorites"
+                >
+                  <Trash2 className="w-4 h-4 transition-transform group-hover:scale-110" />
+                  <span className="text-xs font-medium hidden sm:inline">Clear</span>
+                </button>
+              </div>
             )}
           </div>
         </div>
       </div>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Main Content - Extra top padding to clear sticky bar */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 pt-20">
         {loading ? (
           <div className="text-center py-20">
             <div className="inline-flex items-center gap-3 text-gray-500">
@@ -249,36 +354,57 @@ const FavoritesPage: React.FC = () => {
                     {pinnedNames.length}/20 pinned
                   </span>
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-yellow-50/30 rounded-xl">
-                  {pinnedNames.map((name, index) => (
-                    <motion.div
-                      key={`pinned-${name.name}`}
-                      layout
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={
-                        animatingName === name.name
-                          ? {
-                              opacity: 1,
-                              scale: [1, 1.1, 1],
-                              y: [-30, 0],
-                              boxShadow: [
-                                "0 0 0 0 rgba(234, 179, 8, 0)",
-                                "0 0 30px 10px rgba(234, 179, 8, 0.5)",
-                                "0 0 0 0 rgba(234, 179, 8, 0)"
-                              ]
-                            }
-                          : { opacity: 1, scale: 1, y: 0 }
-                      }
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{
-                        layout: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
-                        opacity: { duration: 0.2 },
-                        scale: { duration: 0.2 },
-                        y: { duration: 0.4, ease: [0.34, 1.56, 0.64, 1] },
-                        boxShadow: { duration: 0.4 }
-                      }}
-                    >
-                      <NameCard
+                {viewMode === 'card' ? (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 bg-yellow-50/30 rounded-xl">
+                    {pinnedNames.map((name, index) => (
+                      <motion.div
+                        key={`pinned-${name.name}`}
+                        layout
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={
+                          animatingName === name.name
+                            ? {
+                                opacity: 1,
+                                scale: [1, 1.1, 1],
+                                y: [-30, 0],
+                                boxShadow: [
+                                  "0 0 0 0 rgba(234, 179, 8, 0)",
+                                  "0 0 30px 10px rgba(234, 179, 8, 0.5)",
+                                  "0 0 0 0 rgba(234, 179, 8, 0)"
+                                ]
+                              }
+                            : { opacity: 1, scale: 1, y: 0 }
+                        }
+                        exit={{ opacity: 0, scale: 0.8 }}
+                        transition={{
+                          layout: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
+                          opacity: { duration: 0.2 },
+                          scale: { duration: 0.2 },
+                          y: { duration: 0.4, ease: [0.34, 1.56, 0.64, 1] },
+                          boxShadow: { duration: 0.4 }
+                        }}
+                      >
+                        <NameCard
+                          name={name}
+                          onClick={(name) => {
+                            setSelectedName(name);
+                            setSelectedIndex(index);
+                          }}
+                          onFavoriteToggle={() => handleLikeIncrement(name.name)}
+                          onDislikeToggle={handleRefresh}
+                          isPinned={true}
+                          onPin={handleRefresh}
+                          showPinOption={true}
+                          likeCount={favoritesService.getLikeCount(name.name)}
+                        />
+                      </motion.div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-yellow-50/30 rounded-xl overflow-hidden">
+                    {pinnedNames.map((name, index) => (
+                      <NameCardCompact
+                        key={`pinned-compact-${name.name}`}
                         name={name}
                         onClick={(name) => {
                           setSelectedName(name);
@@ -286,14 +412,14 @@ const FavoritesPage: React.FC = () => {
                         }}
                         onFavoriteToggle={() => handleLikeIncrement(name.name)}
                         onDislikeToggle={handleRefresh}
+                        likeCount={favoritesService.getLikeCount(name.name)}
                         isPinned={true}
                         onPin={handleRefresh}
                         showPinOption={true}
-                        likeCount={favoritesService.getLikeCount(name.name)}
                       />
-                    </motion.div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
 
@@ -303,52 +429,73 @@ const FavoritesPage: React.FC = () => {
                 {pinnedNames.length > 0 && (
                   <h2 className="text-lg font-semibold text-gray-700 mb-4">Other Favorites</h2>
                 )}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {unpinnedNames.map((name, index) => (
-                    <motion.div
-                      key={`unpinned-${name.name}`}
-                      layout
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={
-                        animatingName === name.name
-                          ? {
-                              opacity: 1,
-                              scale: [1, 1.1, 1],
-                              y: [-30, 0],
-                              boxShadow: [
-                                "0 0 0 0 rgba(168, 85, 247, 0)",
-                                "0 0 30px 10px rgba(168, 85, 247, 0.5)",
-                                "0 0 0 0 rgba(168, 85, 247, 0)"
-                              ]
-                            }
-                          : { opacity: 1, scale: 1, y: 0 }
-                      }
-                      exit={{ opacity: 0, scale: 0.8 }}
-                      transition={{
-                        layout: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
-                        opacity: { duration: 0.2 },
-                        scale: { duration: 0.2 },
-                        y: { duration: 0.4, ease: [0.34, 1.56, 0.64, 1] },
-                        boxShadow: { duration: 0.4 }
-                      }}
-                    >
-                      <NameCard
+                {viewMode === 'card' ? (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {unpinnedNames.map((name, index) => (
+                      <motion.div
+                        key={`unpinned-${name.name}`}
+                        layout
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={
+                          animatingName === name.name
+                            ? {
+                                opacity: 1,
+                                scale: [1, 1.1, 1],
+                                y: [-30, 0],
+                                boxShadow: [
+                                  "0 0 0 0 rgba(168, 85, 247, 0)",
+                                  "0 0 30px 10px rgba(168, 85, 247, 0.5)",
+                                  "0 0 0 0 rgba(168, 85, 247, 0)"
+                                ]
+                              }
+                            : { opacity: 1, scale: 1, y: 0 }
+                        }
+                        exit={{ opacity: 0, scale: 0.8 }}
+                        transition={{
+                          layout: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
+                          opacity: { duration: 0.2 },
+                          scale: { duration: 0.2 },
+                          y: { duration: 0.4, ease: [0.34, 1.56, 0.64, 1] },
+                          boxShadow: { duration: 0.4 }
+                        }}
+                      >
+                        <NameCard
+                          name={name}
+                          onClick={(name) => {
+                            setSelectedName(name);
+                            // Add offset for pinned names
+                            setSelectedIndex(pinnedNames.length + index);
+                          }}
+                          onFavoriteToggle={() => handleLikeIncrement(name.name)}
+                          onDislikeToggle={handleRefresh}
+                          isPinned={false}
+                          onPin={handleRefresh}
+                          showPinOption={true}
+                          likeCount={favoritesService.getLikeCount(name.name)}
+                        />
+                      </motion.div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-white rounded-xl overflow-hidden border border-gray-200">
+                    {unpinnedNames.map((name, index) => (
+                      <NameCardCompact
+                        key={`unpinned-compact-${name.name}`}
                         name={name}
                         onClick={(name) => {
                           setSelectedName(name);
-                          // Add offset for pinned names
                           setSelectedIndex(pinnedNames.length + index);
                         }}
                         onFavoriteToggle={() => handleLikeIncrement(name.name)}
                         onDislikeToggle={handleRefresh}
+                        likeCount={favoritesService.getLikeCount(name.name)}
                         isPinned={false}
                         onPin={handleRefresh}
                         showPinOption={true}
-                        likeCount={favoritesService.getLikeCount(name.name)}
                       />
-                    </motion.div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
           </div>

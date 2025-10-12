@@ -1,5 +1,5 @@
 {
-  "name": "new-baby-name",
+  "name": "soulseed",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://amirchason.github.io/babyname2",
@@ -19,6 +19,7 @@
     "dotenv": "^17.2.2",
     "firebase": "^12.3.0",
     "framer-motion": "^12.23.19",
+    "html2canvas": "^1.4.1",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.544.0",
     "openai": "^6.1.0",

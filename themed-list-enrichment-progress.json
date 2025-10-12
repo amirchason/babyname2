@@ -1,0 +1,50 @@
+{
+  "startedAt": "2025-10-11T17:38:56.824Z",
+  "lastUpdated": "2025-10-11T17:39:50.229Z",
+  "totalLists": 1,
+  "processedLists": 1,
+  "currentList": "irish-celtic",
+  "totalNames": 3257,
+  "enrichedNames": 49,
+  "validatedNames": 45,
+  "removedNames": 4,
+  "skippedNames": 151,
+  "errors": [],
+  "processedListIds": [
+    "irish-celtic"
+  ],
+  "removals": [
+    {
+      "name": "Boyd",
+      "list": "irish-celtic",
+      "listTitle": "Irish & Celtic Names",
+      "meaning": "Yellow of bright hue",
+      "reasoning": "Boyd is of Scottish origin, not distinctly Irish or Celtic.",
+      "timestamp": "2025-10-11T17:39:30.081Z"
+    },
+    {
+      "name": "Daly",
+      "list": "irish-celtic",
+      "listTitle": "Irish & Celtic Names",
+      "meaning": "Gathering of the assembly",
+      "reasoning": "Daly is of Irish origin but does not strongly connect to Celtic themes.",
+      "timestamp": "2025-10-11T17:39:30.081Z"
+    },
+    {
+      "name": "Gorman",
+      "list": "irish-celtic",
+      "listTitle": "Irish & Celtic Names",
+      "meaning": "From the garden place",
+      "reasoning": "While Irish, meaning lacks thematic connection.",
+      "timestamp": "2025-10-11T17:39:50.225Z"
+    },
+    {
+      "name": "Hara",
+      "list": "irish-celtic",
+      "listTitle": "Irish & Celtic Names",
+      "meaning": "Field of green land",
+      "reasoning": "Irish origin, but meaning is too generic.",
+      "timestamp": "2025-10-11T17:39:50.225Z"
+    }
+  ]
+}

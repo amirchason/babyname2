@@ -2,8 +2,26 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 🤖 Default Workflow: Agent Orchestration
+**CRITICAL**: Unless explicitly stated otherwise by the user, ALL user requests MUST be processed through the Task tool with the `general-purpose` agent orchestrator FIRST before taking any direct action.
+
+**Workflow**:
+1. User provides a request/command
+2. Use Task tool with `general-purpose` subagent to analyze and plan the approach
+3. Execute the plan based on agent's recommendations
+4. Only skip agent orchestration if user explicitly says "without agents" or similar
+
+**Reasoning**: Agent orchestration provides:
+- Better problem analysis and planning
+- More thorough debugging and root cause analysis
+- Reduced errors from rushed implementations
+- Multi-step coordination for complex tasks
+
 ## Project Overview
-BabyNames App v2 - A comprehensive React TypeScript app with 174k+ baby names, AI-powered suggestions, Tinder-style swiping, and Firebase cloud sync. Features animated UI with UnicornStudio background animations and minimalist design.
+SoulSeed - Where your baby name blooms. A comprehensive React TypeScript app with 174k+ baby names, AI-powered suggestions, Tinder-style swiping, and Firebase cloud sync. Features animated UI with UnicornStudio background animations and minimalist design.
+
+## 🚀 Future Feature Ideas
+**IMPORTANT**: Check `future_ideas/viral_ideas.txt` each session for viral feature ideas and enhancements to consider.
 
 ## Essential Commands
 
@@ -17,6 +35,33 @@ npm run lint           # Run ESLint on codebase
 npm test               # Run test suite (Note: No tests currently written)
 npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
 ```
+
+### 📦 Backup (Default Location)
+**CRITICAL**: When the user says "backup" or "backup the app", ALWAYS backup to:
+```
+/storage/emulated/0/Download/backupapp/
+```
+
+**Backup command** (run from project root):
+```bash
+TIMESTAMP=$(date +%Y%m%d_%H%M%S) && \
+tar -czf /storage/emulated/0/Download/backupapp/babyname2-backup-${TIMESTAMP}.tar.gz \
+  --exclude='node_modules' --exclude='.git' --exclude='build' \
+  --exclude='*.log' --exclude='*.tar.gz' .
+```
+
+**Quick commands**:
+```bash
+# List backups:
+ls -lh /storage/emulated/0/Download/backupapp/
+
+# Restore from backup:
+cd /data/data/com.termux/files/home/proj && \
+tar -xzf /storage/emulated/0/Download/backupapp/babyname2-backup-YYYYMMDD_HHMMSS.tar.gz
+```
+
+**What gets backed up**: All source code, configs, data files
+**What's excluded**: node_modules, .git, build, logs, old tarballs
 
 ### API Testing (Node Scripts)
 ```bash
@@ -123,6 +168,9 @@ The app uses **Firebase** for cloud sync and authentication:
 
 **Pages** (all in `src/pages/`):
 - `HomePage.tsx` - Main interface with hero section, search in header, filters, pagination
+  - **LIST1 MODE** (current default): Comprehensive filtering with 5-tab Smart Filters drawer
+  - See `LIST1_MODE_REFERENCE.md` and `docs/LIST_MODES.md` for full documentation
+  - Code sections marked with `LIST1 MODE` comments in HomePage.tsx
 - `NameListPage.tsx` - Full browsable list with advanced filtering
 - `FavoritesPage.tsx` - User's liked names with remove functionality
 - `DislikesPage.tsx` - User's disliked names with restore functionality
@@ -140,6 +188,8 @@ The app uses **Firebase** for cloud sync and authentication:
 - `Toast.tsx` - Toast notifications component
 - `EnrichmentProcessor.tsx` & `MeaningProcessor.tsx` - Background data enrichment
 - `ui/open-ai-codex-animated-background.tsx` - UnicornStudio floating names animation
+- `AdminMenu.tsx` - Admin-only dropdown menu with screenshot capture (requires admin email in adminConfig.ts)
+- `AdminBadge.tsx` - Admin status badge display
 
 ### Routing
 - **Uses React Router v7.9** (latest version, NOT v6 as README states!) with basename `/babyname2`
@@ -244,6 +294,7 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 - @react-oauth/google (auth)
 - Lucide React (icons)
 - jwt-decode (token validation)
+- html2canvas 1.4.1 (admin screenshot capture)
 
 ## Testing
 
@@ -274,6 +325,9 @@ See **MCP_SETUP.md** for complete setup guide, platform limitations, and how to 
 
 Other key docs in the repository:
 - **SESSION_LOG.md** - Detailed recent session notes and changes
+- **LIST1_MODE_REFERENCE.md** - Quick reference for LIST1 MODE (homepage list/filter system)
+- **docs/LIST_MODES.md** - Comprehensive LIST1 MODE documentation (for adding list2, list3, etc.)
+- **docs/ADMIN_SCREENSHOT_FEATURE.md** - Admin screenshot feature documentation
 - **MCP_SETUP.md** - MCP server configuration and troubleshooting guide
 - **GOOGLE_AUTH_SETUP.md** - OAuth configuration guide
 - **todos.md** - Project roadmap and task list
@@ -282,15 +336,16 @@ Other key docs in the repository:
 
 ## Recent UI Enhancements
 
-1. **Swipeable Modal Profiles** (Latest): Tinder-style swipe gestures in NameDetailModal with animated like/dislike buttons
-2. **Hero Section**: Animated floating baby names background with minimalist design
-3. **Code Splitting**: 30% faster initial load via dynamic imports
-4. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
-5. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
-6. **Search Redesign**: Moved to expandable header icon from hero section
-7. **Card Animations**: Fly-away effects on like/dislike actions
-8. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
-9. **Custom Events**: 'favoriteAdded' event for cross-component animations
+1. **Admin Screenshot Feature** (Latest): Admin users can capture and download screenshots of any page with visual feedback and auto-naming (see `docs/ADMIN_SCREENSHOT_FEATURE.md`)
+2. **Swipeable Modal Profiles**: Tinder-style swipe gestures in NameDetailModal with animated like/dislike buttons
+3. **Hero Section**: Animated floating baby names background with minimalist design
+4. **Code Splitting**: 30% faster initial load via dynamic imports
+5. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
+6. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
+7. **Search Redesign**: Moved to expandable header icon from hero section
+8. **Card Animations**: Fly-away effects on like/dislike actions
+9. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
+10. **Custom Events**: 'favoriteAdded' event for cross-component animations
 
 ## Known Issues / Warnings
 

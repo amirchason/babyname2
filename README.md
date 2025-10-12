@@ -1,6 +1,8 @@
-# BabyNames App v2
+# SoulSeed
 
-A comprehensive baby naming application with AI-powered suggestions, detailed name information, and automated blog publishing.
+**Where your baby name blooms** 🌱
+
+A comprehensive baby naming application with AI-powered suggestions, detailed name information, and cloud sync capabilities.
 
 ## Features
 

@@ -1,0 +1,118 @@
+{
+  "mapping": {
+    "West African": [
+      "Igbo", "Yoruba", "Edo", "Ewe", "Hausa", "Ibibio", "Efik", "Bini", "Ijaw",
+      "Tiv", "Urhobo", "Idoma", "Ghanaian", "Nigerian", "Akan", "Fon", "Mandinka",
+      "Wolof", "Fulani", "Mende", "Mande", "Bambara", "Twi", "Ga", "Kru", "Songhai",
+      "Ghana", "Nigeria", "Senegalese", "Malian", "Liberian", "Togolese", "Benin",
+      "Ivorian", "Ghanaian", "Gambian", "Sierra Leonean", "Ibo", "Mandingo"
+    ],
+    "Southern African": [
+      "Tswana", "Zulu", "Xhosa", "Shona", "Sotho", "Sesotho", "Ndebele", "Venda",
+      "Swazi", "Tsonga", "Setswana", "Tshivenda", "Southern Sotho", "Nguni",
+      "Botswana", "Zimbabwe", "Zimbabwean", "South African", "Southern African",
+      "Basotho", "Tswana", "Ewe", "Chewa", "Bemba", "Malawian", "Zambian", "Malawi"
+    ],
+    "East African": [
+      "Swahili", "Amharic", "Ethiopian", "Somali", "Tigrinya", "Luo", "Oromo",
+      "Kikuyu", "Luganda", "Kinyarwanda", "Kiswahili", "Kenyan", "Ugandan",
+      "Tanzanian", "Rwandan", "Eritrean", "Dinka", "Kenya", "Uganda", "Tanzania",
+      "Rwanda"
+    ],
+    "Nordic": [
+      "Scandinavian", "Norse", "Swedish", "Danish", "Norwegian", "Finnish", "Icelandic",
+      "Old Norse", "Norse", "Estonian", "Latvian", "Lithuanian"
+    ],
+    "Southeast Asian": [
+      "Indonesian", "Malay", "Filipino", "Tagalog", "Vietnamese", "Thai", "Burmese",
+      "Khmer", "Javanese", "Balinese", "Sundanese", "Cambodian", "Myanmar", "Lao",
+      "Philippine", "Philippines", "Malaysian", "Ilocano", "Cebuano", "Minangkabau",
+      "Iban", "Acehnese", "Hokkien"
+    ],
+    "Indigenous Americas": [
+      "Native-American", "Nahuatl", "Quechua", "Mayan", "Mapuche", "Inuit", "Navajo",
+      "Cherokee", "Aztec", "Incan", "Taino", "Guarani", "Aymara", "Hopi", "Apache",
+      "Pueblo", "Mapudungun", "Maya", "Tupi", "Lakota", "Ojibwe", "Algonquin",
+      "Salish", "Cree", "Anishinaabe", "Sioux", "Seminole", "Ute", "Athabascan",
+      "Chumash", "Yaqui", "Zapotec", "Purépecha", "Taíno", "Native American",
+      "Indigenous", "Native South American", "Indigenous South American",
+      "Indigenous Australian", "Indigenous Ecuadorian", "Indigenous Venezuelan",
+      "Indigenous Philippine", "Arawakan", "Canaanite", "Aleut", "Chamorro"
+    ],
+    "Middle Eastern": [
+      "Pashto", "Afghan", "Iranian", "Farsi", "Phoenician", "Akkadian", "Sumerian",
+      "Babylonian", "Assyrian", "Coptic", "Mesopotamian", "Ancient Egyptian",
+      "Egyptian"
+    ],
+    "Celtic": [
+      "Breton", "Cornish", "Gaelic", "Manx", "Scottish Gaelic"
+    ],
+    "Romance": [
+      "Catalan", "Galician", "Romanian", "Occitan", "Asturian"
+    ],
+    "Indian": [
+      "Manipuri", "Assamese", "Sindhi", "Odia", "Oriya", "Rajasthani", "Mizo",
+      "Naga", "Garo", "Adivasi", "Karnataka", "Gujarat", "Rajasthan", "Bangladeshi",
+      "Nepalese", "Nepali", "Ladakhi", "Sinhalese", "Chhattisgarhi"
+    ],
+    "Chinese": [
+      "Cantonese", "Mandarin", "Hokkien", "Taiwanese"
+    ],
+    "Germanic": [
+      "Old English", "Old German", "Gothic", "Visigothic", "Old High German", "German"
+    ],
+    "Religious": [
+      "Christian", "Islamic", "Muslim", "Hindu", "Buddhist", "Sikh", "Jain",
+      "Jainism", "Zoroastrian", "Vodou", "Sufi", "Jewish"
+    ],
+    "Contemporary": [
+      "Historical", "Traditional", "Ancient", "Medieval", "Hellenistic"
+    ],
+    "Invented": [
+      "Constructed", "Created", "Fantasy", "Fictional", "Possibly Invented"
+    ],
+    "Unknown": [
+      "Uncertain", "Error", "None", "Not a recognized name", "Possibly Spanish",
+      "Possibly Slavic", "Possibly Arabic", "Various", "Multiple"
+    ],
+    "Polynesian": [
+      "Hawaiian", "Maori", "Samoan", "Tongan", "Tahitian", "Fijian"
+    ],
+    "Central Asian": [
+      "Mongolian", "Kazakh", "Uzbek", "Turkic", "Tatar", "Tuvan", "Tungusic",
+      "Manchu", "Mongolic", "Ossetian"
+    ],
+    "Caucasian": [
+      "Georgian", "Armenian", "Azerbaijani", "Circassian", "Caucasian"
+    ],
+    "Latin American": [
+      "Mexican", "Colombian", "Cuban", "Chilean", "Peruvian", "Guatemalan",
+      "Ecuadorian", "Argentinian", "Venezuelan", "Bolivian", "Panamanian",
+      "Nicaraguan", "Uruguayan"
+    ],
+    "Mythological": [
+      "Mythological", "Literary", "Mythology", "Arthurian", "Shakespearean",
+      "Folklore", "Philippine Mythology", "Kalevala"
+    ],
+    "Descriptive": [
+      "Geographical", "Geographic", "Occupational", "Botanical", "Botanical",
+      "Astrological", "Astronomical", "Astronomy", "Astrology", "Medical",
+      "Culinary", "Scientific", "Chemical Element", "Brand", "Nickname",
+      "Surname", "Surnames", "Patronymic", "Toponymic", "Acronym", "Internet",
+      "Urban", "Slang", "Informal", "Ethnic", "Cultural", "Nature", "Natural",
+      "Anime", "Typographical Error", "Misprint", "Anglicized", "Hybrid",
+      "Combination"
+    ]
+  },
+  "keepOriginal": [
+    "Spanish", "Arabic", "African", "Indian", "Sanskrit", "English", "Hebrew",
+    "Latin", "Greek", "French", "Italian", "Chinese", "Japanese", "Korean",
+    "Irish", "Scottish", "Welsh", "Slavic", "Persian", "Turkish", "Dutch",
+    "Portuguese", "Polish", "Russian", "Hungarian", "Vietnamese", "Bengali",
+    "Tamil", "Telugu", "Punjabi", "Gujarati", "Kannada", "Malayalam", "Urdu",
+    "Marathi", "Hindi", "Biblical", "Aramaic", "Albanian", "Basque", "Czech",
+    "Bulgarian", "Ukrainian", "Serbian", "Croatian", "Slovak", "Belarusian",
+    "Lithuanian", "Latvian", "Estonian", "Romanian", "Finnish", "Yiddish",
+    "Tibetan", "Pali", "Khasi", "Bantu"
+  ]
+}

@@ -40,6 +40,7 @@ const NameCard: React.FC<NameCardProps> = ({
   const [flyDirection, setFlyDirection] = useState<'left' | 'right' | null>(null);
   const [showContextMenu, setShowContextMenu] = useState(false);
   const [longPressTimer, setLongPressTimer] = useState<NodeJS.Timeout | null>(null);
+  const [autoDismissTimer, setAutoDismissTimer] = useState<NodeJS.Timeout | null>(null);
   const toast = useToast();
 
   useEffect(() => {
@@ -51,17 +52,50 @@ const NameCard: React.FC<NameCardProps> = ({
     if (enrichedData) {
       // Prioritize short meaning for cards, fall back to regular meaning
       setMeaning(name.meaningShort || enrichedData.meaning || name.meaning);
-      // Prioritize origin from name entry (batch processed), then enrichment service
-      setOrigin(name.origin || enrichedData.origin);
+      // FIX: Use originGroup (consolidated) to match filter logic
+      setOrigin((name as any).originGroup || name.origin || enrichedData.origin);
       setEnriched(enrichedData.enriched || name.originProcessed || name.meaningProcessed || false);
     } else {
       // Use short meaning if available, otherwise regular meaning
       setMeaning(name.meaningShort || name.meaning);
-      // Use origin from name entry if available
-      setOrigin(name.origin);
+      // FIX: Use originGroup (consolidated) to match filter logic
+      setOrigin((name as any).originGroup || name.origin);
       setEnriched(name.originProcessed || name.meaningProcessed || false);
     }
   }, [name.name, name.meaning, name.meaningShort, name.origin, name.originProcessed, name.meaningProcessed]);
+
+  // Auto-dismiss context menu after 5 seconds and handle global clicks
+  useEffect(() => {
+    if (showContextMenu) {
+      // Auto-dismiss timer
+      const timer = setTimeout(() => {
+        setShowContextMenu(false);
+      }, 5000); // 5 seconds
+
+      setAutoDismissTimer(timer);
+
+      // Global click handler to dismiss on any click
+      const handleGlobalClick = () => {
+        setShowContextMenu(false);
+      };
+
+      // Add listener with a small delay to prevent immediate dismissal
+      setTimeout(() => {
+        document.addEventListener('click', handleGlobalClick);
+      }, 100);
+
+      return () => {
+        if (timer) clearTimeout(timer);
+        document.removeEventListener('click', handleGlobalClick);
+      };
+    } else {
+      // Clear timer when menu is closed
+      if (autoDismissTimer) {
+        clearTimeout(autoDismissTimer);
+        setAutoDismissTimer(null);
+      }
+    }
+  }, [showContextMenu]);
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
@@ -94,11 +128,35 @@ const NameCard: React.FC<NameCardProps> = ({
   const handleDislikeClick = (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card click
 
-    // START ANIMATION FIRST (no delay!)
+    // On favorites page with like counter: decrement instead of removing
+    if (isFavorite && likeCount !== undefined) {
+      const result = favoritesService.decrementLikeCount(name.name);
+
+      // If removed (likeCount was 1), animate fly-away
+      if (result.removed) {
+        setFlyDirection('left');
+        setIsFlying(true);
+
+        requestAnimationFrame(() => {
+          setIsFavorite(false);
+          onDislikeToggle?.();
+        });
+
+        setTimeout(() => {
+          setIsFlying(false);
+          setFlyDirection(null);
+        }, 120);
+      } else {
+        // Just decrement, no animation
+        onDislikeToggle?.();
+      }
+      return;
+    }
+
+    // Default behavior: toggle dislike with animation
     setFlyDirection('left');
     setIsFlying(true);
 
-    // Then update everything else in next tick
     requestAnimationFrame(() => {
       favoritesService.toggleDislike(name.name);
       setIsFavorite(favoritesService.isFavorite(name.name));
@@ -106,7 +164,6 @@ const NameCard: React.FC<NameCardProps> = ({
       onDislikeToggle?.();
     });
 
-    // Clean up animation state after it completes
     setTimeout(() => {
       setIsFlying(false);
       setFlyDirection(null);
@@ -380,7 +437,10 @@ const NameCard: React.FC<NameCardProps> = ({
             setShowContextMenu(false);
           }}
         >
-          <div className="bg-white rounded-lg shadow-xl p-4 mx-4">
+          <div
+            className="bg-white rounded-lg shadow-xl p-4 mx-4"
+            onClick={(e) => e.stopPropagation()}
+          >
             <button
               onClick={handlePinClick}
               className="flex items-center gap-3 px-6 py-3 text-lg font-medium text-gray-700 hover:bg-yellow-50 rounded-lg transition-colors w-full"

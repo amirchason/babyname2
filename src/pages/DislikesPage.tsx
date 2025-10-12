@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { X, Home, Trash2, Baby } from 'lucide-react';
+import { X, Home, Trash2, Baby, Grid3x3, List } from 'lucide-react';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
+import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -14,6 +15,7 @@ const DislikesPage: React.FC = () => {
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loading, setLoading] = useState(true);
+  const [viewMode, setViewMode] = useState<'card' | 'compact'>('compact');
   const navigate = useNavigate();
   const toast = useToast();
   const { isAuthenticated } = useAuth();
@@ -91,44 +93,74 @@ const DislikesPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* AppHeader with consistent counters */}
-      <AppHeader title="Dislikes" showBackButton={true} />
+      <AppHeader title="SoulSeed" showBackButton={true} />
 
-      {/* Page-specific actions bar */}
-      <div className="sticky top-[73px] z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <div className="flex items-center justify-between">
-            {/* Left: Info text */}
-            <div className="flex-1">
-              <p className="text-sm text-gray-600">
-                {dislikedNames.length === 0
-                  ? "You haven't disliked any names yet."
-                  : `${dislikedNames.length} disliked name${dislikedNames.length === 1 ? '' : 's'}`}
-              </p>
-              {dislikedNames.length > 0 && (
-                <p className="text-xs text-gray-500 mt-0.5">
-                  These names won't appear in your search results or recommendations.
-                </p>
-              )}
+      {/* Page-specific actions bar - Sticky below header */}
+      <div className="sticky z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+          <div className="flex items-center justify-between gap-3">
+            {/* Left: Title with inline count */}
+            <div className="flex-1 min-w-0">
+              <div className="flex items-baseline gap-2 flex-wrap">
+                <h2 className="text-base font-semibold text-gray-900">Dislikes</h2>
+                {!loading && (
+                  <span className="text-xs text-gray-500">
+                    {dislikedNames.length === 0
+                      ? "None yet"
+                      : `${dislikedNames.length} hidden`}
+                  </span>
+                )}
+              </div>
             </div>
 
-            {/* Right: Clear All */}
+            {/* Right: View Mode Toggle + Clear All */}
             {dislikedNames.length > 0 && (
-              <button
-                onClick={clearAllDislikes}
-                className="group flex items-center gap-2 px-3 sm:px-4 py-2 text-red-600 hover:text-white bg-red-50 hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
-              >
-                <Trash2 className="w-4 h-4 transition-transform group-hover:scale-110" />
-                <span className="hidden sm:inline font-medium">Clear All</span>
-              </button>
+              <div className="flex items-center gap-2">
+                {/* View Mode Toggle */}
+                <div className="flex items-center gap-0.5 bg-gray-100 rounded-lg p-0.5">
+                  <button
+                    onClick={() => setViewMode('card')}
+                    className={`p-1.5 rounded transition-all ${
+                      viewMode === 'card'
+                        ? 'bg-white text-purple-600 shadow-sm'
+                        : 'text-gray-500 hover:text-gray-700'
+                    }`}
+                    title="Card view"
+                  >
+                    <Grid3x3 className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={() => setViewMode('compact')}
+                    className={`p-1.5 rounded transition-all ${
+                      viewMode === 'compact'
+                        ? 'bg-white text-purple-600 shadow-sm'
+                        : 'text-gray-500 hover:text-gray-700'
+                    }`}
+                    title="Compact view"
+                  >
+                    <List className="w-4 h-4" />
+                  </button>
+                </div>
+
+                {/* Clear All */}
+                <button
+                  onClick={clearAllDislikes}
+                  className="group flex items-center gap-1.5 px-3 py-1.5 text-red-600 hover:text-white bg-red-50 hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
+                  title="Clear all dislikes"
+                >
+                  <Trash2 className="w-4 h-4 transition-transform group-hover:scale-110" />
+                  <span className="text-xs font-medium hidden sm:inline">Clear</span>
+                </button>
+              </div>
             )}
           </div>
         </div>
       </div>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Main Content - Extra top padding to clear sticky bar */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 pt-20">
 
         {loading ? (
           <div className="text-center py-20">
@@ -149,11 +181,26 @@ const DislikesPage: React.FC = () => {
               Browse Names
             </button>
           </div>
-        ) : (
+        ) : viewMode === 'card' ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {dislikedNames.map((name, index) => (
               <NameCard
                 key={`${name.name}-${dislikedNames.length}`}
+                name={name}
+                onClick={(name) => {
+                  setSelectedName(name);
+                  setSelectedIndex(index);
+                }}
+                onFavoriteToggle={handleRefresh}
+                onDislikeToggle={handleRefresh}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="bg-white rounded-xl overflow-hidden border border-gray-200">
+            {dislikedNames.map((name, index) => (
+              <NameCardCompact
+                key={`${name.name}-compact-${dislikedNames.length}`}
                 name={name}
                 onClick={(name) => {
                   setSelectedName(name);

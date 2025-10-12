@@ -215,8 +215,8 @@ class UnisexIdentificationAgent {
     this.processingQueue.push(...unprocessedNames);
     console.log(`Queued ${unprocessedNames.length} names for unisex analysis`);
 
-    // Start processing if not already running
-    this.processQueue();
+    // Don't auto-start processing to avoid recursion issues
+    // Caller should explicitly call processQueue() when ready
   }
 
   /**

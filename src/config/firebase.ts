@@ -4,7 +4,7 @@ import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
 
 // Firebase configuration - REAL PROJECT
 const firebaseConfig = {
-  apiKey: "AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA",
+  apiKey: "AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70",
   authDomain: "babynames-app-9fa2a.firebaseapp.com",
   projectId: "babynames-app-9fa2a",
   storageBucket: "babynames-app-9fa2a.firebasestorage.app",

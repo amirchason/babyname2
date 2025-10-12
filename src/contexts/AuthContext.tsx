@@ -6,17 +6,20 @@ import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
 import LogoutOverlay from '../components/LogoutOverlay';
+import { isAdminEmail } from '../config/adminConfig';
 
 interface User {
   id: string;
   email: string;
   name: string;
   picture: string;
+  isAdmin?: boolean;
 }
 
 interface AuthContextType {
   user: User | null;
   isAuthenticated: boolean;
+  isAdmin: boolean;
   login: () => void;
   logout: () => void;
   loading: boolean;
@@ -129,7 +132,13 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
           return;
         }
 
+        // Add admin status if not already present
+        if (userData.isAdmin === undefined) {
+          userData.isAdmin = isAdminEmail(userData.email);
+        }
+
         console.log('[AUTH DEBUG] Setting user:', userData.email);
+        console.log('[AUTH DEBUG] User admin status:', userData.isAdmin);
         setUser(userData);
 
         // Set user ID for cloud sync
@@ -261,9 +270,11 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
           email: userInfo.email,
           name: userInfo.name,
           picture: userInfo.picture,
+          isAdmin: isAdminEmail(userInfo.email),
         };
 
         console.log('[AUTH DEBUG] Setting user with Firebase UID:', userData.id);
+        console.log('[AUTH DEBUG] User admin status:', userData.isAdmin);
         setUser(userData);
         localStorage.setItem('user', JSON.stringify(userData));
         localStorage.setItem('userEmail', userData.email);
@@ -349,6 +360,7 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     <AuthContext.Provider value={{
       user,
       isAuthenticated: !!user,
+      isAdmin: user?.isAdmin || false,
       login,
       logout,
       loading,
@@ -379,6 +391,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       <AuthContext.Provider value={{
         user: null,
         isAuthenticated: false,
+        isAdmin: false,
         login: () => console.log('Google Client ID not configured'),
         logout: () => {},
         loading: false,

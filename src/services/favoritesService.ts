@@ -171,6 +171,8 @@ class FavoritesService {
 
       // Dispatch custom event for heart animation
       window.dispatchEvent(new CustomEvent('favoriteAdded', { detail: { name: normalizedName } }));
+      // Dispatch storage event to update counters
+      window.dispatchEvent(new Event('storage'));
     }
   }
 
@@ -180,6 +182,8 @@ class FavoritesService {
     if (index > -1) {
       this.data.favorites.splice(index, 1);
       this.saveToStorage();
+      // Dispatch storage event to update counters
+      window.dispatchEvent(new Event('storage'));
     }
   }
 
@@ -303,6 +307,36 @@ class FavoritesService {
     return this.data.likeCounts?.[normalizedName] || 0;
   }
 
+  decrementLikeCount(name: string): { count: number; removed: boolean } {
+    const normalizedName = name.trim();
+    if (!this.data.likeCounts) {
+      this.data.likeCounts = {};
+    }
+
+    const currentCount = this.data.likeCounts[normalizedName] || 0;
+
+    // If count is 1 or less, remove from favorites entirely
+    if (currentCount <= 1) {
+      this.removeFavorite(normalizedName);
+      // Also remove from pinned if it was pinned
+      if (this.isPinned(normalizedName)) {
+        this.unpinFavorite(normalizedName);
+      }
+      delete this.data.likeCounts[normalizedName];
+      this.saveToStorage();
+      return { count: 0, removed: true };
+    }
+
+    // Otherwise, just decrement the count
+    this.data.likeCounts[normalizedName] = currentCount - 1;
+    this.saveToStorage();
+
+    // Dispatch storage event to update UI
+    window.dispatchEvent(new Event('storage'));
+
+    return { count: this.data.likeCounts[normalizedName], removed: false };
+  }
+
   getMaxPinnedFavorites(): number {
     return this.MAX_PINNED_FAVORITES;
   }
@@ -317,6 +351,8 @@ class FavoritesService {
       // Add to dislikes
       this.data.dislikes.push(normalizedName);
       this.saveToStorage();
+      // Dispatch storage event to update counters
+      window.dispatchEvent(new Event('storage'));
     }
   }
 
@@ -326,6 +362,8 @@ class FavoritesService {
     if (index > -1) {
       this.data.dislikes.splice(index, 1);
       this.saveToStorage();
+      // Dispatch storage event to update counters
+      window.dispatchEvent(new Event('storage'));
     }
   }
 
@@ -398,6 +436,9 @@ class FavoritesService {
     // Reload from storage to ensure we have clean data
     this.loadFromStorage();
 
+    // Dispatch storage event to update UI counters
+    window.dispatchEvent(new Event('storage'));
+
     // Reset the flag after a delay to ensure cloud sync has completed
     setTimeout(() => {
       this.isClearingData = false;
@@ -461,6 +502,9 @@ class FavoritesService {
 
     // Reload from storage to ensure we have clean data
     this.loadFromStorage();
+
+    // Dispatch storage event to update UI counters
+    window.dispatchEvent(new Event('storage'));
 
     // Reset the flag after a delay to ensure cloud sync has completed
     setTimeout(() => {

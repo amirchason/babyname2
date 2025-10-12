@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Baby, Heart, ThumbsDown, Search, X, Menu, Home, LogIn, LogOut } from 'lucide-react';
+import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import favoritesService from '../services/favoritesService';
+import AdminMenu from './AdminMenu';
 
 interface AppHeaderProps {
   title?: string;
@@ -13,7 +14,7 @@ interface AppHeaderProps {
 }
 
 const AppHeader: React.FC<AppHeaderProps> = ({
-  title = 'babynames',
+  title = 'SoulSeed',
   showSearch = false,
   searchTerm = '',
   onSearchChange,
@@ -59,72 +60,17 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     <header className="bg-white/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-8">
-            {/* Logo / Back Button */}
-            {showBackButton ? (
-              <button
-                onClick={() => navigate('/')}
-                className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
-                title="Back to home"
-              >
-                <Home className="h-5 w-5 sm:h-6 sm:w-6 text-purple-500" />
-                <span className="text-sm sm:text-base font-light text-gray-700">Home</span>
-              </button>
-            ) : (
-              <button
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
-                title="Scroll to top"
-              >
-                <Baby className="h-6 w-6 sm:h-7 sm:w-7 text-purple-500" />
-                <h1 className="text-lg font-light tracking-wide text-gray-900">
-                  {title}
-                </h1>
-              </button>
-            )}
-
-            {/* Favorites Counter - Always visible on desktop */}
-            <div className="hidden md:flex items-center gap-6">
-              <button
-                onClick={() => navigate('/favorites')}
-                className={`flex items-center gap-2 text-sm transition-all ${
-                  favoritesCount > 0
-                    ? 'text-pink-500 hover:text-pink-600'
-                    : 'text-gray-600 hover:text-gray-900'
-                }`}
-                title="View favorites"
-              >
-                <Heart
-                  className={`transition-all ${
-                    heartBeat ? 'animate-heartbeat' : ''
-                  } ${
-                    favoritesCount > 0 ? 'fill-pink-500' : ''
-                  }`}
-                  style={{ width: '1.15rem', height: '1.15rem' }}
-                />
-                <span className={favoritesCount > 0 ? 'font-medium' : ''}>{favoritesCount}</span>
-              </button>
-
-              {/* Dislikes Counter */}
-              <button
-                onClick={() => navigate('/dislikes')}
-                className={`flex items-center gap-2 text-sm transition-all ${
-                  dislikesCount > 0
-                    ? 'text-gray-700 hover:text-gray-900'
-                    : 'text-gray-500 hover:text-gray-700'
-                }`}
-                title="View dislikes"
-              >
-                <ThumbsDown
-                  className={`${
-                    dislikesCount > 0 ? 'fill-gray-600' : ''
-                  }`}
-                  style={{ width: '1.05rem', height: '1.05rem' }}
-                />
-                <span className={dislikesCount > 0 ? 'font-medium' : ''}>{dislikesCount}</span>
-              </button>
-            </div>
-          </div>
+          {/* Logo - Always visible with Baby icon */}
+          <button
+            onClick={() => showBackButton ? navigate('/') : window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex items-center gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
+            title={showBackButton ? "Back to home" : "Scroll to top"}
+          >
+            <Baby className="h-8 w-8 sm:h-9 sm:w-9 text-purple-500" />
+            <h1 className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">
+              {title}
+            </h1>
+          </button>
 
           {/* Right Side - Search and Navigation */}
           <div className="flex items-center space-x-4">
@@ -152,7 +98,8 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <nav className="hidden md:flex items-center space-x-6">
               {/* Login/Profile */}
               {isAuthenticated && user ? (
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-3">
+                  <AdminMenu />
                   {user.picture ? (
                     <img
                       src={user.picture}
@@ -184,6 +131,29 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               )}
             </nav>
 
+            {/* Favorites Counter - Near menu */}
+            <button
+              onClick={() => navigate('/favorites')}
+              className={`flex items-center gap-1.5 text-sm transition-all ${
+                favoritesCount > 0
+                  ? 'text-pink-500 hover:text-pink-600'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+              title="View favorites"
+            >
+              <Heart
+                className={`transition-all ${
+                  heartBeat ? 'animate-heartbeat' : ''
+                } ${
+                  favoritesCount > 0 ? 'fill-pink-500' : ''
+                }`}
+                style={{ width: '1.25rem', height: '1.25rem' }}
+              />
+              <span className={`${favoritesCount > 0 ? 'font-semibold' : 'font-medium'} min-w-[1.5rem] text-center`}>
+                {favoritesCount > 999 ? '999+' : favoritesCount}
+              </span>
+            </button>
+
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
@@ -212,6 +182,16 @@ const AppHeader: React.FC<AppHeaderProps> = ({
         {menuOpen && (
           <div className="md:hidden mt-4 pt-4 border-t border-gray-200">
             <div className="flex flex-col space-y-3">
+              <button
+                onClick={() => {
+                  navigate('/babynamelists');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <Layers className="w-4 h-4" />
+                <span>Curated Lists</span>
+              </button>
               <button
                 onClick={() => {
                   navigate('/favorites');
@@ -246,6 +226,11 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                   </span>
                 )}
               </button>
+
+              {/* Admin Menu in Mobile - Full width */}
+              <div className="px-4">
+                <AdminMenu />
+              </div>
 
               {isAuthenticated && user ? (
                 <div className="flex items-center justify-between px-4 py-2 border-t pt-4">

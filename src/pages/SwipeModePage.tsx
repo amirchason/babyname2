@@ -312,8 +312,9 @@ const SwipeModePage: React.FC = () => {
     });
     setLastAction({ name: currentCard.name, action });
     setCurrentIndex(prev => prev + 1);
-    setFavoritesCount(favoritesService.getFavoritesCount());
-    setDislikesCount(favoritesService.getDislikesCount());
+
+    // Dispatch event for header to update counts
+    window.dispatchEvent(new Event('storage'));
 
     // Load more cards AFTER swipe animation completes (500ms delay)
     setTimeout(() => {
@@ -402,7 +403,7 @@ const SwipeModePage: React.FC = () => {
     <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
       {/* AppHeader with consistent counters */}
       <div className="flex-none">
-        <AppHeader title="Swipe Mode" showBackButton={true} />
+        <AppHeader title="SoulSeed" showBackButton={true} />
       </div>
 
       {/* Main Content */}
@@ -530,10 +531,10 @@ const SwipeModePage: React.FC = () => {
             }
           }}
           onFavoriteToggle={() => {
-            setFavoritesCount(favoritesService.getFavoritesCount());
+            window.dispatchEvent(new Event('storage'));
           }}
           onDislikeToggle={() => {
-            setDislikesCount(favoritesService.getDislikesCount());
+            window.dispatchEvent(new Event('storage'));
           }}
         />
       )}

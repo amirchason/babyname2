@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
+import AppHeader from '../components/AppHeader';
 
 const DebugPage: React.FC = () => {
   const { user, isAuthenticated, clearCache } = useAuth();
@@ -75,8 +76,10 @@ const DebugPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-gray-50">
+      <AppHeader title="SoulSeed" showBackButton={true} />
+
+      <div className="max-w-6xl mx-auto pt-24 px-6 pb-6">
         <h1 className="text-3xl font-bold mb-6 text-gray-900">🐛 Debug Dashboard</h1>
 
         {/* Auth Status */}

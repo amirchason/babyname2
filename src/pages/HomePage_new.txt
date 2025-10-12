@@ -1,0 +1,2 @@
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-32'} pb-16 px-4 min-h-[75vh] overflow-hidden transition-all duration-200`}>
+        {/* Animated Background Layer */}

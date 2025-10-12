@@ -28,14 +28,25 @@ class ChunkedDatabaseService {
   private index: DatabaseIndex | null = null;
   private isLoadingCore = false;
   private isLoadingChunk: Record<string, boolean> = {};
+  private coreLoadPromise: Promise<void> | null = null;
 
   constructor() {
     // Start with emergency fallback for INSTANT display
     this.allNames = [...largeFallbackNames];
-    console.log(`⚡ ChunkedDatabaseService: ${this.allNames.length} fallback names ready`);
+    console.log(`⚡ ChunkedDatabaseService CONSTRUCTOR: Started with ${this.allNames.length} fallback names`);
 
-    // Load core chunk immediately
-    this.loadCore();
+    // Load core chunk immediately and store the promise
+    console.log(`⚡ ChunkedDatabaseService: Calling loadCore()...`);
+    this.coreLoadPromise = this.loadCore();
+  }
+
+  /**
+   * Wait for core chunk to finish loading
+   */
+  async waitForCore(): Promise<void> {
+    if (this.coreLoadPromise) {
+      await this.coreLoadPromise;
+    }
   }
 
   /**
@@ -62,30 +73,43 @@ class ChunkedDatabaseService {
    * Load core chunk (top 1000 names) for instant display
    */
   async loadCore(): Promise<void> {
+    console.log(`⚡ loadCore() called. isLoadingCore=${this.isLoadingCore}, hasCore=${this.loadedChunks.has('core')}`);
+
     if (this.isLoadingCore || this.loadedChunks.has('core')) {
+      console.log(`⚡ loadCore() SKIPPED (already loading or loaded)`);
       return;
     }
 
     this.isLoadingCore = true;
+    console.log(`⚡ loadCore() STARTING...`);
 
     try {
       console.log('⚡ Loading core chunk (top 1000 names)...');
 
       // Load index first
+      console.log('⚡ Loading index...');
       await this.loadIndex();
+      console.log(`⚡ Index loaded: ${this.index ? 'SUCCESS' : 'FAILED'}`);
 
       // Load core chunk
+      console.log(`⚡ Fetching core from: ${process.env.PUBLIC_URL}/data/names-core.json`);
       const response = await fetch(`${process.env.PUBLIC_URL}/data/names-core.json`);
+      console.log(`⚡ Core fetch response: ${response.status} ${response.statusText}`);
+
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const data = await response.json();
-      const coreNames = data.names || [];
+      console.log(`⚡ Core data parsed. Structure: ${Array.isArray(data) ? 'Array' : 'Object'}`);
+
+      // Handle both array format and object with .names property
+      const coreNames = Array.isArray(data) ? data : (data.names || []);
+      console.log(`⚡ Core names extracted: ${coreNames.length} names`);
 
       // Replace fallback with core names
       this.allNames = coreNames;
       this.loadedChunks.add('core');
 
-      console.log(`✅ Core chunk loaded: ${coreNames.length} names`);
+      console.log(`✅ Core chunk loaded: ${coreNames.length} names (this.allNames.length = ${this.allNames.length})`);
     } catch (error) {
       console.error('❌ Failed to load core chunk:', error);
       // Keep fallback names
@@ -125,17 +149,18 @@ class ChunkedDatabaseService {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const data = await response.json();
-      const chunkNames = data.names || [];
+      // Handle both array format and object with .names property
+      const chunkNames = Array.isArray(data) ? data : (data.names || []);
 
       // Deduplicate before appending
       const existingNameSet = new Set(this.allNames.map(n => n.name.toLowerCase()));
-      const newNames = chunkNames.filter(name => !existingNameSet.has(name.name.toLowerCase()));
+      const newNames = chunkNames.filter((name: NameEntry) => !existingNameSet.has(name.name.toLowerCase()));
 
       // Append only unique names
       this.allNames = [...this.allNames, ...newNames];
       this.loadedChunks.add(chunkName);
 
-      console.log(`✅ ${chunkName} loaded: ${chunkNames.length} names (total: ${this.allNames.length})`);
+      console.log(`✅ ${chunkName} loaded: ${chunkNames.length} names from file, ${newNames.length} unique added (TOTAL NOW: ${this.allNames.length})`);
     } catch (error) {
       console.error(`❌ Failed to load ${chunkName}:`, error);
     } finally {

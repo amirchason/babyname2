@@ -37,6 +37,9 @@ export interface NameEntry {
   meaningProcessed?: boolean; // Track if meaning has been AI-processed
   meaningProcessedAt?: string; // Timestamp of processing
   meaningSource?: string; // 'gpt-4-turbo' or other source
+  themedListEnriched?: boolean; // Track if enriched for themed lists
+  themedListEnrichedAt?: string; // Timestamp of themed enrichment
+  validatedForLists?: string[]; // List IDs where name fits the theme
   popularity?: number;
   popularityRank?: number;
   isPopular?: boolean;
@@ -61,6 +64,9 @@ export interface NameEntry {
   scrapingFlags?: ScrapingFlags;
   sources?: string[];
 }
+
+// Type alias for backward compatibility
+export type BabyName = NameEntry;
 
 export interface NamesDatabase {
   metadata: {
@@ -88,11 +94,30 @@ class NameService {
     this.allNames = chunkedDatabaseService.getAllNames();
     console.log(`⚡ NameService initialized with ${this.allNames.length} names from chunked service`);
 
+    // Wait for core chunk to load, then update names
+    this.waitForCoreAndUpdate();
+
     // Start loading full database in background (will upgrade from 10k to full)
     this.initializeDatabase();
 
     // Also load all chunks progressively in the background
     this.loadAllChunksInBackground();
+  }
+
+  /**
+   * Wait for core chunk and update names immediately
+   */
+  private async waitForCoreAndUpdate(): Promise<void> {
+    try {
+      console.log('⏳ NameService: Waiting for core chunk...');
+      await chunkedDatabaseService.waitForCore();
+
+      // Update our names immediately after core loads
+      this.allNames = chunkedDatabaseService.getAllNames();
+      console.log(`✅ NameService: Core loaded! ${this.allNames.length} names now available`);
+    } catch (error) {
+      console.error('❌ NameService: Error waiting for core:', error);
+    }
   }
 
   /**
@@ -184,13 +209,13 @@ class NameService {
 
       if (lowerName === lowerSearch) {
         // FIRST PRIORITY: Exact match (e.g., "Jo" as a complete name)
-        exactMatches.push(name);
+        exactMatches.push({ ...name, searchPriority: 1 });
       } else if (lowerName.startsWith(lowerSearch)) {
         // SECOND PRIORITY: Names that START with the search term
-        startsWithResults.push(name);
+        startsWithResults.push({ ...name, searchPriority: 2 });
       } else if (lowerName.includes(lowerSearch)) {
         // THIRD PRIORITY: Names that contain the search term elsewhere
-        containsResults.push(name);
+        containsResults.push({ ...name, searchPriority: 3 });
       }
     }
 
@@ -200,8 +225,58 @@ class NameService {
     startsWithResults.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
     containsResults.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
-    // Combine results in priority order and limit to 100
-    return [...exactMatches, ...startsWithResults, ...containsResults].slice(0, 100);
+    // Combine results in priority order - NO LIMIT (show all matching names)
+    return [...exactMatches, ...startsWithResults, ...containsResults];
+  }
+
+  /**
+   * Search names with meaning-first priority
+   * Used when "Search meanings" checkbox is enabled
+   * Priority: 1) Meanings containing term, 2) Names starting with term, 3) Names containing term
+   */
+  async searchNamesByMeaning(searchTerm: string): Promise<NameEntry[]> {
+    if (!searchTerm) return [];
+
+    const lowerSearch = searchTerm.toLowerCase();
+    const meaningMatches: NameEntry[] = [];
+    const startsWithResults: NameEntry[] = [];
+    const containsResults: NameEntry[] = [];
+
+    // Single pass through all names for efficiency
+    for (const name of this.allNames) {
+      const lowerName = name.name.toLowerCase();
+
+      // Check if meaning contains search term
+      const meaningText = [
+        name.meaning,
+        name.meaningShort,
+        name.meaningFull,
+        ...(name.meanings || [])
+      ].filter(Boolean).join(' ').toLowerCase();
+
+      const hasMeaningMatch = meaningText.includes(lowerSearch);
+
+      // PRIORITY 1: Meaning contains search term
+      if (hasMeaningMatch) {
+        meaningMatches.push({ ...name, searchPriority: 1 });
+      }
+      // PRIORITY 2: Name starts with search term (only if NOT in meaning matches)
+      else if (lowerName.startsWith(lowerSearch)) {
+        startsWithResults.push({ ...name, searchPriority: 2 });
+      }
+      // PRIORITY 3: Name contains search term elsewhere (only if NOT in meaning matches)
+      else if (lowerName.includes(lowerSearch)) {
+        containsResults.push({ ...name, searchPriority: 3 });
+      }
+    }
+
+    // Sort each category alphabetically
+    meaningMatches.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    startsWithResults.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    containsResults.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+
+    // Combine results in priority order
+    return [...meaningMatches, ...startsWithResults, ...containsResults];
   }
 
   /**

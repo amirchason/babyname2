@@ -11,6 +11,7 @@ node_modules/
 /dist
 
 # Environment Variables
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -56,6 +57,13 @@ venv/
 /data/*.json
 /data/*.csv
 data/namesDatabase.json
+data/namesDatabase*.json
+data_backup/
+public/data/backup_before_pet_filter/
+public/data/*.backup-themed.json
+*namesDatabase_backup*.json
+*.tar.gz
+babyname2-backup-*.tar.gz
 
 # Documentation builds
 docs/_build/

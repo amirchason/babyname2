@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Search, Baby, ArrowDownAZ, Dices, Trophy, Heart, Menu, X, LogIn, LogOut, ArrowLeft, Sparkles } from 'lucide-react';
+import { Search, Baby, ArrowDownAZ, Dices, Trophy, Heart, Menu, X, LogIn, LogOut, ArrowLeft, Sparkles, LayoutGrid, List } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useVirtualizer } from '@tanstack/react-virtual';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameCard from '../components/NameCard';
+import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import Pagination from '../components/Pagination';
 import AppHeader from '../components/AppHeader';
@@ -19,11 +21,17 @@ const NameListPage: React.FC = () => {
   const [sortBy, setSortBy] = useState<'popularity' | 'alphabetical' | 'random'>('popularity');
   const [sortReverse, setSortReverse] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [, forceUpdate] = useState({});
+  const [refreshTrigger, setRefreshTrigger] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(100); // 100 names per page
   // Virtual scrolling is automatically activated for large lists
+
+  // View mode state (card or compact)
+  const [viewMode, setViewMode] = useState<'card' | 'compact'>(() => {
+    const saved = localStorage.getItem('nameListViewMode');
+    return (saved === 'card' ? 'card' : 'compact') as 'card' | 'compact';
+  });
 
   // Virtual scrolling setup
   const parentRef = useRef<HTMLDivElement>(null);
@@ -144,8 +152,8 @@ const NameListPage: React.FC = () => {
   // Update counts
   useEffect(() => {
     const updateCounts = () => {
-      setFavoritesCount(favoritesService.getFavoritesCount());
-      setDislikesCount(favoritesService.getDislikesCount());
+      // Counts updated via AppHeader
+      // Counts updated via AppHeader
     };
 
     updateCounts();
@@ -250,7 +258,7 @@ const NameListPage: React.FC = () => {
     };
 
     updateNames();
-  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting]);
+  }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, refreshTrigger]);
 
   // Reset page when search term changes
   useEffect(() => {
@@ -287,6 +295,13 @@ const NameListPage: React.FC = () => {
     }
   };
 
+  // View mode toggle handler
+  const toggleViewMode = () => {
+    const newMode = viewMode === 'card' ? 'compact' : 'card';
+    setViewMode(newMode);
+    localStorage.setItem('nameListViewMode', newMode);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
       {/* Animated Background */}
@@ -297,7 +312,7 @@ const NameListPage: React.FC = () => {
       </div>
 
       {/* AppHeader with consistent counters */}
-      <AppHeader title="BabyNames 2025" showBackButton={true} />
+      <AppHeader title="SoulSeed" showBackButton={true} />
 
       {/* Search and Filters Section */}
       <section className="py-8 px-4">
@@ -358,9 +373,9 @@ const NameListPage: React.FC = () => {
             </button>
           </div>
 
-          {/* Sorting Controls */}
-          <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
-            <span className="text-sm text-gray-600 font-medium">Sort:</span>
+          {/* Sorting Controls & View Toggle */}
+          <div className="flex flex-wrap justify-center items-center gap-3 mb-8">
+            <span className="text-xs text-gray-600 font-medium">Sort:</span>
             <div className="flex rounded-lg overflow-hidden shadow-md">
               <button
                 onClick={() => {
@@ -371,14 +386,14 @@ const NameListPage: React.FC = () => {
                     setSortReverse(false);
                   }
                 }}
-                className={`px-4 py-2 flex items-center gap-2 text-sm font-medium transition-all ${
+                className={`px-3 py-1.5 flex items-center gap-1.5 text-xs font-medium transition-all ${
                   sortBy === 'popularity'
                     ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-50'
                 }`}
                 title={sortBy === 'popularity' && sortReverse ? "Least popular first" : "Most popular first"}
               >
-                <Trophy className={`w-4 h-4 transition-transform ${sortBy === 'popularity' && sortReverse ? 'rotate-180' : ''}`} />
+                <Trophy className={`w-3.5 h-3.5 transition-transform ${sortBy === 'popularity' && sortReverse ? 'rotate-180' : ''}`} />
                 Popular{sortBy === 'popularity' && sortReverse ? ' ↓' : ''}
               </button>
               <button
@@ -390,14 +405,14 @@ const NameListPage: React.FC = () => {
                     setSortReverse(false);
                   }
                 }}
-                className={`px-4 py-2 flex items-center gap-2 text-sm font-medium transition-all border-l ${
+                className={`px-3 py-1.5 flex items-center gap-1.5 text-xs font-medium transition-all border-l ${
                   sortBy === 'alphabetical'
                     ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-50'
                 }`}
                 title={sortBy === 'alphabetical' && sortReverse ? "Sort Z to A" : "Sort A to Z"}
               >
-                <ArrowDownAZ className={`w-4 h-4 transition-transform ${sortBy === 'alphabetical' && sortReverse ? 'rotate-180' : ''}`} />
+                <ArrowDownAZ className={`w-3.5 h-3.5 transition-transform ${sortBy === 'alphabetical' && sortReverse ? 'rotate-180' : ''}`} />
                 {sortBy === 'alphabetical' && sortReverse ? 'Z→A' : 'A→Z'}
               </button>
               <button
@@ -405,17 +420,38 @@ const NameListPage: React.FC = () => {
                   setSortBy('random');
                   setSortReverse(false);
                 }}
-                className={`px-4 py-2 flex items-center gap-2 text-sm font-medium transition-all border-l ${
+                className={`px-3 py-1.5 flex items-center gap-1.5 text-xs font-medium transition-all border-l ${
                   sortBy === 'random'
                     ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
                     : 'bg-white text-gray-700 hover:bg-gray-50'
                 }`}
                 title="Shuffle randomly"
               >
-                <Dices className={`w-4 h-4 ${sortBy === 'random' ? 'animate-pulse' : ''}`} />
+                <Dices className={`w-3.5 h-3.5 ${sortBy === 'random' ? 'animate-pulse' : ''}`} />
                 Shuffle
               </button>
             </div>
+
+            <span className="text-xs text-gray-600 font-medium">|</span>
+
+            {/* View Mode Toggle */}
+            <button
+              onClick={toggleViewMode}
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors shadow-md"
+              title={viewMode === 'card' ? 'Switch to compact view' : 'Switch to card view'}
+            >
+              {viewMode === 'card' ? (
+                <>
+                  <List className="w-3.5 h-3.5 text-gray-600" />
+                  <span className="text-xs text-gray-600 font-medium">Compact</span>
+                </>
+              ) : (
+                <>
+                  <LayoutGrid className="w-3.5 h-3.5 text-gray-600" />
+                  <span className="text-xs text-gray-600 font-medium">Cards</span>
+                </>
+              )}
+            </button>
           </div>
         </div>
       </section>
@@ -486,25 +522,47 @@ const NameListPage: React.FC = () => {
                             transform: `translateY(${virtualRow.start}px)`,
                           }}
                         >
-                          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 h-full">
-                            {rowNames.map((name) => (
-                              <NameCard
-                                key={name.name}
-                                name={name}
-                                onClick={setSelectedName}
-                                onFavoriteToggle={() => {
-                                  setFavoritesCount(favoritesService.getFavoritesCount());
-                                  setDislikesCount(favoritesService.getDislikesCount());
-                                  forceUpdate({});
-                                }}
-                                onDislikeToggle={() => {
-                                  setFavoritesCount(favoritesService.getFavoritesCount());
-                                  setDislikesCount(favoritesService.getDislikesCount());
-                                  forceUpdate({});
-                                }}
-                              />
-                            ))}
-                          </div>
+                          {viewMode === 'card' ? (
+                            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 h-full">
+                              {rowNames.map((name) => (
+                                <NameCard
+                                  key={name.name}
+                                  name={name}
+                                  onClick={setSelectedName}
+                                  onFavoriteToggle={() => {
+                                    // Counts updated via AppHeader
+                                    // Counts updated via AppHeader
+                                    setRefreshTrigger({});
+                                  }}
+                                  onDislikeToggle={() => {
+                                    // Counts updated via AppHeader
+                                    // Counts updated via AppHeader
+                                    setRefreshTrigger({});
+                                  }}
+                                />
+                              ))}
+                            </div>
+                          ) : (
+                            <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
+                              {rowNames.map((name) => (
+                                <NameCardCompact
+                                  key={name.name}
+                                  name={name}
+                                  onClick={setSelectedName}
+                                  onFavoriteToggle={() => {
+                                    // Counts updated via AppHeader
+                                    // Counts updated via AppHeader
+                                    setRefreshTrigger({});
+                                  }}
+                                  onDislikeToggle={() => {
+                                    // Counts updated via AppHeader
+                                    // Counts updated via AppHeader
+                                    setRefreshTrigger({});
+                                  }}
+                                />
+                              ))}
+                            </div>
+                          )}
                         </div>
                       );
                     })}
@@ -513,25 +571,75 @@ const NameListPage: React.FC = () => {
               ) : (
                 // Standard grid with pagination for smaller lists
                 <>
-                  <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                    {currentNames.map((name) => (
-                      <NameCard
-                        key={name.name}
-                        name={name}
-                        onClick={setSelectedName}
-                        onFavoriteToggle={() => {
-                          setFavoritesCount(favoritesService.getFavoritesCount());
-                          setDislikesCount(favoritesService.getDislikesCount());
-                          forceUpdate({});
-                        }}
-                        onDislikeToggle={() => {
-                          setFavoritesCount(favoritesService.getFavoritesCount());
-                          setDislikesCount(favoritesService.getDislikesCount());
-                          forceUpdate({});
-                        }}
-                      />
-                    ))}
-                  </div>
+                  {viewMode === 'card' ? (
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                      <AnimatePresence mode="popLayout">
+                        {currentNames.map((name) => (
+                          <motion.div
+                            key={name.name}
+                            layout
+                            initial={{ opacity: 0, y: 15 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0 }}
+                            transition={{
+                              duration: 0.08,
+                              exit: { duration: 0.15 },
+                              layout: { type: "spring", stiffness: 800, damping: 40 }
+                            }}
+                          >
+                            <NameCard
+                              name={name}
+                              onClick={setSelectedName}
+                              onFavoriteToggle={() => {
+                                // Counts updated via AppHeader
+                                // Counts updated via AppHeader
+                                setRefreshTrigger({});
+                              }}
+                              onDislikeToggle={() => {
+                                // Counts updated via AppHeader
+                                // Counts updated via AppHeader
+                                setRefreshTrigger({});
+                              }}
+                            />
+                          </motion.div>
+                        ))}
+                      </AnimatePresence>
+                    </div>
+                  ) : (
+                    <div className="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm">
+                      <AnimatePresence mode="popLayout">
+                        {currentNames.map((name) => (
+                          <motion.div
+                            key={name.name}
+                            layout
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0 }}
+                            transition={{
+                              duration: 0.08,
+                              exit: { duration: 0.15 },
+                              layout: { type: "spring", stiffness: 800, damping: 40 }
+                            }}
+                          >
+                            <NameCardCompact
+                              name={name}
+                              onClick={setSelectedName}
+                              onFavoriteToggle={() => {
+                                // Counts updated via AppHeader
+                                // Counts updated via AppHeader
+                                setRefreshTrigger({});
+                              }}
+                              onDislikeToggle={() => {
+                                // Counts updated via AppHeader
+                                // Counts updated via AppHeader
+                                setRefreshTrigger({});
+                              }}
+                            />
+                          </motion.div>
+                        ))}
+                      </AnimatePresence>
+                    </div>
+                  )}
 
                   {/* Pagination for smaller lists */}
                   {totalPages > 1 && (

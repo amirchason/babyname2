@@ -64,8 +64,11 @@ class UnisexService {
     // Get all names and queue them for processing
     const allNames = nameService.getAllNames();
 
-    // Process in background
+    // Queue names for processing
     unisexIdentificationAgent.queueNames(allNames);
+
+    // Explicitly start processing after queueing
+    unisexIdentificationAgent.processQueue();
 
     // Get statistics
     const stats = unisexIdentificationAgent.getStatistics();
