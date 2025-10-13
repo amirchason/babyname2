@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/babyname2/static/css/main.d6ed055d.css",
-    "main.js": "/babyname2/static/js/main.5a344cab.js",
+    "main.js": "/babyname2/static/js/main.99043d2b.js",
     "static/js/269.ac374528.chunk.js": "/babyname2/static/js/269.ac374528.chunk.js",
     "static/js/250.6d95045c.chunk.js": "/babyname2/static/js/250.6d95045c.chunk.js",
     "static/js/362.7d36e957.chunk.js": "/babyname2/static/js/362.7d36e957.chunk.js",
@@ -11,12 +11,12 @@
     "static/js/417.3c07e826.chunk.js": "/babyname2/static/js/417.3c07e826.chunk.js",
     "static/js/415.e7cfe46c.chunk.js": "/babyname2/static/js/415.e7cfe46c.chunk.js",
     "static/js/615.48570d1b.chunk.js": "/babyname2/static/js/615.48570d1b.chunk.js",
-    "static/js/310.12bb5fe1.chunk.js": "/babyname2/static/js/310.12bb5fe1.chunk.js",
+    "static/js/310.11fccbc2.chunk.js": "/babyname2/static/js/310.11fccbc2.chunk.js",
     "static/js/449.d1b4e6a3.chunk.js": "/babyname2/static/js/449.d1b4e6a3.chunk.js",
     "index.html": "/babyname2/index.html"
   },
   "entrypoints": [
     "static/css/main.d6ed055d.css",
-    "static/js/main.5a344cab.js"
+    "static/js/main.99043d2b.js"
   ]
 }
