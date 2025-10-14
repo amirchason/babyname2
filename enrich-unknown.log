@@ -1,0 +1,55 @@
+🚀 Re-enriching Unknown Origin Names (FAST MODE)
+======================================================================
+Concurrent requests: 3
+Delay between calls: 350ms
+Progress updates: every 5 minutes
+
+
+📂 Processing: names-core.json
+   Found 0 Unknown names
+
+📂 Processing: names-chunk1.json
+   Found 28 Unknown names
+   💾 Backup: names-chunk1_backup_unknown_fast_1759779812342.json
+   🚀 Starting concurrent processing...
+   ✅ Updated 3 names out of 28 Unknown
+
+   📋 Examples:
+      Uniformes: Not applicable (Other)
+      Burna: English (English)
+      Kordzo: Ewe (West African)
+
+📂 Processing: names-chunk2.json
+   Found 29042 Unknown names
+   💾 Backup: names-chunk2_backup_unknown_fast_1759779830038.json
+   🚀 Starting concurrent processing...
+
+⏱️  PROGRESS UPDATE (9:48:32 PM)
+   File: names-chunk2.json
+   Processed: 415 / 29,042
+   Updated: 0
+   Rate: 82.9 names/min
+   ETA: 345.4 minutes
+
+
+⏱️  PROGRESS UPDATE (9:53:32 PM)
+   File: names-chunk2.json
+   Processed: 744 / 29,042
+   Updated: 0
+   Rate: 74.2 names/min
+   ETA: 381.2 minutes
+
+   ⚠️  Error researching "Glenford": Connection error.
+   ⚠️  Error researching "Hernestina": Connection error.
+   ⚠️  Error researching "Channel": Connection error.
+   ⚠️  Error researching "Bemny": Connection error.
+   ⚠️  Error researching "Yineika": Connection error.
+   ⚠️  Error researching "Carnes": Connection error.
+
+⏱️  PROGRESS UPDATE (9:58:33 PM)
+   File: names-chunk2.json
+   Processed: 1,203 / 29,042
+   Updated: 0
+   Rate: 80.1 names/min
+   ETA: 347.7 minutes
+

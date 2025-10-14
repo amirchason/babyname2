@@ -1,0 +1,78 @@
+{
+  "completedAt": "2025-10-13T05:45:10.039Z",
+  "totalPosts": 10,
+  "successCount": 10,
+  "failCount": 0,
+  "results": [
+    {
+      "success": true,
+      "post": "Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing",
+      "names": 83,
+      "words": 1955,
+      "file": "./blog-posts-new/blog-post-1-baby-names-that-mean-miracle.json"
+    },
+    {
+      "success": true,
+      "post": "Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet",
+      "names": 60,
+      "words": 2102,
+      "file": "./blog-posts-new/blog-post-2-hottest-baby-names-2025-trending.json"
+    },
+    {
+      "success": true,
+      "post": "90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide",
+      "names": 58,
+      "words": 1811,
+      "file": "./blog-posts-new/blog-post-3-90s-baby-names-comeback-nostalgia.json"
+    },
+    {
+      "success": true,
+      "post": "Bird Names for Babies: 50+ Names That Take Flight",
+      "names": 85,
+      "words": 2343,
+      "file": "./blog-posts-new/blog-post-4-bird-names-for-babies-nature.json"
+    },
+    {
+      "success": true,
+      "post": "Luxury Baby Names: 55+ Names That Sound Like a Million Dollars",
+      "names": 60,
+      "words": 2084,
+      "file": "./blog-posts-new/blog-post-5-luxury-baby-names-rich-elegant.json"
+    },
+    {
+      "success": true,
+      "post": "Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide",
+      "names": 46,
+      "words": 1703,
+      "file": "./blog-posts-new/blog-post-6-baby-names-ending-lynn-trend.json"
+    },
+    {
+      "success": true,
+      "post": "Landscape Baby Names: 60+ Mountains, Rivers & Places for Your Explorer",
+      "names": 58,
+      "words": 1927,
+      "file": "./blog-posts-new/blog-post-7-landscape-baby-names-geography.json"
+    },
+    {
+      "success": true,
+      "post": "Two-Syllable Baby Names: 65+ Perfect, Punchy Names That Pop",
+      "names": 141,
+      "words": 2377,
+      "file": "./blog-posts-new/blog-post-8-two-syllable-baby-names-short.json"
+    },
+    {
+      "success": true,
+      "post": "Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids",
+      "names": 72,
+      "words": 2163,
+      "file": "./blog-posts-new/blog-post-9-celebrity-baby-names-2024-2025.json"
+    },
+    {
+      "success": true,
+      "post": "Baby Names That Mean Strength: 70+ Powerful Names for Warriors",
+      "names": 57,
+      "words": 1757,
+      "file": "./blog-posts-new/blog-post-10-baby-names-mean-strength-powerful.json"
+    }
+  ]
+}

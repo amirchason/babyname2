@@ -100,6 +100,7 @@ const ThemedListAccordion: React.FC<ThemedListAccordionProps> = ({
   const [selectedName, setSelectedName] = useState<BabyName | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const namesPerPage = 30;
+  const [removedNames, setRemovedNames] = useState<Set<string>>(new Set());
 
   // Reset page when filters change
   useEffect(() => {
@@ -161,8 +162,11 @@ const ThemedListAccordion: React.FC<ThemedListAccordionProps> = ({
       }
     }
 
+    // Filter out removed names (for swipe-off animation)
+    names = names.filter(name => !removedNames.has(name.name));
+
     return names;
-  }, [allNames, list, genderFilter, sortBy, sortReverse, shuffleTrigger, isOpen]);
+  }, [allNames, list, genderFilter, sortBy, sortReverse, shuffleTrigger, isOpen, removedNames]);
 
   // Pagination
   const totalPages = Math.ceil(filteredNames.length / namesPerPage);
@@ -173,6 +177,12 @@ const ThemedListAccordion: React.FC<ThemedListAccordionProps> = ({
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
+  };
+
+  // Handle name removal with animation
+  const handleNameRemove = (nameName: string) => {
+    // Add to removed set to trigger exit animation
+    setRemovedNames(prev => new Set(prev).add(nameName));
   };
 
   return (
@@ -196,9 +206,11 @@ const ThemedListAccordion: React.FC<ThemedListAccordionProps> = ({
         </div>
 
         <div className="flex items-center gap-3">
-          <span className="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md text-xs font-medium">
-            {isOpen ? filteredNames.length : nameCount}
-          </span>
+          {isOpen && (
+            <span className="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md text-xs font-medium">
+              {filteredNames.length}
+            </span>
+          )}
           <ChevronDown
             className={`w-4 h-4 text-gray-500 transition-transform ${isOpen ? 'rotate-180' : ''}`}
             strokeWidth={2}
@@ -341,44 +353,70 @@ const ThemedListAccordion: React.FC<ThemedListAccordionProps> = ({
               {filteredNames.length > 0 ? (
                 <>
                   {viewMode === 'grid' ? (
-                    // Grid View - Card layout
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                      {paginatedNames.map((name, index) => (
-                        <motion.div
-                          key={`${name.name}-${index}`}
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: index * 0.03, duration: 0.3 }}
-                        >
-                          <NameCard
-                            name={name}
-                            onClick={() => setSelectedName(name)}
-                            onFavoriteToggle={() => {
-                              // Optional: trigger refresh if needed
+                    // Grid View - Card layout with swipe-off animation
+                    <AnimatePresence mode="popLayout">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                        {paginatedNames.map((name, index) => (
+                          <motion.div
+                            key={name.name}
+                            layout
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{
+                              x: 400,
+                              rotate: 30,
+                              opacity: 0,
+                              scale: 0.7,
+                              transition: { duration: 0.3, ease: "easeOut" }
                             }}
-                          />
-                        </motion.div>
-                      ))}
-                    </div>
+                            transition={{
+                              layout: { duration: 0.3, ease: "easeInOut" },
+                              opacity: { delay: index * 0.03, duration: 0.3 }
+                            }}
+                          >
+                            <NameCard
+                              name={name}
+                              onClick={() => setSelectedName(name)}
+                              onFavoriteToggle={() => {
+                                // Trigger swipe-off animation on like
+                                handleNameRemove(name.name);
+                              }}
+                            />
+                          </motion.div>
+                        ))}
+                      </div>
+                    </AnimatePresence>
                   ) : (
-                    // Compact View - List layout
+                    // Compact View - List layout with swipe-off animation
                     <div className="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm">
-                      {paginatedNames.map((name, index) => (
-                        <motion.div
-                          key={`${name.name}-${index}`}
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: index * 0.02, duration: 0.2 }}
-                        >
-                          <NameCardCompact
-                            name={name}
-                            onClick={() => setSelectedName(name)}
-                            onFavoriteToggle={() => {
-                              // Optional: trigger refresh if needed
+                      <AnimatePresence mode="popLayout">
+                        {paginatedNames.map((name, index) => (
+                          <motion.div
+                            key={name.name}
+                            layout
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{
+                              x: 400,
+                              opacity: 0,
+                              transition: { duration: 0.3, ease: "easeOut" }
                             }}
-                          />
-                        </motion.div>
-                      ))}
+                            transition={{
+                              layout: { duration: 0.3, ease: "easeInOut" },
+                              opacity: { delay: index * 0.02, duration: 0.2 }
+                            }}
+                          >
+                            <NameCardCompact
+                              name={name}
+                              onClick={() => setSelectedName(name)}
+                              onFavoriteToggle={() => {
+                                // Trigger swipe-off animation on like
+                                handleNameRemove(name.name);
+                              }}
+                            />
+                          </motion.div>
+                        ))}
+                      </AnimatePresence>
                     </div>
                   )}
 

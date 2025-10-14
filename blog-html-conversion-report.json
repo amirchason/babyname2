@@ -1,0 +1,408 @@
+{
+  "timestamp": "2025-10-13T11:11:44.398Z",
+  "summary": {
+    "total": 71,
+    "success": 55,
+    "skipped": 16,
+    "failed": 0
+  },
+  "successfulConversions": [
+    {
+      "id": 1,
+      "title": "Newborn Milestones: Your Baby's First Month Magic: 35+ Names",
+      "nameCount": 36,
+      "contentLength": 24487
+    },
+    {
+      "id": 10,
+      "title": "10 Month Baby Milestones: Standing & Waving Bye-Bye: 35+ Names",
+      "nameCount": 39,
+      "contentLength": 28106
+    },
+    {
+      "id": 11,
+      "title": "11 Month Baby Milestones: Walking Practice & More Words: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 22485
+    },
+    {
+      "id": 12,
+      "title": "12 Month Baby Milestones: First Steps & First Birthday: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 30199
+    },
+    {
+      "id": 13,
+      "title": "1 Year Baby Milestones: Your Toddler's Big Leap Forward: 35+ Names",
+      "nameCount": 53,
+      "contentLength": 27071
+    },
+    {
+      "id": 14,
+      "title": "Physical Development Milestones: From Rolling to Running (0-18 Months): 35+ Names",
+      "nameCount": 53,
+      "contentLength": 28919
+    },
+    {
+      "id": 15,
+      "title": "Cognitive Milestones: How Your Baby Learns to Think (0-18 Months): 35+ Names",
+      "nameCount": 35,
+      "contentLength": 25864
+    },
+    {
+      "id": 16,
+      "title": "Language Milestones: From Coos to Conversations (0-18 Months): 35+ Names",
+      "nameCount": 36,
+      "contentLength": 24107
+    },
+    {
+      "id": 17,
+      "title": "Social-Emotional Milestones: Building Your Baby's Heart (0-18 Months): 35+ Names",
+      "nameCount": 36,
+      "contentLength": 26815
+    },
+    {
+      "id": 18,
+      "title": "Baby Sleep Milestones & Regression Ages: The Complete Survival Guide: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 26572
+    },
+    {
+      "id": 19,
+      "title": "Baby Growth Spurts: When They Happen & How to Survive Them: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 26100
+    },
+    {
+      "id": 2,
+      "title": "2 Month Baby Milestones: Social Smiles & Cooing Begin: 35+ Names",
+      "nameCount": 38,
+      "contentLength": 28510
+    },
+    {
+      "id": 20,
+      "title": "Baby Feeding Milestones: From Breast to Solids to Table Food (0-18 Months): 35+ Names",
+      "nameCount": 37,
+      "contentLength": 24375
+    },
+    {
+      "id": 3,
+      "title": "3 Month Baby Milestones: Head Control & Hand Discovery: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 23991
+    },
+    {
+      "id": 31,
+      "title": "Best Baby Strollers 2025: Complete Buying Guide",
+      "nameCount": 15,
+      "contentLength": 22692
+    },
+    {
+      "id": 32,
+      "title": "**Best Car Seats 2025: Safety Ratings & Expert Reviews**",
+      "nameCount": 9,
+      "contentLength": 23006
+    },
+    {
+      "id": 33,
+      "title": "## Ultimate Baby Registry Checklist: What You Really Need",
+      "nameCount": 12,
+      "contentLength": 18941
+    },
+    {
+      "id": 34,
+      "title": "Best Baby Monitors 2025: Video, Audio & Smart Options",
+      "nameCount": 32,
+      "contentLength": 23453
+    },
+    {
+      "id": 35,
+      "title": "**Best Baby Carriers 2025: Wraps, Slings & Structured Carriers**",
+      "nameCount": 17,
+      "contentLength": 19814
+    },
+    {
+      "id": 36,
+      "title": "**Best Diaper Bags for Moms & Dads: Stylish & Functional**",
+      "nameCount": 1,
+      "contentLength": 20269
+    },
+    {
+      "id": 37,
+      "title": "Nursery Essentials: Complete Setup Guide for New Parents",
+      "nameCount": 2,
+      "contentLength": 22506
+    },
+    {
+      "id": 38,
+      "title": "Best Baby Bottles 2025: Anti-Colic, Breastfeeding-Friendly",
+      "nameCount": 22,
+      "contentLength": 23754
+    },
+    {
+      "id": 39,
+      "title": "**Best High Chairs 2025: Safe, Clean & Stylish Options**",
+      "nameCount": 11,
+      "contentLength": 16440
+    },
+    {
+      "id": 4,
+      "title": "4 Month Baby Milestones: Rolling Over & Laughing Out Loud: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 27488
+    },
+    {
+      "id": 40,
+      "title": "**Best Baby Swings & Bouncers: Soothing Solutions**",
+      "nameCount": 4,
+      "contentLength": 20010
+    },
+    {
+      "id": 41,
+      "title": "Best Baby Play Mats & Activity Gyms: Developmental Fun",
+      "nameCount": 11,
+      "contentLength": 20582
+    },
+    {
+      "id": 42,
+      "title": "Baby Travel Essentials: Complete Packing Guide",
+      "nameCount": 0,
+      "contentLength": 23287
+    },
+    {
+      "id": 43,
+      "title": "Early Pregnancy Symptoms: Week-by-Week First Signs",
+      "nameCount": 5,
+      "contentLength": 14272
+    },
+    {
+      "id": 44,
+      "title": "**First Trimester Survival Guide: What to Expect (Weeks 1-12)**",
+      "nameCount": 7,
+      "contentLength": 19952
+    },
+    {
+      "id": 45,
+      "title": "Second Trimester Guide: The Honeymoon Period (Weeks 13-26)",
+      "nameCount": 9,
+      "contentLength": 20637
+    },
+    {
+      "id": 46,
+      "title": "**Third Trimester Prep: Final Countdown (Weeks 27-40)**",
+      "nameCount": 1,
+      "contentLength": 20344
+    },
+    {
+      "id": 47,
+      "title": "Pregnancy Week by Week: Complete 40-Week Calendar",
+      "nameCount": 0,
+      "contentLength": 19790
+    },
+    {
+      "id": 48,
+      "title": "Baby Kicks & Fetal Movement: When, Why, How to Count",
+      "nameCount": 4,
+      "contentLength": 18202
+    },
+    {
+      "id": 49,
+      "title": "## Pregnancy Diet: What to Eat (and Avoid) for Each Trimester",
+      "nameCount": 14,
+      "contentLength": 20799
+    },
+    {
+      "id": 5,
+      "title": "5 Month Baby Milestones: Sitting Practice & Solid Food Prep: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 28768
+    },
+    {
+      "id": 50,
+      "title": "**Hospital Bag Checklist: What to Pack for Labor & Delivery**",
+      "nameCount": 2,
+      "contentLength": 18924
+    },
+    {
+      "id": 51,
+      "title": "**Pregnancy Announcements: Creative Ideas for Every Trimester**",
+      "nameCount": 7,
+      "contentLength": 17588
+    },
+    {
+      "id": 52,
+      "title": "**Gender Reveal Ideas: 50+ Creative & Fun Ways to Announce**",
+      "nameCount": 1,
+      "contentLength": 19323
+    },
+    {
+      "id": 53,
+      "title": "Pregnancy Complications: Warning Signs & When to Call Your Doctor",
+      "nameCount": 6,
+      "contentLength": 17917
+    },
+    {
+      "id": 54,
+      "title": "**Best Pregnancy Apps: Track Your Baby's Development**",
+      "nameCount": 15,
+      "contentLength": 17479
+    },
+    {
+      "id": 55,
+      "title": "Postpartum Recovery: Complete 6-Week Healing Guide",
+      "nameCount": 9,
+      "contentLength": 24480
+    },
+    {
+      "id": 56,
+      "title": "**Breastfeeding Guide: Positions, Tips & Troubleshooting**",
+      "nameCount": 16,
+      "contentLength": 17669
+    },
+    {
+      "id": 57,
+      "title": "Pumping 101: Complete Guide to Breast Pump Success",
+      "nameCount": 19,
+      "contentLength": 21165
+    },
+    {
+      "id": 58,
+      "title": "Postpartum Depression: Signs, Support & Recovery",
+      "nameCount": 8,
+      "contentLength": 21069
+    },
+    {
+      "id": 59,
+      "title": "C-Section Recovery: What to Expect & How to Heal",
+      "nameCount": 10,
+      "contentLength": 19631
+    },
+    {
+      "id": 6,
+      "title": "6 Month Baby Milestones: Sitting Up & First Teeth: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 28359
+    },
+    {
+      "id": 60,
+      "title": "Newborn Sleep Schedule: 0-3 Month Survival Guide",
+      "nameCount": 13,
+      "contentLength": 17527
+    },
+    {
+      "id": 61,
+      "title": "First Week Home with Baby: Hour-by-Hour Survival Guide",
+      "nameCount": 8,
+      "contentLength": 21842
+    },
+    {
+      "id": 62,
+      "title": "Mom Self-Care: Postpartum Wellness for Body & Mind",
+      "nameCount": 0,
+      "contentLength": 18881
+    },
+    {
+      "id": 63,
+      "title": "Returning to Work After Baby: Complete Transition Guide",
+      "nameCount": 1,
+      "contentLength": 18807
+    },
+    {
+      "id": 64,
+      "title": "**Postpartum Body Changes: What's Normal, What's Not**",
+      "nameCount": 0,
+      "contentLength": 18521
+    },
+    {
+      "id": 65,
+      "title": "New Mom Must-Haves: Postpartum Recovery Essentials",
+      "nameCount": 12,
+      "contentLength": 19487
+    },
+    {
+      "id": 7,
+      "title": "7 Month Baby Milestones: Crawling Practice & Stranger Anxiety: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 29902
+    },
+    {
+      "id": 8,
+      "title": "8 Month Baby Milestones: Pulling Up & Pointing: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 26319
+    },
+    {
+      "id": 9,
+      "title": "9 Month Baby Milestones: Cruising & First Words Emerge: 35+ Names",
+      "nameCount": 35,
+      "contentLength": 26585
+    }
+  ],
+  "skippedPosts": [
+    {
+      "id": "baby-names-mean-light-sun-star-2025",
+      "title": "Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨"
+    },
+    {
+      "id": "biblical-baby-names-meanings",
+      "title": "Biblical Baby Names: Complete Guide with Meanings & Origins"
+    },
+    {
+      "id": "color-gemstone-baby-names-2025",
+      "title": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025"
+    },
+    {
+      "id": "gender-neutral-unisex-baby-names-2025",
+      "title": "Gender-Neutral Baby Names: 12+ Unisex Names for Any Child in 2025"
+    },
+    {
+      "id": "how-to-choose-baby-name",
+      "title": "How to Choose the Perfect Baby Name: 10 Expert Tips"
+    },
+    {
+      "id": "international-baby-names-english-2025",
+      "title": "International Baby Names That Work in English: 15+ Global Gems for 2025"
+    },
+    {
+      "id": "irish-baby-names-guide",
+      "title": "Irish Baby Names: Pronunciation Guide & Beautiful Meanings"
+    },
+    {
+      "id": "literary-baby-names-classic-literature-2025",
+      "title": "Literary Baby Names from Classic Literature: 11+ Timeless Characters for 2025"
+    },
+    {
+      "id": "mythology-baby-names-greek-norse-celtic-2025",
+      "title": "Mythology Baby Names: 11+ Greek, Norse & Celtic Legends for 2025"
+    },
+    {
+      "id": "names-that-mean-moon-2025",
+      "title": "Names That Mean Moon: 20+ Lunar Names to Shine in 2025"
+    },
+    {
+      "id": "nature-inspired-baby-names-2025",
+      "title": "Nature-Inspired Baby Names: 21+ Earth, Flora & Fauna Names for 2025"
+    },
+    {
+      "id": "royal-regal-baby-names-history-2025",
+      "title": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025"
+    },
+    {
+      "id": "short-baby-names-big-meanings-2025",
+      "title": "Short Baby Names with Big Meanings: 19+ Powerful 3-4 Letter Names for 2025"
+    },
+    {
+      "id": "top-100-baby-names-2025",
+      "title": "Top 100 Baby Names of 2025: Trending Names Parents Love"
+    },
+    {
+      "id": "unique-baby-names-not-weird",
+      "title": "100 Unique Baby Names That Aren't Too Weird"
+    },
+    {
+      "id": "vintage-baby-names-comeback-2025",
+      "title": "Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025"
+    }
+  ],
+  "failures": []
+}

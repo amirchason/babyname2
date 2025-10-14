@@ -30,18 +30,22 @@ const FavoritesPage: React.FC = () => {
 
   const loadFavorites = async () => {
     setLoading(true);
-    // Load all names
+    // Load all names from all chunks
     await nameService.loadFullDatabase();
-    const allNames = await nameService.getPopularNames(10000);
 
     // Get favorites and pinned favorites
     const favoritesList = favoritesService.getFavorites();
     const pinnedList = favoritesService.getPinnedFavorites();
 
-    // Map favorites to name entries
-    const favorites = favoritesList
-      .map(favName => allNames.find(n => n.name === favName))
-      .filter(Boolean) as NameEntry[];
+    // Map favorites to name entries by searching for each one individually
+    // This ensures blog names and less popular names are found
+    const favorites: NameEntry[] = [];
+    for (const favName of favoritesList) {
+      const nameData = await nameService.getNameDetails(favName);
+      if (nameData) {
+        favorites.push(nameData);
+      }
+    }
 
     // Separate pinned and unpinned
     const pinned = favorites.filter(name => pinnedList.includes(name.name));

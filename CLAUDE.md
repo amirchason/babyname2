@@ -327,6 +327,7 @@ Other key docs in the repository:
 - **SESSION_LOG.md** - Detailed recent session notes and changes
 - **LIST1_MODE_REFERENCE.md** - Quick reference for LIST1 MODE (homepage list/filter system)
 - **docs/LIST_MODES.md** - Comprehensive LIST1 MODE documentation (for adding list2, list3, etc.)
+- **docs/DATABASE_VIEWER_FEATURE.md** - Database viewer in admin menu with lazy loading
 - **docs/ADMIN_SCREENSHOT_FEATURE.md** - Admin screenshot feature documentation
 - **MCP_SETUP.md** - MCP server configuration and troubleshooting guide
 - **GOOGLE_AUTH_SETUP.md** - OAuth configuration guide
@@ -336,16 +337,17 @@ Other key docs in the repository:
 
 ## Recent UI Enhancements
 
-1. **Admin Screenshot Feature** (Latest): Admin users can capture and download screenshots of any page with visual feedback and auto-naming (see `docs/ADMIN_SCREENSHOT_FEATURE.md`)
-2. **Swipeable Modal Profiles**: Tinder-style swipe gestures in NameDetailModal with animated like/dislike buttons
-3. **Hero Section**: Animated floating baby names background with minimalist design
-4. **Code Splitting**: 30% faster initial load via dynamic imports
-5. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
-6. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
-7. **Search Redesign**: Moved to expandable header icon from hero section
-8. **Card Animations**: Fly-away effects on like/dislike actions
-9. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
-10. **Custom Events**: 'favoriteAdded' event for cross-component animations
+1. **Database Viewer in Admin Menu** (Latest): Admin users can view debug/storage info through lazy-loaded modal (see `docs/DATABASE_VIEWER_FEATURE.md`)
+2. **Admin Screenshot Feature**: Admin users can capture and download screenshots of any page with visual feedback and auto-naming (see `docs/ADMIN_SCREENSHOT_FEATURE.md`)
+3. **Swipeable Modal Profiles**: Tinder-style swipe gestures in NameDetailModal with animated like/dislike buttons
+4. **Hero Section**: Animated floating baby names background with minimalist design
+5. **Code Splitting**: 30% faster initial load via dynamic imports
+6. **Unisex Filter**: AI-powered detection with 35% threshold (35-65% gender ratio)
+7. **Heart Animations**: Pink color (15% bigger) and heartbeat effect when favorites > 0
+8. **Search Redesign**: Moved to expandable header icon from hero section
+9. **Card Animations**: Fly-away effects on like/dislike actions
+10. **Pinned Favorites**: Max 20 pinned names shown at top of favorites
+11. **Custom Events**: 'favoriteAdded' event for cross-component animations
 
 ## Known Issues / Warnings
 

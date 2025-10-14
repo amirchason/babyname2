@@ -1,0 +1,35 @@
+[dotenv@17.2.2][DEBUG] No encoding is specified. UTF-8 is used by default
+[dotenv@17.2.2] injecting env (41) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+
+============================================================
+🚀 Expanding: post-1-light-sun-star-names.json
+============================================================
+📦 Loading name databases...
+   Loaded 145,718 total names
+   Found 55 relevant names for topic
+
+📝 Expanding blog post: Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨
+   Current names: 32
+   Target names: 55+
+   Available relevant names: 55
+
+✅ Expanded content has 46 names
+⚠️  WARNING: Only 46 names found (target: 55+)
+   You may want to run this again or manually add more names.
+
+💾 Saved expanded post:
+   Main: /data/data/com.termux/files/home/proj/babyname2/blog-posts-seo/post-1-light-sun-star-names.json
+   Backup: /data/data/com.termux/files/home/proj/babyname2/blog-posts-seo/post-1-light-sun-star-names_backup_before_expansion.json
+   Names: 46
+   Words: 1506
+   Reading time: 8 min
+
+✨ SUCCESS!
+
+
+============================================================
+🎉 Post expansion complete!
+   File: post-1-light-sun-star-names.json
+   Names: 46
+   Words: 1506
+============================================================

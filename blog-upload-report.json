@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-10-13T06:20:59.804Z",
+  "summary": {
+    "total": 10,
+    "success": 10,
+    "failed": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "title": "Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing",
+      "slug": "baby-names-that-mean-miracle",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/baby-names-that-mean-miracle"
+    },
+    {
+      "id": 10,
+      "title": "Baby Names That Mean Strength: 70+ Powerful Names for Warriors",
+      "slug": "baby-names-mean-strength-powerful",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/baby-names-mean-strength-powerful"
+    },
+    {
+      "id": 2,
+      "title": "Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet",
+      "slug": "hottest-baby-names-2025-trending",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/hottest-baby-names-2025-trending"
+    },
+    {
+      "id": 3,
+      "title": "90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide",
+      "slug": "90s-baby-names-comeback-nostalgia",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/90s-baby-names-comeback-nostalgia"
+    },
+    {
+      "id": 4,
+      "title": "Bird Names for Babies: 50+ Names That Take Flight",
+      "slug": "bird-names-for-babies-nature",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/bird-names-for-babies-nature"
+    },
+    {
+      "id": 5,
+      "title": "Luxury Baby Names: 55+ Names That Sound Like a Million Dollars",
+      "slug": "luxury-baby-names-rich-elegant",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/luxury-baby-names-rich-elegant"
+    },
+    {
+      "id": 6,
+      "title": "Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide",
+      "slug": "baby-names-ending-lynn-trend",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/baby-names-ending-lynn-trend"
+    },
+    {
+      "id": 7,
+      "title": "Landscape Baby Names: 60+ Mountains, Rivers & Places for Your Explorer",
+      "slug": "landscape-baby-names-geography",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/landscape-baby-names-geography"
+    },
+    {
+      "id": 8,
+      "title": "Two-Syllable Baby Names: 65+ Perfect, Punchy Names That Pop",
+      "slug": "two-syllable-baby-names-short",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/two-syllable-baby-names-short"
+    },
+    {
+      "id": 9,
+      "title": "Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids",
+      "slug": "celebrity-baby-names-2024-2025",
+      "status": "success",
+      "url": "http://localhost:3000/babyname2/blog/celebrity-baby-names-2024-2025"
+    }
+  ]
+}

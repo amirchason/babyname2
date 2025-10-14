@@ -1,10 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Shield, Settings, Database, Users, BarChart3, FileText, AlertCircle, ChevronDown, Camera, Map, RefreshCw, LucideIcon } from 'lucide-react';
+import React, { useState, useRef, useEffect, lazy, Suspense } from 'react';
+import { Shield, Settings, Database, Users, BarChart3, FileText, AlertCircle, ChevronDown, Camera, Map, RefreshCw, LucideIcon, Bug, Edit3 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { captureScreenshotWithFeedback } from '../utils/screenshotUtils';
 import { useToast } from '../contexts/ToastContext';
 import { useListCrawler } from '../hooks/useListCrawler';
+
+// Lazy load the debug page content (only loads when clicked)
+const DebugPageContent = lazy(() => import('../pages/DebugPage'));
+const BlogPostEditor = lazy(() => import('./BlogPostEditor'));
 
 /**
  * Admin menu item type
@@ -38,15 +42,12 @@ const AdminMenu: React.FC = () => {
   const { showToast } = useToast();
   const [isOpen, setIsOpen] = useState(false);
   const [isCapturingScreenshot, setIsCapturingScreenshot] = useState(false);
+  const [showDebugModal, setShowDebugModal] = useState(false);
+  const [showBlogEditor, setShowBlogEditor] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   // List crawler hook
   const { startCrawler, isRunning, status, latestReport } = useListCrawler();
-
-  // SECURITY: Early return if not admin
-  if (!isAdmin || !user) {
-    return null;
-  }
 
   // Close menu when clicking outside
   useEffect(() => {
@@ -64,6 +65,11 @@ const AdminMenu: React.FC = () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isOpen]);
+
+  // SECURITY: Early return if not admin
+  if (!isAdmin || !user) {
+    return null;
+  }
 
   /**
    * Handle screenshot capture
@@ -131,6 +137,16 @@ const AdminMenu: React.FC = () => {
       }
     },
     {
+      icon: Edit3,
+      label: 'Blog Post Editor',
+      description: 'Edit blog posts with AI',
+      onClick: () => {
+        console.log('[ADMIN] Blog Post Editor clicked');
+        setShowBlogEditor(true);
+        setIsOpen(false);
+      }
+    },
+    {
       icon: RefreshCw,
       label: isRunning ? 'Crawler Running...' : 'Run List Crawler',
       description: isRunning
@@ -147,6 +163,16 @@ const AdminMenu: React.FC = () => {
       description: 'Capture current page',
       onClick: handleScreenshot,
       loading: isCapturingScreenshot,
+    },
+    {
+      icon: Bug,
+      label: 'Database Viewer',
+      description: 'View debug & storage info',
+      onClick: () => {
+        console.log('[ADMIN] Database Viewer clicked');
+        setShowDebugModal(true);
+        setIsOpen(false);
+      }
     },
     {
       icon: Database,
@@ -206,95 +232,160 @@ const AdminMenu: React.FC = () => {
   ];
 
   return (
-    <div className="relative" ref={menuRef}>
-      {/* Admin Menu Button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1.5 px-2.5 py-1.5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-white text-xs font-semibold rounded-full shadow-sm hover:shadow-md transition-all"
-        title="Admin Menu"
-      >
-        <Shield className="w-3.5 h-3.5" strokeWidth={2.5} />
-        <span className="hidden sm:inline">Admin</span>
-        <ChevronDown
-          className={`w-3 h-3 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-        />
-      </button>
+    <>
+      <div className="relative" ref={menuRef}>
+        {/* Admin Menu Button */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="flex items-center gap-1.5 px-2.5 py-1.5 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-white text-xs font-semibold rounded-full shadow-sm hover:shadow-md transition-all"
+          title="Admin Menu"
+        >
+          <Shield className="w-3.5 h-3.5" strokeWidth={2.5} />
+          <span className="hidden sm:inline">Admin</span>
+          <ChevronDown
+            className={`w-3 h-3 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          />
+        </button>
 
-      {/* Dropdown Menu */}
-      {isOpen && (
-        <div className="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50">
-          {/* Header */}
-          <div className="px-4 py-3 bg-gradient-to-r from-yellow-50 to-orange-50 border-b border-orange-200">
-            <div className="flex items-center gap-2">
-              <Shield className="w-4 h-4 text-orange-600" strokeWidth={2.5} />
-              <div>
-                <h3 className="text-xs font-semibold text-gray-900">Admin Panel</h3>
-                <p className="text-[10px] text-gray-600">{user.email}</p>
+        {/* Dropdown Menu */}
+        {isOpen && (
+          <div className="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50">
+            {/* Header */}
+            <div className="px-4 py-3 bg-gradient-to-r from-yellow-50 to-orange-50 border-b border-orange-200">
+              <div className="flex items-center gap-2">
+                <Shield className="w-4 h-4 text-orange-600" strokeWidth={2.5} />
+                <div>
+                  <h3 className="text-xs font-semibold text-gray-900">Admin Panel</h3>
+                  <p className="text-[10px] text-gray-600">{user.email}</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Security Warning */}
-          <div className="px-4 py-2 bg-yellow-50 border-b border-yellow-200">
-            <div className="flex items-start gap-2">
-              <AlertCircle className="w-3 h-3 text-yellow-600 mt-0.5 flex-shrink-0" />
-              <p className="text-[10px] text-yellow-800 leading-tight">
-                Admin actions are logged and require backend authorization
+            {/* Security Warning */}
+            <div className="px-4 py-2 bg-yellow-50 border-b border-yellow-200">
+              <div className="flex items-start gap-2">
+                <AlertCircle className="w-3 h-3 text-yellow-600 mt-0.5 flex-shrink-0" />
+                <p className="text-[10px] text-yellow-800 leading-tight">
+                  Admin actions are logged and require backend authorization
+                </p>
+              </div>
+            </div>
+
+            {/* Menu Items */}
+            <div className="py-1">
+              {menuItems.map((item, index) => {
+                const Icon = item.icon;
+                const isLoading = item.loading || false;
+                return (
+                  <button
+                    key={index}
+                    onClick={item.onClick}
+                    disabled={isLoading}
+                    className={`w-full px-4 py-3 flex items-start gap-3 transition-colors text-left group ${
+                      isLoading
+                        ? 'bg-purple-50 cursor-wait opacity-70'
+                        : 'hover:bg-purple-50 cursor-pointer'
+                    }`}
+                  >
+                    <Icon
+                      className={`w-4 h-4 mt-0.5 flex-shrink-0 ${
+                        isLoading
+                          ? 'text-purple-500 animate-pulse'
+                          : 'text-gray-500 group-hover:text-purple-600'
+                      }`}
+                    />
+                    <div className="flex-1 min-w-0">
+                      <div
+                        className={`text-sm font-medium ${
+                          isLoading
+                            ? 'text-purple-600'
+                            : 'text-gray-900 group-hover:text-purple-600'
+                        }`}
+                      >
+                        {isLoading ? 'Capturing...' : item.label}
+                      </div>
+                      <div className="text-xs text-gray-500">
+                        {item.description}
+                      </div>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Footer */}
+            <div className="px-4 py-2 bg-gray-50 border-t border-gray-200">
+              <p className="text-[10px] text-gray-500 text-center">
+                All admin actions are monitored for security
               </p>
             </div>
           </div>
+        )}
+      </div>
 
-          {/* Menu Items */}
-          <div className="py-1">
-            {menuItems.map((item, index) => {
-              const Icon = item.icon;
-              const isLoading = item.loading || false;
-              return (
-                <button
-                  key={index}
-                  onClick={item.onClick}
-                  disabled={isLoading}
-                  className={`w-full px-4 py-3 flex items-start gap-3 transition-colors text-left group ${
-                    isLoading
-                      ? 'bg-purple-50 cursor-wait opacity-70'
-                      : 'hover:bg-purple-50 cursor-pointer'
-                  }`}
-                >
-                  <Icon
-                    className={`w-4 h-4 mt-0.5 flex-shrink-0 ${
-                      isLoading
-                        ? 'text-purple-500 animate-pulse'
-                        : 'text-gray-500 group-hover:text-purple-600'
-                    }`}
-                  />
-                  <div className="flex-1 min-w-0">
-                    <div
-                      className={`text-sm font-medium ${
-                        isLoading
-                          ? 'text-purple-600'
-                          : 'text-gray-900 group-hover:text-purple-600'
-                      }`}
-                    >
-                      {isLoading ? 'Capturing...' : item.label}
-                    </div>
-                    <div className="text-xs text-gray-500">
-                      {item.description}
+      {/* Database Viewer Modal - Lazy Loaded */}
+      {showDebugModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+            onClick={() => setShowDebugModal(false)}
+          />
+
+          {/* Modal Content */}
+          <div className="relative z-10 w-full max-w-6xl max-h-[90vh] mx-4 bg-white rounded-xl shadow-2xl overflow-hidden">
+            {/* Header */}
+            <div className="sticky top-0 z-20 px-6 py-4 bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <Bug className="w-6 h-6 text-white" />
+                <div>
+                  <h2 className="text-xl font-bold text-white">Database Viewer</h2>
+                  <p className="text-sm text-purple-100">Debug & Storage Information</p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowDebugModal(false)}
+                className="px-4 py-2 bg-white/20 hover:bg-white/30 text-white rounded-lg font-medium transition-colors"
+              >
+                Close
+              </button>
+            </div>
+
+            {/* Lazy Loaded Content */}
+            <div className="overflow-y-auto max-h-[calc(90vh-80px)]">
+              <Suspense
+                fallback={
+                  <div className="flex items-center justify-center py-20">
+                    <div className="flex flex-col items-center gap-3">
+                      <div className="w-12 h-12 border-4 border-purple-500 border-t-transparent rounded-full animate-spin" />
+                      <p className="text-gray-600">Loading database viewer...</p>
                     </div>
                   </div>
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Footer */}
-          <div className="px-4 py-2 bg-gray-50 border-t border-gray-200">
-            <p className="text-[10px] text-gray-500 text-center">
-              All admin actions are monitored for security
-            </p>
+                }
+              >
+                <DebugPageContent embedded={true} />
+              </Suspense>
+            </div>
           </div>
         </div>
       )}
-    </div>
+
+      {/* Blog Post Editor Modal - Lazy Loaded */}
+      {showBlogEditor && (
+        <Suspense
+          fallback={
+            <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+              <div className="flex flex-col items-center gap-3">
+                <div className="w-12 h-12 border-4 border-purple-500 border-t-transparent rounded-full animate-spin" />
+                <p className="text-white text-lg font-medium">Loading Blog Editor...</p>
+              </div>
+            </div>
+          }
+        >
+          <BlogPostEditor onClose={() => setShowBlogEditor(false)} />
+        </Suspense>
+      )}
+    </>
   );
 };
 

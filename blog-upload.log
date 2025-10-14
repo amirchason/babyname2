@@ -1,0 +1,168 @@
+[dotenv@17.2.2] injecting env (41) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+🚀 BATCH UPLOAD: 10 NEW BLOG POSTS TO FIRESTORE
+
+================================================================================
+
+📂 Found 10 blog posts to upload
+
+📝 POST 1/10: blog-post-1-baby-names-that-mean-miracle.json
+   Title: "Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing"
+   Slug: baby-names-that-mean-miracle
+   Names: 83
+   Words: 1955
+   Reading Time: 10 min
+   Keywords: baby names that mean miracle, miracle baby names, names meaning blessing
+   ✅ Uploaded successfully! (ID: 1)
+   🌐 URL: http://localhost:3000/babyname2/blog/baby-names-that-mean-miracle
+
+📝 POST 2/10: blog-post-10-baby-names-mean-strength-powerful.json
+   Title: "Baby Names That Mean Strength: 70+ Powerful Names for Warriors"
+   Slug: baby-names-mean-strength-powerful
+   Names: 57
+   Words: 1757
+   Reading Time: 9 min
+   Keywords: names that mean strong, strength names, warrior names
+   ✅ Uploaded successfully! (ID: 10)
+   🌐 URL: http://localhost:3000/babyname2/blog/baby-names-mean-strength-powerful
+
+📝 POST 3/10: blog-post-2-hottest-baby-names-2025-trending.json
+   Title: "Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet"
+   Slug: hottest-baby-names-2025-trending
+   Names: 60
+   Words: 2102
+   Reading Time: 11 min
+   Keywords: baby names 2025, trending baby names, hot baby names
+   ✅ Uploaded successfully! (ID: 2)
+   🌐 URL: http://localhost:3000/babyname2/blog/hottest-baby-names-2025-trending
+
+📝 POST 4/10: blog-post-3-90s-baby-names-comeback-nostalgia.json
+   Title: "90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide"
+   Slug: 90s-baby-names-comeback-nostalgia
+   Names: 58
+   Words: 1811
+   Reading Time: 10 min
+   Keywords: 90s baby names, nostalgic baby names, retro baby names
+   ✅ Uploaded successfully! (ID: 3)
+   🌐 URL: http://localhost:3000/babyname2/blog/90s-baby-names-comeback-nostalgia
+
+📝 POST 5/10: blog-post-4-bird-names-for-babies-nature.json
+   Title: "Bird Names for Babies: 50+ Names That Take Flight"
+   Slug: bird-names-for-babies-nature
+   Names: 85
+   Words: 2343
+   Reading Time: 12 min
+   Keywords: bird names, bird baby names, nature names
+   ✅ Uploaded successfully! (ID: 4)
+   🌐 URL: http://localhost:3000/babyname2/blog/bird-names-for-babies-nature
+
+📝 POST 6/10: blog-post-5-luxury-baby-names-rich-elegant.json
+   Title: "Luxury Baby Names: 55+ Names That Sound Like a Million Dollars"
+   Slug: luxury-baby-names-rich-elegant
+   Names: 60
+   Words: 2084
+   Reading Time: 11 min
+   Keywords: luxury baby names, rich baby names, elegant names
+   ✅ Uploaded successfully! (ID: 5)
+   🌐 URL: http://localhost:3000/babyname2/blog/luxury-baby-names-rich-elegant
+
+📝 POST 7/10: blog-post-6-baby-names-ending-lynn-trend.json
+   Title: "Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide"
+   Slug: baby-names-ending-lynn-trend
+   Names: 46
+   Words: 1703
+   Reading Time: 9 min
+   Keywords: names ending in lynn, -lynn names, lynn suffix names
+   ✅ Uploaded successfully! (ID: 6)
+   🌐 URL: http://localhost:3000/babyname2/blog/baby-names-ending-lynn-trend
+
+📝 POST 8/10: blog-post-7-landscape-baby-names-geography.json
+   Title: "Landscape Baby Names: 60+ Mountains, Rivers & Places for Your Explorer"
+   Slug: landscape-baby-names-geography
+   Names: 58
+   Words: 1927
+   Reading Time: 10 min
+   Keywords: landscape names, place names, geography baby names
+   ✅ Uploaded successfully! (ID: 7)
+   🌐 URL: http://localhost:3000/babyname2/blog/landscape-baby-names-geography
+
+📝 POST 9/10: blog-post-8-two-syllable-baby-names-short.json
+   Title: "Two-Syllable Baby Names: 65+ Perfect, Punchy Names That Pop"
+   Slug: two-syllable-baby-names-short
+   Names: 141
+   Words: 2377
+   Reading Time: 12 min
+   Keywords: two syllable names, short baby names, punchy names
+   ✅ Uploaded successfully! (ID: 8)
+   🌐 URL: http://localhost:3000/babyname2/blog/two-syllable-baby-names-short
+
+📝 POST 10/10: blog-post-9-celebrity-baby-names-2024-2025.json
+   Title: "Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids"
+   Slug: celebrity-baby-names-2024-2025
+   Names: 72
+   Words: 2163
+   Reading Time: 11 min
+   Keywords: celebrity baby names, famous baby names, star baby names
+   ✅ Uploaded successfully! (ID: 9)
+   🌐 URL: http://localhost:3000/babyname2/blog/celebrity-baby-names-2024-2025
+
+================================================================================
+📊 UPLOAD SUMMARY
+
+   ✅ Successfully uploaded: 10
+   ❌ Failed: 0
+   📝 Total posts: 10
+
+💾 Detailed report saved: blog-upload-report.json
+
+🎉 SUCCESSFULLY UPLOADED POSTS:
+
+   1. Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing
+      Slug: baby-names-that-mean-miracle
+      URL: http://localhost:3000/babyname2/blog/baby-names-that-mean-miracle
+
+   2. Baby Names That Mean Strength: 70+ Powerful Names for Warriors
+      Slug: baby-names-mean-strength-powerful
+      URL: http://localhost:3000/babyname2/blog/baby-names-mean-strength-powerful
+
+   3. Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet
+      Slug: hottest-baby-names-2025-trending
+      URL: http://localhost:3000/babyname2/blog/hottest-baby-names-2025-trending
+
+   4. 90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide
+      Slug: 90s-baby-names-comeback-nostalgia
+      URL: http://localhost:3000/babyname2/blog/90s-baby-names-comeback-nostalgia
+
+   5. Bird Names for Babies: 50+ Names That Take Flight
+      Slug: bird-names-for-babies-nature
+      URL: http://localhost:3000/babyname2/blog/bird-names-for-babies-nature
+
+   6. Luxury Baby Names: 55+ Names That Sound Like a Million Dollars
+      Slug: luxury-baby-names-rich-elegant
+      URL: http://localhost:3000/babyname2/blog/luxury-baby-names-rich-elegant
+
+   7. Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide
+      Slug: baby-names-ending-lynn-trend
+      URL: http://localhost:3000/babyname2/blog/baby-names-ending-lynn-trend
+
+   8. Landscape Baby Names: 60+ Mountains, Rivers & Places for Your Explorer
+      Slug: landscape-baby-names-geography
+      URL: http://localhost:3000/babyname2/blog/landscape-baby-names-geography
+
+   9. Two-Syllable Baby Names: 65+ Perfect, Punchy Names That Pop
+      Slug: two-syllable-baby-names-short
+      URL: http://localhost:3000/babyname2/blog/two-syllable-baby-names-short
+
+   10. Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids
+      Slug: celebrity-baby-names-2024-2025
+      URL: http://localhost:3000/babyname2/blog/celebrity-baby-names-2024-2025
+
+================================================================================
+
+🎊 UPLOAD COMPLETE! 10/10 posts now live on Firestore!
+
+Next steps:
+1. Test blogs at: http://localhost:3000/babyname2/blog
+2. Verify all posts render correctly
+3. Add internal links between related posts
+4. Create Pinterest graphics for social sharing
+

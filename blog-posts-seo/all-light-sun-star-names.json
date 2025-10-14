@@ -1,0 +1,1236 @@
+{
+  "timestamp": "2025-10-12T13:58:24.727Z",
+  "total": 172,
+  "female": 54,
+  "male": 39,
+  "unisex": 14,
+  "names": [
+    {
+      "name": "Lucas",
+      "gender": {
+        "Male": 0.95,
+        "Female": 0.05
+      },
+      "origin": "Latin",
+      "meaning": "Light-bringing"
+    },
+    {
+      "name": "William",
+      "gender": {
+        "Male": 0.95,
+        "Female": 0.05
+      },
+      "origin": "Germanic",
+      "meaning": "Resolute protector"
+    },
+    {
+      "name": "Luz",
+      "gender": {
+        "Female": 0.983,
+        "Male": 0.017
+      },
+      "origin": "Spanish",
+      "meaning": "Light"
+    },
+    {
+      "name": "Blanca",
+      "gender": {
+        "Female": 0.989,
+        "Male": 0.011
+      },
+      "origin": "Spanish",
+      "meaning": "White, bright"
+    },
+    {
+      "name": "Guillermo",
+      "gender": {
+        "Female": 0.005,
+        "Male": 0.995
+      },
+      "origin": "Germanic",
+      "meaning": "Resolute protector"
+    },
+    {
+      "name": "Shirley",
+      "gender": {
+        "Female": 0.992,
+        "Male": 0.008
+      },
+      "origin": "English",
+      "meaning": "Bright meadow"
+    },
+    {
+      "name": "Helen",
+      "gender": {
+        "Female": 0.988,
+        "Male": 0.012
+      },
+      "origin": "Greek",
+      "meaning": "Shining light"
+    },
+    {
+      "name": "Estela",
+      "gender": {
+        "Female": 0.989,
+        "Male": 0.011
+      },
+      "origin": "Latin",
+      "meaning": "Star"
+    },
+    {
+      "name": "Estrella",
+      "gender": {
+        "Female": 0.975,
+        "Male": 0.025
+      },
+      "origin": "Spanish",
+      "meaning": "Star"
+    },
+    {
+      "name": "Rigoberto",
+      "gender": {
+        "Female": 0.007,
+        "Male": 0.993
+      },
+      "origin": "Germanic",
+      "meaning": "Bright wealth"
+    },
+    {
+      "name": "Braulio",
+      "gender": {
+        "Female": 0.006,
+        "Male": 0.994
+      },
+      "origin": "Germanic",
+      "meaning": "Bright, shining"
+    },
+    {
+      "name": "Lucero",
+      "gender": {
+        "Female": 0.981,
+        "Male": 0.019
+      },
+      "origin": "Spanish",
+      "meaning": "Bright star"
+    },
+    {
+      "name": "Marianela",
+      "gender": {
+        "Female": 0.991,
+        "Male": 0.009
+      },
+      "origin": "Spanish",
+      "meaning": "Star of the sea"
+    },
+    {
+      "name": "Elba",
+      "gender": {
+        "Female": 0.965,
+        "Male": 0.035
+      },
+      "origin": "Italian",
+      "meaning": "Bright"
+    },
+    {
+      "name": "Guillermina",
+      "gender": {
+        "Female": 0.988,
+        "Male": 0.012
+      },
+      "origin": "Germanic",
+      "meaning": "Resolute protector"
+    },
+    {
+      "name": "Nery",
+      "gender": {
+        "Female": 0.575,
+        "Male": 0.425
+      },
+      "origin": "Spanish",
+      "meaning": "Light"
+    },
+    {
+      "name": "Wilber",
+      "gender": {
+        "Female": 0.007,
+        "Male": 0.993
+      },
+      "origin": "Germanic",
+      "meaning": "Bright will"
+    },
+    {
+      "name": "Tavo",
+      "gender": {
+        "Female": 0.009,
+        "Male": 0.991
+      },
+      "origin": "Spanish",
+      "meaning": "Bright"
+    },
+    {
+      "name": "Jorge Alberto",
+      "gender": {
+        "Female": 0.003,
+        "Male": 0.997
+      },
+      "origin": "Greek",
+      "meaning": "Farmer, noble bright"
+    },
+    {
+      "name": "Maria Esther",
+      "gender": {
+        "Female": 0.992,
+        "Male": 0.008
+      },
+      "origin": "Hebrew",
+      "meaning": "Wished-for star"
+    },
+    {
+      "name": "Chela",
+      "gender": {
+        "Female": 0.974,
+        "Male": 0.026
+      },
+      "origin": "Spanish",
+      "meaning": "Consolation"
+    },
+    {
+      "name": "Yahir",
+      "gender": {
+        "Female": 0.012,
+        "Male": 0.988
+      },
+      "origin": "Arabic",
+      "meaning": "To enlighten"
+    },
+    {
+      "name": "Alverto",
+      "gender": {
+        "Female": 0.02,
+        "Male": 0.98
+      },
+      "origin": "Germanic",
+      "meaning": "Noble and bright"
+    },
+    {
+      "name": "Nolberto",
+      "gender": {
+        "Female": 0.006,
+        "Male": 0.994
+      },
+      "origin": "Germanic",
+      "meaning": "Northern brightness"
+    },
+    {
+      "name": "Jose Armando",
+      "gender": {
+        "Female": 0.006,
+        "Male": 0.994
+      },
+      "origin": "Hebrew",
+      "meaning": "God will increase, soldier"
+    },
+    {
+      "name": "Marisel",
+      "gender": {
+        "Female": 0.989,
+        "Male": 0.011
+      },
+      "origin": "Spanish",
+      "meaning": "Sea and sun"
+    },
+    {
+      "name": "Albaro",
+      "gender": {
+        "Female": 0.011,
+        "Male": 0.989
+      },
+      "origin": "Germanic",
+      "meaning": "Noble, bright"
+    },
+    {
+      "name": "Maria Del Pilar",
+      "gender": {
+        "Female": 0.991,
+        "Male": 0.009
+      },
+      "origin": "Hebrew",
+      "meaning": "Star of the sea, pillar"
+    },
+    {
+      "name": "Luis Armando",
+      "gender": {
+        "Female": 0.004,
+        "Male": 0.996
+      },
+      "origin": "Germanic",
+      "meaning": "Famous warrior, soldier"
+    },
+    {
+      "name": "Nohemy",
+      "gender": {
+        "Female": 0.991,
+        "Male": 0.009
+      },
+      "origin": "Spanish",
+      "meaning": "Comfort, consolation"
+    },
+    {
+      "name": "Alcira",
+      "gender": {
+        "Female": 0.991,
+        "Male": 0.009
+      },
+      "origin": "Arabic",
+      "meaning": "The shining sun"
+    },
+    {
+      "name": "Nahomy",
+      "gender": {
+        "Female": 0.976,
+        "Male": 0.024
+      },
+      "origin": "Hebrew",
+      "meaning": "Comfort, consolation"
+    },
+    {
+      "name": "Luzma",
+      "gender": {
+        "Female": 0.99,
+        "Male": 0.01
+      },
+      "origin": "Spanish",
+      "meaning": "Light"
+    },
+    {
+      "name": "Yomara",
+      "gender": {
+        "Female": 0.992,
+        "Male": 0.008
+      },
+      "origin": "Spanish",
+      "meaning": "Daylight beauty"
+    },
+    {
+      "name": "Alberth",
+      "gender": {
+        "Female": 0.014,
+        "Male": 0.986
+      },
+      "origin": "Germanic",
+      "meaning": "Noble, bright"
+    },
+    {
+      "name": "Jorge Armando",
+      "gender": {
+        "Female": 0.005,
+        "Male": 0.995
+      },
+      "origin": "Spanish",
+      "meaning": "Jorge means 'farmer' or 'earthworker'; Armando means 'soldier' or 'army man'."
+    },
+    {
+      "name": "Ana Luz",
+      "gender": {
+        "Female": 0.992,
+        "Male": 0.008
+      },
+      "origin": "Hebrew",
+      "meaning": "Grace, light"
+    },
+    {
+      "name": "Marifer",
+      "gender": {
+        "Female": 0.986,
+        "Male": 0.014
+      },
+      "origin": "Spanish",
+      "meaning": "Mary and light"
+    },
+    {
+      "name": "Wilver",
+      "gender": {
+        "Female": 0.008,
+        "Male": 0.992
+      },
+      "origin": "English",
+      "meaning": "Resolute, brilliant"
+    },
+    {
+      "name": "Gillermo",
+      "gender": {
+        "Female": 0.006,
+        "Male": 0.994
+      },
+      "origin": "Germanic",
+      "meaning": "Resolute protector"
+    },
+    {
+      "name": "Yarely",
+      "gender": {
+        "Female": 0.989,
+        "Male": 0.011
+      },
+      "origin": "English",
+      "meaning": "Shining"
+    },
+    {
+      "name": "Jua",
+      "gender": {
+        "Female": 0.148,
+        "Male": 0.852
+      },
+      "origin": "African",
+      "meaning": "Sun"
+    },
+    {
+      "name": "Alberto",
+      "gender": {
+        "Female": 0.007,
+        "Male": 0.993
+      },
+      "origin": "Germanic",
+      "meaning": "Noble and bright"
+    },
+    {
+      "name": "Marisol",
+      "gender": {
+        "Female": 0.99,
+        "Male": 0.01
+      },
+      "origin": "Spanish",
+      "meaning": "Sun and sea"
+    },
+    {
+      "name": "Ernesto",
+      "gender": {
+        "Female": 0.007,
+        "Male": 0.993
+      },
+      "origin": "Germanic",
+      "meaning": "Serious, resolute"
+    },
+    {
+      "name": "Jairo",
+      "gender": {
+        "Female": 0.007,
+        "Male": 0.993
+      },
+      "origin": "Hebrew",
+      "meaning": "He enlightens"
+    },
+    {
+      "name": "Humberto",
+      "gender": {
+        "Female": 0.006,
+        "Male": 0.994
+      },
+      "origin": "Germanic",
+      "meaning": "Bright warrior"
+    },
+    {
+      "name": "Alba",
+      "gender": {
+        "Female": 0.981,
+        "Male": 0.019
+      },
+      "origin": "Latin",
+      "meaning": "Dawn, white"
+    },
+    {
+      "name": "Ray",
+      "gender": {
+        "Female": 0.07,
+        "Male": 0.93
+      },
+      "origin": "English",
+      "meaning": "Beam of light"
+    },
+    {
+      "name": "Roxana",
+      "gender": {
+        "Female": 0.989,
+        "Male": 0.011
+      },
+      "origin": "Persian",
+      "meaning": "Dawn, light"
+    },
+    {
+      "name": "Maria Elena",
+      "gender": {
+        "Female": 0.993,
+        "Male": 0.007
+      },
+      "origin": "Hebrew",
+      "meaning": "Wished-for child, light"
+    },
+    {
+      "name": "Dawn",
+      "gender": {
+        "Female": 0.985,
+        "Male": 0.015
+      },
+      "origin": "English",
+      "meaning": "First appearance of light"
+    },
+    {
+      "name": "Soledad",
+      "gender": {
+        "Female": 0.986,
+        "Male": 0.014
+      },
+      "origin": "Spanish",
+      "meaning": "Solitude"
+    },
+    {
+      "name": "Sol",
+      "gender": {
+        "Female": 0.903,
+        "Male": 0.097
+      },
+      "origin": "Latin",
+      "meaning": "Sun"
+    },
+    {
+      "name": "Carlos Alberto",
+      "gender": {
+        "Female": 0.004,
+        "Male": 0.996
+      },
+      "origin": "Germanic",
+      "meaning": "Free man, bright nobility"
+    },
+    {
+      "name": "Heriberto",
+      "gender": {
+        "Female": 0.006,
+        "Male": 0.994
+      },
+      "origin": "Germanic",
+      "meaning": "Army bright"
+    },
+    {
+      "name": "Eileen",
+      "gender": {
+        "Female": 0.995,
+        "Male": 0.005
+      },
+      "origin": "Irish",
+      "meaning": "Desired; light"
+    },
+    {
+      "name": "Lucila",
+      "gender": {
+        "Female": 0.99,
+        "Male": 0.01
+      },
+      "origin": "Latin",
+      "meaning": "Light"
+    },
+    {
+      "name": "Luz Maria",
+      "gender": {
+        "Female": 0.991,
+        "Male": 0.009
+      },
+      "origin": "Spanish",
+      "meaning": "Light; Mary"
+    },
+    {
+      "name": "Yajaira",
+      "gender": {
+        "Female": 0.989,
+        "Male": 0.011
+      },
+      "origin": "Arabic",
+      "meaning": "To shine"
+    },
+    {
+      "name": "Nely",
+      "gender": {
+        "Female": 0.977,
+        "Male": 0.023
+      },
+      "origin": "English",
+      "meaning": "Bright, shining one"
+    },
+    {
+      "name": "Rober",
+      "gender": {
+        "Female": 0.021,
+        "Male": 0.979
+      },
+      "origin": "Germanic",
+      "meaning": "Bright fame"
+    },
+    {
+      "name": "Willian",
+      "gender": {
+        "Female": 0.009,
+        "Male": 0.991
+      },
+      "origin": "Germanic",
+      "meaning": "Resolute protector"
+    },
+    {
+      "name": "Bernabe",
+      "gender": {
+        "Female": 0.021,
+        "Male": 0.979
+      },
+      "origin": "Hebrew",
+      "meaning": "Son of consolation"
+    },
+    {
+      "name": "Roberto Carlos",
+      "gender": {
+        "Female": 0.004,
+        "Male": 0.996
+      },
+      "origin": "Spanish",
+      "meaning": "bright fame"
+    },
+    {
+      "name": "Aarush",
+      "gender": "male",
+      "origin": "Sanskrit",
+      "meaning": "first ray of sun"
+    },
+    {
+      "name": "Abner",
+      "gender": "male",
+      "origin": "Hebrew",
+      "meaning": "father of light"
+    },
+    {
+      "name": "Aileen",
+      "gender": "female",
+      "origin": "Irish",
+      "meaning": "bright, shining light"
+    },
+    {
+      "name": "Albert",
+      "gender": "male",
+      "origin": "German",
+      "meaning": "noble bright famous"
+    },
+    {
+      "name": "Alina",
+      "gender": "female",
+      "origin": "Slavic",
+      "meaning": "bright, beautiful, noble"
+    },
+    {
+      "name": "Anatole",
+      "gender": "male",
+      "origin": "French",
+      "meaning": "sunrise dawn new beginning"
+    },
+    {
+      "name": "Apollo",
+      "gender": "male",
+      "origin": "Greek",
+      "meaning": "god of light music"
+    },
+    {
+      "name": "Arjun",
+      "gender": "male",
+      "origin": "Sanskrit",
+      "meaning": "bright shining white light"
+    },
+    {
+      "name": "Aurora",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "dawn light new beginnings"
+    },
+    {
+      "name": "Ayla",
+      "gender": "female",
+      "origin": "Turkish",
+      "meaning": "moonlight halo"
+    },
+    {
+      "name": "Balder",
+      "gender": "male",
+      "origin": "Norse",
+      "meaning": "prince of light"
+    },
+    {
+      "name": "Bertha",
+      "gender": "female",
+      "origin": "German",
+      "meaning": "bright noble one"
+    },
+    {
+      "name": "Blanche",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "white pure shining"
+    },
+    {
+      "name": "Blaze",
+      "gender": "unisex",
+      "origin": "Latin",
+      "meaning": "flame bright fire"
+    },
+    {
+      "name": "Bodhi",
+      "gender": "male",
+      "origin": "Sanskrit",
+      "meaning": "awakening enlightenment wisdom"
+    },
+    {
+      "name": "Cassandra",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "shining upon man"
+    },
+    {
+      "name": "Catherine",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "pure clear innocent one"
+    },
+    {
+      "name": "Celeste",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "heavenly divine celestial"
+    },
+    {
+      "name": "Chiara",
+      "gender": "female",
+      "origin": "Italian",
+      "meaning": "clear bright light"
+    },
+    {
+      "name": "Claire",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "clear bright famous"
+    },
+    {
+      "name": "Clara",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "bright clear famous one"
+    },
+    {
+      "name": "Clarence",
+      "gender": "male",
+      "origin": "Latin",
+      "meaning": "bright clear famous one"
+    },
+    {
+      "name": "Crystal",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "clear ice precious stone"
+    },
+    {
+      "name": "Cyrus",
+      "gender": "male",
+      "origin": "Persian",
+      "meaning": "sun, throne, lord"
+    },
+    {
+      "name": "Danica",
+      "gender": "female",
+      "origin": "Slavic",
+      "meaning": "morning star, Venus"
+    },
+    {
+      "name": "Eden",
+      "gender": "unisex",
+      "origin": "Hebrew",
+      "meaning": "delight, paradise, pleasure"
+    },
+    {
+      "name": "Elaine",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "bright, shining light"
+    },
+    {
+      "name": "Eleanor",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "light, bright, shining one"
+    },
+    {
+      "name": "Electra",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "shining, bright, amber"
+    },
+    {
+      "name": "Elena",
+      "gender": "female",
+      "origin": "Spanish",
+      "meaning": "bright, shining light"
+    },
+    {
+      "name": "Elinor",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "light shining bright"
+    },
+    {
+      "name": "Elio",
+      "gender": "male",
+      "origin": "Italian",
+      "meaning": "sun, light, brightness"
+    },
+    {
+      "name": "Eliora",
+      "gender": "female",
+      "origin": "Hebrew",
+      "meaning": "God is my light"
+    },
+    {
+      "name": "Ellen",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "light, bright, shining"
+    },
+    {
+      "name": "Ernest",
+      "gender": "male",
+      "origin": "German",
+      "meaning": "serious, resolute, determined"
+    },
+    {
+      "name": "Estella",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "star, shining light"
+    },
+    {
+      "name": "Estelle",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "star, celestial body"
+    },
+    {
+      "name": "Esther",
+      "gender": "female",
+      "origin": "Persian",
+      "meaning": "star, hidden, secret"
+    },
+    {
+      "name": "Etoile",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "star, celestial light"
+    },
+    {
+      "name": "Flint",
+      "gender": "male",
+      "origin": "English",
+      "meaning": "hard stone strong resolve"
+    },
+    {
+      "name": "Gilbert",
+      "gender": "male",
+      "origin": "German",
+      "meaning": "bright pledge shining promise"
+    },
+    {
+      "name": "Harley",
+      "gender": "unisex",
+      "origin": "English",
+      "meaning": "hare meadow woodland clearing"
+    },
+    {
+      "name": "Haruto",
+      "gender": "male",
+      "origin": "Japanese",
+      "meaning": "sunlight springtime sunlight"
+    },
+    {
+      "name": "Helen",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "bright shining light"
+    },
+    {
+      "name": "Helena",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "bright shining light"
+    },
+    {
+      "name": "Herbert",
+      "gender": "male",
+      "origin": "German",
+      "meaning": "bright army shining warrior"
+    },
+    {
+      "name": "Hugo",
+      "gender": "male",
+      "origin": "German",
+      "meaning": "mind intellect bright spirit"
+    },
+    {
+      "name": "Jewel",
+      "gender": "unisex",
+      "origin": "English",
+      "meaning": "precious gem, valuable, bright"
+    },
+    {
+      "name": "Joy",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "great happiness delight"
+    },
+    {
+      "name": "Kalinda",
+      "gender": "female",
+      "origin": "Sanskrit",
+      "meaning": "sun, beauty, brightness"
+    },
+    {
+      "name": "Katherine",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "pure, clear, unsullied"
+    },
+    {
+      "name": "Kiran",
+      "gender": "unisex",
+      "origin": "Sanskrit",
+      "meaning": "ray of light"
+    },
+    {
+      "name": "Leora",
+      "gender": "female",
+      "origin": "Hebrew",
+      "meaning": "light bringer my light"
+    },
+    {
+      "name": "Luca",
+      "gender": "male",
+      "origin": "Italian",
+      "meaning": "bringer of light"
+    },
+    {
+      "name": "Lucia",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "light bringer radiant one"
+    },
+    {
+      "name": "Lucian",
+      "gender": "male",
+      "origin": "Latin",
+      "meaning": "light bringer shining one"
+    },
+    {
+      "name": "Luciano",
+      "gender": "male",
+      "origin": "Italian",
+      "meaning": "light bringer bright one"
+    },
+    {
+      "name": "Lucien",
+      "gender": "male",
+      "origin": "French",
+      "meaning": "light bringer shining light"
+    },
+    {
+      "name": "Lucifer",
+      "gender": "male",
+      "origin": "Latin",
+      "meaning": "light bearer morning star"
+    },
+    {
+      "name": "Lucille",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "light bright shining one"
+    },
+    {
+      "name": "Lucinda",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "light bringer bright one"
+    },
+    {
+      "name": "Lucio",
+      "gender": "male",
+      "origin": "Italian",
+      "meaning": "light bringer illuminating one"
+    },
+    {
+      "name": "Lucius",
+      "gender": "male",
+      "origin": "Latin",
+      "meaning": "light bringer radiant one"
+    },
+    {
+      "name": "Lucy",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "light bringer shining one"
+    },
+    {
+      "name": "Lugh",
+      "gender": "male",
+      "origin": "Irish",
+      "meaning": "light god of skill"
+    },
+    {
+      "name": "Luke",
+      "gender": "male",
+      "origin": "Greek",
+      "meaning": "bringer of light"
+    },
+    {
+      "name": "Lumine",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "light radiant shining one"
+    },
+    {
+      "name": "Luna",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "moon goddess celestial light"
+    },
+    {
+      "name": "Lux",
+      "gender": "unisex",
+      "origin": "Latin",
+      "meaning": "light bright illumination"
+    },
+    {
+      "name": "Luzia",
+      "gender": "female",
+      "origin": "Spanish",
+      "meaning": "light shining bright"
+    },
+    {
+      "name": "Milo",
+      "gender": "male",
+      "origin": "German",
+      "meaning": "merciful soldier and warrior"
+    },
+    {
+      "name": "Morgan",
+      "gender": "unisex",
+      "origin": "Welsh",
+      "meaning": "sea-born bright and sea"
+    },
+    {
+      "name": "Nora",
+      "gender": "female",
+      "origin": "Irish",
+      "meaning": "honor light shining one"
+    },
+    {
+      "name": "Norah",
+      "gender": "female",
+      "origin": "Irish",
+      "meaning": "honor light shining one"
+    },
+    {
+      "name": "Nova",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "new bright star"
+    },
+    {
+      "name": "Opal",
+      "gender": "female",
+      "origin": "Sanskrit",
+      "meaning": "precious stone bright gem"
+    },
+    {
+      "name": "Oriana",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "golden dawn rising sun"
+    },
+    {
+      "name": "Orion",
+      "gender": "male",
+      "origin": "Greek",
+      "meaning": "mighty hunter constellation star"
+    },
+    {
+      "name": "Paris",
+      "gender": "unisex",
+      "origin": "Greek",
+      "meaning": "city of light beauty"
+    },
+    {
+      "name": "Peridot",
+      "gender": "female",
+      "origin": "Arabic",
+      "meaning": "gemstone light green beauty"
+    },
+    {
+      "name": "Peter",
+      "gender": "male",
+      "origin": "Greek",
+      "meaning": "rock stone solid foundation"
+    },
+    {
+      "name": "Phoebe",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "radiant shining bright light"
+    },
+    {
+      "name": "Quartz",
+      "gender": "unisex",
+      "origin": "German",
+      "meaning": "crystal mineral clear brilliance"
+    },
+    {
+      "name": "Raiden",
+      "gender": "male",
+      "origin": "Japanese",
+      "meaning": "thunder lightning powerful force"
+    },
+    {
+      "name": "Ravi",
+      "gender": "male",
+      "origin": "Sanskrit",
+      "meaning": "sun shining bright light"
+    },
+    {
+      "name": "Robin",
+      "gender": "unisex",
+      "origin": "English",
+      "meaning": "bright fame shining glory"
+    },
+    {
+      "name": "Roxana",
+      "gender": "female",
+      "origin": "Persian",
+      "meaning": "bright dawn radiant light"
+    },
+    {
+      "name": "Samson",
+      "gender": "male",
+      "origin": "Hebrew",
+      "meaning": "sun bright strong warrior"
+    },
+    {
+      "name": "Selene",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "moon goddess lunar light"
+    },
+    {
+      "name": "Silver",
+      "gender": "unisex",
+      "origin": "English",
+      "meaning": "precious metal bright sheen"
+    },
+    {
+      "name": "Sol",
+      "gender": "unisex",
+      "origin": "Spanish",
+      "meaning": "sun radiant light"
+    },
+    {
+      "name": "Soleil",
+      "gender": "female",
+      "origin": "French",
+      "meaning": "sun bright shining"
+    },
+    {
+      "name": "Sophia",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "wisdom knowledge enlightenment"
+    },
+    {
+      "name": "Stanley",
+      "gender": "male",
+      "origin": "English",
+      "meaning": "stone clearing meadow"
+    },
+    {
+      "name": "Stella",
+      "gender": "female",
+      "origin": "Latin",
+      "meaning": "star celestial body"
+    },
+    {
+      "name": "Stone",
+      "gender": "male",
+      "origin": "English",
+      "meaning": "rock solid enduring strength"
+    },
+    {
+      "name": "Sunny",
+      "gender": "unisex",
+      "origin": "English",
+      "meaning": "bright cheerful radiant light"
+    },
+    {
+      "name": "Svetlana",
+      "gender": "female",
+      "origin": "Slavic",
+      "meaning": "light pure radiant one"
+    },
+    {
+      "name": "Taliesin",
+      "gender": "male",
+      "origin": "Welsh",
+      "meaning": "shining brow poetic bard"
+    },
+    {
+      "name": "Tara",
+      "gender": "female",
+      "origin": "Irish",
+      "meaning": "rocky hill star"
+    },
+    {
+      "name": "Theia",
+      "gender": "female",
+      "origin": "Greek",
+      "meaning": "goddess sight divine light"
+    },
+    {
+      "name": "Uriel",
+      "gender": "male",
+      "origin": "Hebrew",
+      "meaning": "light of god divine fire"
+    },
+    {
+      "name": "Voldemort",
+      "gender": "male",
+      "origin": "Fictional",
+      "meaning": "flight from death"
+    },
+    {
+      "name": "William",
+      "gender": "male",
+      "origin": "Germanic",
+      "meaning": "resolute protector strong-willed"
+    },
+    {
+      "name": "Xavier",
+      "gender": "male",
+      "origin": "Arabic",
+      "meaning": "bright, new house"
+    },
+    {
+      "name": "Zivia",
+      "gender": "female",
+      "origin": "Hebrew",
+      "meaning": "radiance, brightness, light"
+    },
+    {
+      "name": "Ziya",
+      "gender": "unisex",
+      "origin": "Arabic",
+      "meaning": "light, illumination, brightness"
+    }
+  ]
+}

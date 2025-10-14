@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-10-13T08:05:15.524Z",
+  "summary": {
+    "total": 35,
+    "success": 35,
+    "failed": 0,
+    "totalWords": 69842,
+    "totalTime": 2338
+  },
+  "byPillar": {
+    "Baby Gear & Products": {
+      "count": 12,
+      "words": 25453
+    },
+    "Pregnancy & Expecting": {
+      "count": 12,
+      "words": 22372
+    },
+    "New Mom Life & Postpartum": {
+      "count": 11,
+      "words": 22017
+    }
+  },
+  "successfulPosts": [
+    {
+      "id": 31,
+      "title": "Best Baby Strollers 2025: Complete Buying Guide",
+      "slug": "best-baby-strollers-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2027,
+      "searchVolume": 12000
+    },
+    {
+      "id": 32,
+      "title": "**Best Car Seats 2025: Safety Ratings & Expert Reviews**",
+      "slug": "best-car-seats-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2563,
+      "searchVolume": 18000
+    },
+    {
+      "id": 33,
+      "title": "## Ultimate Baby Registry Checklist: What You Really Need",
+      "slug": "ultimate-baby-registry-checklist",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 1929,
+      "searchVolume": 45000
+    },
+    {
+      "id": 34,
+      "title": "Best Baby Monitors 2025: Video, Audio & Smart Options",
+      "slug": "best-baby-monitors-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 1915,
+      "searchVolume": 28000
+    },
+    {
+      "id": 35,
+      "title": "**Best Baby Carriers 2025: Wraps, Slings & Structured Carriers**",
+      "slug": "best-baby-carriers-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 1968,
+      "searchVolume": 15000
+    },
+    {
+      "id": 36,
+      "title": "**Best Diaper Bags for Moms & Dads: Stylish & Functional**",
+      "slug": "best-diaper-bags-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2252,
+      "searchVolume": 22000
+    },
+    {
+      "id": 37,
+      "title": "Nursery Essentials: Complete Setup Guide for New Parents",
+      "slug": "nursery-essentials-guide",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2247,
+      "searchVolume": 8500
+    },
+    {
+      "id": 38,
+      "title": "Best Baby Bottles 2025: Anti-Colic, Breastfeeding-Friendly",
+      "slug": "best-baby-bottles-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2076,
+      "searchVolume": 12000
+    },
+    {
+      "id": 39,
+      "title": "**Best High Chairs 2025: Safe, Clean & Stylish Options**",
+      "slug": "best-high-chairs-2025",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 1729,
+      "searchVolume": 11000
+    },
+    {
+      "id": 40,
+      "title": "**Best Baby Swings & Bouncers: Soothing Solutions**",
+      "slug": "best-baby-swings-bouncers",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2167,
+      "searchVolume": 16000
+    },
+    {
+      "id": 41,
+      "title": "Best Baby Play Mats & Activity Gyms: Developmental Fun",
+      "slug": "best-baby-play-mats-activity-gyms",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2118,
+      "searchVolume": 14000
+    },
+    {
+      "id": 42,
+      "title": "Baby Travel Essentials: Complete Packing Guide",
+      "slug": "baby-travel-essentials-guide",
+      "category": "Baby Gear & Products",
+      "pillar": "baby-gear",
+      "wordCount": 2462,
+      "searchVolume": 6500
+    },
+    {
+      "id": 43,
+      "title": "Early Pregnancy Symptoms: Week-by-Week First Signs",
+      "slug": "early-pregnancy-symptoms-week-by-week",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1409,
+      "searchVolume": 55000
+    },
+    {
+      "id": 44,
+      "title": "**First Trimester Survival Guide: What to Expect (Weeks 1-12)**",
+      "slug": "first-trimester-survival-guide",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 2073,
+      "searchVolume": 28000
+    },
+    {
+      "id": 45,
+      "title": "Second Trimester Guide: The Honeymoon Period (Weeks 13-26)",
+      "slug": "second-trimester-guide-honeymoon-period",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1986,
+      "searchVolume": 22000
+    },
+    {
+      "id": 46,
+      "title": "**Third Trimester Prep: Final Countdown (Weeks 27-40)**",
+      "slug": "third-trimester-prep-final-countdown",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 2099,
+      "searchVolume": 20000
+    },
+    {
+      "id": 47,
+      "title": "Pregnancy Week by Week: Complete 40-Week Calendar",
+      "slug": "pregnancy-week-by-week-calendar",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1976,
+      "searchVolume": 18000
+    },
+    {
+      "id": 48,
+      "title": "Baby Kicks & Fetal Movement: When, Why, How to Count",
+      "slug": "baby-kicks-fetal-movement-guide",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1742,
+      "searchVolume": 12000
+    },
+    {
+      "id": 49,
+      "title": "## Pregnancy Diet: What to Eat (and Avoid) for Each Trimester",
+      "slug": "pregnancy-diet-nutrition-guide",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1949,
+      "searchVolume": 15000
+    },
+    {
+      "id": 50,
+      "title": "**Hospital Bag Checklist: What to Pack for Labor & Delivery**",
+      "slug": "hospital-bag-checklist",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1738,
+      "searchVolume": 24000
+    },
+    {
+      "id": 51,
+      "title": "**Pregnancy Announcements: Creative Ideas for Every Trimester**",
+      "slug": "creative-pregnancy-announcement-ideas",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1862,
+      "searchVolume": 16000
+    },
+    {
+      "id": 52,
+      "title": "**Gender Reveal Ideas: 50+ Creative & Fun Ways to Announce**",
+      "slug": "gender-reveal-ideas",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 2027,
+      "searchVolume": 22000
+    },
+    {
+      "id": 53,
+      "title": "Pregnancy Complications: Warning Signs & When to Call Your Doctor",
+      "slug": "pregnancy-complications-warning-signs",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1829,
+      "searchVolume": 8500
+    },
+    {
+      "id": 54,
+      "title": "**Best Pregnancy Apps: Track Your Baby's Development**",
+      "slug": "best-pregnancy-apps",
+      "category": "Pregnancy & Expecting",
+      "pillar": "pregnancy",
+      "wordCount": 1682,
+      "searchVolume": 14000
+    },
+    {
+      "id": 55,
+      "title": "Postpartum Recovery: Complete 6-Week Healing Guide",
+      "slug": "postpartum-recovery-6-week-guide",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 2344,
+      "searchVolume": 12000
+    },
+    {
+      "id": 56,
+      "title": "**Breastfeeding Guide: Positions, Tips & Troubleshooting**",
+      "slug": "breastfeeding-complete-guide",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1762,
+      "searchVolume": 85000
+    },
+    {
+      "id": 57,
+      "title": "Pumping 101: Complete Guide to Breast Pump Success",
+      "slug": "pumping-breast-pump-guide",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 2270,
+      "searchVolume": 32000
+    },
+    {
+      "id": 58,
+      "title": "Postpartum Depression: Signs, Support & Recovery",
+      "slug": "postpartum-depression-guide",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 2094,
+      "searchVolume": 28000
+    },
+    {
+      "id": 59,
+      "title": "C-Section Recovery: What to Expect & How to Heal",
+      "slug": "c-section-recovery-guide",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1931,
+      "searchVolume": 14000
+    },
+    {
+      "id": 60,
+      "title": "Newborn Sleep Schedule: 0-3 Month Survival Guide",
+      "slug": "newborn-sleep-schedule-0-3-months",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1819,
+      "searchVolume": 8500
+    },
+    {
+      "id": 61,
+      "title": "First Week Home with Baby: Hour-by-Hour Survival Guide",
+      "slug": "first-week-home-with-baby",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 2270,
+      "searchVolume": 6200
+    },
+    {
+      "id": 62,
+      "title": "Mom Self-Care: Postpartum Wellness for Body & Mind",
+      "slug": "postpartum-self-care-guide",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1820,
+      "searchVolume": 4800
+    },
+    {
+      "id": 63,
+      "title": "Returning to Work After Baby: Complete Transition Guide",
+      "slug": "returning-to-work-after-baby",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1952,
+      "searchVolume": 5500
+    },
+    {
+      "id": 64,
+      "title": "**Postpartum Body Changes: What's Normal, What's Not**",
+      "slug": "postpartum-body-changes",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1872,
+      "searchVolume": 7200
+    },
+    {
+      "id": 65,
+      "title": "New Mom Must-Haves: Postpartum Recovery Essentials",
+      "slug": "postpartum-recovery-essentials",
+      "category": "New Mom Life & Postpartum",
+      "pillar": "postpartum",
+      "wordCount": 1883,
+      "searchVolume": 6800
+    }
+  ],
+  "failures": []
+}

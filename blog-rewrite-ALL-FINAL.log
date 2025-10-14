@@ -1,0 +1,495 @@
+[dotenv@17.2.2] injecting env (41) from .env -- tip: ⚙️  override existing env vars with { override: true }
+
+⚙️  Configuration:
+   Minimum names: 35
+   Skip failures: Yes
+   Accept partial: Yes (35+ names)
+
+🚀 FINAL BLOG REWRITER WITH GPT-4o
+
+Target: 35+ names per post
+Requirement: 3+ nicknames per name
+Model: GPT-4o (strongest LLM)
+Mode: Skip failures
+
+📚 Found 16 published blogs
+
+
+📋 WILL PROCESS 16 POSTS:
+   1. Literary Baby Names from Classic Literature: 11+ Timeless Characters for 2025 (7 → 35+)
+   2. 100 Unique Baby Names That Aren't Too Weird (8 → 35+)
+   3. Mythology Baby Names: 11+ Greek, Norse & Celtic Legends for 2025 (9 → 35+)
+   4. Royal & Regal Baby Names from History: 12+ Majestic Names for 2025 (9 → 35+)
+   5. Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025 (10 → 35+)
+   6. Gender-Neutral Baby Names: 12+ Unisex Names for Any Child in 2025 (10 → 35+)
+   7. Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025 (11 → 35+)
+   8. International Baby Names That Work in English: 15+ Global Gems for 2025 (12 → 35+)
+   9. Top 100 Baby Names of 2025: Trending Names Parents Love (13 → 35+)
+   10. Irish Baby Names: Pronunciation Guide & Beautiful Meanings (14 → 35+)
+   11. Short Baby Names with Big Meanings: 19+ Powerful 3-4 Letter Names for 2025 (14 → 35+)
+   12. Biblical Baby Names: Complete Guide with Meanings & Origins (18 → 35+)
+   13. Nature-Inspired Baby Names: 21+ Earth, Flora & Fauna Names for 2025 (18 → 35+)
+   14. Names That Mean Moon: 20+ Lunar Names to Shine in 2025 (20 → 35+)
+   15. Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨ (23 → 35+)
+   16. How to Choose the Perfect Baby Name: 10 Expert Tips (63 → 35+)
+
+
+================================================================================
+📝 Rewriting: Literary Baby Names from Classic Literature: 11+ Timeless Characters for 2025
+   Current names: 7
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 30 name mentions (30 unique)
+   📝 Estimated 10 nickname sections (avg 0.3 per name)
+   ⚠️  WARNING: Only 30 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Literary Baby Names from Classic Literature: 11+ Timeless Characters for 2025
+   Current names: 7
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 30 name mentions (30 unique)
+   📝 Estimated 22 nickname sections (avg 0.7 per name)
+   ⚠️  WARNING: Only 30 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Literary Baby Names from Classic Literature: 11+ Timeless Characters for 2025
+   Current names: 7
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 31 name mentions (31 unique)
+   📝 Estimated 17 nickname sections (avg 0.5 per name)
+   ⚠️  WARNING: Only 31 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 31)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 31)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 31)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 31)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: 100 Unique Baby Names That Aren't Too Weird
+   Current names: 8
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 35 name mentions (35 unique)
+   📝 Estimated 26 nickname sections (avg 0.7 per name)
+   💾 Updated in Firestore
+   📊 8 → 35 names
+   📝 26 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Mythology Baby Names: 11+ Greek, Norse & Celtic Legends for 2025
+   Current names: 9
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 40 name mentions (35 unique)
+   📝 Estimated 33 nickname sections (avg 0.9 per name)
+   💾 Updated in Firestore
+   📊 9 → 35 names
+   📝 33 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Royal & Regal Baby Names from History: 12+ Majestic Names for 2025
+   Current names: 9
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 27 name mentions (26 unique)
+   📝 Estimated 21 nickname sections (avg 0.8 per name)
+   ⚠️  WARNING: Only 26 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Royal & Regal Baby Names from History: 12+ Majestic Names for 2025
+   Current names: 9
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 35 name mentions (33 unique)
+   📝 Estimated 24 nickname sections (avg 0.7 per name)
+   ⚠️  WARNING: Only 33 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Royal & Regal Baby Names from History: 12+ Majestic Names for 2025
+   Current names: 9
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 32 name mentions (32 unique)
+   📝 Estimated 19 nickname sections (avg 0.6 per name)
+   ⚠️  WARNING: Only 32 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 32)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025
+   Current names: 10
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 36 name mentions (30 unique)
+   📝 Estimated 29 nickname sections (avg 1.0 per name)
+   ⚠️  WARNING: Only 30 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025
+   Current names: 10
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 34 name mentions (28 unique)
+   📝 Estimated 27 nickname sections (avg 1.0 per name)
+   ⚠️  WARNING: Only 28 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025
+   Current names: 10
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 36 name mentions (30 unique)
+   📝 Estimated 26 nickname sections (avg 0.9 per name)
+   ⚠️  WARNING: Only 30 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 30)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 30)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 30)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 30)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: Gender-Neutral Baby Names: 12+ Unisex Names for Any Child in 2025
+   Current names: 10
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 34 name mentions (31 unique)
+   📝 Estimated 20 nickname sections (avg 0.6 per name)
+   ⚠️  WARNING: Only 31 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Gender-Neutral Baby Names: 12+ Unisex Names for Any Child in 2025
+   Current names: 10
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 34 name mentions (31 unique)
+   📝 Estimated 15 nickname sections (avg 0.5 per name)
+   ⚠️  WARNING: Only 31 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Gender-Neutral Baby Names: 12+ Unisex Names for Any Child in 2025
+   Current names: 10
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 30 name mentions (27 unique)
+   📝 Estimated 14 nickname sections (avg 0.5 per name)
+   ⚠️  WARNING: Only 27 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 27)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 27)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 27)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 27)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025
+   Current names: 11
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 33 name mentions (30 unique)
+   📝 Estimated 22 nickname sections (avg 0.7 per name)
+   ⚠️  WARNING: Only 30 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025
+   Current names: 11
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 37 name mentions (37 unique)
+   📝 Estimated 30 nickname sections (avg 0.8 per name)
+   💾 Updated in Firestore
+   📊 11 → 37 names
+   📝 30 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: International Baby Names That Work in English: 15+ Global Gems for 2025
+   Current names: 12
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 32 name mentions (28 unique)
+   📝 Estimated 14 nickname sections (avg 0.5 per name)
+   ⚠️  WARNING: Only 28 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: International Baby Names That Work in English: 15+ Global Gems for 2025
+   Current names: 12
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 31 name mentions (27 unique)
+   📝 Estimated 21 nickname sections (avg 0.8 per name)
+   ⚠️  WARNING: Only 27 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: International Baby Names That Work in English: 15+ Global Gems for 2025
+   Current names: 12
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 33 name mentions (29 unique)
+   📝 Estimated 20 nickname sections (avg 0.7 per name)
+   ⚠️  WARNING: Only 29 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 29)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 29)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 29)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 29)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: Top 100 Baby Names of 2025: Trending Names Parents Love
+   Current names: 13
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 41 name mentions (41 unique)
+   📝 Estimated 41 nickname sections (avg 1.0 per name)
+   💾 Updated in Firestore
+   📊 13 → 41 names
+   📝 41 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Irish Baby Names: Pronunciation Guide & Beautiful Meanings
+   Current names: 14
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 37 name mentions (37 unique)
+   📝 Estimated 33 nickname sections (avg 0.9 per name)
+   💾 Updated in Firestore
+   📊 14 → 37 names
+   📝 33 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Short Baby Names with Big Meanings: 19+ Powerful 3-4 Letter Names for 2025
+   Current names: 14
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 41 name mentions (37 unique)
+   📝 Estimated 18 nickname sections (avg 0.5 per name)
+   💾 Updated in Firestore
+   📊 14 → 37 names
+   📝 18 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Biblical Baby Names: Complete Guide with Meanings & Origins
+   Current names: 18
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 29 name mentions (29 unique)
+   📝 Estimated 18 nickname sections (avg 0.6 per name)
+   ⚠️  WARNING: Only 29 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Biblical Baby Names: Complete Guide with Meanings & Origins
+   Current names: 18
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 36 name mentions (36 unique)
+   📝 Estimated 30 nickname sections (avg 0.8 per name)
+   💾 Updated in Firestore
+   📊 18 → 36 names
+   📝 30 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Nature-Inspired Baby Names: 21+ Earth, Flora & Fauna Names for 2025
+   Current names: 18
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 40 name mentions (32 unique)
+   📝 Estimated 22 nickname sections (avg 0.7 per name)
+   ⚠️  WARNING: Only 32 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Nature-Inspired Baby Names: 21+ Earth, Flora & Fauna Names for 2025
+   Current names: 18
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 39 name mentions (36 unique)
+   📝 Estimated 16 nickname sections (avg 0.4 per name)
+   💾 Updated in Firestore
+   📊 18 → 36 names
+   📝 16 nickname groups
+   ✅ SUCCESS!
+   ⏳ Waiting 3s before next post...
+
+================================================================================
+📝 Rewriting: Names That Mean Moon: 20+ Lunar Names to Shine in 2025
+   Current names: 20
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 31 name mentions (30 unique)
+   📝 Estimated 27 nickname sections (avg 0.9 per name)
+   ⚠️  WARNING: Only 30 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Names That Mean Moon: 20+ Lunar Names to Shine in 2025
+   Current names: 20
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 33 name mentions (29 unique)
+   📝 Estimated 25 nickname sections (avg 0.9 per name)
+   ⚠️  WARNING: Only 29 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Names That Mean Moon: 20+ Lunar Names to Shine in 2025
+   Current names: 20
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 31 name mentions (26 unique)
+   📝 Estimated 14 nickname sections (avg 0.5 per name)
+   ⚠️  WARNING: Only 26 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 26)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 26)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 26)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 26)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨
+   Current names: 23
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 28 name mentions (28 unique)
+   📝 Estimated 12 nickname sections (avg 0.4 per name)
+   ⚠️  WARNING: Only 28 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨
+   Current names: 23
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 2/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 31 name mentions (31 unique)
+   📝 Estimated 24 nickname sections (avg 0.8 per name)
+   ⚠️  WARNING: Only 31 unique names - need 35+
+   🔄 Retrying with stricter requirements...
+
+================================================================================
+📝 Rewriting: Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨
+   Current names: 23
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 3/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 32 name mentions (32 unique)
+   📝 Estimated 25 nickname sections (avg 0.8 per name)
+   ⚠️  WARNING: Only 32 unique names - need 35+
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Error: Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Failed: Could not generate 35+ names after 3 attempts (got 32)
+   ⏭️  Skipping and continuing with next post...
+
+================================================================================
+📝 Rewriting: How to Choose the Perfect Baby Name: 10 Expert Tips
+   Current names: 63
+   Target: 35+ names with 3+ nicknames each
+   Attempt: 1/3
+   🤖 Calling GPT-4o...
+   ✅ Generated content with 63 name mentions (63 unique)
+   📝 Estimated 49 nickname sections (avg 0.8 per name)
+   💾 Updated in Firestore
+   📊 63 → 63 names
+   📝 49 nickname groups
+   ✅ SUCCESS!
+
+================================================================================
+📊 FINAL SUMMARY
+
+   ✅ Successfully rewritten: 9
+   ❌ Failed: 7
+   ⏭️  Skipped (will retry later): 7
+   📝 Total processed: 16
+   📚 Total posts in system: 16
+
+📈 RESULTS:
+
+   ❌ Literary Baby Names from Classic Literature: 11+ Timeless Characters for 2025: ERROR - Could not generate 35+ names after 3 attempts (got 31)
+   ✅ 100 Unique Baby Names That Aren't Too Weird:
+      8 → 35 names | 905 words | 26 nickname groups
+   ✅ Mythology Baby Names: 11+ Greek, Norse & Celtic Legends for 2025:
+      9 → 35 names | 1398 words | 33 nickname groups
+   ❌ Royal & Regal Baby Names from History: 12+ Majestic Names for 2025: ERROR - Could not generate 35+ names after 3 attempts (got 32)
+   ❌ Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025: ERROR - Could not generate 35+ names after 3 attempts (got 30)
+   ❌ Gender-Neutral Baby Names: 12+ Unisex Names for Any Child in 2025: ERROR - Could not generate 35+ names after 3 attempts (got 27)
+   ✅ Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025:
+      11 → 37 names | 1164 words | 30 nickname groups
+   ❌ International Baby Names That Work in English: 15+ Global Gems for 2025: ERROR - Could not generate 35+ names after 3 attempts (got 29)
+   ✅ Top 100 Baby Names of 2025: Trending Names Parents Love:
+      13 → 41 names | 988 words | 41 nickname groups
+   ✅ Irish Baby Names: Pronunciation Guide & Beautiful Meanings:
+      14 → 37 names | 968 words | 33 nickname groups
+   ✅ Short Baby Names with Big Meanings: 19+ Powerful 3-4 Letter Names for 2025:
+      14 → 37 names | 1037 words | 18 nickname groups
+   ✅ Biblical Baby Names: Complete Guide with Meanings & Origins:
+      18 → 36 names | 992 words | 30 nickname groups
+   ✅ Nature-Inspired Baby Names: 21+ Earth, Flora & Fauna Names for 2025:
+      18 → 36 names | 1042 words | 16 nickname groups
+   ❌ Names That Mean Moon: 20+ Lunar Names to Shine in 2025: ERROR - Could not generate 35+ names after 3 attempts (got 26)
+   ❌ Baby Names That Shine: Light, Sun & Star Names That Sparkle ✨: ERROR - Could not generate 35+ names after 3 attempts (got 32)
+   ✅ How to Choose the Perfect Baby Name: 10 Expert Tips:
+      63 → 63 names | 1428 words | 49 nickname groups
+
+💾 Detailed report: rewrite-report-final-1760334017891.json
+
+✅ 9 posts rewritten successfully!
+⏭️  7 posts skipped - run again to retry them
+

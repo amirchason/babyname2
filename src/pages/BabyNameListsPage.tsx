@@ -28,6 +28,7 @@ const BabyNameListsPage: React.FC = () => {
   const [selectedName, setSelectedName] = useState<BabyName | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const namesPerPage = 30;
+  const [removedNames, setRemovedNames] = useState<Set<string>>(new Set());
 
   // Load all names and themed lists lazily on mount
   useEffect(() => {
@@ -92,8 +93,11 @@ const BabyNameListsPage: React.FC = () => {
       }
     }
 
+    // Filter out removed names (for swipe-off animation)
+    filtered = filtered.filter(name => !removedNames.has(name.name));
+
     return filtered.slice(0, 100); // Limit to 100 results
-  }, [searchTerm, allNames, genderFilter, sortBy, sortReverse, shuffleTrigger]);
+  }, [searchTerm, allNames, genderFilter, sortBy, sortReverse, shuffleTrigger, removedNames]);
 
   // Category counts
   const categoryCounts = useMemo(() => {
@@ -130,6 +134,12 @@ const BabyNameListsPage: React.FC = () => {
 
   const handleCollapseAll = () => {
     setExpandedAccordions(new Set());
+  };
+
+  // Handle name removal with animation
+  const handleNameRemove = (nameName: string) => {
+    // Add to removed set to trigger exit animation
+    setRemovedNames(prev => new Set(prev).add(nameName));
   };
 
   return (
@@ -560,42 +570,68 @@ const BabyNameListsPage: React.FC = () => {
               {paginatedNames.length > 0 ? (
                 <>
                   {viewMode === 'grid' ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                      {paginatedNames.map((name, index) => (
-                        <motion.div
-                          key={`${name.name}-${index}`}
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: index * 0.03, duration: 0.3 }}
-                        >
-                          <NameCard
-                            name={name}
-                            onClick={() => setSelectedName(name)}
-                            onFavoriteToggle={() => {
-                              // Trigger refresh
+                    <AnimatePresence mode="popLayout">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                        {paginatedNames.map((name, index) => (
+                          <motion.div
+                            key={name.name}
+                            layout
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{
+                              x: 400,
+                              rotate: 30,
+                              opacity: 0,
+                              scale: 0.7,
+                              transition: { duration: 0.3, ease: "easeOut" }
                             }}
-                          />
-                        </motion.div>
-                      ))}
-                    </div>
+                            transition={{
+                              layout: { duration: 0.3, ease: "easeInOut" },
+                              opacity: { delay: index * 0.03, duration: 0.3 }
+                            }}
+                          >
+                            <NameCard
+                              name={name}
+                              onClick={() => setSelectedName(name)}
+                              onFavoriteToggle={() => {
+                                // Trigger swipe-off animation on like
+                                handleNameRemove(name.name);
+                              }}
+                            />
+                          </motion.div>
+                        ))}
+                      </div>
+                    </AnimatePresence>
                   ) : (
                     <div className="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm">
-                      {paginatedNames.map((name, index) => (
-                        <motion.div
-                          key={`${name.name}-${index}`}
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: index * 0.02, duration: 0.2 }}
-                        >
-                          <NameCardCompact
-                            name={name}
-                            onClick={() => setSelectedName(name)}
-                            onFavoriteToggle={() => {
-                              // Trigger refresh
+                      <AnimatePresence mode="popLayout">
+                        {paginatedNames.map((name, index) => (
+                          <motion.div
+                            key={name.name}
+                            layout
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{
+                              x: 400,
+                              opacity: 0,
+                              transition: { duration: 0.3, ease: "easeOut" }
                             }}
-                          />
-                        </motion.div>
-                      ))}
+                            transition={{
+                              layout: { duration: 0.3, ease: "easeInOut" },
+                              opacity: { delay: index * 0.02, duration: 0.2 }
+                            }}
+                          >
+                            <NameCardCompact
+                              name={name}
+                              onClick={() => setSelectedName(name)}
+                              onFavoriteToggle={() => {
+                                // Trigger swipe-off animation on like
+                                handleNameRemove(name.name);
+                              }}
+                            />
+                          </motion.div>
+                        ))}
+                      </AnimatePresence>
                     </div>
                   )}
 

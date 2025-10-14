@@ -1,0 +1,33 @@
+[dotenv@17.2.2][DEBUG] No encoding is specified. UTF-8 is used by default
+[dotenv@17.2.2] injecting env (41) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+
+======================================================================
+🎨 PREMIUM REWRITE: post-2-vintage-names.json
+======================================================================
+
+📖 Current Post:
+   Title: Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025
+   Current name count: ~33
+   SEO Keywords: vintage baby names, old-fashioned baby names, vintage names comeback, classic baby names, retro baby names...
+
+📦 Loading database...
+   Loaded 145,192 names from database
+   Total names available: 145,192
+
+🤖 Generating premium content with GPT-4o...
+   Model: gpt-4o
+   Max tokens: 14000
+   Temperature: 0.7
+
+✅ Generated content with 51 names
+
+💾 Saved:
+   Main: post-2-vintage-names.json
+   Backup: post-2-vintage-names_backup_premium.json
+   Names: 51
+   Words: 1080
+   Reading time: 6 min
+
+======================================================================
+✨ PREMIUM REWRITE COMPLETE!
+======================================================================

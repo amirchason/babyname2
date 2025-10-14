@@ -1,0 +1,473 @@
+{
+  "timestamp": "2025-10-13T08:48:15.312Z",
+  "summary": {
+    "total": 65,
+    "success": 65,
+    "failed": 0
+  },
+  "byPillar": {
+    "baby-names": 10,
+    "baby-milestones": 20,
+    "baby-gear": 12,
+    "pregnancy": 12,
+    "postpartum": 11
+  },
+  "results": [
+    {
+      "id": 1,
+      "title": "Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing: 66+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "baby-names-that-mean-miracle"
+    },
+    {
+      "id": 10,
+      "title": "Baby Names That Mean Strength: 70+ Powerful Names for Warriors: 49+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "baby-names-mean-strength-powerful"
+    },
+    {
+      "id": 2,
+      "title": "Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet: 60+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "hottest-baby-names-2025-trending"
+    },
+    {
+      "id": 3,
+      "title": "90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide: 58+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "90s-baby-names-comeback-nostalgia"
+    },
+    {
+      "id": 4,
+      "title": "Bird Names for Babies:  That Take Flight: 69+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "bird-names-for-babies-nature"
+    },
+    {
+      "id": 5,
+      "title": "Luxury Baby Names: 55+ Names That Sound Like a Million Dollars",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "luxury-baby-names-rich-elegant"
+    },
+    {
+      "id": 6,
+      "title": "Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide: 41+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "baby-names-ending-lynn-trend"
+    },
+    {
+      "id": 7,
+      "title": "Landscape Baby Names: 60+ Mountains, Rivers & Places for Your Explorer",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "landscape-baby-names-geography"
+    },
+    {
+      "id": 8,
+      "title": "Two-Syllable Baby Names: 65+ Perfect, Punchy Names That Pop",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "two-syllable-baby-names-short"
+    },
+    {
+      "id": 9,
+      "title": "Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids: 72+ Names",
+      "category": "Baby Names",
+      "pillar": "baby-names",
+      "slug": "celebrity-baby-names-2024-2025"
+    },
+    {
+      "id": 1,
+      "title": "Newborn Milestones: Your Baby's First Month Magic: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "newborn-milestones-first-month"
+    },
+    {
+      "id": 10,
+      "title": "10 Month Baby Milestones: Standing & Waving Bye-Bye: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "10-month-baby-milestones"
+    },
+    {
+      "id": 11,
+      "title": "11 Month Baby Milestones: Walking Practice & More Words: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "11-month-baby-milestones"
+    },
+    {
+      "id": 12,
+      "title": "12 Month Baby Milestones: First Steps & First Birthday: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "12-month-baby-milestones"
+    },
+    {
+      "id": 13,
+      "title": "1 Year Baby Milestones: Your Toddler's Big Leap Forward: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "1-year-baby-milestones-toddler"
+    },
+    {
+      "id": 14,
+      "title": "Physical Development Milestones: From Rolling to Running (0-18 Months): 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "physical-development-milestones-baby"
+    },
+    {
+      "id": 15,
+      "title": "Cognitive Milestones: How Your Baby Learns to Think (0-18 Months): 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "cognitive-milestones-baby-development"
+    },
+    {
+      "id": 16,
+      "title": "Language Milestones: From Coos to Conversations (0-18 Months): 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "language-milestones-baby-development"
+    },
+    {
+      "id": 17,
+      "title": "Social-Emotional Milestones: Building Your Baby's Heart (0-18 Months): 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "social-emotional-milestones-baby"
+    },
+    {
+      "id": 18,
+      "title": "Baby Sleep Milestones & Regression Ages: The Complete Survival Guide: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "baby-sleep-milestones-regression-ages"
+    },
+    {
+      "id": 19,
+      "title": "Baby Growth Spurts: When They Happen & How to Survive Them: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "baby-growth-spurts-when-how-survive"
+    },
+    {
+      "id": 2,
+      "title": "2 Month Baby Milestones: Social Smiles & Cooing Begin: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "2-month-baby-milestones"
+    },
+    {
+      "id": 20,
+      "title": "Baby Feeding Milestones: From Breast to Solids to Table Food (0-18 Months): 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "baby-feeding-milestones-breast-solids"
+    },
+    {
+      "id": 3,
+      "title": "3 Month Baby Milestones: Head Control & Hand Discovery: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "3-month-baby-milestones"
+    },
+    {
+      "id": 4,
+      "title": "4 Month Baby Milestones: Rolling Over & Laughing Out Loud: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "4-month-baby-milestones"
+    },
+    {
+      "id": 5,
+      "title": "5 Month Baby Milestones: Sitting Practice & Solid Food Prep: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "5-month-baby-milestones"
+    },
+    {
+      "id": 6,
+      "title": "6 Month Baby Milestones: Sitting Up & First Teeth: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "6-month-baby-milestones"
+    },
+    {
+      "id": 7,
+      "title": "7 Month Baby Milestones: Crawling Practice & Stranger Anxiety: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "7-month-baby-milestones"
+    },
+    {
+      "id": 8,
+      "title": "8 Month Baby Milestones: Pulling Up & Pointing: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "8-month-baby-milestones"
+    },
+    {
+      "id": 9,
+      "title": "9 Month Baby Milestones: Cruising & First Words Emerge: 35+ Names",
+      "category": "Baby Milestones",
+      "pillar": "baby-milestones",
+      "slug": "9-month-baby-milestones"
+    },
+    {
+      "id": 42,
+      "title": "Baby Travel Essentials: Complete Packing Guide",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "baby-travel-essentials-guide"
+    },
+    {
+      "id": 38,
+      "title": "Best Baby Bottles 2025: Anti-Colic, Breastfeeding-Friendly",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-baby-bottles-2025"
+    },
+    {
+      "id": 35,
+      "title": "**Best Baby Carriers 2025: Wraps, Slings & Structured Carriers**",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-baby-carriers-2025"
+    },
+    {
+      "id": 34,
+      "title": "Best Baby Monitors 2025: Video, Audio & Smart Options",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-baby-monitors-2025"
+    },
+    {
+      "id": 41,
+      "title": "Best Baby Play Mats & Activity Gyms: Developmental Fun",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-baby-play-mats-activity-gyms"
+    },
+    {
+      "id": 31,
+      "title": "Best Baby Strollers 2025: Complete Buying Guide",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-baby-strollers-2025"
+    },
+    {
+      "id": 40,
+      "title": "**Best Baby Swings & Bouncers: Soothing Solutions**",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-baby-swings-bouncers"
+    },
+    {
+      "id": 32,
+      "title": "**Best Car Seats 2025: Safety Ratings & Expert Reviews**",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-car-seats-2025"
+    },
+    {
+      "id": 36,
+      "title": "**Best Diaper Bags for Moms & Dads: Stylish & Functional**",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-diaper-bags-2025"
+    },
+    {
+      "id": 39,
+      "title": "**Best High Chairs 2025: Safe, Clean & Stylish Options**",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "best-high-chairs-2025"
+    },
+    {
+      "id": 37,
+      "title": "Nursery Essentials: Complete Setup Guide for New Parents",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "nursery-essentials-guide"
+    },
+    {
+      "id": 33,
+      "title": "## Ultimate Baby Registry Checklist: What You Really Need",
+      "category": "Baby Gear",
+      "pillar": "baby-gear",
+      "slug": "ultimate-baby-registry-checklist"
+    },
+    {
+      "id": 48,
+      "title": "Baby Kicks & Fetal Movement: When, Why, How to Count",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "baby-kicks-fetal-movement-guide"
+    },
+    {
+      "id": 54,
+      "title": "**Best Pregnancy Apps: Track Your Baby's Development**",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "best-pregnancy-apps"
+    },
+    {
+      "id": 51,
+      "title": "**Pregnancy Announcements: Creative Ideas for Every Trimester**",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "creative-pregnancy-announcement-ideas"
+    },
+    {
+      "id": 43,
+      "title": "Early Pregnancy Symptoms: Week-by-Week First Signs",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "early-pregnancy-symptoms-week-by-week"
+    },
+    {
+      "id": 44,
+      "title": "**First Trimester Survival Guide: What to Expect (Weeks 1-12)**",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "first-trimester-survival-guide"
+    },
+    {
+      "id": 52,
+      "title": "**Gender Reveal Ideas: 50+ Creative & Fun Ways to Announce**",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "gender-reveal-ideas"
+    },
+    {
+      "id": 50,
+      "title": "**Hospital Bag Checklist: What to Pack for Labor & Delivery**",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "hospital-bag-checklist"
+    },
+    {
+      "id": 53,
+      "title": "Pregnancy Complications: Warning Signs & When to Call Your Doctor",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "pregnancy-complications-warning-signs"
+    },
+    {
+      "id": 49,
+      "title": "## Pregnancy Diet: What to Eat (and Avoid) for Each Trimester",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "pregnancy-diet-nutrition-guide"
+    },
+    {
+      "id": 47,
+      "title": "Pregnancy Week by Week: Complete 40-Week Calendar",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "pregnancy-week-by-week-calendar"
+    },
+    {
+      "id": 45,
+      "title": "Second Trimester Guide: The Honeymoon Period (Weeks 13-26)",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "second-trimester-guide-honeymoon-period"
+    },
+    {
+      "id": 46,
+      "title": "**Third Trimester Prep: Final Countdown (Weeks 27-40)**",
+      "category": "Pregnancy",
+      "pillar": "pregnancy",
+      "slug": "third-trimester-prep-final-countdown"
+    },
+    {
+      "id": 56,
+      "title": "**Breastfeeding Guide: Positions, Tips & Troubleshooting**",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "breastfeeding-complete-guide"
+    },
+    {
+      "id": 59,
+      "title": "C-Section Recovery: What to Expect & How to Heal",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "c-section-recovery-guide"
+    },
+    {
+      "id": 61,
+      "title": "First Week Home with Baby: Hour-by-Hour Survival Guide",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "first-week-home-with-baby"
+    },
+    {
+      "id": 60,
+      "title": "Newborn Sleep Schedule: 0-3 Month Survival Guide",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "newborn-sleep-schedule-0-3-months"
+    },
+    {
+      "id": 64,
+      "title": "**Postpartum Body Changes: What's Normal, What's Not**",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "postpartum-body-changes"
+    },
+    {
+      "id": 58,
+      "title": "Postpartum Depression: Signs, Support & Recovery",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "postpartum-depression-guide"
+    },
+    {
+      "id": 55,
+      "title": "Postpartum Recovery: Complete 6-Week Healing Guide",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "postpartum-recovery-6-week-guide"
+    },
+    {
+      "id": 65,
+      "title": "New Mom Must-Haves: Postpartum Recovery Essentials",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "postpartum-recovery-essentials"
+    },
+    {
+      "id": 62,
+      "title": "Mom Self-Care: Postpartum Wellness for Body & Mind",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "postpartum-self-care-guide"
+    },
+    {
+      "id": 57,
+      "title": "Pumping 101: Complete Guide to Breast Pump Success",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "pumping-breast-pump-guide"
+    },
+    {
+      "id": 63,
+      "title": "Returning to Work After Baby: Complete Transition Guide",
+      "category": "Postpartum",
+      "pillar": "postpartum",
+      "slug": "returning-to-work-after-baby"
+    }
+  ],
+  "failures": []
+}

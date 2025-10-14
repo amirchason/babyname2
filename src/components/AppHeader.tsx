@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers } from 'lucide-react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers, BookOpen, Home, List, Shuffle } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import favoritesService from '../services/favoritesService';
 import AdminMenu from './AdminMenu';
@@ -21,6 +21,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
   showBackButton = false,
 }) => {
   const navigate = useNavigate();
+  const location = useLocation();
   const { user, isAuthenticated, login, logout } = useAuth();
   const [favoritesCount, setFavoritesCount] = useState(0);
   const [dislikesCount, setDislikesCount] = useState(0);
@@ -71,6 +72,65 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               {title}
             </h1>
           </button>
+
+          {/* Desktop Navigation Menu - Hidden on Mobile */}
+          <nav className="hidden lg:flex items-center gap-1">
+            <button
+              onClick={() => navigate('/')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/' || location.pathname === '/babyname2'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Home className="w-4 h-4" />
+              <span>Home</span>
+            </button>
+            <button
+              onClick={() => navigate('/names')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/names'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <List className="w-4 h-4" />
+              <span>Browse Names</span>
+            </button>
+            <button
+              onClick={() => navigate('/babynamelists')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/babynamelists'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Layers className="w-4 h-4" />
+              <span>Curated Lists</span>
+            </button>
+            <button
+              onClick={() => navigate('/blog')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname.startsWith('/blog')
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>Blog</span>
+            </button>
+            <button
+              onClick={() => navigate('/swipe')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/swipe'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Shuffle className="w-4 h-4" />
+              <span>Swipe Mode</span>
+            </button>
+          </nav>
 
           {/* Right Side - Search and Navigation */}
           <div className="flex items-center space-x-4">
@@ -191,6 +251,16 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               >
                 <Layers className="w-4 h-4" />
                 <span>Curated Lists</span>
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/blog');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span>Blog</span>
               </button>
               <button
                 onClick={() => {

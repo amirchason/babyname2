@@ -19,7 +19,7 @@ import { oneSyllableNames } from '../data/oneSyllableNames';
 
 const HomePage: React.FC = () => {
   // Use global name cache (prevents reloading on navigation)
-  const { names: cachedNames, isLoading: cacheLoading, allOrigins: cachedOrigins, genderCounts: cachedGenderCounts, debugInfo } = useNameCache();
+  const { names: cachedNames, isLoading: cacheLoading, allOrigins: cachedOrigins, genderCounts: cachedGenderCounts } = useNameCache();
 
   // Track if this is first visit (prevents animation replay)
   const isFirstVisit = useFirstVisit('homepage');
@@ -458,30 +458,6 @@ const HomePage: React.FC = () => {
 
       {/* AppHeader with consistent counters */}
       <AppHeader title="SoulSeed" showBackButton={false} />
-
-      {/* 🔍 DEBUG PANEL - Shows database loading status */}
-      <div className="fixed top-16 right-2 z-50 bg-black/90 text-white p-3 rounded-lg text-xs font-mono shadow-2xl max-w-[200px]">
-        <div className="font-bold text-green-400 mb-1">📊 DATABASE STATUS</div>
-        <div>Status: <span className={`font-bold ${
-          debugInfo.status === 'complete' ? 'text-green-400' :
-          debugInfo.status === 'loading-chunks' ? 'text-yellow-400 animate-pulse' :
-          'text-red-400'
-        }`}>{debugInfo.status}</span></div>
-        <div className="mt-1 pt-1 border-t border-gray-600">
-          <div>Init Count: <span className={`font-bold ${
-            debugInfo.initCount > 1 ? 'text-red-400 animate-pulse' : 'text-green-400'
-          }`}>{debugInfo.initCount}</span> {debugInfo.initCount > 1 && '🔥 LOOP!'}</div>
-          <div>Initial: <span className="text-yellow-400">{debugInfo.initialLoad}</span></div>
-          <div>Full Load: <span className="text-green-400">{debugInfo.fullLoad}</span></div>
-          <div>Cached: <span className="text-purple-400">{cachedNames.length}</span></div>
-        </div>
-        <div className="mt-1 pt-1 border-t border-gray-600 text-[10px]">
-          <div className="text-gray-400">Target: 145,599</div>
-          <div className={cachedNames.length >= 145000 ? 'text-green-400' : 'text-red-400'}>
-            {cachedNames.length >= 145000 ? '✅ LOADED' : '❌ NOT LOADED'}
-          </div>
-        </div>
-      </div>
 
       {/* Full-width Search Bar - Below Header */}
       <AnimatePresence>

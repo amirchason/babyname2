@@ -1,0 +1,31 @@
+[dotenv@17.2.2] injecting env (41) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+
+======================================================================
+🔧 BLOG POST FORMATTING FIX
+======================================================================
+
+Scanning for posts with unformatted markdown (##, **, etc.)
+
+📚 Fetching blog posts from Firestore...
+[2025-10-13T18:00:11.864Z]  @firebase/firestore: Firestore (12.3.0): GrpcConnection RPC 'Listen' stream 0x3407180f error. Code: 3 Message: 3 INVALID_ARGUMENT: Invalid resource field value in the request.
+[2025-10-13T18:00:11.868Z]  @firebase/firestore: Firestore (12.3.0): Could not reach Cloud Firestore backend. Connection failed 1 times. Most recent error: FirebaseError: [code=invalid-argument]: 3 INVALID_ARGUMENT: Invalid resource field value in the request.
+This typically indicates that your device does not have a healthy Internet connection at the moment. The client will operate in offline mode until it is able to successfully connect to the backend.
+✅ Found 0 published posts
+
+======================================================================
+
+======================================================================
+✅ FORMATTING FIX COMPLETE
+
+📊 Summary:
+   Total Posts: 0
+   Checked: 0
+   Needed Fixing: 0
+   ✅ Fixed: 0
+   ❌ Failed: 0
+
+💡 Next Steps:
+   1. Re-deploy to see changes: npm run deploy
+   2. Test blog posts in browser
+   3. Verify HTML formatting is correct
+======================================================================

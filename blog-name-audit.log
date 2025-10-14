@@ -1,0 +1,1533 @@
+[dotenv@17.2.2] injecting env (41) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+📊 Loaded 145217 names from database
+
+🏆 BLOG NAME AUDIT & ENRICHMENT
+================================================================================
+
+📋 Tasks:
+   1. Check each blog for name count
+   2. Add names if < 30
+   3. Enrich missing names in database
+   4. Update blog titles
+   5. Ensure all names are searchable
+
+================================================================================
+
+📂 Found 30 blog posts to process
+
+
+================================================================================
+📝 Processing: blog-post-1-baby-names-that-mean-miracle.json
+================================================================================
+
+   📊 Current name count: 66
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 66 names...
+   ⚠️  40 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Asher
+      ✅ Added Asher to database
+      📝 Enriching: Elisha
+      ✅ Added Elisha to database
+      📝 Enriching: Genesis
+      ✅ Added Genesis to database
+      📝 Enriching: Jonah
+      ✅ Added Jonah to database
+      📝 Enriching: Lydia
+      ✅ Added Lydia to database
+      📝 Enriching: Miriam
+      ✅ Added Miriam to database
+      📝 Enriching: Moses
+      ✅ Added Moses to database
+      📝 Enriching: Sarah
+      ✅ Added Sarah to database
+      📝 Enriching: Zachariah
+      ✅ Added Zachariah to database
+      📝 Enriching: Ayaan
+      ✅ Added Ayaan to database
+      📝 Enriching: Nessa
+      ✅ Added Nessa to database
+      📝 Enriching: Mirakel
+      ✅ Added Mirakel to database
+      📝 Enriching: Eijaz
+      ✅ Added Eijaz to database
+      📝 Enriching: Ansel
+      ✅ Added Ansel to database
+      📝 Enriching: Ayah
+      ✅ Added Ayah to database
+      📝 Enriching: Beatrix
+      ✅ Added Beatrix to database
+      📝 Enriching: Benedict
+      ✅ Added Benedict to database
+      📝 Enriching: Jonathan
+      ✅ Added Jonathan to database
+      📝 Enriching: Matthias
+      ✅ Added Matthias to database
+      📝 Enriching: Theodora
+      ✅ Added Theodora to database
+      📝 Enriching: Nathaniel
+      ✅ Added Nathaniel to database
+      📝 Enriching: Marvel
+      ✅ Added Marvel to database
+      📝 Enriching: Bliss
+      ✅ Added Bliss to database
+      📝 Enriching: Serendipity
+      ✅ Added Serendipity to database
+      📝 Enriching: Halo
+      ✅ Added Halo to database
+      📝 Enriching: Journey
+      ✅ Added Journey to database
+      📝 Enriching: Solstice
+      ✅ Added Solstice to database
+      📝 Enriching: Valor
+      ✅ Added Valor to database
+      📝 Enriching: Micah
+      ✅ Added Micah to database
+      📝 Enriching: Thaddeus
+      ✅ Added Thaddeus to database
+      📝 Enriching: Bennett
+      ✅ Added Bennett to database
+      📝 Enriching: Boone
+      ✅ Added Boone to database
+      📝 Enriching: Elijah
+      ✅ Added Elijah to database
+      📝 Enriching: Mireya
+      ✅ Added Mireya to database
+      📝 Enriching: Gwyneth
+      ✅ Added Gwyneth to database
+      📝 Enriching: Mirabelle
+      ✅ Added Mirabelle to database
+      📝 Enriching: Althea
+      ✅ Added Althea to database
+      📝 Enriching: Felicity
+      ✅ Added Felicity to database
+      📝 Enriching: Seraphina
+      ✅ Added Seraphina to database
+      📝 Enriching: Mirabella
+      ✅ Added Mirabella to database
+
+   📝 Title update:
+      Old: Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing
+      New: Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing: 66+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 1/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-10-baby-names-mean-strength-powerful.json
+================================================================================
+
+   📊 Current name count: 49
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 49 names...
+   ⚠️  24 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Ethan
+      ✅ Added Ethan to database
+      📝 Enriching: Brianna
+      ✅ Added Brianna to database
+      📝 Enriching: Audra
+      ✅ Added Audra to database
+      📝 Enriching: Bernard
+      ✅ Added Bernard to database
+      📝 Enriching: Millicent
+      ✅ Added Millicent to database
+      📝 Enriching: Maajid
+      ✅ Added Maajid to database
+      📝 Enriching: Xena
+      ✅ Added Xena to database
+      📝 Enriching: Zafar
+      ✅ Added Zafar to database
+      📝 Enriching: Gabriel
+      ✅ Added Gabriel to database
+      📝 Enriching: Kenzo
+      ✅ Added Kenzo to database
+      📝 Enriching: Wyatt
+      ✅ Added Wyatt to database
+      📝 Enriching: Duncan
+      ✅ Added Duncan to database
+      📝 Enriching: Barrett
+      ✅ Added Barrett to database
+      📝 Enriching: Valerie
+      ✅ Added Valerie to database
+      📝 Enriching: Morgana
+      ✅ Added Morgana to database
+      📝 Enriching: Kendra
+      ✅ Added Kendra to database
+      📝 Enriching: Andrea
+      ✅ Added Andrea to database
+      📝 Enriching: Amira
+      ✅ Added Amira to database
+      📝 Enriching: Koa
+      ✅ Added Koa to database
+      📝 Enriching: Leona
+      ✅ Added Leona to database
+      📝 Enriching: Conrad
+      ✅ Added Conrad to database
+      📝 Enriching: Regina
+      ✅ Added Regina to database
+      📝 Enriching: Idris
+      ✅ Added Idris to database
+      📝 Enriching: Emery
+      ✅ Added Emery to database
+
+   📝 Title update:
+      Old: Baby Names That Mean Strength: 70+ Powerful Names for Warriors
+      New: Baby Names That Mean Strength: 70+ Powerful Names for Warriors: 49+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 2/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-2-hottest-baby-names-2025-trending.json
+================================================================================
+
+   📊 Current name count: 60
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 60 names...
+   ⚠️  36 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Anora
+      ✅ Added Anora to database
+      📝 Enriching: Kieran
+      ✅ Added Kieran to database
+      📝 Enriching: Saoirse
+      ✅ Added Saoirse to database
+      📝 Enriching: Gael
+      ✅ Added Gael to database
+      📝 Enriching: Maren
+      ✅ Added Maren to database
+      📝 Enriching: Juno
+      ✅ Added Juno to database
+      📝 Enriching: Ariadne
+      ✅ Added Ariadne to database
+      📝 Enriching: Zendaya
+      ✅ Added Zendaya to database
+      📝 Enriching: Arya
+      ✅ Added Arya to database
+      📝 Enriching: Kylo
+      ✅ Added Kylo to database
+      📝 Enriching: Bridger
+      ✅ Added Bridger to database
+      📝 Enriching: Eleven
+      ✅ Added Eleven to database
+      📝 Enriching: Maverick
+      ✅ Added Maverick to database
+      📝 Enriching: Zyaire
+      ✅ Added Zyaire to database
+      📝 Enriching: Zephyr
+      ✅ Added Zephyr to database
+      📝 Enriching: Kaia
+      ✅ Added Kaia to database
+      📝 Enriching: Haven
+      ✅ Added Haven to database
+      📝 Enriching: Rumi
+      ✅ Added Rumi to database
+      📝 Enriching: Stormi
+      ✅ Added Stormi to database
+      📝 Enriching: Saint
+      ✅ Added Saint to database
+      📝 Enriching: Chicago
+      ✅ Added Chicago to database
+      📝 Enriching: Blue
+      ✅ Added Blue to database
+      📝 Enriching: Xander
+      ✅ Added Xander to database
+      📝 Enriching: Elara
+      ✅ Added Elara to database
+      📝 Enriching: Nyx
+      ✅ Added Nyx to database
+      📝 Enriching: Solana
+      ✅ Added Solana to database
+      📝 Enriching: Jett
+      ✅ Added Jett to database
+      📝 Enriching: Cassian
+      ✅ Added Cassian to database
+      📝 Enriching: Amara
+      ✅ Added Amara to database
+      📝 Enriching: Mateo
+      ✅ Added Mateo to database
+      📝 Enriching: Enzo
+      ✅ Added Enzo to database
+      📝 Enriching: Suki
+      ✅ Added Suki to database
+      📝 Enriching: Anika
+      ✅ Added Anika to database
+      📝 Enriching: Yara
+      ✅ Added Yara to database
+      📝 Enriching: Kian
+      ✅ Added Kian to database
+      📝 Enriching: Elodie
+      ✅ Added Elodie to database
+
+   📝 Title update:
+      Old: Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet
+      New: Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet: 60+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 3/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-3-90s-baby-names-comeback-nostalgia.json
+================================================================================
+
+   📊 Current name count: 58
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 58 names...
+   ⚠️  47 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Ross
+      ✅ Added Ross to database
+      📝 Enriching: Rachel
+      ✅ Added Rachel to database
+      📝 Enriching: Chandler
+      ✅ Added Chandler to database
+      📝 Enriching: Monica
+      ✅ Added Monica to database
+      📝 Enriching: Jerry
+      ✅ Added Jerry to database
+      📝 Enriching: Kramer
+      ✅ Added Kramer to database
+      📝 Enriching: Urkel
+      ✅ Added Urkel to database
+      📝 Enriching: Sabrina
+      ✅ Added Sabrina to database
+      📝 Enriching: Britney
+      ✅ Added Britney to database
+      📝 Enriching: Shania
+      ✅ Added Shania to database
+      📝 Enriching: Aaliyah
+      ✅ Added Aaliyah to database
+      📝 Enriching: Kurt
+      ✅ Added Kurt to database
+      📝 Enriching: Mariah
+      ✅ Added Mariah to database
+      📝 Enriching: Whitney
+      ✅ Added Whitney to database
+      📝 Enriching: Tupac
+      ✅ Added Tupac to database
+      📝 Enriching: Notorious
+      ✅ Added Notorious to database
+      📝 Enriching: Fiona
+      ✅ Added Fiona to database
+      📝 Enriching: Alanis
+      ✅ Added Alanis to database
+      📝 Enriching: Neo
+      ✅ Added Neo to database
+      📝 Enriching: Trinity
+      ✅ Added Trinity to database
+      📝 Enriching: Jenny
+      ✅ Added Jenny to database
+      📝 Enriching: Clarice
+      ✅ Added Clarice to database
+      📝 Enriching: Kevin
+      ✅ Added Kevin to database
+      📝 Enriching: Will
+      ✅ Added Will to database
+      📝 Enriching: Carlton
+      ✅ Added Carlton to database
+      📝 Enriching: Hilary
+      ✅ Added Hilary to database
+      📝 Enriching: Zack
+      ✅ Added Zack to database
+      📝 Enriching: Kelly
+      ✅ Added Kelly to database
+      📝 Enriching: Corey
+      ✅ Added Corey to database
+      📝 Enriching: Topanga
+      ✅ Added Topanga to database
+      📝 Enriching: Stephanie
+      ✅ Added Stephanie to database
+      📝 Enriching: Kimmy
+      ✅ Added Kimmy to database
+      📝 Enriching: Ashley
+      ✅ Added Ashley to database
+      📝 Enriching: Brandon
+      ✅ Added Brandon to database
+      📝 Enriching: Jessica
+      ✅ Added Jessica to database
+      📝 Enriching: Joshua
+      ✅ Added Joshua to database
+      📝 Enriching: Emily
+      ✅ Added Emily to database
+      📝 Enriching: Michael
+      ✅ Added Michael to database
+      📝 Enriching: Brittany
+      ✅ Added Brittany to database
+      📝 Enriching: Ryan
+      ✅ Added Ryan to database
+      📝 Enriching: Tiffany
+      ✅ Added Tiffany to database
+      📝 Enriching: Chad
+      ✅ Added Chad to database
+      📝 Enriching: Justin
+      ✅ Added Justin to database
+      📝 Enriching: Megan
+      ✅ Added Megan to database
+      📝 Enriching: Courtney
+      ✅ Added Courtney to database
+      📝 Enriching: Jared
+      ✅ Added Jared to database
+      📝 Enriching: Vanessa
+      ✅ Added Vanessa to database
+
+   📝 Title update:
+      Old: 90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide
+      New: 90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide: 58+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 4/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-4-bird-names-for-babies-nature.json
+================================================================================
+
+   📊 Current name count: 69
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 69 names...
+   ⚠️  33 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Martin
+      ✅ Added Martin to database
+      📝 Enriching: Colin
+      ✅ Added Colin to database
+      📝 Enriching: Avis
+      ✅ Added Avis to database
+      📝 Enriching: Kestrel
+      ✅ Added Kestrel to database
+      📝 Enriching: Alouette
+      ✅ Added Alouette to database
+      📝 Enriching: Peregrine
+      ✅ Added Peregrine to database
+      📝 Enriching: Calypso
+      ✅ Added Calypso to database
+      📝 Enriching: Nara
+      ✅ Added Nara to database
+      📝 Enriching: Galah
+      ✅ Added Galah to database
+      📝 Enriching: Aderyn
+      ✅ Added Aderyn to database
+      📝 Enriching: Livia
+      ✅ Added Livia to database
+      📝 Enriching: Tori
+      ✅ Added Tori to database
+      📝 Enriching: Chaffinch
+      ✅ Added Chaffinch to database
+      📝 Enriching: Oriole
+      ✅ Added Oriole to database
+      📝 Enriching: Skylark
+      ✅ Added Skylark to database
+      📝 Enriching: Whippoorwill
+      ✅ Added Whippoorwill to database
+      📝 Enriching: Warbler
+      ✅ Added Warbler to database
+      📝 Enriching: Serin
+      ✅ Added Serin to database
+      📝 Enriching: Mavis
+      ✅ Added Mavis to database
+      📝 Enriching: Sylvia
+      ✅ Added Sylvia to database
+      📝 Enriching: Falcon
+      ✅ Added Falcon to database
+      📝 Enriching: Harrier
+      ✅ Added Harrier to database
+      📝 Enriching: Goshawk
+      ✅ Added Goshawk to database
+      📝 Enriching: Alerio
+      ✅ Added Alerio to database
+      📝 Enriching: Talon
+      ✅ Added Talon to database
+      📝 Enriching: Saker
+      ✅ Added Saker to database
+      📝 Enriching: Coopers
+      ✅ Added Coopers to database
+      📝 Enriching: Pigeon
+      ✅ Added Pigeon to database
+      📝 Enriching: Columbine
+      ✅ Added Columbine to database
+      📝 Enriching: Gannet
+      ✅ Added Gannet to database
+      📝 Enriching: Puffin
+      ✅ Added Puffin to database
+      📝 Enriching: Sora
+      ✅ Added Sora to database
+      📝 Enriching: Kittiwake
+      ✅ Added Kittiwake to database
+
+   📝 Title update:
+      Old: Bird Names for Babies: 50+ Names That Take Flight
+      New: Bird Names for Babies:  That Take Flight: 69+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 5/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-5-luxury-baby-names-rich-elegant.json
+================================================================================
+
+   📊 Current name count: 59
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 59 names...
+   ⚠️  25 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Chanel
+      ✅ Added Chanel to database
+      📝 Enriching: Armani
+      ✅ Added Armani to database
+      📝 Enriching: Dior
+      ✅ Added Dior to database
+      📝 Enriching: Valentino
+      ✅ Added Valentino to database
+      📝 Enriching: Cartier
+      ✅ Added Cartier to database
+      📝 Enriching: Yves
+      ✅ Added Yves to database
+      📝 Enriching: Winston
+      ✅ Added Winston to database
+      📝 Enriching: Elon
+      ✅ Added Elon to database
+      📝 Enriching: Kylie
+      ✅ Added Kylie to database
+      📝 Enriching: Ashton
+      ✅ Added Ashton to database
+      📝 Enriching: Mason
+      ✅ Added Mason to database
+      📝 Enriching: Brooklyn
+      ✅ Added Brooklyn to database
+      📝 Enriching: Jaxon
+      ✅ Added Jaxon to database
+      📝 Enriching: Skylar
+      ✅ Added Skylar to database
+      📝 Enriching: Cash
+      ✅ Added Cash to database
+      📝 Enriching: Golda
+      ✅ Added Golda to database
+      📝 Enriching: Darius
+      ✅ Added Darius to database
+      📝 Enriching: Odette
+      ✅ Added Odette to database
+      📝 Enriching: Edgar
+      ✅ Added Edgar to database
+      📝 Enriching: Amelie
+      ✅ Added Amelie to database
+      📝 Enriching: Emilie
+      ✅ Added Emilie to database
+      📝 Enriching: Maximilian
+      ✅ Added Maximilian to database
+      📝 Enriching: Juliette
+      ✅ Added Juliette to database
+      📝 Enriching: Antoinette
+      ✅ Added Antoinette to database
+      📝 Enriching: Lorenzo
+      ✅ Added Lorenzo to database
+
+   💾 Saved updated blog post
+
+📈 Progress: 6/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-6-baby-names-ending-lynn-trend.json
+================================================================================
+
+   📊 Current name count: 41
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 41 names...
+   ⚠️  38 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Adalynn
+      ✅ Added Adalynn to database
+      📝 Enriching: Emmalynn
+      ✅ Added Emmalynn to database
+      📝 Enriching: Avalynn
+      ✅ Added Avalynn to database
+      📝 Enriching: Brooklynn
+      ✅ Added Brooklynn to database
+      📝 Enriching: Gracelynn
+      ✅ Added Gracelynn to database
+      📝 Enriching: Ashlynn
+      ✅ Added Ashlynn to database
+      📝 Enriching: Roselynn
+      ✅ Added Roselynn to database
+      📝 Enriching: Katelynn
+      ✅ Added Katelynn to database
+      📝 Enriching: Evelynn
+      ✅ Added Evelynn to database
+      📝 Enriching: Jocelynn
+      ✅ Added Jocelynn to database
+      📝 Enriching: Madelynn
+      ✅ Added Madelynn to database
+      📝 Enriching: Carolyn
+      ✅ Added Carolyn to database
+      📝 Enriching: Gwendolynn
+      ✅ Added Gwendolynn to database
+      📝 Enriching: Kaitlynn
+      ✅ Added Kaitlynn to database
+      📝 Enriching: Raelynn
+      ✅ Added Raelynn to database
+      📝 Enriching: Laurlynn
+      ✅ Added Laurlynn to database
+      📝 Enriching: Annelynn
+      ✅ Added Annelynn to database
+      📝 Enriching: Skylynn
+      ✅ Added Skylynn to database
+      📝 Enriching: Rainlynn
+      ✅ Added Rainlynn to database
+      📝 Enriching: Willowlynn
+      ✅ Added Willowlynn to database
+      📝 Enriching: Autumnlynn
+      ✅ Added Autumnlynn to database
+      📝 Enriching: Ivylynn
+      ✅ Added Ivylynn to database
+      📝 Enriching: Riverlynn
+      ✅ Added Riverlynn to database
+      📝 Enriching: Meadowlynn
+      ✅ Added Meadowlynn to database
+      📝 Enriching: Lakelynn
+      ✅ Added Lakelynn to database
+      📝 Enriching: Fernlynn
+      ✅ Added Fernlynn to database
+      📝 Enriching: Zephylynn
+      ✅ Added Zephylynn to database
+      📝 Enriching: Emberlynn
+      ✅ Added Emberlynn to database
+      📝 Enriching: Seraphlynn
+      ✅ Added Seraphlynn to database
+      📝 Enriching: Novalynn
+      ✅ Added Novalynn to database
+      📝 Enriching: Aralynn
+      ✅ Added Aralynn to database
+      📝 Enriching: Zaylynn
+      ✅ Added Zaylynn to database
+      📝 Enriching: Quinslynn
+      ✅ Added Quinslynn to database
+      📝 Enriching: Brinlynn
+      ✅ Added Brinlynn to database
+      📝 Enriching: Tovlynn
+      ✅ Added Tovlynn to database
+      📝 Enriching: Fablelynn
+      ✅ Added Fablelynn to database
+      📝 Enriching: Hellynn
+      ✅ Added Hellynn to database
+      📝 Enriching: Hopelynn
+      ✅ Added Hopelynn to database
+
+   📝 Title update:
+      Old: Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide
+      New: Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide: 41+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 7/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-7-landscape-baby-names-geography.json
+================================================================================
+
+   📊 Current name count: 57
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 57 names...
+   ⚠️  39 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Everest
+      ✅ Added Everest to database
+      📝 Enriching: Sierra
+      ✅ Added Sierra to database
+      📝 Enriching: Rocky
+      ✅ Added Rocky to database
+      📝 Enriching: Kilimanjaro
+      ✅ Added Kilimanjaro to database
+      📝 Enriching: Elbrus
+      ✅ Added Elbrus to database
+      📝 Enriching: Hudson
+      ✅ Added Hudson to database
+      📝 Enriching: Nile
+      ✅ Added Nile to database
+      📝 Enriching: Thames
+      ✅ Added Thames to database
+      📝 Enriching: Geneva
+      ✅ Added Geneva to database
+      📝 Enriching: Amazon
+      ✅ Added Amazon to database
+      📝 Enriching: Baikal
+      ✅ Added Baikal to database
+      📝 Enriching: Cairo
+      ✅ Added Cairo to database
+      📝 Enriching: London
+      ✅ Added London to database
+      📝 Enriching: Milan
+      ✅ Added Milan to database
+      📝 Enriching: Nairobi
+      ✅ Added Nairobi to database
+      📝 Enriching: India
+      ✅ Added India to database
+      📝 Enriching: Kenya
+      ✅ Added Kenya to database
+      📝 Enriching: Ireland
+      ✅ Added Ireland to database
+      📝 Enriching: China
+      ✅ Added China to database
+      📝 Enriching: Morocco
+      ✅ Added Morocco to database
+      📝 Enriching: Rome
+      ✅ Added Rome to database
+      📝 Enriching: Bavaria
+      ✅ Added Bavaria to database
+      📝 Enriching: Catalonia
+      ✅ Added Catalonia to database
+      📝 Enriching: Zion
+      ✅ Added Zion to database
+      📝 Enriching: Petra
+      ✅ Added Petra to database
+      📝 Enriching: Arches
+      ✅ Added Arches to database
+      📝 Enriching: Bryce
+      ✅ Added Bryce to database
+      📝 Enriching: Olympus
+      ✅ Added Olympus to database
+      📝 Enriching: Stonehenge
+      ✅ Added Stonehenge to database
+      📝 Enriching: Niagara
+      ✅ Added Niagara to database
+      📝 Enriching: Sahara
+      ✅ Added Sahara to database
+      📝 Enriching: Matterhorn
+      ✅ Added Matterhorn to database
+      📝 Enriching: Grand
+      ✅ Added Grand to database
+      📝 Enriching: Pacific
+      ✅ Added Pacific to database
+      📝 Enriching: Adriatic
+      ✅ Added Adriatic to database
+      📝 Enriching: Marina
+      ✅ Added Marina to database
+      📝 Enriching: Cove
+      ✅ Added Cove to database
+      📝 Enriching: Oceanus
+      ✅ Added Oceanus to database
+      📝 Enriching: Skye
+      ✅ Added Skye to database
+
+   💾 Saved updated blog post
+
+📈 Progress: 8/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-8-two-syllable-baby-names-short.json
+================================================================================
+
+   📊 Current name count: 68
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 68 names...
+   ⚠️  18 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: David
+      ✅ Added David to database
+      📝 Enriching: Anna
+      ✅ Added Anna to database
+      📝 Enriching: Ryder
+      ✅ Added Ryder to database
+      📝 Enriching: Caleb
+      ✅ Added Caleb to database
+      📝 Enriching: Nolan
+      ✅ Added Nolan to database
+      📝 Enriching: Connor
+      ✅ Added Connor to database
+      📝 Enriching: Gavin
+      ✅ Added Gavin to database
+      📝 Enriching: Aaron
+      ✅ Added Aaron to database
+      📝 Enriching: Lucas
+      ✅ Added Lucas to database
+      📝 Enriching: Simon
+      ✅ Added Simon to database
+      📝 Enriching: Chloe
+      ✅ Added Chloe to database
+      📝 Enriching: Molly
+      ✅ Added Molly to database
+      📝 Enriching: Sadie
+      ✅ Added Sadie to database
+      📝 Enriching: Sophie
+      ✅ Added Sophie to database
+      📝 Enriching: Bella
+      ✅ Added Bella to database
+      📝 Enriching: Bailey
+      ✅ Added Bailey to database
+      📝 Enriching: Ella
+      ✅ Added Ella to database
+      📝 Enriching: Eric
+      ✅ Added Eric to database
+
+   💾 Saved updated blog post
+
+📈 Progress: 9/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-9-celebrity-baby-names-2024-2025.json
+================================================================================
+
+   📊 Current name count: 72
+   ✅ Already has 30+ names, checking database coverage...
+
+   🔍 Checking database coverage for 72 names...
+   ⚠️  21 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Echo
+      ✅ Added Echo to database
+      📝 Enriching: Lyra
+      ✅ Added Lyra to database
+      📝 Enriching: Titan
+      ✅ Added Titan to database
+      📝 Enriching: Dash
+      ✅ Added Dash to database
+      📝 Enriching: Serena
+      ✅ Added Serena to database
+      📝 Enriching: Cruz
+      ✅ Added Cruz to database
+      📝 Enriching: Lennox
+      ✅ Added Lennox to database
+      📝 Enriching: Harmony
+      ✅ Added Harmony to database
+      📝 Enriching: Lyric
+      ✅ Added Lyric to database
+      📝 Enriching: Melody
+      ✅ Added Melody to database
+      📝 Enriching: Cadence
+      ✅ Added Cadence to database
+      📝 Enriching: Bowie
+      ✅ Added Bowie to database
+      📝 Enriching: Lennon
+      ✅ Added Lennon to database
+      📝 Enriching: Hendrix
+      ✅ Added Hendrix to database
+      📝 Enriching: Jagger
+      ✅ Added Jagger to database
+      📝 Enriching: Kaleo
+      ✅ Added Kaleo to database
+      📝 Enriching: Zephyrine
+      ✅ Added Zephyrine to database
+      📝 Enriching: Quillon
+      ✅ Added Quillon to database
+      📝 Enriching: Aether
+      ✅ Added Aether to database
+      📝 Enriching: Zephyra
+      ✅ Added Zephyra to database
+      📝 Enriching: Raine
+      ✅ Added Raine to database
+
+   📝 Title update:
+      Old: Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids
+      New: Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids: 72+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 10/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-1-newborn-milestones-first-month.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Newborn Milestones: Your Baby's First Month Magic"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  3 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Levi
+      ✅ Added Levi to database
+      📝 Enriching: Olivia
+      ✅ Added Olivia to database
+      📝 Enriching: Isaac
+      ✅ Added Isaac to database
+
+   📝 Adding count to title: Newborn Milestones: Your Baby's First Month Magic: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 11/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-10-10-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "10 Month Baby Milestones: Standing & Waving Bye-Bye"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  3 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Benjamin
+      ✅ Added Benjamin to database
+      📝 Enriching: Daniel
+      ✅ Added Daniel to database
+      📝 Enriching: Jackson
+      ✅ Added Jackson to database
+
+   📝 Title update:
+      Old: 10 Month Baby Milestones: Standing & Waving Bye-Bye
+      New: 10 Month Baby Milestones: Standing & Waving Bye-Bye: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 12/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-11-11-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "11 Month Baby Milestones: Walking Practice & More Words"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  2 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Hannah
+      ✅ Added Hannah to database
+      📝 Enriching: Matthew
+      ✅ Added Matthew to database
+
+   📝 Title update:
+      Old: 11 Month Baby Milestones: Walking Practice & More Words
+      New: 11 Month Baby Milestones: Walking Practice & More Words: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 13/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-12-12-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "12 Month Baby Milestones: First Steps & First Birthday"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  2 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Emilia
+      ✅ Added Emilia to database
+      📝 Enriching: Samuel
+      ✅ Added Samuel to database
+
+   📝 Title update:
+      Old: 12 Month Baby Milestones: First Steps & First Birthday
+      New: 12 Month Baby Milestones: First Steps & First Birthday: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 14/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-13-1-year-baby-milestones-toddler.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "1 Year Baby Milestones: Your Toddler's Big Leap Forward"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ✅ All names exist in database
+
+   📝 Title update:
+      Old: 1 Year Baby Milestones: Your Toddler's Big Leap Forward
+      New: 1 Year Baby Milestones: Your Toddler's Big Leap Forward: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 15/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-14-physical-development-milestones-baby.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Physical Development Milestones: From Rolling to Running (0-18 Months)"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  3 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Jacob
+      ✅ Added Jacob to database
+      📝 Enriching: Hana
+      ✅ Added Hana to database
+      📝 Enriching: Miles
+      ✅ Added Miles to database
+
+   📝 Title update:
+      Old: Physical Development Milestones: From Rolling to Running (0-18 Months)
+      New: Physical Development Milestones: From Rolling to Running (0-18 Months): 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 16/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-15-cognitive-milestones-baby-development.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Cognitive Milestones: How Your Baby Learns to Think (0-18 Months)"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ✅ All names exist in database
+
+   📝 Title update:
+      Old: Cognitive Milestones: How Your Baby Learns to Think (0-18 Months)
+      New: Cognitive Milestones: How Your Baby Learns to Think (0-18 Months): 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 17/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-16-language-milestones-baby-development.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Language Milestones: From Coos to Conversations (0-18 Months)"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  1 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Leah
+      ✅ Added Leah to database
+
+   📝 Title update:
+      Old: Language Milestones: From Coos to Conversations (0-18 Months)
+      New: Language Milestones: From Coos to Conversations (0-18 Months): 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 18/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-17-social-emotional-milestones-baby.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Social-Emotional Milestones: Building Your Baby's Heart (0-18 Months)"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  2 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Isaiah
+      ✅ Added Isaiah to database
+      📝 Enriching: Julian
+      ✅ Added Julian to database
+
+   📝 Title update:
+      Old: Social-Emotional Milestones: Building Your Baby's Heart (0-18 Months)
+      New: Social-Emotional Milestones: Building Your Baby's Heart (0-18 Months): 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 19/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-18-baby-sleep-milestones-regression-ages.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Baby Sleep Milestones & Regression Ages: The Complete Survival Guide"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  2 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Talia
+      ✅ Added Talia to database
+      📝 Enriching: Soren
+      ✅ Added Soren to database
+
+   📝 Adding count to title: Baby Sleep Milestones & Regression Ages: The Complete Survival Guide: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 20/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-19-baby-growth-spurts-when-how-survive.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Baby Growth Spurts: When They Happen & How to Survive Them"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  2 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Abigail
+      ✅ Added Abigail to database
+      📝 Enriching: Nathan
+      ✅ Added Nathan to database
+
+   📝 Adding count to title: Baby Growth Spurts: When They Happen & How to Survive Them: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 21/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-2-2-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "2 Month Baby Milestones: Social Smiles & Cooing Begin"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  1 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Carter
+      ✅ Added Carter to database
+
+   📝 Title update:
+      Old: 2 Month Baby Milestones: Social Smiles & Cooing Begin
+      New: 2 Month Baby Milestones: Social Smiles & Cooing Begin: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 22/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-20-baby-feeding-milestones-breast-solids.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "Baby Feeding Milestones: From Breast to Solids to Table Food (0-18 Months)"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  5 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Ariana
+      ✅ Added Ariana to database
+      📝 Enriching: Leila
+      ✅ Added Leila to database
+      📝 Enriching: Anaya
+      ✅ Added Anaya to database
+      📝 Enriching: Mira
+      ✅ Added Mira to database
+      📝 Enriching: Asha
+      ✅ Added Asha to database
+
+   📝 Title update:
+      Old: Baby Feeding Milestones: From Breast to Solids to Table Food (0-18 Months)
+      New: Baby Feeding Milestones: From Breast to Solids to Table Food (0-18 Months): 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 23/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-3-3-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "3 Month Baby Milestones: Head Control & Hand Discovery"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  4 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Lara
+      ✅ Added Lara to database
+      📝 Enriching: Santiago
+      ✅ Added Santiago to database
+      📝 Enriching: Rafael
+      ✅ Added Rafael to database
+      📝 Enriching: Elise
+      ✅ Added Elise to database
+
+   📝 Title update:
+      Old: 3 Month Baby Milestones: Head Control & Hand Discovery
+      New: 3 Month Baby Milestones: Head Control & Hand Discovery: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 24/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-4-4-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "4 Month Baby Milestones: Rolling Over & Laughing Out Loud"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ✅ All names exist in database
+
+   📝 Title update:
+      Old: 4 Month Baby Milestones: Rolling Over & Laughing Out Loud
+      New: 4 Month Baby Milestones: Rolling Over & Laughing Out Loud: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 25/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-5-5-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "5 Month Baby Milestones: Sitting Practice & Solid Food Prep"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ✅ All names exist in database
+
+   📝 Title update:
+      Old: 5 Month Baby Milestones: Sitting Practice & Solid Food Prep
+      New: 5 Month Baby Milestones: Sitting Practice & Solid Food Prep: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 26/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-6-6-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "6 Month Baby Milestones: Sitting Up & First Teeth"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  1 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Zoey
+      ✅ Added Zoey to database
+
+   📝 Title update:
+      Old: 6 Month Baby Milestones: Sitting Up & First Teeth
+      New: 6 Month Baby Milestones: Sitting Up & First Teeth: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 27/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-7-7-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "7 Month Baby Milestones: Crawling Practice & Stranger Anxiety"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  1 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Caden
+      ✅ Added Caden to database
+
+   📝 Title update:
+      Old: 7 Month Baby Milestones: Crawling Practice & Stranger Anxiety
+      New: 7 Month Baby Milestones: Crawling Practice & Stranger Anxiety: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 28/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-8-8-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "8 Month Baby Milestones: Pulling Up & Pointing"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  3 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Archer
+      ✅ Added Archer to database
+      📝 Enriching: Adeline
+      ✅ Added Adeline to database
+      📝 Enriching: Naomi
+      ✅ Added Naomi to database
+
+   📝 Title update:
+      Old: 8 Month Baby Milestones: Pulling Up & Pointing
+      New: 8 Month Baby Milestones: Pulling Up & Pointing: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 29/30 blogs processed
+
+
+================================================================================
+📝 Processing: blog-post-9-9-month-baby-milestones.json
+================================================================================
+
+   📊 Current name count: 0
+   ⚠️  Only 0 names, need 30 more
+   🔍 Researching 35 additional names for: "9 Month Baby Milestones: Cruising & First Words Emerge"
+   ✅ Found 35 additional names
+   ✅ Added 35 names to blog content
+
+   🔍 Checking database coverage for 35 names...
+   ⚠️  2 names missing from database
+   📝 Enriching and adding missing names...
+
+      📝 Enriching: Joseph
+      ✅ Added Joseph to database
+      📝 Enriching: John
+      ✅ Added John to database
+
+   📝 Title update:
+      Old: 9 Month Baby Milestones: Cruising & First Words Emerge
+      New: 9 Month Baby Milestones: Cruising & First Words Emerge: 35+ Names
+
+   💾 Saved updated blog post
+
+📈 Progress: 30/30 blogs processed
+
+
+💾 Saving updated database...
+   ✅ Database saved
+
+================================================================================
+📊 AUDIT SUMMARY
+
+   ✅ Successfully processed: 30
+   ❌ Failed: 0
+   📝 Total blogs: 30
+
+📋 PROCESSED BLOGS:
+
+   1. blog-post-1-baby-names-that-mean-miracle.json
+      Names: 26 → 66 (+40 to database)
+      Title: Baby Names That Mean Miracle: 60+ Divine Names for Your Blessing: 66+ Names
+
+   2. blog-post-10-baby-names-mean-strength-powerful.json
+      Names: 25 → 49 (+24 to database)
+      Title: Baby Names That Mean Strength: 70+ Powerful Names for Warriors: 49+ Names
+
+   3. blog-post-2-hottest-baby-names-2025-trending.json
+      Names: 24 → 60 (+36 to database)
+      Title: Anora to Zyaire: The Hottest Baby Names of 2025 You Haven't Heard Yet: 60+ Names
+
+   4. blog-post-3-90s-baby-names-comeback-nostalgia.json
+      Names: 11 → 58 (+47 to database)
+      Title: 90s Baby Names Making a Comeback: Your Ultimate Nostalgia Name Guide: 58+ Names
+
+   5. blog-post-4-bird-names-for-babies-nature.json
+      Names: 36 → 69 (+33 to database)
+      Title: Bird Names for Babies:  That Take Flight: 69+ Names
+
+   6. blog-post-5-luxury-baby-names-rich-elegant.json
+      Names: 34 → 59 (+25 to database)
+      Title: Luxury Baby Names: 55+ Names That Sound Like a Million Dollars
+
+   7. blog-post-6-baby-names-ending-lynn-trend.json
+      Names: 3 → 41 (+38 to database)
+      Title: Baby Names Ending in -lynn: The Ultimate 2025 Trend Guide: 41+ Names
+
+   8. blog-post-7-landscape-baby-names-geography.json
+      Names: 18 → 57 (+39 to database)
+      Title: Landscape Baby Names: 60+ Mountains, Rivers & Places for Your Explorer
+
+   9. blog-post-8-two-syllable-baby-names-short.json
+      Names: 50 → 68 (+18 to database)
+      Title: Two-Syllable Baby Names: 65+ Perfect, Punchy Names That Pop
+
+   10. blog-post-9-celebrity-baby-names-2024-2025.json
+      Names: 51 → 72 (+21 to database)
+      Title: Celebrity Baby Names 2024-2025: What the Stars Are Naming Their Kids: 72+ Names
+
+   11. blog-post-1-newborn-milestones-first-month.json
+      Names: 32 → 35 (+3 to database)
+      Title: Newborn Milestones: Your Baby's First Month Magic: 35+ Names
+
+   12. blog-post-10-10-month-baby-milestones.json
+      Names: 32 → 35 (+3 to database)
+      Title: 10 Month Baby Milestones: Standing & Waving Bye-Bye: 35+ Names
+
+   13. blog-post-11-11-month-baby-milestones.json
+      Names: 33 → 35 (+2 to database)
+      Title: 11 Month Baby Milestones: Walking Practice & More Words: 35+ Names
+
+   14. blog-post-12-12-month-baby-milestones.json
+      Names: 33 → 35 (+2 to database)
+      Title: 12 Month Baby Milestones: First Steps & First Birthday: 35+ Names
+
+   15. blog-post-13-1-year-baby-milestones-toddler.json
+      Names: 35 → 35 (+0 to database)
+      Title: 1 Year Baby Milestones: Your Toddler's Big Leap Forward: 35+ Names
+
+   16. blog-post-14-physical-development-milestones-baby.json
+      Names: 32 → 35 (+3 to database)
+      Title: Physical Development Milestones: From Rolling to Running (0-18 Months): 35+ Names
+
+   17. blog-post-15-cognitive-milestones-baby-development.json
+      Names: 35 → 35 (+0 to database)
+      Title: Cognitive Milestones: How Your Baby Learns to Think (0-18 Months): 35+ Names
+
+   18. blog-post-16-language-milestones-baby-development.json
+      Names: 34 → 35 (+1 to database)
+      Title: Language Milestones: From Coos to Conversations (0-18 Months): 35+ Names
+
+   19. blog-post-17-social-emotional-milestones-baby.json
+      Names: 33 → 35 (+2 to database)
+      Title: Social-Emotional Milestones: Building Your Baby's Heart (0-18 Months): 35+ Names
+
+   20. blog-post-18-baby-sleep-milestones-regression-ages.json
+      Names: 33 → 35 (+2 to database)
+      Title: Baby Sleep Milestones & Regression Ages: The Complete Survival Guide: 35+ Names
+
+   21. blog-post-19-baby-growth-spurts-when-how-survive.json
+      Names: 33 → 35 (+2 to database)
+      Title: Baby Growth Spurts: When They Happen & How to Survive Them: 35+ Names
+
+   22. blog-post-2-2-month-baby-milestones.json
+      Names: 34 → 35 (+1 to database)
+      Title: 2 Month Baby Milestones: Social Smiles & Cooing Begin: 35+ Names
+
+   23. blog-post-20-baby-feeding-milestones-breast-solids.json
+      Names: 30 → 35 (+5 to database)
+      Title: Baby Feeding Milestones: From Breast to Solids to Table Food (0-18 Months): 35+ Names
+
+   24. blog-post-3-3-month-baby-milestones.json
+      Names: 31 → 35 (+4 to database)
+      Title: 3 Month Baby Milestones: Head Control & Hand Discovery: 35+ Names
+
+   25. blog-post-4-4-month-baby-milestones.json
+      Names: 35 → 35 (+0 to database)
+      Title: 4 Month Baby Milestones: Rolling Over & Laughing Out Loud: 35+ Names
+
+   26. blog-post-5-5-month-baby-milestones.json
+      Names: 35 → 35 (+0 to database)
+      Title: 5 Month Baby Milestones: Sitting Practice & Solid Food Prep: 35+ Names
+
+   27. blog-post-6-6-month-baby-milestones.json
+      Names: 34 → 35 (+1 to database)
+      Title: 6 Month Baby Milestones: Sitting Up & First Teeth: 35+ Names
+
+   28. blog-post-7-7-month-baby-milestones.json
+      Names: 34 → 35 (+1 to database)
+      Title: 7 Month Baby Milestones: Crawling Practice & Stranger Anxiety: 35+ Names
+
+   29. blog-post-8-8-month-baby-milestones.json
+      Names: 32 → 35 (+3 to database)
+      Title: 8 Month Baby Milestones: Pulling Up & Pointing: 35+ Names
+
+   30. blog-post-9-9-month-baby-milestones.json
+      Names: 33 → 35 (+2 to database)
+      Title: 9 Month Baby Milestones: Cruising & First Words Emerge: 35+ Names
+
+================================================================================
+✅ AUDIT COMPLETE!
+

@@ -1,0 +1,34 @@
+[dotenv@17.2.2][DEBUG] No encoding is specified. UTF-8 is used by default
+[dotenv@17.2.2] injecting env (41) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+
+======================================================================
+🎨 PREMIUM REWRITE: post-3-nature-names.json
+======================================================================
+
+📖 Current Post:
+   Title: Nature-Inspired Baby Names: 21+ Earth, Flora & Fauna Names for 2025
+   Current name count: ~22
+   SEO Keywords: nature baby names, botanical baby names, flower names, tree names, animal names...
+
+📦 Loading database...
+   Loaded 145,192 names from database
+   Total names available: 145,192
+
+🤖 Generating premium content with GPT-4o...
+   Model: gpt-4o
+   Max tokens: 14000
+   Temperature: 0.7
+
+✅ Generated content with 40 names
+⚠️  WARNING: Only 40 names found (target: 50+)
+
+💾 Saved:
+   Main: post-3-nature-names.json
+   Backup: post-3-nature-names_backup_premium.json
+   Names: 40
+   Words: 1064
+   Reading time: 6 min
+
+======================================================================
+✨ PREMIUM REWRITE COMPLETE!
+======================================================================

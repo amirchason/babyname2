@@ -4,7 +4,6 @@ import { X, Globe, Heart, Award, BookOpen, Sparkles, Tag } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import enrichmentService from '../services/enrichmentService';
 import favoritesService from '../services/favoritesService';
-import AppHeader from './AppHeader';
 
 interface NameDetailModalProps {
   name: NameEntry | null;
@@ -183,17 +182,14 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   const CardContent = () => (
     <div className={`w-full h-screen ${genderBg} shadow-2xl flex flex-col overflow-hidden`}
          onClick={(e) => e.stopPropagation()}>
-      {/* Close Button - positioned below AppHeader */}
+      {/* Close Button */}
       <button
         onClick={onClose}
-        className="absolute top-[68px] right-2 sm:top-[72px] sm:right-4 p-1.5 sm:p-2 rounded-full bg-white shadow-md
-                   hover:bg-gray-100 z-[70]"
+        className="absolute top-3 right-3 sm:top-5 sm:right-5 p-2.5 sm:p-3 rounded-full bg-white shadow-lg
+                   hover:bg-gray-100 transition-all hover:shadow-xl active:scale-95 z-[70]"
       >
-        <X className="w-4 h-4 sm:w-5 sm:h-5 text-gray-600" />
+        <X className="w-6 h-6 sm:w-7 sm:h-7 text-gray-600" />
       </button>
-
-      {/* Spacer for AppHeader */}
-      <div className="h-16" />
 
       {/* Header with Gradient */}
       <div className={`relative h-32 sm:h-44 bg-gradient-to-br ${genderColor} overflow-hidden`}>
@@ -413,11 +409,6 @@ const NameDetailModal: React.FC<NameDetailModalProps> = ({ name, names, currentI
   return (
     <div className="fixed inset-0 z-50 bg-white"
          onClick={onClose}>
-
-      {/* AppHeader - sticky header matching main page */}
-      <div className="relative z-[60]" onClick={(e) => e.stopPropagation()}>
-        <AppHeader />
-      </div>
 
       {/* Next card in background - slides up smoothly from bottom */}
       {nextName && !isTransitioning && (

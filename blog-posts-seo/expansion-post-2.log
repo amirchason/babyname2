@@ -1,0 +1,35 @@
+[dotenv@17.2.2][DEBUG] No encoding is specified. UTF-8 is used by default
+[dotenv@17.2.2] injecting env (41) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+
+============================================================
+🚀 Expanding: post-2-vintage-names.json
+============================================================
+📦 Loading name databases...
+   Loaded 145,718 total names
+   Found 55 relevant names for topic
+
+📝 Expanding blog post: Vintage Baby Names Making a Comeback: 13+ Old-Fashioned Gems for 2025
+   Current names: 11
+   Target names: 55+
+   Available relevant names: 55
+
+✅ Expanded content has 31 names
+⚠️  WARNING: Only 31 names found (target: 55+)
+   You may want to run this again or manually add more names.
+
+💾 Saved expanded post:
+   Main: /data/data/com.termux/files/home/proj/babyname2/blog-posts-seo/post-2-vintage-names.json
+   Backup: /data/data/com.termux/files/home/proj/babyname2/blog-posts-seo/post-2-vintage-names_backup_before_expansion.json
+   Names: 31
+   Words: 1371
+   Reading time: 7 min
+
+✨ SUCCESS!
+
+
+============================================================
+🎉 Post expansion complete!
+   File: post-2-vintage-names.json
+   Names: 31
+   Words: 1371
+============================================================

@@ -8,7 +8,7 @@ import { useToast } from '../contexts/ToastContext';
 
 interface NameCardProps {
   name: NameEntry;
-  onClick: (name: NameEntry) => void;
+  onClick?: (name: NameEntry) => void;
   onFavoriteToggle?: () => void;
   onDislikeToggle?: () => void;
   filterContext?: 'all' | 'male' | 'female'; // Current filter context
@@ -17,6 +17,7 @@ interface NameCardProps {
   onPin?: () => void;
   showPinOption?: boolean;
   likeCount?: number; // Number of likes for this name
+  compact?: boolean; // Compact display mode for blog posts
 }
 
 const NameCard: React.FC<NameCardProps> = ({
@@ -29,7 +30,8 @@ const NameCard: React.FC<NameCardProps> = ({
   isPinned = false,
   onPin,
   showPinOption = false,
-  likeCount = 0
+  likeCount = 0,
+  compact = false
 }) => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [isDisliked, setIsDisliked] = useState(false);
@@ -106,6 +108,15 @@ const NameCard: React.FC<NameCardProps> = ({
       return;
     }
 
+    // In compact mode, skip animation
+    if (compact) {
+      favoritesService.toggleFavorite(name.name);
+      setIsFavorite(favoritesService.isFavorite(name.name));
+      setIsDisliked(favoritesService.isDisliked(name.name));
+      onFavoriteToggle?.();
+      return;
+    }
+
     // START ANIMATION FIRST (no delay!)
     setFlyDirection('right');
     setIsFlying(true);
@@ -132,24 +143,37 @@ const NameCard: React.FC<NameCardProps> = ({
     if (isFavorite && likeCount !== undefined) {
       const result = favoritesService.decrementLikeCount(name.name);
 
-      // If removed (likeCount was 1), animate fly-away
+      // If removed (likeCount was 1), animate fly-away (unless compact mode)
       if (result.removed) {
-        setFlyDirection('left');
-        setIsFlying(true);
+        if (!compact) {
+          setFlyDirection('left');
+          setIsFlying(true);
+        }
 
         requestAnimationFrame(() => {
           setIsFavorite(false);
           onDislikeToggle?.();
         });
 
-        setTimeout(() => {
-          setIsFlying(false);
-          setFlyDirection(null);
-        }, 120);
+        if (!compact) {
+          setTimeout(() => {
+            setIsFlying(false);
+            setFlyDirection(null);
+          }, 120);
+        }
       } else {
         // Just decrement, no animation
         onDislikeToggle?.();
       }
+      return;
+    }
+
+    // In compact mode, skip animation
+    if (compact) {
+      favoritesService.toggleDislike(name.name);
+      setIsFavorite(favoritesService.isFavorite(name.name));
+      setIsDisliked(favoritesService.isDisliked(name.name));
+      onDislikeToggle?.();
       return;
     }
 
@@ -300,7 +324,7 @@ const NameCard: React.FC<NameCardProps> = ({
 
   return (
     <motion.div
-      onClick={() => onClick(name)}
+      onClick={onClick ? () => onClick(name) : undefined}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseLeave}
@@ -308,11 +332,11 @@ const NameCard: React.FC<NameCardProps> = ({
       onTouchEnd={handleTouchEnd}
       className={`relative overflow-hidden rounded-xl ${genderBg} border ${genderBorder}
                   hover:shadow-xl transform hover:scale-105
-                  cursor-pointer group`}
-      style={{ transition: isFlying ? 'none' : 'all 200ms' }}  // Disable CSS transitions during animation
+                  ${onClick ? 'cursor-pointer' : ''} group`}
+      style={{ transition: (isFlying && !compact) ? 'none' : 'all 200ms' }}  // Disable CSS transitions during animation
       initial="initial"
-      animate={isFlying ? (flyDirection === 'left' ? 'flyLeft' : 'flyRight') : 'initial'}
-      variants={flyVariants}
+      animate={(isFlying && !compact) ? (flyDirection === 'left' ? 'flyLeft' : 'flyRight') : 'initial'}
+      variants={compact ? {} : flyVariants}
     >
       {/* Gradient overlay - lighter on mobile */}
       <div className={`absolute inset-0 bg-gradient-to-br ${genderColor} opacity-5
