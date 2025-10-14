@@ -45,7 +45,7 @@ npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
 **Backup command** (run from project root):
 ```bash
 TIMESTAMP=$(date +%Y%m%d_%H%M%S) && \
-tar -czf /storage/emulated/0/Download/backupapp/babyname2-backup-${TIMESTAMP}.tar.gz \
+tar -czf /storage/emulated/0/Download/backupapp/babyname2-votingsystem-backup-${TIMESTAMP}.tar.gz \
   --exclude='node_modules' --exclude='.git' --exclude='build' \
   --exclude='*.log' --exclude='*.tar.gz' .
 ```
@@ -57,7 +57,7 @@ ls -lh /storage/emulated/0/Download/backupapp/
 
 # Restore from backup:
 cd /data/data/com.termux/files/home/proj && \
-tar -xzf /storage/emulated/0/Download/backupapp/babyname2-backup-YYYYMMDD_HHMMSS.tar.gz
+tar -xzf /storage/emulated/0/Download/backupapp/babyname2-votingsystem-backup-YYYYMMDD_HHMMSS.tar.gz
 ```
 
 **What gets backed up**: All source code, configs, data files

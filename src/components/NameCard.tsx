@@ -322,6 +322,82 @@ const NameCard: React.FC<NameCardProps> = ({
     }
   };
 
+  // COMPACT MODE - Smaller cards for blog lists
+  if (compact) {
+    return (
+      <motion.div
+        onClick={onClick ? () => onClick(name) : undefined}
+        className={`relative overflow-hidden rounded-lg ${genderBg} border ${genderBorder}
+                    hover:shadow-lg transform hover:scale-102 transition-all duration-200
+                    ${onClick ? 'cursor-pointer' : ''} group h-full flex flex-col`}
+      >
+        {/* Gradient overlay */}
+        <div className={`absolute inset-0 bg-gradient-to-br ${genderColor} opacity-5
+                         group-hover:opacity-10 transition-opacity`} />
+
+        <div className="relative p-3 flex-1 flex flex-col">
+          {/* Name with gender icon */}
+          <div className="mb-2 text-center">
+            <h3 className="text-xl font-semibold text-gray-800 flex justify-center items-center gap-1">
+              {name.name}
+              <span className={`text-lg bg-gradient-to-r ${genderColor} bg-clip-text text-transparent`}>
+                {genderIcon}
+              </span>
+            </h3>
+          </div>
+
+          {/* Meaning */}
+          {meaning && (
+            <div className="mb-2 flex-1">
+              <p className="text-xs text-gray-600 italic text-center line-clamp-2">
+                "{meaning}"
+              </p>
+            </div>
+          )}
+
+          {/* Origin */}
+          {(origin || name.origins) && (
+            <div className="text-center mb-2">
+              <span className="text-[10px] text-gray-500">
+                {name.origins ? name.origins.slice(0, 2).join(', ') : origin}
+              </span>
+            </div>
+          )}
+
+          {/* Action buttons - Compact - Bigger and spread apart */}
+          <div className="flex justify-between items-center mt-auto pt-2">
+            <button
+              onClick={handleDislikeClick}
+              className={`flex items-center justify-center w-10 h-10 rounded-full transition-all ${
+                isDisliked
+                  ? 'bg-red-50 border-2 border-red-300 shadow-md'
+                  : 'bg-white border-2 border-gray-200 hover:border-red-300 shadow-sm hover:shadow-md'
+              } transform hover:scale-110 active:scale-95`}
+              title="Pass"
+            >
+              <X className={`w-5 h-5 ${isDisliked ? 'text-red-500' : 'text-gray-400 hover:text-red-500'}`} strokeWidth={2} />
+            </button>
+
+            <button
+              onClick={handleFavoriteClick}
+              className={`flex items-center justify-center w-10 h-10 rounded-full transition-all ${
+                isFavorite
+                  ? 'bg-pink-50 border-2 border-pink-300 shadow-md'
+                  : 'bg-white border-2 border-gray-200 hover:border-pink-300 shadow-sm hover:shadow-md'
+              } transform hover:scale-110 active:scale-95`}
+              title="Like"
+            >
+              <Heart className={`w-5 h-5 ${
+                isFavorite ? 'text-pink-500 fill-pink-500' : 'text-gray-400 hover:text-pink-500'
+              }`} strokeWidth={2} />
+            </button>
+          </div>
+        </div>
+      </motion.div>
+    );
+  }
+
+  // FULL MODE - Large cards for main pages
   return (
     <motion.div
       onClick={onClick ? () => onClick(name) : undefined}

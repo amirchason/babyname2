@@ -19,6 +19,8 @@ const SitemapPage = lazy(() => import('./pages/SitemapPage'));
 const SearchResultsPage = lazy(() => import('./pages/SearchResultsPage'));
 const BlogListPage = lazy(() => import('./pages/BlogListPage'));
 const BlogPostPage = lazy(() => import('./pages/BlogPostPage'));
+const UpdateBlogPage = lazy(() => import('./pages/UpdateBlogPage'));
+const VotingPage = lazy(() => import('./pages/VotingPage'));
 
 /**
  * Component to manage admin text selection
@@ -68,6 +70,8 @@ function App() {
                     <Route path="/sitemap" element={<SitemapPage />} />
                     <Route path="/blog" element={<BlogListPage />} />
                     <Route path="/blog/:slug" element={<BlogPostPage />} />
+                    <Route path="/update-blog" element={<UpdateBlogPage />} />
+                    <Route path="/vote/:voteId" element={<VotingPage />} />
                   </Routes>
                 </Suspense>
               </div>

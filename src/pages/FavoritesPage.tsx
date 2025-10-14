@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Heart, Home, Trash2, Baby, Grid3x3, List, Share2 } from 'lucide-react';
+import { Heart, Home, Trash2, Baby, Grid3x3, List, Share2, ArrowUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
@@ -10,6 +10,9 @@ import NameDetailModal from '../components/NameDetailModal';
 import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
 import AppHeader from '../components/AppHeader';
+import CreateVoteModal from '../components/CreateVoteModal';
+import ShareVoteModal from '../components/ShareVoteModal';
+import { VoteNameEntry } from '../services/voteService';
 
 const FavoritesPage: React.FC = () => {
   const [favoriteNames, setFavoriteNames] = useState<NameEntry[]>([]);
@@ -20,9 +23,12 @@ const FavoritesPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [animatingName, setAnimatingName] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<'card' | 'compact'>('compact');
+  const [showCreateVoteModal, setShowCreateVoteModal] = useState(false);
+  const [showShareVoteModal, setShowShareVoteModal] = useState(false);
+  const [createdVoteId, setCreatedVoteId] = useState<string>('');
   const navigate = useNavigate();
   const toast = useToast();
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, user } = useAuth();
 
   useEffect(() => {
     loadFavorites();
@@ -236,6 +242,26 @@ const FavoritesPage: React.FC = () => {
     }
   };
 
+  const handleCreateVote = () => {
+    if (favoriteNames.length < 2) {
+      toast.warning('You need at least 2 favorites to create a vote');
+      return;
+    }
+
+    if (!user) {
+      toast.warning('Please sign in to create a vote');
+      return;
+    }
+
+    setShowCreateVoteModal(true);
+  };
+
+  const handleVoteCreated = (voteId: string) => {
+    setCreatedVoteId(voteId);
+    setShowCreateVoteModal(false);
+    setShowShareVoteModal(true);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* AppHeader with consistent counters */}
@@ -268,9 +294,19 @@ const FavoritesPage: React.FC = () => {
               </div>
             </div>
 
-            {/* Right: Share + View Mode Toggle + Clear All */}
+            {/* Right: Vote + Share + View Mode Toggle + Clear All */}
             {favoriteNames.length > 0 && (
               <div className="flex items-center gap-2">
+                {/* Vote Button - NEW! */}
+                <button
+                  onClick={handleCreateVote}
+                  className="group flex items-center gap-1.5 px-3 py-1.5 text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
+                  title="Create a vote from your favorites"
+                >
+                  <ArrowUp className="w-4 h-4 transition-transform group-hover:scale-110" />
+                  <span className="text-xs font-medium hidden sm:inline">Vote</span>
+                </button>
+
                 {/* Share Button - Compact */}
                 <button
                   onClick={handleShare}
@@ -523,6 +559,27 @@ const FavoritesPage: React.FC = () => {
           onDislikeToggle={handleRefresh}
         />
       )}
+
+      {/* Create Vote Modal */}
+      <CreateVoteModal
+        isOpen={showCreateVoteModal}
+        onClose={() => setShowCreateVoteModal(false)}
+        favoriteNames={favoriteNames.map(name => ({
+          name: name.name,
+          meaning: name.meaning || name.meaningShort,
+          origin: name.origin,
+          gender: name.gender
+        }))}
+        onVoteCreated={handleVoteCreated}
+      />
+
+      {/* Share Vote Modal */}
+      <ShareVoteModal
+        isOpen={showShareVoteModal}
+        onClose={() => setShowShareVoteModal(false)}
+        voteId={createdVoteId}
+        title="Help me choose a baby name!"
+      />
     </div>
   );
 };
