@@ -115,8 +115,8 @@ class VoteService {
       if (voteData.names.length < 2) {
         throw new Error('At least 2 names are required');
       }
-      if (voteData.names.length > 50) {
-        throw new Error('Maximum 50 names allowed');
+      if (voteData.names.length > 100) {
+        throw new Error('Maximum 100 names allowed');
       }
       if (voteData.maxVotes > voteData.names.length) {
         throw new Error('Max votes cannot exceed number of names');
