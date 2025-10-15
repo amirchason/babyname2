@@ -1,0 +1,200 @@
+{
+  "updatedAt": 1760434362824,
+  "seo": {
+    "twitter": {
+      "creator": "@SoulSeedNames",
+      "title": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025",
+      "description": "Discover 11+ beautiful baby names inspired by colors and gemstones. From Ruby to Jade, Violet to Onyx - find vibrant names with sparkling meanings for your little treasure.",
+      "card": "summary_large_image",
+      "image": "https://amirchason.github.io/babyname2/blog-images/color-gemstone-baby-names-2025-featured.jpg",
+      "site": "@SoulSeedNames"
+    },
+    "metaTitle": "Color & Gemstone Baby Names: 75+ Vibrant & Precious Names 2025",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/blog/color-gemstone-baby-names-2025"
+          },
+          "keywords": "Gemstone Names, Color Names, Birthstone Names, Precious Names, Baby Names 2025",
+          "datePublished": "2024-12-21T00:00:00.000Z",
+          "headline": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025",
+          "inLanguage": "en-US",
+          "wordCount": 638,
+          "dateModified": "2024-12-21T00:00:00.000Z",
+          "articleSection": "Themes",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "url": "https://example.com/images/logo.png",
+              "width": 600,
+              "height": 60,
+              "@type": "ImageObject"
+            },
+            "name": "SoulSeed"
+          },
+          "author": {
+            "name": "Jane Doe",
+            "jobTitle": "Senior Content Writer",
+            "credentials": "BA in Creative Writing",
+            "@type": "Person"
+          },
+          "isAccessibleForFree": true,
+          "image": [
+            {
+              "width": 1200,
+              "url": "https://example.com/images/blog/color-gemstone-baby-names.jpg",
+              "height": 630,
+              "@type": "ImageObject"
+            }
+          ],
+          "@id": "https://example.com/blog/color-gemstone-baby-names-2025",
+          "description": "Discover 11+ beautiful baby names inspired by colors and gemstones. From Ruby to Jade, Violet to Onyx - find vibrant names with sparkling meanings for your little treasure."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "item": "https://example.com",
+              "name": "Home",
+              "position": 1,
+              "@type": "ListItem"
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://example.com/blog",
+              "position": 2,
+              "name": "Blog"
+            },
+            {
+              "position": 3,
+              "@type": "ListItem",
+              "item": "https://example.com/blog/color-gemstone-baby-names-2025",
+              "name": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025"
+            }
+          ]
+        },
+        {
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://example.com"
+          },
+          "@type": "WebPage",
+          "name": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025",
+          "breadcrumb": {
+            "@id": "https://example.com/blog/color-gemstone-baby-names-2025#breadcrumb"
+          },
+          "description": "Discover 11+ beautiful baby names inspired by colors and gemstones. From Ruby to Jade, Violet to Onyx - find vibrant names with sparkling meanings for your little treasure.",
+          "inLanguage": "en-US",
+          "potentialAction": {
+            "@type": "ReadAction",
+            "target": [
+              "https://example.com/blog/color-gemstone-baby-names-2025"
+            ]
+          },
+          "@id": "https://example.com/blog/color-gemstone-baby-names-2025",
+          "url": "https://example.com/blog/color-gemstone-baby-names-2025"
+        },
+        {
+          "@type": "Organization",
+          "name": "SoulSeed",
+          "@id": "https://example.com#organization",
+          "logo": {
+            "height": 60,
+            "url": "https://example.com/images/logo.png",
+            "width": 600,
+            "@type": "ImageObject"
+          },
+          "url": "https://example.com"
+        }
+      ]
+    },
+    "googlebot": "index, follow",
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "keywords": [
+      "gemstone baby names",
+      "color baby names",
+      "birthstone names",
+      "precious stone names",
+      "Ruby, Pearl, Jade",
+      "Violet, Scarlett",
+      "colorful baby names",
+      "jewel names",
+      "crystal names"
+    ],
+    "ahrefsData": {
+      "primaryKeyword": "gemstone baby names",
+      "searchVolume": 11966,
+      "trafficPotential": 20000,
+      "intent": {
+        "transactional": false,
+        "informational": true,
+        "commercial": false,
+        "navigational": false
+      },
+      "serpFeatures": [
+        "snippet",
+        "question",
+        "image",
+        "video",
+        "knowledge_card"
+      ],
+      "difficulty": 62
+    },
+    "metaDescription": "Discover 75+ beautiful baby names inspired by colors and gemstones. From Ruby to Jade, Violet to Onyx, Sapphire to Pearl - find vibrant names with sparkling meanings.",
+    "openGraph": {
+      "url": "https://amirchason.github.io/babyname2/blog/color-gemstone-baby-names-2025",
+      "imageWidth": 1200,
+      "siteName": "SoulSeed Baby Names",
+      "imageHeight": 630,
+      "article": {
+        "section": "Themes",
+        "tags": [
+          "Gemstone Names",
+          "Color Names",
+          "Birthstone Names",
+          "Precious Names",
+          "Baby Names 2025"
+        ],
+        "publishedTime": "2024-12-21T00:00:00.000Z",
+        "modifiedTime": "2025-10-12T17:16:04.194Z"
+      },
+      "title": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025",
+      "image": "https://amirchason.github.io/babyname2/blog-images/color-gemstone-baby-names-2025-featured.jpg",
+      "locale": "en_US",
+      "description": "Discover 11+ beautiful baby names inspired by colors and gemstones. From Ruby to Jade, Violet to Onyx - find vibrant names with sparkling meanings for your little treasure.",
+      "type": "article"
+    },
+    "canonical": "https://amirchason.github.io/babyname2/blog/color-gemstone-baby-names-2025"
+  },
+  "id": "color-gemstone-baby-names-2025",
+  "title": "Color & Gemstone Baby Names: 11+ Vibrant & Precious Names for 2025",
+  "stats": {
+    "wordCount": 638,
+    "readingTime": 3
+  },
+  "status": "published",
+  "featured": true,
+  "content": "<h1>Color & Gemstone Baby Names: Vibrant Treasures for Your 2025 Star</h1>\n\n<h2>Why Color & Gemstone Names Are Totally Crushing It Now 🌈</h2>\n<p>It’s like the universe sprinkled some magic on our name game with colors and gemstones. These names are blowing up, just like your favorite TikTok dance. Why? Because they’re full of vibrant visuals and the kind of sparkle that draws you in like a Taylor Swift concert. Celebrities are already hopping on the gemstone train—hello, Ruby (Tobey Maguire's pick) and Pearl (Jack Osbourne's choice)! Whether it’s the allure of a dazzling emerald or the tranquil vibe of a sapphire, these names are painting the 2025 baby name canvas with every shade of awesome.</p>\n\n<h2>Gems for Girls: Sparkle and Shine 🌟</h2>\n\n<p><strong>Ruby</strong> (Latin, means red gemstone): This dazzling gem isn't just a July birthstone; it's back like a 90s fashion revival. Ruby radiates passion and vitality, giving off some serious retro vibes, like a vinyl record spinning on a vintage turntable. Nicknames: Rue, Rube.</p>\n\n<p><strong>Pearl</strong> (English, means precious gem from oyster): Pearl is having its Grandma Chic moment. Once a favorite of the early 1900s, it's like the Audrey Hepburn of names—timeless, elegant, and oh-so-chic. Nicknames: Pearlie.</p>\n\n<p><strong>Jade</strong> (Spanish, means green gemstone): Sleek and modern, Jade is like that minimalist influencer you can't help but follow on Instagram for their dreamy aesthetic. No nicknames needed; Jade stands strong on its own.</p>\n\n<p><strong>Opal</strong> (Sanskrit, means jewel, precious stone): With rainbow hues dancing in its depths, Opal is the mystical indie movie darling of gemstone names. Totally ready for a revival. No nicknames needed.</p>\n\n<p><strong>Amber</strong> (Arabic, means fossilized tree resin): Step aside, 80s! Amber, with its golden glow, is coming for Gen Z glory. Think rich autumn tones and a warm cup of chai. Nicknames: Am, Amby.</p>\n\n<h2>Modern Gems: For the Trendsetters 🔮</h2>\n\n<p><strong>Sapphire</strong> (Hebrew, means blue gemstone): Fit for royalty and September birthdays. Sapphire exudes a luxurious vibe, like you’re wearing a crown, even if it’s just a paper one. Nicknames: Sapphy, Saph.</p>\n\n<p><strong>Emerald</strong> (Greek, means green gemstone): The May birthstone is as rare as a limited-edition sneaker drop. Rich and magical, with a little bit of Wizard of Oz whimsy thrown in. Nicknames: Emmy, Emmie.</p>\n\n<h2>Color Names That Pop! 💥</h2>\n\n<p><strong>Violet</strong> (Latin, means purple flower/color): This name is like a walk through an Instagram-worthy lavender field—vintage, floral, and fabulously chromatic. Thanks, Ben Affleck, for the inspo. Nicknames: Vi, Lettie.</p>\n\n<p><strong>Scarlett</strong> (English, means red color): Whether it's the drama of Gone with the Wind or the Hollywood glamour of Scarlett Johansson, this name is all about making bold statements. Nicknames: Lettie.</p>\n\n<p><strong>Indigo</strong> (Greek, means Indian dye, deep blue-purple): Perfect for the boho soul who's all about chill vibes and spiritual journeys. Indigo sits comfortably between blue and violet, like a cozy hammock on a summer's day. Nicknames: Indy, Indi.</p>\n\n<h2>Why These Names Work in 2025 ✨</h2>\n<p>In 2025, names are all about telling a story and connecting with nature and history in style. A name like <strong>Ruby</strong> isn’t just a nod to a vibrant gem but a connection to the fiery spirit it inspires. A <strong>Violet</strong> whispers elegance and adventure at the same time. These names aren't just sounds—they're experiences, brimming with personality. Plus, they're versatile enough to grow with your kid, from the sandbox to the boardroom.</p>\n\n\n\n<h2>Final Thoughts: Unleash the Jewel Inside 🌟</h2>\n<p>Choosing a color or gemstone name is like giving your child a piece of nature’s art—a beautiful, sparkling touch that's as precious as they are. Whether it’s the warmth of <strong>Amber</strong> or the calm of <strong>Sapphire</strong>, these names offer something unique and special. Check out the SoulSeed app for even more gem-inspired names. With over 174,000 options and a Tinder-style swiping feature, finding that perfect name is just a click away. Go on, let your baby’s name shine as bright as they do!</p>\n\n<!-- BLOG_NAME_LIST_COMPONENT -->\n",
+  "publishedAt": 1734739200000,
+  "slug": "color-gemstone-baby-names-2025",
+  "tags": [
+    "Gemstone Names",
+    "Color Names",
+    "Birthstone Names",
+    "Precious Names",
+    "Baby Names 2025"
+  ],
+  "author": {
+    "bio": "Expert parenting guidance from certified professionals dedicated to supporting families through every stage.",
+    "name": "Dr. Amara Okonkwo",
+    "credentials": "Parenting & Family Expert",
+    "avatar": "https://via.placeholder.com/50"
+  },
+  "excerpt": "Discover 11+ beautiful baby names inspired by colors and gemstones. From Ruby to Jade, Violet to Onyx - find vibrant names with sparkling meanings for your little treasure.",
+  "markdown": "## Why Color and Gemstone Names Sparkle\n\nColor and gemstone baby names offer vibrant imagery...",
+  "category": "Baby Names"
+}

@@ -479,11 +479,31 @@ class NameService {
   }
 
   /**
-   * Get name details
+   * Wait for database to be fully loaded
+   * Ensures all chunks are loaded before proceeding
    */
-  async getNameDetails(name: string): Promise<NameEntry | undefined> {
-    // Search in loaded names
-    return this.allNames.find(n => n.name.toLowerCase() === name.toLowerCase());
+  async waitForLoad(): Promise<void> {
+    // Wait for core chunk to be ready
+    await chunkedDatabaseService.waitForCore();
+
+    // Update our local names array
+    this.allNames = chunkedDatabaseService.getAllNames();
+
+    console.log(`✅ waitForLoad: Database ready with ${this.allNames.length} names`);
+  }
+
+  /**
+   * Get name details by exact match (case-insensitive)
+   */
+  async getNameDetails(name: string): Promise<NameEntry | null> {
+    // Ensure database is loaded
+    if (this.allNames.length === 0) {
+      await this.waitForLoad();
+    }
+
+    // Search in loaded names (case-insensitive)
+    const found = this.allNames.find(n => n.name.toLowerCase() === name.toLowerCase());
+    return found || null;
   }
 
   /**

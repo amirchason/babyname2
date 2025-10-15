@@ -8,13 +8,14 @@ import { Link } from 'react-router-dom';
 import { collection, query, where, orderBy, getDocs } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { BlogPost } from '../types/blog';
-import { Clock, Calendar, Tag } from 'lucide-react';
+import { Clock, Calendar } from 'lucide-react';
 import AppHeader from '../components/AppHeader';
+import BlogPillarNav, { BlogPillar } from '../components/BlogPillarNav';
 
 export default function BlogListPage() {
   const [posts, setPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedTag, setSelectedTag] = useState<string | null>(null);
+  const [selectedPillar, setSelectedPillar] = useState<BlogPillar>('all');
 
   useEffect(() => {
     fetchPosts();
@@ -41,13 +42,31 @@ export default function BlogListPage() {
     }
   };
 
-  // Get all unique tags
-  const allTags = Array.from(new Set(posts.flatMap((post) => post.tags || [])));
+  // Map category names to pillar IDs
+  const categoryToPillar = (category: string): BlogPillar => {
+    const normalized = category.toLowerCase();
+    if (normalized.includes('name')) return 'baby-names';
+    if (normalized.includes('milestone')) return 'baby-milestones';
+    if (normalized.includes('gear')) return 'baby-gear';
+    if (normalized.includes('pregnan')) return 'pregnancy';
+    if (normalized.includes('postpartum')) return 'postpartum';
+    return 'all';
+  };
 
-  // Filter posts by selected tag
-  const filteredPosts = selectedTag
-    ? posts.filter((post) => post.tags && post.tags.includes(selectedTag))
-    : posts;
+  // Count posts per pillar
+  const postCounts: Record<BlogPillar, number> = {
+    'all': posts.length,
+    'baby-names': posts.filter(p => categoryToPillar(p.category) === 'baby-names').length,
+    'baby-milestones': posts.filter(p => categoryToPillar(p.category) === 'baby-milestones').length,
+    'baby-gear': posts.filter(p => categoryToPillar(p.category) === 'baby-gear').length,
+    'pregnancy': posts.filter(p => categoryToPillar(p.category) === 'pregnancy').length,
+    'postpartum': posts.filter(p => categoryToPillar(p.category) === 'postpartum').length,
+  };
+
+  // Filter posts by selected pillar
+  const filteredPosts = selectedPillar === 'all'
+    ? posts
+    : posts.filter((post) => categoryToPillar(post.category) === selectedPillar);
 
   if (loading) {
     return (
@@ -65,7 +84,7 @@ export default function BlogListPage() {
       <div className="py-6 sm:py-12 px-3 sm:px-4">
         <div className="max-w-6xl mx-auto">
         {/* Header - Mobile Optimized */}
-        <div className="text-center mb-8 sm:mb-12">
+        <div className="text-center mb-6 sm:mb-8">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-3 sm:mb-4 px-2">
             SoulSeed Blog
           </h1>
@@ -74,34 +93,12 @@ export default function BlogListPage() {
           </p>
         </div>
 
-        {/* Tag Filter - Mobile Optimized */}
-        {allTags.length > 0 && (
-          <div className="mb-6 sm:mb-8 flex flex-wrap gap-1.5 sm:gap-2 justify-center px-2">
-            <button
-              onClick={() => setSelectedTag(null)}
-              className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition ${
-                selectedTag === null
-                  ? 'bg-purple-600 text-white'
-                  : 'bg-white text-gray-700 hover:bg-purple-100'
-              }`}
-            >
-              All Posts
-            </button>
-            {allTags.map((tag) => (
-              <button
-                key={tag}
-                onClick={() => setSelectedTag(tag)}
-                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition ${
-                  selectedTag === tag
-                    ? 'bg-purple-600 text-white'
-                    : 'bg-white text-gray-700 hover:bg-purple-100'
-                }`}
-              >
-                {tag}
-              </button>
-            ))}
-          </div>
-        )}
+        {/* Pillar Navigation - Mobile-First */}
+        <BlogPillarNav
+          activePillar={selectedPillar}
+          onPillarChange={setSelectedPillar}
+          postCounts={postCounts}
+        />
 
         {/* Blog Posts Grid - Mobile First */}
         {filteredPosts.length === 0 ? (
@@ -138,7 +135,7 @@ export default function BlogListPage() {
                   <p className="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4 line-clamp-3">{post.excerpt}</p>
 
                   {/* Meta Info */}
-                  <div className="flex items-center gap-2 sm:gap-4 text-[10px] sm:text-xs text-gray-500 mb-3 sm:mb-4">
+                  <div className="flex items-center gap-2 sm:gap-4 text-[10px] sm:text-xs text-gray-500">
                     <div className="flex items-center gap-1">
                       <Calendar size={12} className="sm:w-3.5 sm:h-3.5" />
                       <span className="hidden sm:inline">{new Date(post.publishedAt).toLocaleDateString()}</span>
@@ -149,21 +146,6 @@ export default function BlogListPage() {
                       {post.stats?.readingTime || 5} min
                     </div>
                   </div>
-
-                  {/* Tags */}
-                  {post.tags && post.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5 sm:gap-2">
-                      {post.tags.slice(0, 3).map((tag) => (
-                        <span
-                          key={tag}
-                          className="inline-flex items-center gap-0.5 sm:gap-1 px-1.5 sm:px-2 py-0.5 sm:py-1 bg-purple-100 text-purple-700 rounded text-[10px] sm:text-xs"
-                        >
-                          <Tag size={10} className="sm:w-3 sm:h-3" />
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
                 </div>
 
                 {/* Read More */}

@@ -1,13 +1,16 @@
 /**
  * Blog Name List Component
  * Displays featured names from a blog post in an interactive grid with filtering
+ * Features smooth animations when names are unliked/disliked
  */
 
 import React, { useState, useEffect } from 'react';
-import { NameEntry } from '../types';
+import { motion, AnimatePresence } from 'framer-motion';
+import { NameEntry } from '../services/nameService';
 import nameService from '../services/nameService';
 import NameCard from './NameCard';
 import { Sparkles, Filter } from 'lucide-react';
+import favoritesService from '../services/favoritesService';
 
 interface BlogNameListProps {
   /**
@@ -41,23 +44,64 @@ export default function BlogNameList({ content }: BlogNameListProps) {
   const [loading, setLoading] = useState(true);
   const [genderFilter, setGenderFilter] = useState<GenderFilter>('all');
   const [sortOption, setSortOption] = useState<SortOption>('featured');
+  const [hiddenNames, setHiddenNames] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     loadFeaturedNames();
   }, [content]);
 
+  // Listen for favorite/dislike events to hide names with animation
+  useEffect(() => {
+    const handleDislike = (event: Event) => {
+      const customEvent = event as CustomEvent;
+      const dislikedName = customEvent.detail?.name;
+      if (dislikedName) {
+        setHiddenNames(prev => new Set(prev).add(dislikedName));
+      }
+    };
+
+    const handleUnlike = (event: Event) => {
+      const customEvent = event as CustomEvent;
+      const unlikedName = customEvent.detail?.name;
+      if (unlikedName) {
+        // Check if name is now disliked
+        if (favoritesService.isDisliked(unlikedName)) {
+          setHiddenNames(prev => new Set(prev).add(unlikedName));
+        }
+      }
+    };
+
+    // Listen for dislike events
+    window.addEventListener('nameDisliked', handleDislike);
+    window.addEventListener('favoriteRemoved', handleUnlike);
+
+    return () => {
+      window.removeEventListener('nameDisliked', handleDislike);
+      window.removeEventListener('favoriteRemoved', handleUnlike);
+    };
+  }, []);
+
   const loadFeaturedNames = async () => {
     try {
       // Extract name strings from content
       const nameStrings = extractFeaturedNames(content);
+      console.log(`[BlogNameList] Extracted ${nameStrings.length} names:`, nameStrings);
+
+      // Wait for database to be ready (ensure all chunks are loaded)
+      console.log('[BlogNameList] Waiting for database to be fully loaded...');
+      await nameService.waitForLoad();
+      console.log('[BlogNameList] Database ready!');
 
       // Fetch full name data from database
       const nameDataPromises = nameStrings.map(async (nameStr) => {
         try {
           const nameData = await nameService.getNameDetails(nameStr);
+          if (!nameData) {
+            console.warn(`[BlogNameList] No data found for: ${nameStr}`);
+          }
           return nameData;
         } catch (err) {
-          console.warn(`Could not find name data for: ${nameStr}`);
+          console.warn(`[BlogNameList] Error fetching ${nameStr}:`, err);
           return null;
         }
       });
@@ -66,6 +110,13 @@ export default function BlogNameList({ content }: BlogNameListProps) {
 
       // Filter out nulls and set state
       const validNames = nameData.filter((n): n is NameEntry => n !== null);
+      console.log(`[BlogNameList] Valid names: ${validNames.length}/${nameStrings.length}`);
+
+      if (validNames.length < nameStrings.length) {
+        const missing = nameStrings.filter(ns => !validNames.some(v => v.name === ns));
+        console.warn(`[BlogNameList] Missing from database:`, missing);
+      }
+
       setFeaturedNames(validNames);
     } catch (error) {
       console.error('Error loading featured names:', error);
@@ -74,10 +125,13 @@ export default function BlogNameList({ content }: BlogNameListProps) {
     }
   };
 
-  // Apply filters (ensure all names are valid)
+  // Apply filters (ensure all names are valid and not hidden)
   const filteredNames = featuredNames.filter((name) => {
     // Skip undefined or invalid names
     if (!name || !name.name) return false;
+
+    // Skip hidden names (disliked/unliked)
+    if (hiddenNames.has(name.name)) return false;
 
     if (genderFilter === 'all') return true;
 
@@ -189,23 +243,51 @@ export default function BlogNameList({ content }: BlogNameListProps) {
       </div>
 
       {/* Results Count */}
-      <div className="mb-4 text-sm text-gray-600">
+      <div className="mb-4 text-sm font-medium text-gray-700">
         Showing {sortedNames.length} of {featuredNames.length} names
       </div>
 
-      {/* Name Cards Grid - Compact Display Mode */}
+      {/* Name Cards Grid - Compact Display Mode with Smooth Animations */}
       {sortedNames.length > 0 ? (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
-          {sortedNames.map((name) => (
-            <NameCard key={`${name.name}-${name.origin}`} name={name} compact />
-          ))}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+          <AnimatePresence mode="popLayout">
+            {sortedNames.map((name) => (
+              <motion.div
+                key={`${name.name}-${name.origin}`}
+                layout
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{
+                  opacity: 0,
+                  scale: 0.5,
+                  transition: {
+                    duration: 0.3,
+                    ease: [0.4, 0, 0.2, 1]
+                  }
+                }}
+                transition={{
+                  layout: {
+                    duration: 0.4,
+                    ease: [0.4, 0, 0.2, 1]
+                  }
+                }}
+                className="h-full"
+              >
+                <NameCard name={name} compact />
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </div>
       ) : (
-        <div className="text-center py-12 bg-white rounded-lg shadow-md">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center py-12 bg-white rounded-lg shadow-md"
+        >
           <p className="text-gray-600 text-lg">
             No names found matching your filters. Try selecting "All" to see all names.
           </p>
-        </div>
+        </motion.div>
       )}
 
       {/* Call to Action */}

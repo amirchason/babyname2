@@ -36,8 +36,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "NODE_OPTIONS='--max-old-space-size=1024' react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS='--max-old-space-size=2048' react-scripts start",
+    "build": "NODE_OPTIONS='--max-old-space-size=2048' react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
     "eject": "react-scripts eject",

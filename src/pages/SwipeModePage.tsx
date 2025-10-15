@@ -6,6 +6,18 @@ import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameDetailModal from '../components/NameDetailModal';
 import AppHeader from '../components/AppHeader';
+import SwipeFilterBar, {
+  SwipeFilters,
+  ENGLISH_SPEAKING_ORIGINS,
+  AFRICAN_ORIGINS,
+  UNKNOWN_MODERN_ORIGINS,
+  EAST_ASIAN_ORIGINS,
+  SOUTHEAST_ASIAN_ORIGINS,
+  SLAVIC_ORIGINS,
+  SCANDINAVIAN_ORIGINS,
+  MIDDLE_EASTERN_ORIGINS,
+  OTHER_WORLD_ORIGINS
+} from '../components/SwipeFilterBar';
 
 interface CardProps {
   name: NameEntry;
@@ -223,6 +235,7 @@ const VISIBLE_CARDS_COUNT = 3; // Only render 3 cards at a time
 const SwipeModePage: React.FC = () => {
   const navigate = useNavigate();
   const [cards, setCards] = useState<NameEntry[]>([]);
+  const [allNames, setAllNames] = useState<NameEntry[]>([]); // Store all names for filtering
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [lastAction, setLastAction] = useState<{ name: string; action: 'like' | 'dislike' } | null>(null);
@@ -230,35 +243,204 @@ const SwipeModePage: React.FC = () => {
   const [selectedName, setSelectedName] = useState<NameEntry | null>(null);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [loadOffset, setLoadOffset] = useState(0); // Track where to load next batch from
+  const [filters, setFilters] = useState<SwipeFilters>({
+    gender: 'all',
+    origins: ['English & Irish'], // Default to English & Irish names
+    length: 'all',
+    sortBy: 'popularity' // Default to popular names first
+  });
+  const [filteredNames, setFilteredNames] = useState<NameEntry[]>([]); // Stores filtered subset
 
   // Motion value for top card's drag - shared with second card for reveal animation
   const topCardX = useMotionValue(0);
 
-  // Load names with proper batching and memory management
-  const loadNamesBatch = useCallback((offset: number, limit: number) => {
-    // Get popular names sorted (service caches this internally)
-    let names = nameService.getPopularNames(offset + limit);
+  // Apply filters to names
+  const applyFilters = useCallback((names: NameEntry[], filterConfig: SwipeFilters): NameEntry[] => {
+    return names.filter(name => {
+      // Gender filter
+      if (filterConfig.gender !== 'all') {
+        const genderData = typeof name.gender === 'object' ? name.gender : null;
+        if (!genderData) return false;
 
-    // Slice to get only the new batch
-    names = names.slice(offset, offset + limit);
+        const maleRatio = genderData.Male || 0;
+        const femaleRatio = genderData.Female || 0;
+        const total = maleRatio + femaleRatio;
 
-    // Filter out already liked and disliked names
-    names = favoritesService.filterOutLikedAndDisliked(names);
+        if (total === 0) return false;
 
-    return names;
+        const malePercent = (maleRatio / total) * 100;
+        const femalePercent = (femaleRatio / total) * 100;
+
+        if (filterConfig.gender === 'male' && malePercent <= 60) return false;
+        if (filterConfig.gender === 'female' && femalePercent <= 60) return false;
+        if (filterConfig.gender === 'unisex' && (malePercent < 35 || malePercent > 65)) return false;
+      }
+
+      // Origin filter
+      if (filterConfig.origins.length > 0) {
+        // Allow names with no origin if "Unknown & Modern" is selected
+        if (!name.origin && !filterConfig.origins.includes('Unknown & Modern')) {
+          return false;
+        }
+
+        // Expand all combined filters to their constituent origins
+        let originsToMatch = [...filterConfig.origins];
+
+        // Replace each combined filter with its expanded origin list
+        if (filterConfig.origins.includes('English & Irish')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'English & Irish');
+          originsToMatch.push(...ENGLISH_SPEAKING_ORIGINS);
+        }
+        if (filterConfig.origins.includes('African')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'African');
+          originsToMatch.push(...AFRICAN_ORIGINS);
+        }
+        if (filterConfig.origins.includes('Unknown & Modern')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'Unknown & Modern');
+          originsToMatch.push(...UNKNOWN_MODERN_ORIGINS);
+        }
+        if (filterConfig.origins.includes('East Asian')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'East Asian');
+          originsToMatch.push(...EAST_ASIAN_ORIGINS);
+        }
+        if (filterConfig.origins.includes('Southeast Asian')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'Southeast Asian');
+          originsToMatch.push(...SOUTHEAST_ASIAN_ORIGINS);
+        }
+        if (filterConfig.origins.includes('Slavic')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'Slavic');
+          originsToMatch.push(...SLAVIC_ORIGINS);
+        }
+        if (filterConfig.origins.includes('Scandinavian')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'Scandinavian');
+          originsToMatch.push(...SCANDINAVIAN_ORIGINS);
+        }
+        if (filterConfig.origins.includes('Middle East')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'Middle East');
+          originsToMatch.push(...MIDDLE_EASTERN_ORIGINS);
+        }
+        if (filterConfig.origins.includes('Other World')) {
+          originsToMatch = originsToMatch.filter(o => o !== 'Other World');
+          originsToMatch.push(...OTHER_WORLD_ORIGINS);
+        }
+
+        // Check if name's origin matches any of the expanded filter origins
+        // Support compound origins (e.g., "English,Modern", "Modern,English")
+        const originString = typeof name.origin === 'string' ? name.origin : String(name.origin);
+        const nameOrigins = originString.split(',').map(o => o.trim());
+
+        // Match against expanded origins (case-insensitive)
+        const hasMatch = originsToMatch.some(filterOrigin =>
+          nameOrigins.some(nameOrigin =>
+            nameOrigin.toLowerCase() === filterOrigin.toLowerCase()
+          )
+        );
+
+        if (!hasMatch) return false;
+      }
+
+      // Length filter
+      if (filterConfig.length !== 'all') {
+        const nameLength = name.name.length;
+        if (filterConfig.length === 'short' && nameLength > 4) return false;
+        if (filterConfig.length === 'medium' && (nameLength < 5 || nameLength > 7)) return false;
+        if (filterConfig.length === 'long' && nameLength < 8) return false;
+      }
+
+      return true;
+    });
   }, []);
 
+  // Apply sorting to names
+  const applySorting = useCallback((names: NameEntry[], sortBy: SwipeFilters['sortBy']): NameEntry[] => {
+    const sorted = [...names];
+
+    switch (sortBy) {
+      case 'popularity':
+        // Sort by popularity rank (lower rank = more popular)
+        return sorted.sort((a, b) => {
+          const rankA = a.popularityRank || 999999;
+          const rankB = b.popularityRank || 999999;
+          return rankA - rankB;
+        });
+
+      case 'alphabetical':
+        // Sort A-Z
+        return sorted.sort((a, b) => a.name.localeCompare(b.name));
+
+      case 'shuffle':
+        // Fisher-Yates shuffle algorithm
+        for (let i = sorted.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [sorted[i], sorted[j]] = [sorted[j], sorted[i]];
+        }
+        return sorted;
+
+      case 'shortest':
+        // Shortest names first
+        return sorted.sort((a, b) => a.name.length - b.name.length);
+
+      case 'longest':
+        // Longest names first
+        return sorted.sort((a, b) => b.name.length - a.name.length);
+
+      case 'rare':
+        // Rare gems: sort by highest rank (least popular), filter out very common names
+        return sorted
+          .filter(n => (n.popularityRank || 999999) > 500) // Skip top 500 popular names
+          .sort((a, b) => {
+            const rankA = a.popularityRank || 999999;
+            const rankB = b.popularityRank || 999999;
+            return rankB - rankA; // Reverse: higher rank first (less popular)
+          });
+
+      default:
+        return sorted;
+    }
+  }, []);
+
+  // Load ALL names from database on mount
   useEffect(() => {
-    // Load initial batch of names
-    const loadNames = async () => {
-      setLoading(true);
-      const names = loadNamesBatch(0, INITIAL_LOAD_SIZE);
-      setCards(names);
-      setLoadOffset(INITIAL_LOAD_SIZE);
-      setLoading(false);
+    const loadAllNames = async () => {
+      console.log('🔄 Loading full database (140k+ names)...');
+      const allNamesFromDB = nameService.getAllNames(250000); // Load up to 250k names
+      console.log(`✅ Loaded ${allNamesFromDB.length} names from database`);
+      setAllNames(allNamesFromDB);
     };
-    loadNames();
-  }, [loadNamesBatch]);
+    loadAllNames();
+  }, []); // Only run once on mount
+
+  // Apply filters whenever filters or allNames change
+  useEffect(() => {
+    if (allNames.length === 0) return; // Wait for names to load
+
+    setLoading(true);
+    console.log(`🔍 Applying filters... (${allNames.length} total names)`);
+
+    // Apply filters to full database
+    let filtered = applyFilters(allNames, filters);
+    console.log(`✅ After filters: ${filtered.length} names`);
+
+    // Filter out already liked and disliked names
+    filtered = favoritesService.filterOutLikedAndDisliked(filtered);
+    console.log(`✅ After removing liked/disliked: ${filtered.length} names`);
+
+    // Apply sorting
+    filtered = applySorting(filtered, filters.sortBy);
+    console.log(`✅ After sorting (${filters.sortBy}): ${filtered.length} names`);
+
+    // Store filtered result
+    setFilteredNames(filtered);
+
+    // Load initial batch into cards
+    const initialBatch = filtered.slice(0, INITIAL_LOAD_SIZE);
+    setCards(initialBatch);
+    setLoadOffset(INITIAL_LOAD_SIZE);
+    setCurrentIndex(0); // Reset to start
+    setLoading(false);
+
+    console.log(`✅ Ready to swipe through ${filtered.length} names!`);
+  }, [allNames, filters, applyFilters, applySorting]);
 
   // Cleanup old cards from memory when we have too many
   const cleanupOldCards = useCallback(() => {
@@ -277,19 +459,21 @@ const SwipeModePage: React.FC = () => {
     }
   }, [currentIndex]);
 
-  // Load more cards when running low
+  // Load more cards when running low (from filteredNames)
   const loadMoreCards = useCallback(() => {
     const remainingCards = cards.length - currentIndex;
 
-    if (remainingCards <= LOAD_MORE_THRESHOLD) {
-      const newBatch = loadNamesBatch(loadOffset, LOAD_MORE_BATCH);
+    if (remainingCards <= LOAD_MORE_THRESHOLD && loadOffset < filteredNames.length) {
+      // Load next batch from filtered names
+      const newBatch = filteredNames.slice(loadOffset, loadOffset + LOAD_MORE_BATCH);
 
       if (newBatch.length > 0) {
+        console.log(`📦 Loading ${newBatch.length} more cards (${loadOffset} to ${loadOffset + newBatch.length})`);
         setCards(prev => [...prev, ...newBatch]);
-        setLoadOffset(prev => prev + LOAD_MORE_BATCH);
+        setLoadOffset(prev => prev + newBatch.length);
       }
     }
-  }, [cards.length, currentIndex, loadOffset, loadNamesBatch]);
+  }, [cards.length, currentIndex, loadOffset, filteredNames]);
 
   const handleSwipe = useCallback((direction: 'left' | 'right') => {
     const currentCard = cards[currentIndex];
@@ -411,7 +595,12 @@ const SwipeModePage: React.FC = () => {
         {/* Progress */}
         <div className="flex-none text-center py-2">
           <p className="text-xs sm:text-sm text-gray-600">
-            {currentIndex + 1} / {cards.length}
+            {currentIndex + 1} / {filteredNames.length}
+            {allNames.length > 0 && (
+              <span className="text-gray-400 ml-2">
+                ({filteredNames.length} of {allNames.length.toLocaleString()} total)
+              </span>
+            )}
           </p>
         </div>
 
@@ -516,6 +705,23 @@ const SwipeModePage: React.FC = () => {
           )}
         </div>
       </div>
+
+      {/* Sticky Bottom Filter Bar */}
+      <SwipeFilterBar
+        totalNames={allNames.length}
+        filteredCount={filteredNames.length}
+        onFiltersApply={(newFilters) => {
+          setFilters(newFilters);
+          // Cards will be reset by the useEffect that watches filters
+        }}
+        currentFilters={filters}
+        onPreviewFilterCount={(previewFilters) => {
+          // Calculate filtered count in real-time for preview
+          let filtered = applyFilters(allNames, previewFilters);
+          filtered = favoritesService.filterOutLikedAndDisliked(filtered);
+          return filtered.length;
+        }}
+      />
 
       {/* Name Detail Modal */}
       {selectedName && (

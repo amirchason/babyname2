@@ -564,12 +564,20 @@ const FavoritesPage: React.FC = () => {
       <CreateVoteModal
         isOpen={showCreateVoteModal}
         onClose={() => setShowCreateVoteModal(false)}
-        favoriteNames={favoriteNames.map(name => ({
-          name: name.name,
-          meaning: name.meaning || name.meaningShort,
-          origin: name.origin,
-          gender: name.gender
-        }))}
+        favoriteNames={favoriteNames.map(name => {
+          const entry: any = { name: name.name };
+          // Only add fields if they have values (Firestore doesn't accept undefined)
+          if (name.meaning || name.meaningShort) {
+            entry.meaning = name.meaning || name.meaningShort;
+          }
+          if (name.origin) {
+            entry.origin = name.origin;
+          }
+          if (name.gender) {
+            entry.gender = name.gender;
+          }
+          return entry as VoteNameEntry;
+        })}
         onVoteCreated={handleVoteCreated}
       />
 

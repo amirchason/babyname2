@@ -1,0 +1,195 @@
+{
+  "publishedAt": 1734393600000,
+  "updatedAt": 1760435712593,
+  "category": "Baby Names",
+  "markdown": "## Why Royal Names Reign Supreme\n\nRoyal baby names carry centuries of nobility...",
+  "seo": {
+    "keywords": [
+      "royal baby names",
+      "regal baby names",
+      "royal names",
+      "monarchy names",
+      "British royal names",
+      "historical royal names",
+      "queen names",
+      "king names",
+      "noble names"
+    ],
+    "metaDescription": "Discover 90+ royal and regal baby names from history's greatest monarchs. From Elizabeth to Alexander, Charlotte to Louis - find majestic names with noble heritage.",
+    "canonical": "https://amirchason.github.io/babyname2/blog/royal-regal-baby-names-history-2025",
+    "metaTitle": "Royal & Regal Baby Names from History: 90+ Majestic Names 2025",
+    "openGraph": {
+      "imageHeight": 630,
+      "image": "https://amirchason.github.io/babyname2/blog-images/royal-regal-baby-names-history-2025-featured.jpg",
+      "description": "Discover 12+ royal and regal baby names from history's greatest monarchs. From Elizabeth to Alexander, find majestic names with noble heritage for your little one.",
+      "siteName": "SoulSeed Baby Names",
+      "url": "https://amirchason.github.io/babyname2/blog/royal-regal-baby-names-history-2025",
+      "title": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025",
+      "locale": "en_US",
+      "article": {
+        "publishedTime": "2024-12-17T00:00:00.000Z",
+        "tags": [
+          "Royal Names",
+          "Regal Names",
+          "Historical Names",
+          "Monarchy Names",
+          "Baby Names 2025"
+        ],
+        "modifiedTime": "2025-10-12T17:16:04.181Z",
+        "section": "Themes"
+      },
+      "imageWidth": 1200,
+      "type": "article"
+    },
+    "googlebot": "index, follow",
+    "ahrefsData": {
+      "serpFeatures": [
+        "snippet",
+        "question",
+        "image",
+        "video",
+        "knowledge_card"
+      ],
+      "difficulty": 63,
+      "intent": {
+        "informational": true,
+        "navigational": false,
+        "transactional": false,
+        "commercial": false
+      },
+      "searchVolume": 11816,
+      "trafficPotential": 20000,
+      "primaryKeyword": "royal baby names"
+    },
+    "twitter": {
+      "site": "@SoulSeedNames",
+      "description": "Discover 12+ royal and regal baby names from history's greatest monarchs. From Elizabeth to Alexander, find majestic names with noble heritage for your little one.",
+      "image": "https://amirchason.github.io/babyname2/blog-images/royal-regal-baby-names-history-2025-featured.jpg",
+      "title": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025",
+      "card": "summary_large_image",
+      "creator": "@SoulSeedNames"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "wordCount": 780,
+      "@graph": [
+        {
+          "dateModified": "2024-12-17T00:00:00.000Z",
+          "headline": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025",
+          "articleSection": "Themes",
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://example.com/images/royal-baby-names.jpg",
+              "width": 1200,
+              "height": 630
+            }
+          ],
+          "@id": "https://example.com/blog/royal-regal-baby-names-2025",
+          "datePublished": "2024-12-17T00:00:00.000Z",
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/blog/royal-regal-baby-names-2025"
+          },
+          "keywords": "Royal Names, Regal Names, Historical Names, Monarchy Names, Baby Names 2025",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "height": 60,
+              "url": "https://example.com/images/soulseed-logo.png",
+              "width": 600,
+              "@type": "ImageObject"
+            },
+            "name": "SoulSeed"
+          },
+          "wordCount": 431,
+          "description": "Discover 12+ royal and regal baby names from history's greatest monarchs. From Elizabeth to Alexander, find majestic names with noble heritage for your little one.",
+          "author": {
+            "@type": "Person",
+            "jobTitle": "Content Writer",
+            "name": "Jane Doe",
+            "credentials": "M.A. in History"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://example.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "item": "https://example.com/blog",
+              "name": "Blog",
+              "@type": "ListItem",
+              "position": 2
+            },
+            {
+              "position": 3,
+              "item": "https://example.com/blog/royal-regal-baby-names-2025",
+              "@type": "ListItem",
+              "name": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025"
+            }
+          ]
+        },
+        {
+          "@id": "https://example.com/blog/royal-regal-baby-names-2025",
+          "name": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025",
+          "description": "Discover 12+ royal and regal baby names from history's greatest monarchs. From Elizabeth to Alexander, find majestic names with noble heritage for your little one.",
+          "breadcrumb": {
+            "@id": "https://example.com/blog/royal-regal-baby-names-2025#breadcrumb"
+          },
+          "@type": "WebPage",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://example.com/"
+          },
+          "url": "https://example.com/blog/royal-regal-baby-names-2025",
+          "inLanguage": "en-US"
+        },
+        {
+          "url": "https://example.com",
+          "logo": {
+            "width": 600,
+            "url": "https://example.com/images/soulseed-logo.png",
+            "height": 60,
+            "@type": "ImageObject"
+          },
+          "@type": "Organization",
+          "@id": "https://example.com/#organization",
+          "name": "SoulSeed"
+        }
+      ]
+    },
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  },
+  "id": "royal-regal-baby-names-history-2025",
+  "title": "Royal & Regal Baby Names from History: 12+ Majestic Names for 2025",
+  "content": "<h1>Majestic Baby Names: Crown Your 2025 Newborn with Royalty 👑</h1>\n\n<p>In 2025, royal baby names are making a splash bigger than any Bridgerton ball, and we're here to serve you the best of the regal buffet. Whether you're binge-watching The Crown or just love a bit of noble flair, these names are not just trends—they're a legacy. Imagine your little one ruling their playground kingdom or leading a digital dynasty with a name that screams main character energy. 📚✨</p>\n\n<p>We’ve curated a list that’s more illustrious than a royal banquet, balancing the classic with the contemporary. From the thrones of history to the pages of modern fantasy, these 35+ names will have you feeling like you've just picked up Excalibur. 🔮</p>\n\n<h2>Timeless Classics with a Royal Twist 👸🤴</h2>\n\n<p><strong>Elizabeth</strong> (Hebrew, F, means \"God is my oath\"): Queen Elizabeth II's reign is legendary, and this name carries that same tenacity. Whether you go with Lizzie or Beth, it’s like having a tiara in name form.</p>\n\n<p><strong>Henry</strong> (German, M, means \"estate ruler\"): With a history of kings behind it, this name gives off serious “future leader of the free world” vibes. Hank or Hal keeps it friendly.</p>\n\n<p><strong>William</strong> (German, M, means \"resolute protector\"): From conquering lands to making tabloid headlines, this name has seen it all. Will or Liam—take your pick of royal cool.</p>\n\n<p><strong>Sarah</strong> (Hebrew, F, means \"princess\"): This classic never goes out of style, much like a little black dress. Sarah is regal and approachable—just like our favorite on-screen princesses.</p>\n\n<h2>Modern Marvels: Fresh Royalty for the New Age 🦄🌟</h2>\n\n<p><strong>Charlotte</strong> (French, F, means \"free woman\"): With Princess Charlotte setting the trend, this name is as chic as a royal wave. Charlie or Lottie makes it a modern classic.</p>\n\n<p><strong>Ryan</strong> (Irish, Unisex, means \"little king\"): Perfect for the little monarch who rules your heart. A name that sounds as good in Hollywood as it does in Gaelic lore.</p>\n\n<p><strong>Magnus</strong> (Latin, M, means \"great\"): Whether you're inspired by Norse mythology or fictional heartthrobs like Magnus Bane, this name is epic in every sense. Mags or Gus brings the cool factor.</p>\n\n<p><strong>Amelie</strong> (French, F, means \"industrious, hardworking\"): A name that’s as delightful as a Parisian café, Amelie brings charm and poise with impeccable style.</p>\n\n<h2>European Elegance & Cultural Treasures 🌍🌼</h2>\n\n<p><strong>Isabelle</strong> (Hebrew, F, means \"God is my oath\"): French royalty adored this name, and we can see why. Bella or Izzy fits snugly in any fairy tale.</p>\n\n<p><strong>Felipe</strong> (Greek, M, means \"lover of horses\"): King Felipe of Spain embodies this name’s exotic flair. Feli for short is the perfect sidekick for adventurous tales.</p>\n\n<p><strong>Anastasia</strong> (Greek, F, means \"resurrection\"): From Romanov intrigue to animated princesses, this name is as mysterious as it is enchanting. Stasia or Ana keeps it accessible.</p>\n\n<p><strong>Adeline</strong> (French, F, means \"noble, kind\"): This name offers a refined elegance. Whether you call her Addie or Lina, it’s nothing short of sophisticated.</p>\n\n<h2>Hidden Gems & Unique Finds 💎✨</h2>\n\n<p><strong>Rhiannon</strong> (Welsh, F, means \"great queen\"): This name is a melodic nod to mythology and rock ballads alike, adding an ethereal touch to any little one.</p>\n\n<p><strong>Arwen</strong> (Welsh, F, means \"noble maiden\"): With a name that echoes through the halls of Middle-Earth, Arwen is as magical as it gets, perfect for your little elfin princess.</p>\n\n<p><strong>Sakura</strong> (Japanese, F, means \"cherry blossom\"): Evoking the beauty of spring, Sakura is a breath of fresh air, bringing elegance and a pop of color to any nursery.</p>\n\n<p><strong>Amira</strong> (Arabic, F, means \"princess\"): This name carries the regal torch with grace, perfect for any future queen of hearts.</p>\n\n<p><strong>Arthur</strong> (Celtic, M, means \"bear\"): Think knights, round tables, and quests—Arthur is a legendary choice for your noble warrior.</p>\n\n<h2>Majestic Unisex Options for the Modern Royal 👑🌈</h2>\n\n<p><strong>Arya</strong> (Sanskrit, Unisex, means \"noble\"): Thanks to a certain Game of Thrones character, Arya is both fierce and elegant, ready to conquer any fantasy world.</p>\n\n<p><strong>Juno</strong> (Latin, Unisex, means \"queen of the heavens\"): Channel the cosmic energy of this powerful name, fit for a celestial leader.</p>\n\n<p><strong>Rory</strong> (Irish, Unisex, means \"red king\"): Whether in kilts or crowns, Rory carries a Celtic charm that's hard to resist.</p>\n\n<p><strong>Royal</strong> (English, Unisex, means \"regal\"): A straightforward choice for those who want to keep things kingly and majestic, no matter the occasion.</p>\n\n<h2>Final Thoughts: A Legacy in Every Name 👶✨</h2>\n\n<p>Choosing a royal name is about more than titles; it’s about giving your child a story, a piece of cultural tapestry woven into their identity. Whether you’re enchanted by the tales of yore or drawn to modern mythos, there's a name here that’ll have your little one ready to reign over every aspect of life. Here's to finding the perfect royal companion for your newborn in 2025. 👑🌟</p>\n\n<!-- BLOG_NAME_LIST_COMPONENT -->\n",
+  "status": "published",
+  "slug": "royal-regal-baby-names-history-2025",
+  "featured": true,
+  "excerpt": "Discover 12+ royal and regal baby names from history's greatest monarchs. From Elizabeth to Alexander, find majestic names with noble heritage for your little one.",
+  "stats": {
+    "wordCount": 780,
+    "readingTime": 4
+  },
+  "author": {
+    "credentials": "Parenting & Family Expert",
+    "avatar": "https://via.placeholder.com/50",
+    "bio": "Expert parenting guidance from certified professionals dedicated to supporting families through every stage.",
+    "name": "Dr. Amara Okonkwo"
+  },
+  "tags": [
+    "Royal Names",
+    "Regal Names",
+    "Historical Names",
+    "Monarchy Names",
+    "Baby Names 2025"
+  ]
+}

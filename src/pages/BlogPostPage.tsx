@@ -12,8 +12,38 @@ import { Clock, Calendar, Tag, User, ArrowLeft } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import InlineNameWithHeart from '../components/InlineNameWithHeart';
 import BlogNameList from '../components/BlogNameList';
+import CompactBlogNameList from '../components/CompactBlogNameList';
 import AppHeader from '../components/AppHeader';
 import { BlogNameMentionProvider } from '../contexts/BlogNameMentionContext';
+
+// Check if content mentions baby names
+const hasBabyNameContent = (content: string): boolean => {
+  if (!content) return false;
+
+  const lowerContent = content.toLowerCase();
+
+  // Check for baby name indicators
+  const indicators = [
+    'baby name',
+    'baby names',
+    'name for baby',
+    'name meaning',
+    'name origin',
+    'popular names',
+    'unique names',
+    'girl names',
+    'boy names',
+    'gender-neutral names',
+    'unisex names',
+    'biblical names',
+    'modern names',
+    'traditional names',
+    'vintage names',
+    'trendy names'
+  ];
+
+  return indicators.some(indicator => lowerContent.includes(indicator));
+};
 
 // Extract featured names from blog content
 const extractFeaturedNames = (html: string): string[] => {
@@ -116,10 +146,13 @@ export default function BlogPostPage() {
   const renderContent = (html: string) => {
     const parts: React.ReactNode[] = [];
 
+    // Detect if this post has baby name content (check category OR content indicators)
+    const isBabyNamesPost = post.category === 'Baby Names' || hasBabyNameContent(html);
+
     // Check if there's a BlogNameList placeholder
     const hasPlaceholder = html.includes('<!-- BLOG_NAME_LIST_COMPONENT -->');
 
-    if (hasPlaceholder) {
+    if (hasPlaceholder && isBabyNamesPost) {
       // Split content by placeholder
       const [contentBeforePlaceholder, contentAfterPlaceholder] = html.split('<!-- BLOG_NAME_LIST_COMPONENT -->');
 
@@ -132,8 +165,8 @@ export default function BlogPostPage() {
         );
       }
 
-      // Add BlogNameList component (interactive name cards at bottom)
-      parts.push(<BlogNameList key="blog-name-list" content={html} />);
+      // Add CompactBlogNameList component (compact name cards at bottom)
+      parts.push(<CompactBlogNameList key="compact-blog-name-list" content={html} />);
 
       // Process content after placeholder
       if (contentAfterPlaceholder && contentAfterPlaceholder.trim()) {
@@ -143,8 +176,18 @@ export default function BlogPostPage() {
           </div>
         );
       }
+    } else if (isBabyNamesPost) {
+      // No placeholder BUT it's a baby names post - add content with hearts + BlogNameList at end
+      parts.push(
+        <div key="html-content">
+          {processContentWithHearts(html)}
+        </div>
+      );
+
+      // Automatically add CompactBlogNameList at the bottom for ALL baby name posts
+      parts.push(<CompactBlogNameList key="compact-blog-name-list" content={html} />);
     } else {
-      // No placeholder - process all content
+      // Not a baby names post - just render content normally
       parts.push(
         <div key="html-content">
           {processContentWithHearts(html)}
@@ -157,11 +200,14 @@ export default function BlogPostPage() {
 
   // Process HTML content and replace <strong>Name</strong> with bold name + heart button
   const processContentWithHearts = (htmlContent: string) => {
+    // Detect if this post has baby name content (check category OR content indicators)
+    const isBabyNamesPost = post.category === 'Baby Names' || hasBabyNameContent(htmlContent);
+
     // Extract featured names from the content
     const featuredNames = extractFeaturedNames(htmlContent);
 
-    if (featuredNames.length === 0) {
-      // No names found, just render HTML as-is
+    if (featuredNames.length === 0 || !isBabyNamesPost) {
+      // No names found OR not a Baby Names post - just render HTML as-is
       return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
     }
 
@@ -191,7 +237,7 @@ export default function BlogPostPage() {
         const isFirstMention = !seenNames.has(nameMatch);
         seenNames.add(nameMatch);
 
-        // Add name with heart button (only on first mention)
+        // Add name with heart button (only on first mention, only for Baby Names posts)
         parts.push(
           <InlineNameWithHeart
             key={`name-${matchCount}-${match.index}`}
@@ -362,6 +408,7 @@ export default function BlogPostPage() {
               {renderContent(post.content)}
             </div>
           </div>
+
 
           <style>{`
             /* Blog content styling - enhanced formatting */

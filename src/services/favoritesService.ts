@@ -182,6 +182,8 @@ class FavoritesService {
     if (index > -1) {
       this.data.favorites.splice(index, 1);
       this.saveToStorage();
+      // Dispatch custom event for blog name list animations
+      window.dispatchEvent(new CustomEvent('favoriteRemoved', { detail: { name: normalizedName } }));
       // Dispatch storage event to update counters
       window.dispatchEvent(new Event('storage'));
     }
@@ -351,6 +353,8 @@ class FavoritesService {
       // Add to dislikes
       this.data.dislikes.push(normalizedName);
       this.saveToStorage();
+      // Dispatch custom event for blog name list animations
+      window.dispatchEvent(new CustomEvent('nameDisliked', { detail: { name: normalizedName } }));
       // Dispatch storage event to update counters
       window.dispatchEvent(new Event('storage'));
     }

@@ -61,11 +61,11 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     <header className="bg-white/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo - Always visible with Baby icon */}
+          {/* Logo - Always navigates to home page */}
           <button
-            onClick={() => showBackButton ? navigate('/') : window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => navigate('/')}
             className="flex items-center gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
-            title={showBackButton ? "Back to home" : "Scroll to top"}
+            title="Back to home"
           >
             <Baby className="h-8 w-8 sm:h-9 sm:w-9 text-purple-500" />
             <h1 className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">
