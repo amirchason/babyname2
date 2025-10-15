@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/babyname2/static/css/main.e6021834.css",
-    "main.js": "/babyname2/static/js/main.2c587fb4.js",
+    "main.css": "/babyname2/static/css/main.f3814d1a.css",
+    "main.js": "/babyname2/static/js/main.4c4d412e.js",
     "static/js/269.ac374528.chunk.js": "/babyname2/static/js/269.ac374528.chunk.js",
     "static/js/18.631c02e4.chunk.js": "/babyname2/static/js/18.631c02e4.chunk.js",
-    "static/js/900.9b181357.chunk.js": "/babyname2/static/js/900.9b181357.chunk.js",
+    "static/js/900.8592e0a8.chunk.js": "/babyname2/static/js/900.8592e0a8.chunk.js",
     "static/js/83.7a31de26.chunk.js": "/babyname2/static/js/83.7a31de26.chunk.js",
     "static/js/300.e4059bcb.chunk.js": "/babyname2/static/js/300.e4059bcb.chunk.js",
     "static/js/606.3388c2f4.chunk.js": "/babyname2/static/js/606.3388c2f4.chunk.js",
@@ -16,11 +16,11 @@
     "static/js/956.b17c9424.chunk.js": "/babyname2/static/js/956.b17c9424.chunk.js",
     "static/js/568.6423bc26.chunk.js": "/babyname2/static/js/568.6423bc26.chunk.js",
     "static/js/449.d1b4e6a3.chunk.js": "/babyname2/static/js/449.d1b4e6a3.chunk.js",
-    "static/js/938.619b9489.chunk.js": "/babyname2/static/js/938.619b9489.chunk.js",
+    "static/js/938.9a715bef.chunk.js": "/babyname2/static/js/938.9a715bef.chunk.js",
     "index.html": "/babyname2/index.html"
   },
   "entrypoints": [
-    "static/css/main.e6021834.css",
-    "static/js/main.2c587fb4.js"
+    "static/css/main.f3814d1a.css",
+    "static/js/main.4c4d412e.js"
   ]
 }
