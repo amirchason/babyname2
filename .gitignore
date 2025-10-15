@@ -68,3 +68,7 @@ babyname2-backup-*.tar.gz
 # Documentation builds
 docs/_build/
 docs/.doctrees
+
+# Vercel
+.vercel
+.vercel.json

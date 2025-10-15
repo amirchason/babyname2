@@ -2,7 +2,6 @@
   "name": "soulseed",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amirchason.github.io/babyname2",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@react-oauth/google": "^0.12.2",
@@ -42,7 +41,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "ship": "git add . && git commit -m \"🚀 Hot deploy: $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin master",
+    "ship-msg": "git add . && git commit && git push origin master"
   },
   "eslintConfig": {
     "extends": [

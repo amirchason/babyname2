@@ -21,6 +21,7 @@ const BlogListPage = lazy(() => import('./pages/BlogListPage'));
 const BlogPostPage = lazy(() => import('./pages/BlogPostPage'));
 const UpdateBlogPage = lazy(() => import('./pages/UpdateBlogPage'));
 const VotingPage = lazy(() => import('./pages/VotingPage'));
+const VotesListPage = lazy(() => import('./pages/VotesListPage'));
 
 /**
  * Component to manage admin text selection
@@ -46,8 +47,8 @@ const AdminTextSelectionManager: React.FC = () => {
 };
 
 function App() {
-  // Use basename only for production (GitHub Pages)
-  const basename = process.env.NODE_ENV === 'production' ? '/babyname2' : '/babyname2';
+  // Vercel deployment - use root path (no basename needed)
+  const basename = '/';
 
   return (
     <HelmetProvider>
@@ -71,6 +72,7 @@ function App() {
                     <Route path="/blog" element={<BlogListPage />} />
                     <Route path="/blog/:slug" element={<BlogPostPage />} />
                     <Route path="/update-blog" element={<UpdateBlogPage />} />
+                    <Route path="/votes" element={<VotesListPage />} />
                     <Route path="/vote/:voteId" element={<VotingPage />} />
                   </Routes>
                 </Suspense>
