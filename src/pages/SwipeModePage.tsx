@@ -479,7 +479,7 @@ const SwipeModePage: React.FC = () => {
     const currentCard = cards[currentIndex];
     if (!currentCard) return;
 
-    const action = direction === 'right' ? 'like' : 'dislike';
+    const action: 'like' | 'dislike' = direction === 'right' ? 'like' : 'dislike';
 
     // Update services FIRST (before state updates)
     if (direction === 'right') {

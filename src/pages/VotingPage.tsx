@@ -16,27 +16,36 @@ import {
   TrendingUp,
   Loader,
   AlertCircle,
-  Trophy
+  Trophy,
+  Heart
 } from 'lucide-react';
 import voteService, { VoteSession, VoteResult } from '../services/voteService';
 import { getVoterId, hasVoted, markAsVoted, getPreviousVote } from '../utils/voterIdGenerator';
 import ShareVoteModal from '../components/ShareVoteModal';
+import VoterAvatars from '../components/VoterAvatars';
 import { useToast } from '../contexts/ToastContext';
+import { useAuth } from '../contexts/AuthContext';
 
 export default function VotingPage() {
   const { voteId } = useParams<{ voteId: string }>();
   const navigate = useNavigate();
   const toast = useToast();
+  const { user } = useAuth();
 
   const [voteSession, setVoteSession] = useState<VoteSession | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedNames, setSelectedNames] = useState<string[]>([]);
+  const [namePoints, setNamePoints] = useState<Record<string, number>>({}); // NEW: Points allocation
   const [submitting, setSubmitting] = useState(false);
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [results, setResults] = useState<VoteResult[]>([]);
   const [showShareModal, setShowShareModal] = useState(false);
   const [voterId] = useState(getVoterId());
+
+  // Get user info for voter avatars
+  const voterName = user?.name || undefined;
+  const voterAvatar = user?.picture || undefined;
 
   /**
    * Load vote session and check if user has already voted
@@ -153,38 +162,91 @@ export default function VotingPage() {
   };
 
   /**
-   * Submit vote
+   * Submit vote (supports both old and new points-based system)
    */
   const handleSubmitVote = async () => {
     try {
       if (!voteId || !voteSession) return;
 
-      if (selectedNames.length === 0) {
-        toast.warning('Please select at least one name');
-        return;
+      const isPointsBased = !!voteSession.pointsPerVoter;
+
+      if (isPointsBased) {
+        // Points-based voting
+        const totalPoints = Object.values(namePoints).reduce((sum, p) => sum + p, 0);
+        if (totalPoints === 0) {
+          toast.warning('Please allocate at least some points');
+          return;
+        }
+        if (totalPoints > voteSession.pointsPerVoter!) {
+          toast.error(`You can only allocate ${voteSession.pointsPerVoter} points total`);
+          return;
+        }
+
+        setSubmitting(true);
+
+        await voteService.submitVote({
+          voteId,
+          namePoints,
+          voterId,
+          voterName,
+          voterAvatar
+        });
+
+        // Mark as voted in localStorage
+        const namesWithPoints = Object.keys(namePoints).filter(name => namePoints[name] > 0);
+        markAsVoted(voteId, namesWithPoints);
+        setHasSubmitted(true);
+
+        // Load results
+        await loadResults();
+
+        toast.success('Your vote has been submitted!');
+      } else {
+        // Old voting system
+        if (selectedNames.length === 0) {
+          toast.warning('Please select at least one name');
+          return;
+        }
+
+        setSubmitting(true);
+
+        await voteService.submitVote({
+          voteId,
+          selectedNames,
+          voterId,
+          voterName,
+          voterAvatar
+        });
+
+        // Mark as voted in localStorage
+        markAsVoted(voteId, selectedNames);
+        setHasSubmitted(true);
+
+        // Load results
+        await loadResults();
+
+        toast.success('Your vote has been submitted!');
       }
-
-      setSubmitting(true);
-
-      await voteService.submitVote({
-        voteId,
-        selectedNames,
-        voterId
-      });
-
-      // Mark as voted in localStorage
-      markAsVoted(voteId, selectedNames);
-      setHasSubmitted(true);
-
-      // Load results
-      await loadResults();
-
-      toast.success('Your vote has been submitted!');
     } catch (err) {
       console.error('Error submitting vote:', err);
       toast.error(err instanceof Error ? err.message : 'Failed to submit vote');
     } finally {
       setSubmitting(false);
+    }
+  };
+
+  /**
+   * Handle like toggle (NEW: Likes feature)
+   */
+  const handleLikeToggle = async (nameName: string) => {
+    try {
+      if (!voteId) return;
+
+      await voteService.toggleLike(voteId, nameName, voterId, voterName, voterAvatar);
+      // Real-time update will happen via subscription
+    } catch (err) {
+      console.error('Error toggling like:', err);
+      toast.error('Failed to toggle like');
     }
   };
 
@@ -306,14 +368,27 @@ export default function VotingPage() {
           {/* Instructions */}
           {!hasSubmitted && (
             <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-4 border-l-4 border-purple-600">
-              <p className="font-semibold text-gray-800">
-                {voteSession.voteType === 'single'
-                  ? '👉 Pick your favorite name!'
-                  : `👉 Pick your top ${voteSession.maxVotes} favorite${voteSession.maxVotes > 1 ? 's' : ''}!`}
-              </p>
-              <p className="text-sm text-gray-600 mt-1">
-                Click on names to select them, then submit your vote.
-              </p>
+              {voteSession.pointsPerVoter ? (
+                <>
+                  <p className="font-semibold text-gray-800">
+                    👉 You have {voteSession.pointsPerVoter} points to distribute!
+                  </p>
+                  <p className="text-sm text-gray-600 mt-1">
+                    Allocate points to your favorite names. You can give all points to one name or spread them across multiple!
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="font-semibold text-gray-800">
+                    {voteSession.voteType === 'single'
+                      ? '👉 Pick your favorite name!'
+                      : `👉 Pick your top ${voteSession.maxVotes} favorite${voteSession.maxVotes > 1 ? 's' : ''}!`}
+                  </p>
+                  <p className="text-sm text-gray-600 mt-1">
+                    Click on names to select them, then submit your vote.
+                  </p>
+                </>
+              )}
             </div>
           )}
 
@@ -322,7 +397,16 @@ export default function VotingPage() {
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0" />
               <div>
                 <p className="font-semibold text-gray-800">Your vote has been recorded!</p>
-                <p className="text-sm text-gray-600">You voted for: {selectedNames.join(', ')}</p>
+                {voteSession.pointsPerVoter ? (
+                  <p className="text-sm text-gray-600">
+                    Your points: {Object.entries(namePoints)
+                      .filter(([_, points]) => points > 0)
+                      .map(([name, points]) => `${name} (${points})`)
+                      .join(', ')}
+                  </p>
+                ) : (
+                  <p className="text-sm text-gray-600">You voted for: {selectedNames.join(', ')}</p>
+                )}
               </div>
             </div>
           )}
@@ -331,66 +415,204 @@ export default function VotingPage() {
         {/* Names Grid (Voting Interface or Results) */}
         {!hasSubmitted ? (
           <div className="bg-white rounded-2xl shadow-xl p-6">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Choose Your Favorites
-            </h2>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-2xl font-bold text-gray-800">
+                {voteSession.pointsPerVoter ? 'Allocate Your Points' : 'Choose Your Favorites'}
+              </h2>
+              {/* Points Remaining Counter */}
+              {voteSession.pointsPerVoter && (
+                <div className="bg-purple-100 px-4 py-2 rounded-lg">
+                  <div className="text-xs text-gray-600">Points Remaining</div>
+                  <div className="text-2xl font-bold text-purple-600">
+                    {voteSession.pointsPerVoter - Object.values(namePoints).reduce((sum, p) => sum + p, 0)}
+                    <span className="text-sm text-gray-500"> / {voteSession.pointsPerVoter}</span>
+                  </div>
+                </div>
+              )}
+            </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6">
-              <AnimatePresence>
+            {voteSession.pointsPerVoter ? (
+              // POINTS-BASED VOTING UI
+              <div className="space-y-3 mb-6">
                 {voteSession.names.map((nameEntry, index) => {
-                  const isSelected = selectedNames.includes(nameEntry.name);
-                  const voteCount = voteSession.votes[nameEntry.name]?.count || 0;
+                  const points = namePoints[nameEntry.name] || 0;
+                  const totalPoints = voteSession.votes[nameEntry.name]?.totalPoints || 0;
+                  const likes = voteSession.votes[nameEntry.name]?.likes || 0;
+                  const likedBy = voteSession.votes[nameEntry.name]?.likedBy || [];
+                  const hasLiked = likedBy.includes(voterId);
 
                   return (
-                    <motion.button
+                    <motion.div
                       key={nameEntry.name}
-                      initial={{ opacity: 0, scale: 0.9 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: index * 0.05 }}
-                      onClick={() => handleNameClick(nameEntry.name)}
-                      className={`p-4 rounded-xl border-2 transition-all text-left ${
-                        isSelected
-                          ? 'border-purple-500 bg-gradient-to-br from-purple-50 to-pink-50 shadow-md scale-105'
-                          : 'border-gray-200 hover:border-purple-300 hover:shadow-sm'
+                      initial={{ opacity: 0, x: -20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: index * 0.03 }}
+                      className={`p-4 rounded-xl border-2 transition-all ${
+                        points > 0
+                          ? 'border-purple-500 bg-gradient-to-r from-purple-50 to-pink-50 shadow-md'
+                          : 'border-gray-200 hover:border-purple-300'
                       }`}
                     >
-                      <div className="flex items-center justify-between mb-2">
-                        <h3 className="font-bold text-gray-800">{nameEntry.name}</h3>
-                        {isSelected && (
-                          <CheckCircle2 className="w-5 h-5 text-purple-600" />
-                        )}
+                      <div className="flex items-start gap-4">
+                        <div className="flex-1 min-w-0">
+                          <h3 className="font-bold text-gray-800 text-lg mb-1">{nameEntry.name}</h3>
+                          {nameEntry.meaning && (
+                            <p className="text-sm text-gray-600 italic mb-1">"{nameEntry.meaning}"</p>
+                          )}
+                          {nameEntry.origin && (
+                            <p className="text-xs text-gray-500">{nameEntry.origin}</p>
+                          )}
+                          <div className="flex items-center gap-4 mt-3">
+                            <div className="text-xs text-gray-500">
+                              Current: {totalPoints} point{totalPoints !== 1 ? 's' : ''}
+                            </div>
+                            {/* Like Button - BIGGER */}
+                            <motion.button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleLikeToggle(nameEntry.name);
+                              }}
+                              whileTap={{ scale: 0.95 }}
+                              className={`flex items-center gap-2 px-4 py-2 rounded-full border-2 transition-all ${
+                                hasLiked
+                                  ? 'bg-pink-50 border-pink-400 shadow-sm'
+                                  : 'bg-white border-gray-300 hover:border-pink-300 hover:bg-pink-50'
+                              }`}
+                            >
+                              <Heart
+                                className={`w-6 h-6 transition-colors ${
+                                  hasLiked
+                                    ? 'fill-pink-500 text-pink-500'
+                                    : 'text-gray-400 group-hover:text-pink-400'
+                                }`}
+                              />
+                              <span className={`text-base font-semibold ${
+                                hasLiked ? 'text-pink-600' : 'text-gray-600'
+                              }`}>
+                                {likes}
+                              </span>
+                            </motion.button>
+                          </div>
+                        </div>
+
+                        {/* Points Input */}
+                        <div className="flex items-center gap-3">
+                          <input
+                            type="number"
+                            min="0"
+                            max={voteSession.pointsPerVoter}
+                            value={points}
+                            onChange={(e) => {
+                              const newPoints = Math.max(0, Math.min(voteSession.pointsPerVoter!, parseInt(e.target.value) || 0));
+                              setNamePoints(prev => ({
+                                ...prev,
+                                [nameEntry.name]: newPoints
+                              }));
+                            }}
+                            className="w-20 px-3 py-2 text-center text-lg font-bold border-2 border-purple-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none"
+                          />
+                          <span className="text-sm text-gray-500 font-medium">pts</span>
+                        </div>
                       </div>
-
-                      {nameEntry.meaning && (
-                        <p className="text-xs text-gray-600 italic mb-2 line-clamp-2">
-                          "{nameEntry.meaning}"
-                        </p>
-                      )}
-
-                      {nameEntry.origin && (
-                        <p className="text-xs text-gray-500">{nameEntry.origin}</p>
-                      )}
-
-                      {/* Current vote count */}
-                      <div className="mt-2 text-xs text-gray-500">
-                        {voteCount} vote{voteCount !== 1 ? 's' : ''}
-                      </div>
-                    </motion.button>
+                    </motion.div>
                   );
                 })}
-              </AnimatePresence>
-            </div>
+              </div>
+            ) : (
+              // OLD CHECKBOX VOTING UI (backward compatibility)
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6">
+                <AnimatePresence>
+                  {voteSession.names.map((nameEntry, index) => {
+                    const isSelected = selectedNames.includes(nameEntry.name);
+                    const voteCount = voteSession.votes[nameEntry.name]?.count || 0;
+                    const likes = voteSession.votes[nameEntry.name]?.likes || 0;
+                    const likedBy = voteSession.votes[nameEntry.name]?.likedBy || [];
+                    const hasLiked = likedBy.includes(voterId);
+
+                    return (
+                      <motion.div
+                        key={nameEntry.name}
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: index * 0.05 }}
+                        className={`p-4 rounded-xl border-2 transition-all ${
+                          isSelected
+                            ? 'border-purple-500 bg-gradient-to-br from-purple-50 to-pink-50 shadow-md scale-105'
+                            : 'border-gray-200 hover:border-purple-300 hover:shadow-sm'
+                        }`}
+                      >
+                        <button
+                          onClick={() => handleNameClick(nameEntry.name)}
+                          className="w-full text-left"
+                        >
+                          <div className="flex items-center justify-between mb-2">
+                            <h3 className="font-bold text-gray-800">{nameEntry.name}</h3>
+                            {isSelected && (
+                              <CheckCircle2 className="w-5 h-5 text-purple-600" />
+                            )}
+                          </div>
+
+                          {nameEntry.meaning && (
+                            <p className="text-xs text-gray-600 italic mb-2 line-clamp-2">
+                              "{nameEntry.meaning}"
+                            </p>
+                          )}
+
+                          {nameEntry.origin && (
+                            <p className="text-xs text-gray-500">{nameEntry.origin}</p>
+                          )}
+
+                          {/* Current vote count */}
+                          <div className="mt-2 text-xs text-gray-500">
+                            {voteCount} vote{voteCount !== 1 ? 's' : ''}
+                          </div>
+                        </button>
+
+                        {/* Like Button - BIGGER */}
+                        <div className="mt-3 pt-3 border-t border-gray-200">
+                          <motion.button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleLikeToggle(nameEntry.name);
+                            }}
+                            whileTap={{ scale: 0.95 }}
+                            className={`w-full flex items-center justify-center gap-2 px-3 py-2.5 rounded-lg border-2 transition-all ${
+                              hasLiked
+                                ? 'bg-pink-50 border-pink-400 shadow-sm'
+                                : 'bg-white border-gray-300 hover:border-pink-300 hover:bg-pink-50'
+                            }`}
+                          >
+                            <Heart
+                              className={`w-5 h-5 transition-colors ${
+                                hasLiked
+                                  ? 'fill-pink-500 text-pink-500'
+                                  : 'text-gray-400 group-hover:text-pink-400'
+                              }`}
+                            />
+                            <span className={`text-sm font-bold ${
+                              hasLiked ? 'text-pink-600' : 'text-gray-600'
+                            }`}>
+                              {likes} {likes === 1 ? 'Like' : 'Likes'}
+                            </span>
+                          </motion.button>
+                        </div>
+                      </motion.div>
+                    );
+                  })}
+                </AnimatePresence>
+              </div>
+            )}
 
             {/* Submit Button */}
             <motion.button
               onClick={handleSubmitVote}
-              disabled={submitting || selectedNames.length === 0}
+              disabled={submitting || (voteSession.pointsPerVoter ? Object.values(namePoints).reduce((s, p) => s + p, 0) === 0 : selectedNames.length === 0)}
               className={`w-full py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all ${
-                selectedNames.length > 0
+                (voteSession.pointsPerVoter ? Object.values(namePoints).reduce((s, p) => s + p, 0) > 0 : selectedNames.length > 0)
                   ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:shadow-xl transform hover:scale-[1.02]'
                   : 'bg-gray-200 text-gray-400 cursor-not-allowed'
               }`}
-              whileTap={selectedNames.length > 0 ? { scale: 0.98 } : {}}
+              whileTap={(voteSession.pointsPerVoter ? Object.values(namePoints).reduce((s, p) => s + p, 0) > 0 : selectedNames.length > 0) ? { scale: 0.98 } : {}}
             >
               {submitting ? (
                 <>
@@ -400,7 +622,11 @@ export default function VotingPage() {
               ) : (
                 <>
                   <CheckCircle2 className="w-6 h-6" />
-                  Submit My Vote{selectedNames.length > 0 && ` (${selectedNames.length})`}
+                  {voteSession.pointsPerVoter ? (
+                    `Submit Vote (${Object.values(namePoints).reduce((s, p) => s + p, 0)} points)`
+                  ) : (
+                    `Submit My Vote${selectedNames.length > 0 ? ` (${selectedNames.length})` : ''}`
+                  )}
                 </>
               )}
             </motion.button>
@@ -443,7 +669,7 @@ export default function VotingPage() {
                             )}
                           </h3>
                           <span className="text-sm font-semibold text-gray-700">
-                            {result.count} vote{result.count !== 1 ? 's' : ''}
+                            {result.count} {voteSession.pointsPerVoter ? 'point' : 'vote'}{result.count !== 1 ? 's' : ''}
                           </span>
                         </div>
 
@@ -462,7 +688,7 @@ export default function VotingPage() {
                         </div>
 
                         <div className="text-xs text-gray-600 mt-1">
-                          {result.percentage.toFixed(1)}% of total votes
+                          {result.percentage.toFixed(1)}% of total {voteSession.pointsPerVoter ? 'points' : 'votes'}
                         </div>
                       </div>
                     </div>
@@ -500,6 +726,11 @@ export default function VotingPage() {
           </p>
         </div>
       </div>
+
+      {/* Voter Avatars - Fixed at bottom of page */}
+      {voteSession.allVoters && voteSession.allVoters.length > 0 && (
+        <VoterAvatars voters={voteSession.allVoters} maxDisplay={30} />
+      )}
 
       {/* Share Modal */}
       <ShareVoteModal
