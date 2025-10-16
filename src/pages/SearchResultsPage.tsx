@@ -941,7 +941,6 @@ const SearchResultsPage: React.FC = () => {
                         exit={{ opacity: 0 }}
                         transition={{
                           duration: 0.08,
-                          exit: { duration: 0.15 },
                           layout: { type: "spring", stiffness: 800, damping: 40 }
                         }}
                       >
@@ -977,7 +976,6 @@ const SearchResultsPage: React.FC = () => {
                         exit={{ opacity: 0 }}
                         transition={{
                           duration: 0.08,
-                          exit: { duration: 0.15 },
                           layout: { type: "spring", stiffness: 800, damping: 40 }
                         }}
                       >

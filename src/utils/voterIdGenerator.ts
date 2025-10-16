@@ -21,6 +21,7 @@ function hashString(str: string): string {
  * Generate browser fingerprint for voter identification
  */
 function generateFingerprint(): string {
+  /* eslint-disable no-restricted-globals */
   const fingerprint = {
     userAgent: navigator.userAgent,
     language: navigator.language,
@@ -34,6 +35,7 @@ function generateFingerprint(): string {
     timestamp: Date.now(),
     random: Math.random().toString(36).substring(7)
   };
+  /* eslint-enable no-restricted-globals */
 
   return JSON.stringify(fingerprint);
 }

@@ -12,3 +12,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* Elegant sparkle animation for Create Vote button */
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5) rotate(180deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0) rotate(360deg);
+  }
+}

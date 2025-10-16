@@ -95,7 +95,6 @@ export class NameEnrichmentAgent {
     // Prioritize Modern origin names for re-enrichment, then unenriched names
     let modernNames = this.database.filter(n =>
       n.origin === 'Modern' ||
-      n.origin === 'Modern Invented' ||
       (n.origin && n.origin.includes('Modern'))
     );
     let unenrichedNames = this.database.filter(n => !n.enriched || n.processingStatus === 'pending');

@@ -11,7 +11,7 @@ interface NameCardProps {
   onClick?: (name: NameEntry) => void;
   onFavoriteToggle?: () => void;
   onDislikeToggle?: () => void;
-  filterContext?: 'all' | 'male' | 'female'; // Current filter context
+  filterContext?: 'all' | 'male' | 'female' | 'unisex'; // Current filter context
   contextualRank?: number; // Rank within the current filtered list
   isPinned?: boolean;
   onPin?: () => void;
@@ -271,6 +271,8 @@ const NameCard: React.FC<NameCardProps> = ({
         return `Boys #${rank}`;
       case 'female':
         return `Girls #${rank}`;
+      case 'unisex':
+        return `Unisex #${rank}`;
       case 'all':
       default:
         return `#${rank}`;
@@ -311,14 +313,14 @@ const NameCard: React.FC<NameCardProps> = ({
       rotate: -30,
       opacity: 0,
       scale: 0.7,
-      transition: { duration: 0.12, ease: "easeOut" }  // Super fast
+      transition: { duration: 0.12 }  // Super fast
     },
     flyRight: {
       x: 400,
       rotate: 30,
       opacity: 0,
       scale: 0.7,
-      transition: { duration: 0.12, ease: "easeOut" }  // Super fast
+      transition: { duration: 0.12 }  // Super fast
     }
   };
 
@@ -463,7 +465,7 @@ const NameCard: React.FC<NameCardProps> = ({
                 {name.origins ? name.origins.join(' • ') : origin}
               </span>
               {enriched && (
-                <Sparkles className="w-2.5 h-2.5 text-gray-500 ml-1" strokeWidth={1.5} title="AI Enriched" />
+                <Sparkles className="w-2.5 h-2.5 text-gray-500 ml-1" strokeWidth={1.5} />
               )}
             </div>
           )}

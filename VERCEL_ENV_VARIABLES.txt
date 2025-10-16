@@ -1,0 +1,121 @@
+================================================================================
+VERCEL ENVIRONMENT VARIABLES - COPY & PASTE READY
+================================================================================
+
+INSTRUCTIONS:
+1. Go to: https://vercel.com/dashboard
+2. Click your project (soulseed)
+3. Go to: Settings → Environment Variables
+4. For EACH variable below:
+   - Click "Add New"
+   - Copy the NAME (e.g., REACT_APP_FIREBASE_API_KEY)
+   - Paste in "Name" field
+   - Copy the VALUE (the long string after =)
+   - Paste in "Value" field
+   - SELECT: Production, Preview, AND Development (all 3!)
+   - Click "Save"
+5. Repeat for all 11 variables
+
+================================================================================
+FIREBASE CONFIGURATION (6 variables)
+================================================================================
+
+NAME: REACT_APP_FIREBASE_API_KEY
+VALUE: AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70
+
+----
+
+NAME: REACT_APP_FIREBASE_AUTH_DOMAIN
+VALUE: babynames-app-9fa2a.firebaseapp.com
+
+----
+
+NAME: REACT_APP_FIREBASE_PROJECT_ID
+VALUE: babynames-app-9fa2a
+
+----
+
+NAME: REACT_APP_FIREBASE_STORAGE_BUCKET
+VALUE: babynames-app-9fa2a.firebasestorage.app
+
+----
+
+NAME: REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+VALUE: 1093132372253
+
+----
+
+NAME: REACT_APP_FIREBASE_APP_ID
+VALUE: 1:1093132372253:web:0327c13610942d60f4f9f4
+
+================================================================================
+GOOGLE OAUTH (2 variables)
+================================================================================
+
+NAME: REACT_APP_GOOGLE_CLIENT_ID
+VALUE: 1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com
+
+----
+
+NAME: REACT_APP_GOOGLE_CLIENT_SECRET
+VALUE: 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
+
+================================================================================
+API KEYS (3 variables)
+================================================================================
+
+NAME: REACT_APP_GOOGLE_API_KEY
+VALUE: AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+
+----
+
+NAME: REACT_APP_GEMINI_API_KEY
+VALUE: AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+
+----
+
+NAME: REACT_APP_YOUTUBE_API_KEY
+VALUE: AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+
+================================================================================
+CHECKLIST - Mark off as you add each variable to Vercel:
+================================================================================
+
+[ ] 1. REACT_APP_FIREBASE_API_KEY
+[ ] 2. REACT_APP_FIREBASE_AUTH_DOMAIN
+[ ] 3. REACT_APP_FIREBASE_PROJECT_ID
+[ ] 4. REACT_APP_FIREBASE_STORAGE_BUCKET
+[ ] 5. REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+[ ] 6. REACT_APP_FIREBASE_APP_ID
+[ ] 7. REACT_APP_GOOGLE_CLIENT_ID
+[ ] 8. REACT_APP_GOOGLE_CLIENT_SECRET
+[ ] 9. REACT_APP_GOOGLE_API_KEY
+[ ] 10. REACT_APP_GEMINI_API_KEY
+[ ] 11. REACT_APP_YOUTUBE_API_KEY
+
+================================================================================
+AFTER ADDING ALL VARIABLES:
+================================================================================
+
+Run this command in your terminal:
+
+    vercel --prod
+
+This will redeploy your app with the environment variables!
+
+================================================================================
+TROUBLESHOOTING:
+================================================================================
+
+Q: Build still failing?
+A: Make sure you selected ALL THREE environments (Production, Preview, Development) for EACH variable
+
+Q: Forgot to select all environments?
+A: Go back to each variable, click the "..." menu, select "Edit", then check all 3 environments
+
+Q: Need to verify variables are added?
+A: In Vercel dashboard → Settings → Environment Variables, you should see all 11 listed
+
+================================================================================
+END OF FILE
+================================================================================

@@ -1,4 +1,39 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "soulseed.baby"
+        }
+      ],
+      "destination": "https://soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "soulseedapp.com"
+        }
+      ],
+      "destination": "https://soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soulseedbaby.com"
+        }
+      ],
+      "destination": "https://soulseedbaby.com/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!sitemap\\.xml|robots\\.txt).*)",

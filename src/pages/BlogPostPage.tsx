@@ -147,7 +147,7 @@ export default function BlogPostPage() {
     const parts: React.ReactNode[] = [];
 
     // Detect if this post has baby name content (check category OR content indicators)
-    const isBabyNamesPost = post.category === 'Baby Names' || hasBabyNameContent(html);
+    const isBabyNamesPost = post?.category === 'Baby Names' || hasBabyNameContent(html);
 
     // Check if there's a BlogNameList placeholder
     const hasPlaceholder = html.includes('<!-- BLOG_NAME_LIST_COMPONENT -->');
@@ -201,7 +201,7 @@ export default function BlogPostPage() {
   // Process HTML content and replace <strong>Name</strong> with bold name + heart button
   const processContentWithHearts = (htmlContent: string) => {
     // Detect if this post has baby name content (check category OR content indicators)
-    const isBabyNamesPost = post.category === 'Baby Names' || hasBabyNameContent(htmlContent);
+    const isBabyNamesPost = post?.category === 'Baby Names' || hasBabyNameContent(htmlContent);
 
     // Extract featured names from the content
     const featuredNames = extractFeaturedNames(htmlContent);

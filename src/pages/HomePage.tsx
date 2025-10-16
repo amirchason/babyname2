@@ -708,6 +708,16 @@ const HomePage: React.FC = () => {
               <Library className="w-4 h-4" />
               Popular Name Lists
             </button>
+            <button
+              onClick={() => navigate('/votes')}
+              className="w-full py-4 rounded-full text-sm font-semibold
+                       bg-gradient-to-r from-purple-600 to-pink-600 text-white
+                       hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-200
+                       flex items-center justify-center gap-2"
+            >
+              <Trophy className="w-4 h-4" />
+              My Votes
+            </button>
           </motion.div>
 
         </div>
@@ -1349,7 +1359,6 @@ const HomePage: React.FC = () => {
                           exit={{ opacity: 0 }}
                           transition={{
                             duration: 0.08,
-                            exit: { duration: 0.15 },
                             layout: { type: "spring", stiffness: 800, damping: 40 }
                           }}
                         >
@@ -1388,7 +1397,6 @@ const HomePage: React.FC = () => {
                           exit={{ opacity: 0 }}
                           transition={{
                             duration: 0.08,
-                            exit: { duration: 0.15 },
                             layout: { type: "spring", stiffness: 800, damping: 40 }
                           }}
                         >

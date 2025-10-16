@@ -22,6 +22,20 @@
    - **Capabilities**: Step-by-step reasoning and problem decomposition
    - **No API key required**
 
+4. **vercel** - Vercel deployment management (NEW! 🎉)
+   - **Status**: ✓ Connected
+   - **Command**: `node /data/data/com.termux/files/home/.claude/mcp-servers/mcp-vercel/build/index.js`
+   - **Environment**: `VERCEL_API_TOKEN` (set via `-e` flag)
+   - **Capabilities**:
+     - Deploy projects to Vercel
+     - Manage deployments (list, get details, create)
+     - Configure environment variables
+     - Manage projects and domains
+     - Team management
+   - **API key required**: Yes (Vercel API Token)
+   - **Documentation**: See `VERCEL_MCP_GUIDE.md`
+   - **Source**: https://github.com/nganiet/mcp-vercel
+
 ### ❌ Previously Configured (Not Working on Termux/Android)
 
 1. **chrome-devtools** (in `~/.config/claude-cli/mcp_settings.json`)
@@ -158,16 +172,61 @@ claude mcp add <server-name> <command> -- <args>
 - **Solution**: Look for playwright or other automation alternatives
 - Chrome browser is not accessible from Termux terminal
 
-## Next Steps
+## How to Setup Vercel MCP (Step-by-Step)
 
-1. **Get Brave Search API key** for web search capabilities
-2. **Explore community MCPs** at awesome-mcp-servers
-3. **Test current MCPs** by restarting Claude Code session
-4. **Document** any additional MCPs you add here
+### Prerequisites
+- Node.js v20+ ✅ (You have v22.20.0)
+- Vercel account
+- Vercel API Token
+
+### Installation Steps
+
+1. **Get Vercel API Token**:
+   ```
+   Go to: https://vercel.com/account/tokens
+   Click "Create Token"
+   Name: Claude Code MCP
+   Copy the token
+   ```
+
+2. **Clone and Install**:
+   ```bash
+   mkdir -p ~/.claude/mcp-servers
+   cd ~/.claude/mcp-servers
+   git clone https://github.com/nganiet/mcp-vercel.git
+   cd mcp-vercel
+   npm install
+   npm run build
+   ```
+
+3. **Add to Claude MCP**:
+   ```bash
+   claude mcp add vercel node -e VERCEL_API_TOKEN=your_token_here -- /data/data/com.termux/files/home/.claude/mcp-servers/mcp-vercel/build/index.js
+   ```
+
+4. **Verify Connection**:
+   ```bash
+   claude mcp list
+   ```
+   You should see: `vercel: ... - ✓ Connected`
+
+5. **Usage**:
+   See `VERCEL_MCP_GUIDE.md` for complete documentation of available tools and commands.
 
 ---
 
-**Last updated**: 2025-10-05
+## Next Steps
+
+1. **Use Vercel MCP** to deploy your apps directly from Claude Code!
+2. **Get Brave Search API key** for web search capabilities
+3. **Explore community MCPs** at awesome-mcp-servers
+4. **Test current MCPs** by restarting Claude Code session
+5. **Document** any additional MCPs you add here
+
+---
+
+**Last updated**: 2025-10-15
 **Platform**: Termux on Android (aarch64-linux-android)
 **Node.js**: v22.20.0
 **Python**: 3.12.11 (pip available, but Python MCPs incompatible)
+**Active MCPs**: 4 (filesystem, memory, sequential-thinking, vercel)

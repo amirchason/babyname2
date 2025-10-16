@@ -136,15 +136,21 @@ export default function BlogNameList({ content }: BlogNameListProps) {
     if (genderFilter === 'all') return true;
 
     if (genderFilter === 'unisex') {
-      return name.sex === 'Unisex' || name.sex === 'Both';
+      return nameService.isUnisexName(name);
     }
 
     if (genderFilter === 'boy') {
-      return name.sex === 'M' || name.sex === 'Male' || name.sex === 'Boy';
+      if (typeof name.gender === 'object' && name.gender) {
+        return (name.gender.Male || 0) > (name.gender.Female || 0);
+      }
+      return false;
     }
 
     if (genderFilter === 'girl') {
-      return name.sex === 'F' || name.sex === 'Female' || name.sex === 'Girl';
+      if (typeof name.gender === 'object' && name.gender) {
+        return (name.gender.Female || 0) > (name.gender.Male || 0);
+      }
+      return false;
     }
 
     return true;

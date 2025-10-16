@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulSeed - Vercel Deployment Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .phase {
+            margin-bottom: 40px;
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+        }
+
+        .phase h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .phase-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .step {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 2px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+        }
+
+        .step h3 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .step p {
+            color: #6c757d;
+            margin-bottom: 12px;
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 5px 5px 5px 0;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            color: #0c5460;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border-left: 4px solid #856404;
+            color: #856404;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border-left: 4px solid #155724;
+            color: #155724;
+        }
+
+        .checklist {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .checklist li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .checklist li:before {
+            content: "☐";
+            position: absolute;
+            left: 0;
+            font-size: 1.5em;
+            color: #667eea;
+        }
+
+        .cost-breakdown {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .cost-breakdown table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cost-breakdown th,
+        .cost-breakdown td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .cost-breakdown th {
+            background: #667eea;
+            color: white;
+        }
+
+        .total-row {
+            font-weight: bold;
+            background: #e7f3ff;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 SoulSeed Deployment Guide</h1>
+            <p>Deploy to Vercel with Custom Domain - Step by Step</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar"></div>
+            </div>
+        </header>
+
+        <div class="content">
+            <!-- PHASE 1: PREREQUISITES -->
+            <div class="phase" id="phase1">
+                <h2><span class="phase-number">1</span> Prerequisites</h2>
+
+                <div class="step">
+                    <h3>✅ What You Need</h3>
+                    <ul class="checklist">
+                        <li>Vercel account (we'll create this)</li>
+                        <li>Credit card for domain purchase (~$15/year)</li>
+                        <li>15-30 minutes of time</li>
+                        <li>Internet connection</li>
+                    </ul>
+                </div>
+
+                <div class="alert alert-info">
+                    <strong>💡 Cost Breakdown:</strong>
+                    <div class="cost-breakdown">
+                        <table>
+                            <tr>
+                                <th>Item</th>
+                                <th>Cost</th>
+                            </tr>
+                            <tr>
+                                <td>Vercel Hosting</td>
+                                <td>$0/month (FREE forever)</td>
+                            </tr>
+                            <tr>
+                                <td>Domain from Vercel</td>
+                                <td>~$15/year</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td>Total First Year</td>
+                                <td>~$15 (~$1.25/month)</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 2: CREATE VERCEL ACCOUNT -->
+            <div class="phase" id="phase2">
+                <h2><span class="phase-number">2</span> Create Vercel Account</h2>
+
+                <div class="step">
+                    <h3>📝 Sign Up for Vercel</h3>
+                    <p>Create your free Vercel account to get started.</p>
+                    <a href="https://vercel.com/signup" class="btn" target="_blank">🔗 Sign Up for Vercel</a>
+                    <div class="alert alert-info">
+                        <strong>Tips:</strong>
+                        <ul>
+                            <li>Sign up with GitHub for easier project imports</li>
+                            <li>Use the same email as your GitHub account</li>
+                            <li>Free tier includes unlimited deployments!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 3: INSTALL VERCEL CLI -->
+            <div class="phase" id="phase3">
+                <h2><span class="phase-number">3</span> Install Vercel CLI</h2>
+
+                <div class="step">
+                    <h3>💻 Install Vercel Command Line Tool</h3>
+                    <p>Open your Termux terminal and run:</p>
+                    <div class="code-block">npm install -g vercel</div>
+
+                    <div class="alert alert-warning">
+                        <strong>⚠️ Troubleshooting:</strong>
+                        <ul>
+                            <li>If you get permission errors, the command should still work in Termux</li>
+                            <li>Installation takes 1-2 minutes</li>
+                            <li>You'll see a progress bar</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>✅ Verify Installation</h3>
+                    <p>Check that Vercel CLI is installed:</p>
+                    <div class="code-block">vercel --version</div>
+                    <p>You should see a version number like <code>34.0.0</code> or similar.</p>
+                </div>
+            </div>
+
+            <!-- PHASE 4: LOGIN TO VERCEL -->
+            <div class="phase" id="phase4">
+                <h2><span class="phase-number">4</span> Login to Vercel</h2>
+
+                <div class="step">
+                    <h3>🔐 Authenticate with Vercel</h3>
+                    <p>Run the login command:</p>
+                    <div class="code-block">vercel login</div>
+
+                    <div class="alert alert-info">
+                        <strong>What happens next:</strong>
+                        <ol>
+                            <li>Vercel will ask: "Log in to Vercel"</li>
+                            <li>Choose your preferred method (email or GitHub)</li>
+                            <li>A browser will open (or you'll get a link to copy)</li>
+                            <li>Confirm the login in your browser</li>
+                            <li>Return to terminal - you'll see "Success!"</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 5: PREPARE PROJECT -->
+            <div class="phase" id="phase5">
+                <h2><span class="phase-number">5</span> Prepare Your Project</h2>
+
+                <div class="step">
+                    <h3>📁 Navigate to Project Directory</h3>
+                    <p>Make sure you're in the right folder:</p>
+                    <div class="code-block">cd /data/data/com.termux/files/home/proj/babyname2</div>
+                </div>
+
+                <div class="step">
+                    <h3>🧪 Test Your Build</h3>
+                    <p>Make sure your app builds successfully:</p>
+                    <div class="code-block">npm run build</div>
+                    <p>This takes 2-3 minutes. You should see "Compiled successfully!"</p>
+
+                    <div class="alert alert-warning">
+                        <strong>If build fails:</strong>
+                        <ul>
+                            <li>Run: <code>npm install</code> first</li>
+                            <li>Check for any error messages</li>
+                            <li>Make sure all dependencies are installed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 6: DEPLOY TO VERCEL -->
+            <div class="phase" id="phase6">
+                <h2><span class="phase-number">6</span> Deploy to Vercel</h2>
+
+                <div class="step">
+                    <h3>🚀 Initial Deployment</h3>
+                    <p>Deploy your app to Vercel:</p>
+                    <div class="code-block">vercel</div>
+
+                    <div class="alert alert-info">
+                        <strong>Vercel will ask you questions:</strong>
+                        <ol>
+                            <li><strong>"Set up and deploy?"</strong> → Press <code>Y</code> (Yes)</li>
+                            <li><strong>"Which scope?"</strong> → Press Enter (use your account)</li>
+                            <li><strong>"Link to existing project?"</strong> → Press <code>N</code> (No, create new)</li>
+                            <li><strong>"What's your project's name?"</strong> → Type: <code>soulseed</code> or your preferred name</li>
+                            <li><strong>"In which directory?"</strong> → Press Enter (current directory)</li>
+                            <li><strong>"Want to override settings?"</strong> → Press <code>N</code> (No)</li>
+                        </ol>
+                    </div>
+
+                    <p><strong>Wait 2-3 minutes...</strong> Vercel will build and deploy your app!</p>
+
+                    <div class="alert alert-success">
+                        <strong>✅ Success!</strong><br>
+                        You'll see: "Preview: https://your-project-xxx.vercel.app"<br>
+                        This is your PREVIEW URL (not production yet)
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>🧪 Test Your Preview</h3>
+                    <p>Open the preview URL in your browser and test:</p>
+                    <ul class="checklist">
+                        <li>Does the homepage load?</li>
+                        <li>Can you search for names?</li>
+                        <li>Do filters work?</li>
+                    </ul>
+
+                    <div class="alert alert-warning">
+                        <strong>⚠️ Known Issue:</strong> Firebase/Google Auth won't work yet because we need to add environment variables. This is normal!
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 7: ADD ENVIRONMENT VARIABLES -->
+            <div class="phase" id="phase7">
+                <h2><span class="phase-number">7</span> Add Environment Variables ⚠️ CRITICAL</h2>
+
+                <div class="alert alert-warning" style="border-left: 4px solid #dc3545; background: #f8d7da; color: #721c24;">
+                    <strong>🚨 IMPORTANT:</strong> Your build is failing because environment variables are missing! You MUST add these to Vercel for your app to work.
+                </div>
+
+                <div class="step">
+                    <h3>🔧 Step-by-Step: Add Variables in Vercel Dashboard</h3>
+                    <a href="https://vercel.com/dashboard" class="btn" target="_blank">🔗 Open Vercel Dashboard</a>
+
+                    <div class="alert alert-info">
+                        <strong>📍 Navigation Steps:</strong>
+                        <ol style="font-size: 1.1em; line-height: 2em;">
+                            <li><strong>Step 1:</strong> Click on your project name (e.g., "soulseed")</li>
+                            <li><strong>Step 2:</strong> Click the <strong>Settings</strong> tab at the top</li>
+                            <li><strong>Step 3:</strong> Click <strong>Environment Variables</strong> in the left sidebar</li>
+                            <li><strong>Step 4:</strong> You'll see "Add Variable" section</li>
+                        </ol>
+                    </div>
+
+                    <h4 style="margin-top: 30px; color: #dc3545; font-size: 1.5em;">📋 YOUR ENVIRONMENT VARIABLES (Ready to Copy!)</h4>
+                    <p style="background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107;">
+                        <strong>⚡ Pro Tip:</strong> Click on each variable name below, copy the value, and paste it into Vercel!
+                    </p>
+
+                    <!-- FIREBASE VARIABLES -->
+                    <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #2196f3;">
+                        <h4 style="color: #1976d2; margin-bottom: 15px;">🔥 Firebase Configuration (6 variables)</h4>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #1976d2;">Variable 1 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_FIREBASE_API_KEY
+Value: AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #1976d2;">Variable 2 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_FIREBASE_AUTH_DOMAIN
+Value: babynames-app-9fa2a.firebaseapp.com
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #1976d2;">Variable 3 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_FIREBASE_PROJECT_ID
+Value: babynames-app-9fa2a
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #1976d2;">Variable 4 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_FIREBASE_STORAGE_BUCKET
+Value: babynames-app-9fa2a.firebasestorage.app
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #1976d2;">Variable 5 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+Value: 1093132372253
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #1976d2;">Variable 6 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_FIREBASE_APP_ID
+Value: 1:1093132372253:web:0327c13610942d60f4f9f4
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GOOGLE OAUTH VARIABLES -->
+                    <div style="background: #fce4ec; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #e91e63;">
+                        <h4 style="color: #c2185b; margin-bottom: 15px;">🔐 Google OAuth (2 variables)</h4>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #c2185b;">Variable 7 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_GOOGLE_CLIENT_ID
+Value: 1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #c2185b;">Variable 8 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_GOOGLE_CLIENT_SECRET
+Value: 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
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- API KEYS -->
+                    <div style="background: #f3e5f5; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #9c27b0;">
+                        <h4 style="color: #7b1fa2; margin-bottom: 15px;">🔑 API Keys (3 variables)</h4>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #7b1fa2;">Variable 9 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_GOOGLE_API_KEY
+Value: AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #7b1fa2;">Variable 10 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_GEMINI_API_KEY
+Value: AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+                            </div>
+                        </div>
+
+                        <div style="background: white; padding: 15px; border-radius: 5px; margin: 10px 0;">
+                            <strong style="color: #7b1fa2;">Variable 11 of 11:</strong>
+                            <div class="code-block" style="margin-top: 10px;">
+Name: REACT_APP_YOUTUBE_API_KEY
+Value: AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-warning" style="margin-top: 30px;">
+                        <strong>⚠️ CRITICAL for EACH Variable:</strong>
+                        <ol style="font-size: 1.1em; line-height: 2em; margin-top: 10px;">
+                            <li>In Vercel, click <strong>"Add New"</strong> button</li>
+                            <li>Copy the <strong>Name</strong> (e.g., REACT_APP_FIREBASE_API_KEY)</li>
+                            <li>Paste it in the <strong>"Name"</strong> field in Vercel</li>
+                            <li>Copy the <strong>Value</strong> (the long string)</li>
+                            <li>Paste it in the <strong>"Value"</strong> field in Vercel</li>
+                            <li><strong>IMPORTANT:</strong> Select <strong>"Production"</strong>, <strong>"Preview"</strong>, AND <strong>"Development"</strong> (all three!)</li>
+                            <li>Click <strong>"Save"</strong></li>
+                            <li>Repeat for all 11 variables</li>
+                        </ol>
+                    </div>
+
+                    <div style="background: #d4edda; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #28a745;">
+                        <h4 style="color: #155724;">✅ Progress Checklist - Track Your Variables!</h4>
+                        <ul class="checklist" style="font-size: 1.1em; line-height: 2em;">
+                            <li>REACT_APP_FIREBASE_API_KEY</li>
+                            <li>REACT_APP_FIREBASE_AUTH_DOMAIN</li>
+                            <li>REACT_APP_FIREBASE_PROJECT_ID</li>
+                            <li>REACT_APP_FIREBASE_STORAGE_BUCKET</li>
+                            <li>REACT_APP_FIREBASE_MESSAGING_SENDER_ID</li>
+                            <li>REACT_APP_FIREBASE_APP_ID</li>
+                            <li>REACT_APP_GOOGLE_CLIENT_ID</li>
+                            <li>REACT_APP_GOOGLE_CLIENT_SECRET</li>
+                            <li>REACT_APP_GOOGLE_API_KEY</li>
+                            <li>REACT_APP_GEMINI_API_KEY</li>
+                            <li>REACT_APP_YOUTUBE_API_KEY</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>🔄 Redeploy with Environment Variables</h3>
+                    <p>After adding ALL 11 variables, go back to terminal and run:</p>
+                    <div class="code-block">vercel --prod</div>
+                    <p><strong>This triggers a new build with your environment variables!</strong></p>
+
+                    <div class="alert alert-success">
+                        <strong>✅ What Happens Next:</strong><br>
+                        <ul style="margin-top: 10px;">
+                            <li>Vercel rebuilds your app (2-3 minutes)</li>
+                            <li>Environment variables are now available</li>
+                            <li>Firebase & OAuth will work</li>
+                            <li>You'll get: https://your-project.vercel.app</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 8: BUY DOMAIN FROM VERCEL -->
+            <div class="phase" id="phase8">
+                <h2><span class="phase-number">8</span> Buy Domain from Vercel</h2>
+
+                <div class="step">
+                    <h3>🌐 Purchase Your Domain</h3>
+                    <p>Go to your project settings to buy a domain:</p>
+                    <a href="https://vercel.com/dashboard" class="btn" target="_blank">🔗 Open Vercel Dashboard</a>
+
+                    <div class="alert alert-info">
+                        <strong>Steps to Buy Domain:</strong>
+                        <ol>
+                            <li>Click on your project (soulseed)</li>
+                            <li>Go to <strong>Settings</strong> tab</li>
+                            <li>Click <strong>Domains</strong> in left sidebar</li>
+                            <li>Type your desired domain in search box (e.g., "soulseed.com")</li>
+                            <li>Click <strong>Search</strong></li>
+                            <li>Vercel will show available domains with prices</li>
+                            <li>Choose your domain and click <strong>Buy</strong></li>
+                            <li>Enter credit card details</li>
+                            <li>Confirm purchase</li>
+                        </ol>
+                    </div>
+
+                    <h4 style="margin-top: 20px;">💡 Domain Name Suggestions:</h4>
+                    <ul>
+                        <li>soulseed.com</li>
+                        <li>soulseedapp.com</li>
+                        <li>findsoulseed.com</li>
+                        <li>mysoulseed.com</li>
+                        <li>babysoulseed.com</li>
+                        <li>namesoulseed.com</li>
+                    </ul>
+
+                    <div class="alert alert-warning">
+                        <strong>💰 Pricing:</strong>
+                        <ul>
+                            <li>.com domains: ~$15/year</li>
+                            <li>.app domains: ~$15/year</li>
+                            <li>.io domains: ~$30/year</li>
+                            <li>Auto-renews annually</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>⚡ Automatic Configuration</h3>
+                    <p><strong>Good News!</strong> When you buy a domain from Vercel:</p>
+                    <div class="alert alert-success">
+                        <strong>✅ Automatic Setup:</strong>
+                        <ul>
+                            <li>✅ DNS automatically configured</li>
+                            <li>✅ SSL certificate automatically issued</li>
+                            <li>✅ Domain connected to your project</li>
+                            <li>✅ HTTPS enabled immediately</li>
+                            <li>✅ All redirects configured</li>
+                        </ul>
+                        <p style="margin-top: 10px;"><strong>Your domain will be live in 1-2 minutes!</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 9: UPDATE FIREBASE & OAUTH -->
+            <div class="phase" id="phase9">
+                <h2><span class="phase-number">9</span> Update Firebase & OAuth</h2>
+
+                <div class="step">
+                    <h3>🔥 Add Domain to Firebase</h3>
+                    <p>Update Firebase to allow your new domain:</p>
+                    <a href="https://console.firebase.google.com" class="btn" target="_blank">🔗 Open Firebase Console</a>
+
+                    <div class="alert alert-info">
+                        <strong>Steps:</strong>
+                        <ol>
+                            <li>Select your project (babynames-app-9fa2a)</li>
+                            <li>Go to <strong>Authentication</strong></li>
+                            <li>Click <strong>Settings</strong> tab</li>
+                            <li>Scroll to <strong>Authorized domains</strong></li>
+                            <li>Click <strong>Add domain</strong></li>
+                            <li>Enter: <code>yourdomain.com</code> (your new domain)</li>
+                            <li>Click <strong>Add</strong></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>🔐 Update Google OAuth</h3>
+                    <p>Add your domain to Google OAuth authorized origins:</p>
+                    <a href="https://console.cloud.google.com/apis/credentials" class="btn" target="_blank">🔗 Google Cloud Console</a>
+
+                    <div class="alert alert-info">
+                        <strong>Steps:</strong>
+                        <ol>
+                            <li>Select your project</li>
+                            <li>Click on your <strong>OAuth 2.0 Client ID</strong></li>
+                            <li>Under <strong>Authorized JavaScript origins</strong>, click <strong>+ ADD URI</strong></li>
+                            <li>Add: <code>https://yourdomain.com</code></li>
+                            <li>Under <strong>Authorized redirect URIs</strong>, click <strong>+ ADD URI</strong></li>
+                            <li>Add: <code>https://yourdomain.com/__/auth/handler</code></li>
+                            <li>Click <strong>Save</strong></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 10: TEST EVERYTHING -->
+            <div class="phase" id="phase10">
+                <h2><span class="phase-number">10</span> Test Your Live Site</h2>
+
+                <div class="step">
+                    <h3>🧪 Complete Testing Checklist</h3>
+                    <p>Visit your new domain and test everything:</p>
+                    <ul class="checklist">
+                        <li>Homepage loads correctly</li>
+                        <li>Search works</li>
+                        <li>Filters work (gender, origin, etc.)</li>
+                        <li>Name cards display properly</li>
+                        <li>Favorites can be added/removed</li>
+                        <li>Google Login works</li>
+                        <li>Firebase sync works</li>
+                        <li>Swipe mode works</li>
+                        <li>Voting system works</li>
+                        <li>Mobile responsive design looks good</li>
+                        <li>HTTPS lock icon shows in browser</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h3>📱 Test on Multiple Devices</h3>
+                    <div class="alert alert-info">
+                        <strong>Test on:</strong>
+                        <ul>
+                            <li>Desktop browser</li>
+                            <li>Mobile browser (Chrome/Safari)</li>
+                            <li>Tablet (if available)</li>
+                            <li>Different browsers (Chrome, Firefox, Safari)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 11: CELEBRATE -->
+            <div class="phase" id="phase11">
+                <h2><span class="phase-number">11</span> 🎉 You're Live!</h2>
+
+                <div class="step">
+                    <h3>✅ Deployment Complete!</h3>
+                    <div class="alert alert-success">
+                        <strong>🎊 Congratulations!</strong><br><br>
+                        Your SoulSeed app is now live on the internet!<br>
+                        <ul style="margin-top: 10px;">
+                            <li>✅ Deployed on Vercel</li>
+                            <li>✅ Custom domain configured</li>
+                            <li>✅ SSL/HTTPS enabled</li>
+                            <li>✅ Firebase & OAuth working</li>
+                            <li>✅ Ready to share with the world!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>📢 Share Your App</h3>
+                    <p>Share your new domain:</p>
+                    <ul>
+                        <li>Social media (Twitter, Facebook, Instagram)</li>
+                        <li>Product Hunt</li>
+                        <li>Reddit (r/SideProject, r/webdev)</li>
+                        <li>Friends and family</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h3>🔄 Future Updates</h3>
+                    <p>To update your live site in the future:</p>
+                    <div class="code-block">
+# Make your code changes
+git add .
+git commit -m "Your update message"
+
+# Deploy to production
+vercel --prod
+                    </div>
+                    <p>Updates go live in 2-3 minutes automatically!</p>
+                </div>
+            </div>
+
+            <!-- QUICK REFERENCE -->
+            <div class="phase" id="reference">
+                <h2>📚 Quick Command Reference</h2>
+
+                <div class="code-block">
+# Install Vercel CLI
+npm install -g vercel
+
+# Login
+vercel login
+
+# Deploy to preview
+vercel
+
+# Deploy to production
+vercel --prod
+
+# View deployment logs
+vercel logs
+
+# List all deployments
+vercel ls
+
+# Remove a deployment
+vercel rm deployment-url
+                </div>
+            </div>
+
+            <!-- TROUBLESHOOTING -->
+            <div class="phase" id="troubleshooting">
+                <h2>🔧 Common Issues & Solutions</h2>
+
+                <div class="step">
+                    <h3>❌ Build Failed</h3>
+                    <div class="alert alert-warning">
+                        <strong>Solution:</strong>
+                        <ul>
+                            <li>Run <code>npm run build</code> locally first</li>
+                            <li>Fix any errors shown</li>
+                            <li>Make sure all dependencies are in package.json</li>
+                            <li>Commit changes and redeploy</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>❌ Login Not Working</h3>
+                    <div class="alert alert-warning">
+                        <strong>Solution:</strong>
+                        <ul>
+                            <li>Check Firebase authorized domains includes your new domain</li>
+                            <li>Check Google OAuth redirect URIs are correct</li>
+                            <li>Wait 5 minutes for DNS to propagate</li>
+                            <li>Clear browser cache and try again</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>❌ Environment Variables Not Working</h3>
+                    <div class="alert alert-warning">
+                        <strong>Solution:</strong>
+                        <ul>
+                            <li>Check all 11 variables are added in Vercel dashboard</li>
+                            <li>Make sure "All Environments" is selected</li>
+                            <li>Redeploy with <code>vercel --prod</code></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <h3>❌ Domain Not Loading</h3>
+                    <div class="alert alert-warning">
+                        <strong>Solution:</strong>
+                        <ul>
+                            <li>Wait 1-2 minutes for DNS propagation</li>
+                            <li>Check domain is added in Vercel project settings</li>
+                            <li>Try accessing with https:// prefix</li>
+                            <li>Clear browser DNS cache</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SUPPORT -->
+            <div class="phase" id="support">
+                <h2>💬 Need Help?</h2>
+
+                <div class="step">
+                    <h3>📖 Resources</h3>
+                    <a href="https://vercel.com/docs" class="btn btn-secondary" target="_blank">📚 Vercel Documentation</a>
+                    <a href="https://vercel.com/support" class="btn btn-secondary" target="_blank">🆘 Vercel Support</a>
+                    <a href="https://github.com/vercel/vercel/discussions" class="btn btn-secondary" target="_blank">💬 Community Forum</a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Made with ❤️ for SoulSeed</p>
+            <p style="opacity: 0.7; margin-top: 10px;">Follow the steps above and you'll have your app live in ~30 minutes!</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple progress tracking
+        const phases = document.querySelectorAll('.phase');
+        const progressBar = document.getElementById('progressBar');
+
+        // Scroll progress
+        window.addEventListener('scroll', () => {
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight - windowHeight;
+            const scrolled = window.scrollY;
+            const progress = (scrolled / documentHeight) * 100;
+            progressBar.style.width = progress + '%';
+        });
+
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

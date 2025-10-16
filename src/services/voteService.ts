@@ -35,9 +35,24 @@ export interface VoteNameEntry {
   };
 }
 
+export interface VoterInfo {
+  id: string;
+  name?: string;
+  avatar?: string;
+  votedAt?: any; // Timestamp
+}
+
 export interface VoteCount {
   count: number;
   voters: string[];
+  voterInfo?: VoterInfo[]; // NEW: Detailed voter information with avatars
+  // Points-based voting (NEW)
+  totalPoints?: number;
+  voterPoints?: Record<string, number>;
+  // Likes system (NEW)
+  likes?: number;
+  likedBy?: string[]; // Array of voter IDs who liked this name
+  likeVoterInfo?: VoterInfo[]; // NEW: Detailed info for voters who liked
 }
 
 export type VoteType = 'single' | 'multiple';
@@ -54,11 +69,13 @@ export interface VoteSession {
   names: VoteNameEntry[];
   voteType: VoteType;
   maxVotes: number;
+  pointsPerVoter?: number; // NEW: For points-based voting (up to 100)
   isPublic: boolean;
   expiresAt: Timestamp | null;
   status: VoteStatus;
   votes: Record<string, VoteCount>;
   totalVoters: number;
+  allVoters?: VoterInfo[]; // NEW: All unique voters who participated
   stats: {
     totalVotesCast: number;
     lastVoteAt: Timestamp | null;
@@ -71,14 +88,18 @@ export interface CreateVoteData {
   names: VoteNameEntry[];
   voteType: VoteType;
   maxVotes: number;
+  pointsPerVoter?: number; // NEW: For points-based voting (1-100)
   isPublic: boolean;
   expiresAt: Date | null;
 }
 
 export interface VoteSubmission {
   voteId: string;
-  selectedNames: string[];
+  selectedNames?: string[]; // For backward compatibility with old votes
+  namePoints?: Record<string, number>; // NEW: For points-based voting {name: points}
   voterId: string;
+  voterName?: string; // NEW: Voter's display name
+  voterAvatar?: string; // NEW: Voter's avatar URL
 }
 
 export interface VoteResult {
@@ -131,7 +152,16 @@ class VoteService {
       voteData.names.forEach(nameEntry => {
         votes[nameEntry.name] = {
           count: 0,
-          voters: []
+          voters: [],
+          voterInfo: [], // NEW: Initialize voter info array
+          likes: 0, // NEW: Initialize likes counter
+          likedBy: [], // NEW: Initialize likes array
+          likeVoterInfo: [], // NEW: Initialize like voter info
+          // Initialize points-based fields if using points system
+          ...(voteData.pointsPerVoter ? {
+            totalPoints: 0,
+            voterPoints: {}
+          } : {})
         };
       });
 
@@ -146,11 +176,13 @@ class VoteService {
         names: voteData.names,
         voteType: voteData.voteType,
         maxVotes: voteData.maxVotes,
+        ...(voteData.pointsPerVoter ? { pointsPerVoter: voteData.pointsPerVoter } : {}),
         isPublic: voteData.isPublic,
         expiresAt: voteData.expiresAt ? Timestamp.fromDate(voteData.expiresAt) : null,
         status: 'active' as VoteStatus,
         votes,
         totalVoters: 0,
+        allVoters: [], // NEW: Initialize all voters array
         stats: {
           totalVotesCast: 0,
           lastVoteAt: null
@@ -202,7 +234,7 @@ class VoteService {
    */
   async submitVote(submission: VoteSubmission): Promise<void> {
     try {
-      const { voteId, selectedNames, voterId } = submission;
+      const { voteId, selectedNames, namePoints, voterId, voterName, voterAvatar } = submission;
 
       const voteRef = doc(db, this.collectionName, voteId);
 
@@ -225,54 +257,151 @@ class VoteService {
           throw new Error('This vote has expired');
         }
 
-        // Validate number of selections
-        if (selectedNames.length > voteData.maxVotes) {
-          throw new Error(`You can only vote for ${voteData.maxVotes} name(s)`);
-        }
-
-        if (selectedNames.length === 0) {
-          throw new Error('Please select at least one name');
-        }
-
         // Create a copy of votes
         const votes = { ...voteData.votes };
 
         // Check if user has already voted
         const hasVotedBefore = Object.values(votes).some(
-          v => v.voters?.includes(voterId)
+          v => v.voters?.includes(voterId) || v.voterPoints?.[voterId]
         );
 
         let isNewVoter = !hasVotedBefore;
 
-        // Remove previous votes if user has voted before
-        if (hasVotedBefore) {
-          Object.keys(votes).forEach(name => {
-            if (votes[name].voters.includes(voterId)) {
-              votes[name].voters = votes[name].voters.filter(id => id !== voterId);
-              votes[name].count = votes[name].voters.length;
+        // Prepare voter info
+        const voterInfo: VoterInfo = {
+          id: voterId,
+          name: voterName,
+          avatar: voterAvatar,
+          votedAt: Timestamp.now()
+        };
+
+        // Handle POINTS-BASED VOTING (new system)
+        if (voteData.pointsPerVoter && namePoints) {
+          // Validate total points
+          const totalPointsAllocated = Object.values(namePoints).reduce((sum, points) => sum + points, 0);
+          if (totalPointsAllocated > voteData.pointsPerVoter) {
+            throw new Error(`You can only allocate ${voteData.pointsPerVoter} points total`);
+          }
+
+          // Remove previous point allocations if user has voted before
+          if (hasVotedBefore) {
+            Object.keys(votes).forEach(name => {
+              if (votes[name].voterPoints && votes[name].voterPoints![voterId]) {
+                const previousPoints = votes[name].voterPoints![voterId];
+                votes[name].totalPoints = (votes[name].totalPoints || 0) - previousPoints;
+                delete votes[name].voterPoints![voterId];
+              }
+            });
+          }
+
+          // Add new point allocations
+          Object.entries(namePoints).forEach(([name, points]) => {
+            if (points > 0) {
+              if (!votes[name]) {
+                votes[name] = { count: 0, voters: [], voterInfo: [], totalPoints: 0, voterPoints: {} };
+              }
+              if (!votes[name].voterPoints) {
+                votes[name].voterPoints = {};
+              }
+              if (!votes[name].totalPoints) {
+                votes[name].totalPoints = 0;
+              }
+              if (!votes[name].voterInfo) {
+                votes[name].voterInfo = [];
+              }
+
+              votes[name].voterPoints![voterId] = points;
+              votes[name].totalPoints = (votes[name].totalPoints || 0) + points;
+
+              // Add/update voter info
+              const existingVoterIndex = votes[name].voterInfo!.findIndex(v => v.id === voterId);
+              if (existingVoterIndex >= 0) {
+                votes[name].voterInfo![existingVoterIndex] = voterInfo;
+              } else {
+                votes[name].voterInfo!.push(voterInfo);
+              }
             }
           });
+
+          // Update allVoters array
+          let allVoters = voteData.allVoters || [];
+          const existingVoterIndex = allVoters.findIndex(v => v.id === voterId);
+          if (existingVoterIndex >= 0) {
+            allVoters[existingVoterIndex] = voterInfo;
+          } else {
+            allVoters = [...allVoters, voterInfo];
+          }
+
+          // Update vote document
+          transaction.update(voteRef, {
+            votes,
+            allVoters,
+            totalVoters: isNewVoter ? voteData.totalVoters + 1 : voteData.totalVoters,
+            'stats.totalVotesCast': voteData.stats.totalVotesCast + totalPointsAllocated,
+            'stats.lastVoteAt': Timestamp.now(),
+            updatedAt: Timestamp.now()
+          });
         }
-
-        // Add new votes
-        selectedNames.forEach(name => {
-          if (!votes[name]) {
-            votes[name] = { count: 0, voters: [] };
+        // Handle OLD VOTING SYSTEM (backward compatibility)
+        else if (selectedNames) {
+          // Validate number of selections
+          if (selectedNames.length > voteData.maxVotes) {
+            throw new Error(`You can only vote for ${voteData.maxVotes} name(s)`);
           }
-          if (!votes[name].voters.includes(voterId)) {
-            votes[name].voters.push(voterId);
-            votes[name].count = votes[name].voters.length;
-          }
-        });
 
-        // Update vote document
-        transaction.update(voteRef, {
-          votes,
-          totalVoters: isNewVoter ? voteData.totalVoters + 1 : voteData.totalVoters,
-          'stats.totalVotesCast': voteData.stats.totalVotesCast + selectedNames.length,
-          'stats.lastVoteAt': Timestamp.now(),
-          updatedAt: Timestamp.now()
-        });
+          if (selectedNames.length === 0) {
+            throw new Error('Please select at least one name');
+          }
+
+          // Remove previous votes if user has voted before
+          if (hasVotedBefore) {
+            Object.keys(votes).forEach(name => {
+              if (votes[name].voters.includes(voterId)) {
+                votes[name].voters = votes[name].voters.filter(id => id !== voterId);
+                votes[name].count = votes[name].voters.length;
+              }
+            });
+          }
+
+          // Add new votes
+          selectedNames.forEach(name => {
+            if (!votes[name]) {
+              votes[name] = { count: 0, voters: [], voterInfo: [] };
+            }
+            if (!votes[name].voterInfo) {
+              votes[name].voterInfo = [];
+            }
+
+            if (!votes[name].voters.includes(voterId)) {
+              votes[name].voters.push(voterId);
+              votes[name].count = votes[name].voters.length;
+
+              // Add voter info
+              votes[name].voterInfo!.push(voterInfo);
+            }
+          });
+
+          // Update allVoters array
+          let allVoters = voteData.allVoters || [];
+          const existingVoterIndex = allVoters.findIndex(v => v.id === voterId);
+          if (existingVoterIndex >= 0) {
+            allVoters[existingVoterIndex] = voterInfo;
+          } else {
+            allVoters = [...allVoters, voterInfo];
+          }
+
+          // Update vote document
+          transaction.update(voteRef, {
+            votes,
+            allVoters,
+            totalVoters: isNewVoter ? voteData.totalVoters + 1 : voteData.totalVoters,
+            'stats.totalVotesCast': voteData.stats.totalVotesCast + selectedNames.length,
+            'stats.lastVoteAt': Timestamp.now(),
+            updatedAt: Timestamp.now()
+          });
+        } else {
+          throw new Error('Invalid submission: must provide either selectedNames or namePoints');
+        }
       });
     } catch (error) {
       console.error('Error submitting vote:', error);
@@ -281,7 +410,7 @@ class VoteService {
   }
 
   /**
-   * Get vote results sorted by count
+   * Get vote results sorted by count (or points for points-based voting)
    */
   async getResults(voteId: string): Promise<VoteResult[]> {
     try {
@@ -292,21 +421,25 @@ class VoteService {
       }
 
       const results: VoteResult[] = [];
+      const isPointsBased = !!voteSession.pointsPerVoter;
+
+      // Calculate total (votes or points)
       const totalVotes = Object.values(voteSession.votes).reduce(
-        (sum, v) => sum + v.count,
+        (sum, v) => sum + (isPointsBased ? (v.totalPoints || 0) : v.count),
         0
       );
 
       Object.entries(voteSession.votes).forEach(([name, voteCount]) => {
+        const count = isPointsBased ? (voteCount.totalPoints || 0) : voteCount.count;
         results.push({
           name,
-          count: voteCount.count,
-          percentage: totalVotes > 0 ? (voteCount.count / totalVotes) * 100 : 0,
+          count,
+          percentage: totalVotes > 0 ? (count / totalVotes) * 100 : 0,
           rank: 0 // Will be set after sorting
         });
       });
 
-      // Sort by count (descending)
+      // Sort by count/points (descending)
       results.sort((a, b) => b.count - a.count);
 
       // Assign ranks
@@ -468,6 +601,100 @@ class VoteService {
     } catch (error) {
       console.error('Error getting user selection:', error);
       return [];
+    }
+  }
+
+  /**
+   * Toggle like for a name (NEW: Real-time likes feature)
+   */
+  async toggleLike(
+    voteId: string,
+    nameName: string,
+    voterId: string,
+    voterName?: string,
+    voterAvatar?: string
+  ): Promise<void> {
+    try {
+      const voteRef = doc(db, this.collectionName, voteId);
+
+      await runTransaction(db, async (transaction) => {
+        const voteDoc = await transaction.get(voteRef);
+
+        if (!voteDoc.exists()) {
+          throw new Error('Vote not found');
+        }
+
+        const voteData = voteDoc.data() as Omit<VoteSession, 'id'>;
+        const votes = { ...voteData.votes };
+
+        // Initialize vote entry if it doesn't exist (can happen with likes before votes)
+        if (!votes[nameName]) {
+          votes[nameName] = {
+            count: 0,
+            voters: [],
+            voterInfo: [],
+            likes: 0,
+            likedBy: [],
+            likeVoterInfo: []
+          };
+        }
+
+        // Initialize likes fields if they don't exist (backward compatibility)
+        if (!votes[nameName].likedBy) {
+          votes[nameName].likedBy = [];
+          votes[nameName].likes = 0;
+        }
+        if (!votes[nameName].likeVoterInfo) {
+          votes[nameName].likeVoterInfo = [];
+        }
+
+        // Toggle like
+        const likedBy = votes[nameName].likedBy!;
+        const hasLiked = likedBy.includes(voterId);
+
+        // Prepare voter info for likes
+        const voterInfo: VoterInfo = {
+          id: voterId,
+          name: voterName,
+          avatar: voterAvatar,
+          votedAt: Timestamp.now()
+        };
+
+        if (hasLiked) {
+          // Unlike
+          votes[nameName].likedBy = likedBy.filter(id => id !== voterId);
+          votes[nameName].likes = Math.max(0, (votes[nameName].likes || 0) - 1);
+
+          // Remove voter info from likeVoterInfo
+          votes[nameName].likeVoterInfo = votes[nameName].likeVoterInfo!.filter(v => v.id !== voterId);
+        } else {
+          // Like
+          votes[nameName].likedBy = [...likedBy, voterId];
+          votes[nameName].likes = (votes[nameName].likes || 0) + 1;
+
+          // Add voter info to likeVoterInfo
+          votes[nameName].likeVoterInfo!.push(voterInfo);
+        }
+
+        // Update allVoters array (add/update voter in session)
+        let allVoters = voteData.allVoters || [];
+        const existingVoterIndex = allVoters.findIndex(v => v.id === voterId);
+        if (existingVoterIndex >= 0) {
+          allVoters[existingVoterIndex] = voterInfo;
+        } else {
+          allVoters = [...allVoters, voterInfo];
+        }
+
+        // Update vote document
+        transaction.update(voteRef, {
+          votes,
+          allVoters,
+          updatedAt: Timestamp.now()
+        });
+      });
+    } catch (error) {
+      console.error('Error toggling like:', error);
+      throw error;
     }
   }
 }

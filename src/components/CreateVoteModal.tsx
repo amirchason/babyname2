@@ -37,6 +37,8 @@ export default function CreateVoteModal({
   const [description, setDescription] = useState('');
   const [voteType, setVoteType] = useState<VoteType>('multiple');
   const [maxVotes, setMaxVotes] = useState(3);
+  const [pointsPerVoter, setPointsPerVoter] = useState(100); // NEW: Points system
+  const [useFavorites, setUseFavorites] = useState(true); // NEW: Include favorites option
   const [isPublic, setIsPublic] = useState(true);
   const [expiration, setExpiration] = useState<'1day' | '1week' | '1month' | 'never'>('1week');
   const [isLoading, setIsLoading] = useState(false);
@@ -92,9 +94,10 @@ export default function CreateVoteModal({
       const voteData: CreateVoteData = {
         title: title.trim(),
         description: description.trim(),
-        names: favoriteNames,
+        names: useFavorites ? favoriteNames : [], // Use favorites if checkbox is checked
         voteType,
         maxVotes: voteType === 'single' ? 1 : maxVotes,
+        pointsPerVoter, // NEW: Add points per voter
         isPublic,
         expiresAt: getExpirationDate()
       };
@@ -163,12 +166,33 @@ export default function CreateVoteModal({
 
               {/* Content - Scrollable */}
               <div className="flex-1 overflow-y-auto p-6 space-y-6">
+                {/* Use Favorites Checkbox - NEW */}
+                <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                  <label className="flex items-start gap-3 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={useFavorites}
+                      onChange={(e) => setUseFavorites(e.target.checked)}
+                      className="w-5 h-5 mt-0.5 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
+                      disabled={isLoading}
+                    />
+                    <div className="flex-1">
+                      <div className="font-semibold text-gray-800 mb-1">
+                        Use my favorite names
+                      </div>
+                      <p className="text-sm text-gray-600">
+                        Include {favoriteNames.length} favorite{favoriteNames.length !== 1 ? 's' : ''} in this vote
+                      </p>
+                    </div>
+                  </label>
+                </div>
+
                 {/* Info Banner */}
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 flex gap-3">
                   <Info className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                   <div className="text-sm text-blue-800">
-                    <p className="font-semibold mb-1">Creating a vote for {favoriteNames.length} names</p>
-                    <p>Share the vote link with friends and family to get their opinions!</p>
+                    <p className="font-semibold mb-1">Points-based voting system</p>
+                    <p>Each voter can distribute {pointsPerVoter} points across names however they like!</p>
                   </div>
                 </div>
 
@@ -217,65 +241,33 @@ export default function CreateVoteModal({
                   </div>
                 </div>
 
-                {/* Vote Type Selection */}
+                {/* Points Per Voter - NEW */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    Voting Style
+                    Points Budget Per Voter
                   </label>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button
-                      onClick={() => {
-                        setVoteType('single');
-                        setMaxVotes(1);
-                      }}
-                      disabled={isLoading}
-                      className={`p-4 rounded-lg border-2 transition ${
-                        voteType === 'single'
-                          ? 'border-purple-500 bg-purple-50'
-                          : 'border-gray-200 hover:border-gray-300'
-                      }`}
-                    >
-                      <div className="font-semibold text-gray-800 mb-1">Single Choice</div>
-                      <div className="text-xs text-gray-600">Vote for 1 name only</div>
-                    </button>
-                    <button
-                      onClick={() => {
-                        setVoteType('multiple');
-                        setMaxVotes(3);
-                      }}
-                      disabled={isLoading}
-                      className={`p-4 rounded-lg border-2 transition ${
-                        voteType === 'multiple'
-                          ? 'border-purple-500 bg-purple-50'
-                          : 'border-gray-200 hover:border-gray-300'
-                      }`}
-                    >
-                      <div className="font-semibold text-gray-800 mb-1">Top 3</div>
-                      <div className="text-xs text-gray-600">Vote for up to 3 names</div>
-                    </button>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-4">
+                      <input
+                        type="range"
+                        min="10"
+                        max="100"
+                        step="10"
+                        value={pointsPerVoter}
+                        onChange={(e) => setPointsPerVoter(Number(e.target.value))}
+                        className="flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-purple-600"
+                        disabled={isLoading}
+                      />
+                      <div className="w-20 text-center">
+                        <span className="text-2xl font-bold text-purple-600">{pointsPerVoter}</span>
+                        <div className="text-xs text-gray-500">points</div>
+                      </div>
+                    </div>
+                    <p className="text-sm text-gray-600">
+                      Each voter can distribute up to {pointsPerVoter} points across the names
+                    </p>
                   </div>
                 </div>
-
-                {/* Max Votes (for multiple choice) */}
-                {voteType === 'multiple' && (
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Maximum Votes Per Person
-                    </label>
-                    <select
-                      value={maxVotes}
-                      onChange={(e) => setMaxVotes(Number(e.target.value))}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none"
-                      disabled={isLoading}
-                    >
-                      <option value={1}>1 name</option>
-                      <option value={2}>2 names</option>
-                      <option value={3}>3 names</option>
-                      <option value={5}>5 names</option>
-                      <option value={10}>10 names</option>
-                    </select>
-                  </div>
-                )}
 
                 {/* Public/Private Toggle */}
                 <div>

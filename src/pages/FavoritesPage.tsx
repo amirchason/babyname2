@@ -300,11 +300,17 @@ const FavoritesPage: React.FC = () => {
                 {/* Vote Button - NEW! */}
                 <button
                   onClick={handleCreateVote}
-                  className="group flex items-center gap-1.5 px-3 py-1.5 text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
+                  className="group relative flex items-center gap-1.5 px-3 py-1.5 text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md overflow-hidden"
                   title="Create a vote from your favorites"
                 >
-                  <ArrowUp className="w-4 h-4 transition-transform group-hover:scale-110" />
-                  <span className="text-xs font-medium hidden sm:inline">Vote</span>
+                  {/* Sparkle animation */}
+                  <span className="absolute inset-0 pointer-events-none">
+                    <span className="absolute top-1 right-2 w-1 h-1 bg-white rounded-full opacity-0 animate-sparkle" style={{ animationDelay: '0s' }}></span>
+                    <span className="absolute top-2 left-3 w-1 h-1 bg-white rounded-full opacity-0 animate-sparkle" style={{ animationDelay: '0.3s' }}></span>
+                    <span className="absolute bottom-2 right-4 w-1 h-1 bg-white rounded-full opacity-0 animate-sparkle" style={{ animationDelay: '0.6s' }}></span>
+                  </span>
+                  <ArrowUp className="w-4 h-4 transition-transform group-hover:scale-110 relative z-10" />
+                  <span className="text-xs font-medium relative z-10">Create Vote</span>
                 </button>
 
                 {/* Share Button - Compact */}

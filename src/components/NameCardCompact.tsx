@@ -11,7 +11,7 @@ interface NameCardCompactProps {
   onClick: (name: NameEntry) => void;
   onFavoriteToggle?: () => void;
   onDislikeToggle?: () => void;
-  filterContext?: 'all' | 'male' | 'female';
+  filterContext?: 'all' | 'male' | 'female' | 'unisex';
   likeCount?: number;
   isPinned?: boolean;
   onPin?: () => void;
@@ -211,6 +211,8 @@ const NameCardCompact: React.FC<NameCardCompactProps> = ({
         return `#${rank} Boys`;
       case 'female':
         return `#${rank} Girls`;
+      case 'unisex':
+        return `#${rank} Unisex`;
       default:
         return `#${rank}`;
     }

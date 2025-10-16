@@ -46,7 +46,7 @@ const BlogNameCard: React.FC<BlogNameCardProps> = ({
 
     // Get full name data from database for modal and styling
     const fetchNameData = async () => {
-      const fetchedNameData = await nameService.getNameByExactMatch(name);
+      const fetchedNameData = await nameService.getNameDetails(name);
       if (fetchedNameData) {
         setNameData(fetchedNameData);
       }
@@ -141,14 +141,14 @@ const BlogNameCard: React.FC<BlogNameCardProps> = ({
       rotate: -30,
       opacity: 0,
       scale: 0.7,
-      transition: { duration: 0.12, ease: "easeOut" }
+      transition: { duration: 0.12 }
     },
     flyRight: {
       x: 400,
       rotate: 30,
       opacity: 0,
       scale: 0.7,
-      transition: { duration: 0.12, ease: "easeOut" }
+      transition: { duration: 0.12 }
     }
   };
 

@@ -195,7 +195,7 @@ class NameService {
   /**
    * Search names
    */
-  async searchNames(searchTerm: string): Promise<NameEntry[]> {
+  searchNames(searchTerm: string): NameEntry[] {
     if (!searchTerm) return [];
 
     const lowerSearch = searchTerm.toLowerCase();

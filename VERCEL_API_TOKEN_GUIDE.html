@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Vercel API Token - Quick Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .step {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 5px solid #667eea;
+        }
+
+        .step h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            margin: 10px 0;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-success {
+            background: #28a745;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+        }
+
+        .alert {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border-left: 4px solid #0c5460;
+            color: #0c5460;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border-left: 4px solid #856404;
+            color: #856404;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            border-left: 4px solid #155724;
+            color: #155724;
+        }
+
+        .screenshot {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-style: italic;
+            color: #6c757d;
+        }
+
+        ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        ol li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        .token-example {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 2px dashed #ffc107;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔑 Get Your Vercel API Token</h1>
+            <p>Quick 3-Minute Setup</p>
+        </header>
+
+        <div class="content">
+            <div class="alert alert-info">
+                <strong>📌 What is this for?</strong><br>
+                You need a Vercel API token to connect Claude Code to Vercel, allowing you to deploy and manage your projects directly from chat!
+            </div>
+
+            <!-- STEP 1 -->
+            <div class="step">
+                <h2><span class="step-number">1</span> Go to Vercel Account Settings</h2>
+                <p>Click the button below to open Vercel's token page:</p>
+                <a href="https://vercel.com/account/tokens" class="btn" target="_blank">🔗 Open Vercel Tokens Page</a>
+
+                <div class="alert alert-warning" style="margin-top: 20px;">
+                    <strong>⚠️ Make sure you're logged in to Vercel first!</strong><br>
+                    If not logged in, go to <a href="https://vercel.com/login" target="_blank" style="color: #856404; text-decoration: underline;">https://vercel.com/login</a>
+                </div>
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="step">
+                <h2><span class="step-number">2</span> Create New Token</h2>
+
+                <div class="screenshot">
+                    📸 You'll see a page titled "Tokens" with a button "Create Token" or "+ Create"
+                </div>
+
+                <ol>
+                    <li>Click the <strong>"Create Token"</strong> button (or "+ Create")</li>
+                    <li>In the popup/form:
+                        <ul style="margin-top: 10px;">
+                            <li><strong>Token Name:</strong> Type <code>Claude Code MCP</code></li>
+                            <li><strong>Scope:</strong> Select <strong>"Full Account"</strong> (or leave default)</li>
+                            <li><strong>Expiration:</strong> Choose <strong>"No Expiration"</strong> (or 1 year)</li>
+                        </ul>
+                    </li>
+                    <li>Click <strong>"Create Token"</strong> button</li>
+                </ol>
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="step">
+                <h2><span class="step-number">3</span> Copy Your Token</h2>
+
+                <div class="alert alert-warning">
+                    <strong>🚨 IMPORTANT:</strong> The token will only be shown ONCE! Copy it immediately and save it somewhere safe.
+                </div>
+
+                <div class="screenshot">
+                    📸 A long string will appear (starts with "vercel_" or similar)
+                </div>
+
+                <ol>
+                    <li>Click the <strong>"Copy"</strong> button next to the token</li>
+                    <li>The token will look something like this:</li>
+                </ol>
+
+                <div class="token-example">
+                    <strong>Example token format:</strong><br>
+                    <code>vercel_api_ABCdef123XYZ789_1234567890abcdefghij</code>
+                </div>
+
+                <div class="alert alert-success" style="margin-top: 20px;">
+                    <strong>✅ Token Copied?</strong> Great! Keep it safe - you'll need it in the next step.
+                </div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="step">
+                <h2><span class="step-number">4</span> Add Token to Claude Code</h2>
+
+                <p>Now that you have your token, paste it into Termux and run this command:</p>
+
+                <div class="code-block">
+claude mcp add vercel npx -e VERCEL_API_TOKEN=YOUR_TOKEN_HERE -- -y @vercel/sdk mcp start
+                </div>
+
+                <div class="alert alert-info">
+                    <strong>📝 Replace <code>YOUR_TOKEN_HERE</code> with the actual token you copied!</strong>
+                    <br><br>
+                    Example:
+                    <div class="code-block" style="margin-top: 10px;">
+claude mcp add vercel npx -e VERCEL_API_TOKEN=vercel_api_ABCdef123XYZ789_1234567890abcdefghij -- -y @vercel/sdk mcp start
+                    </div>
+                </div>
+
+                <p style="margin-top: 20px;"><strong>What this command does:</strong></p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li><code>claude mcp add vercel</code> - Adds a new MCP server named "vercel"</li>
+                    <li><code>npx</code> - Uses npx to run the package</li>
+                    <li><code>-e VERCEL_API_TOKEN=...</code> - Sets your API token as environment variable</li>
+                    <li><code>-- -y @vercel/sdk mcp start</code> - Runs the Vercel SDK MCP server</li>
+                </ul>
+            </div>
+
+            <!-- STEP 5 -->
+            <div class="step">
+                <h2><span class="step-number">5</span> Verify Connection</h2>
+
+                <p>After adding the MCP server, verify it's connected:</p>
+
+                <div class="code-block">
+claude mcp list
+                </div>
+
+                <p style="margin-top: 15px;">You should see <code>vercel</code> in the list with status "Connected" ✅</p>
+
+                <div class="alert alert-success" style="margin-top: 20px;">
+                    <strong>🎉 Success!</strong> You can now use Vercel commands from Claude Code!
+                    <br><br>
+                    Try asking:
+                    <ul style="margin-top: 10px; margin-left: 20px;">
+                        <li>"Deploy my app to Vercel"</li>
+                        <li>"List my Vercel deployments"</li>
+                        <li>"Add environment variables to Vercel"</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- TROUBLESHOOTING -->
+            <div class="step">
+                <h2>🔧 Troubleshooting</h2>
+
+                <h3 style="margin-top: 20px; margin-bottom: 10px;">❌ "Command failed" or "Not found"</h3>
+                <p>Make sure you're using the exact command format with <code>--</code> separator before the npx arguments.</p>
+
+                <h3 style="margin-top: 20px; margin-bottom: 10px;">❌ "Invalid token"</h3>
+                <p>Double-check that you copied the entire token correctly, including any prefix like <code>vercel_</code>.</p>
+
+                <h3 style="margin-top: 20px; margin-bottom: 10px;">❌ MCP server shows as "Disconnected"</h3>
+                <p>Try removing and re-adding:</p>
+                <div class="code-block">
+claude mcp remove vercel -s local
+claude mcp add vercel npx -e VERCEL_API_TOKEN=your_token -- -y @vercel/sdk mcp start
+                </div>
+
+                <h3 style="margin-top: 20px; margin-bottom: 10px;">ℹ️ Need to check server details?</h3>
+                <div class="code-block">
+claude mcp get vercel
+                </div>
+            </div>
+
+            <!-- SECURITY -->
+            <div class="alert alert-warning">
+                <strong>🔒 Security Note:</strong>
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                    <li>Never share your API token publicly</li>
+                    <li>Don't commit it to Git repositories</li>
+                    <li>If compromised, revoke it at: <a href="https://vercel.com/account/tokens" target="_blank" style="color: #856404; text-decoration: underline;">vercel.com/account/tokens</a></li>
+                    <li>The token is stored securely in your Claude Code config</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made with ❤️ for SoulSeed Deployment</p>
+            <p style="opacity: 0.7; margin-top: 10px;">Setup time: ~3 minutes</p>
+        </footer>
+    </div>
+</body>
+</html>

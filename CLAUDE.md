@@ -88,11 +88,21 @@ node compareModelQuality.js      # Compare AI model output quality
 node cleanDatabase.js            # Clean and validate database entries
 ```
 
-### Continuous Deployment
+### 🚀 Hot Deployment (Continuous Deployment)
 Auto-deployment via GitHub Actions (`.github/workflows/deploy.yml`):
-- **Trigger**: Push to `master` or `main` branch
+- **Trigger**: Push to `master` or `main` branch (AUTOMATIC!)
 - **Deploy Action**: JamesIves/github-pages-deploy-action@v4
 - **CI**: false (ignores build warnings)
+- **Live in**: ~2-3 minutes after push
+
+**Quick deploy commands**:
+```bash
+npm run ship              # Quick deploy with auto timestamp
+npm run ship-msg          # Deploy with custom commit message
+./quick-deploy.sh         # Interactive deploy script
+```
+
+See `DEPLOYMENT.md` for full hot deployment guide.
 
 ## Architecture & Key Concepts
 

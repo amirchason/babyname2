@@ -13,6 +13,7 @@
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
     "@types/react-router-dom": "^5.3.3",
+    "@vercel/analytics": "^1.5.0",
     "axios": "^1.12.2",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.2",

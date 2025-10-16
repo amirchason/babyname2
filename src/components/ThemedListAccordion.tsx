@@ -26,7 +26,7 @@ const getListIcon = (listId: string, category: string) => {
   const iconProps = { className: "w-5 h-5 text-gray-700", strokeWidth: 1.5 };
 
   // Specific list mappings - unique, relevant, minimalist icons
-  const iconMap: Record<string, JSX.Element> = {
+  const iconMap: Record<string, React.ReactElement> = {
     // Origin lists
     'irish-celtic': <Clover {...iconProps} />,
     'italian': <Wine {...iconProps} />,
