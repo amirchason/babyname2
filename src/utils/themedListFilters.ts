@@ -76,8 +76,8 @@ export const applyThemedListFilter = (
       return false;
     }
 
-    // Apply syllable filter
-    if (filterCriteria.syllables !== undefined && name.syllables !== filterCriteria.syllables) {
+    // Apply syllable filter (optional property, may not exist on all names)
+    if (filterCriteria.syllables !== undefined && (name as any).syllables !== undefined && (name as any).syllables !== filterCriteria.syllables) {
       return false;
     }
 
