@@ -134,7 +134,9 @@ class ListCrawlerManager {
               result.addedNames
             );
 
-            this.status.namesEnriched += enrichResult.processed;
+            if (enrichResult?.processed) {
+              this.status.namesEnriched += enrichResult.processed;
+            }
           }
         }
       }
