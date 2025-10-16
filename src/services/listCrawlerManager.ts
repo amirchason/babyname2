@@ -121,9 +121,8 @@ class ListCrawlerManager {
           console.log(`🤖 Enriching ${result.addedNames.length} new names for ${result.listTitle}...`);
 
           // Get full name objects
-          const namesToEnrich = await nameService.getAllNames().then(allNames =>
-            allNames.filter(n => result.addedNames.includes(n.name))
-          );
+          const allNames = nameService.getAllNames();
+          const namesToEnrich = allNames.filter(n => result.addedNames.includes(n.name));
 
           if (namesToEnrich.length > 0) {
             // Initialize enrichment service if not already
