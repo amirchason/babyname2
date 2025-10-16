@@ -41,26 +41,30 @@ git add .
 # Commit
 git commit -m "$COMMIT_MSG"
 
-# Push to master (triggers production deployment)
-echo -e "${BLUE}⬆️  Pushing to master branch...${NC}"
-git push origin master
+# Deploy directly to Vercel (faster & avoids GitHub file size limits)
+echo -e "${BLUE}🚀 Deploying directly to Vercel...${NC}"
+echo ""
+
+vercel --prod --yes
 
 if [ $? -eq 0 ]; then
     echo ""
-    echo -e "${GREEN}✅ Pushed to production!${NC}"
-    echo ""
-    echo -e "${BLUE}🔍 Vercel is rebuilding your site now...${NC}"
-    echo ""
-    echo -e "${YELLOW}⏱️  Build time: ~30-60 seconds${NC}"
+    echo -e "${GREEN}✅ Deployed to production!${NC}"
     echo ""
     echo -e "${GREEN}🌐 Your SAME URL (always):${NC}"
     echo -e "${GREEN}   → https://soulseedbaby.com${NC}"
     echo -e "${GREEN}   → https://soulseed.baby${NC}"
     echo -e "${GREEN}   → https://soulseedapp.com${NC}"
     echo ""
-    echo -e "${BLUE}💡 Tip: Refresh your browser in 60 seconds to see changes!${NC}"
+    echo -e "${YELLOW}⏱️  Usually live in 10-30 seconds!${NC}"
+    echo -e "${BLUE}💡 Refresh your browser now to see changes!${NC}"
+    echo ""
+
+    # Optional: Also push to git (for backup, ignoring errors)
+    echo -e "${BLUE}📦 Backing up to git (optional)...${NC}"
+    git push origin master 2>/dev/null || echo -e "${YELLOW}   (Git backup skipped - large files)${NC}"
 else
     echo ""
-    echo -e "${RED}❌ Push failed!${NC}"
-    echo -e "${YELLOW}Check your internet connection or git status${NC}"
+    echo -e "${RED}❌ Deployment failed!${NC}"
+    echo -e "${YELLOW}Check your internet connection or Vercel status${NC}"
 fi
