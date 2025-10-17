@@ -25,6 +25,7 @@ import {
 import voteService, { VoteSession } from '../services/voteService';
 import { useAuth } from '../contexts/AuthContext';
 import { useToast } from '../contexts/ToastContext';
+import ParallaxBackground from '../components/ParallaxBackground';
 
 export default function VotesListPage() {
   const navigate = useNavigate();
@@ -61,7 +62,7 @@ export default function VotesListPage() {
   };
 
   const getShareUrl = (voteId: string) => {
-    return `${window.location.origin}/babyname2/vote/${voteId}`;
+    return `${window.location.origin}/vote/${voteId}`;
   };
 
   const copyShareLink = (voteId: string, voteTitle: string) => {
@@ -88,28 +89,7 @@ export default function VotesListPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900 relative overflow-hidden">
-      {/* Animated background particles */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(20)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-2 h-2 bg-white rounded-full opacity-30"
-            initial={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
-            }}
-            animate={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
-            }}
-            transition={{
-              duration: 20 + Math.random() * 10,
-              repeat: Infinity,
-              repeatType: 'reverse',
-            }}
-          />
-        ))}
-      </div>
+      <ParallaxBackground />
 
       {/* Hero Section with Video Background */}
       <div className="relative">

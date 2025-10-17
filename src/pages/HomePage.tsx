@@ -456,9 +456,6 @@ const HomePage: React.FC = () => {
         <div className="absolute top-40 left-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
       </div>
 
-      {/* AppHeader with consistent counters */}
-      <AppHeader title="SoulSeed" showBackButton={false} />
-
       {/* Full-width Search Bar - Below Header */}
       <AnimatePresence>
         {searchOpen && (

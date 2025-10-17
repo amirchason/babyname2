@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers, BookOpen, Home, List, Shuffle } from 'lucide-react';
+import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers, BookOpen, Home, List, Shuffle, Info, Mail } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import favoritesService from '../services/favoritesService';
 import AdminMenu from './AdminMenu';
@@ -129,6 +129,28 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             >
               <Shuffle className="w-4 h-4" />
               <span>Swipe Mode</span>
+            </button>
+            <button
+              onClick={() => navigate('/about')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/about'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Info className="w-4 h-4" />
+              <span>About</span>
+            </button>
+            <button
+              onClick={() => navigate('/contact')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/contact'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Mail className="w-4 h-4" />
+              <span>Contact</span>
             </button>
           </nav>
 
@@ -295,6 +317,26 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                     {dislikesCount}
                   </span>
                 )}
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/about');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <Info className="w-4 h-4" />
+                <span>About Us</span>
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/contact');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <Mail className="w-4 h-4" />
+                <span>Contact Us</span>
               </button>
 
               {/* Admin Menu in Mobile - Full width */}

@@ -4,7 +4,7 @@
  * Features real-time updates and interactive voting UI
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -17,7 +17,8 @@ import {
   Loader,
   AlertCircle,
   Trophy,
-  Heart
+  Heart,
+  Zap
 } from 'lucide-react';
 import voteService, { VoteSession, VoteResult } from '../services/voteService';
 import { getVoterId, hasVoted, markAsVoted, getPreviousVote } from '../utils/voterIdGenerator';
@@ -25,6 +26,8 @@ import ShareVoteModal from '../components/ShareVoteModal';
 import VoterAvatars from '../components/VoterAvatars';
 import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
+import ParallaxBackground from '../components/ParallaxBackground';
+import VotingButton from '../components/VotingButton';
 
 export default function VotingPage() {
   const { voteId } = useParams<{ voteId: string }>();
@@ -36,7 +39,8 @@ export default function VotingPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedNames, setSelectedNames] = useState<string[]>([]);
-  const [namePoints, setNamePoints] = useState<Record<string, number>>({}); // NEW: Points allocation
+  const [namePoints, setNamePoints] = useState<Record<string, number>>({}); // For backward compatibility
+  const [nameVotes, setNameVotes] = useState<Record<string, number>>({}); // NEW: Vote counts per name
   const [submitting, setSubmitting] = useState(false);
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [results, setResults] = useState<VoteResult[]>([]);
@@ -46,6 +50,91 @@ export default function VotingPage() {
   // Get user info for voter avatars
   const voterName = user?.name || undefined;
   const voterAvatar = user?.picture || undefined;
+
+  /**
+   * Calculate vote limit based on session configuration
+   */
+  const voteLimit = useMemo(() => {
+    if (!voteSession) return 0;
+    return voteSession.pointsPerVoter || voteSession.maxVotes || 10; // Default to 10 if not set
+  }, [voteSession]);
+
+  /**
+   * Calculate total votes used by current user
+   */
+  const totalVotesUsed = useMemo(() => {
+    return Object.values(nameVotes).reduce((sum, votes) => sum + votes, 0);
+  }, [nameVotes]);
+
+  /**
+   * Calculate rankings with real-time updates
+   * Combines existing votes from session + user's current votes
+   */
+  const rankedNames = useMemo(() => {
+    if (!voteSession) return [];
+
+    const namesWithScores = voteSession.names.map(nameEntry => {
+      const existingVotes = voteSession.votes[nameEntry.name]?.count || 0;
+      const existingPoints = voteSession.votes[nameEntry.name]?.totalPoints || 0;
+      const userVotes = nameVotes[nameEntry.name] || 0;
+
+      // Use points if points-based voting, otherwise use count
+      const totalScore = voteSession.pointsPerVoter
+        ? existingPoints + userVotes
+        : existingVotes + userVotes;
+
+      return {
+        ...nameEntry,
+        currentVotes: userVotes,
+        totalVotes: totalScore,
+      };
+    });
+
+    // Sort by total votes descending
+    return namesWithScores.sort((a, b) => b.totalVotes - a.totalVotes);
+  }, [voteSession, nameVotes]);
+
+  /**
+   * Calculate total votes across all names (for percentage calculation)
+   */
+  const totalAllVotes = useMemo(() => {
+    return rankedNames.reduce((sum, name) => sum + name.totalVotes, 0);
+  }, [rankedNames]);
+
+  /**
+   * Handle vote increment
+   */
+  const handleIncrement = (nameName: string) => {
+    if (hasSubmitted) return;
+
+    const currentVotes = nameVotes[nameName] || 0;
+    const newTotal = totalVotesUsed + 1;
+
+    if (newTotal > voteLimit) {
+      toast.warning(`Vote limit reached! You can only use ${voteLimit} votes.`);
+      return;
+    }
+
+    setNameVotes(prev => ({
+      ...prev,
+      [nameName]: currentVotes + 1
+    }));
+  };
+
+  /**
+   * Handle vote decrement
+   */
+  const handleDecrement = (nameName: string) => {
+    if (hasSubmitted) return;
+
+    const currentVotes = nameVotes[nameName] || 0;
+    if (currentVotes === 0) return;
+
+    setNameVotes(prev => ({
+      ...prev,
+      [nameName]: currentVotes - 1
+    }));
+  };
 
   /**
    * Load vote session and check if user has already voted
@@ -162,71 +251,38 @@ export default function VotingPage() {
   };
 
   /**
-   * Submit vote (supports both old and new points-based system)
+   * Submit vote (NEW: Uses nameVotes for points/votes allocation)
    */
   const handleSubmitVote = async () => {
     try {
       if (!voteId || !voteSession) return;
 
-      const isPointsBased = !!voteSession.pointsPerVoter;
-
-      if (isPointsBased) {
-        // Points-based voting
-        const totalPoints = Object.values(namePoints).reduce((sum, p) => sum + p, 0);
-        if (totalPoints === 0) {
-          toast.warning('Please allocate at least some points');
-          return;
-        }
-        if (totalPoints > voteSession.pointsPerVoter!) {
-          toast.error(`You can only allocate ${voteSession.pointsPerVoter} points total`);
-          return;
-        }
-
-        setSubmitting(true);
-
-        await voteService.submitVote({
-          voteId,
-          namePoints,
-          voterId,
-          voterName,
-          voterAvatar
-        });
-
-        // Mark as voted in localStorage
-        const namesWithPoints = Object.keys(namePoints).filter(name => namePoints[name] > 0);
-        markAsVoted(voteId, namesWithPoints);
-        setHasSubmitted(true);
-
-        // Load results
-        await loadResults();
-
-        toast.success('Your vote has been submitted!');
-      } else {
-        // Old voting system
-        if (selectedNames.length === 0) {
-          toast.warning('Please select at least one name');
-          return;
-        }
-
-        setSubmitting(true);
-
-        await voteService.submitVote({
-          voteId,
-          selectedNames,
-          voterId,
-          voterName,
-          voterAvatar
-        });
-
-        // Mark as voted in localStorage
-        markAsVoted(voteId, selectedNames);
-        setHasSubmitted(true);
-
-        // Load results
-        await loadResults();
-
-        toast.success('Your vote has been submitted!');
+      // Check if any votes allocated
+      if (totalVotesUsed === 0) {
+        toast.warning('Please allocate at least one vote');
+        return;
       }
+
+      setSubmitting(true);
+
+      // Submit votes as points (voteService handles both old and new systems)
+      await voteService.submitVote({
+        voteId,
+        namePoints: nameVotes, // Use nameVotes as points allocation
+        voterId,
+        voterName,
+        voterAvatar
+      });
+
+      // Mark as voted in localStorage
+      const votedNames = Object.keys(nameVotes).filter(name => nameVotes[name] > 0);
+      markAsVoted(voteId, votedNames);
+      setHasSubmitted(true);
+
+      // Load results
+      await loadResults();
+
+      toast.success('Your vote has been submitted!');
     } catch (err) {
       console.error('Error submitting vote:', err);
       toast.error(err instanceof Error ? err.message : 'Failed to submit vote');
@@ -308,7 +364,9 @@ export default function VotingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative">
+      <ParallaxBackground />
+
       {/* Header */}
       <div className="bg-white shadow-md sticky top-0 z-40">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
@@ -412,221 +470,113 @@ export default function VotingPage() {
           )}
         </div>
 
-        {/* Names Grid (Voting Interface or Results) */}
+        {/* Voting Interface with Animated Ranking */}
         {!hasSubmitted ? (
-          <div className="bg-white rounded-2xl shadow-xl p-6">
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-2xl font-bold text-gray-800">
-                {voteSession.pointsPerVoter ? 'Allocate Your Points' : 'Choose Your Favorites'}
-              </h2>
-              {/* Points Remaining Counter */}
-              {voteSession.pointsPerVoter && (
-                <div className="bg-purple-100 px-4 py-2 rounded-lg">
-                  <div className="text-xs text-gray-600">Points Remaining</div>
-                  <div className="text-2xl font-bold text-purple-600">
-                    {voteSession.pointsPerVoter - Object.values(namePoints).reduce((sum, p) => sum + p, 0)}
-                    <span className="text-sm text-gray-500"> / {voteSession.pointsPerVoter}</span>
+          <div className="space-y-6">
+            {/* Vote Progress Bar */}
+            <div className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-6 border-2 border-purple-200">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-lg font-bold text-gray-800 flex items-center gap-2">
+                  <Zap className="w-5 h-5 text-yellow-500" />
+                  Your Votes
+                </h3>
+                <div className="text-right">
+                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    {totalVotesUsed} <span className="text-xl text-gray-400">/ {voteLimit}</span>
+                  </div>
+                  <div className="text-xs text-gray-500">
+                    {voteLimit - totalVotesUsed} remaining
                   </div>
                 </div>
-              )}
+              </div>
+
+              {/* Progress Bar */}
+              <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: `${(totalVotesUsed / voteLimit) * 100}%` }}
+                  transition={{ duration: 0.5, ease: 'easeOut' }}
+                  className={`h-full ${
+                    totalVotesUsed >= voteLimit
+                      ? 'bg-gradient-to-r from-red-400 to-red-600'
+                      : 'bg-gradient-to-r from-purple-500 to-pink-500'
+                  }`}
+                />
+              </div>
             </div>
 
-            {voteSession.pointsPerVoter ? (
-              // POINTS-BASED VOTING UI
-              <div className="space-y-3 mb-6">
-                {voteSession.names.map((nameEntry, index) => {
-                  const points = namePoints[nameEntry.name] || 0;
-                  const totalPoints = voteSession.votes[nameEntry.name]?.totalPoints || 0;
-                  const likes = voteSession.votes[nameEntry.name]?.likes || 0;
-                  const likedBy = voteSession.votes[nameEntry.name]?.likedBy || [];
-                  const hasLiked = likedBy.includes(voterId);
+            {/* Instructions */}
+            <div className="bg-gradient-to-r from-purple-100/80 to-pink-100/80 backdrop-blur-sm rounded-xl p-4 border-l-4 border-purple-600">
+              <p className="font-semibold text-gray-800">
+                👉 Click +/- to allocate your votes! Watch names climb the rankings in real-time!
+              </p>
+              <p className="text-sm text-gray-600 mt-1">
+                You have {voteLimit} votes total. Spread them across your favorites or stack them all on one!
+              </p>
+            </div>
+
+            {/* Ranked Names with VotingButton Components */}
+            <div className="space-y-4">
+              <AnimatePresence>
+                {rankedNames.map((nameEntry, index) => {
+                  const rank = index + 1;
+                  const canIncrement = totalVotesUsed < voteLimit;
+                  const maxVotesReached = totalVotesUsed >= voteLimit && nameEntry.currentVotes === 0;
 
                   return (
                     <motion.div
                       key={nameEntry.name}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: index * 0.03 }}
-                      className={`p-4 rounded-xl border-2 transition-all ${
-                        points > 0
-                          ? 'border-purple-500 bg-gradient-to-r from-purple-50 to-pink-50 shadow-md'
-                          : 'border-gray-200 hover:border-purple-300'
-                      }`}
+                      layout
+                      layoutId={nameEntry.name}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -20 }}
+                      transition={{
+                        layout: {
+                          type: 'spring',
+                          stiffness: 300,
+                          damping: 30
+                        }
+                      }}
                     >
-                      <div className="flex items-start gap-4">
-                        <div className="flex-1 min-w-0">
-                          <h3 className="font-bold text-gray-800 text-lg mb-1">{nameEntry.name}</h3>
-                          {nameEntry.meaning && (
-                            <p className="text-sm text-gray-600 italic mb-1">"{nameEntry.meaning}"</p>
-                          )}
-                          {nameEntry.origin && (
-                            <p className="text-xs text-gray-500">{nameEntry.origin}</p>
-                          )}
-                          <div className="flex items-center gap-4 mt-3">
-                            <div className="text-xs text-gray-500">
-                              Current: {totalPoints} point{totalPoints !== 1 ? 's' : ''}
-                            </div>
-                            {/* Like Button - BIGGER */}
-                            <motion.button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleLikeToggle(nameEntry.name);
-                              }}
-                              whileTap={{ scale: 0.95 }}
-                              className={`flex items-center gap-2 px-4 py-2 rounded-full border-2 transition-all ${
-                                hasLiked
-                                  ? 'bg-pink-50 border-pink-400 shadow-sm'
-                                  : 'bg-white border-gray-300 hover:border-pink-300 hover:bg-pink-50'
-                              }`}
-                            >
-                              <Heart
-                                className={`w-6 h-6 transition-colors ${
-                                  hasLiked
-                                    ? 'fill-pink-500 text-pink-500'
-                                    : 'text-gray-400 group-hover:text-pink-400'
-                                }`}
-                              />
-                              <span className={`text-base font-semibold ${
-                                hasLiked ? 'text-pink-600' : 'text-gray-600'
-                              }`}>
-                                {likes}
-                              </span>
-                            </motion.button>
-                          </div>
-                        </div>
-
-                        {/* Points Input */}
-                        <div className="flex items-center gap-3">
-                          <input
-                            type="number"
-                            min="0"
-                            max={voteSession.pointsPerVoter}
-                            value={points}
-                            onChange={(e) => {
-                              const newPoints = Math.max(0, Math.min(voteSession.pointsPerVoter!, parseInt(e.target.value) || 0));
-                              setNamePoints(prev => ({
-                                ...prev,
-                                [nameEntry.name]: newPoints
-                              }));
-                            }}
-                            className="w-20 px-3 py-2 text-center text-lg font-bold border-2 border-purple-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 outline-none"
-                          />
-                          <span className="text-sm text-gray-500 font-medium">pts</span>
-                        </div>
-                      </div>
+                      <VotingButton
+                        name={nameEntry.name}
+                        meaning={nameEntry.meaning}
+                        origin={nameEntry.origin}
+                        currentVotes={nameEntry.currentVotes}
+                        totalVotes={totalAllVotes}
+                        rank={rank}
+                        onIncrement={() => handleIncrement(nameEntry.name)}
+                        onDecrement={() => handleDecrement(nameEntry.name)}
+                        canIncrement={canIncrement}
+                        maxVotesReached={maxVotesReached}
+                      />
                     </motion.div>
                   );
                 })}
-              </div>
-            ) : (
-              // OLD CHECKBOX VOTING UI (backward compatibility)
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6">
-                <AnimatePresence>
-                  {voteSession.names.map((nameEntry, index) => {
-                    const isSelected = selectedNames.includes(nameEntry.name);
-                    const voteCount = voteSession.votes[nameEntry.name]?.count || 0;
-                    const likes = voteSession.votes[nameEntry.name]?.likes || 0;
-                    const likedBy = voteSession.votes[nameEntry.name]?.likedBy || [];
-                    const hasLiked = likedBy.includes(voterId);
-
-                    return (
-                      <motion.div
-                        key={nameEntry.name}
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.05 }}
-                        className={`p-4 rounded-xl border-2 transition-all ${
-                          isSelected
-                            ? 'border-purple-500 bg-gradient-to-br from-purple-50 to-pink-50 shadow-md scale-105'
-                            : 'border-gray-200 hover:border-purple-300 hover:shadow-sm'
-                        }`}
-                      >
-                        <button
-                          onClick={() => handleNameClick(nameEntry.name)}
-                          className="w-full text-left"
-                        >
-                          <div className="flex items-center justify-between mb-2">
-                            <h3 className="font-bold text-gray-800">{nameEntry.name}</h3>
-                            {isSelected && (
-                              <CheckCircle2 className="w-5 h-5 text-purple-600" />
-                            )}
-                          </div>
-
-                          {nameEntry.meaning && (
-                            <p className="text-xs text-gray-600 italic mb-2 line-clamp-2">
-                              "{nameEntry.meaning}"
-                            </p>
-                          )}
-
-                          {nameEntry.origin && (
-                            <p className="text-xs text-gray-500">{nameEntry.origin}</p>
-                          )}
-
-                          {/* Current vote count */}
-                          <div className="mt-2 text-xs text-gray-500">
-                            {voteCount} vote{voteCount !== 1 ? 's' : ''}
-                          </div>
-                        </button>
-
-                        {/* Like Button - BIGGER */}
-                        <div className="mt-3 pt-3 border-t border-gray-200">
-                          <motion.button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleLikeToggle(nameEntry.name);
-                            }}
-                            whileTap={{ scale: 0.95 }}
-                            className={`w-full flex items-center justify-center gap-2 px-3 py-2.5 rounded-lg border-2 transition-all ${
-                              hasLiked
-                                ? 'bg-pink-50 border-pink-400 shadow-sm'
-                                : 'bg-white border-gray-300 hover:border-pink-300 hover:bg-pink-50'
-                            }`}
-                          >
-                            <Heart
-                              className={`w-5 h-5 transition-colors ${
-                                hasLiked
-                                  ? 'fill-pink-500 text-pink-500'
-                                  : 'text-gray-400 group-hover:text-pink-400'
-                              }`}
-                            />
-                            <span className={`text-sm font-bold ${
-                              hasLiked ? 'text-pink-600' : 'text-gray-600'
-                            }`}>
-                              {likes} {likes === 1 ? 'Like' : 'Likes'}
-                            </span>
-                          </motion.button>
-                        </div>
-                      </motion.div>
-                    );
-                  })}
-                </AnimatePresence>
-              </div>
-            )}
+              </AnimatePresence>
+            </div>
 
             {/* Submit Button */}
             <motion.button
               onClick={handleSubmitVote}
-              disabled={submitting || (voteSession.pointsPerVoter ? Object.values(namePoints).reduce((s, p) => s + p, 0) === 0 : selectedNames.length === 0)}
-              className={`w-full py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all ${
-                (voteSession.pointsPerVoter ? Object.values(namePoints).reduce((s, p) => s + p, 0) > 0 : selectedNames.length > 0)
-                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:shadow-xl transform hover:scale-[1.02]'
+              disabled={submitting || totalVotesUsed === 0}
+              className={`w-full py-5 rounded-2xl font-bold text-xl flex items-center justify-center gap-3 transition-all ${
+                totalVotesUsed > 0
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:shadow-2xl hover:shadow-purple-500/50 transform hover:scale-[1.02]'
                   : 'bg-gray-200 text-gray-400 cursor-not-allowed'
               }`}
-              whileTap={(voteSession.pointsPerVoter ? Object.values(namePoints).reduce((s, p) => s + p, 0) > 0 : selectedNames.length > 0) ? { scale: 0.98 } : {}}
+              whileTap={totalVotesUsed > 0 ? { scale: 0.98 } : {}}
             >
               {submitting ? (
                 <>
-                  <Loader className="w-6 h-6 animate-spin" />
+                  <Loader className="w-7 h-7 animate-spin" />
                   Submitting...
                 </>
               ) : (
                 <>
-                  <CheckCircle2 className="w-6 h-6" />
-                  {voteSession.pointsPerVoter ? (
-                    `Submit Vote (${Object.values(namePoints).reduce((s, p) => s + p, 0)} points)`
-                  ) : (
-                    `Submit My Vote${selectedNames.length > 0 ? ` (${selectedNames.length})` : ''}`
-                  )}
+                  <CheckCircle2 className="w-7 h-7" />
+                  Submit My Vote ({totalVotesUsed} {totalVotesUsed === 1 ? 'vote' : 'votes'})
                 </>
               )}
             </motion.button>

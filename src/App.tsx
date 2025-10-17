@@ -6,6 +6,8 @@ import { ToastProvider } from './contexts/ToastContext';
 import { NameCacheProvider } from './contexts/NameCacheContext';
 import HomePage from './pages/HomePage';
 import LoadingSpinner from './components/LoadingSpinner';
+import Footer from './components/Footer';
+import AppHeader from './components/AppHeader';
 import './App.css';
 
 // Lazy load pages for code splitting (reduces initial bundle size)
@@ -22,6 +24,9 @@ const BlogPostPage = lazy(() => import('./pages/BlogPostPage'));
 const UpdateBlogPage = lazy(() => import('./pages/UpdateBlogPage'));
 const VotingPage = lazy(() => import('./pages/VotingPage'));
 const VotesListPage = lazy(() => import('./pages/VotesListPage'));
+const CreateVotePage = lazy(() => import('./pages/CreateVotePage'));
+const AboutUsPage = lazy(() => import('./pages/AboutUsPage'));
+const ContactUsPage = lazy(() => import('./pages/ContactUsPage'));
 
 /**
  * Component to manage admin text selection
@@ -57,24 +62,34 @@ function App() {
           <NameCacheProvider>
             <AdminTextSelectionManager />
             <Router basename={basename}>
-              <div className="App min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
+              <div className="App min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex flex-col">
+                {/* Global Sticky Header on ALL pages */}
+                <AppHeader title="SoulSeed" />
+
                 <Suspense fallback={<LoadingSpinner />}>
-                  <Routes>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/babynamelists" element={<BabyNameListsPage />} />
-                    <Route path="/names" element={<NameListPage />} />
-                    <Route path="/favorites" element={<FavoritesPage />} />
-                    <Route path="/dislikes" element={<DislikesPage />} />
-                    <Route path="/debug" element={<DebugPage />} />
-                    <Route path="/swipe" element={<SwipeModePage />} />
-                    <Route path="/search" element={<SearchResultsPage />} />
-                    <Route path="/sitemap" element={<SitemapPage />} />
-                    <Route path="/blog" element={<BlogListPage />} />
-                    <Route path="/blog/:slug" element={<BlogPostPage />} />
-                    <Route path="/update-blog" element={<UpdateBlogPage />} />
-                    <Route path="/votes" element={<VotesListPage />} />
-                    <Route path="/vote/:voteId" element={<VotingPage />} />
-                  </Routes>
+                  {/* Main content with padding-top for sticky header (80px) */}
+                  <div className="flex-grow pt-20">
+                    <Routes>
+                      <Route path="/" element={<HomePage />} />
+                      <Route path="/babynamelists" element={<BabyNameListsPage />} />
+                      <Route path="/names" element={<NameListPage />} />
+                      <Route path="/favorites" element={<FavoritesPage />} />
+                      <Route path="/dislikes" element={<DislikesPage />} />
+                      <Route path="/debug" element={<DebugPage />} />
+                      <Route path="/swipe" element={<SwipeModePage />} />
+                      <Route path="/search" element={<SearchResultsPage />} />
+                      <Route path="/sitemap" element={<SitemapPage />} />
+                      <Route path="/about" element={<AboutUsPage />} />
+                      <Route path="/contact" element={<ContactUsPage />} />
+                      <Route path="/blog" element={<BlogListPage />} />
+                      <Route path="/blog/:slug" element={<BlogPostPage />} />
+                      <Route path="/update-blog" element={<UpdateBlogPage />} />
+                      <Route path="/votes" element={<VotesListPage />} />
+                      <Route path="/create-vote" element={<CreateVotePage />} />
+                      <Route path="/vote/:voteId" element={<VotingPage />} />
+                    </Routes>
+                  </div>
+                  <Footer />
                 </Suspense>
               </div>
             </Router>
