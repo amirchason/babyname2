@@ -1,0 +1,18 @@
+# robots.txt for SoulSeed Baby Name App
+# Last updated: 2025-10-16
+# Following 2025 SEO best practices
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Important: Do NOT block rendering resources (CSS/JS)
+# Modern search engines need these to render pages properly
+Allow: /static/css/
+Allow: /static/js/
+
+# Disallow admin/debug pages from search indexing
+Disallow: /debug
+
+# Sitemap location (required for Google Search Console)
+Sitemap: https://soulseedbaby.com/sitemap.xml
