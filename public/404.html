@@ -2,7 +2,123 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#D8B2F2" />
+
+  <title>404 - Page Not Found | SoulSeed Baby Names</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to SoulSeed to discover the perfect baby name from 150,000+ options." />
+  <meta name="robots" content="noindex, follow" />
+
+  <link rel="canonical" href="https://soulseedbaby.com/404" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      background: linear-gradient(135deg, #faf5ff 0%, #fff0f7 50%, #f0f9ff 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #374151;
+    }
+
+    .container {
+      max-width: 600px;
+      text-align: center;
+      background: white;
+      padding: 48px 32px;
+      border-radius: 24px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .error-code {
+      font-size: 120px;
+      font-weight: 300;
+      background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #6b7280;
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 16px 32px;
+      background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(147, 51, 234, 0.4);
+    }
+
+    .links {
+      margin-top: 32px;
+      padding-top: 32px;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .links a {
+      color: #9333ea;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .links a:hover {
+      color: #ec4899;
+    }
+
+    @media (max-width: 640px) {
+      .error-code {
+        font-size: 80px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .container {
+        padding: 32px 24px;
+      }
+    }
+  </style>
+
+  <!-- Single Page Apps for GitHub Pages - SPA redirect handling -->
   <script>
     // Single Page Apps for GitHub Pages
     // MIT License
@@ -11,18 +127,38 @@
     // string into just a query string, and then redirects the browser
     // to the new url with only a query string and hash fragment
 
-    var pathSegmentsToKeep = 1; // for /babyname2/ base path
+    var pathSegmentsToKeep = 0; // Changed to 0 for Vercel (root domain)
 
     var l = window.location;
-    l.replace(
-      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-      l.hash
-    );
+
+    // Only redirect if this is actually a 404 for SPA routing
+    // Don't redirect if already on homepage with query params
+    if (l.pathname !== '/' && l.pathname !== '/index.html') {
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    }
   </script>
 </head>
 <body>
+  <div class="container">
+    <div class="error-code">404</div>
+    <h1>Page Not Found</h1>
+    <p>
+      Oops! The page you're looking for doesn't exist.
+      Let's get you back on track to finding the perfect baby name.
+    </p>
+    <a href="/" class="btn">← Back to Home</a>
+
+    <div class="links">
+      <a href="/swipe">Swipe Mode</a>
+      <a href="/favorites">My Favorites</a>
+      <a href="/about">About Us</a>
+    </div>
+  </div>
 </body>
 </html>
