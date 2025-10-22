@@ -1,0 +1,424 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { Heart, Search, X, Menu, LogIn, LogOut, Layers, BookOpen, Home, List, Shuffle, Info, Mail } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
+import favoritesService from '../services/favoritesService';
+import AdminMenu from './AdminMenu';
+
+interface StickyHeaderProps {
+  title?: string;
+  showSearch?: boolean;
+  searchTerm?: string;
+  onSearchChange?: (value: string) => void;
+  showBackButton?: boolean;
+  onBackClick?: () => void;
+}
+
+const StickyHeader: React.FC<StickyHeaderProps> = ({
+  title = 'SoulSeed',
+  showSearch = false,
+  searchTerm = '',
+  onSearchChange,
+  showBackButton = false,
+  onBackClick,
+}) => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const { user, isAuthenticated, login, logout } = useAuth();
+  const [favoritesCount, setFavoritesCount] = useState(0);
+  const [dislikesCount, setDislikesCount] = useState(0);
+  const [heartBeat, setHeartBeat] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Video autoplay control
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // Update counts
+  useEffect(() => {
+    const updateCounts = () => {
+      setFavoritesCount(favoritesService.getFavoritesCount());
+      setDislikesCount(favoritesService.getDislikesCount());
+    };
+
+    updateCounts();
+
+    // Listen for updates
+    window.addEventListener('storage', updateCounts);
+    window.addEventListener('cloudDataUpdate', updateCounts);
+
+    // Listen for favorite additions to trigger heart animation
+    const handleFavoriteAdded = () => {
+      setHeartBeat(true);
+      setTimeout(() => setHeartBeat(false), 600);
+      updateCounts();
+    };
+    window.addEventListener('favoriteAdded', handleFavoriteAdded);
+
+    return () => {
+      window.removeEventListener('storage', updateCounts);
+      window.removeEventListener('cloudDataUpdate', updateCounts);
+      window.removeEventListener('favoriteAdded', handleFavoriteAdded);
+    };
+  }, []);
+
+  // Video autoplay logic - play every 1 minute
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    // Initial state: paused
+    video.pause();
+
+    // Play video every 60 seconds
+    const interval = setInterval(() => {
+      video.currentTime = 0; // Reset to start
+      video.play().catch(err => {
+        console.log('Video autoplay prevented:', err);
+      });
+    }, 60000); // 60 seconds = 1 minute
+
+    // When video ends, pause it
+    const handleVideoEnd = () => {
+      video.pause();
+    };
+
+    video.addEventListener('ended', handleVideoEnd);
+
+    return () => {
+      clearInterval(interval);
+      video.removeEventListener('ended', handleVideoEnd);
+    };
+  }, []);
+
+  return (
+    <header className="bg-white/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo with Animated Video */}
+          <button
+            onClick={onBackClick || (() => navigate('/'))}
+            className="flex items-center gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
+            title={onBackClick ? "Close" : "Back to home"}
+          >
+            {/* Animated Baby Video */}
+            <video
+              ref={videoRef}
+              className="h-12 w-12 sm:h-14 sm:w-14 rounded-full object-cover"
+              muted
+              playsInline
+              loop={false}
+            >
+              <source src="/assets/baby-logo-v7-square.mp4" type="video/mp4" />
+            </video>
+
+            <h1 className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">
+              {title}
+            </h1>
+          </button>
+
+          {/* Desktop Navigation Menu - Hidden on Mobile */}
+          <nav className="hidden lg:flex items-center gap-1">
+            <button
+              onClick={() => navigate('/')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/' || location.pathname === '/babyname2'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Home className="w-4 h-4" />
+              <span>Home</span>
+            </button>
+            <button
+              onClick={() => navigate('/names')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/names'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <List className="w-4 h-4" />
+              <span>Browse Names</span>
+            </button>
+            <button
+              onClick={() => navigate('/babynamelists')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/babynamelists'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Layers className="w-4 h-4" />
+              <span>Curated Lists</span>
+            </button>
+            <button
+              onClick={() => navigate('/blog')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname.startsWith('/blog')
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>Blog</span>
+            </button>
+            <button
+              onClick={() => navigate('/swipe')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/swipe'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Shuffle className="w-4 h-4" />
+              <span>Swipe Mode</span>
+            </button>
+            <button
+              onClick={() => navigate('/about')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/about'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Info className="w-4 h-4" />
+              <span>About</span>
+            </button>
+            <button
+              onClick={() => navigate('/contact')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                location.pathname === '/contact'
+                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                  : 'text-gray-700 hover:bg-purple-50 hover:text-purple-600'
+              }`}
+            >
+              <Mail className="w-4 h-4" />
+              <span>Contact</span>
+            </button>
+          </nav>
+
+          {/* Right Side - Search and Navigation */}
+          <div className="flex items-center space-x-4">
+            {/* Search Icon */}
+            {showSearch && (
+              <button
+                onClick={() => {
+                  setSearchOpen(!searchOpen);
+                  if (searchOpen && onSearchChange) {
+                    onSearchChange('');
+                  }
+                }}
+                className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
+                title={searchOpen ? "Close search" : "Search names"}
+              >
+                {searchOpen ? (
+                  <X className="w-4 h-4" />
+                ) : (
+                  <Search className="w-4 h-4" />
+                )}
+              </button>
+            )}
+
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center space-x-6">
+              {/* Login/Profile */}
+              {isAuthenticated && user ? (
+                <div className="flex items-center gap-3">
+                  <AdminMenu />
+                  {user.picture ? (
+                    <img
+                      src={user.picture}
+                      alt={user.name}
+                      className="w-8 h-8 rounded-full"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  ) : (
+                    <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 text-sm">
+                      {user.name?.charAt(0).toUpperCase()}
+                    </div>
+                  )}
+                  <button
+                    onClick={logout}
+                    className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                  >
+                    Logout
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={login}
+                  className="text-sm text-gray-900 hover:text-gray-600 transition-colors"
+                >
+                  Sign in
+                </button>
+              )}
+            </nav>
+
+            {/* Favorites Counter - Near menu */}
+            <button
+              onClick={() => navigate('/favorites')}
+              className={`flex items-center gap-1.5 text-sm transition-all ${
+                favoritesCount > 0
+                  ? 'text-pink-500 hover:text-pink-600'
+                  : 'text-gray-600 hover:text-gray-900'
+              }`}
+              title="View favorites"
+            >
+              <Heart
+                className={`transition-all ${
+                  heartBeat ? 'animate-heartbeat' : ''
+                } ${
+                  favoritesCount > 0 ? 'fill-pink-500' : ''
+                }`}
+                style={{ width: '1.25rem', height: '1.25rem' }}
+              />
+              <span className={`${favoritesCount > 0 ? 'font-semibold' : 'font-medium'} min-w-[1.5rem] text-center`}>
+                {favoritesCount > 999 ? '999+' : favoritesCount}
+              </span>
+            </button>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="md:hidden p-2 text-gray-700 hover:text-purple-600"
+            >
+              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
+        </div>
+
+        {/* Search Input - Expandable */}
+        {showSearch && searchOpen && (
+          <div className="mt-4">
+            <input
+              type="text"
+              value={searchTerm}
+              onChange={(e) => onSearchChange && onSearchChange(e.target.value)}
+              placeholder="Search names..."
+              className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+              autoFocus
+            />
+          </div>
+        )}
+
+        {/* Mobile Menu */}
+        {menuOpen && (
+          <div className="md:hidden mt-4 pt-4 border-t border-gray-200">
+            <div className="flex flex-col space-y-3">
+              <button
+                onClick={() => {
+                  navigate('/babynamelists');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <Layers className="w-4 h-4" />
+                <span>Curated Lists</span>
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/blog');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <BookOpen className="w-4 h-4" />
+                <span>Blog</span>
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/favorites');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center justify-between gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <div className="flex items-center gap-2">
+                  <Heart className="w-4 h-4" />
+                  <span>Favorites</span>
+                </div>
+                {favoritesCount > 0 && (
+                  <span className="px-2 py-0.5 text-xs font-medium text-pink-600 bg-pink-100 rounded-full">
+                    {favoritesCount}
+                  </span>
+                )}
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/about');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <Info className="w-4 h-4" />
+                <span>About Us</span>
+              </button>
+              <button
+                onClick={() => {
+                  navigate('/contact');
+                  setMenuOpen(false);
+                }}
+                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors"
+              >
+                <Mail className="w-4 h-4" />
+                <span>Contact Us</span>
+              </button>
+
+              {/* Admin Menu in Mobile - Full width */}
+              <div className="px-4">
+                <AdminMenu />
+              </div>
+
+              {isAuthenticated && user ? (
+                <div className="flex items-center justify-between px-4 py-2 border-t pt-4">
+                  <div className="flex items-center gap-2">
+                    {user.picture ? (
+                      <img
+                        src={user.picture}
+                        alt={user.name}
+                        className="w-8 h-8 rounded-full"
+                        onError={(e) => {
+                          e.currentTarget.style.display = 'none';
+                        }}
+                      />
+                    ) : (
+                      <div className="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold text-sm">
+                        {user.name?.charAt(0).toUpperCase()}
+                      </div>
+                    )}
+                    <span className="text-sm font-medium text-gray-700">{user.name}</span>
+                  </div>
+                  <button
+                    onClick={() => {
+                      logout();
+                      setMenuOpen(false);
+                    }}
+                    className="text-sm text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-1"
+                  >
+                    <LogOut className="w-4 h-4" />
+                    Logout
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => {
+                    login();
+                    setMenuOpen(false);
+                  }}
+                  className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors border-t pt-4"
+                >
+                  <LogIn className="w-4 h-4" />
+                  Sign in
+                </button>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </header>
+  );
+};
+
+export default StickyHeader;
