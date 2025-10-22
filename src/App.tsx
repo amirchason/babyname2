@@ -1,5 +1,5 @@
 import React, { lazy, Suspense, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ToastProvider } from './contexts/ToastContext';
@@ -11,7 +11,6 @@ import AppHeader from './components/AppHeader';
 import './App.css';
 
 // Lazy load pages for code splitting (reduces initial bundle size)
-const NameListPage = lazy(() => import('./pages/NameListPage'));
 const BabyNameListsPage = lazy(() => import('./pages/BabyNameListsPage'));
 const FavoritesPage = lazy(() => import('./pages/FavoritesPage'));
 const DislikesPage = lazy(() => import('./pages/DislikesPage'));
@@ -27,6 +26,8 @@ const VotesListPage = lazy(() => import('./pages/VotesListPage'));
 const CreateVotePage = lazy(() => import('./pages/CreateVotePage'));
 const AboutUsPage = lazy(() => import('./pages/AboutUsPage'));
 const ContactUsPage = lazy(() => import('./pages/ContactUsPage'));
+const HeaderTestPage = lazy(() => import('./pages/HeaderTestPage'));
+const VideoComparisonPage = lazy(() => import('./pages/VideoComparisonPage'));
 
 /**
  * Component to manage admin text selection
@@ -51,6 +52,36 @@ const AdminTextSelectionManager: React.FC = () => {
   return null;
 };
 
+/**
+ * Layout wrapper that conditionally shows header/footer
+ * Full-page squeeze experience ONLY for voting pages (viewing/participating in votes)
+ * Keep header/footer for vote CREATION for easy navigation back
+ */
+const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const location = useLocation();
+
+  // Hide header & footer ONLY on voting pages (squeeze page for voters)
+  // Keep header/footer on create-vote page for easy navigation
+  const isFullPageExperience = location.pathname.startsWith('/vote/');
+
+  return (
+    <div className="App min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex flex-col">
+      {/* Conditional Header */}
+      {!isFullPageExperience && <AppHeader title="SoulSeed" />}
+
+      <Suspense fallback={<LoadingSpinner />}>
+        {/* Main content - add padding-top only when header is shown */}
+        <div className={`flex-grow ${!isFullPageExperience ? 'pt-20' : ''}`}>
+          {children}
+        </div>
+
+        {/* Conditional Footer */}
+        {!isFullPageExperience && <Footer />}
+      </Suspense>
+    </div>
+  );
+};
+
 function App() {
   // Vercel deployment - use root path (no basename needed)
   const basename = '/';
@@ -62,36 +93,28 @@ function App() {
           <NameCacheProvider>
             <AdminTextSelectionManager />
             <Router basename={basename}>
-              <div className="App min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex flex-col">
-                {/* Global Sticky Header on ALL pages */}
-                <AppHeader title="SoulSeed" />
-
-                <Suspense fallback={<LoadingSpinner />}>
-                  {/* Main content with padding-top for sticky header (80px) */}
-                  <div className="flex-grow pt-20">
-                    <Routes>
-                      <Route path="/" element={<HomePage />} />
-                      <Route path="/babynamelists" element={<BabyNameListsPage />} />
-                      <Route path="/names" element={<NameListPage />} />
-                      <Route path="/favorites" element={<FavoritesPage />} />
-                      <Route path="/dislikes" element={<DislikesPage />} />
-                      <Route path="/debug" element={<DebugPage />} />
-                      <Route path="/swipe" element={<SwipeModePage />} />
-                      <Route path="/search" element={<SearchResultsPage />} />
-                      <Route path="/sitemap" element={<SitemapPage />} />
-                      <Route path="/about" element={<AboutUsPage />} />
-                      <Route path="/contact" element={<ContactUsPage />} />
-                      <Route path="/blog" element={<BlogListPage />} />
-                      <Route path="/blog/:slug" element={<BlogPostPage />} />
-                      <Route path="/update-blog" element={<UpdateBlogPage />} />
-                      <Route path="/votes" element={<VotesListPage />} />
-                      <Route path="/create-vote" element={<CreateVotePage />} />
-                      <Route path="/vote/:voteId" element={<VotingPage />} />
-                    </Routes>
-                  </div>
-                  <Footer />
-                </Suspense>
-              </div>
+              <AppLayout>
+                <Routes>
+                  <Route path="/" element={<HomePage />} />
+                  <Route path="/babynamelists" element={<BabyNameListsPage />} />
+                  <Route path="/favorites" element={<FavoritesPage />} />
+                  <Route path="/dislikes" element={<DislikesPage />} />
+                  <Route path="/debug" element={<DebugPage />} />
+                  <Route path="/header-test" element={<HeaderTestPage />} />
+                  <Route path="/video-compare" element={<VideoComparisonPage />} />
+                  <Route path="/swipe" element={<SwipeModePage />} />
+                  <Route path="/search" element={<SearchResultsPage />} />
+                  <Route path="/sitemap" element={<SitemapPage />} />
+                  <Route path="/about" element={<AboutUsPage />} />
+                  <Route path="/contact" element={<ContactUsPage />} />
+                  <Route path="/blog" element={<BlogListPage />} />
+                  <Route path="/blog/:slug" element={<BlogPostPage />} />
+                  <Route path="/update-blog" element={<UpdateBlogPage />} />
+                  <Route path="/votes" element={<VotesListPage />} />
+                  <Route path="/create-vote" element={<CreateVotePage />} />
+                  <Route path="/vote/:voteId" element={<VotingPage />} />
+                </Routes>
+              </AppLayout>
             </Router>
           </NameCacheProvider>
         </AuthProvider>
