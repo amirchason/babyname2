@@ -13,7 +13,7 @@ import NameCard from '../components/NameCard';
 import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
-import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background';
+// import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background'; // REMOVED - UnicornStudio failing on production
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 
@@ -591,12 +591,10 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section with Animated Background - Adjusted padding when search is open */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-32'} pb-16 px-4 min-h-[75vh] overflow-hidden transition-all duration-200`}>
-        {/* Animated Background Layer */}
-        <div className="absolute inset-0 z-0">
-          <AnimatedBackground />
-        </div>
+      {/* Hero Section with Gradient Background - Adjusted padding when search is open */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-32'} pb-16 px-4 min-h-[75vh] overflow-hidden transition-all duration-200 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50`}>
+        {/* Animated Background Layer - Removed UnicornStudio (failing on production) */}
+        {/* Replaced with CSS gradient background */}
 
         {/* Floating Names Overlay - Only animate on first visit */}
         {isFirstVisit && (
