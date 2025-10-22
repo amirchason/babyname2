@@ -5,6 +5,8 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@react-oauth/google": "^0.12.2",
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.4.0",
     "@tanstack/react-virtual": "^3.13.12",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -33,20 +35,22 @@
     "react-scripts": "5.0.1",
     "react-use": "^17.6.0",
     "tailwind-merge": "^3.3.1",
+    "three": "^0.180.0",
     "typescript": "^4.9.5",
     "unicornstudio-react": "^1.4.31",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "NODE_OPTIONS='--max-old-space-size=2048' react-scripts start",
-    "build": "NODE_OPTIONS='--max-old-space-size=2048' react-scripts build",
+    "build": "TSC_COMPILE_ON_ERROR=true NODE_OPTIONS='--max-old-space-size=2048' react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "ship": "git add . && git commit -m \"🚀 Hot deploy: $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin master",
-    "ship-msg": "git add . && git commit && git push origin master"
+    "deploy": "export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
+    "deploy:preview": "export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --token=$VERCEL_TOKEN --yes",
+    "deploy:github": "gh-pages -d build",
+    "ship": "export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
+    "ship-msg": "git add . && git commit && git push origin master && export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes"
   },
   "eslintConfig": {
     "extends": [

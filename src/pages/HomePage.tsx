@@ -14,6 +14,7 @@ import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 // import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background'; // REMOVED - UnicornStudio failing on production
+import Heart3D from '../components/Heart3D';
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 
@@ -591,10 +592,15 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section with Gradient Background - Adjusted padding when search is open */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-32'} pb-16 px-4 min-h-[75vh] overflow-hidden transition-all duration-200 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50`}>
-        {/* Animated Background Layer - Removed UnicornStudio (failing on production) */}
-        {/* Replaced with CSS gradient background */}
+      {/* Hero Section with 3D Rotating Heart - REDESIGNED */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[90vh] overflow-hidden transition-all duration-200 bg-gradient-to-br from-purple-900 via-pink-800 to-red-900`}>
+
+        {/* 3D Heart Background - Centered and Large */}
+        <div className="absolute inset-0 z-0 flex items-center justify-center">
+          <div className="w-full h-full max-w-2xl max-h-2xl opacity-40">
+            <Heart3D />
+          </div>
+        </div>
 
         {/* Floating Names Overlay - Only animate on first visit */}
         {isFirstVisit && (
@@ -604,7 +610,7 @@ const HomePage: React.FC = () => {
                 key={name}
                 initial={{ opacity: 0 }}
                 animate={{
-                  opacity: [0.2, 0.4, 0.2],
+                  opacity: [0.15, 0.3, 0.15],
                   x: [0, 100, 0],
                   y: [0, -50, 0]
                 }}
@@ -614,7 +620,7 @@ const HomePage: React.FC = () => {
                   delay: i * 0.5,
                   ease: "easeInOut"
                 }}
-                className={`absolute text-purple-400/30 font-light`}
+                className={`absolute text-white/20 font-light`}
                 style={{
                   left: `${10 + i * 15}%`,
                   top: `${20 + (i % 3) * 25}%`,
@@ -627,62 +633,64 @@ const HomePage: React.FC = () => {
           </div>
         )}
 
-        {/* Subtle Gradient Overlay */}
-        <div className="absolute inset-0 z-[2] bg-gradient-to-b from-white/60 to-white/80"></div>
+        {/* Gradient Overlay for Text Readability */}
+        <div className="absolute inset-0 z-[2] bg-gradient-to-b from-black/30 via-transparent to-black/40"></div>
 
-        {/* Hero Content - Minimalist */}
-        <div className="relative z-10 max-w-4xl mx-auto text-center pt-12">
-          {/* Main Headline - Simplified */}
+        {/* Hero Content - Over 3D Heart */}
+        <div className="relative z-10 max-w-4xl mx-auto text-center pt-20">
+          {/* Main Headline - Dramatic White Text */}
           <motion.h1
             initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: isFirstVisit ? 0.8 : 0 }}
             className="text-5xl md:text-7xl font-light mb-6 tracking-tight"
           >
-            <span className="text-gray-900">Find the</span>
+            <span className="text-white">Find the</span>
             <br />
-            <span className="font-medium bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-red-200 to-pink-300 drop-shadow-[0_2px_10px_rgba(255,255,255,0.5)]">
               perfect name
             </span>
           </motion.h1>
 
-          {/* Subheadline - Minimal with Animated Counter */}
+          {/* Subheadline - White with Glowing Counter */}
           <motion.p
             initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.1 : 0 }}
-            className="text-lg text-gray-600 mb-12 font-light"
+            className="text-lg text-white/90 mb-12 font-light drop-shadow-lg"
           >
             {isFirstVisit && !isCountingComplete ? (
-              <span className="font-mono font-semibold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+              <span className="font-mono font-bold text-pink-200 drop-shadow-[0_0_10px_rgba(255,182,193,0.8)]">
                 {displayCount.toLocaleString()}
               </span>
             ) : (
-              cachedGenderCounts.total.toLocaleString()
+              <span className="font-mono font-bold text-pink-200">
+                {cachedGenderCounts.total.toLocaleString()}
+              </span>
             )}{' '}
             curated names with meaning
           </motion.p>
 
-          {/* Tagline with Flower - Brand Element */}
+          {/* Tagline with Flower - Glowing Brand Element */}
           <motion.div
             initial={isFirstVisit ? { opacity: 0, scale: 0.9 } : { opacity: 1, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.2 : 0 }}
             className="flex items-center justify-center gap-2 mb-8"
           >
-            <span className="text-2xl">🌸</span>
-            <p className="text-sm font-light bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="text-2xl drop-shadow-[0_0_8px_rgba(255,182,193,0.8)]">🌸</span>
+            <p className="text-base font-light text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
               Where Your Baby's Name Blooms
             </p>
-            <span className="text-2xl">🌸</span>
+            <span className="text-2xl drop-shadow-[0_0_8px_rgba(255,182,193,0.8)]">🌸</span>
           </motion.div>
 
-          {/* Action Buttons - Full Width */}
+          {/* Action Buttons - Glowing Glass Morphism */}
           <motion.div
             initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.4 : 0 }}
-            className="flex flex-col sm:flex-row gap-3 w-full max-w-xl mx-auto mt-2"
+            className="flex flex-col sm:flex-row gap-3 w-full max-w-3xl mx-auto mt-2"
           >
             <button
               onClick={() => {
@@ -691,9 +699,10 @@ const HomePage: React.FC = () => {
                   setSearchTerm('');
                 }
               }}
-              className="w-full py-4 rounded-full text-sm font-light
-                       bg-white text-gray-900 border border-gray-200
-                       hover:border-gray-400 transition-all duration-200
+              className="w-full py-4 rounded-full text-sm font-medium
+                       bg-white/20 backdrop-blur-md text-white border border-white/30
+                       hover:bg-white/30 hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
+                       transition-all duration-300
                        flex items-center justify-center gap-2"
             >
               <Search className="w-4 h-4" />
@@ -701,30 +710,33 @@ const HomePage: React.FC = () => {
             </button>
             <button
               onClick={() => navigate('/swipe')}
-              className="w-full py-4 rounded-full text-sm font-light
-                       bg-white text-gray-900 border border-gray-200
-                       hover:border-gray-400 transition-all duration-200"
+              className="w-full py-4 rounded-full text-sm font-medium
+                       bg-white/20 backdrop-blur-md text-white border border-white/30
+                       hover:bg-white/30 hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
+                       transition-all duration-300"
             >
               Swipe Mode
             </button>
             <button
               onClick={() => navigate('/babynamelists')}
-              className="w-full py-4 rounded-full text-sm font-light
-                       bg-white text-gray-900 border border-gray-200
-                       hover:border-gray-400 transition-all duration-200
+              className="w-full py-4 rounded-full text-sm font-medium
+                       bg-white/20 backdrop-blur-md text-white border border-white/30
+                       hover:bg-white/30 hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
+                       transition-all duration-300
                        flex items-center justify-center gap-2"
             >
               <Library className="w-4 h-4" />
-              Popular Name Lists
+              Popular Lists
             </button>
             <button
               onClick={() => navigate('/votes')}
-              className="w-full py-4 rounded-full text-sm font-semibold
-                       bg-gradient-to-r from-purple-600 to-pink-600 text-white
-                       hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-200
+              className="w-full py-4 rounded-full text-sm font-bold
+                       bg-gradient-to-r from-pink-500 to-red-500 text-white border-2 border-pink-300
+                       hover:shadow-[0_0_30px_rgba(255,105,180,0.8)] hover:scale-105
+                       transition-all duration-300
                        flex items-center justify-center gap-2"
             >
-              <Trophy className="w-4 h-4" />
+              <Trophy className="w-5 h-5" />
               My Votes
             </button>
           </motion.div>
