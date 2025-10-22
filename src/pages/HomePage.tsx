@@ -663,6 +663,20 @@ const HomePage: React.FC = () => {
             curated names with meaning
           </motion.p>
 
+          {/* Tagline with Flower - Brand Element */}
+          <motion.div
+            initial={isFirstVisit ? { opacity: 0, scale: 0.9 } : { opacity: 1, scale: 1 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.2 : 0 }}
+            className="flex items-center justify-center gap-2 mb-8"
+          >
+            <span className="text-2xl">🌸</span>
+            <p className="text-sm font-light bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent">
+              Where Your Baby's Name Blooms
+            </p>
+            <span className="text-2xl">🌸</span>
+          </motion.div>
+
           {/* Action Buttons - Full Width */}
           <motion.div
             initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
