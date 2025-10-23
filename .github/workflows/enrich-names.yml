@@ -1,0 +1,111 @@
+name: 🤖 Name Enrichment Agent
+
+on:
+  # Scheduled runs (daily at 2 AM UTC)
+  schedule:
+    - cron: '0 2 * * *'
+
+  # Manual trigger from GitHub UI
+  workflow_dispatch:
+    inputs:
+      max_names:
+        description: 'Maximum names to process (leave empty for all remaining)'
+        required: false
+        default: ''
+
+jobs:
+  enrich:
+    name: Enrich Baby Names
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # 6 hours max
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: |
+          npm install @google/generative-ai firebase-admin
+          echo "✅ Dependencies installed"
+
+      - name: 🤖 Run enrichment agent
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REACT_APP_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FIREBASE_ADMIN_KEY: ${{ secrets.FIREBASE_ADMIN_KEY }}
+        run: |
+          echo "🚀 Starting name enrichment agent..."
+          node scripts/enrichment-agent.js
+          echo "✅ Enrichment complete"
+
+      - name: 📊 Generate summary report
+        if: always()
+        run: |
+          echo "## 📊 Enrichment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Timestamp:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # Count enriched files
+          ENRICHED_COUNT=$(find public/data/enriched -name "*.json" 2>/dev/null | wc -l)
+          TOTAL_NAMES=$(grep -o '<loc>' public/sitemap-names.xml 2>/dev/null | wc -l)
+
+          echo "**Files Created:** ${ENRICHED_COUNT}" >> $GITHUB_STEP_SUMMARY
+          echo "**Total Names:** ${TOTAL_NAMES}" >> $GITHUB_STEP_SUMMARY
+
+          if [ ${TOTAL_NAMES} -gt 0 ]; then
+            PROGRESS=$((ENRICHED_COUNT * 100 / TOTAL_NAMES))
+            echo "**Progress:** ${PROGRESS}%" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📁 Recent Enrichments" >> $GITHUB_STEP_SUMMARY
+          ls -lt public/data/enriched/*.json 2>/dev/null | head -10 | awk '{print "- " $9}' >> $GITHUB_STEP_SUMMARY || echo "No files found" >> $GITHUB_STEP_SUMMARY
+
+      - name: 💾 Commit enriched data
+        if: success()
+        run: |
+          git config user.name "Enrichment Bot"
+          git config user.email "enrichment-bot@soulseedbaby.com"
+
+          # Add enriched data files
+          git add public/data/enriched/*.json
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "✅ No new enrichments to commit"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+            ENRICHED_COUNT=$(git diff --staged --name-only | wc -l)
+
+            git commit -m "🤖 Enrich ${ENRICHED_COUNT} names - ${TIMESTAMP}
+
+            Automated enrichment by GitHub Actions agent
+            Run ID: ${{ github.run_id }}
+            Workflow: ${{ github.workflow }}"
+
+            git push
+            echo "✅ Committed and pushed ${ENRICHED_COUNT} enriched names"
+          fi
+
+      - name: 📤 Upload enrichment artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: enriched-names-${{ github.run_id }}
+          path: public/data/enriched/*.json
+          retention-days: 30
+
+      - name: 🔔 Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Enrichment agent failed!"
+          echo "Check logs at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
