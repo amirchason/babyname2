@@ -28,6 +28,14 @@ const AboutUsPage = lazy(() => import('./pages/AboutUsPage'));
 const ContactUsPage = lazy(() => import('./pages/ContactUsPage'));
 const NameRingTestPage = lazy(() => import('./pages/NameRingTestPage'));
 
+// Legal & Compliance Pages (Google Requirements)
+const TermsOfServicePage = lazy(() => import('./pages/TermsOfServicePage'));
+const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicyPage'));
+const AboutPage = lazy(() => import('./pages/AboutPage'));
+const ContactPage = lazy(() => import('./pages/ContactPage'));
+const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage'));
+const AccessibilityPage = lazy(() => import('./pages/AccessibilityPage'));
+
 /**
  * Component to manage admin text selection
  * Adds/removes 'admin-mode' class to body element based on admin status
@@ -120,8 +128,19 @@ function App() {
                   <Route path="/swipe" element={<SwipeModePage />} />
                   <Route path="/search" element={<SearchResultsPage />} />
                   <Route path="/sitemap" element={<SitemapPage />} />
-                  <Route path="/about" element={<AboutUsPage />} />
-                  <Route path="/contact" element={<ContactUsPage />} />
+
+                  {/* Legal & Compliance Pages (Google Requirements) */}
+                  <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+                  <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+                  <Route path="/cookie-policy" element={<CookiePolicyPage />} />
+                  <Route path="/accessibility" element={<AccessibilityPage />} />
+                  <Route path="/about" element={<AboutPage />} />
+                  <Route path="/contact" element={<ContactPage />} />
+
+                  {/* Legacy routes (keep for backwards compatibility) */}
+                  <Route path="/about-us" element={<AboutUsPage />} />
+                  <Route path="/contact-us" element={<ContactUsPage />} />
+
                   <Route path="/blog" element={<BlogListPage />} />
                   <Route path="/blog/:slug" element={<BlogPostPage />} />
                   <Route path="/update-blog" element={<UpdateBlogPage />} />
