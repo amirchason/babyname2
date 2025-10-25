@@ -1,0 +1,2117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander - Name Profile | SoulSeed</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 50%, #93c5fd 100%);
+      min-height: 100vh;
+      padding: 8px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Floating particles */
+    .particle {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      background: rgba(59, 130, 246, 0.3);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+      animation: float 15s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+      25% { transform: translate(30px, -30px) scale(1.2); opacity: 0.5; }
+      50% { transform: translate(-20px, -60px) scale(0.8); opacity: 0.4; }
+      75% { transform: translate(-40px, -30px) scale(1.1); opacity: 0.6; }
+    }
+
+    
+    .particle:nth-child(1) {
+      left: 98.56645128495025%;
+      top: 52.82503683136994%;
+      animation-delay: -9.922445692719338s;
+      animation-duration: 19.281517771751155s;
+    }
+    
+    .particle:nth-child(2) {
+      left: 69.36924391194583%;
+      top: 4.584840832733517%;
+      animation-delay: -12.613809277090041s;
+      animation-duration: 15.713352837273156s;
+    }
+    
+    .particle:nth-child(3) {
+      left: 35.55496905760738%;
+      top: 64.79248441918719%;
+      animation-delay: -8.588164013010783s;
+      animation-duration: 15.066043217917063s;
+    }
+    
+    .particle:nth-child(4) {
+      left: 89.60375887936891%;
+      top: 5.840057579310143%;
+      animation-delay: -9.147465468026052s;
+      animation-duration: 15.031857445516225s;
+    }
+    
+    .particle:nth-child(5) {
+      left: 50.42896848176879%;
+      top: 28.21808644233128%;
+      animation-delay: -11.662847498797275s;
+      animation-duration: 17.15596501452357s;
+    }
+    
+    .particle:nth-child(6) {
+      left: 95.16775088113343%;
+      top: 63.9078850286815%;
+      animation-delay: -11.752618425462535s;
+      animation-duration: 19.214852861731995s;
+    }
+    
+    .particle:nth-child(7) {
+      left: 5.607749529171291%;
+      top: 83.05900376780319%;
+      animation-delay: -9.901030263883495s;
+      animation-duration: 12.671428118478063s;
+    }
+    
+    .particle:nth-child(8) {
+      left: 25.37251699003138%;
+      top: 51.07638646317576%;
+      animation-delay: -9.954071798179141s;
+      animation-duration: 19.428293014293402s;
+    }
+    
+    .particle:nth-child(9) {
+      left: 95.42765245383163%;
+      top: 20.696105669150057%;
+      animation-delay: -12.872155498168853s;
+      animation-duration: 15.886685919189677s;
+    }
+    
+    .particle:nth-child(10) {
+      left: 26.739834412831833%;
+      top: 48.65128121592364%;
+      animation-delay: -0.41533693623683865s;
+      animation-duration: 12.902224925426932s;
+    }
+    
+    .particle:nth-child(11) {
+      left: 85.86090505203062%;
+      top: 81.26379359084896%;
+      animation-delay: -8.921065764856595s;
+      animation-duration: 18.103009741786884s;
+    }
+    
+    .particle:nth-child(12) {
+      left: 2.3538632809371185%;
+      top: 72.23194230554522%;
+      animation-delay: -7.855153481085972s;
+      animation-duration: 16.875864635706797s;
+    }
+    
+    .particle:nth-child(13) {
+      left: 33.34881436745898%;
+      top: 61.049608377189045%;
+      animation-delay: -10.933755847258674s;
+      animation-duration: 18.738917296607774s;
+    }
+    
+    .particle:nth-child(14) {
+      left: 34.41539058207308%;
+      top: 60.837460495800435%;
+      animation-delay: -1.7865995167541404s;
+      animation-duration: 19.382479108851136s;
+    }
+    
+    .particle:nth-child(15) {
+      left: 20.62847346822705%;
+      top: 0.33690744002157214%;
+      animation-delay: -10.636150549993799s;
+      animation-duration: 18.04482217211187s;
+    }
+    
+    .particle:nth-child(16) {
+      left: 28.56165459219526%;
+      top: 84.5732368966609%;
+      animation-delay: -10.393556586868907s;
+      animation-duration: 17.799953283666447s;
+    }
+    
+    .particle:nth-child(17) {
+      left: 65.72373577935231%;
+      top: 68.36088026657048%;
+      animation-delay: -2.53333420831086s;
+      animation-duration: 18.577080094422875s;
+    }
+    
+    .particle:nth-child(18) {
+      left: 48.44198847598833%;
+      top: 0.02190687147123338%;
+      animation-delay: -11.015958935401125s;
+      animation-duration: 12.59912842191259s;
+    }
+    
+    .particle:nth-child(19) {
+      left: 25.6960026405157%;
+      top: 11.537984731978291%;
+      animation-delay: -0.38656417408004407s;
+      animation-duration: 12.781459816044936s;
+    }
+    
+    .particle:nth-child(20) {
+      left: 46.137290146330415%;
+      top: 76.16809224137036%;
+      animation-delay: -11.556648811235613s;
+      animation-duration: 17.18145049375307s;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+      border-radius: 24px;
+      padding: 20px 16px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
+      margin-bottom: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.1); opacity: 0.3; }
+    }
+
+    .name-title {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .pronunciation {
+      font-size: 18px;
+      opacity: 0.95;
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+      font-style: italic;
+    }
+
+    .origin-meaning {
+      font-size: 16px;
+      opacity: 0.9;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+
+    .v4-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 16px;
+      padding: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .section {
+      background: white;
+      border-radius: 20px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .section-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #D8B2F2, #FFB3D9);
+      color: white;
+      border-radius: 50%;
+      font-size: 14px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .accordion-btn {
+      margin-left: auto;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      border-radius: 50%;
+    }
+
+    .accordion-btn:hover {
+      background: rgba(0,0,0,0.05);
+    }
+
+    .chevron {
+      width: 20px;
+      height: 20px;
+      transition: transform 0.3s ease;
+      stroke: #64748b;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .chevron.rotated {
+      transform: rotate(180deg);
+    }
+
+    .section-content {
+      overflow: hidden;
+      transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    }
+
+    .section-content.collapsed {
+      max-height: 0 !important;
+      opacity: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .section-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .section-icon svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
+    .icon-1 { background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%); }
+    .icon-2 { background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%); }
+    .icon-3 { background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%); }
+    .icon-4 { background: linear-gradient(135deg, #10b981 0%, #34d399 100%); }
+    .icon-5 { background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); }
+    .icon-6 { background: linear-gradient(135deg, #ef4444 0%, #f87171 100%); }
+    .icon-7 { background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%); }
+    .icon-8 { background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%); }
+    .icon-9 { background: linear-gradient(135deg, #14b8a6 0%, #2dd4bf 100%); }
+    .icon-10 { background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%); }
+
+    .section-text {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .chip-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .chip {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e40af;
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: default;
+    }
+
+    .chip:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, #e2e8f0 50%, transparent 100%);
+      margin: 20px 0;
+    }
+
+    /* Historical Figures Section */
+    .hist-grid {
+      display: grid;
+      gap: 4px;
+      margin-top: 8px;
+    }
+
+    .hist-card {
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border-radius: 16px;
+      padding: 12px;
+      border-left: 4px solid #3b82f6;
+      transition: all 0.3s;
+    }
+
+    .hist-card:hover {
+      transform: translateX(4px);
+      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+    }
+
+    .hist-name {
+      font-size: 21px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 4px;
+    }
+
+    .hist-years-cat {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 6px;
+      flex-wrap: wrap;
+    }
+
+    .hist-years {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e40af;
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .hist-category {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e40af;
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    .hist-achievements {
+      list-style: none;
+      margin: 12px 0;
+      padding: 0;
+    }
+
+    .hist-achievements li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      color: #475569;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .hist-achievements li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #3b82f6;
+      font-weight: 700;
+    }
+
+    .hist-significance {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      font-size: 16px;
+      line-height: 1.6;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    .hist-significance strong {
+      color: #3b82f6;
+      font-style: normal;
+    }
+
+    .hist-works {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #64748b;
+    }
+
+    .hist-works strong {
+      color: #475569;
+    }
+
+    /* Pop Culture Cards */
+    .pop-card {
+      background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 3px;
+      border-left: 3px solid #8b5cf6;
+    }
+
+    .pop-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .pop-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 3px;
+    }
+
+    .pop-meta {
+      font-size: 15px;
+      color: #64748b;
+      margin-bottom: 4px;
+    }
+
+    .pop-link {
+      display: inline-block;
+      color: #8b5cf6;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 8px;
+      transition: color 0.2s;
+    }
+
+    .pop-link:hover {
+      color: #6d28d9;
+      text-decoration: underline;
+    }
+
+    /* Religious Section */
+    .religious-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 12px;
+      border-left: 4px solid #f59e0b;
+    }
+
+    .religious-character {
+      font-size: 21px;
+      font-weight: 700;
+      color: #92400e;
+      margin-bottom: 12px;
+    }
+
+    .religious-text {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #78350f;
+      margin-bottom: 10px;
+    }
+
+    .religious-stories {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(217, 119, 6, 0.3);
+    }
+
+    .religious-stories strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #92400e;
+    }
+
+    .religious-stories ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .religious-stories li {
+      padding: 4px 0 4px 16px;
+      position: relative;
+      color: #78350f;
+      font-size: 16px;
+    }
+
+    .religious-stories li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: #f59e0b;
+    }
+
+    /* Quote Box */
+    .quote-box {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 12px 0;
+      border-left: 4px solid #10b981;
+      font-style: italic;
+    }
+
+    .quote-text {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #064e3b;
+      margin-bottom: 10px;
+    }
+
+    .quote-author {
+      font-size: 16px;
+      font-weight: 600;
+      color: #065f46;
+      font-style: normal;
+    }
+
+    .quote-context {
+      font-size: 15px;
+      color: #047857;
+      margin-top: 4px;
+    }
+
+    /* Fun Fact */
+    .fun-fact {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+      border-left: 4px solid #3b82f6;
+    }
+
+    .fun-fact-text {
+      font-size: 17px;
+      line-height: 1.6;
+      color: #1e40af;
+    }
+
+    .fun-fact::before {
+      content: '✨';
+      margin-right: 8px;
+      font-size: 18px;
+    }
+
+    /* ========================================
+       CELESTIAL HARMONY (ASTROLOGY) STYLES
+       ======================================== */
+
+    .celestial-harmony-container {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .astrology-intro {
+      text-align: center;
+      padding: 12px;
+      background: linear-gradient(135deg, #F0E0FF 0%, #FFE0EC 100%);
+      border-radius: 12px;
+    }
+
+    .astrology-tagline {
+      font-size: 15px;
+      font-weight: 600;
+      color: #6b21a8;
+      margin: 0;
+    }
+
+    .subsection-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Zodiac Wheel */
+    .zodiac-wheel-section {
+      background: linear-gradient(135deg, #faf5ff 0%, #fff5f7 100%);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .zodiac-wheel-container {
+      display: flex;
+      justify-content: center;
+      margin: 16px 0;
+    }
+
+    .zodiac-note {
+      text-align: center;
+      font-size: 12px;
+      color: #64748b;
+      margin-top: 12px;
+    }
+
+    .zodiac-sign {
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    /* Elemental Balance */
+    .elemental-balance-section {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .elements-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .element-row {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .element-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1e293b;
+    }
+
+    .element-emoji {
+      font-size: 18px;
+    }
+
+    .element-bar-container {
+      background: #f1f5f9;
+      border-radius: 8px;
+      height: 32px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .element-bar {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 12px;
+      transition: width 1s ease-out;
+      border-radius: 8px;
+    }
+
+    .element-percentage {
+      font-size: 13px;
+      font-weight: 700;
+      color: white;
+    }
+
+    .element-traits {
+      font-size: 12px;
+      color: #64748b;
+      font-style: italic;
+      padding-left: 26px;
+    }
+
+    /* Planetary Ruler */
+    .planetary-ruler-section {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .planet-card {
+      padding: 24px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .planet-emoji {
+      font-size: 64px;
+      margin-bottom: 12px;
+    }
+
+    .planet-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 8px;
+    }
+
+    .planet-element {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 16px;
+    }
+
+    .planet-traits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+    }
+
+    .trait-badge {
+      background: white;
+      padding: 6px 12px;
+      border-radius: 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #8b5cf6;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* Lucky Attributes */
+    .lucky-attributes-section {
+      background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .lucky-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .lucky-card {
+      background: white;
+      padding: 16px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      transition: all 0.3s;
+    }
+
+    .lucky-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+
+    .lucky-icon {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .lucky-label {
+      font-size: 12px;
+      color: #64748b;
+      margin-bottom: 6px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .lucky-value {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .color-swatch {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin: 0 auto;
+      border: 3px solid white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    /* Astrological Traits */
+    .astrological-traits-section {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .traits-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .astro-trait {
+      background: linear-gradient(135deg, #D8B2F2 0%, #FFB3D9 100%);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(216, 178, 242, 0.3);
+      transition: all 0.3s;
+    }
+
+    .astro-trait:hover {
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: 0 4px 12px rgba(216, 178, 242, 0.4);
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 480px) {
+      .zodiac-wheel-container svg {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .lucky-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .element-bar-container {
+        height: 28px;
+      }
+
+      .planet-emoji {
+        font-size: 48px;
+      }
+    }
+
+    /* Famous Name Constellation */
+    .constellation-container {
+      padding: 20px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .constellation-canvas {
+      margin: 0 auto;
+      max-width: 400px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .constellation-canvas svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .constellation-legend {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 15px;
+      margin-top: 12px;
+      font-weight: 500;
+    }
+
+    .star {
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 0 6px currentColor);
+    }
+
+    .star:hover {
+      transform: scale(1.5);
+      filter: drop-shadow(0 0 12px currentColor);
+    }
+
+    .constellation-figure-list {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .constellation-figure {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .constellation-figure:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-2px);
+      border-color: rgba(216, 178, 242, 0.5);
+    }
+
+    .constellation-figure-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: #e2e8f0;
+      margin-bottom: 4px;
+    }
+
+    .constellation-figure-category {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    /* ========================================
+       HISTORICAL TIMELINE VISUALIZATION
+       ======================================== */
+
+    .timeline-container {
+      overflow-x: auto;
+      padding: 20px 0;
+      position: relative;
+    }
+
+    .timeline-track {
+      min-width: 800px;
+      height: 200px;
+      position: relative;
+      background: linear-gradient(to right,
+        rgba(216, 178, 242, 0.1) 0%,
+        rgba(255, 179, 217, 0.1) 100%);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .timeline-line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(to right, #D8B2F2, #FFB3D9, #B3D9FF);
+    }
+
+    .timeline-point {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: white;
+      border: 3px solid #D8B2F2;
+      cursor: pointer;
+      transition: all 0.3s;
+      z-index: 2;
+    }
+
+    .timeline-point:hover {
+      width: 20px;
+      height: 20px;
+      border-width: 4px;
+      box-shadow: 0 0 12px currentColor;
+    }
+
+    .timeline-point.category-philosopher {
+      border-color: #D8B2F2;
+    }
+
+    .timeline-point.category-leader {
+      border-color: #FFB3D9;
+    }
+
+    .timeline-point.category-artist {
+      border-color: #D8B2F2;
+    }
+
+    .timeline-point.category-scientist {
+      border-color: #B3D9FF;
+    }
+
+    .timeline-point.category-saint {
+      border-color: #FFB3D9;
+    }
+
+    .timeline-point.category-inventor {
+      border-color: #B3D9FF;
+    }
+
+    .timeline-point.category-theologian {
+      border-color: #D8B2F2;
+    }
+
+    .timeline-card {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 10px;
+      background: white;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      min-width: 200px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+      z-index: 3;
+    }
+
+    .timeline-point:hover .timeline-card {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .timeline-card-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 4px;
+    }
+
+    .timeline-card-years {
+      font-size: 12px;
+      color: #64748b;
+      margin-bottom: 6px;
+    }
+
+    .timeline-card-achievement {
+      font-size: 11px;
+      color: #475569;
+      line-height: 1.4;
+    }
+
+    .timeline-labels {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+    }
+
+    .timeline-legend {
+      margin-top: 20px;
+      padding: 16px;
+      background: linear-gradient(135deg, #faf5ff 0%, #fff5f7 100%);
+      border-radius: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .timeline-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #64748b;
+    }
+
+    .timeline-legend-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid;
+    }
+
+    .timeline-legend-dot.leader {
+      border-color: #FFB3D9;
+    }
+
+    .timeline-legend-dot.philosopher {
+      border-color: #D8B2F2;
+    }
+
+    .timeline-legend-dot.artist {
+      border-color: #D8B2F2;
+    }
+
+    .timeline-legend-dot.scientist {
+      border-color: #B3D9FF;
+    }
+
+    .timeline-legend-dot.saint {
+      border-color: #FFB3D9;
+    }
+
+    .timeline-legend-dot.inventor {
+      border-color: #B3D9FF;
+    }
+
+    @media (max-width: 480px) {
+      .timeline-track {
+        min-width: 600px;
+      }
+
+      .timeline-card {
+        min-width: 160px;
+        font-size: 11px;
+      }
+    }
+
+    /* ========================================
+       NAME STRENGTH METER
+       ======================================== */
+
+    .strength-meter-container {
+      padding: 20px;
+    }
+
+    .strength-meter-row {
+      margin-bottom: 16px;
+    }
+
+    .strength-label {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .strength-icon {
+      font-size: 20px;
+    }
+
+    .strength-bar-container {
+      background: #f1f5f9;
+      border-radius: 8px;
+      height: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .strength-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #D8B2F2, #FFB3D9, #B3D9FF);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 12px;
+      transition: width 1s ease-out;
+    }
+
+    .strength-value {
+      font-size: 13px;
+      font-weight: 700;
+      color: white;
+    }
+
+    .strength-note {
+      font-size: 13px;
+      color: #64748b;
+      margin-top: 16px;
+      text-align: center;
+      font-style: italic;
+    }
+
+    @media (max-width: 480px) {
+      .strength-bar-container {
+        height: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1 class="name-title">Alexander</h1>
+      <p class="pronunciation">al-ig-ZAN-der</p>
+      <p class="origin-meaning">🌍 Greek • Defender of mankind</p>
+      <div class="v4-badge">✨ V4 Enriched</div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Meaning</div>
+        <div class="stat-value">Defender of mankind</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Gender</div>
+        <div class="stat-value">Boy</div>
+      </div>
+    </div>
+
+    <!-- Section 3: Nicknames (EXACTLY 9 - 3x3 grid) -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;" onclick="toggleAccordion('section_3_nicknames')">
+        <span class="section-number">3</span>
+        <div class="section-icon icon-1">
+          <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        </div>
+        Nicknames
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_3_nicknames">
+        <div class="chip-list">
+          <div class="chip">Alex</div>
+          <div class="chip">Al</div>
+          <div class="chip">Xander</div>
+          <div class="chip">Lex</div>
+          <div class="chip">Sandy</div>
+          <div class="chip">Alec</div>
+          <div class="chip">Sasha</div>
+          <div class="chip">Zander</div>
+          <div class="chip">Ally</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 4: Cultural Significance -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_4_cultural')">
+        <span class="section-number">4</span>
+        <div class="section-icon icon-1">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        </div>
+        Cultural Significance
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_4_cultural">
+        <p class="section-text">Ancient Greek name with royal and heroic associations. The name became widespread after Alexander the Great conquered much of the known world.</p>
+
+        <div class="divider"></div>
+
+        <p class="section-text">Popular name in many cultures, associated with leadership and strength.</p>
+
+        <div class="divider"></div>
+
+        <p class="section-text">Featured in historical texts, biographies, and modern fiction.</p>
+      </div>
+    </div>
+
+    <!-- Section 5: Historical Figures -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_5_historical')">
+        <span class="section-number">5</span>
+        <div class="section-icon icon-2">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        Historical Figures
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_5_historical">
+        <div class="hist-grid">
+        <div class="hist-card">
+          <div class="hist-name">Alexander the Great</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">356-323 BC</div>
+            <div class="hist-category">Leader/Conqueror</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Conquered Persian Empire</li>
+            <li>Founded over 20 cities including Alexandria</li>
+            <li>Created one of the largest empires in history</li>
+            <li>Spread Greek culture across three continents</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> One of the greatest military commanders in history who created a vast empire stretching from Greece to India before his death at age 32.
+          </div>
+
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Alexander Hamilton</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1755-1804</div>
+            <div class="hist-category">Leader/Statesman</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Founding Father of USA</li>
+            <li>First Secretary of Treasury</li>
+            <li>Established national bank</li>
+            <li>Author of Federalist Papers</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Shaped the US financial system and government structure, influential political thinker.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Federalist Papers
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Alexander Fleming</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1881-1955</div>
+            <div class="hist-category">Scientist</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Discovered penicillin</li>
+            <li>Nobel Prize in Medicine (1945)</li>
+            <li>Pioneered antibiotic research</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Revolutionized medicine by discovering the first widely used antibiotic, saving millions of lives.
+          </div>
+
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Alexander Pushkin</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1799-1837</div>
+            <div class="hist-category">Writer/Poet</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Father of Russian literature</li>
+            <li>Created modern Russian literary language</li>
+            <li>Wrote Eugene Onegin</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Considered the greatest Russian poet and founder of modern Russian literature.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Eugene Onegin, The Bronze Horseman, Boris Godunov
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Alexander Graham Bell</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1847-1922</div>
+            <div class="hist-category">Scientist/Inventor</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Invented the telephone</li>
+            <li>Founded Bell Telephone Company</li>
+            <li>Pioneered aviation research</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Revolutionized communication with the invention of the telephone.
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6: Religious Significance -->
+
+    <!-- Section 7: Movies & Shows -->
+
+    <!-- Section 8: Songs -->
+
+    <!-- Section 9: Famous People -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_9_famous')">
+        <span class="section-number">9</span>
+        <div class="section-icon icon-6">
+          <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        Alexander in Popular Culture
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_9_famous">
+      <div class="pop-card">
+        <div class="pop-title">Alexander Dumas</div>
+        <div class="pop-meta">Writer</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Known for:</strong> The Three Musketeers, The Count of Monte Cristo</p>
+        <p class="section-text" style="margin-top: 6px;"><strong>Awards:</strong> One of the most widely read French authors</p>
+        <a href="https://www.imdb.com" target="_blank" class="pop-link">View Profile →</a>
+      </div>
+      </div>
+    </div>
+
+    <!-- Section 10: Famous Quotes -->
+
+    <!-- Section 11: Character Quotes -->
+
+    <!-- Section 12: Personality -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_12_personality')">
+        <span class="section-number">12</span>
+        <div class="section-icon icon-10">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+        </div>
+        Personality & Symbolism
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_12_personality">
+      <p class="section-text"><strong>Personality:</strong> Strong, charismatic, natural leader with strategic thinking abilities.</p>
+      <div class="divider"></div>
+      <p class="section-text"><strong>Symbolism:</strong> Protection, defense, warrior spirit, conquest, leadership.</p>
+
+      <div class="fun-fact">
+        <span class="fun-fact-text">Alexander the Great never lost a battle despite being outnumbered in many conflicts!</span>
+      </div>
+      </div>
+    </div>
+
+    <!-- Section 13: Variations (EXACTLY 9 - 3x3 grid) -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;" onclick="toggleAccordion('section_13_variations')">
+        <span class="section-number">13</span>
+        <div class="section-icon icon-3">
+          <svg viewBox="0 0 24 24"><path d="M12 2l-5.5 9h11z M12 22l5.5-9h-11z"/></svg>
+        </div>
+        Variations
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_13_variations">
+      <div class="chip-list">
+        <div class="chip">Alexander</div>
+        <div class="chip">Alexandre</div>
+        <div class="chip">Alessandro</div>
+        <div class="chip">Alejandro</div>
+        <div class="chip">Aleksander</div>
+        <div class="chip">Aleksandr</div>
+        <div class="chip">Iskander</div>
+        <div class="chip">Alasdair</div>
+        <div class="chip">Alastair</div>
+      </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Section 14: Similar Names (EXACTLY 9 - 3x3 grid) -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;" onclick="toggleAccordion('section_14_similar')">
+        <span class="section-number">14</span>
+        <div class="section-icon icon-7">
+          <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        Similar Names
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_14_similar">
+      <div class="chip-list">
+        <div class="chip">Andrew</div>
+        <div class="chip">Nicholas</div>
+        <div class="chip">Christopher</div>
+        <div class="chip">Sebastian</div>
+        <div class="chip">Theodore</div>
+        <div class="chip">Maximilian</div>
+        <div class="chip">Augustus</div>
+        <div class="chip">Constantine</div>
+        <div class="chip">Nathaniel</div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Section 15: Celestial Harmony (Astrology) -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_15_astrology')">
+        <span class="section-number">15</span>
+        <div class="section-icon icon-5">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        Celestial Harmony
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content collapsed" data-section="section_15_astrology">
+        <div class="celestial-harmony-container">
+          <div class="astrology-intro">
+            <p class="astrology-tagline">✨ Discover the cosmic energy of Alexander</p>
+          </div>
+
+          <!-- Elemental Balance -->
+          <div class="elemental-balance-section">
+            <h3 class="subsection-title">⚖️ Elemental Balance</h3>
+            <div class="elements-container">
+              <div class="element-row">
+                <div class="element-label">
+                  <span class="element-emoji">🔥</span>
+                  <span class="element-name">Fire</span>
+                </div>
+                <div class="element-bar-container">
+                  <div class="element-bar" style="width: 40%; background: #FFB3D9">
+                    <span class="element-percentage">40%</span>
+                  </div>
+                </div>
+                <div class="element-traits">Passion, Energy, Action</div>
+              </div>
+              <div class="element-row">
+                <div class="element-label">
+                  <span class="element-emoji">🌿</span>
+                  <span class="element-name">Earth</span>
+                </div>
+                <div class="element-bar-container">
+                  <div class="element-bar" style="width: 25%; background: #E0FFF0">
+                    <span class="element-percentage">25%</span>
+                  </div>
+                </div>
+                <div class="element-traits">Stability, Practicality, Growth</div>
+              </div>
+              <div class="element-row">
+                <div class="element-label">
+                  <span class="element-emoji">💨</span>
+                  <span class="element-name">Air</span>
+                </div>
+                <div class="element-bar-container">
+                  <div class="element-bar" style="width: 20%; background: #B3D9FF">
+                    <span class="element-percentage">20%</span>
+                  </div>
+                </div>
+                <div class="element-traits">Intellect, Communication, Freedom</div>
+              </div>
+              <div class="element-row">
+                <div class="element-label">
+                  <span class="element-emoji">💧</span>
+                  <span class="element-name">Water</span>
+                </div>
+                <div class="element-bar-container">
+                  <div class="element-bar" style="width: 15%; background: #F0E0FF">
+                    <span class="element-percentage">15%</span>
+                  </div>
+                </div>
+                <div class="element-traits">Emotion, Intuition, Depth</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Planetary Ruler -->
+          <div class="planetary-ruler-section">
+            <h3 class="subsection-title">🪐 Planetary Ruler</h3>
+            <div class="planet-card" style="background: linear-gradient(135deg, #FFB3D940, #FFB3D920);">
+              <div class="planet-emoji">☀️</div>
+              <div class="planet-name">Sun</div>
+              <div class="planet-element">Element: Fire</div>
+              <div class="planet-traits">
+                <span class="trait-badge">Leadership</span>
+                <span class="trait-badge">Vitality</span>
+                <span class="trait-badge">Confidence</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lucky Attributes (using JavaScript) -->
+          <div class="lucky-attributes-section">
+            <h3 class="subsection-title">🍀 Lucky Celestial Attributes</h3>
+            <div class="lucky-grid">
+              <div class="lucky-card">
+                <div class="lucky-icon">🔢</div>
+                <div class="lucky-label">Lucky Number</div>
+                <div class="lucky-value"><script>document.write(calculateLuckyNumber('Alexander'))</script></div>
+              </div>
+              <div class="lucky-card">
+                <div class="lucky-icon">🎨</div>
+                <div class="lucky-label">Lucky Color</div>
+                <div class="lucky-value">
+                  <div class="color-swatch" style="background: #FFB3D9"></div>
+                </div>
+              </div>
+              <div class="lucky-card">
+                <div class="lucky-icon">💎</div>
+                <div class="lucky-label">Lucky Gemstone</div>
+                <div class="lucky-value"><script>document.write(getLuckyGemstone('Fire'))</script></div>
+              </div>
+              <div class="lucky-card">
+                <div class="lucky-icon">📅</div>
+                <div class="lucky-label">Lucky Day</div>
+                <div class="lucky-value"><script>document.write(getLuckyDay('Fire'))</script></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Astrological Traits -->
+          <div class="astrological-traits-section">
+            <h3 class="subsection-title">✨ Astrological Personality</h3>
+            <div class="traits-cloud">
+              <span class="astro-trait">Bold</span>
+              <span class="astro-trait">Charismatic</span>
+              <span class="astro-trait">Confident</span>
+              <span class="astro-trait">Passionate</span>
+              <span class="astro-trait">Pioneering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 16: Famous Name Constellation -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_16_constellation')">
+        <span>
+          <span class="section-number">16</span>
+          <span class="section-emoji">⭐</span>
+          Famous Name Constellation
+        </span>
+        <button class="chevron rotated" aria-label="Toggle section">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_16_constellation">
+        
+      <div class="constellation-container">
+        <div class="constellation-canvas"><svg width="400" height="400" viewBox="0 0 400 400">
+      <defs>
+        <radialGradient id="space-gradient">
+          <stop offset="0%" stop-color="#1e293b"/>
+          <stop offset="100%" stop-color="#0f172a"/>
+        </radialGradient>
+      </defs>
+      <rect width="400" height="400" fill="url(#space-gradient)"/>
+    
+        <line x1="323.40767453885655" y1="200"
+              x2="288.56942896579807" y2="353.40675096612483"
+              stroke="#475569" stroke-width="1" opacity="0.3"/>
+      
+        <line x1="288.56942896579807" y1="353.40675096612483"
+              x2="122.2149965188504" y2="334.7275780962732"
+              stroke="#475569" stroke-width="1" opacity="0.3"/>
+      
+        <line x1="122.2149965188504" y1="334.7275780962732"
+              x2="61.081219631449756" y2="200.00000000000003"
+              stroke="#475569" stroke-width="1" opacity="0.3"/>
+      
+        <line x1="61.081219631449756" y1="200.00000000000003"
+              x2="129.31563635810255" y2="77.57109087155946"
+              stroke="#475569" stroke-width="1" opacity="0.3"/>
+      
+        <line x1="129.31563635810255" y1="77.57109087155946"
+              x2="274.8393122834201" y2="70.37450872160284"
+              stroke="#475569" stroke-width="1" opacity="0.3"/>
+      
+        <circle cx="323.40767453885655" cy="200" r="8"
+                fill="#D8B2F2" class="star" data-name="Alexander">
+          <title>Alexander - Leader/Conqueror</title>
+          <animate attributeName="opacity" values="0.7;1;0.7"
+                   dur="2.4274233919116854s" repeatCount="indefinite"/>
+        </circle>
+      
+        <circle cx="288.56942896579807" cy="353.40675096612483" r="8"
+                fill="#FFB3D9" class="star" data-name="Alexander">
+          <title>Alexander - Leader/Statesman</title>
+          <animate attributeName="opacity" values="0.7;1;0.7"
+                   dur="2.4371365886822893s" repeatCount="indefinite"/>
+        </circle>
+      
+        <circle cx="122.2149965188504" cy="334.7275780962732" r="8"
+                fill="#B3D9FF" class="star" data-name="Alexander">
+          <title>Alexander - Scientist</title>
+          <animate attributeName="opacity" values="0.7;1;0.7"
+                   dur="2.446793847198292s" repeatCount="indefinite"/>
+        </circle>
+      
+        <circle cx="61.081219631449756" cy="200.00000000000003" r="8"
+                fill="#D8B2F2" class="star" data-name="Alexander">
+          <title>Alexander - Writer/Poet</title>
+          <animate attributeName="opacity" values="0.7;1;0.7"
+                   dur="2.331443939970472s" repeatCount="indefinite"/>
+        </circle>
+      
+        <circle cx="129.31563635810255" cy="77.57109087155946" r="8"
+                fill="#FFB3D9" class="star" data-name="Alexander">
+          <title>Alexander - Scientist/Inventor</title>
+          <animate attributeName="opacity" values="0.7;1;0.7"
+                   dur="2.0630860583022277s" repeatCount="indefinite"/>
+        </circle>
+      
+        <circle cx="274.8393122834201" cy="70.37450872160284" r="8"
+                fill="#B3D9FF" class="star" data-name="Alexander Dumas">
+          <title>Alexander Dumas - Artist/Writer</title>
+          <animate attributeName="opacity" values="0.7;1;0.7"
+                   dur="2.5478477220757942s" repeatCount="indefinite"/>
+        </circle>
+      </svg></div>
+        <p class="constellation-legend">
+          ⭐ Star size represents historical impact • Hover to see names
+        </p>
+        <div class="constellation-figure-list">
+      <div class="constellation-figure">
+        <div class="constellation-figure-name">Alexander</div>
+        <div class="constellation-figure-category">Leader/Conqueror</div>
+      </div>
+    
+      <div class="constellation-figure">
+        <div class="constellation-figure-name">Alexander</div>
+        <div class="constellation-figure-category">Leader/Statesman</div>
+      </div>
+    
+      <div class="constellation-figure">
+        <div class="constellation-figure-name">Alexander</div>
+        <div class="constellation-figure-category">Scientist</div>
+      </div>
+    
+      <div class="constellation-figure">
+        <div class="constellation-figure-name">Alexander</div>
+        <div class="constellation-figure-category">Writer/Poet</div>
+      </div>
+    
+      <div class="constellation-figure">
+        <div class="constellation-figure-name">Alexander</div>
+        <div class="constellation-figure-category">Scientist/Inventor</div>
+      </div>
+    
+      <div class="constellation-figure">
+        <div class="constellation-figure-name">Alexander Dumas</div>
+        <div class="constellation-figure-category">Artist/Writer</div>
+      </div>
+    </div>
+      </div>
+    
+      </div>
+    </div>
+
+    <!-- Section 17: Historical Timeline Visualization -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_17_timeline')">
+        <span class="section-number">17</span>
+        <div class="section-icon icon-8">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z M13 7h-2v5.5l4.75 2.85.75-1.23-4-2.37z"/></svg>
+        </div>
+        Historical Timeline
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron rotated" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content" data-section="section_17_timeline">
+        
+      <div class="timeline-container">
+        <div class="timeline-track">
+          <div class="timeline-labels">
+            <span class="timeline-label-start">1755</span>
+            <span class="timeline-label-end">1881</span>
+          </div>
+          <div class="timeline-line"></div>
+          
+        <div class="timeline-point category-leader" style="left: 0%">
+          <div class="timeline-card">
+            <div class="timeline-card-name">Alexander Hamilton</div>
+            <div class="timeline-card-years">1755-1804</div>
+            <div class="timeline-card-achievement">
+              Founding Father of USA
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline-point category-writer" style="left: 34.92063492063492%">
+          <div class="timeline-card">
+            <div class="timeline-card-name">Alexander Pushkin</div>
+            <div class="timeline-card-years">1799-1837</div>
+            <div class="timeline-card-achievement">
+              Father of Russian literature
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline-point category-scientist" style="left: 73.01587301587301%">
+          <div class="timeline-card">
+            <div class="timeline-card-name">Alexander Graham Bell</div>
+            <div class="timeline-card-years">1847-1922</div>
+            <div class="timeline-card-achievement">
+              Invented the telephone
+            </div>
+          </div>
+        </div>
+      
+        <div class="timeline-point category-scientist" style="left: 100%">
+          <div class="timeline-card">
+            <div class="timeline-card-name">Alexander Fleming</div>
+            <div class="timeline-card-years">1881-1955</div>
+            <div class="timeline-card-achievement">
+              Discovered penicillin
+            </div>
+          </div>
+        </div>
+      
+        </div>
+        <div class="timeline-legend">
+          
+      <div class="timeline-legend-item">
+        <div class="timeline-legend-dot leader"></div>
+        <span>Leaders</span>
+      </div>
+    
+      <div class="timeline-legend-item">
+        <div class="timeline-legend-dot writer"></div>
+        <span>Writer</span>
+      </div>
+    
+      <div class="timeline-legend-item">
+        <div class="timeline-legend-dot scientist"></div>
+        <span>Scientists</span>
+      </div>
+    
+        </div>
+      </div>
+    
+      </div>
+    </div>
+
+    <!-- Section 18: Name Strength Meter -->
+    <div class="section">
+      <h2 class="section-title" onclick="toggleAccordion('section_18_strength')">
+        <span class="section-number">18</span>
+        <div class="section-icon icon-9">
+          <svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+        </div>
+        Name Strength Meter
+        <button class="accordion-btn" aria-label="Toggle section">
+          <svg class="chevron" viewBox="0 0 24 24">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </h2>
+      <div class="section-content collapsed" data-section="section_18_strength">
+        
+      <div class="strength-meter-container">
+        
+      <div class="strength-meter-row">
+        <div class="strength-label">
+          <span class="strength-icon">👑</span>
+          Leadership
+        </div>
+        <div class="strength-bar-container">
+          <div class="strength-bar" style="width: 36%">
+            <span class="strength-value">36/100</span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="strength-meter-row">
+        <div class="strength-label">
+          <span class="strength-icon">🎨</span>
+          Creativity
+        </div>
+        <div class="strength-bar-container">
+          <div class="strength-bar" style="width: 26%">
+            <span class="strength-value">26/100</span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="strength-meter-row">
+        <div class="strength-label">
+          <span class="strength-icon">📚</span>
+          Wisdom
+        </div>
+        <div class="strength-bar-container">
+          <div class="strength-bar" style="width: 32%">
+            <span class="strength-value">32/100</span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="strength-meter-row">
+        <div class="strength-label">
+          <span class="strength-icon">⚔️</span>
+          Courage
+        </div>
+        <div class="strength-bar-container">
+          <div class="strength-bar" style="width: 0%">
+            <span class="strength-value">0/100</span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="strength-meter-row">
+        <div class="strength-label">
+          <span class="strength-icon">⭐</span>
+          Influence
+        </div>
+        <div class="strength-bar-container">
+          <div class="strength-bar" style="width: 46%">
+            <span class="strength-value">46/100</span>
+          </div>
+        </div>
+      </div>
+    
+        <p class="strength-note">✨ Based on 6 historical figures and famous people</p>
+      </div>
+    
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // Accordion toggle functionality with localStorage persistence
+    function toggleAccordion(sectionId) {
+      const content = document.querySelector(`[data-section="${sectionId}"]`);
+      const chevron = content.previousElementSibling.querySelector('.chevron');
+
+      if (content.classList.contains('collapsed')) {
+        content.classList.remove('collapsed');
+        chevron.classList.add('rotated');
+        localStorage.setItem(`accordion_${sectionId}`, 'expanded');
+      } else {
+        content.classList.add('collapsed');
+        chevron.classList.remove('rotated');
+        localStorage.setItem(`accordion_${sectionId}`, 'collapsed');
+      }
+    }
+
+    // Restore accordion states from localStorage on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('[data-section]').forEach(content => {
+        const sectionId = content.getAttribute('data-section');
+        const state = localStorage.getItem(`accordion_${sectionId}`);
+        const chevron = content.previousElementSibling.querySelector('.chevron');
+
+        // Default to expanded (rotated chevron), collapse only if explicitly set
+        if (state === 'collapsed') {
+          content.classList.add('collapsed');
+          chevron.classList.remove('rotated');
+        }
+      });
+    });
+
+    // Astrology helper functions
+    function calculateLuckyNumber(name) {
+      const letterValues = {
+        a:1, b:2, c:3, d:4, e:5, f:6, g:7, h:8, i:9,
+        j:1, k:2, l:3, m:4, n:5, o:6, p:7, q:8, r:9,
+        s:1, t:2, u:3, v:4, w:5, x:6, y:7, z:8
+      };
+      let sum = 0;
+      for (let char of name.toLowerCase()) {
+        if (letterValues[char]) sum += letterValues[char];
+      }
+      while (sum > 9) {
+        sum = sum.toString().split('').reduce((acc, d) => acc + parseInt(d), 0);
+      }
+      return sum;
+    }
+
+    function getLuckyGemstone(element) {
+      const gemstones = {
+        'Fire': 'Ruby',
+        'Earth': 'Emerald',
+        'Air': 'Sapphire',
+        'Water': 'Moonstone'
+      };
+      return gemstones[element] || 'Crystal';
+    }
+
+    function getLuckyDay(element) {
+      const days = {
+        'Fire': 'Tuesday',
+        'Earth': 'Friday',
+        'Air': 'Wednesday',
+        'Water': 'Monday'
+      };
+      return days[element] || 'Sunday';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John - Name Profile | SoulSeed</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #e6f2ff 0%, #f0f9ff 50%, #e0f2fe 100%);
+      min-height: 100vh;
+      padding: 16px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Floating particles */
+    .particle {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      background: rgba(59, 130, 246, 0.3);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+      animation: float 15s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+      25% { transform: translate(30px, -30px) scale(1.2); opacity: 0.5; }
+      50% { transform: translate(-20px, -60px) scale(0.8); opacity: 0.4; }
+      75% { transform: translate(-40px, -30px) scale(1.1); opacity: 0.6; }
+    }
+
+    
+    .particle:nth-child(1) {
+      left: 81.84661752297897%;
+      top: 32.55903246227252%;
+      animation-delay: -5.976397817433353s;
+      animation-duration: 16.993243848644447s;
+    }
+    
+    .particle:nth-child(2) {
+      left: 11.390136513954307%;
+      top: 48.66722815036728%;
+      animation-delay: -9.658417888504772s;
+      animation-duration: 19.11604331419244s;
+    }
+    
+    .particle:nth-child(3) {
+      left: 45.62540294970607%;
+      top: 29.385994200421827%;
+      animation-delay: -7.874768480452365s;
+      animation-duration: 18.499759683871744s;
+    }
+    
+    .particle:nth-child(4) {
+      left: 53.377232013373565%;
+      top: 66.78718242960984%;
+      animation-delay: -7.656636766204424s;
+      animation-duration: 13.393632906682717s;
+    }
+    
+    .particle:nth-child(5) {
+      left: 63.15807176796273%;
+      top: 45.10768644074783%;
+      animation-delay: -11.762860003536556s;
+      animation-duration: 12.661474878258415s;
+    }
+    
+    .particle:nth-child(6) {
+      left: 0.22561389373558782%;
+      top: 43.84043689394228%;
+      animation-delay: -14.787734538192382s;
+      animation-duration: 16.934004849649106s;
+    }
+    
+    .particle:nth-child(7) {
+      left: 0.1359031468205485%;
+      top: 29.431627266296488%;
+      animation-delay: -0.67185804570142s;
+      animation-duration: 15.389309094668725s;
+    }
+    
+    .particle:nth-child(8) {
+      left: 51.562057667952764%;
+      top: 89.6327500695878%;
+      animation-delay: -11.853097691804063s;
+      animation-duration: 13.45778847336458s;
+    }
+    
+    .particle:nth-child(9) {
+      left: 32.053884439376844%;
+      top: 16.511575455269778%;
+      animation-delay: -13.985716563058554s;
+      animation-duration: 18.754143822298943s;
+    }
+    
+    .particle:nth-child(10) {
+      left: 88.04886154664314%;
+      top: 24.05684016770877%;
+      animation-delay: -1.1036875341644092s;
+      animation-duration: 18.98660177297801s;
+    }
+    
+    .particle:nth-child(11) {
+      left: 67.55412079874799%;
+      top: 51.91645582776183%;
+      animation-delay: -10.945448709101356s;
+      animation-duration: 12.243793703261275s;
+    }
+    
+    .particle:nth-child(12) {
+      left: 94.209889144525%;
+      top: 94.74735280629692%;
+      animation-delay: -4.068101543008559s;
+      animation-duration: 14.070897063778633s;
+    }
+    
+    .particle:nth-child(13) {
+      left: 6.106293598866541%;
+      top: 69.91567607598408%;
+      animation-delay: -2.0438014697324625s;
+      animation-duration: 13.4944264880679s;
+    }
+    
+    .particle:nth-child(14) {
+      left: 72.50822431764001%;
+      top: 7.981330255691499%;
+      animation-delay: -5.94345292511246s;
+      animation-duration: 12.85153142453719s;
+    }
+    
+    .particle:nth-child(15) {
+      left: 21.469250724249612%;
+      top: 53.726788063771295%;
+      animation-delay: -8.533897131083005s;
+      animation-duration: 12.473993387156101s;
+    }
+    
+    .particle:nth-child(16) {
+      left: 22.130509007708433%;
+      top: 71.96661903028007%;
+      animation-delay: -12.779274619025838s;
+      animation-duration: 12.979623020008296s;
+    }
+    
+    .particle:nth-child(17) {
+      left: 82.06455956577148%;
+      top: 89.99647103059287%;
+      animation-delay: -14.909144262860357s;
+      animation-duration: 13.052509522898248s;
+    }
+    
+    .particle:nth-child(18) {
+      left: 47.28910507732229%;
+      top: 70.39757876603308%;
+      animation-delay: -8.206326224896326s;
+      animation-duration: 19.481823769648642s;
+    }
+    
+    .particle:nth-child(19) {
+      left: 7.274048867437166%;
+      top: 95.82445662162912%;
+      animation-delay: -3.0429050250215397s;
+      animation-duration: 19.567397313328826s;
+    }
+    
+    .particle:nth-child(20) {
+      left: 47.180637393936145%;
+      top: 69.49277198998374%;
+      animation-delay: -4.052722239989275s;
+      animation-duration: 18.530315534043854s;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+      border-radius: 24px;
+      padding: 32px 24px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.1); opacity: 0.3; }
+    }
+
+    .name-title {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .pronunciation {
+      font-size: 18px;
+      opacity: 0.95;
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+      font-style: italic;
+    }
+
+    .origin-meaning {
+      font-size: 16px;
+      opacity: 0.9;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .baby-gif-card {
+      grid-column: 1 / -1;
+      background: white;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .baby-gif {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 12px;
+      margin: 8px auto;
+      display: block;
+    }
+
+    .section {
+      background: white;
+      border-radius: 20px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .section-icon svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
+    .icon-1 { background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%); }
+    .icon-2 { background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%); }
+    .icon-3 { background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%); }
+    .icon-4 { background: linear-gradient(135deg, #10b981 0%, #34d399 100%); }
+    .icon-5 { background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); }
+    .icon-6 { background: linear-gradient(135deg, #ef4444 0%, #f87171 100%); }
+    .icon-7 { background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%); }
+    .icon-8 { background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%); }
+    .icon-9 { background: linear-gradient(135deg, #14b8a6 0%, #2dd4bf 100%); }
+    .icon-10 { background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%); }
+
+    .section-text {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .chip-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .chip {
+      background: linear-gradient(135deg, #dbeafe 0%, #e0f2fe 100%);
+      color: #1e40af;
+      padding: 10px 16px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: default;
+    }
+
+    .chip:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, #e2e8f0 50%, transparent 100%);
+      margin: 20px 0;
+    }
+
+    /* Historical Figures Section */
+    .hist-grid {
+      display: grid;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .hist-card {
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      border-radius: 16px;
+      padding: 20px;
+      border-left: 4px solid #3b82f6;
+      transition: all 0.3s;
+    }
+
+    .hist-card:hover {
+      transform: translateX(4px);
+      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.15);
+    }
+
+    .hist-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 8px;
+    }
+
+    .hist-years-cat {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .hist-years {
+      background: #dbeafe;
+      color: #1e40af;
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .hist-category {
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .hist-achievements {
+      list-style: none;
+      margin: 12px 0;
+      padding: 0;
+    }
+
+    .hist-achievements li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .hist-achievements li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #3b82f6;
+      font-weight: 700;
+    }
+
+    .hist-significance {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    .hist-significance strong {
+      color: #3b82f6;
+      font-style: normal;
+    }
+
+    .hist-works {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #64748b;
+    }
+
+    .hist-works strong {
+      color: #475569;
+    }
+
+    /* Pop Culture Cards */
+    .pop-card {
+      background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-left: 3px solid #8b5cf6;
+    }
+
+    .pop-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .pop-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 6px;
+    }
+
+    .pop-meta {
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+
+    .pop-link {
+      display: inline-block;
+      color: #8b5cf6;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 8px;
+      transition: color 0.2s;
+    }
+
+    .pop-link:hover {
+      color: #6d28d9;
+      text-decoration: underline;
+    }
+
+    /* Religious Section */
+    .religious-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 12px;
+      border-left: 4px solid #f59e0b;
+    }
+
+    .religious-character {
+      font-size: 18px;
+      font-weight: 700;
+      color: #92400e;
+      margin-bottom: 12px;
+    }
+
+    .religious-text {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #78350f;
+      margin-bottom: 10px;
+    }
+
+    .religious-stories {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(217, 119, 6, 0.3);
+    }
+
+    .religious-stories strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #92400e;
+    }
+
+    .religious-stories ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .religious-stories li {
+      padding: 4px 0 4px 16px;
+      position: relative;
+      color: #78350f;
+      font-size: 14px;
+    }
+
+    .religious-stories li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: #f59e0b;
+    }
+
+    /* Quote Box */
+    .quote-box {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 12px 0;
+      border-left: 4px solid #10b981;
+      font-style: italic;
+    }
+
+    .quote-text {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #064e3b;
+      margin-bottom: 10px;
+    }
+
+    .quote-author {
+      font-size: 14px;
+      font-weight: 600;
+      color: #065f46;
+      font-style: normal;
+    }
+
+    .quote-context {
+      font-size: 13px;
+      color: #047857;
+      margin-top: 4px;
+    }
+
+    /* Fun Fact */
+    .fun-fact {
+      background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+      border-left: 4px solid #ec4899;
+    }
+
+    .fun-fact-text {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #831843;
+    }
+
+    .fun-fact::before {
+      content: '✨';
+      margin-right: 8px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1 class="name-title">John</h1>
+      <p class="pronunciation">/dʒɒn/</p>
+      <p class="origin-meaning">🌍 Hebrew • God is gracious</p>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Meaning</div>
+        <div class="stat-value">God is gracious</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Gender</div>
+        <div class="stat-value">Boy</div>
+      </div>
+      <div class="baby-gif-card">
+        <div class="stat-label">Baby Vibes 👶</div>
+        <img src="/assets/baby-gifs/baby-cute-1.gif" alt="Baby" class="baby-gif" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- Cultural Significance -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-1">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        </div>
+        Cultural Significance
+      </h2>
+      <p class="section-text">The name John has been one of the most common and enduring names in Western cultures, often associated with religious figures, royalty, and influential leaders. It has been used by numerous saints, popes, and kings, reflecting its deep roots in Christian tradition and its widespread appeal across different societies.</p>
+
+      <div class="divider"></div>
+
+      <p class="section-text">As of 2024-2025, the name John remains popular in English-speaking countries, though it has seen a slight decline in favor of more modern or unique names. It continues to be a classic choice for parents seeking a traditional name with historical significance.</p>
+
+      <div class="divider"></div>
+
+      <p class="section-text">John is a common name in literature, often used for protagonists or significant characters, such as John Proctor in Arthur Miller's 'The Crucible' and John Watson in the Sherlock Holmes series by Arthur Conan Doyle.</p>
+    </div>
+
+    <!-- Historical Figures -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-2">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        Historical Figures
+      </h2>
+      <div class="hist-grid">
+        <div class="hist-card">
+          <div class="hist-name">John F. Kennedy</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1917-1963</div>
+            <div class="hist-category">Political Leaders</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>35th President of the United States</li>
+            <li>Established the Peace Corps</li>
+            <li>Navigated the Cuban Missile Crisis</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> John F. Kennedy was a pivotal figure in American history, known for his leadership during the Cold War and his vision for a new frontier in American politics.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Inaugural Address, Profiles in Courage
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">John Locke</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1632-1704</div>
+            <div class="hist-category">Philosophers & Thinkers</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Father of Liberalism</li>
+            <li>Influential in the development of political philosophy</li>
+            <li>Contributed to the theory of mind and identity</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> John Locke's ideas on liberty and the social contract influenced the Enlightenment and the founding principles of modern democracies.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Two Treatises of Government, An Essay Concerning Human Understanding
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">John Lennon</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1940-1980</div>
+            <div class="hist-category">Artists & Musicians</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Co-founder of The Beatles</li>
+            <li>Influential solo artist</li>
+            <li>Prominent peace activist</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> John Lennon was a cultural icon whose music and activism left a lasting impact on popular culture and the peace movement.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Imagine, Give Peace a Chance
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">John Dalton</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1766-1844</div>
+            <div class="hist-category">Scientists & Mathematicians</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Developed atomic theory</li>
+            <li>Research on color blindness</li>
+            <li>Pioneered study of meteorology</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> John Dalton's atomic theory laid the foundation for modern chemistry, transforming scientific understanding of matter.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> A New System of Chemical Philosophy
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">John Calvin</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1509-1564</div>
+            <div class="hist-category">Religious Leaders</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Leader of the Protestant Reformation</li>
+            <li>Developed Calvinism</li>
+            <li>Influenced Protestant theology</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> John Calvin was a key figure in the Protestant Reformation, shaping the development of Reformed theology and influencing religious thought across Europe.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Institutes of the Christian Religion
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Religious Significance -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-3">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        </div>
+        Religious Significance
+      </h2>
+      <div class="religious-box">
+        <div class="religious-character">John the Baptist, John the Apostle</div>
+        <p class="religious-text"><strong>Religions:</strong> Christianity, Islam</p>
+        <p class="religious-text">John the Baptist is a key figure in Christianity, known for baptizing Jesus. John the Apostle is one of Jesus' closest disciples and traditionally credited with writing the Gospel of John.</p>
+        <div class="religious-stories">
+          <strong>Key Stories:</strong>
+          <ul>
+            <li>Baptism of Jesus by John the Baptist</li>
+            <li>John the Apostle witnessing the Transfiguration</li>
+            <li>John the Apostle at the Last Supper</li>
+          </ul>
+        </div>
+        <p class="religious-text" style="margin-top: 12px;"><strong>Spiritual Meaning:</strong> John the Baptist represents repentance and preparation for the coming of Christ. John the Apostle symbolizes faith and witness to Jesus' life and teachings.</p>
+      </div>
+    </div>
+
+    <!-- Movies & Shows -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-4">
+          <svg viewBox="0 0 24 24"><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>
+        </div>
+        In Movies & TV
+      </h2>
+      <div class="pop-card">
+        <div class="pop-title">Die Hard (1988)</div>
+        <div class="pop-meta">Movie • Action, Thriller</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>John McClane:</strong> A New York City police detective who becomes a reluctant hero during a terrorist attack.</p>
+        <a href="https://www.imdb.com/title/tt0095016/" target="_blank" class="pop-link">View on IMDb →</a>
+      </div>
+      <div class="pop-card">
+        <div class="pop-title">The Office (2005)</div>
+        <div class="pop-meta">TV Show • Comedy</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Jim Halpert:</strong> A salesman at Dunder Mifflin who is known for his pranks and laid-back demeanor.</p>
+        <a href="https://www.imdb.com/title/tt0386676/" target="_blank" class="pop-link">View on IMDb →</a>
+      </div>
+    </div>
+
+    <!-- Songs -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-5">
+          <svg viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+        </div>
+        In Music
+      </h2>
+      <div class="pop-card">
+        <div class="pop-title">Dear John</div>
+        <div class="pop-meta">Taylor Swift • 2010</div>
+        <p class="section-text" style="margin-top: 8px;">The song addresses a past relationship with someone named John.</p>
+        <a href="https://www.youtube.com/results?search_query=Dear+John+Taylor+Swift" target="_blank" class="pop-link">Listen on YouTube →</a>
+      </div>
+      <div class="pop-card">
+        <div class="pop-title">Big Bad John</div>
+        <div class="pop-meta">Jimmy Dean • 1961</div>
+        <p class="section-text" style="margin-top: 8px;">The song tells the story of a heroic miner named John.</p>
+        <a href="https://www.youtube.com/results?search_query=Big+Bad+John+Jimmy+Dean" target="_blank" class="pop-link">Listen on YouTube →</a>
+      </div>
+    </div>
+
+    <!-- Famous People -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-6">
+          <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        Famous People Named John
+      </h2>
+      <div class="pop-card">
+        <div class="pop-title">John Travolta</div>
+        <div class="pop-meta">Actor</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Known for:</strong> Saturday Night Fever, Pulp Fiction, Grease</p>
+        <p class="section-text" style="margin-top: 6px;"><strong>Awards:</strong> Golden Globe Award</p>
+        <a href="https://www.imdb.com/find/?q=John+Travolta" target="_blank" class="pop-link">View Profile →</a>
+      </div>
+      <div class="pop-card">
+        <div class="pop-title">John Legend</div>
+        <div class="pop-meta">Musician</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Known for:</strong> All of Me, Ordinary People, EGOT winner</p>
+        <p class="section-text" style="margin-top: 6px;"><strong>Awards:</strong> Grammy Awards, Academy Award</p>
+        <a href="https://www.imdb.com/find/?q=John+Legend" target="_blank" class="pop-link">View Profile →</a>
+      </div>
+    </div>
+
+    <!-- Famous Quotes -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-8">
+          <svg viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+        </div>
+        Famous Quotes
+      </h2>
+      <div class="quote-box">
+        <p class="quote-text">"Ask not what your country can do for you – ask what you can do for your country."</p>
+        <p class="quote-author">— John F. Kennedy</p>
+        <p class="quote-context">Inaugural Address, 1961</p>
+      </div>
+    </div>
+
+    <!-- Character Quotes -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-9">
+          <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM11 15h2v2h-2zm0-8h2v6h-2z"/></svg>
+        </div>
+        Character Quotes
+      </h2>
+      <div class="quote-box">
+        <p class="quote-text">"Yippee-ki-yay!"</p>
+        <p class="quote-author">— John McClane, Die Hard</p>
+        <p class="quote-context">A catchphrase used by John McClane during intense action scenes.</p>
+      </div>
+    </div>
+
+    <!-- Personality -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-10">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+        </div>
+        Personality & Symbolism
+      </h2>
+      <p class="section-text"><strong>Personality:</strong> People named John are often perceived as reliable, strong, and trustworthy. They are seen as leaders and are often associated with wisdom and integrity.</p>
+      <div class="divider"></div>
+      <p class="section-text"><strong>Symbolism:</strong> The name John symbolizes grace and favor, often associated with divine blessing and protection. It carries connotations of strength and leadership.</p>
+
+      <div class="fun-fact">
+        <span class="fun-fact-text">John is the most common name for U.S. presidents, with six presidents bearing the name.</span>
+      </div>
+    </div>
+
+    <!-- Nicknames -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;">
+        <div class="section-icon icon-1">
+          <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        </div>
+        Nicknames
+      </h2>
+      <div class="chip-list" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="chip">Johnny</div>
+        <div class="chip">Jack</div>
+        <div class="chip">Jon</div>
+        <div class="chip">J</div>
+        <div class="chip">Jay</div>
+        <div class="chip">Jock</div>
+        <div class="chip">Johan</div>
+        <div class="chip">Johny</div>
+        <div class="chip">Jono</div>
+        <div class="chip">Jonty</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Related Names -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;">
+        <div class="section-icon icon-3">
+          <svg viewBox="0 0 24 24"><path d="M12 2l-5.5 9h11z M12 22l5.5-9h-11z"/></svg>
+        </div>
+        Variations
+      </h2>
+      <div class="chip-list">
+        <div class="chip">Johann</div>
+        <div class="chip">Jean</div>
+        <div class="chip">Juan</div>
+        <div class="chip">Giovanni</div>
+        <div class="chip">Ivan</div>
+        <div class="chip">Jan</div>
+        <div class="chip">Johan</div>
+        <div class="chip">Johannes</div>
+        <div class="chip">João</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Similar Names -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;">
+        <div class="section-icon icon-7">
+          <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        Similar Names
+      </h2>
+      <div class="chip-list">
+        <div class="chip">James</div>
+        <div class="chip">Joseph</div>
+        <div class="chip">Michael</div>
+        <div class="chip">David</div>
+        <div class="chip">Peter</div>
+        <div class="chip">Paul</div>
+        <div class="chip">Thomas</div>
+        <div class="chip">Matthew</div>
+        <div class="chip">Mark</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

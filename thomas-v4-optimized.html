@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thomas - Name Profile | SoulSeed</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 50%, #93c5fd 100%);
+      min-height: 100vh;
+      padding: 8px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Floating particles */
+    .particle {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      background: rgba(59, 130, 246, 0.3);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+      animation: float 15s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
+      25% { transform: translate(30px, -30px) scale(1.2); opacity: 0.5; }
+      50% { transform: translate(-20px, -60px) scale(0.8); opacity: 0.4; }
+      75% { transform: translate(-40px, -30px) scale(1.1); opacity: 0.6; }
+    }
+
+    
+    .particle:nth-child(1) {
+      left: 35.577709278773504%;
+      top: 27.479752071485407%;
+      animation-delay: -8.170059775945745s;
+      animation-duration: 12.897202318580606s;
+    }
+    
+    .particle:nth-child(2) {
+      left: 84.14799276235519%;
+      top: 26.874262796434234%;
+      animation-delay: -1.0184177950214501s;
+      animation-duration: 18.971491376804344s;
+    }
+    
+    .particle:nth-child(3) {
+      left: 80.12045637808932%;
+      top: 26.308242293564277%;
+      animation-delay: -13.083415597456193s;
+      animation-duration: 16.304526409802637s;
+    }
+    
+    .particle:nth-child(4) {
+      left: 89.13982747007529%;
+      top: 4.575507632886988%;
+      animation-delay: -10.657967364271476s;
+      animation-duration: 17.853285808545788s;
+    }
+    
+    .particle:nth-child(5) {
+      left: 40.62718631069588%;
+      top: 88.2545852396327%;
+      animation-delay: -1.9060879857851476s;
+      animation-duration: 14.052130225146842s;
+    }
+    
+    .particle:nth-child(6) {
+      left: 67.71200655408853%;
+      top: 22.003040680862807%;
+      animation-delay: -14.26418852846422s;
+      animation-duration: 13.471180812242267s;
+    }
+    
+    .particle:nth-child(7) {
+      left: 64.69115586829288%;
+      top: 95.30928700509564%;
+      animation-delay: -14.36266536456745s;
+      animation-duration: 12.818687546301973s;
+    }
+    
+    .particle:nth-child(8) {
+      left: 24.724183250244835%;
+      top: 88.84868351929116%;
+      animation-delay: -12.913225295620453s;
+      animation-duration: 19.53834133658402s;
+    }
+    
+    .particle:nth-child(9) {
+      left: 62.20992440818976%;
+      top: 37.50945397150074%;
+      animation-delay: -1.3858114058104287s;
+      animation-duration: 13.044528330857968s;
+    }
+    
+    .particle:nth-child(10) {
+      left: 63.165027996316226%;
+      top: 37.83588260472186%;
+      animation-delay: -9.53151116916322s;
+      animation-duration: 19.843736859159684s;
+    }
+    
+    .particle:nth-child(11) {
+      left: 48.22980329115927%;
+      top: 15.140827339740515%;
+      animation-delay: -7.298882835135415s;
+      animation-duration: 19.881340646652657s;
+    }
+    
+    .particle:nth-child(12) {
+      left: 30.024013505038006%;
+      top: 64.54548937393312%;
+      animation-delay: -9.96594476485149s;
+      animation-duration: 15.836568318020339s;
+    }
+    
+    .particle:nth-child(13) {
+      left: 13.784133810477762%;
+      top: 91.61512493236943%;
+      animation-delay: -1.674982011365167s;
+      animation-duration: 16.887302795342013s;
+    }
+    
+    .particle:nth-child(14) {
+      left: 92.27412253573559%;
+      top: 29.558887889926954%;
+      animation-delay: -1.014489616013431s;
+      animation-duration: 18.928914574010342s;
+    }
+    
+    .particle:nth-child(15) {
+      left: 75.81557105293955%;
+      top: 67.97701947701964%;
+      animation-delay: -3.1779140572959266s;
+      animation-duration: 18.15943371183991s;
+    }
+    
+    .particle:nth-child(16) {
+      left: 63.13867953221648%;
+      top: 5.589585516923079%;
+      animation-delay: -0.604719485271884s;
+      animation-duration: 14.578234995218464s;
+    }
+    
+    .particle:nth-child(17) {
+      left: 93.30366961608463%;
+      top: 17.220025357245294%;
+      animation-delay: -13.868512239957456s;
+      animation-duration: 14.076383124411217s;
+    }
+    
+    .particle:nth-child(18) {
+      left: 23.96298142156825%;
+      top: 89.77051502913905%;
+      animation-delay: -11.905984420282708s;
+      animation-duration: 19.45699095908957s;
+    }
+    
+    .particle:nth-child(19) {
+      left: 66.5087051657951%;
+      top: 77.54649530842516%;
+      animation-delay: -5.184774767133304s;
+      animation-duration: 16.880307208096042s;
+    }
+    
+    .particle:nth-child(20) {
+      left: 27.2570193542502%;
+      top: 20.598565663253666%;
+      animation-delay: -2.286252983412007s;
+      animation-duration: 16.990928217915425s;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+      border-radius: 24px;
+      padding: 20px 16px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 20px 60px rgba(59, 130, 246, 0.3);
+      margin-bottom: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.1); opacity: 0.3; }
+    }
+
+    .name-title {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .pronunciation {
+      font-size: 18px;
+      opacity: 0.95;
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+      font-style: italic;
+    }
+
+    .origin-meaning {
+      font-size: 16px;
+      opacity: 0.9;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+
+    .v4-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.2);
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 16px;
+      padding: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: #64748b;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    .section {
+      background: white;
+      border-radius: 20px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .section-icon svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
+    .icon-1 { background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%); }
+    .icon-2 { background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%); }
+    .icon-3 { background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%); }
+    .icon-4 { background: linear-gradient(135deg, #10b981 0%, #34d399 100%); }
+    .icon-5 { background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%); }
+    .icon-6 { background: linear-gradient(135deg, #ef4444 0%, #f87171 100%); }
+    .icon-7 { background: linear-gradient(135deg, #06b6d4 0%, #22d3ee 100%); }
+    .icon-8 { background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%); }
+    .icon-9 { background: linear-gradient(135deg, #14b8a6 0%, #2dd4bf 100%); }
+    .icon-10 { background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%); }
+
+    .section-text {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #475569;
+    }
+
+    .chip-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .chip {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e40af;
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: default;
+    }
+
+    .chip:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, #e2e8f0 50%, transparent 100%);
+      margin: 20px 0;
+    }
+
+    /* Historical Figures Section */
+    .hist-grid {
+      display: grid;
+      gap: 4px;
+      margin-top: 8px;
+    }
+
+    .hist-card {
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border-radius: 16px;
+      padding: 12px;
+      border-left: 4px solid #3b82f6;
+      transition: all 0.3s;
+    }
+
+    .hist-card:hover {
+      transform: translateX(4px);
+      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+    }
+
+    .hist-name {
+      font-size: 21px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 4px;
+    }
+
+    .hist-years-cat {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 6px;
+      flex-wrap: wrap;
+    }
+
+    .hist-years {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e40af;
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .hist-category {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      color: #1e40af;
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    .hist-achievements {
+      list-style: none;
+      margin: 12px 0;
+      padding: 0;
+    }
+
+    .hist-achievements li {
+      padding: 6px 0 6px 20px;
+      position: relative;
+      color: #475569;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .hist-achievements li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #3b82f6;
+      font-weight: 700;
+    }
+
+    .hist-significance {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      font-size: 16px;
+      line-height: 1.6;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    .hist-significance strong {
+      color: #3b82f6;
+      font-style: normal;
+    }
+
+    .hist-works {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #64748b;
+    }
+
+    .hist-works strong {
+      color: #475569;
+    }
+
+    /* Pop Culture Cards */
+    .pop-card {
+      background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 3px;
+      border-left: 3px solid #8b5cf6;
+    }
+
+    .pop-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .pop-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 3px;
+    }
+
+    .pop-meta {
+      font-size: 15px;
+      color: #64748b;
+      margin-bottom: 4px;
+    }
+
+    .pop-link {
+      display: inline-block;
+      color: #8b5cf6;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 8px;
+      transition: color 0.2s;
+    }
+
+    .pop-link:hover {
+      color: #6d28d9;
+      text-decoration: underline;
+    }
+
+    /* Religious Section */
+    .religious-box {
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 12px;
+      border-left: 4px solid #f59e0b;
+    }
+
+    .religious-character {
+      font-size: 21px;
+      font-weight: 700;
+      color: #92400e;
+      margin-bottom: 12px;
+    }
+
+    .religious-text {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #78350f;
+      margin-bottom: 10px;
+    }
+
+    .religious-stories {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(217, 119, 6, 0.3);
+    }
+
+    .religious-stories strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #92400e;
+    }
+
+    .religious-stories ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .religious-stories li {
+      padding: 4px 0 4px 16px;
+      position: relative;
+      color: #78350f;
+      font-size: 16px;
+    }
+
+    .religious-stories li::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: #f59e0b;
+    }
+
+    /* Quote Box */
+    .quote-box {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 12px 0;
+      border-left: 4px solid #10b981;
+      font-style: italic;
+    }
+
+    .quote-text {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #064e3b;
+      margin-bottom: 10px;
+    }
+
+    .quote-author {
+      font-size: 16px;
+      font-weight: 600;
+      color: #065f46;
+      font-style: normal;
+    }
+
+    .quote-context {
+      font-size: 15px;
+      color: #047857;
+      margin-top: 4px;
+    }
+
+    /* Fun Fact */
+    .fun-fact {
+      background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+      border-left: 4px solid #3b82f6;
+    }
+
+    .fun-fact-text {
+      font-size: 17px;
+      line-height: 1.6;
+      color: #1e40af;
+    }
+
+    .fun-fact::before {
+      content: '✨';
+      margin-right: 8px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1 class="name-title">Thomas</h1>
+      <p class="pronunciation">/ˈtɒməs/</p>
+      <p class="origin-meaning">🌍 Aramaic • Twin</p>
+      <div class="v4-badge">✨ V4 Enriched</div>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Meaning</div>
+        <div class="stat-value">Twin</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Gender</div>
+        <div class="stat-value">Boy</div>
+      </div>
+    </div>
+
+    <!-- Nicknames (EXACTLY 9 - 3x3 grid) -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;">
+        <div class="section-icon icon-1">
+          <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        </div>
+        Nicknames
+      </h2>
+      <div class="chip-list">
+        <div class="chip">Tom</div>
+        <div class="chip">Tommy</div>
+        <div class="chip">T</div>
+        <div class="chip">Tam</div>
+        <div class="chip">Tomas</div>
+        <div class="chip">T-man</div>
+        <div class="chip">Tomo</div>
+        <div class="chip">Thom</div>
+        <div class="chip">Tommyboy</div>
+      </div>
+    </div>
+
+    <!-- Cultural Significance -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-1">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        </div>
+        Cultural Significance
+      </h2>
+      <p class="section-text">The name Thomas has deep roots in Christian tradition, particularly due to the apostle Thomas, known for his skepticism and eventual belief in the resurrection of Christ. It has been a popular name throughout history in many cultures, symbolizing strength and reliability.</p>
+
+      <div class="divider"></div>
+
+      <p class="section-text">The name Thomas remains widely popular in many countries, often ranking in the top hundred names for boys in the United States and Europe as of 2024-2025.</p>
+
+      <div class="divider"></div>
+
+      <p class="section-text">Thomas has been used in various literary works, often symbolizing wisdom or faith.</p>
+    </div>
+
+    <!-- Historical Figures -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-2">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        Historical Figures
+      </h2>
+      <div class="hist-grid">
+        <div class="hist-card">
+          <div class="hist-name">Thomas Jefferson</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1743-1826</div>
+            <div class="hist-category">Political Leader</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Drafted the Declaration of Independence</li>
+            <li>Third President of the United States</li>
+            <li>Founded the University of Virginia</li>
+            <li>Promoted religious freedom</li>
+            <li>Oversaw the Louisiana Purchase</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Thomas Jefferson was a key figure in the founding of the United States, advocating for individual rights and democracy. His ideas on liberty and government continue to influence modern political thought.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Declaration of Independence, Notes on the State of Virginia
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Thomas Edison</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1847-1931</div>
+            <div class="hist-category">Inventor</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Developed the phonograph</li>
+            <li>Invented the electric light bulb</li>
+            <li>Held over 1,000 patents</li>
+            <li>Founded General Electric</li>
+            <li>Pioneered electric power distribution</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Thomas Edison revolutionized modern technology with his inventions that changed the way people live and work. His contributions to electricity and sound recording have had a lasting impact on society.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Phonograph, Incandescent Light Bulb
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Thomas More</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1478-1535</div>
+            <div class="hist-category">Philosopher</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Authored 'Utopia'</li>
+            <li>Served as Lord Chancellor of England</li>
+            <li>Opposed Henry VIII's separation from the Catholic Church</li>
+            <li>Martyr for his faith</li>
+            <li>Contributed to Renaissance humanism</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Thomas More was a Renaissance humanist whose work 'Utopia' provided critical insights into governance and society. His steadfastness to his beliefs led to his execution, making him a symbol of integrity and moral courage.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Utopia, The Dialogue of Comfort Against Tribulation
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Thomas Paine</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1737-1809</div>
+            <div class="hist-category">Activist</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Wrote 'Common Sense'</li>
+            <li>Influenced the American Revolution</li>
+            <li>Authored 'The Rights of Man'</li>
+            <li>Advocated for democracy and social justice</li>
+            <li>Promoted the abolition of slavery</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Thomas Paine's writings inspired revolutionary thought and played a crucial role in the American Revolution. His advocacy for rights and freedoms remains relevant in discussions of civil liberties today.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Common Sense, The American Crisis
+          </div>
+        </div>
+        <div class="hist-card">
+          <div class="hist-name">Thomas Aquinas</div>
+          <div class="hist-years-cat">
+            <div class="hist-years">1225-1274</div>
+            <div class="hist-category">Philosopher</div>
+          </div>
+          <ul class="hist-achievements">
+            <li>Developed Scholastic philosophy</li>
+            <li>Authored 'Summa Theologica'</li>
+            <li>Promoted the integration of faith and reason</li>
+            <li>Canonized as a saint in 1323</li>
+            <li>Influenced Catholic theology</li>
+          </ul>
+          <div class="hist-significance">
+            <strong>Significance:</strong> Thomas Aquinas is one of the most influential philosophers and theologians in Western history. His works laid the foundation for much of modern Christian thought, merging Aristotelian philosophy with Christian doctrine.
+          </div>
+          <div class="hist-works">
+            <strong>Notable Works:</strong> Summa Theologica, Summa Contra Gentiles
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Religious Significance -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-3">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        </div>
+        Religious Significance
+      </h2>
+      <div class="religious-box">
+        <div class="religious-character">Saint Thomas the Apostle</div>
+        <p class="religious-text"><strong>Religions:</strong> Christianity</p>
+        <p class="religious-text">Saint Thomas is known for doubting the resurrection of Jesus until he could see and touch Christ's wounds, leading to the term 'Doubting Thomas'.</p>
+        <div class="religious-stories">
+          <strong>Key Stories:</strong>
+          <ul>
+            <li>The story of Thomas doubting Jesus' resurrection.</li>
+            <li>His eventual declaration of faith upon seeing Christ.</li>
+            <li>Tradition holds that he traveled to India to preach.</li>
+            <li>He is believed to have been martyred for his faith.</li>
+            <li>Thomas' writings contributed to early Christian theology.</li>
+          </ul>
+        </div>
+        <p class="religious-text" style="margin-top: 12px;"><strong>Spiritual Meaning:</strong> The name embodies the theme of faith, doubt, and eventual belief.</p>
+      </div>
+    </div>
+
+    <!-- Movies & Shows -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-4">
+          <svg viewBox="0 0 24 24"><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/></svg>
+        </div>
+        In Movies & TV
+      </h2>
+      <div class="pop-card">
+        <div class="pop-title">Thomas the Tank Engine (1984)</div>
+        <div class="pop-meta">TV Show • Children's, Animation</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Thomas the Tank Engine:</strong> A cheeky blue engine who loves to be helpful and is the main character in a children's series.</p>
+        <a href="https://www.imdb.com/title/tt0211282/" target="_blank" class="pop-link">View on IMDb →</a>
+      </div>
+      <div class="pop-card">
+        <div class="pop-title">The Thomas Crown Affair (1999)</div>
+        <div class="pop-meta">Movie • Crime, Drama, Thriller</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Thomas Crown:</strong> A wealthy art thief who leads a double life and becomes romantically involved with an investigator.</p>
+        <a href="https://www.imdb.com/title/tt0183533/" target="_blank" class="pop-link">View on IMDb →</a>
+      </div>
+    </div>
+
+    <!-- Songs -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-5">
+          <svg viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+        </div>
+        In Music
+      </h2>
+      <div class="pop-card">
+        <div class="pop-title">Thomas</div>
+        <div class="pop-meta">The Black Angels • 2013</div>
+        <p class="section-text" style="margin-top: 8px;">A haunting song that reflects on themes of loss and introspection.</p>
+        <a href="https://www.youtube.com/results?search_query=The+Black+Angels+Thomas" target="_blank" class="pop-link">Listen on YouTube →</a>
+      </div>
+      <div class="pop-card">
+        <div class="pop-title">Thomas</div>
+        <div class="pop-meta">The Wombats • 2020</div>
+        <p class="section-text" style="margin-top: 8px;">An upbeat track that discusses relationships and personal growth.</p>
+        <a href="https://www.youtube.com/results?search_query=The+Wombats+Thomas" target="_blank" class="pop-link">Listen on YouTube →</a>
+      </div>
+    </div>
+
+    <!-- Famous People -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-6">
+          <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        Thomas in Popular Culture
+      </h2>
+      <div class="pop-card">
+        <div class="pop-title">Thomas Haden Church</div>
+        <div class="pop-meta">Actor</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Known for:</strong> Sideways, Spider-Man 3, Wings</p>
+        <p class="section-text" style="margin-top: 6px;"><strong>Awards:</strong> Primetime Emmy Award</p>
+        <a href="https://www.imdb.com/name/nm0000510/" target="_blank" class="pop-link">View Profile →</a>
+      </div>
+      <div class="pop-card">
+        <div class="pop-title">Thomas Rhett</div>
+        <div class="pop-meta">Musician</div>
+        <p class="section-text" style="margin-top: 8px;"><strong>Known for:</strong> Die a Happy Man, It Goes Like This, What’s Your Country Song</p>
+        <p class="section-text" style="margin-top: 6px;"><strong>Awards:</strong> CMA Awards, ACM Awards</p>
+        <a href="https://www.imdb.com/name/nm6711368/" target="_blank" class="pop-link">View Profile →</a>
+      </div>
+    </div>
+
+    <!-- Famous Quotes -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-8">
+          <svg viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+        </div>
+        Famous Quotes
+      </h2>
+      <div class="quote-box">
+        <p class="quote-text">"That which we persist in doing becomes easier for us to do; not that the nature of the thing is changed, but that our power to do is increased."</p>
+        <p class="quote-author">— Thomas Edison</p>
+        <p class="quote-context">Edison shared this insight on perseverance during his work on inventions.</p>
+      </div>
+      <div class="quote-box">
+        <p class="quote-text">"I die the king's faithful servant, but God's first."</p>
+        <p class="quote-author">— Thomas More</p>
+        <p class="quote-context">Said at his execution, reflecting his unwavering faith.</p>
+      </div>
+    </div>
+
+    <!-- Character Quotes -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-9">
+          <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM11 15h2v2h-2zm0-8h2v6h-2z"/></svg>
+        </div>
+        Character Quotes
+      </h2>
+      <div class="quote-box">
+        <p class="quote-text">"I’m not a thief. I’m a businessman."</p>
+        <p class="quote-author">— Thomas Crown, The Thomas Crown Affair</p>
+        <p class="quote-context">Said during a pivotal moment when he tries to justify his actions.</p>
+      </div>
+      <div class="quote-box">
+        <p class="quote-text">"I think I can!"</p>
+        <p class="quote-author">— Thomas the Tank Engine, Thomas the Tank Engine</p>
+        <p class="quote-context">A motivational catchphrase that embodies determination and positivity.</p>
+      </div>
+    </div>
+
+    <!-- Personality -->
+    <div class="section">
+      <h2 class="section-title">
+        <div class="section-icon icon-10">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>
+        </div>
+        Personality & Symbolism
+      </h2>
+      <p class="section-text"><strong>Personality:</strong> Common personality traits associated with the name include reliability, determination, and a strong sense of justice.</p>
+      <div class="divider"></div>
+      <p class="section-text"><strong>Symbolism:</strong> Symbolically, the name Thomas represents duality and balance, as it means 'twin'.</p>
+
+      <div class="fun-fact">
+        <span class="fun-fact-text">The name Thomas has been borne by several saints, including Saint Thomas the Apostle, who is often depicted with a spear and a builder's square.</span>
+      </div>
+    </div>
+
+    <!-- Variations (EXACTLY 9 - 3x3 grid) -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;">
+        <div class="section-icon icon-3">
+          <svg viewBox="0 0 24 24"><path d="M12 2l-5.5 9h11z M12 22l5.5-9h-11z"/></svg>
+        </div>
+        Variations
+      </h2>
+      <div class="chip-list">
+        <div class="chip">Tomas</div>
+        <div class="chip">Tomás</div>
+        <div class="chip">Toma</div>
+        <div class="chip">Tomasz</div>
+        <div class="chip">Tomek</div>
+        <div class="chip">Tommy</div>
+        <div class="chip">Tamás</div>
+        <div class="chip">Tome</div>
+        <div class="chip">Tomasino</div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Similar Names (EXACTLY 9 - 3x3 grid) -->
+    <div class="section" style="padding: 16px 24px;">
+      <h2 class="section-title" style="margin-bottom: 6px;">
+        <div class="section-icon icon-7">
+          <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        Similar Names
+      </h2>
+      <div class="chip-list">
+        <div class="chip">Timothy</div>
+        <div class="chip">Tobias</div>
+        <div class="chip">Thaddeus</div>
+        <div class="chip">Tobiah</div>
+        <div class="chip">Tomasz</div>
+        <div class="chip">Timo</div>
+        <div class="chip">Tamer</div>
+        <div class="chip">Tamar</div>
+        <div class="chip">Tomaso</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

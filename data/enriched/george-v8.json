@@ -1,0 +1,410 @@
+{
+  "name": "George",
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Farmer",
+  "culturalSignificance": "The name George has been historically significant in various cultures, particularly in the English-speaking world. It has been borne by numerous kings and leaders, including several British monarchs, most notably King George VI, who led the UK through World War II. The name is also associated with Saint George, the patron saint of England, known for the legend of slaying a dragon.",
+  "modernContext": "George remains a popular name in many countries, consistently ranking in the top 100 names for boys in the United States and the United Kingdom. It is often chosen for its classic and regal connotations.",
+  "literaryReferences": "The name George appears in numerous literary works, including George Orwell's '1984' and George Eliot's 'Middlemarch'.",
+  "pronunciationGuide": "/dʒɔːrdʒ/",
+  "variations": [
+    "Georgios (Greek)",
+    "Jorge (Spanish)",
+    "Giorgio (Italian)",
+    "Georg (German)",
+    "György (Hungarian)",
+    "Georgea",
+    "Georgeo",
+    "Georgeus",
+    "Georgee"
+  ],
+  "similarNames": [
+    "Charles",
+    "Henry",
+    "William",
+    "James",
+    "Edward"
+  ],
+  "nicknames": [
+    "Georgie",
+    "Geo",
+    "G",
+    "Geordie",
+    "Jory",
+    "Ge",
+    "Geor",
+    "Gey",
+    "Geoy"
+  ],
+  "personality": "People named George are often perceived as strong, reliable, and down-to-earth. They are seen as leaders and are often associated with wisdom and integrity.",
+  "symbolism": "The name George symbolizes strength, bravery, and leadership, often associated with the legendary figure of Saint George.",
+  "funFact": "George is the name of the patron saint of England, whose emblem, a red cross on a white background, forms the national flag of England.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint George",
+    "significance": "Saint George is venerated as a Christian martyr and is the patron saint of England, known for the legend of slaying a dragon.",
+    "keyStories": [
+      "The legend of Saint George and the Dragon"
+    ],
+    "spiritualMeaning": "Represents courage and the triumph of good over evil.",
+    "historicalImpact": "Saint George's Day is celebrated in many countries, and his legend has been a symbol of bravery and chivalry."
+  },
+  "historicFigures": [
+    {
+      "fullName": "George Washington",
+      "years": "1732-1799",
+      "category": "Political Leaders",
+      "achievements": [
+        "First President of the United States",
+        "Commander-in-Chief of the Continental Army"
+      ],
+      "significance": "George Washington is known as the 'Father of His Country' for his role in founding the United States.",
+      "notableWorks": [
+        "Presidency of the United States",
+        "Leadership in the American Revolutionary War"
+      ]
+    },
+    {
+      "fullName": "George Orwell",
+      "years": "1903-1950",
+      "category": "Authors",
+      "achievements": [
+        "Author of '1984'",
+        "Author of 'Animal Farm'"
+      ],
+      "significance": "George Orwell is renowned for his critical works on totalitarianism and social injustice.",
+      "notableWorks": [
+        "1984",
+        "Animal Farm"
+      ]
+    },
+    {
+      "fullName": "George VI",
+      "years": "1895-1952",
+      "category": "Monarchs",
+      "achievements": [
+        "King of the United Kingdom during WWII"
+      ],
+      "significance": "King George VI is remembered for his leadership during World War II and his efforts to boost British morale.",
+      "notableWorks": [
+        "Leadership during WWII",
+        "Modernization of the monarchy"
+      ]
+    }
+  ],
+  "songs": [
+    {
+      "title": "George",
+      "artist": "Headstones",
+      "year": 1997,
+      "genre": "Rock",
+      "significance": "The song 'George' by Headstones is notable for its catchy tune and lyrics.",
+      "youtubeVideoId": "3d9gCh6eBYE",
+      "nameContext": "The name George appears in the title and lyrics."
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "In a time of deceit telling the truth is a revolutionary act.",
+      "author": "George Orwell",
+      "context": "This quote is often attributed to Orwell, reflecting his views on truth and propaganda.",
+      "year": 1949,
+      "category": "Philosophy"
+    },
+    {
+      "quote": "It is better to offer no excuse than a bad one.",
+      "author": "George Washington",
+      "context": "Washington emphasized honesty and integrity in leadership.",
+      "year": 1790,
+      "category": "Leadership"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "George Clooney",
+      "profession": "Actor",
+      "knownFor": [
+        "Acting in films such as 'Ocean's Eleven'",
+        "Humanitarian work"
+      ],
+      "awards": "Academy Awards, Golden Globe Awards"
+    },
+    {
+      "name": "George Lucas",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "Creating 'Star Wars'",
+        "Founding Lucasfilm"
+      ],
+      "awards": "AFI Life Achievement Award, Academy Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "George Gervin",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "San Antonio Spurs",
+        "Chicago Bulls"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "44",
+      "years": "1972-1986",
+      "achievements": "NBA Scoring Champion, Hall of Fame Inductee",
+      "knownFor": [
+        "Finger roll shot",
+        "Scoring prowess"
+      ],
+      "awards": "NBA All-Star, All-NBA First Team",
+      "stats": "26,595 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "George Best",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "English Premier League",
+      "team": "Retired",
+      "pastTeams": [
+        "Manchester United",
+        "Fulham"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "7",
+      "years": "1963-1984",
+      "achievements": "Ballon d'Or winner",
+      "knownFor": [
+        "Dribbling skills",
+        "Charismatic play"
+      ],
+      "awards": "Ballon d'Or, Football League First Division",
+      "stats": "179 goals in 470 appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "George Kittle",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "San Francisco 49ers",
+      "pastTeams": [],
+      "position": "Tight End",
+      "jerseyNumber": "85",
+      "years": "2017-Present",
+      "achievements": "Pro Bowl selections",
+      "knownFor": [
+        "Blocking ability",
+        "Receiving skills"
+      ],
+      "awards": "Pro Bowl, All-Pro",
+      "stats": "Over 4,000 receiving yards",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Seinfeld",
+      "year": 1989,
+      "type": "TV Show",
+      "characterName": "George Costanza",
+      "characterDescription": "A neurotic and self-deprecating character, known for his humorous antics.",
+      "imdbUrl": "https://www.imdb.com/title/tt0098904/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not a lie if you believe it.",
+      "character": "George Costanza",
+      "source": "Seinfeld",
+      "year": 1995,
+      "context": "George says this to Jerry, highlighting his tendency to rationalize his behavior.",
+      "genre": "Comedy",
+      "impact": "This quote is iconic for its humorous take on self-deception and has become a popular cultural reference."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 318,
+    "peak": 96,
+    "peakYear": 2009
+  },
+  "enrichmentVersion": "v8",
+  "inspiration": {
+    "type": "quote",
+    "content": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "George Bernard Shaw",
+    "context": "George Bernard Shaw was a renowned playwright and critic known for his wit and social commentary."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "George"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jorge",
+      "script": "Latin",
+      "scriptName": "Jorge",
+      "pronunciation": "/ˈxoɾxe/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Georgios",
+      "script": "Greek",
+      "scriptName": "Γεώργιος",
+      "pronunciation": "/ʝeˈorʝios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "Jirjis",
+      "script": "Arabic",
+      "scriptName": "جرجس",
+      "pronunciation": "/d͡ʒir.d͡ʒis/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "Qiaozhi",
+      "script": "Han",
+      "scriptName": "乔治",
+      "pronunciation": "/tɕʰjɑʊ̯˥˩.ʈʂɻ̩˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Georgiy",
+      "script": "Cyrillic",
+      "scriptName": "Георгий",
+      "pronunciation": "/ɡʲɪˈorɡʲɪj/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "Giorgis",
+      "script": "Hebrew",
+      "scriptName": "ג'ורג'",
+      "pronunciation": "/ˈd͡ʒoʊrd͡ʒ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "George's Marvellous Medicine",
+      "author": "Roald Dahl",
+      "publishedYear": 1981,
+      "genre": "Children's",
+      "significance": "A popular children's book known for its humor and imaginative story.",
+      "nameRole": "protagonist",
+      "verified": true
+    },
+    {
+      "title": "Curious George",
+      "author": "H.A. Rey and Margret Rey",
+      "publishedYear": 1941,
+      "genre": "Children's",
+      "significance": "A beloved children's series about a curious monkey named George.",
+      "nameRole": "title",
+      "verified": true
+    },
+    {
+      "title": "George",
+      "author": "Alex Gino",
+      "publishedYear": 2015,
+      "genre": "Young Adult",
+      "significance": "A groundbreaking novel about a transgender child, praised for its representation and impact.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "parentName": "Prince William",
+      "parentProfession": "Royal",
+      "childName": "George Alexander Louis",
+      "birthYear": 2013,
+      "context": "Prince William is the Duke of Cambridge and a member of the British royal family.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "George Lucas",
+      "parentProfession": "Filmmaker",
+      "childName": "George Lucas Jr.",
+      "birthYear": 1990,
+      "context": "George Lucas is a renowned filmmaker known for creating the Star Wars franchise.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "The name George has been borne by many British kings, including the current Prince George."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "George is a timeless name with a long history of use across various cultures."
+    },
+    {
+      "tag": "European",
+      "confidence": 0.9,
+      "reason": "Widely used across Europe, with variations in many European languages."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Famous authors like George Orwell and George Bernard Shaw have contributed to its literary significance."
+    },
+    {
+      "tag": "Strong",
+      "confidence": 0.8,
+      "reason": "The name George is often associated with strength and leadership."
+    }
+  ],
+  "v7EnhancedAt": "2025-10-25T08:52:29.794Z",
+  "v8EnrichedAt": "2025-10-25T08:52:32.248Z"
+}

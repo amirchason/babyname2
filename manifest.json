@@ -1,0 +1,58 @@
+{
+  "short_name": "SoulSeed",
+  "name": "SoulSeed - Where Your Baby Name Blooms",
+  "description": "Discover the perfect baby name from 150,000+ unique options. AI-powered baby name generator with meanings, origins, and popularity trends.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#D8B2F2",
+  "background_color": "#FFFFFF",
+  "orientation": "portrait",
+  "scope": "/",
+  "categories": ["lifestyle", "family", "parenting"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "Search Names",
+      "short_name": "Search",
+      "description": "Search for baby names",
+      "url": "/?search=true",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Swipe Mode",
+      "short_name": "Swipe",
+      "description": "Discover names with Tinder-style swiping",
+      "url": "/swipe",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Favorites",
+      "short_name": "Favorites",
+      "description": "View your favorite names",
+      "url": "/favorites",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}

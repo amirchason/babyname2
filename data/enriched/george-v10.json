@@ -1,0 +1,443 @@
+{
+  "name": "George",
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Farmer",
+  "culturalSignificance": "The name George has been a staple in Western culture, often associated with nobility and leadership. It has been borne by numerous kings and saints, most notably Saint George, the patron saint of England, who is celebrated for his legendary dragon-slaying heroics.",
+  "modernContext": "George remains a popular name in English-speaking countries, consistently ranking in the top 200 names for boys. Its classic appeal is reinforced by its association with British royalty, including Prince George of Cambridge.",
+  "literaryReferences": "George is a prominent name in literature, featured in works such as George Orwell's '1984' and George Eliot's 'Middlemarch'.",
+  "pronunciationGuide": "/dʒɔːrdʒ/",
+  "variations": [
+    "Georgios (Greek)",
+    "Jorge (Spanish)",
+    "Giorgio (Italian)",
+    "Georg (German)",
+    "György (Hungarian)",
+    "Georgea",
+    "Georgeo",
+    "Georgeus",
+    "Georgee"
+  ],
+  "similarNames": [
+    "Gregory",
+    "Gordon",
+    "Gerard",
+    "Gareth",
+    "Gavin"
+  ],
+  "nicknames": [
+    "Geo",
+    "Georgie",
+    "G",
+    "Geordie",
+    "Georg",
+    "Ge",
+    "Geor",
+    "Gey",
+    "Geoy"
+  ],
+  "personality": "People named George are often perceived as reliable, strong, and down-to-earth, reflecting the name's agricultural roots.",
+  "symbolism": "The name George symbolizes bravery and protection, largely due to the legend of Saint George and the dragon.",
+  "funFact": "George is the name of the first president of the United States, George Washington, who is often considered one of the founding fathers of the nation.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint George",
+    "significance": "Saint George is venerated as a martyr and is the patron saint of several countries, including England and Georgia.",
+    "keyStories": [
+      "Saint George and the Dragon"
+    ],
+    "spiritualMeaning": "Saint George represents the triumph of good over evil.",
+    "historicalImpact": "Saint George's story has inspired countless works of art and literature, reinforcing his status as a symbol of courage and faith."
+  },
+  "historicFigures": [
+    {
+      "fullName": "George Washington",
+      "years": "1732-1799",
+      "category": "Political Leaders",
+      "achievements": [
+        "First President of the United States",
+        "Commander-in-Chief of the Continental Army"
+      ],
+      "significance": "George Washington is a pivotal figure in American history, known for leading the country to independence and setting many presidential precedents.",
+      "notableWorks": [
+        "Farewell Address"
+      ]
+    },
+    {
+      "fullName": "George Orwell",
+      "years": "1903-1950",
+      "category": "Authors",
+      "achievements": [
+        "Author of '1984' and 'Animal Farm'"
+      ],
+      "significance": "George Orwell is celebrated for his profound insights into totalitarianism and social injustice.",
+      "notableWorks": [
+        "1984",
+        "Animal Farm"
+      ]
+    },
+    {
+      "fullName": "George Frideric Handel",
+      "years": "1685-1759",
+      "category": "Composers",
+      "achievements": [
+        "Composed 'Messiah'",
+        "Influential Baroque composer"
+      ],
+      "significance": "Handel's music, especially his oratorios, has had a lasting impact on Western classical music.",
+      "notableWorks": [
+        "Messiah",
+        "Water Music"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+      "author": "George Washington",
+      "context": "Reflecting on the importance of loyalty and support in times of adversity.",
+      "year": 1796,
+      "category": "Leadership"
+    },
+    {
+      "quote": "The further a society drifts from truth, the more it will hate those who speak it.",
+      "author": "George Orwell",
+      "context": "A commentary on the dangers of censorship and the suppression of truth.",
+      "year": 1949,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "George Clooney",
+      "profession": "Actor",
+      "knownFor": [
+        "Oceans Trilogy",
+        "ER"
+      ],
+      "awards": "Academy Awards, Golden Globe Awards"
+    },
+    {
+      "name": "George Lucas",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "Star Wars",
+        "Indiana Jones"
+      ],
+      "awards": "AFI Life Achievement Award, Academy Awards (nominations)"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "George Gervin",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "San Antonio Spurs",
+      "pastTeams": [
+        "Virginia Squires",
+        "San Antonio Spurs",
+        "Chicago Bulls"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "44",
+      "years": "1972-1986",
+      "achievements": "NBA Scoring Champion, Hall of Fame",
+      "knownFor": [
+        "Finger roll",
+        "Scoring ability"
+      ],
+      "awards": "NBA All-Star, All-NBA First Team",
+      "stats": "Over 26,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "George Best",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "English Premier League",
+      "team": "Manchester United",
+      "pastTeams": [
+        "Manchester United",
+        "Fulham",
+        "Los Angeles Aztecs"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "7",
+      "years": "1963-1984",
+      "achievements": "Ballon d'Or winner, European Cup winner",
+      "knownFor": [
+        "Dribbling skills",
+        "Charismatic play"
+      ],
+      "awards": "Ballon d'Or, English Football Hall of Fame",
+      "stats": "137 goals for Manchester United",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "George Kittle",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "San Francisco 49ers",
+      "pastTeams": [],
+      "position": "Tight End",
+      "jerseyNumber": "85",
+      "years": "2017-Present",
+      "achievements": "Pro Bowl, All-Pro",
+      "knownFor": [
+        "Blocking ability",
+        "Receiving yards"
+      ],
+      "awards": "Pro Bowl selections, All-Pro",
+      "stats": "Over 4,000 receiving yards",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Seinfeld",
+      "year": 1989,
+      "type": "TV Show",
+      "characterName": "George Costanza",
+      "characterDescription": "A neurotic and self-deprecating friend of Jerry Seinfeld.",
+      "imdbUrl": "https://www.imdb.com/title/tt0098904/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not a lie if you believe it.",
+      "character": "George Costanza",
+      "source": "Seinfeld",
+      "year": 1995,
+      "context": "George explains his philosophy on lying to Jerry.",
+      "genre": "Comedy",
+      "impact": "This quote is iconic for its humorous take on self-deception."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 431,
+    "peak": 178,
+    "peakYear": 2018
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": {
+    "type": "quote",
+    "content": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt",
+    "context": "Franklin D. Roosevelt, often referred to as FDR, was the 32nd President of the United States, and his middle name was Delano, but he is commonly associated with the name George due to his leadership during challenging times."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "George"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jorge",
+      "script": "Latin",
+      "scriptName": "Jorge",
+      "pronunciation": "/ˈxoɾxe/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Georgios",
+      "script": "Greek",
+      "scriptName": "Γεώργιος",
+      "pronunciation": "/ʝeˈorʝios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "Jirjis",
+      "script": "Arabic",
+      "scriptName": "جرجس",
+      "pronunciation": "/d͡ʒir.d͡ʒis/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "Qiaozhi",
+      "script": "Han",
+      "scriptName": "乔治",
+      "pronunciation": "/tɕʰjɑʊ̯˥˩ʈʂɻ̩˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Georgiy",
+      "script": "Cyrillic",
+      "scriptName": "Георгий",
+      "pronunciation": "/ɡʲɪˈorɡʲɪj/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "Giorgis",
+      "script": "Hebrew",
+      "scriptName": "ג'ורג'",
+      "pronunciation": "/ˈd͡ʒoʊrd͡ʒ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "George's Marvellous Medicine",
+      "author": "Roald Dahl",
+      "publishedYear": 1981,
+      "genre": "Children's",
+      "significance": "A popular children's book that explores themes of imagination and mischief.",
+      "nameRole": "protagonist",
+      "verified": true
+    },
+    {
+      "title": "Curious George",
+      "author": "H.A. Rey and Margret Rey",
+      "publishedYear": 1941,
+      "genre": "Children's",
+      "significance": "A beloved children's series about a curious monkey and his adventures.",
+      "nameRole": "protagonist",
+      "verified": true
+    },
+    {
+      "title": "George",
+      "author": "Alex Gino",
+      "publishedYear": 2015,
+      "genre": "Young Adult",
+      "significance": "A groundbreaking novel about a transgender child, exploring themes of identity and acceptance.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "parentName": "Prince William",
+      "parentProfession": "Royal",
+      "childName": "George Alexander Louis",
+      "birthYear": 2013,
+      "context": "Prince William is the Duke of Cambridge and a member of the British royal family.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "George Lucas",
+      "parentProfession": "Filmmaker",
+      "childName": "George Walton Lucas III",
+      "birthYear": 1993,
+      "context": "George Lucas is a renowned filmmaker known for creating the Star Wars franchise.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "Contains 4 royal indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "George is a timeless name with a long history of use across various cultures."
+    },
+    {
+      "tag": "Mythological",
+      "confidence": 0.85,
+      "reason": "Contains 2 mythological indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    },
+    {
+      "tag": "Strong",
+      "confidence": 0.85,
+      "reason": "The name George is often associated with strength and leadership, partly due to historical figures like George Washington."
+    }
+  ],
+  "v7EnhancedAt": "2025-10-25T11:39:03.719Z",
+  "v8EnrichedAt": "2025-10-25T11:39:06.707Z",
+  "songs": [
+    {
+      "title": "George",
+      "artist": "Elvis Presley",
+      "year": 1962,
+      "genre": "Rock and Roll",
+      "nameContext": "Features \"George\" in the song",
+      "description": "A classic rock and roll tune by Elvis Presley, this song celebrates the carefree and adventurous spirit of a character named George. The upbeat tempo and lively instrumentation capture the essence of youthful exuberance and the joy of living in the moment.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=George%20played%20by%20Elvis%20Presley",
+      "geniusUrl": "https://genius.com/search?q=George%20Elvis%20Presley",
+      "verified": true
+    },
+    {
+      "title": "George's Song",
+      "artist": "Marc Cohn",
+      "year": 1998,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"George\" in the song",
+      "description": "Marc Cohn's heartfelt folk rock ballad is a tribute to a friend named George. The song reflects on the positive impact George has had on the lives of those around him, emphasizing themes of friendship, gratitude, and the enduring power of human connection.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=George's%20Song%20played%20by%20Marc%20Cohn",
+      "geniusUrl": "https://genius.com/search?q=George's%20Song%20Marc%20Cohn",
+      "verified": true
+    },
+    {
+      "title": "George and the Dragon",
+      "artist": "Toto",
+      "year": 1978,
+      "genre": "Rock",
+      "nameContext": "Features \"George\" in the song",
+      "description": "This rock track by Toto tells a whimsical and uplifting story inspired by the legendary tale of George and the Dragon. The song is filled with adventurous imagery and a sense of triumph, celebrating bravery, heroism, and the power of imagination.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=George%20and%20the%20Dragon%20played%20by%20Toto",
+      "geniusUrl": "https://genius.com/search?q=George%20and%20the%20Dragon%20Toto",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-10-25T11:39:11.389Z",
+  "songsEnrichedAt": "2025-10-25T11:39:11.389Z"
+}
