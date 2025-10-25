@@ -1,0 +1,62 @@
+═══════════════════════════════════════════════════════════
+    DATAPIPELINE WEBHOOK SETUP - COPY & PASTE
+═══════════════════════════════════════════════════════════
+
+📥 INPUT WEBHOOK URL (Paste in DataPipeline → Input Settings → Webhook input)
+───────────────────────────────────────────────────────────
+https://soulseedbaby.com/api/scraper-input
+
+
+📤 OUTPUT WEBHOOK URL (Paste in DataPipeline → Output Settings → Webhook URL)
+───────────────────────────────────────────────────────────
+https://soulseedbaby.com/api/scraper-output
+
+
+⚙️ RECOMMENDED SETTINGS
+───────────────────────────────────────────────────────────
+Input from:            Webhook input
+Output to:             Webhook
+Send format:           Send as a raw file (default)
+Scraping frequency:    Just scrape once (for testing)
+Notification:          Never
+
+
+🔐 NEXT STEPS (After Deployment)
+───────────────────────────────────────────────────────────
+1. Generate API key:
+   node -e "console.log(require('crypto').randomBytes(16).toString('hex'))"
+
+2. Add to .env:
+   DATAPIPELINE_API_KEY=<paste generated key>
+
+3. Update INPUT webhook URL to include key:
+   https://soulseedbaby.com/api/scraper-input?key=<your-api-key>
+
+4. Deploy environment variable to Vercel:
+   vercel env add DATAPIPELINE_API_KEY production
+   npm run deploy
+
+
+✅ DEPLOYMENT STATUS
+───────────────────────────────────────────────────────────
+[✓] Webhooks deployed to Vercel
+[✓] Security headers enabled (X-Robots-Tag: noindex)
+[✓] robots.txt updated (Disallow: /api/)
+[✓] POST/GET method restrictions active
+[✓] Ready to scrape!
+
+
+📋 TEST WEBHOOKS
+───────────────────────────────────────────────────────────
+# Test input webhook (should return URL list)
+curl "https://soulseedbaby.com/api/scraper-input?key=YOUR_KEY"
+
+# Test output webhook (should return 200 OK)
+curl -X POST https://soulseedbaby.com/api/scraper-output \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://test.com", "content": "test"}'
+
+
+📚 FULL DOCUMENTATION
+───────────────────────────────────────────────────────────
+See: docs/DATAPIPELINE_WEBHOOK_SETUP.md

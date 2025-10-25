@@ -1,18 +1,20 @@
 /**
- * V8 COMPLETE ENRICHMENT SYSTEM
+ * V10 COMPLETE ENRICHMENT SYSTEM - THE PERFECT NAME PROFILE
  *
- * The ONE AND ONLY enrichment script you need!
- * Combines V4 + V6 + V7 into a single, complete enrichment pipeline.
+ * The ULTIMATE enrichment script with positive-vibes-only music!
+ * Combines V4 + V6 + V7 + V8 + NEW V10 features into a single, complete pipeline.
  *
  * Features:
- * - V4: GPT-4o-mini comprehensive enrichment (Historical Figures, Movies, Songs, etc.)
+ * - V4: GPT-4o comprehensive enrichment (Historical Figures, Movies, Quotes, etc.)
  * - V6: Celestial data, gender distribution, rankings
- * - V7: Syllables, translations (6 languages), categories, books, celebrity babies
+ * - V7: Syllables, translations (6 languages), categories, books
+ * - V8: Celebrity babies with GPT-4 Knowledge Base
+ * - V10: POSITIVE-VIBES-ONLY SONGS (3 verified songs with strict filtering)
  * - Section 4 validation: ALWAYS 9 nicknames, 9 variations, 9 similar names
  * - Bulletproof duplicate detection across ALL sections
  *
- * Usage: node scripts/enrich-v8-complete.js <Name> <gender> <origin> <meaning>
- * Example: node scripts/enrich-v8-complete.js Jonas male Hebrew Dove
+ * Usage: node scripts/enrich-v10-complete.js <Name> <gender> <origin> <meaning>
+ * Example: node scripts/enrich-v10-complete.js George male Greek Farmer
  */
 
 import OpenAI from 'openai';
@@ -21,6 +23,7 @@ import dotenv from 'dotenv';
 import { analyzeSyllables } from './utils/syllableAnalyzer.js';
 import { autoCategorizeName, validateGPTCategories, mergeCategories } from './utils/categoryTagger.js';
 import { enrichCelebrityBabiesWithGPT } from './utils/gptCelebrityBabyEnricher.js';
+import { enrichPositiveSongs } from './utils/positiveSongEnricher.js';
 
 dotenv.config();
 
@@ -32,12 +35,12 @@ const openai = new OpenAI({
 const [,, name, gender, origin, meaning] = process.argv;
 
 if (!name || !gender || !origin || !meaning) {
-  console.error('❌ Usage: node enrich-v8-complete.js <Name> <gender> <origin> <meaning>');
-  console.error('   Example: node enrich-v8-complete.js Jonas male Hebrew Dove');
+  console.error('❌ Usage: node enrich-v10-complete.js <Name> <gender> <origin> <meaning>');
+  console.error('   Example: node enrich-v10-complete.js George male Greek Farmer');
   process.exit(1);
 }
 
-console.log('🚀 V8 COMPLETE ENRICHMENT STARTING...\n');
+console.log('🚀 V10 COMPLETE ENRICHMENT STARTING...\n');
 console.log(`📋 Name: ${name}`);
 console.log(`📋 Gender: ${gender}`);
 console.log(`📋 Origin: ${origin}`);
@@ -45,7 +48,7 @@ console.log(`📋 Meaning: ${meaning}\n`);
 
 /**
  * PHASE 1: V4 COMPREHENSIVE ENRICHMENT
- * Uses GPT-4o-mini to generate comprehensive name data
+ * Uses GPT-4o to generate comprehensive name data (WITHOUT songs - V10 handles songs)
  */
 async function runV4Enrichment() {
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
@@ -97,20 +100,6 @@ Provide REAL, VERIFIED data in JSON format:
     }
     // Provide 3-5 REAL historical figures
   ],
-  "songs": [
-    {
-      "title": "Song title",
-      "artist": "Artist name",
-      "year": Year,
-      "genre": "Genre",
-      "significance": "Why it's notable",
-      "youtubeVideoId": "YouTube video ID (11 characters, e.g., 'dQw4w9WgXcQ')",
-      "nameContext": "How the name appears in the song (in title, lyrics, or about someone named ${name})"
-    }
-    // MAXIMUM: 3 REAL, VERIFIED songs
-    // Include YouTube video ID if available (just the ID, not full URL)
-    // Songs can have the name in: title, lyrics, or be about someone named ${name}
-  ],
   "famousQuotes": [
     {
       "quote": "The exact inspiring quote",
@@ -152,13 +141,11 @@ Provide REAL, VERIFIED data in JSON format:
     }
     // **SPORTS BREAKDOWN** - Find 2-3 MOST FAMOUS players per sport (SEARCH EACH SPORT SEPARATELY):
     // **IMPORTANT**: Include spelling variations! (Carl = Karl, Michael = Mike, etc.)
-    // 1. NBA Basketball (2-3 famous):
-    //    - For "Michael": Michael Jordan, Michael Finley, Michael Redd
-    //    - For "Carl": Karl Malone (The Mailman!), Carl Landry, Karl-Anthony Towns
-    // 2. European Soccer (2-3 famous): Michael Owen, Michael Ballack, Michael Carrick (for "Michael")
-    // 3. American Football/NFL (2-3 famous): Michael Vick, Michael Thomas, Michael Irvin (for "Michael")
-    // 4. MLB Baseball (2-3 famous): Michael Conforto, Michael Brantley, Mike Trout (for "Michael")
-    // 5. NHL Ice Hockey (2-3 famous): Michael Peca, Mike Modano, Mike Bossy (for "Michael")
+    // 1. NBA Basketball (2-3 famous)
+    // 2. European Soccer (2-3 famous)
+    // 3. American Football/NFL (2-3 famous)
+    // 4. MLB Baseball (2-3 famous)
+    // 5. NHL Ice Hockey (2-3 famous)
     //
     // **SEARCH REQUIREMENTS**:
     // - SEARCH EACH SPORT INDEPENDENTLY - Find athletes for ALL 5 sports
@@ -205,28 +192,25 @@ IMPORTANT:
 - ALL data must be REAL and VERIFIED
 - NO fabricated information
 - Historical figures must have existed
-- Songs/movies must be real
+- Movies must be real
 - **QUOTES**: Must be REAL, INSPIRING, and from verified sources
   - Famous Quotes: Up to 5 inspiring quotes by real people named ${name}
   - Character Quotes: Up to 3 genius/iconic quotes from movie/TV characters named ${name}
   - DO NOT make up quotes - only include if you can verify them
 - **ATHLETES**: **SEARCH ALL 5 SPORTS SEPARATELY** and find 2-3 famous athletes PER SPORT (goal: 10-15 total athletes)
   - **YOU MUST SEARCH EACH SPORT INDEPENDENTLY** - Don't stop after finding 1-2 total athletes!
-  - **CRITICAL SPELLING RULE**: ONLY include athletes whose FIRST NAME is spelled EXACTLY as "${name}" (e.g., "Carl" ≠ "Karl", "Chris" ≠ "Kris")
-  - **Nickname variations allowed**: Michael = Mike, William = Bill, Robert = Bob (same spelling, just shortened)
-  - **EXAMPLE OF WRONG**: DO NOT include Karl Malone for "Carl", Kris Bryant for "Chris" (different spellings!)
-  - **SPORT 1 - NBA Basketball**: Find 2-3 FAMOUS NBA players whose first name is EXACTLY "${name}" OR common nickname (current or retired legends)
-  - **SPORT 2 - European Soccer**: Find 2-3 FAMOUS soccer players named ${name} OR nicknames from top leagues (Premier League, La Liga, Bundesliga, Serie A)
-  - **SPORT 3 - American Football (NFL)**: Find 2-3 FAMOUS NFL players named ${name} OR nicknames (current or retired legends)
-  - **SPORT 4 - MLB Baseball**: Find 2-3 FAMOUS MLB players named ${name} OR nicknames (current or retired legends)
-  - **SPORT 5 - NHL Ice Hockey**: Find 2-3 FAMOUS NHL players named ${name} OR nicknames (current or retired legends)
+  - **NAME MATCHING RULE**: Include athletes with "${name}" as EITHER first name OR last name
+  - **EXAMPLE**: For "Benson" include: Cedric Benson (last name), Benson Mayowa (first name), etc.
+  - **SPORT 1 - NBA Basketball**: Find 2-3 FAMOUS NBA players with "${name}" in first OR last name (current or retired legends)
+  - **SPORT 2 - European Soccer**: Find 2-3 FAMOUS soccer players with "${name}" in first OR last name from top leagues (Premier League, La Liga, Bundesliga, Serie A)
+  - **SPORT 3 - American Football (NFL)**: Find 2-3 FAMOUS NFL players with "${name}" in first OR last name (current or retired legends)
+  - **SPORT 4 - MLB Baseball**: Find 2-3 FAMOUS MLB players with "${name}" in first OR last name (current or retired legends)
+  - **SPORT 5 - NHL Ice Hockey**: Find 2-3 FAMOUS NHL players with "${name}" in first OR last name (current or retired legends)
   - **CRITICAL**: Search EACH sport for 2-3 athletes. Do NOT return just 1-2 athletes total!
-  - **EXAMPLE**: For "Michael" you should find: Michael Jordan (NBA), Michael Vick (NFL), Mike Trout (MLB), etc.
+  - **GOAL**: Find athletes across ALL 5 sports - aim for 10-15 total athletes
   - Include: sport, league, current team (2024/2025), pastTeams, position, jerseyNumber, years, achievements, stats, source
   - Return athletes you are confident are real professional players from your training knowledge
-- **SONGS**: Up to 3 songs with YouTube video IDs
-  - Include youtubeVideoId (11-character ID only, not full URL)
-  - Include nameContext explaining how name appears in song
+- **NO SONGS IN THIS PHASE** - V10 handles songs separately with strict filtering
 - **SEPARATE CATEGORIES**:
   - famousPeople = non-athletes (musicians, actors, business, etc.)
   - famousAthletes = professional sports players ONLY
@@ -240,7 +224,7 @@ IMPORTANT:
     messages: [
       {
         role: 'system',
-        content: 'You are an expert baby name researcher. Provide accurate, verified information in JSON format only.'
+        content: 'You are an expert baby name researcher. Provide accurate, verified information in JSON format only. CRITICAL: When searching for athletes, you MUST search ALL 5 sports independently (NBA, Soccer, NFL, MLB, NHL) even if you only find 1-2 athletes per sport. Return whatever athletes you find for each sport - do NOT skip any sports.'
       },
       {
         role: 'user',
@@ -248,7 +232,7 @@ IMPORTANT:
       }
     ],
     temperature: 0.3,
-    max_tokens: 4000
+    max_tokens: 6000
   });
 
   const content = response.choices[0].message.content.trim();
@@ -260,9 +244,9 @@ IMPORTANT:
   const v4Data = JSON.parse(jsonText);
   console.log('✅ V4 enrichment complete!');
   console.log(`   ✓ Historical Figures: ${v4Data.historicFigures?.length || 0}`);
-  console.log(`   ✓ Songs: ${v4Data.songs?.length || 0}`);
   console.log(`   ✓ Movies/Shows: ${v4Data.moviesAndShows?.length || 0}`);
   console.log(`   ✓ Famous People: ${v4Data.famousPeople?.length || 0}`);
+  console.log(`   ✓ Famous Athletes: ${v4Data.famousAthletes?.length || 0}`);
 
   return v4Data;
 }
@@ -371,9 +355,54 @@ async function runV7Enhancement(v6Data) {
 }
 
 /**
- * MAIN V8 ENRICHMENT PIPELINE
+ * PHASE 4: V8 CELEBRITY BABIES (GPT-4 Knowledge Base)
+ * Replaces Nameberry data with GPT-4 celebrity baby search
  */
-async function enrichToV8() {
+async function runV8CelebrityBabies(v7Data) {
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📍 PHASE 4: CELEBRITY BABIES (GPT-4 Knowledge Base)');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+
+  const celebrityBabies = await enrichCelebrityBabiesWithGPT(name);
+  console.log(`✅ Found ${celebrityBabies.length} celebrity babies named "${name}"`);
+
+  const v8Data = {
+    ...v7Data,
+    celebrityBabies,
+    enrichmentVersion: 'v8',
+    v8EnrichedAt: new Date().toISOString()
+  };
+
+  return v8Data;
+}
+
+/**
+ * PHASE 5: V10 POSITIVE-VIBES-ONLY SONGS (NEW!)
+ * Uses GPT-4 with strict positive filtering
+ */
+async function runV10PositiveSongs(v8Data) {
+  console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  console.log('📍 PHASE 5: POSITIVE-VIBES-ONLY SONGS (V10 NEW!)');
+  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+
+  const positiveSongs = await enrichPositiveSongs(name);
+  console.log(`✅ Found ${positiveSongs.length} positive-vibes-only songs!`);
+
+  const v10Data = {
+    ...v8Data,
+    songs: positiveSongs, // Replace any old songs with new positive songs
+    enrichmentVersion: 'v10',
+    v10EnrichedAt: new Date().toISOString(),
+    songsEnrichedAt: new Date().toISOString()
+  };
+
+  return v10Data;
+}
+
+/**
+ * MAIN V10 ENRICHMENT PIPELINE
+ */
+async function enrichToV10() {
   try {
     // Phase 1: V4
     const v4Data = await runV4Enrichment();
@@ -389,47 +418,39 @@ async function enrichToV8() {
     // Phase 3: V7
     const v7Data = await runV7Enhancement(v6Data);
 
-    // Phase 4: Celebrity Babies (GPT-4 with Web Search)
-    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('📍 PHASE 4: CELEBRITY BABIES (GPT-4 Web Search)');
-    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+    // Phase 4: V8 Celebrity Babies
+    const v8Data = await runV8CelebrityBabies(v7Data);
 
-    const celebrityBabies = await enrichCelebrityBabiesWithGPT(name);
-    console.log(`✅ Found ${celebrityBabies.length} celebrity babies named "${name}"`);
+    // Phase 5: V10 Positive Songs (NEW!)
+    const v10Data = await runV10PositiveSongs(v8Data);
 
-    // Final V8 output
-    const v8Data = {
-      ...v7Data,
-      celebrityBabies, // Replace GPT data with real Nameberry data
-      enrichmentVersion: 'v8',
-      v8EnrichedAt: new Date().toISOString()
-    };
-
-    const v8Path = `./public/data/enriched/${name.toLowerCase()}-v8.json`;
-    fs.writeFileSync(v8Path, JSON.stringify(v8Data, null, 2));
+    // Save final V10 output
+    const v10Path = `./public/data/enriched/${name.toLowerCase()}-v10.json`;
+    fs.writeFileSync(v10Path, JSON.stringify(v10Data, null, 2));
 
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('✨ V8 COMPLETE ENRICHMENT FINISHED!');
+    console.log('✨ V10 COMPLETE ENRICHMENT FINISHED!');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
     console.log(`📊 COMPLETE DATA FOR: ${name}`);
-    console.log(`💾 V8 data saved: ${v8Path}`);
+    console.log(`💾 V10 data saved: ${v10Path}`);
     console.log(`\n📋 Section Summary:`);
-    console.log(`   • Nicknames: ${v8Data.nicknames?.length || 0}`);
-    console.log(`   • Variations: ${v8Data.variations?.length || 0}`);
-    console.log(`   • Similar Names: ${v8Data.similarNames?.length || 0}`);
-    console.log(`   • Historical Figures: ${v8Data.historicFigures?.length || 0}`);
-    console.log(`   • Books: ${v8Data.booksWithName?.length || 0}`);
-    console.log(`   • Celebrity Babies: ${v8Data.celebrityBabies?.length || 0}`);
-    console.log(`   • Translations: ${v8Data.translations?.length || 0}`);
-    console.log(`   • Categories: ${v8Data.categories?.length || 0}`);
+    console.log(`   • Nicknames: ${v10Data.nicknames?.length || 0}`);
+    console.log(`   • Variations: ${v10Data.variations?.length || 0}`);
+    console.log(`   • Similar Names: ${v10Data.similarNames?.length || 0}`);
+    console.log(`   • Historical Figures: ${v10Data.historicFigures?.length || 0}`);
+    console.log(`   • Books: ${v10Data.booksWithName?.length || 0}`);
+    console.log(`   • Celebrity Babies: ${v10Data.celebrityBabies?.length || 0}`);
+    console.log(`   • Translations: ${v10Data.translations?.length || 0}`);
+    console.log(`   • Categories: ${v10Data.categories?.length || 0}`);
+    console.log(`   • Songs (Positive Only): ${v10Data.songs?.length || 0}`);
     console.log(`\n📝 Next step: Build HTML profile with:`);
-    console.log(`   node scripts/build-${name.toLowerCase()}-v8-profile.js`);
+    console.log(`   node scripts/build-${name.toLowerCase()}-v10-profile.js`);
 
   } catch (error) {
-    console.error('❌ V8 Enrichment Error:', error.message);
+    console.error('❌ V10 Enrichment Error:', error.message);
     process.exit(1);
   }
 }
 
-// Run V8 enrichment
-enrichToV8();
+// Run V10 enrichment
+enrichToV10();

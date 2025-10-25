@@ -1730,20 +1730,20 @@ ${nameData.songs && nameData.songs.length > 0 ? `    <div class="section">
         </button>
       </h2>
       <div class="section-content" data-section="section_8_songs">
-${nameData.songs.map(song => `      <div class="pop-card">
-        <div class="pop-title">${song.title}</div>
-        <div class="pop-meta">${song.artist} • ${song.year} • ${song.genre}</div>
-        <p class="section-text" style="margin-top: 8px; margin-bottom: 12px;">${song.nameContext}</p>
-        ${song.youtubeVideoId ? `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; background: linear-gradient(135deg, #1e293b 0%, #334155 100%); display: flex; align-items: center; justify-content: center;">
-          <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(song.artist + ' ' + song.title + ' official')}" target="_blank" style="display: flex; flex-direction: column; align-items: center; text-decoration: none; color: white; padding: 20px; text-align: center;">
-            <svg style="width: 64px; height: 64px; margin-bottom: 12px; fill: #ef4444;" viewBox="0 0 24 24">
-              <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+        <div style="display: grid; gap: 12px;">
+${nameData.songs.map((song, index) => `          <a href="${song.geniusUrl}" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%); border-radius: 12px; text-decoration: none; color: inherit; border-left: 4px solid #6C63FF; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(8px)'; this.style.boxShadow='0 4px 12px rgba(108,99,255,0.2)'" onmouseout="this.style.transform='translateX(0)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.05)'">
+            <div style="flex-shrink: 0; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #6C63FF 0%, #5A52D5 100%); border-radius: 8px; color: white; font-weight: 700; font-size: 16px;">
+              ${index + 1}
+            </div>
+            <div style="flex: 1;">
+              <div style="font-weight: 700; font-size: 17px; color: #1a1a1a; margin-bottom: 4px;">${song.title}</div>
+              <div style="font-size: 14px; color: #6B7280;">by ${song.artist}${song.year ? ` (${song.year})` : ''}</div>
+            </div>
+            <svg style="width: 20px; height: 20px; fill: #6C63FF; flex-shrink: 0;" viewBox="0 0 24 24">
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
             </svg>
-            <span style="font-size: 16px; font-weight: 600;">Watch on YouTube</span>
-            <span style="font-size: 14px; opacity: 0.8; margin-top: 4px;">${song.title}</span>
-          </a>
-        </div>` : ''}
-      </div>`).join('\n')}
+          </a>`).join('\n')}
+        </div>
       </div>
     </div>
 ` : ''}

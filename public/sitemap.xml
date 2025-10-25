@@ -41,9 +41,34 @@
   </url>
   <url>
     <loc>https://soulseedbaby.com/contact</loc>
-    <lastmod>2025-10-21</lastmod>
+    <lastmod>2025-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <!-- Legal & Compliance Pages (Google Requirements) -->
+  <url>
+    <loc>https://soulseedbaby.com/terms-of-service</loc>
+    <lastmod>2025-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://soulseedbaby.com/privacy-policy</loc>
+    <lastmod>2025-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://soulseedbaby.com/cookie-policy</loc>
+    <lastmod>2025-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://soulseedbaby.com/accessibility</loc>
+    <lastmod>2025-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://soulseedbaby.com/blog</loc>

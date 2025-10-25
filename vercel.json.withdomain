@@ -1,5 +1,8 @@
 {
   "alias": ["soulseedbaby.com", "www.soulseedbaby.com"],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
   "redirects": [
     {
       "source": "/(.*)",
