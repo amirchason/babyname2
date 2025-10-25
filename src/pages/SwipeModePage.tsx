@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { motion, useMotionValue, useTransform, useAnimation, PanInfo } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Heart, X, Sparkles, Baby, RotateCcw, Info } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { Heart, X, Sparkles, RotateCcw } from 'lucide-react';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameDetailModal from '../components/NameDetailModal';
 import AppHeader from '../components/AppHeader';
+import TinderSwipeCard from '../components/TinderSwipeCard';
 import SwipeFilterBar, {
   SwipeFilters,
   ENGLISH_SPEAKING_ORIGINS,
@@ -19,210 +21,7 @@ import SwipeFilterBar, {
   OTHER_WORLD_ORIGINS
 } from '../components/SwipeFilterBar';
 
-interface CardProps {
-  name: NameEntry;
-  isTop: boolean;
-  isSecond: boolean; // Track if this is the second card (underneath top)
-  dragX?: any; // Motion value for drag (passed from parent for top card)
-  topCardX?: any; // Motion value from top card's drag (for second card reveal)
-  onSwipeLeft: () => void;
-  onSwipeRight: () => void;
-  dragEnabled: boolean;
-  onInfoClick: () => void;
-}
-
-// Memoized Card component to prevent unnecessary re-renders
-const Card = React.memo<CardProps>(({ name, isTop, isSecond, dragX, topCardX, onSwipeLeft, onSwipeRight, dragEnabled, onInfoClick }) => {
-  // Use provided dragX for top card, or create local one for others
-  const localX = useMotionValue(0);
-  const x = dragX || localX;
-  const controls = useAnimation();
-
-  // Transform values for smooth animations (for TOP card)
-  const rotate = useTransform(x, [-200, 0, 200], [-25, 0, 25]);
-  const opacity = useTransform(x, [-200, -100, 0, 100, 200], [0.5, 1, 1, 1, 0.5]);
-
-  // Like/Nope indicators opacity
-  const likeOpacity = useTransform(x, [0, 100], [0, 1]);
-  const nopeOpacity = useTransform(x, [-100, 0], [1, 0]);
-
-  // UNDERLAYER REVEAL: Second card scales up as top card drags
-  // Always create transforms, but use a fallback static motion value if topCardX doesn't exist
-  const fallbackX = useMotionValue(0);
-  const revealScale = useTransform(
-    topCardX || fallbackX,
-    [-200, 0, 200],
-    [1, 0.95, 1]
-  );
-  const revealY = useTransform(
-    topCardX || fallbackX,
-    [-200, 0, 200],
-    [0, 10, 0]
-  );
-
-  const handleDragEnd = useCallback((event: any, info: PanInfo) => {
-    const threshold = 50;
-    const velocity = info.velocity.x;
-    const offset = info.offset.x;
-
-    if (Math.abs(velocity) >= 300 || Math.abs(offset) >= threshold) {
-      // Card was swiped
-      if (offset > 0) {
-        // Swipe right - Like
-        controls.start({
-          x: 1000,
-          rotate: 45,
-          opacity: 0,
-          transition: { duration: 0.3 }
-        }).then(() => {
-          // Reset motion values after animation completes
-          x.set(0);
-        });
-        setTimeout(onSwipeRight, 300);
-      } else {
-        // Swipe left - Dislike
-        controls.start({
-          x: -1000,
-          rotate: -45,
-          opacity: 0,
-          transition: { duration: 0.3 }
-        }).then(() => {
-          // Reset motion values after animation completes
-          x.set(0);
-        });
-        setTimeout(onSwipeLeft, 300);
-      }
-    } else {
-      // Return to center
-      controls.start({
-        x: 0,
-        rotate: 0,
-        transition: { type: "spring", stiffness: 200, damping: 25 }
-      });
-    }
-  }, [controls, onSwipeLeft, onSwipeRight, x]);
-
-  const genderData = typeof name.gender === 'object' ? name.gender : null;
-  const isMale = (genderData?.Male || 0) > (genderData?.Female || 0);
-  const genderColor = isMale ? 'from-blue-400 to-blue-600' : 'from-pink-400 to-pink-600';
-  const genderBg = isMale ? 'bg-blue-50' : 'bg-pink-50';
-
-  return (
-    <motion.div
-      className="absolute w-full h-full"
-      style={{
-        x: isTop ? x : 0,
-        rotate: isTop ? rotate : 0,
-        opacity,
-        // Apply reveal animation to second card
-        scale: isSecond ? revealScale : 1,
-        y: isSecond ? revealY : 0,
-      }}
-      drag={dragEnabled && isTop ? "x" : false}
-      dragConstraints={{ left: -250, right: 250 }}
-      dragElastic={0.5}
-      dragMomentum={false}
-      onDragEnd={isTop ? handleDragEnd : undefined}
-      animate={controls}
-    >
-      <div className={`relative w-full h-full ${genderBg} rounded-2xl sm:rounded-3xl shadow-2xl border-2 border-white overflow-hidden`}>
-        {/* Info Button - Top Right (always visible) */}
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onInfoClick();
-          }}
-          className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 bg-white/90 hover:bg-white rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 active:scale-95"
-          title="View name details"
-        >
-          <Info className="w-4 h-4 sm:w-5 sm:h-5 text-purple-600" />
-        </button>
-
-        {/* Like/Nope Indicators */}
-        {isTop && (
-          <>
-            <motion.div
-              className="absolute top-4 sm:top-8 left-4 sm:left-8 z-10"
-              style={{ opacity: nopeOpacity }}
-            >
-              <div className="text-red-500 border-3 sm:border-4 border-red-500 rounded-lg sm:rounded-xl px-3 py-1.5 sm:px-4 sm:py-2 font-bold text-2xl sm:text-4xl transform -rotate-12">
-                NOPE
-              </div>
-            </motion.div>
-            <motion.div
-              className="absolute top-4 sm:top-8 right-4 sm:right-8 z-10"
-              style={{ opacity: likeOpacity }}
-            >
-              <div className="text-green-500 border-3 sm:border-4 border-green-500 rounded-lg sm:rounded-xl px-3 py-1.5 sm:px-4 sm:py-2 font-bold text-2xl sm:text-4xl transform rotate-12">
-                LIKE
-              </div>
-            </motion.div>
-          </>
-        )}
-
-        {/* Gradient Header */}
-        <div className={`h-1/3 bg-gradient-to-br ${genderColor} relative`}>
-          <div className="absolute inset-0 bg-black opacity-10" />
-          <div className="absolute bottom-3 sm:bottom-4 left-0 right-0 text-center px-4">
-            <h2 className="text-3xl sm:text-5xl font-bold text-white drop-shadow-lg truncate">
-              {name.name}
-            </h2>
-          </div>
-        </div>
-
-        {/* Card Content */}
-        <div className="p-4 sm:p-6 h-2/3 flex flex-col justify-between">
-          <div>
-            {/* Rank Badge */}
-            <div className="flex justify-center mb-3 sm:mb-4">
-              <span className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-gradient-to-r ${genderColor} text-white font-bold text-sm sm:text-lg`}>
-                Rank #{name.popularityRank || 999999}
-              </span>
-            </div>
-
-            {/* Meaning */}
-            {name.meaning && (
-              <div className="text-center mb-3 sm:mb-4">
-                <p className="text-base sm:text-xl italic text-gray-700 line-clamp-3">"{name.meaning}"</p>
-              </div>
-            )}
-
-            {/* Origin */}
-            {name.origin && (
-              <div className="text-center">
-                <span className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 bg-purple-100 rounded-full">
-                  <span className="text-xs sm:text-sm font-semibold text-purple-700">{name.origin}</span>
-                </span>
-              </div>
-            )}
-          </div>
-
-          {/* Gender Distribution */}
-          <div className="mt-auto">
-            <div className="flex gap-2 items-center justify-center">
-              <div className="flex-1 text-center">
-                <span className="text-xs sm:text-sm text-gray-600">Male</span>
-                <div className="h-1.5 sm:h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
-                  <div className="h-full bg-gradient-to-r from-blue-400 to-blue-600"
-                       style={{ width: `${(genderData?.Male || 0) * 100}%` }} />
-                </div>
-              </div>
-              <div className="flex-1 text-center">
-                <span className="text-xs sm:text-sm text-gray-600">Female</span>
-                <div className="h-1.5 sm:h-2 bg-gray-200 rounded-full overflow-hidden mt-1">
-                  <div className="h-full bg-gradient-to-r from-pink-400 to-pink-600"
-                       style={{ width: `${(genderData?.Female || 0) * 100}%` }} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </motion.div>
-  );
-});
-
-Card.displayName = 'Card';
+// Old Card component removed - now using TinderSwipeCard
 
 // Constants for performance optimization
 const INITIAL_LOAD_SIZE = 500; // Load more initially to reduce loading frequency
@@ -250,9 +49,7 @@ const SwipeModePage: React.FC = () => {
     sortBy: 'popularity' // Default to popular names first
   });
   const [filteredNames, setFilteredNames] = useState<NameEntry[]>([]); // Stores filtered subset
-
-  // Motion value for top card's drag - shared with second card for reveal animation
-  const topCardX = useMotionValue(0);
+  const [topCardDragX, setTopCardDragX] = useState(0); // Track top card drag position for reveal animation
 
   // Apply filters to names
   const applyFilters = useCallback((names: NameEntry[], filterConfig: SwipeFilters): NameEntry[] => {
@@ -584,8 +381,22 @@ const SwipeModePage: React.FC = () => {
   }, [currentIndex]);
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
-      {/* AppHeader with consistent counters */}
+    <>
+      <Helmet>
+        <title>Swipe Baby Names | Tinder-Style Name Finder | SoulSeed</title>
+        <meta name="description" content="Find your perfect baby name with SoulSeed's unique Tinder-style swipe mode. Swipe right to like, left to pass. Fun, fast, and personalized baby name discovery." />
+        <meta name="keywords" content="swipe baby names, tinder baby names, baby name swipe app, find baby names, interactive baby name finder" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Swipe Baby Names | Tinder-Style Name Finder | SoulSeed" />
+        <meta property="og:description" content="Swipe through thousands of baby names Tinder-style. Like or pass - finding your baby's perfect name has never been more fun!" />
+        <meta property="og:url" content="https://soulseedbaby.com/swipe" />
+
+        <link rel="canonical" href="https://soulseedbaby.com/swipe" />
+      </Helmet>
+
+      <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
+        {/* AppHeader with consistent counters */}
       <div className="flex-none">
         <AppHeader title="SoulSeed" showBackButton={true} />
       </div>
@@ -629,19 +440,19 @@ const SwipeModePage: React.FC = () => {
                       transition={{ duration: 0 }}
                       style={{ zIndex: index + 1 }}
                     >
-                      <Card
+                      <TinderSwipeCard
                         name={card}
                         isTop={isTop}
                         isSecond={isSecond}
-                        dragX={isTop ? topCardX : undefined} // Pass motion value to top card
-                        topCardX={isSecond ? topCardX : undefined} // Pass top card's motion value to second card
+                        topCardDragX={isSecond ? topCardDragX : 0}
                         onSwipeLeft={() => handleSwipe('left')}
                         onSwipeRight={() => handleSwipe('right')}
-                        dragEnabled={true}
                         onInfoClick={() => {
                           setSelectedName(card);
                           setSelectedIndex(currentIndex + stackIndex);
                         }}
+                        onDragChange={isTop ? setTopCardDragX : undefined}
+                        contextualRank={currentIndex + stackIndex + 1}
                       />
                     </motion.div>
                   );
@@ -727,24 +538,11 @@ const SwipeModePage: React.FC = () => {
       {selectedName && (
         <NameDetailModal
           name={selectedName}
-          names={cards}
-          currentIndex={selectedIndex}
           onClose={() => setSelectedName(null)}
-          onNavigate={(newIndex) => {
-            if (newIndex >= 0 && newIndex < cards.length) {
-              setSelectedName(cards[newIndex]);
-              setSelectedIndex(newIndex);
-            }
-          }}
-          onFavoriteToggle={() => {
-            window.dispatchEvent(new Event('storage'));
-          }}
-          onDislikeToggle={() => {
-            window.dispatchEvent(new Event('storage'));
-          }}
         />
       )}
     </div>
+    </>
   );
 };
 

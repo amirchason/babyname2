@@ -6,6 +6,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft,
@@ -28,6 +29,7 @@ import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
 import ParallaxBackground from '../components/ParallaxBackground';
 import VotingButton from '../components/VotingButton';
+import VoteReasonModal from '../components/VoteReasonModal';
 
 export default function VotingPage() {
   const { voteId } = useParams<{ voteId: string }>();
@@ -46,6 +48,13 @@ export default function VotingPage() {
   const [results, setResults] = useState<VoteResult[]>([]);
   const [showShareModal, setShowShareModal] = useState(false);
   const [voterId] = useState(getVoterId());
+
+  // NEW: Reason collection state
+  const [showReasonModal, setShowReasonModal] = useState(false);
+  const [currentReasonName, setCurrentReasonName] = useState('');
+  const [namesNeedingReasons, setNamesNeedingReasons] = useState<string[]>([]);
+  const [collectedReasons, setCollectedReasons] = useState<Record<string, string>>({});
+  const [collectedReasonTypes, setCollectedReasonTypes] = useState<Record<string, 'preset' | 'custom'>>({});
 
   // Get user info for voter avatars
   const voterName = user?.name || undefined;
@@ -251,27 +260,74 @@ export default function VotingPage() {
   };
 
   /**
-   * Submit vote (NEW: Uses nameVotes for points/votes allocation)
+   * Start reason collection process (NEW: Collects reasons before submitting)
    */
   const handleSubmitVote = async () => {
+    if (!voteId || !voteSession) return;
+
+    // Check if any votes allocated
+    if (totalVotesUsed === 0) {
+      toast.warning('Please allocate at least one vote');
+      return;
+    }
+
+    // Get list of names that were voted for
+    const votedNames = Object.keys(nameVotes).filter(name => nameVotes[name] > 0);
+
+    // Start collecting reasons
+    setNamesNeedingReasons(votedNames);
+    setCollectedReasons({});
+    setCollectedReasonTypes({});
+
+    // Open modal for first name
+    if (votedNames.length > 0) {
+      setCurrentReasonName(votedNames[0]);
+      setShowReasonModal(true);
+    }
+  };
+
+  /**
+   * Handle reason submission from modal (NEW)
+   */
+  const handleReasonSubmit = (reason?: string, reasonType?: 'preset' | 'custom') => {
+    // Save the reason for current name
+    if (reason && reasonType) {
+      setCollectedReasons(prev => ({ ...prev, [currentReasonName]: reason }));
+      setCollectedReasonTypes(prev => ({ ...prev, [currentReasonName]: reasonType }));
+    }
+
+    // Find next name needing reason
+    const currentIndex = namesNeedingReasons.indexOf(currentReasonName);
+    const nextIndex = currentIndex + 1;
+
+    if (nextIndex < namesNeedingReasons.length) {
+      // More names to collect reasons for
+      setCurrentReasonName(namesNeedingReasons[nextIndex]);
+    } else {
+      // All reasons collected, submit the vote
+      setShowReasonModal(false);
+      submitVoteWithReasons();
+    }
+  };
+
+  /**
+   * Submit vote with collected reasons (NEW)
+   */
+  const submitVoteWithReasons = async () => {
     try {
       if (!voteId || !voteSession) return;
 
-      // Check if any votes allocated
-      if (totalVotesUsed === 0) {
-        toast.warning('Please allocate at least one vote');
-        return;
-      }
-
       setSubmitting(true);
 
-      // Submit votes as points (voteService handles both old and new systems)
+      // Submit votes with reasons
       await voteService.submitVote({
         voteId,
-        namePoints: nameVotes, // Use nameVotes as points allocation
+        namePoints: nameVotes,
         voterId,
         voterName,
-        voterAvatar
+        voterAvatar,
+        voteReasons: collectedReasons,
+        reasonTypes: collectedReasonTypes
       });
 
       // Mark as voted in localStorage
@@ -364,7 +420,14 @@ export default function VotingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative">
+    <>
+      <Helmet>
+        <title>Vote on Baby Names - {voteSession?.title || 'Loading'} | SoulSeed</title>
+        <meta name="description" content="Cast your vote and help choose the perfect baby name! Share your preferences in this interactive voting session." />
+        <link rel="canonical" href={`https://soulseedbaby.com/vote/${voteId}`} />
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative">
       <ParallaxBackground />
 
       {/* Header */}
@@ -395,6 +458,45 @@ export default function VotingPage() {
           <h1 className="text-4xl font-bold text-gray-800 mb-3">
             {voteSession.title}
           </h1>
+
+          {/* Voting Question - NEW */}
+          {voteSession.votingQuestion && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-gradient-to-r from-purple-100 via-pink-100 to-blue-100 rounded-xl p-6 mb-6 border-2 border-purple-200"
+            >
+              <div className="flex items-start space-x-4">
+                {voteSession.questionEmoji && (
+                  <motion.span
+                    className="text-5xl flex-shrink-0"
+                    animate={{
+                      scale: [1, 1.1, 1],
+                      rotate: [0, 5, -5, 0]
+                    }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      repeatType: 'reverse'
+                    }}
+                  >
+                    {voteSession.questionEmoji}
+                  </motion.span>
+                )}
+                <div className="flex-1">
+                  <h2 className="text-2xl font-bold text-gray-800 leading-tight">
+                    {voteSession.votingQuestion}
+                  </h2>
+                  {voteSession.questionType === 'custom' && (
+                    <p className="text-sm text-gray-600 mt-2 italic">
+                      Custom question from {voteSession.createdByName}
+                    </p>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          )}
 
           {voteSession.description && (
             <p className="text-lg text-gray-600 mb-6">
@@ -429,10 +531,10 @@ export default function VotingPage() {
               {voteSession.pointsPerVoter ? (
                 <>
                   <p className="font-semibold text-gray-800">
-                    👉 You have {voteSession.pointsPerVoter} points to distribute!
+                    👉 You have {voteSession.pointsPerVoter} votes to distribute!
                   </p>
                   <p className="text-sm text-gray-600 mt-1">
-                    Allocate points to your favorite names. You can give all points to one name or spread them across multiple!
+                    Allocate votes to your favorite names. You can give all votes to one name or spread them across multiple!
                   </p>
                 </>
               ) : (
@@ -689,6 +791,21 @@ export default function VotingPage() {
         voteId={voteId || ''}
         title={voteSession.title}
       />
+
+      {/* Vote Reason Modal - NEW */}
+      <VoteReasonModal
+        isOpen={showReasonModal}
+        nameName={currentReasonName}
+        onSubmit={handleReasonSubmit}
+        onClose={() => {
+          // Cancel reason collection
+          setShowReasonModal(false);
+          setNamesNeedingReasons([]);
+          setCollectedReasons({});
+          setCollectedReasonTypes({});
+        }}
+      />
     </div>
+    </>
   );
 }

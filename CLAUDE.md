@@ -27,13 +27,38 @@ SoulSeed - Where your baby name blooms. A comprehensive React TypeScript app wit
 
 ### Development
 ```bash
-npm start              # Start dev server at http://localhost:3000/babyname2
+npm start              # Start dev server at http://localhost:3000
                        # (use --legacy-peer-deps if install issues with React 19)
-                       # (NODE_OPTIONS='--max-old-space-size=1024' set in package.json)
-npm run build          # Production build for GitHub Pages deployment
+                       # (NODE_OPTIONS='--max-old-space-size=2048' set in package.json)
+npm run build          # Production build
 npm run lint           # Run ESLint on codebase
 npm test               # Run test suite (Note: No tests currently written)
-npm run deploy         # Deploy to GitHub Pages (amirchason.github.io/babyname2)
+```
+
+### 🚀 Deployment (VERCEL - FASTEST!)
+**CRITICAL**: Default deployment is now VERCEL (10-30 second deploys!)
+
+**Primary Deployment Commands**:
+```bash
+npm run deploy         # Deploy to Vercel PRODUCTION (soulseedbaby.com)
+npm run ship           # Same as deploy (quick alias)
+npm run deploy:preview # Deploy to Vercel PREVIEW (test before production)
+```
+
+**Live Domains** (All redirect to soulseedbaby.com):
+- ✅ **Primary**: https://soulseedbaby.com
+- ✅ soulseed.baby → redirects to primary
+- ✅ soulseedapp.com → redirects to primary
+- ✅ soulseedbaby.app → redirects to primary
+
+**Deployment Speed**:
+- Vercel: 10-30 seconds (DEFAULT)
+- GitHub Pages: 2-3 minutes (legacy, use `npm run deploy:github`)
+
+**Legacy GitHub Pages** (DO NOT USE unless specifically needed):
+```bash
+npm run deploy:github  # Old GitHub Pages deploy (SLOW - 2-3 mins)
+                       # URL: amirchason.github.io/babyname2
 ```
 
 ### 📦 Backup (Default Location)
@@ -88,21 +113,26 @@ node compareModelQuality.js      # Compare AI model output quality
 node cleanDatabase.js            # Clean and validate database entries
 ```
 
-### 🚀 Hot Deployment (Continuous Deployment)
-Auto-deployment via GitHub Actions (`.github/workflows/deploy.yml`):
-- **Trigger**: Push to `master` or `main` branch (AUTOMATIC!)
-- **Deploy Action**: JamesIves/github-pages-deploy-action@v4
-- **CI**: false (ignores build warnings)
-- **Live in**: ~2-3 minutes after push
+### ⚡ Vercel Configuration
+The app is configured for Vercel with:
+- **Build Command**: `npm run build` (auto-detected by Vercel)
+- **Output Directory**: `build/` (Create React App default)
+- **Framework**: Create React App (auto-detected)
+- **Public URL**: `/` (root domain, NO basename needed!)
+- **Environment Variables**: Synced from `.env` file
+- **Redirects**: All domains → soulseedbaby.com (see `vercel.json`)
 
-**Quick deploy commands**:
-```bash
-npm run ship              # Quick deploy with auto timestamp
-npm run ship-msg          # Deploy with custom commit message
-./quick-deploy.sh         # Interactive deploy script
-```
+**Vercel Features Enabled**:
+- ✅ **Edge Network**: Global CDN for instant load times
+- ✅ **Automatic HTTPS**: SSL certificates for all domains
+- ✅ **Preview Deployments**: Every push gets a preview URL
+- ✅ **Analytics**: Built-in performance monitoring
+- ✅ **Instant Rollbacks**: One-click revert to previous versions
 
-See `DEPLOYMENT.md` for full hot deployment guide.
+**Git Integration** (Optional - GitHub Actions disabled):
+- Vercel can auto-deploy on git push (currently manual deploys only)
+- To enable: Link GitHub repo in Vercel dashboard
+- Alternative: Use `npm run ship-msg` to commit + deploy in one command
 
 ## Architecture & Key Concepts
 
@@ -202,8 +232,9 @@ The app uses **Firebase** for cloud sync and authentication:
 - `AdminBadge.tsx` - Admin status badge display
 
 ### Routing
-- **Uses React Router v7.9** (latest version, NOT v6 as README states!) with basename `/babyname2`
-- Same basename for both dev and production
+- **Uses React Router v7.9** (latest version, NOT v6 as README states!)
+- **Vercel**: basename `/` (root domain - no subpath needed)
+- **Legacy GitHub Pages**: basename `/babyname2` (if ever needed)
 - All routes wrapped in `<AuthProvider>` and `<ToastProvider>`
 - Routes defined in `App.tsx`
 
@@ -320,12 +351,33 @@ REACT_APP_ACCENT_COLOR=#B3D9FF    # Light blue
 
 ## MCP Server Integration
 
-**Active MCP Servers** (Model Context Protocol):
+**ORC (Orchestrator)** - Unified MCP Agent Coordinator:
+- **What**: 1MCP agent that routes ALL requests to appropriate MCP tools
+- **Status**: ✅ ACTIVE and configured
+- **Command**: `orc` or `/orc` in Claude Code
+- **Config**: `~/AppData/Roaming/1mcp/mcp.json`
+
+**Active MCP Servers** (6 total, all routed through ORC):
 - **filesystem**: File system operations (read/write, directories)
 - **memory**: Knowledge graph for persistent memory across sessions
 - **sequential-thinking**: Step-by-step reasoning and problem solving
+- **ahrefs**: SEO analytics and insights
+- **ref**: Documentation search and reference
+- **vercel**: Deployment management
 
-See **MCP_SETUP.md** for complete setup guide, platform limitations, and how to add more servers.
+**ORC Commands**:
+```bash
+orc           # Start orchestrator
+orc-list      # List all MCP servers
+orc-config    # Edit configuration
+orc-test      # Test integration
+orc-dev       # Dev tools only (filesystem, memory, thinking)
+orc-deploy    # Deployment tools only (vercel)
+orc-seo       # SEO tools only (ahrefs)
+orc-docs      # Documentation tools only (ref)
+```
+
+See **MCP_SETUP.md** for complete setup guide, **ORC_ORCHESTRATOR.md** for orchestrator details.
 
 **Platform Note**: Running on Termux/Android - only npm-based MCPs work (Python/Chrome-based MCPs incompatible).
 
@@ -333,7 +385,12 @@ See **MCP_SETUP.md** for complete setup guide, platform limitations, and how to 
 
 **Important**: Always check `SESSION_LOG.md` FIRST for recent changes and context!
 
-Other key docs in the repository:
+### Deployment Docs (VERCEL)
+- **QUICK_DEPLOY.md** - Quick reference card for deploying to Vercel
+- **VERCEL_DEPLOYMENT_GUIDE.md** - Complete Vercel deployment guide
+- **vercel.json** - Vercel configuration (redirects, headers, rewrites)
+
+### Other Key Docs
 - **SESSION_LOG.md** - Detailed recent session notes and changes
 - **LIST1_MODE_REFERENCE.md** - Quick reference for LIST1 MODE (homepage list/filter system)
 - **docs/LIST_MODES.md** - Comprehensive LIST1 MODE documentation (for adding list2, list3, etc.)
@@ -388,3 +445,6 @@ Other key docs in the repository:
 
 ---
 *Last updated: 2025-10-05*
+- make sure thay when i say deploy ,its automaticly deploy to vercel
+- remember to deploy to vercel after each change
+- when refering nameprofile - we r refering all nameprofiles from all user journeyes to the same nameprofile. when changing name profile - make sure all nameprofiles fr9m all user journeys are changed.

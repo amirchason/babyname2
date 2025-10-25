@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Heart, Home, Trash2, Baby, Grid3x3, List, Share2, ArrowUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
@@ -253,7 +254,7 @@ const FavoritesPage: React.FC = () => {
       return;
     }
 
-    setShowCreateVoteModal(true);
+    navigate('/create-vote');
   };
 
   const handleVoteCreated = (voteId: string) => {
@@ -263,8 +264,16 @@ const FavoritesPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
-      {/* AppHeader with consistent counters */}
+    <>
+      <Helmet>
+        <title>My Favorite Baby Names | SoulSeed</title>
+        <meta name="description" content="View and manage your favorite baby names at SoulSeed. Save, organize, and share your curated list of meaningful names for your baby." />
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="canonical" href="https://soulseedbaby.com/favorites" />
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+        {/* AppHeader with consistent counters */}
       <AppHeader title="SoulSeed" showBackButton={true} />
 
       {/* Page-specific actions bar - Sticky below header */}
@@ -552,17 +561,7 @@ const FavoritesPage: React.FC = () => {
       {selectedName && (
         <NameDetailModal
           name={selectedName}
-          names={favoriteNames}
-          currentIndex={selectedIndex}
           onClose={() => setSelectedName(null)}
-          onNavigate={(newIndex) => {
-            if (newIndex >= 0 && newIndex < favoriteNames.length) {
-              setSelectedName(favoriteNames[newIndex]);
-              setSelectedIndex(newIndex);
-            }
-          }}
-          onFavoriteToggle={handleRefresh}
-          onDislikeToggle={handleRefresh}
         />
       )}
 
@@ -595,6 +594,7 @@ const FavoritesPage: React.FC = () => {
         title="Help me choose a baby name!"
       />
     </div>
+    </>
   );
 };
 

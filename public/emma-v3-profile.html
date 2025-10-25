@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma - Name Profile | SoulSeed</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #ffeef8 0%, #fff0f5 50%, #f0e6ff 100%);
+      min-height: 100vh;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      min-height: 100vh;
+      box-shadow: 0 0 60px rgba(216, 178, 242, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Floating particles background */
+    .particles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .particle {
+      position: absolute;
+      background: radial-gradient(circle, rgba(216, 178, 242, 0.4), transparent);
+      border-radius: 50%;
+      animation: float 15s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) translateX(0) scale(1); opacity: 0.3; }
+      50% { transform: translateY(-100px) translateX(50px) scale(1.2); opacity: 0.6; }
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero section */
+    .hero {
+      background: linear-gradient(135deg, #D8B2F2 0%, #FFB3D9 100%);
+      padding: 60px 24px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+      animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .name-title {
+      font-size: 56px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 8px;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      animation: slideDown 0.6s ease-out;
+      position: relative;
+      z-index: 2;
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .pronunciation {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 16px;
+      font-style: italic;
+      animation: slideDown 0.6s ease-out 0.1s backwards;
+    }
+
+    .origin-badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(10px);
+      padding: 8px 20px;
+      border-radius: 20px;
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      animation: slideDown 0.6s ease-out 0.2s backwards;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /* Stats grid */
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      padding: 24px;
+      background: white;
+    }
+
+    .stat-card {
+      background: linear-gradient(135deg, #ffeef8, #fff0f5);
+      padding: 20px;
+      border-radius: 16px;
+      text-align: center;
+      animation: popIn 0.5s ease-out backwards;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(216, 178, 242, 0.2);
+    }
+
+    .stat-card:nth-child(1) { animation-delay: 0.3s; }
+    .stat-card:nth-child(2) { animation-delay: 0.4s; }
+
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .stat-card:active {
+      transform: scale(0.95);
+    }
+
+    .stat-icon {
+      width: 50px;
+      height: 50px;
+      margin: 0 auto 12px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #D8B2F2, #c084fc);
+      box-shadow: 0 4px 12px rgba(216, 178, 242, 0.4);
+    }
+
+    .stat-icon svg {
+      width: 28px;
+      height: 28px;
+      fill: white;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    }
+
+    /* Baby GIF container */
+    .baby-icon {
+      background: transparent !important;
+      box-shadow: none !important;
+      padding: 0;
+      overflow: hidden;
+      animation: gentleBounce 3s ease-in-out infinite;
+    }
+
+    .baby-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    @keyframes gentleBounce {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+
+    /* Sparkle animation for meaning icon */
+    .meaning-icon {
+      animation: sparkle 3s ease-in-out infinite;
+    }
+
+    @keyframes sparkle {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      50% { transform: scale(1.1) rotate(180deg); }
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: #9333ea;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #7c3aed;
+    }
+
+    /* Section styles */
+    .section {
+      padding: 20px 24px;
+      animation: fadeIn 0.6s ease-out backwards;
+    }
+
+    .section:nth-child(3) { animation-delay: 0.5s; }
+    .section:nth-child(4) { animation-delay: 0.6s; }
+    .section:nth-child(5) { animation-delay: 0.7s; }
+    .section:nth-child(6) { animation-delay: 0.8s; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #7c3aed;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* macOS 2025 Style Flat Pastel Icons */
+    .section-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--icon-bg);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      animation: floaty 4s ease-in-out infinite;
+      position: relative;
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
+    }
+
+    .section-icon:active {
+      transform: scale(0.95);
+    }
+
+    .section-icon svg {
+      width: 22px;
+      height: 22px;
+      fill: white;
+      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-2px); }
+    }
+
+    /* macOS Pastel Color Progression */
+    .icon-1 { --icon-bg: linear-gradient(135deg, #d4a5f9, #c084fc); }  /* Soft Purple */
+    .icon-2 { --icon-bg: linear-gradient(135deg, #ddb3ff, #d8b4fe); }  /* Lavender */
+    .icon-3 { --icon-bg: linear-gradient(135deg, #e9d5ff, #f3e8ff); }  /* Pale Purple */
+    .icon-4 { --icon-bg: linear-gradient(135deg, #fce7f3, #fbcfe8); }  /* Light Pink */
+    .icon-5 { --icon-bg: linear-gradient(135deg, #fce7f3, #fce7f3); }  /* Soft Pink */
+    .icon-6 { --icon-bg: linear-gradient(135deg, #fecdd3, #fda4af); }  /* Rose Pink */
+    .icon-7 { --icon-bg: linear-gradient(135deg, #fda4af, #fb7185); }  /* Pink */
+    .icon-8 { --icon-bg: linear-gradient(135deg, #fb7185, #f472b6); }  /* Hot Pink */
+    .icon-9 { --icon-bg: linear-gradient(135deg, #f9a8d4, #f0abfc); }  /* Magenta */
+    .icon-10 { --icon-bg: linear-gradient(135deg, #c7d2fe, #a5b4fc); } /* Periwinkle */
+    .icon-11 { --icon-bg: linear-gradient(135deg, #93c5fd, #7dd3fc); } /* Sky Blue */
+
+    .section-content {
+      color: #4b5563;
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    /* Chip list - FIXED 3-COLUMN GRID */
+    .chip-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .chip {
+      background: linear-gradient(135deg, #D8B2F2, #FFB3D9);
+      color: white;
+      padding: 10px 8px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      animation: slideIn 0.4s ease-out backwards;
+      transition: transform 0.2s ease;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.3;
+    }
+
+    .chip:nth-child(1) { animation-delay: 0.6s; }
+    .chip:nth-child(2) { animation-delay: 0.65s; }
+    .chip:nth-child(3) { animation-delay: 0.7s; }
+    .chip:nth-child(4) { animation-delay: 0.75s; }
+    .chip:nth-child(5) { animation-delay: 0.8s; }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    .chip:active {
+      transform: scale(0.95);
+    }
+
+    /* Quote card */
+    .quote-card {
+      background: linear-gradient(135deg, #f0e6ff, #ffeef8);
+      padding: 20px;
+      border-radius: 16px;
+      border-left: 4px solid #D8B2F2;
+      margin-top: 12px;
+      font-style: italic;
+      color: #6b21a8;
+      animation: slideRight 0.6s ease-out backwards;
+      animation-delay: 0.7s;
+    }
+
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(-30px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    /* Fun fact card */
+    .fun-fact {
+      background: linear-gradient(135deg, #FFB3D9, #D8B2F2);
+      padding: 24px;
+      border-radius: 20px;
+      color: white;
+      margin-top: 12px;
+      animation: bounce 0.6s ease-out backwards;
+      animation-delay: 0.8s;
+      box-shadow: 0 8px 24px rgba(216, 178, 242, 0.4);
+    }
+
+    @keyframes bounce {
+      0% { opacity: 0; transform: scale(0.8) translateY(20px); }
+      60% { transform: scale(1.05) translateY(-5px); }
+      100% { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .fun-fact-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .fun-fact-content {
+      font-size: 15px;
+      line-height: 1.6;
+      opacity: 0.95;
+    }
+
+    /* Action buttons */
+    .actions {
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .action-btn {
+      padding: 16px;
+      border: none;
+      border-radius: 16px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      animation: popIn 0.5s ease-out backwards;
+    }
+
+    .action-btn.primary {
+      background: linear-gradient(135deg, #D8B2F2, #7c3aed);
+      color: white;
+      box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+      animation-delay: 0.9s;
+    }
+
+    .action-btn.secondary {
+      background: white;
+      color: #7c3aed;
+      border: 2px solid #D8B2F2;
+      animation-delay: 1s;
+    }
+
+    .action-btn:active {
+      transform: scale(0.95);
+    }
+
+    /* Divider */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #D8B2F2, transparent);
+      margin: 0 24px;
+    }
+
+    /* Song cards */
+    .song-card {
+      background: linear-gradient(135deg, #fff0f5, #ffeef8);
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(216, 178, 242, 0.2);
+      transition: all 0.3s ease;
+      animation: slideUp 0.5s ease-out backwards;
+    }
+
+    .song-card:nth-child(1) { animation-delay: 0.7s; }
+    .song-card:nth-child(2) { animation-delay: 0.8s; }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .song-card:active {
+      transform: scale(0.98);
+      box-shadow: 0 2px 8px rgba(216, 178, 242, 0.3);
+    }
+
+    .song-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .song-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #7c3aed;
+    }
+
+    .song-year {
+      font-size: 12px;
+      color: #9333ea;
+      background: rgba(147, 51, 234, 0.1);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .song-quote {
+      font-size: 14px;
+      color: #6b21a8;
+      font-style: italic;
+      margin-bottom: 10px;
+      line-height: 1.5;
+      padding-left: 12px;
+      border-left: 3px solid #D8B2F2;
+    }
+
+    .youtube-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #7c3aed;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 6px 12px;
+      background: rgba(124, 58, 237, 0.1);
+      border-radius: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .youtube-link:hover {
+      background: rgba(124, 58, 237, 0.2);
+      transform: translateX(2px);
+    }
+
+    .youtube-link:active {
+      transform: scale(0.95);
+    }
+
+    /* Quote cards modern */
+    .quote-card-modern {
+      background: linear-gradient(135deg, #f0e6ff, #ffeef8);
+      padding: 18px;
+      border-radius: 14px;
+      border-left: 4px solid #D8B2F2;
+      animation: slideUp 0.5s ease-out backwards;
+      transition: all 0.3s ease;
+    }
+
+    .quote-card-modern:nth-child(1) { animation-delay: 0.7s; }
+    .quote-card-modern:nth-child(2) { animation-delay: 0.8s; }
+
+    .quote-card-modern:active {
+      transform: scale(0.98);
+    }
+
+    .quote-text {
+      font-size: 15px;
+      color: #6b21a8;
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .quote-author {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .author-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #7c3aed;
+    }
+
+    .author-context {
+      font-size: 12px;
+      color: #9333ea;
+      opacity: 0.8;
+    }
+
+    /* Person cards */
+    .person-card {
+      background: linear-gradient(135deg, #fff8f0, #fff0f5);
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(216, 178, 242, 0.2);
+      transition: all 0.3s ease;
+      animation: slideUp 0.5s ease-out backwards;
+    }
+
+    .person-card:nth-child(1) { animation-delay: 0.7s; }
+    .person-card:nth-child(2) { animation-delay: 0.75s; }
+    .person-card:nth-child(3) { animation-delay: 0.8s; }
+
+    .person-card:active {
+      transform: scale(0.98);
+    }
+
+    .person-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .person-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #7c3aed;
+    }
+
+    .person-profession {
+      font-size: 11px;
+      color: #9333ea;
+      background: rgba(147, 51, 234, 0.1);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .person-known-for {
+      font-size: 13px;
+      color: #6b21a8;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .person-awards {
+      font-size: 12px;
+      color: #9333ea;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .imdb-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #7c3aed;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 6px 12px;
+      background: rgba(124, 58, 237, 0.1);
+      border-radius: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .imdb-link:hover {
+      background: rgba(124, 58, 237, 0.2);
+      transform: translateX(2px);
+    }
+
+    .imdb-link:active {
+      transform: scale(0.95);
+    }
+
+    /* Movie cards */
+    .movie-card {
+      background: linear-gradient(135deg, #ffeef8, #f0e6ff);
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(216, 178, 242, 0.2);
+      transition: all 0.3s ease;
+      animation: slideUp 0.5s ease-out backwards;
+    }
+
+    .movie-card:nth-child(1) { animation-delay: 0.7s; }
+    .movie-card:nth-child(2) { animation-delay: 0.75s; }
+    .movie-card:nth-child(3) { animation-delay: 0.8s; }
+
+    .movie-card:active {
+      transform: scale(0.98);
+    }
+
+    .movie-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      gap: 8px;
+    }
+
+    .movie-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #7c3aed;
+      flex: 1;
+    }
+
+    .movie-genre {
+      font-size: 10px;
+      color: #9333ea;
+      background: rgba(147, 51, 234, 0.1);
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .movie-character {
+      font-size: 13px;
+      color: #6b21a8;
+      margin-bottom: 6px;
+    }
+
+    .movie-description {
+      font-size: 13px;
+      color: #6b21a8;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      font-style: italic;
+    }
+
+    /* Character quote cards */
+    .character-quote-card {
+      background: linear-gradient(135deg, #f0e6ff, #fff0f5);
+      padding: 16px;
+      border-radius: 14px;
+      border-left: 4px solid #D8B2F2;
+      animation: slideUp 0.5s ease-out backwards;
+      transition: all 0.3s ease;
+    }
+
+    .character-quote-card:nth-child(1) { animation-delay: 0.7s; }
+    .character-quote-card:nth-child(2) { animation-delay: 0.75s; }
+
+    .character-quote-card:active {
+      transform: scale(0.98);
+    }
+
+    .character-info {
+      margin-bottom: 8px;
+    }
+
+    .character-name-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #7c3aed;
+    }
+
+    .source-title {
+      font-size: 12px;
+      color: #9333ea;
+      font-style: italic;
+    }
+
+    .quote-summary {
+      font-size: 14px;
+      color: #6b21a8;
+      line-height: 1.6;
+      margin-bottom: 8px;
+    }
+
+    .quote-context {
+      font-size: 12px;
+      color: #9333ea;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Floating particles -->
+    <div class="particles" id="particles"></div>
+
+    <div class="content">
+      <!-- Hero Section -->
+      <div class="hero">
+        <h1 class="name-title">Emma</h1>
+        <p class="pronunciation">ˈɛm.ə</p>
+        <span class="origin-badge">🌍 German</span>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-icon meaning-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/>
+            </svg>
+          </div>
+          <div class="stat-label">Meaning</div>
+          <div class="stat-value">Universal</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon baby-icon" id="babyGifContainer">
+            <!-- Random baby GIF will be loaded here -->
+          </div>
+          <div class="stat-label">Gender</div>
+          <div class="stat-value">Girl</div>
+        </div>
+      </div>
+
+      <!-- Cultural Significance -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-1">
+            <svg viewBox="0 0 24 24"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/></svg>
+          </div>
+          Cultural Significance
+        </h2>
+        <p class="section-content">
+          The name Emma has Germanic roots, derived from the word 'ermen,' meaning whole or universal. It has been a prominent name in various cultures, particularly in English-speaking countries, and has been associated with strong female figures throughout history.
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Modern Context -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-2">
+            <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          Modern Popularity
+        </h2>
+        <p class="section-content">
+          Emma has seen a resurgence in popularity in recent years, often ranking among the top names for girls in many countries, including the United States and the United Kingdom. Its timeless quality and simplicity make it a favorite choice for new parents.
+        </p>
+        <div class="quote-card">
+          "Emma was the most popular name for girls in the United States from 2014 to 2019, showcasing its lasting appeal."
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Literary References -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-3">
+            <svg viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+          </div>
+          Famous Emmas
+        </h2>
+        <p class="section-content">
+          Notable characters include Emma Woodhouse from Jane Austen's novel 'Emma' and Emma Swan from the TV show 'Once Upon a Time.' Famous people named Emma include actress Emma Watson and singer Emma Roberts.
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Compact Pills Section - EXACTLY 9 PILLS (3x3) -->
+      <div class="section" style="padding: 16px 24px;">
+        <h2 class="section-title" style="margin-bottom: 6px;">
+          <div class="section-icon icon-4">
+            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          </div>
+          Personality
+        </h2>
+        <div class="chip-list">
+          <div class="chip">Creative</div>
+          <div class="chip">Empathetic</div>
+          <div class="chip">Strong</div>
+          <div class="chip">Leader</div>
+          <div class="chip">Nurturing</div>
+          <div class="chip">Charming</div>
+          <div class="chip">Intelligent</div>
+          <div class="chip">Caring</div>
+          <div class="chip">Bold</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Nicknames - EXACTLY 9 PILLS (3x3) -->
+      <div class="section" style="padding: 16px 24px;">
+        <h2 class="section-title" style="margin-bottom: 6px;">
+          <div class="section-icon icon-5">
+            <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 9h-2V5h2v6zm0 4h-2v-2h2v2z"/></svg>
+          </div>
+          Nicknames
+        </h2>
+        <div class="chip-list">
+          <div class="chip">Em</div>
+          <div class="chip">Emmy</div>
+          <div class="chip">Emmie</div>
+          <div class="chip">Ems</div>
+          <div class="chip">Emz</div>
+          <div class="chip">Ember</div>
+          <div class="chip">Em-Em</div>
+          <div class="chip">Mimi</div>
+          <div class="chip">Mia</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Variations - EXACTLY 9 PILLS (3x3) -->
+      <div class="section" style="padding: 16px 24px;">
+        <h2 class="section-title" style="margin-bottom: 6px;">
+          <div class="section-icon icon-6">
+            <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+          </div>
+          Related Names
+        </h2>
+        <div class="chip-list">
+          <div class="chip">Emmaline</div>
+          <div class="chip">Emilia</div>
+          <div class="chip">Emily</div>
+          <div class="chip">Ella</div>
+          <div class="chip">Ava</div>
+          <div class="chip">Amelia</div>
+          <div class="chip">Eva</div>
+          <div class="chip">Mia</div>
+          <div class="chip">Ema</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Songs Section -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-7">
+            <svg viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          </div>
+          Songs About Emma
+        </h2>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 12px;">
+          <!-- Song 1 - VERIFIED -->
+          <div class="song-card">
+            <div class="song-header">
+              <div class="song-title">"Emma" by Hot Chocolate</div>
+              <div class="song-year">1974</div>
+            </div>
+            <div class="song-quote">"Emma, Emma, Emma, I'm gonna write your name high on that silver screen"</div>
+            <a href="https://www.youtube.com/results?search_query=Hot+Chocolate+Emma+official" target="_blank" class="youtube-link">
+              🎧 Listen on YouTube
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Famous Quotes Section -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-8">
+            <svg viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+          </div>
+          Quotes by Famous Emmas
+        </h2>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 12px;">
+          <!-- Quote 1 - VERIFIED -->
+          <div class="quote-card-modern">
+            <div class="quote-text">"I think it's important to have a genuine curiosity about the world."</div>
+            <div class="quote-author">
+              <div class="author-name">— Emma Watson</div>
+              <div class="author-context">Actress & Activist (Hermione Granger in Harry Potter)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Famous People Section -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-9">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M12 14c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4z"/></svg>
+          </div>
+          Famous People Named Emma
+        </h2>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 12px;">
+          <!-- Person 1 -->
+          <div class="person-card">
+            <div class="person-header">
+              <div class="person-name">Emma Watson</div>
+              <div class="person-profession">Actress</div>
+            </div>
+            <div class="person-known-for">
+              <span style="font-weight: 600; font-size: 12px; color: #7c3aed;">Known for:</span> Harry Potter Series, Beauty and the Beast, Little Women
+            </div>
+            <div class="person-awards">🏆 MTV Movie Awards, Teen Choice Awards</div>
+            <a href="https://www.imdb.com/find/?q=Emma+Watson" target="_blank" class="imdb-link">
+              🎬 View on IMDB
+            </a>
+          </div>
+          <!-- Person 2 -->
+          <div class="person-card">
+            <div class="person-header">
+              <div class="person-name">Emma Stone</div>
+              <div class="person-profession">Actress</div>
+            </div>
+            <div class="person-known-for">
+              <span style="font-weight: 600; font-size: 12px; color: #7c3aed;">Known for:</span> La La Land, Easy A, The Help
+            </div>
+            <div class="person-awards">🏆 Academy Award for Best Actress</div>
+            <a href="https://www.imdb.com/find/?q=Emma+Stone" target="_blank" class="imdb-link">
+              🎬 View on IMDB
+            </a>
+          </div>
+          <!-- Person 3 -->
+          <div class="person-card">
+            <div class="person-header">
+              <div class="person-name">Emma Thompson</div>
+              <div class="person-profession">Actress</div>
+            </div>
+            <div class="person-known-for">
+              <span style="font-weight: 600; font-size: 12px; color: #7c3aed;">Known for:</span> Sense and Sensibility, Love Actually, Nanny McPhee
+            </div>
+            <div class="person-awards">🏆 Academy Award, BAFTA Awards</div>
+            <a href="https://www.imdb.com/find/?q=Emma+Thompson" target="_blank" class="imdb-link">
+              🎬 View on IMDB
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Movies & Shows Section -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-10">
+            <svg viewBox="0 0 24 24"><path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/></svg>
+          </div>
+          Movies & Shows with Emma
+        </h2>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 12px;">
+          <!-- Movie 1 -->
+          <div class="movie-card">
+            <div class="movie-header">
+              <div class="movie-title">Emma (2020)</div>
+              <div class="movie-genre">Comedy, Drama, Romance</div>
+            </div>
+            <div class="movie-character">
+              <strong>Character:</strong> Emma Woodhouse
+            </div>
+            <div class="movie-description">
+              A young woman who enjoys matchmaking and meddling in others' lives.
+            </div>
+            <a href="https://www.imdb.com/title/tt9214832/" target="_blank" class="imdb-link">
+              🎬 View on IMDB
+            </a>
+          </div>
+          <!-- Show 2 -->
+          <div class="movie-card">
+            <div class="movie-header">
+              <div class="movie-title">Once Upon a Time (2011)</div>
+              <div class="movie-genre">Adventure, Fantasy, Romance</div>
+            </div>
+            <div class="movie-character">
+              <strong>Character:</strong> Emma Swan
+            </div>
+            <div class="movie-description">
+              A bail bondswoman who discovers her fairy tale origins.
+            </div>
+            <a href="https://www.imdb.com/title/tt1843230/" target="_blank" class="imdb-link">
+              🎬 View on IMDB
+            </a>
+          </div>
+          <!-- Show 3 -->
+          <div class="movie-card">
+            <div class="movie-header">
+              <div class="movie-title">Friends (1994)</div>
+              <div class="movie-genre">Comedy, Romance</div>
+            </div>
+            <div class="movie-character">
+              <strong>Character:</strong> Emma Geller-Green
+            </div>
+            <div class="movie-description">
+              The daughter of Ross Geller and Rachel Green.
+            </div>
+            <a href="https://www.imdb.com/title/tt0108778/" target="_blank" class="imdb-link">
+              🎬 View on IMDB
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Character Quotes Section -->
+      <div class="section">
+        <h2 class="section-title">
+          <div class="section-icon icon-11">
+            <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zm-10-7h9v6h-9z"/></svg>
+          </div>
+          Memorable Character Moments
+        </h2>
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 12px;">
+          <!-- Quote 1 -->
+          <div class="character-quote-card">
+            <div class="character-info">
+              <div class="character-name-title">Emma Woodhouse</div>
+              <div class="source-title">from Emma</div>
+            </div>
+            <div class="quote-summary">
+              She realizes her meddling has caused more harm than good, leading to personal growth.
+            </div>
+            <div class="quote-context">
+              💡 This moment marks Emma's transformation and maturity.
+            </div>
+          </div>
+          <!-- Quote 2 -->
+          <div class="character-quote-card">
+            <div class="character-info">
+              <div class="character-name-title">Emma Swan</div>
+              <div class="source-title">from Once Upon a Time</div>
+            </div>
+            <div class="quote-summary">
+              Emma embraces her role as the savior, accepting her destiny to protect her family and town.
+            </div>
+            <div class="quote-context">
+              💡 Highlights her journey from disbelief to acceptance of her magical heritage.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- Fun Fact -->
+      <div class="section">
+        <div class="fun-fact">
+          <div class="fun-fact-title">
+            <span>🎉</span>
+            Fun Fact
+          </div>
+          <div class="fun-fact-content">
+            Emma was the most popular name for girls in the United States from 2014 to 2019, showcasing its lasting appeal.
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="actions">
+        <button class="action-btn primary" onclick="addToFavorites()">
+          <span>❤️</span>
+          Add to Favorites
+        </button>
+        <button class="action-btn secondary" onclick="shareProfile()">
+          <span>🔗</span>
+          Share
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Load random baby GIF
+    function loadRandomBabyGif() {
+      const totalGifs = 16; // We have 16 optimized baby GIFs
+      const randomNum = Math.floor(Math.random() * totalGifs) + 1;
+      const gifPath = `file:///data/data/com.termux/files/home/proj/babyname2/public/assets/baby-gifs/baby-${randomNum}.gif`;
+
+      const container = document.getElementById('babyGifContainer');
+      const img = document.createElement('img');
+      img.src = gifPath;
+      img.alt = 'Cute baby animation';
+      img.onerror = function() {
+        console.error('Failed to load:', gifPath);
+        // Fallback to emoji if GIF fails
+        container.innerHTML = '<span style="font-size: 32px;">👶</span>';
+      };
+      img.style.animation = 'fadeIn 0.5s ease-out';
+
+      container.appendChild(img);
+
+      console.log('Loading baby GIF:', gifPath);
+    }
+
+    // Load GIF on page load
+    loadRandomBabyGif();
+
+    // Generate floating particles
+    const particlesContainer = document.getElementById('particles');
+    for (let i = 0; i < 15; i++) {
+      const particle = document.createElement('div');
+      particle.className = 'particle';
+      particle.style.width = Math.random() * 100 + 50 + 'px';
+      particle.style.height = particle.style.width;
+      particle.style.left = Math.random() * 100 + '%';
+      particle.style.top = Math.random() * 100 + '%';
+      particle.style.animationDelay = Math.random() * 5 + 's';
+      particle.style.animationDuration = Math.random() * 10 + 10 + 's';
+      particlesContainer.appendChild(particle);
+    }
+
+    function addToFavorites() {
+      alert('❤️ Emma added to your favorites!');
+    }
+
+    function shareProfile() {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Emma - Name Profile',
+          text: 'Check out this beautiful name profile for Emma on SoulSeed!',
+          url: window.location.href
+        });
+      } else {
+        alert('🔗 Share link copied to clipboard!');
+      }
+    }
+  </script>
+</body>
+</html>

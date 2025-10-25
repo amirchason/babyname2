@@ -132,7 +132,7 @@ const SitemapPage: React.FC = () => {
               <div className="text-xs text-gray-600">Total Pages</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-purple-600">174k+</div>
+              <div className="text-2xl font-bold text-purple-600">150k+</div>
               <div className="text-xs text-gray-600">Names</div>
             </div>
             <div className="text-center">

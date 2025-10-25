@@ -310,6 +310,9 @@ export default function BlogPostPage() {
         <meta name="twitter:title" content={post.seo?.metaTitle || post.title} />
         <meta name="twitter:description" content={post.seo?.metaDescription || post.excerpt || ''} />
 
+        {/* Canonical URL */}
+        <link rel="canonical" href={`https://soulseedbaby.com/blog/${slug}`} />
+
         {/* JSON-LD Schema */}
         {post.seo?.schema && (
           <script type="application/ld+json">

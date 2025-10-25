@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma - V3.0 Enhanced | SoulSeed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Glassmorphism card */
+        .glass {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .glass-strong {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Icon sizing */
+        .icon-sm {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Badge */
+        .badge-new {
+            display: inline-flex;
+            align-items: center;
+            padding: 2px 8px;
+            background: rgba(16, 185, 129, 0.9);
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Tag pills */
+        .tag {
+            display: inline-block;
+            padding: 6px 14px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #6b46c1;
+            font-size: 13px;
+            font-weight: 600;
+            border-radius: 9999px;
+            margin: 4px;
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Sticky Header -->
+    <div class="sticky top-0 z-50 glass-strong shadow-2xl">
+        <div class="flex items-center justify-between px-4 py-3 max-w-2xl mx-auto">
+            <a href="/" class="flex items-center justify-center w-10 h-10 rounded-full hover:bg-white/20 transition-all">
+                <svg class="icon-sm text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                </svg>
+            </a>
+            <h1 class="text-lg font-bold text-white">SoulSeed</h1>
+            <div class="w-10"></div>
+        </div>
+    </div>
+
+    <!-- Name Hero -->
+    <div class="px-4 py-6 text-center">
+        <h2 class="text-5xl font-bold text-white mb-2 drop-shadow-lg">Emma</h2>
+        <span class="badge-new">✨ V3.0 Enhanced</span>
+    </div>
+
+    <!-- Content Container -->
+    <div class="px-4 pb-8 space-y-4 max-w-2xl mx-auto">
+
+        <!-- Pronunciation (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">1</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Pronunciation</h3>
+                <span class="badge-new">New</span>
+            </div>
+            <p class="text-3xl font-bold text-white mb-1">EM-uh</p>
+            <p class="text-sm text-white/80">2 syllables • Em-ma</p>
+        </div>
+
+        <!-- Origin -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">2</span>
+                <svg class="icon-sm text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Origin</h3>
+            </div>
+            <p class="text-sm text-white/90 leading-relaxed">
+                The name Emma has its roots in the Germanic word 'ermen', meaning 'whole' or 'universal'. Popularized by the Normans in England, it gained prominence through Emma of Normandy (11th century Queen) and Jane Austen's novel 'Emma' (1815). Today it ranks among the top names in the US, UK, and worldwide.
+            </p>
+        </div>
+
+        <!-- Nicknames -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <h3 class="text-lg font-bold text-white mb-3 flex items-center gap-2">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-xs font-bold">3</span>
+                Nicknames
+            </h3>
+            <div class="flex flex-wrap gap-2">
+                <span class="tag">Em</span>
+                <span class="tag">Emmy</span>
+                <span class="tag">Emmie</span>
+                <span class="tag">Ems</span>
+                <span class="tag">Ema</span>
+                <span class="tag">Emz</span>
+                <span class="tag">Mimi</span>
+            </div>
+        </div>
+
+        <!-- Similar Names (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">4</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Similar Names</h3>
+                <span class="badge-new">New</span>
+            </div>
+
+            <div class="space-y-3">
+                <div>
+                    <p class="text-xs font-bold text-white/70 mb-2">GIRLS</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">Ella</span>
+                        <span class="tag">Ava</span>
+                        <span class="tag">Sophia</span>
+                        <span class="tag">Olivia</span>
+                        <span class="tag">Isabella</span>
+                        <span class="tag">Mia</span>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-xs font-bold text-white/70 mb-2">BOYS</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">Emmett</span>
+                        <span class="tag">Eli</span>
+                        <span class="tag">Ethan</span>
+                        <span class="tag">Evan</span>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-xs font-bold text-white/70 mb-2">UNISEX</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="tag">Emery</span>
+                        <span class="tag">Emerson</span>
+                        <span class="tag">Elliot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sibling Names (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">5</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Perfect Siblings</h3>
+                <span class="badge-new">New</span>
+            </div>
+
+            <div class="space-y-3">
+                <div>
+                    <p class="text-xs font-bold text-white/70 mb-2">SISTERS</p>
+                    <p class="text-sm text-white/90">Olivia • Sophia • Ava • Lily • Isabella • Mia • Grace • Charlotte</p>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-white/70 mb-2">BROTHERS</p>
+                    <p class="text-sm text-white/90">Liam • Noah • James • Lucas • Mason • Ethan • Logan • Oliver</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Names (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">6</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Middle Names</h3>
+                <span class="badge-new">New</span>
+            </div>
+
+            <div class="space-y-2">
+                <div>
+                    <p class="text-xs font-bold text-white/70">CLASSIC</p>
+                    <p class="text-sm text-white/90">Emma Grace • Emma Rose • Emma Marie</p>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-white/70">MODERN</p>
+                    <p class="text-sm text-white/90">Emma Quinn • Emma Sage • Emma Riley</p>
+                </div>
+                <div>
+                    <p class="text-xs font-bold text-white/70">UNIQUE</p>
+                    <p class="text-sm text-white/90">Emma Celestine • Emma Juniper • Emma Seraphina</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Historical -->
+        <div class="glass rounded-2xl p-4 shadow-xl">
+            <div class="flex items-start gap-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold">7</span>
+                <span class="text-2xl">👑</span>
+                <div>
+                    <p class="text-xs font-bold text-white/70 mb-1">HISTORICAL</p>
+                    <h4 class="font-bold text-white mb-1">Emma of Normandy</h4>
+                    <p class="text-xs text-white/80">Queen consort of England, Denmark, and Norway</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Celebrities -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <h3 class="text-lg font-bold text-white mb-3 flex items-center gap-2">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-xs font-bold">8</span>
+                <svg class="icon-sm" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                Celebrities
+            </h3>
+            <div class="space-y-2">
+                <div>
+                    <h4 class="font-bold text-white text-sm">Emma Watson</h4>
+                    <p class="text-xs text-white/80">Hermione in Harry Potter</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm">Emma Stone</h4>
+                    <p class="text-xs text-white/80">Academy Award winner (La La Land)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pop Culture (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">9</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Pop Culture</h3>
+                <span class="badge-new">New</span>
+            </div>
+            <div class="space-y-2">
+                <div>
+                    <h4 class="font-bold text-white text-sm">Emma Swan</h4>
+                    <p class="text-xs text-white/70">Once Upon a Time</p>
+                    <p class="text-xs text-white/80 mt-1">The Savior who breaks the curse</p>
+                </div>
+                <div class="mt-3">
+                    <h4 class="font-bold text-white text-sm">Emma Woodhouse</h4>
+                    <p class="text-xs text-white/70">Emma by Jane Austen</p>
+                    <p class="text-xs text-white/80 mt-1">Classic matchmaker character</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- International (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">10</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z" clip-rule="evenodd"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Worldwide</h3>
+                <span class="badge-new">New</span>
+            </div>
+            <div class="grid grid-cols-3 gap-2">
+                <div class="text-center glass-strong rounded-lg p-2">
+                    <p class="text-xs text-white/70">French</p>
+                    <p class="font-bold text-white text-sm">Emma</p>
+                </div>
+                <div class="text-center glass-strong rounded-lg p-2">
+                    <p class="text-xs text-white/70">Spanish</p>
+                    <p class="font-bold text-white text-sm">Ema</p>
+                </div>
+                <div class="text-center glass-strong rounded-lg p-2">
+                    <p class="text-xs text-white/70">Italian</p>
+                    <p class="font-bold text-white text-sm">Emma</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cultural Significance (NEW) -->
+        <div class="glass rounded-2xl p-5 shadow-xl">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="flex items-center justify-center w-6 h-6 rounded-full bg-white/30 text-white text-xs font-bold mr-1">11</span>
+                <svg class="icon-sm text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+                </svg>
+                <h3 class="text-lg font-bold text-white">Cultural Impact</h3>
+                <span class="badge-new">New</span>
+            </div>
+            <p class="text-sm text-white/90 leading-relaxed">
+                Emma transcends cultural boundaries with elegance and simplicity. Immortalized by Jane Austen's novel and bolstered by modern icons like Emma Watson and Emma Stone, it consistently ranks among top baby names worldwide—a testament to its universal charm.
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="glass-strong rounded-2xl p-6 text-center shadow-xl">
+            <div class="badge-new mb-3">✨ V3.0 Verified</div>
+            <p class="text-xs text-white/80 mb-4">
+                Multi-source fact-checked<br>
+                GPT-4o + Wikipedia + MusicBrainz
+            </p>
+            <a href="/" class="inline-flex items-center gap-2 px-5 py-2 bg-white/90 text-purple-700 rounded-xl font-bold text-sm hover:bg-white transition-all shadow-lg">
+                <svg class="icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                </svg>
+                Back to SoulSeed
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>

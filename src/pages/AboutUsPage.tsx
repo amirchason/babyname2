@@ -1,22 +1,23 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Heart, Sparkles, Users, Target, ArrowRight } from 'lucide-react';
 
 const AboutUsPage: React.FC = () => {
   useEffect(() => {
-    // SEO: Set page title and meta description
-    document.title = 'About SoulSeed - Where Your Baby Name Blooms | Our Mission';
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Discover the story behind SoulSeed, the leading baby name app with 224,000+ unique names. Learn about our mission to help expecting parents find the perfect name for their baby.');
-    }
-
     // Scroll to top
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <Helmet>
+        <title>About SoulSeed - Where Your Baby Name Blooms | Our Mission</title>
+        <meta name="description" content="Discover the story behind SoulSeed, the leading baby name app with 146,000+ unique names. Learn about our mission to help expecting parents find the perfect name for their baby." />
+        <link rel="canonical" href="https://soulseedbaby.com/about" />
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 text-white">
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -60,7 +61,7 @@ const AboutUsPage: React.FC = () => {
                   <strong className="text-purple-600">SoulSeed was born from this beautiful journey.</strong> We understand that naming your baby is one of the most meaningful decisions you'll ever make. That's why we've created more than just a baby name app - we've built a sanctuary where your baby's name can bloom.
                 </p>
                 <p>
-                  With over <strong>224,000 unique baby names</strong> from cultures around the world, comprehensive meanings and origins, and AI-powered personalized suggestions, SoulSeed helps expecting parents discover names that truly resonate with their soul.
+                  With over <strong>146,000 unique baby names</strong> from cultures around the world, comprehensive meanings and origins, and AI-powered personalized suggestions, SoulSeed helps expecting parents discover names that truly resonate with their soul.
                 </p>
               </div>
             </div>
@@ -70,7 +71,7 @@ const AboutUsPage: React.FC = () => {
                   <div className="text-center p-8">
                     <Sparkles className="w-24 h-24 mx-auto mb-6 text-purple-500" />
                     <p className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
-                      224K+
+                      146K+
                     </p>
                     <p className="text-xl text-gray-600 mt-2">
                       Unique Baby Names
@@ -137,7 +138,7 @@ const AboutUsPage: React.FC = () => {
                   </div>
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg text-gray-900 mb-2">224,000+ Unique Names</h4>
+                  <h4 className="font-bold text-lg text-gray-900 mb-2">146,000+ Unique Names</h4>
                   <p className="text-gray-700">The most comprehensive baby name database with names from every culture and origin.</p>
                 </div>
               </div>
@@ -237,12 +238,12 @@ const AboutUsPage: React.FC = () => {
           "@context": "https://schema.org",
           "@type": "AboutPage",
           "name": "About SoulSeed - Where Your Baby Name Blooms",
-          "description": "Discover the story behind SoulSeed, the leading baby name app with 224,000+ unique names. Learn about our mission to help expecting parents find the perfect name.",
+          "description": "Discover the story behind SoulSeed, the leading baby name app with 146,000+ unique names. Learn about our mission to help expecting parents find the perfect name.",
           "url": "https://soulseedbaby.com/about",
           "mainEntity": {
             "@type": "Organization",
             "name": "SoulSeed",
-            "description": "The leading baby name discovery platform with 224,000+ unique names, AI-powered suggestions, and personalized recommendations for expecting parents.",
+            "description": "The leading baby name discovery platform with 146,000+ unique names, AI-powered suggestions, and personalized recommendations for expecting parents.",
             "url": "https://soulseedbaby.com",
             "logo": "https://soulseedbaby.com/logo.png",
             "sameAs": [
@@ -257,6 +258,7 @@ const AboutUsPage: React.FC = () => {
         })}
       </script>
     </div>
+    </>
   );
 };
 

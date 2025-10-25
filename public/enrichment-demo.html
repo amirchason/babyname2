@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma - Enriched Name Profile Demo | SoulSeed</title>
+    <meta name="description" content="See the beautiful enriched name profile with AI-generated content">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #D8B2F2 0%, #FFB3D9 50%, #B3D9FF 100%);
+        }
+
+        .card {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .section-header {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .section-header::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 80%;
+            background: linear-gradient(180deg, #D8B2F2, #FFB3D9);
+            border-radius: 2px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .celebrity-card, .song-card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .celebrity-card:hover, .song-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .nickname-tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, rgba(216, 178, 242, 0.2), rgba(255, 179, 217, 0.2));
+            border-radius: 12px;
+            margin: 0.25rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .nickname-tag:hover {
+            background: linear-gradient(135deg, rgba(216, 178, 242, 0.4), rgba(255, 179, 217, 0.4));
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen py-8 px-4">
+
+    <!-- Header -->
+    <header class="max-w-4xl mx-auto mb-8 text-center fade-in">
+        <div class="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-white/90 rounded-full shadow-lg">
+            <svg class="w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"/>
+            </svg>
+            <span class="text-sm font-semibold text-gray-700">AI-Enriched Name Profile Demo</span>
+        </div>
+        <h1 class="text-5xl md:text-6xl font-bold text-white mb-2 drop-shadow-lg">Emma</h1>
+        <p class="text-white/90 text-lg">This is what enriched profiles will look like!</p>
+    </header>
+
+    <div class="max-w-4xl mx-auto space-y-6">
+
+        <!-- Basic Info Card -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 fade-in stagger-1">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-2">Emma</h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge bg-pink-100 text-pink-700">Girl Name</span>
+                        <span class="badge bg-purple-100 text-purple-700">Germanic Origin</span>
+                        <span class="badge bg-blue-100 text-blue-700">#1 Popular</span>
+                    </div>
+                </div>
+                <div class="text-center md:text-right">
+                    <div class="text-4xl font-bold text-purple-600">98</div>
+                    <div class="text-sm text-gray-600">Enrichment Score</div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-2">Meaning</h3>
+                    <p class="text-gray-600">Universal, whole, complete</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-2">Origin</h3>
+                    <p class="text-gray-600">Germanic (short form of Germanic names beginning with "ermen")</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Origin Story -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 fade-in stagger-2">
+            <h2 class="section-header text-2xl font-bold text-gray-800 mb-4">📜 Origin & Etymology</h2>
+            <div class="prose prose-purple max-w-none">
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    The name Emma has deep roots in Germanic languages, originally deriving from the word "ermen" meaning "whole" or "universal." It emerged as a shortened form of longer Germanic names that began with this element, such as Ermintrude or Ermengarde. The name gained popularity in medieval Europe, particularly among royal and noble families.
+                </p>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    Throughout history, Emma has been associated with strength and completeness. The name spread across Europe through royal marriages and alliances, becoming especially prominent in England after Emma of Normandy became Queen in the 11th century. She was queen consort twice – first to Æthelred the Unready and later to Cnut the Great.
+                </p>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    The 19th century saw a resurgence of Emma's popularity, partly due to Jane Austen's beloved novel "Emma" published in 1815. The literary association gave the name a sophisticated, refined quality that appealed to parents across social classes.
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    In modern times, Emma has become a global phenomenon, consistently ranking in the top names across English-speaking countries. Its timeless appeal lies in its simplicity, elegance, and the positive qualities it evokes – completeness, universality, and strength. The name transcends cultural boundaries while maintaining its classic charm, making it a perennial favorite for parents seeking a name that is both traditional and contemporary.
+                </p>
+            </div>
+        </div>
+
+        <!-- Nicknames -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 fade-in stagger-3">
+            <h2 class="section-header text-2xl font-bold text-gray-800 mb-4">💕 Nicknames & Variations</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="nickname-tag">Em</span>
+                <span class="nickname-tag">Emmy</span>
+                <span class="nickname-tag">Emmie</span>
+                <span class="nickname-tag">Ems</span>
+                <span class="nickname-tag">Emma-Bear</span>
+                <span class="nickname-tag">E</span>
+                <span class="nickname-tag">Emmaline</span>
+                <span class="nickname-tag">Emmers</span>
+            </div>
+        </div>
+
+        <!-- Historical Figures -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 fade-in stagger-4">
+            <h2 class="section-header text-2xl font-bold text-gray-800 mb-6">👑 Notable Historical Figures</h2>
+            <div class="space-y-4">
+
+                <!-- Emma of Normandy -->
+                <div class="celebrity-card p-5 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl border border-purple-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">👸</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-gray-800 mb-1">Emma of Normandy</h3>
+                            <p class="text-gray-600 text-sm mb-2">Queen consort of England, Denmark, and Norway (c. 985-1052)</p>
+                            <p class="text-gray-700 leading-relaxed">One of the most powerful women in 11th-century Europe. Married to two English kings and mother to two more, she played a crucial role in Anglo-Saxon politics during a tumultuous period of Viking invasions.</p>
+                            <a href="https://en.wikipedia.org/wiki/Emma_of_Normandy" target="_blank" class="inline-flex items-center gap-1 mt-3 text-purple-600 hover:text-purple-700 font-medium text-sm">
+                                <span>Learn more</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emma Goldman -->
+                <div class="celebrity-card p-5 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border border-blue-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">✊</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-gray-800 mb-1">Emma Goldman</h3>
+                            <p class="text-gray-600 text-sm mb-2">Anarchist activist and writer (1869-1940)</p>
+                            <p class="text-gray-700 leading-relaxed">Renowned political activist, writer, and speaker who played a pivotal role in the development of anarchist political philosophy in North America and Europe. Known for her lectures on free speech, women's rights, and social justice.</p>
+                            <a href="https://en.wikipedia.org/wiki/Emma_Goldman" target="_blank" class="inline-flex items-center gap-1 mt-3 text-blue-600 hover:text-blue-700 font-medium text-sm">
+                                <span>Learn more</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emma Lazarus -->
+                <div class="celebrity-card p-5 bg-gradient-to-r from-pink-50 to-purple-50 rounded-xl border border-pink-100">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center flex-shrink-0">
+                            <span class="text-2xl">✍️</span>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="font-bold text-lg text-gray-800 mb-1">Emma Lazarus</h3>
+                            <p class="text-gray-600 text-sm mb-2">Poet and activist (1849-1887)</p>
+                            <p class="text-gray-700 leading-relaxed">American poet best known for "The New Colossus," the sonnet inscribed on the Statue of Liberty. Her words "Give me your tired, your poor" became an iconic symbol of American immigration and opportunity.</p>
+                            <a href="https://en.wikipedia.org/wiki/Emma_Lazarus" target="_blank" class="inline-flex items-center gap-1 mt-3 text-pink-600 hover:text-pink-700 font-medium text-sm">
+                                <span>Learn more</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modern Celebrities -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 fade-in stagger-4">
+            <h2 class="section-header text-2xl font-bold text-gray-800 mb-6">⭐ Modern Celebrities (Last 10 Years)</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+
+                <!-- Emma Stone -->
+                <div class="celebrity-card p-5 bg-gradient-to-br from-purple-50 to-white rounded-xl border border-purple-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-purple-200 rounded-full flex items-center justify-center">
+                            <span class="text-xl">🎭</span>
+                        </div>
+                        <h3 class="font-bold text-gray-800">Emma Stone</h3>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-3">Academy Award-winning actress known for La La Land, Poor Things, and The Favourite. One of the highest-paid actresses in Hollywood.</p>
+                    <a href="https://www.imdb.com/name/nm1297015/" target="_blank" class="text-purple-600 hover:text-purple-700 font-medium text-sm inline-flex items-center gap-1">
+                        <span>View IMDB</span>
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Emma Watson -->
+                <div class="celebrity-card p-5 bg-gradient-to-br from-pink-50 to-white rounded-xl border border-pink-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center">
+                            <span class="text-xl">🪄</span>
+                        </div>
+                        <h3 class="font-bold text-gray-800">Emma Watson</h3>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-3">Actress and activist, best known as Hermione Granger in Harry Potter. UN Women Goodwill Ambassador and feminist advocate.</p>
+                    <a href="https://www.imdb.com/name/nm0914612/" target="_blank" class="text-pink-600 hover:text-pink-700 font-medium text-sm inline-flex items-center gap-1">
+                        <span>View IMDB</span>
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Emma Roberts -->
+                <div class="celebrity-card p-5 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center">
+                            <span class="text-xl">📺</span>
+                        </div>
+                        <h3 class="font-bold text-gray-800">Emma Roberts</h3>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-3">Actress and singer known for American Horror Story, Scream Queens, and numerous film roles. Fashion icon and style influencer.</p>
+                    <a href="https://www.imdb.com/name/nm0731075/" target="_blank" class="text-blue-600 hover:text-blue-700 font-medium text-sm inline-flex items-center gap-1">
+                        <span>View IMDB</span>
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Emma Thompson -->
+                <div class="celebrity-card p-5 bg-gradient-to-br from-purple-50 to-white rounded-xl border border-purple-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-purple-200 rounded-full flex items-center justify-center">
+                            <span class="text-xl">🏆</span>
+                        </div>
+                        <h3 class="font-bold text-gray-800">Emma Thompson</h3>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-3">Two-time Academy Award winner for acting and screenwriting. Known for Love Actually, Sense and Sensibility, and Harry Potter series.</p>
+                    <a href="https://www.imdb.com/name/nm0000668/" target="_blank" class="text-purple-600 hover:text-purple-700 font-medium text-sm inline-flex items-center gap-1">
+                        <span>View IMDB</span>
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Emma Chamberlain -->
+                <div class="celebrity-card p-5 bg-gradient-to-br from-pink-50 to-white rounded-xl border border-pink-100">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center">
+                            <span class="text-xl">📱</span>
+                        </div>
+                        <h3 class="font-bold text-gray-800">Emma Chamberlain</h3>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed mb-3">YouTube personality and social media influencer with millions of followers. Fashion icon and entrepreneur known for her coffee brand.</p>
+                    <a href="https://en.wikipedia.org/wiki/Emma_Chamberlain" target="_blank" class="text-pink-600 hover:text-pink-700 font-medium text-sm inline-flex items-center gap-1">
+                        <span>Learn more</span>
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Songs -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 fade-in stagger-4">
+            <h2 class="section-header text-2xl font-bold text-gray-800 mb-6">🎵 Songs About Emma</h2>
+            <div class="space-y-3">
+
+                <!-- Hot Chocolate -->
+                <div class="song-card p-4 bg-gradient-to-r from-purple-50 to-white rounded-xl border border-purple-100">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-purple-200 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-gray-800">Emma - Hot Chocolate</h3>
+                            <p class="text-gray-600 text-sm">Classic 1970s love song</p>
+                        </div>
+                        <a href="https://music.youtube.com/search?q=Emma+Hot+Chocolate" target="_blank" class="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium text-sm flex items-center gap-2 transition-colors">
+                            <span>Play</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Little Big Town -->
+                <div class="song-card p-4 bg-gradient-to-r from-pink-50 to-white rounded-xl border border-pink-100">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-pink-200 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-gray-800">Girl Crush - Little Big Town</h3>
+                            <p class="text-gray-600 text-sm">Features the name Emma in lyrics</p>
+                        </div>
+                        <a href="https://music.youtube.com/search?q=Girl+Crush+Little+Big+Town" target="_blank" class="px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white rounded-lg font-medium text-sm flex items-center gap-2 transition-colors">
+                            <span>Play</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Alkaline Trio -->
+                <div class="song-card p-4 bg-gradient-to-r from-blue-50 to-white rounded-xl border border-blue-100">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-blue-200 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-gray-800">Emma - Alkaline Trio</h3>
+                            <p class="text-gray-600 text-sm">Punk rock tribute</p>
+                        </div>
+                        <a href="https://music.youtube.com/search?q=Emma+Alkaline+Trio" target="_blank" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium text-sm flex items-center gap-2 transition-colors">
+                            <span>Play</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- The Hails -->
+                <div class="song-card p-4 bg-gradient-to-r from-purple-50 to-white rounded-xl border border-purple-100">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-purple-200 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-gray-800">Emma - The Hails</h3>
+                            <p class="text-gray-600 text-sm">Modern indie rock</p>
+                        </div>
+                        <a href="https://music.youtube.com/search?q=Emma+The+Hails" target="_blank" class="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium text-sm flex items-center gap-2 transition-colors">
+                            <span>Play</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Bon Iver -->
+                <div class="song-card p-4 bg-gradient-to-r from-pink-50 to-white rounded-xl border border-pink-100">
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 bg-pink-200 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M18 3a1 1 0 00-1.196-.98l-10 2A1 1 0 006 5v9.114A4.369 4.369 0 005 14c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V7.82l8-1.6v5.894A4.37 4.37 0 0015 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2V3z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-bold text-gray-800">re: Stacks - Bon Iver</h3>
+                            <p class="text-gray-600 text-sm">Features Emma in haunting lyrics</p>
+                        </div>
+                        <a href="https://music.youtube.com/search?q=re+Stacks+Bon+Iver" target="_blank" class="px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white rounded-lg font-medium text-sm flex items-center gap-2 transition-colors">
+                            <span>Play</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="card rounded-2xl shadow-2xl p-6 md:p-8 text-center fade-in">
+            <div class="inline-flex items-center justify-center gap-2 mb-4">
+                <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+                <h3 class="text-xl font-bold text-gray-800">AI-Enriched Content</h3>
+            </div>
+            <p class="text-gray-600 mb-4">This is a demo of what each enriched name profile will contain. All data shown is example content to demonstrate the format and presentation.</p>
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 text-purple-700 rounded-full">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span class="font-semibold">Quality Score: 98/100</span>
+            </div>
+
+            <div class="mt-6 pt-6 border-t border-gray-200">
+                <a href="/" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 font-medium">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                    </svg>
+                    <span>Back to SoulSeed</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scroll to top button -->
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="fixed bottom-8 right-8 w-12 h-12 bg-purple-600 hover:bg-purple-700 text-white rounded-full shadow-lg flex items-center justify-center transition-all">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+        </svg>
+    </button>
+
+</body>
+</html>

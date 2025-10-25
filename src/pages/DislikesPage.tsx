@@ -218,17 +218,7 @@ const DislikesPage: React.FC = () => {
       {selectedName && (
         <NameDetailModal
           name={selectedName}
-          names={dislikedNames}
-          currentIndex={selectedIndex}
           onClose={() => setSelectedName(null)}
-          onNavigate={(newIndex) => {
-            if (newIndex >= 0 && newIndex < dislikedNames.length) {
-              setSelectedName(dislikedNames[newIndex]);
-              setSelectedIndex(newIndex);
-            }
-          }}
-          onFavoriteToggle={handleRefresh}
-          onDislikeToggle={handleRefresh}
         />
       )}
     </div>

@@ -9,6 +9,7 @@ import { collection, query, where, orderBy, getDocs } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { BlogPost } from '../types/blog';
 import { Clock, Calendar } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import AppHeader from '../components/AppHeader';
 import BlogPillarNav, { BlogPillar } from '../components/BlogPillarNav';
 
@@ -77,9 +78,17 @@ export default function BlogListPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
-      {/* Sticky Header */}
-      <AppHeader showBackButton={true} />
+    <>
+      <Helmet>
+        <title>Baby Parenting Blog | Expert Tips, Guides & Name Ideas | SoulSeed</title>
+        <meta name="description" content="Expert parenting advice for expecting and new parents. Baby names, milestones, gear reviews, pregnancy tips, and postpartum support at SoulSeed Blog." />
+        <meta name="keywords" content="parenting blog, baby blog, pregnancy blog, baby names blog, baby milestones, baby gear reviews, parenting tips" />
+        <link rel="canonical" href="https://soulseedbaby.com/blog" />
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
+        {/* Sticky Header */}
+        <AppHeader showBackButton={true} />
 
       <div className="py-6 sm:py-12 px-3 sm:px-4">
         <div className="max-w-6xl mx-auto">
@@ -171,5 +180,6 @@ export default function BlogListPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

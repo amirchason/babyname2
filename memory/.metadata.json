@@ -1,0 +1,179 @@
+{
+  "project": {
+    "name": "SoulSeed",
+    "tagline": "Where your baby name blooms",
+    "version": "0.1.0",
+    "created": "2024-09",
+    "lastUpdated": "2025-10-19"
+  },
+  "urls": {
+    "production": "https://soulseedbaby.com",
+    "domains": [
+      "soulseedbaby.com",
+      "soulseed.baby",
+      "soulseedapp.com",
+      "soulseedbaby.app"
+    ],
+    "legacyGithubPages": "https://amirchason.github.io/babyname2",
+    "repository": "https://github.com/amirchason/babyname2"
+  },
+  "deployment": {
+    "platform": "Vercel",
+    "team": "ss-9666de73",
+    "deployTime": "10-30 seconds",
+    "cdnLocations": "100+",
+    "status": "production"
+  },
+  "database": {
+    "totalNames": 174000,
+    "enrichedNames": 100000,
+    "blogPosts": 65,
+    "themedLists": 20,
+    "provider": "Chunked JSON + Firebase Firestore"
+  },
+  "techStack": {
+    "frontend": {
+      "framework": "React 19.1.1",
+      "language": "TypeScript 4.9.5",
+      "router": "React Router 7.9.1",
+      "styling": "Tailwind CSS 3.4.17",
+      "animation": "Framer Motion 12.23.19"
+    },
+    "backend": {
+      "auth": "Firebase 12.3.0 + Google OAuth 2.0",
+      "database": "Firebase Firestore",
+      "hosting": "Vercel Edge Network"
+    },
+    "ai": {
+      "primary": "Google Gemini AI (@google/generative-ai 0.24.1)",
+      "enrichment": "OpenAI GPT-4o-mini (Node.js scripts)",
+      "batchSize": 10,
+      "processingSpeed": "400 names/minute"
+    },
+    "buildTool": "Create React App 5.0.1"
+  },
+  "features": {
+    "core": [
+      "Name browsing (174k+ names)",
+      "Advanced search (3-tier priority)",
+      "Smart filters (LIST1 MODE - 5 tabs)",
+      "Favorites system (cloud sync)",
+      "Swipe mode (Tinder-style)",
+      "Voting system (create/share/vote)"
+    ],
+    "advanced": [
+      "AI enrichment (meanings + origins)",
+      "Background processing (GPT-4o-mini)",
+      "Admin tools (screenshot, database viewer, blog editor)",
+      "SEO optimization (meta tags, sitemap, 65+ blog posts)",
+      "Multi-domain support (4 domains)",
+      "Progressive data loading (chunked DB)"
+    ],
+    "planned": [
+      "Comprehensive test suite (Jest + RTL)",
+      "Progressive Web App (PWA)",
+      "Multi-language support (i18n)",
+      "Analytics dashboard",
+      "Community features"
+    ]
+  },
+  "performance": {
+    "firstLoad": "0.35s",
+    "deployTime": "10-30 seconds",
+    "bundleSize": "~250KB",
+    "lighthouseScore": "~95",
+    "uptime": "99.9%+",
+    "targets": {
+      "firstLoad": "<0.3s",
+      "bundleSize": "<200KB",
+      "lighthouseScore": "100"
+    }
+  },
+  "documentation": {
+    "mainDocs": [
+      "CLAUDE.md - Claude Code guide",
+      "README.md - Public-facing description",
+      "SESSION_LOG.md - Recent changes"
+    ],
+    "deploymentDocs": [
+      "QUICK_DEPLOY.md - Vercel quick reference",
+      "VERCEL_DEPLOYMENT_GUIDE.md - Complete guide",
+      "CONTINUE_FROM_HERE.md - Current status"
+    ],
+    "featureDocs": [
+      "docs/LIST_MODES.md - LIST1 MODE documentation",
+      "docs/DATABASE_VIEWER_FEATURE.md - Database viewer",
+      "docs/ADMIN_SCREENSHOT_FEATURE.md - Screenshot feature",
+      "docs/SEO_IMPLEMENTATION.md - SEO strategy"
+    ],
+    "memoryFiles": [
+      "memory/techspec.md - Technical specification",
+      "memory/history-and-future.md - Project history & roadmap",
+      "memory/.metadata.json - This file"
+    ]
+  },
+  "knownIssues": {
+    "technicalDebt": [
+      "No test suite (Jest + RTL installed but unused)",
+      "TypeScript warnings (3 known issues)",
+      "Path aliases broken (use relative imports)",
+      "Database duplicates in public/data/ (53 files)",
+      "Secondary 230k database unused (ultimateNames_tier1.json)"
+    ],
+    "performanceConsiderations": [
+      "Background enrichment may hit API rate limits (free tier)",
+      "Firebase one-tab persistence limit",
+      "100 result search limit (prevents DOM bloat)"
+    ]
+  },
+  "priorities": {
+    "highPriority": [
+      "Comprehensive test suite (Q4 2025)",
+      "PWA implementation (Q4 2025)",
+      "Performance improvements (Q4 2025)"
+    ],
+    "mediumPriority": [
+      "Multi-language support (Q1 2026)",
+      "Analytics dashboard (Q1 2026)",
+      "Social sharing improvements (Q1 2026)"
+    ],
+    "lowPriority": [
+      "Community features (Q2 2026)",
+      "Name popularity predictions (Q3 2026)",
+      "Sibling name suggestions (Q3 2026)"
+    ]
+  },
+  "metrics": {
+    "current": {
+      "deployTime": "10-30 seconds",
+      "firstLoad": "0.35s",
+      "uptime": "99.9%+",
+      "bundleSize": "~250KB",
+      "lighthouseScore": "~95"
+    },
+    "targets": {
+      "q4_2025": {
+        "dailyActiveUsers": "1000+",
+        "monthlyActiveUsers": "10000+",
+        "averageSessionTime": "5+ minutes",
+        "favoritesPerUser": "10+",
+        "votesPerUser": "5+"
+      },
+      "q4_2026": {
+        "dailyActiveUsers": "10000+",
+        "monthlyActiveUsers": "100000+",
+        "averageSessionTime": "10+ minutes",
+        "favoritesPerUser": "20+",
+        "votesPerUser": "10+",
+        "communityPosts": "1000+"
+      }
+    }
+  },
+  "meta": {
+    "createdBy": "Claude Code AI Assistant",
+    "createdAt": "2025-10-19",
+    "purpose": "Project memory files for quick onboarding and context",
+    "format": "Markdown + JSON metadata",
+    "maintenance": "Update monthly or after major changes"
+  }
+}

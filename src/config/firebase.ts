@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-import { getFirestore, enableIndexedDbPersistence } from 'firebase/firestore';
+import { getFirestore, enableMultiTabIndexedDbPersistence } from 'firebase/firestore';
 
 // Firebase configuration - REAL PROJECT
 const firebaseConfig = {
@@ -22,11 +22,11 @@ export const googleProvider = new GoogleAuthProvider();
 // Initialize Firestore with offline persistence
 export const db = getFirestore(app);
 
-// Enable offline persistence
-enableIndexedDbPersistence(db).catch((err) => {
+// Enable multi-tab offline persistence (allows multiple tabs/windows to work together)
+enableMultiTabIndexedDbPersistence(db).catch((err) => {
   if (err.code === 'failed-precondition') {
-    // Multiple tabs open, persistence can only be enabled in one tab at a time
-    console.log('Persistence failed: Multiple tabs open');
+    // Multiple tabs open, but multi-tab should handle this
+    console.log('Persistence note: Multiple tabs detected, using shared persistence');
   } else if (err.code === 'unimplemented') {
     // The current browser doesn't support persistence
     console.log('Persistence not available in this browser');

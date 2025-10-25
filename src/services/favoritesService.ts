@@ -11,7 +11,8 @@ interface FavoritesData {
 class FavoritesService {
   private readonly STORAGE_KEY = 'babynames_preferences';
   private readonly MAX_PINNED_FAVORITES = 20; // Maximum number of pinned favorites
-  private readonly DEBOUNCE_DELAY = 1500; // 1.5 seconds debounce for cloud sync
+  private readonly STORAGE_DEBOUNCE_DELAY = 500; // 500ms debounce for localStorage writes
+  private readonly PERIODIC_SYNC_INTERVAL = 360000; // 6 minutes periodic sync
   private data: FavoritesData = {
     favorites: [],
     dislikes: [],
@@ -21,22 +22,17 @@ class FavoritesService {
   private isLoggedIn: boolean = false;
   private userId: string | null = null;
   private isClearingData: boolean = false; // Flag to prevent cloud sync during clear operations
-  private syncTimeout: NodeJS.Timeout | null = null; // Debounce timer for cloud sync
+  private isDirty: boolean = false; // Flag to track if data needs syncing
+  private periodicSyncInterval: NodeJS.Timeout | null = null; // 6-minute periodic sync timer
+  private storageTimeout: NodeJS.Timeout | null = null; // Debounce timer for localStorage writes
 
   constructor() {
     this.loadFromStorage();
     this.setupCloudSync();
+    this.startPeriodicSync();
   }
 
   private setupCloudSync() {
-    // Listen for cloud data updates
-    window.addEventListener('cloudDataUpdate', (event: any) => {
-      const cloudData = event.detail as UserPreferences;
-      if (cloudData) {
-        this.handleCloudUpdate(cloudData);
-      }
-    });
-
     // Check if user is logged in
     const user = localStorage.getItem('user');
     if (user) {
@@ -46,32 +42,42 @@ class FavoritesService {
     }
   }
 
-  private handleCloudUpdate(cloudData: UserPreferences) {
-    // Skip cloud merge if we're in the middle of clearing data
-    if (this.isClearingData) {
-      console.log('[FavoritesService] Skipping cloud merge - clearing in progress');
-      return;
+  // Start periodic sync (every 6 minutes)
+  private startPeriodicSync() {
+    // Clear any existing interval
+    if (this.periodicSyncInterval) {
+      clearInterval(this.periodicSyncInterval);
     }
 
-    // Merge cloud data with local data
-    const merged = userDataService.mergePreferences(
-      {
-        favorites: this.data.favorites,
-        dislikes: this.data.dislikes,
-        pinnedFavorites: this.data.pinnedFavorites,
-        likeCounts: this.data.likeCounts
-      },
-      cloudData
-    );
+    // Set up 6-minute periodic sync
+    this.periodicSyncInterval = setInterval(async () => {
+      // Only sync if logged in, has unsaved changes, and not currently clearing
+      if (this.isLoggedIn && this.userId && this.isDirty && !this.isClearingData) {
+        console.log('[FavoritesService] Periodic sync triggered (6 min)');
+        try {
+          await userDataService.saveToCloud(
+            this.data.favorites,
+            this.data.dislikes,
+            this.data.pinnedFavorites,
+            this.data.likeCounts,
+            true  // silent = true (periodic sync is background)
+          );
+          this.isDirty = false; // Clear dirty flag after successful sync
+          console.log('[FavoritesService] Periodic sync completed');
+        } catch (error) {
+          console.error('[FavoritesService] Periodic sync failed:', error);
+          // Keep dirty flag set so it retries next interval
+        }
+      }
+    }, this.PERIODIC_SYNC_INTERVAL);
+  }
 
-    // Update local data
-    this.data = {
-      favorites: merged.favorites,
-      dislikes: merged.dislikes,
-      pinnedFavorites: merged.pinnedFavorites || [],
-      likeCounts: merged.likeCounts || {}
-    };
-    this.saveToStorage();
+  // Stop periodic sync (cleanup)
+  private stopPeriodicSync() {
+    if (this.periodicSyncInterval) {
+      clearInterval(this.periodicSyncInterval);
+      this.periodicSyncInterval = null;
+    }
   }
 
   setUserContext(userId: string | null) {
@@ -101,44 +107,38 @@ class FavoritesService {
   }
 
   private saveToStorage(): void {
-    try {
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
-      // Sync to cloud if user is logged in
-      this.syncToCloud();
-    } catch (error) {
-      console.error('Error saving favorites to storage:', error);
-    }
-  }
-
-  private async syncToCloud() {
-    // Debounce cloud sync to batch rapid changes (prevents lag and reduces Firebase writes)
-    if (this.syncTimeout) {
-      clearTimeout(this.syncTimeout);
+    // Debounce localStorage writes to batch rapid changes (prevents UI blocking)
+    if (this.storageTimeout) {
+      clearTimeout(this.storageTimeout);
     }
 
-    this.syncTimeout = setTimeout(async () => {
-      if (this.isLoggedIn && this.userId) {
-        try {
-          await userDataService.saveToCloud(
-            this.data.favorites,
-            this.data.dislikes,
-            this.data.pinnedFavorites,
-            this.data.likeCounts
-          );
-        } catch (error) {
-          console.error('Error syncing to cloud:', error);
+    this.storageTimeout = setTimeout(() => {
+      try {
+        localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+        // Mark data as dirty (needs syncing on next periodic sync)
+        if (this.isLoggedIn && this.userId) {
+          this.isDirty = true;
         }
+      } catch (error) {
+        console.error('Error saving favorites to storage:', error);
       }
-      this.syncTimeout = null;
-    }, this.DEBOUNCE_DELAY);
+      this.storageTimeout = null;
+    }, this.STORAGE_DEBOUNCE_DELAY);
   }
 
   // Flush any pending sync immediately (used during logout)
   async flushPendingSync(): Promise<void> {
-    // Clear any pending debounced sync
-    if (this.syncTimeout) {
-      clearTimeout(this.syncTimeout);
-      this.syncTimeout = null;
+    // Clear any pending debounced localStorage write
+    if (this.storageTimeout) {
+      clearTimeout(this.storageTimeout);
+      this.storageTimeout = null;
+    }
+
+    // Immediately save to localStorage
+    try {
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.data));
+    } catch (error) {
+      console.error('[FavoritesService] Error flushing localStorage:', error);
     }
 
     // Immediately save to cloud if logged in
@@ -148,8 +148,10 @@ class FavoritesService {
           this.data.favorites,
           this.data.dislikes,
           this.data.pinnedFavorites,
-          this.data.likeCounts
+          this.data.likeCounts,
+          false  // silent = false (logout shows sync animation)
         );
+        this.isDirty = false; // Clear dirty flag after successful sync
         console.log('[FavoritesService] Pending sync flushed successfully');
       } catch (error) {
         console.error('[FavoritesService] Error flushing pending sync:', error);
@@ -285,6 +287,10 @@ class FavoritesService {
     return this.data.pinnedFavorites?.length || 0;
   }
 
+  getMaxPinnedFavorites(): number {
+    return this.MAX_PINNED_FAVORITES;
+  }
+
   // Like count methods
   incrementLikeCount(name: string): number {
     const normalizedName = name.trim();
@@ -337,10 +343,6 @@ class FavoritesService {
     window.dispatchEvent(new Event('storage'));
 
     return { count: this.data.likeCounts[normalizedName], removed: false };
-  }
-
-  getMaxPinnedFavorites(): number {
-    return this.MAX_PINNED_FAVORITES;
   }
 
   // Dislikes (Hidden names) methods
@@ -426,7 +428,7 @@ class FavoritesService {
     if (this.isLoggedIn && this.userId) {
       console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
-        await userDataService.saveToCloud([], this.data.dislikes);
+        await userDataService.saveToCloud([], this.data.dislikes, undefined, undefined, false);  // silent = false (user-initiated clear)
         console.log('[FavoritesService] Empty favorites successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty favorites to cloud:', error);
@@ -447,7 +449,7 @@ class FavoritesService {
     setTimeout(() => {
       this.isClearingData = false;
       console.log('[FavoritesService] Clearing flag reset - cloud sync can resume');
-    }, 1000);
+    }, 5000);
   }
 
   async clearDislikes(): Promise<void> {
@@ -493,7 +495,7 @@ class FavoritesService {
     if (this.isLoggedIn && this.userId) {
       console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
-        await userDataService.saveToCloud(this.data.favorites, []);
+        await userDataService.saveToCloud(this.data.favorites, [], undefined, undefined, false);  // silent = false (user-initiated clear)
         console.log('[FavoritesService] Empty dislikes successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty dislikes to cloud:', error);
@@ -514,7 +516,7 @@ class FavoritesService {
     setTimeout(() => {
       this.isClearingData = false;
       console.log('[FavoritesService] Clearing flag reset - cloud sync can resume');
-    }, 1000);
+    }, 5000);
   }
 
   async clearAll(): Promise<void> {
@@ -537,7 +539,7 @@ class FavoritesService {
     if (this.isLoggedIn && this.userId) {
       console.log('[FavoritesService] User is logged in, syncing to cloud...');
       try {
-        await userDataService.saveToCloud([], []);
+        await userDataService.saveToCloud([], [], undefined, undefined, false);  // silent = false (user-initiated clear)
         console.log('[FavoritesService] Empty lists successfully synced to cloud');
       } catch (error) {
         console.error('[FavoritesService] Failed to sync empty lists to cloud:', error);
@@ -614,11 +616,15 @@ class FavoritesService {
   setFavorites(favorites: string[]): void {
     this.data.favorites = favorites;
     this.saveToStorage();
+    // Dispatch storage event to update UI counters and lists
+    window.dispatchEvent(new Event('storage'));
   }
 
   setDislikes(dislikes: string[]): void {
     this.data.dislikes = dislikes;
     this.saveToStorage();
+    // Dispatch storage event to update UI counters and lists
+    window.dispatchEvent(new Event('storage'));
   }
 
   // Get all data

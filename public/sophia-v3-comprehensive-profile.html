@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia - V3 Comprehensive Profile | SoulSeed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #fef3c7 0%, #fce7f3 50%, #ddd6fe 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #1a202c;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .name-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .pronunciation {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .meaning {
+            font-size: 1.5rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .meta-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            background: rgba(255, 255, 255, 0.25);
+            padding: 8px 16px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #8b5cf6;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #ec4899;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-icon {
+            font-size: 1.5rem;
+        }
+
+        .text-content {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #374151;
+            margin-bottom: 15px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #fef3c7 0%, #fff 100%);
+            border: 2px solid #f59e0b;
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #92400e;
+            margin-bottom: 8px;
+        }
+
+        .card-subtitle {
+            font-size: 0.95rem;
+            color: #78716c;
+            margin-bottom: 12px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #44403c;
+        }
+
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .badge {
+            background: #ec4899;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .achievement-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .achievement-list li {
+            padding: 8px 0 8px 30px;
+            position: relative;
+            border-left: 3px solid #ec4899;
+            margin-bottom: 8px;
+            padding-left: 15px;
+        }
+
+        .achievement-list li::before {
+            content: "✓";
+            position: absolute;
+            left: -12px;
+            background: #ec4899;
+            color: white;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #ddd6fe 0%, #fce7f3 100%);
+            border-left: 4px solid #8b5cf6;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .nicknames-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .nickname-badge {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+            color: #92400e;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .link-button {
+            display: inline-block;
+            background: #8b5cf6;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .link-button:hover {
+            background: #7c3aed;
+            transform: scale(1.05);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                border-radius: 0;
+            }
+
+            .name-title {
+                font-size: 2.5rem;
+            }
+
+            .content {
+                padding: 20px 15px;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name-title">Sophia</div>
+            <div class="pronunciation">/səˈfiːə/</div>
+            <div class="meaning">✨ Wisdom ✨</div>
+            <div class="meta-info">
+                <div class="meta-badge">👤 Female</div>
+                <div class="meta-badge">🌍 Greek Origin</div>
+                <div class="meta-badge">⛪ Religious Significance</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">Historic Figures</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Famous People</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Movies & Shows</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">Nicknames</span>
+                </div>
+            </div>
+
+            <!-- Cultural Significance -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🌏</span>
+                    Cultural Significance
+                </h2>
+                <p class="text-content">
+                    Sophia is a name that has been revered across cultures for its association with wisdom and knowledge. In ancient Greek philosophy, Sophia was personified as the goddess of wisdom. The name has been popular in various forms across Europe and the Americas, often symbolizing intelligence and insight.
+                </p>
+                <div class="highlight-box">
+                    <strong>Modern Context:</strong> Sophia remains a popular name in many countries, consistently ranking high in baby name lists in the United States, Canada, and several European countries. Its timeless appeal and association with wisdom make it a favorite among parents.
+                </div>
+                <p class="text-content">
+                    <strong>💡 Fun Fact:</strong> Sophia was the most popular baby girl's name in the United States from 2011 to 2013.
+                </p>
+            </div>
+
+            <!-- Religious Significance -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">⛪</span>
+                    Religious Significance
+                </h2>
+                <div class="highlight-box">
+                    <h3 style="color: #8b5cf6; margin-bottom: 10px;">Hagia Sophia - "Holy Wisdom"</h3>
+                    <p class="text-content">
+                        Hagia Sophia, meaning 'Holy Wisdom', is a former Greek Orthodox Christian patriarchal cathedral, later an Ottoman imperial mosque and now a museum in Istanbul, Turkey.
+                    </p>
+                    <ul class="achievement-list">
+                        <li>Built by the Byzantine Emperor Justinian I in 537 AD, it was the world's largest building and an engineering marvel of its time.</li>
+                        <li>It served as a center of religious, political, and artistic life for the Byzantine world.</li>
+                    </ul>
+                    <p class="text-content" style="margin-top: 15px;">
+                        <strong>Spiritual Meaning:</strong> Sophia is often seen as a symbol of divine wisdom in Christian theology.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Historical Figures -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">📚</span>
+                    Historic Figures (5)
+                </h2>
+                <div class="card-grid">
+                    <!-- Sophia of Hanover -->
+                    <div class="card">
+                        <div class="card-title">Sophia of Hanover</div>
+                        <div class="card-subtitle">1630-1714 • Political Leader</div>
+                        <ul class="achievement-list">
+                            <li>Electress of Hanover and heir presumptive to the British throne by the Act of Settlement 1701</li>
+                            <li>Played crucial role in the succession of the House of Hanover</li>
+                        </ul>
+                        <p class="card-text" style="margin-top: 10px;">
+                            <strong>Significance:</strong> Sophia's lineage established the Hanoverian dynasty in Britain, which continues to this day.
+                        </p>
+                    </div>
+
+                    <!-- Sophia Kovalevskaya -->
+                    <div class="card">
+                        <div class="card-title">Sophia Kovalevskaya</div>
+                        <div class="card-subtitle">1850-1891 • Mathematician</div>
+                        <ul class="achievement-list">
+                            <li>First woman in modern Europe to earn a doctorate in mathematics</li>
+                            <li>Made significant contributions to analysis, partial differential equations, and mechanics</li>
+                        </ul>
+                        <p class="card-text" style="margin-top: 10px;">
+                            <strong>Significance:</strong> A pioneer for women in mathematics and academia.
+                        </p>
+                    </div>
+
+                    <!-- Sophia Tolstaya -->
+                    <div class="card">
+                        <div class="card-title">Sophia Tolstaya</div>
+                        <div class="card-subtitle">1844-1919 • Writer</div>
+                        <ul class="achievement-list">
+                            <li>Wife and editor of Leo Tolstoy, played crucial role in publication of his works</li>
+                            <li>Authored her own diaries and memoirs providing insight into Tolstoy's life</li>
+                        </ul>
+                        <p class="card-text" style="margin-top: 10px;">
+                            <strong>Significance:</strong> Her diaries offer unique perspective on one of Russia's greatest writers.
+                        </p>
+                    </div>
+
+                    <!-- Sophia Jex-Blake -->
+                    <div class="card">
+                        <div class="card-title">Sophia Jex-Blake</div>
+                        <div class="card-subtitle">1840-1912 • Medical Pioneer</div>
+                        <ul class="achievement-list">
+                            <li>One of the first female doctors in the United Kingdom</li>
+                            <li>Founded the London School of Medicine for Women</li>
+                        </ul>
+                        <p class="card-text" style="margin-top: 10px;">
+                            <strong>Significance:</strong> Instrumental in opening the medical profession to women in the UK.
+                        </p>
+                    </div>
+
+                    <!-- Sophia Hayden Bennett -->
+                    <div class="card">
+                        <div class="card-title">Sophia Hayden Bennett</div>
+                        <div class="card-subtitle">1868-1953 • Architect</div>
+                        <ul class="achievement-list">
+                            <li>First female graduate of MIT's architecture program</li>
+                            <li>Designed the Woman's Building at the 1893 World's Columbian Exposition in Chicago</li>
+                        </ul>
+                        <p class="card-text" style="margin-top: 10px;">
+                            <strong>Significance:</strong> Trailblazer for women in the field of architecture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Famous People -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">⭐</span>
+                    Famous People
+                </h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-title">Sophia Loren</div>
+                        <div class="card-subtitle">Actress</div>
+                        <p class="card-text">Academy Award winner known for: Two Women, Marriage Italian Style, Yesterday Today and Tomorrow</p>
+                        <a href="https://www.imdb.com/find/?q=Sophia+Loren" target="_blank" class="link-button">View on IMDb →</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Sophia Bush</div>
+                        <div class="card-subtitle">Actress</div>
+                        <p class="card-text">Teen Choice Award winner known for: One Tree Hill, Chicago P.D., The Hitcher</p>
+                        <a href="https://www.imdb.com/find/?q=Sophia+Bush" target="_blank" class="link-button">View on IMDb →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movies & TV Shows -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🎬</span>
+                    Movies & TV Shows
+                </h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-title">The Golden Girls</div>
+                        <div class="card-subtitle">1985 • TV Show • Comedy</div>
+                        <p class="card-text">
+                            <strong>Character:</strong> Sophia Petrillo<br>
+                            Quick-witted, sarcastic mother of Dorothy Zbornak.
+                        </p>
+                        <p class="card-text" style="margin-top: 10px; font-style: italic;">
+                            💬 "Picture it: Sicily, 1922..."
+                        </p>
+                        <a href="https://www.imdb.com/title/tt0088526/" target="_blank" class="link-button">View on IMDb →</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Sophia Grace & Rosie's Royal Adventure</div>
+                        <div class="card-subtitle">2014 • Movie • Family</div>
+                        <p class="card-text">
+                            <strong>Character:</strong> Sophia Grace<br>
+                            A young girl who embarks on a royal adventure with her cousin Rosie.
+                        </p>
+                        <a href="https://www.imdb.com/title/tt3544734/" target="_blank" class="link-button">View on IMDb →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Songs -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🎵</span>
+                    Songs Featuring "Sophia"
+                </h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-title">Sophia</div>
+                        <div class="card-subtitle">Nerina Pallot • 2006</div>
+                        <p class="card-text" style="font-style: italic;">
+                            "Sophia, you whisper in my ear, you're the reason I am here."
+                        </p>
+                        <a href="https://www.youtube.com/results?search_query=Sophia+Nerina+Pallot" target="_blank" class="link-button">Listen on YouTube →</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Sophia</div>
+                        <div class="card-subtitle">Laura Marling • 2011</div>
+                        <p class="card-text" style="font-style: italic;">
+                            "Sophia, I'll be your soldier, with you till the end."
+                        </p>
+                        <a href="https://www.youtube.com/results?search_query=Sophia+Laura+Marling" target="_blank" class="link-button">Listen on YouTube →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nicknames -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">💝</span>
+                    Popular Nicknames
+                </h2>
+                <div class="nicknames-grid">
+                    <div class="nickname-badge">Sophie</div>
+                    <div class="nickname-badge">Sophy</div>
+                    <div class="nickname-badge">Sofa</div>
+                    <div class="nickname-badge">Fia</div>
+                    <div class="nickname-badge">Fifi</div>
+                    <div class="nickname-badge">Soso</div>
+                    <div class="nickname-badge">Sia</div>
+                    <div class="nickname-badge">Phia</div>
+                    <div class="nickname-badge">Sop</div>
+                    <div class="nickname-badge">Sophee</div>
+                </div>
+            </div>
+
+            <!-- Personality & Symbolism -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">✨</span>
+                    Personality & Symbolism
+                </h2>
+                <div class="highlight-box">
+                    <p class="text-content">
+                        <strong>Personality Traits:</strong> People named Sophia are often perceived as intelligent, wise, and compassionate. They are seen as leaders and are known for their strong sense of justice and empathy.
+                    </p>
+                    <p class="text-content">
+                        <strong>Symbolism:</strong> Sophia symbolizes wisdom, insight, and clarity of thought. It is often associated with enlightenment and the pursuit of knowledge.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Name Variations -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🌐</span>
+                    International Variations
+                </h2>
+                <div class="badge-list">
+                    <div class="badge">Sofia</div>
+                    <div class="badge">Sophie</div>
+                    <div class="badge">Sofiya</div>
+                    <div class="badge">Zofia</div>
+                    <div class="badge">Sofía</div>
+                    <div class="badge">Sofya</div>
+                    <div class="badge">Sofija</div>
+                    <div class="badge">Sofie</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

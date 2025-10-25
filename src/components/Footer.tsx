@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               <h3 className="text-xl font-bold">SoulSeed</h3>
             </div>
             <p className="text-white/80 text-sm mb-4">
-              Where your baby name blooms. Discover 224,000+ unique baby names with meanings and origins.
+              Where your baby name blooms. Discover 150,000+ unique baby names with meanings and origins.
             </p>
             <a
               href="mailto:888soulseed888@gmail.com"

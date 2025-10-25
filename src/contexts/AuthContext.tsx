@@ -6,6 +6,7 @@ import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
 import LogoutOverlay from '../components/LogoutOverlay';
+import LoadingOverlay from '../components/LoadingOverlay';
 import { isAdminEmail } from '../config/adminConfig';
 
 interface User {
@@ -373,6 +374,10 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       <LogoutOverlay
         isVisible={showLogoutOverlay}
         favoritesCount={favoritesService.getFavoritesCount()}
+      />
+      <LoadingOverlay
+        isVisible={isSyncing}
+        message="Syncing your favorites..."
       />
     </AuthContext.Provider>
   );

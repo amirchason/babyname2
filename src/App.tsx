@@ -26,8 +26,7 @@ const VotesListPage = lazy(() => import('./pages/VotesListPage'));
 const CreateVotePage = lazy(() => import('./pages/CreateVotePage'));
 const AboutUsPage = lazy(() => import('./pages/AboutUsPage'));
 const ContactUsPage = lazy(() => import('./pages/ContactUsPage'));
-const HeaderTestPage = lazy(() => import('./pages/HeaderTestPage'));
-const VideoComparisonPage = lazy(() => import('./pages/VideoComparisonPage'));
+const NameRingTestPage = lazy(() => import('./pages/NameRingTestPage'));
 
 /**
  * Component to manage admin text selection
@@ -66,14 +65,31 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
   return (
     <div className="App min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex flex-col">
+      {/* WCAG Accessibility: Skip to main content link */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-purple-600 focus:text-white focus:rounded-lg focus:shadow-lg"
+        style={{ position: 'absolute', left: '-9999px' }}
+        onFocus={(e) => {
+          e.currentTarget.style.position = 'static';
+          e.currentTarget.style.left = '0';
+        }}
+        onBlur={(e) => {
+          e.currentTarget.style.position = 'absolute';
+          e.currentTarget.style.left = '-9999px';
+        }}
+      >
+        Skip to main content
+      </a>
+
       {/* Conditional Header */}
       {!isFullPageExperience && <AppHeader title="SoulSeed" />}
 
       <Suspense fallback={<LoadingSpinner />}>
         {/* Main content - add padding-top only when header is shown */}
-        <div className={`flex-grow ${!isFullPageExperience ? 'pt-20' : ''}`}>
+        <main id="main-content" className={`flex-grow ${!isFullPageExperience ? 'pt-20' : ''}`}>
           {children}
-        </div>
+        </main>
 
         {/* Conditional Footer */}
         {!isFullPageExperience && <Footer />}
@@ -100,8 +116,7 @@ function App() {
                   <Route path="/favorites" element={<FavoritesPage />} />
                   <Route path="/dislikes" element={<DislikesPage />} />
                   <Route path="/debug" element={<DebugPage />} />
-                  <Route path="/header-test" element={<HeaderTestPage />} />
-                  <Route path="/video-compare" element={<VideoComparisonPage />} />
+                  <Route path="/name-ring-test" element={<NameRingTestPage />} />
                   <Route path="/swipe" element={<SwipeModePage />} />
                   <Route path="/search" element={<SearchResultsPage />} />
                   <Route path="/sitemap" element={<SitemapPage />} />

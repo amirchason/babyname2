@@ -233,10 +233,9 @@ const NameCardCompact: React.FC<NameCardCompactProps> = ({
 
   return (
     <motion.div
-      onClick={() => onClick(name)}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
-      className="group relative flex items-center justify-between gap-4 px-6 py-4 bg-white border-b border-gray-100 hover:bg-gray-50 cursor-pointer transition-all"
+      className="group relative flex items-center justify-between gap-4 px-6 py-4 bg-white border-b border-gray-100 transition-all"
       style={{ transition: isFlying ? 'none' : 'all 150ms' }}
       initial="initial"
       animate={isFlying ? (flyDirection === 'left' ? 'flyLeft' : 'flyRight') : 'initial'}
@@ -245,7 +244,7 @@ const NameCardCompact: React.FC<NameCardCompactProps> = ({
       {/* Left: Dislike button */}
       <button
         onClick={handleDislikeClick}
-        className={`flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full transition-all ${
+        className={`relative flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full transition-all before:content-[''] before:absolute before:inset-[-14px] before:bg-transparent ${
           isDisliked
             ? 'bg-red-50 border-2 border-red-300'
             : 'bg-transparent border-2 border-gray-200 hover:bg-red-50 hover:border-red-300'
@@ -261,7 +260,10 @@ const NameCardCompact: React.FC<NameCardCompactProps> = ({
           {isPinned && (
             <Pin className="w-4 h-4 text-yellow-500 fill-yellow-500" />
           )}
-          <h3 className={`text-3xl font-thin ${genderColor}`}>
+          <h3
+            onClick={() => onClick(name)}
+            className={`text-3xl font-thin ${genderColor} cursor-pointer hover:opacity-70 transition-opacity`}
+          >
             {name.name}
           </h3>
         </div>
@@ -270,7 +272,7 @@ const NameCardCompact: React.FC<NameCardCompactProps> = ({
       {/* Right: Like button */}
       <button
         onClick={handleFavoriteClick}
-        className={`relative flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full transition-all ${
+        className={`relative flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full transition-all before:content-[''] before:absolute before:inset-[-14px] before:bg-transparent ${
           isFavorite
             ? 'bg-pink-50 border-2 border-pink-300'
             : 'bg-transparent border-2 border-gray-200 hover:bg-pink-50 hover:border-pink-300'
@@ -315,4 +317,4 @@ const NameCardCompact: React.FC<NameCardCompactProps> = ({
   );
 };
 
-export default NameCardCompact;
+export default React.memo(NameCardCompact);

@@ -302,7 +302,7 @@ export default function BlogNameList({ content }: BlogNameListProps) {
           Want to explore even more names?
         </h3>
         <p className="text-gray-700 mb-4">
-          Discover our complete database of 174,000+ names with our Tinder-style swipe feature, advanced filters, and personalized recommendations.
+          Discover our complete database of 150,000+ names with our Tinder-style swipe feature, advanced filters, and personalized recommendations.
         </p>
         <a
           href="/"

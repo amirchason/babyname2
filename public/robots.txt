@@ -11,8 +11,15 @@ Allow: /
 Allow: /static/css/
 Allow: /static/js/
 
-# Disallow admin/debug pages from search indexing
+# Disallow admin/debug pages and user-specific pages from search indexing
 Disallow: /debug
+Disallow: /favorites
+Disallow: /dislikes
+Disallow: /vote/
+Disallow: /create-vote
 
 # Sitemap location (required for Google Search Console)
 Sitemap: https://soulseedbaby.com/sitemap.xml
+
+# Crawl delay (be polite to servers)
+Crawl-delay: 1

@@ -285,12 +285,6 @@ const BlogNameCard: React.FC<BlogNameCardProps> = ({
         <NameDetailModal
           name={nameData}
           onClose={() => setShowModal(false)}
-          onFavoriteToggle={() => {
-            setIsFavorited(favoritesService.isFavorite(name));
-          }}
-          onDislikeToggle={() => {
-            setIsDisliked(favoritesService.isDisliked(name));
-          }}
         />
       )}
     </>

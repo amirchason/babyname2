@@ -1049,21 +1049,7 @@ const SearchResultsPage: React.FC = () => {
       {/* Name Detail Modal */}
       <NameDetailModal
         name={selectedName}
-        names={filteredNames}
-        currentIndex={selectedIndex}
         onClose={() => setSelectedName(null)}
-        onNavigate={(newIndex) => {
-          if (newIndex >= 0 && newIndex < filteredNames.length) {
-            setSelectedName(filteredNames[newIndex]);
-            setSelectedIndex(newIndex);
-          }
-        }}
-        onFavoriteToggle={() => {
-          window.dispatchEvent(new Event('storage'));
-        }}
-        onDislikeToggle={() => {
-          window.dispatchEvent(new Event('storage'));
-        }}
       />
     </div>
   );

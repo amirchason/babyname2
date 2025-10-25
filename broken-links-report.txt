@@ -1,0 +1,7 @@
+Getting links from: https://soulseedbaby.com/
+├─BROKEN─ https://fonts.googleapis.com/ (HTTP_404)
+├─BROKEN─ https://fonts.gstatic.com/ (HTTP_404)
+├───OK─── https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600&display=swap
+├───OK─── https://soulseedbaby.com/manifest.json
+├───OK─── https://soulseedbaby.com/logo192.png
+├───OK─── https://soulseedbaby.com/static/js/main.9be9f731.js

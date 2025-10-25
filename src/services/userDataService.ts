@@ -61,66 +61,32 @@ class UserDataService {
     this.userId = userId;
     console.log('[USERDATA DEBUG] userId set to:', this.userId);
 
-    // Subscribe to new user's data if userId is provided
-    if (userId) {
-      this.subscribeToUserData();
-    }
+    // NO LONGER auto-subscribe to real-time updates (was causing infinite sync loop)
+    // Sync only happens on: login, logout, manual sync, and debounced background saves
   }
 
-  // Subscribe to real-time updates
-  private subscribeToUserData() {
-    if (!this.userId) return;
-
-    const userDocRef = doc(db, 'users', this.userId);
-
-    this.unsubscribe = onSnapshot(
-      userDocRef,
-      (snapshot) => {
-        if (snapshot.exists()) {
-          const data = snapshot.data() as { preferences?: UserPreferences };
-          if (data.preferences) {
-            // Notify favorites service about cloud data
-            this.handleCloudDataUpdate(data.preferences);
-          }
-        }
-      },
-      (error) => {
-        console.error('Error subscribing to user data:', error);
-        this.updateSyncStatus({ error: error.message });
-      }
-    );
-  }
-
-  // Handle incoming cloud data
-  private handleCloudDataUpdate(cloudPreferences: UserPreferences) {
-    // This will be called by favoritesService to merge data
-    if (window.dispatchEvent) {
-      const event = new CustomEvent('cloudDataUpdate', {
-        detail: cloudPreferences
-      });
-      window.dispatchEvent(event);
-    }
-
-    this.updateSyncStatus({
-      lastSyncTime: new Date(),
-      error: null
-    });
-  }
+  // REMOVED: subscribeToUserData() and handleCloudDataUpdate()
+  // These were causing infinite sync loops via Firebase onSnapshot listener
+  // Now sync only happens explicitly: login, logout, manual sync, background saves
 
   // Save preferences to cloud
   async saveToCloud(
     favorites: string[],
     dislikes: string[],
     pinnedFavorites?: string[],
-    likeCounts?: { [name: string]: number }
+    likeCounts?: { [name: string]: number },
+    silent: boolean = false  // If true, don't show sync animation
   ): Promise<void> {
-    console.log('[USERDATA DEBUG] saveToCloud called, userId:', this.userId);
+    console.log('[USERDATA DEBUG] saveToCloud called, userId:', this.userId, 'silent:', silent);
     if (!this.userId) {
       console.error('[USERDATA DEBUG] saveToCloud failed - no userId set!');
       throw new Error('No user logged in');
     }
 
-    this.updateSyncStatus({ isSyncing: true });
+    // Only show sync animation for non-silent saves (login, logout, manual sync)
+    if (!silent) {
+      this.updateSyncStatus({ isSyncing: true });
+    }
 
     try {
       const userDocRef = doc(db, 'users', this.userId);
@@ -138,13 +104,17 @@ class UserDataService {
         lastLogin: serverTimestamp()
       }, { merge: true });
 
-      this.updateSyncStatus({
-        isSyncing: false,
-        lastSyncTime: new Date(),
-        error: null
-      });
+      // Only update sync status for non-silent saves
+      if (!silent) {
+        this.updateSyncStatus({
+          isSyncing: false,
+          lastSyncTime: new Date(),
+          error: null
+        });
+      }
     } catch (error) {
       console.error('Error saving to cloud:', error);
+      // Always report errors, even for silent saves
       this.updateSyncStatus({
         isSyncing: false,
         error: (error as Error).message

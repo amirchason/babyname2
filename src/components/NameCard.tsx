@@ -559,4 +559,4 @@ const NameCard: React.FC<NameCardProps> = ({
   );
 };
 
-export default NameCard;
+export default React.memo(NameCard);

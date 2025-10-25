@@ -40,6 +40,8 @@ export interface VoterInfo {
   name?: string;
   avatar?: string;
   votedAt?: any; // Timestamp
+  reason?: string; // NEW: Why they voted for this name
+  reasonType?: 'preset' | 'custom'; // NEW: Type of reason
 }
 
 export interface VoteCount {
@@ -76,6 +78,11 @@ export interface VoteSession {
   votes: Record<string, VoteCount>;
   totalVoters: number;
   allVoters?: VoterInfo[]; // NEW: All unique voters who participated
+  // NEW: Voting question customization
+  votingQuestion?: string; // The actual question text
+  questionType?: 'preset' | 'custom'; // Whether it's from preset list or custom
+  questionId?: string; // ID of preset question (if questionType is 'preset')
+  questionEmoji?: string; // Emoji for preset question
   stats: {
     totalVotesCast: number;
     lastVoteAt: Timestamp | null;
@@ -91,6 +98,11 @@ export interface CreateVoteData {
   pointsPerVoter?: number; // NEW: For points-based voting (1-100)
   isPublic: boolean;
   expiresAt: Date | null;
+  // NEW: Voting question customization
+  votingQuestion?: string;
+  questionType?: 'preset' | 'custom';
+  questionId?: string;
+  questionEmoji?: string;
 }
 
 export interface VoteSubmission {
@@ -100,6 +112,8 @@ export interface VoteSubmission {
   voterId: string;
   voterName?: string; // NEW: Voter's display name
   voterAvatar?: string; // NEW: Voter's avatar URL
+  voteReasons?: Record<string, string>; // NEW: Reasons per name {name: reason}
+  reasonTypes?: Record<string, 'preset' | 'custom'>; // NEW: Reason types per name
 }
 
 export interface VoteResult {
@@ -183,6 +197,11 @@ class VoteService {
         votes,
         totalVoters: 0,
         allVoters: [], // NEW: Initialize all voters array
+        // NEW: Add question fields if provided
+        ...(voteData.votingQuestion ? { votingQuestion: voteData.votingQuestion } : {}),
+        ...(voteData.questionType ? { questionType: voteData.questionType } : {}),
+        ...(voteData.questionId ? { questionId: voteData.questionId } : {}),
+        ...(voteData.questionEmoji ? { questionEmoji: voteData.questionEmoji } : {}),
         stats: {
           totalVotesCast: 0,
           lastVoteAt: null
@@ -234,7 +253,7 @@ class VoteService {
    */
   async submitVote(submission: VoteSubmission): Promise<void> {
     try {
-      const { voteId, selectedNames, namePoints, voterId, voterName, voterAvatar } = submission;
+      const { voteId, selectedNames, namePoints, voterId, voterName, voterAvatar, voteReasons, reasonTypes } = submission;
 
       const voteRef = doc(db, this.collectionName, voteId);
 
@@ -313,12 +332,18 @@ class VoteService {
               votes[name].voterPoints![voterId] = points;
               votes[name].totalPoints = (votes[name].totalPoints || 0) + points;
 
-              // Add/update voter info
+              // Add/update voter info with reason (NEW)
+              const voterInfoWithReason: VoterInfo = {
+                ...voterInfo,
+                reason: voteReasons?.[name],
+                reasonType: reasonTypes?.[name]
+              };
+
               const existingVoterIndex = votes[name].voterInfo!.findIndex(v => v.id === voterId);
               if (existingVoterIndex >= 0) {
-                votes[name].voterInfo![existingVoterIndex] = voterInfo;
+                votes[name].voterInfo![existingVoterIndex] = voterInfoWithReason;
               } else {
-                votes[name].voterInfo!.push(voterInfo);
+                votes[name].voterInfo!.push(voterInfoWithReason);
               }
             }
           });
@@ -376,8 +401,13 @@ class VoteService {
               votes[name].voters.push(voterId);
               votes[name].count = votes[name].voters.length;
 
-              // Add voter info
-              votes[name].voterInfo!.push(voterInfo);
+              // Add voter info with reason (NEW)
+              const voterInfoWithReason: VoterInfo = {
+                ...voterInfo,
+                reason: voteReasons?.[name],
+                reasonType: reasonTypes?.[name]
+              };
+              votes[name].voterInfo!.push(voterInfoWithReason);
             }
           });
 

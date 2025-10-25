@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Mail, MessageCircle, Send, CheckCircle, Heart, ArrowLeft } from 'lucide-react';
 
 const ContactUsPage: React.FC = () => {
@@ -12,13 +13,6 @@ const ContactUsPage: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
-    // SEO: Set page title and meta description
-    document.title = 'Contact Us - SoulSeed Baby Names | Get Support & Share Feedback';
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Contact SoulSeed team for support, feedback, or questions about baby names. Email us at 888soulseed888@gmail.com. We\'re here to help you find the perfect baby name.');
-    }
-
     // Scroll to top
     window.scrollTo(0, 0);
   }, []);
@@ -52,7 +46,14 @@ const ContactUsPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <Helmet>
+        <title>Contact Us - SoulSeed Baby Names | Get Support & Share Feedback</title>
+        <meta name="description" content="Contact SoulSeed team for support, feedback, or questions about baby names. Email us at 888soulseed888@gmail.com. We're here to help you find the perfect baby name." />
+        <link rel="canonical" href="https://soulseedbaby.com/contact" />
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 text-white">
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -318,6 +319,7 @@ const ContactUsPage: React.FC = () => {
         })}
       </script>
     </div>
+    </>
   );
 };
 
