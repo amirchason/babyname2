@@ -4,7 +4,12 @@
 
 set -e
 
-TOKEN="AjtiZq6gyZc9lbAXwpTx2c7b"
+# Load VERCEL_TOKEN from .env.local
+if [ -f .env.local ]; then
+  export $(grep VERCEL_TOKEN .env.local | xargs)
+fi
+
+TOKEN="$VERCEL_TOKEN"
 
 echo "🔧 Setting up Vercel environment variables..."
 
