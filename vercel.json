@@ -1,15 +1,84 @@
 {
-  "alias": ["soulseedbaby.com", "www.soulseedbaby.com"],
+  "buildCommand": "npm run build",
+  "devCommand": "npm start",
+  "outputDirectory": "build",
+  "framework": null,
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
-          "value": "www.soulseedbaby.com"
+          "value": "soulseedbaby.com"
         }
       ],
-      "destination": "https://soulseedbaby.com/$1",
+      "destination": "https://www.soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "soulseed.baby"
+        }
+      ],
+      "destination": "https://www.soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soulseed.baby"
+        }
+      ],
+      "destination": "https://www.soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "soulseedapp.com"
+        }
+      ],
+      "destination": "https://www.soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soulseedapp.com"
+        }
+      ],
+      "destination": "https://www.soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "soulseedbaby.app"
+        }
+      ],
+      "destination": "https://www.soulseedbaby.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soulseedbaby.app"
+        }
+      ],
+      "destination": "https://www.soulseedbaby.com/:path*",
       "permanent": true
     }
   ],
@@ -79,19 +148,6 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "no-store, must-revalidate"
         }
       ]
     }

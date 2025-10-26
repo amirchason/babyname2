@@ -30,7 +30,7 @@ Disallow: /create-vote
 Disallow: /api/
 
 # Sitemap location (required for Google Search Console)
-Sitemap: https://soulseedbaby.com/sitemap.xml
+Sitemap: https://www.soulseedbaby.com/sitemap.xml
 
 # Crawl delay (be polite to servers)
 Crawl-delay: 1

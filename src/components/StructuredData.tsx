@@ -29,9 +29,7 @@ const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) => {
             postalCode: '39340',
             addressCountry: 'ES'
           },
-          sameAs: [
-            'https://github.com/amirchason/babyname2'
-          ],
+          sameAs: [],
           contactPoint: {
             '@type': 'ContactPoint',
             email: '888soulseed888@gmail.com',

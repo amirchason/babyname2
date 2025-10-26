@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Purple to pink gradient background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8B2F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB3D9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C084FC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#bg)"/>
+
+  <!-- Heart shape -->
+  <path d="M50,75 C50,75 25,55 25,40 C25,30 32,25 38,25 C44,25 50,30 50,30 C50,30 56,25 62,25 C68,25 75,30 75,40 C75,55 50,75 50,75 Z" fill="url(#heart)"/>
+
+  <!-- Seed/sprout element -->
+  <path d="M50,35 Q52,28 50,25 Q48,28 50,35" fill="#A3E635" stroke="#84CC16" stroke-width="1"/>
+  <ellipse cx="50" cy="36" rx="2" ry="3" fill="#84CC16"/>
+</svg>

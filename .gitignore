@@ -71,4 +71,4 @@ docs/.doctrees
 
 # Vercel
 .vercel
-.vercel.json
+# Note: vercel.json is committed (contains config, not secrets)

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8B2F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB3D9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C084FC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+
+  <!-- Heart shape -->
+  <path d="M90,135 C90,135 45,99 45,72 C45,54 57.6,45 68.4,45 C79.2,45 90,54 90,54 C90,54 100.8,45 111.6,45 C122.4,45 135,54 135,72 C135,99 90,135 90,135 Z" fill="url(#heart)"/>
+
+  <!-- Seed/sprout -->
+  <path d="M90,63 Q93.6,50.4 90,45 Q86.4,50.4 90,63" fill="#A3E635" stroke="#84CC16" stroke-width="2"/>
+  <ellipse cx="90" cy="64.8" rx="3.6" ry="5.4" fill="#84CC16"/>
+</svg>

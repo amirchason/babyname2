@@ -1,10 +1,10 @@
-import html2canvas from 'html2canvas';
-
 /**
  * Screenshot Utility
  * Provides functions for capturing and downloading screenshots of the app
  *
  * ADMIN-ONLY: This utility should only be used by admin users
+ *
+ * NOTE: html2canvas is lazy-loaded to reduce initial bundle size
  */
 
 /**
@@ -74,6 +74,9 @@ export const captureScreenshot = async (
 ): Promise<{ success: boolean; filename?: string; error?: string }> => {
   try {
     console.log('[Screenshot] Starting capture...');
+
+    // Dynamically import html2canvas only when needed (lazy loading)
+    const { default: html2canvas } = await import('html2canvas');
 
     // Capture the screenshot using html2canvas
     const canvas = await html2canvas(element, {

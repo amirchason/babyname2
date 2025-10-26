@@ -1,0 +1,8 @@
+# Override .gitignore for Vercel
+# We want node_modules ignored but NOT build folder
+
+node_modules
+.git
+.env.local
+.cache
+*.log

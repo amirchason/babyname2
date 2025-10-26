@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
 import { Search, Baby, Star, TrendingUp, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw, ChevronDown, Check, Grid3x3, List, Type, Ruler, Music, Sparkles, Minimize2, Maximize2, Library } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
@@ -14,7 +14,7 @@ import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 // import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background'; // REMOVED - UnicornStudio failing on production
-import Heart3D from '../components/Heart3D';
+import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 
@@ -592,15 +592,11 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section with 3D Rotating Heart - REDESIGNED */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[90vh] overflow-hidden transition-all duration-200 bg-gradient-to-br from-purple-900 via-pink-800 to-red-900`}>
+      {/* Hero Section - REDESIGNED */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[90vh] overflow-hidden transition-all duration-200`}>
 
-        {/* 3D Heart Background - Centered and Large */}
-        <div className="absolute inset-0 z-0 flex items-center justify-center">
-          <div className="w-full h-full max-w-2xl max-h-2xl opacity-40">
-            <Heart3D />
-          </div>
-        </div>
+        {/* UnicornStudio Flower Background Animation */}
+        <UnicornFlowerBackground />
 
         {/* Floating Names Overlay - Only animate on first visit */}
         {isFirstVisit && (
@@ -636,7 +632,7 @@ const HomePage: React.FC = () => {
         {/* Gradient Overlay for Text Readability */}
         <div className="absolute inset-0 z-[2] bg-gradient-to-b from-black/30 via-transparent to-black/40"></div>
 
-        {/* Hero Content - Over 3D Heart */}
+        {/* Hero Content - Over Flower Background */}
         <div className="relative z-10 max-w-4xl mx-auto text-center pt-20">
           {/* Main Headline - Dramatic White Text */}
           <motion.h1
@@ -1586,23 +1582,7 @@ const HomePage: React.FC = () => {
       {/* Name Detail Modal */}
       <NameDetailModal
         name={selectedName}
-        names={filteredNames}
-        currentIndex={selectedIndex}
         onClose={() => setSelectedName(null)}
-        onNavigate={(newIndex) => {
-          if (newIndex >= 0 && newIndex < filteredNames.length) {
-            setSelectedName(filteredNames[newIndex]);
-            setSelectedIndex(newIndex);
-          }
-        }}
-        onFavoriteToggle={() => {
-          // Dispatch event for AppHeader to update counts
-          window.dispatchEvent(new Event('storage'));
-        }}
-        onDislikeToggle={() => {
-          // Dispatch event for AppHeader to update counts
-          window.dispatchEvent(new Event('storage'));
-        }}
       />
 
       {/* Swiping Questionnaire Modal */}
@@ -1700,82 +1680,6 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Stats Section - Minimalistic */}
-      <section className="py-8 px-4 bg-white/90 backdrop-blur-sm border-t border-gray-100">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <h3 className="text-2xl font-light text-gray-900">{cachedGenderCounts.total.toLocaleString()}</h3>
-              <p className="text-sm text-gray-600 font-light mt-1">Unique Names</p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-light text-gray-900">105</h3>
-              <p className="text-sm text-gray-600 font-light mt-1">Countries</p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-light text-gray-900">100%</h3>
-              <p className="text-sm text-gray-600 font-light mt-1">Gender Data</p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-light text-gray-900">2025</h3>
-              <p className="text-sm text-gray-600 font-light mt-1">Latest Data</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer - SoulSeed */}
-      <footer className="bg-gradient-to-br from-purple-900 via-purple-800 to-pink-900 text-white py-16 relative overflow-hidden">
-        {/* Decorative background */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_0%,rgba(236,72,153,0.2),transparent_50%)]"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_100%,rgba(147,51,234,0.2),transparent_50%)]"></div>
-
-        <div className="max-w-7xl mx-auto px-4 relative z-10">
-          {/* Main Brand Section */}
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Baby className="h-10 w-10 text-pink-300" />
-              <h3 className="text-3xl md:text-4xl font-light tracking-wide">
-                <span className="font-semibold">Soul</span>Seed
-              </h3>
-            </div>
-
-            {/* Main Tagline */}
-            <p className="text-xl md:text-2xl font-light mb-2 text-pink-100">
-              Where Your Baby's Name Blooms
-            </p>
-            <div className="h-px w-32 bg-gradient-to-r from-transparent via-pink-300 to-transparent mx-auto mt-4"></div>
-          </div>
-
-          {/* Quick Links */}
-          <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-8 text-sm">
-            <a href="/blog" className="hover:text-pink-300 transition-colors font-medium">Blog</a>
-            <a href="#" className="hover:text-pink-300 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-pink-300 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-pink-300 transition-colors">Contact Us</a>
-          </div>
-
-          {/* Copyright */}
-          <div className="text-center space-y-2">
-            <p className="text-sm opacity-90">
-              &copy; 2025 SoulSeed. Helping parents worldwide find perfect names since 2020.
-            </p>
-            <p className="text-xs opacity-70">
-              Data sourced from global naming registries and cultural databases.
-              <br />
-              174,000+ curated names with meanings and origins.
-            </p>
-          </div>
-
-          {/* Bottom Tagline */}
-          <div className="mt-8 pt-6 border-t border-pink-300/20 text-center">
-            <p className="text-xs uppercase tracking-widest text-pink-200 opacity-90">
-              Let the Soul Choose.
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

@@ -1,0 +1,39 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8B2F2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB3D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3D9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- White overlay for readability -->
+  <rect width="1200" height="630" fill="white" opacity="0.9"/>
+
+  <!-- Heart Icon -->
+  <path d="M600 200 L600 200 C600 200 550 150 500 150 C450 150 420 180 420 230 C420 280 450 310 600 450 C750 310 780 280 780 230 C780 180 750 150 700 150 C650 150 600 200 600 200 Z" fill="#FFB3D9" opacity="0.6"/>
+
+  <!-- Main Title -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#6B46C1" text-anchor="middle">
+    SoulSeed
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="36" fill="#8B5CF6" text-anchor="middle">
+    Where Your Baby Name Blooms
+  </text>
+
+  <!-- Stats -->
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="28" fill="#4B5563" text-anchor="middle">
+    150,000+ Baby Names • AI-Powered • Free
+  </text>
+
+  <!-- URL -->
+  <text x="600" y="520" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#6B46C1" text-anchor="middle">
+    soulseedbaby.com
+  </text>
+</svg>
