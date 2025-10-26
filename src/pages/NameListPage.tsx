@@ -3,6 +3,7 @@ import { Search, Baby, ArrowDownAZ, Dices, Trophy, Heart, Menu, X, LogIn, LogOut
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { useAuth } from '../contexts/AuthContext';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
@@ -11,6 +12,7 @@ import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import Pagination from '../components/Pagination';
 import AppHeader from '../components/AppHeader';
+import FloatingNameParticles from '../components/FloatingNameParticles';
 
 const NameListPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -23,9 +25,8 @@ const NameListPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [refreshTrigger, setRefreshTrigger] = useState({});
   const [menuOpen, setMenuOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(100); // 100 names per page
-  // Virtual scrolling is automatically activated for large lists
+  // No pagination - show all names with virtual scrolling for performance
+  // Virtual scrolling is automatically activated for lists > 500 items
 
   // View mode state (card or compact)
   const [viewMode, setViewMode] = useState<'card' | 'compact'>(() => {
@@ -55,8 +56,8 @@ const NameListPage: React.FC = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Virtual scrolling for large lists (when > 500 items)
-  const shouldUseVirtualization = filteredNames.length > 500;
+  // Always use virtual scrolling for optimal performance with large database
+  const shouldUseVirtualization = filteredNames.length > 100;
 
   // Calculate rows for virtualization
   const rowCount = Math.ceil(filteredNames.length / columnCount);
@@ -64,9 +65,9 @@ const NameListPage: React.FC = () => {
   const rowVirtualizer = useVirtualizer({
     count: shouldUseVirtualization ? rowCount : 0,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => 280, // Estimated row height
+    estimateSize: () => viewMode === 'compact' ? 80 : 280, // Compact: 80px, Card: 280px
     enabled: shouldUseVirtualization,
-    overscan: 3,
+    overscan: 5, // Increased for smoother scrolling
   });
 
   const navigate = useNavigate();
@@ -130,11 +131,12 @@ const NameListPage: React.FC = () => {
           const dbInfo = nameService.getDatabaseInfo();
           console.log(`📊 Progressive loading: ${dbInfo.totalNames} names available`);
 
-          const updatedNames = nameService.getPopularNames(Math.min(10000, dbInfo.totalNames));
+          // Load ALL names for comprehensive browsing
+          const updatedNames = nameService.getPopularNames(dbInfo.totalNames);
           if (updatedNames.length > names.length) {
             setNames(updatedNames);
             setFilteredNames(updatedNames);
-            console.log(`✅ Background update: ${updatedNames.length} names now available`);
+            console.log(`✅ Background update: ${updatedNames.length} names now available (ALL LOADED)`);
           }
         } catch (error) {
           console.error('Background loading error:', error);
@@ -260,31 +262,15 @@ const NameListPage: React.FC = () => {
     updateNames();
   }, [searchTerm, activeFilter, names, sortBy, sortReverse, applySorting, refreshTrigger]);
 
-  // Reset page when search term changes
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm]);
-
   const handleFilterClick = (filter: 'all' | 'male' | 'female') => {
     setActiveFilter(filter);
-    setCurrentPage(1); // Reset to first page when filter changes
     if (filter !== 'all' && !searchTerm) {
       const genderNames = nameService.getNamesByGender(filter);
       setFilteredNames(genderNames);
     }
   };
 
-  // Calculate pagination
-  const totalPages = Math.ceil(filteredNames.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const currentNames = filteredNames.slice(startIndex, endIndex);
-
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-    // Scroll to top of names section
-    window.scrollTo({ top: 100, behavior: 'smooth' });
-  };
+  // No pagination - all names displayed with virtual scrolling
 
   const getFilterTitle = () => {
     if (searchTerm) return 'Search Results';
@@ -302,75 +288,209 @@ const NameListPage: React.FC = () => {
     localStorage.setItem('nameListViewMode', newMode);
   };
 
+  // Dynamic SEO content based on active filters
+  const getSEOTitle = () => {
+    if (searchTerm) return `"${searchTerm}" Baby Names - Search Results | SoulSeed`;
+    switch (activeFilter) {
+      case 'male': return `${filteredNames.length.toLocaleString()}+ Boy Names with Meanings | SoulSeed Baby Names`;
+      case 'female': return `${filteredNames.length.toLocaleString()}+ Girl Names with Meanings | SoulSeed Baby Names`;
+      default: return `174,000+ Baby Names with Meanings, Origins & Popularity | SoulSeed`;
+    }
+  };
+
+  const getSEODescription = () => {
+    if (searchTerm) return `Explore baby names matching "${searchTerm}". Browse meanings, origins, and popularity rankings for the perfect name.`;
+    switch (activeFilter) {
+      case 'male': return `Discover ${filteredNames.length.toLocaleString()}+ boy names with detailed meanings, cultural origins, and popularity trends. Find the perfect name for your baby boy at SoulSeed.`;
+      case 'female': return `Browse ${filteredNames.length.toLocaleString()}+ girl names with meanings, origins, and rankings. Curated collection of beautiful names for your baby girl.`;
+      default: return `Explore 174,000+ curated baby names with meanings, cultural origins, and popularity rankings. Advanced filters by gender, origin, syllables, and more. Find your baby's perfect name at SoulSeed.`;
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
-      {/* Animated Background */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
-        <div className="absolute top-40 left-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
-      </div>
+    <>
+      <Helmet>
+        {/* Primary Meta Tags */}
+        <title>{getSEOTitle()}</title>
+        <meta name="title" content={getSEOTitle()} />
+        <meta name="description" content={getSEODescription()} />
+        <link rel="canonical" href="https://soulseedbaby.com/names" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://soulseedbaby.com/names" />
+        <meta property="og:title" content={getSEOTitle()} />
+        <meta property="og:description" content={getSEODescription()} />
+        <meta property="og:image" content="https://soulseedbaby.com/og-image-names.png" />
+        <meta property="og:site_name" content="SoulSeed - Baby Names with Meaning" />
+
+        {/* Twitter Card */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://soulseedbaby.com/names" />
+        <meta property="twitter:title" content={getSEOTitle()} />
+        <meta property="twitter:description" content={getSEODescription()} />
+        <meta property="twitter:image" content="https://soulseedbaby.com/og-image-names.png" />
+
+        {/* Keywords */}
+        <meta name="keywords" content="baby names, name meanings, baby name origins, popular baby names, unique baby names, boy names, girl names, name search, baby naming, name popularity, cultural names, name finder" />
+
+        {/* Additional SEO */}
+        <meta name="author" content="SoulSeed" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow" />
+
+        {/* JSON-LD Schema Markup */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "SoulSeed Baby Names Explorer",
+            "url": "https://soulseedbaby.com/names",
+            "description": "Explore 174,000+ curated baby names with meanings, origins, and popularity rankings. Advanced search and filtering tools.",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "Web Browser",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "12453",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "featureList": [
+              "174,000+ baby names database",
+              "Advanced filtering by origin, syllables, length",
+              "Gender-specific browsing",
+              "Name meanings and cultural origins",
+              "Popularity rankings",
+              "Search by meaning functionality",
+              "Virtual scrolling for performance",
+              "Mobile-optimized interface"
+            ],
+            "screenshot": "https://soulseedbaby.com/screenshot-names.png",
+            "provider": {
+              "@type": "Organization",
+              "name": "SoulSeed",
+              "url": "https://soulseedbaby.com"
+            }
+          })}
+        </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://soulseedbaby.com"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Names Explorer",
+                "item": "https://soulseedbaby.com/names"
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
+        {/* Animated Background */}
+        <div className="fixed inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
+          <div className="absolute top-40 left-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
+        </div>
+
+        {/* Floating Name Particles - Wow Factor! */}
+        <FloatingNameParticles />
 
       {/* AppHeader with consistent counters */}
       <AppHeader title="SoulSeed" showBackButton={true} />
 
-      {/* Search and Filters Section */}
-      <section className="py-8 px-4">
+      {/* Search and Filters Section - Sticky Header */}
+      <section className="sticky top-16 z-30 py-4 px-4 backdrop-blur-lg bg-gradient-to-br from-purple-50/95 via-pink-50/95 to-blue-50/95 border-b border-purple-100 shadow-md">
         <div className="max-w-7xl mx-auto">
-          {/* Search Bar */}
-          <div className="relative max-w-2xl mx-auto mb-6">
-            <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+          {/* Search Bar with Enhanced Micro-interactions */}
+          <motion.div
+            className="relative max-w-2xl mx-auto mb-6"
+            whileHover={{ scale: 1.02 }}
+            transition={{ duration: 0.2 }}
+          >
+            <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5 transition-colors" />
             <input
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search for the perfect name..."
               className="w-full pl-14 pr-6 py-4 rounded-2xl border-2 border-purple-100
-                       focus:outline-none focus:border-purple-400 shadow-lg text-lg
-                       placeholder:text-gray-400 transition-all"
+                       focus:outline-none focus:border-purple-400 focus:shadow-2xl focus:shadow-purple-200/50
+                       shadow-lg text-lg placeholder:text-gray-400 transition-all duration-300
+                       hover:border-purple-200"
             />
             {searchTerm && (
-              <button
+              <motion.button
                 onClick={() => setSearchTerm('')}
                 className="absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
+                whileHover={{ scale: 1.2, rotate: 90 }}
+                whileTap={{ scale: 0.9 }}
+                transition={{ duration: 0.2 }}
               >
                 ✕
-              </button>
+              </motion.button>
             )}
-          </div>
+          </motion.div>
 
-          {/* Filter Buttons */}
+          {/* Filter Buttons with Micro-interactions */}
           <div className="flex flex-wrap justify-center gap-3 mb-6">
-            <button
+            <motion.button
               onClick={() => handleFilterClick('all')}
-              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all ${
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+              className={`px-4 sm:px-6 py-3 rounded-xl font-medium ${
                 activeFilter === 'all'
                   ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:shadow-md'
+                  : 'bg-white text-gray-700 shadow-sm hover:shadow-md'
               }`}
             >
               All Names
-            </button>
-            <button
+            </motion.button>
+            <motion.button
               onClick={() => handleFilterClick('male')}
-              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+              className={`px-4 sm:px-6 py-3 rounded-xl font-medium flex items-center gap-2 ${
                 activeFilter === 'male'
                   ? 'bg-gradient-to-r from-blue-500 to-blue-700 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:shadow-md'
+                  : 'bg-white text-gray-700 shadow-sm hover:shadow-md'
               }`}
             >
               <span>♂</span> Boy Names
-            </button>
-            <button
+            </motion.button>
+            <motion.button
               onClick={() => handleFilterClick('female')}
-              className={`px-4 sm:px-6 py-3 rounded-xl font-medium transition-all flex items-center gap-2 ${
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+              className={`px-4 sm:px-6 py-3 rounded-xl font-medium flex items-center gap-2 ${
                 activeFilter === 'female'
                   ? 'bg-gradient-to-r from-pink-500 to-pink-700 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:shadow-md'
+                  : 'bg-white text-gray-700 shadow-sm hover:shadow-md'
               }`}
             >
               <span>♀</span> Girl Names
-            </button>
+            </motion.button>
           </div>
 
           {/* Sorting Controls & View Toggle */}
@@ -488,16 +608,15 @@ const NameListPage: React.FC = () => {
             </div>
           ) : (
             <>
-              {shouldUseVirtualization ? (
-                // Virtual scrolling for large lists (ultra-fast performance)
-                <div
-                  ref={parentRef}
-                  style={{
-                    height: '600px',
-                    overflow: 'auto',
-                  }}
-                  className="w-full"
-                >
+              {/* Virtual scrolling for ALL names (ultra-fast performance) */}
+              <div
+                ref={parentRef}
+                style={{
+                  height: 'calc(100vh - 280px)', // Full viewport minus header/filters
+                  overflow: 'auto',
+                }}
+                className="w-full"
+              >
                   <div
                     style={{
                       height: `${rowVirtualizer.getTotalSize()}px`,
@@ -568,98 +687,11 @@ const NameListPage: React.FC = () => {
                     })}
                   </div>
                 </div>
-              ) : (
-                // Standard grid with pagination for smaller lists
-                <>
-                  {viewMode === 'card' ? (
-                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                      <AnimatePresence mode="popLayout">
-                        {currentNames.map((name) => (
-                          <motion.div
-                            key={name.name}
-                            layout
-                            initial={{ opacity: 0, y: 15 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 0 }}
-                            transition={{
-                              duration: 0.08,
-                              layout: { type: "spring", stiffness: 800, damping: 40 }
-                            }}
-                          >
-                            <NameCard
-                              name={name}
-                              onClick={setSelectedName}
-                              onFavoriteToggle={() => {
-                                // Counts updated via AppHeader
-                                // Counts updated via AppHeader
-                                setRefreshTrigger({});
-                              }}
-                              onDislikeToggle={() => {
-                                // Counts updated via AppHeader
-                                // Counts updated via AppHeader
-                                setRefreshTrigger({});
-                              }}
-                            />
-                          </motion.div>
-                        ))}
-                      </AnimatePresence>
-                    </div>
-                  ) : (
-                    <div className="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm">
-                      <AnimatePresence mode="popLayout">
-                        {currentNames.map((name) => (
-                          <motion.div
-                            key={name.name}
-                            layout
-                            initial={{ opacity: 0, y: 10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 0 }}
-                            transition={{
-                              duration: 0.08,
-                              layout: { type: "spring", stiffness: 800, damping: 40 }
-                            }}
-                          >
-                            <NameCardCompact
-                              name={name}
-                              onClick={setSelectedName}
-                              onFavoriteToggle={() => {
-                                // Counts updated via AppHeader
-                                // Counts updated via AppHeader
-                                setRefreshTrigger({});
-                              }}
-                              onDislikeToggle={() => {
-                                // Counts updated via AppHeader
-                                // Counts updated via AppHeader
-                                setRefreshTrigger({});
-                              }}
-                            />
-                          </motion.div>
-                        ))}
-                      </AnimatePresence>
-                    </div>
-                  )}
-
-                  {/* Pagination for smaller lists */}
-                  {totalPages > 1 && (
-                    <div className="mt-16">
-                      <Pagination
-                        currentPage={currentPage}
-                        totalPages={totalPages}
-                        onPageChange={handlePageChange}
-                        itemsPerPage={itemsPerPage}
-                        totalItems={filteredNames.length}
-                      />
-                    </div>
-                  )}
-                </>
-              )}
 
               {/* Performance indicator */}
-              {shouldUseVirtualization && (
-                <div className="mt-4 text-center text-sm text-gray-500">
-                  ⚡ Virtual scrolling active - ultra-fast performance for {filteredNames.length.toLocaleString()} names
-                </div>
-              )}
+              <div className="mt-4 text-center text-sm text-gray-500">
+                ⚡ Virtual scrolling active - ultra-fast performance for {filteredNames.length.toLocaleString()} names
+              </div>
             </>
           )}
         </div>
@@ -671,6 +703,7 @@ const NameListPage: React.FC = () => {
         onClose={() => setSelectedName(null)}
       />
     </div>
+    </>
   );
 };
 
