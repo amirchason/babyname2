@@ -44,11 +44,11 @@
     "test": "react-scripts test",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
     "eject": "react-scripts eject",
-    "deploy": "export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
-    "deploy:preview": "export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --token=$VERCEL_TOKEN --yes",
+    "deploy": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
+    "deploy:preview": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --token=$VERCEL_TOKEN --yes",
     "deploy:github": "gh-pages -d build",
-    "ship": "export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
-    "ship-msg": "git add . && git commit && git push origin master && export $(cat .env | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes"
+    "ship": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
+    "ship-msg": "git add . && git commit && git push origin master && export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes"
   },
   "eslintConfig": {
     "extends": [
