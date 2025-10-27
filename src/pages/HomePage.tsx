@@ -461,6 +461,7 @@ const HomePage: React.FC = () => {
       <StructuredData type="website" />
       <StructuredData type="webapp" />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
+      <h1 className="sr-only">SoulSeed - Find Your Baby's Perfect Name</h1>
       {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />

@@ -105,7 +105,7 @@ const DislikesPage: React.FC = () => {
         <AppHeader title="SoulSeed" showBackButton={true} />
 
       {/* Page-specific actions bar - Sticky below header */}
-      <div className="sticky z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>
+      <div className="sticky z-40 bg-transparent border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
           <div className="flex items-center justify-between gap-3">
             {/* Left: Title with inline count */}

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { Heart, Home, Trash2, Baby, Grid3x3, List, Share2, ArrowUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import nameService, { NameEntry } from '../services/nameService';
@@ -14,6 +13,7 @@ import AppHeader from '../components/AppHeader';
 import CreateVoteModal from '../components/CreateVoteModal';
 import ShareVoteModal from '../components/ShareVoteModal';
 import { VoteNameEntry } from '../services/voteService';
+import SEOHead from '../components/SEO/SEOHead';
 
 const FavoritesPage: React.FC = () => {
   const [favoriteNames, setFavoriteNames] = useState<NameEntry[]>([]);
@@ -265,25 +265,24 @@ const FavoritesPage: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>My Favorite Baby Names | SoulSeed</title>
-        <meta name="description" content="View and manage your favorite baby names at SoulSeed. Save, organize, and share your curated list of meaningful names for your baby." />
-        <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://soulseedbaby.com/favorites" />
-      </Helmet>
+      <SEOHead
+        title="My Favorite Baby Names | SoulSeed"
+        description="View and manage your favorite baby names at SoulSeed. Save, organize, and share your curated list of meaningful names for your baby."
+        canonical="https://soulseedbaby.com/favorites"
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
         {/* AppHeader with consistent counters */}
       <AppHeader title="SoulSeed" showBackButton={true} />
 
       {/* Page-specific actions bar - Sticky below header */}
-      <div className="sticky z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>
+      <div className="sticky z-40 bg-transparent border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
           <div className="flex items-center justify-between gap-3">
             {/* Left: Title with inline count */}
             <div className="flex-1 min-w-0">
               <div className="flex items-baseline gap-2 flex-wrap">
-                <h2 className="text-base font-semibold text-gray-900">Favorites</h2>
+                <h1 className="text-base font-semibold text-gray-900">Favorites</h1>
                 {!loading && favoriteNames.length > 0 && (
                   <span className="text-xs text-gray-500 flex items-center gap-1.5 flex-wrap">
                     {pinnedNames.length > 0 && (

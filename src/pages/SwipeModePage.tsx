@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { Heart, X, Sparkles, RotateCcw } from 'lucide-react';
 import nameService, { NameEntry } from '../services/nameService';
 import favoritesService from '../services/favoritesService';
 import NameDetailModal from '../components/NameDetailModal';
 import AppHeader from '../components/AppHeader';
 import TinderSwipeCard from '../components/TinderSwipeCard';
+import SEOHead from '../components/SEO/SEOHead';
 import SwipeFilterBar, {
   SwipeFilters,
   ENGLISH_SPEAKING_ORIGINS,
@@ -382,20 +382,14 @@ const SwipeModePage: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Swipe Baby Names | Tinder-Style Name Finder | SoulSeed</title>
-        <meta name="description" content="Find your perfect baby name with SoulSeed's unique Tinder-style swipe mode. Swipe right to like, left to pass. Fun, fast, and personalized baby name discovery." />
-        <meta name="keywords" content="swipe baby names, tinder baby names, baby name swipe app, find baby names, interactive baby name finder" />
-
-        {/* Open Graph */}
-        <meta property="og:title" content="Swipe Baby Names | Tinder-Style Name Finder | SoulSeed" />
-        <meta property="og:description" content="Swipe through thousands of baby names Tinder-style. Like or pass - finding your baby's perfect name has never been more fun!" />
-        <meta property="og:url" content="https://soulseedbaby.com/swipe" />
-
-        <link rel="canonical" href="https://soulseedbaby.com/swipe" />
-      </Helmet>
+      <SEOHead
+        title="Swipe Baby Names | Tinder-Style Name Finder | SoulSeed"
+        description="Find your perfect baby name with SoulSeed's unique Tinder-style swipe mode. Swipe right to like, left to pass. Fun, fast, and personalized baby name discovery."
+        canonical="https://soulseedbaby.com/swipe"
+      />
 
       <div className="fixed inset-0 bg-gradient-to-br from-purple-50 to-pink-50 overflow-hidden flex flex-col">
+        <h1 className="sr-only">Swipe Baby Names - Tinder-Style Name Finder</h1>
         {/* AppHeader with consistent counters */}
       <div className="flex-none">
         <AppHeader title="SoulSeed" showBackButton={true} />
