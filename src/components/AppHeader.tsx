@@ -115,7 +115,13 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                 }
               }}
             />
-            <h1 className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">
+            <h1
+              className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900"
+              style={{
+                transform: 'scale(1.05) scaleY(1.24)',
+                transformOrigin: 'left center'
+              }}
+            >
               {title}
             </h1>
           </button>
