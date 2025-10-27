@@ -18,6 +18,7 @@ import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
+import StructuredData from '../components/SEO/StructuredData';
 
 const HomePage: React.FC = () => {
   // Use global name cache (prevents reloading on navigation)
@@ -456,6 +457,9 @@ const HomePage: React.FC = () => {
         description="Discover meaningful baby names with AI-powered suggestions. Swipe through 174,000+ names from diverse cultures with instant cloud sync."
         canonical="https://soulseedbaby.com"
       />
+      <StructuredData type="organization" />
+      <StructuredData type="website" />
+      <StructuredData type="webapp" />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
       {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">

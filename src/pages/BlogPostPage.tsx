@@ -15,6 +15,7 @@ import BlogNameList from '../components/BlogNameList';
 import CompactBlogNameList from '../components/CompactBlogNameList';
 import AppHeader from '../components/AppHeader';
 import { BlogNameMentionProvider } from '../contexts/BlogNameMentionContext';
+import StructuredData from '../components/SEO/StructuredData';
 
 // Check if content mentions baby names
 const hasBabyNameContent = (content: string): boolean => {
@@ -320,6 +321,22 @@ export default function BlogPostPage() {
           </script>
         )}
       </Helmet>
+
+      {/* Article Schema - Fallback if not in post.seo.schema */}
+      {!post.seo?.schema && (
+        <StructuredData
+          type="article"
+          data={{
+            headline: post.title,
+            description: post.excerpt || '',
+            image: post.featuredImage || 'https://soulseedbaby.com/og-image.png',
+            datePublished: new Date(post.createdAt).toISOString(),
+            dateModified: post.updatedAt ? new Date(post.updatedAt).toISOString() : new Date(post.createdAt).toISOString(),
+            author: post.author || 'SoulSeed',
+            url: `https://soulseedbaby.com/blog/${slug}`
+          }}
+        />
+      )}
 
       {/* Sticky Header - same as homepage */}
       <AppHeader title="SoulSeed" showBackButton={false} />
