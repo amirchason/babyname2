@@ -6,8 +6,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
+import SEOHead from '../components/SEO/SEOHead';
 import {
   Sparkles,
   ArrowRight,
@@ -184,13 +184,14 @@ export default function CreateVotePage() {
 
   return (
     <>
-      <Helmet>
-        <title>Create Baby Name Vote - Share & Vote with Your Partner | SoulSeed</title>
-        <meta name="description" content="Create a baby name voting session to share with your partner. Select your favorite names and let everyone vote on their top choices together!" />
-        <link rel="canonical" href="https://soulseedbaby.com/create-vote" />
-      </Helmet>
+      <SEOHead
+        title="Create Baby Name Vote - Share & Vote with Your Partner | SoulSeed"
+        description="Create a baby name voting session to share with your partner. Select your favorite names and let everyone vote on their top choices together!"
+        canonical="https://soulseedbaby.com/create-vote"
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative overflow-hidden py-4 px-4">
+      <h1 className="sr-only">Create Baby Name Vote</h1>
       <ParallaxBackground />
 
       {/* Main Content */}

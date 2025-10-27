@@ -12,6 +12,7 @@ const NameRingTestPage: React.FC = () => {
         noindex={true}
       />
       <div className="w-full h-screen">
+        <h1 className="sr-only">Name Ring Test</h1>
         <NameParticleRing />
       </div>
     </>

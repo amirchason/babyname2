@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { Heart, Sparkles, Users, Target, ArrowRight } from 'lucide-react';
+import SEOHead from '../components/SEO/SEOHead';
 
 const AboutUsPage: React.FC = () => {
   useEffect(() => {
@@ -11,11 +11,11 @@ const AboutUsPage: React.FC = () => {
 
   return (
     <>
-      <Helmet>
-        <title>About SoulSeed - Where Your Baby Name Blooms | Our Mission</title>
-        <meta name="description" content="Discover the story behind SoulSeed, the leading baby name app with 146,000+ unique names. Learn about our mission to help expecting parents find the perfect name for their baby." />
-        <link rel="canonical" href="https://soulseedbaby.com/about" />
-      </Helmet>
+      <SEOHead
+        title="About SoulSeed - Where Your Baby Name Blooms | Our Mission"
+        description="Discover the story behind SoulSeed, the leading baby name app with 146,000+ unique names. Learn about our mission to help expecting parents find the perfect name for their baby."
+        canonical="https://soulseedbaby.com/about"
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* Hero Section */}

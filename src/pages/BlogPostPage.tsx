@@ -280,7 +280,7 @@ export default function BlogPostPage() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-pink-50 px-4">
         <div className="text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-4">Post Not Found</h1>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-4">Post Not Found</h2>
           <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">Sorry, we couldn't find that blog post.</p>
           <Link
             to="/blog"

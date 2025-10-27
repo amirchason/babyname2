@@ -9,9 +9,9 @@ import { collection, query, where, orderBy, getDocs } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { BlogPost } from '../types/blog';
 import { Clock, Calendar } from 'lucide-react';
-import { Helmet } from 'react-helmet-async';
 import AppHeader from '../components/AppHeader';
 import BlogPillarNav, { BlogPillar } from '../components/BlogPillarNav';
+import SEOHead from '../components/SEO/SEOHead';
 
 export default function BlogListPage() {
   const [posts, setPosts] = useState<BlogPost[]>([]);
@@ -87,12 +87,11 @@ export default function BlogListPage() {
 
   return (
     <>
-      <Helmet>
-        <title>Baby Parenting Blog | Expert Tips, Guides & Name Ideas | SoulSeed</title>
-        <meta name="description" content="Expert parenting advice for expecting and new parents. Baby names, milestones, gear reviews, pregnancy tips, and postpartum support at SoulSeed Blog." />
-        <meta name="keywords" content="parenting blog, baby blog, pregnancy blog, baby names blog, baby milestones, baby gear reviews, parenting tips" />
-        <link rel="canonical" href="https://soulseedbaby.com/blog" />
-      </Helmet>
+      <SEOHead
+        title="Baby Parenting Blog | Expert Tips, Guides & Name Ideas | SoulSeed"
+        description="Expert parenting advice for expecting and new parents. Baby names, milestones, gear reviews, pregnancy tips, and postpartum support at SoulSeed Blog."
+        canonical="https://soulseedbaby.com/blog"
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50">
         {/* Sticky Header */}

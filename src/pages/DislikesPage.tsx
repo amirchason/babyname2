@@ -111,7 +111,7 @@ const DislikesPage: React.FC = () => {
             {/* Left: Title with inline count */}
             <div className="flex-1 min-w-0">
               <div className="flex items-baseline gap-2 flex-wrap">
-                <h2 className="text-base font-semibold text-gray-900">Dislikes</h2>
+                <h1 className="text-base font-semibold text-gray-900">Dislikes</h1>
                 {!loading && (
                   <span className="text-xs text-gray-500">
                     {dislikedNames.length === 0

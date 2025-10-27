@@ -6,8 +6,8 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
+import SEOHead from '../components/SEO/SEOHead';
 import {
   ArrowLeft,
   CheckCircle2,
@@ -404,7 +404,7 @@ export default function VotingPage() {
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 flex items-center justify-center p-4">
         <div className="text-center max-w-md">
           <AlertCircle className="w-16 h-16 text-red-500 mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-gray-800 mb-2">Vote Not Found</h1>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Vote Not Found</h2>
           <p className="text-gray-600 mb-6">
             {error || 'This vote session does not exist or has been removed.'}
           </p>
@@ -421,11 +421,11 @@ export default function VotingPage() {
 
   return (
     <>
-      <Helmet>
-        <title>Vote on Baby Names - {voteSession?.title || 'Loading'} | SoulSeed</title>
-        <meta name="description" content="Cast your vote and help choose the perfect baby name! Share your preferences in this interactive voting session." />
-        <link rel="canonical" href={`https://soulseedbaby.com/vote/${voteId}`} />
-      </Helmet>
+      <SEOHead
+        title={`Vote on Baby Names - ${voteSession?.title || 'Loading'} | SoulSeed`}
+        description="Cast your vote and help choose the perfect baby name! Share your preferences in this interactive voting session."
+        canonical={`https://soulseedbaby.com/vote/${voteId}`}
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative">
       <ParallaxBackground />
