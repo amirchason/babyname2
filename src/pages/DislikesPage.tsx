@@ -229,6 +229,7 @@ const DislikesPage: React.FC = () => {
         />
       )}
     </div>
+    </>
   );
 };
 

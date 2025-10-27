@@ -170,6 +170,7 @@ const AccessibilityPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

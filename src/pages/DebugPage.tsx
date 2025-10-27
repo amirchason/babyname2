@@ -188,6 +188,7 @@ const DebugPage: React.FC<DebugPageProps> = ({ embedded = false }) => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
