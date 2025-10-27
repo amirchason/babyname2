@@ -116,7 +116,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               }}
             />
             <h1
-              className="text-2xl sm:text-3xl font-normal tracking-wide text-gray-900"
+              className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900"
               style={{
                 transform: 'scale(1.25)',
                 transformOrigin: 'left bottom'
