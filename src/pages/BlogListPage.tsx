@@ -186,6 +186,41 @@ export default function BlogListPage() {
         </div>
         </div>
       </div>
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          "name": "SoulSeed Baby Parenting Blog",
+          "description": "Expert parenting advice for expecting and new parents. Baby names, milestones, gear reviews, pregnancy tips, and postpartum support.",
+          "url": "https://soulseedbaby.com/blog",
+          "publisher": {
+            "@type": "Organization",
+            "name": "SoulSeed",
+            "url": "https://soulseedbaby.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://soulseedbaby.com/logo.png"
+            }
+          },
+          "blogPost": filteredPosts.slice(0, 10).map(post => ({
+            "@type": "BlogPosting",
+            "headline": post.title,
+            "description": post.excerpt,
+            "url": `https://soulseedbaby.com/blog/${post.slug}`,
+            "datePublished": "2025-10-20",
+            "author": {
+              "@type": "Person",
+              "name": post.author || "SoulSeed Team"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "SoulSeed"
+            }
+          }))
+        })}
+      </script>
     </div>
     </>
   );

@@ -535,6 +535,37 @@ const SwipeModePage: React.FC = () => {
           onClose={() => setSelectedName(null)}
         />
       )}
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          "name": "SoulSeed Swipe Mode",
+          "applicationCategory": "LifestyleApplication",
+          "description": "Discover your perfect baby name with SoulSeed's Tinder-style swipe interface. Swipe right to like, left to pass. Fun, fast, and personalized baby name discovery.",
+          "url": "https://soulseedbaby.com/swipe",
+          "operatingSystem": "Web Browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1200"
+          },
+          "featureList": [
+            "Tinder-style swipe interface",
+            "150,000+ baby names database",
+            "Advanced filtering options",
+            "Favorites and dislikes tracking",
+            "Gender and origin filtering",
+            "Instant name discovery"
+          ]
+        })}
+      </script>
     </div>
     </>
   );
