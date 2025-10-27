@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Home, List, Heart, ThumbsDown, Bug, Shuffle, Map, ArrowLeft, ExternalLink } from 'lucide-react';
 import AppHeader from '../components/AppHeader';
+import SEOHead from '../components/SEO/SEOHead';
 
 interface PageLink {
   path: string;
@@ -62,7 +63,13 @@ const SitemapPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <SEOHead
+        title="Sitemap | SoulSeed Baby Names"
+        description="Complete sitemap of SoulSeed baby name resources, including name lists, blog articles, and tools to help you choose the perfect name."
+        canonical="https://soulseedbaby.com/sitemap"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* AppHeader */}
       <AppHeader title="SoulSeed" showBackButton={true} />
 
@@ -169,6 +176,7 @@ const SitemapPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

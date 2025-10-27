@@ -2,10 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Database, Sparkles, Cloud, ArrowLeft } from 'lucide-react';
 import StructuredData from '../components/StructuredData';
+import SEOHead from '../components/SEO/SEOHead';
 
 const AboutPage: React.FC = () => {
   return (
     <>
+      <SEOHead
+        title="About SoulSeed - Your Baby Name Journey Starts Here"
+        description="Discover how SoulSeed helps parents find the perfect baby name with AI-powered suggestions, swipe mode, and 174,000+ names from diverse cultures."
+        canonical="https://soulseedbaby.com/about"
+      />
       <StructuredData type="organization" />
       <StructuredData type="webapp" />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">

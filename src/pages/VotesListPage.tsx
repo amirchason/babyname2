@@ -26,6 +26,7 @@ import voteService, { VoteSession } from '../services/voteService';
 import { useAuth } from '../contexts/AuthContext';
 import { useToast } from '../contexts/ToastContext';
 import ParallaxBackground from '../components/ParallaxBackground';
+import SEOHead from '../components/SEO/SEOHead';
 
 export default function VotesListPage() {
   const navigate = useNavigate();
@@ -88,7 +89,13 @@ export default function VotesListPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900 relative overflow-hidden">
+    <>
+      <SEOHead
+        title="Name Votes | SoulSeed Baby Names"
+        description="View and participate in baby name voting sessions. Share your opinions and see what names are popular with other parents."
+        canonical="https://soulseedbaby.com/votes"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-purple-900 to-pink-900 relative overflow-hidden">
       <ParallaxBackground />
 
       {/* Hero Section with Video Background */}
@@ -332,5 +339,6 @@ export default function VotesListPage() {
         )}
       </div>
     </div>
+    </>
   );
 }

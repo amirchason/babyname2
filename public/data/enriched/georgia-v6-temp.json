@@ -1,0 +1,175 @@
+{
+  "name": "Georgia",
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Farmer",
+  "culturalSignificance": "The name Georgia is derived from the Greek name 'Georgios,' which means 'farmer' or 'earth-worker.' It has been a popular name in various cultures, symbolizing a connection to the land and agriculture. Historically, it has been used in royal and noble families, enhancing its prestige.",
+  "modernContext": "Georgia remains a popular name in English-speaking countries, often associated with a sense of classic elegance. It consistently ranks within the top 200 names for girls in the United States and the United Kingdom.",
+  "literaryReferences": "Georgia is a character in the novel 'Georgia on My Mind' by Marie Force.",
+  "pronunciationGuide": "/ˈdʒɔːrdʒiə/",
+  "variations": [
+    "Georgina",
+    "Georgiana",
+    "Jorja",
+    "Giorgia",
+    "Georgette"
+  ],
+  "similarNames": [
+    "Grace",
+    "Gabriella",
+    "Gemma",
+    "Gianna",
+    "Giselle"
+  ],
+  "nicknames": [
+    "Georgie",
+    "Gia",
+    "Gigi",
+    "Jo",
+    "G"
+  ],
+  "personality": "People named Georgia are often perceived as strong, independent, and nurturing, with a deep connection to nature and a practical approach to life.",
+  "symbolism": "The name Georgia symbolizes fertility, abundance, and a harmonious relationship with nature.",
+  "funFact": "Georgia is also the name of a U.S. state, known for its peaches and southern charm.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Georgia O'Keeffe",
+      "years": "1887-1986",
+      "category": "Artist",
+      "achievements": [
+        "Pioneering American modernism",
+        "Famous for large-scale flower paintings"
+      ],
+      "significance": "Georgia O'Keeffe is considered the 'Mother of American modernism' and is known for her distinct and innovative style.",
+      "notableWorks": [
+        "Jimson Weed/White Flower No. 1",
+        "Black Iris III"
+      ]
+    },
+    {
+      "fullName": "Georgia Douglas Johnson",
+      "years": "1880-1966",
+      "category": "Poet",
+      "achievements": [
+        "Prominent figure in the Harlem Renaissance",
+        "Published several poetry collections"
+      ],
+      "significance": "Georgia Douglas Johnson was an influential African-American poet and playwright, contributing significantly to the Harlem Renaissance.",
+      "notableWorks": [
+        "The Heart of a Woman",
+        "Bronze"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I found I could say things with color and shapes that I couldn't say any other way—things I had no words for.",
+      "author": "Georgia O'Keeffe",
+      "context": "Georgia O'Keeffe spoke about her unique artistic expression through her paintings.",
+      "year": 1976,
+      "category": "Art"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Georgia May Jagger",
+      "profession": "Model",
+      "knownFor": [
+        "Fashion modeling",
+        "Daughter of Mick Jagger"
+      ],
+      "awards": "British Fashion Award for Model of the Year"
+    },
+    {
+      "name": "Georgia Tennant",
+      "profession": "Actress",
+      "knownFor": [
+        "Doctor Who",
+        "The Bill"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Georgia Stanway",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Women's Super League",
+      "team": "Bayern Munich",
+      "pastTeams": [
+        "Manchester City"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "10",
+      "years": "2015-Present",
+      "achievements": "FA Women's Super League titles, FA Women's Cup",
+      "knownFor": [
+        "Dynamic midfield play",
+        "Goal-scoring ability"
+      ],
+      "awards": "PFA Women's Young Player of the Year",
+      "stats": "Over 30 goals in club career",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Hart of Dixie",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Georgia",
+      "characterDescription": "A character in the series known for her southern charm.",
+      "imdbUrl": "https://www.imdb.com/title/tt1832979/",
+      "genre": "Comedy, Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 8,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 171,
+    "peak": 242,
+    "peakYear": 2022
+  },
+  "enrichmentVersion": "v6"
+}

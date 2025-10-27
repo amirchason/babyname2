@@ -9,6 +9,7 @@ import NameDetailModal from '../components/NameDetailModal';
 import { useToast } from '../contexts/ToastContext';
 import { useAuth } from '../contexts/AuthContext';
 import AppHeader from '../components/AppHeader';
+import SEOHead from '../components/SEO/SEOHead';
 
 const DislikesPage: React.FC = () => {
   const [dislikedNames, setDislikedNames] = useState<NameEntry[]>([]);
@@ -93,9 +94,15 @@ const DislikesPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
-      {/* AppHeader with consistent counters */}
-      <AppHeader title="SoulSeed" showBackButton={true} />
+    <>
+      <SEOHead
+        title="Disliked Names | SoulSeed"
+        description="View and manage your disliked baby names. Change your mind? Easily restore names back to your browsing list."
+        canonical="https://soulseedbaby.com/dislikes"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+        {/* AppHeader with consistent counters */}
+        <AppHeader title="SoulSeed" showBackButton={true} />
 
       {/* Page-specific actions bar - Sticky below header */}
       <div className="sticky z-40 bg-white/95 backdrop-blur-lg border-b border-purple-100/50" style={{ top: 'var(--app-header-height, 73px)' }}>

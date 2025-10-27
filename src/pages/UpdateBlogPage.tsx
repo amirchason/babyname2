@@ -6,6 +6,7 @@
 import React, { useState } from 'react';
 import { doc, updateDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
+import SEOHead from '../components/SEO/SEOHead';
 
 export default function UpdateBlogPage() {
   const [status, setStatus] = useState('');
@@ -35,7 +36,14 @@ export default function UpdateBlogPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 p-8">
+    <>
+      <SEOHead
+        title="Update Blog | SoulSeed"
+        description="Admin tool for updating blog content."
+        canonical="https://soulseedbaby.com/update-blog"
+        noindex={true}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 p-8">
       <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
           Update Blog with Fixed Links
@@ -97,5 +105,6 @@ export default function UpdateBlogPage() {
         )}
       </div>
     </div>
+    </>
   );
 }

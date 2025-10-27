@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Send, ArrowLeft, MessageCircle } from 'lucide-react';
 import StructuredData from '../components/StructuredData';
+import SEOHead from '../components/SEO/SEOHead';
 
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({ name: '', email: '', subject: 'general', message: '' });
@@ -17,6 +18,11 @@ const ContactPage: React.FC = () => {
 
   return (
     <>
+      <SEOHead
+        title="Contact Us | SoulSeed Baby Names"
+        description="Get in touch with the SoulSeed team. We're here to help with questions, feedback, or support for your baby naming journey."
+        canonical="https://soulseedbaby.com/contact"
+      />
       <StructuredData type="contact" />
       <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       <div className="bg-white border-b border-gray-200">

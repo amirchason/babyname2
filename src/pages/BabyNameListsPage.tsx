@@ -9,8 +9,12 @@ import AppHeader from '../components/AppHeader';
 import NameCard from '../components/NameCard';
 import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
+import SEOHead from '../components/SEO/SEOHead';
 
 const BabyNameListsPage: React.FC = () => {
+  // SEO Meta Tags
+  const seoTitle = "Curated Baby Name Lists | SoulSeed";
+  const seoDescription = "Browse expertly curated baby name lists by theme, origin, meaning, and popularity. Find inspiration for your baby's perfect name.";
   const [allNames, setAllNames] = useState<BabyName[]>([]);
   const [themedLists, setThemedLists] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
@@ -143,8 +147,14 @@ const BabyNameListsPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader showBackButton={true} />
+    <>
+      <SEOHead
+        title={seoTitle}
+        description={seoDescription}
+        canonical="https://soulseedbaby.com/babynamelists"
+      />
+      <div className="min-h-screen bg-gray-50">
+        <AppHeader showBackButton={true} />
 
       {/* Full-width Search Bar - Below Header (Same as HomePage) */}
       <AnimatePresence>
@@ -701,6 +711,7 @@ const BabyNameListsPage: React.FC = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

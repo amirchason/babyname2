@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, ArrowLeft } from 'lucide-react';
+import SEOHead from '../components/SEO/SEOHead';
 
 const TermsOfServicePage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <SEOHead
+        title="Terms of Service | SoulSeed"
+        description="Read our terms of service to understand your rights and responsibilities when using SoulSeed to search for baby names."
+        canonical="https://soulseedbaby.com/terms-of-service"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* Header */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -328,6 +335,7 @@ const TermsOfServicePage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

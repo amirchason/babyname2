@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/?goto=names" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoulSeed - Baby Names</title>
+  <script>
+    // Client-side redirect to root with query parameter for React Router
+    window.location.replace('/?goto=names');
+  </script>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #D8B2F2 0%, #FFB3D9 50%, #B3D9FF 100%);
+    }
+    .message {
+      text-align: center;
+      color: white;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <p>Loading names list...</p>
+    <p>If not redirected, <a href="/?goto=names" style="color: white; text-decoration: underline;">click here</a>.</p>
+  </div>
+</body>
+</html>

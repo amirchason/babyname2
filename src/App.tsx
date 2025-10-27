@@ -1,5 +1,5 @@
 import React, { lazy, Suspense, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ToastProvider } from './contexts/ToastContext';
@@ -63,15 +63,51 @@ const AdminTextSelectionManager: React.FC = () => {
 };
 
 /**
- * Layout wrapper that conditionally shows header/footer
- * Full-page squeeze experience ONLY for voting pages (viewing/participating in votes)
- * Keep header/footer for vote CREATION for easy navigation back
+ * Header Visibility Controller - Uses CSS to hide header on voting pages
+ * This component NEVER re-renders, ensuring logo animation persistence
+ */
+const HeaderVisibilityController: React.FC = () => {
+  const location = useLocation();
+  const isVotingPage = location.pathname.startsWith('/vote/');
+
+  // Update CSS class on document to control header visibility
+  React.useEffect(() => {
+    if (isVotingPage) {
+      document.body.classList.add('hide-header-footer');
+    } else {
+      document.body.classList.remove('hide-header-footer');
+    }
+  }, [isVotingPage]);
+
+  return null; // This component renders nothing
+};
+
+/**
+ * Query Parameter Navigator - Handles ?goto=route redirects
+ * Used to preserve navigation when static files redirect to root
+ */
+const QueryParamNavigator: React.FC = () => {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const gotoParam = searchParams.get('goto');
+    if (gotoParam && location.pathname === '/') {
+      // Navigate to the requested route
+      navigate(`/${gotoParam}`, { replace: true });
+    }
+  }, [searchParams, navigate, location]);
+
+  return null;
+};
+
+/**
+ * Layout wrapper for main content
+ * Simplified - no longer handles header/footer rendering
  */
 const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const location = useLocation();
-
-  // Hide header & footer ONLY on voting pages (squeeze page for voters)
-  // Keep header/footer on create-vote page for easy navigation
   const isFullPageExperience = location.pathname.startsWith('/vote/');
 
   return (
@@ -93,17 +129,11 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         Skip to main content
       </a>
 
-      {/* Conditional Header */}
-      {!isFullPageExperience && <AppHeader title="SoulSeed" />}
-
       <Suspense fallback={<LoadingAnimation fullScreen message="Loading page..." />}>
         {/* Main content - add padding-top only when header is shown */}
         <main id="main-content" className={`flex-grow ${!isFullPageExperience ? 'pt-20' : ''}`}>
           {children}
         </main>
-
-        {/* Conditional Footer */}
-        {!isFullPageExperience && <Footer />}
       </Suspense>
     </div>
   );
@@ -121,6 +151,15 @@ function App() {
             <NameCacheProvider>
               <AdminTextSelectionManager />
               <Router basename={basename}>
+                {/* Visibility controller - manages CSS classes, renders nothing */}
+                <HeaderVisibilityController />
+
+                {/* Query param navigator - handles ?goto= redirects from static files */}
+                <QueryParamNavigator />
+
+                {/* Static Header - NEVER re-renders, stays mounted across all navigation */}
+                <AppHeader title="SoulSeed" />
+
                 <AppLayout>
                   <Routes>
                     <Route path="/" element={<HomePage />} />
@@ -154,6 +193,9 @@ function App() {
                     <Route path="/vote/:voteId" element={<VotingPage />} />
                   </Routes>
                 </AppLayout>
+
+                {/* Static Footer - NEVER re-renders, stays mounted across all navigation */}
+                <Footer />
               </Router>
             </NameCacheProvider>
           </AuthProvider>

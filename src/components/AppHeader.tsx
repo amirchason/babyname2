@@ -88,11 +88,12 @@ const AppHeader: React.FC<AppHeaderProps> = ({
 
   return (
     <header
-      className="backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100"
-      onClick={playLogoAnimation}
+      className="fixed top-0 left-0 right-0 z-50 border-b"
       style={{
-        cursor: 'pointer',
-        backgroundColor: 'rgba(251, 251, 251, 0.9)' // Match video background color
+        backgroundColor: 'rgba(255, 255, 255, 0.85)', // Semi-transparent white
+        backdropFilter: 'blur(12px)', // Glassmorphism blur effect
+        WebkitBackdropFilter: 'blur(12px)', // Safari support
+        borderColor: 'rgba(229, 231, 235, 0.5)' // Semi-transparent border
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
@@ -105,10 +106,10 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           >
             <video
               ref={videoRef}
-              src="/baby-logo.mp4"
+              src="/baby-logo.webm"
               muted
               playsInline
-              className="h-16 w-16 sm:h-18 sm:w-18 rounded-lg object-cover"
+              className="h-20 w-20 sm:h-22 sm:w-22 rounded-lg object-cover"
               style={{ pointerEvents: 'none' }}
               onEnded={() => {
                 // Pause on last frame when animation completes
@@ -311,7 +312,15 @@ const AppHeader: React.FC<AppHeaderProps> = ({
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="md:hidden mt-4 pt-4 border-t border-gray-200">
+          <div
+            className="md:hidden mt-4 pt-4 border-t"
+            style={{
+              backgroundColor: 'rgba(255, 255, 255, 0.92)', // Higher opacity for readability
+              backdropFilter: 'blur(12px)', // Glassmorphism blur effect
+              WebkitBackdropFilter: 'blur(12px)', // Safari support
+              borderColor: 'rgba(229, 231, 235, 0.5)' // Semi-transparent border
+            }}
+          >
             <div className="flex flex-col space-y-3">
               <button
                 onClick={() => {
@@ -443,4 +452,4 @@ const AppHeader: React.FC<AppHeaderProps> = ({
   );
 };
 
-export default AppHeader;
+export default React.memo(AppHeader);

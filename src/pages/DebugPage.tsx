@@ -3,6 +3,7 @@ import { useAuth } from '../contexts/AuthContext';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import AppHeader from '../components/AppHeader';
+import SEOHead from '../components/SEO/SEOHead';
 
 interface DebugPageProps {
   embedded?: boolean;
@@ -165,8 +166,15 @@ const DebugPage: React.FC<DebugPageProps> = ({ embedded = false }) => {
 
   // Return standalone page version (with header)
   return (
-    <div className="min-h-screen bg-gray-50">
-      <AppHeader title="SoulSeed" showBackButton={true} />
+    <>
+      <SEOHead
+        title="Debug Tools | SoulSeed"
+        description="Developer debug tools and diagnostics for SoulSeed application."
+        canonical="https://soulseedbaby.com/debug"
+        noindex={true}
+      />
+      <div className="min-h-screen bg-gray-50">
+        <AppHeader title="SoulSeed" showBackButton={true} />
 
       <div className="max-w-6xl mx-auto pt-24 px-6 pb-6">
         <h1 className="text-3xl font-bold mb-6 text-gray-900">🐛 Debug Dashboard</h1>

@@ -28,3 +28,12 @@
     transform: scale(0) rotate(360deg);
   }
 }
+
+/* Hide header and footer on voting pages (full-screen experience) */
+body.hide-header-footer header {
+  display: none !important;
+}
+
+body.hide-header-footer footer {
+  display: none !important;
+}

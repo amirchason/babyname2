@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, ArrowLeft, Mail, Lock, Eye, Download, Trash2 } from 'lucide-react';
+import SEOHead from '../components/SEO/SEOHead';
 
 const PrivacyPolicyPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <SEOHead
+        title="Privacy Policy | SoulSeed Baby Names"
+        description="Your privacy matters. Read how SoulSeed collects, uses, and protects your data while helping you find the perfect baby name."
+        canonical="https://soulseedbaby.com/privacy-policy"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <Link to="/" className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-4 transition-colors">
@@ -407,6 +414,7 @@ const PrivacyPolicyPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -7,12 +7,47 @@
     <meta name="google-site-verification" content="9Qay33GFj2B5f9jh3I_uNsO9gDeP445ZtS34fg8ariA" />
 
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/favicon-32.svg" />
+    <link rel="icon" id="favicon" type="image/png" sizes="32x32" href="/favicon-static.png" />
     <link rel="icon" type="image/png" sizes="192x192" href="/logo192.png" />
     <link rel="icon" type="image/png" sizes="512x512" href="/logo512.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.svg" />
-    <link rel="shortcut icon" href="/favicon.svg" />
+    <link rel="shortcut icon" id="shortcut-favicon" href="/favicon-static.png" />
+
+    <!-- Animated Favicon Script: Switches between static and animated every 3 minutes -->
+    <script>
+      (function() {
+        const favicon = document.getElementById('favicon');
+        const shortcutFavicon = document.getElementById('shortcut-favicon');
+        const staticIcon = '/favicon-static.png';
+        const animatedIcon = '/favicon-animated.gif';
+
+        function playAnimation() {
+          // Switch to animated GIF
+          if (favicon) {
+            favicon.href = animatedIcon + '?t=' + Date.now();
+          }
+          if (shortcutFavicon) {
+            shortcutFavicon.href = animatedIcon + '?t=' + Date.now();
+          }
+
+          // After 8 seconds (animation duration), switch back to static
+          setTimeout(function() {
+            if (favicon) {
+              favicon.href = staticIcon;
+            }
+            if (shortcutFavicon) {
+              shortcutFavicon.href = staticIcon;
+            }
+          }, 8000);
+        }
+
+        // Play animation immediately on load
+        setTimeout(playAnimation, 1000);
+
+        // Play animation every 3 minutes (180000ms)
+        setInterval(playAnimation, 180000);
+      })();
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

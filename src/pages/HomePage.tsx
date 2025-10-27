@@ -17,6 +17,7 @@ import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
+import SEOHead from '../components/SEO/SEOHead';
 
 const HomePage: React.FC = () => {
   // Use global name cache (prevents reloading on navigation)
@@ -449,7 +450,13 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
+    <>
+      <SEOHead
+        title="SoulSeed - Find Your Baby's Perfect Name | 174K+ Names"
+        description="Discover meaningful baby names with AI-powered suggestions. Swipe through 174,000+ names from diverse cultures with instant cloud sync."
+        canonical="https://soulseedbaby.com"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 overflow-x-hidden">
       {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
@@ -1728,6 +1735,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

@@ -10,6 +10,7 @@ import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
+import SEOHead from '../components/SEO/SEOHead';
 
 const SearchResultsPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -300,7 +301,13 @@ const SearchResultsPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <SEOHead
+        title="Search Results | SoulSeed Baby Names"
+        description="Browse search results for baby names. Filter by gender, origin, meaning, and popularity to find your perfect match."
+        canonical="https://soulseedbaby.com/search"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       {/* AppHeader */}
       <AppHeader title="SoulSeed" showBackButton={true} />
 
@@ -1052,6 +1059,7 @@ const SearchResultsPage: React.FC = () => {
         onClose={() => setSelectedName(null)}
       />
     </div>
+    </>
   );
 };
 

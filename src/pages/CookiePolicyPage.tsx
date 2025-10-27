@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Cookie, ArrowLeft } from 'lucide-react';
+import SEOHead from '../components/SEO/SEOHead';
 
 const CookiePolicyPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <>
+      <SEOHead
+        title="Cookie Policy | SoulSeed"
+        description="Learn how SoulSeed uses cookies to improve your experience, personalize content, and remember your preferences while browsing baby names."
+        canonical="https://soulseedbaby.com/cookie-policy"
+      />
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <Link to="/" className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-4">
@@ -148,6 +155,7 @@ const CookiePolicyPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

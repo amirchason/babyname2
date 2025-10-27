@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/swipe-mode" onClick={handleLinkClick} className="text-white/80 hover:text-white transition-colors text-sm">
+                <Link to="/swipe" onClick={handleLinkClick} className="text-white/80 hover:text-white transition-colors text-sm">
                   Swipe Mode
                 </Link>
               </li>
