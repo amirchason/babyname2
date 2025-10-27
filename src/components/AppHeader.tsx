@@ -293,6 +293,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
+              style={{ transform: 'scale(1.2)' }}
             >
               {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
