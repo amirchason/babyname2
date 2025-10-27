@@ -98,7 +98,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           {/* Logo - Navigate home or custom action */}
           <button
             onClick={onBackClick || (() => navigate('/'))}
-            className="flex items-center gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
+            className="flex items-end gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
             title={onBackClick ? "Close" : "Back to home"}
           >
             <video
@@ -116,10 +116,10 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               }}
             />
             <h1
-              className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900"
+              className="text-2xl sm:text-3xl font-normal tracking-wide text-gray-900"
               style={{
-                transform: 'scale(1.05) scaleY(1.24)',
-                transformOrigin: 'left center'
+                transform: 'scale(1.25)',
+                transformOrigin: 'left bottom'
               }}
             >
               {title}
