@@ -303,7 +303,19 @@ Issues Fixed:
 NOTES & OBSERVATIONS
 ================================================================================
 
-[Add any notes, blockers, or observations during implementation]
+EMERGENCY FIX - 2025-10-27:
+- After deploying Phase 2, user reported "homepage is 404 wtf"
+- Root cause: Missing closing fragment tags (</>) in 3 files
+- When adding SEOHead components, forgot to close the <> fragments
+- Fixed files:
+  * AccessibilityPage.tsx - added </> at line 173
+  * DebugPage.tsx - added </> at line 191
+  * DislikesPage.tsx - added </> at line 232
+- Build succeeded after fixes
+- Deployed to Vercel production
+- Verification: All pages returning 200 OK (/, /about, /accessibility, /dislikes, /favorites, /blog)
+- Time to fix: ~10 minutes from report to deployment
+- Deployment method: npm run deploy (Vercel CLI)
 
 ================================================================================
 END OF PLAN
