@@ -107,7 +107,10 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               muted
               playsInline
               className="h-20 w-20 sm:h-22 sm:w-22 rounded-lg object-cover"
-              style={{ pointerEvents: 'none' }}
+              style={{
+                pointerEvents: 'none',
+                transform: 'rotate(25deg)'
+              }}
               onEnded={() => {
                 // Pause on last frame when animation completes
                 if (videoRef.current) {
