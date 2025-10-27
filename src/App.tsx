@@ -4,14 +4,17 @@ import { HelmetProvider } from 'react-helmet-async';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ToastProvider } from './contexts/ToastContext';
 import { NameCacheProvider } from './contexts/NameCacheContext';
+import { LoadingProvider } from './contexts/LoadingContext';
 import HomePage from './pages/HomePage';
 import LoadingSpinner from './components/LoadingSpinner';
+import LoadingAnimation from './components/LoadingAnimation';
 import Footer from './components/Footer';
 import AppHeader from './components/AppHeader';
 import './App.css';
 
 // Lazy load pages for code splitting (reduces initial bundle size)
 const BabyNameListsPage = lazy(() => import('./pages/BabyNameListsPage'));
+const NameListPage = lazy(() => import('./pages/NameListPage'));
 const FavoritesPage = lazy(() => import('./pages/FavoritesPage'));
 const DislikesPage = lazy(() => import('./pages/DislikesPage'));
 const DebugPage = lazy(() => import('./pages/DebugPage'));
@@ -93,7 +96,7 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       {/* Conditional Header */}
       {!isFullPageExperience && <AppHeader title="SoulSeed" />}
 
-      <Suspense fallback={<LoadingSpinner />}>
+      <Suspense fallback={<LoadingAnimation fullScreen message="Loading page..." />}>
         {/* Main content - add padding-top only when header is shown */}
         <main id="main-content" className={`flex-grow ${!isFullPageExperience ? 'pt-20' : ''}`}>
           {children}
@@ -113,45 +116,48 @@ function App() {
   return (
     <HelmetProvider>
       <ToastProvider>
-        <AuthProvider>
-          <NameCacheProvider>
-            <AdminTextSelectionManager />
-            <Router basename={basename}>
-              <AppLayout>
-                <Routes>
-                  <Route path="/" element={<HomePage />} />
-                  <Route path="/babynamelists" element={<BabyNameListsPage />} />
-                  <Route path="/favorites" element={<FavoritesPage />} />
-                  <Route path="/dislikes" element={<DislikesPage />} />
-                  <Route path="/debug" element={<DebugPage />} />
-                  <Route path="/name-ring-test" element={<NameRingTestPage />} />
-                  <Route path="/swipe" element={<SwipeModePage />} />
-                  <Route path="/search" element={<SearchResultsPage />} />
-                  <Route path="/sitemap" element={<SitemapPage />} />
+        <LoadingProvider>
+          <AuthProvider>
+            <NameCacheProvider>
+              <AdminTextSelectionManager />
+              <Router basename={basename}>
+                <AppLayout>
+                  <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/names" element={<NameListPage />} />
+                    <Route path="/babynamelists" element={<BabyNameListsPage />} />
+                    <Route path="/favorites" element={<FavoritesPage />} />
+                    <Route path="/dislikes" element={<DislikesPage />} />
+                    <Route path="/debug" element={<DebugPage />} />
+                    <Route path="/name-ring-test" element={<NameRingTestPage />} />
+                    <Route path="/swipe" element={<SwipeModePage />} />
+                    <Route path="/search" element={<SearchResultsPage />} />
+                    <Route path="/sitemap" element={<SitemapPage />} />
 
-                  {/* Legal & Compliance Pages (Google Requirements) */}
-                  <Route path="/terms-of-service" element={<TermsOfServicePage />} />
-                  <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-                  <Route path="/cookie-policy" element={<CookiePolicyPage />} />
-                  <Route path="/accessibility" element={<AccessibilityPage />} />
-                  <Route path="/about" element={<AboutPage />} />
-                  <Route path="/contact" element={<ContactPage />} />
+                    {/* Legal & Compliance Pages (Google Requirements) */}
+                    <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+                    <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+                    <Route path="/cookie-policy" element={<CookiePolicyPage />} />
+                    <Route path="/accessibility" element={<AccessibilityPage />} />
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
 
-                  {/* Legacy routes (keep for backwards compatibility) */}
-                  <Route path="/about-us" element={<AboutUsPage />} />
-                  <Route path="/contact-us" element={<ContactUsPage />} />
+                    {/* Legacy routes (keep for backwards compatibility) */}
+                    <Route path="/about-us" element={<AboutUsPage />} />
+                    <Route path="/contact-us" element={<ContactUsPage />} />
 
-                  <Route path="/blog" element={<BlogListPage />} />
-                  <Route path="/blog/:slug" element={<BlogPostPage />} />
-                  <Route path="/update-blog" element={<UpdateBlogPage />} />
-                  <Route path="/votes" element={<VotesListPage />} />
-                  <Route path="/create-vote" element={<CreateVotePage />} />
-                  <Route path="/vote/:voteId" element={<VotingPage />} />
-                </Routes>
-              </AppLayout>
-            </Router>
-          </NameCacheProvider>
-        </AuthProvider>
+                    <Route path="/blog" element={<BlogListPage />} />
+                    <Route path="/blog/:slug" element={<BlogPostPage />} />
+                    <Route path="/update-blog" element={<UpdateBlogPage />} />
+                    <Route path="/votes" element={<VotesListPage />} />
+                    <Route path="/create-vote" element={<CreateVotePage />} />
+                    <Route path="/vote/:voteId" element={<VotingPage />} />
+                  </Routes>
+                </AppLayout>
+              </Router>
+            </NameCacheProvider>
+          </AuthProvider>
+        </LoadingProvider>
       </ToastProvider>
     </HelmetProvider>
   );

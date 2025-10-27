@@ -1,0 +1,228 @@
+{
+  "envVariables": [
+    {
+      "key": "TSC_COMPILE_ON_ERROR",
+      "value": "true",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Allow TypeScript compilation errors to not break build"
+    },
+    {
+      "key": "SKIP_PREFLIGHT_CHECK",
+      "value": "true",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Skip dependency version checks"
+    },
+    {
+      "key": "DISABLE_ESLINT_PLUGIN",
+      "value": "true",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Disable ESLint during build for faster builds"
+    },
+    {
+      "key": "GENERATE_SOURCEMAP",
+      "value": "false",
+      "type": "plain",
+      "target": ["production", "preview"],
+      "comment": "Disable sourcemaps in production for security and size"
+    },
+    {
+      "key": "REACT_APP_GOOGLE_API_KEY",
+      "value": "AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "Google API key for services (CLIENT-SIDE EXPOSED)"
+    },
+    {
+      "key": "REACT_APP_GEMINI_API_KEY",
+      "value": "AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "Google Gemini AI API key (CLIENT-SIDE EXPOSED)"
+    },
+    {
+      "key": "REACT_APP_YOUTUBE_API_KEY",
+      "value": "AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "YouTube Data API key (CLIENT-SIDE EXPOSED)"
+    },
+    {
+      "key": "REACT_APP_GOOGLE_CLIENT_ID",
+      "value": "1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Google OAuth Client ID (meant to be public)"
+    },
+    {
+      "key": "REACT_APP_GOOGLE_CLIENT_SECRET",
+      "value": "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",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "Google OAuth Client Secret (CLIENT-SIDE EXPOSED - consider backend flow)"
+    },
+    {
+      "key": "REACT_APP_FIREBASE_API_KEY",
+      "value": "AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Firebase API key (safe to expose, protected by Firebase rules)"
+    },
+    {
+      "key": "REACT_APP_FIREBASE_AUTH_DOMAIN",
+      "value": "babynames-app-9fa2a.firebaseapp.com",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Firebase auth domain (public)"
+    },
+    {
+      "key": "REACT_APP_FIREBASE_PROJECT_ID",
+      "value": "babynames-app-9fa2a",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Firebase project ID (public)"
+    },
+    {
+      "key": "REACT_APP_FIREBASE_STORAGE_BUCKET",
+      "value": "babynames-app-9fa2a.firebasestorage.app",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Firebase storage bucket (public)"
+    },
+    {
+      "key": "REACT_APP_FIREBASE_MESSAGING_SENDER_ID",
+      "value": "1093132372253",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Firebase messaging sender ID (public)"
+    },
+    {
+      "key": "REACT_APP_FIREBASE_APP_ID",
+      "value": "1:1093132372253:web:0327c13610942d60f4f9f4",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Firebase app ID (public)"
+    },
+    {
+      "key": "OPENAI_API_KEY",
+      "value": "process.env.OPENAI_API_KEY",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "OpenAI API key - SERVER-SIDE ONLY (not exposed to client)"
+    },
+    {
+      "key": "REACT_APP_OPENAI_API_KEY",
+      "value": "process.env.OPENAI_API_KEY",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "OpenAI API key for client-side (CLIENT-SIDE EXPOSED - use with caution)"
+    },
+    {
+      "key": "NANOBANANA_API_KEY",
+      "value": "sk-ant-api03-m9Z5gJ9_6MV5GBr4AZm9_P8HVPwvjKT25CxeJEI_9s6UmPiJmyLLPUKGQY7UqdWUqCEYWXO2cJ3J2Zi6XqYvLA-iHhJpgAA",
+      "type": "sensitive",
+      "target": ["production", "preview", "development"],
+      "comment": "Anthropic API key - SERVER-SIDE ONLY (not exposed to client)"
+    },
+    {
+      "key": "REACT_APP_ENABLE_AI_CHAT",
+      "value": "true",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Feature flag: Enable AI chat feature"
+    },
+    {
+      "key": "REACT_APP_ENABLE_FAVORITES",
+      "value": "true",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Feature flag: Enable favorites feature"
+    },
+    {
+      "key": "REACT_APP_ENABLE_SCRAPING",
+      "value": "true",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Feature flag: Enable web scraping"
+    },
+    {
+      "key": "REACT_APP_ENABLE_BLOG",
+      "value": "false",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Feature flag: Disable blog feature"
+    },
+    {
+      "key": "REACT_APP_PRIMARY_COLOR",
+      "value": "#D8B2F2",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Theme: Primary color (light purple)"
+    },
+    {
+      "key": "REACT_APP_SECONDARY_COLOR",
+      "value": "#FFB3D9",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Theme: Secondary color (light pink)"
+    },
+    {
+      "key": "REACT_APP_ACCENT_COLOR",
+      "value": "#B3D9FF",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Theme: Accent color (light blue)"
+    },
+    {
+      "key": "VERCEL_PROJECT_ID",
+      "value": "prj_wDbXRJMvE12QLEk3QivyEdDWH9Lo",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Vercel project identifier"
+    },
+    {
+      "key": "VERCEL_ORG_ID",
+      "value": "team_BIeE8j8PrPGXfXfbzS0AXGEf",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Vercel organization/team identifier"
+    },
+    {
+      "key": "REACT_APP_ADMIN_EMAIL",
+      "value": "888soulseed888@gmail.com",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Admin contact email"
+    },
+    {
+      "key": "REACT_APP_APP_NAME",
+      "value": "SoulSeed",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Application name"
+    },
+    {
+      "key": "REACT_APP_APP_TAGLINE",
+      "value": "Where your baby name blooms",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Application tagline"
+    },
+    {
+      "key": "REACT_APP_VERSION",
+      "value": "1.0.0",
+      "type": "plain",
+      "target": ["production", "preview", "development"],
+      "comment": "Application version"
+    },
+    {
+      "key": "REACT_APP_DEBUG_MODE",
+      "value": "false",
+      "type": "plain",
+      "target": ["preview", "development"],
+      "comment": "Enable debug mode (preview/dev only)"
+    }
+  ]
+}

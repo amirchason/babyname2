@@ -1,0 +1,126 @@
+# ========================================
+# VERCEL ENVIRONMENT VARIABLES
+# ========================================
+# Upload these to: https://vercel.com/teamawesomeyay/soulseed/settings/environment-variables
+#
+# INSTRUCTIONS:
+# 1. Set environment scope: Production, Preview, Development (or all three)
+# 2. Mark sensitive values as "Encrypted" in Vercel dashboard
+# 3. All REACT_APP_* variables are exposed to browser (client-side)
+# 4. Server-side secrets (OpenAI, NanoBanana) are NOT exposed
+#
+# SAFE TO DELETE: Yes, you can safely delete all existing Vercel env vars
+# and re-upload these. Vercel will decrypt and store them securely.
+# ========================================
+
+# ========================================
+# 🔨 BUILD CONFIGURATION
+# Apply to: Production, Preview, Development
+# ========================================
+TSC_COMPILE_ON_ERROR=true
+SKIP_PREFLIGHT_CHECK=true
+DISABLE_ESLINT_PLUGIN=true
+GENERATE_SOURCEMAP=false
+
+# ========================================
+# 🔑 GOOGLE SERVICES (CLIENT-SIDE)
+# Apply to: Production, Preview, Development
+# Mark as: Encrypted
+# ========================================
+REACT_APP_GOOGLE_API_KEY=AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+REACT_APP_GEMINI_API_KEY=AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+REACT_APP_YOUTUBE_API_KEY=AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA
+
+# ========================================
+# 🔐 GOOGLE OAUTH (CLIENT-SIDE)
+# Apply to: Production, Preview, Development
+# Mark as: Encrypted
+# ========================================
+REACT_APP_GOOGLE_CLIENT_ID=1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com
+REACT_APP_GOOGLE_CLIENT_SECRET=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
+
+# ========================================
+# 🔥 FIREBASE CONFIGURATION (CLIENT-SIDE)
+# Apply to: Production, Preview, Development
+# Mark as: Encrypted
+# ========================================
+REACT_APP_FIREBASE_API_KEY=AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70
+REACT_APP_FIREBASE_AUTH_DOMAIN=babynames-app-9fa2a.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=babynames-app-9fa2a
+REACT_APP_FIREBASE_STORAGE_BUCKET=babynames-app-9fa2a.firebasestorage.app
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=1093132372253
+REACT_APP_FIREBASE_APP_ID=1:1093132372253:web:0327c13610942d60f4f9f4
+REACT_APP_FIREBASE_MEASUREMENT_ID=G-XYZ123ABC
+
+# ========================================
+# 🤖 SERVER-SIDE API KEYS (NOT EXPOSED)
+# Apply to: Production, Preview, Development
+# Mark as: Encrypted + Sensitive
+# ========================================
+OPENAI_API_KEY=process.env.OPENAI_API_KEY
+REACT_APP_OPENAI_API_KEY=process.env.OPENAI_API_KEY
+NANOBANANA_API_KEY=sk-ant-api03-m9Z5gJ9_6MV5GBr4AZm9_P8HVPwvjKT25CxeJEI_9s6UmPiJmyLLPUKGQY7UqdWUqCEYWXO2cJ3J2Zi6XqYvLA-iHhJpgAA
+
+# ========================================
+# 🎯 FEATURE FLAGS (CLIENT-SIDE)
+# Apply to: Production, Preview, Development
+# ========================================
+REACT_APP_ENABLE_AI_CHAT=true
+REACT_APP_ENABLE_FAVORITES=true
+REACT_APP_ENABLE_SCRAPING=true
+REACT_APP_ENABLE_BLOG=false
+
+# ========================================
+# 🎨 THEME COLORS (CLIENT-SIDE)
+# Apply to: Production, Preview, Development
+# ========================================
+REACT_APP_PRIMARY_COLOR=#D8B2F2
+REACT_APP_SECONDARY_COLOR=#FFB3D9
+REACT_APP_ACCENT_COLOR=#B3D9FF
+
+# ========================================
+# 🚀 VERCEL DEPLOYMENT
+# Apply to: Production, Preview, Development
+# ========================================
+VERCEL_PROJECT_ID=prj_wDbXRJMvE12QLEk3QivyEdDWH9Lo
+VERCEL_ORG_ID=team_BIeE8j8PrPGXfXfbzS0AXGEf
+
+# ========================================
+# 📊 ANALYTICS & MONITORING (CLIENT-SIDE)
+# Apply to: Production only
+# ========================================
+REACT_APP_VERCEL_ANALYTICS_ID=
+
+# ========================================
+# ⚙️ MISCELLANEOUS
+# Apply to: Production, Preview, Development
+# ========================================
+REACT_APP_ADMIN_EMAIL=888soulseed888@gmail.com
+REACT_APP_APP_NAME=SoulSeed
+REACT_APP_APP_TAGLINE=Where your baby name blooms
+REACT_APP_VERSION=1.0.0
+
+# ========================================
+# 🎭 DEBUG MODE (Preview/Development only)
+# Apply to: Preview, Development
+# ========================================
+REACT_APP_DEBUG_MODE=false
+
+# ========================================
+# NOTES:
+# ========================================
+# ❌ DO NOT ADD:
+# - NODE_ENV (auto-set by Vercel based on deployment type)
+# - PUBLIC_URL (auto-set by Vercel as "/" for root domain)
+# - VERCEL_TOKEN (only for CLI, not for dashboard)
+#
+# ⚠️ CLIENT-SIDE WARNING:
+# All REACT_APP_* variables are bundled into the JavaScript
+# and visible in browser DevTools. Never put sensitive secrets
+# in REACT_APP_* unless they're meant to be public (like Firebase config).
+#
+# ✅ AFTER UPLOAD:
+# 1. Verify all variables in Vercel dashboard
+# 2. Test with preview deployment first
+# 3. Deploy to production once verified
+# ========================================

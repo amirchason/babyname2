@@ -4,9 +4,9 @@
  */
 
 import React from 'react';
-import { Heart, Baby, ShoppingBag, Flower, Sparkles } from 'lucide-react';
+import { Heart, Baby, ShoppingBag, Flower, Sparkles, User, ChevronLeft, ChevronRight } from 'lucide-react';
 
-export type BlogPillar = 'all' | 'baby-names' | 'baby-milestones' | 'baby-gear' | 'pregnancy' | 'postpartum';
+export type BlogPillar = 'all' | 'baby-names' | 'baby-milestones' | 'baby-gear' | 'pregnancy' | 'postpartum' | 'personal-blogs';
 
 interface BlogPillarNavProps {
   activePillar: BlogPillar;
@@ -22,6 +22,14 @@ const pillarConfig = [
     gradient: 'from-purple-500 to-pink-500',
     bgColor: 'bg-gradient-to-r from-purple-50 to-pink-50',
     activeColor: 'bg-gradient-to-r from-purple-600 to-pink-600',
+  },
+  {
+    id: 'personal-blogs' as BlogPillar,
+    label: 'Personal Blogs',
+    icon: User,
+    gradient: 'from-amber-500 to-orange-500',
+    bgColor: 'bg-amber-50',
+    activeColor: 'bg-gradient-to-r from-amber-600 to-orange-600',
   },
   {
     id: 'baby-names' as BlogPillar,
@@ -68,9 +76,25 @@ const pillarConfig = [
 export default function BlogPillarNav({ activePillar, onPillarChange, postCounts }: BlogPillarNavProps) {
   return (
     <div className="mb-6 sm:mb-8">
-      {/* Mobile: Horizontal scrollable pills */}
-      <div className="flex gap-2 overflow-x-auto pb-2 px-2 sm:px-0 hide-scrollbar snap-x snap-mandatory">
-        {pillarConfig.map((pillar) => {
+      {/* Scroll hint text - Mobile only */}
+      <div className="text-center mb-2 sm:hidden">
+        <p className="text-xs text-gray-500 flex items-center justify-center gap-1">
+          <ChevronLeft size={16} className="animate-pulse text-purple-400" strokeWidth={2} />
+          <span>Swipe to see more categories</span>
+          <ChevronRight size={16} className="animate-pulse text-pink-400" strokeWidth={2} />
+        </p>
+      </div>
+
+      {/* Mobile: Horizontal scrollable pills with fade edges */}
+      <div className="relative">
+        {/* Left fade gradient */}
+        <div className="absolute left-0 top-0 bottom-2 w-8 bg-gradient-to-r from-purple-50 to-transparent pointer-events-none z-10 sm:hidden"></div>
+
+        {/* Right fade gradient */}
+        <div className="absolute right-0 top-0 bottom-2 w-8 bg-gradient-to-l from-pink-50 to-transparent pointer-events-none z-10 sm:hidden"></div>
+
+        <div className="flex gap-2 overflow-x-auto pb-2 px-2 sm:px-0 hide-scrollbar snap-x snap-mandatory">
+          {pillarConfig.map((pillar) => {
           const Icon = pillar.icon;
           const isActive = activePillar === pillar.id;
           const count = postCounts?.[pillar.id] || 0;
@@ -114,6 +138,7 @@ export default function BlogPillarNav({ activePillar, onPillarChange, postCounts
             </button>
           );
         })}
+        </div>
       </div>
 
       <style>{`

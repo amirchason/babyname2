@@ -46,6 +46,7 @@ export default function BlogListPage() {
   // Map category names to pillar IDs
   const categoryToPillar = (category: string): BlogPillar => {
     const normalized = category.toLowerCase();
+    if (normalized.includes('personal') || normalized.includes('blog')) return 'personal-blogs';
     if (normalized.includes('name')) return 'baby-names';
     if (normalized.includes('milestone')) return 'baby-milestones';
     if (normalized.includes('gear')) return 'baby-gear';
@@ -62,12 +63,19 @@ export default function BlogListPage() {
     'baby-gear': posts.filter(p => categoryToPillar(p.category) === 'baby-gear').length,
     'pregnancy': posts.filter(p => categoryToPillar(p.category) === 'pregnancy').length,
     'postpartum': posts.filter(p => categoryToPillar(p.category) === 'postpartum').length,
+    'personal-blogs': posts.filter(p => categoryToPillar(p.category) === 'personal-blogs').length,
   };
 
-  // Filter posts by selected pillar
-  const filteredPosts = selectedPillar === 'all'
+  // Filter posts by selected pillar and ensure newest first sorting
+  const filteredPosts = (selectedPillar === 'all'
     ? posts
-    : posts.filter((post) => categoryToPillar(post.category) === selectedPillar);
+    : posts.filter((post) => categoryToPillar(post.category) === selectedPillar)
+  ).sort((a, b) => {
+    // Handle both number timestamps and ISO date strings
+    const timeA = typeof a.publishedAt === 'number' ? a.publishedAt : new Date(a.publishedAt).getTime();
+    const timeB = typeof b.publishedAt === 'number' ? b.publishedAt : new Date(b.publishedAt).getTime();
+    return timeB - timeA; // Newest first
+  });
 
   if (loading) {
     return (

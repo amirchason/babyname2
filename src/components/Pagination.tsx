@@ -1,5 +1,6 @@
-import React from 'react';
-import { ChevronLeft, ChevronRight, MoreHorizontal } from 'lucide-react';
+import React, { useEffect } from 'react';
+import { ChevronLeft, ChevronRight, MoreHorizontal, Zap } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface PaginationProps {
   currentPage: number;
@@ -7,6 +8,7 @@ interface PaginationProps {
   onPageChange: (page: number) => void;
   itemsPerPage: number;
   totalItems: number;
+  isLoading?: boolean;
 }
 
 const Pagination: React.FC<PaginationProps> = ({
@@ -14,10 +16,28 @@ const Pagination: React.FC<PaginationProps> = ({
   totalPages,
   onPageChange,
   itemsPerPage,
-  totalItems
+  totalItems,
+  isLoading = false
 }) => {
   // Check if mobile device
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
+
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Only handle if not typing in input field
+      if (document.activeElement?.tagName === 'INPUT') return;
+
+      if (e.key === 'ArrowLeft' && currentPage > 1) {
+        onPageChange(currentPage - 1);
+      } else if (e.key === 'ArrowRight' && currentPage < totalPages) {
+        onPageChange(currentPage + 1);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [currentPage, totalPages, onPageChange]);
 
   // Calculate which pages to show
   const getVisiblePages = (): (number | string)[] => {
@@ -98,13 +118,44 @@ const Pagination: React.FC<PaginationProps> = ({
   const endItem = Math.min(currentPage * itemsPerPage, totalItems);
 
   return (
-    <div className="flex flex-col items-center space-y-4">
-      {/* Page Info */}
-      <div className="text-sm text-gray-600">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+      className="flex flex-col items-center space-y-4"
+    >
+      {/* Loading Indicator */}
+      <AnimatePresence>
+        {isLoading && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            className="flex items-center gap-2 text-purple-600 font-medium text-sm"
+          >
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+            >
+              <Zap className="w-4 h-4" />
+            </motion.div>
+            Loading names...
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Page Info with Animation */}
+      <motion.div
+        key={`${currentPage}-info`}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.2 }}
+        className="text-sm text-gray-600"
+      >
         Showing <span className="font-semibold text-gray-900">{startItem}</span> to{' '}
         <span className="font-semibold text-gray-900">{endItem}</span> of{' '}
         <span className="font-semibold text-gray-900">{totalItems.toLocaleString()}</span> names
-      </div>
+      </motion.div>
 
       {/* Pagination Controls */}
       <div className="flex items-center space-x-1 sm:space-x-2">
@@ -134,21 +185,24 @@ const Pagination: React.FC<PaginationProps> = ({
                 <MoreHorizontal className="w-5 h-5 text-gray-400" />
               </div>
             ) : (
-              <button
+              <motion.button
                 onClick={() => onPageChange(page as number)}
+                whileHover={{ scale: currentPage === page ? 1.05 : 1.1, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.2 }}
                 className={`
                   flex items-center justify-center
                   w-11 h-11 sm:w-10 sm:h-10
-                  rounded-lg transition-all font-medium text-sm
+                  rounded-lg font-medium text-sm
                   ${currentPage === page
                     ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg transform scale-105'
-                    : 'text-gray-700 hover:text-purple-600 hover:bg-purple-50 bg-white border border-gray-200 hover:border-purple-200 shadow-sm hover:shadow-md active:scale-95'
+                    : 'text-gray-700 hover:text-purple-600 hover:bg-purple-50 bg-white border border-gray-200 hover:border-purple-200 shadow-sm'
                   }
                 `}
                 title={`Go to page ${page}`}
               >
                 {page}
-              </button>
+              </motion.button>
             )}
           </React.Fragment>
         ))}
@@ -197,7 +251,19 @@ const Pagination: React.FC<PaginationProps> = ({
       <div className="sm:hidden text-sm text-gray-600 mt-2">
         Page {currentPage} of {totalPages}
       </div>
-    </div>
+
+      {/* Desktop-only: Keyboard navigation hint */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 0.5 }}
+        className="hidden sm:flex items-center gap-2 text-xs text-gray-500 mt-2"
+      >
+        <span className="px-2 py-1 bg-gray-100 rounded border border-gray-200 font-mono">←</span>
+        <span className="px-2 py-1 bg-gray-100 rounded border border-gray-200 font-mono">→</span>
+        <span>Use arrow keys to navigate</span>
+      </motion.div>
+    </motion.div>
   );
 };
 

@@ -84,7 +84,7 @@ const AccessibilityPage: React.FC = () => {
                     <h3 className="font-bold text-orange-900">Responsive Design</h3>
                   </div>
                   <p className="text-orange-800 text-sm">
-                    Mobile-first design with touch targets >44x44px. Works on all device sizes and orientations.
+                    Mobile-first design with touch targets {'>'}44x44px. Works on all device sizes and orientations.
                   </p>
                 </div>
               </div>

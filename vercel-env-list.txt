@@ -1,0 +1,42 @@
+Vercel CLI 48.2.9
+Retrieving project…
+> Environment Variables found for teamawesomeyay/soulseed [299ms]
+
+ name                                       value               environments        created    
+ REACT_APP_ACCENT_COLOR                     Encrypted           Development         6h ago     
+ REACT_APP_ACCENT_COLOR                     Encrypted           Preview             6h ago     
+ REACT_APP_ACCENT_COLOR                     Encrypted           Production          6h ago     
+ REACT_APP_SECONDARY_COLOR                  Encrypted           Development         6h ago     
+ REACT_APP_SECONDARY_COLOR                  Encrypted           Preview             6h ago     
+ REACT_APP_SECONDARY_COLOR                  Encrypted           Production          6h ago     
+ REACT_APP_PRIMARY_COLOR                    Encrypted           Development         6h ago     
+ REACT_APP_PRIMARY_COLOR                    Encrypted           Preview             6h ago     
+ REACT_APP_PRIMARY_COLOR                    Encrypted           Production          6h ago     
+ REACT_APP_ENABLE_BLOG                      Encrypted           Development         6h ago     
+ REACT_APP_ENABLE_BLOG                      Encrypted           Preview             6h ago     
+ REACT_APP_ENABLE_BLOG                      Encrypted           Production          6h ago     
+ REACT_APP_ENABLE_FAVORITES                 Encrypted           Development         6h ago     
+ REACT_APP_ENABLE_FAVORITES                 Encrypted           Preview             6h ago     
+ REACT_APP_ENABLE_FAVORITES                 Encrypted           Production          6h ago     
+ REACT_APP_ENABLE_AI_CHAT                   Encrypted           Development         6h ago     
+ REACT_APP_ENABLE_AI_CHAT                   Encrypted           Preview             6h ago     
+ REACT_APP_ENABLE_AI_CHAT                   Encrypted           Production          6h ago     
+ REACT_APP_YOUTUBE_API_KEY                  Encrypted           Development         6h ago     
+ REACT_APP_YOUTUBE_API_KEY                  Encrypted           Preview             6h ago     
+ REACT_APP_YOUTUBE_API_KEY                  Encrypted           Production          6h ago     
+ PUBLIC_URL                                 Encrypted           Production          7h ago     
+ REACT_APP_FIREBASE_APP_ID                  Encrypted           Production          1d ago     
+ REACT_APP_FIREBASE_MESSAGING_SENDER_ID     Encrypted           Production          1d ago     
+ REACT_APP_FIREBASE_STORAGE_BUCKET          Encrypted           Production          1d ago     
+ REACT_APP_FIREBASE_PROJECT_ID              Encrypted           Production          1d ago     
+ REACT_APP_FIREBASE_AUTH_DOMAIN             Encrypted           Production          1d ago     
+ REACT_APP_FIREBASE_API_KEY                 Encrypted           Production          1d ago     
+ REACT_APP_GOOGLE_CLIENT_SECRET             Encrypted           Production          1d ago     
+ REACT_APP_GOOGLE_CLIENT_ID                 Encrypted           Production          1d ago     
+ REACT_APP_GEMINI_API_KEY                   Encrypted           Production          1d ago     
+ REACT_APP_GOOGLE_API_KEY                   Encrypted           Production          1d ago     
+
+Common next commands:
+- `vercel env add`
+- `vercel env rm`
+- `vercel env pull`

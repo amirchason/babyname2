@@ -1,0 +1,11 @@
+[0;34m========================================[0m
+[0;34m🔍 VERCEL ENV VARS ULTRA-TEST[0m
+[0;34m========================================[0m
+
+[0;36m📡 Fetching current Vercel environment variables...[0m
+[0;32m✅ Retrieved variables from Vercel[0m
+
+[0;34m========================================[0m
+[0;34mTEST 1: Reserved Variables Check[0m
+[0;34m========================================[0m
+[0;31m❌ FOUND: PUBLIC_URL (should NOT be manually set!)[0m

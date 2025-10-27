@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers, BookOpen, Home, List, Shuffle, Info, Mail } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
@@ -31,6 +31,19 @@ const AppHeader: React.FC<AppHeaderProps> = ({
   const [searchOpen, setSearchOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Video ref for controlling animation playback
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // Play logo animation function (memoized for efficiency)
+  const playLogoAnimation = useCallback(() => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0; // Reset to start
+      videoRef.current.play().catch(err => {
+        console.log('Video play failed:', err);
+      });
+    }
+  }, []);
+
   // Update counts
   useEffect(() => {
     const updateCounts = () => {
@@ -59,9 +72,30 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     };
   }, []);
 
+  // Auto-play logo animation every 2.5 minutes
+  useEffect(() => {
+    // Play immediately on mount
+    playLogoAnimation();
+
+    // Set interval for 2.5 minutes (150000ms)
+    const intervalId = setInterval(() => {
+      playLogoAnimation();
+    }, 150000);
+
+    // Cleanup interval on unmount
+    return () => clearInterval(intervalId);
+  }, [playLogoAnimation]);
+
   return (
-    <header className="bg-white/90 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <header
+      className="backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-100"
+      onClick={playLogoAnimation}
+      style={{
+        cursor: 'pointer',
+        backgroundColor: 'rgba(251, 251, 251, 0.9)' // Match video background color
+      }}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-center justify-between">
           {/* Logo - Navigate home or custom action */}
           <button
@@ -69,7 +103,20 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             className="flex items-center gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
             title={onBackClick ? "Close" : "Back to home"}
           >
-            <Baby className="h-8 w-8 sm:h-9 sm:w-9 text-purple-500" />
+            <video
+              ref={videoRef}
+              src="/baby-logo.mp4"
+              muted
+              playsInline
+              className="h-16 w-16 sm:h-18 sm:w-18 rounded-lg object-cover"
+              style={{ pointerEvents: 'none' }}
+              onEnded={() => {
+                // Pause on last frame when animation completes
+                if (videoRef.current) {
+                  videoRef.current.pause();
+                }
+              }}
+            />
             <h1 className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">
               {title}
             </h1>

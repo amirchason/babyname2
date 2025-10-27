@@ -1,0 +1,41 @@
+[0;34m========================================[0m
+[0;34m🔧 AUTOMATED VERCEL ENV FIX[0m
+[0;34m========================================[0m
+
+[0;36m📡 Vercel Token: AjtiZq6gyZ...[0m
+
+[0;35m========================================[0m
+[0;35mSTEP 1: Remove Reserved Variables[0m
+[0;35m========================================[0m
+
+[1;33m🗑️  Attempting to remove PUBLIC_URL...[0m
+[1;33m⚠️  Found PUBLIC_URL - attempting removal...[0m
+[0;36m   Removing from production...[0m
+Vercel CLI 48.2.9
+Retrieving project…
+Removing
+Removed Environment Variable [299ms]
+[0;36m   Removing from preview...[0m
+Vercel CLI 48.2.9
+Retrieving project…
+Error: Environment Variable was not found.
+
+[1;33m   (May not exist in preview - continuing)[0m
+[0;36m   Removing from development...[0m
+Vercel CLI 48.2.9
+Retrieving project…
+Error: Environment Variable was not found.
+
+[1;33m   (May not exist in development - continuing)[0m
+[0;32m✅ PUBLIC_URL removal attempted[0m
+
+[0;35m========================================[0m
+[0;35mSTEP 2: Add/Update All Variables[0m
+[0;35m========================================[0m
+
+[0;36m📤 Adding: TSC_COMPILE_ON_ERROR (All environments)[0m
+[0;32m   ✅ Added to production[0m
+[1;33m   ⚠️  Exists in production - updating...[0m
+[0;32m   ✅ Updated in production[0m
+[0;32m   ✅ Added to preview[0m
+[0;32m   ✅ Added to development[0m

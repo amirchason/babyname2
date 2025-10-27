@@ -329,6 +329,7 @@ export default function BlogPostPage() {
           {/* Back Button - Mobile Optimized */}
           <Link
             to="/blog"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="inline-flex items-center gap-1.5 sm:gap-2 text-purple-600 hover:text-purple-700 mb-4 sm:mb-6 font-medium text-sm sm:text-base"
           >
             <ArrowLeft size={16} className="sm:w-5 sm:h-5" />
@@ -638,6 +639,7 @@ export default function BlogPostPage() {
             <div className="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
               <Link
                 to="/blog"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className="inline-flex items-center gap-1.5 sm:gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg text-sm sm:text-base font-semibold hover:shadow-lg transition w-full sm:w-auto justify-center sm:justify-start"
               >
                 <ArrowLeft size={16} className="sm:w-5 sm:h-5" />
@@ -646,6 +648,7 @@ export default function BlogPostPage() {
 
               <Link
                 to="/"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 className="text-purple-600 hover:text-purple-700 font-medium text-sm sm:text-base"
               >
                 Explore Names →

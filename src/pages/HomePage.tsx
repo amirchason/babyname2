@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
-import { Search, Baby, Star, TrendingUp, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw, ChevronDown, Check, Grid3x3, List, Type, Ruler, Music, Sparkles, Minimize2, Maximize2, Library } from 'lucide-react';
+import { Search, Baby, Star, TrendingUp, Globe, Users, ArrowDownAZ, Dices, Filter, Trophy, Heart, Menu, X, LogIn, LogOut, Cloud, CloudOff, RefreshCw, ChevronDown, Check, Grid3x3, List, Type, Ruler, Music, Sparkles, Minimize2, Maximize2, Library, ThumbsUp } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useNameCache } from '../contexts/NameCacheContext';
@@ -595,7 +595,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section - REDESIGNED */}
       <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[90vh] overflow-hidden transition-all duration-200`}>
 
-        {/* UnicornStudio Flower Background Animation */}
+        {/* UnicornStudio Tulips Animation - Dreamy blur + caustics effects */}
         <UnicornFlowerBackground />
 
         {/* Floating Names Overlay - Only animate on first visit */}
@@ -629,114 +629,161 @@ const HomePage: React.FC = () => {
           </div>
         )}
 
-        {/* Gradient Overlay for Text Readability */}
-        <div className="absolute inset-0 z-[2] bg-gradient-to-b from-black/30 via-transparent to-black/40"></div>
+        {/* Hero section now clean - no text overlay, just beautiful flower animation */}
+      </section>
 
-        {/* Hero Content - Over Flower Background */}
-        <div className="relative z-10 max-w-4xl mx-auto text-center pt-20">
-          {/* Main Headline - Dramatic White Text */}
-          <motion.h1
-            initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: isFirstVisit ? 0.8 : 0 }}
-            className="text-5xl md:text-7xl font-light mb-6 tracking-tight"
-          >
-            <span className="text-white">Find the</span>
-            <br />
-            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-red-200 to-pink-300 drop-shadow-[0_2px_10px_rgba(255,255,255,0.5)]">
-              perfect name
-            </span>
-          </motion.h1>
-
-          {/* Subheadline - White with Glowing Counter */}
-          <motion.p
-            initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.1 : 0 }}
-            className="text-lg text-white/90 mb-12 font-light drop-shadow-lg"
-          >
-            {isFirstVisit && !isCountingComplete ? (
-              <span className="font-mono font-bold text-pink-200 drop-shadow-[0_0_10px_rgba(255,182,193,0.8)]">
-                {displayCount.toLocaleString()}
-              </span>
-            ) : (
-              <span className="font-mono font-bold text-pink-200">
-                {cachedGenderCounts.total.toLocaleString()}
-              </span>
-            )}{' '}
-            curated names with meaning
-          </motion.p>
-
-          {/* Tagline with Flower - Glowing Brand Element */}
+      {/* Quick Action Buttons - Elegant Baby Theme */}
+      <section className="py-6 px-4">
+        <div className="max-w-4xl mx-auto">
           <motion.div
-            initial={isFirstVisit ? { opacity: 0, scale: 0.9 } : { opacity: 1, scale: 1 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.2 : 0 }}
-            className="flex items-center justify-center gap-2 mb-8"
-          >
-            <span className="text-2xl drop-shadow-[0_0_8px_rgba(255,182,193,0.8)]">🌸</span>
-            <p className="text-base font-light text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              Where Your Baby's Name Blooms
-            </p>
-            <span className="text-2xl drop-shadow-[0_0_8px_rgba(255,182,193,0.8)]">🌸</span>
-          </motion.div>
-
-          {/* Action Buttons - Glowing Glass Morphism */}
-          <motion.div
-            initial={isFirstVisit ? { opacity: 0, y: 20 } : { opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: isFirstVisit ? 0.8 : 0, delay: isFirstVisit ? 0.4 : 0 }}
-            className="flex flex-col sm:flex-row gap-3 w-full max-w-3xl mx-auto mt-2"
+            transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
+            className="grid grid-cols-2 md:grid-cols-4 gap-4"
           >
-            <button
+            {/* Search Names - Soft Purple */}
+            <motion.button
               onClick={() => {
-                setSearchOpen(!searchOpen);
-                if (searchOpen) {
-                  setSearchTerm('');
-                }
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                navigate('/names');
               }}
-              className="w-full py-4 rounded-full text-sm font-medium
-                       bg-white/20 backdrop-blur-md text-white border border-white/30
-                       hover:bg-white/30 hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
-                       transition-all duration-300
-                       flex items-center justify-center gap-2"
+              whileHover={{ scale: 1.08, y: -6 }}
+              whileTap={{ scale: 0.98 }}
+              className="relative h-28 backdrop-blur-lg bg-gradient-to-br from-purple-100/50 via-pink-50/50 to-purple-50/50 border border-purple-200/40 rounded-3xl shadow-xl hover:shadow-purple-300/40 transition-all duration-500 flex flex-col items-center justify-center gap-2 overflow-hidden group"
             >
-              <Search className="w-4 h-4" />
-              Search Names
-            </button>
-            <button
-              onClick={() => navigate('/swipe')}
-              className="w-full py-4 rounded-full text-sm font-medium
-                       bg-white/20 backdrop-blur-md text-white border border-white/30
-                       hover:bg-white/30 hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
-                       transition-all duration-300"
-            >
-              Swipe Mode
-            </button>
-            <button
-              onClick={() => navigate('/babynamelists')}
-              className="w-full py-4 rounded-full text-sm font-medium
-                       bg-white/20 backdrop-blur-md text-white border border-white/30
-                       hover:bg-white/30 hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]
-                       transition-all duration-300
-                       flex items-center justify-center gap-2"
-            >
-              <Library className="w-4 h-4" />
-              Popular Lists
-            </button>
-            <button
-              onClick={() => navigate('/votes')}
-              className="w-full py-4 rounded-full text-sm font-bold
-                       bg-gradient-to-r from-pink-500 to-red-500 text-white border-2 border-pink-300
-                       hover:shadow-[0_0_30px_rgba(255,105,180,0.8)] hover:scale-105
-                       transition-all duration-300
-                       flex items-center justify-center gap-2"
-            >
-              <Trophy className="w-5 h-5" />
-              My Votes
-            </button>
-          </motion.div>
+              {/* Subtle glow on hover */}
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-br from-purple-200/20 to-pink-200/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              />
 
+              {/* Gentle floating animation */}
+              <motion.div
+                animate={{ y: [0, -4, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                className="relative z-10"
+              >
+                <div className="w-12 h-12 bg-white/60 rounded-2xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-500">
+                  <Search className="w-6 h-6 text-purple-600" />
+                </div>
+              </motion.div>
+
+              <span className="text-sm font-semibold text-purple-700 relative z-10">Search Names</span>
+
+              {/* Subtle sparkle */}
+              <motion.div
+                animate={{ opacity: [0.3, 0.8, 0.3], scale: [0.8, 1, 0.8] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute top-2 right-2 text-purple-300/60 text-lg"
+              >
+                ✦
+              </motion.div>
+            </motion.button>
+
+            {/* Swipe Mode - Soft Pink */}
+            <motion.button
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                navigate('/swipe');
+              }}
+              whileHover={{ scale: 1.08, y: -6 }}
+              whileTap={{ scale: 0.98 }}
+              className="relative h-28 backdrop-blur-lg bg-gradient-to-br from-pink-100/50 via-rose-50/50 to-pink-50/50 border border-pink-200/40 rounded-3xl shadow-xl hover:shadow-pink-300/40 transition-all duration-500 flex flex-col items-center justify-center gap-2 overflow-hidden group"
+            >
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-br from-pink-200/20 to-rose-200/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              />
+
+              <motion.div
+                animate={{ y: [0, -4, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.3 }}
+                className="relative z-10"
+              >
+                <div className="w-12 h-12 bg-white/60 rounded-2xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-500">
+                  <Heart className="w-6 h-6 text-pink-600" />
+                </div>
+              </motion.div>
+
+              <span className="text-sm font-semibold text-pink-700 relative z-10">Swipe Mode</span>
+
+              <motion.div
+                animate={{ opacity: [0.3, 0.8, 0.3], rotate: [0, 10, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute bottom-2 right-2 text-pink-300/60 text-lg"
+              >
+                ♡
+              </motion.div>
+            </motion.button>
+
+            {/* Popular Lists - Soft Blue */}
+            <motion.button
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                navigate('/babynamelists');
+              }}
+              whileHover={{ scale: 1.08, y: -6 }}
+              whileTap={{ scale: 0.98 }}
+              className="relative h-28 backdrop-blur-lg bg-gradient-to-br from-blue-100/50 via-cyan-50/50 to-blue-50/50 border border-blue-200/40 rounded-3xl shadow-xl hover:shadow-blue-300/40 transition-all duration-500 flex flex-col items-center justify-center gap-2 overflow-hidden group"
+            >
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-br from-blue-200/20 to-cyan-200/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              />
+
+              <motion.div
+                animate={{ y: [0, -4, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.6 }}
+                className="relative z-10"
+              >
+                <div className="w-12 h-12 bg-white/60 rounded-2xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-500">
+                  <Star className="w-6 h-6 text-blue-600" />
+                </div>
+              </motion.div>
+
+              <span className="text-sm font-semibold text-blue-700 relative z-10">Popular Lists</span>
+
+              <motion.div
+                animate={{ opacity: [0.3, 0.8, 0.3], rotate: [0, -10, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute top-2 left-2 text-blue-300/60 text-lg"
+              >
+                ✧
+              </motion.div>
+            </motion.button>
+
+            {/* My Votes - Soft Violet */}
+            <motion.button
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                navigate('/votes');
+              }}
+              whileHover={{ scale: 1.08, y: -6 }}
+              whileTap={{ scale: 0.98 }}
+              className="relative h-28 backdrop-blur-lg bg-gradient-to-br from-violet-100/50 via-fuchsia-50/50 to-violet-50/50 border border-violet-200/40 rounded-3xl shadow-xl hover:shadow-violet-300/40 transition-all duration-500 flex flex-col items-center justify-center gap-2 overflow-hidden group"
+            >
+              <motion.div
+                className="absolute inset-0 bg-gradient-to-br from-violet-200/20 to-fuchsia-200/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              />
+
+              <motion.div
+                animate={{ y: [0, -4, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.9 }}
+                className="relative z-10"
+              >
+                <div className="w-12 h-12 bg-white/60 rounded-2xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-500">
+                  <Trophy className="w-6 h-6 text-violet-600" />
+                </div>
+              </motion.div>
+
+              <span className="text-sm font-semibold text-violet-700 relative z-10">My Votes</span>
+
+              <motion.div
+                animate={{ opacity: [0.3, 0.8, 0.3], scale: [0.9, 1.1, 0.9] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute bottom-2 left-2 text-violet-300/60 text-lg"
+              >
+                ✦
+              </motion.div>
+            </motion.button>
+          </motion.div>
         </div>
       </section>
 

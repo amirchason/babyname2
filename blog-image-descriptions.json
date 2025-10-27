@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "new-dad-3am-hospital.jpg",
+    "scene": "3 AM Hospital Room - The Crisis Moment",
+    "prompt": "Photorealistic image of an exhausted new father in his early 30s sitting in a dim hospital room at 3 AM, soft warm lighting from a bedside lamp, holding a sleeping newborn baby wrapped in a white hospital blanket. Close-up shot showing both tenderness and anxiety on the father's face - tired eyes with dark circles, gentle smile mixed with worry lines on forehead. Hospital room background slightly blurred with medical equipment barely visible. Warm color tones with soft shadows. Emotional, intimate moment. Professional photography style, shallow depth of field, 35mm lens feel.",
+    "alt_text": "Exhausted new father holding newborn baby at 3 AM in hospital room, showing mix of love and anxiety",
+    "usage": "Blog header/featured image - represents the core emotional moment of the story",
+    "dallePrompt": "Professional photograph of new father holding newborn in dim hospital room at night, emotional close-up, warm lighting, showing both tenderness and worry on his face, hospital background blurred, photorealistic",
+    "midjourneyPrompt": "new father holding sleeping newborn baby, 3am hospital room, soft dim lighting, emotional portrait, tired but loving expression, anxiety mixed with joy, shallow depth of field, professional photography, warm tones, 35mm lens, photorealistic --ar 16:9 --v 6 --style raw"
+  },
+  {
+    "filename": "baby-name-lists-chaos.jpg",
+    "scene": "The Research Chaos - Months of Preparation",
+    "prompt": "Bird's eye view photograph of a coffee table covered in organized chaos - multiple open baby name books with highlighted sections, printed lists with crossed-out names in pen, laptop computer showing baby name websites, smartphone with SoulSeed app visible, coffee mug rings on papers, colorful sticky notes scattered everywhere with handwritten names, notebook with pros/cons lists. Warm afternoon lighting through window. Realistic photography style showing the overwhelming nature of research. Rich colors, high detail, represents months of searching.",
+    "alt_text": "Overhead view of coffee table covered in baby name books, lists, laptop, and notes showing intensive research",
+    "usage": "Mid-article image - represents the preparation and research phase",
+    "dallePrompt": "Bird's eye view of coffee table covered with baby name books, printed lists with crossed out names, laptop showing baby name websites, phone with app, coffee mug, sticky notes everywhere, afternoon lighting, organized chaos, photorealistic",
+    "midjourneyPrompt": "overhead flat lay of coffee table, baby name books open, crossed out name lists, laptop with baby name website, phone showing app, coffee mug, sticky notes, warm lighting, organized chaos, realistic photography, high detail, rich colors --ar 16:9 --v 6 --style raw"
+  },
+  {
+    "filename": "midnight-phone-search.jpg",
+    "scene": "The 2 AM Google Spiral",
+    "prompt": "Cinematic close-up photograph of a smartphone screen glowing in complete darkness showing a Google search with text 'names that won't get my kid beat up'. The phone's blue-white glow illuminates part of a man's tired face in the darkness - just showing from nose to forehead with worried eyes. Bedside table with dim clock showing 2:47 AM. Nighttime scene, moody atmospheric lighting, emphasis on the phone screen as main light source. Dramatic composition, shallow focus on phone screen, dark blue and white color palette. Professional cinematic photography.",
+    "alt_text": "Smartphone glowing in darkness showing anxious Google search about baby names at 2 AM",
+    "usage": "Mid-article image - represents the anxiety and overthinking phase",
+    "dallePrompt": "Cinematic close-up of glowing smartphone in darkness showing Google search 'names that won't get my kid beat up', phone light illuminating worried father's face partially, 2 AM clock visible, moody atmospheric lighting, dramatic composition, photorealistic",
+    "midjourneyPrompt": "smartphone screen glowing in darkness, Google search visible, worried father's face partially lit by phone, 2am bedroom, dramatic lighting, cinematic photography, moody atmosphere, blue white glow, shallow focus, professional photography --ar 16:9 --v 6 --style raw --s 750"
+  },
+  {
+    "filename": "happy-family-resolution.jpg",
+    "scene": "The Resolution - Peace at Last",
+    "prompt": "Warm professional photograph of new parents in hospital room during golden hour, soft sunlight streaming through window creating warm glow. Mother in hospital bed holding newborn baby, father sitting on edge of bed leaning close to them both, looking at baby with relief and love on his face. Peaceful, satisfied, content atmosphere. Baby is calm and loved. Warm emotional family portrait with soft natural lighting. Professional family photography style, warm color tones, gentle shadows, intimate moment of connection and relief. Shot from medium distance to show the family unit together.",
+    "alt_text": "Happy new parents in hospital room with their newborn during golden hour, showing peace and love",
+    "usage": "Closing image - represents the resolution and happy ending",
+    "dallePrompt": "Professional family photograph of new parents in hospital room, golden hour lighting through window, mother holding baby, father sitting close with loving expression, peaceful satisfied atmosphere, warm emotional portrait, soft natural lighting, photorealistic",
+    "midjourneyPrompt": "new parents with newborn in hospital room, golden hour sunlight through window, mother holding baby, father close by with loving expression, warm glow, peaceful satisfied atmosphere, family portrait, professional photography, soft natural light, warm colors, emotional moment --ar 16:9 --v 6 --style raw --s 250"
+  }
+]

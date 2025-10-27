@@ -44,10 +44,10 @@
     "test": "react-scripts test",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore",
     "eject": "react-scripts eject",
-    "deploy": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
-    "deploy:preview": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --token=$VERCEL_TOKEN --yes",
+    "deploy": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --archive=tgz --token=$VERCEL_TOKEN --yes",
+    "deploy:preview": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --archive=tgz --token=$VERCEL_TOKEN --yes",
     "deploy:github": "gh-pages -d build",
-    "ship": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes",
+    "ship": "export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --archive=tgz --token=$VERCEL_TOKEN --yes",
     "ship-msg": "git add . && git commit && git push origin master && export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --token=$VERCEL_TOKEN --yes"
   },
   "eslintConfig": {
@@ -75,6 +75,7 @@
     "autoprefixer": "^10.4.21",
     "cheerio": "^1.1.2",
     "firebase-admin": "^13.5.0",
+    "fs-extra": "^11.3.2",
     "gh-pages": "^6.3.0",
     "marked": "^16.4.0",
     "openai": "^6.1.0",
