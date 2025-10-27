@@ -334,6 +334,35 @@ const TermsOfServicePage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Terms of Service",
+          "description": "Read our terms of service to understand your rights and responsibilities when using SoulSeed to search for baby names.",
+          "url": "https://soulseedbaby.com/terms-of-service",
+          "datePublished": "2025-01-20",
+          "dateModified": "2025-01-20",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "SoulSeed",
+            "url": "https://soulseedbaby.com"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "SoulSeed",
+            "url": "https://soulseedbaby.com"
+          },
+          "about": {
+            "@type": "Thing",
+            "name": "Terms of Service",
+            "description": "Legal terms and conditions for using SoulSeed baby names application"
+          }
+        })}
+      </script>
     </div>
     </>
   );

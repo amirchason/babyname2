@@ -413,6 +413,35 @@ const PrivacyPolicyPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Privacy Policy",
+          "description": "Your privacy matters. Read how SoulSeed collects, uses, and protects your data while helping you find the perfect baby name.",
+          "url": "https://soulseedbaby.com/privacy-policy",
+          "datePublished": "2025-01-20",
+          "dateModified": "2025-01-20",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "SoulSeed",
+            "url": "https://soulseedbaby.com"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "SoulSeed",
+            "url": "https://soulseedbaby.com"
+          },
+          "about": {
+            "@type": "Thing",
+            "name": "Privacy Policy",
+            "description": "GDPR and CCPA compliant privacy policy for SoulSeed baby names application"
+          }
+        })}
+      </script>
     </div>
     </>
   );
