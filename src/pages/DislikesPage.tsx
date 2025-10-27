@@ -228,6 +228,26 @@ const DislikesPage: React.FC = () => {
           onClose={() => setSelectedName(null)}
         />
       )}
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Disliked Baby Names",
+          "description": "View and manage your disliked baby names. Change your mind? Easily restore names back to your browsing list.",
+          "url": "https://soulseedbaby.com/dislikes",
+          "isPartOf": {
+            "@type": "WebApplication",
+            "name": "SoulSeed Baby Names",
+            "url": "https://soulseedbaby.com"
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": dislikedNames.length
+          }
+        })}
+      </script>
     </div>
     </>
   );

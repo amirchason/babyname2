@@ -710,6 +710,24 @@ const BabyNameListsPage: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Curated Baby Name Lists",
+          "description": "Browse expertly curated baby name collections organized by origin, meaning, style, and theme",
+          "url": "https://soulseedbaby.com/babynamelists",
+          "numberOfItems": filteredLists.length,
+          "itemListElement": filteredLists.slice(0, 10).map((list, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "name": list.name,
+            "description": list.description || `Discover ${list.name} baby names`
+          }))
+        })}
+      </script>
     </div>
     </>
   );

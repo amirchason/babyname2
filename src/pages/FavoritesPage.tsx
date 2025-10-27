@@ -592,6 +592,31 @@ const FavoritesPage: React.FC = () => {
         voteId={createdVoteId}
         title="Help me choose a baby name!"
       />
+
+      {/* Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "My Favorite Baby Names",
+          "description": "View and manage your favorite baby names at SoulSeed. Save, organize, and share your curated list of meaningful names for your baby.",
+          "url": "https://soulseedbaby.com/favorites",
+          "isPartOf": {
+            "@type": "WebApplication",
+            "name": "SoulSeed Baby Names",
+            "url": "https://soulseedbaby.com"
+          },
+          "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": favoriteNames.length,
+            "itemListElement": favoriteNames.slice(0, 10).map((name, index) => ({
+              "@type": "ListItem",
+              "position": index + 1,
+              "name": name.name
+            }))
+          }
+        })}
+      </script>
     </div>
     </>
   );
