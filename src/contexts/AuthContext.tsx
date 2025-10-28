@@ -1,7 +1,6 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
 import { GoogleOAuthProvider, useGoogleLogin } from '@react-oauth/google';
-import { jwtDecode } from 'jwt-decode';
-import { getAuth, GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
+// Firebase auth dynamically imported in login/logout handlers to reduce initial bundle size
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
@@ -260,6 +259,8 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
 
         // 2. Sign into Firebase Auth using Google OAuth token
         console.log('[AUTH DEBUG] Signing into Firebase Auth...');
+        // Lazy load Firebase auth to reduce initial bundle size
+        const { getAuth, GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
         const credential = GoogleAuthProvider.credential(null, response.access_token);
         const auth = getAuth();
         const firebaseResult = await signInWithCredential(auth, credential);
@@ -317,6 +318,8 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       await new Promise(resolve => setTimeout(resolve, 1000));
 
       // Sign out of Firebase Auth
+      // Lazy load Firebase auth to reduce initial bundle size
+      const { getAuth } = await import('firebase/auth');
       const auth = getAuth();
       await auth.signOut();
       console.log('[AUTH DEBUG] Signed out of Firebase Auth');
