@@ -94,7 +94,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-        <div className="flex items-center justify-between">
+        <div className="flex items-end justify-between">
           {/* Logo - Navigate home or custom action */}
           <button
             onClick={onBackClick || (() => navigate('/'))}
@@ -127,7 +127,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           </button>
 
           {/* Desktop Navigation Menu - Hidden on Mobile */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden lg:flex items-end gap-1">
             <button
               onClick={() => navigate('/')}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
@@ -208,7 +208,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           </nav>
 
           {/* Right Side - Search and Navigation */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-end space-x-4">
             {/* Search Icon */}
             {showSearch && (
               <button
@@ -230,7 +230,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             )}
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-6">
+            <nav className="hidden md:flex items-end space-x-6">
               {/* Login/Profile */}
               {isAuthenticated && user ? (
                 <div className="flex items-center gap-3">
