@@ -276,8 +276,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                   : 'text-gray-600 hover:text-gray-900'
               }`}
               style={{
-                transform: 'translateY(-25px) scale(1.3)',
-                zIndex: 60
+                transform: 'scale(1.3)'
               }}
               title="View favorites"
             >
