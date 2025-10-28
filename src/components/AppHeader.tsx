@@ -119,7 +119,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <div
               className="flex flex-col items-end"
               style={{
-                transform: 'scale(1.25)',
+                transform: 'translateX(-40px) scale(1.25)',
                 transformOrigin: 'left bottom',
                 lineHeight: '0.85'
               }}
