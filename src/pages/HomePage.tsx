@@ -14,7 +14,8 @@ import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 // import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background'; // REMOVED - UnicornStudio failing on production
-import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
+// Lazy load UnicornStudio animation to reduce initial bundle size (~200-300KB)
+const UnicornFlowerBackground = lazy(() => import('../components/UnicornFlowerBackground'));
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
@@ -608,7 +609,9 @@ const HomePage: React.FC = () => {
       <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[90vh] overflow-hidden transition-all duration-200`}>
 
         {/* UnicornStudio Tulips Animation - Dreamy blur + caustics effects */}
-        <UnicornFlowerBackground />
+        <Suspense fallback={<div className="absolute inset-0 bg-white" />}>
+          <UnicornFlowerBackground />
+        </Suspense>
 
         {/* Floating Names Overlay - Only animate on first visit */}
         {isFirstVisit && (
