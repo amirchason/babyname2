@@ -448,3 +448,4 @@ See **MCP_SETUP.md** for complete setup guide, **ORC_ORCHESTRATOR.md** for orche
 - make sure thay when i say deploy ,its automaticly deploy to vercel
 - remember to deploy to vercel after each change
 - when refering nameprofile - we r refering all nameprofiles from all user journeyes to the same nameprofile. when changing name profile - make sure all nameprofiles fr9m all user journeys are changed.
+- when user say deploy, u deploy it to github (vercel deploy automaticly from github)
