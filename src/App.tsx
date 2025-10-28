@@ -38,6 +38,7 @@ const AboutPage = lazy(() => import('./pages/AboutPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const CookiePolicyPage = lazy(() => import('./pages/CookiePolicyPage'));
 const AccessibilityPage = lazy(() => import('./pages/AccessibilityPage'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 
 /**
  * Component to manage admin text selection
@@ -191,6 +192,9 @@ function App() {
                     <Route path="/votes" element={<VotesListPage />} />
                     <Route path="/create-vote" element={<CreateVotePage />} />
                     <Route path="/vote/:voteId" element={<VotingPage />} />
+
+                    {/* 404 Catch-All Route - Must be last */}
+                    <Route path="*" element={<NotFoundPage />} />
                   </Routes>
                 </AppLayout>
 
