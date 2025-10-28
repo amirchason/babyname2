@@ -602,8 +602,30 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
+      {/* Hero Section - Clean White Design */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 bg-white min-h-[60vh] flex items-center justify-center transition-all duration-200`}>
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-5xl md:text-6xl font-bold text-gray-800 mb-6"
+          >
+            Where Your Baby Name Blooms
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-xl md:text-2xl text-gray-600 mb-8"
+          >
+            Discover the perfect name from 150,000+ unique options
+          </motion.p>
+        </div>
+      </section>
+
       {/* Quick Action Buttons - Elegant Baby Theme */}
-      <section className="py-6 px-4">
+      <section className="py-6 px-4 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
