@@ -15,7 +15,7 @@ import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 // import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background'; // REMOVED - UnicornStudio failing on production
 // Lazy load UnicornStudio animation to reduce initial bundle size (~200-300KB)
-const UnicornFlowerBackground = lazy(() => import('../components/UnicornFlowerBackground'));
+// const UnicornFlowerBackground = lazy(() => import('../components/UnicornFlowerBackground')); // REMOVED - Causing 404 on production
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
@@ -605,47 +605,7 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section - REDESIGNED */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[90vh] overflow-hidden transition-all duration-200`}>
-
-        {/* UnicornStudio Tulips Animation - Dreamy blur + caustics effects */}
-        <Suspense fallback={<div className="absolute inset-0 bg-white" />}>
-          <UnicornFlowerBackground />
-        </Suspense>
-
-        {/* Floating Names Overlay - Only animate on first visit */}
-        {isFirstVisit && (
-          <div className="absolute inset-0 z-[1] pointer-events-none">
-            {['Emma', 'Noah', 'Olivia', 'Liam', 'Sophia', 'Ethan', 'Isabella', 'Mason', 'Mia', 'Lucas'].map((name, i) => (
-              <motion.div
-                key={name}
-                initial={{ opacity: 0 }}
-                animate={{
-                  opacity: [0.15, 0.3, 0.15],
-                  x: [0, 100, 0],
-                  y: [0, -50, 0]
-                }}
-                transition={{
-                  duration: 10 + i * 2,
-                  repeat: Infinity,
-                  delay: i * 0.5,
-                  ease: "easeInOut"
-                }}
-                className={`absolute text-white/20 font-light`}
-                style={{
-                  left: `${10 + i * 15}%`,
-                  top: `${20 + (i % 3) * 25}%`,
-                  fontSize: `${1.5 + (i % 2) * 0.5}rem`
-                }}
-              >
-                {name}
-              </motion.div>
-            ))}
-          </div>
-        )}
-
-        {/* Hero section now clean - no text overlay, just beautiful flower animation */}
-      </section>
+      {/* Hero Section REMOVED - Was causing 404 on production */}
 
       {/* Quick Action Buttons - Elegant Baby Theme */}
       <section className="py-6 px-4">
