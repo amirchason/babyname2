@@ -274,6 +274,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                   ? 'text-pink-500 hover:text-pink-600'
                   : 'text-gray-600 hover:text-gray-900'
               }`}
+              style={{ transform: 'scale(1.15)' }}
               title="View favorites"
             >
               <Heart
