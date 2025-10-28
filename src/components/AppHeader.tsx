@@ -90,7 +90,8 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     <header
       className="fixed top-0 left-0 right-0 z-50 border-b border-transparent"
       style={{
-        backgroundColor: 'transparent'
+        backgroundColor: 'transparent',
+        overflow: 'visible'
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
@@ -208,7 +209,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           </nav>
 
           {/* Right Side - Search and Navigation */}
-          <div className="flex items-end space-x-4">
+          <div className="flex items-end space-x-4" style={{ overflow: 'visible' }}>
             {/* Search Icon */}
             {showSearch && (
               <button
@@ -269,12 +270,15 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             {/* Favorites Counter - Near menu */}
             <button
               onClick={() => navigate('/favorites')}
-              className={`flex items-center gap-1.5 text-sm transition-all ${
+              className={`flex items-center gap-1.5 text-sm transition-all relative ${
                 favoritesCount > 0
                   ? 'text-pink-500 hover:text-pink-600'
                   : 'text-gray-600 hover:text-gray-900'
               }`}
-              style={{ transform: 'scale(1.15)' }}
+              style={{
+                transform: 'translateY(-25px) scale(1.3)',
+                zIndex: 60
+              }}
               title="View favorites"
             >
               <Heart

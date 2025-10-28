@@ -20,6 +20,7 @@ module.exports = {
         'float': 'float 6s ease-in-out infinite',
         'pulse-slow': 'pulse 3s ease-in-out infinite',
         'sparkle': 'sparkle 1.5s ease-in-out infinite',
+        'heartbeat': 'heartbeat 0.6s ease-in-out',
       },
       keyframes: {
         float: {
@@ -30,6 +31,12 @@ module.exports = {
           '0%': { opacity: '0', transform: 'scale(0) rotate(0deg)' },
           '50%': { opacity: '1', transform: 'scale(1.5) rotate(180deg)' },
           '100%': { opacity: '0', transform: 'scale(0) rotate(360deg)' },
+        },
+        heartbeat: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '25%': { transform: 'scale(1.15)' },
+          '50%': { transform: 'scale(1)' },
+          '75%': { transform: 'scale(1.1)' },
         }
       },
       fontFamily: {
