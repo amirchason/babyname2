@@ -1,0 +1,337 @@
+================================================================================
+          SOULSEEDBABY.COM - COMPREHENSIVE SITE AUDIT PLAN
+================================================================================
+Site: https://soulseedbaby.com
+Last Updated: 2025-10-28
+Current Health Score (Ahrefs): 6/100 (CRITICAL)
+
+================================================================================
+                    AUDIT CHECKLIST - RUN EVERY SESSION
+================================================================================
+
+[ ] 1. TECHNICAL SEO AUDIT
+    [ ] Check all meta tags (title, description, OG tags)
+    [ ] Verify schema.org structured data
+    [ ] Test canonical URLs
+    [ ] Check robots.txt and sitemap.xml
+    [ ] Verify favicon and PWA manifest
+    [ ] Test mobile responsiveness
+    [ ] Check page load speed (< 3 seconds)
+    [ ] Verify HTTPS/SSL certificate
+
+[ ] 2. ON-PAGE SEO AUDIT
+    [ ] H1-H6 heading structure
+    [ ] Image alt attributes
+    [ ] Internal linking structure
+    [ ] URL structure and readability
+    [ ] Content quality and keyword optimization
+    [ ] Meta keywords (if used)
+
+[ ] 3. 404 ERROR AUDIT (CRITICAL)
+    [ ] Test all internal route links:
+        [ ] / (homepage)
+        [ ] /names
+        [ ] /babynamelists
+        [ ] /favorites
+        [ ] /dislikes
+        [ ] /swipe
+        [ ] /search
+        [ ] /sitemap
+        [ ] /terms-of-service
+        [ ] /privacy-policy
+        [ ] /cookie-policy
+        [ ] /accessibility
+        [ ] /about
+        [ ] /contact
+        [ ] /blog
+        [ ] /votes
+        [ ] /create-vote
+    [ ] Check for broken external links
+    [ ] Verify asset loading:
+        [ ] /data/names-chunk1.json
+        [ ] /data/names-chunk2.json
+        [ ] /data/names-chunk3.json
+        [ ] /data/names-chunk4.json
+        [ ] /logo192.png
+        [ ] /logo512.png
+        [ ] /favicon-static.png
+        [ ] /og-image.svg
+    [ ] Test dynamic routes (e.g., /vote/:voteId)
+
+[ ] 4. PERFORMANCE AUDIT
+    [ ] Core Web Vitals:
+        [ ] LCP (Largest Contentful Paint) < 2.5s
+        [ ] FID (First Input Delay) < 100ms
+        [ ] CLS (Cumulative Layout Shift) < 0.1
+    [ ] Page size analysis
+    [ ] JavaScript bundle size
+    [ ] CSS optimization
+    [ ] Image optimization
+    [ ] Code splitting effectiveness
+    [ ] Lazy loading implementation
+
+[ ] 5. ACCESSIBILITY AUDIT (WCAG 2.1 Level AA)
+    [ ] Keyboard navigation
+    [ ] Screen reader compatibility
+    [ ] Color contrast ratios
+    [ ] ARIA labels
+    [ ] Focus indicators
+    [ ] Skip navigation links
+    [ ] Form accessibility
+    [ ] Alternative text for images
+
+[ ] 6. CONTENT AUDIT
+    [ ] Spelling and grammar
+    [ ] Content freshness
+    [ ] Duplicate content check
+    [ ] Thin content pages
+    [ ] Keyword cannibalization
+    [ ] Content gaps analysis
+
+[ ] 7. MOBILE AUDIT
+    [ ] Mobile-first design
+    [ ] Touch target sizes (min 48x48px)
+    [ ] Viewport configuration
+    [ ] Mobile usability errors
+    [ ] Accelerated Mobile Pages (AMP) if applicable
+
+[ ] 8. SECURITY AUDIT
+    [ ] HTTPS enforcement
+    [ ] Security headers (CSP, HSTS, X-Frame-Options)
+    [ ] Mixed content warnings
+    [ ] XSS vulnerabilities
+    [ ] SQL injection vulnerabilities
+    [ ] API key exposure
+
+[ ] 9. BACKLINK AUDIT (Using Ahrefs)
+    [ ] Total backlinks count
+    [ ] Referring domains
+    [ ] Domain Rating (DR)
+    [ ] URL Rating (UR)
+    [ ] Toxic backlinks
+    [ ] Lost backlinks
+    [ ] New backlinks
+
+[ ] 10. COMPETITORS ANALYSIS (Using Ahrefs)
+    [ ] Identify top 5 competitors
+    [ ] Compare organic keywords
+    [ ] Compare traffic estimates
+    [ ] Analyze competitor content strategies
+    [ ] Keyword gap analysis
+
+================================================================================
+                        KNOWN ISSUES (FROM LAST AUDIT)
+================================================================================
+
+CRITICAL Issues:
+- [FIXED] Homepage 404 error (UnicornFlowerBackground crash)
+- [ ] Health Score 6/100 (extremely low)
+- [ ] Unknown technical SEO issues causing low score
+
+HIGH Priority:
+- [ ] Ahrefs audit API quota exceeded (need manual checks)
+- [ ] 14 npm vulnerabilities (5 moderate, 7 high, 2 critical)
+- [ ] Missing comprehensive sitemap
+- [ ] No robots.txt file
+
+MEDIUM Priority:
+- [ ] TypeScript warnings in production build
+- [ ] Framer Motion type mismatches
+- [ ] Blog structured data type errors
+
+LOW Priority:
+- [ ] Optimize image sizes
+- [ ] Reduce JavaScript bundle size
+- [ ] Implement service worker caching strategy
+
+================================================================================
+                           IMPROVEMENT ROADMAP
+================================================================================
+
+Phase 1: Critical Fixes (Week 1)
+1. Fix all 404 errors
+2. Improve health score to at least 50/100
+3. Fix security vulnerabilities
+4. Implement comprehensive error logging
+
+Phase 2: SEO Optimization (Week 2)
+5. Optimize all meta tags and structured data
+6. Create comprehensive sitemap
+7. Add robots.txt
+8. Implement canonical URL strategy
+9. Fix duplicate content issues
+
+Phase 3: Performance (Week 3)
+10. Optimize Core Web Vitals
+11. Reduce bundle size by 30%
+12. Implement advanced caching
+13. Optimize images with WebP format
+14. Enable compression (Gzip/Brotli)
+
+Phase 4: Content & UX (Week 4)
+15. Improve content quality
+16. Add blog posts for SEO
+17. Implement schema markup for names
+18. Enhance mobile UX
+19. Add structured FAQ section
+
+Phase 5: Advanced SEO (Ongoing)
+20. Build quality backlinks
+21. Guest posting on parenting blogs
+22. Social media integration
+23. Email marketing integration
+24. A/B testing landing pages
+
+================================================================================
+                          MONITORING & TRACKING
+================================================================================
+
+Daily Checks:
+- Site uptime (99.9% target)
+- Error rate in browser console
+- Page load speed
+- Mobile usability
+
+Weekly Checks:
+- Ahrefs health score
+- Google Search Console errors
+- Organic traffic trends
+- Keyword rankings
+- Backlink profile
+
+Monthly Checks:
+- Full technical audit
+- Competitor analysis
+- Content performance
+- Conversion rate optimization
+- User behavior analytics
+
+================================================================================
+                              TOOLS REQUIRED
+================================================================================
+
+SEO Tools:
+- Ahrefs (for backlinks, keywords, site audit)
+- Google Search Console (for search performance)
+- Google Analytics 4 (for user behavior)
+- Screaming Frog (for crawling)
+- PageSpeed Insights (for performance)
+
+Development Tools:
+- Chrome DevTools (for debugging)
+- Lighthouse (for auditing)
+- WAVE (for accessibility)
+- GTmetrix (for performance)
+- WebPageTest (for load testing)
+
+================================================================================
+                              AUTOMATION PLAN
+================================================================================
+
+Automated Checks (CI/CD Pipeline):
+1. Run Lighthouse on every deployment
+2. Check for 404 errors post-deploy
+3. Verify all critical routes load
+4. Test API endpoints
+5. Run accessibility tests
+6. Monitor bundle size growth
+
+Weekly Automated Reports:
+1. SEO health score summary
+2. Performance metrics comparison
+3. Error log analysis
+4. Traffic source breakdown
+5. Top performing pages
+
+================================================================================
+                           SUCCESS METRICS (KPIs)
+================================================================================
+
+Technical SEO:
+- Health Score: Target 90+/100
+- Page Speed: < 2 seconds
+- Mobile Score: 95+/100
+- Zero 404 errors
+- Zero critical vulnerabilities
+
+Organic Performance:
+- Organic traffic: +50% month-over-month
+- Keyword rankings: Top 10 for 20+ keywords
+- Domain Authority: 30+
+- Backlinks: 100+ quality backlinks
+- Bounce rate: < 40%
+
+User Engagement:
+- Average session duration: 3+ minutes
+- Pages per session: 4+
+- Conversion rate: 10%+ (favorites saved)
+- Return visitor rate: 30%+
+
+================================================================================
+                             IMMEDIATE ACTIONS
+================================================================================
+
+ACTION 1: Fix Remaining 404 Errors
+Priority: CRITICAL
+Estimated Time: 2 hours
+Steps:
+  1. Test all routes manually
+  2. Check browser console for errors
+  3. Fix broken links
+  4. Implement proper error handling
+  5. Add custom 404 page with helpful navigation
+
+ACTION 2: Complete Security Audit
+Priority: HIGH
+Estimated Time: 3 hours
+Steps:
+  1. Run npm audit and fix vulnerabilities
+  2. Implement security headers
+  3. Review API key exposure
+  4. Add rate limiting
+  5. Implement CORS properly
+
+ACTION 3: Optimize Core Web Vitals
+Priority: HIGH
+Estimated Time: 4 hours
+Steps:
+  1. Analyze current metrics
+  2. Optimize images
+  3. Reduce JavaScript bundle
+  4. Implement lazy loading
+  5. Add preload/prefetch hints
+
+ACTION 4: Create Comprehensive Sitemap
+Priority: MEDIUM
+Estimated Time: 1 hour
+Steps:
+  1. Generate dynamic sitemap.xml
+  2. Include all public routes
+  3. Add lastmod dates
+  4. Submit to Google Search Console
+  5. Add sitemap reference in robots.txt
+
+ACTION 5: Fix TypeScript Warnings
+Priority: MEDIUM
+Estimated Time: 2 hours
+Steps:
+  1. Review all TS errors in build
+  2. Fix Framer Motion type issues
+  3. Fix structured data types
+  4. Update tsconfig.json if needed
+  5. Run strict type checking
+
+================================================================================
+                        🚨 CRITICAL REMINDER 🚨
+================================================================================
+
+DO NOT TOUCH THE HERO SECTION
+- Hero section animation is stable
+- Any changes require extensive testing
+- Keep hero section code frozen unless critical bug
+
+================================================================================
+                              END OF AUDIT PLAN
+================================================================================
+Generated: 2025-10-28
+Next Review: Check this file at the start of every session
