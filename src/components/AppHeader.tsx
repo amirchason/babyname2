@@ -119,7 +119,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <h1
               className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900"
               style={{
-                transform: 'scale(1.25)',
+                transform: 'translateY(-40px) scale(1.25)',
                 transformOrigin: 'left bottom'
               }}
             >
@@ -276,7 +276,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                   : 'text-gray-600 hover:text-gray-900'
               }`}
               style={{
-                transform: 'scale(1.3)'
+                transform: 'translateY(-40px) scale(1.3)'
               }}
               title="View favorites"
             >
@@ -297,7 +297,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
-              style={{ transform: 'scale(1.2)' }}
+              style={{ transform: 'translateY(-40px) scale(1.2)' }}
             >
               {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
