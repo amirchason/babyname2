@@ -18,9 +18,6 @@ import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
 import StructuredData from '../components/SEO/StructuredData';
 
-// Lazy load Unicorn Studio flowers background
-const HeroFlowersBackground = lazy(() => import('../components/hero_flowers'));
-
 const HomePage: React.FC = () => {
   // Use global name cache (prevents reloading on navigation)
   const { names: cachedNames, isLoading: cacheLoading, allOrigins: cachedOrigins, genderCounts: cachedGenderCounts } = useNameCache();
@@ -605,13 +602,96 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section - Clean White Design with Flowers Background */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 bg-white min-h-[60vh] flex items-center justify-center transition-all duration-200 overflow-hidden`}>
-        {/* Unicorn Studio Flowers Background */}
-        <Suspense fallback={null}>
-          <HeroFlowersBackground />
-        </Suspense>
+      {/* Hero Section - Animated Gradient Background */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[60vh] flex items-center justify-center transition-all duration-200 overflow-hidden bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50`}>
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          {/* Large floating circles */}
+          <motion.div
+            animate={{
+              scale: [1, 1.2, 1],
+              opacity: [0.3, 0.5, 0.3],
+              x: [0, 30, 0],
+              y: [0, -30, 0],
+            }}
+            transition={{
+              duration: 8,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+            className="absolute top-10 left-10 w-64 h-64 bg-purple-200 rounded-full blur-3xl"
+          />
+          <motion.div
+            animate={{
+              scale: [1, 1.3, 1],
+              opacity: [0.2, 0.4, 0.2],
+              x: [0, -40, 0],
+              y: [0, 40, 0],
+            }}
+            transition={{
+              duration: 10,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 1
+            }}
+            className="absolute top-1/4 right-20 w-80 h-80 bg-pink-200 rounded-full blur-3xl"
+          />
+          <motion.div
+            animate={{
+              scale: [1, 1.1, 1],
+              opacity: [0.25, 0.45, 0.25],
+              x: [0, 20, 0],
+              y: [0, -20, 0],
+            }}
+            transition={{
+              duration: 9,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 2
+            }}
+            className="absolute bottom-20 left-1/4 w-72 h-72 bg-blue-200 rounded-full blur-3xl"
+          />
 
+          {/* Small floating flower-like elements */}
+          {[...Array(12)].map((_, i) => (
+            <motion.div
+              key={i}
+              animate={{
+                y: [0, -20, 0],
+                x: [0, Math.sin(i) * 10, 0],
+                rotate: [0, 360],
+                opacity: [0.4, 0.7, 0.4],
+              }}
+              transition={{
+                duration: 5 + i * 0.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+                delay: i * 0.3
+              }}
+              className="absolute"
+              style={{
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
+                width: `${20 + Math.random() * 30}px`,
+                height: `${20 + Math.random() * 30}px`,
+              }}
+            >
+              <div
+                className="w-full h-full rounded-full"
+                style={{
+                  background: `radial-gradient(circle, ${
+                    i % 3 === 0 ? 'rgba(216, 180, 254, 0.4)' :
+                    i % 3 === 1 ? 'rgba(251, 207, 232, 0.4)' :
+                    'rgba(186, 230, 253, 0.4)'
+                  }, transparent)`,
+                  filter: 'blur(2px)'
+                }}
+              />
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Hero Content */}
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -625,7 +705,7 @@ const HomePage: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl md:text-2xl text-gray-600 mb-8"
+            className="text-xl md:text-2xl text-gray-700 mb-8"
           >
             Discover the perfect name from 150,000+ unique options
           </motion.p>
