@@ -116,15 +116,17 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                 }
               }}
             />
-            <h1
-              className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900"
+            <div
+              className="flex flex-col items-start"
               style={{
                 transform: 'translateY(-36px) scale(1.25)',
-                transformOrigin: 'left bottom'
+                transformOrigin: 'left bottom',
+                lineHeight: '0.85'
               }}
             >
-              {title}
-            </h1>
+              <span className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">Soul</span>
+              <span className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">Seed</span>
+            </div>
           </button>
 
           {/* Desktop Navigation Menu - Hidden on Mobile */}
