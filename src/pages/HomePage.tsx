@@ -18,6 +18,9 @@ import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
 import StructuredData from '../components/SEO/StructuredData';
 
+// Lazy load Unicorn Studio flowers background
+const HeroFlowersBackground = lazy(() => import('../components/hero_flowers'));
+
 const HomePage: React.FC = () => {
   // Use global name cache (prevents reloading on navigation)
   const { names: cachedNames, isLoading: cacheLoading, allOrigins: cachedOrigins, genderCounts: cachedGenderCounts } = useNameCache();
@@ -602,9 +605,14 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section - Clean White Design */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 bg-white min-h-[60vh] flex items-center justify-center transition-all duration-200`}>
-        <div className="max-w-4xl mx-auto text-center">
+      {/* Hero Section - Clean White Design with Flowers Background */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 bg-white min-h-[60vh] flex items-center justify-center transition-all duration-200 overflow-hidden`}>
+        {/* Unicorn Studio Flowers Background */}
+        <Suspense fallback={null}>
+          <HeroFlowersBackground />
+        </Suspense>
+
+        <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
