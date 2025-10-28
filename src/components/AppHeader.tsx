@@ -291,7 +291,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                 style={{ width: '1.25rem', height: '1.25rem' }}
                 strokeWidth={1}
               />
-              <span className={`${favoritesCount > 0 ? 'font-semibold' : 'font-medium'} min-w-[1.5rem] text-center`}>
+              <span className="font-light min-w-[1.5rem] text-center">
                 {favoritesCount > 999 ? '999+' : favoritesCount}
               </span>
             </button>
