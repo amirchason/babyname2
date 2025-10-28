@@ -287,6 +287,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                   favoritesCount > 0 ? 'fill-pink-500' : ''
                 }`}
                 style={{ width: '1.25rem', height: '1.25rem' }}
+                strokeWidth={1}
               />
               <span className={`${favoritesCount > 0 ? 'font-semibold' : 'font-medium'} min-w-[1.5rem] text-center`}>
                 {favoritesCount > 999 ? '999+' : favoritesCount}
@@ -299,7 +300,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
               style={{ transform: 'translateY(-36px) scale(1.2)' }}
             >
-              {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {menuOpen ? <X className="w-6 h-6" strokeWidth={1} /> : <Menu className="w-6 h-6" strokeWidth={1} />}
             </button>
           </div>
         </div>
