@@ -13,9 +13,7 @@ import NameCard from '../components/NameCard';
 import NameCardCompact from '../components/NameCardCompact';
 import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
-// import { Component as AnimatedBackground } from '../components/ui/open-ai-codex-animated-background'; // REMOVED - UnicornStudio failing on production
-// Lazy load UnicornStudio animation to reduce initial bundle size (~200-300KB)
-// const UnicornFlowerBackground = lazy(() => import('../components/UnicornFlowerBackground')); // REMOVED - Causing 404 on production
+import HeroAnimation from '../components/HeroAnimation';
 import AppHeader from '../components/AppHeader';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
@@ -605,7 +603,30 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section REMOVED - Was causing 404 on production */}
+      {/* Hero Section - OpenAI Flowers Lottie Animation */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[70vh] overflow-hidden transition-all duration-200`}>
+        <HeroAnimation />
+
+        {/* Hero Content */}
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-5xl md:text-6xl font-bold text-gray-800 mb-6"
+          >
+            Where Your Baby Name Blooms
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-xl md:text-2xl text-gray-600 mb-8"
+          >
+            Discover the perfect name from 150,000+ unique options
+          </motion.p>
+        </div>
+      </section>
 
       {/* Quick Action Buttons - Elegant Baby Theme */}
       <section className="py-6 px-4">
