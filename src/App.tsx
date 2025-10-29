@@ -10,6 +10,7 @@ import LoadingSpinner from './components/LoadingSpinner';
 import LoadingAnimation from './components/LoadingAnimation';
 import Footer from './components/Footer';
 import AppHeader from './components/AppHeader';
+import DebugOverlay from './components/DebugOverlay';
 import './App.css';
 
 // Lazy load pages for code splitting (reduces initial bundle size)
@@ -204,6 +205,9 @@ function App() {
             </NameCacheProvider>
           </AuthProvider>
         </LoadingProvider>
+
+        {/* Debug Overlay - Shows console logs on screen for mobile debugging */}
+        <DebugOverlay />
       </ToastProvider>
     </HelmetProvider>
   );

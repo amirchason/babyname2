@@ -332,7 +332,17 @@ const AppHeader: React.FC<AppHeaderProps> = ({
                 </div>
               ) : (
                 <button
-                  onClick={login}
+                  onClick={() => {
+                    console.log('🔘 [BUTTON CLICK] Sign in button clicked (desktop)');
+                    console.log('🔘 [BUTTON CLICK] login function type:', typeof login);
+                    console.log('🔘 [BUTTON CLICK] Calling login()...');
+                    try {
+                      login();
+                      console.log('🔘 [BUTTON CLICK] login() called successfully');
+                    } catch (error) {
+                      console.error('🔘 [BUTTON CLICK] Error calling login():', error);
+                    }
+                  }}
                   className="text-sm text-gray-900 hover:text-gray-600 transition-colors"
                 >
                   Sign in
@@ -497,7 +507,15 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               ) : (
                 <button
                   onClick={() => {
-                    login();
+                    console.log('🔘 [BUTTON CLICK] Sign in button clicked (mobile menu)');
+                    console.log('🔘 [BUTTON CLICK] login function type:', typeof login);
+                    console.log('🔘 [BUTTON CLICK] Calling login()...');
+                    try {
+                      login();
+                      console.log('🔘 [BUTTON CLICK] login() called successfully');
+                    } catch (error) {
+                      console.error('🔘 [BUTTON CLICK] Error calling login():', error);
+                    }
                     setMenuOpen(false);
                   }}
                   className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-purple-50 rounded-lg transition-colors border-t pt-4"

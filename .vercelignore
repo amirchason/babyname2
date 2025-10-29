@@ -6,3 +6,12 @@ node_modules
 .env.local
 .cache
 *.log
+
+# Exclude 20,000+ static name pages (not needed for deployment)
+public/names/
+build/names/
+
+# Exclude large database backup files
+data/*_backup*.json
+data_backup/
+data/namesDatabase*.json

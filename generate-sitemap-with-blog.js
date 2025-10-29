@@ -32,13 +32,14 @@ const staticPages = [
   { url: '/contact', changefreq: 'monthly', priority: '0.5' },
 ];
 
-// Pillar hub pages (high priority for SEO)
-const pillarPages = [
-  { url: '/blog?pillar=baby-names', changefreq: 'weekly', priority: '0.8' },
-  { url: '/blog?pillar=baby-milestones', changefreq: 'weekly', priority: '0.8' },
-  { url: '/blog?pillar=baby-gear', changefreq: 'weekly', priority: '0.8' },
-  { url: '/blog?pillar=pregnancy', changefreq: 'weekly', priority: '0.8' },
-  { url: '/blog?pillar=postpartum', changefreq: 'weekly', priority: '0.8' },
+// Blog Category/Pillar pages (SEO-optimized landing pages)
+const categoryPages = [
+  { url: '/blog/baby-names', changefreq: 'weekly', priority: '0.8' },
+  { url: '/blog/baby-milestones', changefreq: 'weekly', priority: '0.8' },
+  { url: '/blog/baby-gear', changefreq: 'weekly', priority: '0.8' },
+  { url: '/blog/pregnancy', changefreq: 'weekly', priority: '0.8' },
+  { url: '/blog/postpartum', changefreq: 'weekly', priority: '0.8' },
+  { url: '/blog/personal-blogs', changefreq: 'weekly', priority: '0.8' },
 ];
 
 // Fetch blog posts from Firestore
@@ -89,9 +90,9 @@ function generateSitemap(allPages) {
     xml += '  </url>\n';
   });
 
-  // Add pillar hub pages
-  xml += '\n  <!-- Pillar Hub Pages -->\n';
-  pillarPages.forEach(page => {
+  // Add category landing pages
+  xml += '\n  <!-- Blog Category Pages (SEO Landing Pages) -->\n';
+  categoryPages.forEach(page => {
     xml += '  <url>\n';
     xml += `    <loc>${DOMAIN}${page.url}</loc>\n`;
     xml += `    <lastmod>${page.lastmod || today}</lastmod>\n`;

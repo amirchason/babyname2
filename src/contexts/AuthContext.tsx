@@ -1,6 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
-import { GoogleOAuthProvider, useGoogleLogin } from '@react-oauth/google';
-// Firebase auth dynamically imported in login/logout handlers to reduce initial bundle size
+import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
@@ -31,9 +30,6 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-// Get client ID from env or use placeholder
-const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || 'YOUR_GOOGLE_CLIENT_ID_HERE';
-
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {
@@ -41,13 +37,6 @@ export const useAuth = () => {
   }
   return context;
 };
-
-interface GoogleUserInfo {
-  id: string;
-  email: string;
-  name: string;
-  picture: string;
-}
 
 const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
@@ -243,113 +232,90 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     }
   };
 
-  console.log('🔧 [AUTH DEBUG] Setting up useGoogleLogin hook...');
+  console.log('🔧 [AUTH DEBUG] Setting up Firebase Auth login...');
   console.log('🔧 [AUTH DEBUG] Current origin:', window.location.origin);
   console.log('🔧 [AUTH DEBUG] User agent:', navigator.userAgent);
 
-  const login = useGoogleLogin({
-    onSuccess: async (response) => {
-      console.log('🎉 [AUTH DEBUG] ===== ON SUCCESS CALLBACK TRIGGERED! =====');
-      try {
-        console.log('[AUTH DEBUG] ===== GOOGLE OAUTH LOGIN STARTED =====');
-        console.log('[AUTH DEBUG] Google OAuth successful, access_token received');
-        console.log('[AUTH DEBUG] Access token length:', response.access_token?.length);
-        console.log('[AUTH DEBUG] Response object:', response);
+  const login = async () => {
+    try {
+      console.log('[AUTH DEBUG] ===== FIREBASE AUTH LOGIN STARTED =====');
+      console.log('[AUTH DEBUG] Using Firebase signInWithPopup (mobile-optimized)');
 
-        // 1. Fetch user info from Google
-        console.log('[AUTH DEBUG] Step 1: Fetching user info from Google...');
-        const userInfoResponse = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
-          headers: {
-            Authorization: `Bearer ${response.access_token}`,
-          },
-        });
+      // Initialize Firebase auth and provider
+      const auth = getAuth();
+      const provider = new GoogleAuthProvider();
 
-        if (!userInfoResponse.ok) {
-          throw new Error(`Google API error: ${userInfoResponse.status} ${userInfoResponse.statusText}`);
-        }
+      // Configure provider for better mobile compatibility
+      provider.setCustomParameters({
+        prompt: 'select_account'
+      });
 
-        const userInfo: GoogleUserInfo = await userInfoResponse.json();
-        console.log('[AUTH DEBUG] Google user info:', userInfo.email);
-        console.log('[AUTH DEBUG] User name:', userInfo.name);
+      console.log('[AUTH DEBUG] Step 1: Opening Firebase popup...');
 
-        // 2. Sign into Firebase Auth using Google OAuth token
-        console.log('[AUTH DEBUG] Step 2: Signing into Firebase Auth...');
-        // Lazy load Firebase auth to reduce initial bundle size
-        const { getAuth, GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
-        console.log('[AUTH DEBUG] Firebase auth module loaded');
+      // Sign in with popup - Firebase handles all the complexity
+      const result = await signInWithPopup(auth, provider);
 
-        const credential = GoogleAuthProvider.credential(null, response.access_token);
-        console.log('[AUTH DEBUG] Google credential created');
+      console.log('[AUTH DEBUG] Step 2: Firebase popup successful!');
+      console.log('[AUTH DEBUG] Firebase UID:', result.user.uid);
+      console.log('[AUTH DEBUG] Firebase email:', result.user.email);
+      console.log('[AUTH DEBUG] Firebase displayName:', result.user.displayName);
+      console.log('[AUTH DEBUG] Firebase photoURL:', result.user.photoURL);
 
-        const auth = getAuth();
-        console.log('[AUTH DEBUG] Firebase auth instance retrieved');
+      // Get the Google access token if needed (optional)
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      const accessToken = credential?.accessToken;
 
-        const firebaseResult = await signInWithCredential(auth, credential);
-        console.log('[AUTH DEBUG] Firebase Auth successful!');
-        console.log('[AUTH DEBUG] Firebase UID:', firebaseResult.user.uid);
-        console.log('[AUTH DEBUG] Firebase email:', firebaseResult.user.email);
-
-        // 3. Use Firebase UID (not Google ID) - this is what Firestore recognizes
-        const userData: User = {
-          id: firebaseResult.user.uid,  // ← Firebase UID, not Google OAuth ID
-          email: userInfo.email,
-          name: userInfo.name,
-          picture: userInfo.picture,
-          isAdmin: isAdminEmail(userInfo.email),
-        };
-
-        console.log('[AUTH DEBUG] Setting user with Firebase UID:', userData.id);
-        console.log('[AUTH DEBUG] User admin status:', userData.isAdmin);
-        setUser(userData);
-        localStorage.setItem('user', JSON.stringify(userData));
-        localStorage.setItem('userEmail', userData.email);
-        localStorage.setItem('google_access_token', response.access_token);
-
-        // Set user ID for cloud sync
-        console.log('[AUTH DEBUG] Setting userDataService userId:', userData.id);
-        userDataService.setUserId(userData.id);
-        favoritesService.setUserContext(userData.id);
-
-        // Load and merge user data from cloud
-        console.log('[AUTH DEBUG] Step 3: Loading user data from Firestore...');
-        await loadUserData(userData.id);
-        console.log('[AUTH DEBUG] ===== LOGIN SUCCESSFUL =====');
-        toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
-      } catch (error) {
-        console.error('[AUTH DEBUG] ===== LOGIN FAILED =====');
-        console.error('[AUTH DEBUG] Error type:', error?.constructor?.name);
-        console.error('[AUTH DEBUG] Error message:', (error as Error)?.message);
-        console.error('[AUTH DEBUG] Error stack:', (error as Error)?.stack);
-        console.error('[AUTH DEBUG] Full error object:', error);
-
-        const errorMessage = (error as Error)?.message || 'Unknown error occurred';
-        toast.error(`Login failed: ${errorMessage}`, 8000);
-
-        // Show user-friendly error based on error type
-        if (errorMessage.includes('Firebase')) {
-          toast.error('Firebase authentication error. Please contact support.', 10000);
-        } else if (errorMessage.includes('Google API')) {
-          toast.error('Could not fetch Google account info. Please try again.', 10000);
-        }
+      if (accessToken) {
+        console.log('[AUTH DEBUG] Google access token obtained');
+        localStorage.setItem('google_access_token', accessToken);
       }
-    },
-    onError: (error) => {
-      console.error('[AUTH DEBUG] ===== GOOGLE OAUTH ERROR =====');
-      console.error('[AUTH DEBUG] OAuth error:', error);
-      console.error('[AUTH DEBUG] Error type:', typeof error);
-      console.error('[AUTH DEBUG] Error details:', JSON.stringify(error, null, 2));
-      toast.error('Google login failed. Please try again.', 6000);
-    },
-    onNonOAuthError: (error) => {
-      console.error('[AUTH DEBUG] ===== NON-OAUTH ERROR =====');
-      console.error('[AUTH DEBUG] Non-OAuth error:', error);
-      console.error('[AUTH DEBUG] This could be a popup blocker or network issue');
-      toast.error('Login popup blocked or network error. Please check settings.', 8000);
-    },
-    flow: 'implicit',
-    ux_mode: 'popup',
-    scope: 'openid profile email',
-  });
+
+      // Create user data object using Firebase user info
+      const userData: User = {
+        id: result.user.uid,  // Firebase UID for Firestore
+        email: result.user.email || '',
+        name: result.user.displayName || 'User',
+        picture: result.user.photoURL || '',
+        isAdmin: isAdminEmail(result.user.email || ''),
+      };
+
+      console.log('[AUTH DEBUG] Setting user with Firebase UID:', userData.id);
+      console.log('[AUTH DEBUG] User admin status:', userData.isAdmin);
+      setUser(userData);
+      localStorage.setItem('user', JSON.stringify(userData));
+      localStorage.setItem('userEmail', userData.email);
+
+      // Set user ID for cloud sync
+      console.log('[AUTH DEBUG] Setting userDataService userId:', userData.id);
+      userDataService.setUserId(userData.id);
+      favoritesService.setUserContext(userData.id);
+
+      // Load and merge user data from cloud
+      console.log('[AUTH DEBUG] Step 3: Loading user data from Firestore...');
+      await loadUserData(userData.id);
+      console.log('[AUTH DEBUG] ===== LOGIN SUCCESSFUL =====');
+      toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
+    } catch (error: any) {
+      console.error('[AUTH DEBUG] ===== LOGIN FAILED =====');
+      console.error('[AUTH DEBUG] Error code:', error?.code);
+      console.error('[AUTH DEBUG] Error message:', error?.message);
+      console.error('[AUTH DEBUG] Full error:', error);
+
+      // Handle specific Firebase Auth errors
+      if (error?.code === 'auth/popup-closed-by-user') {
+        toast.error('Login cancelled. Please try again.', 5000);
+      } else if (error?.code === 'auth/popup-blocked') {
+        toast.error('Popup blocked! Please allow popups for this site.', 8000);
+      } else if (error?.code === 'auth/cancelled-popup-request') {
+        console.log('[AUTH DEBUG] Duplicate popup request cancelled (expected behavior)');
+      } else if (error?.code === 'auth/network-request-failed') {
+        toast.error('Network error. Please check your connection.', 8000);
+      } else {
+        const errorMessage = error?.message || 'Unknown error occurred';
+        toast.error(`Login failed: ${errorMessage}`, 8000);
+      }
+    }
+  };
 
   const logout = async () => {
     try {
@@ -366,8 +332,6 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       await new Promise(resolve => setTimeout(resolve, 1000));
 
       // Sign out of Firebase Auth
-      // Lazy load Firebase auth to reduce initial bundle size
-      const { getAuth } = await import('firebase/auth');
       const auth = getAuth();
       await auth.signOut();
       console.log('[AUTH DEBUG] Signed out of Firebase Auth');
@@ -435,48 +399,10 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
 };
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // Check if we have a valid client ID
-  const hasValidClientId = GOOGLE_CLIENT_ID &&
-                          GOOGLE_CLIENT_ID !== 'YOUR_GOOGLE_CLIENT_ID_HERE' &&
-                          GOOGLE_CLIENT_ID.includes('.apps.googleusercontent.com');
-
-  console.log('🔍 [AUTH INIT] Checking Google Client ID...');
-  console.log('🔍 [AUTH INIT] Client ID exists:', !!GOOGLE_CLIENT_ID);
-  console.log('🔍 [AUTH INIT] Client ID value:', GOOGLE_CLIENT_ID?.substring(0, 20) + '...');
-  console.log('🔍 [AUTH INIT] Client ID valid:', hasValidClientId);
+  console.log('✅ [AUTH INIT] Firebase Auth initialized');
   console.log('🔍 [AUTH INIT] Current URL:', window.location.href);
   console.log('🔍 [AUTH INIT] Current origin:', window.location.origin);
 
-  if (!hasValidClientId) {
-    // For local development or when client ID is not configured
-    console.error('❌ [AUTH INIT] Google OAuth not configured. Running in guest mode.');
-    console.error('❌ [AUTH INIT] Expected format: xxx.apps.googleusercontent.com');
-    console.error('❌ [AUTH INIT] Got:', GOOGLE_CLIENT_ID);
-    return (
-      <AuthContext.Provider value={{
-        user: null,
-        isAuthenticated: false,
-        isAdmin: false,
-        login: () => {
-          console.error('Google Client ID not configured');
-          alert('Google OAuth is not configured properly. Client ID: ' + GOOGLE_CLIENT_ID);
-        },
-        logout: () => {},
-        loading: false,
-        isSyncing: false,
-        syncError: null,
-        manualSync: async () => {},
-        clearCache: () => {}
-      }}>
-        {children}
-      </AuthContext.Provider>
-    );
-  }
-
-  console.log('✅ [AUTH INIT] Google OAuth configured properly');
-  return (
-    <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
-      <AuthProviderContent>{children}</AuthProviderContent>
-    </GoogleOAuthProvider>
-  );
+  // Firebase Auth doesn't require client ID - it uses firebase config
+  return <AuthProviderContent>{children}</AuthProviderContent>;
 };
