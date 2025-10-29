@@ -61,7 +61,6 @@ const FavoritesCounter = memo(() => {
       onClick={() => navigate('/favorites')}
       className="relative transition-all hover:opacity-80 flex-shrink-0"
       title="View favorites"
-      style={{ marginTop: '-8px' }}
     >
       {/* Hollow Heart Icon - Large size: Mobile 96px, Desktop 144px - Ultra-thin stroke */}
       <Heart
@@ -341,7 +340,6 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
-              style={{ transform: 'translateY(-36px)' }}
             >
               {menuOpen ? (
                 <X className="w-6 h-24 md:h-36" strokeWidth={0.33} style={{ transform: 'scaleY(4)' }} />
