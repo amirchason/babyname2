@@ -63,14 +63,14 @@ const FavoritesCounter = memo(() => {
       title="View favorites"
       style={{ marginTop: '-8px' }}
     >
-      {/* Hollow Heart Icon - Large size: Mobile 96px, Desktop 144px */}
+      {/* Hollow Heart Icon - Large size: Mobile 96px, Desktop 144px - Ultra-thin stroke */}
       <Heart
         className={`w-24 h-24 md:w-36 md:h-36 transition-all ${
           heartBeat ? 'animate-heartbeat' : ''
         } ${
           favoritesCount > 0 ? 'text-pink-500 hover:text-pink-600' : 'text-gray-400 hover:text-gray-600'
         }`}
-        strokeWidth={1}
+        strokeWidth={0.33}
         fill="none"
       />
 
@@ -337,16 +337,16 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             {/* Favorites Counter - Memoized component that only updates when count changes */}
             <FavoritesCounter />
 
-            {/* Mobile Menu Button - Stretched to match heart height */}
+            {/* Mobile Menu Button - Stretched to match heart height - Ultra-thin stroke */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
               style={{ transform: 'translateY(-36px)' }}
             >
               {menuOpen ? (
-                <X className="w-6 h-24 md:h-36" strokeWidth={1} style={{ transform: 'scaleY(4)' }} />
+                <X className="w-6 h-24 md:h-36" strokeWidth={0.33} style={{ transform: 'scaleY(4)' }} />
               ) : (
-                <Menu className="w-6 h-24 md:h-36" strokeWidth={1} style={{ transform: 'scaleY(4)' }} />
+                <Menu className="w-6 h-24 md:h-36" strokeWidth={0.33} style={{ transform: 'scaleY(4)' }} />
               )}
             </button>
           </div>
