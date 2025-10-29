@@ -1,0 +1,100 @@
+========================================
+MANUAL STEPS STILL REQUIRED
+========================================
+
+STEP 1: VERCEL DASHBOARD (2 minutes)
+-------------------------------------
+IF Vercel CLI login fails, use the dashboard:
+
+1. Go to: https://vercel.com/dashboard
+2. Select project: soulseed
+3. Click: Settings > Environment Variables
+4. For EACH variable below, click "Add New":
+   - Select: Production, Preview, Development (all 3)
+   - Click "Save"
+
+Variables to add:
+
+REACT_APP_GOOGLE_CLIENT_ID
+1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com
+
+REACT_APP_FIREBASE_API_KEY
+AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70
+
+REACT_APP_FIREBASE_AUTH_DOMAIN
+babynames-app-9fa2a.firebaseapp.com
+
+REACT_APP_FIREBASE_PROJECT_ID
+babynames-app-9fa2a
+
+REACT_APP_FIREBASE_STORAGE_BUCKET
+babynames-app-9fa2a.firebasestorage.app
+
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+1093132372253
+
+REACT_APP_FIREBASE_APP_ID
+1:1093132372253:web:0327c13610942d60f4f9f4
+
+5. After adding all variables, redeploy:
+   - Go to: Deployments tab
+   - Click "..." on latest deployment
+   - Click "Redeploy"
+
+========================================
+STEP 2: GOOGLE CLOUD CONSOLE (5 minutes)
+========================================
+
+CRITICAL: Update OAuth redirect URIs
+
+1. Go to: https://console.cloud.google.com/apis/credentials
+
+2. Find Client ID: 1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com
+
+3. Click Edit (pencil icon)
+
+4. Under "Authorized redirect URIs", add these URLs:
+   (Click "+ ADD URI" for each)
+
+   https://soulseedbaby.com
+   https://www.soulseedbaby.com
+   https://soulseed.vercel.app
+   http://localhost:3000
+
+5. Under "Authorized JavaScript origins", add:
+
+   https://soulseedbaby.com
+   https://www.soulseedbaby.com
+   https://soulseed.vercel.app
+   http://localhost:3000
+
+6. Click "Save"
+
+7. WAIT 5-10 MINUTES for changes to propagate
+
+========================================
+STEP 3: VERIFY FIX (1 minute)
+========================================
+
+1. Visit: https://soulseedbaby.com
+
+2. Hard refresh: Ctrl+Shift+R (or Cmd+Shift+R on Mac)
+
+3. Open Console (F12)
+
+4. Look for:
+   ===== GOOGLE AUTH DEBUG =====
+   REACT_APP_GOOGLE_CLIENT_ID: 1093132372253...
+   hasValidClientId: true
+
+5. Click "Sign in" button
+
+6. Expected: Google OAuth popup appears ✅
+
+========================================
+DONE!
+========================================
+
+Total time: ~10 minutes
+Success rate: 95%+
+

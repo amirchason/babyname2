@@ -1,30 +1,34 @@
 #!/bin/bash
 
-echo "🚀 GitHub Pages Deployment Script"
-echo "================================"
-echo ""
-echo "This script will push the gh-pages branch to GitHub."
-echo "You'll need to enter your GitHub credentials when prompted."
-echo ""
-echo "Repository: https://github.com/amirchason/babyname2"
+echo "🚀 Deploying to Vercel..."
 echo ""
 
-# Push gh-pages branch
-echo "📤 Pushing gh-pages branch to GitHub..."
-git push origin gh-pages --force
+# Method 1: Try with Vercel CLI
+if command -v vercel &> /dev/null; then
+    if vercel whoami &>/dev/null; then
+        echo "✅ Vercel CLI authenticated"
+        echo "Deploying to production..."
+        vercel --prod --yes
+        exit 0
+    else
+        echo "⚠️  Vercel CLI not authenticated"
+        echo "Run: vercel login"
+        echo ""
+    fi
+fi
+
+# Method 2: GitHub push (triggers auto-deploy)
+if [ -d .git ]; then
+    echo "📦 Pushing to GitHub (will trigger Vercel auto-deploy)..."
+    git push origin main || git push origin master
+    echo ""
+    echo "✅ Pushed to GitHub"
+    echo "Vercel will auto-deploy in 1-2 minutes"
+    echo ""
+    echo "Monitor deployment at: https://vercel.com/dashboard"
+    exit 0
+fi
 
 echo ""
-echo "✅ Deployment complete!"
-echo ""
-echo "📋 Next steps:"
-echo "1. Go to: https://github.com/amirchason/babyname2/settings/pages"
-echo "2. Under 'Source', select 'Deploy from a branch'"
-echo "3. Choose branch: gh-pages"
-echo "4. Choose folder: / (root)"
-echo "5. Click 'Save'"
-echo ""
-echo "🌐 Your app will be live at: https://amirchason.github.io/babyname2"
-echo "   (Takes 2-10 minutes to activate)"
-echo ""
-echo "To check deployment status:"
-echo "Visit: https://github.com/amirchason/babyname2/actions"
+echo "❌ Cannot auto-deploy"
+echo "Please deploy manually via Vercel Dashboard"

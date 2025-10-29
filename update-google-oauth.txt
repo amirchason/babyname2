@@ -1,0 +1,19 @@
+========================================
+GOOGLE OAUTH UPDATE COMMANDS
+========================================
+
+Unfortunately, Google Cloud Console doesn't have CLI access for OAuth settings.
+You MUST update these manually in the browser.
+
+QUICK LINK:
+https://console.cloud.google.com/apis/credentials/oauthclient/a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com?project=babynames-app-9fa2a
+
+COPY-PASTE THESE REDIRECT URIs:
+(One per line in the Google Console)
+
+https://soulseedbaby.com
+https://www.soulseedbaby.com
+https://soulseed.vercel.app
+http://localhost:3000
+
+========================================
