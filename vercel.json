@@ -4,6 +4,7 @@
   "framework": "create-react-app",
   "env": {
     "REACT_APP_GOOGLE_CLIENT_ID": "1093132372253-a725n8gpe624usli0hnj3re1eicgi4o2.apps.googleusercontent.com",
+    "REACT_APP_GEMINI_API_KEY": "AIzaSyALzy3qXMyXPtLl7pUuCDo_eE5X89u3dpA",
     "REACT_APP_FIREBASE_API_KEY": "AIzaSyDbNCgZiXe4d_dFAXNMVclSD3AryoUUI70",
     "REACT_APP_FIREBASE_AUTH_DOMAIN": "babynames-app-9fa2a.firebaseapp.com",
     "REACT_APP_FIREBASE_PROJECT_ID": "babynames-app-9fa2a",
