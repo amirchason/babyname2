@@ -269,29 +269,29 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               )}
             </nav>
 
-            {/* Favorites Counter - Near menu */}
+            {/* Favorites Counter - 4x bigger, hollow heart with number inside */}
             <button
               onClick={() => navigate('/favorites')}
-              className={`flex items-center gap-1.5 text-sm transition-all relative ${
-                favoritesCount > 0
-                  ? 'text-pink-500 hover:text-pink-600'
-                  : 'text-gray-600 hover:text-gray-900'
-              }`}
-              style={{
-                transform: 'translateY(-46px) scale(1.3)'
-              }}
+              className="relative transition-all hover:opacity-80"
               title="View favorites"
             >
+              {/* Hollow Heart Icon - Mobile First: 3rem (48px), Desktop: 5rem (80px) */}
               <Heart
-                className={`transition-all ${
+                className={`w-12 h-12 md:w-20 md:h-20 transition-all ${
                   heartBeat ? 'animate-heartbeat' : ''
                 } ${
-                  favoritesCount > 0 ? 'fill-pink-500' : ''
+                  favoritesCount > 0 ? 'text-pink-500 hover:text-pink-600' : 'text-gray-400 hover:text-gray-600'
                 }`}
-                style={{ width: '1.25rem', height: '1.25rem' }}
-                strokeWidth={1}
+                strokeWidth={1.5}
+                fill="none" // Keep hollow - no fill
               />
-              <span className="font-light min-w-[1.5rem] text-center">
+
+              {/* Number inside heart - absolute positioning with responsive text */}
+              <span
+                className={`absolute inset-0 flex items-center justify-center text-sm md:text-xl font-semibold transition-colors pt-0.5 ${
+                  favoritesCount > 0 ? 'text-pink-600' : 'text-gray-500'
+                }`}
+              >
                 {favoritesCount > 999 ? '999+' : favoritesCount}
               </span>
             </button>
