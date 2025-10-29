@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers, BookOpen, Home, List, Shuffle, Info, Mail } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
@@ -14,6 +14,82 @@ interface AppHeaderProps {
   onBackClick?: () => void; // Custom back/close handler for modals
 }
 
+// Custom hook for tracking favorites count
+const useFavoritesCount = () => {
+  const [count, setCount] = useState(() => favoritesService.getFavoritesCount());
+
+  useEffect(() => {
+    const updateCount = () => {
+      setCount(favoritesService.getFavoritesCount());
+    };
+
+    // Listen for updates
+    window.addEventListener('storage', updateCount);
+    window.addEventListener('cloudDataUpdate', updateCount);
+    window.addEventListener('favoriteAdded', updateCount);
+
+    return () => {
+      window.removeEventListener('storage', updateCount);
+      window.removeEventListener('cloudDataUpdate', updateCount);
+      window.removeEventListener('favoriteAdded', updateCount);
+    };
+  }, []);
+
+  return count;
+};
+
+// Separate memoized component for favorites counter - only re-renders when count changes
+const FavoritesCounter = memo(() => {
+  const navigate = useNavigate();
+  const favoritesCount = useFavoritesCount();
+  const [heartBeat, setHeartBeat] = useState(false);
+
+  useEffect(() => {
+    const handleFavoriteAdded = () => {
+      setHeartBeat(true);
+      setTimeout(() => setHeartBeat(false), 600);
+    };
+    window.addEventListener('favoriteAdded', handleFavoriteAdded);
+
+    return () => {
+      window.removeEventListener('favoriteAdded', handleFavoriteAdded);
+    };
+  }, []);
+
+  return (
+    <button
+      onClick={() => navigate('/favorites')}
+      className="relative transition-all hover:opacity-80 flex-shrink-0"
+      title="View favorites"
+      style={{ marginTop: '-8px' }}
+    >
+      {/* Hollow Heart Icon - Large size: Mobile 96px, Desktop 144px */}
+      <Heart
+        className={`w-24 h-24 md:w-36 md:h-36 transition-all ${
+          heartBeat ? 'animate-heartbeat' : ''
+        } ${
+          favoritesCount > 0 ? 'text-pink-500 hover:text-pink-600' : 'text-gray-400 hover:text-gray-600'
+        }`}
+        strokeWidth={2}
+        fill="none"
+      />
+
+      {/* Number inside heart - perfectly centered with larger text */}
+      <span
+        className={`absolute inset-0 flex items-center justify-center text-2xl md:text-4xl font-bold transition-colors ${
+          favoritesCount > 0 ? 'text-pink-600' : 'text-gray-500'
+        }`}
+        style={{
+          paddingTop: '4px',
+          letterSpacing: '-0.02em'
+        }}
+      >
+        {favoritesCount > 999 ? '999+' : favoritesCount}
+      </span>
+    </button>
+  );
+});
+
 const AppHeader: React.FC<AppHeaderProps> = ({
   title = 'SoulSeed',
   showSearch = false,
@@ -25,9 +101,8 @@ const AppHeader: React.FC<AppHeaderProps> = ({
   const navigate = useNavigate();
   const location = useLocation();
   const { user, isAuthenticated, login, logout } = useAuth();
-  const [favoritesCount, setFavoritesCount] = useState(0);
+  const favoritesCount = useFavoritesCount(); // Use shared hook for mobile menu
   const [dislikesCount, setDislikesCount] = useState(0);
-  const [heartBeat, setHeartBeat] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -44,31 +119,21 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     }
   }, []);
 
-  // Update counts
+  // Update dislikes count (favorites count is handled by FavoritesCounter component)
   useEffect(() => {
-    const updateCounts = () => {
-      setFavoritesCount(favoritesService.getFavoritesCount());
+    const updateDislikesCount = () => {
       setDislikesCount(favoritesService.getDislikesCount());
     };
 
-    updateCounts();
+    updateDislikesCount();
 
     // Listen for updates
-    window.addEventListener('storage', updateCounts);
-    window.addEventListener('cloudDataUpdate', updateCounts);
-
-    // Listen for favorite additions to trigger heart animation
-    const handleFavoriteAdded = () => {
-      setHeartBeat(true);
-      setTimeout(() => setHeartBeat(false), 600);
-      updateCounts();
-    };
-    window.addEventListener('favoriteAdded', handleFavoriteAdded);
+    window.addEventListener('storage', updateDislikesCount);
+    window.addEventListener('cloudDataUpdate', updateDislikesCount);
 
     return () => {
-      window.removeEventListener('storage', updateCounts);
-      window.removeEventListener('cloudDataUpdate', updateCounts);
-      window.removeEventListener('favoriteAdded', handleFavoriteAdded);
+      window.removeEventListener('storage', updateDislikesCount);
+      window.removeEventListener('cloudDataUpdate', updateDislikesCount);
     };
   }, []);
 
@@ -269,32 +334,8 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               )}
             </nav>
 
-            {/* Favorites Counter - 4x bigger, hollow heart with number inside */}
-            <button
-              onClick={() => navigate('/favorites')}
-              className="relative transition-all hover:opacity-80"
-              title="View favorites"
-            >
-              {/* Hollow Heart Icon - Mobile First: 3rem (48px), Desktop: 5rem (80px) */}
-              <Heart
-                className={`w-12 h-12 md:w-20 md:h-20 transition-all ${
-                  heartBeat ? 'animate-heartbeat' : ''
-                } ${
-                  favoritesCount > 0 ? 'text-pink-500 hover:text-pink-600' : 'text-gray-400 hover:text-gray-600'
-                }`}
-                strokeWidth={1.5}
-                fill="none" // Keep hollow - no fill
-              />
-
-              {/* Number inside heart - absolute positioning with responsive text */}
-              <span
-                className={`absolute inset-0 flex items-center justify-center text-sm md:text-xl font-semibold transition-colors pt-0.5 ${
-                  favoritesCount > 0 ? 'text-pink-600' : 'text-gray-500'
-                }`}
-              >
-                {favoritesCount > 999 ? '999+' : favoritesCount}
-              </span>
-            </button>
+            {/* Favorites Counter - Memoized component that only updates when count changes */}
+            <FavoritesCounter />
 
             {/* Mobile Menu Button */}
             <button
