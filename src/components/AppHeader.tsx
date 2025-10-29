@@ -70,7 +70,7 @@ const FavoritesCounter = memo(() => {
         } ${
           favoritesCount > 0 ? 'text-pink-500 hover:text-pink-600' : 'text-gray-400 hover:text-gray-600'
         }`}
-        strokeWidth={2}
+        strokeWidth={1}
         fill="none"
       />
 
@@ -337,13 +337,17 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             {/* Favorites Counter - Memoized component that only updates when count changes */}
             <FavoritesCounter />
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button - Stretched to match heart height */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
-              style={{ transform: 'translateY(-36px) scale(1.2)' }}
+              style={{ transform: 'translateY(-36px)' }}
             >
-              {menuOpen ? <X className="w-6 h-6" strokeWidth={1} /> : <Menu className="w-6 h-6" strokeWidth={1} />}
+              {menuOpen ? (
+                <X className="w-6 h-24 md:h-36" strokeWidth={1} style={{ transform: 'scaleY(4)' }} />
+              ) : (
+                <Menu className="w-6 h-24 md:h-36" strokeWidth={1} style={{ transform: 'scaleY(4)' }} />
+              )}
             </button>
           </div>
         </div>
