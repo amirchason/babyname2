@@ -1,6 +1,6 @@
 # Aesthetic Baby Names: 100 Beautiful, Dreamy Names
 
-Hey there, beautiful souls! If you're here, it means you’re on the hunt for some truly aesthetic baby names. And let me tell you, you're in for a treat! Aesthetic names aren't just words; they're like beautiful little treasures that carry stories, emotions, and vibes all rolled into one. So, what makes a name truly “aesthetic”? Let’s dive right in!
+Close your eyes for a moment and imagine a name that sounds like poetry—soft syllables that flow like watercolor paintings, evoking sunsets, starlight, and whispered dreams. That's the magic of aesthetic baby names. They're more than labels; they're tiny works of art that wrap your child in beauty from the very first introduction. If you've been scrolling through countless lists feeling uninspired, you've finally found your haven. These names don't just sound pretty—they tell stories, spark imagination, and leave lasting impressions. So, what transforms an ordinary name into something truly aesthetic? Let's explore!
 
 ## What Makes a Name "Aesthetic"?
 

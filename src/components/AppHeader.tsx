@@ -62,25 +62,31 @@ const FavoritesCounter = memo(() => {
       className="relative transition-all hover:opacity-80 flex-shrink-0"
       title="View favorites"
     >
-      {/* Hollow Heart Icon - Large size: Mobile 96px, Desktop 144px - Ultra-thin stroke */}
+      {/* Hollow Heart Icon - 9% smaller: 76px - Ultra-thin stroke */}
       <Heart
-        className={`w-24 h-24 md:w-36 md:h-36 transition-all ${
+        className={`transition-all ${
           heartBeat ? 'animate-heartbeat' : ''
         } ${
           favoritesCount > 0 ? 'text-pink-500 hover:text-pink-600' : 'text-gray-400 hover:text-gray-600'
         }`}
         strokeWidth={0.33}
         fill="none"
+        style={{
+          width: '76px',
+          height: '76px'
+        }}
       />
 
       {/* Number inside heart - perfectly centered with larger text */}
       <span
-        className={`absolute inset-0 flex items-center justify-center text-2xl md:text-4xl font-bold transition-colors ${
+        className={`absolute inset-0 flex items-center justify-center font-extralight transition-colors ${
           favoritesCount > 0 ? 'text-pink-600' : 'text-gray-500'
         }`}
         style={{
-          paddingTop: '4px',
-          letterSpacing: '-0.02em'
+          paddingTop: '3px',
+          letterSpacing: '-0.02em',
+          fontSize: '19px',
+          fontWeight: '200'
         }}
       >
         {favoritesCount > 999 ? '999+' : favoritesCount}
@@ -158,12 +164,12 @@ const AppHeader: React.FC<AppHeaderProps> = ({
         overflow: 'visible'
       }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-        <div className="flex items-end justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <div className="flex items-start justify-between">
           {/* Logo - Navigate home or custom action */}
           <button
             onClick={onBackClick || (() => navigate('/'))}
-            className="flex items-end gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
+            className="flex items-start gap-2.5 cursor-pointer hover:opacity-80 transition-opacity"
             title={onBackClick ? "Close" : "Back to home"}
           >
             <video
@@ -181,20 +187,21 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               }}
             />
             <div
-              className="flex flex-col items-end"
+              className="flex flex-col items-start"
               style={{
-                transform: 'translateX(-20px) scale(1.25)',
-                transformOrigin: 'left bottom',
-                lineHeight: '0.85'
+                marginTop: '8px',
+                marginLeft: '-12px',
+                lineHeight: '0.85',
+                fontSize: '96.5%'
               }}
             >
-              <span className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">Soul</span>
-              <span className="text-2xl sm:text-3xl font-light tracking-wide text-gray-900">Seed</span>
+              <span className="text-2xl sm:text-3xl font-extralight tracking-wide text-gray-900">Soul</span>
+              <span className="text-2xl sm:text-3xl font-extralight tracking-wide text-gray-900">Seed</span>
             </div>
           </button>
 
           {/* Desktop Navigation Menu - Hidden on Mobile */}
-          <nav className="hidden lg:flex items-end gap-1">
+          <nav className="hidden lg:flex items-start gap-1">
             <button
               onClick={() => navigate('/')}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
@@ -275,7 +282,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           </nav>
 
           {/* Right Side - Search and Navigation */}
-          <div className="flex items-end space-x-4" style={{ overflow: 'visible' }}>
+          <div className="flex items-start space-x-4" style={{ overflow: 'visible' }}>
             {/* Search Icon */}
             {showSearch && (
               <button
@@ -297,7 +304,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             )}
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-end space-x-6">
+            <nav className="hidden md:flex items-start space-x-6">
               {/* Login/Profile */}
               {isAuthenticated && user ? (
                 <div className="flex items-center gap-3">
@@ -336,15 +343,16 @@ const AppHeader: React.FC<AppHeaderProps> = ({
             {/* Favorites Counter - Memoized component that only updates when count changes */}
             <FavoritesCounter />
 
-            {/* Mobile Menu Button - Stretched to match heart height - Ultra-thin stroke */}
+            {/* Mobile Menu Button - 35% shorter, ultra-thin stroke matching heart */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden p-2 text-gray-700 hover:text-purple-600"
+              style={{ marginTop: '16px' }}
             >
               {menuOpen ? (
-                <X className="w-6 h-24 md:h-36" strokeWidth={0.33} style={{ transform: 'scaleY(4)' }} />
+                <X strokeWidth={0.33} style={{ width: '32px', height: '33px', transform: 'scaleY(2.78)' }} />
               ) : (
-                <Menu className="w-6 h-24 md:h-36" strokeWidth={0.33} style={{ transform: 'scaleY(4)' }} />
+                <Menu strokeWidth={0.33} style={{ width: '32px', height: '33px', transform: 'scaleY(2.78)' }} />
               )}
             </button>
           </div>
