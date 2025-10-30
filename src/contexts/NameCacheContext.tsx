@@ -123,6 +123,12 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
     const consolidateOrigin = (origin: string): string => {
       const lower = origin.toLowerCase();
 
+      // Scottish & Irish consolidation (shared Gaelic heritage)
+      if (lower.includes('scottish') || lower.includes('irish') ||
+          lower.includes('scots') || lower.includes('gaelic')) {
+        return 'Scottish & Irish';
+      }
+
       // African origins (group all African origins with < 150 names)
       if (lower.includes('african') || lower.includes('swahili') || lower.includes('yoruba') ||
           lower.includes('igbo') || lower.includes('akan') || lower.includes('hausa') ||
@@ -262,7 +268,7 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
       // Top Tier - Most searched globally
       'Hebrew', 'Latin', 'Greek', 'English', 'Spanish', 'Arabic',
       // Second Tier - Very popular
-      'Irish', 'French', 'Italian', 'Germanic', 'Scottish', 'Celtic',
+      'Scottish & Irish', 'French', 'Italian', 'Germanic', 'Celtic',
       // Third Tier - Popular regional/cultural
       'Indian', 'Chinese', 'Japanese', 'Hindi', 'Persian', 'Russian', 'Portuguese', 'Polish',
       // Fourth Tier - Growing interest
