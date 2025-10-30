@@ -337,37 +337,48 @@ const HomePage: React.FC = () => {
       // Apply origin filter (using consolidated originGroup)
       if (selectedOrigins.size > 0) {
         results = results.filter(name => {
-          // Use originGroup if available, fallback to origin for backwards compatibility
+          // Helper function to check if name is English-related
+          const isEnglishRelated = (name: any): boolean => {
+            if (!selectedOrigins.has('English')) return false;
+
+            // Check both origin and originGroup fields (both can be strings or arrays)
+            const checkField = (field: any): boolean => {
+              if (!field) return false;
+              const values = Array.isArray(field) ? field : [field];
+
+              return values.some((val: any) => {
+                const valLower = String(val).toLowerCase();
+
+                // Raw origin patterns (from origin field)
+                const rawPatterns = ['english', 'modern', 'contemporary', 'american', 'old english'];
+
+                // Processed originGroup patterns
+                const groupPatterns = ['english', 'germanic', 'old english', 'modern english',
+                                      'american', 'native american', 'indigenous americas'];
+
+                // Check if value matches any pattern
+                return [...rawPatterns, ...groupPatterns].some(pattern => {
+                  // Exact match or contains pattern in comma-separated list
+                  return valLower === pattern ||
+                         valLower.includes(pattern + ',') ||
+                         valLower.includes(',' + pattern);
+                });
+              });
+            };
+
+            return checkField(name.origin) || checkField((name as any).originGroup);
+          };
+
+          // If English is selected and name is English-related, include it
+          if (isEnglishRelated(name)) return true;
+
+          // Otherwise, check for exact origin match
           const originField = (name as any).originGroup || name.origin;
           if (!originField) return false;
           const origins = Array.isArray(originField) ? originField : [originField];
 
-          // Check if any origin matches selected origins
           return origins.some(origin => {
-            const trimmedOrigin = origin.trim();
-
-            // If user selected "English", also match English-related variations
-            if (selectedOrigins.has('English')) {
-              const originLower = trimmedOrigin.toLowerCase();
-              const englishRelated = [
-                'english',
-                'modern',
-                'contemporary',
-                'american',
-                'old english'
-              ];
-
-              // Check if origin matches any English-related term
-              const isEnglishRelated = englishRelated.some(term => {
-                // Check if origin contains the term (for multi-origin names like "English,Hebrew")
-                return originLower === term || originLower.includes(term + ',') || originLower.includes(',' + term);
-              });
-
-              if (isEnglishRelated) return true;
-            }
-
-            // Regular exact match for other origins
-            return selectedOrigins.has(trimmedOrigin);
+            return selectedOrigins.has(origin.trim());
           });
         });
       }
