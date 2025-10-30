@@ -121,12 +121,56 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
 
     // Origin consolidation mapping - groups small origins into broader categories
     const consolidateOrigin = (origin: string): string => {
-      const lower = origin.toLowerCase();
+      const lower = origin.toLowerCase().trim();
 
       // Scottish & Irish consolidation (shared Gaelic heritage)
-      if (lower.includes('scottish') || lower.includes('irish') ||
-          lower.includes('scots') || lower.includes('gaelic')) {
+      if (lower === 'scottish' || lower === 'irish' || lower === 'scots' || lower === 'gaelic' ||
+          lower === 'celtic' || lower.includes('scottish') || lower.includes('irish') ||
+          lower.includes('scots') || lower.includes('gaelic') || lower.includes('celtic')) {
         return 'Scottish & Irish';
+      }
+
+      // Slavic & Eastern European (Polish, Russian, Czech, Bulgarian, Ukrainian, etc.)
+      if (lower === 'slavic' || lower === 'polish' || lower === 'russian' || lower === 'bulgarian' ||
+          lower === 'czech' || lower === 'ukrainian' || lower === 'croatian' || lower === 'serbian' ||
+          lower === 'slovak' || lower === 'belarusian' || lower.includes('slavic') ||
+          lower.includes('polish') || lower.includes('russian')) {
+        return 'Slavic';
+      }
+
+      // Germanic & Nordic (German, Germanic, Norse, Scandinavian, Nordic, Swedish, Danish, Norwegian, Finnish)
+      if (lower === 'germanic' || lower === 'german' || lower === 'swiss' || lower === 'norse' ||
+          lower === 'old norse' || lower === 'scandinavian' || lower === 'nordic' || lower === 'swedish' ||
+          lower === 'danish' || lower === 'norwegian' || lower === 'finnish' || lower === 'icelandic' ||
+          lower.includes('germanic') || lower.includes('german') || lower.includes('norse') ||
+          lower.includes('scandinavian') || lower.includes('nordic') || lower.includes('swedish') ||
+          lower.includes('danish') || lower.includes('norwegian') || lower.includes('finnish')) {
+        return 'Germanic & Nordic';
+      }
+
+      // Hebrew & Biblical
+      if (lower === 'hebrew' || lower === 'biblical' || lower.includes('hebrew') || lower.includes('biblical')) {
+        return 'Hebrew & Biblical';
+      }
+
+      // Greek & Mythological
+      if (lower === 'greek' || lower === 'mythological' || lower === 'egyptian' || lower === 'old english' ||
+          lower.includes('greek') || lower.includes('mythological') || lower.includes('egyptian')) {
+        return 'Greek & Mythological';
+      }
+
+      // Contemporary & Modern (Latin American, Invented, American, Literary, Modern, Fantasy, Fictional)
+      if (lower === 'contemporary' || lower === 'latin american' || lower === 'invented' ||
+          lower === 'american' || lower === 'literary' || lower === 'modern' || lower === 'modern english' ||
+          lower === 'fantasy' || lower === 'fictional' || lower.includes('contemporary') ||
+          lower.includes('invented') || lower.includes('literary') || lower.includes('fantasy')) {
+        return 'Contemporary';
+      }
+
+      // Middle Eastern & Caucasian
+      if (lower === 'middle eastern' || lower === 'caucasian' || lower === 'aramaic' || lower === 'turkic' ||
+          lower.includes('middle eastern') || lower.includes('caucasian') || lower.includes('aramaic')) {
+        return 'Middle Eastern';
       }
 
       // African origins (group all African origins with < 150 names)
@@ -147,8 +191,12 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
         return 'African';
       }
 
-      // South Asian origins (Sanskrit, Hindi, Bengali, etc.)
-      if (lower.includes('sanskrit') || lower.includes('hindi') || lower.includes('bengali') ||
+      // South Asian origins (Sanskrit, Hindi, Bengali, etc.) - with exact matching
+      if (lower === 'sanskrit' || lower === 'hindi' || lower === 'bengali' || lower === 'punjabi' ||
+          lower === 'tamil' || lower === 'urdu' || lower === 'telugu' || lower === 'kannada' ||
+          lower === 'gujarati' || lower === 'marathi' || lower === 'malayalam' || lower === 'nepali' ||
+          lower === 'pali' || lower === 'sikh' || lower === 'hindu' || lower === 'south asian' ||
+          lower.includes('sanskrit') || lower.includes('hindi') || lower.includes('bengali') ||
           lower.includes('punjabi') || lower.includes('tamil') || lower.includes('urdu') ||
           lower.includes('telugu') || lower.includes('kannada') || lower.includes('gujarati') ||
           lower.includes('marathi') || lower.includes('malayalam') || lower.includes('nepali') ||
