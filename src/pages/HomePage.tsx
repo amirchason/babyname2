@@ -358,10 +358,18 @@ const HomePage: React.FC = () => {
 
                 // Check if value matches any pattern
                 return [...rawPatterns, ...groupPatterns].some(pattern => {
-                  // Exact match or contains pattern in comma-separated list
-                  return valLower === pattern ||
-                         valLower.includes(pattern + ',') ||
-                         valLower.includes(',' + pattern);
+                  // Exact match
+                  if (valLower === pattern) return true;
+
+                  // Comma-separated (e.g., "English,Hebrew")
+                  if (valLower.includes(pattern + ',') || valLower.includes(',' + pattern)) return true;
+
+                  // Space-separated (e.g., "Modern English", "Native American")
+                  if (valLower.startsWith(pattern + ' ') ||
+                      valLower.endsWith(' ' + pattern) ||
+                      valLower.includes(' ' + pattern + ' ')) return true;
+
+                  return false;
                 });
               });
             };
