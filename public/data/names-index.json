@@ -1,48 +1,48 @@
 {
-  "version": "2.1.0",
-  "totalNames": 213341,
+  "version": "2.2.0",
+  "totalNames": 147121,
   "chunks": {
     "core": {
       "file": "names-core.json",
       "fileGz": "names-core.json.gz",
-      "count": 910,
+      "count": 945,
       "startIndex": 0,
-      "endIndex": 999
+      "endIndex": 944
     },
     "chunk1": {
       "file": "names-chunk1.json",
       "fileGz": "names-chunk1.json.gz",
-      "count": 47302,
-      "startIndex": 1000,
-      "endIndex": 49999
+      "count": 36411,
+      "startIndex": 945,
+      "endIndex": 37355
     },
     "chunk2": {
       "file": "names-chunk2.json",
       "fileGz": "names-chunk2.json.gz",
-      "count": 47577,
-      "startIndex": 50000,
-      "endIndex": 99999
+      "count": 36411,
+      "startIndex": 37356,
+      "endIndex": 73766
     },
     "chunk3": {
       "file": "names-chunk3.json",
       "fileGz": "names-chunk3.json.gz",
-      "count": 47152,
-      "startIndex": 100000,
-      "endIndex": 149999
+      "count": 36411,
+      "startIndex": 73767,
+      "endIndex": 110177
     },
     "chunk4": {
       "file": "names-chunk4.json",
       "fileGz": "names-chunk4.json.gz",
-      "count": 69868,
-      "startIndex": 150000,
-      "endIndex": 224057
+      "count": 36411,
+      "startIndex": 110178,
+      "endIndex": 146588
     },
     "chunk5": {
       "file": "names-chunk5.json",
       "fileGz": "names-chunk5.json.gz",
       "count": 532,
-      "startIndex": 224058,
-      "endIndex": 224589
+      "startIndex": 146589,
+      "endIndex": 147120
     }
   }
 }
