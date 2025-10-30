@@ -341,7 +341,34 @@ const HomePage: React.FC = () => {
           const originField = (name as any).originGroup || name.origin;
           if (!originField) return false;
           const origins = Array.isArray(originField) ? originField : [originField];
-          return origins.some(origin => selectedOrigins.has(origin.trim()));
+
+          // Check if any origin matches selected origins
+          return origins.some(origin => {
+            const trimmedOrigin = origin.trim();
+
+            // If user selected "English", also match English-related variations
+            if (selectedOrigins.has('English')) {
+              const originLower = trimmedOrigin.toLowerCase();
+              const englishRelated = [
+                'english',
+                'modern',
+                'contemporary',
+                'american',
+                'old english'
+              ];
+
+              // Check if origin matches any English-related term
+              const isEnglishRelated = englishRelated.some(term => {
+                // Check if origin contains the term (for multi-origin names like "English,Hebrew")
+                return originLower === term || originLower.includes(term + ',') || originLower.includes(',' + term);
+              });
+
+              if (isEnglishRelated) return true;
+            }
+
+            // Regular exact match for other origins
+            return selectedOrigins.has(trimmedOrigin);
+          });
         });
       }
 
