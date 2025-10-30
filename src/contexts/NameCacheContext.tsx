@@ -119,6 +119,33 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
   const calculateOrigins = (nameList: NameEntry[]) => {
     const originCounts = new Map<string, number>();
 
+    // Helper to check if name matches English-related patterns
+    const isEnglishRelated = (name: any): boolean => {
+      const rawPatterns = ['english', 'modern', 'contemporary', 'american', 'old english'];
+      const groupPatterns = ['english', 'germanic', 'old english', 'modern english',
+                            'american', 'native american', 'indigenous americas'];
+      const allPatterns = [...rawPatterns, ...groupPatterns];
+
+      const checkField = (field: any): boolean => {
+        if (!field) return false;
+        const values = Array.isArray(field) ? field : [field];
+
+        return values.some((val: any) => {
+          const valLower = String(val).toLowerCase();
+          return allPatterns.some(pattern => {
+            if (valLower === pattern) return true;
+            if (valLower.includes(pattern + ',') || valLower.includes(',' + pattern)) return true;
+            if (valLower.startsWith(pattern + ' ') ||
+                valLower.endsWith(' ' + pattern) ||
+                valLower.includes(' ' + pattern + ' ')) return true;
+            return false;
+          });
+        });
+      };
+
+      return checkField(name.origin) || checkField((name as any).originGroup);
+    };
+
     nameList.forEach(name => {
       const originField = (name as any).originGroup || name.origin;
       if (originField) {
@@ -131,6 +158,14 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
         });
       }
     });
+
+    // Consolidate English-related origins into "English" count
+    const englishRelatedCount = nameList.filter(name => isEnglishRelated(name)).length;
+
+    // Update English count to show consolidated number
+    if (englishRelatedCount > 0) {
+      originCounts.set('English', englishRelatedCount);
+    }
 
     // Manual priority order based on research of top baby name origin searches
     const originPriority = [
