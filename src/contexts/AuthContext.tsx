@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
-import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult } from 'firebase/auth';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
@@ -161,6 +161,67 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     setLoading(false);
   }, [isValidUserData, clearCache]);
 
+  // Handle redirect result when user comes back from Google
+  useEffect(() => {
+    const handleRedirectResult = async () => {
+      const auth = getAuth();
+
+      try {
+        console.log('[AUTH DEBUG] Checking for redirect result...');
+        const result = await getRedirectResult(auth);
+
+        if (result) {
+          console.log('[AUTH DEBUG] ===== REDIRECT SUCCESSFUL =====');
+          console.log('[AUTH DEBUG] Firebase UID:', result.user.uid);
+          console.log('[AUTH DEBUG] Firebase email:', result.user.email);
+
+          // Get the Google access token
+          const credential = GoogleAuthProvider.credentialFromResult(result);
+          const accessToken = credential?.accessToken;
+
+          if (accessToken) {
+            localStorage.setItem('google_access_token', accessToken);
+          }
+
+          // Create user data object
+          const userData: User = {
+            id: result.user.uid,
+            email: result.user.email || '',
+            name: result.user.displayName || 'User',
+            picture: result.user.photoURL || '',
+            isAdmin: isAdminEmail(result.user.email || ''),
+          };
+
+          console.log('[AUTH DEBUG] Setting user:', userData.email);
+          setUser(userData);
+          localStorage.setItem('user', JSON.stringify(userData));
+          localStorage.setItem('userEmail', userData.email);
+
+          // Set user ID for cloud sync
+          userDataService.setUserId(userData.id);
+          favoritesService.setUserContext(userData.id);
+
+          // Load user data from cloud
+          await loadUserData(userData.id);
+          console.log('[AUTH DEBUG] ===== LOGIN SUCCESSFUL =====');
+          toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
+        } else {
+          console.log('[AUTH DEBUG] No redirect result (normal page load)');
+        }
+      } catch (error: any) {
+        console.error('[AUTH DEBUG] ===== REDIRECT RESULT ERROR =====');
+        console.error('[AUTH DEBUG] Error code:', error?.code);
+        console.error('[AUTH DEBUG] Error message:', error?.message);
+
+        if (error?.code !== 'auth/popup-closed-by-user') {
+          toast.error(`Login failed: ${error?.message}`, 8000);
+        }
+      }
+    };
+
+    handleRedirectResult();
+  }, []);
+
   // Subscribe to sync status
   useEffect(() => {
     const unsubscribe = userDataService.onSyncStatusChange((status) => {
@@ -238,81 +299,34 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
 
   const login = async () => {
     try {
-      console.log('[AUTH DEBUG] ===== FIREBASE AUTH LOGIN STARTED =====');
-      console.log('[AUTH DEBUG] Using Firebase signInWithPopup (mobile-optimized)');
+      console.log('[AUTH DEBUG] ===== FIREBASE REDIRECT AUTH STARTED =====');
+      console.log('[AUTH DEBUG] Using signInWithRedirect (mobile-optimized)');
 
       // Initialize Firebase auth and provider
       const auth = getAuth();
       const provider = new GoogleAuthProvider();
 
-      // Configure provider for better mobile compatibility
+      // Configure provider
       provider.setCustomParameters({
         prompt: 'select_account'
       });
 
-      console.log('[AUTH DEBUG] Step 1: Opening Firebase popup...');
+      console.log('[AUTH DEBUG] Redirecting to Google...');
 
-      // Sign in with popup - Firebase handles all the complexity
-      const result = await signInWithPopup(auth, provider);
+      // Redirect to Google (full page redirect, not popup)
+      await signInWithRedirect(auth, provider);
 
-      console.log('[AUTH DEBUG] Step 2: Firebase popup successful!');
-      console.log('[AUTH DEBUG] Firebase UID:', result.user.uid);
-      console.log('[AUTH DEBUG] Firebase email:', result.user.email);
-      console.log('[AUTH DEBUG] Firebase displayName:', result.user.displayName);
-      console.log('[AUTH DEBUG] Firebase photoURL:', result.user.photoURL);
-
-      // Get the Google access token if needed (optional)
-      const credential = GoogleAuthProvider.credentialFromResult(result);
-      const accessToken = credential?.accessToken;
-
-      if (accessToken) {
-        console.log('[AUTH DEBUG] Google access token obtained');
-        localStorage.setItem('google_access_token', accessToken);
-      }
-
-      // Create user data object using Firebase user info
-      const userData: User = {
-        id: result.user.uid,  // Firebase UID for Firestore
-        email: result.user.email || '',
-        name: result.user.displayName || 'User',
-        picture: result.user.photoURL || '',
-        isAdmin: isAdminEmail(result.user.email || ''),
-      };
-
-      console.log('[AUTH DEBUG] Setting user with Firebase UID:', userData.id);
-      console.log('[AUTH DEBUG] User admin status:', userData.isAdmin);
-      setUser(userData);
-      localStorage.setItem('user', JSON.stringify(userData));
-      localStorage.setItem('userEmail', userData.email);
-
-      // Set user ID for cloud sync
-      console.log('[AUTH DEBUG] Setting userDataService userId:', userData.id);
-      userDataService.setUserId(userData.id);
-      favoritesService.setUserContext(userData.id);
-
-      // Load and merge user data from cloud
-      console.log('[AUTH DEBUG] Step 3: Loading user data from Firestore...');
-      await loadUserData(userData.id);
-      console.log('[AUTH DEBUG] ===== LOGIN SUCCESSFUL =====');
-      toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
+      // User will be redirected away from the page
+      // When they come back, we'll catch the result in useEffect
     } catch (error: any) {
-      console.error('[AUTH DEBUG] ===== LOGIN FAILED =====');
+      console.error('[AUTH DEBUG] ===== REDIRECT FAILED =====');
       console.error('[AUTH DEBUG] Error code:', error?.code);
       console.error('[AUTH DEBUG] Error message:', error?.message);
-      console.error('[AUTH DEBUG] Full error:', error);
 
-      // Handle specific Firebase Auth errors
-      if (error?.code === 'auth/popup-closed-by-user') {
-        toast.error('Login cancelled. Please try again.', 5000);
-      } else if (error?.code === 'auth/popup-blocked') {
-        toast.error('Popup blocked! Please allow popups for this site.', 8000);
-      } else if (error?.code === 'auth/cancelled-popup-request') {
-        console.log('[AUTH DEBUG] Duplicate popup request cancelled (expected behavior)');
-      } else if (error?.code === 'auth/network-request-failed') {
-        toast.error('Network error. Please check your connection.', 8000);
+      if (error?.code === 'auth/redirect-cancelled-by-user') {
+        toast.error('Login cancelled.', 5000);
       } else {
-        const errorMessage = error?.message || 'Unknown error occurred';
-        toast.error(`Login failed: ${errorMessage}`, 8000);
+        toast.error(`Redirect failed: ${error?.message}`, 8000);
       }
     }
   };
