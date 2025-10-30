@@ -119,6 +119,94 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
   const calculateOrigins = (nameList: NameEntry[]) => {
     const originCounts = new Map<string, number>();
 
+    // Origin consolidation mapping - groups small origins into broader categories
+    const consolidateOrigin = (origin: string): string => {
+      const lower = origin.toLowerCase();
+
+      // African origins (group all African origins with < 150 names)
+      if (lower.includes('african') || lower.includes('swahili') || lower.includes('yoruba') ||
+          lower.includes('igbo') || lower.includes('akan') || lower.includes('hausa') ||
+          lower.includes('ewe') || lower.includes('amharic') || lower.includes('shona') ||
+          lower.includes('edo') || lower.includes('sesotho') || lower.includes('sotho') ||
+          lower.includes('bantu') || lower.includes('tsonga') || lower.includes('ghanaian') ||
+          lower.includes('nigerian') || lower.includes('ethiopian') || lower.includes('zimbabwean') ||
+          lower.includes('somali') || lower.includes('ibibio') || lower.includes('efik') ||
+          lower.includes('tswana') || lower.includes('botswana') || lower.includes('malawi') ||
+          lower.includes('chewa') || lower.includes('wolof') || lower.includes('senegalese') ||
+          lower.includes('ugandan') || lower.includes('kenyan') || lower.includes('rwandan') ||
+          lower.includes('zambian') || lower.includes('bemba') || lower.includes('venda') ||
+          lower.includes('tshivenda') || lower.includes('swazi') || lower.includes('ndebele') ||
+          lower.includes('luo') || lower.includes('kikuyu') || lower.includes('maasai') ||
+          lower.includes('dinka') || lower.includes('sudanese')) {
+        return 'African';
+      }
+
+      // South Asian origins (Sanskrit, Hindi, Bengali, etc.)
+      if (lower.includes('sanskrit') || lower.includes('hindi') || lower.includes('bengali') ||
+          lower.includes('punjabi') || lower.includes('tamil') || lower.includes('urdu') ||
+          lower.includes('telugu') || lower.includes('kannada') || lower.includes('gujarati') ||
+          lower.includes('marathi') || lower.includes('malayalam') || lower.includes('nepali') ||
+          lower.includes('sikh') || lower.includes('hindu') || lower.includes('assamese') ||
+          lower.includes('oriya') || lower.includes('manipuri') || lower.includes('mizo') ||
+          lower.includes('rajasthani') || lower.includes('rajput') || lower.includes('sinhalese')) {
+        // Keep Indian as the parent if already present
+        if (lower.includes('indian')) return 'Indian';
+        return 'South Asian';
+      }
+
+      // Southeast Asian origins
+      if (lower.includes('vietnamese') || lower.includes('thai') || lower.includes('indonesian') ||
+          lower.includes('malay') || lower.includes('filipino') || lower.includes('burmese') ||
+          lower.includes('tagalog') || lower.includes('javanese') || lower.includes('khmer') ||
+          lower.includes('cambodian') || lower.includes('myanmar') || lower.includes('balinese') ||
+          lower.includes('sundanese') || lower.includes('ilocano') || lower.includes('cebuano')) {
+        return 'Southeast Asian';
+      }
+
+      // Central/West Asian origins (Persian, Armenian, Georgian, etc.)
+      if (lower.includes('persian') || lower.includes('armenian') || lower.includes('georgian') ||
+          lower.includes('kazakh') || lower.includes('uzbek') || lower.includes('azerbaijani') ||
+          lower.includes('turkmen') || lower.includes('kurdish') || lower.includes('pashto') ||
+          lower.includes('afghan') || lower.includes('turkic') || lower.includes('mongolian') ||
+          lower.includes('tibetan') || lower.includes('iranian')) {
+        return 'Central/West Asian';
+      }
+
+      // Small European origins
+      if (lower.includes('albanian') || lower.includes('basque') || lower.includes('estonian') ||
+          lower.includes('latvian') || lower.includes('lithuanian') || lower.includes('maltese') ||
+          lower.includes('icelandic') || lower.includes('slovenian') || lower.includes('croatian') ||
+          lower.includes('serbian') || lower.includes('bulgarian') || lower.includes('macedonian') ||
+          lower.includes('romanian') || lower.includes('hungarian') || lower.includes('czech') ||
+          lower.includes('slovak') || lower.includes('bosnian') || lower.includes('finnish') ||
+          lower.includes('norwegian') || lower.includes('swedish') || lower.includes('danish')) {
+        // Keep major categories if already present
+        if (lower.includes('slavic')) return 'Slavic';
+        if (lower.includes('scandinavian') || lower.includes('nordic')) return 'Nordic';
+        return 'European (Other)';
+      }
+
+      // Indigenous & Oceanic origins
+      if (lower.includes('maori') || lower.includes('aboriginal') || lower.includes('polynesian') ||
+          lower.includes('hawaiian') || lower.includes('native') || lower.includes('indigenous') ||
+          lower.includes('native-american') || lower.includes('cherokee') || lower.includes('navajo') ||
+          lower.includes('hopi') || lower.includes('inuit') || lower.includes('ojibwe') ||
+          lower.includes('samoan') || lower.includes('tongan') || lower.includes('fijian') ||
+          lower.includes('tahitian')) {
+        return 'Indigenous & Oceanic';
+      }
+
+      // Latin American Indigenous origins
+      if (lower.includes('nahuatl') || lower.includes('mayan') || lower.includes('quechua') ||
+          lower.includes('aztec') || lower.includes('inca') || lower.includes('guarani') ||
+          lower.includes('mapuche') || lower.includes('aymara') || lower.includes('taino')) {
+        return 'Indigenous Americas';
+      }
+
+      // Return original if no consolidation applies
+      return origin;
+    };
+
     // Helper to check if name matches English-related patterns
     const isEnglishRelated = (name: any): boolean => {
       const rawPatterns = ['english', 'modern', 'contemporary', 'american', 'old english'];
@@ -153,7 +241,9 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
         origins.forEach(origin => {
           if (origin && origin.trim()) {
             const cleanOrigin = origin.trim();
-            originCounts.set(cleanOrigin, (originCounts.get(cleanOrigin) || 0) + 1);
+            // Apply consolidation logic to group small origins
+            const consolidatedOrigin = consolidateOrigin(cleanOrigin);
+            originCounts.set(consolidatedOrigin, (originCounts.get(consolidatedOrigin) || 0) + 1);
           }
         });
       }
@@ -177,8 +267,10 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
       'Indian', 'Chinese', 'Japanese', 'Hindi', 'Persian', 'Russian', 'Portuguese', 'Polish',
       // Fourth Tier - Growing interest
       'Korean', 'Nordic', 'Welsh', 'Dutch', 'Turkish', 'Sanskrit', 'Biblical', 'Slavic',
-      // Fifth Tier - Specific cultural/regional
-      'African', 'Middle Eastern', 'Latin American', 'Indigenous Americas', 'Southeast Asian',
+      // Fifth Tier - Consolidated regional/cultural categories
+      'African', 'South Asian', 'Southeast Asian', 'Central/West Asian', 'European (Other)',
+      'Indigenous & Oceanic', 'Indigenous Americas', 'Middle Eastern', 'Latin American',
+      // Sixth Tier - Specific subcategories (if not consolidated)
       'Gujarati', 'Bengali', 'Punjabi', 'Tamil', 'Telugu', 'Malayalam', 'Kannada', 'Urdu', 'Marathi',
       'Albanian', 'Basque', 'Bulgarian', 'Caucasian', 'Central Asian', 'Croatian', 'Czech',
       'East African', 'Hungarian', 'Polynesian', 'Serbian', 'Slovak', 'Southern African',
