@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
-import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult, onAuthStateChanged } from 'firebase/auth';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
@@ -212,6 +212,7 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
         console.error('[AUTH DEBUG] ===== REDIRECT RESULT ERROR =====');
         console.error('[AUTH DEBUG] Error code:', error?.code);
         console.error('[AUTH DEBUG] Error message:', error?.message);
+        console.error('[AUTH DEBUG] Full error:', error);
 
         if (error?.code !== 'auth/popup-closed-by-user') {
           toast.error(`Login failed: ${error?.message}`, 8000);
@@ -220,6 +221,63 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     };
 
     handleRedirectResult();
+  }, []);
+
+  // CRITICAL: Listen to Firebase auth state changes to maintain session
+  useEffect(() => {
+    const auth = getAuth();
+
+    console.log('[AUTH DEBUG] Setting up auth state listener...');
+
+    const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
+      console.log('[AUTH DEBUG] ===== AUTH STATE CHANGED =====');
+      console.log('[AUTH DEBUG] Firebase user:', firebaseUser?.email || 'null');
+
+      if (firebaseUser) {
+        // User is signed in with Firebase
+        console.log('[AUTH DEBUG] Firebase user detected, UID:', firebaseUser.uid);
+
+        // Create user data object from Firebase user
+        const userData: User = {
+          id: firebaseUser.uid,
+          email: firebaseUser.email || '',
+          name: firebaseUser.displayName || 'User',
+          picture: firebaseUser.photoURL || '',
+          isAdmin: isAdminEmail(firebaseUser.email || ''),
+        };
+
+        console.log('[AUTH DEBUG] Updating user state from auth listener:', userData.email);
+        setUser(userData);
+        localStorage.setItem('user', JSON.stringify(userData));
+        localStorage.setItem('userEmail', userData.email);
+
+        // Set user ID for cloud sync
+        userDataService.setUserId(userData.id);
+        favoritesService.setUserContext(userData.id);
+
+        // Load user data from cloud
+        console.log('[AUTH DEBUG] Loading user data from cloud...');
+        try {
+          await loadUserData(userData.id);
+        } catch (error) {
+          console.error('[AUTH DEBUG] Error loading user data:', error);
+        }
+      } else {
+        // User is signed out
+        console.log('[AUTH DEBUG] No Firebase user, clearing state');
+        setUser(null);
+        localStorage.removeItem('user');
+        localStorage.removeItem('userEmail');
+        localStorage.removeItem('google_access_token');
+        userDataService.setUserId(null);
+        favoritesService.setUserContext(null);
+      }
+    });
+
+    return () => {
+      console.log('[AUTH DEBUG] Cleaning up auth state listener');
+      unsubscribe();
+    };
   }, []);
 
   // Subscribe to sync status
