@@ -1,0 +1,27 @@
+🧹 ORIGIN DATA CONSOLIDATION SCRIPT
+
+This script will:
+1. Standardize origin delimiters
+2. Sort multi-origin names alphabetically
+3. Consolidate variations
+4. Generate cleaned chunk files
+
+📊 Loaded 145644 names
+
+[eval]:18
+    .replace(/\s*;\s*/g, ',')  // Replace semicolons with commas
+     ^
+
+TypeError: origin.replace is not a function
+    at standardizeOrigin ([eval]:18:6)
+    at [eval]:58:24
+    at Array.forEach (<anonymous>)
+    at [eval]:56:10
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:446:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:444:60)
+    at evalFunction (node:internal/process/execution:279:30)
+    at evalTypeScript (node:internal/process/execution:291:3)
+
+Node.js v22.20.0

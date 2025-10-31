@@ -1,62 +1,111 @@
 const fs = require('fs');
+const path = require('path');
 
-const CHUNK_FILES = [
-  '/data/data/com.termux/files/home/proj/babyname2/public/data/names-chunk1.json',
-  '/data/data/com.termux/files/home/proj/babyname2/public/data/names-chunk-2.json',
-  '/data/data/com.termux/files/home/proj/babyname2/public/data/names-chunk-3.json',
-  '/data/data/com.termux/files/home/proj/babyname2/public/data/names-chunk4.json'
-];
+// Load all chunks and count origins
+async function analyzeOrigins() {
+  const dataDir = path.join(__dirname, 'public', 'data');
+  const indexFile = path.join(dataDir, 'names-index.json');
 
-const originCounts = new Map();
+  // Read index
+  const index = JSON.parse(fs.readFileSync(indexFile, 'utf8'));
+  console.log(`📊 Total names in database: ${index.totalNames}\n`);
 
-CHUNK_FILES.forEach(filePath => {
-  if (!fs.existsSync(filePath)) {
-    console.log(`Skipping missing file: ${filePath}`);
-    return;
-  }
+  // Origin counters
+  const originCounts = {};
+  const originGroupCounts = {};
 
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    const data = JSON.parse(content);
-    const names = data.names || data;
+  // Load all chunks
+  const chunks = Object.values(index.chunks);
+  let totalProcessed = 0;
 
-    if (Array.isArray(names)) {
-      names.forEach(name => {
-        if (name.origin) {
-          const origins = Array.isArray(name.origin) ? name.origin : [name.origin];
-          origins.forEach(origin => {
-            if (origin && typeof origin === 'string') {
-              const cleanOrigin = origin.trim();
-              originCounts.set(cleanOrigin, (originCounts.get(cleanOrigin) || 0) + 1);
-            }
-          });
-        }
-      });
+  for (const chunk of chunks) {
+    const chunkFile = path.join(dataDir, chunk.file);
+    if (!fs.existsSync(chunkFile)) {
+      console.log(`⚠️  Skipping missing chunk: ${chunk.file}`);
+      continue;
     }
-  } catch (error) {
-    console.log(`Error loading ${filePath}: ${error.message}`);
+
+    const chunkData = JSON.parse(fs.readFileSync(chunkFile, 'utf8'));
+    // Handle both formats: object with .names property OR raw array
+    const names = Array.isArray(chunkData) ? chunkData : (chunkData.names || []);
+
+    console.log(`📦 Processing ${chunk.file}: ${names.length} names`);
+
+    for (const name of names) {
+      // Count by origin
+      if (name.origin) {
+        originCounts[name.origin] = (originCounts[name.origin] || 0) + 1;
+      }
+
+      // Count by originGroup
+      if (name.originGroup) {
+        originGroupCounts[name.originGroup] = (originGroupCounts[name.originGroup] || 0) + 1;
+      }
+
+      totalProcessed++;
+    }
   }
-});
 
-// Sort by count descending
-const sortedOrigins = Array.from(originCounts.entries())
-  .map(([origin, count]) => ({ origin, count }))
-  .sort((a, b) => b.count - a.count);
+  console.log(`\n✅ Processed ${totalProcessed} names\n`);
 
-console.log('\n=== ALL ORIGINS (sorted by count) ===\n');
-console.log('Total unique origins:', sortedOrigins.length);
-console.log('Total names analyzed:', Array.from(originCounts.values()).reduce((a, b) => a + b, 0));
+  // Sort by count descending
+  const sortedOrigins = Object.entries(originCounts)
+    .sort((a, b) => b[1] - a[1]);
 
-console.log('\n--- Origins with 15+ names ---');
-const largeOrigins = sortedOrigins.filter(o => o.count >= 15);
-console.log('Count:', largeOrigins.length);
-largeOrigins.forEach(({ origin, count }) => {
-  console.log(`  ${count.toString().padStart(6)} - ${origin}`);
-});
+  const sortedOriginGroups = Object.entries(originGroupCounts)
+    .sort((a, b) => b[1] - a[1]);
 
-console.log('\n--- Origins with fewer than 15 names ---');
-const smallOrigins = sortedOrigins.filter(o => o.count < 15);
-console.log('Count:', smallOrigins.length);
-smallOrigins.forEach(({ origin, count }) => {
-  console.log(`  ${count.toString().padStart(6)} - ${origin}`);
-});
+  // Display results
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('📍 ORIGINS (Primary Origin Field)');
+  console.log('═══════════════════════════════════════════════════════\n');
+
+  sortedOrigins.forEach(([origin, count], index) => {
+    console.log(`${(index + 1).toString().padStart(3)}. ${origin.padEnd(30)} ${count.toLocaleString().padStart(10)} names`);
+  });
+
+  console.log('\n');
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('🏷️  ORIGIN GROUPS (Consolidated Groups)');
+  console.log('═══════════════════════════════════════════════════════\n');
+
+  sortedOriginGroups.forEach(([group, count], index) => {
+    console.log(`${(index + 1).toString().padStart(3)}. ${group.padEnd(30)} ${count.toLocaleString().padStart(10)} names`);
+  });
+
+  console.log('\n');
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('📊 SUMMARY');
+  console.log('═══════════════════════════════════════════════════════');
+  console.log(`Total Origins: ${sortedOrigins.length}`);
+  console.log(`Total Origin Groups: ${sortedOriginGroups.length}`);
+  console.log(`Total Names Processed: ${totalProcessed.toLocaleString()}`);
+
+  // Filter analysis - show which origins have > 250 names
+  console.log('\n');
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('🔍 FILTER CAPSULES (Origins with > 250 names)');
+  console.log('═══════════════════════════════════════════════════════\n');
+
+  const filterableOrigins = sortedOrigins.filter(([_, count]) => count > 250);
+  filterableOrigins.forEach(([origin, count], index) => {
+    console.log(`${(index + 1).toString().padStart(3)}. ${origin.padEnd(30)} ${count.toLocaleString().padStart(10)} names ✅`);
+  });
+
+  console.log(`\n📌 Total capsules shown in filter: ${filterableOrigins.length}`);
+
+  // Filter analysis for ORIGIN GROUPS (>250 names)
+  console.log('\n');
+  console.log('═══════════════════════════════════════════════════════');
+  console.log('🏷️  FILTER CAPSULES - ORIGIN GROUPS (> 250 names)');
+  console.log('═══════════════════════════════════════════════════════\n');
+
+  const filterableGroups = sortedOriginGroups.filter(([_, count]) => count > 250);
+  filterableGroups.forEach(([group, count], index) => {
+    console.log(`${(index + 1).toString().padStart(3)}. ${group.padEnd(35)} ${count.toLocaleString().padStart(10)} names ✅`);
+  });
+
+  console.log(`\n📌 Total ORIGIN GROUP capsules shown in filter: ${filterableGroups.length}`);
+}
+
+analyzeOrigins().catch(console.error);

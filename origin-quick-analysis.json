@@ -1,0 +1,243 @@
+{
+  "totalNames": 145644,
+  "totalOrigins": 100,
+  "needsConsolidationCount": 59,
+  "needsConsolidation": [
+    {
+      "origin": "Biblical",
+      "count": 249
+    },
+    {
+      "origin": "Korean",
+      "count": 247
+    },
+    {
+      "origin": "Polish",
+      "count": 226
+    },
+    {
+      "origin": "Russian",
+      "count": 218
+    },
+    {
+      "origin": "Latin American",
+      "count": 168
+    },
+    {
+      "origin": "Middle Eastern",
+      "count": 165
+    },
+    {
+      "origin": "Hungarian",
+      "count": 163
+    },
+    {
+      "origin": "Celtic",
+      "count": 155
+    },
+    {
+      "origin": "Caucasian",
+      "count": 122
+    },
+    {
+      "origin": "Urdu",
+      "count": 106
+    },
+    {
+      "origin": "Bulgarian",
+      "count": 104
+    },
+    {
+      "origin": "Albanian",
+      "count": 101
+    },
+    {
+      "origin": "Telugu",
+      "count": 95
+    },
+    {
+      "origin": "Invented",
+      "count": 94
+    },
+    {
+      "origin": "Central Asian",
+      "count": 93
+    },
+    {
+      "origin": "Mythological",
+      "count": 79
+    },
+    {
+      "origin": "Gujarati",
+      "count": 77
+    },
+    {
+      "origin": "Tibetan",
+      "count": 70
+    },
+    {
+      "origin": "Various",
+      "count": 67
+    },
+    {
+      "origin": "Czech",
+      "count": 65
+    },
+    {
+      "origin": "Kannada",
+      "count": 62
+    },
+    {
+      "origin": "Yiddish",
+      "count": 58
+    },
+    {
+      "origin": "Ukrainian",
+      "count": 46
+    },
+    {
+      "origin": "Marathi",
+      "count": 42
+    },
+    {
+      "origin": "German",
+      "count": 35
+    },
+    {
+      "origin": "Aramaic",
+      "count": 35
+    },
+    {
+      "origin": "Croatian",
+      "count": 31
+    },
+    {
+      "origin": "Serbian",
+      "count": 19
+    },
+    {
+      "origin": "Malayalam",
+      "count": 17
+    },
+    {
+      "origin": "Norse",
+      "count": 15
+    },
+    {
+      "origin": "Scandinavian",
+      "count": 13
+    },
+    {
+      "origin": "American",
+      "count": 12
+    },
+    {
+      "origin": "Egyptian",
+      "count": 5
+    },
+    {
+      "origin": "Slovak",
+      "count": 4
+    },
+    {
+      "origin": "Swedish",
+      "count": 3
+    },
+    {
+      "origin": "Literary",
+      "count": 3
+    },
+    {
+      "origin": "Hawaiian",
+      "count": 3
+    },
+    {
+      "origin": "Belarusian",
+      "count": 3
+    },
+    {
+      "origin": "Swahili",
+      "count": 2
+    },
+    {
+      "origin": "Native American",
+      "count": 2
+    },
+    {
+      "origin": "Modern English",
+      "count": 2
+    },
+    {
+      "origin": "Pali",
+      "count": 2
+    },
+    {
+      "origin": "Old English",
+      "count": 1
+    },
+    {
+      "origin": "Old Norse",
+      "count": 1
+    },
+    {
+      "origin": "Maori",
+      "count": 1
+    },
+    {
+      "origin": "Fantasy",
+      "count": 1
+    },
+    {
+      "origin": "Thai",
+      "count": 1
+    },
+    {
+      "origin": "Fictional",
+      "count": 1
+    },
+    {
+      "origin": "Welsh/Arabic",
+      "count": 1
+    },
+    {
+      "origin": "Igbo",
+      "count": 1
+    },
+    {
+      "origin": "Ojibwe",
+      "count": 1
+    },
+    {
+      "origin": "Quechua",
+      "count": 1
+    },
+    {
+      "origin": "Australian",
+      "count": 1
+    },
+    {
+      "origin": "Australian Aboriginal",
+      "count": 1
+    },
+    {
+      "origin": "Turkic",
+      "count": 1
+    },
+    {
+      "origin": "Iroquoian",
+      "count": 1
+    },
+    {
+      "origin": "Swiss",
+      "count": 1
+    },
+    {
+      "origin": "Danish",
+      "count": 1
+    },
+    {
+      "origin": "Khasi",
+      "count": 1
+    }
+  ]
+}

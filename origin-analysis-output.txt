@@ -1,0 +1,3322 @@
+📊 Total names in database: 147121
+
+📦 Processing names-core.json: 945 names
+📦 Processing names-chunk1.json: 36411 names
+📦 Processing names-chunk2.json: 36411 names
+📦 Processing names-chunk3.json: 36411 names
+📦 Processing names-chunk4.json: 36411 names
+📦 Processing names-chunk5.json: 532 names
+
+✅ Processed 147121 names
+
+═══════════════════════════════════════════════════════
+📍 ORIGINS (Primary Origin Field)
+═══════════════════════════════════════════════════════
+
+  1. Unknown                            43,340 names
+  2. African                            11,085 names
+  3. Arabic                              6,633 names
+  4. Spanish                             5,585 names
+  5. Indian,Sanskrit                     5,184 names
+  6. English                             5,048 names
+  7. Hebrew                              4,268 names
+  8. Modern                              4,035 names
+  9. English,Modern                      2,630 names
+ 10. Latin                               2,056 names
+ 11. Chinese                             1,991 names
+ 12. Greek                               1,926 names
+ 13. Modern,Spanish                      1,880 names
+ 14. Yoruba                              1,822 names
+ 15. Contemporary                        1,418 names
+ 16. Tswana                              1,288 names
+ 17. Irish                               1,239 names
+ 18. Igbo                                1,215 names
+ 19. French                              1,114 names
+ 20. Germanic                            1,091 names
+ 21. Hebrew,Modern                       1,086 names
+ 22. Latin,Spanish                       1,063 names
+ 23. Nigerian,Yoruba                     1,037 names
+ 24. Japanese                            1,034 names
+ 25. Sanskrit                              873 names
+ 26. Arabic,Modern                         809 names
+ 27. Indian                                800 names
+ 28. Igbo,Nigerian                         789 names
+ 29. Latin,Modern                          783 names
+ 30. Arabic,Islamic                        774 names
+ 31. Zulu                                  761 names
+ 32. Italian                               707 names
+ 33. Slavic                                603 names
+ 34. Persian                               570 names
+ 35. Italian,Spanish                       564 names
+ 36. Akan,Ghanaian                         530 names
+ 37. Hindu,Sanskrit                        521 names
+ 38. Indian,Tamil                          516 names
+ 39. German                                494 names
+ 40. Indonesian,Malay                      480 names
+ 41. Arabic,Persian                        465 names
+ 42. French,Modern                         444 names
+ 43. Contemporary,Modern                   443 names
+ 44. Contemporary,English                  423 names
+ 45. Hebrew,Spanish                        390 names
+ 46. Welsh                                 385 names
+ 47. Greek,Modern                          384 names
+ 48. Contemporary,Spanish                  383 names
+ 49. Italian,Latin                         369 names
+ 50. Indonesian                            365 names
+ 51. Xhosa,Zulu                            365 names
+ 52. Hindi,Indian                          342 names
+ 53. Turkish                               341 names
+ 54. Irish,Modern                          267 names
+ 55. Indian,Punjabi                        244 names
+ 56. French,Latin                          242 names
+ 57. Malay                                 240 names
+ 58. Celtic                                231 names
+ 59. Portuguese,Spanish                    230 names
+ 60. Hindi,Sanskrit                        230 names
+ 61. Scottish                              227 names
+ 62. Indian,Modern                         223 names
+ 63. Modern,Slavic                         222 names
+ 64. Xhosa                                 213 names
+ 65. Korean                                211 names
+ 66. Tamil                                 207 names
+ 67. Basque                                204 names
+ 68. Arabic,Hebrew                         204 names
+ 69. Biblical,Hebrew                       202 names
+ 70. Hawaiian                              199 names
+ 71. Akan                                  195 names
+ 72. English,Hebrew                        190 names
+ 73. Filipino                              189 names
+ 74. American,Modern                       188 names
+ 75. Dutch                                 176 names
+ 76. Greek,Latin                           175 names
+ 77. Shona                                 174 names
+ 78. Italian,Modern                        162 names
+ 79. Romanian                              159 names
+ 80. Lithuanian                            155 names
+ 81. Chinese,Modern                        153 names
+ 82. Old English                           146 names
+ 83. English,French                        142 names
+ 84. Modern,Unknown                        141 names
+ 85. Swahili                               139 names
+ 86. Vietnamese                            138 names
+ 87. Edo,Nigerian                          137 names
+ 88. Greek,Spanish                         136 names
+ 89. Invented                              132 names
+ 90. German,Modern                         132 names
+ 91. Japanese,Modern                       127 names
+ 92. Scandinavian                          125 names
+ 93. Arabic,Malay                          123 names
+ 94. Ewe,Ghanaian                          118 names
+ 95. Portuguese                            113 names
+ 96. Latin,Roman                           113 names
+ 97. Germanic,Spanish                      113 names
+ 98. Amharic,Ethiopian                     111 names
+ 99. Ewe                                   110 names
+100. American                              110 names
+101. Thai                                  110 names
+102. English,Latin                         110 names
+103. Native American                       108 names
+104. English,Scottish                      107 names
+105. Dutch,German                          106 names
+106. Norse                                 101 names
+107. Bengali                               100 names
+108. Bengali,Indian                         97 names
+109. Arabic,Indonesian                      96 names
+110. Russian,Slavic                         96 names
+111. French,Hebrew                          95 names
+112. Indonesian,Modern                      95 names
+113. Arabic,Spanish                         94 names
+114. Irish,Scottish                         94 names
+115. Polish                                 93 names
+116. Modern,Persian                         93 names
+117. Hindi                                  92 names
+118. Sesotho                                92 names
+119. Indian,Telugu                          92 names
+120. Hungarian                              89 names
+121. Shona,Zimbabwean                       89 names
+122. Basque,Spanish                         88 names
+123. Albanian                               86 names
+124. English,Germanic                       86 names
+125. Nigerian                               86 names
+126. Indonesian,Javanese                    86 names
+127. Gaelic,Irish                           83 names
+128. English,Irish                          81 names
+129. Arabic,Turkish                         80 names
+130. Contemporary,Latin                     80 names
+131. Contemporary,Unknown                   80 names
+132. Latvian                                79 names
+133. English,Greek                          79 names
+134. Quechua                                78 names
+135. Dutch,Modern                           78 names
+136. Punjabi,Sikh                           77 names
+137. Punjabi                                76 names
+138. Russian                                73 names
+139. Burmese                                72 names
+140. Gujarati,Indian                        71 names
+141. Armenian                               69 names
+142. Old Norse                              67 names
+143. Various                                67 names
+144. French,Germanic                        67 names
+145. Filipino,Tagalog                       67 names
+146. Nahuatl                                66 names
+147. Mayan                                  66 names
+148. Sotho                                  66 names
+149. Indian,Persian                         66 names
+150. English,German                         65 names
+151. Indigenous                             65 names
+152. Germanic,Modern                        64 names
+153. Edo                                    63 names
+154. Persian,Urdu                           63 names
+155. Bulgarian,Slavic                       62 names
+156. Ghanaian                               61 names
+157. Native-American                        59 names
+158. Polish,Slavic                          59 names
+159. Indian,Kannada                         59 names
+160. Indigenous,Spanish                     58 names
+161. Akan,Ghana                             58 names
+162. Finnish                                57 names
+163. Greek,Slavic                           57 names
+164. Hebrew,Slavic                          56 names
+165. Modern,Scottish                        56 names
+166. Egyptian                               55 names
+167. Filipino,Modern                        55 names
+168. Catalan,Spanish                        54 names
+169. Hebrew,Latin                           54 names
+170. Afrikaans,Dutch                        54 names
+171. Arabic,Contemporary                    53 names
+172. Sotho,Tswana                           53 names
+173. Czech,Slavic                           52 names
+174. Constructed                            50 names
+175. Hausa                                  50 names
+176. Celtic,Irish                           50 names
+177. Chinese,Mandarin                       50 names
+178. Germanic,Old English                   49 names
+179. Modern,Welsh                           49 names
+180. Arabic,Indian                          48 names
+181. Geographical,Spanish                   48 names
+182. Maori                                  47 names
+183. Ewe,Ghana                              47 names
+184. Modern,Sanskrit                        47 names
+185. Dutch,Hebrew                           45 names
+186. Hindu,Indian                           45 names
+187. Contemporary,Indian                    45 names
+188. Amharic                                44 names
+189. Contemporary,Hebrew                    44 names
+190. American,Contemporary                  44 names
+191. Hausa,Nigerian                         44 names
+192. Modern,Old English                     44 names
+193. Christian,Spanish                      43 names
+194. French,Greek                           42 names
+195. Iranian,Persian                        42 names
+196. Tibetan                                41 names
+197. Gaelic,Scottish                        40 names
+198. Latin,Slavic                           39 names
+199. Indonesian,Sanskrit                    38 names
+200. Old Norse,Scandinavian                 38 names
+201. Contemporary,Greek                     37 names
+202. Cultural,Spanish                       37 names
+203. Malay,Modern                           37 names
+204. English,Spanish                        36 names
+205. Somali                                 36 names
+206. Indian,Marathi                         36 names
+207. Indigenous,Modern                      36 names
+208. English,Welsh                          35 names
+209. Mexican,Nahuatl                        35 names
+210. Bantu                                  34 names
+211. Contemporary,French                    33 names
+212. Modern,Portuguese                      33 names
+213. Bulgarian                              32 names
+214. Germanic,Italian                       32 names
+215. Greek,Historical                       32 names
+216. Ibibio,Nigerian                        32 names
+217. Catalan                                31 names
+218. Christian,Latin                        31 names
+219. Hebrew,Italian                         31 names
+220. Historical,Latin                       31 names
+221. Contemporary,Japanese                  31 names
+222. Modern,Native American                 31 names
+223. Filipino,Spanish                       30 names
+224. Mexican,Spanish                        30 names
+225. Historical,Spanish                     30 names
+226. Modern,Turkish                         30 names
+227. Christian,Greek                        29 names
+228. French,Spanish                         28 names
+229. Norse,Scandinavian                     28 names
+230. Arabic,Swahili                         28 names
+231. Contemporary,German                    28 names
+232. Croatian,Slavic                        28 names
+233. Aramaic                                27 names
+234. Persian,Turkish                        27 names
+235. Chinese,Vietnamese                     27 names
+236. Contemporary,Slavic                    27 names
+237. Tsonga                                 26 names
+238. French,German                          26 names
+239. Greek,Russian                          26 names
+240. Hungarian,Slavic                       26 names
+241. Celtic,English                         25 names
+242. Greek,Italian                          25 names
+243. Contemporary,Italian                   25 names
+244. Slavic,Ukrainian                       25 names
+245. Contemporary,Nigerian                  25 names
+246. Modern,Scandinavian                    25 names
+247. English,Old French                     25 names
+248. Swedish                                24 names
+249. Afrikaans                              24 names
+250. Efik,Ibibio                            24 names
+251. Dutch,Latin                            24 names
+252. Germanic,Old French                    24 names
+253. Hawaiian,Polynesian                    23 names
+254. Contemporary,Filipino                  23 names
+255. Chinese,Japanese                       23 names
+256. Hawaiian,Modern                        23 names
+257. Georgian                               22 names
+258. Greek,Mythological                     22 names
+259. Latin,Polish                           22 names
+260. Indigenous,Native American             22 names
+261. Greek,Hebrew                           21 names
+262. Latin,Romanian                         21 names
+263. Arabic,Cultural                        21 names
+264. Germanic,Old High German               21 names
+265. Kurdish                                20 names
+266. Arabic,Urdu                            20 names
+267. Arabic,Bengali                         20 names
+268. Latin American,Spanish                 20 names
+269. Mongolian                              19 names
+270. Dutch,English                          19 names
+271. German,Hebrew                          19 names
+272. Aztec,Nahuatl                          19 names
+273. Brazilian,Portuguese                   19 names
+274. Indian,Mizo                            19 names
+275. Cantonese,Chinese                      19 names
+276. Contemporary,Tswana                    19 names
+277. English,Old German                     19 names
+278. Finnish,Modern                         19 names
+279. Indigenous Australian                  18 names
+280. Christian,Hebrew                       18 names
+281. Hebrew,Yiddish                         18 names
+282. Latin,Lithuanian                       18 names
+283. English,Old English                    18 names
+284. Invented,Modern                        18 names
+285. Korean,Modern                          18 names
+286. French,Irish                           17 names
+287. Cherokee                               17 names
+288. Romanian,Slavic                        17 names
+289. German,Latin                           17 names
+290. Dutch,Germanic                         17 names
+291. Hindi,Urdu                             17 names
+292. Fantasy,Modern                         17 names
+293. Yiddish                                16 names
+294. Turkic                                 16 names
+295. Hebrew,Irish                           16 names
+296. Buddhist,Sanskrit                      16 names
+297. Arabic,Somali                          16 names
+298. German,Scandinavian                    16 names
+299. Serbian,Slavic                         16 names
+300. Celtic,Welsh                           16 names
+301. Efik,Nigerian                          16 names
+302. Biblical,Spanish                       16 names
+303. German,Old High German                 16 names
+304. Arabic,English                         15 names
+305. Mandinka                               15 names
+306. Mizo                                   15 names
+307. Arabic,Slavic                          15 names
+308. Hebrew,Polish                          15 names
+309. Hebrew,Indian                          15 names
+310. Arabic,Berber                          15 names
+311. Bengali,Sanskrit                       15 names
+312. Lithuanian,Slavic                      15 names
+313. Ancient,Greek                          15 names
+314. Greek,Romanian                         15 names
+315. Celtic,Modern                          15 names
+316. English,Old Norse                      15 names
+317. Indigenous,Mayan                       15 names
+318. Christian                              15 names
+319. Estonian                               14 names
+320. Mapuche                                14 names
+321. Hebrew,Japanese                        14 names
+322. Danish,Scandinavian                    14 names
+323. Indian,Sikh                            14 names
+324. German,Yiddish                         14 names
+325. Latin,Portuguese                       14 names
+326. Contemporary,Germanic                  14 names
+327. English,Geographical                   14 names
+328. German,Spanish                         14 names
+329. Chinese,Contemporary                   14 names
+330. Botswana,Tswana                        14 names
+331. Maori,Polynesian                       14 names
+332. Contemporary,Indigenous                14 names
+333. Old English,Scottish                   14 names
+334. Modern,Nigerian                        14 names
+335. Basque,Modern                          14 names
+336. French,Old German                      14 names
+337. Contemporary,Native American           14 names
+338. Indian,Manipuri                        14 names
+339. Fictional                              13 names
+340. Ancient,Egyptian                       13 names
+341. Uncertain                              13 names
+342. Contemporary,Dutch                     13 names
+343. Arabic,Muslim                          13 names
+344. Indian,Malayalam                       13 names
+345. Contemporary,Irish                     13 names
+346. Hindi,Modern                           13 names
+347. Combination of names,Modern            13 names
+348. Nigeria,Yoruba                         13 names
+349. Galician,Spanish                       13 names
+350. Christian,Modern                       13 names
+351. Cornish                                12 names
+352. Germanic,Latin                         12 names
+353. Irish,Latin                            12 names
+354. Celtic,French                          12 names
+355. Dutch,French                           12 names
+356. Hungarian,Latin                        12 names
+357. French,Haitian                         12 names
+358. Indigenous,Unknown                     12 names
+359. Indigenous American                    12 names
+360. French,Old English                     12 names
+361. Tagalog                                11 names
+362. Samoan                                 11 names
+363. Polynesian                             11 names
+364. Nepali                                 11 names
+365. Tshivenda                              11 names
+366. Native-American,Spanish                11 names
+367. Hopi                                   11 names
+368. English,Occupational                   11 names
+369. Ethiopian                              11 names
+370. French,Italian                         11 names
+371. Southern Africa,Tswana                 11 names
+372. Buddhist,Tibetan                       11 names
+373. Biblical,Greek                         11 names
+374. Modern,Old Norse                       11 names
+375. English,Historical                     11 names
+376. Arabic,South Asian                     11 names
+377. Shona,Zimbabwe                         11 names
+378. Literary                               10 names
+379. Wolof                                  10 names
+380. Jamaican                               10 names
+381. English,Scandinavian                   10 names
+382. Venda                                  10 names
+383. Hebrew,Jewish                          10 names
+384. Indian,Nepali                          10 names
+385. English,Surname                        10 names
+386. Hebrew,Scandinavian                    10 names
+387. Spanish,Unknown                        10 names
+388. Peruvian,Quechua                       10 names
+389. Cultural,Indian                        10 names
+390. Chewa,Malawi                           10 names
+391. Latvian,Slavic                         10 names
+392. Incan,Quechua                          10 names
+393. Modern,Russian                         10 names
+394. Modern,Swahili                         10 names
+395. Indigenous,South American              10 names
+396. Modern,Thai                            10 names
+397. Cherokee,Native American               10 names
+398. Igbo,Nigeria                           10 names
+399. Guarani                                 9 names
+400. Germanic,Hebrew                         9 names
+401. Ibibio                                  9 names
+402. Ukrainian                               9 names
+403. English,Jamaican                        9 names
+404. Old German                              9 names
+405. Japanese,Spanish                        9 names
+406. Italian,Latin,Spanish                   9 names
+407. Chinese,Korean                          9 names
+408. Greek,Polish                            9 names
+409. Botanical,English                       9 names
+410. English,Filipino                        9 names
+411. Finnish,Hebrew                          9 names
+412. Japanese,Slavic                         9 names
+413. Basque,Contemporary                     9 names
+414. Arabic,Bangladeshi                      9 names
+415. Estonian,Finnish                        9 names
+416. Germanic,Historical                     9 names
+417. Modern,Vietnamese                       9 names
+418. Latvian,Lithuanian                      9 names
+419. Arabic,Hausa                            9 names
+420. German,Old English                      9 names
+421. Nigerian,Tiv                            9 names
+422. Hungarian,Modern                        9 names
+423. Contemporary,Hindi                      9 names
+424. Modern,Punjabi                          9 names
+425. Mapudungun                              8 names
+426. Arabic,Latin                            8 names
+427. Kazakh                                  8 names
+428. Chinese,English                         8 names
+429. Biblical                                8 names
+430. Khmer                                   8 names
+431. Japanese,Sanskrit                       8 names
+432. Cambodian,Khmer                         8 names
+433. Hebrew,Sanskrit                         8 names
+434. Finnish,Latin                           8 names
+435. Breton,French                           8 names
+436. Guatemalan,Mayan                        8 names
+437. Persian,Zoroastrian                     8 names
+438. Eritrean,Tigrinya                       8 names
+439. Chewa,Malawian                          8 names
+440. Historical,Italian                      8 names
+441. Czech                                   8 names
+442. Nigerian,Urhobo                         8 names
+443. Modern,Romanian                         8 names
+444. Native American,Spanish                 8 names
+445. Lithuanian,Modern                       8 names
+446. Ghanaian,Modern                         8 names
+447. Indigenous Brazilian                    8 names
+448. German,Old French                       8 names
+449. Contemporary,Old English                8 names
+450. Fantasy                                 7 names
+451. Slavic,Spanish                          7 names
+452. Javanese                                7 names
+453. Luo                                     7 names
+454. Kikuyu                                  7 names
+455. Hebrew,Persian                          7 names
+456. Inuit                                   7 names
+457. Aramaic,Hebrew                          7 names
+458. Celtic,Spanish                          7 names
+459. Burmese,Myanmar                         7 names
+460. Filipino,Hebrew                         7 names
+461. German,Historical                       7 names
+462. Ethiopian,Hebrew                        7 names
+463. Greek,Hungarian                         7 names
+464. French,Scottish                         7 names
+465. French,Historical                       7 names
+466. Hebrew,Portuguese                       7 names
+467. Indigenous,Mexican                      7 names
+468. Indigenous,Mapuche                      7 names
+469. Jewish,Yiddish                          7 names
+470. Indigenous,Quechua                      7 names
+471. Sanskrit,Tamil                          7 names
+472. Botanical,Latin                         7 names
+473. Modern,Old French                       7 names
+474. Celtic,Old English                      7 names
+475. Modern,Old German                       7 names
+476. Hopi,Native American                    7 names
+477. Contemporary,Zulu                       7 names
+478. Modern,Possibly Hebrew                  7 names
+479. Arabic,Nigerian                         7 names
+480. South Africa,Tswana                     7 names
+481. Scottish Gaelic                         6 names
+482. Cantonese                               6 names
+483. Ojibwe                                  6 names
+484. Sinhalese                               6 names
+485. English,Japanese                        6 names
+486. Ndebele                                 6 names
+487. Efik                                    6 names
+488. Hebrew,Turkish                          6 names
+489. Old French                              6 names
+490. Indigenous South American               6 names
+491. Hawaiian,Japanese                       6 names
+492. Bulgarian,Greek                         6 names
+493. Arabic,French                           6 names
+494. Hebrew,Romanian                         6 names
+495. Chilean,Spanish                         6 names
+496. Greek,Persian                           6 names
+497. Cultural,Romanian                       6 names
+498. Ewe,Togolese                            6 names
+499. Cuban,Spanish                           6 names
+500. Dutch,Scandinavian                      6 names
+501. Hebrew,Russian                          6 names
+502. Historical                              6 names
+503. Assamese,Indian                         6 names
+504. Japanese,Traditional                    6 names
+505. Contemporary,Ghanaian                   6 names
+506. Persian,Turkic                          6 names
+507. Latin,Sanskrit                          6 names
+508. Greek,Roman                             6 names
+509. Hindu                                   6 names
+510. Scottish,Welsh                          6 names
+511. Old English,Welsh                       6 names
+512. Bengali,Modern                          6 names
+513. Contemporary,Slang                      6 names
+514. Philippines                             6 names
+515. Modern,Possibly derived from Latin          6 names
+516. Modern,Possibly derived from Arabic          6 names
+517. German,Jewish                           6 names
+518. Fictional,Modern                        6 names
+519. Swazi                                   6 names
+520. Albanian,Modern                         6 names
+521. Modern,Variant of John                  6 names
+522. Southeast Asian,Thai                    6 names
+523. Modern,Possibly derived from Hebrew          6 names
+524. Indigenous Australian,Modern            6 names
+525. Modern,Norse                            6 names
+526. Contemporary,Old Norse                  6 names
+527. Modern,Polish                           6 names
+528. Greek,Mythology                         6 names
+529. Nepali,Sanskrit                         6 names
+530. Latin,Old French                        6 names
+531. Contemporary,Welsh                      6 names
+532. Contemporary,Possibly invented          6 names
+533. Contemporary,Malay                      6 names
+534. Gaelic                                  5 names
+535. English,Slavic                          5 names
+536. French,Slavic                           5 names
+537. Modern English                          5 names
+538. Slavic,Turkish                          5 names
+539. Gujarati                                5 names
+540. Ijaw                                    5 names
+541. Tigrinya                                5 names
+542. Hebrew,Jamaican                         5 names
+543. Celtic,Latin                            5 names
+544. Breton                                  5 names
+545. Sumerian                                5 names
+546. Luganda                                 5 names
+547. Greek,Ukrainian                         5 names
+548. Egyptian,Greek                          5 names
+549. Tupi                                    5 names
+550. Peruvian,Spanish                        5 names
+551. Italian,Slavic                          5 names
+552. Irish,Spanish                           5 names
+553. Greek,Scandinavian                      5 names
+554. Hawaiian,Indigenous                     5 names
+555. Chinese,Filipino                        5 names
+556. Iberian,Spanish                         5 names
+557. Arabic,Filipino                         5 names
+558. Arabic,Greek                            5 names
+559. Persian,Uzbek                           5 names
+560. Filipino,Latin                          5 names
+561. Greek,Turkish                           5 names
+562. Nepalese,Tibetan                        5 names
+563. Punjabi,Sanskrit                        5 names
+564. Indonesian,Japanese                     5 names
+565. Hebrew,Scottish                         5 names
+566. Germanic,Latvian                        5 names
+567. Irish,Welsh                             5 names
+568. Arabic,Finnish                          5 names
+569. Literary,Spanish                        5 names
+570. German,Italian                          5 names
+571. Contemporary,Korean                     5 names
+572. Celtic,Scottish                         5 names
+573. Persian,Spanish                         5 names
+574. Italian,Portuguese                      5 names
+575. Geographical,Latin                      5 names
+576. Indigenous,Nahuatl                      5 names
+577. Indigenous,Peruvian                     5 names
+578. Contemporary,Jamaican                   5 names
+579. Chinese,Hokkien                         5 names
+580. Indigenous,Malay                        5 names
+581. Geographical,Irish                      5 names
+582. Anglicized,Irish                        5 names
+583. Navajo                                  5 names
+584. Irish,Old English                       5 names
+585. Derived from English,Modern             5 names
+586. Historical,Irish                        5 names
+587. Native American,Unknown                 5 names
+588. Modern,Variant of Jennifer              5 names
+589. Contemporary,Yoruba                     5 names
+590. Indigenous,Philippines                  5 names
+591. Ancient,Hebrew                          5 names
+592. Indigenous South American,Quechua          5 names
+593. French,Old French                       5 names
+594. Chilean,Mapuche                         5 names
+595. Akan (Ghana)                            5 names
+596. Historical,Slavic                       5 names
+597. Arabic,Historical                       5 names
+598. Ewe (Ghana)                             5 names
+599. Philippine                              5 names
+600. Ijaw,Nigerian                           5 names
+601. Kazakh,Turkic                           5 names
+602. Bantu,Zambian                           5 names
+603. Bengali,Hindi                           5 names
+604. Kenyan,Kikuyu                           5 names
+605. Hebrew,Hungarian                        5 names
+606. Indian,Slavic                           5 names
+607. Greek,Lithuanian                        5 names
+608. Germanic,Lithuanian                     5 names
+609. Cultural                                5 names
+610. Taino                                   4 names
+611. Malayalam                               4 names
+612. Germanic,Slavic                         4 names
+613. Malagasy                                4 names
+614. Ancient Egyptian                        4 names
+615. Romani                                  4 names
+616. Dinka                                   4 names
+617. English,Literary                        4 names
+618. Hmong                                   4 names
+619. Berber                                  4 names
+620. Nguni                                   4 names
+621. Sanskrit,Slavic                         4 names
+622. Tongan                                  4 names
+623. Aboriginal Australian                   4 names
+624. Setswana                                4 names
+625. Norwegian                               4 names
+626. Germanic,Norse                          4 names
+627. Finnish,Japanese                        4 names
+628. Finnish,Swedish                         4 names
+629. English,Vietnamese                      4 names
+630. Hindi,Persian                           4 names
+631. German,Slavic                           4 names
+632. Quechua,Spanish                         4 names
+633. Celtic,Hebrew                           4 names
+634. Germanic,Scandinavian                   4 names
+635. Chinese,Cultural                        4 names
+636. English,Persian                         4 names
+637. Germanic,Irish                          4 names
+638. Japanese,Korean                         4 names
+639. Bengali,Islamic                         4 names
+640. Botanical,Spanish                       4 names
+641. Colombian,Indigenous                    4 names
+642. Contemporary,Scottish                   4 names
+643. Canarian,Spanish                        4 names
+644. Hindu,Tamil                             4 names
+645. German,Greek                            4 names
+646. Chinese,Unknown                         4 names
+647. English,Nigerian                        4 names
+648. Balinese,Indonesian                     4 names
+649. Afghan,Persian                          4 names
+650. Cultural,Indonesian                     4 names
+651. Farsi,Persian                           4 names
+652. Contemporary,Mexican                    4 names
+653. Christian,French                        4 names
+654. American,English                        4 names
+655. Icelandic                               4 names
+656. Polynesian,Tongan                       4 names
+657. English,Nature                          4 names
+658. Historical,Persian                      4 names
+659. Greek,Latvian                           4 names
+660. Cultural,Greek                          4 names
+661. Ancient,Latin                           4 names
+662. Contemporary,Mayan                      4 names
+663. Dutch,Spanish                           4 names
+664. Luganda,Ugandan                         4 names
+665. Contemporary,Hawaiian                   4 names
+666. Religious,Spanish                       4 names
+667. South Africa,Zulu                       4 names
+668. Chinese,Southeast Asian                 4 names
+669. Baltic,Latvian                          4 names
+670. Cultural,Persian                        4 names
+671. Contemporary,Jamaican Patois            4 names
+672. Modern,Variant of Daniel                4 names
+673. Afrikaans,Modern                        4 names
+674. Germanic,Old Norse                      4 names
+675. Cultural,Filipino                       4 names
+676. Dutch,Greek                             4 names
+677. Ancient Roman,Latin                     4 names
+678. French,Occitan                          4 names
+679. Senegalese,Wolof                        4 names
+680. Hindu mythology,Sanskrit                4 names
+681. Japanese,Unknown                        4 names
+682. Maasai                                  4 names
+683. Culinary,Spanish                        4 names
+684. Contemporary,Polish                     4 names
+685. Contemporary,Turkish                    4 names
+686. Modern,Variant of Michael               4 names
+687. Bini                                    4 names
+688. Modern,Zulu                             4 names
+689. Cultural,French                         4 names
+690. Bini,Nigerian                           4 names
+691. Idoma,Nigerian                          4 names
+692. Australian,Indigenous                   4 names
+693. Cultural,Hawaiian                       4 names
+694. Colombian,Spanish                       4 names
+695. Indian,Oriya                            4 names
+696. Lakota                                  4 names
+697. Danish                                  3 names
+698. Australian Aboriginal                   3 names
+699. Maya                                    3 names
+700. Canarian                                3 names
+701. Mande                                   3 names
+702. Manipuri                                3 names
+703. Coptic                                  3 names
+704. Geographic                              3 names
+705. Typographical Error                     3 names
+706. Haitian Creole                          3 names
+707. Tiv                                     3 names
+708. Error                                   3 names
+709. Kannada                                 3 names
+710. Cambodian                               3 names
+711. Arabic,Germanic                         3 names
+712. Indian,Japanese                         3 names
+713. French,Welsh                            3 names
+714. Arabic,Indigenous                       3 names
+715. Astrological,Spanish                    3 names
+716. Indigenous,Philippine                   3 names
+717. Arabic,Hindi                            3 names
+718. Arabic,Dutch                            3 names
+719. Contemporary,Cuban                      3 names
+720. English,Italian                         3 names
+721. Indigenous,Latin                        3 names
+722. Contemporary,Persian                    3 names
+723. Armenian,Persian                        3 names
+724. Fulani                                  3 names
+725. Arabic,Japanese                         3 names
+726. Latin,Scandinavian                      3 names
+727. English,Norse                           3 names
+728. Indian,Unknown                          3 names
+729. Hindi,Punjabi                           3 names
+730. Indigenous,Taino                        3 names
+731. Contemporary,Finnish                    3 names
+732. Indonesian,Spanish                      3 names
+733. Persian,Slavic                          3 names
+734. Danish,Norwegian                        3 names
+735. Arabic,Sanskrit                         3 names
+736. Finnish,Scandinavian                    3 names
+737. Indian,Rajasthani                       3 names
+738. Bosnian,Slavic                          3 names
+739. Hebrew,Indonesian                       3 names
+740. Arabic,Egyptian                         3 names
+741. Roman                                   3 names
+742. Russian,Ukrainian                       3 names
+743. Cultural,Indigenous                     3 names
+744. Geographical,Italian                    3 names
+745. Philippine,Spanish                      3 names
+746. Geographical,Scottish                   3 names
+747. Cultural,English                        3 names
+748. Contemporary,Swahili                    3 names
+749. Latin,Welsh                             3 names
+750. Geographical,German                     3 names
+751. Dutch,Historical                        3 names
+752. Cultural,Japanese                       3 names
+753. Chinese,Hebrew                          3 names
+754. Hebrew,Welsh                            3 names
+755. Arabic,Astronomical                     3 names
+756. Hawaiian,Maori                          3 names
+757. Cultural,Tswana                         3 names
+758. Spanish,Welsh                           3 names
+759. Bemba,Zambian                           3 names
+760. Mongolian,Turkish                       3 names
+761. Arabic,Unknown                          3 names
+762. Latin,Scottish                          3 names
+763. Chichewa,Malawi                         3 names
+764. Armenian,Hebrew                         3 names
+765. Modern,Slang                            3 names
+766. Modern,Variant of Jessica               3 names
+767. Turkic,Uzbek                            3 names
+768. Latvian,Modern                          3 names
+769. Literary,Old English                    3 names
+770. Dutch,Old English                       3 names
+771. Catalan,Modern                          3 names
+772. Modern,Variant of Stephen               3 names
+773. Modern,Possibly derived from various cultures          3 names
+774. English,Jewish                          3 names
+775. Arabic,Libyan                           3 names
+776. Historical,Welsh                        3 names
+777. Kinyarwanda,Rwandan                     3 names
+778. German,Polish                           3 names
+779. Modern,Variant of Alice                 3 names
+780. Aramaic,Biblical                        3 names
+781. Sesotho,Tswana                          3 names
+782. Azerbaijani,Turkish                     3 names
+783. Hebrew,Latin,Modern                     3 names
+784. Modern,Possibly Arabic                  3 names
+785. Greek,Philosophical                     3 names
+786. Historical,Old English                  3 names
+787. Derived from Mary,Modern                3 names
+788. French,Literary                         3 names
+789. Anglo-Saxon,Old English                 3 names
+790. Jamaican Patois                         3 names
+791. Benin,Edo                               3 names
+792. Botanical,Greek                         3 names
+793. Chewa                                   3 names
+794. Guarani,Indigenous                      3 names
+795. Historical,Indian                       3 names
+796. Indigenous American,Modern              3 names
+797. Geographical,Old English                3 names
+798. Derived from Alexander,Modern           3 names
+799. Contemporary,Possibly Indigenous          3 names
+800. French,Persian                          3 names
+801. Modern,Variant of Jocelyn               3 names
+802. Modern,Variation of Mary                3 names
+803. Cultural,Native American                3 names
+804. Armenian,Modern                         3 names
+805. Italian,Modern,Spanish                  3 names
+806. Old Norse,Scottish                      3 names
+807. Modern,Nahuatl                          3 names
+808. Contemporary,Gaming culture             3 names
+809. Contemporary,Old German                 3 names
+810. Brazilian,Modern                        3 names
+811. Burkina Faso,Mossi                      3 names
+812. Croatian                                3 names
+813. Modern,Tswana                           3 names
+814. Nepali,Tibetan                          3 names
+815. Brand name,Modern                       3 names
+816. Modern,Possibly English                 3 names
+817. Fijian                                  3 names
+818. Bambara,Malian                          3 names
+819. Chinese,Malay                           3 names
+820. Idoma                                   3 names
+821. Germanic,Polish                         3 names
+822. Contemporary,Thai                       3 names
+823. Contemporary,Xhosa                      3 names
+824. Latvian,Russian                         3 names
+825. Czech,Slovak                            3 names
+826. Asian,Japanese                          3 names
+827. Argentinian                             3 names
+828. German,Swiss                            3 names
+829. Polynesian,Tahitian                     3 names
+830. Hebrew,Lithuanian                       3 names
+831. Islamic,Malay                           3 names
+832. Ewe,Togo                                3 names
+833. Christian,English                       3 names
+834. Indonesian,Sundanese                    3 names
+835. Armenian,Greek                          3 names
+836. Mongolian,Turkic                        3 names
+837. Scientific                              3 names
+838. Bantu,Tswana                            3 names
+839. Ibo,Nigerian                            3 names
+840. Telugu                                  3 names
+841. Marathi                                 3 names
+842. Phoenician                              2 names
+843. Modern Invented                         2 names
+844. Sikh                                    2 names
+845. Pashto                                  2 names
+846. Australian                              2 names
+847. Ga                                      2 names
+848. Galician                                2 names
+849. Arabic,Bosnian                          2 names
+850. Hebrew,Indigenous                       2 names
+851. Aymara                                  2 names
+852. Southern Sotho                          2 names
+853. Fula                                    2 names
+854. Chamorro                                2 names
+855. Serbian                                 2 names
+856. Basotho                                 2 names
+857. Indonesian,Slavic                       2 names
+858. English,Hindi                           2 names
+859. Arabic,Ethiopian                        2 names
+860. Asian,Contemporary                      2 names
+861. Italian,Romanian                        2 names
+862. Latin,Medical                           2 names
+863. Bolivian,Spanish                        2 names
+864. Russian,Slavic,Ukrainian                2 names
+865. German,Scottish                         2 names
+866. Irish,Slavic                            2 names
+867. Japanese,Nigerian                       2 names
+868. Creole,Haitian                          2 names
+869. Germanic,Hungarian                      2 names
+870. Contemporary,Vietnamese                 2 names
+871. Anime,Japanese                          2 names
+872. Afghan,Pashto                           2 names
+873. Persian,Sanskrit                        2 names
+874. Cultural,Zulu                           2 names
+875. Albanian,Cultural                       2 names
+876. Panamanian,Spanish                      2 names
+877. Latin,Mythological                      2 names
+878. Hebrew,Unknown                          2 names
+879. Armenian,Historical                     2 names
+880. Geographic,Latin                        2 names
+881. Indian,Nepalese                         2 names
+882. English,Romani                          2 names
+883. Malian                                  2 names
+884. Turkic,Turkish                          2 names
+885. Finnish,Slavic                          2 names
+886. Congolese,Lingala                       2 names
+887. Babylonian,Hebrew                       2 names
+888. Aboriginal,Australian                   2 names
+889. Arabic,Indian,Persian                   2 names
+890. English,Turkish                         2 names
+891. German,Italian,Spanish                  2 names
+892. Mesopotamian,Sumerian                   2 names
+893. Georgian,Hebrew                         2 names
+894. Sanskrit,Thai                           2 names
+895. Historical,Phoenician                   2 names
+896. Irish,Persian                           2 names
+897. Egyptian,Historical                     2 names
+898. Asian,Vietnamese                        2 names
+899. Chinese,Tibetan                         2 names
+900. Geographical,Russian                    2 names
+901. Inca,Quechua                            2 names
+902. Norse,Scottish                          2 names
+903. Dutch,Indonesian                        2 names
+904. Historical,Turkic                       2 names
+905. Spanish,Surname                         2 names
+906. Arthurian,Welsh                         2 names
+907. Arabic,Astrological                     2 names
+908. Peruvian                                2 names
+909. Algonquin                               2 names
+910. Greek,Portuguese                        2 names
+911. Romanian,Unknown                        2 names
+912. Bantu,Rwandan                           2 names
+913. Latin,Portuguese,Spanish                2 names
+914. Japanese,Swahili                        2 names
+915. Romanian,Spanish                        2 names
+916. Greek,Scientific                        2 names
+917. Salish                                  2 names
+918. Italian,Literary                        2 names
+919. Greek,Literary                          2 names
+920. Astrological,Latin                      2 names
+921. Indian,Urdu                             2 names
+922. Philippine,Tagalog                      2 names
+923. Sesotho,Southern Africa                 2 names
+924. Modern,Variant of Janelle               2 names
+925. Biblical,English                        2 names
+926. Bengali,South Asian                     2 names
+927. Egyptian,Modern                         2 names
+928. Modern,Variant of Sion                  2 names
+929. Modern,Possibly derived from Spanish          2 names
+930. Indigenous Caribbean,Taino              2 names
+931. Modern,Variant of Kathleen              2 names
+932. Contemporary,English slang              2 names
+933. Modern,Variation of Aiza                2 names
+934. Scandinavian,Swedish                    2 names
+935. Cultural,Ghanaian                       2 names
+936. English,Geographic                      2 names
+937. Cultural,Malay                          2 names
+938. Modern,Possibly American                2 names
+939. Burmese,Modern                          2 names
+940. Biblical,Latin                          2 names
+941. Greek,Welsh                             2 names
+942. Ancient,Celtic                          2 names
+943. Maori,Modern                            2 names
+944. Norman,Old French                       2 names
+945. Cultural,Slavic                         2 names
+946. Combination of Hebrew and Latin,Modern          2 names
+947. Ecuadorian,Spanish                      2 names
+948. Contemporary,Indigenous Australian          2 names
+949. Cultural,Georgian                       2 names
+950. Cornish,Modern                          2 names
+951. Modern,Possibly Latin                   2 names
+952. Modern,Variation of Michael             2 names
+953. Irish,Old Gaelic                        2 names
+954. Chinese,Taiwanese                       2 names
+955. Indigenous American,Spanish             2 names
+956. Kurdish,Modern                          2 names
+957. Hebrew,Mythological                     2 names
+958. Hebrew,Swahili                          2 names
+959. Contemporary,Philippines                2 names
+960. Modern,Possibly derived from French          2 names
+961. Austrian,German                         2 names
+962. Derived from Julian,Modern              2 names
+963. Swazi,Zulu                              2 names
+964. Italian,Japanese                        2 names
+965. Modern,Variant of Daisy                 2 names
+966. Pashto,Persian                          2 names
+967. Caribbean                               2 names
+968. Argentinian,Spanish                     2 names
+969. Danish,Modern                           2 names
+970. Derived from Catherine,Modern           2 names
+971. Native American,Sioux                   2 names
+972. Modern,Variant of Jessie                2 names
+973. Cultural,Turkish                        2 names
+974. Bantu,Cameroonian                       2 names
+975. Indigenous Hawaiian                     2 names
+976. Cultural,Igbo                           2 names
+977. Bulgarian,Modern                        2 names
+978. Acronym,Modern                          2 names
+979. Modern,Possibly Spanish                 2 names
+980. Modern,Yiddish                          2 names
+981. Mexican                                 2 names
+982. Sotho,Southern Africa                   2 names
+983. Norse,Old English                       2 names
+984. Maori,New Zealand                       2 names
+985. Indian,Rajput                           2 names
+986. Japanese,Native American                2 names
+987. Hungarian,Turkish                       2 names
+988. Bemba                                   2 names
+989. Lenape,Native American                  2 names
+990. English,Modern,Spanish                  2 names
+991. Contemporary,Indonesian                 2 names
+992. Contemporary,Pop Culture                2 names
+993. Australian,Modern                       2 names
+994. Combination of Anna and Lou,Modern          2 names
+995. Derived from David,Modern               2 names
+996. Contemporary,Nickname                   2 names
+997. Modern,Variation of John                2 names
+998. Catalan,Occitan                         2 names
+999. Brazilian,Indigenous                    2 names
+1000. Ancient Near Eastern,Hebrew             2 names
+1001. Derived from Lilian,Modern              2 names
+1002. Greek,Latin,Modern                      2 names
+1003. Indigenous Indonesian                   2 names
+1004. Modern,Variant of Jacob                 2 names
+1005. Contemporary,Possible Spanish           2 names
+1006. Historical,Polish                       2 names
+1007. Dinka,Sudanese                          2 names
+1008. Germanic,Old German                     2 names
+1009. Modern,Variation of Janice              2 names
+1010. Biblical,Portuguese                     2 names
+1011. Modern,Variant of David                 2 names
+1012. Contemporary,Hungarian                  2 names
+1013. English,Toponymic                       2 names
+1014. Derived from Anthony,Modern             2 names
+1015. Modern,Variant of Joseph                2 names
+1016. Modern,Variant of Natasha               2 names
+1017. Derived from Andrew,Modern              2 names
+1018. Polish,Spanish                          2 names
+1019. Haitian,Modern                          2 names
+1020. Eastern European,Slavic                 2 names
+1021. Modern,Possibly Slavic                  2 names
+1022. Cultural,Geographical                   2 names
+1023. English,Old Germanic                    2 names
+1024. Modern,Turkic                           2 names
+1025. Filipino,Ilocano                        2 names
+1026. Modern,Variant of Monique               2 names
+1027. Modern,Variant of Christine             2 names
+1028. Italian,Sicilian                        2 names
+1029. Georgian,Modern                         2 names
+1030. Indigenous South American,Spanish          2 names
+1031. Contemporary,Possibly English           2 names
+1032. Dutch,Flemish                           2 names
+1033. Contemporary,Possibly Slavic            2 names
+1034. Norse,Slavic                            2 names
+1035. Indigenous,Polynesian                   2 names
+1036. Cultural,Yoruba                         2 names
+1037. Native American,Navajo                  2 names
+1038. Edo,Nigeria                             2 names
+1039. Modern,Variant of Janice                2 names
+1040. French,Portuguese                       2 names
+1041. Hebrew,Modern,Spanish                   2 names
+1042. Indigenous,Papua New Guinea             2 names
+1043. Belarusian,Slavic                       2 names
+1044. Kenya,Maasai                            2 names
+1045. Botanical,Italian                       2 names
+1046. British slang,Contemporary              2 names
+1047. Nahuatl,Native American                 2 names
+1048. Lithuanian,Old English                  2 names
+1049. Lithuanian,Polish                       2 names
+1050. Derived from Maximus,Modern             2 names
+1051. Ethiopian,Ge'ez                         2 names
+1052. Modern,Variation of Michelle            2 names
+1053. Literary,Modern                         2 names
+1054. Derived from Nicholas,Modern            2 names
+1055. Modern,Polynesian                       2 names
+1056. Latvian,Old Norse                       2 names
+1057. Filipino,Indigenous                     2 names
+1058. Persian,Sufi                            2 names
+1059. Derived from Hebrew,Modern              2 names
+1060. Andean,Spanish                          2 names
+1061. Contemporary,Shona                      2 names
+1062. Contemporary,Tamil                      2 names
+1063. Asian,Chinese                           2 names
+1064. Danish,German                           2 names
+1065. Geographical                            2 names
+1066. Contemporary,Urban                      2 names
+1067. Amharic,Hebrew                          2 names
+1068. Haitian                                 2 names
+1069. Cultural,Italian                        2 names
+1070. Hindi,Marathi                           2 names
+1071. Polynesian,Samoan                       2 names
+1072. Bini,Edo                                2 names
+1073. Norman                                  2 names
+1074. Brazilian                               2 names
+1075. Namibian                                2 names
+1076. Arabic,Malaysian                        2 names
+1077. Dutch,Russian                           2 names
+1078. Aboriginal                              2 names
+1079. Anglicized                              2 names
+1080. Malaysian                               2 names
+1081. Mongolian,Tibetan                       2 names
+1082. Historical,Sanskrit                     2 names
+1083. Arabic,Omani                            2 names
+1084. Urdu                                    2 names
+1085. British                                 2 names
+1086. Indigenous,Malaysian                    2 names
+1087. Kurdish,Persian                         2 names
+1088. Ethnic,Persian                          2 names
+1089. Indian,Karnataka                        2 names
+1090. Adivasi,Indian                          2 names
+1091. Benin,Fon                               2 names
+1092. Ibo                                     2 names
+1093. Indian,Naga                             2 names
+1094. Gujarat,Indian                          2 names
+1095. Native American - Zapotec               1 names
+1096. Chemical Element                        1 names
+1097. Indigenous Venezuelan                   1 names
+1098. Welsh/Arabic                            1 names
+1099. Iroquoian                               1 names
+1100. Swiss                                   1 names
+1101. Tahitian                                1 names
+1102. Japanese,Turkish                        1 names
+1103. Indigenous Philippine                   1 names
+1104. Apatani                                 1 names
+1105. Slovak                                  1 names
+1106. Phrygian                                1 names
+1107. Ge'ez                                   1 names
+1108. Babylonian                              1 names
+1109. Guanches                                1 names
+1110. Brand                                   1 names
+1111. Native South American                   1 names
+1112. Aymara,Spanish                          1 names
+1113. Akkadian                                1 names
+1114. Gothic                                  1 names
+1115. Possibly Invented                       1 names
+1116. Not applicable                          1 names
+1117. Ugandan                                 1 names
+1118. Not a recognized name                   1 names
+1119. Spanish,Turkic                          1 names
+1120. Old High German                         1 names
+1121. Mongolic                                1 names
+1122. Possibly Spanish                        1 names
+1123. Native American - Quechua               1 names
+1124. Manchu                                  1 names
+1125. Indigenous Ecuadorian                   1 names
+1126. Misprint                                1 names
+1127. Manx                                    1 names
+1128. Baltic                                  1 names
+1129. Breton,Hebrew                           1 names
+1130. Purépecha                               1 names
+1131. Rwanda                                  1 names
+1132. Kikongo                                 1 names
+1133. Possibly Slavic                         1 names
+1134. Philippine Mythology                    1 names
+1135. Tatar                                   1 names
+1136. Gogo                                    1 names
+1137. Tshiluba                                1 names
+1138. Odia                                    1 names
+1139. Taíno                                   1 names
+1140. Hawaiian,Latin                          1 names
+1141. Chichewa                                1 names
+1142. Created                                 1 names
+1143. Gurune                                  1 names
+1144. Native American - Choctaw               1 names
+1145. Irish,Jamaican                          1 names
+1146. Slavic,Traditional                      1 names
+1147. Greek,Traditional                       1 names
+1148. Arabic,Traditional                      1 names
+1149. Slavic,Turkic                           1 names
+1150. Australian,Contemporary                 1 names
+1151. Filipino,Germanic                       1 names
+1152. Hungarian,Spanish                       1 names
+1153. Mythology,Norse                         1 names
+1154. Phoenician,Spanish                      1 names
+1155. Indian,Indonesian                       1 names
+1156. Thai,Vietnamese                         1 names
+1157. Polynesian,Quechua                      1 names
+1158. Germanic,Native-American                1 names
+1159. Finnish,Turkic                          1 names
+1160. Albanian,Spanish                        1 names
+1161. Culinary,Scottish                       1 names
+1162. Indian,Odia                             1 names
+1163. Lithuanian,Sanskrit                     1 names
+1164. Ancient,Turkish                         1 names
+1165. Slavic,Welsh                            1 names
+1166. Indian,Romanian                         1 names
+1167. Filipino,Indian                         1 names
+1168. Albanian,Turkish                        1 names
+1169. Native-American,Quechua                 1 names
+1170. Indian,Irish                            1 names
+1171. Scottish,Spanish                        1 names
+1172. German,Irish                            1 names
+1173. Filipino,Korean                         1 names
+1174. Greek,Italian,Spanish                   1 names
+1175. Chinese,Dutch                           1 names
+1176. Gypsy,Romani                            1 names
+1177. Azerbaijani,Geographic                  1 names
+1178. Latvian,Spanish                         1 names
+1179. Nicaraguan,Spanish                      1 names
+1180. Namibian,Oshiwambo                      1 names
+1181. Danish,Dutch                            1 names
+1182. Berber,Contemporary                     1 names
+1183. Contemporary,Somali                     1 names
+1184. Polish,Unknown                          1 names
+1185. Hindi,Jewish                            1 names
+1186. Albanian,Persian                        1 names
+1187. Mende                                   1 names
+1188. French,Germanic,Spanish                 1 names
+1189. Latin,Turkish                           1 names
+1190. Patronymic,Spanish                      1 names
+1191. Cultural,Tibetan                        1 names
+1192. Hebrew,Thai                             1 names
+1193. Norse,Swedish                           1 names
+1194. Arabic,Jamaican                         1 names
+1195. Irish,Sanskrit                          1 names
+1196. English,Indian                          1 names
+1197. French,Geographical                     1 names
+1198. Georgian,Turkish                        1 names
+1199. Hebrew,Mexican                          1 names
+1200. Japanese,Portuguese                     1 names
+1201. Arabic,Portuguese                       1 names
+1202. Bulgarian,Serbian,Slavic                1 names
+1203. Arabic,Astronomy                        1 names
+1204. Hindi,Spanish                           1 names
+1205. Germanic,Portuguese,Spanish             1 names
+1206. Cultural,Hungarian                      1 names
+1207. Mythological,Sumerian                   1 names
+1208. Indian,Indigenous                       1 names
+1209. Slavic,Taiwanese                        1 names
+1210. Japanese,Polynesian                     1 names
+1211. Indian,Latin                            1 names
+1212. German,Native-American                  1 names
+1213. Arabic,Sudanese                         1 names
+1214. Aleut                                   1 names
+1215. Indian,Korean                           1 names
+1216. Basque,Hebrew                           1 names
+1217. Estonian,Hebrew                         1 names
+1218. Danish,Swedish                          1 names
+1219. Yaqui                                   1 names
+1220. Philippines,Tagalog                     1 names
+1221. Arabic,Polish                           1 names
+1222. Mexican,Zapotec                         1 names
+1223. Kenya,Luo                               1 names
+1224. Ladakhi,Tibetan                         1 names
+1225. Aymara,Quechua                          1 names
+1226. Filipino,Slavic                         1 names
+1227. Cultural,Tamil                          1 names
+1228. Hebrew,Ukrainian                        1 names
+1229. Acehnese,Indonesian                     1 names
+1230. Cebuano,Philippine                      1 names
+1231. Mapuche,Native-American                 1 names
+1232. Christian,Indian                        1 names
+1233. Coptic,Egyptian                         1 names
+1234. Japanese,Latin                          1 names
+1235. Mongolian,Tuvan                         1 names
+1236. Hebrew,Phoenician                       1 names
+1237. French,Gaelic                           1 names
+1238. Zambian                                 1 names
+1239. Indian,Jainism                          1 names
+1240. Albanian,Greek                          1 names
+1241. Indonesian,Minangkabau                  1 names
+1242. Hebrew,Italian,Spanish                  1 names
+1243. Hebrew,Israeli                          1 names
+1244. American,Latin                          1 names
+1245. Geographic,Spanish                      1 names
+1246. Igbo,Latin                              1 names
+1247. Caribbean,Jamaican                      1 names
+1248. Finnish,Kalevala                        1 names
+1249. Ancient,Japanese                        1 names
+1250. Chinese,Spanish                         1 names
+1251. Germanic,Portuguese                     1 names
+1252. Shona,Tsonga                            1 names
+1253. Ancient,Arabic                          1 names
+1254. English,Native-American                 1 names
+1255. Literary,Welsh                          1 names
+1256. Greek,Thai                              1 names
+1257. Arabic,Chadian                          1 names
+1258. Jamaican,Norse                          1 names
+1259. Haitian,Taino                           1 names
+1260. French,Polish                           1 names
+1261. Colombian,Venezuelan                    1 names
+1262. Celtic,Slavic                           1 names
+1263. Hungarian,Yiddish                       1 names
+1264. Andean,Quechua                          1 names
+1265. Catalan,Latin                           1 names
+1266. Unknown,Vietnamese                      1 names
+1267. Chumash                                 1 names
+1268. Spanish,Tagalog                         1 names
+1269. Cuban,Indigenous                        1 names
+1270. Indigenous,Panamanian                   1 names
+1271. Polynesian,Unknown                      1 names
+1272. Pueblo                                  1 names
+1273. Malian,Mandinka                         1 names
+1274. Japanese,Polish                         1 names
+1275. Geographical,Sanskrit                   1 names
+1276. Spanish,Visigothic                      1 names
+1277. Chinese,Manchu                          1 names
+1278. Indigenous,Venezuelan                   1 names
+1279. Jewish,Russian                          1 names
+1280. Filipino,Japanese                       1 names
+1281. Belgian,French                          1 names
+1282. Caribbean,Contemporary                  1 names
+1283. Cree                                    1 names
+1284. Dutch,Polish                            1 names
+1285. Caribbean,Spanish                       1 names
+1286. Filipino,French                         1 names
+1287. German,Mythological                     1 names
+1288. Georgian,Slavic                         1 names
+1289. Astrology,Latin                         1 names
+1290. Hebrew,Latvian                          1 names
+1291. English,Khmer                           1 names
+1292. Apache                                  1 names
+1293. French,Medieval                         1 names
+1294. Finnish,Geographic                      1 names
+1295. Akan,Twi                                1 names
+1296. Modern,Variant of Nelly                 1 names
+1297. Modern,Variant of Carmen                1 names
+1298. Combination of Rose and Nani,Modern          1 names
+1299. Modern,Possibly derived from 'Zoe'          1 names
+1300. Architectural term,English              1 names
+1301. French,Toponymic                        1 names
+1302. Created name,Modern                     1 names
+1303. Chinese,Hawaiian                        1 names
+1304. Ancient,Quechua                         1 names
+1305. Modern,Variant of Jack                  1 names
+1306. Modern,Variant of Coralie               1 names
+1307. Modern,Variation of Paulina             1 names
+1308. Greek,Indonesian                        1 names
+1309. Derived from Latin,Spanish              1 names
+1310. Indigenous,Siberian                     1 names
+1311. Modern,Variation of Julie               1 names
+1312. Spanish,Toponymic                       1 names
+1313. Arabic,Welsh                            1 names
+1314. Scottish Gaelic,Traditional             1 names
+1315. Traditional,Yoruba                      1 names
+1316. Mathematical,Modern                     1 names
+1317. American,Native American                1 names
+1318. Derived from Arvid,Modern               1 names
+1319. Contemporary,Possibly derived from Bisto brand          1 names
+1320. Derived from Johannes,Modern            1 names
+1321. Cultural,Sanskrit                       1 names
+1322. Hebrew,Historical                       1 names
+1323. Japanese,Shinto                         1 names
+1324. Modern,Variant of Katie                 1 names
+1325. Native American (Haida)                 1 names
+1326. Contemporary English                    1 names
+1327. Modern,Variation of Erica               1 names
+1328. Modern,Variant of Johanna               1 names
+1329. Combination of Dagmar and Marie,Modern          1 names
+1330. Modern,Variant of Lovita                1 names
+1331. Modern,Variant of Yasmin                1 names
+1332. Combination of Gay and Marie,Modern          1 names
+1333. English,Jewelry terminology             1 names
+1334. Archaic,English                         1 names
+1335. Modern,Variant of Nancy                 1 names
+1336. South American,Spanish                  1 names
+1337. German,Modern,Sanskrit                  1 names
+1338. Christian,Swahili                       1 names
+1339. Modern,Variation of Anneliese           1 names
+1340. Modern,Sri Lankan                       1 names
+1341. British,Old English                     1 names
+1342. Contemporary,Possibly fictional or playful creation          1 names
+1343. Modern,Possibly a creative abbreviation          1 names
+1344. Derived from Kimberley,Modern           1 names
+1345. Modern,Short form of Vincent            1 names
+1346. Derived from Chiki,Modern               1 names
+1347. Indigenous Costa Rican                  1 names
+1348. Modern,Variant of Rachel                1 names
+1349. Geographical,Romanian                   1 names
+1350. German,Old Norse                        1 names
+1351. Cultural,Korean                         1 names
+1352. Combination of Joanna and Lyn,Modern          1 names
+1353. Combination of Jan and -selle,Modern          1 names
+1354. Combination of Ex and -ael,Modern          1 names
+1355. Contemporary,Derived from 'bleach'          1 names
+1356. Contemporary,Playful or humorous origin          1 names
+1357. Contemporary,Derived from Spanish 'cafetería'          1 names
+1358. Modern,Possibly a blend of names          1 names
+1359. Contemporary,Playful nickname           1 names
+1360. Modern,Possibly a surname or playful variation          1 names
+1361. Derived from Irene,Modern               1 names
+1362. Madagascar,Malagasy                     1 names
+1363. Historical,Tamil                        1 names
+1364. Modern,Variant of William               1 names
+1365. Modern,Variant of Chanel                1 names
+1366. Modern,Variant of Ferdinand             1 names
+1367. Akan,Cultural                           1 names
+1368. Contemporary,Possibly derived from Kush          1 names
+1369. Modern,Possibly Native American          1 names
+1370. Combination of Jane and Natalie,Modern          1 names
+1371. English,Nature-inspired                 1 names
+1372. Estonian,Finnish,Greek                  1 names
+1373. Derived from Latin,Modern               1 names
+1374. Derived from Old English,Modern          1 names
+1375. Modern,Variant of Xavier                1 names
+1376. Derived from Emilia,Modern              1 names
+1377. Derived from John,Modern                1 names
+1378. Modern,Possibly derived from 'Bern'          1 names
+1379. Dagbani,Ghanaian                        1 names
+1380. Combination of John and Marie,Modern          1 names
+1381. Dutch,Old German                        1 names
+1382. Latin American,Modern                   1 names
+1383. Arabic,Middle Eastern                   1 names
+1384. Historical,Scottish                     1 names
+1385. Combination of Angel and Lynn,Modern          1 names
+1386. Derived from Magdalene,Modern           1 names
+1387. Hindi,South Asian                       1 names
+1388. Modern,Possibly derived from 'Karina'          1 names
+1389. Combination of 'Omar' and 'Aliz',Modern          1 names
+1390. Indigenous Mexican,Nahuatl              1 names
+1391. Combination of Martha and Liliana,Modern          1 names
+1392. Combination of Olga and Marie,Modern          1 names
+1393. Combination of Argyle and Lys,Modern          1 names
+1394. Modern,Sesotho                          1 names
+1395. Hebrew,Modern variant of Elise          1 names
+1396. Diminutive of Isabel,Hebrew             1 names
+1397. Irish,Variant of Francis                1 names
+1398. Modern,Variant of Jerome                1 names
+1399. Modern,Variant of Duran                 1 names
+1400. Anime,French                            1 names
+1401. Combination of Mary and Jean,Modern          1 names
+1402. Modern,Short form of Emmeline           1 names
+1403. Greek,Sanskrit                          1 names
+1404. Hebrew,Old French                       1 names
+1405. Arabic,Eritrean                         1 names
+1406. Modern,Variant of Alicia                1 names
+1407. Modern,Possibly derived from Louis          1 names
+1408. Derived from Tatiana,Modern             1 names
+1409. Combination of Louis and Jay,Modern          1 names
+1410. German,Hebrew,Modern                    1 names
+1411. Burmese,Southeast Asian                 1 names
+1412. Combination of Maria and Isabel,Spanish          1 names
+1413. Combination of Mer and Ellen,Modern          1 names
+1414. Modern,Possibly derived from 'June'          1 names
+1415. Modern,Possibly Greek                   1 names
+1416. Derived from Matthew,Modern             1 names
+1417. Combination of Elizabeth and Marie,Modern          1 names
+1418. English,Modern,Slavic                   1 names
+1419. Modern,Possibly derived from Sheena          1 names
+1420. Modern,Possibly a variant of Yanis          1 names
+1421. Modern,Variant of Jael                  1 names
+1422. Indigenous Mexican,Mayan                1 names
+1423. English,Variant of Bonnie               1 names
+1424. Balkar,Turkic                           1 names
+1425. Modern,Slavic,Spanish                   1 names
+1426. Combination of John and other names,Modern          1 names
+1427. Modern,Variant of Emmeline              1 names
+1428. Derived from 'Kris',Modern              1 names
+1429. Pakistani,Urdu                          1 names
+1430. Modern,Short form of Timothy            1 names
+1431. Derived from 'Lion',Modern              1 names
+1432. Modern,Variant of Elizabeth             1 names
+1433. American,Jewish                         1 names
+1434. Edo (Nigeria)                           1 names
+1435. Derived from Germanic,Modern            1 names
+1436. Combination of Lydia and variant suffix,Modern          1 names
+1437. Basque,French                           1 names
+1438. Derived from Nikola,Slavic              1 names
+1439. Modern,Variation of Denise              1 names
+1440. Indian,Modern,Sanskrit                  1 names
+1441. Celtic,Iberian                          1 names
+1442. Derived from Greek,Modern               1 names
+1443. Modern,Variant of Lisa                  1 names
+1444. German,Native American                  1 names
+1445. Modern,Variant of Giovanna              1 names
+1446. Indigenous Colombian,Spanish            1 names
+1447. Derived from 'Dora',Modern              1 names
+1448. Derived from 'Stacey',Modern            1 names
+1449. Derived from 'Thomas',Modern            1 names
+1450. Geographic,Persian                      1 names
+1451. Bolivian,Quechua                        1 names
+1452. Modern,Variant of Katherine             1 names
+1453. Old German,Spanish                      1 names
+1454. Old English,Toponymic                   1 names
+1455. Contemporary,Indigenous American          1 names
+1456. Modern,Variation of Alesha              1 names
+1457. Modern,Possibly derived from 'Eliana'          1 names
+1458. Arabic,Moroccan                         1 names
+1459. Arabic,Philippine                       1 names
+1460. Guamanian,Indigenous                    1 names
+1461. Sinhalese,Sri Lankan                    1 names
+1462. Modern,Variant of Joanel                1 names
+1463. Derived from Marc,Modern                1 names
+1464. Derived from George,Slavic              1 names
+1465. Derived from Valentinus,Modern          1 names
+1466. Derived from Raoul,Modern               1 names
+1467. Derived from Francis,French             1 names
+1468. Armenian,Contemporary                   1 names
+1469. Derived from Thalia,Modern              1 names
+1470. Derived from Latin 'Juvenis',Modern          1 names
+1471. Historical,Old Norse                    1 names
+1472. Greek,Mathematical                      1 names
+1473. Indigenous Caribbean,Taíno              1 names
+1474. Combination,Spanish                     1 names
+1475. Derived from 'Luna',Modern              1 names
+1476. Angelic,Hebrew                          1 names
+1477. German,Hungarian                        1 names
+1478. Derived from Charis,Modern              1 names
+1479. Indigenous,Māori                        1 names
+1480. Modern,Possibly Sanskrit                1 names
+1481. Derived from Vivian,Modern              1 names
+1482. Modern,Possibly derived from 'Kari'          1 names
+1483. Combination of Hannah and Mae,Modern          1 names
+1484. French,Modern variant of Charlotte          1 names
+1485. Modern,Variant of Derek                 1 names
+1486. Native American,St. Lawrence Iroquoian          1 names
+1487. Combination of Scandinavian and Spanish,Modern          1 names
+1488. Modern,Possibly derived from Slavic roots          1 names
+1489. Icelandic,Norse                         1 names
+1490. Hindu Mythology,Sanskrit                1 names
+1491. Combination of Jean and Jennifer,Modern          1 names
+1492. Assyrian,Modern                         1 names
+1493. Latin,Old German                        1 names
+1494. Māori                                   1 names
+1495. Nautical English                        1 names
+1496. Folklore,Germanic                       1 names
+1497. Arabic,Literary                         1 names
+1498. Geographical,Ugandan                    1 names
+1499. Cultural,Shona                          1 names
+1500. Modern,Possibly derived from May          1 names
+1501. Modern,Possibly derived from Yeril          1 names
+1502. Modern,Variation of Angela              1 names
+1503. Modern,Possibly derived from Idare          1 names
+1504. Combination of Anna and Mary,Modern          1 names
+1505. Combination of Celia and Santana,Modern          1 names
+1506. Tolkien's Elvish                        1 names
+1507. Modern,Variant of Eliana                1 names
+1508. Cultural,Latin                          1 names
+1509. Aymara,Bolivian                         1 names
+1510. Combination of Alexander and Amar,Modern          1 names
+1511. Greek,Unknown                           1 names
+1512. Derived from Virginia,Modern            1 names
+1513. Derived from Chick,Modern               1 names
+1514. Combination of Mia and Lee,Modern          1 names
+1515. Greek,Irish                             1 names
+1516. Punjabi,South Asian                     1 names
+1517. Latino,Modern                           1 names
+1518. Geographical,Indigenous Australian          1 names
+1519. Derived from Roxanne,Modern             1 names
+1520. Modern,Possibly Celtic                  1 names
+1521. Derived from Victor,Modern              1 names
+1522. Celtic,Gaelic                           1 names
+1523. Finnish,Norse                           1 names
+1524. Rapa Nui (Easter Island)                1 names
+1525. Modern,Possibly derived from Tatum          1 names
+1526. Modern,Variant of Janel                 1 names
+1527. Indigenous Filipino                     1 names
+1528. Canary Islands,Guanche                  1 names
+1529. Senegal                                 1 names
+1530. Indigenous,Nepalese                     1 names
+1531. Derived from 'Johanna',Modern           1 names
+1532. Derived from Crystal,Modern             1 names
+1533. Derived from Joel,Modern                1 names
+1534. Derived from Lucinda,Modern             1 names
+1535. Contemporary,Geographical               1 names
+1536. German,Surnames                         1 names
+1537. Indigenous Brazilian,Portuguese          1 names
+1538. Indigenous,Sanskrit                     1 names
+1539. Modern,Short form of Nazareth           1 names
+1540. Modern,Variant of Alexis                1 names
+1541. Hebrew,Japanese (Modern)                1 names
+1542. Lithuanian,Spanish                      1 names
+1543. Derived from Katie,Modern               1 names
+1544. Modern,Variant of Jessa                 1 names
+1545. Modern,Possibly derived from Romeo          1 names
+1546. Combination of Karen and Lyn,Modern          1 names
+1547. Modern,Variant of Abraham               1 names
+1548. Combination of Emily and Lou,Modern          1 names
+1549. Modern,Possibly derived from Dalí          1 names
+1550. Guaraní,Indigenous                      1 names
+1551. Derived from the name Sevan,Modern          1 names
+1552. Malaysian,Modern                        1 names
+1553. Dutch,Hebrew,Modern                     1 names
+1554. Germanic,Swedish                        1 names
+1555. Arabic,Turkic                           1 names
+1556. Modern,Variation of Priscilla           1 names
+1557. Derived from Julia,Modern               1 names
+1558. Indigenous,Nigerian                     1 names
+1559. Lao,Southeast Asian                     1 names
+1560. Modern,Variant of Gabriel               1 names
+1561. Modern,Tolkien's Elvish                 1 names
+1562. Combination of John and Andre,Modern          1 names
+1563. Diminutive of Peter,Spanish             1 names
+1564. Combination of Liam and Mar,Modern          1 names
+1565. Modern,Variant of Arthur                1 names
+1566. Combination of Jane and Frances,Modern          1 names
+1567. Spanish,Variant of Luisa                1 names
+1568. Albanian,Latin                          1 names
+1569. Hebrew/Latin,Modern                     1 names
+1570. Quenya,Tolkien's Legendarium            1 names
+1571. Combination of John and Alexander,Modern          1 names
+1572. Greek,Norse                             1 names
+1573. Indigenous Argentinian                  1 names
+1574. Modern,Short form of Nadia              1 names
+1575. Derived from Alfred,Modern              1 names
+1576. Contemporary,Derived from 'Faye'          1 names
+1577. Modern,Variant of Jason                 1 names
+1578. Combination of Mary and Cel,Modern          1 names
+1579. Modern,Variant of Maris                 1 names
+1580. Contemporary,Possibly Polynesian          1 names
+1581. Modern,Possibly French                  1 names
+1582. Modern,Xhosa                            1 names
+1583. Modern,Variant of Edward                1 names
+1584. Modern,Variant of Channel               1 names
+1585. Mapuche,Spanish                         1 names
+1586. Brazilian,German                        1 names
+1587. Modern,Possibly derived from Zora          1 names
+1588. Modern,Variant of Jon                   1 names
+1589. Dominican Republic,Taino                1 names
+1590. English,Financial terminology           1 names
+1591. Modern,Variation of Jamie               1 names
+1592. Elvish,Sindarin                         1 names
+1593. Modern,Variant of Probinus              1 names
+1594. Modern,Variant of Niels                 1 names
+1595. Combination of John and Paul,Modern          1 names
+1596. Modern,Possibly Hispanic                1 names
+1597. Albanian,Slavic                         1 names
+1598. Modern,Variation of Johanna             1 names
+1599. Modern,Variation of David               1 names
+1600. French,Military                         1 names
+1601. Derived from Trevor,Modern              1 names
+1602. Derived from various cultures,Modern          1 names
+1603. Derived from Irvin,Modern               1 names
+1604. Derived from Graciela,Modern            1 names
+1605. Estonian,Russian                        1 names
+1606. Albanian,Ancient Greek                  1 names
+1607. Tswana (Southern Africa)                1 names
+1608. English,Variant of Andrew               1 names
+1609. Modern,Possibly Scandinavian            1 names
+1610. Derived from Nancy,Modern               1 names
+1611. Modern,Variant of Katelyn               1 names
+1612. Contemporary,Possibly derived from surname          1 names
+1613. Māori,Polynesian                        1 names
+1614. Modern,Variant of Erika                 1 names
+1615. Modern,Variant of Emmanuel              1 names
+1616. Derived from Stephen,Modern             1 names
+1617. Colloquial,Spanish                      1 names
+1618. Modern,Possibly Indigenous              1 names
+1619. Argentinian,Indigenous                  1 names
+1620. Combination of Nancy and Yvette,Modern          1 names
+1621. Derived from Chad,Modern                1 names
+1622. Art,Spanish                             1 names
+1623. Modern,Possible Arabic                  1 names
+1624. Modern,Variation of Robert              1 names
+1625. Spanish,Topographical                   1 names
+1626. Anglo-Norman,Irish                      1 names
+1627. Combination of Arabic and English,Modern          1 names
+1628. Caribbean,Taino                         1 names
+1629. Brand name,Contemporary                 1 names
+1630. Ancient Roman,Italian                   1 names
+1631. Contemporary,Scandinavian               1 names
+1632. English,German,Modern                   1 names
+1633. Modern,Possibly derived from Sanskrit          1 names
+1634. Modern,Possibly derived from Kayla          1 names
+1635. Modern,Possibly derived from Nila          1 names
+1636. Portuguese,Scandinavian                 1 names
+1637. Modern,Variation of Ivan                1 names
+1638. English,Variation of Nancy              1 names
+1639. English,Occupational surname            1 names
+1640. Combination of George and Anna,Modern          1 names
+1641. Modern,Variation of Jacqueline          1 names
+1642. Modern,Possibly derived from Delilah          1 names
+1643. Danish,Dutch,German                     1 names
+1644. Combination of Leslie and Naomi,Modern          1 names
+1645. Combination of Anthony and Neil,Modern          1 names
+1646. Combination of Jennifer and Victor,Modern          1 names
+1647. Guarani,Modern                          1 names
+1648. Native American,Specifically from the Keresan language          1 names
+1649. Indigenous Panamanian                   1 names
+1650. Derived from 'Belen',Modern             1 names
+1651. English,Hebrew,Modern                   1 names
+1652. Modern,Possibly derived from 'Carter'          1 names
+1653. Derived from 'Lucia',Modern             1 names
+1654. Modern,Possibly derived from 'Giselle'          1 names
+1655. English/French,Modern                   1 names
+1656. Irish,Traditional                       1 names
+1657. Modern,Puerto Rican                     1 names
+1658. Asian,Burmese                           1 names
+1659. Civic,Spanish                           1 names
+1660. Modern,Variation of Jessica             1 names
+1661. Modern,Variation of Isabella            1 names
+1662. Latin,Variation of Mark                 1 names
+1663. Armenian,Turkish                        1 names
+1664. Modern,Variant of Israel                1 names
+1665. Modern,Variant of Melissa               1 names
+1666. English,Nautical                        1 names
+1667. Modern,Pop culture                      1 names
+1668. Contemporary,Quechua                    1 names
+1669. Biblical,French                         1 names
+1670. Combination of Andrea and -lene,Modern          1 names
+1671. German,Unknown                          1 names
+1672. Christian,Slavic                        1 names
+1673. Contemporary,Possibly Native American          1 names
+1674. Arabic,Chemistry                        1 names
+1675. Inuit,Modern                            1 names
+1676. Indigenous,Panama                       1 names
+1677. Modern,Variant of Anita                 1 names
+1678. Modern,Variant of Elisha                1 names
+1679. Contemporary,Possibly Japanese          1 names
+1680. Latin,Old High German                   1 names
+1681. Modern Hebrew                           1 names
+1682. Hebrew,Yoruba                           1 names
+1683. Bantu,Tanzanian                         1 names
+1684. Mythological,Portuguese                 1 names
+1685. English,Greek,Modern                    1 names
+1686. Polish,Ukrainian                        1 names
+1687. Indigenous American,Unknown             1 names
+1688. Modern,Variant of Adrian                1 names
+1689. Persian,Unknown                         1 names
+1690. Combination of Mary and -lin suffix,Modern          1 names
+1691. Derived from Mercury,Modern             1 names
+1692. Modern,Variant of Geoffrey              1 names
+1693. Japanese,Vietnamese                     1 names
+1694. Derived from Candy,Modern               1 names
+1695. Derived from Satara,Modern              1 names
+1696. Literary (Tolkien),Old Norse            1 names
+1697. Cultural,Phoenician                     1 names
+1698. Indigenous,Maori                        1 names
+1699. Modern,Mythological                     1 names
+1700. German,Latin,Modern                     1 names
+1701. Senegal,Wolof                           1 names
+1702. English,Japanese,Modern                 1 names
+1703. Modern,Variant of Kevin                 1 names
+1704. Frafra,Ghana                            1 names
+1705. Modern,Variant of Jimmy                 1 names
+1706. Modern,Variant of Arlene                1 names
+1707. Creative,Modern                         1 names
+1708. Hebrew,Native American                  1 names
+1709. Modern,Possibly derived from Spanish or Latin          1 names
+1710. Modern,Possibly derived from English          1 names
+1711. Derived from Biblical names,Modern          1 names
+1712. Derived from Alaric,Modern              1 names
+1713. Modern,Possibly derived from 'Zuri' meaning 'beautiful' in Swahili          1 names
+1714. Indigenous,Tupi                         1 names
+1715. Indigenous Latin American,Spanish          1 names
+1716. Irish,Native American                   1 names
+1717. Irish,Modern,Welsh                      1 names
+1718. Finnish,Maori                           1 names
+1719. Arabic,Yemeni                           1 names
+1720. German,Swedish                          1 names
+1721. Catalan,French                          1 names
+1722. Modern,Variant of Jesse                 1 names
+1723. Modern,Possibly derived from Hannah          1 names
+1724. Modern,Possibly derived from Andy          1 names
+1725. Modern,Possibly derived from Laika          1 names
+1726. Modern,Variation of Elena               1 names
+1727. Modern,Shona                            1 names
+1728. Aboriginal,Modern                       1 names
+1729. Modern,Variant of Anthony               1 names
+1730. Contemporary,Possibly Asian             1 names
+1731. Modern,Possibly Japanese                1 names
+1732. Combination of 'Jewel' and 'Mela',Modern          1 names
+1733. Historical,Turkish                      1 names
+1734. Modern,Somali                           1 names
+1735. Modern,Variation of Alicia              1 names
+1736. Derived from Scandinavian,Modern          1 names
+1737. Modern,Variant of Nicholas              1 names
+1738. Ancient Germanic,Latin                  1 names
+1739. Modern,Variant of Abigail               1 names
+1740. French,Native American                  1 names
+1741. Bihari,Indian                           1 names
+1742. Ghanaian,Nigerian                       1 names
+1743. Modern,Variant of Catherine             1 names
+1744. Modern,Southeast Asian                  1 names
+1745. Siberian,Yukaghir                       1 names
+1746. Buddhist,Chinese                        1 names
+1747. Derived from Elaina,Modern              1 names
+1748. Spanish,Variant of Miguel               1 names
+1749. Siberian,Yenisei River                  1 names
+1750. Derived from Emil,Modern                1 names
+1751. Derived from Justin,Modern              1 names
+1752. Derived from Eys,Modern                 1 names
+1753. Derived from Julie,Modern               1 names
+1754. Derived from names like Emma,Modern          1 names
+1755. Modern,Possibly derived from Adrian          1 names
+1756. Derived from Emily,Modern               1 names
+1757. Derived from Dalia,Modern               1 names
+1758. Modern,Variation of Nicola              1 names
+1759. Native American,Yakima Tribe            1 names
+1760. Modern,Variant of Giselle               1 names
+1761. Eastern European,Romanian               1 names
+1762. Burmese,Geographical                    1 names
+1763. Norwegian,Scandinavian                  1 names
+1764. K'iche',Mayan                           1 names
+1765. Combination of Anna and Elise,Modern          1 names
+1766. Modern,Possibly derived from 'Kendra'          1 names
+1767. Derived from 'Cameron',Modern           1 names
+1768. Combination of Anna and Marie,Modern          1 names
+1769. Indigenous,Pakistan                     1 names
+1770. Combination of Anthony and Anne,Modern          1 names
+1771. Old English,Old Norse                   1 names
+1772. Modern,Variant of Joey                  1 names
+1773. Modern,Variant of Aidan                 1 names
+1774. English,Variant of Charles              1 names
+1775. Modern,Variant of Keisha                1 names
+1776. Middle English,Unknown                  1 names
+1777. Indigenous North American               1 names
+1778. Aztec,Mesoamerican                      1 names
+1779. Cultural,Thai                           1 names
+1780. Andean,Aymara                           1 names
+1781. Biblical,Italian                        1 names
+1782. Combination of John and Manuel,Modern          1 names
+1783. French,Variant of Elizabeth             1 names
+1784. Arabic,Tunisian                         1 names
+1785. Contemporary,Fictional                  1 names
+1786. Cultural,Modern                         1 names
+1787. Derived from Karen,Modern               1 names
+1788. Ethiopian,Modern                        1 names
+1789. Modern,Possibly derived from Asian          1 names
+1790. Combination of John and Alex,Modern          1 names
+1791. Modern,Variation of Julia               1 names
+1792. English,Variation of Jacqueline          1 names
+1793. Contemporary,Slang/English              1 names
+1794. Modern,Variation of Alexandra           1 names
+1795. Xhosa (South Africa)                    1 names
+1796. Igbo (Nigeria)                          1 names
+1797. Yoruba (Nigeria)                        1 names
+1798. Modern,Variation of Alice               1 names
+1799. Modern,Variation of Kathleen            1 names
+1800. Jewish,Modern                           1 names
+1801. Italian,Latin,Slavic                    1 names
+1802. Contemporary,Possibly Indian            1 names
+1803. English,Sanskrit                        1 names
+1804. Combination of Anne and Rose,Modern          1 names
+1805. Combination of Mary and Celly,Modern          1 names
+1806. Lakota,Native American                  1 names
+1807. Spanish,Spanish-speaking cultures          1 names
+1808. Filipino,Philippine                     1 names
+1809. Native American,Specifically Cherokee          1 names
+1810. Modern,Variant of Michelle              1 names
+1811. French,Variant of Jeanne                1 names
+1812. Contemporary,Possibly derived from Hebrew          1 names
+1813. Indigenous Mapuche                      1 names
+1814. Derived from Trixie,Modern              1 names
+1815. Derived from Angel,Modern               1 names
+1816. Derived from James,Modern               1 names
+1817. English,Norwegian                       1 names
+1818. Hebrew,Modern,Slavic                    1 names
+1819. Indigenous Mexican,Spanish              1 names
+1820. Hebrew,Turkic                           1 names
+1821. Guyana,Indigenous                       1 names
+1822. Arabic,Christian                        1 names
+1823. Bengali,Hindu                           1 names
+1824. Modern,Variation of Joyce               1 names
+1825. Hungarian,Swedish                       1 names
+1826. Finnish,Greek                           1 names
+1827. Derived from Camila,Modern              1 names
+1828. Derived from Ernie,Modern               1 names
+1829. Derived from Dante,Modern               1 names
+1830. Modern,Variant of Jordan                1 names
+1831. French,Hebrew,Modern                    1 names
+1832. Modern,Variation of Manel               1 names
+1833. Finnish,Swahili                         1 names
+1834. Modern,Variant of Simeon                1 names
+1835. Modern,Variant of Tania                 1 names
+1836. Combination of John and Neil,Modern          1 names
+1837. Contemporary,Urban slang                1 names
+1838. Cultural,Nepali                         1 names
+1839. Modern,Variation of Elizabeth           1 names
+1840. Modern,Variation of Alexander           1 names
+1841. Dutch,Thai                              1 names
+1842. Contemporary,Maori                      1 names
+1843. Modern,Variant of Danielle              1 names
+1844. Modern,Variant of Irma                  1 names
+1845. German,Surname                          1 names
+1846. Derived from Diego,Spanish              1 names
+1847. Modern,Variant of Damian                1 names
+1848. Modern,Possibly Dutch                   1 names
+1849. Arabic,Italian                          1 names
+1850. Ancient Egyptian,Hebrew                 1 names
+1851. Modern,Variation of Joshua              1 names
+1852. Herero,Namibian                         1 names
+1853. Ancient Greek,Portuguese                1 names
+1854. English,Native American                 1 names
+1855. Mineralogy,Modern                       1 names
+1856. Chinese,Traditional                     1 names
+1857. Combination of German and Latin,Modern          1 names
+1858. Derived from Old Norse,Modern           1 names
+1859. Combination of Eve and Marie,Modern          1 names
+1860. Combination of Lucero and -itho,Modern          1 names
+1861. Modern,Variation of Hannah              1 names
+1862. Modern,Possibly derived from Iliana          1 names
+1863. Modern,Variation of Mili                1 names
+1864. Scandinavian,Spanish                    1 names
+1865. Derived from Pamela,Modern              1 names
+1866. Modern,Variant of Jamie                 1 names
+1867. Modern,Variant of Kelvin                1 names
+1868. Modern,Variant of Bernadette            1 names
+1869. Finnish,Spanish                         1 names
+1870. Ancient Near Eastern,Semitic            1 names
+1871. Contemporary,Tibetan                    1 names
+1872. Modern,Variation of Erik                1 names
+1873. Hebrew,Modern,Shakespearean             1 names
+1874. English,Short form of Liberty           1 names
+1875. Italian,Old French                      1 names
+1876. Lithuanian,Persian                      1 names
+1877. Dutch,Persian                           1 names
+1878. Hebrew,Sumerian                         1 names
+1879. Icelandic,Old Norse                     1 names
+1880. Modern,Possibly derived from 'Ken'          1 names
+1881. Derived from Amin,Modern                1 names
+1882. Puerto Rican,Taino                      1 names
+1883. Derived from 'Vincent',Modern           1 names
+1884. Modern,Variant of 'Amelia'              1 names
+1885. Derived from 'Dhamma',Modern            1 names
+1886. Modern,Swedish                          1 names
+1887. Old Norse,Slavic                        1 names
+1888. Combination of Dean and Andrew,Modern          1 names
+1889. Combination of Tia and Marie,Modern          1 names
+1890. Contemporary,Malawian                   1 names
+1891. Modern,Variation of Arianna             1 names
+1892. Irish,Japanese                          1 names
+1893. Danish,Germanic                         1 names
+1894. Pali,Sanskrit                           1 names
+1895. Combination of Alice and Jean,Modern          1 names
+1896. South Africa,Xhosa                      1 names
+1897. Middle Eastern,Persian                  1 names
+1898. Derived from 'Angel',Modern             1 names
+1899. Derived from 'Leah',Modern              1 names
+1900. Contemporary,Haitian                    1 names
+1901. Modern,Variation of Karen               1 names
+1902. Gullah,Native American                  1 names
+1903. Shangana,Tsonga                         1 names
+1904. Modern,Possibly derived from Germanic          1 names
+1905. Derived from Latin 'Amelia',Modern          1 names
+1906. Combination of 'Anne' and 'Marie',Modern          1 names
+1907. Derived from 'Augustus',Modern          1 names
+1908. Contemporary English,Modern             1 names
+1909. Arabic,Geographical                     1 names
+1910. Botswana,Modern                         1 names
+1911. Shona,Tshivenda                         1 names
+1912. Combination of Gemma and Louise,Modern          1 names
+1913. Folklore,Italian                        1 names
+1914. Dutch,Surname                           1 names
+1915. Indigenous South American,Mapuche          1 names
+1916. Kpelle,Liberian                         1 names
+1917. Modern,Possibly derived from 'Vicky'          1 names
+1918. Derived from 'Kevin',Modern             1 names
+1919. Ga,Ghanaian                             1 names
+1920. Old English,Scandinavian                1 names
+1921. Asian,Indigenous                        1 names
+1922. German,Latvian                          1 names
+1923. Australian English                      1 names
+1924. Contemporary,Zimbabwean                 1 names
+1925. Derived from Esther,Modern              1 names
+1926. Historical,Polynesian                   1 names
+1927. Derived from Joseph,Modern              1 names
+1928. Chinese,Irish                           1 names
+1929. Combination of Elizabeth and Samuel,Modern          1 names
+1930. Ancient Greek                           1 names
+1931. Derived from Santino,Modern             1 names
+1932. Contemporary,Manipuri                   1 names
+1933. Modern,Urban                            1 names
+1934. Historical,Old French                   1 names
+1935. Indigenous,Tropical                     1 names
+1936. Shangaan,Tsonga                         1 names
+1937. Modern,Variant of Joanna                1 names
+1938. Hmong,Indigenous                        1 names
+1939. Modern,Variant of Lottie                1 names
+1940. Alaskan,Native American                 1 names
+1941. Fantasy,Unknown                         1 names
+1942. Modern,Variation of Nikita              1 names
+1943. Cultural,Siberian                       1 names
+1944. Ancient Germanic                        1 names
+1945. Cuban,Modern                            1 names
+1946. Jamaican,Modern                         1 names
+1947. Akkadian,Babylonian                     1 names
+1948. Historical,Japanese                     1 names
+1949. Modern,Variant of Giovanni              1 names
+1950. Modern,Variant of Makayla               1 names
+1951. Modern,Variant of Andre                 1 names
+1952. Modern,Variant of Nadia                 1 names
+1953. Australian Aboriginal,Pitjantjatjara          1 names
+1954. Botanical,French                        1 names
+1955. Combination of Eva and Marie,Modern          1 names
+1956. Derived from Frances,Modern             1 names
+1957. Latin,Latvian                           1 names
+1958. Derived from Nils,Modern                1 names
+1959. Costa Rican,Spanish                     1 names
+1960. English,French,Modern                   1 names
+1961. Arthurian Legend,English                1 names
+1962. Modern,Variant of Jane                  1 names
+1963. Modern,Variant of Alexandra             1 names
+1964. Modern,Possibly derived from Marlon          1 names
+1965. Modern,Variation of Caitlin             1 names
+1966. Derived from Josiah,Modern              1 names
+1967. Derived from Jesse,Modern               1 names
+1968. Combination of Flora and Isabel,Spanish          1 names
+1969. Modern,Possibly derived from Ana and Yaris          1 names
+1970. Combination of Iris and Eliza,Modern          1 names
+1971. Catholic,Spanish                        1 names
+1972. Arabic,Botanical                        1 names
+1973. Caribbean,Trinidadian                   1 names
+1974. Ancient,Sumerian                        1 names
+1975. Contemporary,Latvian                    1 names
+1976. Modern,Variation of Jack                1 names
+1977. Derived from Charles,Modern             1 names
+1978. Derived from Grace,Modern               1 names
+1979. Derived from Veronica,Modern            1 names
+1980. Derived from 'homage',Modern            1 names
+1981. Native American,Quechua                 1 names
+1982. Latin,Old English                       1 names
+1983. Indigenous (possibly Native American)          1 names
+1984. Inuit,Native American                   1 names
+1985. Puerto Rican,Spanish                    1 names
+1986. Modern,Possibly invented                1 names
+1987. Malawian                                1 names
+1988. Combination of Maria and Michelle,Modern          1 names
+1989. Contemporary,Fantasy                    1 names
+1990. Modern diminutive of Jeffrey,Spanish          1 names
+1991. Diminutive of George,Spanish            1 names
+1992. Diminutive of Pan,Russian               1 names
+1993. Derived from Maria,Modern               1 names
+1994. Derived from Guadalupe,Spanish          1 names
+1995. Lithuanian,Pagan                        1 names
+1996. Modern,Possibly derived from Finnish          1 names
+1997. Modern,Variant of Leslie                1 names
+1998. Modern,Variant of Enna                  1 names
+1999. Diminutive of Richard,Modern            1 names
+2000. Combination of Mark and Dave,Modern          1 names
+2001. Cornish,English                         1 names
+2002. Kiswahili                               1 names
+2003. Derived from Felicity,Modern            1 names
+2004. Derived from Latin 'Regina',Modern          1 names
+2005. Contemporary,Modern English             1 names
+2006. Combination of Mary and -lin,Modern          1 names
+2007. Contemporary,Derived from English 'link'          1 names
+2008. Lithuanian,Scandinavian                 1 names
+2009. Combination of Joe and Ronald,Modern          1 names
+2010. Derived from Nader,Modern               1 names
+2011. Derived from Teresa,Modern              1 names
+2012. Combination of Mary and Elyse,Modern          1 names
+2013. Chinese,Mythological                    1 names
+2014. Indonesia,Malay                         1 names
+2015. Old French,Welsh                        1 names
+2016. Czech,Modern                            1 names
+2017. Latin,Philosophical                     1 names
+2018. Christian,Italian                       1 names
+2019. Latvian,Old German                      1 names
+2020. Biblical,Persian                        1 names
+2021. Indonesian,Malaysian                    1 names
+2022. Contemporary,Possibly Pacific Islander          1 names
+2023. Combination of 'Gei' and 'Marie',Modern          1 names
+2024. Combination of 'Sharon' and 'Carline',Modern          1 names
+2025. Derived from Nicole,Modern              1 names
+2026. Latvian,Polish                          1 names
+2027. French,Russian                          1 names
+2028. Derived from Lydia,Modern               1 names
+2029. Modern,Short form of Thaddeus           1 names
+2030. Combination of Jon and Elizabeth,Modern          1 names
+2031. Latin,Russian                           1 names
+2032. Christian,Contemporary                  1 names
+2033. Hungarian,Romanian                      1 names
+2034. Cultural,Lithuanian                     1 names
+2035. Modern,Tibetan                          1 names
+2036. Derived from Peter,Modern               1 names
+2037. Arabic,Persian,South Asian              1 names
+2038. Slavic,Unknown                          1 names
+2039. Modern,Variation of Michaela            1 names
+2040. Modern,Variation of James               1 names
+2041. Contemporary,Haitian Creole             1 names
+2042. Islamic,Turkish                         1 names
+2043. Indigenous Brazilian,Tupi               1 names
+2044. Indigenous,Swahili                      1 names
+2045. Contemporary,Spanish slang              1 names
+2046. Modern,Variant of Andrew                1 names
+2047. Modern,Variant of Anne                  1 names
+2048. Modern,Scientific                       1 names
+2049. Combination of William and Gabriel,Modern          1 names
+2050. Iban,Indigenous Malaysian               1 names
+2051. Basque,Traditional                      1 names
+2052. Combination of Lain and Marie,Modern          1 names
+2053. Modern,Variation of Joan                1 names
+2054. Derived from Paul,Modern                1 names
+2055. South Africa,Venda                      1 names
+2056. Derived from Katherine,Modern           1 names
+2057. Spanish,Variant of Alejandro            1 names
+2058. Spanish,Variant of Joxemí               1 names
+2059. Combination of Jennifer and Beth,Modern          1 names
+2060. English,Gaelic                          1 names
+2061. Derived from Natalie,Modern             1 names
+2062. Derived from Arabic 'Zahra',Modern          1 names
+2063. Derived from Julio,Modern               1 names
+2064. Derived from Marlene,Modern             1 names
+2065. Hmong,Southeast Asian                   1 names
+2066. Afro-Caribbean,Cuban                    1 names
+2067. Igbo,Japanese                           1 names
+2068. Modern,Variation of Tatiana             1 names
+2069. Modern,Variation of Laura               1 names
+2070. Greek,Phoenician                        1 names
+2071. Portuguese,Slavic                       1 names
+2072. Combination of English and Latin,Modern          1 names
+2073. Indigenous,Mesoamerican                 1 names
+2074. Modern,Variant of Anna                  1 names
+2075. Modern,Sotho                            1 names
+2076. Indigenous Peruvian,Quechua             1 names
+2077. Native American,Washoe                  1 names
+2078. Modern,Variation of Alyssa              1 names
+2079. Modern,Scottish Gaelic                  1 names
+2080. Eastern European,Latvian                1 names
+2081. Chinese,Indian                          1 names
+2082. Contemporary,Possibly Spanish           1 names
+2083. Irish,Lithuanian                        1 names
+2084. Norse,Old Germanic                      1 names
+2085. Burmese,Sanskrit                        1 names
+2086. Ancient,Phoenician                      1 names
+2087. Modern,Possible Indian                  1 names
+2088. Modern,Possible Spanish                 1 names
+2089. Modern,Variation of George              1 names
+2090. Contemporary,Derived from Italian          1 names
+2091. Aramaic,Syriac                          1 names
+2092. Contemporary,Possibly Latin-derived          1 names
+2093. Contemporary,Possibly Spanish-derived          1 names
+2094. Derived from Angela,Modern              1 names
+2095. Fijian,Indigenous                       1 names
+2096. Argentinian,Mapuche                     1 names
+2097. Kenyan,Luo                              1 names
+2098. Buddhist,Thai                           1 names
+2099. Akkadian,Assyrian                       1 names
+2100. Contemporary,Malaysian                  1 names
+2101. Czech,German                            1 names
+2102. Celtic,Gaulish                          1 names
+2103. Contemporary,Nahuatl                    1 names
+2104. Hebrew,Igbo                             1 names
+2105. Cultural,Uruguayan                      1 names
+2106. Dutch,Estonian                          1 names
+2107. Astronomy,Latin                         1 names
+2108. Informal                                1 names
+2109. Australian,Geographical                 1 names
+2110. Ancient,Babylonian                      1 names
+2111. Chinese,Thai                            1 names
+2112. English,Surnames                        1 names
+2113. Burmese,Thai                            1 names
+2114. Chicano,Mexican                         1 names
+2115. Hungarian,Japanese                      1 names
+2116. Historical,Lithuanian                   1 names
+2117. Acronym                                 1 names
+2118. Nickname                                1 names
+2119. Internet                                1 names
+2120. Maasai,Swahili                          1 names
+2121. Astronomy,Contemporary                  1 names
+2122. European,Latvian                        1 names
+2123. Sindarin                                1 names
+2124. Assyrian,Hebrew                         1 names
+2125. Gothic,Spanish                          1 names
+2126. French,Turkish                          1 names
+2127. Arabic,Tatar                            1 names
+2128. Angolan                                 1 names
+2129. Asturian,Spanish                        1 names
+2130. Latin,Unknown                           1 names
+2131. Asian,Hmong                             1 names
+2132. Ewe,Nigerian                            1 names
+2133. Chinese,Italian                         1 names
+2134. Literary,Scottish                       1 names
+2135. Ainu                                    1 names
+2136. Indian,Rajasthan                        1 names
+2137. Korean,Traditional                      1 names
+2138. Ecuadorian,Quechua                      1 names
+2139. Guatemalan,Spanish                      1 names
+2140. Ghana                                   1 names
+2141. Iban,Malay                              1 names
+2142. Finnish,German                          1 names
+2143. Latin,Swedish                           1 names
+2144. Germanic,Italian,Spanish                1 names
+2145. Ecuadorian,Indigenous                   1 names
+2146. Uzbek                                   1 names
+2147. Combination                             1 names
+2148. Balkan,Turkish                          1 names
+2149. Japanese,Scandinavian                   1 names
+2150. Folklore,German                         1 names
+2151. Chinese,Portuguese                      1 names
+2152. Latin,Literary                          1 names
+2153. Natural                                 1 names
+2154. Finnish,Mythological                    1 names
+2155. Geographical,Lithuanian                 1 names
+2156. Cypriot,Greek                           1 names
+2157. Caucasian,Ossetian                      1 names
+2158. Arabic,Uzbek                            1 names
+2159. Bantu,Congolese                         1 names
+2160. Contemporary,Punjabi                    1 names
+2161. Vodou                                   1 names
+2162. Belarusian,Greek                        1 names
+2163. Burmese,Contemporary                    1 names
+2164. Twi                                     1 names
+2165. Latvian,Norse                           1 names
+2166. English,Slang                           1 names
+2167. Breton,Celtic                           1 names
+2168. Basque,Japanese                         1 names
+2169. Estonian,Latvian                        1 names
+2170. Japanese,Maori                          1 names
+2171. Filipino,Indonesian                     1 names
+2172. Burmese,Japanese                        1 names
+2173. Indigenous,Seminole                     1 names
+2174. Traditional,Zulu                        1 names
+2175. Traditional,Xhosa                       1 names
+2176. Italian,Swiss                           1 names
+2177. Sanskrit,Tibetan                        1 names
+2178. Contemporary,Romanian                   1 names
+2179. Asian,Thai                              1 names
+2180. Bulgarian,Romanian                      1 names
+2181. Anime                                   1 names
+2182. Jewish,Slavic                           1 names
+2183. French,Romanian                         1 names
+2184. Jewish                                  1 names
+2185. Cultural,Irish                          1 names
+2186. Chile,Mapuche                           1 names
+2187. Folklore,Romanian                       1 names
+2188. French,Lithuanian                       1 names
+2189. Chilean                                 1 names
+2190. Cultural,Historical                     1 names
+2191. Greek,Lydian                            1 names
+2192. Caribbean,French                        1 names
+2193. Mesoamerican,Nahuatl                    1 names
+2194. Danish,French                           1 names
+2195. Khoisan                                 1 names
+2196. Georgian,Greek                          1 names
+2197. Bulgarian,Hebrew                        1 names
+2198. Contemporary,Scientific                 1 names
+2199. Contemporary,Turkic                     1 names
+2200. Arabic,German                           1 names
+2201. Ethiopian,Tigrinya                      1 names
+2202. Latin,Swahili                           1 names
+2203. Hebrew,Maori                            1 names
+2204. English,Medieval                        1 names
+2205. Colombian                               1 names
+2206. Egyptian,Hebrew                         1 names
+2207. Cultural,Edo                            1 names
+2208. Carthaginian,Latin                      1 names
+2209. Indian,Punjabi,Sanskrit                 1 names
+2210. Latin,Shakespearean                     1 names
+2211. Norse,Spanish                           1 names
+2212. Catalan,Italian                         1 names
+2213. Hungarian,Turkic                        1 names
+2214. Danish,English                          1 names
+2215. Galician,Portuguese                     1 names
+2216. Circassian                              1 names
+2217. Brazilian,Contemporary                  1 names
+2218. Christian,Lithuanian                    1 names
+2219. Cameroonian                             1 names
+2220. Historical,Latvian                      1 names
+2221. Contemporary,Portuguese                 1 names
+2222. Chhattisgarhi,Indian                    1 names
+2223. Japanese,Nepali                         1 names
+2224. European,Greek                          1 names
+2225. Tibetan,Unknown                         1 names
+2226. Scandinavian,Slavic                     1 names
+2227. Ancient,Persian                         1 names
+2228. Italian,Romani                          1 names
+2229. European                                1 names
+2230. Hausa,Nigeria                           1 names
+2231. Arabic,Sindhi                           1 names
+2232. Sioux                                   1 names
+2233. Shona,Tswana                            1 names
+2234. Indigenous,Naga                         1 names
+2235. Indigenous,Navajo                       1 names
+2236. Garo,Indian                             1 names
+2237. Canaanite,Hebrew                        1 names
+2238. Mexican,Purepecha                       1 names
+2239. Greek,Hellenistic                       1 names
+2240. Arawakan,Spanish                        1 names
+2241. Bantu,Shona                             1 names
+2242. Mayan,Nahuatl                           1 names
+2243. Swahili,Tanzanian                       1 names
+2244. Chewa,Nyanja                            1 names
+2245. Anime,Contemporary                      1 names
+2246. Siberian,Tungusic                       1 names
+2247. Luganda,Uganda                          1 names
+2248. Gurung,Nepalese                         1 names
+2249. Contemporary,Sindhi                     1 names
+2250. Geographical,Portuguese                 1 names
+2251. Latin,Religious                         1 names
+2252. Fon                                     1 names
+2253. Indonesian,Latin                        1 names
+2254. Athabascan                              1 names
+2255. Benin,Nigerian                          1 names
+2256. Gujarati,Hindi                          1 names
+2257. Ute                                     1 names
+2258. Indian,Sindhi                           1 names
+2259. Contemporary,Nepali                     1 names
+2260. Urhobo                                  1 names
+2261. Punjabi,Urdu                            1 names
+2262. Geographical,Indian                     1 names
+2263. Contemporary,Russian                    1 names
+2264. Hindi,Nepali                            1 names
+2265. Contemporary,Hindi,Sanskrit             1 names
+2266. Chamorro,Indigenous                     1 names
+2267. Nigerian,Unknown                        1 names
+2268. Bangladeshi                             1 names
+2269. Hindu,Marathi                           1 names
+2270. Ngas,Nigerian                           1 names
+2271. Jain,Sanskrit                           1 names
+2272. Pali                                    1 names
+2273. Hindi,Hindu                             1 names
+2274. Lao                                     1 names
+2275. Indian,Khasi                            1 names
+2276. Hindi,Indian,Sanskrit                   1 names
+
+
+═══════════════════════════════════════════════════════
+🏷️  ORIGIN GROUPS (Consolidated Groups)
+═══════════════════════════════════════════════════════
+
+  1. Unknown                            29,183 names
+  2. Other                              19,699 names
+  3. Arabic                              6,673 names
+  4. West African                        6,314 names
+  5. Spanish                             6,109 names
+  6. English                             4,954 names
+  7. Hebrew                              4,420 names
+  8. Southern African                    4,158 names
+  9. Sanskrit,Indian                     3,551 names
+ 10. African,West African                2,356 names
+ 11. African                             2,300 names
+ 12. Other,English                       2,109 names
+ 13. Chinese                             2,076 names
+ 14. Latin                               1,983 names
+ 15. Southeast Asian                     1,856 names
+ 16. Greek                               1,832 names
+ 17. Spanish,Other                       1,778 names
+ 18. Indian,Sanskrit                     1,632 names
+ 19. African,Southern African            1,544 names
+ 20. Irish                               1,248 names
+ 21. African,Other                       1,081 names
+ 22. French                              1,078 names
+ 23. English,Other                       1,041 names
+ 24. Japanese                            1,030 names
+ 25. Indian                                916 names
+ 26. Hebrew,Other                          909 names
+ 27. Sanskrit                              849 names
+ 28. Latin,Other                           825 names
+ 29. Arabic,Religious                      788 names
+ 30. Arabic,Other                          768 names
+ 31. Indigenous Americas                   713 names
+ 32. Nordic                                697 names
+ 33. Italian                               682 names
+ 34. Other,Spanish                         639 names
+ 35. Southern African,African              628 names
+ 36. Germanic                              620 names
+ 37. African,Bantu                         608 names
+ 38. Slavic                                596 names
+ 39. Persian                               562 names
+ 40. Spanish,Latin                         532 names
+ 41. Sanskrit,Religious                    531 names
+ 42. African,East African                  453 names
+ 43. East African                          395 names
+ 44. Welsh                                 384 names
+ 45. French,Other                          383 names
+ 46. Other,African                         372 names
+ 47. Greek,Other                           359 names
+ 48. Tamil,Indian                          353 names
+ 49. Spanish,Italian                       348 names
+ 50. Turkish                               339 names
+ 51. Arabic,Persian                        298 names
+ 52. Germanic,Other                        269 names
+ 53. Polynesian                            263 names
+ 54. Irish,Other                           250 names
+ 55. Other,Hebrew                          237 names
+ 56. Scottish                              228 names
+ 57. Latin,Italian                         218 names
+ 58. Korean                                212 names
+ 59. Italian,Spanish                       208 names
+ 60. Tamil                                 207 names
+ 61. Latin,Spanish                         205 names
+ 62. Basque                                204 names
+ 63. Slavic,Other                          203 names
+ 64. Hindi,Sanskrit                        203 names
+ 65. Southeast Asian,Other                 202 names
+ 66. Romance                               195 names
+ 67. Spanish,Portuguese                    192 names
+ 68. West African,African                  191 names
+ 69. Hebrew,Biblical                       191 names
+ 70. Other,French                          189 names
+ 71. Arabic,Southeast Asian                187 names
+ 72. Italian,Other                         185 names
+ 73. Dutch                                 183 names
+ 74. Other,Latin                           180 names
+ 75. Hindi,Indian                          180 names
+ 76. Indian,Other                          172 names
+ 77. Other,Arabic                          170 names
+ 78. Punjabi,Indian                        167 names
+ 79. Indian,Tamil                          163 names
+ 80. Chinese,Other                         163 names
+ 81. Indian,Hindi                          162 names
+ 82. Persian,Arabic                        161 names
+ 83. Indigenous Americas,Other             149 names
+ 84. Southern African,West African         148 names
+ 85. Japanese,Other                        145 names
+ 86. Arabic,African                        143 names
+ 87. Italian,Latin                         141 names
+ 88. Dutch,Other                           128 names
+ 89. Arabic,Hebrew                         125 names
+ 90. Portuguese                            115 names
+ 91. French,Latin                          115 names
+ 92. Other,Indian                          107 names
+ 93. Greek,Latin                           105 names
+ 94. Latin,French                          103 names
+ 95. Spanish,Descriptive                   101 names
+ 96. Bengali                               100 names
+ 97. East African,African                   97 names
+ 98. Spanish,Hebrew                         96 names
+ 99. Polish                                 94 names
+100. Persian,Other                          94 names
+101. Caucasian                              92 names
+102. Hindi                                  92 names
+103. Nordic,Other                           92 names
+104. Hungarian                              89 names
+105. Southern African,Other                 88 names
+106. Albanian                               87 names
+107. Other,Irish                            80 names
+108. Indian,Punjabi                         77 names
+109. Punjabi                                76 names
+110. Other,Greek                            76 names
+111. Hebrew,Spanish                         75 names
+112. Slavic,Russian                         73 names
+113. English,French                         71 names
+114. Middle Eastern                         70 names
+115. Indian,Telugu                          70 names
+116. Irish,Celtic                           69 names
+117. Invented                               68 names
+118. Bengali,Indian                         66 names
+119. Indigenous Americas,Latin American         65 names
+120. English,Germanic                       62 names
+121. Scottish,English                       62 names
+122. Other,Southeast Asian                  62 names
+123. Persian,Urdu                           61 names
+124. Dutch,Germanic                         60 names
+125. Russian                                59 names
+126. Spanish,Greek                          59 names
+127. Hebrew,Arabic                          59 names
+128. Other,Slavic                           59 names
+129. Polynesian,Other                       58 names
+130. Central Asian                          58 names
+131. Indian,Religious                       58 names
+132. Persian,Indian                         58 names
+133. Spanish,Basque                         57 names
+134. English,Descriptive                    57 names
+135. Welsh,Other                            57 names
+136. Latin,English                          56 names
+137. Latin,Greek                            55 names
+138. Punjabi,Religious                      55 names
+139. Scottish,Other                         54 names
+140. Spanish,Indigenous Americas            53 names
+141. Greek,Spanish                          53 names
+142. Indian,Gujarati                        52 names
+143. Other,Germanic                         51 names
+144. Spanish,Latin American                 51 names
+145. Persian,Middle Eastern                 51 names
+146. Scottish,Irish                         51 names
+147. Germanic,Dutch                         50 names
+148. West African,Other                     50 names
+149. Greek,Contemporary                     49 names
+150. Hebrew,English                         47 names
+151. French,English                         47 names
+152. Indian,Kannada                         47 names
+153. Portuguese,Other                       46 names
+154. Arabic,Indian                          45 names
+155. Sanskrit,Other                         45 names
+156. Arabic,Turkish                         43 names
+157. Spanish,Religious                      43 names
+158. Other,Indigenous Americas              43 names
+159. Irish,Scottish                         42 names
+160. Arabic,Spanish                         41 names
+161. Tibetan                                41 names
+162. Germanic,English                       40 names
+163. Bantu,African                          40 names
+164. Hebrew,French                          40 names
+165. Other,Italian                          38 names
+166. Greek,Slavic                           37 names
+167. Turkish,Arabic                         37 names
+168. Scottish,Celtic                        37 names
+169. Romance,Spanish                        36 names
+170. English,Scottish                       36 names
+171. Latin,Contemporary                     35 names
+172. Other,Dutch                            35 names
+173. French,Germanic                        34 names
+174. Bantu                                  34 names
+175. Bulgarian,Slavic                       34 names
+176. Bulgarian                              33 names
+177. English,Hebrew                         33 names
+178. Portuguese,Spanish                     33 names
+179. French,Hebrew                          33 names
+180. Slavic,Polish                          33 names
+181. Spanish,Romance                        33 names
+182. Southeast Asian,Sanskrit               32 names
+183. Latin,Religious                        31 names
+184. Basque,Spanish                         31 names
+185. Indian,Bengali                         31 names
+186. Slavic,Czech                           31 names
+187. Celtic                                 30 names
+188. Indigenous Americas,African            30 names
+189. Descriptive                            30 names
+190. Southeast Asian,Arabic                 30 names
+191. Greek,Mythological                     30 names
+192. Turkish,Other                          30 names
+193. Dutch,Hebrew                           29 names
+194. Arabic,East African                    29 names
+195. Greek,Religious                        29 names
+196. Spanish,Contemporary                   29 names
+197. Arabic,Descriptive                     29 names
+198. English,Irish                          28 names
+199. English,Greek                          28 names
+200. Other,West African                     28 names
+201. Spanish,Arabic                         27 names
+202. Hebrew,Slavic                          27 names
+203. African,Arabic                         27 names
+204. Hebrew,Religious                       27 names
+205. Sanskrit,Hindi                         27 names
+206. Indian,Marathi                         27 names
+207. Slavic,Bulgarian                       27 names
+208. Slavic,Hebrew                          26 names
+209. Japanese,African                       26 names
+210. Polish,Slavic                          26 names
+211. Slavic,Croatian                        26 names
+212. East African,Other                     26 names
+213. Aramaic                                25 names
+214. Religious                              25 names
+215. Greek,English                          25 names
+216. Chinese,Southeast Asian                25 names
+217. Other,Nordic                           25 names
+218. English,Nordic                         24 names
+219. Hebrew,African                         24 names
+220. West African,Southern African          24 names
+221. African,Indigenous Americas            23 names
+222. Germanic,Nordic                        23 names
+223. Latin,Slavic                           22 names
+224. Irish,English                          22 names
+225. Spanish,Southeast Asian                22 names
+226. Russian,Slavic                         22 names
+227. Religious,Punjabi                      22 names
+228. Other,Japanese                         22 names
+229. Other,Invented                         22 names
+230. Telugu,Indian                          22 names
+231. Czech,Slavic                           21 names
+232. Latin,Descriptive                      21 names
+233. English,Latin                          21 names
+234. Nordic,Slavic                          21 names
+235. French,Greek                           21 names
+236. Hindi,Other                            21 names
+237. Slavic,Greek                           20 names
+238. Russian,Greek                          20 names
+239. Other,Polynesian                       20 names
+240. Other,Descriptive                      20 names
+241. Middle Eastern,Contemporary            19 names
+242. Greek,French                           19 names
+243. Arabic,Urdu                            19 names
+244. Gujarati,Indian                        19 names
+245. Germanic,French                        18 names
+246. East African,Arabic                    18 names
+247. Basque,Other                           18 names
+248. Latin American,Indigenous Americas         18 names
+249. Slavic,Latin                           17 names
+250. Hebrew,Latin                           17 names
+251. Hungarian,Slavic                       17 names
+252. Nordic,Latin                           17 names
+253. Yiddish                                16 names
+254. Hebrew,Italian                         16 names
+255. Hebrew,Nordic                          16 names
+256. African,Hebrew                         16 names
+257. Spanish,Biblical                       16 names
+258. Arabic,West African                    16 names
+259. French,Spanish                         15 names
+260. Turkish,Persian                        15 names
+261. Hebrew,Indian                          15 names
+262. Arabic,Bengali                         15 names
+263. Slavic,Serbian                         15 names
+264. Dutch,Latin                            15 names
+265. Hindi,Urdu                             15 names
+266. Indigenous Americas,Spanish            14 names
+267. Latin,Nordic                           14 names
+268. Slavic,Ukrainian                       14 names
+269. Other,Welsh                            14 names
+270. Polish,Latin                           14 names
+271. Other,Chinese                          14 names
+272. English,Dutch                          13 names
+273. Spanish,French                         13 names
+274. Italian,Greek                          13 names
+275. Germanic,Yiddish                       13 names
+276. Hungarian,Other                        13 names
+277. Hebrew,Dutch                           13 names
+278. Germanic,Latin                         13 names
+279. Korean,Other                           13 names
+280. Romance,Other                          13 names
+281. Other,Religious                        13 names
+282. German                                 12 names
+283. English,Spanish                        12 names
+284. Latin,Romance                          12 names
+285. Indigenous Americas,Southeast Asian         12 names
+286. Italian,Hebrew                         12 names
+287. Greek,Italian                          12 names
+288. Persian,Turkish                        12 names
+289. Polish,Other                           12 names
+290. Japanese,Chinese                       12 names
+291. Southeast Asian,Descriptive            12 names
+292. Indian,Descriptive                     12 names
+293. Romance,Greek                          12 names
+294. Other,Contemporary                     12 names
+295. Hebrew,Germanic                        12 names
+296. Other,Southern African                 12 names
+297. Kannada,Indian                         12 names
+298. Russian,Other                          12 names
+299. English,Contemporary                   12 names
+300. English,Welsh                          11 names
+301. Chinese,Japanese                       11 names
+302. Hebrew,Greek                           11 names
+303. Welsh,English                          11 names
+304. Latin,Hebrew                           11 names
+305. Latin American                         11 names
+306. Ukrainian,Slavic                       11 names
+307. Irish,Descriptive                      11 names
+308. Tibetan,Religious                      11 names
+309. Greek,Biblical                         11 names
+310. Romance,Slavic                         11 names
+311. Hebrew,Yiddish                         11 names
+312. Biblical,Hebrew                        11 names
+313. American                               10 names
+314. Portuguese,Latin                       10 names
+315. Slavic,Nordic                          10 names
+316. Latin American,Spanish                 10 names
+317. Germanic,Contemporary                  10 names
+318. Romance,Latin                          10 names
+319. Persian,Religious                      10 names
+320. Other,Scottish                         10 names
+321. Other,Korean                           10 names
+322. Other,Unknown                          10 names
+323. Irish,French                            9 names
+324. Ukrainian                               9 names
+325. Sanskrit,Southeast Asian                9 names
+326. Japanese,Slavic                         9 names
+327. Germanic,Scottish                       9 names
+328. Spanish,Germanic                        9 names
+329. Slavic,Hungarian                        9 names
+330. Hungarian,Latin                         9 names
+331. Indian,Malayalam                        9 names
+332. Germanic,Descriptive                    9 names
+333. Nordic,Greek                            9 names
+334. Other,Portuguese                        9 names
+335. Marathi,Indian                          9 names
+336. Polish,Hebrew                           9 names
+337. Punjabi,Other                           9 names
+338. Sanskrit,Bengali                        9 names
+339. Spanish,English                         8 names
+340. English,African                         8 names
+341. Hebrew,Japanese                         8 names
+342. African,Unknown                         8 names
+343. Japanese,Spanish                        8 names
+344. Biblical                                8 names
+345. Arabic,Slavic                           8 names
+346. Southeast Asian,Chinese                 8 names
+347. Greek,Nordic                            8 names
+348. Germanic,Spanish                        8 names
+349. French,Descriptive                      8 names
+350. Italian,Contemporary                    8 names
+351. French,Contemporary                     8 names
+352. Dutch,French                            8 names
+353. Japanese,Contemporary                   8 names
+354. Nordic,Hebrew                           8 names
+355. French,Irish                            8 names
+356. Latin American,Other                    8 names
+357. Czech                                   8 names
+358. Latin,Dutch                             8 names
+359. Greek,Descriptive                       8 names
+360. West African,Descriptive                8 names
+361. Indian,Persian                          8 names
+362. Greek,Hebrew                            7 names
+363. Arabic,Contemporary                     7 names
+364. Germanic,Hebrew                         7 names
+365. Hebrew,Irish                            7 names
+366. Latin,Germanic                          7 names
+367. Romance,Descriptive                     7 names
+368. Hebrew,East African                     7 names
+369. Religious,Sanskrit                      7 names
+370. Yiddish,Hebrew                          7 names
+371. Indigenous Americas,Descriptive          7 names
+372. Italian,Descriptive                     7 names
+373. Italian,French                          7 names
+374. Bengali,Other                           7 names
+375. Persian,Descriptive                     7 names
+376. Polish,Greek                            7 names
+377. Scottish,Germanic                       7 names
+378. Other,Sanskrit                          7 names
+379. Latin,Polish                            7 names
+380. Arabic,English                          6 names
+381. English,Chinese                         6 names
+382. Japanese,Hebrew                         6 names
+383. Persian,Hebrew                          6 names
+384. Slavic,Arabic                           6 names
+385. Mythological                            6 names
+386. Japanese,Sanskrit                       6 names
+387. Slavic,Contemporary                     6 names
+388. Hebrew,Polish                           6 names
+389. Bengali,Sanskrit                        6 names
+390. Slavic,Romance                          6 names
+391. Indigenous Americas,Polynesian          6 names
+392. Celtic,French                           6 names
+393. Central Asian,Persian                   6 names
+394. Hungarian,Greek                         6 names
+395. Hebrew,Russian                          6 names
+396. Contemporary                            6 names
+397. Greek,Russian                           6 names
+398. Latin,Sanskrit                          6 names
+399. Yiddish,Religious                       6 names
+400. Latin,Italian,Spanish                   6 names
+401. Tamil,Sanskrit                          6 names
+402. Irish,Contemporary                      6 names
+403. Other,Persian                           6 names
+404. Caucasian,Other                         6 names
+405. Nordic,Germanic                         6 names
+406. Turkish,Slavic                          5 names
+407. Gujarati                                5 names
+408. African,Indian                          5 names
+409. Spanish,African                         5 names
+410. Ukrainian,Greek                         5 names
+411. Bulgarian,Greek                         5 names
+412. Italian,Slavic                          5 names
+413. French,African                          5 names
+414. Hebrew,Aramaic                          5 names
+415. Korean,Chinese                          5 names
+416. Irish,Germanic                          5 names
+417. Bengali,Arabic                          5 names
+418. Persian,Greek                           5 names
+419. Japanese,Descriptive                    5 names
+420. Tibetan,Indian                          5 names
+421. Southern African,Descriptive            5 names
+422. Bengali,Religious                       5 names
+423. Turkish,Caucasian                       5 names
+424. Turkish,Central Asian                   5 names
+425. Spanish,Mythological                    5 names
+426. Hebrew,Portuguese                       5 names
+427. Hebrew,Middle Eastern                   5 names
+428. Irish,Hebrew                            5 names
+429. Indian,Arabic                           5 names
+430. Persian,Contemporary                    5 names
+431. Persian,Central Asian                   5 names
+432. African,Descriptive                     5 names
+433. Greek,Middle Eastern                    5 names
+434. Germanic,Mythological                   5 names
+435. Scottish,Welsh                          5 names
+436. Other,Turkish                           5 names
+437. Welsh,Germanic                          5 names
+438. Germanic,Religious                      5 names
+439. English,Religious                       5 names
+440. Southeast Asian,Spanish                 5 names
+441. Albanian,Other                          5 names
+442. Southeast Asian,Indigenous Americas          5 names
+443. French,Romance                          5 names
+444. Bantu,Southern African                  5 names
+445. Southeast Asian,Japanese                5 names
+446. Other,Basque                            5 names
+447. Latin,Irish                             5 names
+448. Hungarian,Hebrew                        5 names
+449. Slavic,Indian                           5 names
+450. Southern African,Bantu                  5 names
+451. Spanish,Slavic                          4 names
+452. French,Slavic                           4 names
+453. Malayalam                               4 names
+454. Hebrew,Indigenous Americas              4 names
+455. English,Mythological                    4 names
+456. Greek,African                           4 names
+457. Arabic,Latin                            4 names
+458. Japanese,Indian                         4 names
+459. Scottish,Descriptive                    4 names
+460. Nordic,English                          4 names
+461. Malayalam,Indian                        4 names
+462. Japanese,Polynesian                     4 names
+463. Nordic,Dutch                            4 names
+464. Dutch,Nordic                            4 names
+465. Latin,Mythological                      4 names
+466. Hebrew,Southeast Asian                  4 names
+467. Scottish,Hebrew                         4 names
+468. French,Scottish                         4 names
+469. Hebrew,Sanskrit                         4 names
+470. Tamil,Religious                         4 names
+471. Germanic,Italian                        4 names
+472. Caucasian,Hebrew                        4 names
+473. Spanish,Persian                         4 names
+474. Italian,Portuguese                      4 names
+475. French,Religious                        4 names
+476. East African,Hebrew                     4 names
+477. Hebrew,Romance                          4 names
+478. Latin,Portuguese                        4 names
+479. African,Portuguese                      4 names
+480. Hebrew,Contemporary                     4 names
+481. Invented,Other                          4 names
+482. Central Asian,Other                     4 names
+483. French,Italian                          4 names
+484. Other,Mythological                      4 names
+485. French,Dutch                            4 names
+486. Descriptive,Other                       4 names
+487. Nordic,Russian                          4 names
+488. Scottish,Nordic                         4 names
+489. Indian,Tibetan                          4 names
+490. Southeast Asian,Religious               4 names
+491. English,Slavic                          3 names
+492. Latin,Arabic                            3 names
+493. English,Japanese                        3 names
+494. Turkish,Hebrew                          3 names
+495. Slavic,Spanish                          3 names
+496. Kannada                                 3 names
+497. Hebrew,Turkish                          3 names
+498. Chinese,African                         3 names
+499. Polynesian,Japanese                     3 names
+500. Sanskrit,Hebrew                         3 names
+501. Arabic,Indigenous Americas              3 names
+502. Chinese,Korean                          3 names
+503. Nordic,Mythological                     3 names
+504. Other,Latin American                    3 names
+505. Latin,Indigenous Americas               3 names
+506. Japanese,Nordic                         3 names
+507. Southeast Asian,English                 3 names
+508. Germanic,Slavic                         3 names
+509. Greek,Arabic                            3 names
+510. Caucasian,Descriptive                   3 names
+511. Chinese,Descriptive                     3 names
+512. Nordic,Spanish                          3 names
+513. French,Celtic                           3 names
+514. Persian,Slavic                          3 names
+515. Arabic,Sanskrit                         3 names
+516. African,Religious                       3 names
+517. Arabic,Nordic                           3 names
+518. Arabic,Middle Eastern                   3 names
+519. Irish,Latin                             3 names
+520. Religious,Indian                        3 names
+521. English,West African                    3 names
+522. Welsh,Irish                             3 names
+523. Dutch,Southeast Asian                   3 names
+524. Dutch,Contemporary                      3 names
+525. Scottish,French                         3 names
+526. Dutch,Spanish                           3 names
+527. Italian,Mythological                    3 names
+528. Nordic,Descriptive                      3 names
+529. Middle Eastern,Other                    3 names
+530. Welsh,Contemporary                      3 names
+531. Hebrew,Latin,Other                      3 names
+532. French,Mythological                     3 names
+533. Arabic,French                           3 names
+534. Greek,Romance                           3 names
+535. Religious,Other                         3 names
+536. Turkish,Greek                           3 names
+537. Nordic,Contemporary                     3 names
+538. Indian,Contemporary                     3 names
+539. Bantu,Other                             3 names
+540. Dutch,English                           3 names
+541. Celtic,Other                            3 names
+542. Croatian                                3 names
+543. Descriptive,African                     3 names
+544. Latin,Hungarian                         3 names
+545. Polynesian,Descriptive                  3 names
+546. Hindi,Bengali                           3 names
+547. Punjabi,Sanskrit                        3 names
+548. Telugu                                  3 names
+549. Marathi                                 3 names
+550. Swahili                                 2 names
+551. Scandinavian                            2 names
+552. Hawaiian                                2 names
+553. Native American                         2 names
+554. Modern English                          2 names
+555. Sanskrit,Slavic                         2 names
+556. Japanese,English                        2 names
+557. Serbian                                 2 names
+558. Hindi,English                           2 names
+559. African,English                         2 names
+560. Aramaic,Hebrew                          2 names
+561. Greek,Polish                            2 names
+562. Chinese,English                         2 names
+563. French,Arabic                           2 names
+564. Arabic,Hindi                            2 names
+565. African,Southeast Asian                 2 names
+566. Portuguese,African                      2 names
+567. Caucasian,Persian                       2 names
+568. Romance,Italian                         2 names
+569. English,Arabic                          2 names
+570. Romance,Hebrew                          2 names
+571. Southeast Asian,African                 2 names
+572. Hindi,Persian                           2 names
+573. Slavic,Irish                            2 names
+574. Japanese,West African                   2 names
+575. Hindi,Punjabi                           2 names
+576. Greek,Turkish                           2 names
+577. Sanskrit,Punjabi                        2 names
+578. Hindi,Religious                         2 names
+579. Albanian,Descriptive                    2 names
+580. Japanese,Korean                         2 names
+581. Caucasian,Contemporary                  2 names
+582. Japanese,Southeast Asian                2 names
+583. Sanskrit,Japanese                       2 names
+584. Indian,Indigenous Americas              2 names
+585. Greek,Germanic                          2 names
+586. English,Persian                         2 names
+587. Ukrainian,Russian                       2 names
+588. Urdu,Persian                            2 names
+589. Persian,Irish                           2 names
+590. Persian,Hindi                           2 names
+591. Russian,Descriptive                     2 names
+592. Central Asian,Contemporary              2 names
+593. Greek,Portuguese                        2 names
+594. Welsh,Mythological                      2 names
+595. Southeast Asian,Greek                   2 names
+596. Spanish,Portuguese,Latin                2 names
+597. Slavic,Sanskrit                         2 names
+598. Croatian,Slavic                         2 names
+599. Germanic,Greek                          2 names
+600. Indian,Urdu                             2 names
+601. Latin,Scottish                          2 names
+602. Other,Romance                           2 names
+603. Arabic,Japanese                         2 names
+604. Hebrew,Chinese                          2 names
+605. Latin,Biblical                          2 names
+606. Slavic,Descriptive                      2 names
+607. Nordic,Japanese                         2 names
+608. Other,Celtic                            2 names
+609. Other,Hindi                             2 names
+610. Contemporary,Hebrew                     2 names
+611. Hebrew,Mythological                     2 names
+612. Germanic,Polish                         2 names
+613. Dutch,Greek                             2 names
+614. Latin,Welsh                             2 names
+615. Dutch,Arabic                            2 names
+616. Turkish,Descriptive                     2 names
+617. Bulgarian,Other                         2 names
+618. Other,Punjabi                           2 names
+619. Other,Yiddish                           2 names
+620. Indigenous Americas,Southern African          2 names
+621. Japanese,Indigenous Americas            2 names
+622. Other,Albanian                          2 names
+623. Slavic,Religious                        2 names
+624. Bengali,Hindi                           2 names
+625. African,Polynesian                      2 names
+626. Polish,Contemporary                     2 names
+627. East African,Bantu                      2 names
+628. Portuguese,Biblical                     2 names
+629. French,Persian                          2 names
+630. Aramaic,Biblical                        2 names
+631. Spanish,Polish                          2 names
+632. Polynesian,African                      2 names
+633. African,Middle Eastern                  2 names
+634. Greek,Dutch                             2 names
+635. Italian,Spanish,Other                   2 names
+636. Nordic,Arabic                           2 names
+637. Portuguese,French                       2 names
+638. Spanish,Nordic                          2 names
+639. Hebrew,Spanish,Other                    2 names
+640. Middle Eastern,Hebrew                   2 names
+641. Other,East African                      2 names
+642. Polish,Nordic                           2 names
+643. Latin,Southeast Asian                   2 names
+644. Czech,Slovak                            2 names
+645. Other,Polish                            2 names
+646. Spanish,Irish                           2 names
+647. Tibetan,Other                           2 names
+648. Tamil,Other                             2 names
+649. Urdu,Hindi                              2 names
+650. African,Chinese                         2 names
+651. Arabic,Central Asian                    2 names
+652. Dutch,Russian                           2 names
+653. Central Asian,Tibetan                   2 names
+654. Sanskrit,Contemporary                   2 names
+655. Caucasian,Greek                         2 names
+656. Urdu                                    2 names
+657. Southern African,Contemporary           2 names
+658. Nordic,French                           2 names
+659. Greek,Caucasian                         2 names
+660. Old English                             1 names
+661. Maori                                   1 names
+662. Indian,African                          1 names
+663. Thai                                    1 names
+664. Welsh/Arabic                            1 names
+665. Igbo                                    1 names
+666. Ojibwe                                  1 names
+667. Quechua                                 1 names
+668. Australian                              1 names
+669. Australian Aboriginal                   1 names
+670. Turkic                                  1 names
+671. Iroquoian                               1 names
+672. Swiss                                   1 names
+673. Norse                                   1 names
+674. Danish                                  1 names
+675. Turkish,Japanese                        1 names
+676. Slovak                                  1 names
+677. Irish,African                           1 names
+678. Central Asian,Spanish                   1 names
+679. Slavic,English                          1 names
+680. Latin,African                           1 names
+681. Celtic,Hebrew                           1 names
+682. Latin,Polynesian                        1 names
+683. Southeast Asian,Slavic                  1 names
+684. Italian,Spanish,Latin                   1 names
+685. Welsh,French                            1 names
+686. Central Asian,Slavic                    1 names
+687. Middle Eastern,Greek                    1 names
+688. Spanish,Hungarian                       1 names
+689. Middle Eastern,Spanish                  1 names
+690. Southeast Asian,Indian                  1 names
+691. English,Italian                         1 names
+692. Japanese,Arabic                         1 names
+693. Central Asian,Nordic                    1 names
+694. Nordic,Sanskrit                         1 names
+695. Slavic,Ukrainian,Russian                1 names
+696. Contemporary,Turkish                    1 names
+697. Welsh,Slavic                            1 names
+698. Romance,Indian                          1 names
+699. Albanian,Turkish                        1 names
+700. Italian,Spanish,Greek                   1 names
+701. Dutch,Chinese                           1 names
+702. African,Greek                           1 names
+703. Persian,Sanskrit                        1 names
+704. Persian,Albanian                        1 names
+705. Spanish,French,Other                    1 names
+706. Turkish,Latin                           1 names
+707. Tibetan,Descriptive                     1 names
+708. Irish,Sanskrit                          1 names
+709. English,Indian                          1 names
+710. Japanese,Portuguese                     1 names
+711. Portuguese,Arabic                       1 names
+712. Slavic,Bulgarian,Serbian                1 names
+713. Spanish,Hindi                           1 names
+714. Spanish,Portuguese,Other                1 names
+715. Hungarian,Descriptive                   1 names
+716. Middle Eastern,Mythological             1 names
+717. Slavic,Chinese                          1 names
+718. Korean,Indian                           1 names
+719. Persian,Arabic,Indian                   1 names
+720. Hebrew,Basque                           1 names
+721. English,Turkish                         1 names
+722. Germanic,Italian,Spanish                1 names
+723. Russian,Ukrainian                       1 names
+724. Slavic,Russian,Ukrainian                1 names
+725. Tamil,Descriptive                       1 names
+726. Ukrainian,Hebrew                        1 names
+727. Japanese,Latin                          1 names
+728. Turkish,English                         1 names
+729. Tibetan,Chinese                         1 names
+730. Arabic,Persian,Indian                   1 names
+731. Irish,Welsh                             1 names
+732. Greek,Albanian                          1 names
+733. Nordic,Scottish                         1 names
+734. Hebrew,Spanish,Italian                  1 names
+735. Latin,West African                      1 names
+736. Mythological,Welsh                      1 names
+737. Chinese,Hebrew                          1 names
+738. Chinese,Spanish                         1 names
+739. Spanish,Japanese                        1 names
+740. Latin,Spanish,Italian                   1 names
+741. French,Polish                           1 names
+742. Hungarian,Yiddish                       1 names
+743. Italian,Germanic                        1 names
+744. Irish,Spanish                           1 names
+745. Bantu,East African                      1 names
+746. African,Spanish                         1 names
+747. Japanese,East African                   1 names
+748. Welsh,Hebrew                            1 names
+749. Japanese,Polish                         1 names
+750. Descriptive,Sanskrit                    1 names
+751. Sanskrit,Persian                        1 names
+752. Central Asian,Chinese                   1 names
+753. Religious,Russian                       1 names
+754. Hebrew,Persian                          1 names
+755. Descriptive,Greek                       1 names
+756. Polish,Dutch                            1 names
+757. Slavic,Caucasian                        1 names
+758. Latin American,African                  1 names
+759. English,Biblical                        1 names
+760. Chinese,Polynesian                      1 names
+761. Indigenous Americas,Contemporary          1 names
+762. Arabic,Welsh                            1 names
+763. Celtic,Contemporary                     1 names
+764. West African,Contemporary               1 names
+765. Sanskrit,Descriptive                    1 names
+766. Germanic,Sanskrit,Other                 1 names
+767. East African,Religious                  1 names
+768. Welsh,Greek                             1 names
+769. Greek,Bulgarian                         1 names
+770. Korean,Descriptive                      1 names
+771. Tamil,Contemporary                      1 names
+772. Germanic,Irish                          1 names
+773. Greek,Hungarian                         1 names
+774. Polish,Germanic                         1 names
+775. Biblical,Aramaic                        1 names
+776. Scottish,Contemporary                   1 names
+777. Portuguese,Hebrew                       1 names
+778. Spanish,Italian,Latin                   1 names
+779. Greek,Sanskrit                          1 names
+780. Hebrew,Germanic,Other                   1 names
+781. Other,English,Slavic                    1 names
+782. Other,Spanish,Slavic                    1 names
+783. Urdu,Other                              1 names
+784. Basque,French                           1 names
+785. Sanskrit,Indian,Other                   1 names
+786. Germanic,Indigenous Americas            1 names
+787. Scottish,Latin                          1 names
+788. Japanese,Italian                        1 names
+789. Sanskrit,Tamil                          1 names
+790. Germanic,Hungarian                      1 names
+791. Italian,Romance                         1 names
+792. Mythological,Arabic                     1 names
+793. Descriptive,East African                1 names
+794. Descriptive,Southern African            1 names
+795. Urdu,Arabic                             1 names
+796. Greek,Irish                             1 names
+797. Greek,Welsh                             1 names
+798. Persian,French                          1 names
+799. Sanskrit,Indigenous Americas            1 names
+800. East African,Japanese                   1 names
+801. Hebrew,Dutch,Other                      1 names
+802. Central Asian,Arabic                    1 names
+803. Hindi,Arabic                            1 names
+804. Indigenous Americas,West African          1 names
+805. Turkish,Hungarian                       1 names
+806. Latin,Albanian                          1 names
+807. Other,Spanish,Italian                   1 names
+808. Other,English,Spanish                   1 names
+809. Germanic,Welsh                          1 names
+810. Albanian,Slavic                         1 names
+811. Biblical,English                        1 names
+812. Other,English,Germanic                  1 names
+813. Portuguese,Nordic                       1 names
+814. Greek,Latin,Other                       1 names
+815. Nordic,Dutch,Germanic                   1 names
+816. Hebrew,English,Other                    1 names
+817. Slavic,Southeast Asian                  1 names
+818. French,Biblical                         1 names
+819. Hebrew,West African                     1 names
+820. Portuguese,Mythological                 1 names
+821. Other,English,Greek                     1 names
+822. Ukrainian,Polish                        1 names
+823. Other,Bengali                           1 names
+824. Spanish,Welsh                           1 names
+825. Middle Eastern,Descriptive              1 names
+826. Germanic,Latin,Other                    1 names
+827. Other,English,Japanese                  1 names
+828. Italian,Spanish,Germanic                1 names
+829. Indigenous Americas,Irish               1 names
+830. Other,Welsh,Irish                       1 names
+831. Nordic,Polynesian                       1 names
+832. Turkish,Contemporary                    1 names
+833. Indigenous Americas,French              1 names
+834. Chinese,Religious                       1 names
+835. Hungarian,Turkish                       1 names
+836. Persian,Caucasian                       1 names
+837. Dutch,African                           1 names
+838. Slavic,Germanic                         1 names
+839. Italian,Biblical                        1 names
+840. Italian,Latin,Slavic                    1 names
+841. English,Sanskrit                        1 names
+842. Contemporary,Other                      1 names
+843. Hebrew,Slavic,Other                     1 names
+844. Hebrew,Central Asian                    1 names
+845. Nordic,Hungarian                        1 names
+846. Hebrew,French,Other                     1 names
+847. Nordic,East African                     1 names
+848. Italian,Arabic                          1 names
+849. Indigenous Americas,English             1 names
+850. Chinese,Contemporary                    1 names
+851. English,Southeast Asian                 1 names
+852. English,Spanish,Other                   1 names
+853. Welsh,Spanish                           1 names
+854. Other,Tibetan                           1 names
+855. Hebrew,Mythological,Other               1 names
+856. Nordic,Persian                          1 names
+857. Dutch,Persian                           1 names
+858. Slavic,Belarusian                       1 names
+859. Irish,Japanese                          1 names
+860. Sanskrit,Pali                           1 names
+861. Dutch,Descriptive                       1 names
+862. Middle Eastern,Persian                  1 names
+863. Irish,Chinese                           1 names
+864. Slavic,French                           1 names
+865. Serbian,Slavic                          1 names
+866. Arabic,Greek                            1 names
+867. Portuguese,Italian                      1 names
+868. French,English,Other                    1 names
+869. Hebrew,Welsh                            1 names
+870. Slovak,Czech                            1 names
+871. French,Southern African                 1 names
+872. Celtic,English                          1 names
+873. Chinese,Mythological                    1 names
+874. Czech,Other                             1 names
+875. Italian,Religious                       1 names
+876. Other,Greek,Latin                       1 names
+877. Persian,Biblical                        1 names
+878. Nordic,Polish                           1 names
+879. Russian,French                          1 names
+880. Chinese,Tibetan                         1 names
+881. Russian,Latin                           1 names
+882. Hungarian,Romance                       1 names
+883. Persian,Arabic,Other                    1 names
+884. Turkish,Religious                       1 names
+885. East African,Indigenous Americas          1 names
+886. Basque,Contemporary                     1 names
+887. English,Celtic                          1 names
+888. West African,Japanese                   1 names
+889. Slavic,Portuguese                       1 names
+890. Italian,African                         1 names
+891. Chinese,Indian                          1 names
+892. Irish,Nordic                            1 names
+893. Contemporary,Middle Eastern             1 names
+894. Aramaic,Other                           1 names
+895. Punjabi,Hindi                           1 names
+896. Polynesian,Indigenous Americas          1 names
+897. Czech,Germanic                          1 names
+898. West African,Hebrew                     1 names
+899. Latin American,Descriptive              1 names
+900. Hindi,Marathi                           1 names
+901. Hungarian,Japanese                      1 names
+902. Religious,Germanic                      1 names
+903. Other,Bantu                             1 names
+904. Hebrew,Caucasian                        1 names
+905. Greek,Persian                           1 names
+906. French,Turkish                          1 names
+907. Italian,Chinese                         1 names
+908. Scottish,Mythological                   1 names
+909. Korean,Contemporary                     1 names
+910. Yiddish,Germanic                        1 names
+911. Spanish,Italian,Other                   1 names
+912. Hungarian,African                       1 names
+913. Welsh,Scottish                          1 names
+914. Portuguese,Chinese                      1 names
+915. Slavic,African                          1 names
+916. Caucasian,Central Asian                 1 names
+917. Religious,English                       1 names
+918. Belarusian,Slavic                       1 names
+919. Belarusian,Greek                        1 names
+920. Basque,Japanese                         1 names
+921. Tibetan,Sanskrit                        1 names
+922. Bulgarian,Romance                       1 names
+923. Romance,French                          1 names
+924. Descriptive,Polynesian                  1 names
+925. Descriptive,Spanish                     1 names
+926. Descriptive,Chinese                     1 names
+927. Romance,Mythological                    1 names
+928. Descriptive,Contemporary                1 names
+929. Bulgarian,Hebrew                        1 names
+930. Germanic,Arabic                         1 names
+931. East African,Latin                      1 names
+932. Hebrew,Polynesian                       1 names
+933. Sanskrit,Indian,Punjabi                 1 names
+934. Central Asian,Hungarian                 1 names
+935. Portuguese,Romance                      1 names
+936. Contemporary,Spanish                    1 names
+937. Nordic,Religious                        1 names
+938. Sanskrit,African                        1 names
+939. Persian,English                         1 names
+940. Religious,Yiddish                       1 names
+941. Indigenous Americas,Indian              1 names
+942. African,Japanese                        1 names
+943. Religious,Hebrew                        1 names
+944. African,Dutch                           1 names
+945. Other,Central Asian                     1 names
+946. Portuguese,Descriptive                  1 names
+947. Italian,Japanese                        1 names
+948. Gujarati,Hindi                          1 names
+949. Marathi,Hindi                           1 names
+950. Punjabi,Urdu                            1 names
+951. Hindi,Sanskrit,Other                    1 names
+952. Marathi,Religious                       1 names
+953. Pali                                    1 names
+954. Khasi,Indian                            1 names
+955. Indian,Hindi,Sanskrit                   1 names
+
+
+═══════════════════════════════════════════════════════
+📊 SUMMARY
+═══════════════════════════════════════════════════════
+Total Origins: 2276
+Total Origin Groups: 955
+Total Names Processed: 147,121
+
+
+═══════════════════════════════════════════════════════
+🔍 FILTER CAPSULES (Origins with > 250 names)
+═══════════════════════════════════════════════════════
+
+  1. Unknown                            43,340 names ✅
+  2. African                            11,085 names ✅
+  3. Arabic                              6,633 names ✅
+  4. Spanish                             5,585 names ✅
+  5. Indian,Sanskrit                     5,184 names ✅
+  6. English                             5,048 names ✅
+  7. Hebrew                              4,268 names ✅
+  8. Modern                              4,035 names ✅
+  9. English,Modern                      2,630 names ✅
+ 10. Latin                               2,056 names ✅
+ 11. Chinese                             1,991 names ✅
+ 12. Greek                               1,926 names ✅
+ 13. Modern,Spanish                      1,880 names ✅
+ 14. Yoruba                              1,822 names ✅
+ 15. Contemporary                        1,418 names ✅
+ 16. Tswana                              1,288 names ✅
+ 17. Irish                               1,239 names ✅
+ 18. Igbo                                1,215 names ✅
+ 19. French                              1,114 names ✅
+ 20. Germanic                            1,091 names ✅
+ 21. Hebrew,Modern                       1,086 names ✅
+ 22. Latin,Spanish                       1,063 names ✅
+ 23. Nigerian,Yoruba                     1,037 names ✅
+ 24. Japanese                            1,034 names ✅
+ 25. Sanskrit                              873 names ✅
+ 26. Arabic,Modern                         809 names ✅
+ 27. Indian                                800 names ✅
+ 28. Igbo,Nigerian                         789 names ✅
+ 29. Latin,Modern                          783 names ✅
+ 30. Arabic,Islamic                        774 names ✅
+ 31. Zulu                                  761 names ✅
+ 32. Italian                               707 names ✅
+ 33. Slavic                                603 names ✅
+ 34. Persian                               570 names ✅
+ 35. Italian,Spanish                       564 names ✅
+ 36. Akan,Ghanaian                         530 names ✅
+ 37. Hindu,Sanskrit                        521 names ✅
+ 38. Indian,Tamil                          516 names ✅
+ 39. German                                494 names ✅
+ 40. Indonesian,Malay                      480 names ✅
+ 41. Arabic,Persian                        465 names ✅
+ 42. French,Modern                         444 names ✅
+ 43. Contemporary,Modern                   443 names ✅
+ 44. Contemporary,English                  423 names ✅
+ 45. Hebrew,Spanish                        390 names ✅
+ 46. Welsh                                 385 names ✅
+ 47. Greek,Modern                          384 names ✅
+ 48. Contemporary,Spanish                  383 names ✅
+ 49. Italian,Latin                         369 names ✅
+ 50. Indonesian                            365 names ✅
+ 51. Xhosa,Zulu                            365 names ✅
+ 52. Hindi,Indian                          342 names ✅
+ 53. Turkish                               341 names ✅
+ 54. Irish,Modern                          267 names ✅
+
+📌 Total capsules shown in filter: 54
