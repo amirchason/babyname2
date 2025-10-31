@@ -1,6 +1,6 @@
 {
   "version": "2.2.0",
-  "totalNames": 152426,
+  "totalNames": 157426,
   "chunks": {
     "core": {
       "file": "names-core.json",
@@ -40,9 +40,9 @@
     "chunk5": {
       "file": "names-chunk5.json",
       "fileGz": "names-chunk5.json.gz",
-      "count": 5837,
+      "count": 10837,
       "startIndex": 146589,
-      "endIndex": 152425
+      "endIndex": 157425
     }
   }
 }
