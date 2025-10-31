@@ -208,20 +208,29 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
         toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
       } catch (error: any) {
         console.error('[AUTH] ===== LOGIN ERROR =====');
-        console.error('[AUTH] Error:', error);
+        console.error('[AUTH] Error type:', typeof error);
+        console.error('[AUTH] Error message:', error.message);
+        console.error('[AUTH] Error stack:', error.stack);
+        console.error('[AUTH] Full error object:', JSON.stringify(error, null, 2));
         toast.error(`Login failed: ${error.message}`);
         clearCache();
       }
     },
     onError: (error) => {
       console.error('[AUTH] ===== OAUTH ERROR =====');
-      console.error('[AUTH] Error:', error);
-      toast.error('Login failed. Please try again.');
+      console.error('[AUTH] Error type:', typeof error);
+      console.error('[AUTH] Error details:', error);
+      console.error('[AUTH] Error JSON:', JSON.stringify(error, null, 2));
+      console.error('[AUTH] Error properties:', Object.keys(error));
+      toast.error(`OAuth error: ${JSON.stringify(error)}`);
     },
     onNonOAuthError: (error) => {
       console.error('[AUTH] ===== NON-OAUTH ERROR =====');
-      console.error('[AUTH] Error:', error);
-      toast.error('Login error. Please try again.');
+      console.error('[AUTH] Error type:', typeof error);
+      console.error('[AUTH] Error details:', error);
+      console.error('[AUTH] Error JSON:', JSON.stringify(error, null, 2));
+      console.error('[AUTH] Error properties:', Object.keys(error));
+      toast.error(`Non-OAuth error: ${JSON.stringify(error)}`);
     },
   });
 
