@@ -128,6 +128,10 @@ const HomePage: React.FC = () => {
   }, [isFirstVisit, cachedGenderCounts.total]);
 
   // Origins are now provided by NameCacheContext (no need to recalculate)
+  // Sort origins by count (descending) for better UX
+  const sortedOrigins = useMemo(() => {
+    return [...cachedOrigins].sort((a, b) => b.count - a.count);
+  }, [cachedOrigins]);
 
   // Toggle origin selection
   const toggleOriginFilter = (origin: string) => {
@@ -1057,7 +1061,7 @@ const HomePage: React.FC = () => {
                   >
                     <p className="text-xs text-gray-600 mb-2">Filter by cultural origin</p>
                     <div className="flex flex-wrap gap-1.5 mb-2">
-                      {cachedOrigins.slice(0, 9).map(({ origin, count }) => (
+                      {sortedOrigins.slice(0, 10).map(({ origin, count }) => (
                         <button
                           key={origin}
                           onClick={() => handleOriginToggle(origin)}
@@ -1076,13 +1080,13 @@ const HomePage: React.FC = () => {
                         </button>
                       ))}
                     </div>
-                    {cachedOrigins.length > 9 && (
+                    {sortedOrigins.length > 10 && (
                       <>
                         <button
                           onClick={() => setShowOriginAccordion(!showOriginAccordion)}
                           className="w-full flex items-center justify-between px-2 py-1.5 text-xs text-purple-600 hover:bg-purple-50 rounded-lg transition-colors mb-2"
                         >
-                          <span className="font-medium">{showOriginAccordion ? 'Show Less' : `+${cachedOrigins.length - 9} More`}</span>
+                          <span className="font-medium">{showOriginAccordion ? 'Show Less' : `+${sortedOrigins.length - 10} More`}</span>
                           <ChevronDown className={`w-3.5 h-3.5 transition-transform ${showOriginAccordion ? 'rotate-180' : ''}`} />
                         </button>
                         <AnimatePresence>
@@ -1094,7 +1098,7 @@ const HomePage: React.FC = () => {
                               className="overflow-hidden"
                             >
                               <div className="flex flex-wrap gap-1.5 pt-2 border-t border-gray-100">
-                                {cachedOrigins.slice(9).map(({ origin, count }) => (
+                                {sortedOrigins.slice(10).map(({ origin, count }) => (
                                   <button
                                     key={origin}
                                     onClick={() => handleOriginToggle(origin)}
