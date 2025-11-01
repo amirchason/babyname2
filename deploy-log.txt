@@ -1,0 +1,9 @@
+
+> soulseed@0.1.0 deploy
+> export $(cat .env.local | grep VERCEL_TOKEN | xargs) && vercel --prod --archive=tgz --token=$VERCEL_TOKEN --yes
+
+Vercel CLI 48.2.9
+Retrieving project…
+Deploying teamawesomeyay/soulseed
+Uploading [--------------------] (0.0B/169.1MB)
+Error: FetchError: request to https://api.vercel.com/v2/files?teamId=team_MNGRuY0nsu6Rku94IfGMdGfn failed, reason: read ECONNABORTED

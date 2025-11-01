@@ -157,6 +157,8 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
 
   // Google OAuth login using access token flow
   const googleLogin = useGoogleLogin({
+    flow: 'implicit', // Use implicit flow to get access_token directly in popup
+    scope: 'openid email profile', // Explicitly request required scopes
     onSuccess: async (tokenResponse) => {
       console.log('[AUTH] ===== GOOGLE LOGIN SUCCESSFUL =====');
       console.log('[AUTH] Access token received');
