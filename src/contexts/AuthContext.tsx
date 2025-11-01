@@ -1,6 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
-import { GoogleOAuthProvider, useGoogleLogin, googleLogout } from '@react-oauth/google';
-import { jwtDecode } from 'jwt-decode';
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, User as FirebaseUser } from 'firebase/auth';
 import userDataService from '../services/userDataService';
 import favoritesService from '../services/favoritesService';
 import { useToast } from './ToastContext';
@@ -39,7 +38,7 @@ export const useAuth = () => {
   return context;
 };
 
-const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const [isSyncing, setIsSyncing] = useState(false);
@@ -47,80 +46,22 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
   const [showLogoutOverlay, setShowLogoutOverlay] = useState(false);
   const toast = useToast();
 
-  // Validate user data structure and format
-  const isValidUserData = useCallback((data: any): data is User => {
-    if (!data || typeof data !== 'object') return false;
-    if (typeof data.id !== 'string' || !data.id) return false;
-    if (typeof data.email !== 'string' || !data.email) return false;
-    if (typeof data.name !== 'string') return false;
-    if (typeof data.picture !== 'string') return false;
-    return true;
+  const auth = getAuth();
+
+  // Convert Firebase user to our User type
+  const convertFirebaseUser = useCallback((firebaseUser: FirebaseUser): User => {
+    return {
+      id: firebaseUser.uid,
+      email: firebaseUser.email || '',
+      name: firebaseUser.displayName || 'User',
+      picture: firebaseUser.photoURL || '',
+      isAdmin: isAdminEmail(firebaseUser.email || ''),
+    };
   }, []);
 
-  // Clear all user data and cache
-  const clearCache = useCallback(() => {
-    console.log('AuthContext: Clearing all caches...');
-    localStorage.removeItem('user');
-    localStorage.removeItem('userEmail');
-    localStorage.removeItem('google_access_token');
-    localStorage.removeItem('google_token_expiry');
-    userDataService.setUserId(null);
-    favoritesService.setUserContext(null);
-    setUser(null);
-    console.log('AuthContext: Cache cleared');
-  }, []);
-
-  // Check for existing session on mount
-  useEffect(() => {
-    console.log('AuthContext: Checking for existing session...');
-
-    const storedUser = localStorage.getItem('user');
-    const accessToken = localStorage.getItem('google_access_token');
-    const tokenExpiry = localStorage.getItem('google_token_expiry');
-
-    if (storedUser && accessToken && tokenExpiry) {
-      // Check if token is still valid
-      const expiryTime = parseInt(tokenExpiry);
-      const now = Date.now();
-
-      if (now < expiryTime) {
-        try {
-          const parsedUser = JSON.parse(storedUser);
-          if (isValidUserData(parsedUser)) {
-            console.log('AuthContext: Restored session for:', parsedUser.email);
-            setUser(parsedUser);
-            userDataService.setUserId(parsedUser.id);
-            favoritesService.setUserContext(parsedUser.id);
-          } else {
-            console.log('AuthContext: Invalid stored user data, clearing...');
-            clearCache();
-          }
-        } catch (error) {
-          console.error('AuthContext: Error parsing stored user:', error);
-          clearCache();
-        }
-      } else {
-        console.log('AuthContext: Token expired, clearing session');
-        clearCache();
-      }
-    } else {
-      console.log('AuthContext: No existing session found');
-    }
-
-    setLoading(false);
-  }, [isValidUserData, clearCache]);
-
-  // Subscribe to sync status
-  useEffect(() => {
-    const unsubscribe = userDataService.onSyncStatusChange((status) => {
-      setIsSyncing(status.isSyncing);
-      setSyncError(status.error);
-    });
-    return unsubscribe;
-  }, []);
-
+  // Load user data from cloud and merge with local
   const loadUserData = async (userId: string) => {
-    console.log('AuthContext: Loading user data for userId:', userId);
+    console.log('[AUTH] Loading user data for userId:', userId);
     try {
       setIsSyncing(true);
       setSyncError(null);
@@ -143,11 +84,11 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
         // Save merged data back to cloud
         await userDataService.saveToCloud(merged.favorites, merged.dislikes);
 
-        // Show success toast
+        console.log('[AUTH] Favorites synced successfully');
         toast.success('Favorites synced successfully!');
       }
     } catch (error) {
-      console.error('AuthContext: Error loading user data:', error);
+      console.error('[AUTH] Error loading user data:', error);
       setSyncError('Failed to sync favorites');
       toast.error('Failed to sync favorites. Your local data is safe.');
     } finally {
@@ -155,113 +96,134 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     }
   };
 
-  // Google OAuth login using access token flow
-  const googleLogin = useGoogleLogin({
-    flow: 'implicit', // Use implicit flow to get access_token directly in popup
-    scope: 'openid email profile', // Explicitly request required scopes
-    onSuccess: async (tokenResponse) => {
-      console.log('[AUTH] ===== GOOGLE LOGIN SUCCESSFUL =====');
-      console.log('[AUTH] Access token received');
+  // Clear all user data and cache
+  const clearCache = useCallback(() => {
+    console.log('[AUTH] Clearing all caches...');
+    localStorage.removeItem('user');
+    localStorage.removeItem('userEmail');
+    userDataService.setUserId(null);
+    favoritesService.setUserContext(null);
+    setUser(null);
+    console.log('[AUTH] Cache cleared');
+  }, []);
 
-      try {
-        // Store access token and expiry
-        const expiryTime = Date.now() + (tokenResponse.expires_in * 1000);
-        localStorage.setItem('google_access_token', tokenResponse.access_token);
-        localStorage.setItem('google_token_expiry', expiryTime.toString());
+  // Listen to Firebase auth state changes
+  useEffect(() => {
+    console.log('[AUTH] Setting up auth state listener...');
 
-        // Fetch user info from Google API
-        console.log('[AUTH] Fetching user info from Google...');
-        const userInfoResponse = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
-          headers: {
-            Authorization: `Bearer ${tokenResponse.access_token}`,
-          },
-        });
+    const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
+      if (firebaseUser) {
+        console.log('[AUTH] User signed in:', firebaseUser.email);
 
-        if (!userInfoResponse.ok) {
-          throw new Error('Failed to fetch user info');
-        }
+        // Convert to our User type
+        const userData = convertFirebaseUser(firebaseUser);
 
-        const userInfo = await userInfoResponse.json();
-        console.log('[AUTH] User info received:', userInfo.email);
-
-        // Create user data object
-        const userData: User = {
-          id: userInfo.sub, // Google's user ID
-          email: userInfo.email,
-          name: userInfo.name || 'User',
-          picture: userInfo.picture || '',
-          isAdmin: isAdminEmail(userInfo.email),
-        };
-
-        // Save user data
-        console.log('[AUTH] Saving user data...');
+        // Update state
         setUser(userData);
-        localStorage.setItem('user', JSON.stringify(userData));
-        localStorage.setItem('userEmail', userData.email);
 
-        // Set user ID for cloud sync
+        // Set user context for services
         userDataService.setUserId(userData.id);
         favoritesService.setUserContext(userData.id);
 
-        // Load user data from cloud
-        await loadUserData(userData.id);
-
-        console.log('[AUTH] ===== LOGIN COMPLETE =====');
-        toast.success(`Welcome back, ${userData.name.split(' ')[0]}!`);
-      } catch (error: any) {
-        console.error('[AUTH] ===== LOGIN ERROR =====');
-        console.error('[AUTH] Error type:', typeof error);
-        console.error('[AUTH] Error message:', error.message);
-        console.error('[AUTH] Error stack:', error.stack);
-        console.error('[AUTH] Full error object:', JSON.stringify(error, null, 2));
-        toast.error(`Login failed: ${error.message}`);
+        // Load user data from cloud (only if not already syncing)
+        if (!isSyncing) {
+          await loadUserData(userData.id);
+        }
+      } else {
+        console.log('[AUTH] User signed out');
         clearCache();
       }
-    },
-    onError: (error) => {
-      console.error('[AUTH] ===== OAUTH ERROR =====');
-      console.error('[AUTH] Error type:', typeof error);
-      console.error('[AUTH] Error details:', error);
-      console.error('[AUTH] Error JSON:', JSON.stringify(error, null, 2));
-      console.error('[AUTH] Error properties:', Object.keys(error));
-      toast.error(`OAuth error: ${JSON.stringify(error)}`);
-    },
-    onNonOAuthError: (error) => {
-      console.error('[AUTH] ===== NON-OAUTH ERROR =====');
-      console.error('[AUTH] Error type:', typeof error);
-      console.error('[AUTH] Error details:', error);
-      console.error('[AUTH] Error JSON:', JSON.stringify(error, null, 2));
-      console.error('[AUTH] Error properties:', Object.keys(error));
-      toast.error(`Non-OAuth error: ${JSON.stringify(error)}`);
-    },
-  });
 
-  const login = () => {
+      setLoading(false);
+    });
+
+    return () => {
+      console.log('[AUTH] Cleaning up auth state listener');
+      unsubscribe();
+    };
+  }, [auth, convertFirebaseUser, clearCache]);
+
+  // Subscribe to sync status
+  useEffect(() => {
+    const unsubscribe = userDataService.onSyncStatusChange((status) => {
+      setIsSyncing(status.isSyncing);
+      setSyncError(status.error);
+    });
+    return unsubscribe;
+  }, []);
+
+  // Login with Google using Firebase Auth
+  const login = async () => {
     console.log('[AUTH] ===== INITIATING GOOGLE LOGIN =====');
-    googleLogin();
+
+    try {
+      const provider = new GoogleAuthProvider();
+
+      // Optional: Add scopes if needed
+      provider.addScope('https://www.googleapis.com/auth/userinfo.email');
+      provider.addScope('https://www.googleapis.com/auth/userinfo.profile');
+
+      // Optional: Set custom parameters
+      provider.setCustomParameters({
+        prompt: 'select_account', // Always show account selector
+      });
+
+      console.log('[AUTH] Opening Google sign-in popup...');
+      const result = await signInWithPopup(auth, provider);
+
+      // Get the credential from the result
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      const token = credential?.accessToken;
+
+      console.log('[AUTH] ===== LOGIN SUCCESSFUL =====');
+      console.log('[AUTH] User:', result.user.email);
+      console.log('[AUTH] Access token received:', !!token);
+
+      // User data will be handled by onAuthStateChanged listener
+      toast.success(`Welcome back, ${result.user.displayName?.split(' ')[0] || 'there'}!`);
+
+    } catch (error: any) {
+      console.error('[AUTH] ===== LOGIN ERROR =====');
+      console.error('[AUTH] Error code:', error.code);
+      console.error('[AUTH] Error message:', error.message);
+      console.error('[AUTH] Full error:', error);
+
+      // Handle specific error codes
+      if (error.code === 'auth/popup-closed-by-user') {
+        toast.error('Login cancelled');
+      } else if (error.code === 'auth/popup-blocked') {
+        toast.error('Popup blocked. Please allow popups for this site.');
+      } else if (error.code === 'auth/cancelled-popup-request') {
+        console.log('[AUTH] Popup cancelled (likely due to multiple requests)');
+      } else {
+        toast.error(`Login failed: ${error.message}`);
+      }
+    }
   };
 
+  // Logout
   const logout = async () => {
-    console.log('AuthContext: Logging out...');
+    console.log('[AUTH] ===== INITIATING LOGOUT =====');
 
     // Show overlay immediately
     setShowLogoutOverlay(true);
 
     try {
-      // Clear cloud sync
+      // Sign out from Firebase
+      await signOut(auth);
+
+      // Clear services
       userDataService.setUserId(null);
       favoritesService.setUserContext(null);
 
-      // Clear Google OAuth session
-      googleLogout();
-
-      // Clear local storage
+      // Clear cache
       clearCache();
 
-      console.log('AuthContext: Logout complete');
+      console.log('[AUTH] ===== LOGOUT COMPLETE =====');
       toast.success('Logged out successfully');
-    } catch (error) {
-      console.error('AuthContext: Error during logout:', error);
+    } catch (error: any) {
+      console.error('[AUTH] ===== LOGOUT ERROR =====');
+      console.error('[AUTH] Error:', error);
       toast.error('Error during logout');
     } finally {
       // Hide overlay after a short delay
@@ -271,6 +233,7 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
     }
   };
 
+  // Manual sync
   const manualSync = async () => {
     if (!user) {
       toast.error('Please log in to sync');
@@ -287,7 +250,7 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
       await userDataService.saveToCloud(favorites, dislikes);
       toast.success('Synced successfully!');
     } catch (error: any) {
-      console.error('Manual sync error:', error);
+      console.error('[AUTH] Manual sync error:', error);
       setSyncError(error.message);
       toast.error('Sync failed');
     } finally {
@@ -309,45 +272,16 @@ const AuthProviderContent: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   if (loading) {
-    return <LoadingOverlay message="Loading..." />;
+    return <LoadingOverlay isVisible={true} message="Loading..." />;
   }
 
   return (
     <AuthContext.Provider value={value}>
       {children}
-      {showLogoutOverlay && <LogoutOverlay />}
+      <LogoutOverlay
+        isVisible={showLogoutOverlay}
+        favoritesCount={favoritesService.getFavorites().length}
+      />
     </AuthContext.Provider>
-  );
-};
-
-export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const googleClientId = process.env.REACT_APP_GOOGLE_CLIENT_ID;
-
-  if (!googleClientId) {
-    console.error('REACT_APP_GOOGLE_CLIENT_ID is not configured');
-    return (
-      <AuthContext.Provider
-        value={{
-          user: null,
-          isAuthenticated: false,
-          isAdmin: false,
-          login: () => console.error('Google Client ID not configured'),
-          logout: () => {},
-          loading: false,
-          isSyncing: false,
-          syncError: null,
-          manualSync: async () => {},
-          clearCache: () => {},
-        }}
-      >
-        {children}
-      </AuthContext.Provider>
-    );
-  }
-
-  return (
-    <GoogleOAuthProvider clientId={googleClientId}>
-      <AuthProviderContent>{children}</AuthProviderContent>
-    </GoogleOAuthProvider>
   );
 };
