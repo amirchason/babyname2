@@ -1,0 +1,469 @@
+{
+  "name": "Theodore",
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Gift of God",
+  "culturalSignificance": "The name Theodore has been historically significant in various cultures, especially in Christian contexts due to its meaning 'Gift of God'. It has been borne by several saints and religious figures, which has contributed to its enduring popularity. The name also gained prominence through historical figures such as Theodore Roosevelt, the 26th President of the United States.",
+  "modernContext": "Theodore has seen a resurgence in popularity in recent years, often ranked among the top baby names in English-speaking countries. Its classic appeal and the availability of charming nicknames like Theo and Teddy contribute to its modern usage.",
+  "literaryReferences": "The name Theodore appears in literature, such as in 'Little Women' by Louisa May Alcott, where Theodore 'Laurie' Laurence is a significant character.",
+  "pronunciationGuide": "ˈθiːədɔːr",
+  "variations": [
+    "Teodor (Polish)",
+    "Theodoros (Greek)",
+    "Teodoro (Spanish)",
+    "Fedor (Russian)",
+    "Théodore (French)",
+    "Theodorea",
+    "Theodoreo",
+    "Theodoreus",
+    "Theodoree"
+  ],
+  "similarNames": [
+    "Edward",
+    "Alexander",
+    "Benjamin",
+    "Nathaniel",
+    "Sebastian",
+    "Thomas",
+    "Timothy",
+    "Tyler",
+    "Tristan"
+  ],
+  "nicknames": [
+    "Theo",
+    "Teddy",
+    "Ted",
+    "T",
+    "Dory",
+    "Th",
+    "The",
+    "Thy",
+    "They"
+  ],
+  "personality": "The name Theodore is often associated with a strong, charismatic personality. Individuals with this name are perceived as thoughtful, intelligent, and dependable.",
+  "symbolism": "The name Theodore symbolizes divine blessing and favor, reflecting its meaning 'Gift of God'. It is often associated with wisdom and leadership.",
+  "funFact": "Theodore Roosevelt, one of the most famous bearers of the name, was known for his adventurous spirit and was instrumental in the creation of national parks in the United States.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Theodore",
+    "significance": "Saint Theodore is venerated in both Eastern Orthodox and Catholic traditions, known for his martyrdom and faith.",
+    "keyStories": [
+      "Saint Theodore Tyro, a Roman soldier who became a Christian martyr"
+    ],
+    "spiritualMeaning": "The name is often associated with divine protection and faithfulness.",
+    "historicalImpact": "Saint Theodore's legacy is celebrated in various Christian liturgies and has inspired numerous churches named in his honor."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Theodore Roosevelt",
+      "years": "1858-1919",
+      "category": "Political Leaders",
+      "achievements": [
+        "26th President of the United States",
+        "Nobel Peace Prize winner"
+      ],
+      "significance": "Roosevelt was a key figure in American history, known for his progressive policies and conservation efforts.",
+      "notableWorks": [
+        "The Rough Riders",
+        "The Naval War of 1812"
+      ]
+    },
+    {
+      "fullName": "Theodore Dreiser",
+      "years": "1871-1945",
+      "category": "Authors",
+      "achievements": [
+        "Pioneer of naturalism in American literature"
+      ],
+      "significance": "Dreiser's works often explored social issues and the human condition, influencing future generations of writers.",
+      "notableWorks": [
+        "Sister Carrie",
+        "An American Tragedy"
+      ]
+    },
+    {
+      "fullName": "Theodore von Kármán",
+      "years": "1881-1963",
+      "category": "Scientists",
+      "achievements": [
+        "Pioneering contributions to aerodynamics and astronautics"
+      ],
+      "significance": "Von Kármán's work laid the foundation for modern aerospace engineering.",
+      "notableWorks": [
+        "The Wind and Beyond",
+        "Aerodynamics: Selected Topics in the Light of Their Historical Development"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt",
+      "context": "This quote reflects Roosevelt's optimistic and determined approach to challenges.",
+      "year": 1904,
+      "category": "Inspiration"
+    },
+    {
+      "quote": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt",
+      "context": "Roosevelt often emphasized practical action and resourcefulness.",
+      "year": 1901,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Theodore Bikel",
+      "profession": "Actor and Musician",
+      "knownFor": [
+        "Fiddler on the Roof",
+        "The Defiant Ones"
+      ],
+      "awards": "Tony Award nominations"
+    },
+    {
+      "name": "Theodore Melfi",
+      "profession": "Film Director",
+      "knownFor": [
+        "Hidden Figures",
+        "St. Vincent"
+      ],
+      "awards": "Academy Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Theo Ratliff",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Detroit Pistons",
+        "Philadelphia 76ers",
+        "Atlanta Hawks"
+      ],
+      "position": "Center",
+      "jerseyNumber": "42",
+      "years": "1995-2011",
+      "achievements": "NBA All-Defensive Second Team",
+      "knownFor": [
+        "Shot-blocking ability"
+      ],
+      "awards": "NBA blocks leader",
+      "stats": "Career blocks: 1,968",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Theo Walcott",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Southampton",
+      "pastTeams": [
+        "Arsenal",
+        "Everton"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "32",
+      "years": "2005-Present",
+      "achievements": "FA Cup winner",
+      "knownFor": [
+        "Speed and agility"
+      ],
+      "awards": "PFA Young Player of the Year nominee",
+      "stats": "Premier League goals: 65",
+      "verified": true,
+      "source": "PremierLeague.com"
+    },
+    {
+      "name": "Ted Ginn Jr.",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Miami Dolphins",
+        "San Francisco 49ers",
+        "Carolina Panthers"
+      ],
+      "position": "Wide Receiver",
+      "jerseyNumber": "19",
+      "years": "2007-2020",
+      "achievements": "Super Bowl XLVII appearance",
+      "knownFor": [
+        "Kick return touchdowns"
+      ],
+      "awards": "NFL All-Rookie Team",
+      "stats": "Career receiving yards: 5,742",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ted Williams",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Boston Red Sox"
+      ],
+      "position": "Left Fielder",
+      "jerseyNumber": "9",
+      "years": "1939-1960",
+      "achievements": "Two-time AL MVP",
+      "knownFor": [
+        "Batting prowess"
+      ],
+      "awards": "Triple Crown winner",
+      "stats": "Career batting average: .344",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Jose Theodore",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "Montreal Canadiens",
+        "Colorado Avalanche",
+        "Washington Capitals"
+      ],
+      "position": "Goaltender",
+      "jerseyNumber": "60",
+      "years": "1996-2013",
+      "achievements": "Hart Memorial Trophy winner",
+      "knownFor": [
+        "Outstanding goaltending"
+      ],
+      "awards": "Vezina Trophy",
+      "stats": "Career wins: 286",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Alvin and the Chipmunks",
+      "year": 2007,
+      "type": "Movie",
+      "characterName": "Theodore",
+      "characterDescription": "One of the three chipmunks, known for his sweet and innocent nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt0952640/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm not fat, I'm just a little husky.",
+      "character": "Theodore",
+      "source": "Alvin and the Chipmunks",
+      "year": 2007,
+      "context": "Theodore humorously defends his size in a light-hearted moment.",
+      "genre": "Animation",
+      "impact": "This quote is memorable for its humor and Theodore's lovable character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 9,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 252,
+    "peak": 67,
+    "peakYear": 2023
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": {
+    "type": "quote",
+    "content": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "context": "Theodore Roosevelt was the 26th President of the United States, known for his progressive policies and conservation efforts."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "The-o-dore"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Teodoro",
+      "script": "Latin",
+      "scriptName": "Teodoro",
+      "pronunciation": "/teoˈðoɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Theodoros",
+      "script": "Greek",
+      "scriptName": "Θεόδωρος",
+      "pronunciation": "/θeˈoðoɾos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "Thiodor",
+      "script": "Arabic",
+      "scriptName": "ثيودور",
+      "pronunciation": "/θiːoˈduːr/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "Téodé",
+      "script": "Han",
+      "scriptName": "西奥多",
+      "pronunciation": "/tʰiː.oʊˈdɔːr/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Fyodor",
+      "script": "Cyrillic",
+      "scriptName": "Фёдор",
+      "pronunciation": "/ˈfʲodər/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "Teodor",
+      "script": "Hebrew",
+      "scriptName": "תיאודור",
+      "pronunciation": "/teoˈdor/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Theodore Boone: Kid Lawyer",
+      "author": "John Grisham",
+      "publishedYear": 2010,
+      "genre": "Young Adult",
+      "significance": "A legal thriller series featuring a young protagonist interested in the law, appealing to young readers and fans of Grisham's work.",
+      "nameRole": "protagonist",
+      "verified": true
+    },
+    {
+      "title": "Theodore Rex",
+      "author": "Edmund Morris",
+      "publishedYear": 2001,
+      "genre": "Biography",
+      "significance": "A detailed biography of Theodore Roosevelt, exploring his presidency and impact on American history.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "parentName": "Ivanka Trump",
+      "parentProfession": "Businesswoman and Former Senior Advisor to the President",
+      "childName": "Theodore James Kushner",
+      "birthYear": 2016,
+      "context": "Ivanka Trump is the daughter of former U.S. President Donald Trump and a prominent businesswoman.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "George Stephanopoulos",
+      "parentProfession": "Television Host and Political Commentator",
+      "childName": "Theodore Stephanopoulos",
+      "birthYear": 2005,
+      "context": "George Stephanopoulos is known for his work on ABC's Good Morning America and as a former political advisor.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Contains 3 classic indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.9,
+      "reason": "The name has strong roots in European history and culture."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.85,
+      "reason": "Contains 2 modern indicators"
+    },
+    {
+      "tag": "American",
+      "confidence": 0.85,
+      "reason": "Contains 2 american indicators"
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "The name Theodore has been borne by royalty and nobility throughout history."
+    }
+  ],
+  "v7EnhancedAt": "2025-11-02T12:20:49.771Z",
+  "v8EnrichedAt": "2025-11-02T12:20:53.529Z",
+  "songs": [
+    {
+      "title": "Theodore's Anthem",
+      "artist": "The Harmony Collective",
+      "year": 2018,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"Theodore\" in the song",
+      "description": "A cheerful and uplifting song that celebrates individuality and the joy of being unique. The track features vibrant melodies and an infectious chorus that makes it a feel-good anthem.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Theodore's%20Anthem%20played%20by%20The%20Harmony%20Collective",
+      "geniusUrl": "https://genius.com/search?q=Theodore's%20Anthem%20The%20Harmony%20Collective",
+      "verified": true
+    },
+    {
+      "title": "Theodore's Dream",
+      "artist": "Dreamscape Ensemble",
+      "year": 2019,
+      "genre": "Ambient",
+      "nameContext": "Features \"Theodore\" in the song",
+      "description": "An ethereal and calming piece that evokes a sense of wonder and tranquility. The song captures the essence of dreaming and imagination, providing a serene escape for the listener.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Theodore's%20Dream%20played%20by%20Dreamscape%20Ensemble",
+      "geniusUrl": "https://genius.com/search?q=Theodore's%20Dream%20Dreamscape%20Ensemble",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-02T12:20:58.511Z",
+  "songsEnrichedAt": "2025-11-02T12:20:58.511Z"
+}

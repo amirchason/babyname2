@@ -1,0 +1,159 @@
+{
+  "name": "Mia",
+  "gender": "female",
+  "origin": "Italian",
+  "meaning": "Mine",
+  "culturalSignificance": "Mia is a name that has been widely used across various cultures, often associated with warmth and affection due to its meaning 'mine'. It has roots in Italian and Scandinavian cultures, and has been popularized globally through media and celebrity influence.",
+  "modernContext": "Mia is a highly popular name in many English-speaking countries and has consistently ranked among the top baby names in the United States and the United Kingdom in recent years.",
+  "literaryReferences": "Mia Thermopolis, the protagonist of 'The Princess Diaries' series by Meg Cabot.",
+  "pronunciationGuide": "miːə",
+  "variations": [
+    "Mya",
+    "Maja",
+    "Miya",
+    "Miah",
+    "Mía"
+  ],
+  "similarNames": [
+    "Maya",
+    "Leah",
+    "Nia",
+    "Lia",
+    "Tia"
+  ],
+  "nicknames": [
+    "Mimi",
+    "Mimi",
+    "Mimi",
+    "Mimi",
+    "Mimi"
+  ],
+  "personality": "People named Mia are often perceived as friendly, approachable, and creative. They are thought to possess a strong sense of independence and are known for their vibrant and lively personalities.",
+  "symbolism": "The name Mia symbolizes love, belonging, and personal connection due to its meaning 'mine'. It often represents a cherished and beloved individual.",
+  "funFact": "Mia gained significant popularity after the release of the 'Princess Diaries' movies, where Anne Hathaway played the character Mia Thermopolis.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Mia Hamm",
+      "years": "1972-Present",
+      "category": "Sports",
+      "achievements": [
+        "Two-time FIFA Women's World Cup champion",
+        "Two-time Olympic gold medalist"
+      ],
+      "significance": "Mia Hamm is considered one of the greatest female soccer players of all time and has been a pioneer for women's sports.",
+      "notableWorks": [
+        "Founding member of the Women's United Soccer Association"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Mia Farrow",
+      "profession": "Actress",
+      "knownFor": [
+        "Her roles in 'Rosemary's Baby' and 'The Great Gatsby'"
+      ],
+      "awards": "Golden Globe Award for New Star of the Year"
+    },
+    {
+      "name": "Mia Wasikowska",
+      "profession": "Actress",
+      "knownFor": [
+        "Her role as Alice in 'Alice in Wonderland'"
+      ],
+      "awards": "Australian Film Institute Award for Best Actress"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Mia Hamm",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "N/A",
+      "team": "Retired",
+      "pastTeams": [
+        "Washington Freedom"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "1987-2004",
+      "achievements": "Two-time FIFA Women's World Cup champion, two-time Olympic gold medalist",
+      "knownFor": [
+        "Scoring prowess and leadership on the field"
+      ],
+      "awards": "FIFA World Player of the Year (2001, 2002)",
+      "stats": "158 international goals",
+      "verified": true,
+      "source": "FIFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Princess Diaries",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Mia Thermopolis",
+      "characterDescription": "A shy teenager who discovers she is the heir to a European throne.",
+      "imdbUrl": "https://www.imdb.com/title/tt0247638/",
+      "genre": "Comedy, Family",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
+      "character": "Mia Thermopolis",
+      "source": "The Princess Diaries",
+      "year": 2001,
+      "context": "Mia reflects on the nature of courage as she faces her new responsibilities as a princess.",
+      "genre": "Comedy, Family",
+      "impact": "This quote is memorable for its inspiring message about bravery and personal growth."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Ruby Red",
+      "hex": "#E0115F"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 192,
+    "peak": 119,
+    "peakYear": 2014
+  },
+  "enrichmentVersion": "v6"
+}

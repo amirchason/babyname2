@@ -1,0 +1,298 @@
+{
+  "name": "James",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Supplanter",
+  "culturalSignificance": "James is a name of biblical origin, derived from the Hebrew name Jacob, meaning 'supplanter'. It has been a popular name in the English-speaking world since the Middle Ages, often associated with kings and saints.",
+  "modernContext": "James remains a consistently popular name in many English-speaking countries, frequently appearing in the top ten baby names lists. It is favored for its classic and timeless appeal.",
+  "literaryReferences": "James is a common name in literature, appearing in works such as 'James and the Giant Peach' by Roald Dahl.",
+  "pronunciationGuide": "/dʒeɪmz/",
+  "variations": [
+    "Jacob",
+    "Jaime",
+    "Giacomo",
+    "Seamus",
+    "Diego"
+  ],
+  "similarNames": [
+    "John",
+    "William",
+    "Robert",
+    "Michael",
+    "David"
+  ],
+  "nicknames": [
+    "Jim",
+    "Jimmy",
+    "Jamie",
+    "Jay",
+    "Jem"
+  ],
+  "personality": "People named James are often perceived as strong, reliable, and charismatic. They are seen as natural leaders with a sense of responsibility.",
+  "symbolism": "The name James symbolizes leadership and authority, often associated with kingship and religious significance.",
+  "funFact": "James is one of the most common royal names in English history, with several kings of England and Scotland bearing the name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint James the Greater",
+    "significance": "Saint James the Greater was one of the Twelve Apostles of Jesus and is considered the patron saint of Spain.",
+    "keyStories": [
+      "The pilgrimage to Santiago de Compostela, where his remains are said to be buried."
+    ],
+    "spiritualMeaning": "James is associated with faithfulness and dedication to spiritual journeys.",
+    "historicalImpact": "Saint James played a significant role in the spread of Christianity and is celebrated in various Christian traditions."
+  },
+  "historicFigures": [
+    {
+      "fullName": "James Madison",
+      "years": "1751-1836",
+      "category": "Political Leaders",
+      "achievements": [
+        "Fourth President of the United States",
+        "Father of the Constitution"
+      ],
+      "significance": "James Madison was instrumental in drafting the U.S. Constitution and the Bill of Rights.",
+      "notableWorks": [
+        "The Federalist Papers"
+      ]
+    },
+    {
+      "fullName": "James Clerk Maxwell",
+      "years": "1831-1879",
+      "category": "Scientists",
+      "achievements": [
+        "Formulated Maxwell's equations",
+        "Contributed to the field of electromagnetism"
+      ],
+      "significance": "Maxwell's work laid the foundation for modern physics and telecommunications.",
+      "notableWorks": [
+        "A Treatise on Electricity and Magnetism"
+      ]
+    },
+    {
+      "fullName": "James Joyce",
+      "years": "1882-1941",
+      "category": "Writers",
+      "achievements": [
+        "Pioneered modernist literature"
+      ],
+      "significance": "James Joyce is renowned for his innovative narrative techniques and complex characters.",
+      "notableWorks": [
+        "Ulysses",
+        "A Portrait of the Artist as a Young Man"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The advancement and diffusion of knowledge is the only guardian of true liberty.",
+      "author": "James Madison",
+      "context": "This quote reflects Madison's belief in the importance of education for maintaining freedom.",
+      "year": 1822,
+      "category": "Wisdom"
+    },
+    {
+      "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+      "author": "James Clerk Maxwell",
+      "context": "Maxwell emphasized the value of creativity in scientific discovery.",
+      "year": 1870,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "James Cameron",
+      "profession": "Film Director",
+      "knownFor": [
+        "Directing 'Titanic'",
+        "Directing 'Avatar'"
+      ],
+      "awards": "Academy Awards for Best Director"
+    },
+    {
+      "name": "James Franco",
+      "profession": "Actor",
+      "knownFor": [
+        "Acting in '127 Hours'",
+        "Acting in 'Spider-Man' trilogy"
+      ],
+      "awards": "Golden Globe Award for Best Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "LeBron James",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Los Angeles Lakers",
+      "pastTeams": [
+        "Cleveland Cavaliers",
+        "Miami Heat"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "6",
+      "years": "2003-Present",
+      "achievements": "4× NBA Champion, 4× NBA MVP",
+      "knownFor": [
+        "Dominant play style",
+        "Versatility"
+      ],
+      "awards": "NBA Finals MVP, All-Star",
+      "stats": "Over 35,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "James Rodríguez",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Everton",
+      "pastTeams": [
+        "Real Madrid",
+        "Bayern Munich"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "19",
+      "years": "2009-Present",
+      "achievements": "Golden Boot at 2014 FIFA World Cup",
+      "knownFor": [
+        "Playmaking ability",
+        "Long-range goals"
+      ],
+      "awards": "FIFA Puskás Award",
+      "stats": "Over 100 career goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "James Conner",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Arizona Cardinals",
+      "pastTeams": [
+        "Pittsburgh Steelers"
+      ],
+      "position": "Running Back",
+      "jerseyNumber": "6",
+      "years": "2017-Present",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Powerful running style",
+        "Overcoming cancer"
+      ],
+      "awards": "NFL Comeback Player of the Year",
+      "stats": "Over 3,000 rushing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "James Paxton",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Boston Red Sox",
+      "pastTeams": [
+        "Seattle Mariners",
+        "New York Yankees"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "44",
+      "years": "2013-Present",
+      "achievements": "Pitched a no-hitter in 2018",
+      "knownFor": [
+        "Fastball velocity",
+        "Strikeouts"
+      ],
+      "awards": "AL Player of the Week",
+      "stats": "Over 800 career strikeouts",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "James van Riemsdyk",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Philadelphia Flyers",
+      "pastTeams": [
+        "Toronto Maple Leafs"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "25",
+      "years": "2009-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Scoring ability",
+        "Physical play"
+      ],
+      "awards": "NHL All-Rookie Team",
+      "stats": "Over 250 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "James and the Giant Peach",
+      "year": 1996,
+      "type": "Movie",
+      "characterName": "James",
+      "characterDescription": "A young boy who embarks on a magical adventure inside a giant peach.",
+      "imdbUrl": "https://www.imdb.com/title/tt0116683/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "All you have to do is believe in yourself.",
+      "character": "James",
+      "source": "James and the Giant Peach",
+      "year": 1996,
+      "context": "James encourages himself and his friends during their adventure.",
+      "genre": "Fantasy",
+      "impact": "This quote is memorable for its message of self-belief and courage."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 100,
+    "peak": 179,
+    "peakYear": 2006
+  },
+  "enrichmentVersion": "v6"
+}
