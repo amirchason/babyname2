@@ -71,4 +71,4 @@ docs/.doctrees
 
 # Vercel
 .vercel
-# Note: vercel.json is committed (contains config, not secrets)
+# Note: vercel.json is committed (contains config, not secrets)public/data/*backup*.json

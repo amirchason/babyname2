@@ -1,48 +1,61 @@
 {
-  "version": "2.2.0",
-  "totalNames": 157426,
+  "version": "3.0.0",
+  "lastUpdated": "2025-11-02T06:47:14.510155",
+  "totalNames": 157127,
+  "description": "Comprehensive popularity ranking fix - all duplicates eliminated",
   "chunks": {
     "core": {
       "file": "names-core.json",
-      "fileGz": "names-core.json.gz",
       "count": 945,
       "startIndex": 0,
-      "endIndex": 944
+      "endIndex": 944,
+      "startRank": 1,
+      "endRank": 945
     },
     "chunk1": {
       "file": "names-chunk1.json",
       "fileGz": "names-chunk1.json.gz",
-      "count": 36411,
+      "count": 31237,
       "startIndex": 945,
-      "endIndex": 37355
+      "endIndex": 32181,
+      "startRank": 946,
+      "endRank": 32182
     },
     "chunk2": {
       "file": "names-chunk2.json",
       "fileGz": "names-chunk2.json.gz",
-      "count": 36411,
-      "startIndex": 37356,
-      "endIndex": 73766
+      "count": 31237,
+      "startIndex": 32182,
+      "endIndex": 63418,
+      "startRank": 32183,
+      "endRank": 63419
     },
     "chunk3": {
       "file": "names-chunk3.json",
       "fileGz": "names-chunk3.json.gz",
-      "count": 36411,
-      "startIndex": 73767,
-      "endIndex": 110177
+      "count": 31236,
+      "startIndex": 63419,
+      "endIndex": 94654,
+      "startRank": 63420,
+      "endRank": 94655
     },
     "chunk4": {
       "file": "names-chunk4.json",
       "fileGz": "names-chunk4.json.gz",
-      "count": 36411,
-      "startIndex": 110178,
-      "endIndex": 146588
+      "count": 31236,
+      "startIndex": 94655,
+      "endIndex": 125890,
+      "startRank": 94656,
+      "endRank": 125891
     },
     "chunk5": {
       "file": "names-chunk5.json",
       "fileGz": "names-chunk5.json.gz",
-      "count": 10837,
-      "startIndex": 146589,
-      "endIndex": 157425
+      "count": 31236,
+      "startIndex": 125891,
+      "endIndex": 157126,
+      "startRank": 125892,
+      "endRank": 157127
     }
   }
 }
