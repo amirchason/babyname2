@@ -375,17 +375,26 @@ const HomePage: React.FC = () => {
               return 'Hebrew & Biblical';
             }
 
+            // English consolidation - MUST come BEFORE Greek & Contemporary to avoid conflicts
+            // FIX: Removed 'modern', 'contemporary', 'american' - these are SEPARATE origins!
+            // Only consolidate variations of "English" itself
+            if (lower === 'english' || lower === 'old english' || lower === 'modern english' || lower.includes('english')) {
+              return 'English';
+            }
+
             // Greek & Mythological
-            if (lower === 'greek' || lower === 'mythological' || lower === 'egyptian' || lower === 'old english' ||
+            // FIX: Removed 'old english' - it should be English, not Greek!
+            if (lower === 'greek' || lower === 'mythological' || lower === 'egyptian' ||
                 lower.includes('greek') || lower.includes('mythological') || lower.includes('egyptian')) {
               return 'Greek & Mythological';
             }
 
             // Contemporary & Modern
+            // FIX: Removed 'american', 'modern', 'modern english' - these should NOT map to Contemporary
             if (lower === 'contemporary' || lower === 'latin american' || lower === 'invented' ||
-                lower === 'american' || lower === 'literary' || lower === 'modern' || lower === 'modern english' ||
-                lower === 'fantasy' || lower === 'fictional' || lower.includes('contemporary') ||
-                lower.includes('invented') || lower.includes('literary') || lower.includes('fantasy')) {
+                lower === 'literary' || lower === 'fantasy' || lower === 'fictional' ||
+                lower.includes('contemporary') || lower.includes('invented') ||
+                lower.includes('literary') || lower.includes('fantasy')) {
               return 'Contemporary';
             }
 
@@ -441,23 +450,20 @@ const HomePage: React.FC = () => {
               return 'Indigenous Americas';
             }
 
-            // Special handling for English - DO NOT consolidate to English
-            // Keep as raw origin to match exactly
-            if (lower === 'english' || lower === 'modern' || lower === 'contemporary' ||
-                lower === 'american' || lower === 'old english' || lower.includes('english')) {
-              return 'English';
-            }
-
             // Return original if no consolidation applies
             return origin;
           };
 
           // Get the raw origin field from the name
-          const originField = (name as any).originGroup || name.origin;
+          // FIX: IGNORE originGroup (it was incorrectly pre-consolidated with buggy logic)
+          // Use ONLY the raw origin field and apply our correct consolidation
+          const originField = name.origin;
           if (!originField) return false;
 
-          // Convert to array for consistent handling
-          const rawOrigins = Array.isArray(originField) ? originField : [originField];
+          // Handle comma-separated origins (e.g., "English,Germanic" → ["English", "Germanic"])
+          const rawOrigins = originField.includes(',')
+            ? originField.split(',').map((o: string) => o.trim())
+            : [originField];
 
           // Check if ANY of the name's origins (after consolidation) match the selected filters
           return rawOrigins.some(rawOrigin => {

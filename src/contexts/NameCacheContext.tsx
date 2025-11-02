@@ -159,9 +159,17 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
         return 'Greek & Mythological';
       }
 
+      // English consolidation - handle English variants BEFORE Contemporary
+      // FIX: "modern english" should map to English, not Contemporary
+      if (lower === 'english' || lower === 'old english' || lower === 'modern english' ||
+          lower.includes('english')) {
+        return 'English';
+      }
+
       // Contemporary & Modern (Latin American, Invented, American, Literary, Modern, Fantasy, Fictional)
+      // FIX: Removed 'american' and 'modern english' - these should NOT map to Contemporary
       if (lower === 'contemporary' || lower === 'latin american' || lower === 'invented' ||
-          lower === 'american' || lower === 'literary' || lower === 'modern' || lower === 'modern english' ||
+          lower === 'literary' || lower === 'modern' ||
           lower === 'fantasy' || lower === 'fictional' || lower.includes('contemporary') ||
           lower.includes('invented') || lower.includes('literary') || lower.includes('fantasy')) {
         return 'Contemporary';
@@ -262,10 +270,11 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
     };
 
     // Helper to check if name matches English-related patterns
+    // FIX: Removed 'germanic', 'american', 'native american', 'indigenous americas' from groupPatterns
+    // These are distinct origins that should NOT be counted as English
     const isEnglishRelated = (name: any): boolean => {
-      const rawPatterns = ['english', 'modern', 'contemporary', 'american', 'old english'];
-      const groupPatterns = ['english', 'germanic', 'old english', 'modern english',
-                            'american', 'native american', 'indigenous americas'];
+      const rawPatterns = ['english', 'old english', 'modern english'];
+      const groupPatterns = ['english', 'old english', 'modern english'];
       const allPatterns = [...rawPatterns, ...groupPatterns];
 
       const checkField = (field: any): boolean => {
