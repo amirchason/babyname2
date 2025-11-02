@@ -341,56 +341,133 @@ const HomePage: React.FC = () => {
       // Apply origin filter (using consolidated originGroup)
       if (selectedOrigins.size > 0) {
         results = results.filter(name => {
-          // Helper function to check if name is English-related
-          const isEnglishRelated = (name: any): boolean => {
-            if (!selectedOrigins.has('English')) return false;
+          // Helper function to consolidate origin (matches NameCacheContext consolidation logic)
+          const consolidateOrigin = (origin: string): string => {
+            const lower = origin.toLowerCase().trim();
 
-            // Check both origin and originGroup fields (both can be strings or arrays)
-            const checkField = (field: any): boolean => {
-              if (!field) return false;
-              const values = Array.isArray(field) ? field : [field];
+            // Scottish & Irish consolidation
+            if (lower === 'scottish' || lower === 'irish' || lower === 'scots' || lower === 'gaelic' ||
+                lower === 'celtic' || lower.includes('scottish') || lower.includes('irish') ||
+                lower.includes('scots') || lower.includes('gaelic') || lower.includes('celtic')) {
+              return 'Scottish & Irish';
+            }
 
-              return values.some((val: any) => {
-                const valLower = String(val).toLowerCase();
+            // Slavic & Eastern European
+            if (lower === 'slavic' || lower === 'polish' || lower === 'russian' || lower === 'bulgarian' ||
+                lower === 'czech' || lower === 'ukrainian' || lower === 'croatian' || lower === 'serbian' ||
+                lower === 'slovak' || lower === 'belarusian' || lower.includes('slavic') ||
+                lower.includes('polish') || lower.includes('russian')) {
+              return 'Slavic';
+            }
 
-                // Raw origin patterns (from origin field)
-                const rawPatterns = ['english', 'modern', 'contemporary', 'american', 'old english'];
+            // Germanic & Nordic
+            if (lower === 'germanic' || lower === 'german' || lower === 'swiss' || lower === 'norse' ||
+                lower === 'old norse' || lower === 'scandinavian' || lower === 'nordic' || lower === 'swedish' ||
+                lower === 'danish' || lower === 'norwegian' || lower === 'finnish' || lower === 'icelandic' ||
+                lower.includes('germanic') || lower.includes('german') || lower.includes('norse') ||
+                lower.includes('scandinavian') || lower.includes('nordic') || lower.includes('swedish') ||
+                lower.includes('danish') || lower.includes('norwegian') || lower.includes('finnish')) {
+              return 'Germanic & Nordic';
+            }
 
-                // Processed originGroup patterns
-                const groupPatterns = ['english', 'germanic', 'old english', 'modern english',
-                                      'american', 'native american', 'indigenous americas'];
+            // Hebrew & Biblical
+            if (lower === 'hebrew' || lower === 'biblical' || lower.includes('hebrew') || lower.includes('biblical')) {
+              return 'Hebrew & Biblical';
+            }
 
-                // Check if value matches any pattern
-                return [...rawPatterns, ...groupPatterns].some(pattern => {
-                  // Exact match
-                  if (valLower === pattern) return true;
+            // Greek & Mythological
+            if (lower === 'greek' || lower === 'mythological' || lower === 'egyptian' || lower === 'old english' ||
+                lower.includes('greek') || lower.includes('mythological') || lower.includes('egyptian')) {
+              return 'Greek & Mythological';
+            }
 
-                  // Comma-separated (e.g., "English,Hebrew")
-                  if (valLower.includes(pattern + ',') || valLower.includes(',' + pattern)) return true;
+            // Contemporary & Modern
+            if (lower === 'contemporary' || lower === 'latin american' || lower === 'invented' ||
+                lower === 'american' || lower === 'literary' || lower === 'modern' || lower === 'modern english' ||
+                lower === 'fantasy' || lower === 'fictional' || lower.includes('contemporary') ||
+                lower.includes('invented') || lower.includes('literary') || lower.includes('fantasy')) {
+              return 'Contemporary';
+            }
 
-                  // Space-separated (e.g., "Modern English", "Native American")
-                  if (valLower.startsWith(pattern + ' ') ||
-                      valLower.endsWith(' ' + pattern) ||
-                      valLower.includes(' ' + pattern + ' ')) return true;
+            // Middle Eastern
+            if (lower === 'middle eastern' || lower === 'caucasian' || lower === 'aramaic' || lower === 'turkic' ||
+                lower.includes('middle eastern') || lower.includes('caucasian') || lower.includes('aramaic')) {
+              return 'Middle Eastern';
+            }
 
-                  return false;
-                });
-              });
-            };
+            // African origins
+            if (lower.includes('african') || lower.includes('swahili') || lower.includes('yoruba') ||
+                lower.includes('igbo') || lower.includes('akan') || lower.includes('hausa')) {
+              return 'African';
+            }
 
-            return checkField(name.origin) || checkField((name as any).originGroup);
+            // South Asian origins
+            if (lower === 'sanskrit' || lower === 'hindi' || lower === 'bengali' || lower === 'punjabi' ||
+                lower === 'tamil' || lower === 'urdu' || lower === 'telugu' || lower === 'kannada' ||
+                lower.includes('sanskrit') || lower.includes('hindi') || lower.includes('bengali')) {
+              if (lower.includes('indian')) return 'Indian';
+              return 'South Asian';
+            }
+
+            // Southeast Asian origins
+            if (lower.includes('vietnamese') || lower.includes('thai') || lower.includes('indonesian') ||
+                lower.includes('malay') || lower.includes('filipino') || lower.includes('burmese')) {
+              return 'Southeast Asian';
+            }
+
+            // Central/West Asian origins
+            if (lower.includes('persian') || lower.includes('armenian') || lower.includes('georgian') ||
+                lower.includes('kazakh') || lower.includes('uzbek') || lower.includes('turkic')) {
+              return 'Central/West Asian';
+            }
+
+            // Small European origins
+            if (lower.includes('albanian') || lower.includes('basque') || lower.includes('estonian') ||
+                lower.includes('latvian') || lower.includes('lithuanian') || lower.includes('maltese')) {
+              if (lower.includes('slavic')) return 'Slavic';
+              if (lower.includes('scandinavian') || lower.includes('nordic')) return 'Nordic';
+              return 'European (Other)';
+            }
+
+            // Indigenous & Oceanic origins
+            if (lower.includes('maori') || lower.includes('aboriginal') || lower.includes('polynesian') ||
+                lower.includes('hawaiian') || lower.includes('native') || lower.includes('indigenous')) {
+              return 'Indigenous & Oceanic';
+            }
+
+            // Latin American Indigenous origins
+            if (lower.includes('nahuatl') || lower.includes('mayan') || lower.includes('quechua') ||
+                lower.includes('aztec') || lower.includes('inca')) {
+              return 'Indigenous Americas';
+            }
+
+            // Special handling for English - DO NOT consolidate to English
+            // Keep as raw origin to match exactly
+            if (lower === 'english' || lower === 'modern' || lower === 'contemporary' ||
+                lower === 'american' || lower === 'old english' || lower.includes('english')) {
+              return 'English';
+            }
+
+            // Return original if no consolidation applies
+            return origin;
           };
 
-          // If English is selected and name is English-related, include it
-          if (isEnglishRelated(name)) return true;
-
-          // Otherwise, check for exact origin match
+          // Get the raw origin field from the name
           const originField = (name as any).originGroup || name.origin;
           if (!originField) return false;
-          const origins = Array.isArray(originField) ? originField : [originField];
 
-          return origins.some(origin => {
-            return selectedOrigins.has(origin.trim());
+          // Convert to array for consistent handling
+          const rawOrigins = Array.isArray(originField) ? originField : [originField];
+
+          // Check if ANY of the name's origins (after consolidation) match the selected filters
+          return rawOrigins.some(rawOrigin => {
+            if (!rawOrigin || !rawOrigin.trim()) return false;
+
+            // Apply consolidation to the raw origin
+            const consolidatedOrigin = consolidateOrigin(rawOrigin.trim());
+
+            // Check if the consolidated origin matches any selected filter
+            return selectedOrigins.has(consolidatedOrigin);
           });
         });
       }
