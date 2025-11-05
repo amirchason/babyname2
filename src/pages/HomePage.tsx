@@ -746,65 +746,29 @@ const HomePage: React.FC = () => {
         {/* Hero Content */}
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.h1
-            className="text-5xl md:text-6xl font-bold mb-6 relative"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.3 }}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1.2,
+              ease: [0.25, 0.1, 0.25, 1.0]
+            }}
+            className="text-5xl md:text-7xl font-bold text-white mb-6"
+            style={{
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.3), 0 4px 20px rgba(0, 0, 0, 0.15)',
+              letterSpacing: '0.02em'
+            }}
           >
-            {/* Animated gradient text with staggered word reveal */}
-            <motion.div className="inline-block relative">
-              {['The', 'Name', 'Is', 'The', 'Seed', 'Of', 'The', 'Soul'].map((word, i) => (
-                <motion.span
-                  key={i}
-                  initial={{
-                    opacity: 0,
-                    y: 50,
-                    scale: 0.5,
-                    rotateX: -90
-                  }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                    scale: 1,
-                    rotateX: 0
-                  }}
-                  transition={{
-                    duration: 0.8,
-                    delay: i * 0.15,
-                    type: "spring",
-                    stiffness: 100,
-                    damping: 10
-                  }}
-                  className="inline-block mx-1.5 bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 bg-clip-text text-transparent"
-                  style={{
-                    textShadow: '0 0 40px rgba(168, 85, 247, 0.4), 0 0 80px rgba(236, 72, 153, 0.3)',
-                    filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))'
-                  }}
-                >
-                  <motion.span
-                    animate={{
-                      y: [0, -5, 0],
-                    }}
-                    transition={{
-                      duration: 2.5,
-                      delay: 1.5 + i * 0.1,
-                      repeat: Infinity,
-                      repeatType: "reverse",
-                      ease: "easeInOut"
-                    }}
-                    className="inline-block"
-                  >
-                    {word}
-                  </motion.span>
-                </motion.span>
-              ))}
-            </motion.div>
+            The Name Is The Seed Of The Soul
           </motion.h1>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl md:text-2xl text-gray-700 mb-8"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1.0] }}
+            className="text-xl md:text-2xl text-white/90 mb-8 font-light"
+            style={{
+              textShadow: '0 1px 8px rgba(0, 0, 0, 0.3)',
+              letterSpacing: '0.01em'
+            }}
           >
             Discover the perfect name from 150,000+ unique options
           </motion.p>
