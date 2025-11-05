@@ -1344,7 +1344,7 @@ const HomePage: React.FC = () => {
           {/* Header - Title */}
           <div className="mb-3">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-1">
-              {showFavorites ? 'Your Favorite Names' : searchTerm ? 'Search Results' : 'Popular Names'}
+              {showFavorites ? 'Your Favorite Names' : searchTerm ? 'Search Results' : '2025 popular names'}
             </h3>
             <span className="text-sm text-gray-500">
               {filteredNames.length > 0 ? `${currentFilteredCount.toLocaleString()} names found` : ''}
