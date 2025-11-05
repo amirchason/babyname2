@@ -736,8 +736,13 @@ const HomePage: React.FC = () => {
         )}
       </AnimatePresence>
 
-      {/* Hero Section */}
-      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[60vh] flex items-center justify-center transition-all duration-200 overflow-hidden bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50`}>
+      {/* Hero Section - Flower Animation Background */}
+      <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[60vh] flex items-center justify-center transition-all duration-200 overflow-hidden`}>
+        {/* Full Screen Flower Animation Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <UnicornFlowerBackground />
+        </div>
+
         {/* Hero Content */}
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.h1
@@ -911,15 +916,6 @@ const HomePage: React.FC = () => {
               </motion.div>
             </motion.button>
           </motion.div>
-        </div>
-      </section>
-
-      {/* Flower Animation Section */}
-      <section className="py-12 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="relative w-full h-96 rounded-3xl overflow-hidden shadow-2xl">
-            <UnicornFlowerBackground />
-          </div>
         </div>
       </section>
 
