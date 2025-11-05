@@ -751,7 +751,7 @@ const HomePage: React.FC = () => {
             transition={{ duration: 0.6 }}
             className="text-5xl md:text-6xl font-bold text-gray-800 mb-6"
           >
-            Where Your Baby Name Blooms
+            The Name Is The Seed Of The Soul
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
