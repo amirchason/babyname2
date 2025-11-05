@@ -1,0 +1,291 @@
+{
+  "name": "chloe",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:51:59.527Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Blooming",
+  "culturalSignificance": "Chloe is a name of ancient Greek origin, often associated with the goddess Demeter, who was linked to agriculture and fertility. The name symbolizes the blooming of plants and is often used to represent new growth and renewal.",
+  "modernContext": "Chloe remains a popular name in many English-speaking countries, consistently ranking in the top 100 names for girls. It is favored for its simplicity and elegance.",
+  "literaryReferences": "Chloe appears in Greek mythology as an epithet for Demeter, the goddess of agriculture. It is also the name of a character in the pastoral romance 'Daphnis and Chloe' by Longus.",
+  "pronunciationGuide": "/ˈkloʊ.i/",
+  "variations": [
+    "Khloe",
+    "Cloe",
+    "Kloe",
+    "Cloé",
+    "Chloé",
+    "Cloey",
+    "Clio",
+    "Cloie",
+    "Kloey"
+  ],
+  "similarNames": [
+    "Zoe",
+    "Phoebe",
+    "Sophie",
+    "Lily",
+    "Grace",
+    "Ella",
+    "Olivia",
+    "Hannah",
+    "Emma"
+  ],
+  "nicknames": [
+    "Clo",
+    "Coco",
+    "Lo",
+    "Chlo",
+    "Chlo-Chlo",
+    "Cee",
+    "Chloe-Belle",
+    "Chlo-Bug",
+    "Chlobear"
+  ],
+  "personality": "Chloe is often associated with a vibrant and lively personality, reflecting the blooming nature of the name. Individuals with this name are perceived as friendly, approachable, and full of life.",
+  "symbolism": "The name Chloe symbolizes growth, renewal, and the beauty of nature. It is often associated with springtime and new beginnings.",
+  "funFact": "Chloe was one of the top 10 most popular names for girls in the United Kingdom for several years in the early 2000s.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Greek Mythology"
+    ],
+    "character": "Chloe as an epithet for Demeter",
+    "significance": "Chloe is used as an epithet for Demeter, the Greek goddess of agriculture, symbolizing fertility and the blooming of plants.",
+    "keyStories": [
+      "The myth of Demeter and Persephone"
+    ],
+    "spiritualMeaning": "Chloe represents the cycle of life and the renewal of nature.",
+    "historicalImpact": "The use of Chloe as an epithet for Demeter highlights its historical significance in ancient Greek religion and mythology."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Chloe Ardelia Wofford",
+      "years": "1931-2019",
+      "category": "Literature",
+      "achievements": [
+        "Nobel Prize in Literature",
+        "Pulitzer Prize for Fiction"
+      ],
+      "significance": "Known as Toni Morrison, she was an influential American novelist recognized for her epic themes and vivid dialogue.",
+      "notableWorks": [
+        "Beloved",
+        "Song of Solomon",
+        "The Bluest Eye"
+      ]
+    },
+    {
+      "fullName": "Chloe Sevigny",
+      "years": "1974-Present",
+      "category": "Film and Television",
+      "achievements": [
+        "Golden Globe Award"
+      ],
+      "significance": "An acclaimed American actress and fashion icon known for her work in independent films.",
+      "notableWorks": [
+        "Boys Don't Cry",
+        "Big Love",
+        "American Horror Story"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Chloe Grace Moretz",
+      "profession": "Actress",
+      "knownFor": [
+        "Kick-Ass",
+        "Let Me In",
+        "The Miseducation of Cameron Post"
+      ],
+      "awards": "MTV Movie Award for Best Breakthrough Performance"
+    },
+    {
+      "name": "Chloe Kim",
+      "profession": "Snowboarder",
+      "knownFor": [
+        "Winning gold at the Winter Olympics"
+      ],
+      "awards": "Olympic Gold Medalist"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Chloe Kelly",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Women's Super League",
+      "team": "Manchester City",
+      "pastTeams": [
+        "Arsenal",
+        "Everton"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2015-Present",
+      "achievements": "Scored the winning goal in the UEFA Women's Euro 2022 final",
+      "knownFor": [
+        "Speed and scoring ability"
+      ],
+      "awards": "PFA Women's Young Player of the Year",
+      "stats": "Key player in Manchester City's attack",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Chloe Logarzo",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "A-League Women",
+      "team": "Western United",
+      "pastTeams": [
+        "Sydney FC",
+        "Bristol City"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "6",
+      "years": "2011-Present",
+      "achievements": "Played in the FIFA Women's World Cup",
+      "knownFor": [
+        "Midfield versatility and leadership"
+      ],
+      "awards": "W-League Championship winner",
+      "stats": "Consistent performer in midfield",
+      "verified": true,
+      "source": "FIFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Kick-Ass",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Hit-Girl (Mindy McCready)",
+      "characterDescription": "A young vigilante with exceptional fighting skills.",
+      "imdbUrl": "https://www.imdb.com/title/tt1250777/",
+      "genre": "Action, Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Big Love",
+      "year": 2006,
+      "type": "TV Show",
+      "characterName": "Nicolette Grant",
+      "characterDescription": "A complex character in a polygamous family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0421030/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 127,
+    "peak": 143,
+    "peakYear": 2009
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 1,
+    "breakdown": "chloe"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Mythological",
+      "confidence": 0.85,
+      "reason": "Contains 2 mythological indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:43:55.954Z",
+  "v8EnrichedAt": "2025-11-03T22:43:57.166Z",
+  "songs": [
+    {
+      "title": "Chloe",
+      "artist": "Elton John",
+      "year": 1981,
+      "genre": "Pop/Rock",
+      "nameContext": "Features \"chloe\" in the song",
+      "description": "This song is a heartfelt tribute to a person named Chloe, capturing a sense of admiration and affection. The melody is gentle and soothing, reflecting the warmth and positivity of the emotions conveyed.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Chloe%20played%20by%20Elton%20John",
+      "geniusUrl": "https://genius.com/search?q=Chloe%20Elton%20John",
+      "verified": true
+    },
+    {
+      "title": "Chloe (You're the One I Want)",
+      "artist": "Emblem3",
+      "year": 2013,
+      "genre": "Pop",
+      "nameContext": "Features \"chloe\" in the song",
+      "description": "A lively and upbeat track celebrating Chloe as the ideal partner. The song is filled with youthful energy and optimism, emphasizing themes of love and admiration in a fun and catchy way.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Chloe%20(You're%20the%20One%20I%20Want)%20played%20by%20Emblem3",
+      "geniusUrl": "https://genius.com/search?q=Chloe%20(You're%20the%20One%20I%20Want)%20Emblem3",
+      "verified": true
+    },
+    {
+      "title": "Chloe Dancer/Crown of Thorns",
+      "artist": "Mother Love Bone",
+      "year": 1990,
+      "genre": "Alternative Rock",
+      "nameContext": "Features \"chloe\" in the song",
+      "description": "While the song has a complex narrative, it includes moments that highlight the beauty and uniqueness of Chloe. The music blends rock elements with a reflective tone, creating a positive and memorable tribute.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Chloe%20Dancer%2FCrown%20of%20Thorns%20played%20by%20Mother%20Love%20Bone",
+      "geniusUrl": "https://genius.com/search?q=Chloe%20Dancer%2FCrown%20of%20Thorns%20Mother%20Love%20Bone",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:44:02.941Z",
+  "songsEnrichedAt": "2025-11-03T22:44:02.941Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

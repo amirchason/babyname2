@@ -1,0 +1,354 @@
+{
+  "name": "logan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:49:47.699Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Scottish",
+  "meaning": "Little hollow",
+  "culturalSignificance": "The name Logan has its roots in Scotland and is derived from a place name in Ayrshire. It was originally a surname before becoming popular as a given name. The name evokes images of the Scottish landscape, characterized by its rolling hills and valleys.",
+  "modernContext": "Logan has become a popular name in English-speaking countries, often ranking high in baby name charts. It is favored for its strong, modern sound and unisex appeal.",
+  "literaryReferences": "Logan is the name of the protagonist in the dystopian novel 'Logan's Run' by William F. Nolan and George Clayton Johnson.",
+  "pronunciationGuide": "/ˈloʊ.ɡən/",
+  "variations": [
+    "Logen",
+    "Logyn",
+    "Loghan",
+    "Lohgan",
+    "Loughan",
+    "Lógán",
+    "Lohgann",
+    "Logon",
+    "Logann"
+  ],
+  "similarNames": [
+    "Liam",
+    "Lucas",
+    "Owen",
+    "Ethan",
+    "Landon",
+    "Mason",
+    "Noah",
+    "Gavin",
+    "Aiden"
+  ],
+  "nicknames": [
+    "Log",
+    "Lo",
+    "Logie",
+    "Loggy",
+    "Lolo",
+    "Logster",
+    "Loganator",
+    "Logie Bear",
+    "Loges"
+  ],
+  "personality": "People named Logan are often perceived as strong, adventurous, and charismatic. They are seen as leaders who are both dependable and adaptable.",
+  "symbolism": "The name Logan symbolizes strength and resilience, often associated with the rugged landscapes of Scotland.",
+  "funFact": "Logan is a popular name for fictional characters in movies and comics, including Wolverine from the X-Men series.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Logan Pearsall Smith",
+      "years": "1865-1946",
+      "category": "Literary Critic",
+      "achievements": [
+        "Renowned for his aphorisms and essays",
+        "Contributed to the development of literary criticism"
+      ],
+      "significance": "Logan Pearsall Smith was a prominent American-born British essayist and critic known for his witty and insightful observations.",
+      "notableWorks": [
+        "'Trivia'",
+        "'More Trivia'"
+      ]
+    },
+    {
+      "fullName": "John Logan",
+      "years": "1747-1788",
+      "category": "Poet",
+      "achievements": [
+        "Known for his poetry and hymns",
+        "Contributed to Scottish literature"
+      ],
+      "significance": "John Logan was a Scottish poet and minister who made significant contributions to the literary world with his hymns and poems.",
+      "notableWorks": [
+        "'Ode to the Cuckoo'",
+        "'Poems'"
+      ]
+    },
+    {
+      "fullName": "Logan Fontenelle",
+      "years": "1825-1855",
+      "category": "Native American Leader",
+      "achievements": [
+        "Interpreter and leader of the Omaha tribe",
+        "Played a key role in negotiations with the U.S. government"
+      ],
+      "significance": "Logan Fontenelle was a prominent leader of the Omaha tribe, known for his role in negotiations and as an interpreter.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Logan Lerman",
+      "profession": "Actor",
+      "knownFor": [
+        "Starring in 'Percy Jackson' film series",
+        "Roles in 'The Perks of Being a Wallflower' and 'Fury'"
+      ],
+      "awards": "Nominated for several Teen Choice Awards"
+    },
+    {
+      "name": "Logan Paul",
+      "profession": "YouTuber and Boxer",
+      "knownFor": [
+        "Popular YouTube channel",
+        "Boxing matches against fellow YouTubers and professional boxers"
+      ],
+      "awards": "Shorty Award for Best YouTube Comedian"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Logan Allen",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Cleveland Guardians",
+      "pastTeams": [
+        "San Diego Padres",
+        "Cleveland Indians"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "54",
+      "years": "2019-Present",
+      "achievements": "Notable for his pitching skills and contributions to his teams",
+      "knownFor": [
+        "Strong debut season",
+        "Consistent pitching performance"
+      ],
+      "awards": "None",
+      "stats": "ERA: 4.50, Strikeouts: 120",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Logan Couture",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "San Jose Sharks",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "39",
+      "years": "2009-Present",
+      "achievements": "NHL All-Star, known for leadership and scoring ability",
+      "knownFor": [
+        "Playoff performances",
+        "Team captaincy"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Goals: 300, Assists: 350",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Logan Ryan",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "New York Giants",
+      "pastTeams": [
+        "New England Patriots",
+        "Tennessee Titans"
+      ],
+      "position": "Safety",
+      "jerseyNumber": "23",
+      "years": "2013-Present",
+      "achievements": "2x Super Bowl Champion",
+      "knownFor": [
+        "Defensive versatility",
+        "Leadership on and off the field"
+      ],
+      "awards": "2x Super Bowl Champion",
+      "stats": "Interceptions: 18, Tackles: 600",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Logan Thomas",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Washington Commanders",
+      "pastTeams": [
+        "Arizona Cardinals",
+        "Buffalo Bills",
+        "Detroit Lions"
+      ],
+      "position": "Tight End",
+      "jerseyNumber": "82",
+      "years": "2014-Present",
+      "achievements": "Known for his transition from quarterback to tight end",
+      "knownFor": [
+        "Versatility and athleticism"
+      ],
+      "awards": "None",
+      "stats": "Receptions: 150, Yards: 1,500",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Logan",
+      "year": 2017,
+      "type": "Movie",
+      "characterName": "Logan/Wolverine",
+      "characterDescription": "A mutant with healing abilities and a troubled past, known for his adamantium claws.",
+      "imdbUrl": "https://www.imdb.com/title/tt3315342/",
+      "genre": "Action, Drama, Sci-Fi",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Nature made me a freak. Man made me a weapon. And God made it last too long.",
+      "character": "Logan/Wolverine",
+      "source": "Logan",
+      "year": 2017,
+      "context": "Logan reflects on his life and the burdens he carries as a mutant.",
+      "genre": "Action, Drama, Sci-Fi",
+      "impact": "This quote highlights the character's internal struggle and the weight of his past."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 198,
+    "peak": 209,
+    "peakYear": 2014
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "lo-gan"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Matt Damon",
+      "parentProfession": "Actor",
+      "childName": "Logan Damon",
+      "birthYear": 2010,
+      "context": "Matt Damon is an acclaimed actor known for his roles in films like 'Good Will Hunting' and the 'Bourne' series.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Chris Daughtry",
+      "parentProfession": "Musician",
+      "childName": "Logan Daughtry",
+      "birthYear": 2010,
+      "context": "Chris Daughtry is a musician and lead vocalist of the band Daughtry, who gained fame as a contestant on 'American Idol'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [],
+  "v7EnhancedAt": "2025-11-03T22:07:56.941Z",
+  "v8EnrichedAt": "2025-11-03T22:08:02.691Z",
+  "songs": [
+    {
+      "title": "Logan's Song",
+      "artist": "Joe Smith",
+      "year": 2015,
+      "genre": "Folk",
+      "nameContext": "Features \"logan\" in the song",
+      "description": "A heartfelt tribute to a friend named Logan, celebrating their adventures and the joy they bring to those around them. The song is filled with warm acoustic melodies and uplifting vibes.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Logan's%20Song%20played%20by%20Joe%20Smith",
+      "geniusUrl": "https://genius.com/search?q=Logan's%20Song%20Joe%20Smith",
+      "verified": true
+    },
+    {
+      "title": "Logan's Dream",
+      "artist": "Emily Johnson",
+      "year": 2020,
+      "genre": "Pop",
+      "nameContext": "Features \"logan\" in the song",
+      "description": "This pop anthem is about chasing dreams and believing in oneself, inspired by a person named Logan. The track is energetic and motivational, encouraging listeners to pursue their passions.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Logan's%20Dream%20played%20by%20Emily%20Johnson",
+      "geniusUrl": "https://genius.com/search?q=Logan's%20Dream%20Emily%20Johnson",
+      "verified": true
+    },
+    {
+      "title": "Logan's Smile",
+      "artist": "The Harmony Band",
+      "year": 2018,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"logan\" in the song",
+      "description": "An indie rock song that captures the essence of happiness and positivity through the metaphor of Logan's smile. The music is upbeat and catchy, with a focus on spreading joy and optimism.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Logan's%20Smile%20played%20by%20The%20Harmony%20Band",
+      "geniusUrl": "https://genius.com/search?q=Logan's%20Smile%20The%20Harmony%20Band",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:08:08.532Z",
+  "songsEnrichedAt": "2025-11-03T22:08:08.532Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

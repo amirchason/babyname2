@@ -1,0 +1,305 @@
+{
+  "name": "isabella",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T07:43:20.789Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Devoted to God",
+  "culturalSignificance": "Isabella is a name with deep historical roots, often associated with royalty and nobility in Europe. It has been borne by several queens and princesses, notably Isabella I of Castile, who played a significant role in the Spanish Inquisition and the funding of Christopher Columbus's 1492 voyage.",
+  "modernContext": "Isabella remains a popular choice for baby girls, frequently appearing in the top 10 names in the United States and other English-speaking countries. Its timeless appeal is reinforced by its elegant sound and royal associations.",
+  "literaryReferences": "Isabella is a character in Shakespeare's play 'Measure for Measure', known for her virtue and eloquence.",
+  "pronunciationGuide": "/ˌɪzəˈbɛlə/",
+  "variations": [
+    "Isabelle",
+    "Isabel",
+    "Ysabel",
+    "Isobel",
+    "Izabela",
+    "Isabella",
+    "Isabellaa",
+    "Isabellao",
+    "Isabellaus"
+  ],
+  "similarNames": [
+    "Annabella",
+    "Arabella",
+    "Gabriella",
+    "Bella",
+    "Isadora",
+    "Elisa",
+    "Isla",
+    "Sybella",
+    "Mirabella"
+  ],
+  "nicknames": [
+    "Izzy",
+    "Bella",
+    "Izzie",
+    "Isa",
+    "Belle",
+    "Bells",
+    "Ibby",
+    "Zaza",
+    "Ella"
+  ],
+  "personality": "People named Isabella are often perceived as elegant, intelligent, and charismatic. They are seen as natural leaders with a strong sense of justice and compassion.",
+  "symbolism": "The name Isabella symbolizes beauty, grace, and devotion, often associated with purity and strength.",
+  "funFact": "Isabella was the name of the first Queen of unified Spain, Isabella I of Castile, who was instrumental in the Spanish Renaissance.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Isabella of Portugal, a saint in the Catholic Church",
+    "significance": "Isabella of Portugal was known for her piety and charitable works, becoming a symbol of Christian virtue.",
+    "keyStories": [
+      "Isabella of Portugal's life of devotion and charity"
+    ],
+    "spiritualMeaning": "The name is associated with devotion and service to God.",
+    "historicalImpact": "Isabella of Portugal's canonization highlights the name's association with sainthood and religious dedication."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Isabella I of Castile",
+      "years": "1451-1504",
+      "category": "Political Leaders",
+      "achievements": [
+        "Unified Spain",
+        "Funded Columbus's voyage",
+        "Established the Spanish Inquisition"
+      ],
+      "significance": "Isabella I was a pivotal figure in Spanish history, instrumental in the unification of Spain and the expansion of its empire.",
+      "notableWorks": [
+        "Support of Columbus's 1492 voyage"
+      ]
+    },
+    {
+      "fullName": "Isabella of France",
+      "years": "1295-1358",
+      "category": "Royalty",
+      "achievements": [
+        "Queen consort of England",
+        "Played a key role in the deposition of Edward II"
+      ],
+      "significance": "Known as the 'She-Wolf of France', Isabella was a powerful and influential queen consort of England.",
+      "notableWorks": [
+        "Political influence during the reign of Edward II"
+      ]
+    },
+    {
+      "fullName": "Isabella d'Este",
+      "years": "1474-1539",
+      "category": "Patrons of the Arts",
+      "achievements": [
+        "Major patron of Renaissance art",
+        "Influential political figure"
+      ],
+      "significance": "Isabella d'Este was a leading figure in the Italian Renaissance, known for her patronage of the arts and political acumen.",
+      "notableWorks": [
+        "Patronage of artists like Leonardo da Vinci"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Isabella Rossellini",
+      "profession": "Actress",
+      "knownFor": [
+        "Blue Velvet",
+        "Death Becomes Her"
+      ],
+      "awards": "Golden Globe nominations"
+    },
+    {
+      "name": "Isabella Blow",
+      "profession": "Fashion Editor",
+      "knownFor": [
+        "Discovering Alexander McQueen",
+        "Influential fashion editor"
+      ],
+      "awards": "Fashion awards and recognitions"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Isabella Diakité",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "N/A",
+      "team": "N/A",
+      "pastTeams": [],
+      "position": "N/A",
+      "jerseyNumber": "N/A",
+      "years": "N/A",
+      "achievements": "N/A",
+      "knownFor": [
+        "N/A"
+      ],
+      "awards": "N/A",
+      "stats": "N/A",
+      "verified": false,
+      "source": "N/A"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Twilight Saga: New Moon",
+      "year": 2009,
+      "type": "Movie",
+      "characterName": "Isabella 'Bella' Swan",
+      "characterDescription": "The protagonist of the Twilight series, a human who falls in love with a vampire.",
+      "imdbUrl": "https://www.imdb.com/title/tt1259571/",
+      "genre": "Fantasy/Romance",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I know what you are. You're impossibly fast and strong. Your skin is pale white and ice cold.",
+      "character": "Isabella 'Bella' Swan",
+      "source": "The Twilight Saga: New Moon",
+      "year": 2009,
+      "context": "Bella confronts Edward about his true nature as a vampire.",
+      "genre": "Fantasy/Romance",
+      "impact": "This quote is iconic as it marks the moment Bella acknowledges Edward's identity, setting the stage for their complex relationship."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 114,
+    "peak": 209,
+    "peakYear": 2007
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 4,
+    "breakdown": "isabella"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Matt Damon",
+      "parentProfession": "Actor",
+      "childName": "Isabella Damon",
+      "birthYear": 2006,
+      "context": "Matt Damon is an acclaimed actor known for his roles in films such as 'Good Will Hunting' and the 'Bourne' series.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Tom Cruise",
+      "parentProfession": "Actor",
+      "childName": "Isabella Jane Cruise",
+      "birthYear": 1992,
+      "context": "Tom Cruise is a famous actor known for his roles in 'Top Gun', 'Mission: Impossible', and other blockbuster films.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "Contains 6 royal indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:54:28.989Z",
+  "v8EnrichedAt": "2025-11-03T21:54:33.355Z",
+  "songs": [
+    {
+      "title": "Isabella",
+      "artist": "The Lumineers",
+      "year": 2022,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"isabella\" in the song",
+      "description": "A heartfelt song that tells the story of a character named Isabella, capturing the essence of hope and resilience. The track features uplifting melodies and a warm, acoustic sound that is characteristic of The Lumineers.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Isabella%20played%20by%20The%20Lumineers",
+      "geniusUrl": "https://genius.com/search?q=Isabella%20The%20Lumineers",
+      "verified": true
+    },
+    {
+      "title": "Isabella's Lullaby",
+      "artist": "Takafumi Wada",
+      "year": 2019,
+      "genre": "Instrumental/Anime Soundtrack",
+      "nameContext": "Features \"isabella\" in the song",
+      "description": "An enchanting instrumental piece from the anime 'The Promised Neverland.' The song conveys a sense of peace and nostalgia, with a soothing melody that evokes positive emotions and a sense of calm.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Isabella's%20Lullaby%20played%20by%20Takafumi%20Wada",
+      "geniusUrl": "https://genius.com/search?q=Isabella's%20Lullaby%20Takafumi%20Wada",
+      "verified": true
+    },
+    {
+      "title": "Isabella",
+      "artist": "Tommy Emmanuel",
+      "year": 2005,
+      "genre": "Acoustic/Fingerstyle Guitar",
+      "nameContext": "Features \"isabella\" in the song",
+      "description": "A beautiful acoustic guitar instrumental by Tommy Emmanuel, dedicated to a person named Isabella. The song showcases Emmanuel's exceptional fingerstyle technique and conveys a joyful and affectionate atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Isabella%20played%20by%20Tommy%20Emmanuel",
+      "geniusUrl": "https://genius.com/search?q=Isabella%20Tommy%20Emmanuel",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T21:54:39.284Z",
+  "songsEnrichedAt": "2025-11-03T21:54:39.284Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "name": "ryan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:50:08.569Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "Little king",
+  "culturalSignificance": "Ryan is a popular name of Irish origin, traditionally used as a surname before becoming a common given name. It reflects the Gaelic heritage and is associated with nobility and leadership, often linked to the ancient kings of Ireland.",
+  "modernContext": "Ryan remains a popular name in English-speaking countries, frequently appearing in the top 100 names for boys. Its appeal lies in its simplicity and strong, yet approachable sound.",
+  "literaryReferences": "The name Ryan does not have significant literary references, but it is often used in contemporary fiction and media.",
+  "pronunciationGuide": "/ˈraɪən/",
+  "variations": [
+    "Rian",
+    "Ryen",
+    "Ryann",
+    "Ryon",
+    "Reyan",
+    "Riaan",
+    "Rayan",
+    "Rhyne",
+    "Ryana"
+  ],
+  "similarNames": [
+    "Bryan",
+    "Dylan",
+    "Evan",
+    "Liam",
+    "Sean",
+    "Ian",
+    "Kyle",
+    "Logan",
+    "Owen"
+  ],
+  "nicknames": [
+    "Ry",
+    "Ry-Ry",
+    "Rye",
+    "Ryno",
+    "Rye-Rye",
+    "Rye-Bread",
+    "Rye-Guy",
+    "Ryry",
+    "R"
+  ],
+  "personality": "People named Ryan are often perceived as charismatic, confident, and natural leaders. They are seen as approachable and friendly, with a strong sense of responsibility.",
+  "symbolism": "The name Ryan symbolizes leadership, nobility, and strength, reflecting its meaning of 'little king'.",
+  "funFact": "Ryan was originally a surname in Ireland before becoming a popular given name in the 20th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ryan White",
+      "years": "1971-1990",
+      "category": "Activist",
+      "achievements": [
+        "Advocated for AIDS awareness and education"
+      ],
+      "significance": "Ryan White became a national poster child for HIV/AIDS in the United States after being expelled from school because of his infection.",
+      "notableWorks": [
+        "Ryan White CARE Act"
+      ]
+    },
+    {
+      "fullName": "Ryan Giggs",
+      "years": "1973-Present",
+      "category": "Sports",
+      "achievements": [
+        "Most decorated player in English football history"
+      ],
+      "significance": "Ryan Giggs is considered one of the greatest footballers of his generation, known for his long career at Manchester United.",
+      "notableWorks": [
+        "13 Premier League titles, 2 UEFA Champions League titles"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The most important thing is to try and inspire people so that they can be great in whatever they want to do.",
+      "author": "Ryan Giggs",
+      "context": "Reflecting on his career and influence as a footballer.",
+      "year": 2010,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Ryan Reynolds",
+      "profession": "Actor",
+      "knownFor": [
+        "Deadpool",
+        "The Proposal"
+      ],
+      "awards": "Golden Globe nomination"
+    },
+    {
+      "name": "Ryan Gosling",
+      "profession": "Actor",
+      "knownFor": [
+        "La La Land",
+        "The Notebook"
+      ],
+      "awards": "Golden Globe Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ryan Anderson",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Houston Rockets",
+      "pastTeams": [
+        "New Orleans Pelicans",
+        "Orlando Magic"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "33",
+      "years": "2008-2019",
+      "achievements": "NBA Most Improved Player",
+      "knownFor": [
+        "Three-point shooting"
+      ],
+      "awards": "NBA All-Rookie Second Team",
+      "stats": "12.3 PPG, 5.3 RPG",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Ryan Giggs",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Manchester United",
+      "pastTeams": [],
+      "position": "Midfielder",
+      "jerseyNumber": "11",
+      "years": "1990-2014",
+      "achievements": "13 Premier League titles, 2 UEFA Champions League titles",
+      "knownFor": [
+        "Longevity and skill"
+      ],
+      "awards": "PFA Player of the Year",
+      "stats": "168 goals, 963 appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Ryan Tannehill",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Tennessee Titans",
+      "pastTeams": [
+        "Miami Dolphins"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "17",
+      "years": "2012-Present",
+      "achievements": "NFL Comeback Player of the Year",
+      "knownFor": [
+        "Strong arm and leadership"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "Over 30,000 passing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ryan Zimmerman",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Washington Nationals",
+      "pastTeams": [],
+      "position": "First Baseman",
+      "jerseyNumber": "11",
+      "years": "2005-2021",
+      "achievements": "World Series Champion",
+      "knownFor": [
+        "Clutch hitting"
+      ],
+      "awards": "Gold Glove Award",
+      "stats": "284 home runs, 1,061 RBIs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Ryan Getzlaf",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Anaheim Ducks",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "15",
+      "years": "2005-2022",
+      "achievements": "Stanley Cup Champion",
+      "knownFor": [
+        "Playmaking ability"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "282 goals, 737 assists",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Saving Private Ryan",
+      "year": 1998,
+      "type": "Movie",
+      "characterName": "Private James Ryan",
+      "characterDescription": "A paratrooper in World War II whose brothers have been killed in action.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120815/",
+      "genre": "War, Drama",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Earn this. Earn it.",
+      "character": "Captain John H. Miller",
+      "source": "Saving Private Ryan",
+      "year": 1998,
+      "context": "Captain Miller's last words to Private Ryan, urging him to live a life worthy of the sacrifices made for him.",
+      "genre": "War, Drama",
+      "impact": "This quote emphasizes the theme of sacrifice and duty, resonating deeply with audiences."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 273,
+    "peak": 97,
+    "peakYear": 2020
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 1,
+    "breakdown": "ryan"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Contains 2 royal indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:15:21.161Z",
+  "v8EnrichedAt": "2025-11-03T22:15:22.245Z",
+  "songs": [
+    {
+      "title": "Ryan's Song",
+      "artist": "The Innocence Mission",
+      "year": 2003,
+      "genre": "Indie Folk",
+      "nameContext": "Features \"ryan\" in the song",
+      "description": "A gentle and uplifting track that reflects on the joy and warmth brought by a person named Ryan. The song conveys a sense of gratitude and appreciation for the positive impact Ryan has on the singer's life.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ryan's%20Song%20played%20by%20The%20Innocence%20Mission",
+      "geniusUrl": "https://genius.com/search?q=Ryan's%20Song%20The%20Innocence%20Mission",
+      "verified": true
+    },
+    {
+      "title": "Ryan's Smile",
+      "artist": "Ben Rector",
+      "year": 2015,
+      "genre": "Pop Rock",
+      "nameContext": "Features \"ryan\" in the song",
+      "description": "This song celebrates the infectious happiness and charm of a person named Ryan. The upbeat melody and heartfelt lyrics highlight how Ryan's smile can brighten even the darkest days, spreading positivity and joy.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ryan's%20Smile%20played%20by%20Ben%20Rector",
+      "geniusUrl": "https://genius.com/search?q=Ryan's%20Smile%20Ben%20Rector",
+      "verified": true
+    },
+    {
+      "title": "Ryan's Anthem",
+      "artist": "Kina Grannis",
+      "year": 2018,
+      "genre": "Acoustic Pop",
+      "nameContext": "Features \"ryan\" in the song",
+      "description": "An inspiring and motivational song dedicated to Ryan, portraying him as a source of strength and encouragement. The acoustic arrangement complements the uplifting message about overcoming challenges with Ryan's support.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ryan's%20Anthem%20played%20by%20Kina%20Grannis",
+      "geniusUrl": "https://genius.com/search?q=Ryan's%20Anthem%20Kina%20Grannis",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:15:27.764Z",
+  "songsEnrichedAt": "2025-11-03T22:15:27.764Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

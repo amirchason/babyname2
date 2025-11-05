@@ -1,0 +1,395 @@
+{
+  "name": "daniel",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T07:43:11.828Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is my judge",
+  "culturalSignificance": "The name Daniel has been significant in various cultures due to its biblical roots, particularly in Judaism, Christianity, and Islam. It is associated with the biblical prophet Daniel, known for his wisdom and faithfulness, who survived the lion's den as recounted in the Book of Daniel.",
+  "modernContext": "Daniel remains a popular name in many countries, consistently ranking in the top 100 names for boys in the United States, the United Kingdom, and other English-speaking countries.",
+  "literaryReferences": "Daniel is a central figure in the biblical Book of Daniel, which is part of both the Hebrew Bible and the Christian Old Testament.",
+  "pronunciationGuide": "/ˈdænjəl/",
+  "variations": [
+    "Danilo",
+    "Daniil",
+    "Daan",
+    "Dani",
+    "Danyal",
+    "Daniele",
+    "Danel",
+    "Daniyal",
+    "Daniël"
+  ],
+  "similarNames": [
+    "David",
+    "Nathaniel",
+    "Gabriel",
+    "Samuel",
+    "Michael",
+    "Jonathan",
+    "Ethan",
+    "Benjamin",
+    "Matthew"
+  ],
+  "nicknames": [
+    "Dan",
+    "Danny",
+    "Dani",
+    "Danno",
+    "Danilo",
+    "Dane",
+    "Da",
+    "Day",
+    "Dany"
+  ],
+  "personality": "Individuals named Daniel are often perceived as intelligent, reliable, and strong-willed. They are seen as leaders and are known for their ability to solve problems and make sound judgments.",
+  "symbolism": "The name Daniel symbolizes judgment, wisdom, and divine protection, reflecting the biblical story of Daniel's survival in the lion's den.",
+  "funFact": "The name Daniel has been used in various forms across different cultures, making it a truly international name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity",
+      "Islam"
+    ],
+    "character": "Prophet Daniel",
+    "significance": "Daniel is known for his unwavering faith and wisdom, as well as his ability to interpret dreams.",
+    "keyStories": [
+      "Daniel in the lion's den",
+      "Daniel interprets Nebuchadnezzar's dreams"
+    ],
+    "spiritualMeaning": "Daniel represents faithfulness and divine wisdom.",
+    "historicalImpact": "The Book of Daniel has influenced religious thought and literature, emphasizing themes of faith and divine justice."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Daniel Boone",
+      "years": "1734-1820",
+      "category": "Explorers",
+      "achievements": [
+        "Pioneering the exploration and settlement of Kentucky"
+      ],
+      "significance": "Daniel Boone was a legendary American frontiersman whose exploits made him one of the first folk heroes of the United States.",
+      "notableWorks": [
+        "Exploration of the Cumberland Gap"
+      ]
+    },
+    {
+      "fullName": "Daniel Defoe",
+      "years": "1660-1731",
+      "category": "Authors",
+      "achievements": [
+        "Author of 'Robinson Crusoe'"
+      ],
+      "significance": "Defoe is considered one of the earliest proponents of the novel, and his works have had a lasting impact on literature.",
+      "notableWorks": [
+        "Robinson Crusoe",
+        "Moll Flanders"
+      ]
+    },
+    {
+      "fullName": "Daniel Webster",
+      "years": "1782-1852",
+      "category": "Political Leaders",
+      "achievements": [
+        "U.S. Secretary of State",
+        "Influential Senator"
+      ],
+      "significance": "Webster was a leading American statesman and senator known for his powerful oratory and influential role in American politics.",
+      "notableWorks": [
+        "Webster-Ashburton Treaty"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "There is always room at the top.",
+      "author": "Daniel Webster",
+      "context": "This quote reflects Webster's belief in ambition and the potential for success.",
+      "year": 1850,
+      "category": "Inspiration"
+    },
+    {
+      "quote": "It is not the ship so much as the skillful sailing that assures the prosperous voyage.",
+      "author": "George William Curtis (often misattributed to Daniel Defoe)",
+      "context": "This quote emphasizes the importance of skill and leadership.",
+      "year": 1856,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Daniel Radcliffe",
+      "profession": "Actor",
+      "knownFor": [
+        "Portraying Harry Potter in the film series"
+      ],
+      "awards": "Multiple awards including National Movie Awards"
+    },
+    {
+      "name": "Daniel Craig",
+      "profession": "Actor",
+      "knownFor": [
+        "Playing James Bond in the Bond film series"
+      ],
+      "awards": "BAFTA Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Daniel Theis",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Indiana Pacers",
+      "pastTeams": [
+        "Boston Celtics",
+        "Chicago Bulls",
+        "Houston Rockets"
+      ],
+      "position": "Center / Power Forward",
+      "jerseyNumber": "27",
+      "years": "2017-Present",
+      "achievements": "NBA All-Rookie Second Team",
+      "knownFor": [
+        "Strong defensive plays",
+        "Rebounding"
+      ],
+      "awards": "None",
+      "stats": "Averaged 7.5 points and 4.9 rebounds per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Daniel Carvajal",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "La Liga",
+      "team": "Real Madrid",
+      "pastTeams": [
+        "Bayer Leverkusen"
+      ],
+      "position": "Right-back",
+      "jerseyNumber": "2",
+      "years": "2013-Present",
+      "achievements": "Multiple UEFA Champions League titles",
+      "knownFor": [
+        "Defensive skills",
+        "Crossing ability"
+      ],
+      "awards": "UEFA Champions League Squad of the Season",
+      "stats": "Over 300 appearances for Real Madrid",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Daniel Jones",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "New York Giants",
+      "pastTeams": [],
+      "position": "Quarterback",
+      "jerseyNumber": "8",
+      "years": "2019-Present",
+      "achievements": "NFL Offensive Player of the Week",
+      "knownFor": [
+        "Passing accuracy",
+        "Rushing ability"
+      ],
+      "awards": "None",
+      "stats": "Over 8,000 passing yards in career",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Daniel Murphy",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "New York Mets",
+        "Washington Nationals",
+        "Chicago Cubs",
+        "Colorado Rockies"
+      ],
+      "position": "Second baseman",
+      "jerseyNumber": "28",
+      "years": "2008-2020",
+      "achievements": "3× All-Star, NLCS MVP",
+      "knownFor": [
+        "Hitting ability",
+        "Postseason performance"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "Career batting average of .296",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Daniel Sedin",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "Vancouver Canucks"
+      ],
+      "position": "Left wing",
+      "jerseyNumber": "22",
+      "years": "2000-2018",
+      "achievements": "Art Ross Trophy, Ted Lindsay Award",
+      "knownFor": [
+        "Playmaking",
+        "Scoring"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 1,000 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Karate Kid",
+      "year": 1984,
+      "type": "Movie",
+      "characterName": "Daniel LaRusso",
+      "characterDescription": "A teenager who learns karate to defend himself and compete in a tournament.",
+      "imdbUrl": "https://www.imdb.com/title/tt0087538/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Daniel Tiger's Neighborhood",
+      "year": 2012,
+      "type": "TV Show",
+      "characterName": "Daniel Tiger",
+      "characterDescription": "A young tiger who learns life lessons in a friendly neighborhood.",
+      "imdbUrl": "https://www.imdb.com/title/tt2324054/",
+      "genre": "Children's",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Wax on, wax off.",
+      "character": "Mr. Miyagi",
+      "source": "The Karate Kid",
+      "year": 1984,
+      "context": "Mr. Miyagi teaches Daniel LaRusso karate through everyday chores.",
+      "genre": "Drama",
+      "impact": "This quote has become iconic as a metaphor for learning through practice."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 9,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 266,
+    "peak": 223,
+    "peakYear": 2011
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "dan-iel"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:52:46.018Z",
+  "v8EnrichedAt": "2025-11-03T21:52:47.545Z",
+  "songs": [
+    {
+      "title": "Daniel",
+      "artist": "Elton John",
+      "year": 1973,
+      "genre": "Soft Rock",
+      "nameContext": "Features \"daniel\" in the song",
+      "description": "A heartfelt song about a brother's admiration and longing for his sibling, who has moved on to a new chapter in life. The song conveys themes of love, respect, and the bittersweet nature of change.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Daniel%20played%20by%20Elton%20John",
+      "geniusUrl": "https://genius.com/search?q=Daniel%20Elton%20John",
+      "verified": true
+    },
+    {
+      "title": "Daniel in the Den",
+      "artist": "Bastille",
+      "year": 2013,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"daniel\" in the song",
+      "description": "This track draws inspiration from a biblical story, using it as a metaphor for overcoming challenges. The song has an uplifting tone, celebrating resilience and the power of faith in difficult times.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Daniel%20in%20the%20Den%20played%20by%20Bastille",
+      "geniusUrl": "https://genius.com/search?q=Daniel%20in%20the%20Den%20Bastille",
+      "verified": true
+    },
+    {
+      "title": "Daniel's Jojk",
+      "artist": "Jon Henrik Fjällgren",
+      "year": 2014,
+      "genre": "World Music",
+      "nameContext": "Features \"daniel\" in the song",
+      "description": "A beautiful and emotive joik dedicated to a friend, capturing the essence of friendship and the deep connection shared between individuals. The song is a tribute to the positive impact someone can have on your life.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Daniel's%20Jojk%20played%20by%20Jon%20Henrik%20Fj%C3%A4llgren",
+      "geniusUrl": "https://genius.com/search?q=Daniel's%20Jojk%20Jon%20Henrik%20Fj%C3%A4llgren",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T21:52:53.668Z",
+  "songsEnrichedAt": "2025-11-03T21:52:53.668Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

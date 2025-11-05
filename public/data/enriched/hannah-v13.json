@@ -1,0 +1,303 @@
+{
+  "name": "hannah",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:51:25.137Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Grace",
+  "culturalSignificance": "Hannah is a name of Hebrew origin, meaning 'grace' or 'favor.' It is a biblical name, most notably borne by the mother of the prophet Samuel in the Old Testament. Her story is one of faith and dedication, as she prayed fervently for a child and dedicated him to God's service.",
+  "modernContext": "Hannah remains a popular name in many English-speaking countries, consistently ranking in the top 100 names for girls. Its timeless appeal and gentle sound make it a favorite among parents.",
+  "literaryReferences": "Hannah is a character in Louisa May Alcott's 'Little Women,' where she serves as the March family's housekeeper.",
+  "pronunciationGuide": "/ˈhænə/",
+  "variations": [
+    "Hanna",
+    "Chana",
+    "Hana",
+    "Hanne",
+    "Ann",
+    "Anna",
+    "Anya",
+    "Annie",
+    "Hannelore"
+  ],
+  "similarNames": [
+    "Anna",
+    "Annabelle",
+    "Annalise",
+    "Johanna",
+    "Susannah",
+    "Savannah",
+    "Lana",
+    "Diana",
+    "Leah"
+  ],
+  "nicknames": [
+    "Han",
+    "Hannie",
+    "Hanny",
+    "Nan",
+    "Nana",
+    "Hana",
+    "Ann",
+    "Annie",
+    "Nina"
+  ],
+  "personality": "People named Hannah are often perceived as compassionate, nurturing, and graceful. They are seen as reliable and trustworthy, with a strong sense of empathy and kindness.",
+  "symbolism": "The name Hannah symbolizes grace, favor, and devotion. It is often associated with qualities of patience and faith.",
+  "funFact": "The name Hannah is a palindrome, meaning it reads the same backward as forward.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Hannah, mother of Samuel",
+    "significance": "Hannah is revered for her devout faith and her role as the mother of Samuel, a significant prophet in the Bible.",
+    "keyStories": [
+      "Hannah's prayer for a child and her vow to dedicate him to God"
+    ],
+    "spiritualMeaning": "Hannah's story is often seen as a testament to the power of faith and prayer.",
+    "historicalImpact": "Hannah's story has inspired countless believers and is often cited in religious teachings about faith and dedication."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Hannah Arendt",
+      "years": "1906-1975",
+      "category": "Philosophy",
+      "achievements": [
+        "Political theorist known for her works on the nature of power and evil"
+      ],
+      "significance": "Arendt is considered one of the most influential political theorists of the 20th century.",
+      "notableWorks": [
+        "The Origins of Totalitarianism",
+        "Eichmann in Jerusalem"
+      ]
+    },
+    {
+      "fullName": "Hannah More",
+      "years": "1745-1833",
+      "category": "Literature",
+      "achievements": [
+        "English religious writer and philanthropist"
+      ],
+      "significance": "More was a prominent figure in the abolitionist movement and advocated for women's education.",
+      "notableWorks": [
+        "Coelebs in Search of a Wife",
+        "Strictures on the Modern System of Female Education"
+      ]
+    },
+    {
+      "fullName": "Hannah Szenes",
+      "years": "1921-1944",
+      "category": "Military",
+      "achievements": [
+        "Paratrooper and poet who fought against the Nazis"
+      ],
+      "significance": "Szenes is remembered as a national heroine in Israel for her bravery and sacrifice during World War II.",
+      "notableWorks": [
+        "Poems and diaries published posthumously"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
+      "author": "Hannah Arendt",
+      "context": "From her book 'The Life of the Mind', discussing the nature of evil.",
+      "year": 1978,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Hannah Waddingham",
+      "profession": "Actress",
+      "knownFor": [
+        "Role as Rebecca Welton in 'Ted Lasso'"
+      ],
+      "awards": "Primetime Emmy Award for Outstanding Supporting Actress in a Comedy Series"
+    },
+    {
+      "name": "Hannah Simone",
+      "profession": "Actress",
+      "knownFor": [
+        "Role as Cece Parekh on 'New Girl'"
+      ],
+      "awards": "Teen Choice Award nomination"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Hannah Storm",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "ESPN (broadcaster)",
+      "pastTeams": [],
+      "position": "Broadcaster",
+      "jerseyNumber": null,
+      "years": "2008-Present",
+      "achievements": "Renowned sports journalist and anchor",
+      "knownFor": [
+        "Covering major NBA events and interviews"
+      ],
+      "awards": "Gracie Award",
+      "stats": null,
+      "verified": true,
+      "source": "ESPN.com"
+    },
+    {
+      "name": "Hannah Wilkinson",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "A-League Women",
+      "team": "Melbourne City FC",
+      "pastTeams": [
+        "Vittsjö GIK",
+        "Tennessee Volunteers"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "17",
+      "years": "2021-Present",
+      "achievements": "Represented New Zealand in multiple FIFA Women's World Cups",
+      "knownFor": [
+        "Scoring crucial goals in international tournaments"
+      ],
+      "awards": "OFC Women's Player of the Year",
+      "stats": "Over 100 international caps",
+      "verified": true,
+      "source": "FIFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Hannah Montana",
+      "year": 2006,
+      "type": "TV Show",
+      "characterName": "Hannah Montana",
+      "characterDescription": "A teenage girl living a double life as a famous pop singer.",
+      "imdbUrl": "https://www.imdb.com/title/tt0493093/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Nobody's perfect. I gotta work it. Again and again 'til I get it right.",
+      "character": "Hannah Montana",
+      "source": "Hannah Montana",
+      "year": 2006,
+      "context": "From the theme song of the show, emphasizing perseverance.",
+      "genre": "Comedy",
+      "impact": "The quote became iconic among fans for its message of resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 1,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 142,
+    "peak": 68,
+    "peakYear": 2013
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "han-nah"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "Contains 4 biblical indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:35:01.121Z",
+  "v8EnrichedAt": "2025-11-03T22:35:02.483Z",
+  "songs": [
+    {
+      "title": "Hannah Hunt",
+      "artist": "Vampire Weekend",
+      "year": 2013,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"hannah\" in the song",
+      "description": "A reflective and emotional journey, this song captures the essence of a road trip shared between two people, with 'Hannah' symbolizing a significant relationship. The music builds from a gentle start to an intense climax, conveying a sense of growth and discovery.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hannah%20Hunt%20played%20by%20Vampire%20Weekend",
+      "geniusUrl": "https://genius.com/search?q=Hannah%20Hunt%20Vampire%20Weekend",
+      "verified": true
+    },
+    {
+      "title": "Hannah Jane",
+      "artist": "Hootie & the Blowfish",
+      "year": 1994,
+      "genre": "Rock",
+      "nameContext": "Features \"hannah\" in the song",
+      "description": "This upbeat rock song is an ode to a woman named Hannah Jane, celebrating her presence and the joy she brings. The tune is catchy and filled with positive vibes, emphasizing themes of love and appreciation.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hannah%20Jane%20played%20by%20Hootie%20%26%20the%20Blowfish",
+      "geniusUrl": "https://genius.com/search?q=Hannah%20Jane%20Hootie%20%26%20the%20Blowfish",
+      "verified": true
+    },
+    {
+      "title": "Hannah",
+      "artist": "Freelance Whales",
+      "year": 2010,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"hannah\" in the song",
+      "description": "A whimsical and uplifting track, 'Hannah' is filled with vibrant instrumentals and a playful melody. The song paints a picture of youthful exuberance and the joy of being in love, with 'Hannah' representing a muse or source of inspiration.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hannah%20played%20by%20Freelance%20Whales",
+      "geniusUrl": "https://genius.com/search?q=Hannah%20Freelance%20Whales",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:35:11.820Z",
+  "songsEnrichedAt": "2025-11-03T22:35:11.820Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

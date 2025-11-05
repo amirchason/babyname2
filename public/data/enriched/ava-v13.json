@@ -1,0 +1,309 @@
+{
+  "name": "ava",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:49:55.911Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Life",
+  "culturalSignificance": "Ava is a name with deep historical roots, often associated with strength and resilience. In various cultures, it has been linked to concepts of life and renewal, making it a popular choice for parents seeking a name with positive connotations.",
+  "modernContext": "Ava has consistently ranked among the top names for girls in the United States and other English-speaking countries over the past decade, reflecting its timeless appeal and versatility.",
+  "literaryReferences": "Ava is not prominently featured in classic literature, but its simplicity and elegance have made it a popular choice in modern storytelling.",
+  "pronunciationGuide": "/ˈeɪ.və/",
+  "variations": [
+    "Eva",
+    "Aveline",
+    "Avis",
+    "Aviana",
+    "Aviva",
+    "Avelina",
+    "Avie",
+    "Avril",
+    "Avalon"
+  ],
+  "similarNames": [
+    "Ada",
+    "Ella",
+    "Eve",
+    "Ivy",
+    "Aria",
+    "Mia",
+    "Lila",
+    "Zoe",
+    "Luna"
+  ],
+  "nicknames": [
+    "Avie",
+    "Av",
+    "Avi",
+    "Vee",
+    "Avs",
+    "Ava-Bear",
+    "Ava-Loo",
+    "Avster",
+    "Avy"
+  ],
+  "personality": "Individuals named Ava are often perceived as lively, charismatic, and creative. They are seen as natural leaders with a strong sense of purpose.",
+  "symbolism": "Ava symbolizes life, renewal, and vitality, often associated with the dawn of a new day.",
+  "funFact": "Ava Gardner, a famous actress from the Golden Age of Hollywood, helped popularize the name in the mid-20th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ava Gardner",
+      "years": "1922-1990",
+      "category": "Entertainment",
+      "achievements": [
+        "Renowned actress of the Golden Age of Hollywood",
+        "Academy Award nominee"
+      ],
+      "significance": "Ava Gardner was a prominent actress known for her beauty and talent, influencing the film industry significantly during her time.",
+      "notableWorks": [
+        "The Killers",
+        "Mogambo",
+        "The Night of the Iguana"
+      ]
+    },
+    {
+      "fullName": "Ava Helen Pauling",
+      "years": "1903-1981",
+      "category": "Science and Activism",
+      "achievements": [
+        "Advocate for peace and civil rights",
+        "Influential in the field of chemistry"
+      ],
+      "significance": "Ava Helen Pauling was a notable activist and the wife of Linus Pauling, contributing to social causes and scientific discussions.",
+      "notableWorks": [
+        "Co-founder of the Women's International League for Peace and Freedom"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ava DuVernay",
+      "profession": "Film Director",
+      "knownFor": [
+        "Directing 'Selma'",
+        "Creating 'When They See Us'"
+      ],
+      "awards": "Emmy Award, BAFTA Award"
+    },
+    {
+      "name": "Ava Max",
+      "profession": "Singer",
+      "knownFor": [
+        "Hit single 'Sweet but Psycho'",
+        "Album 'Heaven & Hell'"
+      ],
+      "awards": "MTV Europe Music Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ava Wallace",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Washington Wizards",
+      "pastTeams": [],
+      "position": "Sports Journalist",
+      "jerseyNumber": "",
+      "years": "2020-Present",
+      "achievements": "Coverage of NBA games and events",
+      "knownFor": [
+        "Insightful sports reporting"
+      ],
+      "awards": "N/A",
+      "stats": "",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Ava Kuyken",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "FA Women's Super League",
+      "team": "Bristol City",
+      "pastTeams": [
+        "Arsenal"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "2018-Present",
+      "achievements": "Youth international caps for England",
+      "knownFor": [
+        "Technical skills and playmaking"
+      ],
+      "awards": "N/A",
+      "stats": "Goals and assists in league play",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Ex Machina",
+      "year": 2014,
+      "type": "Movie",
+      "characterName": "Ava",
+      "characterDescription": "An advanced AI robot with human-like intelligence and emotions.",
+      "imdbUrl": "https://www.imdb.com/title/tt0470752/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Isn't it strange, to create something that hates you?",
+      "character": "Ava",
+      "source": "Ex Machina",
+      "year": 2014,
+      "context": "Ava, the AI robot, questions her creator about the nature of her existence.",
+      "genre": "Science Fiction",
+      "impact": "This quote highlights the ethical dilemmas of artificial intelligence and the complexities of creator-creation relationships."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 391,
+    "peak": 129,
+    "peakYear": 2019
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "a-va"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Reese Witherspoon",
+      "parentProfession": "Actor",
+      "childName": "Ava Elizabeth Phillippe",
+      "birthYear": 1999,
+      "context": "Reese Witherspoon is an Academy Award-winning actress known for her roles in films such as 'Legally Blonde' and 'Walk the Line'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Heather Locklear",
+      "parentProfession": "Actor",
+      "childName": "Ava Elizabeth Sambora",
+      "birthYear": 1997,
+      "context": "Heather Locklear is an American actress known for her role on the TV series 'Melrose Place'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Hugh Jackman",
+      "parentProfession": "Actor",
+      "childName": "Ava Eliot Jackman",
+      "birthYear": 2005,
+      "context": "Hugh Jackman is an Australian actor famous for his role as Wolverine in the 'X-Men' series.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:10:38.536Z",
+  "v8EnrichedAt": "2025-11-03T22:10:43.610Z",
+  "songs": [
+    {
+      "title": "Ava",
+      "artist": "Famy",
+      "year": 2014,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"ava\" in the song",
+      "description": "This song celebrates the joy and vibrancy of life through the lens of a character named Ava. It features uplifting melodies and an energetic rhythm, creating a sense of youthful exuberance and positivity.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ava%20played%20by%20Famy",
+      "geniusUrl": "https://genius.com/search?q=Ava%20Famy",
+      "verified": true
+    },
+    {
+      "title": "Ava Adore",
+      "artist": "The Smashing Pumpkins",
+      "year": 1998,
+      "genre": "Alternative Rock",
+      "nameContext": "Features \"ava\" in the song",
+      "description": "While the song explores themes of love and devotion, it ultimately conveys a message of acceptance and appreciation. The music combines a haunting yet beautiful melody with a strong, driving beat, highlighting the transformative power of love.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ava%20Adore%20played%20by%20The%20Smashing%20Pumpkins",
+      "geniusUrl": "https://genius.com/search?q=Ava%20Adore%20The%20Smashing%20Pumpkins",
+      "verified": true
+    },
+    {
+      "title": "Ava",
+      "artist": "Coheed and Cambria",
+      "year": 2018,
+      "genre": "Progressive Rock",
+      "nameContext": "Features \"ava\" in the song",
+      "description": "This track is a heartfelt tribute to a beloved individual named Ava. It features intricate guitar work and dynamic vocals, creating an atmosphere of warmth and affection. The song conveys a sense of hope and admiration.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ava%20played%20by%20Coheed%20and%20Cambria",
+      "geniusUrl": "https://genius.com/search?q=Ava%20Coheed%20and%20Cambria",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:10:57.053Z",
+  "songsEnrichedAt": "2025-11-03T22:10:57.053Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "name": "Mia",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-03T21:14:55.208Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10",
+    "v11"
+  ],
+  "gender": "female",
+  "origin": "Italian",
+  "meaning": "Mine",
+  "culturalSignificance": "Mia is a name that has been widely used across various cultures, often associated with warmth and affection due to its meaning 'mine'. It has roots in Italian and Scandinavian cultures, and has been popularized globally through media and celebrity influence.",
+  "modernContext": "Mia is a highly popular name in many English-speaking countries and has consistently ranked among the top baby names in the United States and the United Kingdom in recent years.",
+  "literaryReferences": "Mia Thermopolis, the protagonist of 'The Princess Diaries' series by Meg Cabot.",
+  "pronunciationGuide": "miːə",
+  "variations": [
+    "Mya",
+    "Maja",
+    "Miya",
+    "Miah",
+    "Mía",
+    "Miaa",
+    "Miao",
+    "Miaus",
+    "Miae"
+  ],
+  "similarNames": [
+    "Maya",
+    "Leah",
+    "Nia",
+    "Lia",
+    "Tia",
+    "Michael",
+    "Matthew",
+    "Mark",
+    "Martin"
+  ],
+  "nicknames": [
+    "Mimi",
+    "Mi",
+    "Mia",
+    "Miy",
+    "Miay",
+    "Mi-mi"
+  ],
+  "personality": "People named Mia are often perceived as friendly, approachable, and creative. They are thought to possess a strong sense of independence and are known for their vibrant and lively personalities.",
+  "symbolism": "The name Mia symbolizes love, belonging, and personal connection due to its meaning 'mine'. It often represents a cherished and beloved individual.",
+  "funFact": "Mia gained significant popularity after the release of the 'Princess Diaries' movies, where Anne Hathaway played the character Mia Thermopolis.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Mia Hamm",
+      "years": "1972-Present",
+      "category": "Sports",
+      "achievements": [
+        "Two-time FIFA Women's World Cup champion",
+        "Two-time Olympic gold medalist"
+      ],
+      "significance": "Mia Hamm is considered one of the greatest female soccer players of all time and has been a pioneer for women's sports.",
+      "notableWorks": [
+        "Founding member of the Women's United Soccer Association"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Mia Farrow",
+      "profession": "Actress",
+      "knownFor": [
+        "Her roles in 'Rosemary's Baby' and 'The Great Gatsby'"
+      ],
+      "awards": "Golden Globe Award for New Star of the Year"
+    },
+    {
+      "name": "Mia Wasikowska",
+      "profession": "Actress",
+      "knownFor": [
+        "Her role as Alice in 'Alice in Wonderland'"
+      ],
+      "awards": "Australian Film Institute Award for Best Actress"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Mia Hamm",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "N/A",
+      "team": "Retired",
+      "pastTeams": [
+        "Washington Freedom"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "1987-2004",
+      "achievements": "Two-time FIFA Women's World Cup champion, two-time Olympic gold medalist",
+      "knownFor": [
+        "Scoring prowess and leadership on the field"
+      ],
+      "awards": "FIFA World Player of the Year (2001, 2002)",
+      "stats": "158 international goals",
+      "verified": true,
+      "source": "FIFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Princess Diaries",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Mia Thermopolis",
+      "characterDescription": "A shy teenager who discovers she is the heir to a European throne.",
+      "imdbUrl": "https://www.imdb.com/title/tt0247638/",
+      "genre": "Comedy, Family",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
+      "character": "Mia Thermopolis",
+      "source": "The Princess Diaries",
+      "year": 2001,
+      "context": "Mia reflects on the nature of courage as she faces her new responsibilities as a princess.",
+      "genre": "Comedy, Family",
+      "impact": "This quote is memorable for its inspiring message about bravery and personal growth."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Ruby Red",
+      "hex": "#E0115F"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 192,
+    "peak": 119,
+    "peakYear": 2014
+  },
+  "inspiration": {
+    "type": "haiku",
+    "content": "Mia, gentle breeze,\nWhispers dreams upon the heart,\nHope in every dawn.",
+    "author": null,
+    "context": "A haiku celebrating the name Mia, symbolizing hope and new beginnings."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Mia"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Mía",
+      "script": "Latin",
+      "scriptName": "Mía",
+      "pronunciation": "/ˈmi.a/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μία",
+      "script": "Greek",
+      "scriptName": "Μία",
+      "pronunciation": "/ˈmi.a/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميا",
+      "script": "Arabic",
+      "scriptName": "ميا",
+      "pronunciation": "/miː.ja/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "米娅",
+      "script": "Han",
+      "scriptName": "米娅",
+      "pronunciation": "/mǐ.jià/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Миа",
+      "script": "Cyrillic",
+      "scriptName": "Миа",
+      "pronunciation": "/ˈmi.a/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מיה",
+      "script": "Hebrew",
+      "scriptName": "מיה",
+      "pronunciation": "/miː.ja/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Mia's Story: A Sketchbook of Hopes and Dreams",
+      "author": "Michael Foreman",
+      "publishedYear": 2006,
+      "genre": "Children's",
+      "significance": "A beautifully illustrated children's book that tells the story of a young girl with dreams and aspirations.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "parentName": "Kate Winslet",
+      "parentProfession": "Actor",
+      "childName": "Mia Honey Threapleton",
+      "birthYear": 2000,
+      "context": "Kate Winslet is an Academy Award-winning actress known for her role in 'Titanic'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Zinedine Zidane",
+      "parentProfession": "Athlete",
+      "childName": "Mia Zidane",
+      "birthYear": 2016,
+      "context": "Zinedine Zidane is a retired French footballer and former manager of Real Madrid.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Ian Ziering",
+      "parentProfession": "Actor",
+      "childName": "Mia Loren Ziering",
+      "birthYear": 2011,
+      "context": "Ian Ziering is an actor best known for his role in 'Beverly Hills, 90210'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Mia has gained popularity as a modern name in recent decades."
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    },
+    {
+      "tag": "International",
+      "confidence": 0.85,
+      "reason": "Mia is used across various cultures and languages, making it an international name."
+    },
+    {
+      "tag": "Soft",
+      "confidence": 0.8,
+      "reason": "The name Mia has a gentle and soft sound."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.75,
+      "reason": "Despite its modern rise, Mia has a timeless appeal."
+    }
+  ],
+  "v7EnhancedAt": "2025-11-02T12:23:02.130Z",
+  "v8EnrichedAt": "2025-11-02T12:23:06.285Z",
+  "songs": [
+    {
+      "title": "Mia",
+      "artist": "Bad Bunny ft. Drake",
+      "year": 2018,
+      "genre": "Reggaeton, Latin Trap",
+      "nameContext": "Features \"Mia\" in the song",
+      "description": "This upbeat reggaeton track features a collaboration between Bad Bunny and Drake, celebrating a romantic interest named Mia. The song conveys themes of admiration and desire, with a catchy rhythm that invites listeners to dance.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Mia%20played%20by%20Bad%20Bunny%20ft.%20Drake",
+      "geniusUrl": "https://genius.com/search?q=Mia%20Bad%20Bunny%20ft.%20Drake",
+      "verified": true
+    },
+    {
+      "title": "Mia",
+      "artist": "Gino Vannelli",
+      "year": 1974,
+      "genre": "Soft Rock, Pop",
+      "nameContext": "Features \"Mia\" in the song",
+      "description": "A heartfelt and melodic tune from the 1970s, this song by Gino Vannelli expresses deep affection and appreciation for someone special named Mia. The soft rock sound is complemented by emotional vocals and a warm arrangement.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Mia%20played%20by%20Gino%20Vannelli",
+      "geniusUrl": "https://genius.com/search?q=Mia%20Gino%20Vannelli",
+      "verified": true
+    },
+    {
+      "title": "Mia",
+      "artist": "Ariana Grande",
+      "year": 2013,
+      "genre": "Pop",
+      "nameContext": "Features \"Mia\" in the song",
+      "description": "A pop track that captures the joy and excitement of a new romantic connection. Ariana Grande's vibrant vocals and the song's energetic production create a feel-good atmosphere, celebrating the presence of Mia in the singer's life.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Mia%20played%20by%20Ariana%20Grande",
+      "geniusUrl": "https://genius.com/search?q=Mia%20Ariana%20Grande",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-02T12:23:10.780Z",
+  "songsEnrichedAt": "2025-11-02T12:23:10.780Z",
+  "v11BlogContent": {
+    "opening_hook": "There's something undeniably enchanting about the name Mia. It rolls off the tongue like a melody, simple yet profound, capturing the hearts of parents worldwide. Mia is a name that whispers elegance and warmth, much like the sound of a gentle breeze on a summer's day. It's a name that feels like a warm embrace, one that promises a lifetime of love and connection. \n\nIn an ever-evolving world of baby names, Mia stands out as timeless yet contemporary, offering a sense of familiarity with a touch of the exotic. It's a name that has traversed cultures and generations, always maintaining its charm and appeal. Whether you're drawn to its brevity, its melodic sound, or the affectionate meaning behind it, Mia has a special way of nestling into our hearts, inviting us to claim it as our own. \"Mine,\" it declares, as if to say, \"I belong to you.\"",
+    "etymology_meaning": "The origin story of Mia is as captivating as the name itself. Rooted in the Italian language, where it literally means 'mine,' Mia echoes the language of love and possession, portraying an intimate bond between the namer and the named. But its tale doesn't end there. This charming name has also found a home in Scandinavian cultures, where its simplicity and grace resonate with the minimalistic beauty often celebrated in the north. \n\nAs Mia traveled through time and across continents, it evolved, acquiring layers of meaning and affection. Today, it stands as a beacon of warmth, a testament to the universal desire for connection, belonging, and love. Mia is not just a name; it's a declaration of devotion, a promise that speaks of close-knit bonds and cherished relationships.",
+    "famous_bearers": "Among the illustrious individuals who have carried the name Mia, actress Mia Farrow stands out with her ethereal beauty and substantial contributions to both film and humanitarian efforts. Her iconic roles and compassionate activism have inspired many, showcasing the strength and depth that the name Mia can embody.\n\nMia Hamm, a name synonymous with athletic excellence, redefined what it means to be a female athlete. As a soccer legend, she not only broke records but also paved the way for future generations of women in sports, proving that the name Mia can be synonymous with strength, determination, and leadership. \n\nIn the realm of cinema, there's Mia Wasikowska, whose eclectic choice of roles and nuanced performances have made her one of the most intriguing actresses of her generation. Each of these Mias, in their unique way, highlights the versatility and timeless appeal of the name, making it a choice filled with aspiration and inspiration.",
+    "pop_culture_moments": "The name Mia has graced popular culture with its presence in memorable ways, perhaps most famously in Meg Cabot's 'The Princess Diaries'. Here, Mia Thermopolis, an awkward teenager who discovers she's heir to a throne, captured the imaginations of readers and viewers alike. Her journey from an ordinary girl to a poised princess is a delightful tale of self-discovery and transformation, reflecting the charm and relatability of the name.\n\nMia's presence in pop culture extends beyond literature and film; it's a name that frequently appears in music, lending an air of romance and adventure to songs that celebrate life and love. Each cultural cameo reinforces the name's enduring appeal and its ability to evoke emotions and stories that resonate deeply.",
+    "personality_profile": "People who bear the name Mia often exude a warmth and affection that mirrors the name's meaning. They are typically seen as approachable and friendly, with a natural ability to form deep, meaningful connections with those around them. Mias are often perceived as adaptable and versatile, much like the name itself, which has found a place in so many different cultures and contexts.\n\nWith a name so deeply tied to concepts of possession and belonging, Mias often have a strong sense of identity and a desire to create environments where others feel at home. Their personalities are often characterized by empathy, compassion, and a genuine interest in the well-being of others, making them cherished friends and loved ones.",
+    "variations_nicknames": "Mia, with its elegant simplicity, doesn't lend itself to a plethora of variations, but it doesn't need to. Some may opt for 'Mimi,' a playful, sweet twist that adds a dash of whimsy to the name's classic charm. Then there's 'Miah,' which offers a slightly different spin with a touch more syllabic flow.\n\nFor those seeking a variation with a similar vibe but a slightly different flavor, 'Mila' or 'Mina' could be delightful alternatives. Each of these names carries its own unique grace while maintaining the essence of what makes Mia so special.",
+    "popularity_data": "Currently ranked at #192, Mia's popularity speaks to its widespread appeal and timeless nature. Its ranking is a testament to a name that remains beloved across generations, steadily maintaining its place in the hearts of many. \n\nThe consistency of Mia's popularity also reflects its versatility; it fits seamlessly into diverse linguistic and cultural landscapes, appealing to parents who value both tradition and modernity. For those considering Mia, its stable ranking means it's well-known but not overly common, striking a perfect balance between familiarity and uniqueness.",
+    "pairing_suggestions": "When paired with other names, Mia shines with combinations that enhance its melodic simplicity. Consider 'Mia Grace,' a pairing that exudes elegance and poise. For a touch of modern flair, 'Mia Everly' offers a fresh, charming harmony.\n\nWhen thinking of sibling names, 'Liam' or 'Noah' for brothers create a cohesive, contemporary family name set, while 'Ella' or 'Ava' mirror Mia's brevity and sweetness for sisters. Each of these options highlights the name's versatility, allowing it to fit beautifully into a variety of family dynamics and styles.",
+    "cultural_context": "Mia's journey through cultures is a fascinating tale of migration and adaptation. Originally rooted in Italian, where it carries the intimate meaning of 'mine,' Mia has been warmly embraced by Scandinavian cultures, where its simplicity resonates with their aesthetic preferences. \n\nIts global appeal was further cemented as it traveled through literature, media, and celebrity influence, gaining popularity in English-speaking countries and beyond. This cultural migration highlights Mia's ability to transcend boundaries, making it a truly international name that bridges diverse traditions and values.",
+    "final_recommendation": "Mia is a name that offers intimacy and elegance wrapped in simplicity. Its affectionate meaning and global resonance make it a strong choice for parents seeking a name with depth and charm. It's perfect for those who desire a name that feels personal yet is recognized and embraced across cultures. \n\nHowever, for parents looking for something exceedingly rare or with a longer lineage of historical bearers, Mia might feel too contemporary. But for anyone drawn to a name that feels like a warm hug, timeless yet modern, Mia could very well be the one that captures your heart."
+  },
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "Blog content + writer"
+  }
+}

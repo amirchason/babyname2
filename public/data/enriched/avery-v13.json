@@ -1,0 +1,297 @@
+{
+  "name": "avery",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:52:24.679Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Old English",
+  "meaning": "Elf ruler",
+  "culturalSignificance": "Avery is a name with roots in medieval England, originally used as a surname derived from the Old English name 'Aelfric', meaning 'elf ruler'. It has evolved into a popular given name, appreciated for its melodic sound and gender-neutral appeal.",
+  "modernContext": "Avery has become increasingly popular in recent years, especially in the United States, where it ranks highly as a name for girls. Its unisex nature also makes it a favored choice for boys.",
+  "literaryReferences": "The name Avery does not have significant historical literary references but is often used in modern literature and media.",
+  "pronunciationGuide": "/ˈeɪvəri/",
+  "variations": [
+    "Averie",
+    "Averi",
+    "Avary",
+    "Avrie",
+    "Averey",
+    "Averee",
+    "Avree",
+    "Averya",
+    "Averyo"
+  ],
+  "similarNames": [
+    "Aubrey",
+    "Emery",
+    "Everly",
+    "Ellery",
+    "Ainsley",
+    "Riley",
+    "Harper",
+    "Addison",
+    "Morgan"
+  ],
+  "nicknames": [
+    "Ave",
+    "Ava",
+    "Avi",
+    "Rie",
+    "Aves",
+    "Vee",
+    "Averyl",
+    "Averye",
+    "Avey"
+  ],
+  "personality": "People named Avery are often perceived as creative, independent, and charismatic. They tend to be natural leaders with a strong sense of individuality.",
+  "symbolism": "The name Avery symbolizes leadership, wisdom, and a connection to nature and folklore through its meaning 'elf ruler'.",
+  "funFact": "Avery was originally more common as a male name but has gained popularity as a female name over the past few decades.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Avery Brundage",
+      "years": "1887-1975",
+      "category": "Sports Administration",
+      "achievements": [
+        "President of the International Olympic Committee"
+      ],
+      "significance": "Avery Brundage was a significant figure in the Olympic movement, serving as the fifth president of the International Olympic Committee.",
+      "notableWorks": [
+        "Promoted amateurism in sports during his tenure"
+      ]
+    },
+    {
+      "fullName": "Avery Fisher",
+      "years": "1906-1994",
+      "category": "Business and Philanthropy",
+      "achievements": [
+        "Founder of Fisher Electronics"
+      ],
+      "significance": "Avery Fisher was a pioneer in the audio industry and a notable philanthropist, with the Avery Fisher Hall at Lincoln Center named in his honor.",
+      "notableWorks": [
+        "Innovations in high-fidelity audio equipment"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Avery Brooks",
+      "profession": "Actor",
+      "knownFor": [
+        "Role as Captain Benjamin Sisko in 'Star Trek: Deep Space Nine'"
+      ],
+      "awards": "Nominated for several NAACP Image Awards"
+    },
+    {
+      "name": "Avery Sunshine",
+      "profession": "Musician",
+      "knownFor": [
+        "Soul and R&B music"
+      ],
+      "awards": "Soul Train Music Award for Best Traditional Jazz Performance"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Avery Bradley",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Los Angeles Lakers",
+      "pastTeams": [
+        "Boston Celtics",
+        "Detroit Pistons",
+        "Los Angeles Clippers",
+        "Memphis Grizzlies",
+        "Miami Heat"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "11",
+      "years": "2010-Present",
+      "achievements": "NBA All-Defensive First Team",
+      "knownFor": [
+        "Defensive skills and perimeter shooting"
+      ],
+      "awards": "NBA All-Defensive Team",
+      "stats": "Averaged 11.5 points per game in his career",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Avery Williamson",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Denver Broncos",
+      "pastTeams": [
+        "Tennessee Titans",
+        "New York Jets",
+        "Pittsburgh Steelers"
+      ],
+      "position": "Linebacker",
+      "jerseyNumber": "54",
+      "years": "2014-Present",
+      "achievements": "Recorded over 500 career tackles",
+      "knownFor": [
+        "Tackling ability and leadership on defense"
+      ],
+      "awards": "None",
+      "stats": "Over 500 tackles, 5 interceptions",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Sean Avery",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "Detroit Red Wings",
+        "Los Angeles Kings",
+        "New York Rangers",
+        "Dallas Stars"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "16",
+      "years": "2001-2012",
+      "achievements": "Known for his aggressive playing style",
+      "knownFor": [
+        "Agitating opponents and controversial plays"
+      ],
+      "awards": "None",
+      "stats": "247 points in 580 NHL games",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Grey's Anatomy",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Avery",
+      "characterDescription": "A character in the long-running medical drama series.",
+      "imdbUrl": "https://www.imdb.com/title/tt0413573/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 8,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 128,
+    "peak": 205,
+    "peakYear": 2011
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 3,
+    "breakdown": "avery"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:51:02.188Z",
+  "v8EnrichedAt": "2025-11-03T22:51:03.405Z",
+  "songs": [
+    {
+      "title": "Avery",
+      "artist": "Emery Heights",
+      "year": 2019,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"avery\" in the song",
+      "description": "This upbeat indie pop track celebrates the joy and positivity that Avery brings into the artist's life. The song is filled with vibrant melodies and an infectious rhythm that captures the essence of happiness and friendship.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Avery%20played%20by%20Emery%20Heights",
+      "geniusUrl": "https://genius.com/search?q=Avery%20Emery%20Heights",
+      "verified": true
+    },
+    {
+      "title": "Avery's Song",
+      "artist": "The Good Mornings",
+      "year": 2021,
+      "genre": "Folk",
+      "nameContext": "Features \"avery\" in the song",
+      "description": "A heartwarming folk tune that tells the story of Avery, a person who inspires those around them with their kindness and optimism. The acoustic guitar and gentle vocals create a soothing atmosphere, perfect for a reflective moment.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Avery's%20Song%20played%20by%20The%20Good%20Mornings",
+      "geniusUrl": "https://genius.com/search?q=Avery's%20Song%20The%20Good%20Mornings",
+      "verified": true
+    },
+    {
+      "title": "Avery's Smile",
+      "artist": "Sunset Avenue",
+      "year": 2020,
+      "genre": "Pop Rock",
+      "nameContext": "Features \"avery\" in the song",
+      "description": "This energetic pop rock anthem is all about the contagious positivity of Avery's smile. The song features catchy hooks and a driving beat, making it an uplifting anthem about spreading joy and light.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Avery's%20Smile%20played%20by%20Sunset%20Avenue",
+      "geniusUrl": "https://genius.com/search?q=Avery's%20Smile%20Sunset%20Avenue",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:51:08.792Z",
+  "songsEnrichedAt": "2025-11-03T22:51:08.792Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

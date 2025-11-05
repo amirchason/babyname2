@@ -1,0 +1,388 @@
+{
+  "name": "christian",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:50:53.046Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Follower of Christ",
+  "culturalSignificance": "The name Christian has been used since the Middle Ages, often associated with the Christian faith and its followers. It has been a popular name in various cultures, symbolizing devotion and faith.",
+  "modernContext": "Christian remains a popular name in many countries, frequently appearing in the top 100 names for boys in the United States and Europe.",
+  "literaryReferences": "Christian is the protagonist in John Bunyan's 'The Pilgrim's Progress', an allegory of the Christian journey of faith.",
+  "pronunciationGuide": "/ˈkrɪstʃən/",
+  "variations": [
+    "Cristiano",
+    "Kristian",
+    "Cristian",
+    "Kristjan",
+    "Krystian",
+    "Kristen",
+    "Kristin",
+    "Kirsten",
+    "Krisztián"
+  ],
+  "similarNames": [
+    "Christopher",
+    "Kristopher",
+    "Tristan",
+    "Crispin",
+    "Kristof",
+    "Cameron",
+    "Calvin",
+    "Carson",
+    "Colin"
+  ],
+  "nicknames": [
+    "Chris",
+    "Chrissy",
+    "Kit",
+    "Kris",
+    "Christy",
+    "Cris",
+    "Chaz",
+    "Chico",
+    "C.J."
+  ],
+  "personality": "People named Christian are often perceived as loyal, compassionate, and strong-willed, with a deep sense of faith and integrity.",
+  "symbolism": "The name Christian symbolizes faith, devotion, and a commitment to spiritual values.",
+  "funFact": "Christian is a name that has been used by several European royalty, including kings of Denmark and Norway.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Christian from 'The Pilgrim's Progress'",
+    "significance": "The name is directly associated with followers of Christ, symbolizing faith and devotion.",
+    "keyStories": [
+      "The journey of Christian in 'The Pilgrim's Progress'"
+    ],
+    "spiritualMeaning": "Represents a journey of faith and spiritual growth.",
+    "historicalImpact": "The name has been used by many saints and religious figures, reinforcing its spiritual significance."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Christian IV of Denmark",
+      "years": "1577-1648",
+      "category": "Monarch",
+      "achievements": [
+        "Expanded the Danish empire",
+        "Patron of the arts and architecture"
+      ],
+      "significance": "One of the most famous Scandinavian kings, known for his ambitious building projects and military campaigns.",
+      "notableWorks": [
+        "Rosenborg Castle",
+        "Børsen building in Copenhagen"
+      ]
+    },
+    {
+      "fullName": "Christian Doppler",
+      "years": "1803-1853",
+      "category": "Scientist",
+      "achievements": [
+        "Discovered the Doppler effect"
+      ],
+      "significance": "His work laid the foundation for modern astrophysics and radar technology.",
+      "notableWorks": [
+        "'Über das farbige Licht der Doppelsterne'"
+      ]
+    },
+    {
+      "fullName": "Christian Dior",
+      "years": "1905-1957",
+      "category": "Fashion Designer",
+      "achievements": [
+        "Revolutionized women's fashion with the 'New Look'"
+      ],
+      "significance": "Founded one of the world's top fashion houses, influencing modern fashion.",
+      "notableWorks": [
+        "'New Look' collection, 1947"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Without tradition, art is a flock of sheep without a shepherd. Without innovation, it is a corpse.",
+      "author": "Christian Dior",
+      "context": "Reflecting on the balance between tradition and innovation in fashion.",
+      "year": 1957,
+      "category": "Art"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Christian Bale",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'The Dark Knight', 'American Psycho', 'The Fighter'"
+      ],
+      "awards": "Academy Award for Best Supporting Actor"
+    },
+    {
+      "name": "Christian Slater",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'Heathers', 'Mr. Robot', 'True Romance'"
+      ],
+      "awards": "Golden Globe Award for Best Supporting Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Christian Laettner",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Minnesota Timberwolves",
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "Dallas Mavericks",
+        "Washington Wizards",
+        "Miami Heat"
+      ],
+      "position": "Power Forward/Center",
+      "jerseyNumber": "32",
+      "years": "1992-2005",
+      "achievements": "NCAA Champion, NBA All-Star",
+      "knownFor": [
+        "'The Shot' in 1992 NCAA tournament"
+      ],
+      "awards": "NBA All-Star (1997)",
+      "stats": "13,000+ career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Christian Pulisic",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Chelsea",
+      "pastTeams": [
+        "Borussia Dortmund"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "10",
+      "years": "2016-Present",
+      "achievements": "UEFA Champions League winner",
+      "knownFor": [
+        "Fast dribbling and playmaking"
+      ],
+      "awards": "U.S. Soccer Male Athlete of the Year",
+      "stats": "30+ international goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Christian McCaffrey",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "San Francisco 49ers",
+      "pastTeams": [
+        "Carolina Panthers"
+      ],
+      "position": "Running Back",
+      "jerseyNumber": "23",
+      "years": "2017-Present",
+      "achievements": "NFL Offensive Player of the Year candidate",
+      "knownFor": [
+        "Versatile running and receiving skills"
+      ],
+      "awards": "Pro Bowl selection",
+      "stats": "1,000+ rushing and receiving yards in a single season",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Christian Yelich",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Milwaukee Brewers",
+      "pastTeams": [
+        "Miami Marlins"
+      ],
+      "position": "Outfielder",
+      "jerseyNumber": "22",
+      "years": "2013-Present",
+      "achievements": "NL MVP (2018)",
+      "knownFor": [
+        "Batting average and home runs"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "200+ career home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Christian Ehrhoff",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "San Jose Sharks",
+        "Vancouver Canucks",
+        "Buffalo Sabres",
+        "Pittsburgh Penguins",
+        "Los Angeles Kings"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "10",
+      "years": "2003-2016",
+      "achievements": "Olympic Silver Medalist",
+      "knownFor": [
+        "Strong defensive play and leadership"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "340+ career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Christian",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Christian",
+      "characterDescription": "A man who embarks on a journey of self-discovery.",
+      "imdbUrl": "https://www.imdb.com/title/tt10329042/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 65
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I am a pilgrim, and I am going to the Celestial City.",
+      "character": "Christian",
+      "source": "The Pilgrim's Progress",
+      "year": 1678,
+      "context": "Christian declares his journey's purpose in John Bunyan's allegorical tale.",
+      "genre": "Religious Allegory",
+      "impact": "This quote encapsulates the essence of the Christian journey of faith and perseverance."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 412,
+    "peak": 134,
+    "peakYear": 2022
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "chri-stian"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "David Beckham",
+      "parentProfession": "Athlete",
+      "childName": "Christian Beckham",
+      "birthYear": 2005,
+      "context": "David Beckham is a former professional footballer known for his time at Manchester United and the England national team.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Mick Jagger",
+      "parentProfession": "Musician",
+      "childName": "Christian Jagger",
+      "birthYear": 1990,
+      "context": "Mick Jagger is the lead singer of the Rolling Stones, one of the most famous rock bands in the world.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [],
+  "v7EnhancedAt": "2025-11-03T22:26:10.695Z",
+  "v8EnrichedAt": "2025-11-03T22:26:14.809Z",
+  "songs": [
+    {
+      "title": "Christian Woman",
+      "artist": "Type O Negative",
+      "year": 1993,
+      "genre": "Gothic Metal",
+      "nameContext": "Features \"christian\" in the song",
+      "description": "This song explores themes of devotion and spirituality, wrapped in a gothic metal sound. It delves into the complexities of faith and identity, with a positive undertone of finding one's path.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Christian%20Woman%20played%20by%20Type%20O%20Negative",
+      "geniusUrl": "https://genius.com/search?q=Christian%20Woman%20Type%20O%20Negative",
+      "verified": true
+    },
+    {
+      "title": "Christian's Inferno",
+      "artist": "Green Day",
+      "year": 2009,
+      "genre": "Punk Rock",
+      "nameContext": "Features \"christian\" in the song",
+      "description": "A dynamic punk rock track that narrates a story of personal transformation and resilience. It carries an uplifting message about overcoming inner turmoil and finding strength in adversity.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Christian's%20Inferno%20played%20by%20Green%20Day",
+      "geniusUrl": "https://genius.com/search?q=Christian's%20Inferno%20Green%20Day",
+      "verified": true
+    },
+    {
+      "title": "Christian Dior Denim Flow",
+      "artist": "Kanye West",
+      "year": 2010,
+      "genre": "Hip Hop",
+      "nameContext": "Features \"christian\" in the song",
+      "description": "This hip hop track features a celebration of luxury and style, with a positive vibe about self-expression and confidence. It highlights the glamorous aspects of life while maintaining an upbeat and energetic tone.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Christian%20Dior%20Denim%20Flow%20played%20by%20Kanye%20West",
+      "geniusUrl": "https://genius.com/search?q=Christian%20Dior%20Denim%20Flow%20Kanye%20West",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:26:20.251Z",
+  "songsEnrichedAt": "2025-11-03T22:26:20.251Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

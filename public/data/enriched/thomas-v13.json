@@ -1,0 +1,388 @@
+{
+  "name": "thomas",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:52:16.353Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Aramaic",
+  "meaning": "Twin",
+  "culturalSignificance": "The name Thomas has been widely used in Christian contexts due to Saint Thomas the Apostle, one of the twelve apostles of Jesus, known for his initial doubt about the resurrection of Jesus. It has also been a popular name in many English-speaking countries and across Europe, often associated with reliability and faith.",
+  "modernContext": "Thomas remains a popular name in many countries, often ranking in the top 100 names for boys. It is favored for its classic and timeless appeal.",
+  "literaryReferences": "Thomas is a common name in literature, notably appearing in works like 'Thomas the Tank Engine' and 'The Adventures of Tom Sawyer'.",
+  "pronunciationGuide": "/ˈtɒm.əs/",
+  "variations": [
+    "Tomás",
+    "Tomas",
+    "Toma",
+    "Tomaž",
+    "Tomek",
+    "Tommi",
+    "Tommy",
+    "Tome",
+    "Tomasz"
+  ],
+  "similarNames": [
+    "Timothy",
+    "Theodore",
+    "Thompson",
+    "Tobias",
+    "Tanner",
+    "Travis",
+    "Trevor",
+    "Troy",
+    "Tyson"
+  ],
+  "nicknames": [
+    "Tom",
+    "Tommy",
+    "Tam",
+    "Tommie",
+    "Thom",
+    "T",
+    "T-Man",
+    "Tommy Boy",
+    "Tomcat"
+  ],
+  "personality": "People named Thomas are often perceived as dependable, thoughtful, and intelligent. They are seen as leaders and are known for their analytical minds.",
+  "symbolism": "The name Thomas symbolizes faith and skepticism, often associated with the biblical story of 'Doubting Thomas'.",
+  "funFact": "Thomas is the name of a famous tank engine character in the children's book series 'Thomas & Friends', which has been beloved by children worldwide.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Thomas the Apostle",
+    "significance": "Saint Thomas is known for his initial doubt about Jesus' resurrection, which led to the term 'Doubting Thomas'. He later became a strong believer and missionary.",
+    "keyStories": [
+      "Doubting Thomas",
+      "Missionary work in India"
+    ],
+    "spiritualMeaning": "Represents faith, belief, and the journey from doubt to conviction.",
+    "historicalImpact": "Saint Thomas is credited with bringing Christianity to India, where he is revered as a patron saint."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Thomas Jefferson",
+      "years": "1743-1826",
+      "category": "Political Leaders",
+      "achievements": [
+        "Third President of the United States",
+        "Principal author of the Declaration of Independence"
+      ],
+      "significance": "A Founding Father of the United States, Jefferson was a key figure in the early development of the nation.",
+      "notableWorks": [
+        "Declaration of Independence",
+        "Louisiana Purchase"
+      ]
+    },
+    {
+      "fullName": "Thomas Edison",
+      "years": "1847-1931",
+      "category": "Inventors",
+      "achievements": [
+        "Invented the phonograph",
+        "Developed the electric light bulb",
+        "Founded General Electric"
+      ],
+      "significance": "Edison is one of the most prolific inventors in history, holding over 1,000 patents.",
+      "notableWorks": [
+        "Phonograph",
+        "Electric light bulb",
+        "Motion picture camera"
+      ]
+    },
+    {
+      "fullName": "Thomas Aquinas",
+      "years": "1225-1274",
+      "category": "Philosophers",
+      "achievements": [
+        "Influential theologian",
+        "Doctor of the Church"
+      ],
+      "significance": "Aquinas was a pivotal figure in the development of Western philosophy and theology.",
+      "notableWorks": [
+        "Summa Theologica",
+        "Summa Contra Gentiles"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+      "author": "Thomas Edison",
+      "context": "Edison said this in the context of his numerous experiments and failures before successfully inventing the light bulb.",
+      "year": 1921,
+      "category": "Inspiration"
+    },
+    {
+      "quote": "The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants.",
+      "author": "Thomas Jefferson",
+      "context": "Jefferson wrote this in a letter discussing the necessity of revolution and vigilance in maintaining freedom.",
+      "year": 1787,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Thomas Hardy",
+      "profession": "Author",
+      "knownFor": [
+        "Writing novels such as 'Tess of the d'Urbervilles' and 'Far from the Madding Crowd'"
+      ],
+      "awards": "N/A"
+    },
+    {
+      "name": "Thomas Pynchon",
+      "profession": "Author",
+      "knownFor": [
+        "Writing novels such as 'Gravity's Rainbow' and 'The Crying of Lot 49'"
+      ],
+      "awards": "National Book Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Isiah Thomas",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Detroit Pistons"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "11",
+      "years": "1981-1994",
+      "achievements": "2× NBA Champion, 12× NBA All-Star",
+      "knownFor": [
+        "Leading the Detroit Pistons to back-to-back NBA Championships"
+      ],
+      "awards": "NBA Finals MVP",
+      "stats": "19.2 points per game, 9.3 assists per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Thomas Müller",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Bundesliga",
+      "team": "Bayern Munich",
+      "pastTeams": [],
+      "position": "Forward",
+      "jerseyNumber": "25",
+      "years": "2008-Present",
+      "achievements": "FIFA World Cup Winner 2014, UEFA Champions League Winner",
+      "knownFor": [
+        "Versatile attacking play and goal-scoring ability"
+      ],
+      "awards": "FIFA World Cup Silver Boot",
+      "stats": "Over 200 career goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Earl Thomas",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Seattle Seahawks",
+        "Baltimore Ravens"
+      ],
+      "position": "Safety",
+      "jerseyNumber": "29",
+      "years": "2010-2019",
+      "achievements": "Super Bowl Champion, 7× Pro Bowl",
+      "knownFor": [
+        "Key member of the 'Legion of Boom' defense"
+      ],
+      "awards": "First-team All-Pro",
+      "stats": "713 tackles, 30 interceptions",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Frank Thomas",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Chicago White Sox",
+        "Oakland Athletics",
+        "Toronto Blue Jays"
+      ],
+      "position": "First Baseman / Designated Hitter",
+      "jerseyNumber": "35",
+      "years": "1990-2008",
+      "achievements": "2× AL MVP, 5× All-Star",
+      "knownFor": [
+        "Power hitting and high batting average"
+      ],
+      "awards": "Hall of Fame Inductee",
+      "stats": "521 home runs, .301 batting average",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Tim Thomas",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "Boston Bruins",
+        "Dallas Stars",
+        "Florida Panthers"
+      ],
+      "position": "Goaltender",
+      "jerseyNumber": "30",
+      "years": "2002-2014",
+      "achievements": "Stanley Cup Champion, 2× Vezina Trophy",
+      "knownFor": [
+        "Outstanding goaltending and playoff performances"
+      ],
+      "awards": "Conn Smythe Trophy",
+      "stats": "214 wins, 2.52 GAA",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Maze Runner",
+      "year": 2014,
+      "type": "Movie",
+      "characterName": "Thomas",
+      "characterDescription": "The protagonist who wakes up in a maze with no memory of his past.",
+      "imdbUrl": "https://www.imdb.com/title/tt1790864/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "If you ain't scared... you ain't human.",
+      "character": "Thomas",
+      "source": "The Maze Runner",
+      "year": 2014,
+      "context": "Thomas says this to express the natural fear of the unknown and the challenges they face.",
+      "genre": "Science Fiction",
+      "impact": "This quote highlights the bravery required to face daunting challenges."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 448,
+    "peak": 188,
+    "peakYear": 2017
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "tho-mas"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:48:41.557Z",
+  "v8EnrichedAt": "2025-11-03T22:48:42.472Z",
+  "songs": [
+    {
+      "title": "Thomas the Tank Engine Theme",
+      "artist": "Mike O'Donnell and Junior Campbell",
+      "year": 1984,
+      "genre": "Children's Music",
+      "nameContext": "Features \"thomas\" in the song",
+      "description": "This iconic theme song from the beloved children's television series 'Thomas & Friends' captures the cheerful and adventurous spirit of Thomas the Tank Engine and his friends on the Island of Sodor.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Thomas%20the%20Tank%20Engine%20Theme%20played%20by%20Mike%20O'Donnell%20and%20Junior%20Campbell",
+      "geniusUrl": "https://genius.com/search?q=Thomas%20the%20Tank%20Engine%20Theme%20Mike%20O'Donnell%20and%20Junior%20Campbell",
+      "verified": true
+    },
+    {
+      "title": "Thomas Edison",
+      "artist": "The Weepies",
+      "year": 2015,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"thomas\" in the song",
+      "description": "A whimsical and uplifting song that draws inspiration from the inventive spirit of Thomas Edison, celebrating creativity and the joy of discovery.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Thomas%20Edison%20played%20by%20The%20Weepies",
+      "geniusUrl": "https://genius.com/search?q=Thomas%20Edison%20The%20Weepies",
+      "verified": true
+    },
+    {
+      "title": "Thomas County Law",
+      "artist": "Iron & Wine",
+      "year": 2017,
+      "genre": "Folk",
+      "nameContext": "Features \"thomas\" in the song",
+      "description": "This song offers a reflective and positive narrative about life and community in a small town, with a focus on personal growth and the passage of time.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Thomas%20County%20Law%20played%20by%20Iron%20%26%20Wine",
+      "geniusUrl": "https://genius.com/search?q=Thomas%20County%20Law%20Iron%20%26%20Wine",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:48:48.425Z",
+  "songsEnrichedAt": "2025-11-03T22:48:48.425Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

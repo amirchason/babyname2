@@ -1,0 +1,272 @@
+{
+  "name": "Jacob",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-03T21:20:03.856Z",
+  "dataSource": "Comprehensive enrichment",
+  "versionsIncluded": [
+    "v10",
+    "v11"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Supplanter, holder of the heel",
+  "culturalSignificance": "Jacob is a name of profound biblical significance, being one of the patriarchs of Israel. In the Hebrew Bible, Jacob was the son of Isaac and Rebecca, and the father of the twelve tribes of Israel. The name has remained popular across cultures and centuries, particularly in Jewish, Christian, and Islamic traditions.",
+  "modernContext": "Jacob has been one of the most consistently popular names in the United States, ranking #1 for boys from 1999 to 2012. It remains a top choice for parents seeking a traditional, biblical name with strong historical roots.",
+  "literaryReferences": "Jacob appears in numerous literary works, including the Bible (Genesis), Charles Dickens' works, and modern literature exploring themes of identity and heritage.",
+  "pronunciationGuide": "/ˈdʒeɪkəb/",
+  "variations": [
+    "Jakob (German/Scandinavian)",
+    "Jacques (French)",
+    "Jacobo (Spanish)",
+    "Giacomo (Italian)",
+    "Yakov (Russian)",
+    "James (English variant)",
+    "Diego (Spanish)",
+    "Jaco (Dutch)",
+    "Jakub (Polish)"
+  ],
+  "similarNames": [
+    "James",
+    "John",
+    "Joshua",
+    "Joseph",
+    "Jonathan",
+    "Caleb",
+    "Noah",
+    "Ethan",
+    "Benjamin"
+  ],
+  "nicknames": [
+    "Jake",
+    "Jay",
+    "Coby",
+    "Cob",
+    "Jack",
+    "J"
+  ],
+  "personality": "People named Jacob are often perceived as dependable, strong-willed, and intelligent. They are seen as natural leaders with a thoughtful and strategic approach to life.",
+  "symbolism": "The name Jacob symbolizes persistence, transformation, and divine blessing. In biblical tradition, Jacob wrestled with an angel and was renamed Israel, representing spiritual struggle and growth.",
+  "funFact": "Jacob was the #1 baby boy name in the United States for 13 consecutive years (1999-2012), one of the longest reigns for any name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity",
+      "Islam"
+    ],
+    "character": "Patriarch Jacob/Yaakov/Yaqub",
+    "significance": "Father of the twelve tribes of Israel, renamed Israel after wrestling with an angel",
+    "keyStories": [
+      "Jacob's Ladder",
+      "Wrestling with the Angel",
+      "Jacob and Esau",
+      "Joseph's Dreams"
+    ],
+    "spiritualMeaning": "Represents spiritual transformation, perseverance, and divine favor",
+    "historicalImpact": "Central figure in Abrahamic religions, ancestor of the Israelites"
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jacob Grimm",
+      "years": "1785-1863",
+      "category": "Linguist & Author",
+      "achievements": [
+        "Co-author of Grimms' Fairy Tales",
+        "Pioneer in German linguistics and philology"
+      ],
+      "significance": "Jacob Grimm, along with his brother Wilhelm, collected and published Germanic folk tales that became cultural treasures.",
+      "notableWorks": [
+        "Grimms' Fairy Tales",
+        "German Dictionary"
+      ]
+    },
+    {
+      "fullName": "Jacob Riis",
+      "years": "1849-1914",
+      "category": "Journalist & Social Reformer",
+      "achievements": [
+        "Pioneering photojournalist",
+        "Advocate for urban poor in New York City"
+      ],
+      "significance": "Jacob Riis used photography to expose living conditions in New York tenements, leading to housing reforms.",
+      "notableWorks": [
+        "How the Other Half Lives"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "All that the Father giveth me shall come to me.",
+      "author": "Biblical Jacob",
+      "context": "Represents faith and divine promise",
+      "year": null,
+      "category": "Religious"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Jake Gyllenhaal",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'Donnie Darko', 'Brokeback Mountain', 'Nightcrawler', 'Spider-Man: Far From Home'"
+      ],
+      "awards": "BAFTA Award, multiple nominations"
+    },
+    {
+      "name": "Jacob Elordi",
+      "profession": "Actor",
+      "knownFor": [
+        "Role as Nate Jacobs in 'Euphoria'",
+        "The Kissing Booth film series"
+      ],
+      "awards": "Rising star in Hollywood"
+    },
+    {
+      "name": "Jacob Tremblay",
+      "profession": "Actor",
+      "knownFor": [
+        "Role in 'Room' (2015)",
+        "Wonder (2017)"
+      ],
+      "awards": "Critics' Choice Award, Screen Actors Guild Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jacob deGrom",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Texas Rangers",
+      "pastTeams": [
+        "New York Mets"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "48",
+      "years": "2014-Present",
+      "achievements": "2x Cy Young Award winner, 4x All-Star",
+      "knownFor": [
+        "One of the most dominant pitchers of his era"
+      ],
+      "awards": "2× National League Cy Young Award",
+      "stats": "Career ERA under 2.50",
+      "verified": true,
+      "source": "MLB.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Twilight Saga",
+      "year": 2008,
+      "type": "Movie Series",
+      "characterName": "Jacob Black",
+      "characterDescription": "A shapeshifter who can transform into a wolf, close friend and love interest of Bella Swan.",
+      "imdbUrl": "https://www.imdb.com/title/tt1099212/",
+      "genre": "Fantasy/Romance",
+      "verified": true,
+      "popularity": 92
+    },
+    {
+      "title": "Lost",
+      "year": 2004,
+      "type": "TV Series",
+      "characterName": "Jacob",
+      "characterDescription": "Mysterious protector of the island with supernatural abilities.",
+      "imdbUrl": "https://www.imdb.com/title/tt0411008/",
+      "genre": "Mystery/Drama",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It only ends once. Anything that happens before that is just progress.",
+      "character": "Jacob",
+      "source": "Lost",
+      "year": 2007,
+      "context": "Jacob's philosophy about the eternal struggle between good and evil",
+      "genre": "Mystery/Drama",
+      "impact": "Central to the show's mythology and themes"
+    }
+  ],
+  "songsAboutName": [
+    {
+      "title": "Jacob's Ladder",
+      "artist": "Huey Lewis & The News",
+      "year": 1986,
+      "genre": "Rock",
+      "verified": true,
+      "description": "Rock song referencing the biblical story"
+    }
+  ],
+  "booksWithCharacter": [
+    {
+      "title": "Twilight series",
+      "author": "Stephenie Meyer",
+      "yearPublished": 2005,
+      "characterName": "Jacob Black",
+      "genre": "Young Adult Fantasy",
+      "verified": true,
+      "characterRole": "Main character, shapeshifter and werewolf"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Deep Blue",
+      "hex": "#00008B"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of completion, fulfillment, and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs align with grounded and practical energy.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Embodies stability, reliability, and material manifestation.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Patient, determined, creates lasting foundations.",
+    "karmicLessons": "Trust, releasing control, embracing change",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for knowledge and spiritual understanding"
+  },
+  "genderDistribution": {
+    "male": 99,
+    "female": 1
+  },
+  "ranking": {
+    "current": 1,
+    "peak": 1,
+    "peakYear": 2012,
+    "trend": "stable"
+  },
+  "v11BlogContent": {
+    "opening_hook": "## Let’s Meet Jacob: A Name That Kicks You in the Funny Bone\n\nYou know how some names just roll off the tongue like melted butter on a stack of pancakes? Well, Jacob is that name. It’s like the brand-new pair of socks that’s comfortable, reliable, and always finds its way in the dryer — unlike the elusive single socks that mysteriously disappear into the laundry void. Jacob has a timeless charm with a hint of mystery; it holds a place in history while keeping up with the trends like a parent trying to understand TikTok.\n\nLet’s address the elephant in the room: Jacob isn’t just a name. It’s an institution. It’s the name that’ll get called out in class by every substitute teacher and the name screamed ten times a day when your kid somehow Houdini’s his way out of doing chores. That’s the kind of influential aura we’re dealing with, folks.",
+    "etymology_meaning": "## Unpacking Jacob: Hold Onto Your Heels\n\nOnce upon a time in the land of Canaan, ‘Jacob’ emerged from the Hebrew lands like a rockstar of biblical proportions. The name translates to 'supplanter' or 'holder of the heel' — because who doesn’t want their little bundle of joy associated with heel-grabbing? It’s a name that implies a bit of trickery, which makes sense when you can’t even keep a baby from pulling off their socks.\n\nIn all seriousness, the story goes that Jacob was a twin who came out of the womb grasping his brother’s heel, setting the tone for a future filled with determination and maybe a dash of sibling rivalry. As a parent, I’d say it’s nice to know you’re raising a kid with determination — just as long as that never translates to a future of taking all the cookies from the jar.",
+    "famous_bearers": "## Famous Jacobs: A Roll Call of Legends\n\nIn the spotlight, we have the soulful Jake Gyllenhaal, who’s not only a great actor but also makes us wish our morning routine could be half as put together as his red carpet appearances. Then there’s Jacob Elordi, who’s proof that not every Aussie spends their life wrestling crocodiles — sometimes they become the dreamy heartthrob from your teenager’s latest Netflix obsession.\n\nLet’s not forget Jacob Tremblay, a child actor who’s so talented you’ll forget how young he actually is until you realize he’s younger than your TV remote. And in sports, there’s Jacob deGrom, a pitcher so good he makes throwing a ball in the backyard feel like heavy lifting. These Jacobs are making strides in their fields, showing the world what the name can achieve when you’re not consumed with holding onto heels.",
+    "pop_culture_moments": "## Pop Culture Jacob Journeys: Enter the Twilight Zone\n\nWhen you think of Jacob in pop culture, the Twilight Saga flashes brighter than a vampire in direct sunlight. Team Jacob, anyone? Ah, the days of the great debate: Edward’s brooding stares versus Jacob’s ability to actually see the sun. It was a cultural phenomenon that had teenagers swooning and parents asking, 'Why are we watching this again?'\n\n‘Lost’ also brought us a Jacob, and let’s be honest, no one really knew what was happening on that island half the time. But it made Jacob feel mysterious and intriguing, like that unopened jar in the fridge you’re slightly scared of but too curious about to throw away.",
+    "personality_profile": "## Personality Spotlight: What Makes Jacob Tick\n\nIf Jacob were a fizzy drink, he'd be the kind that doesn’t lose its sparkle after the first sip. He’s charismatic and sometimes a bit of a strategist — like trying to get out of bedtime by asking existential questions. 'But Mom, where do stars go in the daytime?' Cue the wide-eyed innocence and your surrender to an extra five minutes of wake time.\n\nJacobs often carry a leadership quality, perhaps because they spent a lifetime mastering the art of persuasion, starting with successfully negotiating for dessert before dinner. They’re adaptable and often the peacemaker of the group because nobody knows how to navigate a bumpy situation better than someone who’s been holding onto things since birth, literally.",
+    "variations_nicknames": "## Nickname Central: Get Creative with Jacob\n\nJacob, Jake, Jakey — it’s like choosing a flavor of ice cream. Jake rolls off the tongue with the ease of watching cartoons on a Sunday morning. Jakey adds a sprinkle of sweetness, which might be perfect for a toddler or someone who still believes vegetables are a myth.\n\nYou want to go international? Try 'Jakub' for a European flair or 'Yaacov' if you’re feeling biblical. Just remember, no matter what variation you choose, your Jacob will still find a way to transform into ‘Hey, you!’ when he’s on the other side of the playground and you’re struggling to get his attention.",
+    "popularity_data": "## Numbers Never Lie: Jacob’s Popularity\n\nJacob sits on the throne as #1, a king among baby names, which means if you’re at a park and yell 'Jacob,' expect half the kids to turn around. But hey, nothing wrong with a name that’s both trendy and traditional. Like avocado toast — everybody’s favorite.\n\nOver the years, Jacob has held its ground, much like a toddler who refuses to be strapped into a car seat. Whether it’s the allure of its timelessness or just the pure, satisfying way it sounds, Jacob is a name that people are drawn to, like moths to a flame, or parents to coffee.",
+    "pairing_suggestions": "## Perfect Pairings: Names That Groove with Jacob\n\nWhen pondering middle names to go with Jacob, think of names that complement its sturdy charm. Jacob Alexander has a royal ring to it that almost makes you want to curtsy. Jacob Oliver offers a touch of sophistication that might have you ordering a set of tiny monocles before long.\n\nWant a sibling name that accompanies Jacob like peanut butter to jelly? Consider names like Emma or Sophie for a sister, or Ethan and Lucas for a brother. You’ll have a harmonious household where the names flow as smoothly as a toddler's negotiating tactics for extra bedtime stories.",
+    "cultural_context": "## Jacob in Context: Bridging Worlds\n\nDiving into the cultural depths, Jacob is a mainstay, not just in Western culture but all around the world. In Hebrew culture, Jacob is not just a name but a story of legacy, determination, and perhaps, a little mischief. It traverses languages and lands, much like a well-traveled backpacker.\n\nIn a world that seems to be changing faster than a baby can go from walking to running, Jacob offers a sense of constancy. It’s a reminder of history and heritage, connecting generations yet fitting seamlessly into the modern narrative — like a great-grandparent who surprises you with their Instagram skills.",
+    "final_recommendation": "## The Verdict: To Jacob or Not to Jacob?\n\nNaming a child is like discovering a new type of sleep deprivation — it’s exciting, terrifying, and oh-so-rewarding. If you’re considering Jacob, you’re choosing a name with timeless appeal, a dash of mystery, and a hint of that toddler resilient spirit.\n\nIn the end, here's the kicker — it’s not just about the name, but the little person who’ll carry it. Choose Jacob, and you’re giving your child a name that’s stood the test of time, has that perfect blend of history and modernity, and sounds equally charming when hollered across the playground or whispered at bedtime.",
+    "writer_name": "Charlie Brooks",
+    "writer_title": "Comedy Writer & Parent"
+  },
+  "v11Writer": "charlie",
+  "v11WriterName": "Charlie Brooks",
+  "v11WriterTitle": "Comedy Writer & Parent",
+  "versionSnapshots": {
+    "v6": "N/A",
+    "v7": "N/A",
+    "v8": "N/A",
+    "v10": "29 fields",
+    "v11": "Blog content + writer"
+  }
+}

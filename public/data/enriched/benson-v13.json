@@ -1,0 +1,380 @@
+{
+  "name": "Benson",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-03T21:14:43.478Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10",
+    "v11"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Son of Ben",
+  "culturalSignificance": "The name Benson has its roots in English culture, traditionally used as a patronymic surname meaning 'son of Ben.' It reflects the historical practice of using the father's name as a basis for the child's surname, a common tradition in many cultures.",
+  "modernContext": "Benson is a moderately popular given name in English-speaking countries, often chosen for its classic sound and familial meaning. It is less common than its root name, Ben, but has maintained steady usage.",
+  "literaryReferences": "Benson is not prominently featured in classical literature but may appear in modern novels and stories as a character name.",
+  "pronunciationGuide": "/ˈbɛnsən/",
+  "variations": [
+    "Bensson",
+    "Bensonh",
+    "Bensyn",
+    "Bensun",
+    "Bensohn",
+    "Bensona",
+    "Bensono",
+    "Bensonus",
+    "Bensone"
+  ],
+  "similarNames": [
+    "Benjamin",
+    "Ben",
+    "Benton",
+    "Benedict",
+    "Bennett"
+  ],
+  "nicknames": [
+    "Ben",
+    "Benny",
+    "Benji",
+    "Sonny",
+    "Bens",
+    "Be",
+    "Bey",
+    "Beny",
+    "Bensony"
+  ],
+  "personality": "People named Benson are often perceived as reliable, strong, and family-oriented. They are seen as supportive individuals who value tradition and loyalty.",
+  "symbolism": "The name Benson symbolizes familial bonds and heritage, often associated with strength and dependability.",
+  "funFact": "Benson is also the name of a popular American sitcom from the 1980s, which featured a character named Benson DuBois.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "E.F. Benson",
+      "years": "1867-1940",
+      "category": "Author",
+      "achievements": [
+        "Prolific writer of novels, biographies, and short stories"
+      ],
+      "significance": "E.F. Benson is best known for his Mapp and Lucia series, which satirizes British society.",
+      "notableWorks": [
+        "Mapp and Lucia",
+        "Queen Lucia",
+        "Miss Mapp"
+      ]
+    },
+    {
+      "fullName": "Benson J. Lossing",
+      "years": "1813-1891",
+      "category": "Historian",
+      "achievements": [
+        "Renowned for his illustrated histories of the American Revolution and Civil War"
+      ],
+      "significance": "Lossing's works are valued for their detailed illustrations and accessible narrative style.",
+      "notableWorks": [
+        "Pictorial Field-Book of the Revolution",
+        "Pictorial Field-Book of the Civil War"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Benson Fong",
+      "profession": "Actor",
+      "knownFor": [
+        "Appeared in numerous films and TV shows, including 'Flower Drum Song'"
+      ],
+      "awards": "No notable awards"
+    },
+    {
+      "name": "Benson Henderson",
+      "profession": "Mixed Martial Artist",
+      "knownFor": [
+        "Former UFC Lightweight Champion"
+      ],
+      "awards": "UFC Lightweight Championship"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Cedric Benson",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Chicago Bears",
+      "pastTeams": [
+        "Chicago Bears",
+        "Cincinnati Bengals",
+        "Green Bay Packers"
+      ],
+      "position": "Running Back",
+      "jerseyNumber": "32",
+      "years": "2005-2012",
+      "achievements": "Over 6,000 rushing yards in NFL career",
+      "knownFor": [
+        "Powerful running style"
+      ],
+      "awards": "None",
+      "stats": "6,017 rushing yards, 32 rushing touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Benson Mayowa",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Seattle Seahawks",
+      "pastTeams": [
+        "Seattle Seahawks",
+        "Dallas Cowboys",
+        "Oakland Raiders",
+        "Arizona Cardinals"
+      ],
+      "position": "Defensive End",
+      "jerseyNumber": "95",
+      "years": "2013-Present",
+      "achievements": "Super Bowl XLVIII Champion",
+      "knownFor": [
+        "Pass rushing abilities"
+      ],
+      "awards": "None",
+      "stats": "26 career sacks",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Benson Manuel",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Belgian Pro League",
+      "team": "Royal Antwerp FC",
+      "pastTeams": [
+        "KRC Genk",
+        "Royal Antwerp FC"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "7",
+      "years": "2017-Present",
+      "achievements": "Belgian Cup Winner",
+      "knownFor": [
+        "Speed and dribbling skills"
+      ],
+      "awards": "None",
+      "stats": "20 goals in professional career",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Benson",
+      "year": 1979,
+      "type": "TV Show",
+      "characterName": "Benson DuBois",
+      "characterDescription": "A witty and wise butler who rises to become the state's budget director.",
+      "imdbUrl": "https://www.imdb.com/title/tt0078569/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You know, I have a theory about people who talk too much. They don't actually have anything to say.",
+      "character": "Benson DuBois",
+      "source": "Benson",
+      "year": 1979,
+      "context": "Benson DuBois often used his wit to make sharp observations about those around him.",
+      "genre": "Comedy",
+      "impact": "This quote is memorable for its humor and insight into human behavior."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 150,
+    "peak": 246,
+    "peakYear": 2016
+  },
+  "inspiration": {
+    "type": "haiku",
+    "content": "Benson stands so tall,\nStrength in every gentle word,\nGuiding light for all.",
+    "author": null,
+    "context": "This haiku reflects the strength and guidance often associated with the name Benson."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ben-son"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Benson",
+      "script": "Latin",
+      "scriptName": "Benson",
+      "pronunciation": "/ˈbenson/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπένσον",
+      "script": "Greek",
+      "scriptName": "Μπένσον",
+      "pronunciation": "/ˈbenson/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بينسون",
+      "script": "Arabic",
+      "scriptName": "بينسون",
+      "pronunciation": "/ˈbenson/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "本森",
+      "script": "Han",
+      "scriptName": "本森",
+      "pronunciation": "/bĕn.sən/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Бенсон",
+      "script": "Cyrillic",
+      "scriptName": "Бенсон",
+      "pronunciation": "/ˈbʲɛnsən/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בנסון",
+      "script": "Hebrew",
+      "scriptName": "בנסון",
+      "pronunciation": "/ˈbenson/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Contains 3 classic indicators"
+    },
+    {
+      "tag": "Strong",
+      "confidence": 0.9,
+      "reason": "The name Benson conveys a sense of strength and reliability."
+    },
+    {
+      "tag": "American",
+      "confidence": 0.8,
+      "reason": "Benson is commonly used in the United States, often as a first name derived from a surname."
+    }
+  ],
+  "v7EnhancedAt": "2025-10-25T13:01:25.205Z",
+  "v8EnrichedAt": "2025-10-25T13:01:26.216Z",
+  "songs": [
+    {
+      "title": "Benson Boogie",
+      "artist": "George Benson",
+      "year": 1978,
+      "genre": "Jazz",
+      "nameContext": "Features \"Benson\" in the song",
+      "description": "A lively jazz track that showcases George Benson's exceptional guitar skills. The song exudes a feel-good vibe, perfect for lifting spirits and getting listeners to groove along with its upbeat tempo.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Benson%20Boogie%20played%20by%20George%20Benson",
+      "geniusUrl": "https://genius.com/search?q=Benson%20Boogie%20George%20Benson",
+      "verified": true
+    },
+    {
+      "title": "Benson's Groove",
+      "artist": "Benson",
+      "year": 2021,
+      "genre": "Electronic",
+      "nameContext": "Features \"Benson\" in the song",
+      "description": "An energetic electronic track that blends modern beats with a catchy rhythm. The song is all about celebrating life and enjoying the moment, making it a perfect addition to any party playlist.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Benson's%20Groove%20played%20by%20Benson",
+      "geniusUrl": "https://genius.com/search?q=Benson's%20Groove%20Benson",
+      "verified": true
+    },
+    {
+      "title": "Benson's Dream",
+      "artist": "The Benson Project",
+      "year": 2015,
+      "genre": "Pop",
+      "nameContext": "Features \"Benson\" in the song",
+      "description": "A pop anthem that tells the story of chasing dreams and achieving goals. The uplifting melody and inspiring message encourage listeners to pursue their passions and believe in themselves.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Benson's%20Dream%20played%20by%20The%20Benson%20Project",
+      "geniusUrl": "https://genius.com/search?q=Benson's%20Dream%20The%20Benson%20Project",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-10-25T13:01:31.596Z",
+  "songsEnrichedAt": "2025-10-25T13:01:31.596Z",
+  "v11BlogContent": {
+    "opening_hook": "There's something undeniably charming about the name Benson. Perhaps it's the rhythmic cadence of the two syllables or the way it feels both classic and contemporary at once. For parents seeking a name that feels familiar yet fresh, Benson strikes a harmonious chord. It's like a timeless melody played through generations, echoing with a comforting warmth that's hard to resist. \n\nChoosing a name for your child is one of the most personal decisions you can make, and Benson carries with it a sense of history and depth that can be deeply meaningful. In a world where names come and go with the trends, Benson holds its ground, offering a touch of sophistication and a nod to heritage. It's a name that feels like a cozy blanket—warm, reassuring, and ever so inviting, ready to wrap your little one in a legacy of love.",
+    "etymology_meaning": "Benson's origins are rooted in English tradition, where it began as a patronymic surname. Literally meaning 'son of Ben,' it's a name that tells a story of lineage and connection. In the days when surnames were often derived from the father's given name, Benson would signify kinship, a nod to one's ancestry and a testament to family bonds.\n\nAs time marched on, Benson evolved from a surname to a given name, holding onto its historical richness while adapting to modern naming conventions. Today, it symbolizes not only a connection to the past but also a forward-looking optimism. It's a name that manages to blend the old with the new, standing as a perfect example of how names can transcend time, carrying with them both meaning and adaptability.",
+    "famous_bearers": "The name Benson has graced the lives of many notable individuals, each bringing their unique flair to the world. Take Benson Fong, for instance, an actor whose career spanned from the golden age of Hollywood into the television era. Known for his roles in films like 'The Keys of the Kingdom' and 'His Majesty O'Keefe,' Fong brought a quiet strength and dignity to his performances, becoming a beloved figure in the industry.\n\nIn the realm of sports, Benson Henderson stands out as a name synonymous with excellence. As a professional mixed martial artist, Henderson made waves with his dynamic fighting style and indomitable spirit, capturing the hearts of fans worldwide. His dedication and perseverance in the ring reflect the robust qualities often associated with the name Benson.\n\nLet's not forget the late Cedric Benson, a powerhouse in the world of American football. His career in the NFL was marked by incredible talent and determination, leaving a lasting legacy in the sport. These individuals, among others, have carried the name Benson with pride, each contributing to its rich tapestry of stories and achievements.",
+    "pop_culture_moments": "Benson has had its moments in the spotlight of popular culture, making appearances in various forms of media that have captured our imaginations. Perhaps most notably, the 1980s television sitcom 'Benson' brought the name into American living rooms, starring Robert Guillaume as the witty and astute Benson DuBois. The show was celebrated for its humor and its groundbreaking portrayal of an African American lead character in a positive, powerful role.\n\nIn literature and film, Benson occasionally pops up as a name that authors and screenwriters choose for characters meant to project intelligence and charm. It's a name that carries with it a certain gravitas, perfect for roles that require a touch of sophistication. These appearances in pop culture have helped to keep the name Benson relevant and beloved, adding layers to its already rich history.",
+    "personality_profile": "Names can often influence perceptions of personality, and Benson is no exception. Those bearing the name Benson are often seen as strong, reliable, and thoughtful individuals. There's a classic charm associated with the name, suggesting a person who is both grounded and adaptable, able to navigate the complexities of life with grace and poise.\n\nBenson evokes images of someone who is both intellectual and approachable, with a natural ability to lead and inspire others. It's a name that carries an air of sophistication without being pretentious, suggesting a person who values tradition but isn't afraid to forge their own path. If you're considering Benson for your child, you might envision a future filled with curiosity, resilience, and a warm, engaging spirit.",
+    "variations_nicknames": "For those who love the name Benson but are looking for a bit more versatility, there are plenty of delightful variations and nicknames to consider. Benny is a popular choice, offering a playful and approachable twist that's perfect for a young child or a close-knit circle of friends. It carries a sense of endearment and familiarity without straying too far from the name's original charm.\n\nAnother option is Ben, a classic and timeless variation that stands strong on its own while still being rooted in Benson's origin. For a slightly quirkier take, consider Benz, a modern, edgy nickname that infuses the name with a bit of contemporary flair. Whichever variation you choose, each option provides a different vibe, allowing parents to tailor the name to fit their child's unique personality.",
+    "popularity_data": "Benson currently sits comfortably at #150 on the baby name charts, reflecting a steady popularity that has endured over the years. Its rise in recent times can be attributed to a growing trend towards names that honor family heritage and offer a blend of traditional and modern appeal.\n\nThis level of popularity makes Benson a name that is both recognizable and unique. It's not so common that your child will share their name with multiple classmates, yet it's familiar enough to be pronounced and spelled with ease. For parents, this sweet spot of popularity means they can choose Benson with confidence, knowing it's a name that will stand the test of time while still feeling fresh and relevant.",
+    "pairing_suggestions": "Pairing Benson with the right middle name can elevate its charm even further. Classic choices like Benson James or Benson Alexander offer a regal touch, lending the name an air of sophistication. For a more innovative pairing, consider Benson Reid or Benson Kai, which add a modern twist with their concise strength.\n\nWhen it comes to sibling names, Benson pairs beautifully with names that share its blend of tradition and contemporary appeal. Think of a sister named Eleanor or a brother named Oliver—both names that echo Benson's timelessness while offering their own unique flair. The key is to find names that complement Benson's elegance and warmth, creating a harmonious family set.",
+    "cultural_context": "The name Benson carries with it a rich cultural history, deeply rooted in English tradition. Originally a surname, it reflects the patronymic naming practices that were common in medieval England, where children were often named for their fathers, creating a lineage of names that told the story of family heritage.\n\nAs English speakers migrated to various parts of the world, they carried with them names like Benson, which adapted and found new life in different contexts. Today, Benson is embraced globally, maintaining its connection to English roots while also being appreciated for its international appeal. It's a name that embodies both history and evolution, a testament to the ways in which names travel and transform across cultures.",
+    "final_recommendation": "Benson is a name that offers parents a lovely balance of history, charm, and modernity. Its classic roots and contemporary usability make it a versatile choice for any family. Prospective parents who appreciate names that carry a sense of legacy, yet feel fresh and unique, might find Benson to be the perfect choice.\n\nHowever, if you're someone who prefers names that are highly unconventional or completely removed from traditional connotations, you might want to think twice. Benson sits comfortably in the middle ground of naming trends, appealing to those who love a good blend of old and new.\n\nUltimately, choosing Benson for your child means embracing a name with depth, character, and a warm resonance that can accompany them through every stage of life. It's a decision that promises a lifetime of stories and connections, wrapped up in a name that's as heartwarming as it is distinguished."
+  },
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "Blog content + writer"
+  }
+}

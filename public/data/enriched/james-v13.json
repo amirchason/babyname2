@@ -1,0 +1,545 @@
+{
+  "name": "James",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-03T21:20:10.075Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10",
+    "v11"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Supplanter",
+  "culturalSignificance": "James is a name of biblical origin, derived from the Hebrew name Jacob, meaning 'supplanter'. It has been a popular name in the English-speaking world since the Middle Ages, often associated with kings and saints.",
+  "modernContext": "James remains a consistently popular name in many English-speaking countries, frequently appearing in the top ten baby names lists. It is favored for its classic and timeless appeal.",
+  "literaryReferences": "James is a common name in literature, appearing in works such as 'James and the Giant Peach' by Roald Dahl.",
+  "pronunciationGuide": "/dʒeɪmz/",
+  "variations": [
+    "Jacob",
+    "Jaime",
+    "Giacomo",
+    "Seamus",
+    "Diego",
+    "Jamesa",
+    "Jameso",
+    "Jamesus",
+    "Jamese"
+  ],
+  "similarNames": [
+    "John",
+    "William",
+    "Robert",
+    "Michael",
+    "David",
+    "Jacob",
+    "Joseph",
+    "Joshua",
+    "Joel"
+  ],
+  "nicknames": [
+    "Jim",
+    "Jimmy",
+    "Jamie",
+    "Jay",
+    "Jem",
+    "Ja",
+    "Jam",
+    "Jame",
+    "Jamy"
+  ],
+  "personality": "People named James are often perceived as strong, reliable, and charismatic. They are seen as natural leaders with a sense of responsibility.",
+  "symbolism": "The name James symbolizes leadership and authority, often associated with kingship and religious significance.",
+  "funFact": "James is one of the most common royal names in English history, with several kings of England and Scotland bearing the name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint James the Greater",
+    "significance": "Saint James the Greater was one of the Twelve Apostles of Jesus and is considered the patron saint of Spain.",
+    "keyStories": [
+      "The pilgrimage to Santiago de Compostela, where his remains are said to be buried."
+    ],
+    "spiritualMeaning": "James is associated with faithfulness and dedication to spiritual journeys.",
+    "historicalImpact": "Saint James played a significant role in the spread of Christianity and is celebrated in various Christian traditions."
+  },
+  "historicFigures": [
+    {
+      "fullName": "James Madison",
+      "years": "1751-1836",
+      "category": "Political Leaders",
+      "achievements": [
+        "Fourth President of the United States",
+        "Father of the Constitution"
+      ],
+      "significance": "James Madison was instrumental in drafting the U.S. Constitution and the Bill of Rights.",
+      "notableWorks": [
+        "The Federalist Papers"
+      ]
+    },
+    {
+      "fullName": "James Clerk Maxwell",
+      "years": "1831-1879",
+      "category": "Scientists",
+      "achievements": [
+        "Formulated Maxwell's equations",
+        "Contributed to the field of electromagnetism"
+      ],
+      "significance": "Maxwell's work laid the foundation for modern physics and telecommunications.",
+      "notableWorks": [
+        "A Treatise on Electricity and Magnetism"
+      ]
+    },
+    {
+      "fullName": "James Joyce",
+      "years": "1882-1941",
+      "category": "Writers",
+      "achievements": [
+        "Pioneered modernist literature"
+      ],
+      "significance": "James Joyce is renowned for his innovative narrative techniques and complex characters.",
+      "notableWorks": [
+        "Ulysses",
+        "A Portrait of the Artist as a Young Man"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The advancement and diffusion of knowledge is the only guardian of true liberty.",
+      "author": "James Madison",
+      "context": "This quote reflects Madison's belief in the importance of education for maintaining freedom.",
+      "year": 1822,
+      "category": "Wisdom"
+    },
+    {
+      "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+      "author": "James Clerk Maxwell",
+      "context": "Maxwell emphasized the value of creativity in scientific discovery.",
+      "year": 1870,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "James Cameron",
+      "profession": "Film Director",
+      "knownFor": [
+        "Directing 'Titanic'",
+        "Directing 'Avatar'"
+      ],
+      "awards": "Academy Awards for Best Director"
+    },
+    {
+      "name": "James Franco",
+      "profession": "Actor",
+      "knownFor": [
+        "Acting in '127 Hours'",
+        "Acting in 'Spider-Man' trilogy"
+      ],
+      "awards": "Golden Globe Award for Best Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "LeBron James",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Los Angeles Lakers",
+      "pastTeams": [
+        "Cleveland Cavaliers",
+        "Miami Heat"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "6",
+      "years": "2003-Present",
+      "achievements": "4× NBA Champion, 4× NBA MVP",
+      "knownFor": [
+        "Dominant play style",
+        "Versatility"
+      ],
+      "awards": "NBA Finals MVP, All-Star",
+      "stats": "Over 35,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "James Rodríguez",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Everton",
+      "pastTeams": [
+        "Real Madrid",
+        "Bayern Munich"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "19",
+      "years": "2009-Present",
+      "achievements": "Golden Boot at 2014 FIFA World Cup",
+      "knownFor": [
+        "Playmaking ability",
+        "Long-range goals"
+      ],
+      "awards": "FIFA Puskás Award",
+      "stats": "Over 100 career goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "James Conner",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Arizona Cardinals",
+      "pastTeams": [
+        "Pittsburgh Steelers"
+      ],
+      "position": "Running Back",
+      "jerseyNumber": "6",
+      "years": "2017-Present",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Powerful running style",
+        "Overcoming cancer"
+      ],
+      "awards": "NFL Comeback Player of the Year",
+      "stats": "Over 3,000 rushing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "James Paxton",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Boston Red Sox",
+      "pastTeams": [
+        "Seattle Mariners",
+        "New York Yankees"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "44",
+      "years": "2013-Present",
+      "achievements": "Pitched a no-hitter in 2018",
+      "knownFor": [
+        "Fastball velocity",
+        "Strikeouts"
+      ],
+      "awards": "AL Player of the Week",
+      "stats": "Over 800 career strikeouts",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "James van Riemsdyk",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Philadelphia Flyers",
+      "pastTeams": [
+        "Toronto Maple Leafs"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "25",
+      "years": "2009-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Scoring ability",
+        "Physical play"
+      ],
+      "awards": "NHL All-Rookie Team",
+      "stats": "Over 250 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "James and the Giant Peach",
+      "year": 1996,
+      "type": "Movie",
+      "characterName": "James",
+      "characterDescription": "A young boy who embarks on a magical adventure inside a giant peach.",
+      "imdbUrl": "https://www.imdb.com/title/tt0116683/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "All you have to do is believe in yourself.",
+      "character": "James",
+      "source": "James and the Giant Peach",
+      "year": 1996,
+      "context": "James encourages himself and his friends during their adventure.",
+      "genre": "Fantasy",
+      "impact": "This quote is memorable for its message of self-belief and courage."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 100,
+    "peak": 179,
+    "peakYear": 2006
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only true wisdom is in knowing you know nothing.",
+    "author": "James Baldwin",
+    "context": "James Baldwin was an American novelist, playwright, and activist known for his works on race, sexuality, and class."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "James"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jaime",
+      "script": "Latin",
+      "scriptName": "Jaime",
+      "pronunciation": "/ˈxaime/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Iakovos",
+      "script": "Greek",
+      "scriptName": "Ιάκωβος",
+      "pronunciation": "/ˈiakovos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "Yaqub",
+      "script": "Arabic",
+      "scriptName": "يعقوب",
+      "pronunciation": "/jaːˈquːb/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "Yamusi",
+      "script": "Han",
+      "scriptName": "雅各布",
+      "pronunciation": "/jɑːˈmuːsɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Yakov",
+      "script": "Cyrillic",
+      "scriptName": "Яков",
+      "pronunciation": "/ˈjakəf/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "Yaakov",
+      "script": "Hebrew",
+      "scriptName": "יעקב",
+      "pronunciation": "/jaˈakɔv/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "James and the Giant Peach",
+      "author": "Roald Dahl",
+      "publishedYear": 1961,
+      "genre": "Children's",
+      "significance": "A beloved children's book that tells the story of a young boy's adventure inside a giant peach.",
+      "nameRole": "protagonist",
+      "verified": true
+    },
+    {
+      "title": "The Turn of the Screw",
+      "author": "Henry James",
+      "publishedYear": 1898,
+      "genre": "Fiction",
+      "significance": "A classic ghost story exploring themes of ambiguity and psychological horror.",
+      "nameRole": "author",
+      "verified": true
+    },
+    {
+      "title": "The Portrait of a Lady",
+      "author": "Henry James",
+      "publishedYear": 1881,
+      "genre": "Fiction",
+      "significance": "A novel that examines the life and choices of an independent American woman in Europe.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "parentName": "Ryan Reynolds",
+      "parentProfession": "Actor",
+      "childName": "James Reynolds",
+      "birthYear": 2014,
+      "context": "Ryan Reynolds is known for his roles in films like 'Deadpool' and 'The Proposal'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Blake Lively",
+      "parentProfession": "Actress",
+      "childName": "James Reynolds",
+      "birthYear": 2014,
+      "context": "Blake Lively is known for her role in the TV series 'Gossip Girl' and films like 'The Age of Adaline'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Jude Law",
+      "parentProfession": "Actor",
+      "childName": "James Law",
+      "birthYear": 1996,
+      "context": "Jude Law is a British actor known for films like 'The Talented Mr. Ripley' and 'Sherlock Holmes'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Emily Blunt",
+      "parentProfession": "Actress",
+      "childName": "James Krasinski",
+      "birthYear": 2014,
+      "context": "Emily Blunt is known for her roles in 'The Devil Wears Prada' and 'A Quiet Place'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "John Krasinski",
+      "parentProfession": "Actor",
+      "childName": "James Krasinski",
+      "birthYear": 2014,
+      "context": "John Krasinski is known for his role as Jim Halpert on the TV series 'The Office'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "James is derived from the Hebrew name Jacob, a significant biblical figure."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "James has been a consistently popular name throughout history."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name James has remained popular across generations."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Several kings of England and Scotland have been named James."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "James is a common name in literature, including characters in works by James Joyce and Henry James."
+    }
+  ],
+  "v7EnhancedAt": "2025-11-02T12:22:32.455Z",
+  "v8EnrichedAt": "2025-11-02T12:22:35.565Z",
+  "songs": [
+    {
+      "title": "Sweet Baby James",
+      "artist": "James Taylor",
+      "year": 1970,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"James\" in the song",
+      "description": "A soothing lullaby that paints a serene picture of a cowboy's journey, capturing the beauty of the countryside and the comfort of home. The song exudes warmth and nostalgia, celebrating the simplicity of life on the road.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sweet%20Baby%20James%20played%20by%20James%20Taylor",
+      "geniusUrl": "https://genius.com/search?q=Sweet%20Baby%20James%20James%20Taylor",
+      "verified": true
+    },
+    {
+      "title": "James",
+      "artist": "Billy Joel",
+      "year": 1976,
+      "genre": "Soft Rock",
+      "nameContext": "Features \"James\" in the song",
+      "description": "A heartfelt tribute to a friend, reflecting on shared memories and the passage of time. The song conveys a sense of camaraderie and appreciation, highlighting the enduring bond between friends despite life's changes.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=James%20played%20by%20Billy%20Joel",
+      "geniusUrl": "https://genius.com/search?q=James%20Billy%20Joel",
+      "verified": true
+    },
+    {
+      "title": "James Dean",
+      "artist": "Eagles",
+      "year": 1974,
+      "genre": "Rock",
+      "nameContext": "Features \"James\" in the song",
+      "description": "An energetic homage to the iconic actor, celebrating his rebellious spirit and charismatic persona. The song captures the essence of youthful defiance and the allure of living life on one's own terms.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=James%20Dean%20played%20by%20Eagles",
+      "geniusUrl": "https://genius.com/search?q=James%20Dean%20Eagles",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-02T12:22:40.077Z",
+  "songsEnrichedAt": "2025-11-02T12:22:40.077Z",
+  "v11BlogContent": {
+    "opening_hook": "There's something undeniably timeless about the name James. Like a well-loved novel or a classic melody, it seems to have a perpetual place in our hearts. This name carries with it an aura of strength, familiarity, and warmth that feels almost like coming home. Whether you’re drawn to names with historical significance, those with a melodious sound, or simply names that have stood the test of time, James is a choice that wraps you in a comforting embrace of tradition and modernity. \n\nImagine calling out \"James\" across a playground, and hearing it echo like a gentle nod to generations past. It's a name that has been woven into countless family tapestries, crossing continents, and spanning centuries. As you consider names for your little one, James offers a promise of both legacy and a fresh start, a name ready to be worn proudly by a new generation.",
+    "etymology_meaning": "The origin of the name James is as rich as its history, deriving from the Hebrew name Jacob, which intriguingly means 'supplanter.' In a biblical context, Jacob was a key figure, famously known for supplanting his brother Esau. Over time, as languages evolved and cultures intermingled, Jacob morphed into Iacobus in Latin, and eventually into James in English. \n\nThis evolution mirrors a journey across time and borders, showcasing how names adapt yet retain a whisper of their beginnings. Today, while not everyone may be familiar with its original meaning, James is often associated with qualities of determination and leadership—echoes of its 'supplanter' roots morphing into the modern interpretation of a trailblazer.",
+    "famous_bearers": "Throughout history, James has adorned kings, saints, and artists. Let’s start with the regal: King James VI of Scotland, who also became James I of England, was a significant figure, known for commissioning the King James Bible, a cornerstone of English literature. His reign symbolizes the union of crowns, a reminder of the name's majestic ties.\n\nIn the realm of creativity, there's James Cameron, the cinematic maestro behind blockbusters like 'Titanic' and 'Avatar.' His work speaks volumes about the visionary depth and innovation the name seems to inspire. Then there’s James Franco, a multifaceted actor known for his roles in films ranging from '127 Hours' to 'The Disaster Artist,' showcasing an artistic versatility that the name James beautifully embodies.\n\nOn the sports field, LeBron James has become synonymous with excellence and determination. A titan of basketball, his legacy transcends sports, making a global impact and inspiring countless young athletes. Each of these notables carries the name James with a unique flair, adding layers to its illustrious narrative.",
+    "pop_culture_moments": "James has made quite the splash in pop culture, finding its way into beloved stories and characters. One cannot overlook 'James and the Giant Peach,' a whimsical tale by Roald Dahl that invites young imaginations on an unforgettable journey. The titular character, James, embodies bravery and adventure, qualities that are often associated with the name.\n\nIn the world of espionage, James Bond stands out as a sleek and sophisticated persona, embodying charm and intelligence. His name has become synonymous with the ultimate spy, a character who has thrilled audiences for generations with his suave demeanor and daring escapades.\n\nThese cultural moments have cemented James as not just a name, but an emblem of narrative richness, capturing the imaginations of readers and viewers alike with its compelling charm.",
+    "personality_profile": "People named James often exude a sense of quiet confidence and reliability. They tend to be natural leaders, whether by choice or circumstance, carrying themselves with an air of competence that others find reassuring. The name’s historical weight seems to lend its bearers a sense of purpose and determination, qualities that have been observed across various fields and endeavors.\n\nIn personal relationships, James often embody loyalty and a steadfast nature. They are the friends who will stand by you, the family members who anchor gatherings with their calming presence. While every James is unique, there’s a shared thread of resilience and adaptability that weaves through their stories, making them cherished companions and admired colleagues.",
+    "variations_nicknames": "The name James is wonderfully versatile, offering a range of variations and nicknames to suit different personalities and stages of life. For a more casual touch, 'Jamie' brings a youthful, approachable energy, often chosen for its friendly and relaxed vibe. Then there’s 'Jim,' a classic, no-nonsense option that feels both timeless and grounded.\n\nIf you're leaning towards something a bit more playful, 'Jem' could be a charming alternative, giving off an air of whimsy and creativity. Each of these variations carries its own distinct character, allowing the name James to be tailored to fit the individual perfectly, from childhood through adulthood.",
+    "popularity_data": "Currently sitting at #100, James continues to be a popular choice among parents, maintaining its status as a classic name that never goes out of style. Its steady presence in the top rankings reflects its enduring appeal, a testament to its timeless nature.\n\nWhile it might not be at the very top of the charts, its consistent popularity hints at a broad, cross-generational love for the name. James offers a safe, yet distinguished choice for parents who want a name that is both familiar and rich with history. It’s a trend-proof option, ideal for those who wish for their child’s name to carry a legacy without being lost in a sea of fleeting trends.",
+    "pairing_suggestions": "When it comes to pairing James with middle or sibling names, the options are delightfully endless. For a middle name, consider something with a bit of flair or softness to complement James’ strong persona. Names like James Alexander or James Oliver roll off the tongue with an air of sophistication.\n\nFor sibling names, you might want to consider timeless classics such as Elizabeth or Charlotte for sisters, and perhaps Henry or William for brothers. Each of these combinations offers a harmonious blend of elegance and tradition, creating a cohesive and appealing family name set.",
+    "cultural_context": "James has traversed continents and eras, beginning its journey in biblical times and moving through various linguistic landscapes. As it migrated from Hebrew to English, James maintained its core significance while adapting to new cultural nuances. In the Middle Ages, it gained favor in the English-speaking world, bolstered by the influence of saints and royalty.\n\nThis name's widespread appeal is seen across Western cultures and beyond, celebrated for its simplicity and strength. Its presence in different cultures and languages, such as the Spanish 'Jaime' or the French 'Jacques,' highlights its versatility and the universal admiration it commands. James is a name that tells a story of migration and adaptation, a testament to its enduring resonance.",
+    "final_recommendation": "If you're considering James for your little one, you're choosing a name that is tried, true, and beloved across generations. Its timeless appeal makes it a safe and charming choice, ensuring your child carries a name that's both distinguished and approachable.\n\nHowever, if you're looking for something less common or more avant-garde, James might feel a bit traditional. But for those who value history, dignity, and a touch of royal flair, James could very well be the perfect fit. It’s a name that promises to serve your child well, offering them a sense of identity grounded in rich heritage and modern grace."
+  },
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "Blog content + writer"
+  }
+}

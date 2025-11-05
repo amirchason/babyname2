@@ -1,0 +1,300 @@
+{
+  "name": "sophia",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:49:14.508Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Wisdom",
+  "culturalSignificance": "Sophia is a name deeply rooted in Greek culture, symbolizing wisdom and knowledge. It has been a popular name throughout history, often associated with figures of intelligence and insight, such as the ancient Greek concept of 'Sophia' as divine wisdom.",
+  "modernContext": "Sophia remains a highly popular name in many countries, frequently ranking in the top 10 for baby girls in the United States and Europe. Its timeless appeal and elegant sound contribute to its enduring popularity.",
+  "literaryReferences": "Sophia is a central character in 'Tom Jones' by Henry Fielding, representing virtue and beauty.",
+  "pronunciationGuide": "/səˈfiːə/",
+  "variations": [
+    "Sofia",
+    "Sofie",
+    "Zofia",
+    "Sofiya",
+    "Sofija",
+    "Sofya",
+    "Sophie",
+    "Sophina",
+    "Sofina"
+  ],
+  "similarNames": [
+    "Sonia",
+    "Sylvia",
+    "Seraphina",
+    "Selena",
+    "Sabrina",
+    "Samantha",
+    "Serena",
+    "Simone",
+    "Sienna"
+  ],
+  "nicknames": [
+    "Sophie",
+    "Sophy",
+    "Fia",
+    "Sia",
+    "Soso",
+    "Phia",
+    "Sofa",
+    "So",
+    "Sop"
+  ],
+  "personality": "Individuals named Sophia are often perceived as wise, thoughtful, and compassionate. They are seen as natural leaders with a strong sense of justice and empathy.",
+  "symbolism": "The name Sophia symbolizes wisdom, clarity, and insight. It is often associated with the pursuit of knowledge and understanding.",
+  "funFact": "Sophia was the most popular baby girl's name in the United States from 2011 to 2013.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Sophia",
+    "significance": "Saint Sophia is venerated as a martyr in Christianity, often depicted with her daughters Faith, Hope, and Charity.",
+    "keyStories": [
+      "The martyrdom of Saint Sophia and her daughters"
+    ],
+    "spiritualMeaning": "Sophia represents divine wisdom and is often associated with the Holy Spirit in Christian theology.",
+    "historicalImpact": "Saint Sophia's story has inspired numerous churches and religious institutions named in her honor."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Sophia of Hanover",
+      "years": "1630-1714",
+      "category": "Royalty",
+      "achievements": [
+        "Electress of Hanover",
+        "Mother of King George I of Great Britain"
+      ],
+      "significance": "Sophia of Hanover was the mother of King George I, linking the British royal family to the House of Hanover.",
+      "notableWorks": [
+        "Her correspondence and memoirs provide insight into 17th-century European politics."
+      ]
+    },
+    {
+      "fullName": "Sophia Tolstaya",
+      "years": "1844-1919",
+      "category": "Literature",
+      "achievements": [
+        "Editor and publisher of Leo Tolstoy's works"
+      ],
+      "significance": "Sophia Tolstaya played a crucial role in the publication and preservation of her husband Leo Tolstoy's literary legacy.",
+      "notableWorks": [
+        "Her diaries offer a detailed account of her life with Tolstoy."
+      ]
+    },
+    {
+      "fullName": "Sophia Jex-Blake",
+      "years": "1840-1912",
+      "category": "Medicine",
+      "achievements": [
+        "One of the first female doctors in the UK",
+        "Founder of the London School of Medicine for Women"
+      ],
+      "significance": "Sophia Jex-Blake was a pioneering figure in women's medical education in the UK.",
+      "notableWorks": [
+        "Her efforts led to the establishment of medical education for women in Britain."
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Wisdom is the supreme part of happiness.",
+      "author": "Sophia Loren",
+      "context": "Sophia Loren often spoke about the importance of wisdom in achieving a fulfilling life.",
+      "year": 1965,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Sophia Loren",
+      "profession": "Actress",
+      "knownFor": [
+        "Her roles in classic films such as 'Two Women' and 'Marriage Italian Style'"
+      ],
+      "awards": "Academy Award for Best Actress"
+    },
+    {
+      "name": "Sophia Amoruso",
+      "profession": "Entrepreneur",
+      "knownFor": [
+        "Founder of Nasty Gal",
+        "Author of 'Girlboss'"
+      ],
+      "awards": "Named one of the richest self-made women by Forbes"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Sophia Smith",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "NWSL",
+      "team": "Portland Thorns FC",
+      "pastTeams": [],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2020-Present",
+      "achievements": "NWSL Champion, U.S. Women's National Team member",
+      "knownFor": [
+        "Dynamic scoring ability and speed"
+      ],
+      "awards": "NWSL Rookie of the Year",
+      "stats": "Key contributor to team success with numerous goals",
+      "verified": true,
+      "source": "NWSLsoccer.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Sophia the First",
+      "year": 2013,
+      "type": "TV Show",
+      "characterName": "Princess Sophia",
+      "characterDescription": "A young girl who becomes a princess overnight and learns to navigate royal life.",
+      "imdbUrl": "https://www.imdb.com/title/tt2136138/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Being royal isn't all it's cracked up to be.",
+      "character": "Princess Sophia",
+      "source": "Sophia the First",
+      "year": 2013,
+      "context": "Sophia reflects on the challenges of her new life as a princess.",
+      "genre": "Animation",
+      "impact": "The quote highlights the show's theme of personal growth and responsibility."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Ruby Red",
+      "hex": "#E0115F"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 276,
+    "peak": 194,
+    "peakYear": 2005
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "sop-hia"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Sylvester Stallone",
+      "parentProfession": "Actor",
+      "childName": "Sophia Rose Stallone",
+      "birthYear": 1996,
+      "context": "Sylvester Stallone is known for his roles in the 'Rocky' and 'Rambo' film series.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Eddie Murphy",
+      "parentProfession": "Actor/Comedian",
+      "childName": "Sophia Murphy",
+      "birthYear": 2005,
+      "context": "Eddie Murphy is a renowned comedian and actor, famous for 'Beverly Hills Cop' and 'Shrek'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Contains 3 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:59:15.999Z",
+  "v8EnrichedAt": "2025-11-03T21:59:21.378Z",
+  "songs": [
+    {
+      "title": "Sophia",
+      "artist": "Nerina Pallot",
+      "year": 2006,
+      "genre": "Pop/Rock",
+      "nameContext": "Features \"sophia\" in the song",
+      "description": "A heartfelt and uplifting song that explores themes of love and admiration. The artist uses the name 'Sophia' to convey a sense of wisdom and beauty, creating a warm and positive atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sophia%20played%20by%20Nerina%20Pallot",
+      "geniusUrl": "https://genius.com/search?q=Sophia%20Nerina%20Pallot",
+      "verified": true
+    },
+    {
+      "title": "Sophia",
+      "artist": "Laura Marling",
+      "year": 2011,
+      "genre": "Folk",
+      "nameContext": "Features \"sophia\" in the song",
+      "description": "This track is a gentle and introspective folk piece that celebrates inner strength and resilience. The name 'Sophia' is used symbolically to represent enlightenment and personal growth, offering an encouraging message.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sophia%20played%20by%20Laura%20Marling",
+      "geniusUrl": "https://genius.com/search?q=Sophia%20Laura%20Marling",
+      "verified": true
+    },
+    {
+      "title": "Sophia",
+      "artist": "Goodnight, Texas",
+      "year": 2012,
+      "genre": "Americana/Folk",
+      "nameContext": "Features \"sophia\" in the song",
+      "description": "A warm and nostalgic song that paints a vivid picture of a cherished relationship. The narrative revolves around fond memories and the joy brought by the presence of 'Sophia', creating a comforting and positive vibe.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sophia%20played%20by%20Goodnight%2C%20Texas",
+      "geniusUrl": "https://genius.com/search?q=Sophia%20Goodnight%2C%20Texas",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T21:59:27.160Z",
+  "songsEnrichedAt": "2025-11-03T21:59:27.160Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

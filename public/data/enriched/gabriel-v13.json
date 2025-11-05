@@ -1,0 +1,359 @@
+{
+  "name": "gabriel",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:50:37.887Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is my strength",
+  "culturalSignificance": "Gabriel is a prominent figure in Abrahamic religions, known as an archangel who serves as a messenger of God. In Christianity, Gabriel is the angel who announced the birth of Jesus to the Virgin Mary. The name has been used across various cultures and languages, symbolizing strength and divine communication.",
+  "modernContext": "Gabriel remains a popular name in many countries, consistently ranking in the top 100 names for boys in the United States and Europe. Its timeless appeal is attributed to its religious significance and strong, melodic sound.",
+  "literaryReferences": "Gabriel is a character in James Joyce's 'The Dead,' part of his collection 'Dubliners,' where he is portrayed as a thoughtful and introspective man.",
+  "pronunciationGuide": "/ˈɡeɪbriəl/",
+  "variations": [
+    "Gavriel",
+    "Gabriele",
+    "Gabrielle",
+    "Gabor",
+    "Gavriil",
+    "Jibril",
+    "Jabriel",
+    "Gavril",
+    "Gabrijel"
+  ],
+  "similarNames": [
+    "Michael",
+    "Raphael",
+    "Daniel",
+    "Samuel",
+    "Nathaniel",
+    "Ezekiel",
+    "Emanuel",
+    "Elijah",
+    "Isaiah"
+  ],
+  "nicknames": [
+    "Gabe",
+    "Gabi",
+    "Gab",
+    "Gabo",
+    "G",
+    "Gabby",
+    "Riel",
+    "Briel",
+    "Gabs"
+  ],
+  "personality": "People named Gabriel are often perceived as strong, reliable, and compassionate. They are seen as natural leaders with a deep sense of responsibility and a desire to help others.",
+  "symbolism": "Gabriel symbolizes divine strength, communication, and guidance. As an archangel, he represents the bridge between the divine and the earthly realm.",
+  "funFact": "Gabriel is one of the few angels mentioned by name in the Bible, appearing in both the Old and New Testaments.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Islam",
+      "Judaism"
+    ],
+    "character": "Archangel Gabriel",
+    "significance": "Gabriel is known as a messenger of God, delivering important revelations and messages in religious texts.",
+    "keyStories": [
+      "Annunciation to Mary in Christianity",
+      "Revelation of the Quran to Muhammad in Islam"
+    ],
+    "spiritualMeaning": "Gabriel is seen as a symbol of divine communication and strength.",
+    "historicalImpact": "Gabriel's role as a messenger has influenced religious art, literature, and theology across cultures."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Gabriel García Márquez",
+      "years": "1927-2014",
+      "category": "Literature",
+      "achievements": [
+        "Nobel Prize in Literature 1982",
+        "Author of 'One Hundred Years of Solitude'"
+      ],
+      "significance": "García Márquez was a Colombian novelist and one of the most significant authors of the 20th century.",
+      "notableWorks": [
+        "One Hundred Years of Solitude",
+        "Love in the Time of Cholera"
+      ]
+    },
+    {
+      "fullName": "Gabriel Fauré",
+      "years": "1845-1924",
+      "category": "Music",
+      "achievements": [
+        "Composer of 'Requiem', 'Pavane'"
+      ],
+      "significance": "Fauré was a French composer whose music influenced many 20th-century composers.",
+      "notableWorks": [
+        "Requiem",
+        "Pavane",
+        "Clair de Lune"
+      ]
+    },
+    {
+      "fullName": "Gabriel Fahrenheit",
+      "years": "1686-1736",
+      "category": "Science",
+      "achievements": [
+        "Invented the mercury-in-glass thermometer",
+        "Developed the Fahrenheit temperature scale"
+      ],
+      "significance": "Fahrenheit was a physicist and engineer whose inventions are still used today.",
+      "notableWorks": [
+        "Fahrenheit temperature scale"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "What matters in life is not what happens to you but what you remember and how you remember it.",
+      "author": "Gabriel García Márquez",
+      "context": "This quote reflects on the importance of memory and perception in shaping one's life.",
+      "year": 1982,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Gabriel Byrne",
+      "profession": "Actor",
+      "knownFor": [
+        "The Usual Suspects",
+        "In Treatment"
+      ],
+      "awards": "Golden Globe Award for Best Actor"
+    },
+    {
+      "name": "Gabriel Macht",
+      "profession": "Actor",
+      "knownFor": [
+        "Suits"
+      ],
+      "awards": "Nominated for Screen Actors Guild Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Gabriel Jesus",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Arsenal",
+      "pastTeams": [
+        "Palmeiras",
+        "Manchester City"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2015-Present",
+      "achievements": "Premier League Champion, Copa America Winner",
+      "knownFor": [
+        "Skillful dribbling and finishing"
+      ],
+      "awards": "Premier League Player of the Month",
+      "stats": "Over 50 goals in Premier League",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Gabriel Landeskog",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Colorado Avalanche",
+      "pastTeams": [],
+      "position": "Left Wing",
+      "jerseyNumber": "92",
+      "years": "2011-Present",
+      "achievements": "Stanley Cup Champion",
+      "knownFor": [
+        "Leadership and scoring ability"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 500 career points",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Gabriel Davis",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Buffalo Bills",
+      "pastTeams": [],
+      "position": "Wide Receiver",
+      "jerseyNumber": "13",
+      "years": "2020-Present",
+      "achievements": "AFC Championship Game appearance",
+      "knownFor": [
+        "Deep threat and touchdown receptions"
+      ],
+      "awards": "NFL Rookie of the Week",
+      "stats": "Over 1,500 receiving yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Gabriel Moreno",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Arizona Diamondbacks",
+      "pastTeams": [
+        "Toronto Blue Jays"
+      ],
+      "position": "Catcher",
+      "jerseyNumber": "14",
+      "years": "2022-Present",
+      "achievements": "Top prospect in MLB",
+      "knownFor": [
+        "Strong defensive skills and batting average"
+      ],
+      "awards": "Minor League All-Star",
+      "stats": "Rising star with promising career stats",
+      "verified": true,
+      "source": "MLB.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Constantine",
+      "year": 2005,
+      "type": "Movie",
+      "characterName": "Gabriel",
+      "characterDescription": "An archangel with a complex relationship with humanity.",
+      "imdbUrl": "https://www.imdb.com/title/tt0360486/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You don't need his protection.",
+      "character": "Gabriel",
+      "source": "Constantine",
+      "year": 2005,
+      "context": "Gabriel speaks to John Constantine about the nature of divine intervention.",
+      "genre": "Fantasy",
+      "impact": "The quote highlights the film's exploration of faith and autonomy."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 9,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 151,
+    "peak": 183,
+    "peakYear": 2013
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "gab-riel"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Mick Jagger",
+      "parentProfession": "Musician",
+      "childName": "Gabriel Jagger",
+      "birthYear": 1997,
+      "context": "Mick Jagger is the lead singer of the legendary rock band The Rolling Stones.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Strong",
+      "confidence": 0.85,
+      "reason": "Contains 2 strong indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:21:50.612Z",
+  "v8EnrichedAt": "2025-11-03T22:21:53.258Z",
+  "songs": [
+    {
+      "title": "Gabriel",
+      "artist": "Lamb",
+      "year": 2001,
+      "genre": "Electronic",
+      "nameContext": "Features \"gabriel\" in the song",
+      "description": "This song by Lamb features a serene and uplifting melody with soulful vocals. It explores themes of love and spiritual connection, creating a calming and positive atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gabriel%20played%20by%20Lamb",
+      "geniusUrl": "https://genius.com/search?q=Gabriel%20Lamb",
+      "verified": true
+    },
+    {
+      "title": "Gabriel",
+      "artist": "Joe Goddard",
+      "year": 2011,
+      "genre": "Electronic/Dance",
+      "nameContext": "Features \"gabriel\" in the song",
+      "description": "Joe Goddard's track 'Gabriel' is an energetic dance anthem with vibrant beats and an infectious rhythm. The song conveys a sense of joy and celebration, perfect for uplifting the spirits.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gabriel%20played%20by%20Joe%20Goddard",
+      "geniusUrl": "https://genius.com/search?q=Gabriel%20Joe%20Goddard",
+      "verified": true
+    },
+    {
+      "title": "Gabriel's Oboe",
+      "artist": "Ennio Morricone",
+      "year": 1986,
+      "genre": "Classical",
+      "nameContext": "Features \"gabriel\" in the song",
+      "description": "Originally part of the soundtrack for 'The Mission,' this instrumental piece by Ennio Morricone is both hauntingly beautiful and serene. It evokes a sense of peace and tranquility, often associated with spiritual or divine presence.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gabriel's%20Oboe%20played%20by%20Ennio%20Morricone",
+      "geniusUrl": "https://genius.com/search?q=Gabriel's%20Oboe%20Ennio%20Morricone",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:22:00.935Z",
+  "songsEnrichedAt": "2025-11-03T22:22:00.935Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

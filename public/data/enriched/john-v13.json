@@ -1,0 +1,390 @@
+{
+  "name": "john",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T08:50:04.395Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "The name John has been a staple in Western culture for centuries, often associated with religious figures such as John the Baptist and John the Apostle. It has been a popular name among kings, saints, and leaders, symbolizing strength and humility.",
+  "modernContext": "John remains a common name in English-speaking countries, though its popularity has slightly declined in recent years. It is often chosen for its classic and timeless appeal.",
+  "literaryReferences": "John is a common name in literature, appearing in works such as 'Jane Eyre' by Charlotte Brontë and 'The Grapes of Wrath' by John Steinbeck.",
+  "pronunciationGuide": "/dʒɒn/",
+  "variations": [
+    "Johann",
+    "Jean",
+    "Juan",
+    "Giovanni",
+    "Ivan",
+    "Jan",
+    "Johan",
+    "Jon",
+    "Ioan"
+  ],
+  "similarNames": [
+    "James",
+    "Joseph",
+    "Jack",
+    "Jonathan",
+    "George",
+    "Jacob",
+    "Michael",
+    "David",
+    "Paul"
+  ],
+  "nicknames": [
+    "Johnny",
+    "Jack",
+    "Jon",
+    "J",
+    "Jay",
+    "Jo",
+    "Johnnie",
+    "Jock",
+    "Jackie"
+  ],
+  "personality": "People named John are often perceived as reliable, strong, and trustworthy. They are seen as leaders who are compassionate and have a strong sense of justice.",
+  "symbolism": "The name John symbolizes grace and favor, often associated with religious devotion and moral integrity.",
+  "funFact": "John is one of the most common names in the English-speaking world and has been borne by numerous saints, popes, and kings.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "John the Baptist",
+    "significance": "John the Baptist is a major religious figure who baptized Jesus and is considered a prophet in Christianity.",
+    "keyStories": [
+      "Baptism of Jesus",
+      "Preaching in the wilderness"
+    ],
+    "spiritualMeaning": "John represents repentance and the preparation for the coming of Christ.",
+    "historicalImpact": "John the Baptist's role in the New Testament has had a profound impact on Christian theology and practice."
+  },
+  "historicFigures": [
+    {
+      "fullName": "John F. Kennedy",
+      "years": "1917-1963",
+      "category": "Political Leaders",
+      "achievements": [
+        "35th President of the United States",
+        "Cuban Missile Crisis resolution",
+        "Space Race advocacy"
+      ],
+      "significance": "Kennedy was a charismatic leader whose presidency was marked by significant events in American history.",
+      "notableWorks": [
+        "Inaugural Address",
+        "Profiles in Courage"
+      ]
+    },
+    {
+      "fullName": "John Locke",
+      "years": "1632-1704",
+      "category": "Philosophers",
+      "achievements": [
+        "Father of Liberalism",
+        "Influential Enlightenment thinker"
+      ],
+      "significance": "Locke's ideas on liberty and the social contract influenced the development of political philosophy.",
+      "notableWorks": [
+        "Two Treatises of Government",
+        "An Essay Concerning Human Understanding"
+      ]
+    },
+    {
+      "fullName": "John Lennon",
+      "years": "1940-1980",
+      "category": "Musicians",
+      "achievements": [
+        "Member of The Beatles",
+        "Solo music career"
+      ],
+      "significance": "Lennon was a key figure in the music industry, known for his influence on popular culture and music.",
+      "notableWorks": [
+        "Imagine",
+        "Give Peace a Chance"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Ask not what your country can do for you – ask what you can do for your country.",
+      "author": "John F. Kennedy",
+      "context": "Inaugural Address as President of the United States",
+      "year": 1961,
+      "category": "Leadership"
+    },
+    {
+      "quote": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "context": "Reflecting on the unpredictability of life",
+      "year": 1980,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "John Legend",
+      "profession": "Musician",
+      "knownFor": [
+        "Grammy-winning singer-songwriter",
+        "Hits like 'All of Me'"
+      ],
+      "awards": "10 Grammy Awards"
+    },
+    {
+      "name": "John Krasinski",
+      "profession": "Actor",
+      "knownFor": [
+        "Role as Jim Halpert on 'The Office'",
+        "Directing 'A Quiet Place'"
+      ],
+      "awards": "Screen Actors Guild Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "John Wall",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Los Angeles Clippers",
+      "pastTeams": [
+        "Washington Wizards",
+        "Houston Rockets"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "11",
+      "years": "2010-Present",
+      "achievements": "NBA All-Star, All-NBA Team",
+      "knownFor": [
+        "Explosive speed and playmaking ability"
+      ],
+      "awards": "NBA All-Star",
+      "stats": "Average 19 points, 9 assists per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "John Terry",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Retired",
+      "pastTeams": [
+        "Chelsea FC",
+        "Aston Villa"
+      ],
+      "position": "Defender",
+      "jerseyNumber": "26",
+      "years": "1998-2018",
+      "achievements": "5 Premier League titles, UEFA Champions League",
+      "knownFor": [
+        "Leadership and defensive skills"
+      ],
+      "awards": "PFA Player of the Year",
+      "stats": "Over 500 appearances for Chelsea",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "John Elway",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Denver Broncos"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "7",
+      "years": "1983-1998",
+      "achievements": "2 Super Bowl titles, NFL MVP",
+      "knownFor": [
+        "Comeback victories and strong arm"
+      ],
+      "awards": "Super Bowl MVP",
+      "stats": "51,475 passing yards, 300 touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "John Smoltz",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Atlanta Braves",
+        "Boston Red Sox",
+        "St. Louis Cardinals"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "29",
+      "years": "1988-2009",
+      "achievements": "Cy Young Award, World Series Champion",
+      "knownFor": [
+        "Versatility as starter and closer"
+      ],
+      "awards": "NL Cy Young Award",
+      "stats": "213 wins, 154 saves",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "John Tavares",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Toronto Maple Leafs",
+      "pastTeams": [
+        "New York Islanders"
+      ],
+      "position": "Center",
+      "jerseyNumber": "91",
+      "years": "2009-Present",
+      "achievements": "NHL All-Star, Olympic Gold Medalist",
+      "knownFor": [
+        "Scoring ability and leadership"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 800 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "John Wick",
+      "year": 2014,
+      "type": "Movie",
+      "characterName": "John Wick",
+      "characterDescription": "A retired hitman seeking vengeance for the death of his dog.",
+      "imdbUrl": "https://www.imdb.com/title/tt2911666/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "People keep asking if I'm back, and I haven't really had an answer. But now, yeah, I'm thinkin' I'm back.",
+      "character": "John Wick",
+      "source": "John Wick",
+      "year": 2014,
+      "context": "John Wick declares his return to the world of assassins.",
+      "genre": "Action",
+      "impact": "The quote signifies John Wick's determination and resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 398,
+    "peak": 79,
+    "peakYear": 2023
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 1,
+    "breakdown": "john"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Contains 3 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:14:25.732Z",
+  "v8EnrichedAt": "2025-11-03T22:14:26.788Z",
+  "songs": [
+    {
+      "title": "Dear John",
+      "artist": "Taylor Swift",
+      "year": 2010,
+      "genre": "Country Pop",
+      "nameContext": "Features \"john\" in the song",
+      "description": "This song reflects on a past relationship with a sense of empowerment and growth. It captures the journey of moving on and finding strength after a challenging experience.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Dear%20John%20played%20by%20Taylor%20Swift",
+      "geniusUrl": "https://genius.com/search?q=Dear%20John%20Taylor%20Swift",
+      "verified": true
+    },
+    {
+      "title": "John Cougar, John Deere, John 3:16",
+      "artist": "Keith Urban",
+      "year": 2015,
+      "genre": "Country",
+      "nameContext": "Features \"john\" in the song",
+      "description": "A celebration of life's simple pleasures and influential cultural icons, this song weaves together nostalgic and uplifting themes, highlighting the joys of everyday life and personal values.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=John%20Cougar%2C%20John%20Deere%2C%20John%203%3A16%20played%20by%20Keith%20Urban",
+      "geniusUrl": "https://genius.com/search?q=John%20Cougar%2C%20John%20Deere%2C%20John%203%3A16%20Keith%20Urban",
+      "verified": true
+    },
+    {
+      "title": "Big Bad John",
+      "artist": "Jimmy Dean",
+      "year": 1961,
+      "genre": "Country",
+      "nameContext": "Features \"john\" in the song",
+      "description": "A classic tale of heroism and bravery, this song tells the story of a strong and silent man who becomes a local legend for his selfless actions. It's an inspiring narrative of courage and sacrifice.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Big%20Bad%20John%20played%20by%20Jimmy%20Dean",
+      "geniusUrl": "https://genius.com/search?q=Big%20Bad%20John%20Jimmy%20Dean",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:14:33.698Z",
+  "songsEnrichedAt": "2025-11-03T22:14:33.698Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}
