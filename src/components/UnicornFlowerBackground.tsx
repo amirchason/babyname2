@@ -47,7 +47,7 @@ const UnicornFlowerBackground: React.FC = () => {
           }}
         >
           <UnicornScene
-            jsonFilePath="/tulips-dreamy-animation.json"
+            jsonFilePath="/heroflowers.json"
             width="100%"
             height="100%"
             scale={1}
@@ -55,7 +55,7 @@ const UnicornFlowerBackground: React.FC = () => {
             fps={60}
             lazyLoad={false}
             production={true}
-            altText="Dreamy tulips in light blue sky with blur and caustics effects"
+            altText="Dreamy flower animation with tulips and caustics effects"
             className="w-full h-full"
             onError={(error) => {
               console.error('UnicornStudio animation failed to load:', error);

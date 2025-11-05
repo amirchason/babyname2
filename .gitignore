@@ -72,3 +72,9 @@ docs/.doctrees
 # Vercel
 .vercel
 # Note: vercel.json is committed (contains config, not secrets)public/data/*backup*.json
+# Remove sensitive files from tracking
+.env
+test-openai-new.js
+test-api.js
+test-apikey.js
+test-new-api-key.js
