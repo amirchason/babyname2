@@ -745,45 +745,33 @@ const HomePage: React.FC = () => {
 
         {/* Hero Content */}
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          {/* Elegant backdrop blur container */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.2, ease: [0.25, 0.1, 0.25, 1.0] }}
-            className="backdrop-blur-md bg-black/20 rounded-3xl px-8 py-12 md:px-16 md:py-16 border border-white/10"
+          <motion.h1
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1.2,
+              ease: [0.25, 0.1, 0.25, 1.0]
+            }}
+            className="text-5xl md:text-7xl font-bold text-white mb-6"
             style={{
-              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.3), 0 4px 20px rgba(0, 0, 0, 0.15)',
+              letterSpacing: '0.02em'
             }}
           >
-            <motion.h1
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{
-                duration: 1.2,
-                delay: 0.2,
-                ease: [0.25, 0.1, 0.25, 1.0]
-              }}
-              className="text-5xl md:text-7xl font-bold text-white mb-6"
-              style={{
-                textShadow: '0 2px 10px rgba(0, 0, 0, 0.3), 0 4px 20px rgba(0, 0, 0, 0.15)',
-                letterSpacing: '0.02em'
-              }}
-            >
-              The Name Is The Seed Of The Soul
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1.0] }}
-              className="text-xl md:text-2xl text-white font-light"
-              style={{
-                textShadow: '0 2px 8px rgba(0, 0, 0, 0.4)',
-                letterSpacing: '0.01em'
-              }}
-            >
-              Discover the perfect name from 150,000+ unique options
-            </motion.p>
-          </motion.div>
+            The Name Is The Seed Of The Soul
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1.0] }}
+            className="text-xl md:text-2xl text-white/90 mb-8 font-light"
+            style={{
+              textShadow: '0 1px 8px rgba(0, 0, 0, 0.3)',
+              letterSpacing: '0.01em'
+            }}
+          >
+            Discover the perfect name from 150,000+ unique options
+          </motion.p>
         </div>
       </section>
 
