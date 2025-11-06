@@ -744,7 +744,7 @@ const HomePage: React.FC = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="max-w-4xl mx-auto text-center relative z-10">
+        <div className="max-w-4xl mx-auto text-center relative z-10 opacity-70">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
