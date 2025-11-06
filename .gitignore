@@ -78,3 +78,9 @@ test-openai-new.js
 test-api.js
 test-apikey.js
 test-new-api-key.js
+
+# Log files - may contain API keys in error messages
+*.log
+scripts/*.log
+api-key-replacements.txt
+clean-api-keys.py
