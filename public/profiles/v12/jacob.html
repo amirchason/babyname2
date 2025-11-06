@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Supplanter, holder of the heel - Hebrew origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Jacob</h1>
+      <div class="meaning">"Supplanter, holder of the heel"</div>
+      <div class="meta">
+        <div class="meta-item">Hebrew Origin</div>
+        <div class="meta-item">Male</div>
+        <div class="meta-item">Ranked #1</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by Charlie Brooks</h3>
+      <p>Comedy Writer & Parent • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Jacob</h3>
+            <div class="subtitle">Expert Analysis by Charlie Brooks</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <h2>Let’s Meet Jacob: A Name That Kicks You in the Funny Bone</h2><p>You know how some names just roll off the tongue like melted butter on a stack of pancakes? Well, Jacob is that name. It’s like the brand-new pair of socks that’s comfortable, reliable, and always finds its way in the dryer — unlike the elusive single socks that mysteriously disappear into the laundry void. Jacob has a timeless charm with a hint of mystery; it holds a place in history while keeping up with the trends like a parent trying to understand TikTok.</p><p>Let’s address the elephant in the room: Jacob isn’t just a name. It’s an institution. It’s the name that’ll get called out in class by every substitute teacher and the name screamed ten times a day when your kid somehow Houdini’s his way out of doing chores. That’s the kind of influential aura we’re dealing with, folks.</p><h2>Unpacking Jacob: Hold Onto Your Heels</h2><p>Once upon a time in the land of Canaan, ‘Jacob’ emerged from the Hebrew lands like a rockstar of biblical proportions. The name translates to 'supplanter' or 'holder of the heel' — because who doesn’t want their little bundle of joy associated with heel-grabbing? It’s a name that implies a bit of trickery, which makes sense when you can’t even keep a baby from pulling off their socks.</p><p>In all seriousness, the story goes that Jacob was a twin who came out of the womb grasping his brother’s heel, setting the tone for a future filled with determination and maybe a dash of sibling rivalry. As a parent, I’d say it’s nice to know you’re raising a kid with determination — just as long as that never translates to a future of taking all the cookies from the jar.</p><h2>Famous Jacobs: A Roll Call of Legends</h2><p>In the spotlight, we have the soulful Jake Gyllenhaal, who’s not only a great actor but also makes us wish our morning routine could be half as put together as his red carpet appearances. Then there’s Jacob Elordi, who’s proof that not every Aussie spends their life wrestling crocodiles — sometimes they become the dreamy heartthrob from your teenager’s latest Netflix obsession.</p><p>Let’s not forget Jacob Tremblay, a child actor who’s so talented you’ll forget how young he actually is until you realize he’s younger than your TV remote. And in sports, there’s Jacob deGrom, a pitcher so good he makes throwing a ball in the backyard feel like heavy lifting. These Jacobs are making strides in their fields, showing the world what the name can achieve when you’re not consumed with holding onto heels.</p><h2>Pop Culture Jacob Journeys: Enter the Twilight Zone</h2><p>When you think of Jacob in pop culture, the Twilight Saga flashes brighter than a vampire in direct sunlight. Team Jacob, anyone? Ah, the days of the great debate: Edward’s brooding stares versus Jacob’s ability to actually see the sun. It was a cultural phenomenon that had teenagers swooning and parents asking, 'Why are we watching this again?'</p><p>‘Lost’ also brought us a Jacob, and let’s be honest, no one really knew what was happening on that island half the time. But it made Jacob feel mysterious and intriguing, like that unopened jar in the fridge you’re slightly scared of but too curious about to throw away.</p><h2>Personality Spotlight: What Makes Jacob Tick</h2><p>If Jacob were a fizzy drink, he'd be the kind that doesn’t lose its sparkle after the first sip. He’s charismatic and sometimes a bit of a strategist — like trying to get out of bedtime by asking existential questions. 'But Mom, where do stars go in the daytime?' Cue the wide-eyed innocence and your surrender to an extra five minutes of wake time.</p><p>Jacobs often carry a leadership quality, perhaps because they spent a lifetime mastering the art of persuasion, starting with successfully negotiating for dessert before dinner. They’re adaptable and often the peacemaker of the group because nobody knows how to navigate a bumpy situation better than someone who’s been holding onto things since birth, literally.</p><h2>Nickname Central: Get Creative with Jacob</h2><p>Jacob, Jake, Jakey — it’s like choosing a flavor of ice cream. Jake rolls off the tongue with the ease of watching cartoons on a Sunday morning. Jakey adds a sprinkle of sweetness, which might be perfect for a toddler or someone who still believes vegetables are a myth.</p><p>You want to go international? Try 'Jakub' for a European flair or 'Yaacov' if you’re feeling biblical. Just remember, no matter what variation you choose, your Jacob will still find a way to transform into ‘Hey, you!’ when he’s on the other side of the playground and you’re struggling to get his attention.</p><h2>Numbers Never Lie: Jacob’s Popularity</h2><p>Jacob sits on the throne as #1, a king among baby names, which means if you’re at a park and yell 'Jacob,' expect half the kids to turn around. But hey, nothing wrong with a name that’s both trendy and traditional. Like avocado toast — everybody’s favorite.</p><p>Over the years, Jacob has held its ground, much like a toddler who refuses to be strapped into a car seat. Whether it’s the allure of its timelessness or just the pure, satisfying way it sounds, Jacob is a name that people are drawn to, like moths to a flame, or parents to coffee.</p><h2>Perfect Pairings: Names That Groove with Jacob</h2><p>When pondering middle names to go with Jacob, think of names that complement its sturdy charm. Jacob Alexander has a royal ring to it that almost makes you want to curtsy. Jacob Oliver offers a touch of sophistication that might have you ordering a set of tiny monocles before long.</p><p>Want a sibling name that accompanies Jacob like peanut butter to jelly? Consider names like Emma or Sophie for a sister, or Ethan and Lucas for a brother. You’ll have a harmonious household where the names flow as smoothly as a toddler's negotiating tactics for extra bedtime stories.</p><h2>Jacob in Context: Bridging Worlds</h2><p>Diving into the cultural depths, Jacob is a mainstay, not just in Western culture but all around the world. In Hebrew culture, Jacob is not just a name but a story of legacy, determination, and perhaps, a little mischief. It traverses languages and lands, much like a well-traveled backpacker.</p><p>In a world that seems to be changing faster than a baby can go from walking to running, Jacob offers a sense of constancy. It’s a reminder of history and heritage, connecting generations yet fitting seamlessly into the modern narrative — like a great-grandparent who surprises you with their Instagram skills.</p><h2>The Verdict: To Jacob or Not to Jacob?</h2><p>Naming a child is like discovering a new type of sleep deprivation — it’s exciting, terrifying, and oh-so-rewarding. If you’re considering Jacob, you’re choosing a name with timeless appeal, a dash of mystery, and a hint of that toddler resilient spirit.</p><p>In the end, here's the kicker — it’s not just about the name, but the little person who’ll carry it. Choose Jacob, and you’re giving your child a name that’s stood the test of time, has that perfect blend of history and modernity, and sounds equally charming when hollered across the playground or whispered at bedtime.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Jacob is a name of profound biblical significance, being one of the patriarchs of Israel. In the Hebrew Bible, Jacob was the son of Isaac and Rebecca, and the father of the twelve tribes of Israel. The name has remained popular across cultures and centuries, particularly in Jewish, Christian, and Islamic traditions.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Jacob Grimm</h4>
+        <div class="meta">1785-1863 • Linguist & Author</div>
+        <p><strong>Significance:</strong> Jacob Grimm, along with his brother Wilhelm, collected and published Germanic folk tales that became cultural treasures.</p>
+        <ul><li>Co-author of Grimms' Fairy Tales</li><li>Pioneer in German linguistics and philology</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Jacob Riis</h4>
+        <div class="meta">1849-1914 • Journalist & Social Reformer</div>
+        <p><strong>Significance:</strong> Jacob Riis used photography to expose living conditions in New York tenements, leading to housing reforms.</p>
+        <ul><li>Pioneering photojournalist</li><li>Advocate for urban poor in New York City</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Jake Gyllenhaal</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Roles in 'Donnie Darko', 'Brokeback Mountain', 'Nightcrawler', 'Spider-Man: Far From Home'</p>
+        <p><strong>Awards:</strong> BAFTA Award, multiple nominations</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Jacob Elordi</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Role as Nate Jacobs in 'Euphoria', The Kissing Booth film series</p>
+        <p><strong>Awards:</strong> Rising star in Hollywood</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Jacob Tremblay</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Role in 'Room' (2015), Wonder (2017)</p>
+        <p><strong>Awards:</strong> Critics' Choice Award, Screen Actors Guild Award</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Jacob deGrom</h4>
+        <div class="meta">Baseball • Texas Rangers</div>
+        <p><strong>Position:</strong> Pitcher</p>
+        <p><strong>Achievements:</strong> 2x Cy Young Award winner, 4x All-Star</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Jakob (German/Scandinavian)</div><div class="tag">Jacques (French)</div><div class="tag">Jacobo (Spanish)</div><div class="tag">Giacomo (Italian)</div><div class="tag">Yakov (Russian)</div><div class="tag">James (English variant)</div><div class="tag">Diego (Spanish)</div><div class="tag">Jaco (Dutch)</div><div class="tag">Jakub (Polish)</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Jake</div><div class="tag">Jay</div><div class="tag">Coby</div><div class="tag">Cob</div><div class="tag">Jack</div><div class="tag">J</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_jacob_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_jacob_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_jacob_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_jacob_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_jacob_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_jacob_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_jacob_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_jacob_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

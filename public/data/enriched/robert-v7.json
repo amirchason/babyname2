@@ -1,0 +1,330 @@
+{
+  "name": "robert",
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Bright fame",
+  "culturalSignificance": "The name Robert has been a popular choice across various cultures, especially in English-speaking countries, due to its noble and historical connotations. It has been borne by numerous kings, saints, and notable figures throughout history, symbolizing leadership and prestige.",
+  "modernContext": "Robert remains a classic and widely used name, though its popularity has slightly declined in recent years. It is often chosen for its timeless appeal and strong, traditional sound.",
+  "literaryReferences": "Robert is a common name in literature, appearing in works such as 'Wuthering Heights' by Emily Brontë and 'The Adventures of Sherlock Holmes' by Arthur Conan Doyle.",
+  "pronunciationGuide": "/ˈrɒbərt/",
+  "variations": [
+    "Roberto",
+    "Rupert",
+    "Ruprecht",
+    "Robbie",
+    "Bob",
+    "Bobby",
+    "Róbert",
+    "Roberta",
+    "Robertus"
+  ],
+  "similarNames": [
+    "Richard",
+    "Ronald",
+    "Roger",
+    "Raymond",
+    "Ralph",
+    "Roland",
+    "Russell",
+    "Roderick",
+    "Randall"
+  ],
+  "nicknames": [
+    "Rob",
+    "Bob",
+    "Bobby",
+    "Robbie",
+    "Bert",
+    "Robb",
+    "Robby",
+    "Bertie",
+    "Rab"
+  ],
+  "personality": "People named Robert are often perceived as strong, reliable, and charismatic leaders. They are seen as dependable and are often admired for their wisdom and integrity.",
+  "symbolism": "The name Robert symbolizes fame and brightness, often associated with nobility and leadership.",
+  "funFact": "Robert is one of the most common names for kings in European history, with several monarchs bearing the name across different countries.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Robert",
+    "significance": "Saint Robert of Molesme was a Christian saint and the founder of the Cistercian Order.",
+    "keyStories": [
+      "Founder of the Cistercian Order, emphasizing monastic reform and simplicity."
+    ],
+    "spiritualMeaning": "The name is associated with leadership and spiritual guidance.",
+    "historicalImpact": "Saint Robert's contributions to monastic life had a significant impact on Christian monasticism."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Robert the Bruce",
+      "years": "1274-1329",
+      "category": "Political Leaders",
+      "achievements": [
+        "King of Scots",
+        "Led Scotland during the First War of Scottish Independence"
+      ],
+      "significance": "He is celebrated as a national hero in Scotland for his role in securing Scotland's independence from England.",
+      "notableWorks": [
+        "Battle of Bannockburn"
+      ]
+    },
+    {
+      "fullName": "Robert Oppenheimer",
+      "years": "1904-1967",
+      "category": "Scientists",
+      "achievements": [
+        "Father of the Atomic Bomb",
+        "Led the Manhattan Project"
+      ],
+      "significance": "Oppenheimer was a pivotal figure in the development of nuclear weapons during World War II.",
+      "notableWorks": [
+        "Manhattan Project"
+      ]
+    },
+    {
+      "fullName": "Robert Frost",
+      "years": "1874-1963",
+      "category": "Poets",
+      "achievements": [
+        "Pulitzer Prize for Poetry",
+        "Renowned American poet"
+      ],
+      "significance": "Frost is one of the most celebrated American poets, known for his depictions of rural New England life.",
+      "notableWorks": [
+        "The Road Not Taken",
+        "Stopping by Woods on a Snowy Evening"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Two roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference.",
+      "author": "Robert Frost",
+      "context": "From the poem 'The Road Not Taken', reflecting on choices and their impact.",
+      "year": 1916,
+      "category": "Inspiration"
+    },
+    {
+      "quote": "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science.",
+      "author": "Robert Oppenheimer",
+      "context": "Reflecting on the intersection of science and art.",
+      "year": 1954,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Robert Downey Jr.",
+      "profession": "Actor",
+      "knownFor": [
+        "Iron Man",
+        "Sherlock Holmes"
+      ],
+      "awards": "Golden Globe Awards"
+    },
+    {
+      "name": "Robert De Niro",
+      "profession": "Actor",
+      "knownFor": [
+        "Taxi Driver",
+        "Raging Bull"
+      ],
+      "awards": "Academy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Robert Horry",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Houston Rockets",
+        "Los Angeles Lakers",
+        "San Antonio Spurs"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "5",
+      "years": "1992-2008",
+      "achievements": "7-time NBA Champion",
+      "knownFor": [
+        "Clutch playoff performances"
+      ],
+      "awards": "NBA All-Rookie Second Team",
+      "stats": "7,715 points, 3,861 rebounds",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Robert Lewandowski",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Bundesliga",
+      "team": "FC Barcelona",
+      "pastTeams": [
+        "Borussia Dortmund",
+        "Bayern Munich"
+      ],
+      "position": "Striker",
+      "jerseyNumber": "9",
+      "years": "2006-Present",
+      "achievements": "FIFA Best Men's Player 2020",
+      "knownFor": [
+        "Goal-scoring prowess"
+      ],
+      "awards": "UEFA Men's Player of the Year",
+      "stats": "Over 500 career goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Robert Griffin III",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Washington Redskins",
+        "Cleveland Browns",
+        "Baltimore Ravens"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "10",
+      "years": "2012-2020",
+      "achievements": "NFL Offensive Rookie of the Year 2012",
+      "knownFor": [
+        "Dual-threat quarterback skills"
+      ],
+      "awards": "Heisman Trophy",
+      "stats": "9,271 passing yards, 1,809 rushing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Roberto Clemente",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Pittsburgh Pirates"
+      ],
+      "position": "Right Fielder",
+      "jerseyNumber": "21",
+      "years": "1955-1972",
+      "achievements": "15-time All-Star, World Series MVP",
+      "knownFor": [
+        "Exceptional defense and hitting"
+      ],
+      "awards": "National League MVP",
+      "stats": "3,000 hits, .317 batting average",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Roberto Luongo",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "Florida Panthers",
+        "Vancouver Canucks"
+      ],
+      "position": "Goaltender",
+      "jerseyNumber": "1",
+      "years": "1999-2019",
+      "achievements": "2-time Olympic Gold Medalist",
+      "knownFor": [
+        "Outstanding goaltending skills"
+      ],
+      "awards": "William M. Jennings Trophy",
+      "stats": "489 wins, 77 shutouts",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "type": "Movie",
+      "characterName": "Robert De Niro",
+      "characterDescription": "A key figure in the mob world.",
+      "imdbUrl": "https://www.imdb.com/title/tt0099685/",
+      "genre": "Crime",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm funny how, I mean funny like I'm a clown, I amuse you?",
+      "character": "Robert De Niro",
+      "source": "Goodfellas",
+      "year": 1990,
+      "context": "A tense scene where the character questions his friend's perception of him.",
+      "genre": "Crime",
+      "impact": "This quote is iconic for its intensity and the way it captures the volatility of mob life."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 414,
+    "peak": 200,
+    "peakYear": 2004
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "rob-ert"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Contains 4 classic indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:04:45.448Z"
+}

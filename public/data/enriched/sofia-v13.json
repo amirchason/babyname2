@@ -1,0 +1,290 @@
+{
+  "name": "sofia",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:56:02.948Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Wisdom",
+  "culturalSignificance": "The name Sofia has been revered in various cultures for its association with wisdom and learning. It has been a popular name in Eastern Orthodox Christianity, often linked to Saint Sophia, who is venerated as a martyr. The name's elegance and timeless appeal have made it a favorite across many countries and cultures.",
+  "modernContext": "Sofia remains a highly popular name in many countries, consistently ranking in the top baby name lists. Its simplicity and classic charm make it a preferred choice for parents worldwide.",
+  "literaryReferences": "Sofia is a character in 'The Color Purple' by Alice Walker, known for her strength and resilience.",
+  "pronunciationGuide": "soʊˈfiːə",
+  "variations": [
+    "Sophia",
+    "Sofie",
+    "Sofiya",
+    "Sofía",
+    "Sofya",
+    "Zofia",
+    "Sofija",
+    "Sofea",
+    "Sofina"
+  ],
+  "similarNames": [
+    "Sophia",
+    "Sophie",
+    "Sonia",
+    "Sylvia",
+    "Seraphina",
+    "Serena",
+    "Selena",
+    "Sabrina",
+    "Sienna"
+  ],
+  "nicknames": [
+    "Sofi",
+    "Fia",
+    "Soso",
+    "Sia",
+    "Sofie",
+    "Sof",
+    "Fifi",
+    "Sofka",
+    "So"
+  ],
+  "personality": "People named Sofia are often perceived as intelligent, graceful, and compassionate. They are seen as natural leaders with a strong sense of justice and empathy.",
+  "symbolism": "The name Sofia symbolizes wisdom, clarity, and insight. It is often associated with a deep understanding and the pursuit of knowledge.",
+  "funFact": "Sofia is the capital city of Bulgaria, named after the Saint Sofia Church, which is one of the oldest churches in the country.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Sophia",
+    "significance": "Saint Sophia is revered as a martyr in the Eastern Orthodox Church, symbolizing wisdom and faith.",
+    "keyStories": [
+      "The martyrdom of Saint Sophia and her daughters Faith, Hope, and Charity."
+    ],
+    "spiritualMeaning": "The name signifies divine wisdom and the pursuit of spiritual enlightenment.",
+    "historicalImpact": "Saint Sophia's story has inspired many churches and religious communities, emphasizing the virtues of wisdom and faith."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Sophia of Hanover",
+      "years": "1630-1714",
+      "category": "Royalty",
+      "achievements": [
+        "Mother of King George I of Great Britain",
+        "Electress of Hanover"
+      ],
+      "significance": "Sophia of Hanover played a crucial role in the succession of the British throne, leading to the establishment of the House of Hanover.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Sophia Kovalevskaya",
+      "years": "1850-1891",
+      "category": "Mathematician",
+      "achievements": [
+        "First major Russian female mathematician",
+        "First woman to hold a professorship in Northern Europe"
+      ],
+      "significance": "Sophia Kovalevskaya made significant contributions to mathematics, particularly in the theory of partial differential equations.",
+      "notableWorks": [
+        "Kovalevskaya's Theorem"
+      ]
+    },
+    {
+      "fullName": "Sophia Loren",
+      "years": "1934-Present",
+      "category": "Actress",
+      "achievements": [
+        "Academy Award for Best Actress",
+        "Golden Globe Awards"
+      ],
+      "significance": "Sophia Loren is an iconic Italian actress known for her roles in classic films and her contribution to cinema.",
+      "notableWorks": [
+        "Two Women",
+        "Marriage Italian Style"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Everything you see I owe to spaghetti.",
+      "author": "Sophia Loren",
+      "context": "Sophia Loren humorously attributed her success and beauty to her love of Italian cuisine.",
+      "year": 1965,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Sofia Vergara",
+      "profession": "Actress",
+      "knownFor": [
+        "Modern Family",
+        "Hot Pursuit"
+      ],
+      "awards": "Screen Actors Guild Awards"
+    },
+    {
+      "name": "Sofia Coppola",
+      "profession": "Director",
+      "knownFor": [
+        "Lost in Translation",
+        "The Virgin Suicides"
+      ],
+      "awards": "Academy Award for Best Original Screenplay"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Sofia Huerta",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "NWSL",
+      "team": "OL Reign",
+      "pastTeams": [
+        "Chicago Red Stars",
+        "Houston Dash"
+      ],
+      "position": "Defender",
+      "jerseyNumber": "11",
+      "years": "2015-Present",
+      "achievements": "NWSL Best XI",
+      "knownFor": [
+        "Versatility in playing multiple positions"
+      ],
+      "awards": "NWSL Best XI",
+      "stats": "100+ appearances",
+      "verified": true,
+      "source": "NWSLsoccer.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Sofia the First",
+      "year": 2013,
+      "type": "TV Show",
+      "characterName": "Princess Sofia",
+      "characterDescription": "A young girl who becomes a princess overnight and learns how to navigate royal life.",
+      "imdbUrl": "https://www.imdb.com/title/tt2136138/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I can do anything if I believe in myself.",
+      "character": "Princess Sofia",
+      "source": "Sofia the First",
+      "year": 2013,
+      "context": "Sofia encourages herself and others to have confidence and believe in their abilities.",
+      "genre": "Animation",
+      "impact": "This quote is iconic for its message of self-empowerment and positivity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Ruby Red",
+      "hex": "#E0115F"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 224,
+    "peak": 238,
+    "peakYear": 2020
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "so-fia"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    },
+    {
+      "tag": "International",
+      "confidence": 0.85,
+      "reason": "Contains 2 international indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:22:52.869Z",
+  "v8EnrichedAt": "2025-11-03T23:22:54.413Z",
+  "songs": [
+    {
+      "title": "Sofia",
+      "artist": "Clairo",
+      "year": 2019,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"sofia\" in the song",
+      "description": "This song is a vibrant and catchy indie pop track that explores themes of infatuation and admiration. The artist expresses a sense of longing and excitement, capturing the essence of youthful love and discovery.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sofia%20played%20by%20Clairo",
+      "geniusUrl": "https://genius.com/search?q=Sofia%20Clairo",
+      "verified": true
+    },
+    {
+      "title": "Sofia",
+      "artist": "Alvaro Soler",
+      "year": 2016,
+      "genre": "Latin Pop",
+      "nameContext": "Features \"sofia\" in the song",
+      "description": "A lively and upbeat Latin pop song that celebrates joy and happiness. The track is infused with energetic rhythms and a catchy melody, creating an atmosphere of celebration and positivity.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sofia%20played%20by%20Alvaro%20Soler",
+      "geniusUrl": "https://genius.com/search?q=Sofia%20Alvaro%20Soler",
+      "verified": true
+    },
+    {
+      "title": "Sofia",
+      "artist": "Good Charlotte",
+      "year": 2018,
+      "genre": "Pop Rock",
+      "nameContext": "Features \"sofia\" in the song",
+      "description": "This pop rock song delivers an uplifting and heartfelt message. It focuses on themes of love and appreciation, with a melody that is both powerful and emotive, creating a sense of warmth and connection.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sofia%20played%20by%20Good%20Charlotte",
+      "geniusUrl": "https://genius.com/search?q=Sofia%20Good%20Charlotte",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:22:59.540Z",
+  "songsEnrichedAt": "2025-11-03T23:22:59.540Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "name": "connor",
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "Lover of hounds",
+  "culturalSignificance": "Connor is a traditional Irish name that has been popular for centuries. It is derived from the Gaelic name 'Conchobhar', which means 'lover of hounds'. Historically, it was the name of several Irish kings and warriors, reflecting its deep roots in Irish culture.",
+  "modernContext": "Connor remains a popular name in English-speaking countries, particularly in the United States and Ireland. It is often chosen for its strong, classic sound and cultural heritage.",
+  "literaryReferences": "Connor is a name that appears in various literary works, often used to evoke a sense of strength and tradition.",
+  "pronunciationGuide": "/ˈkɒnər/",
+  "variations": [
+    "Conor",
+    "Conner",
+    "Konnor",
+    "Konnar",
+    "Conar",
+    "Konner",
+    "Conyr",
+    "Conaire",
+    "Conchobhar"
+  ],
+  "similarNames": [
+    "Colin",
+    "Cameron",
+    "Carter",
+    "Logan",
+    "Dylan",
+    "Liam",
+    "Aidan",
+    "Ryan",
+    "Sean"
+  ],
+  "nicknames": [
+    "Con",
+    "Connie",
+    "Conny",
+    "Coco",
+    "Norrie",
+    "Nor",
+    "C",
+    "CJ",
+    "Co"
+  ],
+  "personality": "The name Connor is often associated with individuals who are strong, loyal, and adventurous. They are seen as natural leaders with a love for the outdoors and a strong sense of justice.",
+  "symbolism": "The name Connor symbolizes loyalty, strength, and a connection to nature, particularly through its association with hounds.",
+  "funFact": "The name Connor has been consistently popular in the United States, often ranking in the top 100 names for boys since the late 20th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Connor Mac Nessa",
+      "years": "Unknown",
+      "category": "Legendary Kings",
+      "achievements": [
+        "King of Ulster in Irish mythology"
+      ],
+      "significance": "Connor Mac Nessa is a legendary figure in Irish mythology, known for his wisdom and leadership.",
+      "notableWorks": [
+        "Featured in the Ulster Cycle of Irish mythology"
+      ]
+    },
+    {
+      "fullName": "Connor O'Brien",
+      "years": "1880-1952",
+      "category": "Sailors",
+      "achievements": [
+        "First person to sail around the world in a small yacht"
+      ],
+      "significance": "Connor O'Brien was an Irish sailor and writer, known for his adventurous spirit and contributions to maritime literature.",
+      "notableWorks": [
+        "'Across Three Oceans'"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Connor McGregor",
+      "profession": "Mixed Martial Artist",
+      "knownFor": [
+        "UFC Featherweight and Lightweight Champion"
+      ],
+      "awards": "UFC Fighter of the Year"
+    },
+    {
+      "name": "Connor Franta",
+      "profession": "YouTuber and Entrepreneur",
+      "knownFor": [
+        "YouTube channel with millions of subscribers",
+        "Author of 'A Work in Progress'"
+      ],
+      "awards": "Teen Choice Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Connor McDavid",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Edmonton Oilers",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "97",
+      "years": "2015-Present",
+      "achievements": "Multiple-time NHL All-Star, Hart Memorial Trophy winner",
+      "knownFor": [
+        "Exceptional speed and skill on the ice"
+      ],
+      "awards": "NHL MVP, Art Ross Trophy",
+      "stats": "Over 100 points in multiple seasons",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Connor Hellebuyck",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Winnipeg Jets",
+      "pastTeams": [],
+      "position": "Goaltender",
+      "jerseyNumber": "37",
+      "years": "2015-Present",
+      "achievements": "Vezina Trophy winner",
+      "knownFor": [
+        "Outstanding goaltending skills"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Consistently high save percentage",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Connor Cook",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Free Agent",
+      "pastTeams": [
+        "Oakland Raiders",
+        "Detroit Lions"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "18",
+      "years": "2016-2018",
+      "achievements": "Led Michigan State to Big Ten Championship",
+      "knownFor": [
+        "Strong arm and leadership in college"
+      ],
+      "awards": "Big Ten Championship MVP",
+      "stats": "Limited NFL appearances",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Connor Barwin",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Houston Texans",
+        "Philadelphia Eagles",
+        "Los Angeles Rams"
+      ],
+      "position": "Linebacker",
+      "jerseyNumber": "98",
+      "years": "2009-2018",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Versatile defensive play"
+      ],
+      "awards": "NFL All-Pro",
+      "stats": "56.5 career sacks",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Connor Wickham",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "EFL Championship",
+      "team": "Forest Green Rovers",
+      "pastTeams": [
+        "Sunderland",
+        "Crystal Palace"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "21",
+      "years": "2009-Present",
+      "achievements": "Key goals in Premier League survival campaigns",
+      "knownFor": [
+        "Physical presence and aerial ability"
+      ],
+      "awards": "Premier League Player of the Month",
+      "stats": "Over 50 career goals",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "type": "Movie",
+      "characterName": "John Connor",
+      "characterDescription": "The future leader of the human resistance against Skynet.",
+      "imdbUrl": "https://www.imdb.com/title/tt0103064/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "The future is not set. There is no fate but what we make for ourselves.",
+      "character": "John Connor",
+      "source": "Terminator 2: Judgment Day",
+      "year": 1991,
+      "context": "John Connor emphasizes the power of human agency in shaping the future.",
+      "genre": "Science Fiction",
+      "impact": "This quote is iconic for its message of hope and empowerment in the face of adversity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 148,
+    "peak": 243,
+    "peakYear": 2016
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "con-nor"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Contains 4 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:22:04.851Z"
+}

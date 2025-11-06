@@ -1,0 +1,372 @@
+{
+  "name": "andrew",
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Manly",
+  "culturalSignificance": "Andrew is a name of Greek origin, derived from the word 'andreios' meaning 'manly' or 'brave'. It has been a popular name in Christian cultures due to Saint Andrew, one of the twelve apostles of Jesus and the patron saint of Scotland, Russia, and Greece.",
+  "modernContext": "Andrew remains a popular name in English-speaking countries and is often chosen for its classic and strong connotations. It consistently ranks in the top 100 names for boys in the United States.",
+  "literaryReferences": "Andrew is a common name in literature, often used to denote characters with strength and integrity.",
+  "pronunciationGuide": "/ˈæn.druː/",
+  "variations": [
+    "Andreas",
+    "Anders",
+    "Andre",
+    "Andrei",
+    "Andrés",
+    "Andriy",
+    "Andrzej",
+    "Andrea",
+    "Andersson"
+  ],
+  "similarNames": [
+    "Anthony",
+    "Alexander",
+    "Aaron",
+    "Adam",
+    "Adrian",
+    "Arthur",
+    "Aiden",
+    "Austin",
+    "Alan"
+  ],
+  "nicknames": [
+    "Andy",
+    "Drew",
+    "Andie",
+    "Ando",
+    "Ands",
+    "Andro",
+    "Dru",
+    "And",
+    "Rew"
+  ],
+  "personality": "People named Andrew are often perceived as strong, reliable, and trustworthy. They are seen as leaders who are courageous and have a strong sense of justice.",
+  "symbolism": "The name Andrew symbolizes strength, courage, and leadership. It is often associated with qualities of bravery and masculinity.",
+  "funFact": "Andrew is the patron saint of several countries, including Scotland, where St. Andrew's Day is celebrated on November 30th.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Andrew",
+    "significance": "Saint Andrew was one of the twelve apostles of Jesus and is considered a key figure in Christianity.",
+    "keyStories": [
+      "Saint Andrew was crucified on an X-shaped cross, known as a saltire, which is now a symbol of Scotland."
+    ],
+    "spiritualMeaning": "The name Andrew is often associated with faithfulness and devotion in Christian contexts.",
+    "historicalImpact": "Saint Andrew's influence is seen in the spread of Christianity and his role as a patron saint in various cultures."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Andrew Jackson",
+      "years": "1767-1845",
+      "category": "Political Leaders",
+      "achievements": [
+        "7th President of the United States",
+        "Founder of the Democratic Party"
+      ],
+      "significance": "Andrew Jackson was a significant figure in American history, known for his role in the expansion of democracy and his controversial policies.",
+      "notableWorks": [
+        "Indian Removal Act",
+        "Nullification Crisis"
+      ]
+    },
+    {
+      "fullName": "Andrew Carnegie",
+      "years": "1835-1919",
+      "category": "Industrialists",
+      "achievements": [
+        "Led the expansion of the American steel industry",
+        "Philanthropist"
+      ],
+      "significance": "Andrew Carnegie was a leading industrialist and philanthropist, known for his contributions to the steel industry and his extensive charitable work.",
+      "notableWorks": [
+        "Carnegie Steel Company",
+        "Carnegie Hall"
+      ]
+    },
+    {
+      "fullName": "Andrew Lloyd Webber",
+      "years": "1948-Present",
+      "category": "Composers",
+      "achievements": [
+        "Prolific composer of musical theatre",
+        "Winner of multiple Tony Awards"
+      ],
+      "significance": "Andrew Lloyd Webber is a renowned composer known for his contributions to musical theatre, creating some of the most popular musicals in history.",
+      "notableWorks": [
+        "The Phantom of the Opera",
+        "Cats",
+        "Evita"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The best way to predict the future is to create it.",
+      "author": "Andrew Carnegie",
+      "context": "This quote reflects Carnegie's belief in innovation and proactive efforts to shape one's destiny.",
+      "year": 1900,
+      "category": "Inspiration"
+    },
+    {
+      "quote": "There is no substitute for hard work.",
+      "author": "Andrew Carnegie",
+      "context": "Carnegie often emphasized the importance of diligence and perseverance in achieving success.",
+      "year": 1890,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Andrew Garfield",
+      "profession": "Actor",
+      "knownFor": [
+        "The Amazing Spider-Man",
+        "Hacksaw Ridge"
+      ],
+      "awards": "Tony Award for Best Actor in a Play"
+    },
+    {
+      "name": "Andrew Yang",
+      "profession": "Entrepreneur and Politician",
+      "knownFor": [
+        "2020 Democratic presidential candidate",
+        "Founder of Venture for America"
+      ],
+      "awards": "None"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Andrew Wiggins",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Golden State Warriors",
+      "pastTeams": [
+        "Minnesota Timberwolves"
+      ],
+      "position": "Small Forward",
+      "jerseyNumber": "22",
+      "years": "2014-Present",
+      "achievements": "NBA Champion (2022)",
+      "knownFor": [
+        "Athleticism and defensive skills"
+      ],
+      "awards": "NBA All-Rookie First Team",
+      "stats": "Career average: 19.3 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Andrew Robertson",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Liverpool FC",
+      "pastTeams": [
+        "Hull City",
+        "Dundee United"
+      ],
+      "position": "Left Back",
+      "jerseyNumber": "26",
+      "years": "2017-Present",
+      "achievements": "UEFA Champions League winner (2019)",
+      "knownFor": [
+        "Defensive prowess and crossing ability"
+      ],
+      "awards": "PFA Team of the Year",
+      "stats": "Over 50 assists in Premier League",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Andrew Luck",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Indianapolis Colts",
+      "pastTeams": [],
+      "position": "Quarterback",
+      "jerseyNumber": "12",
+      "years": "2012-2019",
+      "achievements": "4× Pro Bowl selection",
+      "knownFor": [
+        "Strong arm and leadership"
+      ],
+      "awards": "NFL Comeback Player of the Year (2018)",
+      "stats": "171 touchdowns, 23,671 passing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Andrew McCutchen",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Milwaukee Brewers",
+      "pastTeams": [
+        "Pittsburgh Pirates",
+        "San Francisco Giants",
+        "New York Yankees",
+        "Philadelphia Phillies"
+      ],
+      "position": "Outfielder",
+      "jerseyNumber": "22",
+      "years": "2009-Present",
+      "achievements": "NL MVP (2013)",
+      "knownFor": [
+        "Speed and batting skills"
+      ],
+      "awards": "5× All-Star",
+      "stats": "Over 200 home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Andrew Ladd",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Arizona Coyotes",
+      "pastTeams": [
+        "Carolina Hurricanes",
+        "Chicago Blackhawks",
+        "Atlanta Thrashers",
+        "Winnipeg Jets",
+        "New York Islanders"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "16",
+      "years": "2005-Present",
+      "achievements": "2× Stanley Cup champion",
+      "knownFor": [
+        "Leadership and scoring ability"
+      ],
+      "awards": "None",
+      "stats": "Over 500 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Social Network",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Andrew Garfield",
+      "characterDescription": "Portrayed Eduardo Saverin, co-founder of Facebook.",
+      "imdbUrl": "https://www.imdb.com/title/tt1285016/",
+      "genre": "Biography, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "With great power comes great responsibility.",
+      "character": "Peter Parker",
+      "source": "The Amazing Spider-Man",
+      "year": 2012,
+      "context": "Peter Parker reflects on the responsibilities that come with his powers.",
+      "genre": "Action, Adventure",
+      "impact": "This quote is iconic in the Spider-Man franchise, emphasizing the moral duty of those with power."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 177,
+    "peak": 221,
+    "peakYear": 2005
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "and-rew"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:05:05.502Z",
+  "v8EnrichedAt": "2025-11-03T22:05:06.510Z",
+  "songs": [
+    {
+      "title": "Andrew",
+      "artist": "The Antlers",
+      "year": 2009,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"andrew\" in the song",
+      "description": "This song from The Antlers' album 'Hospice' features the name Andrew and explores themes of friendship and emotional support. The song's positive undertone highlights the importance of being there for someone during difficult times.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Andrew%20played%20by%20The%20Antlers",
+      "geniusUrl": "https://genius.com/search?q=Andrew%20The%20Antlers",
+      "verified": true
+    },
+    {
+      "title": "Andrew in Drag",
+      "artist": "The Magnetic Fields",
+      "year": 2012,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"andrew\" in the song",
+      "description": "A quirky and upbeat tune by The Magnetic Fields, this song humorously narrates the story of a character named Andrew. The playful lyrics and catchy melody celebrate individuality and the joy of unexpected attractions.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Andrew%20in%20Drag%20played%20by%20The%20Magnetic%20Fields",
+      "geniusUrl": "https://genius.com/search?q=Andrew%20in%20Drag%20The%20Magnetic%20Fields",
+      "verified": true
+    },
+    {
+      "title": "Andrew",
+      "artist": "Bowling for Soup",
+      "year": 2004,
+      "genre": "Pop Punk",
+      "nameContext": "Features \"andrew\" in the song",
+      "description": "This energetic track by Bowling for Soup tells a lighthearted story involving a character named Andrew. The song's positive vibe and fun narrative make it a feel-good anthem about youthful adventures and camaraderie.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Andrew%20played%20by%20Bowling%20for%20Soup",
+      "geniusUrl": "https://genius.com/search?q=Andrew%20Bowling%20for%20Soup",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:05:15.735Z",
+  "songsEnrichedAt": "2025-11-03T22:05:15.735Z"
+}

@@ -1,0 +1,277 @@
+{
+  "name": "sebastian",
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Venerable",
+  "culturalSignificance": "Sebastian is a name with deep historical roots, often associated with Saint Sebastian, a Christian martyr and patron saint of athletes. It has been a popular name in various cultures, symbolizing strength and resilience.",
+  "modernContext": "Sebastian remains a popular name in many countries, consistently ranking high in baby name charts due to its classic appeal and cultural significance.",
+  "literaryReferences": "Sebastian is a character in William Shakespeare's play 'Twelfth Night'.",
+  "pronunciationGuide": "/səˈbæstʃən/",
+  "variations": [
+    "Sebastien",
+    "Sebastiano",
+    "Bastian",
+    "Bastien",
+    "Sebastiaan",
+    "Sebastjan",
+    "Sebestyén",
+    "Sebastião",
+    "Sébastien"
+  ],
+  "similarNames": [
+    "Nathaniel",
+    "Alexander",
+    "Julian",
+    "Gabriel",
+    "Nicholas",
+    "Benjamin",
+    "Lucas",
+    "Samuel",
+    "Ethan"
+  ],
+  "nicknames": [
+    "Seb",
+    "Basti",
+    "Baz",
+    "Sebby",
+    "Bash",
+    "Sebas",
+    "Tian",
+    "Sebi",
+    "Bas"
+  ],
+  "personality": "Sebastian is often associated with a charismatic and confident personality, exuding charm and intelligence.",
+  "symbolism": "The name Sebastian symbolizes courage, endurance, and a noble spirit.",
+  "funFact": "The name Sebastian gained popularity in the English-speaking world after the Protestant Reformation.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Sebastian",
+    "significance": "Saint Sebastian is venerated as a martyr and is the patron saint of athletes and soldiers.",
+    "keyStories": [
+      "Saint Sebastian was a Roman soldier who was martyred for his Christian faith."
+    ],
+    "spiritualMeaning": "Sebastian represents faithfulness and resilience in the face of adversity.",
+    "historicalImpact": "Saint Sebastian's story has inspired countless works of art and literature, emphasizing themes of courage and faith."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Sebastian Bach",
+      "years": "1685-1750",
+      "category": "Musicians",
+      "achievements": [
+        "Prolific composer of the Baroque period",
+        "Created over 1,000 compositions"
+      ],
+      "significance": "Johann Sebastian Bach is considered one of the greatest composers of all time.",
+      "notableWorks": [
+        "Brandenburg Concertos",
+        "Mass in B minor",
+        "The Well-Tempered Clavier"
+      ]
+    },
+    {
+      "fullName": "Sebastián de Belalcázar",
+      "years": "1480-1551",
+      "category": "Explorers",
+      "achievements": [
+        "Conqueror of Quito",
+        "Founder of several cities in Colombia and Ecuador"
+      ],
+      "significance": "He played a crucial role in the Spanish colonization of the Americas.",
+      "notableWorks": [
+        "Founded the city of Santiago de Cali"
+      ]
+    },
+    {
+      "fullName": "Sebastian Kneipp",
+      "years": "1821-1897",
+      "category": "Health and Wellness",
+      "achievements": [
+        "Developed the Kneipp Cure",
+        "Pioneer of naturopathic medicine"
+      ],
+      "significance": "Kneipp's holistic approach to health has influenced modern naturopathy.",
+      "notableWorks": [
+        "My Water Cure"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Music is an agreeable harmony for the honor of God and the permissible delights of the soul.",
+      "author": "Johann Sebastian Bach",
+      "context": "Bach's reflection on the purpose and beauty of music.",
+      "year": 1740,
+      "category": "Art"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Sebastian Stan",
+      "profession": "Actor",
+      "knownFor": [
+        "Portraying Bucky Barnes/Winter Soldier in the Marvel Cinematic Universe"
+      ],
+      "awards": "Nominated for Critics' Choice Television Award"
+    },
+    {
+      "name": "Sebastian Vettel",
+      "profession": "Formula 1 Driver",
+      "knownFor": [
+        "Four-time Formula One World Champion"
+      ],
+      "awards": "FIA Formula One World Champion"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Sebastian Telfair",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Portland Trail Blazers",
+        "Boston Celtics",
+        "Minnesota Timberwolves"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "31",
+      "years": "2004-2014",
+      "achievements": "Known for his high school career and early NBA entry",
+      "knownFor": [
+        "Quickness and ball-handling skills"
+      ],
+      "awards": "McDonald's All-American",
+      "stats": "Career average of 7.4 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Sebastian Giovinco",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Saudi Pro League",
+      "team": "Retired",
+      "pastTeams": [
+        "Juventus",
+        "Toronto FC",
+        "Al-Hilal"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "10",
+      "years": "2006-2021",
+      "achievements": "MLS MVP, MLS Golden Boot",
+      "knownFor": [
+        "Technical skills and free-kick ability"
+      ],
+      "awards": "MLS MVP, MLS Best XI",
+      "stats": "83 goals in 142 MLS appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Sebastian Janikowski",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Oakland Raiders",
+        "Seattle Seahawks"
+      ],
+      "position": "Kicker",
+      "jerseyNumber": "11",
+      "years": "2000-2018",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Strong leg and long field goals"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "436 field goals made",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Sebastian Aho",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Carolina Hurricanes",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "20",
+      "years": "2016-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Offensive skills and playmaking"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 200 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Little Mermaid",
+      "year": 1989,
+      "type": "Movie",
+      "characterName": "Sebastian",
+      "characterDescription": "A Jamaican crab and advisor to King Triton",
+      "imdbUrl": "https://www.imdb.com/title/tt0097757/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "The human world... it's a mess.",
+      "character": "Sebastian",
+      "source": "The Little Mermaid",
+      "year": 1989,
+      "context": "Sebastian expressing his disdain for the human world to Ariel.",
+      "genre": "Animation",
+      "impact": "This quote highlights Sebastian's humorous and cautious nature."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 9,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 221,
+    "peak": 58,
+    "peakYear": 2009
+  },
+  "enrichmentVersion": "v6"
+}

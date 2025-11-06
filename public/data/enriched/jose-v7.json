@@ -1,0 +1,324 @@
+{
+  "name": "jose",
+  "gender": "male",
+  "origin": "Spanish",
+  "meaning": "God will add",
+  "culturalSignificance": "Jose is a common Spanish and Portuguese name, derived from the Hebrew name Yosef, which means 'God will add'. It has been widely used in Spanish-speaking countries and is associated with religious figures such as Saint Joseph, the earthly father of Jesus Christ.",
+  "modernContext": "Jose remains a popular name in many Spanish-speaking countries and communities around the world. It is often chosen for its strong religious connotations and cultural heritage.",
+  "literaryReferences": "Jose is a name that appears in various literary works, often representing characters of Hispanic or Latino descent.",
+  "pronunciationGuide": "/xoˈse/",
+  "variations": [
+    "José",
+    "Joseph",
+    "Giuseppe",
+    "Yusuf",
+    "Josep",
+    "Josef",
+    "Josue",
+    "Jozef",
+    "Josip"
+  ],
+  "similarNames": [
+    "Juan",
+    "Jorge",
+    "Julio",
+    "Javier",
+    "Jesus",
+    "Jonas",
+    "Joaquin",
+    "Joaquim",
+    "Jonah"
+  ],
+  "nicknames": [
+    "Pepe",
+    "Chepe",
+    "Cheo",
+    "Joselito",
+    "Josie",
+    "Joe",
+    "Joey",
+    "Jos",
+    "Joss"
+  ],
+  "personality": "People named Jose are often seen as reliable, strong, and compassionate. They are known for their loyalty and dedication to family and community.",
+  "symbolism": "The name Jose symbolizes faith, protection, and guidance, often associated with the biblical figure Joseph.",
+  "funFact": "In many Spanish-speaking countries, 'Pepe' is a common nickname for Jose, derived from the abbreviation of 'padre putativo' (putative father), referring to Saint Joseph.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Joseph",
+    "significance": "Saint Joseph is a significant figure in Christianity, known as the earthly father of Jesus Christ and the husband of the Virgin Mary.",
+    "keyStories": [
+      "The Nativity",
+      "The Flight into Egypt"
+    ],
+    "spiritualMeaning": "The name represents fatherly protection and divine guidance.",
+    "historicalImpact": "Saint Joseph is venerated as a model of fatherhood and is the patron saint of workers and the universal Church."
+  },
+  "historicFigures": [
+    {
+      "fullName": "José de San Martín",
+      "years": "1778-1850",
+      "category": "Political Leaders",
+      "achievements": [
+        "Liberated Argentina, Chile, and Peru from Spanish rule"
+      ],
+      "significance": "A key leader in the struggle for independence in South America.",
+      "notableWorks": [
+        "Crossing of the Andes"
+      ]
+    },
+    {
+      "fullName": "José Martí",
+      "years": "1853-1895",
+      "category": "Writers and Revolutionaries",
+      "achievements": [
+        "Cuban national hero",
+        "Major figure in Latin American literature"
+      ],
+      "significance": "Instrumental in the fight for Cuban independence from Spain.",
+      "notableWorks": [
+        "Versos Sencillos",
+        "Nuestra América"
+      ]
+    },
+    {
+      "fullName": "José Rizal",
+      "years": "1861-1896",
+      "category": "Revolutionaries and Writers",
+      "achievements": [
+        "Philippine national hero",
+        "Advocate for reform in the Philippines"
+      ],
+      "significance": "His writings inspired the Philippine revolution against Spanish colonization.",
+      "notableWorks": [
+        "Noli Me Tángere",
+        "El Filibusterismo"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "To educate is to prepare the mind to think, to be free, and to be responsible.",
+      "author": "José Rizal",
+      "context": "Advocating for education as a tool for empowerment and reform.",
+      "year": 1890,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "José Andrés",
+      "profession": "Chef",
+      "knownFor": [
+        "Pioneering Spanish cuisine in America",
+        "Humanitarian work with World Central Kitchen"
+      ],
+      "awards": "James Beard Foundation Award"
+    },
+    {
+      "name": "José Carreras",
+      "profession": "Opera Singer",
+      "knownFor": [
+        "Member of the Three Tenors",
+        "Renowned performances in opera houses worldwide"
+      ],
+      "awards": "Grammy Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "José Calderón",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Toronto Raptors",
+        "Detroit Pistons",
+        "Dallas Mavericks",
+        "New York Knicks",
+        "Los Angeles Lakers",
+        "Cleveland Cavaliers"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "8",
+      "years": "2005-2019",
+      "achievements": "NBA All-Rookie Second Team",
+      "knownFor": [
+        "Excellent free-throw shooting",
+        "Playmaking abilities"
+      ],
+      "awards": "Olympic Silver Medalist",
+      "stats": "Career averages: 8.9 points, 5.8 assists per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "José Mourinho",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "AS Roma (Manager)",
+      "pastTeams": [
+        "Chelsea",
+        "Inter Milan",
+        "Real Madrid",
+        "Manchester United",
+        "Tottenham Hotspur"
+      ],
+      "position": "Manager",
+      "jerseyNumber": null,
+      "years": "2000-Present",
+      "achievements": "Multiple league titles in Portugal, England, Italy, and Spain",
+      "knownFor": [
+        "Tactical expertise",
+        "Charismatic personality"
+      ],
+      "awards": "FIFA World Coach of the Year",
+      "stats": "Over 25 major trophies won",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "José Altuve",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Houston Astros",
+      "pastTeams": [],
+      "position": "Second Baseman",
+      "jerseyNumber": "27",
+      "years": "2011-Present",
+      "achievements": "AL MVP, World Series Champion",
+      "knownFor": [
+        "Batting prowess",
+        "Speed on bases"
+      ],
+      "awards": "Silver Slugger Award, Gold Glove Award",
+      "stats": "Career batting average: .307",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "José Bautista",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Toronto Blue Jays",
+        "Pittsburgh Pirates",
+        "Baltimore Orioles",
+        "Tampa Bay Devil Rays",
+        "Kansas City Royals",
+        "New York Mets"
+      ],
+      "position": "Right Fielder",
+      "jerseyNumber": "19",
+      "years": "2004-2018",
+      "achievements": "6× All-Star, 3× Silver Slugger Award",
+      "knownFor": [
+        "Power hitting",
+        "Iconic bat flip"
+      ],
+      "awards": "AL Home Run Leader",
+      "stats": "344 career home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "José Theodore",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "Montreal Canadiens",
+        "Colorado Avalanche",
+        "Washington Capitals",
+        "Minnesota Wild",
+        "Florida Panthers"
+      ],
+      "position": "Goaltender",
+      "jerseyNumber": "60",
+      "years": "1996-2013",
+      "achievements": "Hart Memorial Trophy, Vezina Trophy",
+      "knownFor": [
+        "Outstanding goaltending",
+        "Memorable playoff performances"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "286 career wins",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Motorcycle Diaries",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "José Bianco",
+      "characterDescription": "A friend of Che Guevara during his travels across South America.",
+      "imdbUrl": "https://www.imdb.com/title/tt0318462/",
+      "genre": "Biography, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 186,
+    "peak": 161,
+    "peakYear": 2001
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 1,
+    "breakdown": "jose"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:52:20.028Z"
+}

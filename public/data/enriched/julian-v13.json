@@ -1,0 +1,399 @@
+{
+  "name": "julian",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:55:28.575Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Youthful",
+  "culturalSignificance": "The name Julian has been used since Roman times, derived from the Latin name Julianus, which means 'belonging to Julius.' It was popularized by several saints and historical figures, including Julian the Apostate, a Roman Emperor known for his philosophical writings.",
+  "modernContext": "Julian remains a popular name in many countries, often chosen for its classic yet modern appeal. It ranks consistently high in baby name charts across the United States and Europe.",
+  "literaryReferences": "Julian is a character in the novel 'The Secret History' by Donna Tartt, which explores themes of morality and friendship.",
+  "pronunciationGuide": "/ˈdʒuːliən/",
+  "variations": [
+    "Julien",
+    "Giuliano",
+    "Julio",
+    "Julius",
+    "Julianus",
+    "Julián",
+    "Juliano",
+    "Julijan",
+    "Juliana"
+  ],
+  "similarNames": [
+    "Adrian",
+    "Sebastian",
+    "Lucas",
+    "Ethan",
+    "Nathan",
+    "Oliver",
+    "Damian",
+    "Julio",
+    "Justin"
+  ],
+  "nicknames": [
+    "Jules",
+    "Juli",
+    "Jay",
+    "Ju",
+    "Juju",
+    "Lian",
+    "Jul",
+    "Julius",
+    "Ian"
+  ],
+  "personality": "People named Julian are often perceived as intelligent, charismatic, and creative. They are seen as leaders who are both thoughtful and decisive.",
+  "symbolism": "The name Julian is often associated with youthfulness and vitality, symbolizing a fresh and dynamic spirit.",
+  "funFact": "Julian was the name of a Roman Emperor who attempted to restore paganism in the Roman Empire, earning him the nickname 'Julian the Apostate.'",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Julian",
+    "significance": "Saint Julian is revered in Christian tradition as a patron saint of travelers and hospitality.",
+    "keyStories": [
+      "The story of Saint Julian the Hospitaller, known for his acts of kindness and hospitality."
+    ],
+    "spiritualMeaning": "Julian represents kindness and protection, often invoked for safe travels.",
+    "historicalImpact": "Saint Julian's legacy has influenced the naming of many churches and institutions dedicated to hospitality."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Julian the Apostate",
+      "years": "331-363",
+      "category": "Roman Emperor",
+      "achievements": [
+        "Attempted to restore paganism",
+        "Philosophical writings"
+      ],
+      "significance": "He was the last non-Christian ruler of the Roman Empire and is known for his efforts to revive traditional Roman religious practices.",
+      "notableWorks": [
+        "'Against the Galileans'"
+      ]
+    },
+    {
+      "fullName": "Julian of Norwich",
+      "years": "1342-1416",
+      "category": "Christian Mystic",
+      "achievements": [
+        "Author of 'Revelations of Divine Love'"
+      ],
+      "significance": "She is considered one of the most important Christian mystics and theologians of her time.",
+      "notableWorks": [
+        "'Revelations of Divine Love'"
+      ]
+    },
+    {
+      "fullName": "Julian Huxley",
+      "years": "1887-1975",
+      "category": "Biologist",
+      "achievements": [
+        "First Director-General of UNESCO",
+        "Contributions to evolutionary biology"
+      ],
+      "significance": "Huxley was a leading figure in the mid-20th century scientific community, known for his work in evolutionary biology and his role in founding UNESCO.",
+      "notableWorks": [
+        "'Evolution: The Modern Synthesis'"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The world is not comprehensible, but it is embraceable: through the embracing of one of its beings.",
+      "author": "Julian Huxley",
+      "context": "This quote reflects Huxley's philosophical view on the complexity and beauty of life.",
+      "year": 1953,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Julian Assange",
+      "profession": "Journalist",
+      "knownFor": [
+        "Founder of WikiLeaks"
+      ],
+      "awards": "Sam Adams Award"
+    },
+    {
+      "name": "Julian Casablancas",
+      "profession": "Musician",
+      "knownFor": [
+        "Lead singer of The Strokes"
+      ],
+      "awards": "Grammy Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Julian Edelman",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "New England Patriots"
+      ],
+      "position": "Wide Receiver",
+      "jerseyNumber": "11",
+      "years": "2009-2020",
+      "achievements": "3× Super Bowl champion, Super Bowl MVP",
+      "knownFor": [
+        "Clutch performances in playoffs"
+      ],
+      "awards": "Super Bowl MVP",
+      "stats": "620 receptions, 6,822 receiving yards, 36 touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Julian Draxler",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Bundesliga",
+      "team": "Paris Saint-Germain (on loan to Al Ahli SC)",
+      "pastTeams": [
+        "Schalke 04",
+        "VfL Wolfsburg",
+        "Paris Saint-Germain"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "7",
+      "years": "2011-Present",
+      "achievements": "FIFA World Cup winner 2014",
+      "knownFor": [
+        "Technical skills and versatility"
+      ],
+      "awards": "FIFA World Cup 2014",
+      "stats": "Over 50 international caps",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Julian Green",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Bundesliga",
+      "team": "Greuther Fürth",
+      "pastTeams": [
+        "Bayern Munich",
+        "Hamburg",
+        "Stuttgart"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "37",
+      "years": "2013-Present",
+      "achievements": "Scored in 2014 FIFA World Cup",
+      "knownFor": [
+        "Speed and agility"
+      ],
+      "awards": "US Soccer Young Male Athlete of the Year 2014",
+      "stats": "International goals for the USA",
+      "verified": true,
+      "source": "Bundesliga.com"
+    },
+    {
+      "name": "Julian Gressel",
+      "profession": "Athlete",
+      "sport": "MLS Soccer",
+      "league": "MLS",
+      "team": "Vancouver Whitecaps FC",
+      "pastTeams": [
+        "Atlanta United",
+        "D.C. United"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "19",
+      "years": "2017-Present",
+      "achievements": "MLS Cup winner 2018",
+      "knownFor": [
+        "Versatility and assists"
+      ],
+      "awards": "MLS Rookie of the Year 2017",
+      "stats": "Over 30 assists in MLS",
+      "verified": true,
+      "source": "MLSsoccer.com"
+    },
+    {
+      "name": "Julian Merryweather",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Chicago Cubs",
+      "pastTeams": [
+        "Toronto Blue Jays"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "67",
+      "years": "2020-Present",
+      "achievements": "Notable for fastball velocity",
+      "knownFor": [
+        "High strikeout rate"
+      ],
+      "awards": "N/A",
+      "stats": "ERA and strikeouts",
+      "verified": true,
+      "source": "MLB.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Big Daddy",
+      "year": 1999,
+      "type": "Movie",
+      "characterName": "Julian 'Frankenstein' McGrath",
+      "characterDescription": "A young boy adopted by the protagonist, Sonny Koufax.",
+      "imdbUrl": "https://www.imdb.com/title/tt0142342/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I wipe my own ass!",
+      "character": "Julian 'Frankenstein' McGrath",
+      "source": "Big Daddy",
+      "year": 1999,
+      "context": "Julian proudly declares his independence in a humorous moment.",
+      "genre": "Comedy",
+      "impact": "This quote became iconic for its comedic timing and the character's innocence."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 226,
+    "peak": 197,
+    "peakYear": 2001
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "jul-ian"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Robin Thicke",
+      "parentProfession": "Musician",
+      "childName": "Julian Fuego Thicke",
+      "birthYear": 2010,
+      "context": "Robin Thicke is a well-known musician famous for his hit song 'Blurred Lines'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Jerry Seinfeld",
+      "parentProfession": "Comedian/Actor",
+      "childName": "Julian Kal Seinfeld",
+      "birthYear": 2003,
+      "context": "Jerry Seinfeld is a famous comedian and actor known for the TV show 'Seinfeld'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Lisa Kudrow",
+      "parentProfession": "Actress",
+      "childName": "Julian Murray Stern",
+      "birthYear": 1998,
+      "context": "Lisa Kudrow is an actress best known for her role as Phoebe Buffay on 'Friends'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:14:51.683Z",
+  "v8EnrichedAt": "2025-11-03T23:14:58.092Z",
+  "songs": [
+    {
+      "title": "Julian",
+      "artist": "Say Lou Lou",
+      "year": 2014,
+      "genre": "Dream Pop",
+      "nameContext": "Features \"julian\" in the song",
+      "description": "This song is a dreamy and ethereal track that captures the essence of longing and adventure. It tells the story of a captivating figure named Julian, evoking a sense of mystery and allure. The music creates an atmospheric soundscape that perfectly complements the positive and hopeful undertones of the narrative.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Julian%20played%20by%20Say%20Lou%20Lou",
+      "geniusUrl": "https://genius.com/search?q=Julian%20Say%20Lou%20Lou",
+      "verified": true
+    },
+    {
+      "title": "Julian, I'm a Little Older Than You",
+      "artist": "Courtney Barnett",
+      "year": 2013,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"julian\" in the song",
+      "description": "This indie rock track features a playful and reflective tone, exploring themes of age and wisdom. The song addresses Julian with a sense of warmth and humor, highlighting the positive aspects of growing older and the wisdom that comes with it. The upbeat tempo and catchy melody make it an enjoyable listen.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Julian%2C%20I'm%20a%20Little%20Older%20Than%20You%20played%20by%20Courtney%20Barnett",
+      "geniusUrl": "https://genius.com/search?q=Julian%2C%20I'm%20a%20Little%20Older%20Than%20You%20Courtney%20Barnett",
+      "verified": true
+    },
+    {
+      "title": "Hey Julian",
+      "artist": "The Midnight Beast",
+      "year": 2010,
+      "genre": "Comedy Pop",
+      "nameContext": "Features \"julian\" in the song",
+      "description": "A fun and upbeat song that combines humor with catchy pop elements. The track centers around a character named Julian, with a light-hearted and positive vibe. It's filled with playful energy and is sure to bring a smile to listeners' faces with its comedic approach and infectious rhythm.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hey%20Julian%20played%20by%20The%20Midnight%20Beast",
+      "geniusUrl": "https://genius.com/search?q=Hey%20Julian%20The%20Midnight%20Beast",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:15:05.165Z",
+  "songsEnrichedAt": "2025-11-03T23:15:05.165Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

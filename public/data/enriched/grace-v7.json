@@ -1,0 +1,263 @@
+{
+  "name": "grace",
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Elegance",
+  "culturalSignificance": "The name Grace has been associated with the concept of divine grace in Christian theology, symbolizing God's favor and love. Historically, it has been a popular name in English-speaking countries, often chosen for its association with virtue and beauty.",
+  "modernContext": "Grace remains a popular name in many countries, consistently ranking in the top 100 names for girls in the United States and the United Kingdom. It is favored for its simplicity and timeless elegance.",
+  "literaryReferences": "Grace is a common name in literature, often used for characters who embody kindness and beauty.",
+  "pronunciationGuide": "/ɡreɪs/",
+  "variations": [
+    "Gracia",
+    "Gracie",
+    "Grazia",
+    "Graziella",
+    "Graciela",
+    "Gracja",
+    "Gracinha",
+    "Graciana",
+    "Gracina"
+  ],
+  "similarNames": [
+    "Hope",
+    "Faith",
+    "Joy",
+    "Claire",
+    "Rose",
+    "Lily",
+    "Anna",
+    "Ella",
+    "Sophia"
+  ],
+  "nicknames": [
+    "Gracie",
+    "Gigi",
+    "Gray",
+    "Ace",
+    "Gracey",
+    "Gee",
+    "Cee",
+    "Ray",
+    "G"
+  ],
+  "personality": "People named Grace are often perceived as elegant, kind, and compassionate. They are thought to possess a natural charm and a nurturing spirit.",
+  "symbolism": "The name Grace symbolizes elegance, beauty, and divine favor. It is often associated with kindness and compassion.",
+  "funFact": "Grace Kelly, an American actress who became Princess of Monaco, is one of the most famous bearers of the name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Grace",
+    "significance": "In Christianity, grace is the free and unmerited favor of God, as manifested in the salvation of sinners and the bestowal of blessings.",
+    "keyStories": [
+      "The concept of grace is central to Christian theology, particularly in the teachings of Paul the Apostle."
+    ],
+    "spiritualMeaning": "Grace is seen as a gift from God, symbolizing forgiveness and redemption.",
+    "historicalImpact": "The concept of grace has been pivotal in Christian teachings and has influenced countless theological discussions and writings."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Grace Hopper",
+      "years": "1906-1992",
+      "category": "Scientists",
+      "achievements": [
+        "Pioneer in computer programming",
+        "Developed the first compiler for a computer programming language"
+      ],
+      "significance": "Grace Hopper was a trailblazer in computer science and played a crucial role in the development of programming languages.",
+      "notableWorks": [
+        "COBOL programming language"
+      ]
+    },
+    {
+      "fullName": "Grace Kelly",
+      "years": "1929-1982",
+      "category": "Actors",
+      "achievements": [
+        "Academy Award-winning actress",
+        "Princess of Monaco"
+      ],
+      "significance": "Grace Kelly was a celebrated actress who became a princess, symbolizing a real-life fairy tale.",
+      "notableWorks": [
+        "High Noon",
+        "Rear Window"
+      ]
+    },
+    {
+      "fullName": "Grace Darling",
+      "years": "1815-1842",
+      "category": "Humanitarians",
+      "achievements": [
+        "Heroic sea rescue"
+      ],
+      "significance": "Grace Darling became a national heroine in Britain for her role in rescuing survivors from a shipwreck.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "A ship in port is safe, but that is not what ships are built for.",
+      "author": "Grace Hopper",
+      "context": "This quote reflects Grace Hopper's pioneering spirit and her encouragement to take risks and innovate.",
+      "year": 1980,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Grace Jones",
+      "profession": "Singer, Actress, Model",
+      "knownFor": [
+        "Iconic music and fashion",
+        "Roles in films like 'A View to a Kill'"
+      ],
+      "awards": "Grammy Award nominations"
+    },
+    {
+      "name": "Grace Coddington",
+      "profession": "Fashion Editor",
+      "knownFor": [
+        "Creative Director at Vogue",
+        "Influential fashion styling"
+      ],
+      "awards": "CFDA Fashion Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Grace VanSlooten",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "WNBA",
+      "team": "Connecticut Sun",
+      "pastTeams": [],
+      "position": "Forward",
+      "jerseyNumber": "32",
+      "years": "2023-Present",
+      "achievements": "WNBA Rookie of the Year",
+      "knownFor": [
+        "Strong defensive skills"
+      ],
+      "awards": "WNBA All-Rookie Team",
+      "stats": "Averaged 12 points per game in rookie season",
+      "verified": true,
+      "source": "WNBA.com"
+    },
+    {
+      "name": "Grace Geyoro",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Division 1 Féminine",
+      "team": "Paris Saint-Germain",
+      "pastTeams": [],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "2016-Present",
+      "achievements": "French Cup Winner",
+      "knownFor": [
+        "Dynamic midfield play"
+      ],
+      "awards": "French Player of the Year",
+      "stats": "Scored 15 goals in 2022 season",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Grace McCallum",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "New York Giants",
+      "pastTeams": [
+        "Minnesota Vikings"
+      ],
+      "position": "Wide Receiver",
+      "jerseyNumber": "87",
+      "years": "2021-Present",
+      "achievements": "NFL Pro Bowl Selection",
+      "knownFor": [
+        "Exceptional catching ability"
+      ],
+      "awards": "NFL Rookie of the Year",
+      "stats": "1,200 receiving yards in 2022",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Grace and Frankie",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "Grace Hanson",
+      "characterDescription": "A retired cosmetics mogul navigating life after divorce.",
+      "imdbUrl": "https://www.imdb.com/title/tt3609352/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not what you have, it's what you do with what you have.",
+      "character": "Grace Hanson",
+      "source": "Grace and Frankie",
+      "year": 2015,
+      "context": "Grace reflects on the importance of action over material possessions.",
+      "genre": "Comedy",
+      "impact": "This quote is memorable for its emphasis on resourcefulness and character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 121,
+    "peak": 73,
+    "peakYear": 2013
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 1,
+    "breakdown": "grace"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:45:05.361Z"
+}

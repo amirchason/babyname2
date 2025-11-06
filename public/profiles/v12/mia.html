@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mia - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Mine - Italian origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Mia</h1>
+      <div class="meaning">"Mine"</div>
+      <div class="meta">
+        <div class="meta-item">Italian Origin</div>
+        <div class="meta-item">Female</div>
+        <div class="meta-item">Ranked #192</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by SoulSeed Writer</h3>
+      <p>Name Expert • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Mia</h3>
+            <div class="subtitle">Expert Analysis by SoulSeed Writer</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>There's something undeniably enchanting about the name Mia. It rolls off the tongue like a melody, simple yet profound, capturing the hearts of parents worldwide. Mia is a name that whispers elegance and warmth, much like the sound of a gentle breeze on a summer's day. It's a name that feels like a warm embrace, one that promises a lifetime of love and connection. </p><p>In an ever-evolving world of baby names, Mia stands out as timeless yet contemporary, offering a sense of familiarity with a touch of the exotic. It's a name that has traversed cultures and generations, always maintaining its charm and appeal. Whether you're drawn to its brevity, its melodic sound, or the affectionate meaning behind it, Mia has a special way of nestling into our hearts, inviting us to claim it as our own. "Mine," it declares, as if to say, "I belong to you."</p><p>The origin story of Mia is as captivating as the name itself. Rooted in the Italian language, where it literally means 'mine,' Mia echoes the language of love and possession, portraying an intimate bond between the namer and the named. But its tale doesn't end there. This charming name has also found a home in Scandinavian cultures, where its simplicity and grace resonate with the minimalistic beauty often celebrated in the north. </p><p>As Mia traveled through time and across continents, it evolved, acquiring layers of meaning and affection. Today, it stands as a beacon of warmth, a testament to the universal desire for connection, belonging, and love. Mia is not just a name; it's a declaration of devotion, a promise that speaks of close-knit bonds and cherished relationships.</p><p>Among the illustrious individuals who have carried the name Mia, actress Mia Farrow stands out with her ethereal beauty and substantial contributions to both film and humanitarian efforts. Her iconic roles and compassionate activism have inspired many, showcasing the strength and depth that the name Mia can embody.</p><p>Mia Hamm, a name synonymous with athletic excellence, redefined what it means to be a female athlete. As a soccer legend, she not only broke records but also paved the way for future generations of women in sports, proving that the name Mia can be synonymous with strength, determination, and leadership. </p><p>In the realm of cinema, there's Mia Wasikowska, whose eclectic choice of roles and nuanced performances have made her one of the most intriguing actresses of her generation. Each of these Mias, in their unique way, highlights the versatility and timeless appeal of the name, making it a choice filled with aspiration and inspiration.</p><p>The name Mia has graced popular culture with its presence in memorable ways, perhaps most famously in Meg Cabot's 'The Princess Diaries'. Here, Mia Thermopolis, an awkward teenager who discovers she's heir to a throne, captured the imaginations of readers and viewers alike. Her journey from an ordinary girl to a poised princess is a delightful tale of self-discovery and transformation, reflecting the charm and relatability of the name.</p><p>Mia's presence in pop culture extends beyond literature and film; it's a name that frequently appears in music, lending an air of romance and adventure to songs that celebrate life and love. Each cultural cameo reinforces the name's enduring appeal and its ability to evoke emotions and stories that resonate deeply.</p><p>People who bear the name Mia often exude a warmth and affection that mirrors the name's meaning. They are typically seen as approachable and friendly, with a natural ability to form deep, meaningful connections with those around them. Mias are often perceived as adaptable and versatile, much like the name itself, which has found a place in so many different cultures and contexts.</p><p>With a name so deeply tied to concepts of possession and belonging, Mias often have a strong sense of identity and a desire to create environments where others feel at home. Their personalities are often characterized by empathy, compassion, and a genuine interest in the well-being of others, making them cherished friends and loved ones.</p><p>Mia, with its elegant simplicity, doesn't lend itself to a plethora of variations, but it doesn't need to. Some may opt for 'Mimi,' a playful, sweet twist that adds a dash of whimsy to the name's classic charm. Then there's 'Miah,' which offers a slightly different spin with a touch more syllabic flow.</p><p>For those seeking a variation with a similar vibe but a slightly different flavor, 'Mila' or 'Mina' could be delightful alternatives. Each of these names carries its own unique grace while maintaining the essence of what makes Mia so special.</p><p>Currently ranked at #192, Mia's popularity speaks to its widespread appeal and timeless nature. Its ranking is a testament to a name that remains beloved across generations, steadily maintaining its place in the hearts of many. </p><p>The consistency of Mia's popularity also reflects its versatility; it fits seamlessly into diverse linguistic and cultural landscapes, appealing to parents who value both tradition and modernity. For those considering Mia, its stable ranking means it's well-known but not overly common, striking a perfect balance between familiarity and uniqueness.</p><p>When paired with other names, Mia shines with combinations that enhance its melodic simplicity. Consider 'Mia Grace,' a pairing that exudes elegance and poise. For a touch of modern flair, 'Mia Everly' offers a fresh, charming harmony.</p><p>When thinking of sibling names, 'Liam' or 'Noah' for brothers create a cohesive, contemporary family name set, while 'Ella' or 'Ava' mirror Mia's brevity and sweetness for sisters. Each of these options highlights the name's versatility, allowing it to fit beautifully into a variety of family dynamics and styles.</p><p>Mia's journey through cultures is a fascinating tale of migration and adaptation. Originally rooted in Italian, where it carries the intimate meaning of 'mine,' Mia has been warmly embraced by Scandinavian cultures, where its simplicity resonates with their aesthetic preferences. </p><p>Its global appeal was further cemented as it traveled through literature, media, and celebrity influence, gaining popularity in English-speaking countries and beyond. This cultural migration highlights Mia's ability to transcend boundaries, making it a truly international name that bridges diverse traditions and values.</p><p>Mia is a name that offers intimacy and elegance wrapped in simplicity. Its affectionate meaning and global resonance make it a strong choice for parents seeking a name with depth and charm. It's perfect for those who desire a name that feels personal yet is recognized and embraced across cultures. </p><p>However, for parents looking for something exceedingly rare or with a longer lineage of historical bearers, Mia might feel too contemporary. But for anyone drawn to a name that feels like a warm hug, timeless yet modern, Mia could very well be the one that captures your heart.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Mia is a name that has been widely used across various cultures, often associated with warmth and affection due to its meaning 'mine'. It has roots in Italian and Scandinavian cultures, and has been popularized globally through media and celebrity influence.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Mia Hamm</h4>
+        <div class="meta">1972-Present • Sports</div>
+        <p><strong>Significance:</strong> Mia Hamm is considered one of the greatest female soccer players of all time and has been a pioneer for women's sports.</p>
+        <ul><li>Two-time FIFA Women's World Cup champion</li><li>Two-time Olympic gold medalist</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Mia Farrow</h4>
+        <div class="meta">Actress</div>
+        <p><strong>Known for:</strong> Her roles in 'Rosemary's Baby' and 'The Great Gatsby'</p>
+        <p><strong>Awards:</strong> Golden Globe Award for New Star of the Year</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Mia Wasikowska</h4>
+        <div class="meta">Actress</div>
+        <p><strong>Known for:</strong> Her role as Alice in 'Alice in Wonderland'</p>
+        <p><strong>Awards:</strong> Australian Film Institute Award for Best Actress</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Mia Hamm</h4>
+        <div class="meta">European Soccer/Football • Retired</div>
+        <p><strong>Position:</strong> Forward</p>
+        <p><strong>Achievements:</strong> Two-time FIFA Women's World Cup champion, two-time Olympic gold medalist</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Mya</div><div class="tag">Maja</div><div class="tag">Miya</div><div class="tag">Miah</div><div class="tag">Mía</div><div class="tag">Miaa</div><div class="tag">Miao</div><div class="tag">Miaus</div><div class="tag">Miae</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Mimi</div><div class="tag">Mi</div><div class="tag">Mia</div><div class="tag">Miy</div><div class="tag">Miay</div><div class="tag">Mi-mi</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_mia_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_mia_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_mia_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_mia_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_mia_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_mia_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_mia_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_mia_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

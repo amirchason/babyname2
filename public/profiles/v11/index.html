@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Stories - Human Blog-Style Profiles | SoulSeed</title>
+
+  <meta name="description" content="Discover the stories behind baby names. Read warm, conversational blog posts about name meanings, origins, famous bearers, and more.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      font-size: 4em;
+      color: #7C3E94;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.5em;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-size: 0.9em;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    /* Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    /* Card */
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 50px rgba(124, 62, 148, 0.2);
+    }
+
+    .card:hover:before {
+      transform: scaleX(1);
+    }
+
+    .card-header {
+      margin-bottom: 20px;
+    }
+
+    .name {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #7C3E94;
+      margin-bottom: 5px;
+    }
+
+    .meaning {
+      font-size: 1.1em;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      font-size: 0.9em;
+    }
+
+    .meta-item {
+      color: #888;
+    }
+
+    .meta-item strong {
+      color: #7C3E94;
+      font-weight: 600;
+    }
+
+    .preview {
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .read-more {
+      color: #7C3E94;
+      font-weight: 600;
+      font-size: 0.95em;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .read-more:after {
+      content: '→';
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover .read-more:after {
+      transform: translateX(5px);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      padding-top: 40px;
+      border-top: 2px solid #F5EBFF;
+      color: #888;
+    }
+
+    footer a {
+      color: #7C3E94;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5em;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 30px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>✨ Name Stories</h1>
+      <p class="subtitle">Human Blog-Style Name Profiles</p>
+      <span class="badge">V11 • GPT-4o Enriched • Nameberry-Inspired</span>
+    </header>
+
+    <div class="grid" id="nameGrid">
+      <!-- Cards will be loaded dynamically -->
+    </div>
+
+    <footer>
+      <p>Enriched with GPT-4o • V11 Blog Format</p>
+      <p><a href="/">← Back to SoulSeed</a></p>
+    </footer>
+  </div>
+
+  <script>
+    // Name data (manually updated - eventually from API)
+    const names = [
+      {
+        name: 'Liam',
+        meaning: 'Strong-willed warrior',
+        origin: 'Irish',
+        gender: 'Male',
+        ranking: 431,
+        preview: "There's something undeniably captivating about the name Liam. Short, strong, and sweet, it rolls off the tongue with an effortless charm. Perhaps it's the way it blends simplicity with a sense of timeless strength..."
+      },
+      {
+        name: 'Amelia',
+        meaning: 'Work',
+        origin: 'Germanic',
+        gender: 'Female',
+        ranking: 892,
+        preview: "There's something undeniably charming about the name Amelia that has captured hearts across generations. Perhaps it's the soft, melodious sound that feels like a whisper of elegance in the air..."
+      },
+      {
+        name: 'Benson',
+        meaning: 'Son of Ben',
+        origin: 'English',
+        gender: 'Male',
+        ranking: 1094,
+        preview: "There's something undeniably charming about the name Benson. Perhaps it's the rhythmic cadence of the two syllables or the way it feels both classic and contemporary at once..."
+      },
+      {
+        name: 'Charlotte',
+        meaning: 'Free woman',
+        origin: 'French',
+        gender: 'Female',
+        ranking: 2108,
+        preview: "There's something undeniably charming about the name Charlotte. It dances off the tongue with a grace that's both timeless and modern, much like a classic novel that keeps finding new readers..."
+      },
+      {
+        name: 'Emma',
+        meaning: 'Universal',
+        origin: 'Germanic',
+        gender: 'Female',
+        ranking: 2520,
+        preview: "There's something truly special about the name Emma. Maybe it's the simplicity that makes it feel like a warm hug, or perhaps it's the timeless elegance that has charmed parents for generations..."
+      },
+      {
+        name: 'George',
+        meaning: 'Farmer',
+        origin: 'Greek',
+        gender: 'Male',
+        ranking: 5038,
+        preview: "There's a quiet strength in the name George that has stood the test of time. It's a name that has graced kings and farmers, saints and statesmen, weaving itself into the fabric of history..."
+      },
+      {
+        name: 'Georgia',
+        meaning: 'Farmer',
+        origin: 'Greek',
+        gender: 'Female',
+        ranking: 5048,
+        preview: "There's something wonderfully timeless about the name Georgia. It carries with it a gentle Southern charm mixed with classic elegance, like a front porch swing on a summer evening..."
+      },
+      {
+        name: 'James',
+        meaning: 'Supplanter',
+        origin: 'Hebrew',
+        gender: 'Male',
+        ranking: 6220,
+        preview: "There's a timeless quality to the name James that transcends trends and generations. Strong yet approachable, classic yet contemporary, it's a name that has graced countless leaders, artists, and everyday heroes..."
+      },
+      {
+        name: 'Mia',
+        meaning: 'Mine',
+        origin: 'Italian',
+        gender: 'Female',
+        ranking: 8630,
+        preview: "There's something irresistibly sweet about the name Mia. Perhaps it's the way those three letters create such a melodious sound, or maybe it's the warmth and intimacy the name conveys..."
+      },
+      {
+        name: 'Noah',
+        meaning: 'Rest, comfort',
+        origin: 'Hebrew',
+        gender: 'Male',
+        ranking: 9110,
+        preview: "There's a serene strength in the name Noah that has captivated parents for generations. Biblical in origin yet thoroughly modern in appeal, it's a name that bridges ancient wisdom with contemporary charm..."
+      },
+      {
+        name: 'Oliver',
+        meaning: 'Olive tree',
+        origin: 'Latin',
+        gender: 'Male',
+        ranking: 10080,
+        preview: "There's a gentle charm to the name Oliver that feels both vintage and fresh. It brings to mind olive groves in the Mediterranean sun, literary heroes, and a kind-hearted spirit..."
+      },
+      {
+        name: 'Olivia',
+        meaning: 'Olive tree',
+        origin: 'Latin',
+        gender: 'Female',
+        ranking: 10090,
+        preview: "There's an undeniable grace to the name Olivia. It flows like poetry, with each syllable adding to its elegant beauty. Perhaps it's the literary heritage or the timeless sophistication..."
+      },
+      {
+        name: 'Theodore',
+        meaning: 'Gift of God',
+        origin: 'Greek',
+        gender: 'Male',
+        ranking: 14110,
+        preview: "There's a distinguished charm to the name Theodore that feels both scholarly and approachable. It's a name steeped in history yet perfectly suited for a modern child..."
+      }
+    ];
+
+    // Generate cards
+    const grid = document.getElementById('nameGrid');
+    names.forEach(name => {
+      const card = document.createElement('a');
+      card.href = `${name.name.toLowerCase()}.html`;
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="card-header">
+          <div class="name">${name.name}</div>
+          <div class="meaning">"${name.meaning}"</div>
+          <div class="meta">
+            <span class="meta-item"><strong>${name.origin}</strong> origin</span>
+            <span class="meta-item">•</span>
+            <span class="meta-item"><strong>${name.gender}</strong></span>
+            ${name.ranking ? `<span class="meta-item">•</span><span class="meta-item">#<strong>${name.ranking}</strong></span>` : ''}
+          </div>
+        </div>
+        <div class="preview">${name.preview}</div>
+        <div class="read-more">Read the full story</div>
+      `;
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

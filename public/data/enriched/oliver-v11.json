@@ -1,0 +1,486 @@
+{
+  "name": "Oliver",
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Olive tree",
+  "culturalSignificance": "The name Oliver has roots in the Latin word 'olivarius,' meaning olive tree, which is a symbol of peace and fruitfulness. It gained popularity in medieval Europe, partly due to the character Oliver in the epic poem 'The Song of Roland,' where he is depicted as a wise and noble knight.",
+  "modernContext": "Oliver is a popular name in many English-speaking countries, consistently ranking in the top 10 baby names in the UK, Australia, and the US. Its classic charm and timeless appeal make it a favorite among parents.",
+  "literaryReferences": "Oliver Twist, the titular character in Charles Dickens' novel, is one of the most famous literary references, representing innocence and resilience in the face of adversity.",
+  "pronunciationGuide": "ˈɒlɪvər",
+  "variations": [
+    "Olivier (French)",
+    "Óliver (Spanish)",
+    "Oliviero (Italian)",
+    "Olavi (Finnish)",
+    "Ollivander (Fictional)",
+    "Olivera",
+    "Olivero",
+    "Oliverus",
+    "Olivere"
+  ],
+  "similarNames": [
+    "Oscar",
+    "Elliot",
+    "Henry",
+    "Leo",
+    "Jack"
+  ],
+  "nicknames": [
+    "Ollie",
+    "Olly",
+    "Liv",
+    "Oli",
+    "O",
+    "Ol",
+    "Oliv",
+    "Oly",
+    "Oliy"
+  ],
+  "personality": "People named Oliver are often perceived as intelligent, charismatic, and dependable. They are seen as natural leaders with a strong sense of justice.",
+  "symbolism": "The olive tree symbolizes peace, wisdom, and prosperity, which are qualities often associated with the name Oliver.",
+  "funFact": "The name Oliver saw a resurgence in popularity after the release of the Harry Potter series, where the character Oliver Wood is a prominent Quidditch player.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Oliver Cromwell",
+      "years": "1599-1658",
+      "category": "Political Leaders",
+      "achievements": [
+        "Leader of the Commonwealth of England",
+        "Key figure in the English Civil War"
+      ],
+      "significance": "Oliver Cromwell was a pivotal figure in British history, known for his role in overthrowing the monarchy and establishing a republican government.",
+      "notableWorks": [
+        "Instrument of Government"
+      ]
+    },
+    {
+      "fullName": "Oliver Wendell Holmes Sr.",
+      "years": "1809-1894",
+      "category": "Literature",
+      "achievements": [
+        "Renowned poet and physician",
+        "Co-founder of The Atlantic Monthly"
+      ],
+      "significance": "Holmes was a prominent American physician and writer, known for his wit and contributions to medical literature.",
+      "notableWorks": [
+        "The Autocrat of the Breakfast-Table"
+      ]
+    },
+    {
+      "fullName": "Oliver Heaviside",
+      "years": "1850-1925",
+      "category": "Scientists",
+      "achievements": [
+        "Developed the Heaviside step function",
+        "Contributed to the development of electrical engineering"
+      ],
+      "significance": "Heaviside was an influential English engineer and mathematician who made significant contributions to the field of electromagnetism.",
+      "notableWorks": [
+        "Electromagnetic Theory"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The great thing in this world is not so much where you stand, as in what direction you are moving.",
+      "author": "Oliver Wendell Holmes Sr.",
+      "context": "This quote reflects Holmes' belief in progress and forward momentum in life.",
+      "year": 1858,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Oliver Stone",
+      "profession": "Film Director",
+      "knownFor": [
+        "Directing films like 'Platoon', 'JFK', and 'Wall Street'"
+      ],
+      "awards": "Academy Awards for Best Director"
+    },
+    {
+      "name": "Oliver Sacks",
+      "profession": "Neurologist and Author",
+      "knownFor": [
+        "Books like 'Awakenings' and 'The Man Who Mistook His Wife for a Hat'"
+      ],
+      "awards": "Lewis Thomas Prize"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Oliver Miller",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Phoenix Suns",
+        "Detroit Pistons",
+        "Toronto Raptors"
+      ],
+      "position": "Center",
+      "jerseyNumber": "30",
+      "years": "1992-2004",
+      "achievements": "Known for his size and defensive skills",
+      "knownFor": [
+        "Strong defensive plays"
+      ],
+      "awards": "",
+      "stats": "Averaged 7.4 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Oliver Giroud",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "AC Milan",
+      "pastTeams": [
+        "Arsenal",
+        "Chelsea",
+        "Montpellier"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2005-Present",
+      "achievements": "FIFA World Cup winner 2018",
+      "knownFor": [
+        "Aerial ability and goal scoring"
+      ],
+      "awards": "FIFA Puskás Award",
+      "stats": "Over 100 Premier League goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Ed Oliver",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Buffalo Bills",
+      "pastTeams": [],
+      "position": "Defensive Tackle",
+      "jerseyNumber": "91",
+      "years": "2019-Present",
+      "achievements": "First-round draft pick",
+      "knownFor": [
+        "Strong defensive presence"
+      ],
+      "awards": "",
+      "stats": "Over 100 tackles",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Oliver Pérez",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "San Diego Padres",
+        "New York Mets",
+        "Cleveland Indians"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "46",
+      "years": "2002-2022",
+      "achievements": "Known for his longevity and left-handed pitching",
+      "knownFor": [
+        "Effective relief pitching"
+      ],
+      "awards": "",
+      "stats": "Over 1,500 strikeouts",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Oliver Ekman-Larsson",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Florida Panthers",
+      "pastTeams": [
+        "Arizona Coyotes",
+        "Vancouver Canucks"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "23",
+      "years": "2010-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Strong defensive skills and leadership"
+      ],
+      "awards": "",
+      "stats": "Over 400 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Oliver Twist",
+      "year": 2005,
+      "type": "Movie",
+      "characterName": "Oliver Twist",
+      "characterDescription": "An orphan boy who navigates the challenges of life in 19th-century London.",
+      "imdbUrl": "https://www.imdb.com/title/tt0380599/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Please, sir, I want some more.",
+      "character": "Oliver Twist",
+      "source": "Oliver Twist",
+      "year": 2005,
+      "context": "Oliver asks for more food at the workhouse, highlighting his desperation and innocence.",
+      "genre": "Drama",
+      "impact": "This quote has become iconic, symbolizing the plight of the underprivileged."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 9,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 448,
+    "peak": 109,
+    "peakYear": 2000
+  },
+  "enrichmentVersion": "v11",
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to get rid of a temptation is to yield to it.",
+    "author": "Oscar Wilde",
+    "context": "Oscar Wilde was a famous Irish poet and playwright known for his wit and flamboyant style"
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ol-i-ver"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Oliver",
+      "script": "Latin",
+      "scriptName": "Oliver",
+      "pronunciation": "/oliˈβeɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Olíveros",
+      "script": "Greek",
+      "scriptName": "Ολίβερος",
+      "pronunciation": "/oˈli.ve.ros/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "Oliver",
+      "script": "Arabic",
+      "scriptName": "أوليفر",
+      "pronunciation": "/ʔo.liː.ver/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "Aolifu",
+      "script": "Han",
+      "scriptName": "奥利弗",
+      "pronunciation": "/aʊ̯˥˩ li˥˩ fə˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Oliver",
+      "script": "Cyrillic",
+      "scriptName": "Оливер",
+      "pronunciation": "/ˈolʲɪvʲɪr/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "Oliver",
+      "script": "Hebrew",
+      "scriptName": "אוליבר",
+      "pronunciation": "/oˈli.ver/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Oliver Twist",
+      "author": "Charles Dickens",
+      "publishedYear": 1838,
+      "genre": "Fiction",
+      "significance": "A classic novel that critiques social injustices and the plight of the poor in 19th-century England",
+      "nameRole": "protagonist",
+      "verified": true
+    },
+    {
+      "title": "Oliver's Story",
+      "author": "Erich Segal",
+      "publishedYear": 1977,
+      "genre": "Fiction",
+      "significance": "A sequel to 'Love Story', exploring themes of love and loss",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "parentName": "Seth Meyers",
+      "parentProfession": "Comedian/TV Host",
+      "childName": "Oliver Patrick Meyers",
+      "birthYear": 2018,
+      "context": "Seth Meyers is known for hosting 'Late Night with Seth Meyers' and his work on 'Saturday Night Live'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "James Van Der Beek",
+      "parentProfession": "Actor",
+      "childName": "Oliver Van Der Beek",
+      "birthYear": 2021,
+      "context": "James Van Der Beek is best known for his role as Dawson Leery on the TV series 'Dawson's Creek'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Brendan Fehr",
+      "parentProfession": "Actor",
+      "childName": "Oliver Fehr",
+      "birthYear": 2013,
+      "context": "Brendan Fehr is known for his role as Michael Guerin in the TV series 'Roswell'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Oliver is a prominent character in Charles Dickens' 'Oliver Twist'"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Oliver has consistently been a popular name across generations"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.75,
+      "reason": "The name has strong roots and popularity in Europe"
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.75,
+      "reason": "Oliver is derived from the Latin word for olive tree"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-02T12:19:05.717Z",
+  "v8EnrichedAt": "2025-11-02T12:19:08.593Z",
+  "songs": [
+    {
+      "title": "Oliver's Army",
+      "artist": "Elvis Costello & The Attractions",
+      "year": 1979,
+      "genre": "New Wave",
+      "nameContext": "Features \"Oliver\" in the song",
+      "description": "This upbeat track combines catchy melodies with a commentary on social issues. Despite its serious undertones, the song's energetic rhythm and clever wordplay make it a classic in Costello's discography.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Oliver's%20Army%20played%20by%20Elvis%20Costello%20%26%20The%20Attractions",
+      "geniusUrl": "https://genius.com/search?q=Oliver's%20Army%20Elvis%20Costello%20%26%20The%20Attractions",
+      "verified": true
+    },
+    {
+      "title": "Oliver James",
+      "artist": "Fleet Foxes",
+      "year": 2008,
+      "genre": "Folk",
+      "nameContext": "Features \"Oliver\" in the song",
+      "description": "A gentle and introspective song that captures the essence of nature and personal reflection. The soothing acoustic arrangement and harmonious vocals create a peaceful and uplifting atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Oliver%20James%20played%20by%20Fleet%20Foxes",
+      "geniusUrl": "https://genius.com/search?q=Oliver%20James%20Fleet%20Foxes",
+      "verified": true
+    },
+    {
+      "title": "Oliver Twist",
+      "artist": "D'banj",
+      "year": 2012,
+      "genre": "Afrobeats",
+      "nameContext": "Features \"Oliver\" in the song",
+      "description": "A lively and infectious tune that celebrates ambition and desire. With its vibrant beats and catchy hooks, the song became a dance floor favorite, showcasing D'banj's charismatic style.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Oliver%20Twist%20played%20by%20D'banj",
+      "geniusUrl": "https://genius.com/search?q=Oliver%20Twist%20D'banj",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-02T12:19:12.943Z",
+  "songsEnrichedAt": "2025-11-02T12:19:12.943Z",
+  "v11BlogContent": {
+    "opening_hook": "There's something undeniably charming about the name Oliver, like a soft melody that lingers in your mind long after it’s been played. Perhaps it’s the way the name rolls off the tongue, evoking images of lush olive groves swaying gently in the sun, or maybe it’s the timeless appeal that makes Oliver feel warm, friendly, and familiar. When you hear the name Oliver, it’s easy to imagine a boy with a twinkle of curiosity in his eyes, ready to explore the world with an open heart and a gentle determination. \n\nOliver captures hearts because it strikes a harmonious balance between historical depth and modern flair. It embodies a sense of tranquility and wisdom, yet feels fresh and lively — like a name that can grow with your child from the playful days of childhood into the poised presence of adulthood. Choosing Oliver is like embracing a piece of history while carving out a new chapter, full of stories yet to be told. For parents seeking a name with a story and a spirit, Oliver is a truly special choice.",
+    "etymology_meaning": "The name Oliver traces its roots back to the Latin word 'olivarius,' which translates to 'olive tree.' The olive tree itself is a powerful symbol, representing peace, fruitfulness, and longevity. From ancient times, the olive branch has been a token of peace and victory, and by association, the name Oliver carries these gentle yet strong connotations. \n\nOver the centuries, Oliver has journeyed through various cultures and languages, retaining its core meaning while adapting to new contexts. In medieval Europe, the name found popularity thanks to its association with nobility and wisdom, particularly through the legendary character of Oliver in 'The Song of Roland.' Today, Oliver remains a name steeped in history, yet it has managed to evolve seamlessly into a contemporary favorite, its meaning resonating with those who value harmony and enduring strength.",
+    "famous_bearers": "Among the notable Olivers who have left their mark on the world, one cannot overlook the visionary director Oliver Stone. Known for his provocative films like 'Platoon' and 'Born on the Fourth of July,' Stone has captivated audiences with his ability to weave compelling narratives that challenge societal norms and provoke thought. His work is a testament to the power of storytelling, much like the name Oliver itself.\n\nOn a different note, Oliver Sacks, the renowned neurologist and author, brought the complexities of the human mind to the forefront of public consciousness. Through his books, such as 'The Man Who Mistook His Wife for a Hat,' Sacks expertly combined scientific insight with human empathy, offering readers a window into the fascinating world of neurology while celebrating the intricacies of the human experience. \n\nIn the realm of sports, the name Oliver has been carried by notable athletes such as Oliver Giroud, the skilled French footballer whose striking talent has been celebrated on pitches across the globe. His dedication and sportsmanship embody the strength and persistence often associated with the name, making Oliver a fitting name for those destined to make their mark on the world stage.",
+    "pop_culture_moments": "Oliver has also found its place in the world of pop culture, notably through the beloved character Oliver Twist from Charles Dickens' iconic novel. This tale of a young orphan navigating the challenges of Victorian London has captured the hearts of readers for generations, with Oliver's story of resilience and hope serving as a powerful reminder of the indomitable spirit of youth.\n\nThe name has graced the small and big screens as well, with characters in popular TV shows and films that bring the name Oliver to life in myriad ways. Whether it's the lovable Oliver Oken from 'Hannah Montana' or the adventurous young Oliver Queen from 'Arrow,' these characters add depth and dimension to the name, showcasing its versatility and enduring appeal. \n\nIn music, the name Oliver resonates with lyrical charm, appearing in songs that evoke a sense of nostalgia and warmth. Each appearance in pop culture adds yet another layer to the rich tapestry of stories that the name Oliver weaves, making it an appealing choice for parents who appreciate a name with a strong narrative presence.",
+    "personality_profile": "The name Oliver often conjures images of someone wise beyond their years, possessing a thoughtful and introspective nature. People with this name are often seen as calm and collected, exuding a quiet confidence that draws others to them. There's a certain depth to Olivers, a sense of understanding and empathy that makes them natural peacemakers and thoughtful friends.\n\nAt the same time, Olivers are known for their curiosity and adventurous spirit. They approach life with a sense of wonder and a desire to learn, making them lifelong explorers of both the world around them and the realms of thought and imagination. This combination of wisdom and curiosity makes Oliver a name suited for those who are destined to leave a meaningful impact on the world.\n\nIn essence, Oliver embodies a balance of intellect and emotion, making it a name that resonates with parents who hope their child will grow to be both thoughtful and adventurous.",
+    "variations_nicknames": "One of the joys of choosing the name Oliver is the array of delightful variations and nicknames that come with it. Popular nicknames include Ollie, which lends a playful and friendly vibe to the name, perfect for a lively little one. For those who prefer something a bit more refined, the nickname Olly offers a softer, more sophisticated alternative. \n\nVariations of the name can also be found in different cultures, such as Olivier in French-speaking regions, adding a touch of global flair to the name. Whether you stick with the classic Oliver or opt for one of its charming variations, each option brings its own unique charm and personality, allowing the name to suit a wide range of personal tastes and family traditions.",
+    "popularity_data": "Currently, Oliver holds a comfortable position in the naming charts, ranking at #448. It’s a name that has steadily maintained its appeal over the years, consistently favored by parents for its classic sound and timeless elegance. Despite its historical roots, Oliver feels refreshingly modern, making it a popular choice for parents seeking a name that bridges the past and present.\n\nThe enduring popularity of Oliver can be attributed to its versatile nature, fitting seamlessly into both traditional and contemporary settings. Its rise in popularity reflects a broader trend of parents gravitating towards names that offer both a strong narrative heritage and an adaptable charm. For those considering Oliver, its stable ranking suggests a name that is well-loved and unlikely to fade from favor anytime soon.",
+    "pairing_suggestions": "When it comes to pairing Oliver with a middle name, the possibilities are as varied as they are delightful. Consider classic pairings like Oliver James or Oliver Henry, where the timeless quality of the middle name complements the elegance of Oliver. For parents seeking something a bit more unique, Oliver Jude or Oliver Finn offer a modern twist with a hint of whimsy.\n\nIn terms of sibling names, Oliver pairs beautifully with names like Charlotte or Amelia for sisters, and Henry or Samuel for brothers. These names share a vintage charm and a sense of sophistication, creating a harmonious and cohesive sibling set. Whether you’re aiming for classic or contemporary, Oliver is a versatile choice that can beautifully accompany a wide range of names.",
+    "cultural_context": "Oliver's journey through cultures and history is a tale of adaptation and resilience. Originating from the Latin 'olivarius,' the name traveled through medieval Europe, gaining popularity in regions like France and England. Its association with the olive tree, a universal symbol of peace, helped it take root in various cultures, each imbuing the name with their unique nuances.\n\nIn literature, Oliver has often been depicted as a character of integrity and virtue, further cementing its reputation as a name associated with nobility and wisdom. As migration patterns spread the name across continents, Oliver's appeal transcended linguistic barriers, becoming a favorite in English-speaking countries and beyond.\n\nToday, Oliver continues to be embraced by parents from diverse backgrounds, a testament to its universal appeal and timeless charm. It’s a name that reflects a rich tapestry of cultural influences, making it a truly global choice for families seeking a name with depth and heritage.",
+    "final_recommendation": "In the end, choosing the name Oliver is like inviting a piece of history into your family, wrapped in a modern package that feels both familiar and fresh. Its charming sound, meaningful roots, and cultural significance make it a name with both heart and soul. For parents who value tradition while embracing the new, Oliver offers a perfect balance.\n\nHowever, if you're looking for something that stands out dramatically from the crowd, you may want to consider how popular Oliver has become, as it is a beloved choice for many. Yet, for those who appreciate a name that has stood the test of time and continues to shine brightly, Oliver might just be the ideal choice.\n\nUltimately, Oliver is a name that carries with it a sense of peace and promise, perfect for a child who will grow up to navigate the world with wisdom and grace. If these qualities resonate with your hopes and dreams for your little one, then Oliver could indeed be 'the one' for you."
+  },
+  "v11EnrichedAt": "2025-11-02T12:55:57.846Z",
+  "v11Model": "gpt-4o",
+  "v11TokensUsed": 2712
+}

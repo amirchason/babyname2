@@ -1,0 +1,320 @@
+{
+  "name": "joshua",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is salvation",
+  "culturalSignificance": "The name Joshua has deep roots in Jewish history, being the name of a key biblical figure who led the Israelites into the Promised Land after Moses. It symbolizes leadership, faith, and divine guidance.",
+  "modernContext": "Joshua remains a popular name in many English-speaking countries, often ranking in the top 100 names for boys. Its timeless appeal is due to its strong historical roots and pleasant sound.",
+  "literaryReferences": "Joshua is a central figure in the Hebrew Bible, specifically in the Book of Joshua, where he is depicted as a leader and warrior.",
+  "pronunciationGuide": "/ˈdʒɒʃuə/",
+  "variations": [
+    "Yehoshua",
+    "Josue",
+    "Jesús",
+    "Giosuè",
+    "Josua",
+    "Jozua",
+    "Jozef",
+    "Josef",
+    "Iosif"
+  ],
+  "similarNames": [
+    "Joseph",
+    "Jonah",
+    "Jacob",
+    "Josiah",
+    "Jonathan",
+    "James",
+    "Julian",
+    "Jasper",
+    "Jordan"
+  ],
+  "nicknames": [
+    "Josh",
+    "Joey",
+    "Jay",
+    "Joss",
+    "J",
+    "Shua",
+    "Joshi",
+    "Jo",
+    "Josha"
+  ],
+  "personality": "People named Joshua are often seen as strong leaders, compassionate, and reliable. They are perceived as trustworthy and are often looked up to by peers.",
+  "symbolism": "The name Joshua symbolizes salvation, leadership, and faithfulness, reflecting its biblical origins.",
+  "funFact": "Joshua was the sixth most popular name for boys in the United States in the 1990s.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Joshua",
+    "significance": "Joshua is a prominent figure in the Bible, known for leading the Israelites into the Promised Land and succeeding Moses as their leader.",
+    "keyStories": [
+      "The Battle of Jericho",
+      "Crossing the Jordan River"
+    ],
+    "spiritualMeaning": "Joshua represents faith in divine promises and the courage to lead and conquer challenges.",
+    "historicalImpact": "Joshua's leadership and faith are celebrated in religious teachings, emphasizing the importance of trust in divine guidance."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Joshua Chamberlain",
+      "years": "1828-1914",
+      "category": "Military Leaders",
+      "achievements": [
+        "Led the 20th Maine at the Battle of Gettysburg",
+        "Governor of Maine"
+      ],
+      "significance": "Chamberlain is remembered for his leadership during the American Civil War and his role in the Union victory at Gettysburg.",
+      "notableWorks": [
+        "The Passing of the Armies"
+      ]
+    },
+    {
+      "fullName": "Joshua Reynolds",
+      "years": "1723-1792",
+      "category": "Artists",
+      "achievements": [
+        "First President of the Royal Academy of Arts",
+        "Influential portrait painter"
+      ],
+      "significance": "Reynolds was a leading English portraitist of the 18th century, known for his grand style and influence on British art.",
+      "notableWorks": [
+        "Portrait of Samuel Johnson",
+        "The Age of Innocence"
+      ]
+    },
+    {
+      "fullName": "Joshua Lederberg",
+      "years": "1925-2008",
+      "category": "Scientists",
+      "achievements": [
+        "Nobel Prize in Physiology or Medicine 1958",
+        "Pioneering work in bacterial genetics"
+      ],
+      "significance": "Lederberg's research in genetics and microbiology significantly advanced the understanding of genetic recombination.",
+      "notableWorks": [
+        "Studies on bacterial conjugation"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The greatest discovery of my generation is that a human being can alter his life by altering his attitudes.",
+      "author": "Joshua Lederberg",
+      "context": "Reflecting on the power of mindset and personal change.",
+      "year": 1958,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Joshua Bell",
+      "profession": "Violinist",
+      "knownFor": [
+        "Renowned classical violinist",
+        "Grammy Award winner"
+      ],
+      "awards": "Grammy Award for Best Instrumental Soloist Performance"
+    },
+    {
+      "name": "Joshua Jackson",
+      "profession": "Actor",
+      "knownFor": [
+        "Dawson's Creek",
+        "Fringe"
+      ],
+      "awards": "Satellite Award for Best Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Josh Smith",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "Houston Rockets"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "5",
+      "years": "2004-2017",
+      "achievements": "NBA All-Defensive Second Team",
+      "knownFor": [
+        "Athleticism and defensive skills"
+      ],
+      "awards": "NBA Slam Dunk Contest Champion",
+      "stats": "13,963 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Bundesliga",
+      "team": "Bayern Munich",
+      "pastTeams": [
+        "RB Leipzig"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "6",
+      "years": "2015-Present",
+      "achievements": "UEFA Champions League winner",
+      "knownFor": [
+        "Versatility and tactical intelligence"
+      ],
+      "awards": "UEFA Team of the Year",
+      "stats": "Over 50 international caps for Germany",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Josh Allen",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Buffalo Bills",
+      "pastTeams": [],
+      "position": "Quarterback",
+      "jerseyNumber": "17",
+      "years": "2018-Present",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Strong arm and mobility"
+      ],
+      "awards": "AFC Offensive Player of the Week",
+      "stats": "Over 100 passing touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Josh Donaldson",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "New York Yankees",
+      "pastTeams": [
+        "Oakland Athletics",
+        "Toronto Blue Jays",
+        "Cleveland Indians",
+        "Minnesota Twins"
+      ],
+      "position": "Third Baseman",
+      "jerseyNumber": "28",
+      "years": "2010-Present",
+      "achievements": "AL MVP 2015",
+      "knownFor": [
+        "Power hitting and defensive skills"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "Over 250 career home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Josh Morrissey",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Winnipeg Jets",
+      "pastTeams": [],
+      "position": "Defenseman",
+      "jerseyNumber": "44",
+      "years": "2015-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Defensive play and leadership"
+      ],
+      "awards": "NHL All-Rookie Team",
+      "stats": "Over 200 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "WarGames",
+      "year": 1983,
+      "type": "Movie",
+      "characterName": "Joshua",
+      "characterDescription": "An artificial intelligence system that controls nuclear weapons.",
+      "imdbUrl": "https://www.imdb.com/title/tt0086567/",
+      "genre": "Thriller",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Shall we play a game?",
+      "character": "Joshua",
+      "source": "WarGames",
+      "year": 1983,
+      "context": "Joshua, the AI, asks this question to initiate a simulation that nearly leads to nuclear war.",
+      "genre": "Thriller",
+      "impact": "This quote is iconic for its chilling simplicity and the film's exploration of AI and nuclear threat."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 441,
+    "peak": 222,
+    "peakYear": 2012
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "jos-hua"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:57:31.349Z"
+}

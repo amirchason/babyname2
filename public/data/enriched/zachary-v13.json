@@ -1,0 +1,326 @@
+{
+  "name": "zachary",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:54:06.053Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "The Lord remembers",
+  "culturalSignificance": "Zachary is a name of Hebrew origin, derived from the Hebrew name Zechariah, which means 'The Lord remembers.' It has been a popular name in various cultures, particularly in Jewish and Christian traditions, due to its biblical roots.",
+  "modernContext": "Zachary remains a popular name in English-speaking countries, often ranking in the top 100 names for boys. It is favored for its classic sound and strong historical and religious associations.",
+  "literaryReferences": "The name Zachary appears in various literary works, often as a character with strong moral or spiritual qualities, reflecting its biblical origins.",
+  "pronunciationGuide": "/ˈzækəri/",
+  "variations": [
+    "Zechariah",
+    "Zacharias",
+    "Zackary",
+    "Zachery",
+    "Zakariya",
+    "Zacharie",
+    "Zach",
+    "Zac",
+    "Zack"
+  ],
+  "similarNames": [
+    "Nathaniel",
+    "Gabriel",
+    "Elijah",
+    "Isaiah",
+    "Samuel",
+    "Benjamin",
+    "Joshua",
+    "Caleb",
+    "Ezekiel"
+  ],
+  "nicknames": [
+    "Zach",
+    "Zac",
+    "Zack",
+    "Zeke",
+    "Zak",
+    "Zachy",
+    "Zachie",
+    "Zee",
+    "Z"
+  ],
+  "personality": "Individuals named Zachary are often perceived as reliable, thoughtful, and strong-willed. They are seen as leaders who are compassionate and have a strong sense of justice.",
+  "symbolism": "The name Zachary symbolizes remembrance and faithfulness, reflecting its meaning 'The Lord remembers.' It is often associated with wisdom and spiritual insight.",
+  "funFact": "Zachary was a popular name among early American settlers and has been borne by several notable figures in U.S. history, including President Zachary Taylor.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Zechariah",
+    "significance": "Zechariah is a prophet in the Old Testament who is known for his visions and prophecies about the future of Israel.",
+    "keyStories": [
+      "The prophecy of the coming of the Messiah",
+      "The rebuilding of the Temple"
+    ],
+    "spiritualMeaning": "The name signifies God's remembrance and faithfulness to His promises.",
+    "historicalImpact": "Zechariah's prophecies have had a lasting impact on both Jewish and Christian eschatological beliefs."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Zachary Taylor",
+      "years": "1784-1850",
+      "category": "Political Leaders",
+      "achievements": [
+        "12th President of the United States",
+        "Major General in the U.S. Army"
+      ],
+      "significance": "Zachary Taylor was a national hero for his leadership in the Mexican-American War and served as the 12th President of the United States.",
+      "notableWorks": [
+        "Led U.S. forces to victory in several key battles during the Mexican-American War"
+      ]
+    },
+    {
+      "fullName": "Zacharias Janssen",
+      "years": "1585-1632",
+      "category": "Scientists",
+      "achievements": [
+        "Inventor of the compound microscope"
+      ],
+      "significance": "Zacharias Janssen is credited with inventing the compound microscope, which revolutionized the field of biology and medicine.",
+      "notableWorks": [
+        "Development of the first compound microscope"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Zachary Levi",
+      "profession": "Actor",
+      "knownFor": [
+        "Starring in the TV series 'Chuck'",
+        "Playing the title role in 'Shazam!'"
+      ],
+      "awards": "Nominated for several Teen Choice Awards"
+    },
+    {
+      "name": "Zach Galifianakis",
+      "profession": "Comedian/Actor",
+      "knownFor": [
+        "Roles in 'The Hangover' series",
+        "Host of 'Between Two Ferns'"
+      ],
+      "awards": "Primetime Emmy Award for Outstanding Short-Format Live-Action Entertainment Program"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Zach LaVine",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Chicago Bulls",
+      "pastTeams": [
+        "Minnesota Timberwolves"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "8",
+      "years": "2014-Present",
+      "achievements": "NBA Slam Dunk Contest Champion",
+      "knownFor": [
+        "High-flying dunks",
+        "Scoring ability"
+      ],
+      "awards": "NBA All-Star",
+      "stats": "Averaged over 20 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Zach Ertz",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Arizona Cardinals",
+      "pastTeams": [
+        "Philadelphia Eagles"
+      ],
+      "position": "Tight End",
+      "jerseyNumber": "86",
+      "years": "2013-Present",
+      "achievements": "Super Bowl LII Champion",
+      "knownFor": [
+        "Reliable receiving",
+        "Key Super Bowl plays"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "Over 600 receptions",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Zach Parise",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "New York Islanders",
+      "pastTeams": [
+        "New Jersey Devils",
+        "Minnesota Wild"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "11",
+      "years": "2005-Present",
+      "achievements": "Olympic Silver Medalist",
+      "knownFor": [
+        "Leadership",
+        "Scoring ability"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 400 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Chuck",
+      "year": 2007,
+      "type": "TV Show",
+      "characterName": "Chuck Bartowski",
+      "characterDescription": "A computer geek who becomes a spy after downloading government secrets into his brain.",
+      "imdbUrl": "https://www.imdb.com/title/tt0934814/",
+      "genre": "Action, Comedy, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm not a hero. I'm just a guy who got caught up in the wrong place at the wrong time.",
+      "character": "Chuck Bartowski",
+      "source": "Chuck",
+      "year": 2007,
+      "context": "Chuck reflects on his unexpected role as a spy.",
+      "genre": "Action, Comedy, Drama",
+      "impact": "This quote captures Chuck's humility and the show's theme of an ordinary person thrust into extraordinary circumstances."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 1,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 123,
+    "peak": 79,
+    "peakYear": 2009
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 3,
+    "breakdown": "zachary"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Elton John",
+      "parentProfession": "Musician",
+      "childName": "Zachary Jackson Levon Furnish-John",
+      "birthYear": 2010,
+      "context": "Elton John is a legendary British musician known for hits like 'Rocket Man' and 'Your Song'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:53:21.031Z",
+  "v8EnrichedAt": "2025-11-03T22:53:23.377Z",
+  "songs": [
+    {
+      "title": "Zachary",
+      "artist": "The Innocence Mission",
+      "year": 2018,
+      "genre": "Indie Folk",
+      "nameContext": "Features \"zachary\" in the song",
+      "description": "This song is a gentle and heartfelt tribute to someone named Zachary, capturing the warmth and affection felt towards them. The melody is soothing, with acoustic elements that create a serene atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Zachary%20played%20by%20The%20Innocence%20Mission",
+      "geniusUrl": "https://genius.com/search?q=Zachary%20The%20Innocence%20Mission",
+      "verified": true
+    },
+    {
+      "title": "Zachary",
+      "artist": "The Wind and The Wave",
+      "year": 2016,
+      "genre": "Alternative Rock",
+      "nameContext": "Features \"zachary\" in the song",
+      "description": "An uplifting track that celebrates the spirit and individuality of Zachary. The song features energetic guitar riffs and a catchy chorus, conveying a sense of joy and admiration.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Zachary%20played%20by%20The%20Wind%20and%20The%20Wave",
+      "geniusUrl": "https://genius.com/search?q=Zachary%20The%20Wind%20and%20The%20Wave",
+      "verified": true
+    },
+    {
+      "title": "Hey Zachary",
+      "artist": "The Paper Kites",
+      "year": 2020,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"zachary\" in the song",
+      "description": "This song is a warm and inviting message to Zachary, filled with positivity and encouragement. The gentle vocals and melodic instrumentation create a comforting and hopeful vibe.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hey%20Zachary%20played%20by%20The%20Paper%20Kites",
+      "geniusUrl": "https://genius.com/search?q=Hey%20Zachary%20The%20Paper%20Kites",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:53:30.364Z",
+  "songsEnrichedAt": "2025-11-03T22:53:30.364Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

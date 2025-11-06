@@ -1,0 +1,367 @@
+{
+  "name": "adrian",
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "From Hadria",
+  "culturalSignificance": "Adrian is a name of Latin origin, historically associated with the Roman Emperor Hadrian, known for building Hadrian's Wall in Britain. The name has been used across various cultures and languages, often symbolizing strength and leadership.",
+  "modernContext": "Adrian remains a popular name in many countries, ranking highly in regions such as Europe and the Americas. It is favored for its classic sound and historical roots.",
+  "literaryReferences": "Adrian is a character in Mary Shelley's 'Frankenstein' as well as in Shakespeare's 'The Tempest'.",
+  "pronunciationGuide": "/ˈeɪdriən/",
+  "variations": [
+    "Adrien",
+    "Adriano",
+    "Hadrian",
+    "Adrián",
+    "Adrianna",
+    "Adriana",
+    "Adrienne",
+    "Adryan",
+    "Adreean"
+  ],
+  "similarNames": [
+    "Aidan",
+    "Aaron",
+    "Alden",
+    "Aiden",
+    "Alan",
+    "Arden",
+    "Arian",
+    "Alec",
+    "Alex"
+  ],
+  "nicknames": [
+    "Ade",
+    "Adri",
+    "Rian",
+    "Addy",
+    "Ad",
+    "Adie",
+    "Dri",
+    "Ian",
+    "Adr"
+  ],
+  "personality": "People named Adrian are often perceived as strong, reliable, and charismatic, with a natural ability to lead and inspire others.",
+  "symbolism": "The name Adrian symbolizes strength, leadership, and a connection to historical roots.",
+  "funFact": "The name Adrian was borne by several early Christian saints and martyrs, enhancing its historical and religious significance.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Adrian of Nicomedia",
+    "significance": "Saint Adrian is venerated as a martyr in the Christian tradition, known for his conversion to Christianity and subsequent persecution.",
+    "keyStories": [
+      "Saint Adrian was a Roman soldier who converted to Christianity and was martyred for his faith."
+    ],
+    "spiritualMeaning": "Adrian represents faithfulness and courage in the face of adversity.",
+    "historicalImpact": "Saint Adrian's story has inspired many to uphold their beliefs despite challenges."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Hadrian",
+      "years": "76-138",
+      "category": "Roman Emperor",
+      "achievements": [
+        "Built Hadrian's Wall",
+        "Consolidated the Roman Empire's borders"
+      ],
+      "significance": "Hadrian was a Roman Emperor known for his extensive building projects and efforts to consolidate and secure the Roman Empire.",
+      "notableWorks": [
+        "Hadrian's Wall",
+        "Pantheon in Rome"
+      ]
+    },
+    {
+      "fullName": "Adrian IV",
+      "years": "1100-1159",
+      "category": "Pope",
+      "achievements": [
+        "Only English Pope",
+        "Issued the Papal Bull Laudabiliter"
+      ],
+      "significance": "Adrian IV was the only Englishman to become Pope, known for his diplomatic efforts and issuing the Papal Bull that granted Ireland to the English crown.",
+      "notableWorks": [
+        "Papal Bull Laudabiliter"
+      ]
+    },
+    {
+      "fullName": "Adrian of Nicomedia",
+      "years": "Died 306",
+      "category": "Christian Martyr",
+      "achievements": [
+        "Recognized as a saint in both Eastern and Western Christianity"
+      ],
+      "significance": "Adrian of Nicomedia is celebrated as a Christian martyr who converted to Christianity and was executed for his faith.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Adrian Brody",
+      "profession": "Actor",
+      "knownFor": [
+        "The Pianist",
+        "King Kong"
+      ],
+      "awards": "Academy Award for Best Actor"
+    },
+    {
+      "name": "Adrian Grenier",
+      "profession": "Actor",
+      "knownFor": [
+        "Entourage",
+        "The Devil Wears Prada"
+      ],
+      "awards": "Screen Actors Guild Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Adrian Dantley",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Buffalo Braves",
+        "Indiana Pacers",
+        "Los Angeles Lakers",
+        "Utah Jazz",
+        "Detroit Pistons",
+        "Dallas Mavericks",
+        "Milwaukee Bucks"
+      ],
+      "position": "Small Forward",
+      "jerseyNumber": "4",
+      "years": "1976-1991",
+      "achievements": "NBA Rookie of the Year, 6× NBA All-Star",
+      "knownFor": [
+        "Scoring prowess",
+        "Efficient shooting"
+      ],
+      "awards": "Inducted into the Naismith Memorial Basketball Hall of Fame",
+      "stats": "23,177 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Adrián Beltré",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Los Angeles Dodgers",
+        "Seattle Mariners",
+        "Boston Red Sox",
+        "Texas Rangers"
+      ],
+      "position": "Third Baseman",
+      "jerseyNumber": "29",
+      "years": "1998-2018",
+      "achievements": "4× All-Star, 5× Gold Glove Award, 4× Silver Slugger Award",
+      "knownFor": [
+        "Defensive skills",
+        "3000-hit club"
+      ],
+      "awards": "Inducted into the Texas Rangers Hall of Fame",
+      "stats": "3,166 career hits, 477 home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Adrian Peterson",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Free Agent",
+      "pastTeams": [
+        "Minnesota Vikings",
+        "New Orleans Saints",
+        "Arizona Cardinals",
+        "Washington Football Team",
+        "Detroit Lions",
+        "Tennessee Titans",
+        "Seattle Seahawks"
+      ],
+      "position": "Running Back",
+      "jerseyNumber": "28",
+      "years": "2007-Present",
+      "achievements": "NFL MVP, 7× Pro Bowl, 4× First-team All-Pro",
+      "knownFor": [
+        "Rushing ability",
+        "Durability"
+      ],
+      "awards": "NFL Offensive Rookie of the Year",
+      "stats": "14,918 rushing yards, 120 rushing touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Adrian Mutu",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "Retired",
+      "pastTeams": [
+        "Inter Milan",
+        "Parma",
+        "Chelsea",
+        "Juventus",
+        "Fiorentina"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "10",
+      "years": "1996-2016",
+      "achievements": "Serie A Player of the Year",
+      "knownFor": [
+        "Technical skills",
+        "Goal scoring"
+      ],
+      "awards": "Romanian Footballer of the Year",
+      "stats": "35 goals for Romania national team",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Adrian Kempe",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Los Angeles Kings",
+      "pastTeams": [],
+      "position": "Left Wing",
+      "jerseyNumber": "9",
+      "years": "2016-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Speed",
+        "Versatility"
+      ],
+      "awards": "NHL All-Star Game selection",
+      "stats": "Career high 35 goals in 2021-2022 season",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Rocky",
+      "year": 1976,
+      "type": "Movie",
+      "characterName": "Adrian Pennino",
+      "characterDescription": "Rocky's supportive wife who stands by him throughout his boxing career.",
+      "imdbUrl": "https://www.imdb.com/title/tt0075148/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Yo, Adrian, I did it!",
+      "character": "Rocky Balboa",
+      "source": "Rocky II",
+      "year": 1979,
+      "context": "Rocky Balboa exclaims this to his wife Adrian after winning the world heavyweight title.",
+      "genre": "Drama",
+      "impact": "This quote is iconic as it symbolizes triumph and perseverance, resonating with audiences as a moment of personal victory."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 443,
+    "peak": 141,
+    "peakYear": 2014
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "adr-ian"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:23:59.325Z",
+  "v8EnrichedAt": "2025-11-03T23:24:00.777Z",
+  "songs": [
+    {
+      "title": "Adrian",
+      "artist": "Jewel",
+      "year": 1995,
+      "genre": "Folk",
+      "nameContext": "Features \"adrian\" in the song",
+      "description": "This song tells a heartfelt story with a positive undertone, focusing on themes of resilience and hope. Jewel's soothing voice and acoustic guitar create an uplifting atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Adrian%20played%20by%20Jewel",
+      "geniusUrl": "https://genius.com/search?q=Adrian%20Jewel",
+      "verified": true
+    },
+    {
+      "title": "Adrian",
+      "artist": "Mason Jennings",
+      "year": 2002,
+      "genre": "Indie Folk",
+      "nameContext": "Features \"adrian\" in the song",
+      "description": "Mason Jennings crafts a warm and optimistic narrative about a character named Adrian. The song is filled with gentle melodies and a sense of personal growth and discovery.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Adrian%20played%20by%20Mason%20Jennings",
+      "geniusUrl": "https://genius.com/search?q=Adrian%20Mason%20Jennings",
+      "verified": true
+    },
+    {
+      "title": "Adrian",
+      "artist": "The Calling",
+      "year": 2004,
+      "genre": "Rock",
+      "nameContext": "Features \"adrian\" in the song",
+      "description": "This rock ballad features a positive message about friendship and support. The Calling delivers a powerful performance with strong vocals and an inspiring instrumental arrangement.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Adrian%20played%20by%20The%20Calling",
+      "geniusUrl": "https://genius.com/search?q=Adrian%20The%20Calling",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:24:05.992Z",
+  "songsEnrichedAt": "2025-11-03T23:24:05.992Z"
+}

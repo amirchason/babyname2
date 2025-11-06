@@ -1,0 +1,349 @@
+{
+  "name": "anthony",
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Priceless one",
+  "culturalSignificance": "The name Anthony has been widely used in the Christian world due to Saint Anthony of Padua, a revered saint known for his powerful preaching and expert knowledge of scripture. It has been a popular name in English-speaking countries since the Middle Ages and continues to be associated with nobility and strength.",
+  "modernContext": "Anthony remains a popular name in many countries, consistently ranking in the top 100 names for boys in the United States. It is often chosen for its classic appeal and strong historical associations.",
+  "literaryReferences": "Anthony is a character in Shakespeare's play 'Antony and Cleopatra', highlighting its historical and literary significance.",
+  "pronunciationGuide": "/ˈæn.θə.ni/",
+  "variations": [
+    "Antonio",
+    "Antoine",
+    "Anton",
+    "Antoni",
+    "Antón",
+    "Antony",
+    "Antanas",
+    "Antal",
+    "Anthon"
+  ],
+  "similarNames": [
+    "Andrew",
+    "Alexander",
+    "Arthur",
+    "Adrian",
+    "Aaron",
+    "Aiden",
+    "Austin",
+    "Adam",
+    "Alan"
+  ],
+  "nicknames": [
+    "Tony",
+    "Ant",
+    "Anton",
+    "Anth",
+    "Toni",
+    "Tone",
+    "Nino",
+    "Anto",
+    "T"
+  ],
+  "personality": "People named Anthony are often perceived as strong, reliable, and charismatic. They are seen as leaders who are both compassionate and determined.",
+  "symbolism": "The name Anthony symbolizes strength, nobility, and timelessness, often associated with leadership and charisma.",
+  "funFact": "Saint Anthony of Padua is the patron saint of lost items, which adds a unique cultural layer to the name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Anthony of Padua",
+    "significance": "Saint Anthony is known for his powerful preaching and expert knowledge of scripture, making him a significant figure in Christianity.",
+    "keyStories": [
+      "Saint Anthony is often invoked for the recovery of lost items, a tradition that stems from a story where he prayed for the return of a stolen book, which was miraculously returned."
+    ],
+    "spiritualMeaning": "The name Anthony is often associated with divine intervention and miracles.",
+    "historicalImpact": "Saint Anthony's teachings and miracles have had a lasting impact on Christian theology and popular devotion."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Mark Antony",
+      "years": "83 BC-30 BC",
+      "category": "Political Leaders",
+      "achievements": [
+        "Roman politician and general",
+        "Member of the Second Triumvirate"
+      ],
+      "significance": "Mark Antony was a crucial supporter of Julius Caesar and played a significant role in the transformation of the Roman Republic into the Roman Empire.",
+      "notableWorks": [
+        "His alliance with Cleopatra and his role in the Roman civil wars"
+      ]
+    },
+    {
+      "fullName": "Saint Anthony of Padua",
+      "years": "1195-1231",
+      "category": "Religious Figures",
+      "achievements": [
+        "Canonized as a saint",
+        "Doctor of the Church"
+      ],
+      "significance": "Known for his powerful preaching and expert knowledge of scripture, and is the patron saint of lost items.",
+      "notableWorks": [
+        "Sermons and teachings"
+      ]
+    },
+    {
+      "fullName": "Anthony van Dyck",
+      "years": "1599-1641",
+      "category": "Artists",
+      "achievements": [
+        "Leading court painter in England",
+        "Influential in the development of Baroque art"
+      ],
+      "significance": "Van Dyck was a prominent Flemish Baroque artist known for his portraits of Charles I of England and his court.",
+      "notableWorks": [
+        "Portraits of Charles I",
+        "Self-portraits"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Anthony Robbins",
+      "context": "This quote is often used to inspire people to pursue their passions and find fulfillment in their work.",
+      "year": 2001,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Anthony Hopkins",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'The Silence of the Lambs', 'The Remains of the Day'"
+      ],
+      "awards": "Academy Award for Best Actor"
+    },
+    {
+      "name": "Anthony Bourdain",
+      "profession": "Chef, Author, TV Personality",
+      "knownFor": [
+        "'Parts Unknown', 'Kitchen Confidential'"
+      ],
+      "awards": "Peabody Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Carmelo Anthony",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Denver Nuggets",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Houston Rockets",
+        "Portland Trail Blazers",
+        "Los Angeles Lakers"
+      ],
+      "position": "Small Forward",
+      "jerseyNumber": "7",
+      "years": "2003-2023",
+      "achievements": "10-time NBA All-Star, 3-time Olympic gold medalist",
+      "knownFor": [
+        "Scoring ability, clutch performances"
+      ],
+      "awards": "NBA Scoring Champion",
+      "stats": "Over 28,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Anthony Davis",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Los Angeles Lakers",
+      "pastTeams": [
+        "New Orleans Pelicans"
+      ],
+      "position": "Power Forward/Center",
+      "jerseyNumber": "3",
+      "years": "2012-Present",
+      "achievements": "NBA Champion, 8-time NBA All-Star",
+      "knownFor": [
+        "Defensive prowess, versatility"
+      ],
+      "awards": "NBA All-Defensive Team",
+      "stats": "Over 13,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Anthony Martial",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Manchester United",
+      "pastTeams": [
+        "AS Monaco"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2015-Present",
+      "achievements": "UEFA Europa League Winner",
+      "knownFor": [
+        "Pace, dribbling skills"
+      ],
+      "awards": "Golden Boy Award",
+      "stats": "Over 50 goals for Manchester United",
+      "verified": true,
+      "source": "PremierLeague.com"
+    },
+    {
+      "name": "Anthony Barr",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Minnesota Vikings",
+      "pastTeams": [],
+      "position": "Linebacker",
+      "jerseyNumber": "55",
+      "years": "2014-Present",
+      "achievements": "4-time Pro Bowl selection",
+      "knownFor": [
+        "Defensive leadership, tackling ability"
+      ],
+      "awards": "NFL All-Rookie Team",
+      "stats": "Over 400 career tackles",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Anthony Rendon",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Los Angeles Angels",
+      "pastTeams": [
+        "Washington Nationals"
+      ],
+      "position": "Third Baseman",
+      "jerseyNumber": "6",
+      "years": "2013-Present",
+      "achievements": "World Series Champion",
+      "knownFor": [
+        "Batting skills, defensive play"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "Over 150 home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Anthony Mantha",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Washington Capitals",
+      "pastTeams": [
+        "Detroit Red Wings"
+      ],
+      "position": "Right Wing",
+      "jerseyNumber": "39",
+      "years": "2015-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Scoring ability, physical play"
+      ],
+      "awards": "NHL Rookie of the Month",
+      "stats": "Over 100 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Ant-Man",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Scott Lang / Ant-Man",
+      "characterDescription": "A former thief turned superhero who can shrink in size but grow in strength.",
+      "imdbUrl": "https://www.imdb.com/title/tt0478970/",
+      "genre": "Action, Adventure, Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I do some dumb things, and the people I love the most pay the price.",
+      "character": "Scott Lang / Ant-Man",
+      "source": "Ant-Man",
+      "year": 2015,
+      "context": "Scott Lang reflects on his past mistakes and their impact on his loved ones.",
+      "genre": "Action, Adventure, Comedy",
+      "impact": "This quote highlights the character's vulnerability and growth, resonating with audiences who appreciate redemption arcs."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 319,
+    "peak": 83,
+    "peakYear": 2023
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 3,
+    "breakdown": "anthony"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Strong",
+      "confidence": 0.9,
+      "reason": "Contains 3 strong indicators"
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Contains 2 royal indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:01:34.171Z"
+}

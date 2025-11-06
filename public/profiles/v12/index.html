@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V12 Hybrid Name Profiles | SoulSeed</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      font-size: 4em;
+      color: #7C3E94;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.5em;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1em;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 50px rgba(124, 62, 148, 0.2);
+    }
+
+    .card:hover:before {
+      transform: scaleX(1);
+    }
+
+    .name {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #7C3E94;
+      margin-bottom: 5px;
+    }
+
+    .meaning {
+      font-size: 1.1em;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      font-size: 0.9em;
+      flex-wrap: wrap;
+    }
+
+    .meta-item {
+      color: #888;
+    }
+
+    .meta-item strong {
+      color: #7C3E94;
+      font-weight: 600;
+    }
+
+    .writer-badge {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 0.85em;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+
+    .preview {
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .read-more {
+      color: #7C3E94;
+      font-weight: 600;
+      font-size: 0.95em;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .read-more:after {
+      content: '→';
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover .read-more:after {
+      transform: translateX(5px);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 80px;
+      padding-top: 40px;
+      border-top: 2px solid #F5EBFF;
+      color: #888;
+    }
+
+    footer a {
+      color: #7C3E94;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.5em; }
+      .grid { grid-template-columns: 1fr; }
+      .card { padding: 30px 25px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 V12 Hybrid Profiles</h1>
+      <p class="subtitle">Structured Data + Writer's Story</p>
+      <span class="badge">V10 Data + V11 Writers Blog = V12 Perfect Hybrid</span>
+    </header>
+
+    <div class="grid">
+      <a href="liam.html" class="card">
+        <div class="name">Liam</div>
+        <div class="meaning">"Strong-willed warrior"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Irish</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>431</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Maya Chen</div>
+        <div class="preview">Oh my goodness, can we just talk about the name Liam?! I'm absolutely obsessed with it! It's like a beautiful melody that you want to keep humming over and over...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="olivia.html" class="card">
+        <div class="name">Olivia</div>
+        <div class="meaning">"Olive tree"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Latin</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Female</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>10090</strong></span>
+        </div>
+        <div class="writer-badge">📖 by River Stone</div>
+        <div class="preview">In a world where names are like the gentle ripples upon a tranquil lake... Olivia emerges with the grace of an olive branch swaying in the serene whispers of the Mediterranean breeze...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="noah.html" class="card">
+        <div class="name">Noah</div>
+        <div class="meaning">"Rest, comfort"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Hebrew</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>9110</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Dr. Elena Martinez</div>
+        <div class="preview">The etymological journey of Noah begins in ancient Hebrew texts, where נֹחַ (Noach) meant "rest" or "comfort"...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="emma.html" class="card">
+        <div class="name">Emma</div>
+        <div class="meaning">"Universal"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Germanic</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Female</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>2520</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Jamie Park</div>
+        <div class="preview">The numbers tell an interesting story about Emma. This name has been in the top 10 for over two decades...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="oliver.html" class="card">
+        <div class="name">Oliver</div>
+        <div class="meaning">"Olive tree"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Latin</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>10080</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Dr. Kwame Osei</div>
+        <div class="preview">In exploring the cultural significance of Oliver, we find a name deeply rooted in peace and prosperity...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="charlotte.html" class="card">
+        <div class="name">Charlotte</div>
+        <div class="meaning">"Free woman"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>French</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Female</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>2108</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Charlie Brooks</div>
+        <div class="preview">Let's address the elephant in the room: Charlotte is everywhere right now. But here's the thing - there's a reason it's popular...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="james.html" class="card">
+        <div class="name">James</div>
+        <div class="meaning">"Supplanter"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Hebrew</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>6220</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Luna Nightingale</div>
+        <div class="preview">The universe speaks through names, and James carries a vibration of leadership and strength...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="amelia.html" class="card">
+        <div class="name">Amelia</div>
+        <div class="meaning">"Work"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Germanic</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Female</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>892</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Prof. James Whitfield</div>
+        <div class="preview">Consider the archetype of Amelia - a literary character that embodies industry and grace...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="mia.html" class="card">
+        <div class="name">Mia</div>
+        <div class="meaning">"Mine"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Italian</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Female</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>8630</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Sarah Johnson</div>
+        <div class="preview">Let's be real about Mia. It's short, sweet, and incredibly easy to spell - which matters more than you think...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="george.html" class="card">
+        <div class="name">George</div>
+        <div class="meaning">"Farmer"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Greek</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>5038</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Writer</div>
+        <div class="preview">There's something undeniably timeless about the name George...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="georgia.html" class="card">
+        <div class="name">Georgia</div>
+        <div class="meaning">"Farmer"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Greek</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Female</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>5048</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Writer</div>
+        <div class="preview">There's something undeniably charming about the name Georgia...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="benson.html" class="card">
+        <div class="name">Benson</div>
+        <div class="meaning">"Son of Ben"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>English</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>1094</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Writer</div>
+        <div class="preview">There's something undeniably charming about the name Benson...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+
+      <a href="theodore.html" class="card">
+        <div class="name">Theodore</div>
+        <div class="meaning">"Gift of God"</div>
+        <div class="meta">
+          <span class="meta-item"><strong>Greek</strong> origin</span>
+          <span class="meta-item">•</span>
+          <span class="meta-item"><strong>Male</strong></span>
+          <span class="meta-item">•</span>
+          <span class="meta-item">#<strong>14110</strong></span>
+        </div>
+        <div class="writer-badge">📖 by Writer</div>
+        <div class="preview">There's something undeniably charming about the name Theodore...</div>
+        <div class="read-more">Read full profile</div>
+      </a>
+    </div>
+
+    <footer>
+      <p><strong>V12 Hybrid Format</strong> = V10 Structured Data + V11 Writers Blog</p>
+      <p>Each profile features a unique writer from the SoulSeed Writers Collective</p>
+      <p><a href="/">← Back to SoulSeed</a></p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George - V13 Super Enriched Profile | SoulSeed</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '🌟 V13 SUPER ENRICHED 🌟';
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.9em;
+      font-weight: 600;
+      background: rgba(255,255,255,0.3);
+      padding: 5px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero h1 {
+      font-size: 5em;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .hero .meaning {
+      font-size: 1.8em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.25);
+      padding: 10px 25px;
+      border-radius: 25px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+
+    /* Version Info Banner */
+    .version-banner {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: 1.1em;
+    }
+
+    .version-banner .versions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .version-badge {
+      background: rgba(255,255,255,0.2);
+      padding: 5px 15px;
+      border-radius: 15px;
+      font-weight: 600;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+
+    /* Content Tabs */
+    .tabs {
+      display: flex;
+      background: #f8f9fa;
+      border-bottom: 2px solid #e0e0e0;
+      overflow-x: auto;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 20px;
+      cursor: pointer;
+      text-align: center;
+      font-weight: 600;
+      color: #666;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .tab:hover {
+      background: white;
+      color: #764ba2;
+    }
+
+    .tab.active {
+      background: white;
+      color: #764ba2;
+      border-bottom-color: #764ba2;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 40px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Sections */
+    h2 {
+      color: #764ba2;
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #f093fb;
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      color: #667eea;
+      font-size: 1.5em;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .card {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 15px;
+      border-left: 4px solid #764ba2;
+    }
+
+    .card h4 {
+      color: #764ba2;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    th {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    tr:hover {
+      background: #FFF9FC;
+    }
+
+    .blog-section {
+      background: #f8f9fa;
+      padding: 30px;
+      border-radius: 15px;
+      margin: 20px 0;
+      border-left: 5px solid #764ba2;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 12px;
+      border-radius: 15px;
+      font-size: 0.85em;
+      font-weight: 600;
+      margin: 5px 5px 5px 0;
+    }
+
+    .badge-v8 { background: #FFB74D; color: white; }
+    .badge-v10 { background: #4CAF50; color: white; }
+    .badge-v11 { background: #2196F3; color: white; }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 30px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero -->
+    <div class="hero">
+      <h1>George</h1>
+      <p class="meaning">Farmer</p>
+      <div class="meta">
+        <span class="meta-item">🌍 Greek</span>
+        <span class="meta-item">⚧ ♂️ Male (95% / 5%)</span>
+        <span class="meta-item">📊 Rank #431</span>
+        <span class="meta-item">📦 5 Versions Merged</span>
+      </div>
+    </div>
+
+    <!-- Version Banner -->
+    <div class="version-banner">
+      <strong>✨ This profile combines ALL enrichment versions ✨</strong>
+      <div class="versions">
+        <span class="version-badge">V6</span><span class="version-badge">V7</span><span class="version-badge">V8</span><span class="version-badge">V10</span><span class="version-badge">V11</span>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab active" onclick="showTab('overview')">📖 Overview</div>
+      <div class="tab" onclick="showTab('people')">👥 Famous People</div>
+      <div class="tab" onclick="showTab('culture')">🎬 Pop Culture</div>
+      <div class="tab" onclick="showTab('spiritual')">🌙 Spiritual & Celestial</div>
+      <div class="tab" onclick="showTab('blog')">📝 Blog (V11)</div>
+      <div class="tab" onclick="showTab('bonus')">🎁 Bonus Data (V8)</div>
+    </div>
+
+    <!-- Tab Contents -->
+    <div id="overview" class="tab-content active">
+      <h2>📖 Complete Overview</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h4>Cultural Significance</h4>
+          <p>The name George has been a staple in Western culture, often associated with nobility and leadership. It has been borne by numerous kings and saints, most notably Saint George, the patron saint of England, who is celebrated for his legendary dragon-slaying heroics.</p>
+        </div>
+        <div class="card">
+          <h4>Modern Context</h4>
+          <p>George remains a popular name in English-speaking countries, consistently ranking in the top 200 names for boys. Its classic appeal is reinforced by its association with British royalty, including Prince George of Cambridge.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h4>Personality Traits</h4>
+          <p>People named George are often perceived as reliable, strong, and down-to-earth, reflecting the name's agricultural roots.</p>
+        </div>
+        <div class="card">
+          <h4>Symbolism</h4>
+          <p>The name George symbolizes bravery and protection, largely due to the legend of Saint George and the dragon.</p>
+        </div>
+      </div>
+
+      <h3>🔤 Variations & Similar Names</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Name Variations</h4>
+          <ul>
+            <li>Georgios (Greek)</li><li>Jorge (Spanish)</li><li>Giorgio (Italian)</li><li>Georg (German)</li><li>György (Hungarian)</li><li>Georgea</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Similar Names</h4>
+          <ul>
+            <li>Gregory</li><li>Gordon</li><li>Gerard</li><li>Gareth</li><li>Gavin</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Nicknames</h4>
+          <ul>
+            <li>Geo</li><li>Georgie</li><li>G</li><li>Geordie</li><li>Georg</li><li>Ge</li><li>Geor</li><li>Gey</li><li>Geoy</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>🎉 Fun Fact</h3>
+      <div class="card">
+        <p><strong>George is the name of the first president of the United States, George Washington, who is often considered one of the founding fathers of the nation.</strong></p>
+      </div>
+    </div>
+
+    <!-- People Tab -->
+    <div id="people" class="tab-content">
+      <h2>👥 Famous People & Athletes</h2>
+
+      
+      <h3>🌟 Famous People</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Profession</th>
+            <th>Known For</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><strong>George Clooney</strong></td>
+            <td>Actor</td>
+            <td>Oceans Trilogy, ER</td>
+          </tr>
+          
+          <tr>
+            <td><strong>George Lucas</strong></td>
+            <td>Filmmaker</td>
+            <td>Star Wars, Indiana Jones</td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+
+      
+      <h3>🏆 Famous Athletes</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Sport</th>
+            <th>Team</th>
+            <th>Achievements</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><strong>George Gervin</strong></td>
+            <td>NBA Basketball</td>
+            <td>San Antonio Spurs</td>
+            <td>NBA Scoring Champion, Hall of Fame</td>
+          </tr>
+          
+          <tr>
+            <td><strong>George Best</strong></td>
+            <td>European Soccer/Football</td>
+            <td>Manchester United</td>
+            <td>Ballon d'Or winner, European Cup winner</td>
+          </tr>
+          
+          <tr>
+            <td><strong>George Kittle</strong></td>
+            <td>American Football (NFL)</td>
+            <td>San Francisco 49ers</td>
+            <td>Pro Bowl, All-Pro</td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+
+      
+      <h3>📜 Historic Figures</h3>
+      
+      <div class="card">
+        <h4>George Washington (1732-1799)</h4>
+        <p><strong>Political Leaders</strong></p>
+        <p>George Washington is a pivotal figure in American history, known for leading the country to independence and setting many presidential precedents.</p>
+        <ul><li>First President of the United States</li><li>Commander-in-Chief of the Continental Army</li></ul>
+      </div>
+      
+      <div class="card">
+        <h4>George Orwell (1903-1950)</h4>
+        <p><strong>Authors</strong></p>
+        <p>George Orwell is celebrated for his profound insights into totalitarianism and social injustice.</p>
+        <ul><li>Author of '1984' and 'Animal Farm'</li></ul>
+      </div>
+      
+      <div class="card">
+        <h4>George Frideric Handel (1685-1759)</h4>
+        <p><strong>Composers</strong></p>
+        <p>Handel's music, especially his oratorios, has had a lasting impact on Western classical music.</p>
+        <ul><li>Composed 'Messiah'</li><li>Influential Baroque composer</li></ul>
+      </div>
+      
+      
+    </div>
+
+    <!-- Culture Tab -->
+    <div id="culture" class="tab-content">
+      <h2>🎬 Pop Culture References</h2>
+
+      
+      <h3>🎬 Movies & TV Shows</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Character</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><strong>Seinfeld</strong></td>
+            <td>1989</td>
+            <td>George Costanza</td>
+            <td>A neurotic and self-deprecating friend of Jerry Seinfeld.</td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+
+      <p>No songs data available.</p>
+
+      
+    </div>
+
+    <!-- Spiritual Tab -->
+    <div id="spiritual" class="tab-content">
+      <h2>🌙 Spiritual & Celestial Data</h2>
+
+      
+      <h3>✝️ Religious Significance</h3>
+      <div class="card">
+        <p><strong>Religions:</strong> Christianity</p>
+        <p><strong>Character:</strong> Saint George</p>
+        <p><strong>Significance:</strong> Saint George is venerated as a martyr and is the patron saint of several countries, including England and Georgia.</p>
+        
+        <p><strong>Key Stories:</strong></p>
+        <ul>
+          <li>Saint George and the Dragon</li>
+        </ul>
+        
+      </div>
+      
+
+      
+      <h3>✨ Celestial & Numerology</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>🔢 Lucky Number</h4>
+          <p style="font-size: 2em; font-weight: bold; color: #764ba2;">3</p>
+        </div>
+        <div class="card">
+          <h4>🎨 Lucky Color</h4>
+          <p><span style="display: inline-block; width: 40px; height: 40px; background: #FFD700; border-radius: 5px; vertical-align: middle;"></span> Golden Yellow</p>
+        </div>
+        <div class="card">
+          <h4>💎 Lucky Gemstone</h4>
+          <p style="font-size: 1.3em;">Topaz</p>
+        </div>
+        <div class="card">
+          <h4>📅 Lucky Day</h4>
+          <p style="font-size: 1.3em;">Thursday</p>
+        </div>
+        <div class="card">
+          <h4>🌙 Moon Phase</h4>
+          <p>Waxing Gibbous</p>
+          <p><small>Period of growth, manifestation, and positive energy.</small></p>
+        </div>
+        <div class="card">
+          <h4>🌟 Celestial Archetype</h4>
+          <p><strong>The Leader</strong></p>
+          <p><small>Bold, confident, natural leader and pioneer.</small></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h4>♈ Compatible Signs</h4>
+        <p>Aries, Leo, Sagittarius</p>
+        <p><small>Fire signs align with passionate and dynamic energy.</small></p>
+      </div>
+
+      <div class="card">
+        <h4>🎯 Karmic Lessons</h4>
+        <p>Embrace courage, develop patience, balance action with reflection</p>
+      </div>
+      
+    </div>
+
+    <!-- Blog Tab -->
+    <div id="blog" class="tab-content">
+      <h2>📝 Blog Content (V11)</h2>
+      <span class="badge badge-v11">V11 Writer-Driven Narrative</span>
+
+      
+      
+
+      
+        <div class="blog-section">
+          There's something undeniably timeless about the name George. It carries an air of strength and a sense of quiet dignity, evoking images of wise leaders, noble knights, and everyday heroes. Picture a young boy named George, confidently exploring the world with a twinkle in his eye, or an elderly gentleman, sharing tales of days gone by with wisdom and warmth. This is a name that has woven itself into the fabric of history and story, capturing the hearts of many across generations. 
+
+Perhaps it’s the classic simplicity of George that makes it so appealing. It's a name that doesn’t need to fight for attention; it holds its ground with grace and assurance. Whether you’re envisioning a future world leader, a creative genius, or a dedicated friend, George fits the bill perfectly, offering a strong foundation for any life path. The name George invites you to imagine a life of potential, grounded in tradition yet open to infinite possibility.
+        </div>
+      
+        <div class="blog-section">
+          The name George has a rich and storied origin that traces back to ancient Greek roots. Derived from the Greek name Georgios, it translates to 'farmer' or 'earth-worker,' a nod to the agrarian societies that valued their connection to the land. This meaning may seem humble at first glance, but think about it: farmers are the backbone of civilization, nurturing the earth to sustain life. 
+
+Over the centuries, the name has evolved, maintaining its core meaning while accumulating layers of cultural and historical significance. From the fields of ancient Greece to the courts of European royalty, George has traveled through time, embodying resilience, leadership, and a deep-seated connection to the earth. Today, while we may live in a world far removed from those ancient farms, the essence of George—a name rooted in strength, endurance, and nurturing—is as relevant as ever.
+        </div>
+      
+        <div class="blog-section">
+          Ah, George! A name that has graced the lives of many remarkable individuals. Take, for instance, Saint George, the patron saint of England, renowned for his legendary battle with a dragon. His story symbolizes the triumph of good over evil, and his name has since been synonymous with bravery and chivalric virtues.
+
+Then there's George Clooney, the suave and charismatic actor and director who has charmed audiences worldwide. Known for his wit, philanthropy, and undeniable talent, Clooney embodies a modern-day renaissance man, proving that Georges are as versatile as they are enduring.
+
+In the realm of innovation, we find George Lucas, the visionary filmmaker behind the Star Wars saga. His creativity has inspired generations, and his name is synonymous with epic storytelling and groundbreaking cinematic techniques. Whether on the battlefield, the big screen, or behind the camera, George is a name that carries a legacy of excellence.
+        </div>
+      
+        <div class="blog-section">
+          The world of pop culture has its fair share of Georges who have left an indelible mark. On television, we have the lovable George Costanza from 'Seinfeld,' whose humorous antics and relatable quirks made him a beloved character. Though not always the hero, George Costanza's name is etched in the collective memory of TV history.
+
+In literature, George Orwell stands tall with his influential works like '1984' and 'Animal Farm.' His writings explore themes of dystopia, power, and freedom, resonating with readers across generations. Through his pen, the name George became a beacon of social commentary and thought-provoking narratives.
+
+These pop culture moments showcase the versatility of the name George, proving that it can fit seamlessly into stories of humor, depth, and everything in between. It’s a name that can take on many roles, much like the individuals who bear it.
+        </div>
+      
+        <div class="blog-section">
+          When you think of someone named George, you might imagine a personality that’s as solid and dependable as the name itself. Georges often exude a sense of calm and assurance, embodying traits like reliability, kindness, and a subtle yet undeniable charisma. They’re the friends you can count on, the leaders who inspire by example, and the family members who lend a listening ear and sound advice.
+
+Rooted in its meaning, people named George often have a connection to the natural world. They might be drawn to outdoor adventures or possess a keen sense of responsibility towards the environment. Their grounded nature and nurturing spirit make them excellent partners, friends, and community members, contributing positively to the world around them.
+
+Overall, George is a name that suggests a balanced character—someone who is both strong and gentle, imaginative yet practical. It’s a name for those who lead with their hearts and minds, making the world a better place one day at a time.
+        </div>
+      
+        <div class="blog-section">
+          George offers a delightful array of variations and nicknames, each bringing a unique flavor to the classic name. For those who crave a touch of familiarity and charm, 'Georgie' is a playful and endearing option, perfect for a young boy or a cherished friend. It carries a sense of warmth and affection, making it a popular choice among families and close circles.
+
+If you're looking for something with a bit more continental flair, consider 'Georgio' or 'Jorge,' which add an exotic twist while still holding onto the name's roots. These variations reflect the name’s journey across different cultures and languages, showcasing its adaptability and global appeal.
+
+For those who appreciate brevity, 'Geo' provides a modern, snappy alternative. It's sleek and contemporary, appealing to those who enjoy blending tradition with a touch of modern-day style. Ultimately, the variations and nicknames of George offer a versatile range to suit any personality or cultural background.
+        </div>
+      
+        <div class="blog-section">
+          Interestingly, George currently sits at #431 in popularity rankings, revealing its enduring appeal even as name trends evolve. While it may not be at the top of the charts, this mid-range popularity suggests that George is a name that many appreciate but few overuse, offering a sense of individuality without straying too far from the familiar.
+
+The name’s consistent presence in the rankings over the years highlights its timeless charm. It's a classic choice that defies fleeting trends, much like a trusted book that never goes out of style. For parents seeking a name that is recognizable yet not overly common, George strikes an ideal balance.
+
+The steady nature of George’s popularity means it's a name that carries weight and history without feeling outdated or overused. For modern parents, it’s an opportunity to bestow a name with depth, character, and a touch of vintage cool.
+        </div>
+      
+        <div class="blog-section">
+          When it comes to finding the perfect middle name for George, the possibilities are as varied as they are intriguing. Consider pairing George with a strong, single-syllable name like James or Lee for a classic and balanced combination. These choices create a harmonious flow and honor the timeless nature of both names.
+
+If you're aiming for something a bit more adventurous, middle names like Alexander or Theodore add an element of grandeur and sophistication, enhancing the stately presence of George. These combinations evoke a sense of history and prestige, perfect for a child destined to make an impact.
+
+For siblings, consider names that complement George's classic charm. Names like Charlotte, Henry, or Eleanor offer a cohesive family set, each carrying their own timeless elegance while harmonizing beautifully with George. These names create a familial narrative steeped in tradition and grace, ideal for a family that values history and heritage.
+        </div>
+      
+        <div class="blog-section">
+          The journey of the name George is as fascinating as the name itself. With roots in ancient Greece, George began its journey as Georgios, symbolizing the revered occupation of farming. As it traveled through time and across borders, it found its way into the hearts of many cultures, evolving but always retaining its core essence.
+
+In England, George gained immense popularity due in large part to Saint George, whose dragon-slaying legend struck a chord with the English spirit. Over time, it became a name synonymous with British royalty, gracing kings and princes alike. This royal connection added an aura of nobility and prestige to George, cementing its status as a name of leadership and honor.
+
+The migration of the name didn’t stop there. It traveled across Europe, each country adding its own twist—Georg in Germany, Jorge in Spain, and Giorgio in Italy. It even crossed the Atlantic to become a beloved name in America, reflecting the melting pot of cultures that make up the modern world. George’s cultural journey is a testament to its universal appeal and timeless charm.
+        </div>
+      
+        <div class="blog-section">
+          Choosing the name George might just be one of the most enduring gifts you can give your child. With its rich history, cultural significance, and timeless appeal, George offers a name that is both classic and meaningful. It's a choice that speaks to tradition while leaving room for individuality, making it perfect for parents who want a name with depth and character.
+
+However, it's worth considering whether you want a name that is somewhat familiar yet not overly common. While George is less prevalent than some modern names, its classic nature ensures that it will never fall out of favor completely. If you're seeking a name that stands the test of time and offers a sense of rootedness, George is a wonderful option.
+
+In the end, George is a name for those who value legacy, strength, and a connection to something larger than themselves. It's ideal for families who appreciate the stories and history behind a name, and who hope to pass on that sense of continuity and tradition to the next generation.
+        </div>
+      
+      
+    </div>
+
+    <!-- Bonus Tab -->
+    <div id="bonus" class="tab-content">
+      <h2>🎁 Bonus Data from V8</h2>
+      <span class="badge badge-v8">V8 Exclusive Fields</span>
+      <p style="margin: 20px 0;">These fields were removed in V10 but are preserved here in V13!</p>
+
+      
+      <div class="card">
+        <h4>🏷️ Categories</h4>
+        <div>
+          <span class="badge badge-v8">[object Object]</span><span class="badge badge-v8">[object Object]</span><span class="badge badge-v8">[object Object]</span><span class="badge badge-v8">[object Object]</span><span class="badge badge-v8">[object Object]</span>
+        </div>
+      </div>
+      
+
+      
+      <div class="card">
+        <h4>🔤 Syllables</h4>
+        <p style="font-size: 2em; font-weight: bold;">[object Object]</p>
+      </div>
+      
+
+      
+      <div class="card">
+        <h4>🌍 Translations</h4>
+        <ul>
+          <li><strong>0:</strong> [object Object]</li><li><strong>1:</strong> [object Object]</li><li><strong>2:</strong> [object Object]</li><li><strong>3:</strong> [object Object]</li><li><strong>4:</strong> [object Object]</li><li><strong>5:</strong> [object Object]</li>
+        </ul>
+      </div>
+      
+
+      
+      <div class="card">
+        <h4>👶 Celebrity Babies</h4>
+        <ul>
+          <li>[object Object]</li><li>[object Object]</li>
+        </ul>
+      </div>
+      
+
+      
+      <div class="card">
+        <h4>💡 Naming Inspiration</h4>
+        <p>[object Object]</p>
+      </div>
+      
+
+      
+    </div>
+  </div>
+
+  <script>
+    function showTab(tabName) {
+      // Hide all tabs
+      document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+      });
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+
+      // Show selected tab
+      document.getElementById(tabName).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>

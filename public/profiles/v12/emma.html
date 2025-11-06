@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emma - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Universal - Germanic origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Emma</h1>
+      <div class="meaning">"Universal"</div>
+      <div class="meta">
+        <div class="meta-item">Germanic Origin</div>
+        <div class="meta-item">Female</div>
+        <div class="meta-item">Ranked #222</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by Jamie Park</h3>
+      <p>Data Analyst & Statistics Enthusiast • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Emma</h3>
+            <div class="subtitle">Expert Analysis by Jamie Park</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Ah, Emma! The numbers tell an interesting story about this charming name. From literary heroines to celebrated actresses, Emma exudes an aura of both strength and elegance. Seeing this name across such diverse contexts reminds me just how universal it truly is. Dive into the stats and stories; you'll find Emma paints a beautiful tapestry from centuries-old roots to modern fame.</p><p>Diving into the origins, Emma hails from the Germanic word 'ermen,' meaning 'universal' or 'whole.' The name rose to prominence in England following the Norman Conquest. 'Universal' speaks to its adaptability and timelessness—it's a name that fits into any narrative, seamlessly bridging gaps across languages and cultures.</p><p>Emma Watson, whose portrayal of Hermione Granger in the Harry Potter series, showcases intelligence and bravery—qualities often associated with Emmas. Meanwhile, Emma Stone captivates with her versatility on screen, offering a range of emotions and depth. Then there's Emma Meesseman, taking the sports world by storm with her prowess on the basketball court. These Emmas demonstrate that whether in literature, film, or sports, the name carries a sense of excellence.</p><p>In pop culture, 'Emma' often symbolizes the strong, relatable character we root for. Think Jane Austen's Emma, a well-intentioned matchmaker with a lot to learn about love and friendship. Such roles show Emma as a figure of complexity and humanity—a heroine who evolves, just like trends in data.</p><p>With a name meaning 'universal,' Emma personifies connection—someone who could fit in anywhere. Emmas tend to project warmth, intelligence, and a bit of an adventurous spirit. They can be seen as empathetic leaders, adept at understanding varying perspectives, much like analyzing a multifaceted dataset.</p><p>Emma in its short form is succinct and strong, but variations like Em or Emmy add an endearing twist. Whether you opt for the classic charm of Emma or a more playful nickname, each option brings a fresh angle to this timeless choice.</p><p>From the 1880s to 2023, Emma's popularity saw peaks and valleys, but oh, the late 20th to early 21st century was its golden era, consistently ranking near the top. Currently, at #222, it’s still a beloved choice, proving that even as trends shift, some names maintain their appeal across generations. The numbers tell an interesting story indeed!</p><p>Pair Emma with something classic or something unexpected—it plays well with all. Consider Emma Grace for that traditional touch or Emma Sky for a modern ring. An Emma paired with a unique surname adds intrigue, much like a standout data point in a chart.</p><p>Historically, Emma's roots stretch across Germanic, English, and French lines, offering a rich cultural tapestry. It's a name celebrated in literature, royal circles, and contemporary settings. This broad cultural footprint ensures Emma feels at home in a myriad of contexts, reflecting its 'universal' meaning.</p><p>If you're considering the name Emma, know that you're choosing a name that carries history, versatility, and charm. It’s a name that statically—and emotionally—stands the test of time. In a world where data is ever-changing, Emma remains a constant—a true 'universal' choice.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Emma is a name with deep historical roots, originating from the Germanic word 'ermen' meaning 'whole' or 'universal'. It gained popularity in the 19th century, especially in England, due to its association with Queen Emma of Normandy, who was the wife of two English kings.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Emma of Normandy</h4>
+        <div class="meta">985-1052 • Royalty</div>
+        <p><strong>Significance:</strong> Emma of Normandy was a significant political figure in the early medieval period, influencing the politics of England and Scandinavia.</p>
+        <ul><li>Queen consort of England, Denmark, and Norway</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Emma Goldman</h4>
+        <div class="meta">1869-1940 • Political Activist</div>
+        <p><strong>Significance:</strong> Emma Goldman was a key figure in the development of anarchist political philosophy in North America and Europe.</p>
+        <ul><li>Prominent anarchist known for her writings and speeches</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Emma Lazarus</h4>
+        <div class="meta">1849-1887 • Poet</div>
+        <p><strong>Significance:</strong> Emma Lazarus is best known for her sonnet 'The New Colossus', which is inscribed on the pedestal of the Statue of Liberty.</p>
+        <ul><li>Author of 'The New Colossus'</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Emma Watson</h4>
+        <div class="meta">Actress</div>
+        <p><strong>Known for:</strong> Role as Hermione Granger in the Harry Potter series</p>
+        <p><strong>Awards:</strong> British Artist of the Year, Teen Choice Awards</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Emma Stone</h4>
+        <div class="meta">Actress</div>
+        <p><strong>Known for:</strong> Roles in 'La La Land', 'The Help', 'Easy A'</p>
+        <p><strong>Awards:</strong> Academy Award for Best Actress</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Emma Meesseman</h4>
+        <div class="meta">European Soccer/Football • Anderlecht</div>
+        <p><strong>Position:</strong> Forward</p>
+        <p><strong>Achievements:</strong> Belgian Golden Shoe, UEFA Women's Champions League</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Emme (French)</div><div class="tag">Ema (Slavic)</div><div class="tag">Emilia (Italian)</div><div class="tag">Irma (German)</div><div class="tag">Emmy (English)</div><div class="tag">Emmaa</div><div class="tag">Emmao</div><div class="tag">Emmaus</div><div class="tag">Emmae</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Em</div><div class="tag">Emmy</div><div class="tag">Emmie</div><div class="tag">Emo</div><div class="tag">Ems</div><div class="tag">Emm</div><div class="tag">Emma</div><div class="tag">Emy</div><div class="tag">Emmay</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_emma_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_emma_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_emma_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_emma_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_emma_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_emma_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_emma_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_emma_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

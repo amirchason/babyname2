@@ -1,0 +1,509 @@
+{
+  "name": "kevin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:55:32.845Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v8",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "Handsome birth",
+  "culturalSignificance": "The name Kevin is derived from the Irish name Caoimhín, which means 'handsome birth' or 'gentle, kind'. It has been a popular name in Ireland due to the influence of Saint Kevin, a 6th-century Irish saint who founded the monastery at Glendalough.",
+  "modernContext": "Kevin remains a popular name in English-speaking countries and has been consistently used over the decades. It is often associated with a friendly and approachable personality.",
+  "literaryReferences": "The name Kevin does not have significant literary references but is often used in contemporary literature and media.",
+  "pronunciationGuide": "ˈkɛvɪn",
+  "variations": [
+    "Caoimhín",
+    "Kevyn",
+    "Kevan",
+    "Keven",
+    "Kévin",
+    "Kefin",
+    "Kevinn",
+    "Kewin",
+    "Kevynne"
+  ],
+  "similarNames": [
+    "Evan",
+    "Devin",
+    "Kelvin",
+    "Gavin",
+    "Calvin",
+    "Nevin",
+    "Bevin",
+    "Levin",
+    "Marvin"
+  ],
+  "nicknames": [
+    "Kev",
+    "Kevvy",
+    "Vin",
+    "Vinny",
+    "K",
+    "K-Man",
+    "K-Dog",
+    "Kevster",
+    "KJ"
+  ],
+  "personality": "People named Kevin are often perceived as friendly, approachable, and reliable. They are seen as trustworthy individuals who are easy to get along with.",
+  "symbolism": "Kevin symbolizes kindness, gentleness, and a handsome nature, reflecting its Irish origins.",
+  "funFact": "The name Kevin gained significant popularity in the United States during the 1950s and 1960s, partly due to the influence of Hollywood actors with the name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Kevin",
+    "significance": "Saint Kevin is known for his piety and dedication to monastic life, founding the monastery at Glendalough, which became a major pilgrimage site.",
+    "keyStories": [
+      "Saint Kevin's life of solitude and devotion in the wilderness of Glendalough"
+    ],
+    "spiritualMeaning": "The name Kevin is associated with spiritual devotion and a connection to nature.",
+    "historicalImpact": "Saint Kevin's legacy as a founder of a major religious site in Ireland has had a lasting impact on Christian monastic traditions."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Kevin Barry",
+      "years": "1902-1920",
+      "category": "Political Leaders",
+      "achievements": [
+        "Irish republican who became a martyr after being executed by the British"
+      ],
+      "significance": "Kevin Barry's execution at a young age made him a symbol of the Irish struggle for independence.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Kevin O'Higgins",
+      "years": "1892-1927",
+      "category": "Political Leaders",
+      "achievements": [
+        "Irish politician and a key figure in the establishment of the Irish Free State"
+      ],
+      "significance": "O'Higgins played a crucial role in shaping the early Irish Free State and its institutions.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Kevin Lynch",
+      "years": "1956-1981",
+      "category": "Political Activists",
+      "achievements": [
+        "Irish republican hunger striker who died during the 1981 hunger strike"
+      ],
+      "significance": "Lynch's death highlighted the plight of Irish political prisoners and drew international attention.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only thing that separates success from failure is the ability to take action.",
+      "author": "Kevin J. Donaldson",
+      "context": "This quote emphasizes the importance of taking initiative in achieving success.",
+      "year": 2015,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Kevin Spacey",
+      "profession": "Actor",
+      "knownFor": [
+        "American Beauty",
+        "House of Cards"
+      ],
+      "awards": "Academy Awards, Golden Globe Awards"
+    },
+    {
+      "name": "Kevin Hart",
+      "profession": "Comedian/Actor",
+      "knownFor": [
+        "Stand-up comedy",
+        "Jumanji series"
+      ],
+      "awards": "People's Choice Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Kevin Durant",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Phoenix Suns",
+      "pastTeams": [
+        "Seattle SuperSonics",
+        "Oklahoma City Thunder",
+        "Golden State Warriors",
+        "Brooklyn Nets"
+      ],
+      "position": "Small Forward",
+      "jerseyNumber": "35",
+      "years": "2007-Present",
+      "achievements": "2× NBA Champion, 2× NBA Finals MVP",
+      "knownFor": [
+        "Scoring ability, versatility"
+      ],
+      "awards": "NBA MVP, 13× NBA All-Star",
+      "stats": "Over 25,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Manchester City",
+      "pastTeams": [
+        "Genk",
+        "Chelsea",
+        "Werder Bremen",
+        "Wolfsburg"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "17",
+      "years": "2008-Present",
+      "achievements": "Premier League Champion, PFA Player of the Year",
+      "knownFor": [
+        "Passing, vision, playmaking"
+      ],
+      "awards": "UEFA Midfielder of the Year",
+      "stats": "Over 100 Premier League assists",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Kevin Garnett",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Minnesota Timberwolves",
+        "Boston Celtics",
+        "Brooklyn Nets"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "21",
+      "years": "1995-2016",
+      "achievements": "NBA Champion, NBA MVP",
+      "knownFor": [
+        "Defensive prowess, intensity"
+      ],
+      "awards": "15× NBA All-Star",
+      "stats": "Over 26,000 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Kevin Keegan",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Retired",
+      "team": "Retired",
+      "pastTeams": [
+        "Scunthorpe United",
+        "Liverpool",
+        "Hamburg",
+        "Southampton",
+        "Newcastle United"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "7",
+      "years": "1968-1984",
+      "achievements": "Ballon d'Or winner, European Cup winner",
+      "knownFor": [
+        "Leadership, goal-scoring"
+      ],
+      "awards": "Ballon d'Or",
+      "stats": "Over 200 career goals",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Kevin Greene",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Los Angeles Rams",
+        "Pittsburgh Steelers",
+        "Carolina Panthers",
+        "San Francisco 49ers"
+      ],
+      "position": "Linebacker",
+      "jerseyNumber": "91",
+      "years": "1985-1999",
+      "achievements": "NFL Defensive Player of the Year",
+      "knownFor": [
+        "Pass rushing, leadership"
+      ],
+      "awards": "Pro Football Hall of Fame",
+      "stats": "160 career sacks",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Kevin Youkilis",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Boston Red Sox",
+        "Chicago White Sox",
+        "New York Yankees"
+      ],
+      "position": "First Baseman",
+      "jerseyNumber": "20",
+      "years": "2004-2013",
+      "achievements": "2× World Series Champion",
+      "knownFor": [
+        "On-base percentage, defensive skills"
+      ],
+      "awards": "Gold Glove Award",
+      "stats": "Over 150 home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Kevin Shattenkirk",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Boston Bruins",
+      "pastTeams": [
+        "Colorado Avalanche",
+        "St. Louis Blues",
+        "Washington Capitals",
+        "New York Rangers",
+        "Tampa Bay Lightning",
+        "Anaheim Ducks"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "22",
+      "years": "2010-Present",
+      "achievements": "Stanley Cup Champion",
+      "knownFor": [
+        "Offensive defenseman, power play"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 400 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Home Alone",
+      "year": 1990,
+      "type": "Movie",
+      "characterName": "Kevin McCallister",
+      "characterDescription": "A young boy who is accidentally left home alone and must defend his house from burglars.",
+      "imdbUrl": "https://www.imdb.com/title/tt0099785/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Kevin Malone",
+      "characterDescription": "A lovable but bumbling accountant at Dunder Mifflin.",
+      "imdbUrl": "https://www.imdb.com/title/tt0386676/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Keep the change, ya filthy animal!",
+      "character": "Kevin McCallister",
+      "source": "Home Alone",
+      "year": 1990,
+      "context": "Kevin uses a movie clip to scare off a pizza delivery boy.",
+      "genre": "Comedy",
+      "impact": "This quote became iconic for its humor and clever use in the film."
+    },
+    {
+      "quote": "I just want to lie on the beach and eat hot dogs. That's all I've ever wanted.",
+      "character": "Kevin Malone",
+      "source": "The Office",
+      "year": 2005,
+      "context": "Kevin expresses his simple desires during a conversation with his coworkers.",
+      "genre": "Comedy",
+      "impact": "The quote highlights Kevin's endearing simplicity and has become a fan favorite."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 461,
+    "peak": 199,
+    "peakYear": 2016
+  },
+  "inspiration": {
+    "type": "haiku",
+    "content": "Kevin stands so tall,\nStrength and kindness in his heart,\nGuiding light for all.",
+    "author": null,
+    "context": "A haiku celebrating the qualities often associated with the name Kevin, such as strength and kindness."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ke-vin"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Kevin",
+      "script": "Latin",
+      "scriptName": "Kevin",
+      "pronunciation": "/ˈkeβin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κέβιν",
+      "script": "Greek",
+      "scriptName": "Κέβιν",
+      "pronunciation": "/ˈkevin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كيفن",
+      "script": "Arabic",
+      "scriptName": "كيفن",
+      "pronunciation": "/ˈkevin/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "凯文",
+      "script": "Han",
+      "scriptName": "凯文",
+      "pronunciation": "/kʰai̯˧˥ wən˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кевин",
+      "script": "Cyrillic",
+      "scriptName": "Кевин",
+      "pronunciation": "/ˈkʲevʲɪn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קווין",
+      "script": "Hebrew",
+      "scriptName": "קווין",
+      "pronunciation": "/ˈkevin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Kevin gained popularity in the 20th century, especially in English-speaking countries."
+    },
+    {
+      "tag": "International",
+      "confidence": 0.85,
+      "reason": "Kevin is a name that is used across various cultures and languages, making it internationally recognized."
+    },
+    {
+      "tag": "Strong",
+      "confidence": 0.8,
+      "reason": "The name Kevin is often associated with strength and leadership qualities."
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:16:22.674Z",
+  "v8EnrichedAt": "2025-11-03T23:16:23.659Z",
+  "songs": [
+    {
+      "title": "Kevin's Heart",
+      "artist": "J. Cole",
+      "year": 2018,
+      "genre": "Hip Hop",
+      "nameContext": "Features \"kevin\" in the song",
+      "description": "This song explores themes of temptation and personal growth, using the metaphor of a character named Kevin to discuss the challenges of staying true to oneself. The track has a reflective and introspective tone, ultimately conveying a message of resilience and self-awareness.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Kevin's%20Heart%20played%20by%20J.%20Cole",
+      "geniusUrl": "https://genius.com/search?q=Kevin's%20Heart%20J.%20Cole",
+      "verified": true
+    },
+    {
+      "title": "Kevin",
+      "artist": "Macklemore & Ryan Lewis ft. Leon Bridges",
+      "year": 2016,
+      "genre": "Hip Hop/Soul",
+      "nameContext": "Features \"kevin\" in the song",
+      "description": "The song tells a heartfelt story about a character named Kevin, focusing on themes of redemption and hope. It highlights the importance of community support and personal transformation, with soulful vocals and a powerful message about overcoming adversity.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Kevin%20played%20by%20Macklemore%20%26%20Ryan%20Lewis%20ft.%20Leon%20Bridges",
+      "geniusUrl": "https://genius.com/search?q=Kevin%20Macklemore%20%26%20Ryan%20Lewis%20ft.%20Leon%20Bridges",
+      "verified": true
+    },
+    {
+      "title": "Kevin's Song",
+      "artist": "The Walkmen",
+      "year": 2008,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"kevin\" in the song",
+      "description": "This track offers an uplifting narrative about a character named Kevin, celebrating friendship and the joy of shared experiences. The song's upbeat tempo and melodic instrumentation create a positive and nostalgic atmosphere, emphasizing the beauty of life's simple moments.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Kevin's%20Song%20played%20by%20The%20Walkmen",
+      "geniusUrl": "https://genius.com/search?q=Kevin's%20Song%20The%20Walkmen",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:16:30.270Z",
+  "songsEnrichedAt": "2025-11-03T23:16:30.270Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "34 fields",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

@@ -1,0 +1,75 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFF9FC"/>
+
+  
+    <defs>
+      <filter id="watercolor">
+        <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="5" result="turbulence"/>
+        <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G"/>
+        <feGaussianBlur stdDeviation="8"/>
+      </filter>
+    </defs>
+
+    <!-- Watercolor background blobs -->
+    <ellipse cx="200" cy="150" rx="250" ry="200" fill="#FFE6F0" filter="url(#watercolor)" opacity="0.6"/>
+    <ellipse cx="600" cy="400" rx="280" ry="220" fill="#E6DBFF" filter="url(#watercolor)" opacity="0.5"/>
+    <ellipse cx="400" cy="300" rx="300" ry="250" fill="#E6F7FF" filter="url(#watercolor)" opacity="0.5"/>
+    <ellipse cx="150" cy="450" rx="200" ry="180" fill="#FFF4E6" filter="url(#watercolor)" opacity="0.4"/>
+  
+
+  <!-- Flowers (maximalist) -->
+  <circle cx="570.9329526349089" cy="243.95489891792144" r="25.39393198634526" fill="#FFB3D9" opacity="0.4351603166975616"/>
+  <circle cx="293.10031680267434" cy="321.39798470378906" r="36.036975534217895" fill="#C9FFB3" opacity="0.6966837384662541"/>
+  <circle cx="771.432672628488" cy="500.78994293684053" r="12.682828459635518" fill="#FFB3D9" opacity="0.40856100794543765"/>
+  <circle cx="773.7148017112844" cy="465.20794310634005" r="11.005217639778342" fill="#FFD9B3" opacity="0.3489941464750267"/>
+  <circle cx="289.8052145477926" cy="136.27162997552654" r="19.73758891460676" fill="#B3D9FF" opacity="0.6332832371175539"/>
+  <circle cx="465.631754974496" cy="505.6494422125068" r="20.610372166219797" fill="#C9FFB3" opacity="0.5446607685199849"/>
+  <circle cx="328.3661845540127" cy="521.4454773783511" r="31.74544832072267" fill="#B3D9FF" opacity="0.39107770720064616"/>
+  <circle cx="472.6795060688463" cy="124.51025920342053" r="18.24040016241534" fill="#FFB3D9" opacity="0.42984261846130056"/>
+  <circle cx="635.3785145657197" cy="464.24119724316466" r="26.600622547475595" fill="#FFB3D9" opacity="0.32191899290783393"/>
+  <circle cx="512.5359239202946" cy="475.43323362089205" r="29.925586350607624" fill="#B3D9FF" opacity="0.37538199092322033"/>
+  <circle cx="22.09408404105151" cy="568.6416701490028" r="25.383857955993342" fill="#FFB3D9" opacity="0.37104109085608955"/>
+  <circle cx="412.92406888072367" cy="482.03797777985193" r="10.424945198412118" fill="#D8B2F2" opacity="0.5787196625993318"/>
+  <circle cx="79.74652075493793" cy="472.6182735329459" r="28.21578369461925" fill="#FFD9B3" opacity="0.5632923378590007"/>
+  <circle cx="24.10965998812369" cy="130.94248275556123" r="21.886961455789354" fill="#B3D9FF" opacity="0.6249819226347182"/>
+  <circle cx="649.3664317101845" cy="545.3980141840295" r="33.91343445704818" fill="#C9FFB3" opacity="0.4945189129453468"/>
+  <circle cx="93.76693665940863" cy="502.6305701671018" r="37.17745847474775" fill="#FFB3D9" opacity="0.4367633650545321"/>
+  <circle cx="131.34750451098716" cy="261.86206850129327" r="26.491700834985103" fill="#B3D9FF" opacity="0.68384961488294"/>
+  <circle cx="568.8119749057417" cy="129.36962524938752" r="14.323015145421287" fill="#C9FFB3" opacity="0.3950435126713036"/>
+  <circle cx="121.75759648070574" cy="143.1736817218421" r="35.57715448038861" fill="#C9FFB3" opacity="0.5472466334873215"/>
+  <circle cx="663.5353766402609" cy="37.5330700781475" r="20.7299898533802" fill="#FFB3D9" opacity="0.5805771780450553"/>
+
+  <!-- More decorative flowers -->
+  <circle cx="100" cy="100" r="40" fill="#FFB3D9" opacity="0.3"/>
+  <circle cx="110" cy="95" r="30" fill="#FF9EC9" opacity="0.4"/>
+  <circle cx="90" cy="105" r="25" fill="#FFC9E3" opacity="0.5"/>
+
+  <circle cx="700" cy="500" r="50" fill="#D8B2F2" opacity="0.3"/>
+  <circle cx="710" cy="490" r="35" fill="#C9A3E8" opacity="0.4"/>
+  <circle cx="690" cy="510" r="30" fill="#E6D7FA" opacity="0.5"/>
+
+  <circle cx="650" cy="150" r="45" fill="#B3D9FF" opacity="0.3"/>
+  <circle cx="660" cy="140" r="32" fill="#A3CEFF" opacity="0.4"/>
+
+  <!-- Content container with white overlay for readability -->
+  <rect x="100" y="200" width="600" height="250" rx="20" fill="white" opacity="0.85"/>
+
+  <!-- Name (large, elegant) -->
+  <text x="400" y="310" font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#7C3E94" text-anchor="middle">Liam</text>
+
+  <!-- Meaning -->
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="32" fill="#555" text-anchor="middle">Strong-willed warrior</text>
+
+  <!-- Origin -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="24" fill="#888" text-anchor="middle">Irish Origin</text>
+
+  <!-- SoulSeed Badge -->
+  <circle cx="750" cy="550" r="35" fill="#D8B2F2" opacity="0.9"/>
+  <text x="750" y="558" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Soul</text>
+  <text x="750" y="572" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Seed</text>
+
+  <!-- Decorative corner elements -->
+  <path d="M0,0 Q50,0 50,50" fill="none" stroke="#D8B2F2" stroke-width="3" opacity="0.4"/>
+  <path d="M800,600 Q750,600 750,550" fill="none" stroke="#FFB3D9" stroke-width="3" opacity="0.4"/>
+</svg>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Farmer - Greek origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>George</h1>
+      <div class="meaning">"Farmer"</div>
+      <div class="meta">
+        <div class="meta-item">Greek Origin</div>
+        <div class="meta-item">Male</div>
+        <div class="meta-item">Ranked #431</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by SoulSeed Writer</h3>
+      <p>Name Expert • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of George</h3>
+            <div class="subtitle">Expert Analysis by SoulSeed Writer</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>There's something undeniably timeless about the name George. It carries an air of strength and a sense of quiet dignity, evoking images of wise leaders, noble knights, and everyday heroes. Picture a young boy named George, confidently exploring the world with a twinkle in his eye, or an elderly gentleman, sharing tales of days gone by with wisdom and warmth. This is a name that has woven itself into the fabric of history and story, capturing the hearts of many across generations. </p><p>Perhaps it’s the classic simplicity of George that makes it so appealing. It's a name that doesn’t need to fight for attention; it holds its ground with grace and assurance. Whether you’re envisioning a future world leader, a creative genius, or a dedicated friend, George fits the bill perfectly, offering a strong foundation for any life path. The name George invites you to imagine a life of potential, grounded in tradition yet open to infinite possibility.</p><p>The name George has a rich and storied origin that traces back to ancient Greek roots. Derived from the Greek name Georgios, it translates to 'farmer' or 'earth-worker,' a nod to the agrarian societies that valued their connection to the land. This meaning may seem humble at first glance, but think about it: farmers are the backbone of civilization, nurturing the earth to sustain life. </p><p>Over the centuries, the name has evolved, maintaining its core meaning while accumulating layers of cultural and historical significance. From the fields of ancient Greece to the courts of European royalty, George has traveled through time, embodying resilience, leadership, and a deep-seated connection to the earth. Today, while we may live in a world far removed from those ancient farms, the essence of George—a name rooted in strength, endurance, and nurturing—is as relevant as ever.</p><p>Ah, George! A name that has graced the lives of many remarkable individuals. Take, for instance, Saint George, the patron saint of England, renowned for his legendary battle with a dragon. His story symbolizes the triumph of good over evil, and his name has since been synonymous with bravery and chivalric virtues.</p><p>Then there's George Clooney, the suave and charismatic actor and director who has charmed audiences worldwide. Known for his wit, philanthropy, and undeniable talent, Clooney embodies a modern-day renaissance man, proving that Georges are as versatile as they are enduring.</p><p>In the realm of innovation, we find George Lucas, the visionary filmmaker behind the Star Wars saga. His creativity has inspired generations, and his name is synonymous with epic storytelling and groundbreaking cinematic techniques. Whether on the battlefield, the big screen, or behind the camera, George is a name that carries a legacy of excellence.</p><p>The world of pop culture has its fair share of Georges who have left an indelible mark. On television, we have the lovable George Costanza from 'Seinfeld,' whose humorous antics and relatable quirks made him a beloved character. Though not always the hero, George Costanza's name is etched in the collective memory of TV history.</p><p>In literature, George Orwell stands tall with his influential works like '1984' and 'Animal Farm.' His writings explore themes of dystopia, power, and freedom, resonating with readers across generations. Through his pen, the name George became a beacon of social commentary and thought-provoking narratives.</p><p>These pop culture moments showcase the versatility of the name George, proving that it can fit seamlessly into stories of humor, depth, and everything in between. It’s a name that can take on many roles, much like the individuals who bear it.</p><p>When you think of someone named George, you might imagine a personality that’s as solid and dependable as the name itself. Georges often exude a sense of calm and assurance, embodying traits like reliability, kindness, and a subtle yet undeniable charisma. They’re the friends you can count on, the leaders who inspire by example, and the family members who lend a listening ear and sound advice.</p><p>Rooted in its meaning, people named George often have a connection to the natural world. They might be drawn to outdoor adventures or possess a keen sense of responsibility towards the environment. Their grounded nature and nurturing spirit make them excellent partners, friends, and community members, contributing positively to the world around them.</p><p>Overall, George is a name that suggests a balanced character—someone who is both strong and gentle, imaginative yet practical. It’s a name for those who lead with their hearts and minds, making the world a better place one day at a time.</p><p>George offers a delightful array of variations and nicknames, each bringing a unique flavor to the classic name. For those who crave a touch of familiarity and charm, 'Georgie' is a playful and endearing option, perfect for a young boy or a cherished friend. It carries a sense of warmth and affection, making it a popular choice among families and close circles.</p><p>If you're looking for something with a bit more continental flair, consider 'Georgio' or 'Jorge,' which add an exotic twist while still holding onto the name's roots. These variations reflect the name’s journey across different cultures and languages, showcasing its adaptability and global appeal.</p><p>For those who appreciate brevity, 'Geo' provides a modern, snappy alternative. It's sleek and contemporary, appealing to those who enjoy blending tradition with a touch of modern-day style. Ultimately, the variations and nicknames of George offer a versatile range to suit any personality or cultural background.</p><p>Interestingly, George currently sits at #431 in popularity rankings, revealing its enduring appeal even as name trends evolve. While it may not be at the top of the charts, this mid-range popularity suggests that George is a name that many appreciate but few overuse, offering a sense of individuality without straying too far from the familiar.</p><p>The name’s consistent presence in the rankings over the years highlights its timeless charm. It's a classic choice that defies fleeting trends, much like a trusted book that never goes out of style. For parents seeking a name that is recognizable yet not overly common, George strikes an ideal balance.</p><p>The steady nature of George’s popularity means it's a name that carries weight and history without feeling outdated or overused. For modern parents, it’s an opportunity to bestow a name with depth, character, and a touch of vintage cool.</p><p>When it comes to finding the perfect middle name for George, the possibilities are as varied as they are intriguing. Consider pairing George with a strong, single-syllable name like James or Lee for a classic and balanced combination. These choices create a harmonious flow and honor the timeless nature of both names.</p><p>If you're aiming for something a bit more adventurous, middle names like Alexander or Theodore add an element of grandeur and sophistication, enhancing the stately presence of George. These combinations evoke a sense of history and prestige, perfect for a child destined to make an impact.</p><p>For siblings, consider names that complement George's classic charm. Names like Charlotte, Henry, or Eleanor offer a cohesive family set, each carrying their own timeless elegance while harmonizing beautifully with George. These names create a familial narrative steeped in tradition and grace, ideal for a family that values history and heritage.</p><p>The journey of the name George is as fascinating as the name itself. With roots in ancient Greece, George began its journey as Georgios, symbolizing the revered occupation of farming. As it traveled through time and across borders, it found its way into the hearts of many cultures, evolving but always retaining its core essence.</p><p>In England, George gained immense popularity due in large part to Saint George, whose dragon-slaying legend struck a chord with the English spirit. Over time, it became a name synonymous with British royalty, gracing kings and princes alike. This royal connection added an aura of nobility and prestige to George, cementing its status as a name of leadership and honor.</p><p>The migration of the name didn’t stop there. It traveled across Europe, each country adding its own twist—Georg in Germany, Jorge in Spain, and Giorgio in Italy. It even crossed the Atlantic to become a beloved name in America, reflecting the melting pot of cultures that make up the modern world. George’s cultural journey is a testament to its universal appeal and timeless charm.</p><p>Choosing the name George might just be one of the most enduring gifts you can give your child. With its rich history, cultural significance, and timeless appeal, George offers a name that is both classic and meaningful. It's a choice that speaks to tradition while leaving room for individuality, making it perfect for parents who want a name with depth and character.</p><p>However, it's worth considering whether you want a name that is somewhat familiar yet not overly common. While George is less prevalent than some modern names, its classic nature ensures that it will never fall out of favor completely. If you're seeking a name that stands the test of time and offers a sense of rootedness, George is a wonderful option.</p><p>In the end, George is a name for those who value legacy, strength, and a connection to something larger than themselves. It's ideal for families who appreciate the stories and history behind a name, and who hope to pass on that sense of continuity and tradition to the next generation.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The name George has been a staple in Western culture, often associated with nobility and leadership. It has been borne by numerous kings and saints, most notably Saint George, the patron saint of England, who is celebrated for his legendary dragon-slaying heroics.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>George Washington</h4>
+        <div class="meta">1732-1799 • Political Leaders</div>
+        <p><strong>Significance:</strong> George Washington is a pivotal figure in American history, known for leading the country to independence and setting many presidential precedents.</p>
+        <ul><li>First President of the United States</li><li>Commander-in-Chief of the Continental Army</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>George Orwell</h4>
+        <div class="meta">1903-1950 • Authors</div>
+        <p><strong>Significance:</strong> George Orwell is celebrated for his profound insights into totalitarianism and social injustice.</p>
+        <ul><li>Author of '1984' and 'Animal Farm'</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>George Frideric Handel</h4>
+        <div class="meta">1685-1759 • Composers</div>
+        <p><strong>Significance:</strong> Handel's music, especially his oratorios, has had a lasting impact on Western classical music.</p>
+        <ul><li>Composed 'Messiah'</li><li>Influential Baroque composer</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>George Clooney</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Oceans Trilogy, ER</p>
+        <p><strong>Awards:</strong> Academy Awards, Golden Globe Awards</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>George Lucas</h4>
+        <div class="meta">Filmmaker</div>
+        <p><strong>Known for:</strong> Star Wars, Indiana Jones</p>
+        <p><strong>Awards:</strong> AFI Life Achievement Award, Academy Awards (nominations)</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>George Gervin</h4>
+        <div class="meta">NBA Basketball • San Antonio Spurs</div>
+        <p><strong>Position:</strong> Shooting Guard</p>
+        <p><strong>Achievements:</strong> NBA Scoring Champion, Hall of Fame</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>George Best</h4>
+        <div class="meta">European Soccer/Football • Manchester United</div>
+        <p><strong>Position:</strong> Winger</p>
+        <p><strong>Achievements:</strong> Ballon d'Or winner, European Cup winner</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>George Kittle</h4>
+        <div class="meta">American Football (NFL) • San Francisco 49ers</div>
+        <p><strong>Position:</strong> Tight End</p>
+        <p><strong>Achievements:</strong> Pro Bowl, All-Pro</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Georgios (Greek)</div><div class="tag">Jorge (Spanish)</div><div class="tag">Giorgio (Italian)</div><div class="tag">Georg (German)</div><div class="tag">György (Hungarian)</div><div class="tag">Georgea</div><div class="tag">Georgeo</div><div class="tag">Georgeus</div><div class="tag">Georgee</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Geo</div><div class="tag">Georgie</div><div class="tag">G</div><div class="tag">Geordie</div><div class="tag">Georg</div><div class="tag">Ge</div><div class="tag">Geor</div><div class="tag">Gey</div><div class="tag">Geoy</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_george_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_george_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_george_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_george_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_george_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_george_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_george_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_george_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Liam",
+    "gender": "male",
+    "origin": "Irish",
+    "meaning": "Strong-willed warrior",
+    "popularityRank": 1
+  },
+  {
+    "name": "Olivia",
+    "gender": "female",
+    "origin": "Latin",
+    "meaning": "Olive tree",
+    "popularityRank": 2
+  },
+  {
+    "name": "Noah",
+    "gender": "male",
+    "origin": "Hebrew",
+    "meaning": "Rest, comfort",
+    "popularityRank": 3
+  },
+  {
+    "name": "Emma",
+    "gender": "female",
+    "origin": "Germanic",
+    "meaning": "Universal",
+    "popularityRank": 4
+  },
+  {
+    "name": "Oliver",
+    "gender": "male",
+    "origin": "Latin",
+    "meaning": "Olive tree",
+    "popularityRank": 5
+  },
+  {
+    "name": "Amelia",
+    "gender": "female",
+    "origin": "Germanic",
+    "meaning": "Work",
+    "popularityRank": 6
+  },
+  {
+    "name": "Theodore",
+    "gender": "male",
+    "origin": "Greek",
+    "meaning": "Gift of God",
+    "popularityRank": 7
+  },
+  {
+    "name": "Charlotte",
+    "gender": "female",
+    "origin": "French",
+    "meaning": "Free woman",
+    "popularityRank": 8
+  },
+  {
+    "name": "James",
+    "gender": "male",
+    "origin": "Hebrew",
+    "meaning": "Supplanter",
+    "popularityRank": 9
+  },
+  {
+    "name": "Mia",
+    "gender": "female",
+    "origin": "Italian",
+    "meaning": "Mine",
+    "popularityRank": 10
+  }
+]

@@ -1,0 +1,299 @@
+{
+  "name": "luke",
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Bringer of light",
+  "culturalSignificance": "The name Luke has deep roots in Christian tradition as it is the name of one of the four Evangelists who authored the Gospel of Luke in the New Testament. Historically, it has been associated with enlightenment and wisdom, reflecting its meaning as 'bringer of light.'",
+  "modernContext": "Luke remains a popular name in English-speaking countries, often ranking in the top 100 names for boys. Its timeless appeal is bolstered by its simplicity and strong cultural associations.",
+  "literaryReferences": "Luke Skywalker, a central character in the Star Wars franchise, is one of the most iconic literary references, symbolizing heroism and the journey of self-discovery.",
+  "pronunciationGuide": "/luːk/",
+  "variations": [
+    "Lucas",
+    "Luca",
+    "Luc",
+    "Lukas",
+    "Luka",
+    "Lucius",
+    "Luciano",
+    "Lucian",
+    "Lukasz"
+  ],
+  "similarNames": [
+    "Mark",
+    "John",
+    "Matthew",
+    "Paul",
+    "James",
+    "Jack",
+    "Liam",
+    "Noah",
+    "Ethan"
+  ],
+  "nicknames": [
+    "Lukey",
+    "Lulu",
+    "Lukes",
+    "Lukey-boy",
+    "Lukester",
+    "Lukie",
+    "Lukito",
+    "Lukino",
+    "Lukeman"
+  ],
+  "personality": "People named Luke are often perceived as strong, reliable, and charismatic. They are seen as natural leaders with a light-hearted and approachable demeanor.",
+  "symbolism": "The name Luke symbolizes illumination, guidance, and wisdom, often associated with bringing light into the world.",
+  "funFact": "Luke is a name that has been consistently popular in both religious and secular contexts, making it a versatile choice across cultures and generations.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Luke the Evangelist",
+    "significance": "Saint Luke is traditionally believed to be the author of the Gospel of Luke and the Acts of the Apostles, contributing significantly to the New Testament.",
+    "keyStories": [
+      "The Annunciation",
+      "The Nativity",
+      "The Parable of the Good Samaritan"
+    ],
+    "spiritualMeaning": "Luke is often associated with healing and compassion, as he is considered the patron saint of physicians and surgeons.",
+    "historicalImpact": "The Gospel of Luke is one of the most detailed accounts of the life and teachings of Jesus, influencing Christian theology and practice."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Luke Howard",
+      "years": "1772-1864",
+      "category": "Scientists",
+      "achievements": [
+        "Developed the nomenclature system for clouds"
+      ],
+      "significance": "Known as the 'Father of Meteorology,' he was instrumental in the classification of cloud types.",
+      "notableWorks": [
+        "Essay on the Modification of Clouds"
+      ]
+    },
+    {
+      "fullName": "Luke Appling",
+      "years": "1907-1991",
+      "category": "Sports",
+      "achievements": [
+        "Two-time American League batting champion"
+      ],
+      "significance": "A Hall of Fame shortstop known for his exceptional hitting ability.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Luke Short",
+      "years": "1854-1893",
+      "category": "Western Figures",
+      "achievements": [
+        "Famous gunfighter and saloon owner"
+      ],
+      "significance": "A notable figure in the American Old West known for his involvement in the Dodge City War.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only way to do great work is to love what you do.",
+      "author": "Luke Johnson",
+      "context": "Inspiring entrepreneurs to pursue their passions.",
+      "year": 2010,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Luke Bryan",
+      "profession": "Musician",
+      "knownFor": [
+        "Country music hits",
+        "American Idol judge"
+      ],
+      "awards": "CMA Entertainer of the Year"
+    },
+    {
+      "name": "Luke Perry",
+      "profession": "Actor",
+      "knownFor": [
+        "Beverly Hills, 90210",
+        "Riverdale"
+      ],
+      "awards": "Teen Choice Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Luke Doncic",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Dallas Mavericks",
+      "pastTeams": [
+        "Real Madrid"
+      ],
+      "position": "Guard/Forward",
+      "jerseyNumber": "77",
+      "years": "2018-Present",
+      "achievements": "NBA Rookie of the Year, NBA All-Star",
+      "knownFor": [
+        "Triple-doubles",
+        "Clutch performances"
+      ],
+      "awards": "NBA All-Star",
+      "stats": "Averaging over 25 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Luke Shaw",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Manchester United",
+      "pastTeams": [
+        "Southampton"
+      ],
+      "position": "Left-back",
+      "jerseyNumber": "23",
+      "years": "2014-Present",
+      "achievements": "PFA Team of the Year",
+      "knownFor": [
+        "Defensive skills",
+        "Crossing ability"
+      ],
+      "awards": "Manchester United Players' Player of the Year",
+      "stats": "Over 150 appearances for Manchester United",
+      "verified": true,
+      "source": "PremierLeague.com"
+    },
+    {
+      "name": "Luke Kuechly",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Carolina Panthers",
+      "pastTeams": [],
+      "position": "Linebacker",
+      "jerseyNumber": "59",
+      "years": "2012-2019",
+      "achievements": "NFL Defensive Player of the Year",
+      "knownFor": [
+        "Tackling",
+        "Leadership"
+      ],
+      "awards": "NFL Defensive Player of the Year",
+      "stats": "Over 1,000 career tackles",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Luke Voit",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Milwaukee Brewers",
+      "pastTeams": [
+        "St. Louis Cardinals",
+        "New York Yankees",
+        "San Diego Padres"
+      ],
+      "position": "First baseman",
+      "jerseyNumber": "45",
+      "years": "2017-Present",
+      "achievements": "MLB home run leader (2020)",
+      "knownFor": [
+        "Power hitting"
+      ],
+      "awards": "MLB home run leader",
+      "stats": "Over 80 home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Luke Schenn",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Vancouver Canucks",
+      "pastTeams": [
+        "Toronto Maple Leafs",
+        "Philadelphia Flyers",
+        "Los Angeles Kings",
+        "Arizona Coyotes",
+        "Anaheim Ducks",
+        "Tampa Bay Lightning"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "2",
+      "years": "2008-Present",
+      "achievements": "Stanley Cup champion",
+      "knownFor": [
+        "Physical play",
+        "Defensive skills"
+      ],
+      "awards": "Stanley Cup champion",
+      "stats": "Over 800 NHL games",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "year": 1977,
+      "type": "Movie",
+      "characterName": "Luke Skywalker",
+      "characterDescription": "A young farm boy who becomes a Jedi Knight and helps defeat the Galactic Empire.",
+      "imdbUrl": "https://www.imdb.com/title/tt0076759/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I am a Jedi, like my father before me.",
+      "character": "Luke Skywalker",
+      "source": "Star Wars: Episode VI - Return of the Jedi",
+      "year": 1983,
+      "context": "Luke declares his allegiance to the Jedi Order before the Emperor.",
+      "genre": "Science Fiction",
+      "impact": "This quote signifies Luke's acceptance of his destiny and his commitment to the Jedi way."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 308,
+    "peak": 145,
+    "peakYear": 2005
+  },
+  "enrichmentVersion": "v6"
+}

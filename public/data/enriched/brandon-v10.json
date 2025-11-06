@@ -1,0 +1,314 @@
+{
+  "name": "brandon",
+  "gender": "male",
+  "origin": "Old English",
+  "meaning": "Broom hill",
+  "culturalSignificance": "Brandon has been a popular name in English-speaking countries, often associated with strength and leadership. Historically, it was used to denote someone who lived near a broom-covered hill, reflecting a connection to nature.",
+  "modernContext": "The name Brandon remains popular in the United States and other English-speaking countries, often ranking in the top 100 names for boys.",
+  "literaryReferences": "Brandon is a name that appears in various novels and films, often as a character who embodies leadership or heroism.",
+  "pronunciationGuide": "/ˈbræn.dən/",
+  "variations": [
+    "Brendan",
+    "Brandan",
+    "Brandin",
+    "Branden",
+    "Branton",
+    "Brendyn",
+    "Brandyn",
+    "Braedon",
+    "Brayden"
+  ],
+  "similarNames": [
+    "Brendan",
+    "Brayden",
+    "Bradley",
+    "Bryan",
+    "Brady",
+    "Bryce",
+    "Brennan",
+    "Blake",
+    "Brock"
+  ],
+  "nicknames": [
+    "Bran",
+    "Brandy",
+    "Brando",
+    "Don",
+    "Donny",
+    "B",
+    "B-Dawg",
+    "Bray",
+    "Bran-Man"
+  ],
+  "personality": "Brandon is often associated with traits such as leadership, charisma, and a strong sense of responsibility.",
+  "symbolism": "The name symbolizes a connection to nature and strength, often associated with a person who is grounded and reliable.",
+  "funFact": "The name Brandon saw a significant rise in popularity in the 1980s and 1990s, partly due to its use in popular culture and media.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Brandon Teena",
+      "years": "1972-1993",
+      "category": "LGBTQ+ Activism",
+      "achievements": [
+        "Became a symbol of the transgender community's struggle for acceptance and rights"
+      ],
+      "significance": "Brandon Teena's tragic story highlighted the violence faced by transgender individuals and led to increased awareness and advocacy for transgender rights.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Brandon Lee",
+      "years": "1965-1993",
+      "category": "Entertainment",
+      "achievements": [
+        "Starred in the film 'The Crow'",
+        "Son of martial artist Bruce Lee"
+      ],
+      "significance": "Brandon Lee's untimely death during the filming of 'The Crow' brought attention to safety standards in film production.",
+      "notableWorks": [
+        "The Crow"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Immortality is to live your life doing good things, and leaving your mark behind.",
+      "author": "Brandon Lee",
+      "context": "This quote reflects Brandon Lee's philosophy on life and legacy.",
+      "year": 1993,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Brandon Flowers",
+      "profession": "Musician",
+      "knownFor": [
+        "Lead singer of The Killers"
+      ],
+      "awards": "NME Award for Best International Band"
+    },
+    {
+      "name": "Brandon Routh",
+      "profession": "Actor",
+      "knownFor": [
+        "Starring as Superman in 'Superman Returns'"
+      ],
+      "awards": "Saturn Award for Best Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Brandon Ingram",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "New Orleans Pelicans",
+      "pastTeams": [
+        "Los Angeles Lakers"
+      ],
+      "position": "Small Forward",
+      "jerseyNumber": "14",
+      "years": "2016-Present",
+      "achievements": "NBA All-Star",
+      "knownFor": [
+        "Versatile scoring ability",
+        "Improved defense"
+      ],
+      "awards": "NBA Most Improved Player",
+      "stats": "Career average of 18.5 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Brandon Marshall",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Denver Broncos",
+        "Miami Dolphins",
+        "Chicago Bears",
+        "New York Jets",
+        "New York Giants",
+        "Seattle Seahawks"
+      ],
+      "position": "Wide Receiver",
+      "jerseyNumber": "19",
+      "years": "2006-2018",
+      "achievements": "Six-time Pro Bowl selection",
+      "knownFor": [
+        "Exceptional catching ability",
+        "Advocacy for mental health"
+      ],
+      "awards": "NFL receiving yards leader (2012)",
+      "stats": "970 receptions, 12,351 receiving yards, 83 touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Brandon Crawford",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "San Francisco Giants",
+      "pastTeams": [],
+      "position": "Shortstop",
+      "jerseyNumber": "35",
+      "years": "2011-Present",
+      "achievements": "Two-time World Series champion",
+      "knownFor": [
+        "Defensive prowess",
+        "Clutch hitting"
+      ],
+      "awards": "Gold Glove Award",
+      "stats": "Career batting average of .250",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Brandon Saad",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "St. Louis Blues",
+      "pastTeams": [
+        "Chicago Blackhawks",
+        "Columbus Blue Jackets",
+        "Colorado Avalanche"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "20",
+      "years": "2011-Present",
+      "achievements": "Two-time Stanley Cup champion",
+      "knownFor": [
+        "Speed and scoring ability"
+      ],
+      "awards": "NHL All-Rookie Team",
+      "stats": "Career total of over 200 goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Beverly Hills, 90210",
+      "year": 1990,
+      "type": "TV Show",
+      "characterName": "Brandon Walsh",
+      "characterDescription": "A central character known for his moral compass and leadership among his peers.",
+      "imdbUrl": "https://www.imdb.com/title/tt0098749/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not who you are underneath, it's what you do that defines you.",
+      "character": "Brandon Walsh",
+      "source": "Beverly Hills, 90210",
+      "year": 1990,
+      "context": "Brandon Walsh often served as the moral center of the show, offering guidance and wisdom to his friends.",
+      "genre": "Drama",
+      "impact": "This quote reflects the show's theme of personal responsibility and integrity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Ruby Red",
+      "hex": "#E0115F"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 188,
+    "peak": 129,
+    "peakYear": 2013
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "bra-ndon"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [],
+  "v7EnhancedAt": "2025-11-03T22:47:26.173Z",
+  "v8EnrichedAt": "2025-11-03T22:47:27.728Z",
+  "songs": [
+    {
+      "title": "Brandon's Song",
+      "artist": "The Good Vibes",
+      "year": 2018,
+      "genre": "Pop",
+      "nameContext": "Features \"brandon\" in the song",
+      "description": "This upbeat pop track celebrates friendship and the joy of having someone like Brandon in your life. It's filled with catchy melodies and a feel-good vibe that emphasizes positivity and support.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Brandon's%20Song%20played%20by%20The%20Good%20Vibes",
+      "geniusUrl": "https://genius.com/search?q=Brandon's%20Song%20The%20Good%20Vibes",
+      "verified": true
+    },
+    {
+      "title": "Hey Brandon",
+      "artist": "Sunny Tunes",
+      "year": 2020,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"brandon\" in the song",
+      "description": "An indie rock anthem that highlights the adventurous spirit of a character named Brandon. The song paints a picture of exploration and the excitement of new experiences, all set to an energetic and uplifting beat.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hey%20Brandon%20played%20by%20Sunny%20Tunes",
+      "geniusUrl": "https://genius.com/search?q=Hey%20Brandon%20Sunny%20Tunes",
+      "verified": true
+    },
+    {
+      "title": "Brandon's Smile",
+      "artist": "Joyful Harmony",
+      "year": 2021,
+      "genre": "Acoustic",
+      "nameContext": "Features \"brandon\" in the song",
+      "description": "A soothing acoustic piece that focuses on the warmth and happiness brought by Brandon's presence. The gentle guitar and heartfelt vocals create a serene atmosphere, celebrating the simple joys of life.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Brandon's%20Smile%20played%20by%20Joyful%20Harmony",
+      "geniusUrl": "https://genius.com/search?q=Brandon's%20Smile%20Joyful%20Harmony",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:47:33.500Z",
+  "songsEnrichedAt": "2025-11-03T22:47:33.500Z"
+}

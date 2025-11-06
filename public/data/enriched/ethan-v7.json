@@ -1,0 +1,297 @@
+{
+  "name": "ethan",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Strong",
+  "culturalSignificance": "The name Ethan has been a popular choice in many cultures due to its biblical roots, appearing in the Old Testament as a wise man. It symbolizes strength and resilience, which has contributed to its enduring popularity across various cultures.",
+  "modernContext": "Ethan has consistently been a popular name in English-speaking countries, often ranking in the top 10 for boys' names in the United States throughout the early 21st century.",
+  "literaryReferences": "Ethan Frome, the protagonist of Edith Wharton's novel 'Ethan Frome', is a notable literary reference.",
+  "pronunciationGuide": "/ˈiːθən/",
+  "variations": [
+    "Eitan",
+    "Etan",
+    "Eytan",
+    "Aitan",
+    "Aithan",
+    "Ithan",
+    "Ethen",
+    "Eithan",
+    "Ethyn"
+  ],
+  "similarNames": [
+    "Nathan",
+    "Evan",
+    "Ian",
+    "Eli",
+    "Noah",
+    "Liam",
+    "Logan",
+    "Owen",
+    "Aidan"
+  ],
+  "nicknames": [
+    "E",
+    "Ethy",
+    "Than",
+    "Etty",
+    "E-man",
+    "EJ",
+    "Ethy-boy",
+    "Eth",
+    "Ethanator"
+  ],
+  "personality": "People named Ethan are often perceived as strong, reliable, and intelligent. They are seen as leaders who are capable of making wise decisions.",
+  "symbolism": "Ethan symbolizes strength, wisdom, and reliability, often associated with a steadfast and resilient nature.",
+  "funFact": "Ethan was the name of a wise man in the Bible, known for his wisdom and musical talent.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Ethan the Ezrahite",
+    "significance": "Ethan the Ezrahite is mentioned in the Bible as a wise man, known for his wisdom and possibly his musical contributions.",
+    "keyStories": [
+      "Ethan is mentioned in the Bible in 1 Kings 4:31 and Psalm 89, attributed to him."
+    ],
+    "spiritualMeaning": "The name Ethan is associated with wisdom and strength in spiritual contexts.",
+    "historicalImpact": "Ethan's wisdom is highlighted in the Bible, making him a figure of intellectual and spiritual significance."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ethan Allen",
+      "years": "1738-1789",
+      "category": "Military Leader",
+      "achievements": [
+        "Leader of the Green Mountain Boys",
+        "Captured Fort Ticonderoga"
+      ],
+      "significance": "Ethan Allen was a key figure in the American Revolutionary War, known for his leadership and strategic skills.",
+      "notableWorks": [
+        "Capture of Fort Ticonderoga"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "In the long run, the sharpest weapon of all is a kind and gentle spirit.",
+      "author": "Ethan Allen",
+      "context": "This quote reflects Ethan Allen's belief in the power of kindness and gentleness.",
+      "year": 1780,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Ethan Hawke",
+      "profession": "Actor",
+      "knownFor": [
+        "Dead Poets Society",
+        "Training Day",
+        "Before Sunrise"
+      ],
+      "awards": "Nominated for four Academy Awards and a Tony Award"
+    },
+    {
+      "name": "Ethan Coen",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "Fargo",
+        "No Country for Old Men",
+        "The Big Lebowski"
+      ],
+      "awards": "Four-time Academy Award winner"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ethan Happ",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Currently Free Agent",
+      "pastTeams": [
+        "Olympiacos",
+        "Vanoli Cremona"
+      ],
+      "position": "Center",
+      "jerseyNumber": "22",
+      "years": "2019-Present",
+      "achievements": "All-Big Ten First Team",
+      "knownFor": [
+        "Strong defensive skills and rebounding"
+      ],
+      "awards": "NABC Defensive Player of the Year",
+      "stats": "Averaged 17.3 points and 10.1 rebounds in college",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Ethan Ampadu",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Leeds United",
+      "pastTeams": [
+        "Chelsea",
+        "Sheffield United",
+        "RB Leipzig"
+      ],
+      "position": "Defender",
+      "jerseyNumber": "4",
+      "years": "2016-Present",
+      "achievements": "Played for Wales in UEFA Euro 2020",
+      "knownFor": [
+        "Versatile defensive skills"
+      ],
+      "awards": "Young Player of the Year at Chelsea",
+      "stats": "Regular starter for Wales national team",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Ethan Pocic",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Cleveland Browns",
+      "pastTeams": [
+        "Seattle Seahawks"
+      ],
+      "position": "Center",
+      "jerseyNumber": "55",
+      "years": "2017-Present",
+      "achievements": "Starting center for the Browns",
+      "knownFor": [
+        "Strong blocking and leadership on the offensive line"
+      ],
+      "awards": "Second-team All-SEC",
+      "stats": "Started 13 games in 2022 season",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ethan Katz",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Chicago White Sox (Pitching Coach)",
+      "pastTeams": [
+        "San Francisco Giants (Coach)"
+      ],
+      "position": "Pitching Coach",
+      "jerseyNumber": null,
+      "years": "2021-Present",
+      "achievements": "Developed successful pitching strategies",
+      "knownFor": [
+        "Coaching success and player development"
+      ],
+      "awards": "None",
+      "stats": "Coached pitchers to improved ERA",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Ethan Bear",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Vancouver Canucks",
+      "pastTeams": [
+        "Edmonton Oilers",
+        "Carolina Hurricanes"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "74",
+      "years": "2017-Present",
+      "achievements": "NHL All-Rookie Team",
+      "knownFor": [
+        "Strong defensive play and puck handling"
+      ],
+      "awards": "NHL All-Rookie Team",
+      "stats": "Career high in points during 2019-2020 season",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Mission: Impossible - Ghost Protocol",
+      "year": 2011,
+      "type": "Movie",
+      "characterName": "Ethan Hunt",
+      "characterDescription": "A highly skilled secret agent working for the Impossible Mission Force (IMF).",
+      "imdbUrl": "https://www.imdb.com/title/tt1229238/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Your mission, should you choose to accept it...",
+      "character": "Ethan Hunt",
+      "source": "Mission: Impossible - Ghost Protocol",
+      "year": 2011,
+      "context": "This iconic line is part of the briefing for every mission Ethan Hunt undertakes.",
+      "genre": "Action",
+      "impact": "This quote is iconic for its association with the Mission: Impossible series, symbolizing the high-stakes and secretive nature of the missions."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 473,
+    "peak": 117,
+    "peakYear": 2009
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "et-han"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    },
+    {
+      "tag": "Strong",
+      "confidence": 0.85,
+      "reason": "Contains 2 strong indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:51:09.799Z"
+}

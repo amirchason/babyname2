@@ -1,0 +1,363 @@
+{
+  "name": "jonathan",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God has given",
+  "culturalSignificance": "Jonathan is a name with deep biblical roots, often associated with loyalty and friendship due to the story of Jonathan, the son of King Saul, and his friendship with David. It has been a popular name in various cultures, symbolizing divine blessing and generosity.",
+  "modernContext": "Jonathan remains a popular name in many English-speaking countries and is often chosen for its classic and timeless appeal. It ranks consistently in baby name charts, reflecting its enduring popularity.",
+  "literaryReferences": "Jonathan Swift, the author of 'Gulliver's Travels', is a notable literary figure bearing this name.",
+  "pronunciationGuide": "/ˈdʒɒnəθən/",
+  "variations": [
+    "Jonatan",
+    "Yonatan",
+    "Jonathon",
+    "Johnathan",
+    "Jhonatan",
+    "Jonatanas",
+    "Gionata",
+    "Ionatan",
+    "Yonathan"
+  ],
+  "similarNames": [
+    "Nathan",
+    "John",
+    "Ethan",
+    "Joseph",
+    "Joshua",
+    "James",
+    "Jordan",
+    "Jason",
+    "Jacob"
+  ],
+  "nicknames": [
+    "Jon",
+    "Johnny",
+    "Jono",
+    "Nate",
+    "Jonty",
+    "Jona",
+    "Jo",
+    "Jay",
+    "Joey"
+  ],
+  "personality": "People named Jonathan are often perceived as intelligent, loyal, and trustworthy. They are seen as dependable friends and natural leaders.",
+  "symbolism": "The name Jonathan symbolizes divine gift and generosity, often associated with loyalty and friendship.",
+  "funFact": "The name Jonathan became particularly popular in the United States during the 1970s and 1980s, reaching its peak in the 1980s.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Jonathan, son of King Saul",
+    "significance": "Jonathan is known for his deep friendship with David, who would later become king. His loyalty and selflessness are celebrated in religious texts.",
+    "keyStories": [
+      "Jonathan's friendship with David in the Bible"
+    ],
+    "spiritualMeaning": "Represents loyalty, friendship, and divine blessing.",
+    "historicalImpact": "Jonathan's story has been a moral lesson in friendship and loyalty throughout religious teachings."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jonathan Swift",
+      "years": "1667-1745",
+      "category": "Literature",
+      "achievements": [
+        "Author of 'Gulliver's Travels'",
+        "Dean of St Patrick's Cathedral, Dublin"
+      ],
+      "significance": "Jonathan Swift is one of the most prominent satirists in English literature.",
+      "notableWorks": [
+        "Gulliver's Travels",
+        "A Modest Proposal"
+      ]
+    },
+    {
+      "fullName": "Jonathan Edwards",
+      "years": "1703-1758",
+      "category": "Theology",
+      "achievements": [
+        "Leading figure in the First Great Awakening",
+        "President of Princeton University"
+      ],
+      "significance": "Edwards was a key figure in the religious revival movement in America.",
+      "notableWorks": [
+        "Sinners in the Hands of an Angry God"
+      ]
+    },
+    {
+      "fullName": "Jonathan Trumbull",
+      "years": "1710-1785",
+      "category": "Political Leaders",
+      "achievements": [
+        "Governor of Connecticut",
+        "Supporter of the American Revolution"
+      ],
+      "significance": "Trumbull was one of the few colonial governors who supported the American Revolution.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Vision is the art of seeing what is invisible to others.",
+      "author": "Jonathan Swift",
+      "context": "This quote reflects Swift's ability to perceive and critique societal norms.",
+      "year": 1706,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Jonathan Franzen",
+      "profession": "Author",
+      "knownFor": [
+        "Novels such as 'The Corrections' and 'Freedom'"
+      ],
+      "awards": "National Book Award"
+    },
+    {
+      "name": "Jonathan Ive",
+      "profession": "Designer",
+      "knownFor": [
+        "Chief Design Officer at Apple Inc.",
+        "Designing iconic Apple products"
+      ],
+      "awards": "Knight Commander of the Order of the British Empire"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jonathan Isaac",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Orlando Magic",
+      "pastTeams": [],
+      "position": "Forward",
+      "jerseyNumber": "1",
+      "years": "2017-Present",
+      "achievements": "Known for his defensive skills and versatility on the court.",
+      "knownFor": [
+        "Strong defensive play",
+        "Versatile forward"
+      ],
+      "awards": "NBA All-Defensive Second Team",
+      "stats": "Averaged 11.9 points, 6.8 rebounds per game in 2019-2020 season",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Jonathan Toews",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Chicago Blackhawks",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "19",
+      "years": "2007-Present",
+      "achievements": "Three-time Stanley Cup champion, Conn Smythe Trophy winner",
+      "knownFor": [
+        "Leadership as team captain",
+        "Clutch playoff performances"
+      ],
+      "awards": "Conn Smythe Trophy, Selke Trophy",
+      "stats": "Over 800 career points",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Jonathan Villar",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "New York Mets",
+      "pastTeams": [
+        "Houston Astros",
+        "Milwaukee Brewers",
+        "Baltimore Orioles",
+        "Miami Marlins"
+      ],
+      "position": "Infielder",
+      "jerseyNumber": "1",
+      "years": "2013-Present",
+      "achievements": "Led MLB in stolen bases in 2016",
+      "knownFor": [
+        "Speed and versatility",
+        "Strong base running"
+      ],
+      "awards": "MLB Stolen Base Leader",
+      "stats": "Over 200 stolen bases in career",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Jonathan Taylor",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Indianapolis Colts",
+      "pastTeams": [],
+      "position": "Running Back",
+      "jerseyNumber": "28",
+      "years": "2020-Present",
+      "achievements": "Pro Bowl selection, NFL rushing yards leader",
+      "knownFor": [
+        "Explosive running style",
+        "Consistent rushing performance"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "Over 1,800 rushing yards in 2021 season",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jonathan dos Santos",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "La Liga",
+      "team": "Club América",
+      "pastTeams": [
+        "Barcelona",
+        "Villarreal",
+        "LA Galaxy"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "6",
+      "years": "2009-Present",
+      "achievements": "CONCACAF Gold Cup winner with Mexico",
+      "knownFor": [
+        "Technical skills",
+        "Midfield versatility"
+      ],
+      "awards": "CONCACAF Gold Cup Best XI",
+      "stats": "Over 200 club appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Jonathan Byers",
+      "characterDescription": "A thoughtful and introverted teenager who is passionate about photography and deeply cares for his family.",
+      "imdbUrl": "https://www.imdb.com/title/tt4574334/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You shouldn't like things because people tell you you're supposed to.",
+      "character": "Jonathan Byers",
+      "source": "Stranger Things",
+      "year": 2016,
+      "context": "Jonathan says this to his brother Will, encouraging him to be true to himself.",
+      "genre": "Science Fiction",
+      "impact": "This quote resonates with audiences for its message about individuality and authenticity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 492,
+    "peak": 137,
+    "peakYear": 2012
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 3,
+    "breakdown": "jonathan"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Contains 3 classic indicators"
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:30:29.891Z",
+  "v8EnrichedAt": "2025-11-03T22:30:31.123Z",
+  "songs": [
+    {
+      "title": "Jonathan",
+      "artist": "Christine Lavin",
+      "year": 1986,
+      "genre": "Folk",
+      "nameContext": "Features \"jonathan\" in the song",
+      "description": "This song tells a heartwarming story about a person named Jonathan, focusing on themes of friendship and personal growth. The narrative unfolds with gentle acoustic melodies, creating a comforting and uplifting atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jonathan%20played%20by%20Christine%20Lavin",
+      "geniusUrl": "https://genius.com/search?q=Jonathan%20Christine%20Lavin",
+      "verified": true
+    },
+    {
+      "title": "Jonathan",
+      "artist": "Indigo Girls",
+      "year": 2015,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"jonathan\" in the song",
+      "description": "A reflective and positive song that explores the bond between the narrator and Jonathan. The track features harmonious vocals and acoustic instrumentation, celebrating the strength and support found in meaningful relationships.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jonathan%20played%20by%20Indigo%20Girls",
+      "geniusUrl": "https://genius.com/search?q=Jonathan%20Indigo%20Girls",
+      "verified": true
+    },
+    {
+      "title": "Jonathan's Song",
+      "artist": "Randy Stonehill",
+      "year": 1976,
+      "genre": "Contemporary Christian",
+      "nameContext": "Features \"jonathan\" in the song",
+      "description": "This song is a tribute to a person named Jonathan, highlighting themes of hope and inspiration. The lyrics convey a message of encouragement and faith, set against a backdrop of melodic guitar and soothing vocals.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jonathan's%20Song%20played%20by%20Randy%20Stonehill",
+      "geniusUrl": "https://genius.com/search?q=Jonathan's%20Song%20Randy%20Stonehill",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:30:39.140Z",
+  "songsEnrichedAt": "2025-11-03T22:30:39.140Z"
+}

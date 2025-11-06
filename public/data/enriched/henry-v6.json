@@ -1,0 +1,268 @@
+{
+  "name": "henry",
+  "gender": "male",
+  "origin": "German",
+  "meaning": "Ruler of the home",
+  "culturalSignificance": "The name Henry has been borne by many kings and rulers, notably in England and France, symbolizing leadership and authority. It has been a popular name among European royalty and nobility, reflecting its historical prestige and influence.",
+  "modernContext": "Henry remains a popular name in many English-speaking countries, often chosen for its classic and timeless appeal. It consistently ranks high in baby name charts, reflecting its enduring popularity.",
+  "literaryReferences": "Henry is a common name in literature, appearing in works such as Shakespeare's 'Henry V' and 'Henry IV', highlighting its historical and cultural significance.",
+  "pronunciationGuide": "/ˈhɛn.ri/",
+  "variations": [
+    "Henrik",
+    "Henri",
+    "Enrique",
+    "Heinrich",
+    "Enrico",
+    "Harry",
+    "Hal",
+    "Hendrik",
+    "Hank"
+  ],
+  "similarNames": [
+    "Harry",
+    "Harold",
+    "Hank",
+    "Harrison",
+    "Hugo",
+    "Harvey",
+    "Hendrick",
+    "Harris",
+    "Howard"
+  ],
+  "nicknames": [
+    "Hank",
+    "Harry",
+    "Hal",
+    "Hen",
+    "Henny",
+    "Rico",
+    "Rick",
+    "Ricky",
+    "Heinz"
+  ],
+  "personality": "People named Henry are often perceived as strong, reliable, and authoritative. They are seen as natural leaders with a sense of responsibility and a calm demeanor.",
+  "symbolism": "Henry symbolizes leadership, strength, and stability, often associated with rulers and influential figures throughout history.",
+  "funFact": "Henry VIII of England is one of the most famous historical figures with this name, known for his six marriages and significant impact on English history.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Henry VIII",
+      "years": "1491-1547",
+      "category": "Political Leaders",
+      "achievements": [
+        "King of England",
+        "Initiated the English Reformation"
+      ],
+      "significance": "Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church.",
+      "notableWorks": [
+        "Act of Supremacy"
+      ]
+    },
+    {
+      "fullName": "Henry Ford",
+      "years": "1863-1947",
+      "category": "Industrialists",
+      "achievements": [
+        "Founder of Ford Motor Company",
+        "Revolutionized automobile industry with assembly line production"
+      ],
+      "significance": "Henry Ford's innovations in manufacturing made cars affordable for the average American.",
+      "notableWorks": [
+        "Model T"
+      ]
+    },
+    {
+      "fullName": "Henry David Thoreau",
+      "years": "1817-1862",
+      "category": "Philosophers",
+      "achievements": [
+        "Author of 'Walden'",
+        "Advocate of civil disobedience"
+      ],
+      "significance": "Thoreau's work on naturalism and civil rights has had a lasting impact on environmentalism and social justice.",
+      "notableWorks": [
+        "Walden",
+        "Civil Disobedience"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The mass of men lead lives of quiet desperation.",
+      "author": "Henry David Thoreau",
+      "context": "From Thoreau's book 'Walden', reflecting on the unfulfilled lives of many people.",
+      "year": 1854,
+      "category": "Philosophy"
+    },
+    {
+      "quote": "Whether you think you can, or you think you can't – you're right.",
+      "author": "Henry Ford",
+      "context": "A motivational quote emphasizing the power of belief and mindset.",
+      "year": 1947,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Henry Cavill",
+      "profession": "Actor",
+      "knownFor": [
+        "Portraying Superman in the DC Extended Universe"
+      ],
+      "awards": "MTV Movie Award for Best Hero"
+    },
+    {
+      "name": "Henry Kissinger",
+      "profession": "Diplomat",
+      "knownFor": [
+        "U.S. Secretary of State",
+        "Nobel Peace Prize laureate"
+      ],
+      "awards": "Nobel Peace Prize"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Thierry Henry",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Retired",
+      "pastTeams": [
+        "Arsenal",
+        "Barcelona",
+        "New York Red Bulls"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "14",
+      "years": "1994-2014",
+      "achievements": "FIFA World Cup winner, UEFA Champions League winner",
+      "knownFor": [
+        "Prolific goal-scoring ability",
+        "Arsenal's all-time top scorer"
+      ],
+      "awards": "FIFA World Player of the Year runner-up",
+      "stats": "228 goals for Arsenal",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Derrick Henry",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Tennessee Titans",
+      "pastTeams": [],
+      "position": "Running Back",
+      "jerseyNumber": "22",
+      "years": "2016-Present",
+      "achievements": "NFL Offensive Player of the Year",
+      "knownFor": [
+        "Powerful running style",
+        "Leading the NFL in rushing yards"
+      ],
+      "awards": "Heisman Trophy",
+      "stats": "Over 7,000 rushing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Henry Cejudo",
+      "profession": "Athlete",
+      "sport": "Mixed Martial Arts",
+      "league": "UFC",
+      "team": "Retired",
+      "pastTeams": [],
+      "position": "Flyweight/Bantamweight",
+      "jerseyNumber": "",
+      "years": "2013-2020",
+      "achievements": "UFC Flyweight and Bantamweight Champion",
+      "knownFor": [
+        "Winning Olympic gold in wrestling",
+        "Double UFC champion"
+      ],
+      "awards": "Olympic Gold Medal",
+      "stats": "16 wins, 2 losses",
+      "verified": true,
+      "source": "UFC.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Henry V",
+      "year": 1989,
+      "type": "Movie",
+      "characterName": "King Henry V",
+      "characterDescription": "A young king who leads his army to victory at the Battle of Agincourt.",
+      "imdbUrl": "https://www.imdb.com/title/tt0097499/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The Good Wife",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Henry Rindell",
+      "characterDescription": "A character involved in a financial scandal.",
+      "imdbUrl": "https://www.imdb.com/title/tt1442462/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Once more unto the breach, dear friends, once more.",
+      "character": "King Henry V",
+      "source": "Henry V",
+      "year": 1989,
+      "context": "King Henry V rallies his troops before the Battle of Harfleur.",
+      "genre": "Drama",
+      "impact": "This quote is iconic for its motivational and rallying cry in the face of adversity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 173,
+    "peak": 112,
+    "peakYear": 2014
+  },
+  "enrichmentVersion": "v6"
+}

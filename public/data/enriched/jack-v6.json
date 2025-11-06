@@ -1,0 +1,319 @@
+{
+  "name": "jack",
+  "gender": "male",
+  "origin": "English",
+  "meaning": "God is gracious",
+  "culturalSignificance": "The name Jack has been a popular given name in English-speaking countries for centuries. It is often associated with the archetypal 'everyman' character in literature and folklore, symbolizing a relatable, down-to-earth personality.",
+  "modernContext": "Jack remains a popular name for boys, consistently ranking high in baby name charts across the United States and the United Kingdom. Its simplicity and strong sound make it a timeless choice.",
+  "literaryReferences": "Jack is a common name in literature, appearing in nursery rhymes like 'Jack and Jill' and fairy tales such as 'Jack and the Beanstalk'.",
+  "pronunciationGuide": "/dʒæk/",
+  "variations": [
+    "John",
+    "Jacques",
+    "Joaquim",
+    "Giovanni",
+    "Juan",
+    "Sean",
+    "Evan",
+    "Ian",
+    "Ivan"
+  ],
+  "similarNames": [
+    "Jake",
+    "James",
+    "Jackson",
+    "Jacob",
+    "Jace",
+    "Jaxon",
+    "Jay",
+    "Jared",
+    "Jasper"
+  ],
+  "nicknames": [
+    "Jackie",
+    "Jay",
+    "Jax",
+    "J",
+    "Jake",
+    "Jace",
+    "Jock",
+    "Jacks",
+    "Jacko"
+  ],
+  "personality": "People named Jack are often perceived as strong, reliable, and friendly. They are seen as approachable and down-to-earth, with a good sense of humor.",
+  "symbolism": "The name Jack symbolizes resilience and versatility, often associated with the 'jack-of-all-trades' archetype.",
+  "funFact": "The name Jack was originally a diminutive of John, but it has become a standalone name over the centuries.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jack London",
+      "years": "1876-1916",
+      "category": "Authors",
+      "achievements": [
+        "Wrote 'The Call of the Wild'",
+        "Wrote 'White Fang'"
+      ],
+      "significance": "Jack London was a pioneering American novelist and journalist known for his adventure stories.",
+      "notableWorks": [
+        "The Call of the Wild",
+        "White Fang"
+      ]
+    },
+    {
+      "fullName": "Jack Kerouac",
+      "years": "1922-1969",
+      "category": "Authors",
+      "achievements": [
+        "Pioneered the Beat Generation",
+        "Wrote 'On the Road'"
+      ],
+      "significance": "Jack Kerouac was an influential American novelist and poet, a leading figure of the Beat Generation.",
+      "notableWorks": [
+        "On the Road",
+        "The Dharma Bums"
+      ]
+    },
+    {
+      "fullName": "Jackie Robinson",
+      "years": "1919-1972",
+      "category": "Sports",
+      "achievements": [
+        "First African American to play in MLB",
+        "Rookie of the Year 1947"
+      ],
+      "significance": "Jackie Robinson broke the baseball color line when he debuted with the Brooklyn Dodgers.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The function of man is to live, not to exist.",
+      "author": "Jack London",
+      "context": "This quote reflects London's philosophy on life and adventure.",
+      "year": 1903,
+      "category": "Philosophy"
+    },
+    {
+      "quote": "The road is life.",
+      "author": "Jack Kerouac",
+      "context": "From 'On the Road', capturing the spirit of the Beat Generation.",
+      "year": 1957,
+      "category": "Literature"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Jack Nicholson",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'The Shining', 'One Flew Over the Cuckoo's Nest'"
+      ],
+      "awards": "Three-time Academy Award winner"
+    },
+    {
+      "name": "Jack Dorsey",
+      "profession": "Entrepreneur",
+      "knownFor": [
+        "Co-founder of Twitter",
+        "Co-founder of Square"
+      ],
+      "awards": "Innovator of the Year Award 2012"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jack Sikma",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Seattle SuperSonics",
+      "pastTeams": [
+        "Seattle SuperSonics",
+        "Milwaukee Bucks"
+      ],
+      "position": "Center",
+      "jerseyNumber": "43",
+      "years": "1977-1991",
+      "achievements": "NBA Champion 1979, 7-time NBA All-Star",
+      "knownFor": [
+        "Exceptional shooting skills for a center"
+      ],
+      "awards": "NBA All-Rookie Team",
+      "stats": "17,287 points, 10,816 rebounds",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Jack Grealish",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Manchester City",
+      "pastTeams": [
+        "Aston Villa"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "10",
+      "years": "2014-Present",
+      "achievements": "Premier League Champion 2022",
+      "knownFor": [
+        "Creative playmaking and dribbling"
+      ],
+      "awards": "PFA Team of the Year",
+      "stats": "Key assists and goals",
+      "verified": true,
+      "source": "PremierLeague.com"
+    },
+    {
+      "name": "Jack Lambert",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Pittsburgh Steelers",
+      "pastTeams": [
+        "Pittsburgh Steelers"
+      ],
+      "position": "Linebacker",
+      "jerseyNumber": "58",
+      "years": "1974-1984",
+      "achievements": "4-time Super Bowl Champion",
+      "knownFor": [
+        "Dominant defensive play"
+      ],
+      "awards": "NFL Defensive Player of the Year 1976",
+      "stats": "1,479 tackles, 28 interceptions",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Jackie Bradley Jr.",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Boston Red Sox",
+      "pastTeams": [
+        "Boston Red Sox",
+        "Milwaukee Brewers"
+      ],
+      "position": "Center Fielder",
+      "jerseyNumber": "19",
+      "years": "2013-Present",
+      "achievements": "World Series Champion 2018",
+      "knownFor": [
+        "Defensive prowess and clutch hitting"
+      ],
+      "awards": "Gold Glove Award",
+      "stats": "Batting average: .230, Home runs: 109",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Jack Eichel",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Vegas Golden Knights",
+      "pastTeams": [
+        "Buffalo Sabres"
+      ],
+      "position": "Center",
+      "jerseyNumber": "9",
+      "years": "2015-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Elite scoring ability"
+      ],
+      "awards": "Hobey Baker Award",
+      "stats": "Points: 446, Goals: 178",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Titanic",
+      "year": 1997,
+      "type": "Movie",
+      "characterName": "Jack Dawson",
+      "characterDescription": "A young artist who falls in love aboard the Titanic.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120338/",
+      "genre": "Drama/Romance",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "24",
+      "year": 2001,
+      "type": "TV Show",
+      "characterName": "Jack Bauer",
+      "characterDescription": "A counter-terrorism agent who fights against threats to the nation.",
+      "imdbUrl": "https://www.imdb.com/title/tt0285331/",
+      "genre": "Action/Thriller",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm the king of the world!",
+      "character": "Jack Dawson",
+      "source": "Titanic",
+      "year": 1997,
+      "context": "Jack shouts this iconic line while standing at the bow of the Titanic.",
+      "genre": "Drama/Romance",
+      "impact": "This quote symbolizes the exuberance and freedom of youth."
+    },
+    {
+      "quote": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      "character": "Jack Bauer",
+      "source": "24",
+      "year": 2001,
+      "context": "Jack Bauer emphasizes the importance of action against threats.",
+      "genre": "Action/Thriller",
+      "impact": "This quote highlights the show's theme of vigilance and duty."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 258,
+    "peak": 74,
+    "peakYear": 2005
+  },
+  "enrichmentVersion": "v6"
+}

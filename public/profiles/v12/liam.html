@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liam - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Strong-willed warrior - Irish origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Liam</h1>
+      <div class="meaning">"Strong-willed warrior"</div>
+      <div class="meta">
+        <div class="meta-item">Irish Origin</div>
+        <div class="meta-item">Male</div>
+        <div class="meta-item">Ranked #431</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by Maya Chen</h3>
+      <p>Passionate Name Enthusiast & New Mom • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Liam</h3>
+            <div class="subtitle">Expert Analysis by Maya Chen</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Oh my goodness, can we just talk about the name Liam? It's like a little burst of Irish magic! I'm absolutely obsessed with how timeless yet trendy it is! Liam has this chameleon-like ability to fit into any personality type, and it's just perfect for bouncing baby boys ready to take on the world! When I hear 'Liam', I immediately think of someone with a warm smile and a heart full of adventure! And as a new mom myself, I just can't get over how cute it sounds when you say it a thousand times a day!</p><p>So, let's dive into the origins of Liam! This enchanting name hails from Ireland, which gives it that lush, green, and mystical vibe! Originally a short form of 'Uilliam', which is the Irish version of 'William', Liam means 'strong-willed warrior'. How empowering is that? I love names with meanings that inspire strength and determination, and Liam totally delivers on that front! Naming your child Liam is like giving them a little piece of that warrior spirit to carry with them wherever they go!</p><p>Oh, the famous Liams! Where do I even start? Liam Neeson, with his iconic voice and fierce presence, really embodies the 'strong-willed warrior' meaning. And let's not forget Liam Hemsworth—such a charming and talented actor! Both of them bring such charisma and kindness to the name. And on the sports front, we have amazing athletes like Liam Eichenberg and Liam Hendriks, who show us the strength in their games! It's so inspiring to see these successful individuals all bearing the name Liam!</p><p>Liam has some serious pop culture street cred! Have you ever seen the movie 'Taken'? Liam Neeson is unforgettable in that film—such a classic! Just saying his famous line gives me chills! It's amazing how one name can be linked to so many cool references in movies, sports, and beyond! And let's be honest, when a name pops up in beloved films and series, it becomes even more special. It's like Liam carries a little bit of that cinematic magic with him!</p><p>I totally feel like a Liam is someone full of life and bravery! You can just imagine a little Liam climbing a tree or leading the charge in a sandbox adventure! They're the kind of kids who will grow up to be thoughtful and determined adults, with a touch of mischievous charm! If you're looking for a name that brings a blend of strength and sweetness, Liam is definitely it! The name kind of wraps you in a hug with its warmth and friendliness!</p><p>Liam is wonderfully versatile, and while it's perfect as it is, you might find yourself coining some sweet nicknames! How about 'Lee' for a quick call-down-the-hallway vibe? Or maybe 'Liammy' for when they're being extra adorable! It's short, but oh my gosh, it packs such a punch! The beauty of Liam is that it doesn't need much altering—its simplicity is part of its charm! But having a few cute options for those intimate, loving moments? Priceless!</p><p>Liam has been on quite the popularity ride! Did you know that it's ranked #431 right now? It was once a name you wouldn't hear too often, but oh, how times have changed! It's been climbing the charts, and for good reason! It's modern and classic all rolled into one! I love seeing a name that manages to be trendy while keeping its roots firmly planted in tradition. It's like watching a beloved underdog finally getting its day in the sun!</p><p>Pairing names can be so much fun! Liam pairs beautifully with so many sibling names. Imagine a Liam and an Emma—so sweet and harmonious! Or how about Liam and Ethan for a duo of strength and charm? And for middle names, something like Liam Alexander—doesn't that just sound royal?! The musical quality of Liam makes it seamlessly fit with other names, so you can get really creative when crafting your perfect name combo!</p><p>Liam's Irish roots carry such a rich heritage with them! When you choose a name like Liam, you're embracing a piece of Irish culture, with its history full of myths, legends, and charming landscapes! It's like having a little bit of the Emerald Isle in your life every day! In a world so diverse, celebrating a name with cultural significance provides a beautiful link to global traditions and stories—it's a meaningful choice for those who want a name steeped in history!</p><p>Honestly, if you're thinking about naming your baby Liam, I say go for it with all my heart! It's a name that embodies strength, charm, and history all at once! Liam has such a contemporary vibe while being rooted in something ancient and strong. It's perfect for parents looking for a name that feels both fresh and timeless! As a new mom, you'd be calling out this name a million times with joy, and trust me, it never loses its sparkle!</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Liam is a name of Irish origin, derived from the Old High German name Willahelm, meaning 'helmet of will' or 'protection'. It became popular in Ireland as a short form of Uilliam, the Irish form of William. Over the years, Liam has become a symbol of strength and leadership, often associated with historical figures and warriors.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Liam Cosgrave</h4>
+        <div class="meta">1920-2017 • Political Leaders</div>
+        <p><strong>Significance:</strong> Liam Cosgrave was an influential Irish politician who played a key role in shaping modern Ireland.</p>
+        <ul><li>Taoiseach of Ireland from 1973 to 1977</li><li>Led Ireland during a period of economic and social change</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Liam O'Flaherty</h4>
+        <div class="meta">1896-1984 • Writers</div>
+        <p><strong>Significance:</strong> Liam O'Flaherty was a prominent figure in Irish literature, known for his vivid portrayal of the Irish experience.</p>
+        <ul><li>Prolific Irish novelist and short story writer</li><li>Known for works depicting the Irish struggle</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Liam Neeson</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Roles in films such as 'Schindler's List', 'Taken', and 'The Grey'</p>
+        <p><strong>Awards:</strong> Nominated for an Academy Award, BAFTA, and Golden Globe</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Liam Hemsworth</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Roles in 'The Hunger Games' series and 'The Last Song'</p>
+        <p><strong>Awards:</strong> People's Choice Award for Favorite Breakout Movie Actor</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Liam Eichenberg</h4>
+        <div class="meta">American Football (NFL) • Miami Dolphins</div>
+        <p><strong>Position:</strong> Offensive Tackle</p>
+        <p><strong>Achievements:</strong> Drafted in the second round of the 2021 NFL Draft</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Liam Cooper</h4>
+        <div class="meta">European Soccer/Football • Leeds United</div>
+        <p><strong>Position:</strong> Defender</p>
+        <p><strong>Achievements:</strong> Captain of Leeds United</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Liam Hendriks</h4>
+        <div class="meta">MLB Baseball • Chicago White Sox</div>
+        <p><strong>Position:</strong> Pitcher</p>
+        <p><strong>Achievements:</strong> All-Star selections, AL Reliever of the Year</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Liam Foudy</h4>
+        <div class="meta">NHL Ice Hockey • Columbus Blue Jackets</div>
+        <p><strong>Position:</strong> Forward</p>
+        <p><strong>Achievements:</strong> First-round draft pick</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">William (English)</div><div class="tag">Uilliam (Irish)</div><div class="tag">Guillermo (Spanish)</div><div class="tag">Wilhelm (German)</div><div class="tag">Guglielmo (Italian)</div><div class="tag">Liama</div><div class="tag">Liamo</div><div class="tag">Liamus</div><div class="tag">Liame</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Lee</div><div class="tag">Lem</div><div class="tag">Lio</div><div class="tag">Liammy</div><div class="tag">Liamster</div><div class="tag">Li</div><div class="tag">Lia</div><div class="tag">Liam</div><div class="tag">Liy</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_liam_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_liam_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_liam_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_liam_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_liam_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_liam_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_liam_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_liam_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

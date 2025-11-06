@@ -1,0 +1,305 @@
+{
+  "name": "nathan",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "He gave",
+  "culturalSignificance": "Nathan is a name of biblical origin, appearing in the Hebrew Bible as a prophet during the reign of King David. It has been a popular name in Jewish and Christian communities for centuries, symbolizing wisdom and guidance.",
+  "modernContext": "Nathan remains a popular name in many English-speaking countries and often ranks within the top 100 names for boys. Its timeless appeal is attributed to its strong biblical roots and simple, yet elegant sound.",
+  "literaryReferences": "Nathan the Wise, a play by Gotthold Ephraim Lessing, features a character named Nathan who embodies wisdom and tolerance.",
+  "pronunciationGuide": "/ˈneɪθən/",
+  "variations": [
+    "Natan",
+    "Nathanael",
+    "Nataniel",
+    "Nate",
+    "Natanael",
+    "Nathen",
+    "Nathon",
+    "Nathin",
+    "Nathanel"
+  ],
+  "similarNames": [
+    "Ethan",
+    "Jonathan",
+    "Nathaniel",
+    "Noah",
+    "Matthew",
+    "Lucas",
+    "Caleb",
+    "Daniel"
+  ],
+  "nicknames": [
+    "Nate",
+    "Nat",
+    "Nathy",
+    "Nay",
+    "Nato",
+    "Nath",
+    "Nan",
+    "Than",
+    "Na"
+  ],
+  "personality": "People named Nathan are often perceived as intelligent, trustworthy, and compassionate. They are seen as natural leaders with a strong sense of justice.",
+  "symbolism": "Nathan symbolizes wisdom, guidance, and generosity, reflecting its biblical origins.",
+  "funFact": "Nathan was the name of a prophet in the Bible who advised King David and played a crucial role in the succession of Solomon to the throne.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Nathan the Prophet",
+    "significance": "Nathan was a prophet during King David's reign, known for his wisdom and guidance.",
+    "keyStories": [
+      "Nathan's confrontation with King David over his sin with Bathsheba"
+    ],
+    "spiritualMeaning": "Nathan represents divine wisdom and the courage to speak truth to power.",
+    "historicalImpact": "Nathan's role in the Bible has influenced religious teachings on morality and leadership."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Nathan Hale",
+      "years": "1755-1776",
+      "category": "American Revolutionary War Hero",
+      "achievements": [
+        "Famous for his espionage work against the British during the American Revolution"
+      ],
+      "significance": "Hale is remembered as a symbol of American patriotism and sacrifice.",
+      "notableWorks": [
+        "His famous last words, 'I only regret that I have but one life to lose for my country.'"
+      ]
+    },
+    {
+      "fullName": "Nathan Mayer Rothschild",
+      "years": "1777-1836",
+      "category": "Banker and Financier",
+      "achievements": [
+        "Founder of the Rothschild banking dynasty in England"
+      ],
+      "significance": "He played a crucial role in the development of international finance during the 19th century.",
+      "notableWorks": [
+        "Establishing the Rothschild banking family as a major financial power"
+      ]
+    },
+    {
+      "fullName": "Nathan Bedford Forrest",
+      "years": "1821-1877",
+      "category": "Confederate General",
+      "achievements": [
+        "Prominent cavalry leader during the American Civil War"
+      ],
+      "significance": "Forrest was known for his innovative cavalry tactics and controversial post-war activities.",
+      "notableWorks": [
+        "His military campaigns during the Civil War"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I only regret that I have but one life to lose for my country.",
+      "author": "Nathan Hale",
+      "context": "Said before his execution by the British during the American Revolutionary War.",
+      "year": 1776,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Nathan Fillion",
+      "profession": "Actor",
+      "knownFor": [
+        "Starring in TV shows like 'Castle' and 'Firefly'"
+      ],
+      "awards": "People's Choice Award for Favorite Dramatic TV Actor"
+    },
+    {
+      "name": "Nathan Lane",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'The Producers', 'The Birdcage', and 'The Lion King'"
+      ],
+      "awards": "Tony Award for Best Actor in a Musical"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Nathan MacKinnon",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Colorado Avalanche",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "29",
+      "years": "2013-Present",
+      "achievements": "Stanley Cup Champion, Hart Trophy finalist",
+      "knownFor": [
+        "Explosive speed and scoring ability"
+      ],
+      "awards": "Calder Memorial Trophy",
+      "stats": "Over 600 career points",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Nathan Eovaldi",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Texas Rangers",
+      "pastTeams": [
+        "Los Angeles Dodgers",
+        "Miami Marlins",
+        "New York Yankees",
+        "Boston Red Sox"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "17",
+      "years": "2011-Present",
+      "achievements": "World Series Champion",
+      "knownFor": [
+        "High-velocity fastball"
+      ],
+      "awards": "ALCS MVP",
+      "stats": "Over 1,000 career strikeouts",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Nathan Redmond",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Burnley",
+      "pastTeams": [
+        "Birmingham City",
+        "Norwich City",
+        "Southampton"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "11",
+      "years": "2010-Present",
+      "achievements": "England U21 Player of the Year",
+      "knownFor": [
+        "Dribbling and pace"
+      ],
+      "awards": "PFA Team of the Year (Championship)",
+      "stats": "Over 30 career goals",
+      "verified": true,
+      "source": "PremierLeague.com"
+    },
+    {
+      "name": "Nate Solder",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "New England Patriots",
+        "New York Giants"
+      ],
+      "position": "Offensive Tackle",
+      "jerseyNumber": "77",
+      "years": "2011-2021",
+      "achievements": "2× Super Bowl Champion",
+      "knownFor": [
+        "Protecting the quarterback's blind side"
+      ],
+      "awards": "PFWA All-Rookie Team",
+      "stats": "Over 130 career games",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Firefly",
+      "year": 2002,
+      "type": "TV Show",
+      "characterName": "Captain Malcolm 'Mal' Reynolds",
+      "characterDescription": "A former soldier turned spaceship captain leading a crew of outlaws.",
+      "imdbUrl": "https://www.imdb.com/title/tt0303461/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Castle",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Richard Castle",
+      "characterDescription": "A famous mystery novelist who assists the NYPD in solving crimes.",
+      "imdbUrl": "https://www.imdb.com/title/tt1219024/",
+      "genre": "Crime, Drama, Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I aim to misbehave.",
+      "character": "Captain Malcolm 'Mal' Reynolds",
+      "source": "Firefly",
+      "year": 2002,
+      "context": "Said by Mal as a declaration of his rebellious nature and determination.",
+      "genre": "Science Fiction",
+      "impact": "This quote captures the spirit of defiance and independence that defines the character and the show."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 215,
+    "peak": 103,
+    "peakYear": 2004
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "nat-han"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "Contains 4 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:29:13.104Z"
+}

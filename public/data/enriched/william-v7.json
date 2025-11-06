@@ -1,0 +1,315 @@
+{
+  "name": "william",
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Resolute protector",
+  "culturalSignificance": "The name William has been borne by many kings and leaders throughout history, including William the Conqueror, the first Norman King of England. It has been a popular name in English-speaking countries for centuries, symbolizing strength and leadership.",
+  "modernContext": "William remains a popular name in many countries, consistently ranking in the top 20 names for boys in the United States and the United Kingdom. Its timeless appeal is attributed to its historical significance and classic sound.",
+  "literaryReferences": "William Shakespeare, one of the most famous playwrights in history, is a notable literary figure with this name.",
+  "pronunciationGuide": "/ˈwɪljəm/",
+  "variations": [
+    "Guillaume",
+    "Wilhelm",
+    "Guglielmo",
+    "Guillermo",
+    "Liam",
+    "Willem",
+    "Vilhelm",
+    "Viliam",
+    "Willi"
+  ],
+  "similarNames": [
+    "Liam",
+    "Wilson",
+    "Willis",
+    "Walter",
+    "Wyatt",
+    "Winston",
+    "Wendell",
+    "Wesley",
+    "Warren"
+  ],
+  "nicknames": [
+    "Will",
+    "Bill",
+    "Billy",
+    "Willy",
+    "Liam",
+    "Wills",
+    "Willie",
+    "Billie",
+    "Willo"
+  ],
+  "personality": "People named William are often perceived as strong, reliable, and protective. They are seen as natural leaders with a sense of duty and responsibility.",
+  "symbolism": "The name William symbolizes protection and determination, often associated with leadership and courage.",
+  "funFact": "William is one of the most common names among British monarchs, with four kings named William ruling over England.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "William the Conqueror",
+      "years": "1028-1087",
+      "category": "Political Leaders",
+      "achievements": [
+        "First Norman King of England",
+        "Led the Norman Conquest of England"
+      ],
+      "significance": "William the Conqueror was a pivotal figure in English history, establishing Norman rule in England.",
+      "notableWorks": [
+        "Battle of Hastings",
+        "Domesday Book"
+      ]
+    },
+    {
+      "fullName": "William Shakespeare",
+      "years": "1564-1616",
+      "category": "Literature",
+      "achievements": [
+        "Renowned playwright and poet",
+        "Author of 39 plays and 154 sonnets"
+      ],
+      "significance": "Shakespeare is often regarded as the greatest writer in the English language.",
+      "notableWorks": [
+        "Hamlet",
+        "Romeo and Juliet",
+        "Macbeth"
+      ]
+    },
+    {
+      "fullName": "William Wallace",
+      "years": "1270-1305",
+      "category": "Military Leaders",
+      "achievements": [
+        "Led the Scottish resistance against England"
+      ],
+      "significance": "William Wallace is celebrated as a national hero in Scotland for his role in the Wars of Scottish Independence.",
+      "notableWorks": [
+        "Battle of Stirling Bridge"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "All the world's a stage, and all the men and women merely players.",
+      "author": "William Shakespeare",
+      "context": "From the play 'As You Like It', reflecting on the stages of life.",
+      "year": 1599,
+      "category": "Philosophy"
+    },
+    {
+      "quote": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+      "author": "William Edmund Burke",
+      "context": "A call to action against injustice and apathy.",
+      "year": 1770,
+      "category": "Leadership"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "William Gates",
+      "profession": "Businessman",
+      "knownFor": [
+        "Co-founder of Microsoft Corporation"
+      ],
+      "awards": "Presidential Medal of Freedom"
+    },
+    {
+      "name": "William Faulkner",
+      "profession": "Author",
+      "knownFor": [
+        "Novels such as 'The Sound and the Fury'"
+      ],
+      "awards": "Nobel Prize in Literature"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "William 'Bill' Russell",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Boston Celtics",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "6",
+      "years": "1956-1969",
+      "achievements": "11-time NBA Champion",
+      "knownFor": [
+        "Defensive prowess and leadership"
+      ],
+      "awards": "5-time NBA MVP",
+      "stats": "14,522 points, 21,620 rebounds",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "William Carvalho",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "La Liga",
+      "team": "Real Betis",
+      "pastTeams": [
+        "Sporting CP"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "14",
+      "years": "2018-Present",
+      "achievements": "UEFA European Championship winner",
+      "knownFor": [
+        "Strong defensive skills"
+      ],
+      "awards": "UEFA European Championship Team of the Tournament",
+      "stats": "Key passes and tackles",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "William Perry",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Chicago Bears",
+      "pastTeams": [
+        "Philadelphia Eagles"
+      ],
+      "position": "Defensive Tackle",
+      "jerseyNumber": "72",
+      "years": "1985-1994",
+      "achievements": "Super Bowl XX Champion",
+      "knownFor": [
+        "Nicknamed 'The Refrigerator' for his size"
+      ],
+      "awards": "NFL All-Rookie Team",
+      "stats": "29.5 sacks",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "William 'Willie' Mays",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "San Francisco Giants",
+      "pastTeams": [
+        "New York Mets"
+      ],
+      "position": "Center Fielder",
+      "jerseyNumber": "24",
+      "years": "1951-1973",
+      "achievements": "2-time NL MVP",
+      "knownFor": [
+        "The 'Catch' in the 1954 World Series"
+      ],
+      "awards": "24-time All-Star",
+      "stats": "660 home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "William Nylander",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Toronto Maple Leafs",
+      "pastTeams": [],
+      "position": "Right Wing",
+      "jerseyNumber": "88",
+      "years": "2015-Present",
+      "achievements": "NHL All-Rookie Team",
+      "knownFor": [
+        "Skating and playmaking abilities"
+      ],
+      "awards": "IIHF World Championship Gold Medal",
+      "stats": "Over 300 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Good Will Hunting",
+      "year": 1997,
+      "type": "Movie",
+      "characterName": "Will Hunting",
+      "characterDescription": "A janitor at MIT with a gift for mathematics.",
+      "imdbUrl": "https://www.imdb.com/title/tt0119217/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not your fault.",
+      "character": "Will Hunting",
+      "source": "Good Will Hunting",
+      "year": 1997,
+      "context": "A pivotal moment where Will confronts his past trauma.",
+      "genre": "Drama",
+      "impact": "This quote is iconic for its emotional depth and the breakthrough it represents for the character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 282,
+    "peak": 157,
+    "peakYear": 2002
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "wil-liam"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Contains 4 classic indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.9,
+      "reason": "Contains 3 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:49:54.430Z"
+}

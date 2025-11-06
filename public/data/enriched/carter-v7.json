@@ -1,0 +1,308 @@
+{
+  "name": "carter",
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Cart driver",
+  "culturalSignificance": "The name Carter has historical roots in England, where it was originally an occupational surname for someone who transported goods by cart. Over time, it has evolved into a popular first name, particularly in English-speaking countries.",
+  "modernContext": "Carter is a trendy name in the United States and other English-speaking countries, frequently appearing in the top 100 names for boys. It is favored for its strong, straightforward sound and modern appeal.",
+  "literaryReferences": "The name Carter does not have significant literary references but is often used in contemporary fiction and media.",
+  "pronunciationGuide": "/ˈkɑːrtər/",
+  "variations": [
+    "Karter",
+    "Kartyr",
+    "Kartar",
+    "Cartyr",
+    "Kartur",
+    "Cartero",
+    "Cartier",
+    "Cartor",
+    "Cartera"
+  ],
+  "similarNames": [
+    "Carson",
+    "Parker",
+    "Cooper",
+    "Hunter",
+    "Mason",
+    "Connor",
+    "Chase",
+    "Logan",
+    "Sawyer"
+  ],
+  "nicknames": [
+    "Cart",
+    "Carty",
+    "C",
+    "Car",
+    "Terry",
+    "Art",
+    "Arty",
+    "Tee",
+    "Cee"
+  ],
+  "personality": "People named Carter are often perceived as strong, reliable, and charismatic. They are seen as natural leaders with a pragmatic approach to life.",
+  "symbolism": "The name Carter symbolizes strength and reliability, reflecting its origins as a name for those who transported goods.",
+  "funFact": "Carter has been a popular choice for fictional characters in TV shows and movies, often representing strong and dependable personalities.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jimmy Carter",
+      "years": "1924-Present",
+      "category": "Political Leaders",
+      "achievements": [
+        "39th President of the United States",
+        "Nobel Peace Prize recipient"
+      ],
+      "significance": "Jimmy Carter is known for his efforts in promoting peace and human rights during and after his presidency.",
+      "notableWorks": [
+        "Camp David Accords",
+        "Carter Center"
+      ]
+    },
+    {
+      "fullName": "Howard Carter",
+      "years": "1874-1939",
+      "category": "Archaeologists",
+      "achievements": [
+        "Discovery of Tutankhamun's tomb"
+      ],
+      "significance": "Howard Carter is renowned for his discovery of the tomb of the Egyptian Pharaoh Tutankhamun in 1922.",
+      "notableWorks": [
+        "The Tomb of Tutankhamun"
+      ]
+    },
+    {
+      "fullName": "Angela Carter",
+      "years": "1940-1992",
+      "category": "Authors",
+      "achievements": [
+        "Influential writer known for her feminist and magical realism works"
+      ],
+      "significance": "Angela Carter's works are celebrated for their rich imagination and exploration of gender and identity.",
+      "notableWorks": [
+        "The Bloody Chamber",
+        "Nights at the Circus"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "We must adjust to changing times and still hold to unchanging principles.",
+      "author": "Jimmy Carter",
+      "context": "Said during his farewell address as President of the United States.",
+      "year": 1981,
+      "category": "Leadership"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Aaron Carter",
+      "profession": "Musician",
+      "knownFor": [
+        "Pop music career",
+        "Hit singles like 'I Want Candy'"
+      ],
+      "awards": "Teen Choice Awards"
+    },
+    {
+      "name": "Carter Burwell",
+      "profession": "Composer",
+      "knownFor": [
+        "Film scores for movies like 'Twilight' and 'Fargo'"
+      ],
+      "awards": "Academy Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Vince Carter",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Toronto Raptors",
+        "New Jersey Nets",
+        "Orlando Magic",
+        "Phoenix Suns",
+        "Dallas Mavericks",
+        "Memphis Grizzlies",
+        "Sacramento Kings",
+        "Atlanta Hawks"
+      ],
+      "position": "Shooting Guard / Small Forward",
+      "jerseyNumber": "15",
+      "years": "1998-2020",
+      "achievements": "8-time NBA All-Star, NBA Rookie of the Year 1999",
+      "knownFor": [
+        "Incredible dunking ability",
+        "Longevity in the NBA"
+      ],
+      "awards": "NBA Slam Dunk Contest Champion",
+      "stats": "25,728 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Cris Carter",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Philadelphia Eagles",
+        "Minnesota Vikings",
+        "Miami Dolphins"
+      ],
+      "position": "Wide Receiver",
+      "jerseyNumber": "80",
+      "years": "1987-2002",
+      "achievements": "Hall of Fame Inductee, 8-time Pro Bowl selection",
+      "knownFor": [
+        "Exceptional receiving skills",
+        "Leadership on and off the field"
+      ],
+      "awards": "NFL 1990s All-Decade Team",
+      "stats": "1,101 receptions, 130 touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Gary Carter",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Montreal Expos",
+        "New York Mets",
+        "San Francisco Giants",
+        "Los Angeles Dodgers"
+      ],
+      "position": "Catcher",
+      "jerseyNumber": "8",
+      "years": "1974-1992",
+      "achievements": "Hall of Fame Inductee, World Series Champion 1986",
+      "knownFor": [
+        "Defensive prowess",
+        "Clutch hitting"
+      ],
+      "awards": "11-time All-Star",
+      "stats": "324 home runs, 1,225 RBIs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Jeff Carter",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Pittsburgh Penguins",
+      "pastTeams": [
+        "Philadelphia Flyers",
+        "Columbus Blue Jackets",
+        "Los Angeles Kings"
+      ],
+      "position": "Center",
+      "jerseyNumber": "77",
+      "years": "2005-Present",
+      "achievements": "2-time Stanley Cup Champion",
+      "knownFor": [
+        "Scoring ability",
+        "Versatility on the ice"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 400 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "ER",
+      "year": 1994,
+      "type": "TV Show",
+      "characterName": "Dr. John Carter",
+      "characterDescription": "A dedicated and compassionate doctor working in the emergency room.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108757/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You set the tone.",
+      "character": "Dr. John Carter",
+      "source": "ER",
+      "year": 1994,
+      "context": "Dr. Carter emphasizes the importance of leadership and setting an example in the ER.",
+      "genre": "Drama",
+      "impact": "This quote is memorable for highlighting the responsibility and influence of medical professionals."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 470,
+    "peak": 126,
+    "peakYear": 2024
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "car-ter"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.85,
+      "reason": "Contains 2 modern indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:05:49.442Z"
+}

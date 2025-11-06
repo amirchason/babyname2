@@ -1,0 +1,296 @@
+{
+  "name": "wyatt",
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Brave in war",
+  "culturalSignificance": "The name Wyatt has historical roots in England, originally used as a surname derived from the Old English personal name Wigheard, which means 'war' and 'brave'. It became popular as a given name in the United States in the 19th century, partly due to the fame of Wyatt Earp, a legendary lawman of the American West.",
+  "modernContext": "Wyatt has become a popular name in the United States, consistently ranking in the top 50 boys' names in recent years. Its rugged, cowboy-like appeal resonates with parents seeking a strong, traditional name.",
+  "literaryReferences": "Wyatt Earp, a historical figure, has been depicted in numerous books and films, contributing to the name's association with bravery and the Wild West.",
+  "pronunciationGuide": "/ˈwaɪ.ət/",
+  "variations": [
+    "Wiatt",
+    "Wyeth",
+    "Wiat",
+    "Wyat",
+    "Wiatte",
+    "Wyatte",
+    "Wye",
+    "Wyot",
+    "Wiot"
+  ],
+  "similarNames": [
+    "Ethan",
+    "Owen",
+    "Liam",
+    "Mason",
+    "Logan",
+    "Noah",
+    "Caleb",
+    "Levi",
+    "Jack"
+  ],
+  "nicknames": [
+    "Wy",
+    "Wye",
+    "Wy-Wy",
+    "Watt",
+    "Witty",
+    "Yat",
+    "Yattie",
+    "W",
+    "Wylie"
+  ],
+  "personality": "People named Wyatt are often associated with traits such as bravery, leadership, and a pioneering spirit. They are seen as strong, dependable, and adventurous.",
+  "symbolism": "The name Wyatt symbolizes courage and strength, often evoking images of the American frontier and the spirit of adventure.",
+  "funFact": "Wyatt Earp, a famous lawman of the American West, is one of the most legendary figures associated with this name, known for his role in the Gunfight at the O.K. Corral.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Wyatt Earp",
+      "years": "1848-1929",
+      "category": "Historical Figure",
+      "achievements": [
+        "Famous lawman and gambler",
+        "Participant in the Gunfight at the O.K. Corral"
+      ],
+      "significance": "Wyatt Earp is a legendary figure in American history, known for his role in the Gunfight at the O.K. Corral and his life as a lawman in the Wild West.",
+      "notableWorks": [
+        "His life story has been depicted in numerous films and books."
+      ]
+    },
+    {
+      "fullName": "Sir Thomas Wyatt",
+      "years": "1503-1542",
+      "category": "Poet",
+      "achievements": [
+        "Introduced the sonnet to English literature"
+      ],
+      "significance": "Sir Thomas Wyatt was an English poet and diplomat credited with introducing the sonnet form to English literature.",
+      "notableWorks": [
+        "'Whoso List to Hunt'",
+        "'They Flee from Me'"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Wyatt Russell",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in '22 Jump Street', 'Overlord', and 'The Falcon and the Winter Soldier'"
+      ],
+      "awards": "N/A"
+    },
+    {
+      "name": "Wyatt Cenac",
+      "profession": "Comedian",
+      "knownFor": [
+        "Work on 'The Daily Show with Jon Stewart'",
+        "Stand-up comedy specials"
+      ],
+      "awards": "Writers Guild of America Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Wyatt Langford",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Texas Rangers",
+      "pastTeams": [],
+      "position": "Outfielder",
+      "jerseyNumber": "38",
+      "years": "2023-Present",
+      "achievements": "Drafted in the first round of the 2023 MLB Draft",
+      "knownFor": [
+        "Power hitting and fielding skills"
+      ],
+      "awards": "N/A",
+      "stats": "N/A",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Wyatt Johnston",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Dallas Stars",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "53",
+      "years": "2022-Present",
+      "achievements": "Drafted 23rd overall in the 2021 NHL Draft",
+      "knownFor": [
+        "Offensive skills and playmaking ability"
+      ],
+      "awards": "N/A",
+      "stats": "N/A",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Wyatt Teller",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Cleveland Browns",
+      "pastTeams": [
+        "Buffalo Bills"
+      ],
+      "position": "Guard",
+      "jerseyNumber": "77",
+      "years": "2018-Present",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Strong blocking and physical play"
+      ],
+      "awards": "N/A",
+      "stats": "N/A",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Tombstone",
+      "year": 1993,
+      "type": "Movie",
+      "characterName": "Wyatt Earp",
+      "characterDescription": "A legendary lawman of the American West, known for his role in the Gunfight at the O.K. Corral.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108358/",
+      "genre": "Western",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You gonna do something, or just stand there and bleed?",
+      "character": "Wyatt Earp",
+      "source": "Tombstone",
+      "year": 1993,
+      "context": "Wyatt Earp confronts a troublemaker in a saloon, showcasing his no-nonsense attitude.",
+      "genre": "Western",
+      "impact": "This quote highlights Wyatt Earp's fearless and commanding presence, making it iconic in Western film lore."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 8,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 149,
+    "peak": 92,
+    "peakYear": 2019
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 1,
+    "breakdown": "wyatt"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Ashton Kutcher",
+      "parentProfession": "Actor",
+      "childName": "Wyatt Isabelle Kutcher",
+      "birthYear": 2014,
+      "context": "Ashton Kutcher is known for his roles in 'That '70s Show' and 'Two and a Half Men'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Sheryl Crow",
+      "parentProfession": "Musician",
+      "childName": "Wyatt Steven Crow",
+      "birthYear": 2007,
+      "context": "Sheryl Crow is a Grammy Award-winning singer-songwriter.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Goldie Hawn",
+      "parentProfession": "Actress",
+      "childName": "Wyatt Russell",
+      "birthYear": 1986,
+      "context": "Goldie Hawn is an Academy Award-winning actress known for her roles in 'Private Benjamin' and 'Overboard'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    },
+    {
+      "tag": "American",
+      "confidence": 0.85,
+      "reason": "Contains 2 american indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:17:17.117Z",
+  "v8EnrichedAt": "2025-11-03T23:17:20.979Z",
+  "songs": [
+    {
+      "title": "Wyatt's Torch",
+      "artist": "The Hold Steady",
+      "year": 2010,
+      "geniusUrl": "https://genius.com/the-hold-steady-wyatt-s-torch-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Wyatt Earp",
+      "artist": "The Outlaws",
+      "year": 1976,
+      "geniusUrl": "https://genius.com/the-outlaws-wyatt-earp-lyrics",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:17:34.350Z",
+  "songsEnrichedAt": "2025-11-03T23:17:34.350Z"
+}

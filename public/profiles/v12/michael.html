@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Who is like God - Hebrew origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Michael</h1>
+      <div class="meaning">"Who is like God"</div>
+      <div class="meta">
+        <div class="meta-item">Hebrew Origin</div>
+        <div class="meta-item">Male</div>
+        <div class="meta-item">Ranked #14</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by Maya Chen</h3>
+      <p>Passionate Name Enthusiast & New Mom • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Michael</h3>
+            <div class="subtitle">Expert Analysis by Maya Chen</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Oh my gosh, can we just talk about the name Michael?! I'm absolutely obsessed with how timeless and classic it is! It's one of those names that feels like a warm hug—something perpetually inviting and steadfast! I remember when I was pregnant, Michael was a top contender on my list (I mean, it's just so classic!) and every time I heard it, it felt like it was accompanied by a legendary story or a cherished memory.</p><p>Michael has such a heartwarming and familiar vibe, doesn't it? Whether it's shouted on the playground or whispered among friends, it carries a certain gravitas. It's like the name equivalent of comfort food—always reliable and eternally beloved! Why do you think it’s been such a staple for so long? Let's dive into the magic of Michael!</p><p>So, Michael has this deeply spiritual origin that is sooo intriguing! It comes from the Hebrew name Mikha'el, which means 'Who is like God?'—a rhetorical question that implies no one is like God, highlighting humility and reverence. Isn't that just beautiful?</p><p>This name has been cherished through history for its divine implication, giving it a heavenly touch. Its enduring popularity is a testament to its strength, purity, and universal appeal. I feel like it's a name that connects its bearer to something greater, offering a sense of purpose and belonging!</p><p>Okay, how about the incredible Michaels who have graced the world with their talent?! Michael Jordan, the basketball legend who redefined the sport with his extraordinary skills and sheer determination! And let's not forget Michael Jackson—'The King of Pop,' whose music and dance moves still have us moonwalking!</p><p>And speaking of trailblazers, Michael Phelps is an absolute icon in the swimming world, holding more Olympic gold medals than anyone! Plus, the ever-charismatic Michael B. Jordan is taking the acting world by storm! Each Michael carries the name with such distinctive flair and greatness. I just love how these famous Michaels showcase how versatile and powerful the name is!</p><p>In pop culture, the name Michael pops up everywhere! Who could forget the hilariously quirky Michael Scott from 'The Office'? His antics might have been a little cringe-worthy, but he certainly made us laugh out loud! Also, films like 'Michael Clayton' have given the name an edge of suspense and drama.</p><p>These cultural references keep the name Michael refreshingly relevant and show its adaptability to different contexts, be it comedy, drama, or sports. It's the kind of name that can fit into any storyline or setting with ease, adding a splash of charisma wherever it lands!</p><p>A Michael often exudes a charming blend of leadership and warmth! This name carries an air of confidence and grace, often making its bearers natural-born leaders who inspire those around them. It's like, every Michael I've met has this innate sense of responsibility and a heart full of kindness!</p><p>Interestingly, Michaels tend to have an adventurous spirit too! Whether it's pioneering new paths or exploring the unknown, their curiosity knows no bounds. I feel like the name encourages a balance between being grounded and having the freedom to dream big!</p><p>There are so many adorable ways to riff on Michael! For those looking for a lighter twist, 'Mike' is as friendly as they come! It's got this approachable, casual vibe that fits almost any scenario.</p><p>Or how about 'Mikey' for that extra sprinkle of endearment? I'm absolutely obsessed with how 'Mickey' can take on a playful and nostalgic quality, too! Then there are global variations like 'Mikhail' if you’re feeling the Russian flair, or 'Michel' for a French twist. Each version has its own unique charm while still holding onto that powerful essence of Michael!</p><p>Currently coming in at #14 on the popularity charts, Michael has never been short of admirers! So many parents recognize its classic appeal and the sense of history and strength it conveys!</p><p>Over the decades, it’s maintained a high ranking, consistently being a top choice for parents across generations. This speaks volumes about its versatility and timelessness—two aspects that never go out of style. It's like Michael is perpetually in vogue, isn’t that amazing?!</p><p>I have soooo many fun ideas for pairing Michael! If you're looking for a middle name, how about Michael James? It rolls off the tongue in such a dignified manner! Or if you prefer something a little more whimsical, Michael Orion adds a touch of the celestial!</p><p>For siblings, I love matching Michael with a name like Emily or Grace for girls, maintaining that classic elegance. Or pair it with Benjamin or Alexander for boys, which complement Michael’s strength and timeless vibe. So many lovely combinations!</p><p>Michael holds deep roots not only in religious and historical contexts but also across many cultures worldwide! It's embraced in Christian, Jewish, and Islamic traditions, giving it this remarkable universal appeal.</p><p>Its significance is enriched with stories of archangels and saints, weaving a tapestry of faith and spirituality that transcends borders. In every corner of the globe, Michael stands as a beacon of integrity and reverence. Such a beautiful symbiosis with culture and heritage!</p><p>If you're considering Michael, you can rest easy knowing you're choosing a name with deep roots and significant cultural resonance! It's a name that promises strength, integrity, and a little bit of magic!</p><p>Whether paired with a classic middle name or something more modern, Michael offers a foundation as solid as they come. I wholeheartedly recommend it for its timeless appeal and the beautiful legacy it carries forward. Michael is more than a name; it's a gift!</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Michael is a significant name in various cultures, often associated with the archangel Michael in religious texts, symbolizing protection and leadership. It has been a popular name across different eras and regions, particularly in English-speaking countries, due to its biblical roots and strong, timeless appeal.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Michelangelo Buonarroti</h4>
+        <div class="meta">1475-1564 • Artist</div>
+        <p><strong>Significance:</strong> One of the greatest artists of all time, Michelangelo's works define the Renaissance and continue to inspire artists worldwide.</p>
+        <ul><li>Painted the Sistine Chapel ceiling</li><li>Sculpted David and Pietà</li><li>Renaissance master</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Michael Faraday</h4>
+        <div class="meta">1791-1867 • Scientist</div>
+        <p><strong>Significance:</strong> Michael Faraday's discoveries in electromagnetism laid the foundation for modern electrical technology.</p>
+        <ul><li>Discovered electromagnetic induction</li><li>Pioneered electrochemistry</li><li>Invented the electric motor</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Michael Jordan</h4>
+        <div class="meta">Basketball Player</div>
+        <p><strong>Known for:</strong> 6-time NBA Champion, 5-time NBA MVP, Widely regarded as greatest basketball player ever</p>
+        <p><strong>Awards:</strong> 14× NBA All-Star, Olympic Gold Medals, Presidential Medal of Freedom</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Michael Jackson</h4>
+        <div class="meta">Singer</div>
+        <p><strong>Known for:</strong> King of Pop, Thriller album (best-selling of all time), Revolutionary music videos and performances</p>
+        <p><strong>Awards:</strong> 13 Grammy Awards, Grammy Legend Award, Rock and Roll Hall of Fame</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Michael Phelps</h4>
+        <div class="meta">Swimmer</div>
+        <p><strong>Known for:</strong> Most decorated Olympian of all time, 28 Olympic medals (23 gold)</p>
+        <p><strong>Awards:</strong> Sports Illustrated Sportsman of the Year, Laureus World Sportsman</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Michael B. Jordan</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Roles in 'Creed', 'Black Panther', 'Fruitvale Station'</p>
+        <p><strong>Awards:</strong> NAACP Image Awards, MTV Movie Awards</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Michael Jordan</h4>
+        <div class="meta">Basketball • Retired (Chicago Bulls legacy)</div>
+        <p><strong>Position:</strong> Shooting Guard</p>
+        <p><strong>Achievements:</strong> 6× NBA Champion, 5× NBA MVP, 14× NBA All-Star</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Mikhail (Russian)</div><div class="tag">Miguel (Spanish)</div><div class="tag">Michel (French)</div><div class="tag">Michele (Italian)</div><div class="tag">Mikael (Scandinavian)</div><div class="tag">Micah (Hebrew)</div><div class="tag">Mick (Irish)</div><div class="tag">Mitchell (English)</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Mike</div><div class="tag">Mikey</div><div class="tag">Mick</div><div class="tag">Mickey</div><div class="tag">Misha</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_michael_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_michael_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_michael_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_michael_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_michael_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_michael_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_michael_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_michael_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

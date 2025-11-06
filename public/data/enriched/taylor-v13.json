@@ -1,0 +1,306 @@
+{
+  "name": "taylor",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:55:54.440Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Tailor",
+  "culturalSignificance": "The name Taylor originated as an occupational surname for someone who was a tailor by trade. Over time, it evolved into a popular given name, particularly in English-speaking countries. It gained popularity in the late 20th century as a unisex name, appealing to parents for its modern and versatile sound.",
+  "modernContext": "Taylor remains a popular name for girls, consistently ranking in the top 100 names in the United States. Its use as a unisex name has contributed to its enduring appeal.",
+  "literaryReferences": "The name Taylor does not have notable literary references but is often used in contemporary fiction and media.",
+  "pronunciationGuide": "ˈteɪlər",
+  "variations": [
+    "Tayler",
+    "Tailor",
+    "Tayla",
+    "Taylah",
+    "Taylore",
+    "Taylour",
+    "Taylorr",
+    "Taylora",
+    "Tayloro"
+  ],
+  "similarNames": [
+    "Tyler",
+    "Taylin",
+    "Taryn",
+    "Tegan",
+    "Traylor",
+    "Tatum",
+    "Talia",
+    "Tanner",
+    "Tessa"
+  ],
+  "nicknames": [
+    "Tay",
+    "Tay-Tay",
+    "Tee",
+    "Taylo",
+    "Tayles",
+    "Taylie",
+    "Tayl",
+    "Taybear",
+    "Ta"
+  ],
+  "personality": "People named Taylor are often perceived as creative, adaptable, and sociable. They are seen as modern and approachable, with a strong sense of individuality.",
+  "symbolism": "The name Taylor symbolizes craftsmanship and creativity, reflecting its origins as an occupational surname.",
+  "funFact": "Taylor was originally a surname derived from the Old French 'tailleur', meaning 'to cut'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Zachary Taylor",
+      "years": "1784-1850",
+      "category": "Political Leaders",
+      "achievements": [
+        "12th President of the United States",
+        "Major General in the U.S. Army"
+      ],
+      "significance": "Zachary Taylor was a national hero for his victories in the Mexican-American War and served as the 12th President of the United States.",
+      "notableWorks": [
+        "Led the nation during a time of debate over the expansion of slavery"
+      ]
+    },
+    {
+      "fullName": "Elizabeth Taylor",
+      "years": "1932-2011",
+      "category": "Actors",
+      "achievements": [
+        "Two-time Academy Award winner",
+        "Humanitarian efforts for AIDS research"
+      ],
+      "significance": "Elizabeth Taylor was one of the most popular and glamorous actresses of the 20th century, known for her beauty and acting talent.",
+      "notableWorks": [
+        "Cleopatra",
+        "Who's Afraid of Virginia Woolf?"
+      ]
+    },
+    {
+      "fullName": "Frederick Winslow Taylor",
+      "years": "1856-1915",
+      "category": "Scientists",
+      "achievements": [
+        "Father of Scientific Management",
+        "Developed time and motion studies"
+      ],
+      "significance": "Frederick Taylor was an American mechanical engineer who sought to improve industrial efficiency.",
+      "notableWorks": [
+        "The Principles of Scientific Management"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I feel very adventurous. There are so many doors to be opened, and I'm not afraid to look behind them.",
+      "author": "Elizabeth Taylor",
+      "context": "Elizabeth Taylor spoke about her approach to life and career.",
+      "year": 1965,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Taylor Swift",
+      "profession": "Musician",
+      "knownFor": [
+        "Award-winning singer-songwriter",
+        "Hits like 'Shake It Off' and 'Love Story'"
+      ],
+      "awards": "Multiple Grammy Awards"
+    },
+    {
+      "name": "Taylor Lautner",
+      "profession": "Actor",
+      "knownFor": [
+        "Role as Jacob Black in the Twilight Saga"
+      ],
+      "awards": "Teen Choice Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Taylor Rooks",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "N/A",
+      "pastTeams": [],
+      "position": "Sports Journalist",
+      "jerseyNumber": "N/A",
+      "years": "2012-Present",
+      "achievements": "Renowned sports journalist covering NBA",
+      "knownFor": [
+        "Interviewing top NBA players"
+      ],
+      "awards": "N/A",
+      "stats": "N/A",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Sean Taylor",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Washington Redskins",
+      "pastTeams": [],
+      "position": "Safety",
+      "jerseyNumber": "21",
+      "years": "2004-2007",
+      "achievements": "Pro Bowl selection",
+      "knownFor": [
+        "Hard-hitting style of play"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "299 tackles, 12 interceptions",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Taylor Hall",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Boston Bruins",
+      "pastTeams": [
+        "Edmonton Oilers",
+        "New Jersey Devils",
+        "Arizona Coyotes",
+        "Buffalo Sabres"
+      ],
+      "position": "Left Wing",
+      "jerseyNumber": "71",
+      "years": "2010-Present",
+      "achievements": "Hart Memorial Trophy",
+      "knownFor": [
+        "Speed and scoring ability"
+      ],
+      "awards": "Hart Memorial Trophy",
+      "stats": "Over 600 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Bold Type",
+      "year": 2017,
+      "type": "TV Show",
+      "characterName": "Kat Edison",
+      "characterDescription": "A social media director at a women's magazine",
+      "imdbUrl": "https://www.imdb.com/title/tt6116060/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 1,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 243,
+    "peak": 92,
+    "peakYear": 2022
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "tay-lor"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [],
+  "v7EnhancedAt": "2025-11-03T23:21:08.238Z",
+  "v8EnrichedAt": "2025-11-03T23:21:09.339Z",
+  "songs": [
+    {
+      "title": "Taylor",
+      "artist": "Jack Johnson",
+      "year": 2003,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"taylor\" in the song",
+      "description": "This song tells a story about a character named Taylor, exploring themes of life's simple pleasures and personal reflections. The mellow acoustic vibe and soothing vocals create a laid-back, positive atmosphere.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Taylor%20played%20by%20Jack%20Johnson",
+      "geniusUrl": "https://genius.com/search?q=Taylor%20Jack%20Johnson",
+      "verified": true
+    },
+    {
+      "title": "Tim McGraw",
+      "artist": "Taylor Swift",
+      "year": 2006,
+      "genre": "Country",
+      "nameContext": "Features \"taylor\" in the song",
+      "description": "While not explicitly about a person named Taylor, this debut single by Taylor Swift nostalgically references a song by Tim McGraw, evoking warm memories of young love and the lasting impact of music.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Tim%20McGraw%20played%20by%20Taylor%20Swift",
+      "geniusUrl": "https://genius.com/search?q=Tim%20McGraw%20Taylor%20Swift",
+      "verified": true
+    },
+    {
+      "title": "Taylor Made",
+      "artist": "The Potbelleez",
+      "year": 2011,
+      "genre": "Dance/Electronic",
+      "nameContext": "Features \"taylor\" in the song",
+      "description": "This upbeat track celebrates individuality and self-expression. With its energetic beats and catchy hooks, the song encourages listeners to embrace their unique qualities and live life to the fullest.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Taylor%20Made%20played%20by%20The%20Potbelleez",
+      "geniusUrl": "https://genius.com/search?q=Taylor%20Made%20The%20Potbelleez",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:21:16.614Z",
+  "songsEnrichedAt": "2025-11-03T23:21:16.614Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

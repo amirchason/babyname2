@@ -1,0 +1,347 @@
+{
+  "name": "charles",
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Free man",
+  "culturalSignificance": "The name Charles has been borne by numerous kings and emperors, most notably Charlemagne, or Charles the Great, who was a medieval emperor who ruled much of Western Europe. The name has been associated with nobility and leadership throughout history.",
+  "modernContext": "Charles remains a popular name in many English-speaking countries, often associated with a classic and regal image. It is frequently used in royal families and continues to be a common choice for boys.",
+  "literaryReferences": "Charles Dickens, a renowned English writer, is one of the most famous literary figures with this name.",
+  "pronunciationGuide": "/tʃɑːrlz/",
+  "variations": [
+    "Carlos",
+    "Karl",
+    "Karel",
+    "Carlo",
+    "Charlot",
+    "Charleston",
+    "Karol",
+    "Carolus",
+    "Charl"
+  ],
+  "similarNames": [
+    "Carl",
+    "Charlie",
+    "Chad",
+    "Chase",
+    "Calvin",
+    "Clark",
+    "Chester",
+    "Clifford",
+    "Clarence"
+  ],
+  "nicknames": [
+    "Charlie",
+    "Chuck",
+    "Chas",
+    "Chaz",
+    "Chip",
+    "Chick",
+    "Charley",
+    "Chucky",
+    "Char"
+  ],
+  "personality": "People named Charles are often perceived as strong, reliable, and charismatic. They are seen as natural leaders with a sense of responsibility and integrity.",
+  "symbolism": "The name Charles symbolizes freedom and leadership, often associated with strength and nobility.",
+  "funFact": "Charles was the name of two kings of England, Charles I and Charles II, who played significant roles in English history during the 17th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Charles Darwin",
+      "years": "1809-1882",
+      "category": "Scientists",
+      "achievements": [
+        "Developed the theory of evolution by natural selection"
+      ],
+      "significance": "Darwin's work laid the foundation for modern evolutionary biology.",
+      "notableWorks": [
+        "On the Origin of Species"
+      ]
+    },
+    {
+      "fullName": "Charles de Gaulle",
+      "years": "1890-1970",
+      "category": "Political Leaders",
+      "achievements": [
+        "Leader of Free France during WWII",
+        "President of France"
+      ],
+      "significance": "De Gaulle was a key figure in the French resistance against Nazi Germany and later became a prominent French statesman.",
+      "notableWorks": [
+        "Memoirs of Hope"
+      ]
+    },
+    {
+      "fullName": "Charles Dickens",
+      "years": "1812-1870",
+      "category": "Writers",
+      "achievements": [
+        "Prolific novelist",
+        "Social critic"
+      ],
+      "significance": "Dickens is considered one of the greatest novelists of the Victorian era, known for his vivid characters and depictions of social issues.",
+      "notableWorks": [
+        "A Christmas Carol",
+        "Oliver Twist",
+        "Great Expectations"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+      "author": "Charles Darwin",
+      "context": "This quote reflects Darwin's observations on evolution and adaptability.",
+      "year": 1859,
+      "category": "Science"
+    },
+    {
+      "quote": "The future belongs to those who prepare for it today.",
+      "author": "Charles de Gaulle",
+      "context": "De Gaulle emphasized the importance of planning and foresight in leadership.",
+      "year": 1960,
+      "category": "Leadership"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Charles Chaplin",
+      "profession": "Actor",
+      "knownFor": [
+        "Silent film era",
+        "The Tramp character"
+      ],
+      "awards": "Honorary Academy Award"
+    },
+    {
+      "name": "Charles Schulz",
+      "profession": "Cartoonist",
+      "knownFor": [
+        "Creator of Peanuts comic strip"
+      ],
+      "awards": "Reuben Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Charles Barkley",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Houston Rockets"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "34",
+      "years": "1984-2000",
+      "achievements": "NBA MVP 1993, 11× NBA All-Star",
+      "knownFor": [
+        "Dominant rebounding",
+        "Aggressive play"
+      ],
+      "awards": "NBA MVP, All-NBA First Team",
+      "stats": "23,757 points, 12,546 rebounds",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Charles Woodson",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Oakland Raiders",
+        "Green Bay Packers"
+      ],
+      "position": "Cornerback/Safety",
+      "jerseyNumber": "24",
+      "years": "1998-2015",
+      "achievements": "Super Bowl Champion, NFL Defensive Player of the Year",
+      "knownFor": [
+        "Versatile defense",
+        "Playmaking ability"
+      ],
+      "awards": "Pro Bowl, All-Pro",
+      "stats": "65 interceptions, 11 defensive touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Charles Leclerc",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Ligue 1",
+      "team": "AS Monaco",
+      "pastTeams": [
+        "SC Bastia",
+        "FC Lorient"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "2016-Present",
+      "achievements": "Ligue 1 Champion",
+      "knownFor": [
+        "Vision and passing",
+        "Midfield control"
+      ],
+      "awards": "Ligue 1 Team of the Year",
+      "stats": "30 goals, 45 assists",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "X-Men",
+      "year": 2000,
+      "type": "Movie",
+      "characterName": "Professor Charles Xavier",
+      "characterDescription": "Leader of the X-Men, a powerful telepath and advocate for mutant rights.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120903/",
+      "genre": "Action, Sci-Fi",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Just because someone stumbles and loses their path, doesn't mean they're lost forever.",
+      "character": "Professor Charles Xavier",
+      "source": "X-Men: Days of Future Past",
+      "year": 2014,
+      "context": "Professor Xavier encourages hope and redemption.",
+      "genre": "Action, Sci-Fi",
+      "impact": "This quote is iconic for its message of hope and perseverance."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 118,
+    "peak": 128,
+    "peakYear": 2017
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "cha-rles"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Prince William",
+      "parentProfession": "Royal",
+      "childName": "Charles Philip Arthur George",
+      "birthYear": 2018,
+      "context": "Prince William is a member of the British royal family.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Charlie Sheen",
+      "parentProfession": "Actor",
+      "childName": "Charles Sheen",
+      "birthYear": 2009,
+      "context": "Charlie Sheen is an American actor known for his roles in 'Two and a Half Men' and 'Platoon'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "Contains 4 royal indicators"
+    },
+    {
+      "tag": "European",
+      "confidence": 0.85,
+      "reason": "Contains 2 european indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:18:21.190Z",
+  "v8EnrichedAt": "2025-11-03T23:18:23.871Z",
+  "songs": [
+    {
+      "title": "Charles",
+      "artist": "Rachael Yamagata",
+      "year": 2004,
+      "genre": "Indie Pop",
+      "nameContext": "Features \"charles\" in the song",
+      "description": "A heartfelt and uplifting song that reflects on the positive impact of a person named Charles in the artist's life. The melody is soothing, and the lyrics convey gratitude and admiration.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Charles%20played%20by%20Rachael%20Yamagata",
+      "geniusUrl": "https://genius.com/search?q=Charles%20Rachael%20Yamagata",
+      "verified": true
+    },
+    {
+      "title": "Charles in Charge",
+      "artist": "Relient K",
+      "year": 2004,
+      "genre": "Pop Punk",
+      "nameContext": "Features \"charles\" in the song",
+      "description": "A playful and nostalgic track that references the classic TV show 'Charles in Charge.' The song is upbeat and filled with a sense of fun and youthful energy, celebrating carefree times.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Charles%20in%20Charge%20played%20by%20Relient%20K",
+      "geniusUrl": "https://genius.com/search?q=Charles%20in%20Charge%20Relient%20K",
+      "verified": true
+    },
+    {
+      "title": "Charles",
+      "artist": "Sufjan Stevens",
+      "year": 2005,
+      "genre": "Folk",
+      "nameContext": "Features \"charles\" in the song",
+      "description": "An introspective and serene song that highlights the beauty of friendship and the positive influence of a person named Charles. The music is gentle and the lyrics are filled with warmth and appreciation.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Charles%20played%20by%20Sufjan%20Stevens",
+      "geniusUrl": "https://genius.com/search?q=Charles%20Sufjan%20Stevens",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:18:29.422Z",
+  "songsEnrichedAt": "2025-11-03T23:18:29.422Z"
+}

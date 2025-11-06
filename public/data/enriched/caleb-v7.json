@@ -1,0 +1,380 @@
+{
+  "name": "caleb",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Faithful, devoted",
+  "culturalSignificance": "Caleb is a name of Hebrew origin that appears in the Bible, known for its association with one of the twelve spies sent by Moses to explore the land of Canaan. Caleb is celebrated for his faithfulness and devotion, as he remained loyal to God and was rewarded with the promise of entering the Promised Land.",
+  "modernContext": "Caleb remains a popular name in English-speaking countries, consistently ranking in the top 100 names for boys in the United States. Its timeless appeal and strong biblical roots contribute to its enduring popularity.",
+  "literaryReferences": "Caleb is a character in the Bible, specifically in the Book of Numbers, known for his courage and faith.",
+  "pronunciationGuide": "/ˈkeɪ.ləb/",
+  "variations": [
+    "Kaleb",
+    "Calev",
+    "Kalev",
+    "Caeleb",
+    "Cal",
+    "Calib",
+    "Calin",
+    "Calan",
+    "Cael"
+  ],
+  "similarNames": [
+    "Jacob",
+    "Ethan",
+    "Joshua",
+    "Noah",
+    "Elijah",
+    "Nathan",
+    "Isaac",
+    "Aaron",
+    "Gabriel"
+  ],
+  "nicknames": [
+    "Cal",
+    "Cale",
+    "Cay",
+    "Cay-Cay",
+    "Calebie",
+    "Calebster",
+    "Cabo",
+    "Leb",
+    "Caleboo"
+  ],
+  "personality": "People named Caleb are often perceived as loyal, trustworthy, and strong-willed. They are seen as natural leaders who are dependable and supportive.",
+  "symbolism": "The name Caleb symbolizes faithfulness and devotion, often associated with loyalty and courage.",
+  "funFact": "Caleb is one of the few biblical figures who is said to have entered the Promised Land due to his unwavering faith.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Caleb, son of Jephunneh",
+    "significance": "Caleb is a biblical figure known for his faithfulness and courage, one of the two spies who brought back a positive report about the Promised Land.",
+    "keyStories": [
+      "Caleb and Joshua were the only two of the twelve spies who believed that the Israelites could conquer Canaan."
+    ],
+    "spiritualMeaning": "Caleb represents unwavering faith and trust in divine promises.",
+    "historicalImpact": "Caleb's story has been a source of inspiration for faithfulness and courage in religious teachings."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Caleb Cushing",
+      "years": "1800-1879",
+      "category": "Political Leaders",
+      "achievements": [
+        "U.S. Congressman",
+        "Attorney General",
+        "Diplomat"
+      ],
+      "significance": "Caleb Cushing was a prominent American statesman and diplomat who played a key role in U.S.-China relations.",
+      "notableWorks": [
+        "Treaty of Wanghia"
+      ]
+    },
+    {
+      "fullName": "Caleb Strong",
+      "years": "1745-1819",
+      "category": "Political Leaders",
+      "achievements": [
+        "Governor of Massachusetts",
+        "U.S. Senator"
+      ],
+      "significance": "Caleb Strong was an influential political leader in the early United States, serving as a governor and senator.",
+      "notableWorks": [
+        "Massachusetts Constitution"
+      ]
+    },
+    {
+      "fullName": "Caleb Brewster",
+      "years": "1747-1827",
+      "category": "Military",
+      "achievements": [
+        "Member of the Culper Spy Ring during the American Revolutionary War"
+      ],
+      "significance": "Caleb Brewster was a key figure in the American Revolutionary War, known for his espionage work.",
+      "notableWorks": [
+        "Culper Spy Ring operations"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Caleb Followill",
+      "profession": "Musician",
+      "knownFor": [
+        "Lead singer of Kings of Leon"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Caleb Landry Jones",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'Get Out', 'Three Billboards Outside Ebbing, Missouri'"
+      ],
+      "awards": "Cannes Film Festival Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Caleb Swanigan",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Portland Trail Blazers",
+      "pastTeams": [
+        "Sacramento Kings"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "50",
+      "years": "2017-2020",
+      "achievements": "Big Ten Player of the Year",
+      "knownFor": [
+        "Rebounding and strong presence in the paint"
+      ],
+      "awards": "NBA All-Rookie Second Team",
+      "stats": "Career average of 2.3 points and 2.9 rebounds per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Kaleb Wesson",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Santa Cruz Warriors",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "34",
+      "years": "2020-Present",
+      "achievements": "All-Big Ten selection",
+      "knownFor": [
+        "Strong defensive skills and rebounding"
+      ],
+      "awards": "None",
+      "stats": "Career average of 5.1 points and 4.3 rebounds per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Caleb Ekuban",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "Genoa C.F.C.",
+      "pastTeams": [
+        "Trabzonspor",
+        "Leeds United"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "20",
+      "years": "2021-Present",
+      "achievements": "Helped Trabzonspor win the Turkish Cup",
+      "knownFor": [
+        "Versatile forward play and goal-scoring ability"
+      ],
+      "awards": "None",
+      "stats": "Career total of 30 goals in professional leagues",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Caleb Sturgis",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Los Angeles Chargers",
+      "pastTeams": [
+        "Miami Dolphins",
+        "Philadelphia Eagles"
+      ],
+      "position": "Placekicker",
+      "jerseyNumber": "6",
+      "years": "2013-2018",
+      "achievements": "Super Bowl LII Champion",
+      "knownFor": [
+        "Accurate field goal kicking"
+      ],
+      "awards": "None",
+      "stats": "Career field goal percentage of 81.0%",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Caleb Farley",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Tennessee Titans",
+      "pastTeams": [],
+      "position": "Cornerback",
+      "jerseyNumber": "3",
+      "years": "2021-Present",
+      "achievements": "First-round draft pick",
+      "knownFor": [
+        "Exceptional speed and coverage skills"
+      ],
+      "awards": "None",
+      "stats": "Career total of 1 interception and 10 tackles",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Caleb Joseph",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Toronto Blue Jays",
+      "pastTeams": [
+        "Baltimore Orioles",
+        "Arizona Diamondbacks"
+      ],
+      "position": "Catcher",
+      "jerseyNumber": "36",
+      "years": "2014-2020",
+      "achievements": "Known for strong defensive skills",
+      "knownFor": [
+        "Reliable catcher and game management"
+      ],
+      "awards": "None",
+      "stats": "Career batting average of .222",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Caleb Thielbar",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Minnesota Twins",
+      "pastTeams": [
+        "San Diego Padres"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "56",
+      "years": "2013-Present",
+      "achievements": "Strong relief pitcher",
+      "knownFor": [
+        "Effective left-handed pitching"
+      ],
+      "awards": "None",
+      "stats": "Career ERA of 3.00",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Caleb Jones",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Chicago Blackhawks",
+      "pastTeams": [
+        "Edmonton Oilers"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "82",
+      "years": "2018-Present",
+      "achievements": "Known for solid defensive play",
+      "knownFor": [
+        "Strong skating and defensive skills"
+      ],
+      "awards": "None",
+      "stats": "Career total of 5 goals and 14 assists",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Divergent",
+      "year": 2014,
+      "type": "Movie",
+      "characterName": "Caleb Prior",
+      "characterDescription": "Tris Prior's brother who initially chooses the Erudite faction.",
+      "imdbUrl": "https://www.imdb.com/title/tt1840309/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Ex Machina",
+      "year": 2014,
+      "type": "Movie",
+      "characterName": "Caleb Smith",
+      "characterDescription": "A programmer selected to participate in a ground-breaking experiment in synthetic intelligence.",
+      "imdbUrl": "https://www.imdb.com/title/tt0470752/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "One day the AIs are going to look back on us the same way we look at fossil skeletons on the plains of Africa.",
+      "character": "Caleb Smith",
+      "source": "Ex Machina",
+      "year": 2014,
+      "context": "Caleb reflects on the future of artificial intelligence and humanity's place in it.",
+      "genre": "Science Fiction",
+      "impact": "The quote highlights the existential themes of the film and the potential future of AI."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Ruby Red",
+      "hex": "#E0115F"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 353,
+    "peak": 203,
+    "peakYear": 2003
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "ca-leb"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:38:23.272Z"
+}

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Supplanter - Hebrew origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>James</h1>
+      <div class="meaning">"Supplanter"</div>
+      <div class="meta">
+        <div class="meta-item">Hebrew Origin</div>
+        <div class="meta-item">Male</div>
+        <div class="meta-item">Ranked #100</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by SoulSeed Writer</h3>
+      <p>Name Expert • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of James</h3>
+            <div class="subtitle">Expert Analysis by SoulSeed Writer</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>There's something undeniably timeless about the name James. Like a well-loved novel or a classic melody, it seems to have a perpetual place in our hearts. This name carries with it an aura of strength, familiarity, and warmth that feels almost like coming home. Whether you’re drawn to names with historical significance, those with a melodious sound, or simply names that have stood the test of time, James is a choice that wraps you in a comforting embrace of tradition and modernity. </p><p>Imagine calling out "James" across a playground, and hearing it echo like a gentle nod to generations past. It's a name that has been woven into countless family tapestries, crossing continents, and spanning centuries. As you consider names for your little one, James offers a promise of both legacy and a fresh start, a name ready to be worn proudly by a new generation.</p><p>The origin of the name James is as rich as its history, deriving from the Hebrew name Jacob, which intriguingly means 'supplanter.' In a biblical context, Jacob was a key figure, famously known for supplanting his brother Esau. Over time, as languages evolved and cultures intermingled, Jacob morphed into Iacobus in Latin, and eventually into James in English. </p><p>This evolution mirrors a journey across time and borders, showcasing how names adapt yet retain a whisper of their beginnings. Today, while not everyone may be familiar with its original meaning, James is often associated with qualities of determination and leadership—echoes of its 'supplanter' roots morphing into the modern interpretation of a trailblazer.</p><p>Throughout history, James has adorned kings, saints, and artists. Let’s start with the regal: King James VI of Scotland, who also became James I of England, was a significant figure, known for commissioning the King James Bible, a cornerstone of English literature. His reign symbolizes the union of crowns, a reminder of the name's majestic ties.</p><p>In the realm of creativity, there's James Cameron, the cinematic maestro behind blockbusters like 'Titanic' and 'Avatar.' His work speaks volumes about the visionary depth and innovation the name seems to inspire. Then there’s James Franco, a multifaceted actor known for his roles in films ranging from '127 Hours' to 'The Disaster Artist,' showcasing an artistic versatility that the name James beautifully embodies.</p><p>On the sports field, LeBron James has become synonymous with excellence and determination. A titan of basketball, his legacy transcends sports, making a global impact and inspiring countless young athletes. Each of these notables carries the name James with a unique flair, adding layers to its illustrious narrative.</p><p>James has made quite the splash in pop culture, finding its way into beloved stories and characters. One cannot overlook 'James and the Giant Peach,' a whimsical tale by Roald Dahl that invites young imaginations on an unforgettable journey. The titular character, James, embodies bravery and adventure, qualities that are often associated with the name.</p><p>In the world of espionage, James Bond stands out as a sleek and sophisticated persona, embodying charm and intelligence. His name has become synonymous with the ultimate spy, a character who has thrilled audiences for generations with his suave demeanor and daring escapades.</p><p>These cultural moments have cemented James as not just a name, but an emblem of narrative richness, capturing the imaginations of readers and viewers alike with its compelling charm.</p><p>People named James often exude a sense of quiet confidence and reliability. They tend to be natural leaders, whether by choice or circumstance, carrying themselves with an air of competence that others find reassuring. The name’s historical weight seems to lend its bearers a sense of purpose and determination, qualities that have been observed across various fields and endeavors.</p><p>In personal relationships, James often embody loyalty and a steadfast nature. They are the friends who will stand by you, the family members who anchor gatherings with their calming presence. While every James is unique, there’s a shared thread of resilience and adaptability that weaves through their stories, making them cherished companions and admired colleagues.</p><p>The name James is wonderfully versatile, offering a range of variations and nicknames to suit different personalities and stages of life. For a more casual touch, 'Jamie' brings a youthful, approachable energy, often chosen for its friendly and relaxed vibe. Then there’s 'Jim,' a classic, no-nonsense option that feels both timeless and grounded.</p><p>If you're leaning towards something a bit more playful, 'Jem' could be a charming alternative, giving off an air of whimsy and creativity. Each of these variations carries its own distinct character, allowing the name James to be tailored to fit the individual perfectly, from childhood through adulthood.</p><p>Currently sitting at #100, James continues to be a popular choice among parents, maintaining its status as a classic name that never goes out of style. Its steady presence in the top rankings reflects its enduring appeal, a testament to its timeless nature.</p><p>While it might not be at the very top of the charts, its consistent popularity hints at a broad, cross-generational love for the name. James offers a safe, yet distinguished choice for parents who want a name that is both familiar and rich with history. It’s a trend-proof option, ideal for those who wish for their child’s name to carry a legacy without being lost in a sea of fleeting trends.</p><p>When it comes to pairing James with middle or sibling names, the options are delightfully endless. For a middle name, consider something with a bit of flair or softness to complement James’ strong persona. Names like James Alexander or James Oliver roll off the tongue with an air of sophistication.</p><p>For sibling names, you might want to consider timeless classics such as Elizabeth or Charlotte for sisters, and perhaps Henry or William for brothers. Each of these combinations offers a harmonious blend of elegance and tradition, creating a cohesive and appealing family name set.</p><p>James has traversed continents and eras, beginning its journey in biblical times and moving through various linguistic landscapes. As it migrated from Hebrew to English, James maintained its core significance while adapting to new cultural nuances. In the Middle Ages, it gained favor in the English-speaking world, bolstered by the influence of saints and royalty.</p><p>This name's widespread appeal is seen across Western cultures and beyond, celebrated for its simplicity and strength. Its presence in different cultures and languages, such as the Spanish 'Jaime' or the French 'Jacques,' highlights its versatility and the universal admiration it commands. James is a name that tells a story of migration and adaptation, a testament to its enduring resonance.</p><p>If you're considering James for your little one, you're choosing a name that is tried, true, and beloved across generations. Its timeless appeal makes it a safe and charming choice, ensuring your child carries a name that's both distinguished and approachable.</p><p>However, if you're looking for something less common or more avant-garde, James might feel a bit traditional. But for those who value history, dignity, and a touch of royal flair, James could very well be the perfect fit. It’s a name that promises to serve your child well, offering them a sense of identity grounded in rich heritage and modern grace.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>James is a name of biblical origin, derived from the Hebrew name Jacob, meaning 'supplanter'. It has been a popular name in the English-speaking world since the Middle Ages, often associated with kings and saints.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>James Madison</h4>
+        <div class="meta">1751-1836 • Political Leaders</div>
+        <p><strong>Significance:</strong> James Madison was instrumental in drafting the U.S. Constitution and the Bill of Rights.</p>
+        <ul><li>Fourth President of the United States</li><li>Father of the Constitution</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>James Clerk Maxwell</h4>
+        <div class="meta">1831-1879 • Scientists</div>
+        <p><strong>Significance:</strong> Maxwell's work laid the foundation for modern physics and telecommunications.</p>
+        <ul><li>Formulated Maxwell's equations</li><li>Contributed to the field of electromagnetism</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>James Joyce</h4>
+        <div class="meta">1882-1941 • Writers</div>
+        <p><strong>Significance:</strong> James Joyce is renowned for his innovative narrative techniques and complex characters.</p>
+        <ul><li>Pioneered modernist literature</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>James Cameron</h4>
+        <div class="meta">Film Director</div>
+        <p><strong>Known for:</strong> Directing 'Titanic', Directing 'Avatar'</p>
+        <p><strong>Awards:</strong> Academy Awards for Best Director</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>James Franco</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Acting in '127 Hours', Acting in 'Spider-Man' trilogy</p>
+        <p><strong>Awards:</strong> Golden Globe Award for Best Actor</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>LeBron James</h4>
+        <div class="meta">NBA Basketball • Los Angeles Lakers</div>
+        <p><strong>Position:</strong> Forward</p>
+        <p><strong>Achievements:</strong> 4× NBA Champion, 4× NBA MVP</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>James Rodríguez</h4>
+        <div class="meta">European Soccer/Football • Everton</div>
+        <p><strong>Position:</strong> Midfielder</p>
+        <p><strong>Achievements:</strong> Golden Boot at 2014 FIFA World Cup</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>James Conner</h4>
+        <div class="meta">American Football (NFL) • Arizona Cardinals</div>
+        <p><strong>Position:</strong> Running Back</p>
+        <p><strong>Achievements:</strong> Pro Bowl selection</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>James Paxton</h4>
+        <div class="meta">MLB Baseball • Boston Red Sox</div>
+        <p><strong>Position:</strong> Pitcher</p>
+        <p><strong>Achievements:</strong> Pitched a no-hitter in 2018</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>James van Riemsdyk</h4>
+        <div class="meta">NHL Ice Hockey • Philadelphia Flyers</div>
+        <p><strong>Position:</strong> Left Wing</p>
+        <p><strong>Achievements:</strong> NHL All-Star</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Jacob</div><div class="tag">Jaime</div><div class="tag">Giacomo</div><div class="tag">Seamus</div><div class="tag">Diego</div><div class="tag">Jamesa</div><div class="tag">Jameso</div><div class="tag">Jamesus</div><div class="tag">Jamese</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Jim</div><div class="tag">Jimmy</div><div class="tag">Jamie</div><div class="tag">Jay</div><div class="tag">Jem</div><div class="tag">Ja</div><div class="tag">Jam</div><div class="tag">Jame</div><div class="tag">Jamy</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_james_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_james_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_james_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_james_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_james_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_james_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_james_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_james_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,408 @@
+{
+  "name": "jackson",
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Son of Jack",
+  "culturalSignificance": "The name Jackson has historical significance as a surname that has been transformed into a popular given name. It reflects the patronymic tradition, meaning 'son of Jack,' and has been widely adopted in English-speaking countries. The name gained prominence in the United States partly due to President Andrew Jackson, the seventh President of the United States.",
+  "modernContext": "Jackson is a popular given name in the United States and other English-speaking countries, frequently appearing in the top baby name lists. It is often chosen for its strong, classic sound and its association with notable figures.",
+  "literaryReferences": "The name Jackson does not have significant literary references but is often used in modern literature and media as a character name.",
+  "pronunciationGuide": "/ˈdʒæksən/",
+  "variations": [
+    "Jaxon",
+    "Jaxson",
+    "Jakson",
+    "Jaksen",
+    "Jaxen",
+    "Jaxxon",
+    "Jacson",
+    "Jaxin",
+    "Jax"
+  ],
+  "similarNames": [
+    "Jaxon",
+    "Jason",
+    "Mason",
+    "Jameson",
+    "Jared",
+    "Justin",
+    "Jordan",
+    "Jasper",
+    "Jake"
+  ],
+  "nicknames": [
+    "Jack",
+    "Jax",
+    "Jay",
+    "Jackie",
+    "Jace",
+    "Sonny",
+    "Jaxie",
+    "Jacko",
+    "Ja"
+  ],
+  "personality": "The name Jackson is often associated with a strong and confident personality. People with this name are perceived as leaders, charismatic, and ambitious.",
+  "symbolism": "Jackson symbolizes strength, leadership, and a connection to one's roots or heritage.",
+  "funFact": "Jackson was the 17th most popular name for boys in the United States in 2020.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Andrew Jackson",
+      "years": "1767-1845",
+      "category": "Political Leaders",
+      "achievements": [
+        "7th President of the United States",
+        "Founder of the Democratic Party"
+      ],
+      "significance": "Andrew Jackson is a significant figure in American history, known for his role in the founding of the Democratic Party and his influence on the modern presidency.",
+      "notableWorks": [
+        "Indian Removal Act",
+        "Nullification Crisis"
+      ]
+    },
+    {
+      "fullName": "Stonewall Jackson",
+      "years": "1824-1863",
+      "category": "Military Leaders",
+      "achievements": [
+        "Confederate general during the American Civil War"
+      ],
+      "significance": "Stonewall Jackson was a Confederate general known for his tactical prowess during the American Civil War.",
+      "notableWorks": [
+        "First Battle of Bull Run",
+        "Battle of Chancellorsville"
+      ]
+    },
+    {
+      "fullName": "Mahalia Jackson",
+      "years": "1911-1972",
+      "category": "Musicians",
+      "achievements": [
+        "Influential gospel singer",
+        "Civil rights activist"
+      ],
+      "significance": "Mahalia Jackson was a renowned gospel singer whose music played a significant role in the American civil rights movement.",
+      "notableWorks": [
+        "Move On Up a Little Higher",
+        "Take My Hand, Precious Lord"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "One man with courage makes a majority.",
+      "author": "Andrew Jackson",
+      "context": "This quote reflects Andrew Jackson's belief in the power of individual courage and leadership.",
+      "year": 1832,
+      "category": "Leadership"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Michael Jackson",
+      "profession": "Musician",
+      "knownFor": [
+        "King of Pop",
+        "Thriller album"
+      ],
+      "awards": "13 Grammy Awards"
+    },
+    {
+      "name": "Samuel L. Jackson",
+      "profession": "Actor",
+      "knownFor": [
+        "Pulp Fiction",
+        "Marvel Cinematic Universe"
+      ],
+      "awards": "Honorary Academy Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Reggie Jackson",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Denver Nuggets",
+      "pastTeams": [
+        "Detroit Pistons",
+        "Los Angeles Clippers"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "1",
+      "years": "2011-Present",
+      "achievements": "NBA Sixth Man of the Year (2021)",
+      "knownFor": [
+        "Clutch performances in playoffs"
+      ],
+      "awards": "NBA Sixth Man of the Year",
+      "stats": "Averaged 12.8 points per game in 2022 season",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Lamar Jackson",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Baltimore Ravens",
+      "pastTeams": [],
+      "position": "Quarterback",
+      "jerseyNumber": "8",
+      "years": "2018-Present",
+      "achievements": "NFL MVP (2019)",
+      "knownFor": [
+        "Dynamic rushing ability"
+      ],
+      "awards": "NFL MVP",
+      "stats": "Over 3,000 passing yards in 2019 season",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Bo Jackson",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Kansas City Royals",
+        "Chicago White Sox",
+        "California Angels"
+      ],
+      "position": "Outfielder",
+      "jerseyNumber": "16",
+      "years": "1986-1994",
+      "achievements": "All-Star Game MVP (1989)",
+      "knownFor": [
+        "Dual-sport athlete"
+      ],
+      "awards": "All-Star Game MVP",
+      "stats": "Hit 141 home runs in MLB career",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Reggie Jackson",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Oakland Athletics",
+        "New York Yankees",
+        "California Angels"
+      ],
+      "position": "Right Fielder",
+      "jerseyNumber": "44",
+      "years": "1967-1987",
+      "achievements": "5× World Series champion",
+      "knownFor": [
+        "Mr. October"
+      ],
+      "awards": "AL MVP (1973)",
+      "stats": "563 career home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Mark Jackson",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "New York Knicks",
+        "Indiana Pacers",
+        "Denver Nuggets"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "13",
+      "years": "1987-2004",
+      "achievements": "NBA All-Star (1989)",
+      "knownFor": [
+        "Exceptional passing skills"
+      ],
+      "awards": "NBA Rookie of the Year (1988)",
+      "stats": "10,334 career assists",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Phil Jackson",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "New York Knicks",
+        "New Jersey Nets"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "18",
+      "years": "1967-1980",
+      "achievements": "2× NBA Champion as player",
+      "knownFor": [
+        "Zen coaching philosophy"
+      ],
+      "awards": "NBA Coach of the Year (1996)",
+      "stats": "1,008 career points",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Curtis Jackson",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Retired",
+      "pastTeams": [
+        "New York Rangers",
+        "Toronto Maple Leafs"
+      ],
+      "position": "Center",
+      "jerseyNumber": "9",
+      "years": "1985-1995",
+      "achievements": "Stanley Cup Champion",
+      "knownFor": [
+        "Strong defensive play"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "500 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 1,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 411,
+    "peak": 71,
+    "peakYear": 2009
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "jac-kson"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Charlize Theron",
+      "parentProfession": "Actor",
+      "childName": "Jackson Theron",
+      "birthYear": 2011,
+      "context": "Charlize Theron is an Academy Award-winning actress known for her roles in films like 'Monster' and 'Mad Max: Fury Road'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Spike Lee",
+      "parentProfession": "Director",
+      "childName": "Jackson Lee",
+      "birthYear": 1997,
+      "context": "Spike Lee is a renowned film director known for movies such as 'Do the Right Thing' and 'Malcolm X'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Piers Morgan",
+      "parentProfession": "TV Personality",
+      "childName": "Jackson Morgan",
+      "birthYear": 2001,
+      "context": "Piers Morgan is a British television presenter and journalist known for hosting shows like 'Good Morning Britain'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:28:11.661Z",
+  "v8EnrichedAt": "2025-11-03T22:28:15.684Z",
+  "songs": [
+    {
+      "title": "Jackson",
+      "artist": "Johnny Cash and June Carter",
+      "year": 1967,
+      "genre": "Country",
+      "nameContext": "Features \"jackson\" in the song",
+      "description": "This classic duet features a playful and spirited exchange between a couple planning a trip to Jackson. The song highlights their adventurous spirit and the excitement of exploring new places together.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jackson%20played%20by%20Johnny%20Cash%20and%20June%20Carter",
+      "geniusUrl": "https://genius.com/search?q=Jackson%20Johnny%20Cash%20and%20June%20Carter",
+      "verified": true
+    },
+    {
+      "title": "Jackson",
+      "artist": "Nancy Sinatra and Lee Hazlewood",
+      "year": 1967,
+      "genre": "Country Pop",
+      "nameContext": "Features \"jackson\" in the song",
+      "description": "A lively and upbeat duet that captures the fun and anticipation of heading to Jackson. The song's positive energy and catchy melody make it a timeless favorite about enjoying life's adventures with a partner.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jackson%20played%20by%20Nancy%20Sinatra%20and%20Lee%20Hazlewood",
+      "geniusUrl": "https://genius.com/search?q=Jackson%20Nancy%20Sinatra%20and%20Lee%20Hazlewood",
+      "verified": true
+    },
+    {
+      "title": "Jackson",
+      "artist": "Jill Sobule",
+      "year": 2000,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"jackson\" in the song",
+      "description": "This song tells a heartwarming story about a journey to Jackson, filled with optimism and personal growth. It emphasizes themes of self-discovery and the joy of pursuing one's dreams.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jackson%20played%20by%20Jill%20Sobule",
+      "geniusUrl": "https://genius.com/search?q=Jackson%20Jill%20Sobule",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:28:21.167Z",
+  "songsEnrichedAt": "2025-11-03T22:28:21.167Z"
+}

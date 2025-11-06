@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noah - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Rest, comfort - Hebrew origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Noah</h1>
+      <div class="meaning">"Rest, comfort"</div>
+      <div class="meta">
+        <div class="meta-item">Hebrew Origin</div>
+        <div class="meta-item">Male</div>
+        <div class="meta-item">Ranked #215</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by Dr. Elena Martinez</h3>
+      <p>Academic Historian & Linguist • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Noah</h3>
+            <div class="subtitle">Expert Analysis by Dr. Elena Martinez</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The name Noah, simple yet profoundly resonant, weaves through the tapestry of history and human expression. Like an ancient, enduring melody, it has traversed epochs, borne by the whispers of ancient texts and embraced by modern narratives. Fascinating to note that Noah encapsulates a universality—speaking of peace and resilience—that transcends its origin, making it a timeless choice for many.</p><p>Etymologically, Noah finds its roots in the Hebrew name נֹחַ (Noach), which historically signifies 'rest' or 'comfort'. Historical records show that it first emerged in the Genesis narrative of the Hebrew Bible, where Noah is entrusted with the task of preserving life through the cataclysmic flood. This lexical heritage reflects a theme of solace and sanctuary—a name that embodies the notion of enduring tranquility amidst tumult.</p><p>Noah has graced many well-known figures across various fields. Noah Wyle, an actor celebrated for his role on the TV series 'ER', exemplifies the dedication synonymous with the name. The realm of cinema also embraces Noah Baumbach, an acclaimed director and screenwriter known for his incisive storytelling. In athletic circles, names like Joakim Noah and Noah Syndergaard reinforce the name’s association with resilience and prowess.</p><p>In popular culture, Noah continues to capture hearts and imaginations. The film 'The Notebook', adapted from Nicholas Sparks' novel, has immortalized Noah Calhoun as the epitome of romantic dedication. Moreover, the 2014 film 'Noah', starring Russell Crowe, reimagines the biblical story with epic scale, further embedding the name in contemporary consciousness. These cultural references evoke the timeless values associated with the name—endurance, love, and transformative journeys.</p><p>A bearer of the name Noah might be characterized by their steadfast nature and an innate ability to provide comfort to those around them. Individuals with this name often exhibit a calm exterior, coupled with profound inner strength—a reflection of the historical and etymological roots of 'rest' and 'comfort'. This is someone who embraces challenges with quiet determination, inspiring others with their resilience and compassion.</p><p>While Noah itself is succinct and strong, various cultures have adapted it into delightful nicknames and forms. In some regions, 'Noé' offers a softer, yet equally enchanting, variation. Fascinating to note that diminutives like 'Noey' or even 'No'—though less common—retain the name's essential qualities. These variations provide a versatile canvas for personal expression while remaining true to the name’s core attributes.</p><p>Currently ranked #215, Noah has experienced an intriguing ebb and flow in popularity over the decades. Its appeal surged notably in the early 21st century, in part due to cultural influences that reintroduced the name to a new generation of parents. Historical migration patterns and linguistic evolution have played roles in its global resonance, contributing to its sustained presence in numerous languages and cultures.</p><p>When it comes to pairing Noah with middle or sibling names, consider names that echo its serene and timeless qualities. Combinations such as Noah Alexander or Noah Elise offer a pleasing balance, bridging historical gravitas with modern sophistication. In sibling sets, Noah pairs beautifully with names like Ava or Ethan—each sharing cultural fluidity and enduring charm.</p><p>The cultural context of Noah is deeply entrenched in ancient Jewish traditions yet has been widely adopted across various societies, signaling a broader historical movement of biblical names into mainstream lexicons. As languages evolve, Noah has effortlessly integrated into numerous linguistic frameworks, from the romantic tongues of Europe to the tonalities of Asian dialects, embodying a shared human narrative of seeking solace and peace.</p><p>In considering Noah for your child, you are choosing a name steeped in history and profound meaning—a timeless beacon of tranquility and strength. Its rich linguistic and cultural heritage ensures that it will resonate not just within your family, but across the diverse landscapes your child will traverse. May this name be a source of comfort and inspiration, as it has been for countless generations.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>Noah is a significant figure in the Hebrew Bible, known for building the Ark to save his family and pairs of animals from the Great Flood. The name has been popular in various cultures due to its biblical roots and the story of Noah's Ark, symbolizing faith, obedience, and survival.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Noah Webster</h4>
+        <div class="meta">1758-1843 • Lexicographer</div>
+        <p><strong>Significance:</strong> Noah Webster is known as the 'Father of American Scholarship and Education'.</p>
+        <ul><li>Published the first American dictionary</li><li>Influenced American English</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Beery Sr.</h4>
+        <div class="meta">1882-1946 • Actor</div>
+        <p><strong>Significance:</strong> He was a well-known actor of his time, often playing villainous roles.</p>
+        <ul><li>Prominent character actor in silent films and early talkies</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Haynes Swayne</h4>
+        <div class="meta">1804-1884 • Supreme Court Justice</div>
+        <p><strong>Significance:</strong> Appointed by Abraham Lincoln, he played a role in post-Civil War legal decisions.</p>
+        <ul><li>Served as an Associate Justice of the Supreme Court of the United States</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Noah Wyle</h4>
+        <div class="meta">Actor</div>
+        <p><strong>Known for:</strong> Starring in 'ER', Roles in 'The Librarian' series</p>
+        <p><strong>Awards:</strong> Screen Actors Guild Award</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Baumbach</h4>
+        <div class="meta">Filmmaker</div>
+        <p><strong>Known for:</strong> Directing 'Marriage Story', Writing 'The Squid and the Whale'</p>
+        <p><strong>Awards:</strong> Academy Award nominations</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Joakim Noah</h4>
+        <div class="meta">NBA Basketball • Retired</div>
+        <p><strong>Position:</strong> Center</p>
+        <p><strong>Achievements:</strong> Two-time NBA All-Star, NBA Defensive Player of the Year</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Vonleh</h4>
+        <div class="meta">NBA Basketball • Shanghai Sharks (2024/2025 season)</div>
+        <p><strong>Position:</strong> Power Forward</p>
+        <p><strong>Achievements:</strong> NBA All-Rookie Second Team</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Okafor</h4>
+        <div class="meta">European Soccer/Football • RB Leipzig (2024/2025 season)</div>
+        <p><strong>Position:</strong> Forward</p>
+        <p><strong>Achievements:</strong> Swiss Super League champion</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Fant</h4>
+        <div class="meta">American Football (NFL) • Seattle Seahawks (2024/2025 season)</div>
+        <p><strong>Position:</strong> Tight End</p>
+        <p><strong>Achievements:</strong> First-round draft pick</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Syndergaard</h4>
+        <div class="meta">MLB Baseball • Los Angeles Dodgers (2024/2025 season)</div>
+        <p><strong>Position:</strong> Pitcher</p>
+        <p><strong>Achievements:</strong> MLB All-Star</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Noah Hanifin</h4>
+        <div class="meta">NHL Ice Hockey • Calgary Flames (2024/2025 season)</div>
+        <p><strong>Position:</strong> Defenseman</p>
+        <p><strong>Achievements:</strong> NHL All-Star</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Noé (French)</div><div class="tag">Noach (Dutch)</div><div class="tag">Noa (Spanish)</div><div class="tag">Nooa (Finnish)</div><div class="tag">Noach (Hebrew)</div><div class="tag">Noaha</div><div class="tag">Noaho</div><div class="tag">Noahus</div><div class="tag">Noahe</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Noe</div><div class="tag">No</div><div class="tag">Nono</div><div class="tag">Nay</div><div class="tag">Nay-Nay</div><div class="tag">Noa</div><div class="tag">Noah</div><div class="tag">Noy</div><div class="tag">Noay</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_noah_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_noah_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_noah_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_noah_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_noah_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_noah_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_noah_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_noah_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

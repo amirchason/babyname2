@@ -1,0 +1,340 @@
+{
+  "name": "matthew",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Gift of God",
+  "culturalSignificance": "Matthew is a name of great significance in Christian tradition, being the name of one of the twelve apostles of Jesus and the author of the first Gospel in the New Testament. It has been a popular name in English-speaking countries since the Middle Ages, often associated with qualities of generosity and kindness.",
+  "modernContext": "Matthew remains a popular name in many English-speaking countries, consistently ranking in the top 100 names for boys. Its timeless appeal is attributed to its biblical roots and the positive qualities associated with the name.",
+  "literaryReferences": "Matthew is the name of a key character in the Bible, specifically the Gospel of Matthew, which is one of the four canonical gospels.",
+  "pronunciationGuide": "/ˈmæθ.juː/",
+  "variations": [
+    "Matthias",
+    "Matteo",
+    "Matheus",
+    "Matthieu",
+    "Mateo",
+    "Mattias",
+    "Matti",
+    "Mathias",
+    "Matias"
+  ],
+  "similarNames": [
+    "Mark",
+    "Michael",
+    "Nathan",
+    "Lucas",
+    "Daniel",
+    "David",
+    "Jonathan",
+    "Joseph",
+    "Samuel"
+  ],
+  "nicknames": [
+    "Matt",
+    "Matty",
+    "Mat",
+    "Matti",
+    "Mate",
+    "Mats",
+    "Matte",
+    "Thew",
+    "Mato"
+  ],
+  "personality": "People named Matthew are often perceived as reliable, thoughtful, and compassionate. They are seen as natural leaders with a strong sense of justice and fairness.",
+  "symbolism": "The name Matthew symbolizes generosity and divine blessing, reflecting its meaning as 'Gift of God'.",
+  "funFact": "The name Matthew has been consistently popular for centuries, often appearing in the top 10 names for boys in the United States since the 1970s.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Matthew",
+    "significance": "Matthew is one of the twelve apostles of Jesus and the author of the Gospel of Matthew, which is a key text in the New Testament.",
+    "keyStories": [
+      "The calling of Matthew as a disciple",
+      "The Sermon on the Mount"
+    ],
+    "spiritualMeaning": "Matthew represents the transformation from a tax collector to a devoted follower of Jesus, symbolizing redemption and faith.",
+    "historicalImpact": "The Gospel of Matthew has had a profound impact on Christian theology and liturgy, being one of the most frequently quoted books in the New Testament."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Matthew Flinders",
+      "years": "1774-1814",
+      "category": "Explorers",
+      "achievements": [
+        "Circumnavigated Australia",
+        "Mapped the coastline of Australia"
+      ],
+      "significance": "Matthew Flinders was a British navigator and cartographer who led the first circumnavigation of Australia and identified it as a continent.",
+      "notableWorks": [
+        "A Voyage to Terra Australis"
+      ]
+    },
+    {
+      "fullName": "Matthew Arnold",
+      "years": "1822-1888",
+      "category": "Poets",
+      "achievements": [
+        "Renowned poet and cultural critic",
+        "Inspector of Schools"
+      ],
+      "significance": "Matthew Arnold was a significant literary figure in Victorian England, known for his poetry and essays on culture and society.",
+      "notableWorks": [
+        "Dover Beach",
+        "Culture and Anarchy"
+      ]
+    },
+    {
+      "fullName": "Matthew Perry",
+      "years": "1794-1858",
+      "category": "Military Leaders",
+      "achievements": [
+        "Opened Japan to the West with the Convention of Kanagawa"
+      ],
+      "significance": "Commodore Matthew Perry was a U.S. Navy officer who played a crucial role in opening Japan to the West in the mid-19th century.",
+      "notableWorks": [
+        "Negotiated the Treaty of Kanagawa"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      "author": "Matthew Arnold",
+      "context": "This quote reflects Arnold's belief in the importance of individuality and authenticity.",
+      "year": 1869,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Matthew McConaughey",
+      "profession": "Actor",
+      "knownFor": [
+        "Dallas Buyers Club",
+        "Interstellar",
+        "True Detective"
+      ],
+      "awards": "Academy Award for Best Actor"
+    },
+    {
+      "name": "Matthew Broderick",
+      "profession": "Actor",
+      "knownFor": [
+        "Ferris Bueller's Day Off",
+        "The Producers"
+      ],
+      "awards": "Tony Award for Best Actor in a Musical"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Matthew Dellavedova",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Sacramento Kings",
+      "pastTeams": [
+        "Cleveland Cavaliers",
+        "Milwaukee Bucks"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "8",
+      "years": "2013-Present",
+      "achievements": "NBA Champion 2016",
+      "knownFor": [
+        "Defensive skills",
+        "Playmaking"
+      ],
+      "awards": "NBA Champion",
+      "stats": "Career averages: 5.5 points, 3.7 assists",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Matthew Stafford",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Los Angeles Rams",
+      "pastTeams": [
+        "Detroit Lions"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "9",
+      "years": "2009-Present",
+      "achievements": "Super Bowl Champion 2022",
+      "knownFor": [
+        "Strong arm",
+        "Leadership"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "Over 50,000 passing yards",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Matthew Barzal",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "New York Islanders",
+      "pastTeams": [],
+      "position": "Center",
+      "jerseyNumber": "13",
+      "years": "2016-Present",
+      "achievements": "Calder Memorial Trophy 2018",
+      "knownFor": [
+        "Skating ability",
+        "Playmaking"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Career points: 311",
+      "verified": true,
+      "source": "NHL.com"
+    },
+    {
+      "name": "Matteo Darmian",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "Inter Milan",
+      "pastTeams": [
+        "Manchester United",
+        "Torino"
+      ],
+      "position": "Defender",
+      "jerseyNumber": "36",
+      "years": "2009-Present",
+      "achievements": "Serie A Champion",
+      "knownFor": [
+        "Versatility",
+        "Defensive skills"
+      ],
+      "awards": "UEFA Europa League",
+      "stats": "Over 300 career appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Friends",
+      "year": 1994,
+      "type": "TV Show",
+      "characterName": "Matthew Perry",
+      "characterDescription": "Actor who played Chandler Bing, known for his sarcastic humor and commitment issues.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108778/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 98
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Could I BE any more sarcastic?",
+      "character": "Chandler Bing",
+      "source": "Friends",
+      "year": 1994,
+      "context": "Chandler often uses sarcasm as a defense mechanism, and this quote exemplifies his humor.",
+      "genre": "Comedy",
+      "impact": "This quote is iconic for its delivery and encapsulates Chandler's character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 9,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 397,
+    "peak": 195,
+    "peakYear": 2011
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "mat-thew"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "Contains 4 biblical indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:53:33.882Z",
+  "v8EnrichedAt": "2025-11-03T21:53:35.160Z",
+  "songs": [
+    {
+      "title": "Matthew and Son",
+      "artist": "Cat Stevens",
+      "year": 1967,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"matthew\" in the song",
+      "description": "This song reflects on the daily life and routine of a young man working for a company. It highlights the balance between work and personal life, with an underlying positive message about perseverance and finding one's own path.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Matthew%20and%20Son%20played%20by%20Cat%20Stevens",
+      "geniusUrl": "https://genius.com/search?q=Matthew%20and%20Son%20Cat%20Stevens",
+      "verified": true
+    },
+    {
+      "title": "Matthew",
+      "artist": "John Denver",
+      "year": 1974,
+      "genre": "Country/Folk",
+      "nameContext": "Features \"matthew\" in the song",
+      "description": "A heartfelt tribute to a family member, this song celebrates the life and spirit of a man named Matthew. It paints a picture of his joyful nature and the positive impact he had on those around him, emphasizing themes of family and cherished memories.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Matthew%20played%20by%20John%20Denver",
+      "geniusUrl": "https://genius.com/search?q=Matthew%20John%20Denver",
+      "verified": true
+    },
+    {
+      "title": "Matthew's Daughter",
+      "artist": "Gordon Lightfoot",
+      "year": 1975,
+      "genre": "Folk",
+      "nameContext": "Features \"matthew\" in the song",
+      "description": "This song tells a story about a young woman and her relationship with her father, Matthew. It conveys a positive message about love, family bonds, and the support that family members provide to each other throughout life's journey.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Matthew's%20Daughter%20played%20by%20Gordon%20Lightfoot",
+      "geniusUrl": "https://genius.com/search?q=Matthew's%20Daughter%20Gordon%20Lightfoot",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T21:53:42.568Z",
+  "songsEnrichedAt": "2025-11-03T21:53:42.568Z"
+}

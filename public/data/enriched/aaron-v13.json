@@ -1,0 +1,377 @@
+{
+  "name": "aaron",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:55:15.597Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "High mountain",
+  "culturalSignificance": "Aaron is a prominent figure in the Hebrew Bible, known as the elder brother of Moses and the first high priest of the Israelites. The name has been used throughout history in Jewish, Christian, and Islamic traditions, symbolizing leadership and spiritual guidance.",
+  "modernContext": "Aaron remains a popular name in many English-speaking countries, consistently ranking in the top 100 names for boys. Its timeless appeal is attributed to its biblical roots and strong, classic sound.",
+  "literaryReferences": "Aaron appears in various literary works, including Shakespeare's play 'Titus Andronicus' as a complex character.",
+  "pronunciationGuide": "/ˈɛərən/",
+  "variations": [
+    "Aharon",
+    "Aron",
+    "Arron",
+    "Aaren",
+    "Aeron",
+    "Aharoni",
+    "Arin",
+    "Aarona",
+    "Aarono"
+  ],
+  "similarNames": [
+    "Ethan",
+    "Adam",
+    "Eli",
+    "Nathan",
+    "Asher",
+    "Owen",
+    "Noah",
+    "Caleb",
+    "Isaac"
+  ],
+  "nicknames": [
+    "Ron",
+    "Ronnie",
+    "Ari",
+    "Roni",
+    "Aa",
+    "Aar",
+    "Aaro",
+    "Aay",
+    "Aary"
+  ],
+  "personality": "People named Aaron are often perceived as strong leaders, compassionate, and reliable. They are seen as trustworthy and often take on roles of responsibility.",
+  "symbolism": "The name Aaron symbolizes strength, leadership, and spiritual enlightenment, often associated with high moral standards and integrity.",
+  "funFact": "Aaron was the first high priest of the Israelites and is often depicted with a staff that miraculously blossomed.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity",
+      "Islam"
+    ],
+    "character": "Aaron",
+    "significance": "Aaron is a significant biblical figure, known for his role as the spokesperson for Moses and the first high priest.",
+    "keyStories": [
+      "Aaron's rod that budded",
+      "The Golden Calf incident",
+      "Aaron's role in the Exodus"
+    ],
+    "spiritualMeaning": "Aaron represents the voice of God and the importance of faith and obedience.",
+    "historicalImpact": "Aaron's priesthood established the hereditary line of Jewish priests, known as the Kohanim."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Aaron Burr",
+      "years": "1756-1836",
+      "category": "Political Leaders",
+      "achievements": [
+        "Third Vice President of the United States",
+        "Served during Thomas Jefferson's first term"
+      ],
+      "significance": "Aaron Burr is known for his political career and the infamous duel with Alexander Hamilton.",
+      "notableWorks": [
+        "Burr's political career and influence in early American politics"
+      ]
+    },
+    {
+      "fullName": "Aaron Copland",
+      "years": "1900-1990",
+      "category": "Composers",
+      "achievements": [
+        "Pulitzer Prize for Music",
+        "Presidential Medal of Freedom"
+      ],
+      "significance": "Aaron Copland is a renowned American composer known for his contributions to American classical music.",
+      "notableWorks": [
+        "Appalachian Spring",
+        "Fanfare for the Common Man"
+      ]
+    },
+    {
+      "fullName": "Aaron Swartz",
+      "years": "1986-2013",
+      "category": "Technology and Activism",
+      "achievements": [
+        "Co-founder of Reddit",
+        "Developer of the RSS web feed format"
+      ],
+      "significance": "Aaron Swartz was a programmer and internet activist known for his efforts in open access to information.",
+      "notableWorks": [
+        "Development of Creative Commons licensing"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The most important thing is to try and inspire people so that they can be great in whatever they want to do.",
+      "author": "Aaron Swartz",
+      "context": "Aaron Swartz emphasized the importance of inspiration and empowerment in technology and activism.",
+      "year": 2012,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Aaron Paul",
+      "profession": "Actor",
+      "knownFor": [
+        "Breaking Bad",
+        "The Path"
+      ],
+      "awards": "Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series"
+    },
+    {
+      "name": "Aaron Sorkin",
+      "profession": "Screenwriter",
+      "knownFor": [
+        "The West Wing",
+        "The Social Network"
+      ],
+      "awards": "Academy Award for Best Adapted Screenplay"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Aaron Gordon",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Denver Nuggets",
+      "pastTeams": [
+        "Orlando Magic"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "50",
+      "years": "2014-Present",
+      "achievements": "NBA Slam Dunk Contest runner-up",
+      "knownFor": [
+        "Athleticism and dunking ability"
+      ],
+      "awards": "NBA All-Rookie Second Team",
+      "stats": "Averaged 12.5 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Aaron Ramsey",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "Juventus",
+      "pastTeams": [
+        "Arsenal",
+        "Cardiff City"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "2006-Present",
+      "achievements": "FA Cup winner",
+      "knownFor": [
+        "Technical skills and goal-scoring ability"
+      ],
+      "awards": "Welsh Player of the Year",
+      "stats": "Over 50 international caps for Wales",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Aaron Donald",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Los Angeles Rams",
+      "pastTeams": [],
+      "position": "Defensive Tackle",
+      "jerseyNumber": "99",
+      "years": "2014-Present",
+      "achievements": "Super Bowl Champion",
+      "knownFor": [
+        "Dominant defensive play",
+        "Multiple Defensive Player of the Year awards"
+      ],
+      "awards": "NFL Defensive Player of the Year",
+      "stats": "Over 100 career sacks",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Aaron Judge",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "New York Yankees",
+      "pastTeams": [],
+      "position": "Right Fielder",
+      "jerseyNumber": "99",
+      "years": "2016-Present",
+      "achievements": "AL Rookie of the Year",
+      "knownFor": [
+        "Power hitting",
+        "Home run records"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "Over 200 career home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Aaron Ekblad",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Florida Panthers",
+      "pastTeams": [],
+      "position": "Defenseman",
+      "jerseyNumber": "5",
+      "years": "2014-Present",
+      "achievements": "NHL All-Rookie Team",
+      "knownFor": [
+        "Strong defensive play",
+        "Offensive contributions"
+      ],
+      "awards": "Calder Memorial Trophy",
+      "stats": "Over 200 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Breaking Bad",
+      "year": 2008,
+      "type": "TV Show",
+      "characterName": "Jesse Pinkman",
+      "characterDescription": "A former student turned meth manufacturer, played by Aaron Paul.",
+      "imdbUrl": "https://www.imdb.com/title/tt0903747/",
+      "genre": "Crime, Drama, Thriller",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Yeah, science!",
+      "character": "Jesse Pinkman",
+      "source": "Breaking Bad",
+      "year": 2010,
+      "context": "Jesse Pinkman exclaims this after a successful chemistry experiment.",
+      "genre": "Crime, Drama, Thriller",
+      "impact": "The quote became iconic for its humorous and enthusiastic delivery, reflecting Jesse's character development."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 271,
+    "peak": 208,
+    "peakYear": 2020
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "aa-ron"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T23:11:48.160Z",
+  "v8EnrichedAt": "2025-11-03T23:11:51.645Z",
+  "songs": [
+    {
+      "title": "Aaron's Party (Come Get It)",
+      "artist": "Aaron Carter",
+      "year": 2000,
+      "genre": "Pop",
+      "nameContext": "Features \"aaron\" in the song",
+      "description": "This upbeat pop track is all about having fun and throwing a lively party. It captures the youthful energy and excitement of inviting friends over for a memorable night.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Aaron's%20Party%20(Come%20Get%20It)%20played%20by%20Aaron%20Carter",
+      "geniusUrl": "https://genius.com/search?q=Aaron's%20Party%20(Come%20Get%20It)%20Aaron%20Carter",
+      "verified": true
+    },
+    {
+      "title": "Aaron",
+      "artist": "Paul Oakenfold",
+      "year": 2018,
+      "genre": "Electronic/Dance",
+      "nameContext": "Features \"aaron\" in the song",
+      "description": "A vibrant electronic piece that celebrates individuality and positive vibes. The song creates an uplifting atmosphere with its dynamic beats and melodies.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Aaron%20played%20by%20Paul%20Oakenfold",
+      "geniusUrl": "https://genius.com/search?q=Aaron%20Paul%20Oakenfold",
+      "verified": true
+    },
+    {
+      "title": "Aaron's Song",
+      "artist": "Bright Eyes",
+      "year": 2000,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"aaron\" in the song",
+      "description": "A heartfelt indie rock track that reflects on friendship and support. It conveys a message of encouragement and appreciation for someone named Aaron, highlighting the bond between friends.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Aaron's%20Song%20played%20by%20Bright%20Eyes",
+      "geniusUrl": "https://genius.com/search?q=Aaron's%20Song%20Bright%20Eyes",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T23:11:57.476Z",
+  "songsEnrichedAt": "2025-11-03T23:11:57.476Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

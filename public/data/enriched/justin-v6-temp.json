@@ -1,0 +1,289 @@
+{
+  "name": "justin",
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Just, fair",
+  "culturalSignificance": "The name Justin has been used since the early Christian era, often associated with Saint Justin Martyr, an early Christian apologist. It has maintained popularity through centuries, symbolizing justice and righteousness.",
+  "modernContext": "Justin remains a popular name in English-speaking countries, often associated with celebrities and public figures, contributing to its continued use.",
+  "literaryReferences": "Saint Justin Martyr is a notable historical figure referenced in early Christian writings.",
+  "pronunciationGuide": "/ˈdʒʌstɪn/",
+  "variations": [
+    "Justus",
+    "Giustino",
+    "Justino",
+    "Justen",
+    "Justyn",
+    "Jostein",
+    "Jost",
+    "Jestin",
+    "Justinas"
+  ],
+  "similarNames": [
+    "Jason",
+    "Austin",
+    "Julian",
+    "Jordan",
+    "Jared",
+    "Jasper",
+    "Jeremy",
+    "Jaden",
+    "Jonathan"
+  ],
+  "nicknames": [
+    "Jay",
+    "Jus",
+    "J",
+    "Jussy",
+    "Justy",
+    "Tin",
+    "Juju",
+    "J-Man",
+    "J-Dawg"
+  ],
+  "personality": "People named Justin are often perceived as fair-minded, charismatic, and reliable, with a strong sense of justice.",
+  "symbolism": "The name symbolizes fairness, integrity, and righteousness, often associated with leadership and moral strength.",
+  "funFact": "Justin was a top 10 name in the United States during the 1980s and 1990s, partly due to the influence of pop culture figures.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Justin Martyr",
+    "significance": "Saint Justin Martyr is considered an important early Christian apologist and philosopher.",
+    "keyStories": [
+      "Saint Justin's defense of Christianity against pagan criticisms"
+    ],
+    "spiritualMeaning": "Represents the defense of faith and the pursuit of truth.",
+    "historicalImpact": "His writings contributed to the development of Christian theology and apologetics."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Justin Martyr",
+      "years": "100-165",
+      "category": "Religious Figures",
+      "achievements": [
+        "Early Christian apologist",
+        "Wrote 'First Apology'"
+      ],
+      "significance": "Considered a saint in the Catholic Church, he defended Christianity through philosophical arguments.",
+      "notableWorks": [
+        "First Apology",
+        "Second Apology"
+      ]
+    },
+    {
+      "fullName": "Justin I",
+      "years": "450-527",
+      "category": "Political Leaders",
+      "achievements": [
+        "Byzantine Emperor"
+      ],
+      "significance": "Founded the Justinian dynasty and restored the Byzantine Empire's power.",
+      "notableWorks": [
+        "Reforms in administration and military"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The measure of who we are is what we do with what we have.",
+      "author": "Justin Martyr",
+      "context": "Reflecting on the importance of actions over possessions.",
+      "year": 155,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Justin Timberlake",
+      "profession": "Musician and Actor",
+      "knownFor": [
+        "Member of NSYNC",
+        "Solo music career",
+        "Acting in films"
+      ],
+      "awards": "10 Grammy Awards, 4 Emmy Awards"
+    },
+    {
+      "name": "Justin Trudeau",
+      "profession": "Politician",
+      "knownFor": [
+        "Prime Minister of Canada"
+      ],
+      "awards": "Order of Canada"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Justin Holiday",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Dallas Mavericks",
+      "pastTeams": [
+        "Philadelphia 76ers",
+        "Golden State Warriors",
+        "Atlanta Hawks",
+        "Chicago Bulls",
+        "New York Knicks",
+        "Indiana Pacers",
+        "Sacramento Kings"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "8",
+      "years": "2013-Present",
+      "achievements": "NBA Champion (2015)",
+      "knownFor": [
+        "Defensive skills",
+        "Three-point shooting"
+      ],
+      "awards": "NBA Champion",
+      "stats": "Averaged 8.3 points per game in 2022 season",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Justin Jefferson",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Minnesota Vikings",
+      "pastTeams": [],
+      "position": "Wide Receiver",
+      "jerseyNumber": "18",
+      "years": "2020-Present",
+      "achievements": "NFL Offensive Rookie of the Year (2020)",
+      "knownFor": [
+        "Record-breaking rookie season",
+        "Exceptional route running"
+      ],
+      "awards": "Pro Bowl selections",
+      "stats": "Over 3,000 receiving yards in first two seasons",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Justin Verlander",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Houston Astros",
+      "pastTeams": [
+        "Detroit Tigers"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "35",
+      "years": "2005-Present",
+      "achievements": "2x Cy Young Award winner, World Series Champion",
+      "knownFor": [
+        "Fastball velocity",
+        "Durability"
+      ],
+      "awards": "AL MVP (2011), Cy Young Awards",
+      "stats": "Over 3,000 strikeouts",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Justin Thomas",
+      "profession": "Athlete",
+      "sport": "Golf",
+      "league": "PGA Tour",
+      "team": "",
+      "pastTeams": [],
+      "position": "Golfer",
+      "jerseyNumber": "",
+      "years": "2013-Present",
+      "achievements": "PGA Championship winner",
+      "knownFor": [
+        "Aggressive play style",
+        "Consistent performance"
+      ],
+      "awards": "PGA Player of the Year",
+      "stats": "Multiple PGA Tour wins",
+      "verified": true,
+      "source": "PGA.com"
+    },
+    {
+      "name": "Justin Faulk",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "St. Louis Blues",
+      "pastTeams": [
+        "Carolina Hurricanes"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "72",
+      "years": "2011-Present",
+      "achievements": "NHL All-Star",
+      "knownFor": [
+        "Strong defensive play",
+        "Power play specialist"
+      ],
+      "awards": "NHL All-Star selections",
+      "stats": "Over 400 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "13 Reasons Why",
+      "year": 2017,
+      "type": "TV Show",
+      "characterName": "Justin Foley",
+      "characterDescription": "A high school student with a troubled past and complex relationships.",
+      "imdbUrl": "https://www.imdb.com/title/tt1837492/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "We all have secrets, right?",
+      "character": "Justin Foley",
+      "source": "13 Reasons Why",
+      "year": 2017,
+      "context": "Justin reflects on the hidden aspects of people's lives.",
+      "genre": "Drama",
+      "impact": "Highlights the theme of hidden truths and personal struggles."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Golden Yellow",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 252,
+    "peak": 245,
+    "peakYear": 2014
+  },
+  "enrichmentVersion": "v6"
+}

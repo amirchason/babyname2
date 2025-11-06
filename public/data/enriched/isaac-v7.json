@@ -1,0 +1,328 @@
+{
+  "name": "isaac",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Laughter",
+  "culturalSignificance": "Isaac is a significant biblical figure, known as the son of Abraham and Sarah, and the father of Jacob and Esau. His name, meaning 'laughter,' reflects the joy and surprise of his parents at his birth in their old age. Isaac's story is central to the Abrahamic religions, symbolizing faith and obedience.",
+  "modernContext": "Isaac remains a popular name in many cultures, consistently ranking in the top 100 names for boys in the United States and other English-speaking countries. It is favored for its classic sound and strong historical roots.",
+  "literaryReferences": "Isaac is a prominent figure in the Bible, particularly in the Book of Genesis, where his life story is detailed.",
+  "pronunciationGuide": "/ˈaɪ.zək/",
+  "variations": [
+    "Yitzhak",
+    "Ishak",
+    "Isak",
+    "Izaak",
+    "Izsak",
+    "Itzhak",
+    "Isacco",
+    "Isaque",
+    "Isakios"
+  ],
+  "similarNames": [
+    "Ethan",
+    "Jacob",
+    "Isaiah",
+    "Elijah",
+    "Noah",
+    "Lucas",
+    "Caleb",
+    "Nathan",
+    "Samuel"
+  ],
+  "nicknames": [
+    "Ike",
+    "Zac",
+    "Izzy",
+    "Icy",
+    "Ise",
+    "Zeke",
+    "Isa",
+    "Ikey",
+    "Zak"
+  ],
+  "personality": "Individuals named Isaac are often perceived as intelligent, thoughtful, and reliable. They are seen as natural leaders with a strong sense of responsibility and a good sense of humor.",
+  "symbolism": "Isaac symbolizes joy, promise, and faithfulness, reflecting the biblical narrative of his miraculous birth and his role in the lineage of the Israelites.",
+  "funFact": "Isaac Newton, one of the most influential scientists of all time, shares this name, contributing to its association with intelligence and discovery.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity",
+      "Islam"
+    ],
+    "character": "Isaac",
+    "significance": "Isaac is a patriarch in the Abrahamic religions, known for his role in the covenant between God and Abraham.",
+    "keyStories": [
+      "The binding of Isaac (Akedah)",
+      "Isaac's blessing of Jacob and Esau"
+    ],
+    "spiritualMeaning": "Isaac represents faith and the fulfillment of God's promises.",
+    "historicalImpact": "Isaac's story has been a cornerstone in religious teachings, emphasizing themes of faith, sacrifice, and divine promise."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Isaac Newton",
+      "years": "1643-1727",
+      "category": "Scientists",
+      "achievements": [
+        "Formulated the laws of motion and universal gravitation",
+        "Developed calculus"
+      ],
+      "significance": "Isaac Newton is considered one of the greatest scientists of all time, revolutionizing the understanding of physics and mathematics.",
+      "notableWorks": [
+        "Philosophiæ Naturalis Principia Mathematica",
+        "Opticks"
+      ]
+    },
+    {
+      "fullName": "Isaac Asimov",
+      "years": "1920-1992",
+      "category": "Authors",
+      "achievements": [
+        "Prolific science fiction writer",
+        "Authored the Foundation series"
+      ],
+      "significance": "Isaac Asimov was a highly influential science fiction writer and biochemist, known for his works on robotics and science.",
+      "notableWorks": [
+        "Foundation series",
+        "I, Robot"
+      ]
+    },
+    {
+      "fullName": "Isaac Singer",
+      "years": "1811-1875",
+      "category": "Inventors",
+      "achievements": [
+        "Improved the design of the sewing machine"
+      ],
+      "significance": "Isaac Singer revolutionized the sewing industry with his improvements to the sewing machine, making it more accessible and efficient.",
+      "notableWorks": [
+        "Singer Sewing Machine Company"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "If I have seen further it is by standing on the shoulders of Giants.",
+      "author": "Isaac Newton",
+      "context": "In a letter to Robert Hooke, reflecting on the progress of science.",
+      "year": 1675,
+      "category": "Science"
+    },
+    {
+      "quote": "Violence is the last refuge of the incompetent.",
+      "author": "Isaac Asimov",
+      "context": "From the novel 'Foundation', highlighting the futility of violence.",
+      "year": 1951,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Isaac Mizrahi",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Fashion design",
+        "Television appearances"
+      ],
+      "awards": "CFDA Award"
+    },
+    {
+      "name": "Isaac Hayes",
+      "profession": "Musician",
+      "knownFor": [
+        "Soul music",
+        "Theme from Shaft"
+      ],
+      "awards": "Academy Award, Grammy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jonathan Isaac",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Orlando Magic",
+      "pastTeams": [],
+      "position": "Forward",
+      "jerseyNumber": "1",
+      "years": "2017-Present",
+      "achievements": "NBA All-Defensive Team",
+      "knownFor": [
+        "Defensive prowess",
+        "Versatility"
+      ],
+      "awards": "NBA All-Defensive Team",
+      "stats": "Averaged 11.9 points, 6.8 rebounds per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Isaac Success",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Serie A",
+      "team": "Udinese",
+      "pastTeams": [
+        "Watford",
+        "Granada"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "7",
+      "years": "2016-Present",
+      "achievements": "Helped team promotions",
+      "knownFor": [
+        "Strength and pace"
+      ],
+      "awards": "N/A",
+      "stats": "Scored 10 goals in 100 appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Isaac Rochell",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Las Vegas Raiders",
+      "pastTeams": [
+        "Los Angeles Chargers",
+        "Indianapolis Colts"
+      ],
+      "position": "Defensive End",
+      "jerseyNumber": "98",
+      "years": "2017-Present",
+      "achievements": "Contributed to strong defensive lines",
+      "knownFor": [
+        "Pass rushing",
+        "Run stopping"
+      ],
+      "awards": "N/A",
+      "stats": "Recorded 9 sacks in career",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Isaac Paredes",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Tampa Bay Rays",
+      "pastTeams": [
+        "Detroit Tigers"
+      ],
+      "position": "Infielder",
+      "jerseyNumber": "17",
+      "years": "2020-Present",
+      "achievements": "Notable rookie season",
+      "knownFor": [
+        "Batting skills",
+        "Infield versatility"
+      ],
+      "awards": "N/A",
+      "stats": "Batting average of .230",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Isaac Ratcliffe",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Philadelphia Flyers",
+      "pastTeams": [],
+      "position": "Left Wing",
+      "jerseyNumber": "19",
+      "years": "2021-Present",
+      "achievements": "Promising young talent",
+      "knownFor": [
+        "Size and skill combination"
+      ],
+      "awards": "N/A",
+      "stats": "Scored 1 goal in 10 games",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Fault in Our Stars",
+      "year": 2014,
+      "type": "Movie",
+      "characterName": "Isaac",
+      "characterDescription": "A friend of the main characters who is dealing with cancer and blindness.",
+      "imdbUrl": "https://www.imdb.com/title/tt2582846/",
+      "genre": "Romance/Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's a metaphor, see: You put the killing thing right between your teeth, but you don't give it the power to do its killing.",
+      "character": "Isaac",
+      "source": "The Fault in Our Stars",
+      "year": 2014,
+      "context": "Isaac explains the metaphor of holding a cigarette without lighting it.",
+      "genre": "Romance/Drama",
+      "impact": "The quote highlights the theme of control over one's fate and choices."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 161,
+    "peak": 87,
+    "peakYear": 2023
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "is-aac"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:42:07.723Z"
+}

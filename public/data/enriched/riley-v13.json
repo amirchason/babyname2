@@ -1,0 +1,349 @@
+{
+  "name": "riley",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-05T10:54:15.072Z",
+  "dataSource": "Super enriched combining V6, V7, V8, V10, V11",
+  "versionsIncluded": [
+    "v6",
+    "v7",
+    "v10"
+  ],
+  "gender": "female",
+  "origin": "Irish",
+  "meaning": "Courageous",
+  "culturalSignificance": "Riley is a name of Irish origin that has been traditionally used for both boys and girls. It is derived from the Irish surname O'Raghallaigh, which means 'descendant of Raghallach.' The name has been associated with bravery and valor, reflecting its meaning 'courageous.'",
+  "modernContext": "Riley has become increasingly popular as a given name for girls in the United States and other English-speaking countries. It is often chosen for its modern sound and gender-neutral appeal.",
+  "literaryReferences": "There are no notable literary references specifically associated with the name Riley.",
+  "pronunciationGuide": "/ˈraɪli/",
+  "variations": [
+    "Rylee",
+    "Ryleigh",
+    "Reilly",
+    "Rylie",
+    "Rilee",
+    "Ryley",
+    "Rilley",
+    "Rilleigh",
+    "Ryle"
+  ],
+  "similarNames": [
+    "Avery",
+    "Harper",
+    "Peyton",
+    "Jordan",
+    "Taylor",
+    "Morgan",
+    "Sydney",
+    "Casey",
+    "Quinn"
+  ],
+  "nicknames": [
+    "Ri",
+    "Rye",
+    "Riri",
+    "Lee",
+    "Ry",
+    "Riles",
+    "Ril",
+    "Lili",
+    "Ryla"
+  ],
+  "personality": "People named Riley are often perceived as adventurous, outgoing, and friendly. They are seen as individuals who are not afraid to take risks and are often leaders in their social circles.",
+  "symbolism": "The name Riley symbolizes bravery and courage, often associated with strength and resilience.",
+  "funFact": "Riley has been a popular choice for fictional characters in movies and television, often portrayed as strong and independent.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Riley B. King",
+      "years": "1925-2015",
+      "category": "Musician",
+      "achievements": [
+        "Influential blues guitarist and singer",
+        "Inducted into the Rock and Roll Hall of Fame"
+      ],
+      "significance": "B.B. King was a legendary blues musician known for his expressive singing and guitar playing.",
+      "notableWorks": [
+        "The Thrill Is Gone",
+        "Lucille"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Riley Keough",
+      "profession": "Actress",
+      "knownFor": [
+        "The Girlfriend Experience",
+        "Mad Max: Fury Road"
+      ],
+      "awards": "Nominated for a Golden Globe Award"
+    },
+    {
+      "name": "Riley Reid",
+      "profession": "Adult Film Actress",
+      "knownFor": [
+        "Adult film industry"
+      ],
+      "awards": "AVN Award winner"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Pat Riley",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Miami Heat (Executive)",
+      "pastTeams": [
+        "Los Angeles Lakers (Coach)",
+        "New York Knicks (Coach)"
+      ],
+      "position": "Coach/Executive",
+      "jerseyNumber": null,
+      "years": "1967-Present",
+      "achievements": "Multiple NBA Championships as coach and executive",
+      "knownFor": [
+        "Coaching the Showtime Lakers",
+        "Executive role in Miami Heat"
+      ],
+      "awards": "NBA Coach of the Year",
+      "stats": null,
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Riley McGree",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "EFL Championship",
+      "team": "Middlesbrough",
+      "pastTeams": [
+        "Adelaide United",
+        "Melbourne City"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "2016-Present",
+      "achievements": "A-League Young Footballer of the Year",
+      "knownFor": [
+        "Scoring a scorpion kick goal"
+      ],
+      "awards": null,
+      "stats": "10 goals in 50 appearances",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Riley Reiff",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "New England Patriots",
+      "pastTeams": [
+        "Detroit Lions",
+        "Minnesota Vikings",
+        "Cincinnati Bengals"
+      ],
+      "position": "Offensive Tackle",
+      "jerseyNumber": "71",
+      "years": "2012-Present",
+      "achievements": "Consistent starter in the NFL",
+      "knownFor": [
+        "Strong blocking skills"
+      ],
+      "awards": null,
+      "stats": null,
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Austin Riley",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Atlanta Braves",
+      "pastTeams": [],
+      "position": "Third Baseman",
+      "jerseyNumber": "27",
+      "years": "2019-Present",
+      "achievements": "World Series Champion",
+      "knownFor": [
+        "Power hitting"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "Career batting average of .270",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Riley Nash",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Winnipeg Jets",
+      "pastTeams": [
+        "Carolina Hurricanes",
+        "Boston Bruins",
+        "Columbus Blue Jackets"
+      ],
+      "position": "Center",
+      "jerseyNumber": "20",
+      "years": "2011-Present",
+      "achievements": "Reliable two-way forward",
+      "knownFor": [
+        "Defensive play"
+      ],
+      "awards": null,
+      "stats": "Over 600 NHL games played",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Inside Out",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Riley Andersen",
+      "characterDescription": "A young girl whose emotions are personified in the film.",
+      "imdbUrl": "https://www.imdb.com/title/tt2096673/",
+      "genre": "Animation, Adventure, Comedy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Do you ever look at someone and wonder, what is going on inside their head?",
+      "character": "Riley Andersen",
+      "source": "Inside Out",
+      "year": 2015,
+      "context": "This quote is from the opening of the movie, setting the stage for the exploration of Riley's emotions.",
+      "genre": "Animation, Adventure, Comedy",
+      "impact": "The quote is memorable for its relatable and humorous take on human emotions."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 347,
+    "peak": 153,
+    "peakYear": 2021
+  },
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "ri-ley"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "parentName": "Pink",
+      "parentProfession": "Musician",
+      "childName": "Riley Hart",
+      "birthYear": 2016,
+      "context": "Pink is a Grammy Award-winning singer known for hits like 'Just Give Me a Reason'.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    },
+    {
+      "parentName": "Lisa Marie Presley",
+      "parentProfession": "Musician",
+      "childName": "Riley Keough",
+      "birthYear": 1989,
+      "context": "Lisa Marie Presley is the daughter of Elvis Presley and a singer-songwriter.",
+      "verified": true,
+      "source": "GPT-4 Knowledge Base"
+    }
+  ],
+  "categories": [],
+  "v7EnhancedAt": "2025-11-03T22:55:49.858Z",
+  "v8EnrichedAt": "2025-11-03T22:55:52.464Z",
+  "songs": [
+    {
+      "title": "Riley's Song",
+      "artist": "Michael W. Smith",
+      "year": 2004,
+      "genre": "Contemporary Christian",
+      "nameContext": "Features \"riley\" in the song",
+      "description": "A heartfelt instrumental piece that conveys warmth and affection, often interpreted as a tribute to a loved one named Riley. The melody evokes a sense of peace and joy.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Riley's%20Song%20played%20by%20Michael%20W.%20Smith",
+      "geniusUrl": "https://genius.com/search?q=Riley's%20Song%20Michael%20W.%20Smith",
+      "verified": true
+    },
+    {
+      "title": "Riley",
+      "artist": "The Coronas",
+      "year": 2017,
+      "genre": "Indie Rock",
+      "nameContext": "Features \"riley\" in the song",
+      "description": "This upbeat track celebrates the spirit of adventure and the joy of living in the moment, with a character named Riley embodying these themes. The song is filled with energetic rhythms and an uplifting vibe.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Riley%20played%20by%20The%20Coronas",
+      "geniusUrl": "https://genius.com/search?q=Riley%20The%20Coronas",
+      "verified": true
+    },
+    {
+      "title": "Riley's Smile",
+      "artist": "Acoustic Alchemy",
+      "year": 2001,
+      "genre": "Smooth Jazz",
+      "nameContext": "Features \"riley\" in the song",
+      "description": "A smooth jazz composition that captures the essence of happiness and contentment. The song paints a picture of a bright and cheerful personality, symbolized by Riley's infectious smile.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Riley's%20Smile%20played%20by%20Acoustic%20Alchemy",
+      "geniusUrl": "https://genius.com/search?q=Riley's%20Smile%20Acoustic%20Alchemy",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T22:55:59.672Z",
+  "songsEnrichedAt": "2025-11-03T22:55:59.672Z",
+  "versionSnapshots": {
+    "v6": "25 fields",
+    "v7": "32 fields",
+    "v8": "N/A",
+    "v10": "36 fields",
+    "v11": "N/A"
+  }
+}

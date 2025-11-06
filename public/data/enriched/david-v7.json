@@ -1,0 +1,300 @@
+{
+  "name": "david",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Beloved",
+  "culturalSignificance": "The name David holds significant cultural and historical importance, especially in Judeo-Christian traditions. It is most famously associated with King David, the second king of Israel, who is celebrated for his leadership, musical talents, and the biblical story of defeating Goliath.",
+  "modernContext": "David remains a popular name in many cultures, consistently ranking high in baby name lists due to its timeless appeal and strong historical roots.",
+  "literaryReferences": "David Copperfield by Charles Dickens is one of the most notable literary references, where the protagonist's journey from a difficult childhood to maturity is explored.",
+  "pronunciationGuide": "/ˈdeɪvɪd/",
+  "variations": [
+    "Dawid",
+    "Davide",
+    "Dávid",
+    "Davidek",
+    "Dafydd",
+    "Davíð",
+    "Davud",
+    "Davit",
+    "Dawood"
+  ],
+  "similarNames": [
+    "Daniel",
+    "Dylan",
+    "Derek",
+    "Dennis",
+    "Damon",
+    "Dominic",
+    "Darren",
+    "Dean",
+    "Desmond"
+  ],
+  "nicknames": [
+    "Dave",
+    "Davy",
+    "Davie",
+    "D",
+    "Dee",
+    "Davo",
+    "Dai",
+    "Dav",
+    "Viddy"
+  ],
+  "personality": "People named David are often perceived as strong, reliable, and charismatic leaders. They are seen as compassionate and creative, with a natural ability to inspire others.",
+  "symbolism": "The name David symbolizes leadership, bravery, and artistic talent, often associated with the biblical King David's qualities.",
+  "funFact": "David is one of the most common names for kings in European history, highlighting its longstanding royal association.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity",
+      "Islam"
+    ],
+    "character": "King David",
+    "significance": "King David is a central figure in the Bible, known for uniting the tribes of Israel and establishing Jerusalem as its capital.",
+    "keyStories": [
+      "David and Goliath",
+      "David's reign as King of Israel"
+    ],
+    "spiritualMeaning": "David represents faith, courage, and divine favor.",
+    "historicalImpact": "King David's lineage is significant in both Jewish and Christian traditions, with the Messiah prophesied to come from his line."
+  },
+  "historicFigures": [
+    {
+      "fullName": "David Ben-Gurion",
+      "years": "1886-1973",
+      "category": "Political Leaders",
+      "achievements": [
+        "First Prime Minister of Israel",
+        "Leader in the Zionist movement"
+      ],
+      "significance": "David Ben-Gurion was a primary national founder of the State of Israel and the first Prime Minister.",
+      "notableWorks": [
+        "Declaration of the Establishment of the State of Israel"
+      ]
+    },
+    {
+      "fullName": "David Hume",
+      "years": "1711-1776",
+      "category": "Philosophers",
+      "achievements": [
+        "Major figure in the Scottish Enlightenment",
+        "Developed influential philosophical empiricism"
+      ],
+      "significance": "David Hume is known for his philosophical empiricism and skepticism, influencing modern philosophy.",
+      "notableWorks": [
+        "A Treatise of Human Nature",
+        "An Enquiry Concerning Human Understanding"
+      ]
+    },
+    {
+      "fullName": "David Livingstone",
+      "years": "1813-1873",
+      "category": "Explorers",
+      "achievements": [
+        "Explored Africa",
+        "Abolitionist efforts"
+      ],
+      "significance": "David Livingstone was a Scottish explorer and missionary who played a significant role in the exploration of Africa.",
+      "notableWorks": [
+        "Missionary Travels and Researches in South Africa"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+      "author": "David J. Boorstin",
+      "context": "This quote reflects on the dangers of assuming one knows everything, emphasizing the importance of humility in learning.",
+      "year": 1983,
+      "category": "Wisdom"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "David Bowie",
+      "profession": "Musician",
+      "knownFor": [
+        "Innovative music and alter ego Ziggy Stardust"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "David Attenborough",
+      "profession": "Broadcaster and Natural Historian",
+      "knownFor": [
+        "Documentary series on natural history"
+      ],
+      "awards": "BAFTA Fellowship"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Anthony Davis",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Los Angeles Lakers",
+      "pastTeams": [
+        "New Orleans Pelicans"
+      ],
+      "position": "Power Forward/Center",
+      "jerseyNumber": "3",
+      "years": "2012-Present",
+      "achievements": "NBA Champion, multiple-time NBA All-Star",
+      "knownFor": [
+        "Defensive prowess, versatility"
+      ],
+      "awards": "NBA All-Star Game MVP",
+      "stats": "Over 20 points per game average",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "David Beckham",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Retired",
+      "pastTeams": [
+        "Manchester United",
+        "Real Madrid",
+        "LA Galaxy",
+        "AC Milan",
+        "Paris Saint-Germain"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "7",
+      "years": "1992-2013",
+      "achievements": "Multiple Premier League titles, UEFA Champions League winner",
+      "knownFor": [
+        "Free kicks, passing ability"
+      ],
+      "awards": "UEFA Club Footballer of the Year",
+      "stats": "Over 100 goals in club career",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "David Ortiz",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "Minnesota Twins",
+        "Boston Red Sox"
+      ],
+      "position": "Designated Hitter/First Baseman",
+      "jerseyNumber": "34",
+      "years": "1997-2016",
+      "achievements": "3-time World Series Champion",
+      "knownFor": [
+        "Clutch hitting, leadership"
+      ],
+      "awards": "World Series MVP",
+      "stats": "Over 500 career home runs",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "David Pastrňák",
+      "profession": "Athlete",
+      "sport": "NHL Ice Hockey",
+      "league": "NHL",
+      "team": "Boston Bruins",
+      "pastTeams": [],
+      "position": "Right Wing",
+      "jerseyNumber": "88",
+      "years": "2014-Present",
+      "achievements": "NHL All-Star, Maurice 'Rocket' Richard Trophy",
+      "knownFor": [
+        "Scoring ability, speed"
+      ],
+      "awards": "NHL All-Star",
+      "stats": "Over 200 career goals",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Schitt's Creek",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "David Rose",
+      "characterDescription": "A witty and fashionable member of the Rose family, known for his sarcastic humor.",
+      "imdbUrl": "https://www.imdb.com/title/tt3526078/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I like the wine and not the label.",
+      "character": "David Rose",
+      "source": "Schitt's Creek",
+      "year": 2015,
+      "context": "David explains his pansexuality to his friend Stevie, using a metaphor about wine.",
+      "genre": "Comedy",
+      "impact": "This quote became iconic for its clever and inclusive representation of sexuality."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 396,
+    "peak": 142,
+    "peakYear": 2016
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "da-vid"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Contains 2 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:02:34.266Z"
+}

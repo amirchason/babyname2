@@ -1,0 +1,310 @@
+{
+  "name": "isaiah",
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Salvation of the Lord",
+  "culturalSignificance": "Isaiah is a significant name in Jewish and Christian traditions, primarily due to the biblical prophet Isaiah, who is known for his prophecies about the coming of the Messiah. The name has been used for centuries and is associated with wisdom and spiritual insight.",
+  "modernContext": "Isaiah remains a popular name in many English-speaking countries, often chosen for its strong biblical roots and timeless appeal. It frequently appears in the top 100 names for boys in the United States.",
+  "literaryReferences": "Isaiah is prominently featured in the Bible, particularly in the Book of Isaiah, which contains prophecies and teachings attributed to the prophet.",
+  "pronunciationGuide": "/aɪˈzeɪ.ə/",
+  "variations": [
+    "Isaias",
+    "Yeshayahu",
+    "Isaías",
+    "Izaiah",
+    "Isiah",
+    "Izaia",
+    "Izaya",
+    "Isaya",
+    "Ishaya"
+  ],
+  "similarNames": [
+    "Elijah",
+    "Josiah",
+    "Isaac",
+    "Ezra",
+    "Micah",
+    "Jonah",
+    "Noah",
+    "Ezekiel",
+    "Jeremiah"
+  ],
+  "nicknames": [
+    "Izzy",
+    "Zay",
+    "Zaya",
+    "Ike",
+    "Isa",
+    "Izy",
+    "Zee",
+    "I",
+    "Zai"
+  ],
+  "personality": "People named Isaiah are often perceived as wise, thoughtful, and compassionate. They are seen as leaders who inspire others with their vision and integrity.",
+  "symbolism": "The name Isaiah symbolizes hope, salvation, and divine guidance, reflecting the prophetic nature of its biblical origins.",
+  "funFact": "The Book of Isaiah is one of the longest in the Bible, containing 66 chapters, and is often quoted in the New Testament.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Prophet Isaiah",
+    "significance": "Isaiah is a major prophet in the Bible, known for his prophecies about the coming of the Messiah and the salvation of Israel.",
+    "keyStories": [
+      "Prophecies about the Messiah",
+      "Vision of God's holiness",
+      "Call to repentance"
+    ],
+    "spiritualMeaning": "Isaiah's teachings emphasize faith, redemption, and the promise of salvation.",
+    "historicalImpact": "Isaiah's prophecies have had a profound impact on Christian theology and Jewish eschatology, shaping beliefs about the Messiah and the end times."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Isaiah Berlin",
+      "years": "1909-1997",
+      "category": "Philosopher",
+      "achievements": [
+        "Developed the theory of value pluralism",
+        "Influential essays on political philosophy"
+      ],
+      "significance": "Isaiah Berlin was a prominent philosopher known for his work on liberal theory and the concept of value pluralism.",
+      "notableWorks": [
+        "Two Concepts of Liberty",
+        "The Hedgehog and the Fox"
+      ]
+    },
+    {
+      "fullName": "Isaiah Thomas",
+      "years": "1749-1831",
+      "category": "Printer and Publisher",
+      "achievements": [
+        "Founded the American Antiquarian Society",
+        "Published the Massachusetts Spy"
+      ],
+      "significance": "Isaiah Thomas was a key figure in American publishing and played a significant role in the American Revolution through his newspaper.",
+      "notableWorks": [
+        "The History of Printing in America"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Isaiah Mustafa",
+      "profession": "Actor",
+      "knownFor": [
+        "Old Spice commercials",
+        "Role in 'Shadowhunters'"
+      ],
+      "awards": "None"
+    },
+    {
+      "name": "Isaiah Rashad",
+      "profession": "Musician",
+      "knownFor": [
+        "Hip hop music",
+        "Albums 'The Sun's Tirade' and 'Cilvia Demo'"
+      ],
+      "awards": "None"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Isaiah Thomas",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "Charlotte Hornets",
+      "pastTeams": [
+        "Sacramento Kings",
+        "Phoenix Suns",
+        "Boston Celtics",
+        "Cleveland Cavaliers",
+        "Los Angeles Lakers",
+        "Denver Nuggets",
+        "Washington Wizards",
+        "New Orleans Pelicans",
+        "Dallas Mavericks"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "4",
+      "years": "2011-Present",
+      "achievements": "2× NBA All-Star (2016, 2017)",
+      "knownFor": [
+        "Scoring ability",
+        "Heart and hustle"
+      ],
+      "awards": "All-NBA Second Team (2017)",
+      "stats": "Career average: 18.1 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Isaiah Hartenstein",
+      "profession": "Athlete",
+      "sport": "NBA Basketball",
+      "league": "NBA",
+      "team": "New York Knicks",
+      "pastTeams": [
+        "Houston Rockets",
+        "Denver Nuggets",
+        "Cleveland Cavaliers",
+        "Los Angeles Clippers"
+      ],
+      "position": "Center",
+      "jerseyNumber": "55",
+      "years": "2017-Present",
+      "achievements": "NBA G League Finals MVP (2019)",
+      "knownFor": [
+        "Rebounding",
+        "Defensive presence"
+      ],
+      "awards": "None",
+      "stats": "Career average: 5.3 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    },
+    {
+      "name": "Isaiah Wynn",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Miami Dolphins",
+      "pastTeams": [
+        "New England Patriots"
+      ],
+      "position": "Offensive Tackle",
+      "jerseyNumber": "76",
+      "years": "2018-Present",
+      "achievements": "Super Bowl LIII Champion",
+      "knownFor": [
+        "Versatility on the offensive line"
+      ],
+      "awards": "None",
+      "stats": "Career games played: 43",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Isaiah Simmons",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "New York Giants",
+      "pastTeams": [
+        "Arizona Cardinals"
+      ],
+      "position": "Linebacker",
+      "jerseyNumber": "9",
+      "years": "2020-Present",
+      "achievements": "Butkus Award (2019)",
+      "knownFor": [
+        "Athleticism",
+        "Versatility"
+      ],
+      "awards": "None",
+      "stats": "Career tackles: 204",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Isaiah Kiner-Falefa",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "New York Yankees",
+      "pastTeams": [
+        "Texas Rangers"
+      ],
+      "position": "Shortstop",
+      "jerseyNumber": "12",
+      "years": "2018-Present",
+      "achievements": "Gold Glove Award (2020)",
+      "knownFor": [
+        "Defensive skills"
+      ],
+      "awards": "None",
+      "stats": "Career batting average: .265",
+      "verified": true,
+      "source": "MLB.com"
+    },
+    {
+      "name": "Isaiah Campbell",
+      "profession": "Athlete",
+      "sport": "MLB Baseball",
+      "league": "MLB",
+      "team": "Seattle Mariners",
+      "pastTeams": [],
+      "position": "Pitcher",
+      "jerseyNumber": "71",
+      "years": "2023-Present",
+      "achievements": "None",
+      "knownFor": [
+        "Fastball velocity"
+      ],
+      "awards": "None",
+      "stats": "Career ERA: 3.00",
+      "verified": true,
+      "source": "MLB.com"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 294,
+    "peak": 237,
+    "peakYear": 2022
+  },
+  "enrichmentVersion": "v7",
+  "inspiration": null,
+  "syllables": {
+    "count": 2,
+    "breakdown": "isa-iah"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Contains 3 biblical indicators"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Contains 2 classic indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T22:54:23.802Z"
+}

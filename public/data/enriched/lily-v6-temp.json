@@ -1,0 +1,209 @@
+{
+  "name": "lily",
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Purity",
+  "culturalSignificance": "The name Lily is derived from the Latin word 'lilium,' which symbolizes purity and refined beauty. It has been used in various cultures as a symbol of innocence and virtue, often associated with the Virgin Mary in Christian symbolism.",
+  "modernContext": "Lily remains a popular name in many English-speaking countries, consistently ranking in the top 50 names for girls. Its simplicity and elegance make it a timeless choice for parents.",
+  "literaryReferences": "Lily Bart is the protagonist in Edith Wharton's novel 'The House of Mirth,' which explores themes of social class and the pursuit of happiness.",
+  "pronunciationGuide": "/ˈlɪli/",
+  "variations": [
+    "Lilly",
+    "Lili",
+    "Lillie",
+    "Lilia",
+    "Liliana",
+    "Lilith",
+    "Liliane",
+    "Lila",
+    "Lilian"
+  ],
+  "similarNames": [
+    "Rose",
+    "Daisy",
+    "Violet",
+    "Iris",
+    "Jasmine",
+    "Poppy",
+    "Hazel",
+    "Ruby",
+    "Chloe"
+  ],
+  "nicknames": [
+    "Lil",
+    "Lils",
+    "Lulu",
+    "Lee",
+    "Lala",
+    "Lilo",
+    "Lilybug",
+    "Lilybell",
+    "Lilybeth"
+  ],
+  "personality": "People named Lily are often perceived as gentle, kind, and nurturing. They are thought to have a natural grace and a strong sense of empathy.",
+  "symbolism": "The lily flower symbolizes purity, innocence, and beauty. It is often associated with renewal and rebirth.",
+  "funFact": "The lily is the birth flower for the month of May, symbolizing purity and refined beauty.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Virgin Mary",
+    "significance": "The lily is often associated with the Virgin Mary, symbolizing her purity and divine motherhood.",
+    "keyStories": [
+      "The Annunciation, where the angel Gabriel is often depicted holding a lily when announcing to Mary that she would bear the Son of God."
+    ],
+    "spiritualMeaning": "The lily represents purity and the divine nature of the Virgin Mary.",
+    "historicalImpact": "Lilies have been used in Christian art and iconography to symbolize the purity and chastity of the Virgin Mary."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Lily Pons",
+      "years": "1898-1976",
+      "category": "Opera Singer",
+      "achievements": [
+        "Renowned coloratura soprano",
+        "Performed at the Metropolitan Opera for 30 years"
+      ],
+      "significance": "Lily Pons was a celebrated French-American opera singer known for her exceptional vocal range and acting ability.",
+      "notableWorks": [
+        "Roles in 'Lucia di Lammermoor', 'Lakmé', and 'The Daughter of the Regiment'"
+      ]
+    },
+    {
+      "fullName": "Lilian Bland",
+      "years": "1878-1971",
+      "category": "Aviation Pioneer",
+      "achievements": [
+        "First woman in the world to design, build, and fly an aircraft"
+      ],
+      "significance": "Lilian Bland was a pioneering aviator and journalist, breaking gender barriers in early aviation.",
+      "notableWorks": [
+        "Designed and flew the 'Mayfly' biplane"
+      ]
+    },
+    {
+      "fullName": "Lily Elsie",
+      "years": "1886-1962",
+      "category": "Actress",
+      "achievements": [
+        "Famous Edwardian actress and singer",
+        "Starred in 'The Merry Widow'"
+      ],
+      "significance": "Lily Elsie was a prominent English actress and singer during the Edwardian era, known for her beauty and talent.",
+      "notableWorks": [
+        "'The Merry Widow', 'The Dollar Princess'"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Lily Collins",
+      "profession": "Actress",
+      "knownFor": [
+        "Starring in films such as 'Mirror Mirror' and 'The Mortal Instruments: City of Bones'"
+      ],
+      "awards": "Golden Globe nomination for 'Rules Don't Apply'"
+    },
+    {
+      "name": "Lily Tomlin",
+      "profession": "Actress and Comedian",
+      "knownFor": [
+        "Roles in 'Grace and Frankie', '9 to 5', and 'The Magic School Bus'"
+      ],
+      "awards": "Multiple Emmy Awards, Tony Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Lily Parr",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Women's Football",
+      "team": "Dick, Kerr Ladies",
+      "pastTeams": [],
+      "position": "Forward",
+      "jerseyNumber": "N/A",
+      "years": "1919-1951",
+      "achievements": "Scored over 900 goals in her career",
+      "knownFor": [
+        "Being one of the first female footballers to gain international fame"
+      ],
+      "awards": "Inducted into the English Football Hall of Fame",
+      "stats": "Over 900 career goals",
+      "verified": true,
+      "source": "FIFA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "How I Met Your Mother",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Lily Aldrin",
+      "characterDescription": "A kindergarten teacher and the wife of Marshall Eriksen, known for her quirky personality and strong friendships.",
+      "imdbUrl": "https://www.imdb.com/title/tt0460649/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "Freaky Friday",
+      "year": 2003,
+      "type": "Movie",
+      "characterName": "Lindsay Lohan as Anna Coleman",
+      "characterDescription": "A teenager who swaps bodies with her mother, leading to comedic and heartfelt situations.",
+      "imdbUrl": "https://www.imdb.com/title/tt0322330/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You can't just skip ahead to where you think your life should be.",
+      "character": "Lily Aldrin",
+      "source": "How I Met Your Mother",
+      "year": 2005,
+      "context": "Lily gives this advice to her friends, emphasizing the importance of living in the moment.",
+      "genre": "Comedy",
+      "impact": "This quote is iconic for its wisdom about patience and the journey of life."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Amethyst Purple",
+      "hex": "#9966CC"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 239,
+    "peak": 217,
+    "peakYear": 2023
+  },
+  "enrichmentVersion": "v6"
+}

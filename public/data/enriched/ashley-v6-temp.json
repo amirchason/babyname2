@@ -1,0 +1,283 @@
+{
+  "name": "ashley",
+  "gender": "female",
+  "origin": "Old English",
+  "meaning": "Ash tree meadow",
+  "culturalSignificance": "Ashley was originally a surname derived from Old English words 'æsc' (ash) and 'lēah' (meadow or clearing). It gained popularity as a given name in the 20th century, particularly in English-speaking countries, and is often associated with nature due to its meaning.",
+  "modernContext": "Ashley remains a popular name for girls, though its popularity has slightly declined since its peak in the 1990s. It is often chosen for its pleasant sound and nature-related meaning.",
+  "literaryReferences": "Ashley Wilkes is a notable character in Margaret Mitchell's novel 'Gone with the Wind'.",
+  "pronunciationGuide": "/ˈæʃli/",
+  "variations": [
+    "Ashleigh",
+    "Ashlee",
+    "Ashli",
+    "Aisley",
+    "Ashlyn",
+    "Ashely",
+    "Ashlea",
+    "Ashlie",
+    "Ashly"
+  ],
+  "similarNames": [
+    "Avery",
+    "Ainsley",
+    "Aubrey",
+    "Addison",
+    "Alyssa",
+    "Amelia",
+    "Ariana",
+    "Alexis",
+    "Autumn"
+  ],
+  "nicknames": [
+    "Ash",
+    "Lee",
+    "Ashy",
+    "Ashie",
+    "Asha",
+    "Leigh",
+    "Ashers",
+    "Lili",
+    "Ley"
+  ],
+  "personality": "People named Ashley are often perceived as friendly, approachable, and creative. They are thought to be adaptable and enjoy social interactions.",
+  "symbolism": "The name Ashley symbolizes growth and renewal, much like the ash tree, which is known for its resilience and ability to thrive in various environments.",
+  "funFact": "Ashley was one of the top 10 most popular names for girls in the United States during the 1980s and 1990s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ashley Montagu",
+      "years": "1905-1999",
+      "category": "Anthropologist",
+      "achievements": [
+        "Prominent anthropologist known for his work on race and gender equality"
+      ],
+      "significance": "Montagu was influential in challenging racial stereotypes and promoting the idea of human equality.",
+      "notableWorks": [
+        "'The Natural Superiority of Women'",
+        "'Man's Most Dangerous Myth: The Fallacy of Race'"
+      ]
+    },
+    {
+      "fullName": "Ashley Cooper, 1st Earl of Shaftesbury",
+      "years": "1621-1683",
+      "category": "Political Leader",
+      "achievements": [
+        "Key figure in the development of the Whig party in England"
+      ],
+      "significance": "He played a crucial role in the political landscape of 17th-century England, advocating for constitutional monarchy.",
+      "notableWorks": [
+        "Instrumental in the drafting of the Habeas Corpus Act"
+      ]
+    },
+    {
+      "fullName": "Ashley Tisdale",
+      "years": "1985-Present",
+      "category": "Actress/Singer",
+      "achievements": [
+        "Starred in 'High School Musical'",
+        "Released multiple music albums"
+      ],
+      "significance": "Tisdale is known for her role in the 'High School Musical' series, which became a cultural phenomenon.",
+      "notableWorks": [
+        "'High School Musical'",
+        "'The Suite Life of Zack & Cody'"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ashley Judd",
+      "profession": "Actress",
+      "knownFor": [
+        "Roles in 'Double Jeopardy', 'Kiss the Girls'",
+        "Activism for women's rights"
+      ],
+      "awards": "Nominated for multiple awards including Golden Globes"
+    },
+    {
+      "name": "Ashley Olsen",
+      "profession": "Fashion Designer/Actress",
+      "knownFor": [
+        "Co-founding luxury fashion brand 'The Row'",
+        "Acting in 'Full House'"
+      ],
+      "awards": "Council of Fashion Designers of America (CFDA) awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ashley Young",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier League",
+      "team": "Everton",
+      "pastTeams": [
+        "Watford",
+        "Aston Villa",
+        "Manchester United",
+        "Inter Milan"
+      ],
+      "position": "Winger/Full-back",
+      "jerseyNumber": "18",
+      "years": "2003-Present",
+      "achievements": "Premier League title, FA Cup, EFL Cup",
+      "knownFor": [
+        "Versatility on the field",
+        "Leadership"
+      ],
+      "awards": "PFA Young Player of the Year",
+      "stats": "Over 400 club appearances",
+      "verified": true,
+      "source": "PremierLeague.com"
+    },
+    {
+      "name": "Ashley Cole",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Retired",
+      "team": "Retired",
+      "pastTeams": [
+        "Arsenal",
+        "Chelsea",
+        "AS Roma",
+        "LA Galaxy"
+      ],
+      "position": "Left-back",
+      "jerseyNumber": "3",
+      "years": "1999-2019",
+      "achievements": "Premier League titles, FA Cups, UEFA Champions League",
+      "knownFor": [
+        "Defensive prowess",
+        "Consistency"
+      ],
+      "awards": "England Player of the Year",
+      "stats": "107 England caps",
+      "verified": true,
+      "source": "UEFA.com"
+    },
+    {
+      "name": "Ashley Lelie",
+      "profession": "Athlete",
+      "sport": "American Football (NFL)",
+      "league": "NFL",
+      "team": "Retired",
+      "pastTeams": [
+        "Denver Broncos",
+        "Atlanta Falcons",
+        "San Francisco 49ers",
+        "Oakland Raiders"
+      ],
+      "position": "Wide Receiver",
+      "jerseyNumber": "85",
+      "years": "2002-2008",
+      "achievements": "Led NFL in yards per reception in 2004",
+      "knownFor": [
+        "Deep threat receiver"
+      ],
+      "awards": "None",
+      "stats": "3,749 receiving yards, 15 touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    },
+    {
+      "name": "Ashley Wagner",
+      "profession": "Athlete",
+      "sport": "Figure Skating",
+      "league": "Retired",
+      "team": "USA",
+      "pastTeams": [],
+      "position": "Figure Skater",
+      "jerseyNumber": "",
+      "years": "2007-2019",
+      "achievements": "Olympic bronze medalist, World silver medalist",
+      "knownFor": [
+        "Artistic performances",
+        "Competitive spirit"
+      ],
+      "awards": "U.S. National Champion",
+      "stats": "Multiple Grand Prix titles",
+      "verified": true,
+      "source": "ISU.org"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Gone with the Wind",
+      "year": 1939,
+      "type": "Movie",
+      "characterName": "Ashley Wilkes",
+      "characterDescription": "A Southern gentleman and one of Scarlett O'Hara's love interests.",
+      "imdbUrl": "https://www.imdb.com/title/tt0031381/",
+      "genre": "Drama/Romance",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "The Fresh Prince of Bel-Air",
+      "year": 1990,
+      "type": "TV Show",
+      "characterName": "Ashley Banks",
+      "characterDescription": "The youngest daughter of the Banks family, known for her sweet and innocent nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt0098800/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I don't know nothin' 'bout birthin' babies!",
+      "character": "Ashley Wilkes",
+      "source": "Gone with the Wind",
+      "year": 1939,
+      "context": "A humorous line reflecting the character's unpreparedness for the situation.",
+      "genre": "Drama/Romance",
+      "impact": "Iconic for its comedic relief in a dramatic film."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sapphire Blue",
+      "hex": "#0F52BA"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 210,
+    "peak": 145,
+    "peakYear": 2011
+  },
+  "enrichmentVersion": "v6"
+}

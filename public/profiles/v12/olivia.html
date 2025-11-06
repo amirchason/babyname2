@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olivia - Complete Name Profile | SoulSeed</title>
+
+  <meta name="description" content="Olive tree - Latin origin. Comprehensive profile with expert insights.">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      color: #2c3e50;
+      background: linear-gradient(135deg, #FFF9FC 0%, #F5EBFF 100%);
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #7C3E94 0%, #FFB3D9 100%);
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4em;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .hero .meaning {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+
+    .hero .meta-item {
+      background: rgba(255,255,255,0.2);
+      padding: 8px 20px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .writer-credit {
+      text-align: center;
+      padding: 30px;
+      background: #F5EBFF;
+      border-bottom: 2px solid #E8D9FF;
+    }
+
+    .writer-credit h3 {
+      color: #7C3E94;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .writer-credit p {
+      color: #888;
+      font-size: 0.95em;
+    }
+
+    /* Accordion Sections */
+    .content {
+      padding: 20px;
+    }
+
+    .accordion-section {
+      margin-bottom: 15px;
+      border: 2px solid #F5EBFF;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .accordion-section:hover {
+      border-color: #E8D9FF;
+    }
+
+    .accordion-header {
+      background: linear-gradient(135deg, #F5EBFF 0%, #FFE4F3 100%);
+      padding: 20px 25px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+
+    .accordion-header:hover {
+      background: linear-gradient(135deg, #E8D9FF 0%, #FFD4ED 100%);
+    }
+
+    .accordion-icon {
+      font-size: 1.5em;
+      transition: transform 0.3s ease;
+      min-width: 30px;
+      font-weight: bold;
+    }
+
+    .accordion-section.open .accordion-icon {
+      transform: rotate(90deg);
+    }
+
+    .accordion-section .accordion-icon::before {
+      content: '▶';
+    }
+
+    .accordion-section.open .accordion-icon::before {
+      content: '▼';
+    }
+
+    .accordion-title {
+      flex: 1;
+    }
+
+    .accordion-title h3 {
+      font-size: 1.3em;
+      color: #7C3E94;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .accordion-title .subtitle {
+      font-size: 0.85em;
+      color: #888;
+      font-weight: normal;
+    }
+
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      background: white;
+    }
+
+    .accordion-section.open .accordion-body {
+      max-height: 10000px;
+    }
+
+    .accordion-content {
+      padding: 30px;
+      font-family: Georgia, serif;
+      line-height: 1.9;
+    }
+
+    .accordion-content p {
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
+
+    .accordion-content h2 {
+      color: #7C3E94;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin: 30px 0 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #F5EBFF;
+    }
+
+    .accordion-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .person-card {
+      background: #F9F9F9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .person-card h4 {
+      color: #7C3E94;
+      margin-bottom: 8px;
+    }
+
+    .person-card .meta {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+
+    .person-card ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    .tags {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .tag {
+      background: #F5EBFF;
+      color: #7C3E94;
+      padding: 12px 16px;
+      border-radius: 20px;
+      font-size: 0.95em;
+      text-align: center;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .tag:hover {
+      background: #E8D9FF;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(124, 62, 148, 0.15);
+    }
+
+    @media (max-width: 768px) {
+      .tags {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .tags {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5em; }
+      .hero .meta { flex-direction: column; gap: 10px; }
+      .content { padding: 10px; }
+      .accordion-header { padding: 15px 20px; }
+      .accordion-content { padding: 20px; }
+    }
+
+    /* Print */
+    @media print {
+      .accordion-body { max-height: none !important; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Olivia</h1>
+      <div class="meaning">"Olive tree"</div>
+      <div class="meta">
+        <div class="meta-item">Latin Origin</div>
+        <div class="meta-item">Female</div>
+        <div class="meta-item">Ranked #298</div>
+      </div>
+    </div>
+
+    <!-- Writer Credit -->
+    <div class="writer-credit">
+      <h3>📖 Written by River Stone</h3>
+      <p>Poetic Storyteller & Writer • SoulSeed Writers Collective</p>
+    </div>
+
+    <!-- Accordion Sections -->
+    <div class="content">
+      
+      <div class="accordion-section" id="section-0">
+        <div class="accordion-header" onclick="toggleAccordion('section-0')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>📖</span> <span style="color: #FF6B9D; font-weight: 700;">[1]</span> The Story of Olivia</h3>
+            <div class="subtitle">Expert Analysis by River Stone</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>In a world where names are like the gentle ripples upon a tranquil lake, each one bearing its unique resonance—Olivia emerges with the grace of an olive branch swaying in the serene whispers of the Mediterranean breeze. Like a poem written by the hand of nature itself, Olivia carries a symphony within her syllables, a name that dances off the tongue with effortless elegance—a mosaic of history, earth, and tranquility.</p><p>Olivia, a name rooted in the fertile soils of Latin origin, whispers of the ancient olive tree, a timeless symbol of peace and prosperity. This arboreal connection speaks of resilience, reaching its leafy arms towards the blue heavens, embodying both strength and grace. Just as the olive tree stands undisturbed in the midst of the ardent sun, so the name Olivia carries an air of timeless, steadfast beauty.</p><p>In the tapestry of fame, the name Olivia glows with the stardust aura of actresses like Olivia Wilde, whose versatility reflects the changing hues of sunset across a sky, and Olivia Colman, an actress whose performances ripple with the raw, beating heart of human experience. In the realm of athletic prowess, Olivia Nelson-Ododa and Olivia Schough carve their paths with the precision of a comet streaking across the night canvas—a testament to the name's versatile strength and beauty.</p><p>In the shimmering kaleidoscope of popular culture, the name Olivia resonates like a melody that lingers long after the tune has faded. On silver screens and stages, Olivia captivates with a magnetic presence that gathers the audience like moths to a flame. Her name, like a refrain in the ballad of cultural history, weaves itself through the narratives of love, courage, and dreams unfurled under starlit skies.</p><p>An Olivia is like the first light of dawn, infusing the world with warmth and hope—a person who walks with the quiet confidence of the wind, unseen yet felt. She possesses a heart where wisdom and curiosity dwell side by side, a blend of tranquility and tenacity. Her presence is like a soothing balm, a gentle reminder of the peace that can be found amidst life's chaotic symphony.</p><p>The name Olivia invites playful nicknames like Liv, as fresh and lively as a morning breeze, or Livia, echoing the classical elegance of Grecian sculptures. Each variation carries its own rhythm, unraveling new facets like petals of a blooming flower, each nickname a dance of identity and affection.</p><p>In the vast garden of names, Olivia ranks #298, a noble position, like a cherished star amongst constellations. A name that remains steadfast amidst the ever-shifting trends, Olivia's popularity is a gentle arc, a wave that rises and falls with the tides of time, always returning to shore with its enduring charm.</p><p>When paired with names like Ava, a duet is formed—a harmonious melody that sings of simplicity and grace. Olivia and Sophia, together, become a tale of ancient wisdom and modern flair. Each combination with Olivia is like a tapestry of sound and meaning, woven together to create a sonorous name symphony.</p><p>In the cultural mosaic, Olivia is a name that transcends borders, whispering tales of olive groves under an azure sky—her name a universal language of peace and unity. Rooted in Latin heritage, Olivia is a gentle reminder of our connections to the earth and each other, a name that carries stories across the whispers of time and tradition.</p><p>Embrace the name Olivia if you seek a name that dances through life with timeless grace and quiet strength. Like the olive tree, it stands the test of time, offering shade and peace in its presence. Olivia is a name that, like a cherished story, weaves its magic into your life, one syllable at a time.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-1">
+        <div class="accordion-header" onclick="toggleAccordion('section-1')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏛️</span> <span style="color: #FF6B9D; font-weight: 700;">[2]</span> Cultural Significance</h3>
+            <div class="subtitle">Historical & Social Context</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <p>The name Olivia has been popularized by William Shakespeare's play 'Twelfth Night', where Olivia is a noblewoman courted by several characters. The name has been associated with beauty and elegance, often symbolizing peace and fruitfulness due to its connection to the olive tree.</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-2">
+        <div class="accordion-header" onclick="toggleAccordion('section-2')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>👑</span> <span style="color: #FF6B9D; font-weight: 700;">[3]</span> Historical Figures</h3>
+            <div class="subtitle">Notable Historical Bearers</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Olivia de Havilland</h4>
+        <div class="meta">1916-2020 • Actress</div>
+        <p><strong>Significance:</strong> She was one of the leading actresses of her time and played a pivotal role in the Golden Age of Hollywood.</p>
+        <ul><li>Two-time Academy Award winner</li><li>Star of 'Gone with the Wind'</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Olivia Newton-John</h4>
+        <div class="meta">1948-2022 • Singer and Actress</div>
+        <p><strong>Significance:</strong> She was a beloved singer and actress known for her role in 'Grease' and her successful music career.</p>
+        <ul><li>Four-time Grammy Award winner</li><li>Star of 'Grease'</li></ul>
+      </div>
+    
+      <div class="person-card">
+        <h4>Olivia Manning</h4>
+        <div class="meta">1908-1980 • Author</div>
+        <p><strong>Significance:</strong> She is known for her novels depicting the impact of World War II on Europe.</p>
+        <ul><li>Author of 'The Balkan Trilogy'</li></ul>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-3">
+        <div class="accordion-header" onclick="toggleAccordion('section-3')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🎭</span> <span style="color: #FF6B9D; font-weight: 700;">[4]</span> Famous People</h3>
+            <div class="subtitle">Modern Celebrities & Icons</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Olivia Wilde</h4>
+        <div class="meta">Actress and Director</div>
+        <p><strong>Known for:</strong> Acting in 'House', Directing 'Booksmart'</p>
+        <p><strong>Awards:</strong> Independent Spirit Award for Best First Feature</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Olivia Colman</h4>
+        <div class="meta">Actress</div>
+        <p><strong>Known for:</strong> The Favourite, The Crown</p>
+        <p><strong>Awards:</strong> Academy Award for Best Actress</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-4">
+        <div class="accordion-header" onclick="toggleAccordion('section-4')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏆</span> <span style="color: #FF6B9D; font-weight: 700;">[5]</span> Famous Athletes</h3>
+            <div class="subtitle">Sports Legends</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            
+      <div class="person-card">
+        <h4>Olivia Nelson-Ododa</h4>
+        <div class="meta">NBA Basketball • Connecticut Sun</div>
+        <p><strong>Position:</strong> Forward</p>
+        <p><strong>Achievements:</strong> WNBA All-Rookie Team</p>
+      </div>
+    
+      <div class="person-card">
+        <h4>Olivia Schough</h4>
+        <div class="meta">European Soccer/Football • FC Rosengård</div>
+        <p><strong>Position:</strong> Midfielder</p>
+        <p><strong>Achievements:</strong> Swedish Cup winner</p>
+      </div>
+    
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-5">
+        <div class="accordion-header" onclick="toggleAccordion('section-5')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🔠</span> <span style="color: #FF6B9D; font-weight: 700;">[6]</span> Name Variations</h3>
+            <div class="subtitle">Similar Names</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Oliva (Spanish)</div><div class="tag">Olivie (French)</div><div class="tag">Oliwia (Polish)</div><div class="tag">Olívia (Portuguese)</div><div class="tag">Olivia (Italian)</div><div class="tag">Oliviaa</div><div class="tag">Oliviao</div><div class="tag">Oliviaus</div><div class="tag">Oliviae</div></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-section" id="section-6">
+        <div class="accordion-header" onclick="toggleAccordion('section-6')">
+          <div class="accordion-icon"></div>
+          <div class="accordion-title">
+            <h3><span>🏷️</span> <span style="color: #FF6B9D; font-weight: 700;">[7]</span> Popular Nicknames</h3>
+            <div class="subtitle">Common Short Forms</div>
+          </div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-content">
+            <div class="tags"><div class="tag">Liv</div><div class="tag">Livvy</div><div class="tag">Ollie</div><div class="tag">Via</div><div class="tag">Livi</div><div class="tag">Ol</div><div class="tag">Oli</div><div class="tag">Oliv</div><div class="tag">Oly</div></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    function toggleAccordion(sectionId) {
+      const section = document.getElementById(sectionId);
+      const isOpen = section.classList.contains('open');
+
+      section.classList.toggle('open');
+
+      // Save state to localStorage
+      localStorage.setItem('accordion_olivia_' + sectionId, !isOpen);
+    }
+
+    // Restore states on load
+    window.addEventListener('DOMContentLoaded', () => {
+      
+      const saved_section_0 = localStorage.getItem('accordion_olivia_section-0');
+      if (saved_section_0 === 'true') {
+        document.getElementById('section-0').classList.add('open');
+      }
+
+      const saved_section_1 = localStorage.getItem('accordion_olivia_section-1');
+      if (saved_section_1 === 'true') {
+        document.getElementById('section-1').classList.add('open');
+      }
+
+      const saved_section_2 = localStorage.getItem('accordion_olivia_section-2');
+      if (saved_section_2 === 'true') {
+        document.getElementById('section-2').classList.add('open');
+      }
+
+      const saved_section_3 = localStorage.getItem('accordion_olivia_section-3');
+      if (saved_section_3 === 'true') {
+        document.getElementById('section-3').classList.add('open');
+      }
+
+      const saved_section_4 = localStorage.getItem('accordion_olivia_section-4');
+      if (saved_section_4 === 'true') {
+        document.getElementById('section-4').classList.add('open');
+      }
+
+      const saved_section_5 = localStorage.getItem('accordion_olivia_section-5');
+      if (saved_section_5 === 'true') {
+        document.getElementById('section-5').classList.add('open');
+      }
+
+      const saved_section_6 = localStorage.getItem('accordion_olivia_section-6');
+      if (saved_section_6 === 'true') {
+        document.getElementById('section-6').classList.add('open');
+      }
+    });
+  </script>
+</body>
+</html>

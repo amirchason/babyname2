@@ -1,0 +1,293 @@
+{
+  "name": "emily",
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Rival",
+  "culturalSignificance": "The name Emily has been popular in English-speaking countries since the 18th century, often associated with elegance and literary refinement. It gained prominence through notable figures such as Emily Brontë, contributing to its enduring appeal.",
+  "modernContext": "Emily remains a popular name in many countries, consistently ranking high in baby name charts due to its classic charm and timeless quality.",
+  "literaryReferences": "Emily Brontë, author of 'Wuthering Heights', is one of the most famous literary figures with this name.",
+  "pronunciationGuide": "/ˈɛmɪli/",
+  "variations": [
+    "Emilie",
+    "Emilia",
+    "Amelia",
+    "Emelina",
+    "Emiliana",
+    "Emelita",
+    "Emelyn",
+    "Emmalee",
+    "Emalee"
+  ],
+  "similarNames": [
+    "Emma",
+    "Amelia",
+    "Ella",
+    "Evelyn",
+    "Avery",
+    "Sophia",
+    "Olivia",
+    "Isabella",
+    "Grace"
+  ],
+  "nicknames": [
+    "Em",
+    "Emmy",
+    "Millie",
+    "Milly",
+    "Mimi",
+    "Lee",
+    "Lia",
+    "Emmie",
+    "Ems"
+  ],
+  "personality": "People named Emily are often perceived as kind, intelligent, and creative, with a strong sense of empathy and a love for the arts.",
+  "symbolism": "The name Emily symbolizes strength and resilience, often associated with a competitive spirit due to its meaning 'rival'.",
+  "funFact": "Emily was the most popular baby girl's name in the United States from 1996 to 2007.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Emily Dickinson",
+      "years": "1830-1886",
+      "category": "Poet",
+      "achievements": [
+        "One of the most important figures in American poetry"
+      ],
+      "significance": "Emily Dickinson is renowned for her innovative use of form and syntax, and her poetry has had a lasting impact on the literary world.",
+      "notableWorks": [
+        "'Because I could not stop for Death'",
+        "'I heard a Fly buzz—when I died'"
+      ]
+    },
+    {
+      "fullName": "Emily Brontë",
+      "years": "1818-1848",
+      "category": "Author",
+      "achievements": [
+        "Author of the classic novel 'Wuthering Heights'"
+      ],
+      "significance": "Emily Brontë's work is celebrated for its passionate narrative and complex characters, making 'Wuthering Heights' a staple of English literature.",
+      "notableWorks": [
+        "'Wuthering Heights'"
+      ]
+    },
+    {
+      "fullName": "Emily Greene Balch",
+      "years": "1867-1961",
+      "category": "Economist and Sociologist",
+      "achievements": [
+        "Nobel Peace Prize in 1946"
+      ],
+      "significance": "Emily Greene Balch was a leader in the peace movement and a co-founder of the Women's International League for Peace and Freedom.",
+      "notableWorks": [
+        "'Our Slavic Fellow Citizens'"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Hope is the thing with feathers that perches in the soul.",
+      "author": "Emily Dickinson",
+      "context": "This quote is from one of Dickinson's most famous poems, illustrating the enduring nature of hope.",
+      "year": 1861,
+      "category": "Inspiration"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Emily Blunt",
+      "profession": "Actress",
+      "knownFor": [
+        "'The Devil Wears Prada'",
+        "'A Quiet Place'",
+        "'Mary Poppins Returns'"
+      ],
+      "awards": "Golden Globe Award for Best Supporting Actress"
+    },
+    {
+      "name": "Emily Ratajkowski",
+      "profession": "Model and Actress",
+      "knownFor": [
+        "'Gone Girl'",
+        "Fashion modeling"
+      ],
+      "awards": "N/A"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Emily Sonnett",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "NWSL",
+      "team": "OL Reign",
+      "pastTeams": [
+        "Portland Thorns FC",
+        "Washington Spirit"
+      ],
+      "position": "Defender",
+      "jerseyNumber": "14",
+      "years": "2016-Present",
+      "achievements": "FIFA Women's World Cup Champion 2019",
+      "knownFor": [
+        "Strong defensive skills and versatility"
+      ],
+      "awards": "NWSL Best XI",
+      "stats": "Over 100 appearances in NWSL",
+      "verified": true,
+      "source": "NWSLsoccer.com"
+    },
+    {
+      "name": "Emily Scarratt",
+      "profession": "Athlete",
+      "sport": "European Soccer/Football",
+      "league": "Premier 15s",
+      "team": "Loughborough Lightning",
+      "pastTeams": [
+        "Leicester Tigers"
+      ],
+      "position": "Centre",
+      "jerseyNumber": "13",
+      "years": "2008-Present",
+      "achievements": "World Rugby Women's 15s Player of the Year 2019",
+      "knownFor": [
+        "Exceptional playmaking and leadership"
+      ],
+      "awards": "World Cup Winner 2014",
+      "stats": "Over 90 caps for England",
+      "verified": true,
+      "source": "WorldRugby.org"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Devil Wears Prada",
+      "year": 2006,
+      "type": "Movie",
+      "characterName": "Emily Charlton",
+      "characterDescription": "An assistant at a high-fashion magazine, known for her sharp wit.",
+      "imdbUrl": "https://www.imdb.com/title/tt0458352/",
+      "genre": "Comedy/Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm one stomach flu away from my goal weight.",
+      "character": "Emily Charlton",
+      "source": "The Devil Wears Prada",
+      "year": 2006,
+      "context": "Emily Charlton humorously remarks on the pressures of working in the fashion industry.",
+      "genre": "Comedy/Drama",
+      "impact": "This quote highlights the absurdities of the fashion world and is often cited for its humor."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 1,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Period of growth, manifestation, and positive energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs align with passionate and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Embodies passion, creativity, and transformative power.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Bold, confident, natural leader and pioneer.",
+    "karmicLessons": "Embrace courage, develop patience, balance action with reflection",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Drive for leadership and self-expression"
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 118,
+    "peak": 188,
+    "peakYear": 2001
+  },
+  "enrichmentVersion": "v10",
+  "inspiration": null,
+  "syllables": {
+    "count": 3,
+    "breakdown": "emily"
+  },
+  "translations": [],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Contains 3 classic indicators"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Contains 2 timeless indicators"
+    }
+  ],
+  "v7EnhancedAt": "2025-11-03T21:55:59.179Z",
+  "v8EnrichedAt": "2025-11-03T21:56:00.087Z",
+  "songs": [
+    {
+      "title": "For Emily, Whenever I May Find Her",
+      "artist": "Simon & Garfunkel",
+      "year": 1966,
+      "genre": "Folk Rock",
+      "nameContext": "Features \"emily\" in the song",
+      "description": "This song beautifully captures the longing and admiration for a person named Emily. It paints a vivid picture of a dream-like encounter filled with warmth and affection.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=For%20Emily%2C%20Whenever%20I%20May%20Find%20Her%20played%20by%20Simon%20%26%20Garfunkel",
+      "geniusUrl": "https://genius.com/search?q=For%20Emily%2C%20Whenever%20I%20May%20Find%20Her%20Simon%20%26%20Garfunkel",
+      "verified": true
+    },
+    {
+      "title": "Emily",
+      "artist": "James Arthur",
+      "year": 2021,
+      "genre": "Pop",
+      "nameContext": "Features \"emily\" in the song",
+      "description": "A heartfelt tribute to a loved one named Emily, this song expresses deep love and appreciation. It conveys a sense of hope and commitment, celebrating the joy Emily brings into the artist's life.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Emily%20played%20by%20James%20Arthur",
+      "geniusUrl": "https://genius.com/search?q=Emily%20James%20Arthur",
+      "verified": true
+    },
+    {
+      "title": "See Emily Play",
+      "artist": "Pink Floyd",
+      "year": 1967,
+      "genre": "Psychedelic Rock",
+      "nameContext": "Features \"emily\" in the song",
+      "description": "This track is an imaginative and whimsical piece that follows Emily's adventures. It has a playful and positive vibe, capturing the essence of youthful exploration and joy.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=See%20Emily%20Play%20played%20by%20Pink%20Floyd",
+      "geniusUrl": "https://genius.com/search?q=See%20Emily%20Play%20Pink%20Floyd",
+      "verified": true
+    }
+  ],
+  "v10EnrichedAt": "2025-11-03T21:56:05.876Z",
+  "songsEnrichedAt": "2025-11-03T21:56:05.876Z"
+}
