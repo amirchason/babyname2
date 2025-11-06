@@ -15,6 +15,7 @@ import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 import AppHeader from '../components/AppHeader';
 import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
+import { PastelGradientBackground } from '../components/ui/pastel-gradient-background';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
 import StructuredData from '../components/SEO/StructuredData';
@@ -776,8 +777,11 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Quick Action Buttons - Elegant Baby Theme */}
-      <section className="py-6 px-4 bg-gradient-to-b from-white to-gray-50">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative py-6 px-4 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
+        {/* Pastel Gradient Background */}
+        <PastelGradientBackground opacity={0.3} />
+
+        <div className="max-w-4xl mx-auto relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -1339,8 +1343,11 @@ const HomePage: React.FC = () => {
       {/* See docs/LIST_MODES.md for complete feature documentation */}
 
       {/* Names Grid */}
-      <section className="py-12 px-4">
-        <div className="max-w-7xl mx-auto">
+      <section className="relative py-12 px-4 overflow-hidden">
+        {/* Pastel Gradient Background */}
+        <PastelGradientBackground opacity={0.4} />
+
+        <div className="max-w-7xl mx-auto relative z-10">
           {/* Header - Title */}
           <div className="mb-3">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-1">
@@ -1784,8 +1791,11 @@ const HomePage: React.FC = () => {
       )}
 
       {/* FAQ Section for SEO */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative py-16 px-4 overflow-hidden">
+        {/* Pastel Gradient Background */}
+        <PastelGradientBackground opacity={0.5} />
+
+        <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">
             Everything You Need to Know About Choosing a Baby Name
           </h2>
