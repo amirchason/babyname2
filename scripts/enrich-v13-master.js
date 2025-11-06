@@ -106,6 +106,23 @@ function checkExistingVersions(name) {
   return versions;
 }
 
+// Extract dominant gender from gender object or string
+function getGenderString(gender) {
+  if (typeof gender === 'string') {
+    return gender.toLowerCase();
+  }
+  if (typeof gender === 'object' && gender !== null) {
+    // Find the dominant gender
+    const entries = Object.entries(gender);
+    if (entries.length === 0) return 'unknown';
+    const dominant = entries.reduce((max, curr) =>
+      curr[1] > max[1] ? curr : max
+    );
+    return dominant[0].toLowerCase();
+  }
+  return 'unknown';
+}
+
 // Run v10 enrichment (the heavy lifting)
 function runV10Enrichment(name, gender, origin, meaning) {
   try {
@@ -193,7 +210,8 @@ async function processName(nameObj, state) {
   // Generate v10 if missing
   if (!versions.v10) {
     log(`  ⚡ V10 missing - running enrichment...`);
-    const result = runV10Enrichment(name, nameObj.gender, nameObj.origin, nameObj.meaning);
+    const genderStr = getGenderString(nameObj.gender);
+    const result = runV10Enrichment(name, genderStr, nameObj.origin || 'Unknown', nameObj.meaning || 'Unknown');
 
     if (!result.success) {
       log(`  ❌ V10 enrichment failed: ${result.error}`, true);
