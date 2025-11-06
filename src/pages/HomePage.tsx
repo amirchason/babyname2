@@ -739,12 +739,12 @@ const HomePage: React.FC = () => {
       {/* Hero Section - Flower Animation Background */}
       <section className={`relative ${searchOpen ? 'pt-48' : 'pt-24'} pb-16 px-4 min-h-[60vh] flex items-center justify-center transition-all duration-200 overflow-hidden`}>
         {/* Full Screen Flower Animation Background */}
-        <div className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 w-full h-full opacity-70">
           <UnicornFlowerBackground />
         </div>
 
         {/* Hero Content */}
-        <div className="max-w-4xl mx-auto text-center relative z-10 opacity-70">
+        <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
