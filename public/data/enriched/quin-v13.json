@@ -1,0 +1,214 @@
+{
+  "name": "Quin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T04:38:13.116Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Irish",
+  "meaning": "Descendant of Conn",
+  "culturalSignificance": "The name Quin is derived from the Irish surname Ó Cuinn, meaning 'descendant of Conn'. Conn is a traditional Irish name that signifies intelligence and wisdom. Historically, this name has been associated with Irish nobility and leadership.",
+  "modernContext": "In modern times, Quin is used as a given name for both boys and girls, reflecting a trend towards unisex names. It is often chosen for its simplicity and the charm of its Irish heritage.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/kwɪn/",
+  "variations": [
+    "Quinn",
+    "Quinlan",
+    "Quincy",
+    "Quinton",
+    "Quinby"
+  ],
+  "similarNames": [
+    "Finn",
+    "Gwen",
+    "Lynn",
+    "Flynn",
+    "Brynn",
+    "Wynn"
+  ],
+  "nicknames": [
+    "Q",
+    "Quinnie",
+    "Quino"
+  ],
+  "personality": "People named Quin are often seen as intelligent and adaptable, with a natural curiosity and a desire for knowledge. They are typically approachable and friendly.",
+  "symbolism": "Quin symbolizes intelligence and leadership, reflecting its historical roots in Irish nobility.",
+  "funFact": "Quin is a popular name among fictional characters in various forms of media, adding to its modern appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Quin Snyder",
+      "profession": "Basketball Coach",
+      "knownFor": [
+        "Coaching the Utah Jazz"
+      ],
+      "awards": "NBA Coach of the Month"
+    },
+    {
+      "name": "Quin Hillyer",
+      "profession": "Journalist",
+      "knownFor": [
+        "Political commentary"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Adventures of Tintin",
+      "year": 2011,
+      "type": "Movie",
+      "characterName": "Quin",
+      "characterDescription": "A minor character in the animated film.",
+      "imdbUrl": "https://www.imdb.com/title/tt0983193/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs are known for their intellectual curiosity and social nature, aligning well with Quin's characteristics.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change, adaptability, and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for being articulate, intelligent, and a natural leader in conversation.",
+    "karmicLessons": "Embrace change and seek knowledge.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A desire for deep understanding and knowledge."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 300,
+    "peakYear": 2018
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Quin is a name that speaks of wisdom and leadership, embodying the spirit of those who seek to understand the world.",
+    "author": "Anonymous",
+    "context": "Interpretation of the name's meaning and cultural significance."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Quin"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Quin",
+      "script": "Latin",
+      "scriptName": "Quin",
+      "pronunciation": "/kwin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κουίν",
+      "script": "Greek",
+      "scriptName": "Κουίν",
+      "pronunciation": "/kuˈin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كوين",
+      "script": "Arabic",
+      "scriptName": "كوين",
+      "pronunciation": "/kwin/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "昆",
+      "script": "Han",
+      "scriptName": "昆",
+      "pronunciation": "/kʰu̯ən/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Куин",
+      "script": "Cyrillic",
+      "scriptName": "Куин",
+      "pronunciation": "/kuˈin/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קוין",
+      "script": "Hebrew",
+      "scriptName": "קוין",
+      "pronunciation": "/kwin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Quin has gained popularity in contemporary times as a unisex name."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Its roots in Irish history and tradition lend it a classic appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "While not frequent, Quin does appear in literary contexts occasionally."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Quin is a charming name with a rich history and a fresh modern vibe. Originating from the Irish surname Ó Cuinn, it carries the meaning of being a descendant of Conn, a name associated with wisdom. This name's simplicity and elegance have made it a popular choice in recent years.",
+    "etymology_meaning": "Quin stems from the Irish surname Ó Cuinn, meaning 'descendant of Conn'. Conn, in itself, is a name tied to intelligence and wisdom, often associated with leadership in traditional Irish contexts.",
+    "famous_bearers": "Notable people with the name Quin include Quin Snyder, a renowned basketball coach, and Quin Hillyer, a respected journalist. These individuals have helped bring attention to the name in diverse fields.",
+    "pop_culture_moments": "The name Quin has appeared in various films and shows, adding a touch of modern appeal to its historical roots. It is favored for its unisex quality and short, memorable sound.",
+    "personality_profile": "Individuals named Quin are often perceived as intelligent and adaptable, with a natural curiosity. They are known for their friendliness and approachability, making them well-liked in social circles.",
+    "variations_nicknames": "Quin's variations include Quinn, Quinlan, and Quincy, each offering a slightly different flair. Common nicknames such as Q and Quinny add a personal touch to the name.",
+    "popularity_data": "Quin has seen a steady rise in popularity, particularly as a unisex name. It peaked in recent years, reflecting a trend towards names that are simple yet carry a rich heritage.",
+    "pairing_suggestions": "Quin pairs well with middle names that are either classic or equally modern, such as Alexander or Rose. Its adaptability makes it a versatile choice for various naming styles.",
+    "cultural_context": "With origins deeply rooted in Irish culture, Quin carries a sense of tradition while also embracing modern trends. It's a name that bridges the gap between old and new, making it appealing across generations.",
+    "final_recommendation": "Quin is a versatile name choice, suitable for parents seeking a name with historical depth and modern charm. Its unisex nature and simple pronunciation make it a practical yet elegant pick for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}
