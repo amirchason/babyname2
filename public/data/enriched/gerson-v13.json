@@ -1,0 +1,239 @@
+{
+  "name": "Gerson",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:58:44.431Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Exile, banishment",
+  "culturalSignificance": "The name Gerson originates from Hebrew and is derived from the name Gershom, which means 'exile' or 'banishment'. It is associated with the biblical figure Gershom, the son of Moses, who was named so because Moses was a stranger in a foreign land.",
+  "modernContext": "In modern times, Gerson is a name primarily used in Hispanic and Jewish communities. While not extremely common, it maintains a steady presence, especially among those honoring their cultural or religious heritage.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈɡɛrsən",
+  "variations": [
+    "Gershon",
+    "Gershom",
+    "Gersan",
+    "Jerson",
+    "Gerzon"
+  ],
+  "similarNames": [
+    "Gershom",
+    "Jason",
+    "Gareth",
+    "Grayson",
+    "Garson",
+    "Jaron"
+  ],
+  "nicknames": [
+    "Gerry",
+    "Sonny",
+    "Gers"
+  ],
+  "personality": "The name Gerson often evokes a sense of resilience and adaptability, traits associated with individuals who can thrive in new environments.",
+  "symbolism": "Symbolically, Gerson represents adaptability and the strength found in embracing new beginnings, much like the biblical Gershom.",
+  "funFact": "Gerson is a surname as well as a first name, notably used by several influential figures in Jewish history, including Rabbi Levi Gersonides.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism"
+    ],
+    "character": "Gershom",
+    "significance": "Gershom was the first son of Moses and Zipporah in the Hebrew Bible. His name signifies Moses' status as an outsider in Midian.",
+    "keyStories": [
+      "Exodus",
+      "Moses in Midian"
+    ],
+    "spiritualMeaning": "Represents the journey and experiences of being an outsider.",
+    "historicalImpact": "Gershom's story highlights themes of identity and belonging in the Jewish tradition."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jean Gerson",
+      "years": "1363-1429",
+      "category": "Theologian",
+      "achievements": [
+        "Chancellor of the University of Paris",
+        "Influential in the Council of Constance"
+      ],
+      "significance": "Jean Gerson was a prominent French scholar and theologian during the late Middle Ages, known for his work on church reform.",
+      "notableWorks": [
+        "De Consolatione Theologiae",
+        "Considerations on the Passion"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Gerson Santos da Silva",
+      "profession": "Footballer",
+      "knownFor": [
+        "Playing for Flamengo",
+        "Brazilian national team"
+      ],
+      "awards": "Copa Libertadores"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Gerson Santos da Silva",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Brazilian Serie A",
+      "team": "Flamengo",
+      "pastTeams": [
+        "Roma",
+        "Fiorentina"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "2019-Present",
+      "achievements": "Copa Libertadores Champion",
+      "knownFor": [
+        "Passing",
+        "Ball control"
+      ],
+      "awards": "Copa Libertadores Best XI",
+      "stats": "Over 100 career appearances",
+      "verified": true,
+      "source": "ESPN"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs are intuitive and emotional, matching Gerson's adaptability.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and adaptability.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Associated with compassion and understanding, aiding those in need.",
+    "karmicLessons": "Embrace change and trust in new beginnings.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony and a nurturing environment."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 712,
+    "peak": 523,
+    "peakYear": 1978
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is a journey of exile and return.",
+    "author": "Gerson",
+    "context": "Reflecting on the journey of life."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ger-son"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Gerson",
+      "script": "Latin",
+      "scriptName": "Gerson",
+      "pronunciation": "ˈxeɾson",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκερσον",
+      "script": "Greek",
+      "scriptName": "Γκερσον",
+      "pronunciation": "ˈɣerson",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيرسون",
+      "script": "Arabic",
+      "scriptName": "جيرسون",
+      "pronunciation": "dʒirˈsuːn",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "格尔森",
+      "script": "Han",
+      "scriptName": "格尔森",
+      "pronunciation": "ɡé ěr sēn",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Герсон",
+      "script": "Cyrillic",
+      "scriptName": "Герсон",
+      "pronunciation": "ɡʲɪrˈson",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גרשון",
+      "script": "Hebrew",
+      "scriptName": "גרשון",
+      "pronunciation": "ɡerˈʃon",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "The name Gerson is derived from Gershom, a biblical figure."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Gerson has a long-standing historical presence, particularly in religious texts."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.7,
+      "reason": "Prominent in Jewish and Hispanic communities."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Gerson is a name rich with cultural and historical significance, offering a blend of tradition and modernity. Its roots in the Hebrew language and biblical history provide a depth of meaning that resonates with many parents today. Whether you're drawn to its historical ties or its melodic sound, Gerson remains a timeless choice.",
+    "etymology_meaning": "Gerson originates from the Hebrew name Gershom, meaning 'exile' or 'banishment'. It reflects the experiences of those who have faced displacement but found strength in new beginnings.",
+    "famous_bearers": "Prominent figures with the name include Jean Gerson, a medieval theologian, and Gerson Santos da Silva, a contemporary Brazilian footballer known for his skill and agility on the field.",
+    "pop_culture_moments": "While not prevalent in mainstream media, the name Gerson occasionally appears in literature and historical discussions, often in connection with its biblical roots.",
+    "personality_profile": "Individuals named Gerson tend to be adaptable and resilient, traits that align with the name's historical connotations. They often exhibit a strong sense of identity and are able to navigate change with grace.",
+    "variations_nicknames": "Variations of the name include Gershon and Gershom, while common nicknames like Gerry and Sonny provide more casual options.",
+    "popularity_data": "Gerson has maintained steady popularity, particularly within Jewish and Hispanic communities. Despite not being in the top ranks, it holds a unique appeal due to its historical and cultural significance.",
+    "pairing_suggestions": "Gerson pairs well with names that have strong cultural or biblical roots, such as Aaron, David, or Naomi, providing a harmonious balance.",
+    "cultural_context": "Gerson's cultural backdrop is rich with Jewish historical references, making it a meaningful choice for families looking to honor their heritage.",
+    "final_recommendation": "For parents seeking a name with depth and tradition, Gerson presents a compelling option. Its historical significance and modern adaptability make it a timeless choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

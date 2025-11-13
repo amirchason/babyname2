@@ -1,0 +1,206 @@
+{
+  "name": "Juanes",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:04:59.190Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Spanish",
+  "meaning": "Variant of Juan, meaning 'God is gracious'",
+  "culturalSignificance": "Juanes is a Colombian name often associated with the famous musician Juanes, whose full name is Juan Esteban Aristizábal Vásquez. The name is a diminutive or affectionate form of Juan, a common name in Spanish-speaking countries.",
+  "modernContext": "In modern times, the name Juanes is most famously associated with the Colombian musician who has gained international recognition for his contributions to Latin music. His popularity has influenced the name's recognition outside of Spanish-speaking countries.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈxwanes",
+  "variations": [
+    "Juan",
+    "Juano",
+    "Juanelo",
+    "Juanito"
+  ],
+  "similarNames": [
+    "Juan",
+    "Julian",
+    "Jonas",
+    "Javier",
+    "Jose"
+  ],
+  "nicknames": [
+    "Juan",
+    "Nes",
+    "Juani"
+  ],
+  "personality": "People named Juanes are often seen as creative and charismatic, reflecting the artistic influence of the famous musician. They are perceived as sociable and charming.",
+  "symbolism": "The name Juanes carries a sense of grace and benevolence, aligning with its meaning 'God is gracious'.",
+  "funFact": "Juanes, the musician, is known for his humanitarian work and has been a strong advocate for peace in Colombia.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Juanes",
+      "profession": "Musician",
+      "knownFor": [
+        "Songs 'La Camisa Negra'",
+        "Album 'Un Día Normal'"
+      ],
+      "awards": "Multiple Latin Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer"
+    ],
+    "compatibleSignsDescription": "Water signs that share intuitive and emotional traits",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents intuition, emotion, and adaptability",
+    "celestialArchetype": "The Artist",
+    "celestialArchetypeDescription": "Creative, expressive, and emotionally sensitive",
+    "karmicLessons": "Embrace creativity and express emotions freely.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire for harmony and artistic expression."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 400,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Music can change the world because it can change people.",
+    "author": "Juanes",
+    "context": "Famous quote about the power of music"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Juan-es"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Juanes",
+      "script": "Latin",
+      "scriptName": "Juanes",
+      "pronunciation": "ˈxwanes",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιουανες",
+      "script": "Greek",
+      "scriptName": "Ιουανες",
+      "pronunciation": "ˈiuanes",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "خوانيس",
+      "script": "Arabic",
+      "scriptName": "خوانيس",
+      "pronunciation": "xwaːnis",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "胡安内斯",
+      "script": "Han",
+      "scriptName": "胡安内斯",
+      "pronunciation": "Hú ān nèi sī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Хуанес",
+      "script": "Cyrillic",
+      "scriptName": "Хуанес",
+      "pronunciation": "ˈxuɑnəs",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חואנס",
+      "script": "Hebrew",
+      "scriptName": "חואנס",
+      "pronunciation": "χoʔanɛs",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Commonly associated with the modern musician."
+    },
+    {
+      "tag": "Musical",
+      "confidence": 0.95,
+      "reason": "Associated with the famous musician Juanes."
+    },
+    {
+      "tag": "Latin",
+      "confidence": 1,
+      "reason": "Originates from a Spanish-speaking country."
+    }
+  ],
+  "songs": [
+    {
+      "title": "La Camisa Negra",
+      "artist": "Juanes",
+      "year": 2005,
+      "genre": "Latin pop",
+      "nameContext": "Performed by Juanes",
+      "description": "A hit song by Colombian singer Juanes, known for its catchy tune and lyrics about love and heartbreak.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=La+Camisa+Negra+Juanes",
+      "geniusUrl": "https://genius.com/Juanes-la-camisa-negra-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Juanes carries a musical legacy, primarily due to the influence of the famous Colombian musician. It's a name that resonates with creativity and rhythm.",
+    "etymology_meaning": "Juanes is a variant of Juan, a name with Spanish origins meaning 'God is gracious'. It's often used as a diminutive or affectionate form.",
+    "famous_bearers": "The most notable bearer of the name Juanes is the Colombian singer-songwriter, known for his hit songs and contributions to Latin music.",
+    "pop_culture_moments": "Juanes has become a household name in Latin music, with his songs frequently topping charts and his influence extending beyond music to humanitarian efforts.",
+    "personality_profile": "Individuals named Juanes are often seen as creative and charismatic, embodying the artistic and expressive qualities of their namesake.",
+    "variations_nicknames": "Variations of the name include Juan and Juano, while common nicknames are Juani and Nes.",
+    "popularity_data": "The name Juanes saw a peak in popularity during the early 2000s, coinciding with the rise of the musician's fame.",
+    "pairing_suggestions": "Juanes pairs well with names like Sofia, Maria, and Elena for a harmonious and melodic combination.",
+    "cultural_context": "Rooted in Spanish culture, the name Juanes is widely recognized in Latin America and among Spanish-speaking communities worldwide.",
+    "final_recommendation": "For those seeking a name with a musical flair and cultural depth, Juanes offers a perfect blend of modern appeal and traditional roots.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

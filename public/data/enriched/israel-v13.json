@@ -1,0 +1,292 @@
+{
+  "name": "Israel",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:46:52.786Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "God contends",
+  "culturalSignificance": "The name Israel holds deep cultural significance, particularly in Jewish, Christian, and Islamic traditions. It originates from the Hebrew Bible, where Jacob is renamed Israel after wrestling with a divine being, symbolizing his struggles and triumphs.",
+  "modernContext": "In modern times, Israel is a name that resonates not only as a personal name but also as the name of a country, often associated with cultural and geopolitical discussions. It remains a popular name in religious communities and has a timeless quality due to its biblical roots.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈɪz.reɪ.əl/",
+  "variations": [
+    "Yisrael",
+    "Izrael",
+    "Izrail",
+    "Yisroel"
+  ],
+  "similarNames": [
+    "Isaiah",
+    "Isaac",
+    "Ezra",
+    "Jacob",
+    "Judah"
+  ],
+  "nicknames": [
+    "Izzy",
+    "Issy",
+    "Rae",
+    "Ray"
+  ],
+  "personality": "Individuals named Israel are often perceived as strong, resilient, and spiritual, reflecting the historical and religious significance of the name.",
+  "symbolism": "The name Israel symbolizes perseverance and divine favor, often associated with overcoming challenges and spiritual strength.",
+  "funFact": "Israel is both a personal name and the name of a country, which was established in 1948.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity",
+      "Islam"
+    ],
+    "character": "Jacob",
+    "significance": "In the Bible, Jacob was renamed Israel after wrestling with a divine being, marking him as the patriarch of the Israelites.",
+    "keyStories": [
+      "Jacob wrestling with the angel"
+    ],
+    "spiritualMeaning": "Symbolizes struggle with God and prevailing.",
+    "historicalImpact": "The name Israel is foundational in the histories of Judaism, Christianity, and Islam, and is central to the identity of the Jewish people."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Israel Putnam",
+      "years": "1718-1790",
+      "category": "Military Leader",
+      "achievements": [
+        "General in the American Revolutionary War"
+      ],
+      "significance": "He was a key figure in the American fight for independence, known for his leadership and bravery.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Israel Zangwill",
+      "years": "1864-1926",
+      "category": "Writer",
+      "achievements": [
+        "Author of 'Children of the Ghetto'"
+      ],
+      "significance": "Israel Zangwill was a prominent writer and playwright, known for his works on Jewish life and issues of identity.",
+      "notableWorks": [
+        "Children of the Ghetto",
+        "The Melting Pot"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Israel Houghton",
+      "profession": "Musician",
+      "knownFor": [
+        "Christian music albums",
+        "Worship leader"
+      ],
+      "awards": "Multiple Grammy Awards"
+    },
+    {
+      "name": "Israel Adesanya",
+      "profession": "Mixed Martial Artist",
+      "knownFor": [
+        "UFC Middleweight Champion"
+      ],
+      "awards": "UFC Fighter of the Year"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Israel Folau",
+      "profession": "Athlete",
+      "sport": "Rugby",
+      "league": "NRL",
+      "team": "Catalans Dragons",
+      "pastTeams": [
+        "Melbourne Storm",
+        "Brisbane Broncos"
+      ],
+      "position": "Fullback",
+      "jerseyNumber": "4",
+      "years": "2007-Present",
+      "achievements": "NRL Premierships, International appearances",
+      "knownFor": [
+        "High ball skills",
+        "Try scoring"
+      ],
+      "awards": "Dally M Rookie of the Year",
+      "stats": "Over 100 NRL tries",
+      "verified": true,
+      "source": "NRL Official Site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Angels in America",
+      "year": 2003,
+      "type": "TV Show",
+      "characterName": "Israel",
+      "characterDescription": "A minor character in the series representing a symbolic presence.",
+      "imdbUrl": "https://www.imdb.com/title/tt0318997/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for culmination and fulfillment.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes emotions, intuition, and fluidity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents compassion and nurturing qualities.",
+    "karmicLessons": "To embrace change and spiritual growth.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A desire to serve humanity and achieve spiritual understanding."
+  },
+  "genderDistribution": {
+    "male": 70,
+    "female": 30
+  },
+  "ranking": {
+    "current": 540,
+    "peak": 125,
+    "peakYear": 1948
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "context": "Philosophical wisdom on taking action."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Is-ra-el"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Israel",
+      "script": "Latin",
+      "scriptName": "Israel",
+      "pronunciation": "/iz.raˈel/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ισραήλ",
+      "script": "Greek",
+      "scriptName": "Ισραήλ",
+      "pronunciation": "/is.raˈil/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إسرائيل",
+      "script": "Arabic",
+      "scriptName": "إسرائيل",
+      "pronunciation": "/israːʔil/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "以色列",
+      "script": "Han",
+      "scriptName": "以色列",
+      "pronunciation": "/yǐsèliè/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Израиль",
+      "script": "Cyrillic",
+      "scriptName": "Израиль",
+      "pronunciation": "/izˈraʲɪlʲ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ישראל",
+      "script": "Hebrew",
+      "scriptName": "ישראל",
+      "pronunciation": "/jisʁaˈʔel/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Children of the Ghetto",
+      "author": "Israel Zangwill",
+      "publishedYear": 1892,
+      "genre": "Fiction",
+      "significance": "Explores Jewish life in London's East End.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "The name has roots in the Bible as the name given to Jacob."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "It has been in use for centuries due to its biblical origins."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name's historical and religious significance gives it a timeless quality."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Israel",
+      "artist": "Siouxsie and the Banshees",
+      "year": 1980,
+      "genre": "Post-punk",
+      "nameContext": "The song title and lyrics reference the name.",
+      "description": "The song 'Israel' by Siouxsie and the Banshees explores themes of identity and belonging, with a haunting melody typical of the post-punk era.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Siouxsie+and+the+Banshees+Israel",
+      "geniusUrl": "https://genius.com/search?q=Siouxsie%20and%20the%20Banshees%20Israel",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Israel carries a rich tapestry of historical, cultural, and spiritual significance. Rooted in biblical tradition, it refers to the patriarch Jacob, who was renamed Israel after wrestling with a divine being. This name has continued to resonate through the ages, symbolizing perseverance and faith.",
+    "etymology_meaning": "Israel originates from the Hebrew 'Yisra'el,' meaning 'God contends' or 'He struggles with God.' This reflects the story of Jacob's struggle and triumph, a central narrative in the Abrahamic religions.",
+    "famous_bearers": "Famous bearers of the name include Israel Zangwill, a notable Jewish writer, and Israel Houghton, an award-winning Christian musician. These individuals highlight the name's presence in both religious and cultural spheres.",
+    "pop_culture_moments": "The name Israel has appeared in various cultural contexts, from songs by Siouxsie and the Banshees to its representation in literature and film. Its dual identity as a personal name and a national one adds layers to its cultural resonance.",
+    "personality_profile": "People named Israel are often seen as strong, resilient, and deeply spiritual. Their name suggests a connection to a rich historical narrative and an inherent ability to overcome challenges.",
+    "variations_nicknames": "Variations of Israel include Yisrael and Izrael, while common nicknames are Izzy and Ray. These variations reflect the name's adaptability across cultures.",
+    "popularity_data": "Israel has maintained a consistent level of popularity, particularly among religious communities. It saw a peak in naming trends around the mid-20th century, coinciding with the establishment of the state of Israel.",
+    "pairing_suggestions": "Israel pairs well with names like David, Sarah, or Hannah, which share its biblical roots. These combinations create names rich in historical and cultural depth.",
+    "cultural_context": "As a name, Israel is steeped in cultural and religious significance. It is a symbol of identity for many and reflects a story of struggle, faith, and triumph.",
+    "final_recommendation": "Choosing the name Israel for a child can be a meaningful gesture, connecting them to a rich heritage and a legacy of resilience. It is a name that carries weight and history, making it a timeless choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

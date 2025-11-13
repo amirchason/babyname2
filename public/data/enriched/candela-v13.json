@@ -1,0 +1,213 @@
+{
+  "name": "Candela",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T04:59:07.492Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Candle or light",
+  "culturalSignificance": "Candela is primarily used in Spanish-speaking countries and is derived from the Latin word 'candela', meaning 'candle'. It has associations with light and illumination, often symbolizing guidance and hope.",
+  "modernContext": "In modern times, Candela is a popular name in Spain and Latin America. It has gained recognition through media and culture, appealing for its melodic sound and positive connotations.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/kanˈde.la/",
+  "variations": [
+    "Candelaria",
+    "Candida",
+    "Candida"
+  ],
+  "similarNames": [
+    "Lucia",
+    "Clara",
+    "Luz",
+    "Sofia",
+    "Isabella"
+  ],
+  "nicknames": [
+    "Cande",
+    "Dela",
+    "Candi"
+  ],
+  "personality": "People named Candela are often seen as radiant and warm, bringing light into the lives of those around them. They are considered friendly and optimistic.",
+  "symbolism": "Candela symbolizes light and clarity, often representing hope, purity, and the idea of lighting the way forward.",
+  "funFact": "Candela is also a unit of luminous intensity in the International System of Units (SI), reflecting its association with light.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Candela Peña",
+      "profession": "Actress",
+      "knownFor": [
+        "All About My Mother",
+        "Princesas"
+      ],
+      "awards": "Goya Award for Best Supporting Actress"
+    },
+    {
+      "name": "Candela Vetrano",
+      "profession": "Actress",
+      "knownFor": [
+        "Casi Ángeles",
+        "Graduados"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Candela",
+      "year": 2021,
+      "type": "Movie",
+      "characterName": "Candela",
+      "characterDescription": "A woman navigating complex personal and professional challenges.",
+      "imdbUrl": "https://www.imdb.com/title/tt13466018/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Yellow",
+      "hex": "#FFFF00"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Leo",
+      "Aries",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs that share a dynamic and energetic nature.",
+    "cosmicElement": "Light",
+    "cosmicElementDescription": "Represents clarity, vision, and enlightenment.",
+    "celestialArchetype": "The Illuminator",
+    "celestialArchetypeDescription": "Bringing light and understanding to dark places.",
+    "karmicLessons": "Learning to shine brightly without overshadowing others.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 320,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Light gives of itself freely, filling all available space.",
+    "author": "Terry Pratchett",
+    "context": "On the nature of light and generosity."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Can-de-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Candela",
+      "script": "Latin",
+      "scriptName": "Candela",
+      "pronunciation": "/kanˈde.la/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κανδέλα",
+      "script": "Greek",
+      "scriptName": "Κανδέλα",
+      "pronunciation": "/kanˈðe.la/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كانديلا",
+      "script": "Arabic",
+      "scriptName": "كانديلا",
+      "pronunciation": "/kanˈdi.la/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "坎德拉",
+      "script": "Han",
+      "scriptName": "坎德拉",
+      "pronunciation": "/kàn dé lā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кандела",
+      "script": "Cyrillic",
+      "scriptName": "Кандела",
+      "pronunciation": "/kanˈdʲɛ.la/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קנדלה",
+      "script": "Hebrew",
+      "scriptName": "קנדלה",
+      "pronunciation": "/kanˈde.la/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Widely used in contemporary Spanish-speaking cultures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Evokes imagery of light and illumination."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Derived from Latin, used consistently over time."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Candela is a name that shines brightly, evoking images of light and warmth. Derived from the Latin word for candle, it carries a sense of illumination and hope. Used predominantly in Spanish-speaking regions, it has a melodic and inviting sound.",
+    "etymology_meaning": "The name Candela originates from Latin, meaning 'candle' or 'light'. It symbolizes illumination, guiding paths, and offers a sense of clarity and vision.",
+    "famous_bearers": "Notable people named Candela include Candela Peña, a celebrated Spanish actress known for her award-winning performances, and Candela Vetrano, an Argentine actress recognized for her roles in popular television series.",
+    "pop_culture_moments": "Candela has appeared in various cultural contexts, including films and television shows, enhancing its popularity and modern appeal. Its use in media has contributed to its recognition beyond traditional settings.",
+    "personality_profile": "Those named Candela are often perceived as radiant and warm-hearted. They bring positivity and are known for their ability to illuminate the lives of those around them.",
+    "variations_nicknames": "Common variations include Candelaria and Candida, with nicknames like Cande and Dela. These variations add flexibility and personal touch to the name.",
+    "popularity_data": "Candela has maintained a steady presence in naming charts, particularly in Spain and Latin America. Its peak popularity occurred in the early 2010s, reflecting its modern charm.",
+    "pairing_suggestions": "Candela pairs well with names like Lucia and Clara, which also carry light-related meanings. Combined, they create harmonious and meaningful name sets.",
+    "cultural_context": "Rooted in Latin origins, Candela is a name of cultural depth, resonating with themes of light and clarity. It has adapted well across different cultures, retaining its core significance.",
+    "final_recommendation": "For parents seeking a name that embodies warmth and light, Candela is an excellent choice. Its rich cultural background and modern appeal make it a versatile and meaningful option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

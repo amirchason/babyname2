@@ -1,0 +1,251 @@
+{
+  "name": "Orlando",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:41:59.438Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Italian",
+  "meaning": "Famous throughout the land",
+  "culturalSignificance": "Orlando is the Italian form of the name Roland, a legendary Frankish knight and hero of the medieval epic 'The Song of Roland'. The name signifies bravery and heroism, and it has been used in various literary works over the centuries.",
+  "modernContext": "In modern times, Orlando remains a popular name, especially in English and Italian-speaking countries. It gained additional popularity due to the city of Orlando in Florida and various cultural references.",
+  "literaryReferences": "Orlando is a character in William Shakespeare's play 'As You Like It', where he is portrayed as a young, noble hero.",
+  "pronunciationGuide": "/ɔːrˈlændoʊ/",
+  "variations": [
+    "Roland",
+    "Rolando",
+    "Orland",
+    "Orlanda",
+    "Orlandus"
+  ],
+  "similarNames": [
+    "Roland",
+    "Lorenzo",
+    "Leonardo",
+    "Oliver",
+    "Alexander",
+    "Adrian"
+  ],
+  "nicknames": [
+    "Lando",
+    "Orly",
+    "Lando",
+    "Ollie"
+  ],
+  "personality": "People named Orlando are often perceived as adventurous and charismatic, with a strong sense of justice and a spirit of exploration.",
+  "symbolism": "The name symbolizes bravery, adventure, and a love for freedom, often associated with knights and noble heroes.",
+  "funFact": "Orlando is the name of the city in Florida known for its theme parks, including Walt Disney World, which significantly boosts its name recognition.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Roland",
+      "years": "Unknown",
+      "category": "Legendary Knight",
+      "achievements": [
+        "Hero of the Battle of Roncevaux Pass"
+      ],
+      "significance": "Roland is a legendary figure celebrated in the epic poem 'The Song of Roland', symbolizing the ideal of chivalry in medieval Europe.",
+      "notableWorks": [
+        "The Song of Roland"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Orlando Bloom",
+      "profession": "Actor",
+      "knownFor": [
+        "The Lord of the Rings",
+        "Pirates of the Caribbean"
+      ],
+      "awards": "Screen Actors Guild Award"
+    },
+    {
+      "name": "Orlando Jones",
+      "profession": "Actor",
+      "knownFor": [
+        "Mad TV",
+        "Drumline"
+      ],
+      "awards": "Black Reel Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "As You Like It",
+      "year": 2006,
+      "type": "Movie",
+      "characterName": "Orlando",
+      "characterDescription": "A young nobleman, the romantic lead who falls in love with Rosalind.",
+      "imdbUrl": "https://www.imdb.com/title/tt0450972/",
+      "genre": "Romance",
+      "verified": true,
+      "popularity": 70
+    },
+    {
+      "title": "Orlando",
+      "year": 1992,
+      "type": "Movie",
+      "characterName": "Orlando",
+      "characterDescription": "A nobleman who lives for centuries, changing gender along the way.",
+      "imdbUrl": "https://www.imdb.com/title/tt0107756/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Orange",
+      "hex": "#FFA500"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and achievement.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share the same fiery energy and adventurous spirit.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents passion, energy, and transformation.",
+    "celestialArchetype": "The Adventurer",
+    "celestialArchetypeDescription": "This archetype is characterized by a thirst for exploration and new experiences.",
+    "karmicLessons": "Learning to balance adventure with stability.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire to experience life to its fullest and embrace freedom."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 340,
+    "peak": 251,
+    "peakYear": 2006
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The whole world is a stage, and we are but players.",
+    "author": "William Shakespeare",
+    "context": "From the play 'As You Like It', featuring the character Orlando."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Or-lan-do"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Orlando",
+      "script": "Latin",
+      "scriptName": "Orlando",
+      "pronunciation": "/orˈlando/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ορλάντο",
+      "script": "Greek",
+      "scriptName": "Ορλάντο",
+      "pronunciation": "/orˈlando/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أورلاندو",
+      "script": "Arabic",
+      "scriptName": "أورلاندو",
+      "pronunciation": "/ʔorˈlando/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "奥兰多",
+      "script": "Han",
+      "scriptName": "奥兰多",
+      "pronunciation": "/ʔaʊˈlan doʊ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Орландо",
+      "script": "Cyrillic",
+      "scriptName": "Орландо",
+      "pronunciation": "/ɐrˈlandə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אורלנדו",
+      "script": "Hebrew",
+      "scriptName": "אורלנדו",
+      "pronunciation": "/orˈlando/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Orlando: A Biography",
+      "author": "Virginia Woolf",
+      "publishedYear": 1928,
+      "genre": "Fiction",
+      "significance": "A groundbreaking novel exploring themes of gender and identity.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical roots and literary references."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.95,
+      "reason": "Frequent use in classic literature, such as Shakespeare's works."
+    },
+    {
+      "tag": "Adventurous",
+      "confidence": 0.85,
+      "reason": "The name is associated with exploration and heroism."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Orlando is a name that evokes images of timeless literature and romantic knights. With roots in medieval epics and modern literature, it carries a sense of adventure and nobility.",
+    "etymology_meaning": "The name Orlando is of Italian origin, meaning 'famous throughout the land'. It is the Italian form of Roland, a name with deep historical and literary significance.",
+    "famous_bearers": "Orlando Bloom, the English actor known for his roles in 'The Lord of the Rings' and 'Pirates of the Caribbean', is one of the most notable bearers of this name.",
+    "pop_culture_moments": "The name Orlando has appeared in numerous cultural references, including Virginia Woolf's novel 'Orlando' and Shakespeare's 'As You Like It'.",
+    "personality_profile": "Orlando is often associated with individuals who are charismatic, adventurous, and have a strong sense of justice.",
+    "variations_nicknames": "Variations like Rolando and Orlandus, along with nicknames such as Lando and Orly, provide a range of options for those named Orlando.",
+    "popularity_data": "The name Orlando has maintained a steady popularity, peaking in the early 2000s. It is most common in English and Italian-speaking regions.",
+    "pairing_suggestions": "Orlando pairs well with names like Isabella, Sophia, and Lucas, complementing its romantic and adventurous nature.",
+    "cultural_context": "Orlando's cultural background is rich with references to literature and history, making it a name that carries both charm and depth.",
+    "final_recommendation": "Choosing the name Orlando brings a sense of history and adventure. It is a perfect choice for parents seeking a name with literary and historical resonance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

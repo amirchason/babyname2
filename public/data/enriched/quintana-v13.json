@@ -1,0 +1,216 @@
+{
+  "name": "Quintana",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:32:25.939Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Fifth",
+  "culturalSignificance": "Quintana is traditionally a surname of Spanish origin, derived from the Latin root 'quintus,' meaning 'fifth.' It often referred to a fifth-born child or someone from a place associated with the number five. The name is prevalent in Hispanic cultures and has been carried over to other regions through migration.",
+  "modernContext": "In modern times, Quintana is used as both a first name and a surname. It holds a unique place in naming trends, often chosen for its melodic sound and cultural heritage. The name is not overly common, giving it a distinctiveness that appeals to parents seeking a name with cultural depth.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/kwɪnˈtɑːnə/",
+  "variations": [
+    "Quinton",
+    "Quintin",
+    "Quinta",
+    "Quenton",
+    "Quint"
+  ],
+  "similarNames": [
+    "Quincy",
+    "Quinn",
+    "Quinlan",
+    "Quintella",
+    "Quintus"
+  ],
+  "nicknames": [
+    "Quin",
+    "Tana",
+    "Quinta"
+  ],
+  "personality": "Individuals named Quintana are often perceived as creative and thoughtful, with a strong sense of individuality. They tend to be drawn to artistic pursuits and value their cultural heritage.",
+  "symbolism": "The name Quintana symbolizes a connection to family and heritage, often associated with the number five, which can represent balance and harmony.",
+  "funFact": "The name Quintana was popularized in the United States partly due to Joan Didion's daughter, Quintana Roo Dunne, who was named after the Mexican state of Quintana Roo.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Quintana Roo Dunne",
+      "profession": "Writer",
+      "knownFor": [
+        "Daughter of Joan Didion",
+        "Inspiration for Didion's work"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Panic in Needle Park",
+      "year": 1971,
+      "type": "Movie",
+      "characterName": "Helen Quintana",
+      "characterDescription": "A minor character in a gritty New York City drama",
+      "imdbUrl": "https://www.imdb.com/title/tt0067549/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Olive Green",
+      "hex": "#808000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and planning new beginnings.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents grounding, stability, and growth.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Symbolizes construction, practicality, and creating lasting foundations.",
+    "karmicLessons": "To embrace change and cultivate patience.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 600,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The essence of a name is not in the letters but in the legacy it carries.",
+    "author": "Quintana Roo Dunne",
+    "context": "Reflection on the significance of names in personal identity."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Quin-ta-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Quintana",
+      "script": "Latin",
+      "scriptName": "Quintana",
+      "pronunciation": "/kinˈtana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κουιντάνα",
+      "script": "Greek",
+      "scriptName": "Κουιντάνα",
+      "pronunciation": "/kuinˈtana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كوينتانا",
+      "script": "Arabic",
+      "scriptName": "كوينتانا",
+      "pronunciation": "/kuːintaːna/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "昆塔纳",
+      "script": "Han",
+      "scriptName": "昆塔纳",
+      "pronunciation": "/kūn tǎ nà/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кинтана",
+      "script": "Cyrillic",
+      "scriptName": "Кинтана",
+      "pronunciation": "/kʲɪnˈtanə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קווינטנה",
+      "script": "Hebrew",
+      "scriptName": "קווינטנה",
+      "pronunciation": "/kwinˈtana/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Blue Nights",
+      "author": "Joan Didion",
+      "publishedYear": 2011,
+      "genre": "Memoir",
+      "significance": "A memoir reflecting on the life and loss of Didion's daughter, Quintana Roo Dunne.",
+      "nameRole": "subject",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name Quintana has historical roots and a timeless quality."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Due to its association with Joan Didion's works."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.9,
+      "reason": "Strong ties to Hispanic culture and heritage."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Quintana is a name that resonates with cultural history and a touch of literary charm. Often associated with the fifth-born or a significant place, it offers a unique identity for those who carry it.",
+    "etymology_meaning": "Derived from the Latin 'quintus,' meaning 'fifth,' Quintana has its roots in Roman times. It evolved through the ages, particularly within Spanish-speaking cultures.",
+    "famous_bearers": "Quintana Roo Dunne, daughter of acclaimed writer Joan Didion, brought a modern literary association to the name, spotlighting its cultural significance.",
+    "pop_culture_moments": "The name gained attention in the literary world through references in Didion's 'Blue Nights,' a poignant memoir exploring themes of loss and memory.",
+    "personality_profile": "Quintana often suggests creativity and a deep appreciation for personal and cultural heritage, appealing to those who value individuality.",
+    "variations_nicknames": "Variations like Quinta and Quinton offer flexibility, while nicknames such as Quin and Tana bring a personal touch.",
+    "popularity_data": "While never a top-ranking name, Quintana maintains a steady presence, appreciated for its distinctive sound and historical roots.",
+    "pairing_suggestions": "Quintana pairs well with names like Santiago for boys or Isabella for girls, offering a harmonious cultural blend.",
+    "cultural_context": "Deeply rooted in Hispanic culture, Quintana is more than a name; it's a nod to a rich heritage and an embracing of familial ties.",
+    "final_recommendation": "Choosing Quintana means embracing a name with a story, a name that stands out while honoring its cultural past.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

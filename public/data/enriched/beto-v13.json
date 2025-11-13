@@ -1,0 +1,227 @@
+{
+  "name": "Beto",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:49:32.560Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Spanish",
+  "meaning": "Noble, bright",
+  "culturalSignificance": "Beto is a common diminutive form of names ending in '-berto' such as Alberto or Roberto, in Spanish-speaking countries. It has been popular in Latin America due to its friendly and approachable sound.",
+  "modernContext": "In contemporary times, Beto has gained recognition in the political sphere, notably with figures like Beto O'Rourke in the United States. It's a familiar and affectionate name often used informally.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈbe.to",
+  "variations": [
+    "Alberto",
+    "Roberto",
+    "Heriberto",
+    "Gilberto"
+  ],
+  "similarNames": [
+    "Roberto",
+    "Hector",
+    "Bruno",
+    "Benito",
+    "Bernardo"
+  ],
+  "nicknames": [
+    "Bert",
+    "Bet",
+    "Bett",
+    "Be"
+  ],
+  "personality": "People named Beto are often seen as charismatic and approachable, possessing a natural ability to connect with others.",
+  "symbolism": "The name Beto symbolizes friendliness and nobility, reflecting its roots in names that mean 'bright' or 'noble'.",
+  "funFact": "Beto O'Rourke, a notable American politician, helped bring the name into the spotlight during his 2018 Senate campaign.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Beto O'Rourke",
+      "profession": "Politician",
+      "knownFor": [
+        "2018 Texas Senate race",
+        "2020 Presidential campaign"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Beto Cuevas",
+      "profession": "Musician",
+      "knownFor": [
+        "La Ley",
+        "Solo career"
+      ],
+      "awards": "Grammy Awards with La Ley"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Beto da Silva",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "",
+      "team": "Alianza Lima",
+      "pastTeams": [
+        "PSV Eindhoven",
+        "Gremio"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "7",
+      "years": "2016-Present",
+      "achievements": "",
+      "knownFor": [
+        "Speed",
+        "Agility"
+      ],
+      "awards": "",
+      "stats": "",
+      "verified": true,
+      "source": "Reliable sports sources"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for decision-making and action.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share Air elements, promoting communication and understanding.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents communication and intellect.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for eloquence and charisma.",
+    "karmicLessons": "Learn to balance between speaking and listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express oneself and connect with others."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 400,
+    "peak": 200,
+    "peakYear": 2018
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Beto O'Rourke",
+    "context": "Motivational message during a speech."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Be-to"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Beto",
+      "script": "Latin",
+      "scriptName": "Beto",
+      "pronunciation": "ˈbe.to",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπέτο",
+      "script": "Greek",
+      "scriptName": "Μπέτο",
+      "pronunciation": "ˈbeto",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بيتو",
+      "script": "Arabic",
+      "scriptName": "بيتو",
+      "pronunciation": "ˈbe.to",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "贝托",
+      "script": "Han",
+      "scriptName": "贝托",
+      "pronunciation": "bèi tuō",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Бето",
+      "script": "Cyrillic",
+      "scriptName": "Бето",
+      "pronunciation": "ˈbʲetə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בטו",
+      "script": "Hebrew",
+      "scriptName": "בטו",
+      "pronunciation": "ˈbe.to",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Beto is often associated with contemporary figures and has modern usage."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.85,
+      "reason": "The name is often used in informal, affectionate contexts."
+    },
+    {
+      "tag": "Latin",
+      "confidence": 0.95,
+      "reason": "Beto is predominantly used in Latin American cultures."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Beto is a name that exudes charm and familiarity, making it a cherished choice in many Spanish-speaking regions. Its friendly tone and approachable nature have helped it cross cultural boundaries.",
+    "etymology_meaning": "Beto is a diminutive form of names like Alberto and Roberto, with origins in Spanish-speaking countries. It carries the meanings of 'noble' and 'bright,' reflecting its etymological roots.",
+    "famous_bearers": "Notable individuals named Beto include Beto O'Rourke, a prominent American politician, and Beto Cuevas, a celebrated musician from the band La Ley.",
+    "pop_culture_moments": "Beto gained widespread recognition during Beto O'Rourke's political campaigns, where his charismatic presence captured national attention.",
+    "personality_profile": "People named Beto are often seen as sociable and engaging, possessing a natural gift for communication and connection.",
+    "variations_nicknames": "Variations of Beto include Alberto and Roberto, while common nicknames are Bert and Bet.",
+    "popularity_data": "The name Beto has seen fluctuating popularity, peaking in 2018 during Beto O'Rourke's Senate run, highlighting its modern relevance.",
+    "pairing_suggestions": "Beto pairs well with names like Maria and Sofia for siblings, complementing its melodic and friendly nature.",
+    "cultural_context": "Beto holds cultural significance in Latin America, where it is often used as an affectionate nickname for longer names.",
+    "final_recommendation": "Beto is a versatile and charming name choice, ideal for parents seeking a name with cultural depth and modern appeal.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

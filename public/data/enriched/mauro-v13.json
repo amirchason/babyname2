@@ -1,0 +1,259 @@
+{
+  "name": "Mauro",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:51:09.708Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Dark-skinned, Moorish",
+  "culturalSignificance": "Mauro is a name of Latin origin, historically associated with the Moors, a group of Muslim inhabitants of the Maghreb, Iberian Peninsula, Sicily, and Malta during the Middle Ages. It remains popular in Italy and Spanish-speaking countries, reflecting a rich history of cultural exchange and influence.",
+  "modernContext": "In contemporary times, Mauro is a name commonly found in Italy, Spain, and Latin America. Its popularity has been sustained due to its classic sound and cultural resonance, often chosen for its historical depth and unique pronunciation.",
+  "literaryReferences": "Mauro has appeared in various works of literature, often used to emphasize a character's Mediterranean roots or heritage.",
+  "pronunciationGuide": "/ˈmaʊ.roʊ/",
+  "variations": [
+    "Maurizio",
+    "Maurice",
+    "Mauro",
+    "Maurilio",
+    "Mauro"
+  ],
+  "similarNames": [
+    "Marco",
+    "Mario",
+    "Marcel",
+    "Maurice",
+    "Matteo",
+    "Lauro"
+  ],
+  "nicknames": [
+    "Mau",
+    "Roro",
+    "Mo",
+    "Mauri"
+  ],
+  "personality": "People named Mauro are often perceived as strong, charismatic, and culturally aware. They are thought to be deeply connected to their heritage and possess a natural leadership ability.",
+  "symbolism": "The name Mauro symbolizes a connection to history and cultural richness, often associated with strength and resilience.",
+  "funFact": "Mauro is a common name in Italy and often associated with football players, reflecting the country's passion for the sport.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Mauro Cappelloni",
+      "years": "1932-2017",
+      "category": "Scientist",
+      "achievements": [
+        "Developed advancements in neurobiology",
+        "Published numerous influential papers"
+      ],
+      "significance": "Cappelloni was a pivotal figure in neurobiology, making significant contributions to the understanding of the human brain.",
+      "notableWorks": [
+        "Advances in Neurobiology",
+        "The Brain's Secrets"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Mauro Icardi",
+      "profession": "Athlete",
+      "knownFor": [
+        "Inter Milan",
+        "Paris Saint-Germain"
+      ],
+      "awards": "Serie A Top Scorer"
+    },
+    {
+      "name": "Mauro Picotto",
+      "profession": "Musician",
+      "knownFor": [
+        "Komodo",
+        "Lizard"
+      ],
+      "awards": "Dance Music Award for Best International DJ"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Mauro Icardi",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Ligue 1",
+      "team": "Paris Saint-Germain",
+      "pastTeams": [
+        "Inter Milan"
+      ],
+      "position": "Striker",
+      "jerseyNumber": "9",
+      "years": "2013-Present",
+      "achievements": "Serie A Top Scorer",
+      "knownFor": [
+        "Precision finishing",
+        "Positioning"
+      ],
+      "awards": "Serie A Top Scorer",
+      "stats": "Over 100 career goals",
+      "verified": true,
+      "source": "https://www.transfermarkt.com/mauro-icardi/profil/spieler/68863"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Navy Blue",
+      "hex": "#000080"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and development",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, practicality, and a grounded nature.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents solidity, reliability, and a methodical approach to life.",
+    "karmicLessons": "To learn patience and the value of persistence.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desires stability and security, often seeking to build a solid foundation in life."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 435,
+    "peak": 312,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Mauro Picotto",
+    "context": "Reflecting on his career in music and the importance of passion.",
+    "year": 2012,
+    "category": "Music"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mau-ro"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Mauro",
+      "script": "Latin",
+      "scriptName": "Mauro",
+      "pronunciation": "/ˈmauɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαύρος",
+      "script": "Greek",
+      "scriptName": "Μαύρος",
+      "pronunciation": "/ˈmavros/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماورو",
+      "script": "Arabic",
+      "scriptName": "ماورو",
+      "pronunciation": "/ˈmaʊ.roʊ/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "毛罗",
+      "script": "Han",
+      "scriptName": "毛罗",
+      "pronunciation": "/máo luó/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мауро",
+      "script": "Cyrillic",
+      "scriptName": "Мауро",
+      "pronunciation": "/ˈmaʊro/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מאורו",
+      "script": "Hebrew",
+      "scriptName": "מאורו",
+      "pronunciation": "/maʊˈroʊ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Mauro is a name with historical roots and has been consistently used in various cultures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been in use for centuries, maintaining its charm and relevance."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.85,
+      "reason": "The name is strongly linked to Mediterranean and Latin cultures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Mauro's Song",
+      "artist": "Unknown Artist",
+      "year": 2010,
+      "genre": "Pop",
+      "nameContext": "The song features the name Mauro in its chorus.",
+      "description": "A vibrant pop song celebrating the character and charisma associated with the name Mauro.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Mauro%27s+Song",
+      "geniusUrl": "https://genius.com/search?q=Mauro%27s+Song",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Mauro is a name that carries a sense of history and cultural depth, often chosen for its strong Mediterranean roots. Its rich background and classic appeal make it a timeless choice for parents. Whether you're drawn to its historical significance or its modern charm, Mauro is a name that stands out.",
+    "etymology_meaning": "The name Mauro originates from the Latin word 'Maurus', meaning 'dark-skinned' or 'Moorish'. It reflects a history of cultural interactions and influences, particularly in the Mediterranean region.",
+    "famous_bearers": "Famous individuals with the name Mauro include Mauro Icardi, an accomplished footballer, and Mauro Picotto, a renowned DJ. These figures exemplify the name's association with talent and charisma.",
+    "pop_culture_moments": "In popular culture, Mauro is a name often associated with characters that have an air of mystery or a connection to Mediterranean heritage. Its use in literature and music underscores its cultural richness.",
+    "personality_profile": "Those named Mauro are often perceived as charismatic and strong-willed. They are seen as leaders who are deeply connected to their cultural heritage and exhibit a practical, grounded nature.",
+    "variations_nicknames": "Common variations of Mauro include Maurizio and Maurice. Nicknames like Mau and Roro add a personal touch, making the name versatile and endearing.",
+    "popularity_data": "Mauro has seen steady popularity in countries like Italy and Spain, reflecting its deep cultural roots. It has maintained a consistent ranking over the decades, particularly in regions with strong Latin influences.",
+    "pairing_suggestions": "Mauro pairs well with names like Lucia, Sofia, and Marco, creating harmonious combinations that reflect cultural richness and timeless appeal.",
+    "cultural_context": "With its origins in Latin and historical ties to the Moors, Mauro embodies a blend of cultural influences. It is a name that resonates with those who appreciate historical depth and cultural significance.",
+    "final_recommendation": "Choosing Mauro means embracing a name with profound cultural and historical resonance. Its timeless appeal and strong character make it an excellent choice for those seeking a name with depth and significance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

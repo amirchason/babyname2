@@ -1,0 +1,231 @@
+{
+  "name": "Aurelio",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:58:44.432Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Golden, gilded",
+  "culturalSignificance": "Aurelio is a name of Latin origin, historically associated with nobility and the Roman Empire. The name carries connotations of brightness and grandeur, often linked to the image of gold due to its Latin roots.",
+  "modernContext": "In modern times, Aurelio is used across various cultures, particularly in Spanish and Italian-speaking countries. It maintains a classic appeal and is occasionally seen in artistic and intellectual circles.",
+  "literaryReferences": "Aurelio is a name that appears in various literary works, typically symbolizing noble or wise characters.",
+  "pronunciationGuide": "/ɔːˈreɪlioʊ/",
+  "variations": [
+    "Aurel",
+    "Aurelian",
+    "Aurelius",
+    "Aurele",
+    "Aureliano"
+  ],
+  "similarNames": [
+    "Aurelian",
+    "Aurelius",
+    "Aurora",
+    "Aurelia",
+    "Adrian",
+    "Antonio"
+  ],
+  "nicknames": [
+    "Ari",
+    "Lio",
+    "Relo",
+    "Aure",
+    "Leo"
+  ],
+  "personality": "Aurelio is often associated with traits of wisdom, charisma, and leadership. People with this name might be seen as radiant and influential.",
+  "symbolism": "The name symbolizes radiance and brilliance, much like the metal gold it is associated with.",
+  "funFact": "Aurelio is a name that was borne by several early Christian saints, enhancing its historical and cultural resonance.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Aurelio Zenon",
+      "years": "1878-1958",
+      "category": "Politician",
+      "achievements": [
+        "Prominent Italian statesman",
+        "Influential in post-war policies"
+      ],
+      "significance": "Aurelio Zenon played a crucial role in Italy's political reconstruction after World War II.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Aurelio Peccei",
+      "years": "1908-1984",
+      "category": "Economist",
+      "achievements": [
+        "Founder of the Club of Rome",
+        "Advocate for sustainable development"
+      ],
+      "significance": "Peccei was instrumental in bringing attention to global sustainability and environmental issues.",
+      "notableWorks": [
+        "The Limits to Growth"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Aurelio De Laurentiis",
+      "profession": "Film Producer",
+      "knownFor": [
+        "President of Napoli Football Club",
+        "Produced numerous Italian films"
+      ],
+      "awards": "David di Donatello Awards"
+    },
+    {
+      "name": "Aurelio Monteagudo",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "Played in Major League Baseball",
+        "Noted for his pitching skills"
+      ],
+      "awards": "None"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A phase associated with completion and fruition.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius",
+      "Aries"
+    ],
+    "compatibleSignsDescription": "These fire signs share a dynamic and vibrant energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents passion, energy, and transformation.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "This archetype embodies charisma and the ability to inspire others.",
+    "karmicLessons": "To embrace leadership and creativity.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A drive for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 400,
+    "peakYear": 1925
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The golden glow of a name can light up the path ahead.",
+    "author": "Anonymous",
+    "context": "A reflection on the name Aurelio's meaning."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "Au-re-li-o"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Aurelio",
+      "script": "Latin",
+      "scriptName": "Aurelio",
+      "pronunciation": "/auˈɾeljo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αυρηλιος",
+      "script": "Greek",
+      "scriptName": "Αυρηλιος",
+      "pronunciation": "/avˈreljos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أوريليو",
+      "script": "Arabic",
+      "scriptName": "أوريليو",
+      "pronunciation": "/ʔuːˈreːljo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "奥雷利奥",
+      "script": "Han",
+      "scriptName": "奥雷利奥",
+      "pronunciation": "/ào lèi lì ōu/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Аурелио",
+      "script": "Cyrillic",
+      "scriptName": "Аурелио",
+      "pronunciation": "/aʊˈrelʲɪo/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אורליו",
+      "script": "Hebrew",
+      "scriptName": "אורליו",
+      "pronunciation": "/oʁeˈlio/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Aurelio has been in use since ancient Roman times."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "The name's association with nobility and grandeur."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Its continued use across centuries and cultures."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Aurelio evokes a sense of grandeur and timelessness, drawing from its Latin roots meaning 'golden'. Its classic appeal has made it a favorite in various cultures, especially in Italian and Spanish-speaking regions.",
+    "etymology_meaning": "Derived from the Latin 'Aurelius', Aurelio means 'golden' or 'gilded'. This name carries a rich history linked to nobility and the Roman Empire.",
+    "famous_bearers": "Notable figures with the name include Aurelio Peccei, a pioneer in environmental advocacy, and Aurelio De Laurentiis, a well-known film producer and sports executive.",
+    "pop_culture_moments": "Though not heavily featured in popular media, Aurelio's classical sound and meaning have given it a subtle presence in literary and historical contexts.",
+    "personality_profile": "Those named Aurelio are often perceived as charismatic leaders with a radiant personality. They exude confidence and a natural ability to inspire others.",
+    "variations_nicknames": "Variations of the name include Aurelian and Aurelius, with common nicknames being Ari, Lio, and Relo.",
+    "popularity_data": "While not at the peak of its popularity, Aurelio maintains a steady presence in naming charts, particularly in regions with Latin linguistic roots.",
+    "pairing_suggestions": "Aurelio pairs well with names like Aurora or Aurelia for siblings, offering a harmonious and elegant sound.",
+    "cultural_context": "Aurelio's cultural background is steeped in Roman history, where it was commonly used among the aristocracy, contributing to its noble aura.",
+    "final_recommendation": "If you're seeking a name that embodies elegance, history, and a touch of timelessness, Aurelio is a stellar choice. Its golden connotations make it a radiant option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

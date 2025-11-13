@@ -1,0 +1,241 @@
+{
+  "name": "Lorraine",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:46:52.787Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "From Lorraine, a region in France",
+  "culturalSignificance": "Lorraine is a name derived from a region in northeastern France, historically significant due to its strategic location and cultural heritage. It has been a point of contention in European history, particularly between France and Germany.",
+  "modernContext": "In modern usage, Lorraine is considered a classic and somewhat vintage name, experiencing moderate popularity. It is often associated with elegance and sophistication, reflecting its French origins.",
+  "literaryReferences": "Lorraine has appeared in various literary works, often used to evoke a sense of French heritage or classical elegance.",
+  "pronunciationGuide": "lɔːˈreɪn",
+  "variations": [
+    "Loraine",
+    "Lorena",
+    "Lorene",
+    "Laurine"
+  ],
+  "similarNames": [
+    "Laura",
+    "Lauren",
+    "Lorna",
+    "Loretta",
+    "Florence"
+  ],
+  "nicknames": [
+    "Lori",
+    "Lora",
+    "Raine",
+    "Rainey"
+  ],
+  "personality": "Lorraine is often associated with a sophisticated and cultured personality, often seen as elegant and refined.",
+  "symbolism": "The name Lorraine symbolizes cultural richness and historical depth due to its association with the French region.",
+  "funFact": "The region of Lorraine is famous for its quiche, a savory pie that has become popular worldwide.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Lorraine Hansberry",
+      "years": "1930-1965",
+      "category": "Playwright",
+      "achievements": [
+        "First African-American woman to have a play performed on Broadway"
+      ],
+      "significance": "Hansberry is best known for her play 'A Raisin in the Sun', which highlights African-American culture and struggles.",
+      "notableWorks": [
+        "A Raisin in the Sun"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Lorraine Bracco",
+      "profession": "Actor",
+      "knownFor": [
+        "Goodfellas",
+        "The Sopranos"
+      ],
+      "awards": "Emmy Award nominations for her role in 'The Sopranos'"
+    },
+    {
+      "name": "Lorraine Kelly",
+      "profession": "Television Presenter",
+      "knownFor": [
+        "Lorraine (TV show)"
+      ],
+      "awards": "Officer of the Order of the British Empire (OBE)"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "type": "Movie",
+      "characterName": "Lorraine Baines",
+      "characterDescription": "Marty McFly's mother who is central to the plot's time-travel dynamics.",
+      "imdbUrl": "https://www.imdb.com/title/tt0088763/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Grounded and practical, complementing Lorraine's earthy nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and reliability.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Focuses on nurturing and restoring balance.",
+    "karmicLessons": "Learning to embrace change and adaptability.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to nurture and create a harmonious environment."
+  },
+  "genderDistribution": {
+    "male": 1,
+    "female": 99
+  },
+  "ranking": {
+    "current": 423,
+    "peak": 50,
+    "peakYear": 1947
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The region of Lorraine is a testament to resilience and cultural fusion.",
+    "author": "Alex Rivers",
+    "context": "Discussing the cultural significance of the Lorraine region."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Lor-raine"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Lorena",
+      "script": "Latin",
+      "scriptName": "Lorena",
+      "pronunciation": "loˈɾena",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Λορέν",
+      "script": "Greek",
+      "scriptName": "Λορέν",
+      "pronunciation": "loˈren",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "لورين",
+      "script": "Arabic",
+      "scriptName": "لورين",
+      "pronunciation": "luːˈreːn",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "洛林",
+      "script": "Han",
+      "scriptName": "洛林",
+      "pronunciation": "Luòlín",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Лоррейн",
+      "script": "Cyrillic",
+      "scriptName": "Лоррейн",
+      "pronunciation": "loˈrejɪn",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "לוריין",
+      "script": "Hebrew",
+      "scriptName": "לוריין",
+      "pronunciation": "loˈreɪn",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Lorraine has been used for generations, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name appears in literary contexts often, suggesting a cultured background."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Lorraine has remained a recognizable name over decades, transcending trends."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Sweet Lorraine",
+      "artist": "Nat King Cole",
+      "year": 1940,
+      "genre": "Jazz",
+      "nameContext": "The song is an ode to a woman named Lorraine.",
+      "description": "A classic jazz standard that praises the beauty and charm of Lorraine.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sweet+Lorraine+Nat+King+Cole",
+      "geniusUrl": "https://genius.com/Nat-king-cole-sweet-lorraine-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Lorraine is a name that evokes the rich cultural tapestry of France, offering a sense of elegance and timeless appeal. With its origins in a historically significant region, this name carries a weight of heritage and sophistication.",
+    "etymology_meaning": "Derived from the Latin 'Lotharingia', Lorraine originally referred to a region in France, symbolizing a place of cultural and historical confluence.",
+    "famous_bearers": "Notable individuals such as Lorraine Hansberry and Lorraine Bracco have carried the name, contributing to arts and entertainment.",
+    "pop_culture_moments": "In pop culture, Lorraine Baines from 'Back to the Future' remains a memorable character, adding to the name's cinematic legacy.",
+    "personality_profile": "Lorraine is often seen as a name for those who are cultured and refined, with a strong sense of tradition and elegance.",
+    "variations_nicknames": "Variations like Loraine and Lorena offer slight twists, while nicknames such as Lori and Raine provide friendly alternatives.",
+    "popularity_data": "Peaking in popularity in the mid-20th century, Lorraine remains a classic choice with a steady presence.",
+    "pairing_suggestions": "Lorraine pairs well with other classic names like William or Elizabeth, offering a harmonious balance.",
+    "cultural_context": "With its roots in French culture, Lorraine is a name that carries an air of sophistication and historical depth.",
+    "final_recommendation": "For those seeking a name with elegance and historical significance, Lorraine offers a perfect blend of classic style and cultural richness.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

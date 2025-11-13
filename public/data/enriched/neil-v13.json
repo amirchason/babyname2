@@ -1,0 +1,245 @@
+{
+  "name": "Neil",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:00:21.185Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Gaelic",
+  "meaning": "Champion",
+  "culturalSignificance": "Neil is a name with roots in Gaelic culture, derived from the word 'Niall,' which means 'champion' or 'cloud.' It has been used in various forms across Celtic cultures and became popular in English-speaking countries, especially after the 12th century.",
+  "modernContext": "In modern times, Neil is a well-recognized name, partly due to famous bearers such as Neil Armstrong, the first man to walk on the moon. It remains a moderately popular name in English-speaking countries.",
+  "literaryReferences": "",
+  "pronunciationGuide": "niːl",
+  "variations": [
+    "Neal",
+    "Niall",
+    "Neale",
+    "Nigel"
+  ],
+  "similarNames": [
+    "Nathan",
+    "Noel",
+    "Nolan",
+    "Niles"
+  ],
+  "nicknames": [
+    "Ne",
+    "Nei",
+    "Nelly"
+  ],
+  "personality": "People named Neil are often perceived as strong and reliable. They are seen as leaders and champions, with a sense of determination and resilience.",
+  "symbolism": "The name Neil symbolizes strength and victory, drawing from its Gaelic roots meaning 'champion.'",
+  "funFact": "Neil Armstrong, the first person to walk on the moon, famously said, 'That's one small step for man, one giant leap for mankind.'",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Neil Armstrong",
+      "years": "1930-2012",
+      "category": "Astronaut",
+      "achievements": [
+        "First human to walk on the moon"
+      ],
+      "significance": "Neil Armstrong is celebrated for his role as the commander of Apollo 11, the first manned lunar landing mission.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "That's one small step for man, one giant leap for mankind.",
+      "author": "Neil Armstrong",
+      "context": "Said during the Apollo 11 moon landing",
+      "year": 1969,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Neil Gaiman",
+      "profession": "Author",
+      "knownFor": [
+        "Coraline",
+        "American Gods"
+      ],
+      "awards": "Hugo Award, Nebula Award"
+    },
+    {
+      "name": "Neil Patrick Harris",
+      "profession": "Actor",
+      "knownFor": [
+        "How I Met Your Mother",
+        "Doogie Howser, M.D."
+      ],
+      "awards": "Emmy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Young Ones",
+      "year": 1982,
+      "type": "TV Show",
+      "characterName": "Neil",
+      "characterDescription": "A hippie and the most calm member of the household.",
+      "imdbUrl": "https://www.imdb.com/title/tt0083505/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "These signs share an intellectual and communicative nature.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect and communication.",
+    "celestialArchetype": "The Thinker",
+    "celestialArchetypeDescription": "Associated with intellect and problem-solving.",
+    "karmicLessons": "Embrace change and adapt to new ideas.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Craving knowledge and seeking truth."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 200,
+    "peak": 130,
+    "peakYear": 1969
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "context": "Encouraging passion in one's career."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Neil"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Neil",
+      "script": "Latin",
+      "scriptName": "Neil",
+      "pronunciation": "niːl",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Νιλ",
+      "script": "Greek",
+      "scriptName": "Νιλ",
+      "pronunciation": "nil",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "نيل",
+      "script": "Arabic",
+      "scriptName": "نيل",
+      "pronunciation": "niːl",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "尼尔",
+      "script": "Han",
+      "scriptName": "尼尔",
+      "pronunciation": "ní ěr",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Нил",
+      "script": "Cyrillic",
+      "scriptName": "Нил",
+      "pronunciation": "nil",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ניל",
+      "script": "Hebrew",
+      "scriptName": "ניל",
+      "pronunciation": "niːl",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Neil has been a consistently used name across generations, maintaining its classic appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name's simplicity and historical significance make it timeless."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with prominent authors like Neil Gaiman."
+    }
+  ],
+  "songs": [
+    {
+      "title": "The Ballad of Neil",
+      "artist": "The Boy Least Likely To",
+      "year": 2005,
+      "genre": "Indie Pop",
+      "nameContext": "Title and lyrics",
+      "description": "A whimsical and quirky song that captures the essence of youthful innocence and dreaminess.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=The+Ballad+of+Neil+The+Boy+Least+Likely+To",
+      "geniusUrl": "https://genius.com/search?q=The+Ballad+of+Neil",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Neil is a name that carries a rich history and a sense of achievement. With roots in Gaelic culture, it embodies the spirit of a champion. The name has traveled through time, gathering a legacy of strength and resilience.",
+    "etymology_meaning": "Derived from the Gaelic name Niall, Neil means 'champion.' This etymology highlights the name's origins in Celtic culture, where it was popularized by chieftains and warriors.",
+    "famous_bearers": "Among the most famous Neils is Neil Armstrong, the first man to set foot on the moon, symbolizing exploration and courage. Neil Gaiman, a celebrated author, has contributed significantly to literature with his imaginative works.",
+    "pop_culture_moments": "Neil has made appearances in various forms of media, notably in 'The Young Ones,' a British comedy series where a character named Neil adds a touch of humor and depth.",
+    "personality_profile": "Names shape perceptions, and Neil is often associated with qualities such as leadership, reliability, and a pioneering spirit. Those named Neil are seen as thinkers and achievers.",
+    "variations_nicknames": "Variations like Neal and Niall offer unique spins on the classic name, while nicknames such as Ne and Nelly provide a personal touch.",
+    "popularity_data": "Neil has remained a steady choice for parents, peaking in popularity in the late 1960s, coinciding with the Apollo 11 mission.",
+    "pairing_suggestions": "Neil pairs well with classic names such as James or Elizabeth, offering a balance of tradition and simplicity.",
+    "cultural_context": "The name's Gaelic origins tie it to a rich cultural heritage, one that values courage and leadership.",
+    "final_recommendation": "For parents seeking a name with historical depth and modern appeal, Neil is an excellent choice. Its associations with strength and intellect make it timeless.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

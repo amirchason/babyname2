@@ -1,0 +1,227 @@
+{
+  "name": "Jhonny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:58:44.432Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Jhonny is a variant of the name Johnny, itself a diminutive form of John. The name John has been widely used across cultures and epochs, notably in religious and historical contexts. It's associated with numerous saints and important historical figures, adding a timeless quality to its charm.",
+  "modernContext": "In modern times, Jhonny is seen as a playful and unique twist on the classic name Johnny. While not as common as its traditional spelling, it offers an alternative for parents seeking individuality, and it carries a friendly and approachable vibe.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/ˈdʒɒni/",
+  "variations": [
+    "Johnny",
+    "Johnnie",
+    "Jonny",
+    "Jonnie",
+    "Joni"
+  ],
+  "similarNames": [
+    "Jack",
+    "James",
+    "Jordan",
+    "Jacob",
+    "Jason",
+    "Jared"
+  ],
+  "nicknames": [
+    "Jay",
+    "Jon",
+    "Jo",
+    "Nino",
+    "Onny"
+  ],
+  "personality": "People with the name Jhonny are often perceived as charming and sociable, exuding an energy that attracts friends and opportunities. They are seen as creative and adaptable, thriving in dynamic environments.",
+  "symbolism": "The name Jhonny symbolizes grace and favor, rooted in its Hebrew origins. It conveys a sense of kindness and benevolence.",
+  "funFact": "The spelling 'Jhonny' is often used in Latin American countries, offering a cultural twist on the more common 'Johnny'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jhonny Peralta",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "Major League Baseball career",
+        "All-Star appearances"
+      ],
+      "awards": "3× MLB All-Star"
+    },
+    {
+      "name": "Jhonny Rivera",
+      "profession": "Singer",
+      "knownFor": [
+        "Popular Latin music",
+        "Hits in the Colombian music scene"
+      ],
+      "awards": "Nominated for major Latin music awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jhonny González",
+      "profession": "Athlete",
+      "sport": "Boxing",
+      "league": "WBC",
+      "team": "Independent",
+      "pastTeams": [],
+      "position": "Boxer",
+      "jerseyNumber": "",
+      "years": "2000-Present",
+      "achievements": "WBC Featherweight Champion, WBC Bantamweight Champion",
+      "knownFor": [
+        "Power punching",
+        "Knockouts"
+      ],
+      "awards": "WBC champion titles",
+      "stats": "Career record of wins and knockouts",
+      "verified": true,
+      "source": "https://www.boxrec.com"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Healers are empathetic and nurturing, often bringing comfort to others.",
+    "karmicLessons": "Learning to balance emotional sensitivity with practicality.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A desire for a deeper understanding of life and a connection to the spiritual."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 700,
+    "peak": 450,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "context": "Encouragement to overcome doubt and pursue future aspirations."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jhon-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jhonny",
+      "script": "Latin",
+      "scriptName": "Jhonny",
+      "pronunciation": "/ˈxoni/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζόνι",
+      "script": "Greek",
+      "scriptName": "Τζόνι",
+      "pronunciation": "/ˈdʒoni/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جوني",
+      "script": "Arabic",
+      "scriptName": "جوني",
+      "pronunciation": "/ˈdʒoːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "约翰尼",
+      "script": "Han",
+      "scriptName": "约翰尼",
+      "pronunciation": "/yuē hàn ní/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джонни",
+      "script": "Cyrillic",
+      "scriptName": "Джонни",
+      "pronunciation": "/ˈdʐonʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'וני",
+      "script": "Hebrew",
+      "scriptName": "ג'וני",
+      "pronunciation": "/dʒoni/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Jhonny is a contemporary variation of a classic name, offering a fresh twist."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Despite its modern spelling, it stems from the timeless name John."
+    },
+    {
+      "tag": "International",
+      "confidence": 0.85,
+      "reason": "The name is used across various cultures, especially in Latin America."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Jhonny, with its unique spelling, offers a fresh twist on the classic Johnny. It carries a sense of individuality while retaining the charm of its more traditional counterpart. With roots in the Hebrew name John, meaning 'God is gracious', Jhonny offers a modern take on a timeless favorite.",
+    "etymology_meaning": "Jhonny is a variant of Johnny, itself a diminutive form of John. The name John has deep biblical roots, stemming from the Hebrew name Yochanan, meaning 'God is gracious'. This gives Jhonny a connection to a rich historical and religious tradition.",
+    "famous_bearers": "Notable people with the name Jhonny include Jhonny Peralta, a celebrated Major League Baseball player, and Jhonny Rivera, a popular Colombian singer known for his contributions to Latin music.",
+    "pop_culture_moments": "While Jhonny may not be as prevalent in mainstream films or literature, its variant Johnny is a staple in pop culture, appearing in numerous songs, movies, and books, thereby lending some cultural cachet to this unique spelling.",
+    "personality_profile": "Jhonny is often associated with a vibrant and charismatic personality. Individuals with this name are seen as outgoing and sociable, often drawing people in with their lively and approachable demeanor.",
+    "variations_nicknames": "Variations of Jhonny include Johnny, Johnnie, and Jonny. Nicknames like Jay, Jon, and Jo offer a range of options for those named Jhonny, providing both familiarity and endearment.",
+    "popularity_data": "While not as common as Johnny, the name Jhonny has seen periodic rises in popularity, particularly in regions like Latin America. Its unique spelling appeals to parents looking for a modern twist on a classic name.",
+    "pairing_suggestions": "Jhonny pairs well with names like Sophia, Isabella, and Emma for a harmonious sibling set. These combinations balance tradition with modern flair, creating a well-rounded and appealing family of names.",
+    "cultural_context": "In Latin American cultures, the spelling Jhonny is often favored, providing a distinct cultural identity while maintaining a connection to the widely recognized name Johnny.",
+    "final_recommendation": "If you're searching for a name that combines tradition with a touch of modernity, Jhonny could be the perfect choice. Its unique spelling and cultural versatility make it a standout option for parents seeking individuality without straying too far from classic roots.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

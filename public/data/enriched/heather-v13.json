@@ -1,0 +1,251 @@
+{
+  "name": "Heather",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:51:09.707Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "A flowering evergreen plant",
+  "culturalSignificance": "Heather is a name derived from the English word for the flowering shrub that thrives in rocky and barren landscapes. It became popular in the 20th century, particularly in English-speaking countries, as a reflection of nature-inspired names that evoke strength and beauty.",
+  "modernContext": "Heather reached peak popularity in the United States during the 1970s and 1980s. Today, it is considered a classic name that has slightly declined in usage but remains a recognizable and beloved choice for many parents.",
+  "literaryReferences": "Heather is often used in literature as a symbol of resilience and natural beauty, drawing on the qualities of the plant it is named after.",
+  "pronunciationGuide": "/ˈhɛðər/",
+  "variations": [
+    "Heath",
+    "Heathar",
+    "Hether"
+  ],
+  "similarNames": [
+    "Holly",
+    "Hazel",
+    "Violet",
+    "Ivy",
+    "Lily"
+  ],
+  "nicknames": [
+    "Heath",
+    "Hettie",
+    "Hedy"
+  ],
+  "personality": "Names like Heather are often associated with individuals who are resilient, adaptable, and grounded, much like the hardy plant. They are perceived as approachable and warm.",
+  "symbolism": "The name Heather symbolizes resilience and natural beauty, as it is associated with the hardy flowering plant that grows in difficult terrains.",
+  "funFact": "The plant heather is often used in traditional Scottish weddings as a symbol of good luck and protection.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Heather Locklear",
+      "profession": "Actor",
+      "knownFor": [
+        "Melrose Place",
+        "Spin City"
+      ],
+      "awards": "Golden Globe nominations"
+    },
+    {
+      "name": "Heather Graham",
+      "profession": "Actor",
+      "knownFor": [
+        "Boogie Nights",
+        "Austin Powers: The Spy Who Shagged Me"
+      ],
+      "awards": "IFP Gotham Award for Best Ensemble Cast"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Heathers",
+      "year": 1989,
+      "type": "Movie",
+      "characterName": "Heather Chandler",
+      "characterDescription": "A popular high school student in a dark comedy about social cliques.",
+      "imdbUrl": "https://www.imdb.com/title/tt0097493/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Heathers",
+      "year": 2018,
+      "type": "TV Show",
+      "characterName": "Heather Chandler",
+      "characterDescription": "A modern twist on the original cult classic film.",
+      "imdbUrl": "https://www.imdb.com/title/tt6149182/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Purple",
+      "hex": "#800080"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and reflection.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs share stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, nurturing, and growth.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing and caring qualities.",
+    "karmicLessons": "Embrace change and growth.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for stability and security."
+  },
+  "genderDistribution": {
+    "male": 1,
+    "female": 99
+  },
+  "ranking": {
+    "current": 748,
+    "peak": 3,
+    "peakYear": 1975
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Just like the heather plant, we can thrive in the most unexpected places.",
+    "author": "Anonymous",
+    "context": "Referring to resilience and adaptability."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Hea-ther"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Brezo",
+      "script": "Latin",
+      "scriptName": "Brezo",
+      "pronunciation": "/ˈbɾeθo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ερείκη",
+      "script": "Greek",
+      "scriptName": "Ερείκη",
+      "pronunciation": "/eˈrici/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هيذر",
+      "script": "Arabic",
+      "scriptName": "هيذر",
+      "pronunciation": "/ˈhɛðər/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "石楠",
+      "script": "Han",
+      "scriptName": "石楠",
+      "pronunciation": "/shí nán/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Вереск",
+      "script": "Cyrillic",
+      "scriptName": "Вереск",
+      "pronunciation": "/ˈvʲerʲɪsk/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "היתר",
+      "script": "Hebrew",
+      "scriptName": "היתר",
+      "pronunciation": "/he'ter/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been popular for decades and has a timeless appeal."
+    },
+    {
+      "tag": "Nature-inspired",
+      "confidence": 1,
+      "reason": "The name is directly derived from a plant known for its beauty and resilience."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Frequently used symbolically in literature."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Heather",
+      "artist": "Conan Gray",
+      "year": 2020,
+      "genre": "Pop",
+      "nameContext": "Central theme of the song.",
+      "description": "The song 'Heather' by Conan Gray deals with themes of unrequited love and longing, where the name Heather represents an idealized, unattainable person.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Conan+Gray+Heather",
+      "geniusUrl": "https://genius.com/Conan-gray-heather-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Heather Honey",
+      "artist": "Tommy Roe",
+      "year": 1969,
+      "genre": "Pop",
+      "nameContext": "Romantic interest in the song.",
+      "description": "This classic pop song from the 1960s portrays a sweet and nostalgic image of a girl named Heather, invoking themes of young love and innocence.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Tommy+Roe+Heather+Honey",
+      "geniusUrl": "https://genius.com/Tommy-roe-heather-honey-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Heather is a name that conjures images of wild, beautiful landscapes, where the hardy plant thrives against all odds. Its popularity soared in the late 20th century, making it a favorite among parents seeking a name that combines natural beauty with resilience.",
+    "etymology_meaning": "Derived from the Old English word for the flowering plant, Heather has been used as a given name since the late 19th century. It symbolizes strength and beauty, much like the plant that endures harsh conditions to bloom.",
+    "famous_bearers": "Heather Locklear and Heather Graham are among the most notable figures who have brought this name into the limelight, each achieving success in the entertainment industry with their charismatic presence.",
+    "pop_culture_moments": "The cult classic film 'Heathers' and its modern TV adaptation highlight the name's enduring presence in pop culture. Heather is often used to depict characters who are complex and multifaceted.",
+    "personality_profile": "People named Heather are often seen as down-to-earth, approachable, and resilient. They possess a natural charm and are known for their ability to adapt and thrive in various situations.",
+    "variations_nicknames": "With variations like Heath and nicknames such as Hettie and Hedy, Heather offers a range of adaptations that suit different personalities and styles.",
+    "popularity_data": "Heather's peak in popularity during the 1970s and 1980s makes it a classic choice that continues to be cherished by many, even as newer names emerge.",
+    "pairing_suggestions": "Heather pairs beautifully with nature-inspired names like Ivy and Lily, as well as classic names like Elizabeth and Katherine, offering a harmonious blend of traditional and natural elements.",
+    "cultural_context": "The name's association with the hardy heather plant lends it a cultural depth, particularly in regions like Scotland where the plant is indigenous and holds cultural significance.",
+    "final_recommendation": "Heather is an excellent choice for parents seeking a name that embodies natural beauty and resilience. Its timeless appeal and versatility make it suitable for a wide range of personalities and backgrounds.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

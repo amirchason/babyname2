@@ -1,0 +1,204 @@
+{
+  "name": "Lujan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:03:14.724Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "The light",
+  "culturalSignificance": "Luján is a name that has strong ties to Argentina, particularly due to the city of Luján, which is a significant religious site. The Basilica of Our Lady of Luján is a major pilgrimage destination, highlighting the cultural and religious importance of the name in the region.",
+  "modernContext": "In modern times, Luján is used as both a first name and a surname. It remains particularly popular in Argentina and among Spanish-speaking communities. The name's connection to a revered religious site gives it a layer of cultural depth.",
+  "literaryReferences": "The name Luján appears in various works of Argentine literature, often symbolizing faith and cultural identity.",
+  "pronunciationGuide": "/luˈxan/",
+  "variations": [
+    "Luhan",
+    "Luzan",
+    "Lujano"
+  ],
+  "similarNames": [
+    "Lucia",
+    "Luna",
+    "Lola",
+    "Juan",
+    "Luisa"
+  ],
+  "nicknames": [
+    "Lu",
+    "Luli",
+    "Lulu"
+  ],
+  "personality": "People named Luján are often seen as charismatic and warm, with a strong sense of identity and cultural pride.",
+  "symbolism": "The name Luján is often associated with light and illumination, reflecting its etymological roots and the religious significance of the Basilica of Our Lady of Luján.",
+  "funFact": "The city of Luján in Argentina is home to a famous basilica that attracts millions of pilgrims each year.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Our Lady of Luján",
+    "significance": "Our Lady of Luján is a title of the Virgin Mary and a major religious figure in Argentina, with a prominent basilica in the city of Luján dedicated to her.",
+    "keyStories": [
+      "The miraculous movement of the statue of the Virgin Mary to Luján"
+    ],
+    "spiritualMeaning": "A symbol of faith and protection for the people of Argentina.",
+    "historicalImpact": "The Basilica of Our Lady of Luján is a national shrine and a symbol of Argentine Catholic identity."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ben Ray Luján",
+      "profession": "Politician",
+      "knownFor": [
+        "U.S. Senator from New Mexico",
+        "Former U.S. Representative"
+      ],
+      "awards": "N/A"
+    },
+    {
+      "name": "Florencia Luján",
+      "profession": "Actress",
+      "knownFor": [
+        "Argentine television series",
+        "Film roles"
+      ],
+      "awards": "N/A"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of clarity and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share an earthy nature, providing stability.",
+    "cosmicElement": "The Light",
+    "cosmicElementDescription": "Represents illumination and clarity.",
+    "celestialArchetype": "The Visionary",
+    "celestialArchetypeDescription": "Sees beyond the ordinary and inspires others.",
+    "karmicLessons": "To share insights and illuminate paths for others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony, peace, and service to others."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 750,
+    "peak": 450,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To light a candle is to cast a shadow.",
+    "author": "Ursula K. Le Guin",
+    "context": "Reflections on light and darkness."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Lu-jan"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Luján",
+      "script": "Latin",
+      "scriptName": "Luján",
+      "pronunciation": "/luˈxan/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Λουχάν",
+      "script": "Greek",
+      "scriptName": "Λουχάν",
+      "pronunciation": "/luˈxan/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "لوجان",
+      "script": "Arabic",
+      "scriptName": "لوجان",
+      "pronunciation": "/luˈxan/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "卢汉",
+      "script": "Han",
+      "scriptName": "卢汉",
+      "pronunciation": "/luˈxan/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Лухан",
+      "script": "Cyrillic",
+      "scriptName": "Лухан",
+      "pronunciation": "/luˈxan/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "לוחאן",
+      "script": "Hebrew",
+      "scriptName": "לוחאן",
+      "pronunciation": "/luˈxan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Cultural",
+      "confidence": 0.9,
+      "reason": "Strong association with Argentine culture and religion."
+    },
+    {
+      "tag": "Religious",
+      "confidence": 0.85,
+      "reason": "Associated with the Basilica of Our Lady of Luján."
+    },
+    {
+      "tag": "Unique",
+      "confidence": 0.8,
+      "reason": "Not commonly used outside Spanish-speaking regions."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Luján is a name that carries a rich tapestry of cultural and religious significance, particularly in Argentina. It's not just a name but a symbol of heritage and faith, drawing millions of pilgrims to its namesake city each year. This unique blend of cultural depth and modern simplicity makes Luján an intriguing choice for parents.",
+    "etymology_meaning": "Derived from the Spanish term for 'light,' Luján embodies illumination and clarity. Its roots in the Spanish-speaking world provide it with a warm and inviting aura, often associated with enlightenment and vision.",
+    "famous_bearers": "Notable individuals bearing the name Luján include U.S. Senator Ben Ray Luján, highlighting the name's reach beyond its cultural origins. In the arts, figures like Florencia Luján showcase the name's adaptability across various fields.",
+    "pop_culture_moments": "While not frequently featured in mainstream media, Luján's significance in Argentine culture often finds its way into regional literature and art, symbolizing a connection to faith and identity.",
+    "personality_profile": "Those named Luján are often seen as visionaries with a strong sense of purpose, driven by their cultural heritage. They are perceived as warm and illuminating, much like the name itself.",
+    "variations_nicknames": "With variations like Luhan and nicknames such as Lu or Luli, the name offers flexibility and personal touch. These variations and nicknames provide a modern twist to a traditional name.",
+    "popularity_data": "While not among the top names globally, Luján holds a steady place in Spanish-speaking countries, particularly Argentina. Its cultural significance ensures it remains a cherished choice.",
+    "pairing_suggestions": "Luján pairs well with names that have a similar cultural or religious resonance, such as Lucia or Juan. These combinations create a harmonious blend of tradition and modernity.",
+    "cultural_context": "Luján's deep ties to Argentine culture and its religious overtones make it a name that carries both historical and contemporary significance. It's a name that speaks to heritage and identity.",
+    "final_recommendation": "For parents seeking a name with profound cultural roots and a touch of modernity, Luján offers an appealing balance. Its association with light and vision makes it a meaningful choice for a child's future.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

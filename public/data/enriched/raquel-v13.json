@@ -1,0 +1,216 @@
+{
+  "name": "Raquel",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:40:24.684Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "ewe",
+  "culturalSignificance": "Raquel is a name of Hebrew origin, derived from the name Rachel, which means 'ewe.' It is a name that has been popular in various cultures, especially within Spanish and Portuguese-speaking communities.",
+  "modernContext": "In modern context, Raquel is a classic name that continues to be popular in various countries. It is often chosen for its strong cultural roots and its elegant sound.",
+  "literaryReferences": "",
+  "pronunciationGuide": "rəˈkɛl",
+  "variations": [
+    "Rachel",
+    "Rachelle",
+    "Rakel"
+  ],
+  "similarNames": [
+    "Rachel",
+    "Rochelle",
+    "Rae",
+    "Rebecca",
+    "Rina",
+    "Raelyn"
+  ],
+  "nicknames": [
+    "Raq",
+    "Rocky",
+    "Quel",
+    "Rae",
+    "Kelly"
+  ],
+  "personality": "The name Raquel is often associated with individuals who are strong, independent, and thoughtful. They are known for their leadership qualities and their ability to empathize with others.",
+  "symbolism": "The name Raquel carries symbolic meanings of gentleness and nurturing, often associated with the biblical figure Rachel, who was known for her beauty and kindness.",
+  "funFact": "Raquel is a popular name in Hispanic cultures, often celebrated in literature and cinema.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Raquel Welch",
+      "profession": "Actor",
+      "knownFor": [
+        "One Million Years B.C.",
+        "Fantastic Voyage"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Raquel Zimmermann",
+      "profession": "Model",
+      "knownFor": [
+        "Victoria's Secret",
+        "Vogue"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Money Heist",
+      "year": 2017,
+      "type": "TV Show",
+      "characterName": "Raquel Murillo",
+      "characterDescription": "A police inspector who becomes part of the heist team.",
+      "imdbUrl": "https://www.imdb.com/title/tt6468322/",
+      "genre": "Crime, Drama, Thriller",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of fulfillment and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share the water element, fostering deep emotional connections.",
+    "cosmicElement": "The Seeker",
+    "cosmicElementDescription": "Representing a quest for knowledge and understanding.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "A symbol of care, empathy, and protection.",
+    "karmicLessons": "Cultivate patience and understanding.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "A desire to live harmoniously and bring peace to those around them."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 200,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "context": "Motivational context encouraging belief in one's potential."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ra-quel"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Raquel",
+      "script": "Latin",
+      "scriptName": "Raquel",
+      "pronunciation": "rəˈkɛl",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρακέλ",
+      "script": "Greek",
+      "scriptName": "Ρακέλ",
+      "pronunciation": "raˈkel",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "راكيل",
+      "script": "Arabic",
+      "scriptName": "راكيل",
+      "pronunciation": "raːˈkiːl",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "拉奎尔",
+      "script": "Han",
+      "scriptName": "拉奎尔",
+      "pronunciation": "Lākuí'ěr",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ракель",
+      "script": "Cyrillic",
+      "scriptName": "Ракель",
+      "pronunciation": "raˈkʲelʲ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רחל",
+      "script": "Hebrew",
+      "scriptName": "רחל",
+      "pronunciation": "raˈχel",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Raquel has been consistently used over the years, maintaining its charm and relevance."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Derived from the Hebrew name Rachel, a significant biblical figure."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in various literary works and stories."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Raquel is a timeless name with a rich heritage, deeply rooted in cultural and historical significance. From its biblical origins to its modern-day allure, Raquel continues to be a popular choice for parents seeking a name that embodies both strength and grace.",
+    "etymology_meaning": "Raquel is of Hebrew origin, meaning 'ewe,' and is the Spanish and Portuguese variant of the name Rachel. It has been a beloved name across various cultures, often associated with biblical tales and classic literature.",
+    "famous_bearers": "Among the famous bearers of the name Raquel are Raquel Welch, a celebrated actress known for her iconic roles, and Raquel Zimmermann, a renowned supermodel who has graced countless magazine covers.",
+    "pop_culture_moments": "Raquel has made appearances in pop culture, most notably in the popular TV series 'Money Heist,' where Raquel Murillo plays a pivotal role as a strong-willed police inspector turned heist participant.",
+    "personality_profile": "Individuals named Raquel are often perceived as strong, independent, and nurturing. They are admired for their leadership qualities and their ability to connect with others on an emotional level.",
+    "variations_nicknames": "Variations of the name Raquel include Rachel and Rachelle, while common nicknames are Raq, Rocky, and Quel. These variations and nicknames add a touch of versatility to the name's usage.",
+    "popularity_data": "Raquel has maintained a stable level of popularity over the years, particularly in Spanish-speaking countries. Its peak popularity was observed in the mid-1990s, and it continues to be a favored choice today.",
+    "pairing_suggestions": "Raquel pairs well with names like Alexander, Gabriel, and Sofia, creating harmonious combinations that balance traditional and contemporary vibes.",
+    "cultural_context": "Raquel is a name that resonates across cultures, particularly within Hispanic communities where it is celebrated for its historical and biblical roots. It is a name that carries a sense of elegance and tradition.",
+    "final_recommendation": "For parents seeking a name that is both classic and culturally rich, Raquel is an excellent choice. It offers a blend of historical significance and modern appeal, making it a timeless option for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

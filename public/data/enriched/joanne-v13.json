@@ -1,0 +1,262 @@
+{
+  "name": "Joanne",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:45:17.481Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Joanne is a feminine form of the name John, which has been widely used across English-speaking countries. It gained popularity in the 20th century and is often associated with the celebration of femininity and strength.",
+  "modernContext": "In modern times, Joanne has seen varying levels of popularity, often associated with a classic and timeless appeal. It has been used by numerous public figures and remains a favorite in many English-speaking regions.",
+  "literaryReferences": "The name Joanne is not frequently used in classic literature but appears in modern works, often symbolizing a strong and independent female character.",
+  "pronunciationGuide": "/dʒoʊˈæn/",
+  "variations": [
+    "Joanna",
+    "Johanna",
+    "Joan",
+    "Jo",
+    "Joey"
+  ],
+  "similarNames": [
+    "Joanna",
+    "Jean",
+    "Janet",
+    "Joyce",
+    "Julia"
+  ],
+  "nicknames": [
+    "Jo",
+    "Jojo",
+    "Annie",
+    "Joey"
+  ],
+  "personality": "Joanne is often associated with a strong, independent personality, embodying grace and kindness. People with this name are thought to be compassionate and nurturing.",
+  "symbolism": "The name Joanne symbolizes grace and favor, often linked to a nurturing and caring persona.",
+  "funFact": "Joanne is the middle name of famous author J.K. Rowling, who used it as part of her pen name.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Joan of Arc",
+      "years": "1412-1431",
+      "category": "Historical Figure",
+      "achievements": [
+        "Led French army to several victories during the Hundred Years' War"
+      ],
+      "significance": "Joan of Arc is an iconic figure in history, symbolizing courage and faith. She was canonized as a saint and remains a national heroine of France.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Joanne Woodward",
+      "profession": "Actor",
+      "knownFor": [
+        "The Three Faces of Eve",
+        "Rachel, Rachel"
+      ],
+      "awards": "Academy Award for Best Actress"
+    },
+    {
+      "name": "Joanne Rowling",
+      "profession": "Author",
+      "knownFor": [
+        "Harry Potter series"
+      ],
+      "awards": "Multiple literary awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The West Wing",
+      "year": 1999,
+      "type": "TV Show",
+      "characterName": "Joanne 'Joey' Lucas",
+      "characterDescription": "A pollster and political consultant with a strong and assertive personality.",
+      "imdbUrl": "https://www.imdb.com/title/tt0200276/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm looking for the truth. I'll take it anywhere I can find it.",
+      "character": "Joanne 'Joey' Lucas",
+      "source": "The West Wing",
+      "year": 1999,
+      "context": "Joey Lucas speaks about her dedication to honest political consulting.",
+      "genre": "Drama",
+      "impact": "This quote underscores the character's integrity and commitment to truth."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection with Joanne.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Associated with empathy and nurturing energy.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Represents care, support, and emotional strength.",
+    "karmicLessons": "To use compassion to heal and support others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and create harmony."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 600,
+    "peak": 50,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Be the heroine of your life, not the victim.",
+    "author": "Nora Ephron",
+    "context": "A quote that encourages empowerment and self-determination."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jo-anne"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Juana",
+      "script": "Latin",
+      "scriptName": "Juana",
+      "pronunciation": "/ˈxwana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωάννα",
+      "script": "Greek",
+      "scriptName": "Ιωάννα",
+      "pronunciation": "/ioˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جوان",
+      "script": "Arabic",
+      "scriptName": "جوان",
+      "pronunciation": "/d͡ʒwaːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "乔安娜",
+      "script": "Han",
+      "scriptName": "乔安娜",
+      "pronunciation": "/tɕʰiɑʊ̯˥˩ an˥ na˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Жанна",
+      "script": "Cyrillic",
+      "scriptName": "Жанна",
+      "pronunciation": "/ˈʐanə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יואנה",
+      "script": "Hebrew",
+      "scriptName": "יואנה",
+      "pronunciation": "/joˈana/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Joanne has been a stable choice in English-speaking countries for decades."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has maintained popularity across multiple generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Used in literature and by notable authors."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Joanne",
+      "artist": "Lady Gaga",
+      "year": 2016,
+      "genre": "Pop",
+      "nameContext": "The song is named after Lady Gaga's late aunt, Joanne.",
+      "description": "This song is a tribute to Lady Gaga's aunt, exploring themes of loss and remembrance.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Joanne+Lady+Gaga",
+      "geniusUrl": "https://genius.com/Lady-gaga-joanne-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Joanne",
+      "artist": "Michael Nesmith",
+      "year": 1970,
+      "genre": "Country Rock",
+      "nameContext": "The name Joanne is central to the song's narrative.",
+      "description": "A soulful ballad reflecting on the love and memories associated with a woman named Joanne.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Joanne+Michael+Nesmith",
+      "geniusUrl": "https://genius.com/Michael-nesmith-joanne-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Joanne is a name that resonates with timeless elegance and grace. With roots in Hebrew and a meaning that translates to 'God is gracious,' it has been a beloved choice for parents across the globe. The name has a rich history of association with strong and influential women.",
+    "etymology_meaning": "Joanne is derived from the Hebrew name Yochanan, meaning 'God is gracious.' It is the feminine form of John and has been used in various cultures with slight variations.",
+    "famous_bearers": "Famous bearers of the name Joanne include Joanne Woodward, an Academy Award-winning actress, and J.K. Rowling, the renowned author of the Harry Potter series. Both have achieved significant milestones in their respective fields.",
+    "pop_culture_moments": "Joanne has been featured in pop culture, including the character Joey Lucas in 'The West Wing' and songs by artists like Lady Gaga and Michael Nesmith. These appearances have helped maintain its relevance in modern times.",
+    "personality_profile": "Individuals named Joanne are often seen as compassionate and nurturing, with a strong sense of responsibility and empathy. They are perceived as reliable and supportive, making them cherished friends and family members.",
+    "variations_nicknames": "Joanne has several variations, including Joanna, Johanna, and Joan. Common nicknames include Jo, Jojo, and Annie, each adding a personal touch to the name.",
+    "popularity_data": "The name Joanne was particularly popular in the mid-20th century, reaching its peak in the 1950s. It remains a classic choice, appreciated for its elegance and historical roots.",
+    "pairing_suggestions": "Joanne pairs well with middle names that have a similar classic feel, such as Marie, Elizabeth, or Anne. It also complements names with a modern twist for a balanced combination.",
+    "cultural_context": "Culturally, Joanne is viewed as a name with a strong foundation in history and religion, though it is not limited to any particular cultural or religious group. Its adaptability has allowed it to remain a favored choice across diverse communities.",
+    "final_recommendation": "Joanne is a timeless name that combines historical depth with modern appeal. Whether you choose it for its meaning, sound, or cultural significance, Joanne is a name that carries a legacy of grace and strength.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

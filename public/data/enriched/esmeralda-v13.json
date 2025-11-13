@@ -1,0 +1,267 @@
+{
+  "name": "Esmeralda",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:47:55.260Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Spanish",
+  "meaning": "Emerald",
+  "culturalSignificance": "The name Esmeralda is derived from the Spanish word for emerald, a precious gemstone known for its vibrant green color. It is often associated with beauty and luxury, which has contributed to its popularity in Spanish-speaking countries.",
+  "modernContext": "Esmeralda remains a popular name, especially in Latin American countries. It has gained recognition in English-speaking countries as well, partly due to its use in literature and film.",
+  "literaryReferences": "One of the most famous references is the character Esmeralda from Victor Hugo's novel 'The Hunchback of Notre-Dame', where she is a beautiful Romani woman who captures the heart of several characters.",
+  "pronunciationGuide": "/ˌɛzməˈrɑːldə/",
+  "variations": [
+    "Esmerelda",
+    "Emerald",
+    "Esmaralda"
+  ],
+  "similarNames": [
+    "Emerald",
+    "Isabella",
+    "Amara",
+    "Serena"
+  ],
+  "nicknames": [
+    "Esme",
+    "Essie",
+    "Emmy"
+  ],
+  "personality": "People named Esmeralda are often associated with elegance, creativity, and a strong sense of individuality. They are considered charismatic and have a natural flair for the arts.",
+  "symbolism": "The name Esmeralda symbolizes beauty, rarity, and sophistication, much like the emerald gemstone it derives from.",
+  "funFact": "The character Esmeralda from 'The Hunchback of Notre-Dame' has contributed significantly to the name's popularity and has been portrayed in numerous adaptations across various media.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Esmeralda Pimentel",
+      "profession": "Actress",
+      "knownFor": [
+        "Abismo de pasión",
+        "La vecina"
+      ],
+      "awards": "Nominated for several TVyNovelas Awards"
+    },
+    {
+      "name": "Esmeralda Santiago",
+      "profession": "Author",
+      "knownFor": [
+        "When I Was Puerto Rican",
+        "Almost a Woman"
+      ],
+      "awards": "Various literary awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Hunchback of Notre Dame",
+      "year": 1996,
+      "type": "Movie",
+      "characterName": "Esmeralda",
+      "characterDescription": "A compassionate and beautiful Romani woman who helps Quasimodo.",
+      "imdbUrl": "https://www.imdb.com/title/tt0116583/",
+      "genre": "Animation, Drama, Family",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The Hunchback of Notre Dame",
+      "year": 1939,
+      "type": "Movie",
+      "characterName": "Esmeralda",
+      "characterDescription": "A kind and beautiful dancer who is pivotal to the plot.",
+      "imdbUrl": "https://www.imdb.com/title/tt0031455/",
+      "genre": "Drama, Romance",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You speak of justice, yet you are cruel to those most in need of your help.",
+      "character": "Esmeralda",
+      "source": "The Hunchback of Notre Dame",
+      "year": 1996,
+      "context": "Esmeralda challenges the villain's sense of justice.",
+      "genre": "Animation, Drama, Family",
+      "impact": "Highlights her role as a moral compass in the story."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for celebration and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs are grounded and stable, complementing Esmeralda's traits.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, practicality, and growth.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Associated with nurturing and restoring balance.",
+    "karmicLessons": "Learning to balance giving with receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to help others and create harmony."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 456,
+    "peak": 237,
+    "peakYear": 1997
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Beauty is not in the face; beauty is a light in the heart.",
+    "author": "Khalil Gibran",
+    "context": "This quote embodies the inner beauty associated with the name Esmeralda."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "Es-me-ral-da"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Esmeralda",
+      "script": "Latin",
+      "scriptName": "Esmeralda",
+      "pronunciation": "/esmeˈɾalda/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εσμεράλδα",
+      "script": "Greek",
+      "scriptName": "Εσμεράλδα",
+      "pronunciation": "/ezmeˈralða/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إزميرالدا",
+      "script": "Arabic",
+      "scriptName": "إزميرالدا",
+      "pronunciation": "/ʔizmiːˈralda/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾斯梅拉达",
+      "script": "Han",
+      "scriptName": "艾斯梅拉达",
+      "pronunciation": "/àisīměilādá/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эсмеральда",
+      "script": "Cyrillic",
+      "scriptName": "Эсмеральда",
+      "pronunciation": "/ɛzmʲɪˈraldə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אסמרלדה",
+      "script": "Hebrew",
+      "scriptName": "אסמרלדה",
+      "pronunciation": "/ɛsmeˈralda/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Hunchback of Notre-Dame",
+      "author": "Victor Hugo",
+      "publishedYear": 1831,
+      "genre": "Fiction",
+      "significance": "A classic novel that has influenced interpretations of the name Esmeralda.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "childName": "Esmeralda Amada Gosling",
+      "parentNames": [
+        "Ryan Gosling",
+        "Eva Mendes"
+      ],
+      "birthYear": 2014,
+      "context": "The daughter of famous actor Ryan Gosling and actress Eva Mendes."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has historical roots and is associated with classic literature."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Strongly associated with Victor Hugo's 'The Hunchback of Notre-Dame'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.87,
+      "reason": "The name's association with beauty and nature gives it a timeless appeal."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Esmeralda",
+      "artist": "Benito Lertxundi",
+      "year": 1974,
+      "genre": "Folk",
+      "nameContext": "The song features the name prominently.",
+      "description": "A folk song that captures the beauty and mystique of the name Esmeralda.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Benito+Lertxundi+Esmeralda",
+      "geniusUrl": "https://genius.com/search?q=Benito+Lertxundi+Esmeralda",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Esmeralda is a name that conjures images of beauty, mystique, and timeless elegance. Derived from the Spanish word for emerald, this name has captured the hearts of many across different cultures. The allure of Esmeralda is not only in its meaning but also in the cultural and literary significance it holds.",
+    "etymology_meaning": "Esmeralda originates from the Spanish word for 'emerald', a gemstone that symbolizes beauty and rarity. This name has roots in Spanish-speaking regions but has transcended cultural boundaries due to its enchanting sound and historical usage.",
+    "famous_bearers": "Esmeralda has been a popular name among artists and actresses, including Esmeralda Santiago, a renowned Puerto Rican author, and Esmeralda Pimentel, a celebrated Mexican actress. These individuals have contributed to the name's prominence in modern culture.",
+    "pop_culture_moments": "Perhaps the most famous Esmeralda is the character from Victor Hugo's 'The Hunchback of Notre-Dame'. Her portrayal in various film adaptations has kept the name in the limelight, making it a favorite among literary enthusiasts.",
+    "personality_profile": "Those named Esmeralda are often seen as charismatic and creative, with a penchant for the arts. They are thought to embody elegance and individuality, much like the precious stone from which their name is derived.",
+    "variations_nicknames": "Common variations of the name include Esmerelda and Emerald. Nicknames like Esme and Essie are popular, offering a more casual and affectionate form of the name.",
+    "popularity_data": "Esmeralda has seen fluctuating popularity over the decades, with a peak in the late 1990s. It remains a cherished name among Spanish-speaking communities and is gaining traction in other regions due to its literary ties.",
+    "pairing_suggestions": "Esmeralda pairs beautifully with names that have a similar cultural or literary resonance, such as Isabella or Leonardo. These combinations evoke a sense of classic elegance and sophistication.",
+    "cultural_context": "The name Esmeralda holds significant cultural weight, especially in Spanish-speaking countries where it is synonymous with beauty and preciousness. Its literary connections further enhance its appeal across various cultures.",
+    "final_recommendation": "Esmeralda is a name that offers a rich tapestry of cultural, historical, and literary significance. For parents seeking a name that embodies beauty and elegance, Esmeralda presents a timeless choice that will continue to captivate for generations.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -1,0 +1,225 @@
+{
+  "name": "Montoya",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:29:19.571Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "From the hills",
+  "culturalSignificance": "Montoya is a surname of Spanish origin, meaning 'from the hills.' It has been historically associated with families from the Basque region in Spain. The name gained cultural significance through its use in various literary and pop culture contexts.",
+  "modernContext": "In modern times, Montoya is well-known due to its association with the character Inigo Montoya from the film 'The Princess Bride,' which has popularized the name beyond its traditional use as a surname. It is less common as a first name but is recognized due to its iconic pop culture references.",
+  "literaryReferences": "Inigo Montoya is a notable character from 'The Princess Bride,' a novel by William Goldman, adapted into a popular film. His famous line, 'Hello, my name is Inigo Montoya. You killed my father. Prepare to die,' has become iconic.",
+  "pronunciationGuide": "/mɒnˈtɔɪə/",
+  "variations": [
+    "Montaya",
+    "Montioya",
+    "Montaya",
+    "Montoya"
+  ],
+  "similarNames": [
+    "Inigo",
+    "Mateo",
+    "Antonio",
+    "Santiago",
+    "Cruz"
+  ],
+  "nicknames": [
+    "Monty",
+    "Toya",
+    "Mony"
+  ],
+  "personality": "People with the name Montoya are often seen as strong-willed and determined, with a sense of adventure and a deep connection to their heritage.",
+  "symbolism": "The name symbolizes a connection to nature and heritage, often associated with strength and resilience due to its meaning 'from the hills.'",
+  "funFact": "The name Montoya gained significant popularity as a character name in 'The Princess Bride' and is often quoted in pop culture.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Juan Pablo Montoya",
+      "profession": "Racing Driver",
+      "knownFor": [
+        "Formula One",
+        "NASCAR"
+      ],
+      "awards": "Indianapolis 500 winner"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Princess Bride",
+      "year": 1987,
+      "type": "Movie",
+      "characterName": "Inigo Montoya",
+      "characterDescription": "A skilled swordsman seeking revenge for his father's murder.",
+      "imdbUrl": "https://www.imdb.com/title/tt0093779/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Hello, my name is Inigo Montoya. You killed my father. Prepare to die.",
+      "character": "Inigo Montoya",
+      "source": "The Princess Bride",
+      "year": 1987,
+      "context": "The character Inigo Montoya confronts his father's killer in a climactic scene.",
+      "genre": "Fantasy",
+      "impact": "This line has become one of the most quoted lines in film history."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of high energy and completion.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share an earthy nature, valuing stability and practicality.",
+    "cosmicElement": "The Earth",
+    "cosmicElementDescription": "Represents grounding, stability, and practicality.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Associated with nurturing, healing, and providing support.",
+    "karmicLessons": "Learning to balance personal desires with the needs of others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for nurturing relationships and home life."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 500,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Adversity causes some men to break; others to break records.",
+    "author": "William Arthur Ward",
+    "context": "An inspirational quote about resilience and determination."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Mon-to-ya"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Montoya",
+      "script": "Latin",
+      "scriptName": "Montoya",
+      "pronunciation": "/monˈtoʝa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μοντόγια",
+      "script": "Greek",
+      "scriptName": "Μοντόγια",
+      "pronunciation": "/monˈtoʝa/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مونتويا",
+      "script": "Arabic",
+      "scriptName": "مونتويا",
+      "pronunciation": "/mʊnˈto.ja/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "蒙托亚",
+      "script": "Han",
+      "scriptName": "蒙托亚",
+      "pronunciation": "/mʌnˈtoʊ.jɑː/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Монтоя",
+      "script": "Cyrillic",
+      "scriptName": "Монтоя",
+      "pronunciation": "/mɐnˈto.jə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מונטויה",
+      "script": "Hebrew",
+      "scriptName": "מונטויה",
+      "pronunciation": "/monˈto.ja/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Princess Bride",
+      "author": "William Goldman",
+      "publishedYear": 1973,
+      "genre": "Fantasy",
+      "significance": "A classic adventure novel that has become a staple in both literature and film.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "The name is prominently featured in 'The Princess Bride,' a well-known literary work."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Gained popularity in modern culture due to its use in film and media."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.6,
+      "reason": "Has a long history of use as a surname and a cultural reference."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Montoya carries a rich cultural heritage and a sense of adventure, making it an intriguing choice for parents seeking a name with depth and character. Its association with the iconic character Inigo Montoya from 'The Princess Bride' adds a layer of pop culture charm that resonates with fans around the world.",
+    "etymology_meaning": "Montoya is of Spanish origin, meaning 'from the hills.' It is traditionally a surname, reflecting a geographic connection to the mountainous regions of Spain, particularly the Basque country.",
+    "famous_bearers": "Juan Pablo Montoya, a celebrated racing driver, has brought the name to prominence in the sports world. Additionally, the character Inigo Montoya from 'The Princess Bride' has cemented the name's place in pop culture history.",
+    "pop_culture_moments": "The popularity of 'The Princess Bride' has made Inigo Montoya a household name, with his famous line becoming one of the most quoted in film history. This cultural moment has made the name Montoya synonymous with bravery and determination.",
+    "personality_profile": "Montoya is often associated with traits like resilience, strength, and a sense of adventure. Those with the name are perceived as having a deep connection to their roots and a passion for storytelling.",
+    "variations_nicknames": "Common variations of Montoya include Montaya and Montioya, while popular nicknames are Monty and Toya. These variations offer a range of options for personalization.",
+    "popularity_data": "While Montoya is not commonly used as a first name, its cultural significance keeps it relevant. Its peak popularity occurred in the 1990s, largely due to its media presence.",
+    "pairing_suggestions": "Montoya pairs well with classic names like Santiago and Mateo, offering a harmonious blend of tradition and modernity. It also complements more adventurous names, adding a touch of literary flair.",
+    "cultural_context": "As a name with strong ties to Spanish heritage, Montoya embodies a connection to nature and tradition. It reflects a sense of pride and identity, making it a meaningful choice for those with Spanish or Basque ancestry.",
+    "final_recommendation": "Montoya is an excellent choice for parents looking for a name with historical depth and cultural resonance. Its ties to literature and pop culture make it both timeless and contemporary, appealing to those who appreciate a name with a story.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

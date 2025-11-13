@@ -1,0 +1,306 @@
+{
+  "name": "Raymond",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:41:59.438Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Wise protector",
+  "culturalSignificance": "Raymond is a classic name with roots in the Germanic elements 'ragin' meaning 'counsel' and 'mund' meaning 'protector'. It has been popular in English-speaking countries since the Middle Ages, often associated with nobility and leadership.",
+  "modernContext": "In modern times, Raymond remains a popular name, often chosen for its strong, traditional connotations. It has been consistently used across generations, making it a timeless choice for parents seeking a name with historical depth.",
+  "literaryReferences": "The name Raymond appears in several literary works, including 'The Monk' by Matthew Lewis, where Raymond is a prominent character. This highlights its longstanding appeal in cultural narratives.",
+  "pronunciationGuide": "/ˈreɪmənd/",
+  "variations": [
+    "Raimond",
+    "Raymundo",
+    "Raimundo",
+    "Ramon",
+    "Reymond"
+  ],
+  "similarNames": [
+    "Richard",
+    "Robert",
+    "Ronald",
+    "Randolph",
+    "Reynard",
+    "Roland"
+  ],
+  "nicknames": [
+    "Ray",
+    "Raymie",
+    "Raym",
+    "Mondo"
+  ],
+  "personality": "People named Raymond are often perceived as reliable and trustworthy, embodying leadership qualities and a protective nature. They are seen as wise and considerate in their actions.",
+  "symbolism": "Raymond symbolizes wisdom and protection, often associated with guardianship and thoughtful counsel.",
+  "funFact": "The name Raymond was particularly popularized in France due to Saint Raymond of Peñafort, a prominent 13th-century Spanish Dominican friar.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Raymond of Toulouse",
+      "years": "1041-1105",
+      "category": "Noble",
+      "achievements": [
+        "Leader of the First Crusade",
+        "Count of Toulouse"
+      ],
+      "significance": "Raymond of Toulouse was a significant leader during the First Crusade, known for his military prowess and devout Christian beliefs.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Raymond Chandler",
+      "years": "1888-1959",
+      "category": "Author",
+      "achievements": [
+        "Creator of Philip Marlowe",
+        "Influential in crime fiction"
+      ],
+      "significance": "Raymond Chandler was a pivotal figure in the development of the American hard-boiled detective genre.",
+      "notableWorks": [
+        "The Big Sleep",
+        "Farewell, My Lovely"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "A good story cannot be devised; it has to be distilled.",
+      "author": "Raymond Chandler",
+      "context": "On writing and storytelling",
+      "year": 1950,
+      "category": "Literature"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Raymond Burr",
+      "profession": "Actor",
+      "knownFor": [
+        "Perry Mason",
+        "Ironside"
+      ],
+      "awards": "Emmy Awards"
+    },
+    {
+      "name": "Raymond Carver",
+      "profession": "Author",
+      "knownFor": [
+        "Cathedral",
+        "What We Talk About When We Talk About Love"
+      ],
+      "awards": "Guggenheim Fellowship"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Raymond Felton",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Oklahoma City Thunder",
+      "pastTeams": [
+        "Charlotte Bobcats",
+        "New York Knicks"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "2",
+      "years": "2005-2019",
+      "achievements": "NBA All-Rookie Second Team",
+      "knownFor": [
+        "Ball handling",
+        "Leadership"
+      ],
+      "awards": "None",
+      "stats": "Career average: 11.2 points per game",
+      "verified": true,
+      "source": "https://www.nba.com/player/200782/raymond_felton"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Rain Man",
+      "year": 1988,
+      "type": "Movie",
+      "characterName": "Raymond Babbitt",
+      "characterDescription": "A savant with extraordinary memory abilities",
+      "imdbUrl": "https://www.imdb.com/title/tt0095953/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 92
+    },
+    {
+      "title": "Everybody Loves Raymond",
+      "year": 1996,
+      "type": "TV Show",
+      "characterName": "Raymond Barone",
+      "characterDescription": "A sportswriter dealing with family life",
+      "imdbUrl": "https://www.imdb.com/title/tt0115167/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm an excellent driver.",
+      "character": "Raymond Babbitt",
+      "source": "Rain Man",
+      "year": 1988,
+      "context": "Raymond asserting his driving skills despite his condition",
+      "genre": "Drama",
+      "impact": "Highlighted the character's unique abilities"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Brown",
+      "hex": "#A52A2A"
+    },
+    "luckyGemstone": "Garnet",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that share practicality and reliability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and grounding energy.",
+    "celestialArchetype": "The Protector",
+    "celestialArchetypeDescription": "An archetype that embodies safety and wisdom.",
+    "karmicLessons": "Learning to balance responsibility with personal needs.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and creating a secure environment."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 320,
+    "peak": 25,
+    "peakYear": 1925
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer",
+    "context": "Philosophical reflection on life"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ray-mond"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Raimundo",
+      "script": "Latin",
+      "scriptName": "Raimundo",
+      "pronunciation": "/raiˈmundo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ραϊμόνδος",
+      "script": "Greek",
+      "scriptName": "Ραϊμόνδος",
+      "pronunciation": "/raiˈmondos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ريموند",
+      "script": "Arabic",
+      "scriptName": "ريموند",
+      "pronunciation": "/ˈreɪmənd/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雷蒙德",
+      "script": "Han",
+      "scriptName": "雷蒙德",
+      "pronunciation": "/lěiméngdé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Раймонд",
+      "script": "Cyrillic",
+      "scriptName": "Раймонд",
+      "pronunciation": "/ˈraɪmənd/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ריימונד",
+      "script": "Hebrew",
+      "scriptName": "ריימונד",
+      "pronunciation": "/ˈreɪmənd/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Monk",
+      "author": "Matthew Lewis",
+      "publishedYear": 1796,
+      "genre": "Gothic Fiction",
+      "significance": "One of the earliest Gothic novels, featuring dark themes and complex characters.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Rooted in historical and literary traditions."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistently popular across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Featured in notable literary works."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Raymond is a name that exudes a sense of wisdom and protection. This classic name has stood the test of time, retaining its charm and appeal across generations. Whether you're drawn to its historical roots or its modern-day usage, Raymond offers a rich tapestry of cultural significance.",
+    "etymology_meaning": "The name Raymond originates from the Germanic elements 'ragin' meaning 'counsel' and 'mund' meaning 'protector'. This etymology underscores a strong sense of guardianship and wisdom, making it a favored choice for those seeking a name with depth.",
+    "famous_bearers": "Notable individuals named Raymond include Raymond Chandler, the influential crime fiction author, and Raymond Burr, the iconic actor known for 'Perry Mason'. Their achievements highlight the name's association with creativity and excellence.",
+    "pop_culture_moments": "Raymond has made notable appearances in pop culture, such as in the TV show 'Everybody Loves Raymond' and the film 'Rain Man'. These representations have cemented the name's presence in varied entertainment mediums.",
+    "personality_profile": "Raymond is often associated with reliability and wisdom. Individuals with this name are perceived as natural leaders, offering guidance and protection to those around them. This personality profile aligns with the name's historic roots.",
+    "variations_nicknames": "Variations of Raymond include Raimond and Ramon, while common nicknames are Ray and Mondo. These variants provide flexibility and a personalized touch to the classic name.",
+    "popularity_data": "Raymond has maintained a steady presence in baby name charts, peaking in popularity in the early 20th century. Its timeless appeal continues to attract parents looking for a name with historical resonance.",
+    "pairing_suggestions": "Raymond pairs well with classic middle names like James or Alexander, offering a harmonious blend of traditional and modern styles. These combinations can create a name full of character and depth.",
+    "cultural_context": "Raymond's cultural background spans several countries, reflecting its widespread appeal and adaptation. From Europe to America, the name has been embraced for its strong, protective connotations.",
+    "final_recommendation": "For those seeking a name that embodies wisdom and strength, Raymond is an excellent choice. Its enduring popularity and cultural significance make it a timeless option that resonates across generations.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

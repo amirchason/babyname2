@@ -1,0 +1,267 @@
+{
+  "name": "Elvis",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:56:08.438Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Scandinavian",
+  "meaning": "All-wise",
+  "culturalSignificance": "The name Elvis is most famously associated with Elvis Presley, the iconic American singer known as the 'King of Rock and Roll'. The name gained international recognition and cultural significance largely due to his immense popularity and influence on music and pop culture in the 20th century.",
+  "modernContext": "Today, the name Elvis is often associated with music and entertainment. While not as commonly used as a first name, it remains popular among fans and those influenced by rock and roll culture.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/ˈɛlvɪs/",
+  "variations": [
+    "Elvys",
+    "Alvis",
+    "Elvin",
+    "Elwyn",
+    "Alvise"
+  ],
+  "similarNames": [
+    "Alvis",
+    "Melvin",
+    "Calvin",
+    "Elton",
+    "Eli"
+  ],
+  "nicknames": [
+    "El",
+    "Eli",
+    "Vissy"
+  ],
+  "personality": "The name Elvis is often associated with charisma, creativity, and a strong presence, reflecting the persona of Elvis Presley.",
+  "symbolism": "Elvis symbolizes musical legacy, cultural influence, and individuality, reminiscent of the impact of Elvis Presley.",
+  "funFact": "Elvis Presley was not only a legendary musician but also acted in over 30 films throughout his career.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Elvis Presley",
+      "years": "1935-1977",
+      "category": "Musician",
+      "achievements": [
+        "King of Rock and Roll",
+        "Over 500 million records sold"
+      ],
+      "significance": "Elvis Presley revolutionized the music industry with his innovative style and charismatic performances, becoming a cultural icon.",
+      "notableWorks": [
+        "Jailhouse Rock",
+        "Hound Dog"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Ambition is a dream with a V8 engine.",
+      "author": "Elvis Presley",
+      "context": "Expression of his drive and motivation",
+      "year": 1970,
+      "category": "Music"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Elvis Costello",
+      "profession": "Musician",
+      "knownFor": [
+        "Alison",
+        "Watching the Detectives"
+      ],
+      "awards": "Grammy Award winner"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Lilo & Stitch",
+      "year": 2002,
+      "type": "Movie",
+      "characterName": "Elvis Presley (reference)",
+      "characterDescription": "Referenced as a musical icon throughout the film",
+      "imdbUrl": "https://www.imdb.com/title/tt0275847/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Elvis",
+      "year": 2022,
+      "type": "Movie",
+      "characterName": "Elvis Presley",
+      "characterDescription": "Biographical film about the life of Elvis Presley",
+      "imdbUrl": "https://www.imdb.com/title/tt3704428/",
+      "genre": "Biography",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of illumination and realization, reflecting the bright and bold nature associated with the name.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius",
+      "Aries"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature and a love for excitement and creativity.",
+    "cosmicElement": "Energy",
+    "cosmicElementDescription": "Represents enthusiasm and vitality, akin to the energetic nature of those named Elvis.",
+    "celestialArchetype": "The Performer",
+    "celestialArchetypeDescription": "Symbolizes creativity, charisma, and the ability to captivate audiences.",
+    "karmicLessons": "To harness creativity in productive ways and to inspire others.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire to express oneself and to seek joy and pleasure in life."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 953,
+    "peak": 1,
+    "peakYear": 1957
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "When things go wrong, don't go with them.",
+    "author": "Elvis Presley",
+    "context": "Advice on resilience and perseverance"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "El-vis"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Elvis",
+      "script": "Latin",
+      "scriptName": "Elvis",
+      "pronunciation": "/ˈelbis/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Έλβις",
+      "script": "Greek",
+      "scriptName": "Έλβις",
+      "pronunciation": "/ˈelvis/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إلفيس",
+      "script": "Arabic",
+      "scriptName": "إلفيس",
+      "pronunciation": "/ˈʔilfis/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "埃尔维斯",
+      "script": "Han",
+      "scriptName": "埃尔维斯",
+      "pronunciation": "/ài ěr wéi sī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Элвис",
+      "script": "Cyrillic",
+      "scriptName": "Элвис",
+      "pronunciation": "/ˈɛlvʲɪs/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אלביס",
+      "script": "Hebrew",
+      "scriptName": "אלביס",
+      "pronunciation": "/ˈɛlvɪs/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Elvis is considered a classic name due to its association with the legendary musician Elvis Presley."
+    },
+    {
+      "tag": "Musical",
+      "confidence": 1,
+      "reason": "The name is synonymous with music because of Elvis Presley's influence on rock and roll."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Despite fluctuations in popularity, the name Elvis remains timeless due to its cultural legacy."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Elvis Ain't Dead",
+      "artist": "Scouting for Girls",
+      "year": 2007,
+      "genre": "Pop Rock",
+      "nameContext": "The song references Elvis as a symbol of undying love and nostalgia.",
+      "description": "This pop rock track uses the metaphor of Elvis Presley to convey themes of love and enduring presence, suggesting that true love never dies.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Elvis+Ain't+Dead+Scouting+for+Girls",
+      "geniusUrl": "https://genius.com/Scouting-for-girls-elvis-aint-dead-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Black Velvet",
+      "artist": "Alannah Myles",
+      "year": 1989,
+      "genre": "Blues Rock",
+      "nameContext": "The song references Elvis Presley and his cultural impact.",
+      "description": "Black Velvet is a tribute to Elvis Presley, capturing the essence of his charm and musical influence, combining blues and rock elements.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Black+Velvet+Alannah+Myles",
+      "geniusUrl": "https://genius.com/Alannah-myles-black-velvet-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Elvis, forever immortalized by the legendary Elvis Presley, carries a rich heritage and a vibrant cultural legacy. Known as the 'King of Rock and Roll', Elvis Presley's influence extends far beyond music into fashion, film, and popular culture. His name, synonymous with charisma and talent, remains a symbol of artistic mastery to this day.",
+    "etymology_meaning": "Elvis is of Scandinavian origin, meaning 'all-wise'. While its roots are ancient, the name gained modern prominence through the unparalleled fame of Elvis Presley, whose groundbreaking music and unforgettable performances left a lasting imprint on the world.",
+    "famous_bearers": "Elvis Presley, the most famous bearer of the name, revolutionized the music industry with his unique sound and style. Another notable Elvis is Elvis Costello, a critically acclaimed musician known for his eclectic musical contributions.",
+    "pop_culture_moments": "In pop culture, the name Elvis has been referenced in numerous songs, movies, and shows, often symbolizing rock and roll and cultural rebellion. Films like 'Lilo & Stitch' and 'Elvis' (2022) highlight his enduring legacy.",
+    "personality_profile": "The name Elvis is often associated with creativity, charisma, and a strong presence. Those who bear this name might be seen as dynamic, talented, and influential, much like Elvis Presley himself.",
+    "variations_nicknames": "Variations of Elvis include Elvys and Alvis, while common nicknames are El and Vissy. These variations provide a range of options while maintaining the name's iconic sound.",
+    "popularity_data": "Elvis reached its peak popularity in the United States during the late 1950s, coinciding with Elvis Presley's rise to fame. Although less common today, the name remains a favorite among music enthusiasts.",
+    "pairing_suggestions": "Elvis pairs well with names that share a musical or classic vibe, such as Lennon, Presley, or Melody, creating a harmonious and culturally rich combination.",
+    "cultural_context": "Culturally, the name Elvis is deeply intertwined with American rock and roll history. It symbolizes a period of significant change in music and culture, representing innovation and artistic expression.",
+    "final_recommendation": "Choosing the name Elvis can be a tribute to musical genius and cultural impact. It's a name that carries a legacy of creativity and charisma, perfect for parents who wish to inspire these qualities in their child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

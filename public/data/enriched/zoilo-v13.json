@@ -1,0 +1,234 @@
+{
+  "name": "Zoilo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T05:08:14.869Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Life",
+  "culturalSignificance": "Zoilo is a name with roots in Greek culture, often associated with vitality and life. It gained some recognition in Spanish-speaking countries, owing to historical figures and saints bearing the name, and has a classic, timeless feel.",
+  "modernContext": "In modern times, the name Zoilo is rare but still found in Latin American countries. It is appreciated for its strong sound and historical depth, making it appealing to parents looking for unique yet traditional names.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈzɔɪloʊ",
+  "variations": [
+    "Zoilos",
+    "Zoylo",
+    "Zoile",
+    "Zilo"
+  ],
+  "similarNames": [
+    "Silas",
+    "Milo",
+    "Zeno",
+    "Leo",
+    "Cyrus"
+  ],
+  "nicknames": [
+    "Zoi",
+    "Zo",
+    "Lo",
+    "Zee"
+  ],
+  "personality": "People named Zoilo are often seen as dynamic and vibrant, exuding a sense of vitality and curiosity about the world.",
+  "symbolism": "The name Zoilo carries the symbolism of life and vitality, often associated with new beginnings and energy.",
+  "funFact": "Zoilo is the name of a minor saint in the Catholic Church, celebrated for his piety and dedication.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Zoilo",
+    "significance": "Saint Zoilo is venerated in the Catholic Church as a martyr who is part of the early Christian saints.",
+    "keyStories": [
+      "He is remembered for his martyrdom alongside other saints in Córdoba, Spain."
+    ],
+    "spiritualMeaning": "Represents steadfast faith and spiritual devotion.",
+    "historicalImpact": "Saint Zoilo's feast day is observed in some regions, contributing to the Christian tradition of honoring martyrs."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Zoilo Hermogenes Garcia",
+      "years": "1910-1992",
+      "category": "Politician",
+      "achievements": [
+        "Served as a senator in the Philippines",
+        "Known for his work on labor rights"
+      ],
+      "significance": "Zoilo Garcia was instrumental in advocating for labor rights during his political career in the Philippines.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Zoilo Versalles",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "1965 AL MVP",
+        "Played for Minnesota Twins"
+      ],
+      "awards": "1965 American League Most Valuable Player"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Zoilo Versalles",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Minnesota Twins",
+      "pastTeams": [
+        "Los Angeles Dodgers",
+        "Cleveland Indians"
+      ],
+      "position": "Shortstop",
+      "jerseyNumber": "2",
+      "years": "1959-1971",
+      "achievements": "AL MVP, Gold Glove Award",
+      "knownFor": [
+        "Strong defensive skills",
+        "Speed on bases"
+      ],
+      "awards": "1965 AL MVP",
+      "stats": "Career batting average .242",
+      "verified": true,
+      "source": "Baseball Reference"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs share enthusiasm and energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents energy, assertiveness, and passion.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Known for charisma and a pioneering spirit.",
+    "karmicLessons": "Learning to balance enthusiasm with patience.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desires freedom and adventure, driven by curiosity."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Live life with passion and purpose.",
+    "author": "Zoilo Versalles",
+    "context": "Reflecting the vibrant energy associated with the name."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Zoi-lo"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Zoilo",
+      "script": "Latin",
+      "scriptName": "Zoilo",
+      "pronunciation": "ˈθoi.lo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ζωΐλος",
+      "script": "Greek",
+      "scriptName": "Ζωΐλος",
+      "pronunciation": "ˈzo.i.los",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "",
+      "script": "Arabic",
+      "scriptName": "",
+      "pronunciation": "",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "",
+      "script": "Han",
+      "scriptName": "",
+      "pronunciation": "",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Зойло",
+      "script": "Cyrillic",
+      "scriptName": "Зойло",
+      "pronunciation": "ˈzojlo",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "",
+      "script": "Hebrew",
+      "scriptName": "",
+      "pronunciation": "",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical roots and a timeless appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Associated with historical figures and saints."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Its Greek origin gives it a literary flair."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Zoilo is a captivating name with a rich history and vibrant meaning. Known for its Greek origins, it signifies life and vitality, making it an excellent choice for parents seeking a name with depth and character. While not overly common, it holds a unique charm that resonates across cultures.",
+    "etymology_meaning": "The name Zoilo originates from Greek, where it is derived from the word 'Zoe,' meaning life. Historically, it was borne by several notable figures, including saints and public figures, adding to its timeless appeal.",
+    "famous_bearers": "Notable individuals named Zoilo include Zoilo Versalles, an acclaimed baseball player who won the American League MVP award, and Zoilo Hermogenes Garcia, a Philippine senator known for his work on labor rights.",
+    "pop_culture_moments": "While the name Zoilo hasn't been prominently featured in popular culture, it maintains a presence through historical records and its association with prominent figures in sports and politics.",
+    "personality_profile": "Those named Zoilo are often associated with vitality and a zest for life, mirroring the name's meaning. They are perceived as dynamic individuals, full of energy and a desire to explore the world.",
+    "variations_nicknames": "Variations of the name include Zoilos and Zoylo, while common nicknames are Zoi, Zo, and Lo. These variations add flexibility and personalization to the name, making it adaptable to different cultures and preferences.",
+    "popularity_data": "Although not a top-ranking name in recent years, Zoilo's unique sound and historical roots keep it intriguing to parents who value tradition and individuality.",
+    "pairing_suggestions": "Zoilo pairs well with names like Elias or Lucas for boys, and Sofia or Maria for girls, creating a harmonious blend of classic and modern styles.",
+    "cultural_context": "With its origins in Greek culture and its use in Spanish-speaking countries, Zoilo is a name that transcends borders, offering a rich cultural heritage and a sense of timelessness.",
+    "final_recommendation": "For parents seeking a name with historical significance, cultural depth, and a unique sound, Zoilo is an excellent choice. Its association with life and vitality makes it particularly appealing for those who wish to bestow an energetic and positive name upon their child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}
