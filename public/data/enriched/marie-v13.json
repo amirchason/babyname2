@@ -1,0 +1,302 @@
+{
+  "name": "Marie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:36:25.273Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Bitter",
+  "culturalSignificance": "Marie is a classic name with deep roots in European history, often associated with royalty and religious figures. It is the French form of Mary, which has been a common name in Christian contexts due to its connection to the Virgin Mary.",
+  "modernContext": "Marie remains a popular name in many countries, especially in France and other parts of Europe. It is often chosen for its timeless elegance and cultural resonance.",
+  "literaryReferences": "",
+  "pronunciationGuide": "məˈriː",
+  "variations": [
+    "Maria",
+    "Mary",
+    "Maree",
+    "Mari",
+    "Mariya"
+  ],
+  "similarNames": [
+    "Marianne",
+    "Martha",
+    "Mary",
+    "Marina",
+    "Margaret"
+  ],
+  "nicknames": [
+    "Mimi",
+    "Rie",
+    "Mia",
+    "Mare",
+    "May"
+  ],
+  "personality": "Marie is often associated with grace, elegance, and a strong sense of tradition. Individuals with this name are perceived as nurturing and compassionate.",
+  "symbolism": "The name Marie symbolizes purity and devotion, often linked to maternal and nurturing qualities.",
+  "funFact": "Marie is a common middle name in many cultures, often used to honor family or religious traditions.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Virgin Mary",
+    "significance": "Marie is the French form of Mary, deeply significant in Christianity as the name of the mother of Jesus.",
+    "keyStories": [
+      "The Annunciation",
+      "The Nativity"
+    ],
+    "spiritualMeaning": "Symbolizes purity and divine motherhood.",
+    "historicalImpact": "The name has been revered and widely used due to its association with the Virgin Mary, influencing Christian naming practices for centuries."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Marie Curie",
+      "years": "1867-1934",
+      "category": "Scientist",
+      "achievements": [
+        "First woman to win a Nobel Prize",
+        "First person to win Nobel Prizes in two different sciences"
+      ],
+      "significance": "Marie Curie was a pioneering physicist and chemist who conducted groundbreaking research on radioactivity.",
+      "notableWorks": [
+        "Research on Radium",
+        "Studies on Radioactivity"
+      ]
+    },
+    {
+      "fullName": "Marie Antoinette",
+      "years": "1755-1793",
+      "category": "Royalty",
+      "achievements": [
+        "Queen of France"
+      ],
+      "significance": "Marie Antoinette was the last Queen of France before the French Revolution, often remembered for her extravagant lifestyle.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Nothing in life is to be feared, it is only to be understood.",
+      "author": "Marie Curie",
+      "context": "Encouraging scientific exploration and understanding.",
+      "year": 1903,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Marie Osmond",
+      "profession": "Musician",
+      "knownFor": [
+        "Paper Roses",
+        "The Donny & Marie Show"
+      ],
+      "awards": "Country Music Association Award"
+    },
+    {
+      "name": "Marie Kondo",
+      "profession": "Author",
+      "knownFor": [
+        "The Life-Changing Magic of Tidying Up"
+      ],
+      "awards": "Time 100 Most Influential People"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Sound of Music",
+      "year": 1965,
+      "type": "Movie",
+      "characterName": "Maria Rainer",
+      "characterDescription": "A governess who brings joy and music to a family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0059742/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "West Side Story",
+      "year": 1961,
+      "type": "Movie",
+      "characterName": "Maria",
+      "characterDescription": "The love interest of Tony, central to the film's romantic plot.",
+      "imdbUrl": "https://www.imdb.com/title/tt0055614/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "The hills are alive with the sound of music.",
+      "character": "Maria Rainer",
+      "source": "The Sound of Music",
+      "year": 1965,
+      "context": "Expressing joy and freedom through music.",
+      "genre": "Musical",
+      "impact": "Captured the transformative power of music and nature."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs offer emotional depth and understanding.",
+    "cosmicElement": "The Nurturer",
+    "cosmicElementDescription": "Represents care, empathy, and emotional support.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Brings comfort and renewal to those around them.",
+    "karmicLessons": "Learning to balance giving with receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and community."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 273,
+    "peak": 51,
+    "peakYear": 1901
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Marie Curie",
+    "context": "Encouraging belief in one's potential and vision."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ma-rie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "María",
+      "script": "Latin",
+      "scriptName": "María",
+      "pronunciation": "maˈɾi.a",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαρία",
+      "script": "Greek",
+      "scriptName": "Μαρία",
+      "pronunciation": "maˈri.a",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماري",
+      "script": "Arabic",
+      "scriptName": "ماري",
+      "pronunciation": "maːriː",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛丽",
+      "script": "Han",
+      "scriptName": "玛丽",
+      "pronunciation": "mǎ lì",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мария",
+      "script": "Cyrillic",
+      "scriptName": "Мария",
+      "pronunciation": "mɐˈrʲijə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מרי",
+      "script": "Hebrew",
+      "scriptName": "מרי",
+      "pronunciation": "ˈma.ri",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Marie has been consistently used across centuries and cultures."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Frequently associated with European royalty."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Connected to the Virgin Mary in Christian tradition."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Marie",
+      "artist": "Randy Newman",
+      "year": 1974,
+      "genre": "Rock",
+      "nameContext": "The song is named after Marie and centers around a romantic theme.",
+      "description": "A heartfelt ballad expressing love and admiration for Marie.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Randy+Newman+Marie",
+      "geniusUrl": "https://genius.com/Randy-newman-marie-lyrics",
+      "verified": true
+    },
+    {
+      "title": "My Marie",
+      "artist": "Engelbert Humperdinck",
+      "year": 1970,
+      "genre": "Pop",
+      "nameContext": "Marie is the subject of the song, capturing tender emotions.",
+      "description": "A romantic song dedicated to Marie, expressing longing and affection.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Engelbert+Humperdinck+My+Marie",
+      "geniusUrl": "https://genius.com/Engelbert-humperdinck-my-marie-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Marie is a name that has gracefully stood the test of time, cherished for its elegance and historical significance. From royalty to renowned scientists, this name has been borne by influential figures throughout history. Its association with the Virgin Mary adds a layer of spiritual depth, making it a favored choice for many.",
+    "etymology_meaning": "The name Marie is derived from the Hebrew name Miriam, meaning 'bitter'. Over centuries, it has evolved through various languages and cultures, becoming a staple in French-speaking regions.",
+    "famous_bearers": "One of the most iconic bearers of the name is Marie Curie, a trailblazing scientist who made monumental contributions to the field of radioactivity. Another well-known figure is Marie Antoinette, the last Queen of France before the French Revolution.",
+    "pop_culture_moments": "Marie is a name frequently encountered in pop culture, featured in classic films like 'The Sound of Music' and 'West Side Story'. These portrayals often emphasize themes of love and resilience.",
+    "personality_profile": "People named Marie are often seen as nurturing, graceful, and steadfast. They are thought to embody a blend of traditional values with a modern sensibility.",
+    "variations_nicknames": "Marie has several variations, including Maria and Mary, each with its unique cultural flavor. Common nicknames include Mimi, Rie, and Mare, offering a touch of familiarity and affection.",
+    "popularity_data": "Marie has consistently ranked as a popular name, especially in the early 20th century. While its peak in popularity has waned, it remains a beloved choice for its classic appeal.",
+    "pairing_suggestions": "Marie pairs well with both traditional and modern names, such as Marie Claire or Marie Louise. Its versatility makes it suitable as both a first and middle name.",
+    "cultural_context": "The name Marie carries a rich cultural heritage, often linked to European history and Christian religious traditions. It is a name that resonates with elegance and timeless charm.",
+    "final_recommendation": "For parents seeking a name with historical depth and a touch of elegance, Marie is an excellent choice. Its timeless appeal and cultural significance ensure it will remain a beloved name for generations.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

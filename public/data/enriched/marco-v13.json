@@ -1,0 +1,276 @@
+{
+  "name": "Marco",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T17:00:08.794Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Warlike",
+  "culturalSignificance": "Marco is a name with historical roots primarily in Italy and Spain, deriving from the Latin 'Marcus', meaning 'warlike'. It is associated with strength and valor, often linked to the famous Venetian explorer Marco Polo.",
+  "modernContext": "Marco remains a popular name in Italy and Spanish-speaking countries, often chosen for its strong and classic sound. It has maintained a steady presence in modern naming trends across Europe and the Americas.",
+  "literaryReferences": "Marco Polo, a Venetian merchant traveler, has been depicted in numerous historical and fictional works, underlining the adventurous and explorative connotations of the name.",
+  "pronunciationGuide": "/ˈmɑːr.koʊ/",
+  "variations": [
+    "Marko",
+    "Marcos",
+    "Marcus",
+    "Marc",
+    "Mark"
+  ],
+  "similarNames": [
+    "Mario",
+    "Marcello",
+    "Luca",
+    "Matteo",
+    "Antonio"
+  ],
+  "nicknames": [
+    "Marc",
+    "Mark",
+    "Coco"
+  ],
+  "personality": "The name Marco is often associated with adventurous and independent personalities, reflecting a spirit of exploration and leadership.",
+  "symbolism": "Marco symbolizes courage and exploration, often linked to historical figures who were pioneers and leaders.",
+  "funFact": "Marco Polo's travels to Asia and his subsequent documentation of the journey significantly influenced European cartography and exploration.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Marco Polo",
+      "years": "1254-1324",
+      "category": "Explorer",
+      "achievements": [
+        "First European to document travels to Asia extensively",
+        "Influenced European exploration"
+      ],
+      "significance": "Marco Polo's accounts of his travels to China and other parts of Asia were among the first detailed descriptions of the East to be widely circulated in Europe.",
+      "notableWorks": [
+        "The Travels of Marco Polo"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Marco Rubio",
+      "profession": "Politician",
+      "knownFor": [
+        "U.S. Senator from Florida",
+        "Presidential candidate"
+      ],
+      "awards": "None notable"
+    },
+    {
+      "name": "Marco Pierre White",
+      "profession": "Chef",
+      "knownFor": [
+        "Youngest chef to be awarded three Michelin stars",
+        "Influential in modern cooking"
+      ],
+      "awards": "Three Michelin stars"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Marco Verratti",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Serie A",
+      "team": "Paris Saint-Germain",
+      "pastTeams": [
+        "Pescara"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "6",
+      "years": "2012-Present",
+      "achievements": "Multiple league titles, UEFA Champions League finalist",
+      "knownFor": [
+        "Passing accuracy",
+        "Vision"
+      ],
+      "awards": "Included in the UEFA Team of the Year",
+      "stats": "Over 300 appearances for PSG",
+      "verified": true,
+      "source": "https://www.uefa.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Marco Polo",
+      "year": 2014,
+      "type": "TV Show",
+      "characterName": "Marco Polo",
+      "characterDescription": "A Venetian merchant who travels to the court of Kublai Khan",
+      "imdbUrl": "https://www.imdb.com/title/tt2189461/",
+      "genre": "Historical Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of fulfillment and heightened energy.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share the fiery, enthusiastic energy that complements the adventurous nature of Marco.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents passion, energy, and enthusiasm.",
+    "celestialArchetype": "The Explorer",
+    "celestialArchetypeDescription": "The Explorer archetype is characterized by a desire for new experiences, adventure, and discovering the unknown.",
+    "karmicLessons": "To channel adventurous spirit into constructive and meaningful pursuits.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and new experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 285,
+    "peak": 120,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "I have not told half of what I saw.",
+    "author": "Marco Polo",
+    "context": "Referring to his travels and the accounts he documented."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mar-co"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Marco",
+      "script": "Latin",
+      "scriptName": "Marco",
+      "pronunciation": "/ˈmaɾ.ko/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μάρκος",
+      "script": "Greek",
+      "scriptName": "Μάρκος",
+      "pronunciation": "/ˈmar.kos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماركو",
+      "script": "Arabic",
+      "scriptName": "ماركو",
+      "pronunciation": "/maːr.kuː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "马可",
+      "script": "Han",
+      "scriptName": "马可",
+      "pronunciation": "/mǎ kě/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Марко",
+      "script": "Cyrillic",
+      "scriptName": "Марко",
+      "pronunciation": "/ˈmar.kə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מרקו",
+      "script": "Hebrew",
+      "scriptName": "מרקו",
+      "pronunciation": "/ˈmaʁ.ko/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Travels of Marco Polo",
+      "author": "Marco Polo",
+      "publishedYear": 1300,
+      "genre": "Non-fiction",
+      "significance": "One of the most famous travel books, offering insight into 13th-century Asia and sparking European interest in the continent.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Marco has been used for centuries and remains popular, especially in European cultures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name's consistent use over the years across various cultures makes it timeless."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Associated with Marco Polo, a historical figure with literary significance."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Marco Polo",
+      "artist": "Bow Wow featuring Soulja Boy Tell 'Em",
+      "year": 2008,
+      "genre": "Hip Hop",
+      "nameContext": "The song's chorus and theme revolve around the name.",
+      "description": "A hip-hop track that uses the name Marco Polo to evoke themes of exploration and adventure, with a modern twist.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Marco+Polo+Bow+Wow",
+      "geniusUrl": "https://genius.com/Bow-wow-marco-polo-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Marco is a name that conjures images of exploration and adventure, thanks to its historical association with the famous traveler Marco Polo. With its strong, classic sound, it has been a favorite in many cultures for centuries.",
+    "etymology_meaning": "The name Marco originates from the Latin 'Marcus', meaning 'warlike'. It has been a staple in Italian and Spanish cultures and is synonymous with strength and leadership.",
+    "famous_bearers": "Beyond Marco Polo, the name has been borne by influential figures such as Senator Marco Rubio and renowned chef Marco Pierre White, further cementing its association with leadership and excellence.",
+    "pop_culture_moments": "Marco has appeared in popular culture, notably in the Netflix series 'Marco Polo', which dramatizes the explorer's travels and adventures in Asia.",
+    "personality_profile": "Those named Marco are often perceived as adventurous and independent, with a natural inclination towards leadership and exploration.",
+    "variations_nicknames": "Variations like Marko and Marcus, and nicknames such as Marc or Coco, provide flexibility while retaining the name's classic charm.",
+    "popularity_data": "While its popularity has fluctuated, Marco remains a beloved choice, particularly in European countries, maintaining a top spot in many naming charts.",
+    "pairing_suggestions": "Marco pairs well with names like Luca, Sofia, and Isabella, creating a harmonious blend of traditional and contemporary sounds.",
+    "cultural_context": "Rooted in Latin origins, Marco's use spans across diverse cultures, each adding unique nuances to its timeless appeal.",
+    "final_recommendation": "Choosing the name Marco ensures a legacy of strength and exploration, perfect for those seeking a name with historical depth and modern relevance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

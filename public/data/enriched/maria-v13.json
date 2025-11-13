@@ -1,0 +1,325 @@
+{
+  "name": "Maria",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:11:06.764Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Bitter",
+  "culturalSignificance": "Maria is a classic name with deep roots in various cultures. Originating from the Hebrew name Maryam or Miriam, it has significant historical and religious importance, especially in Christian contexts where it is associated with the Virgin Mary.",
+  "modernContext": "Maria remains a popular name globally, often appreciated for its timeless elegance and historical depth. It is a common name in many countries, including Spain, Italy, and Latin America, maintaining its popularity through its cultural resonance and simplicity.",
+  "literaryReferences": "The name Maria is famously used in Shakespeare's 'Twelfth Night' as a clever and mischievous lady-in-waiting.",
+  "pronunciationGuide": "məˈriːə",
+  "variations": [
+    "Marie",
+    "Mary",
+    "Miriam",
+    "Marija",
+    "Mariya"
+  ],
+  "similarNames": [
+    "Mariana",
+    "Marta",
+    "Mara",
+    "Mila",
+    "Mia"
+  ],
+  "nicknames": [
+    "Mia",
+    "Mari",
+    "Ria",
+    "Masha"
+  ],
+  "personality": "People named Maria are often perceived as nurturing, reliable, and compassionate. They are considered to have a strong sense of empathy and are often seen as natural caretakers.",
+  "symbolism": "Maria is often associated with purity and grace, symbolizing a sense of dignity and strength.",
+  "funFact": "Maria is one of the most common first names in the world, especially prevalent in Roman Catholic countries due to its association with the Virgin Mary.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Virgin Mary",
+    "significance": "Maria is the Latin form of Mary, the mother of Jesus Christ, who is a central figure in Christianity. She is revered for her purity and role as the mother of the Savior.",
+    "keyStories": [
+      "Annunciation",
+      "Nativity"
+    ],
+    "spiritualMeaning": "Symbol of purity and maternal love.",
+    "historicalImpact": "Maria has inspired countless works of art, literature, and music, emphasizing her role in Jesus's life and the Christian faith."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Maria Theresa",
+      "years": "1717-1780",
+      "category": "Royalty",
+      "achievements": [
+        "First and only female ruler of the Habsburg dominions",
+        "Reformed the Austrian economy and education"
+      ],
+      "significance": "Maria Theresa was a significant figure in European history, known for her political acumen and reformative policies.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Maria Montessori",
+      "years": "1870-1952",
+      "category": "Scientist",
+      "achievements": [
+        "Founder of the Montessori method of education"
+      ],
+      "significance": "Maria Montessori revolutionized early childhood education with her child-centered educational approach.",
+      "notableWorks": [
+        "The Montessori Method",
+        "The Absorbent Mind"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Maria Callas",
+      "profession": "Opera Singer",
+      "knownFor": [
+        "Renowned soprano",
+        "Performances at La Scala"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Maria Sharapova",
+      "profession": "Tennis Player",
+      "knownFor": [
+        "Winning five Grand Slam titles",
+        "Consistently ranking in the world's top 10"
+      ],
+      "awards": "Five-time Grand Slam champion"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Maria Sharapova",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "WTA",
+      "team": "",
+      "pastTeams": [],
+      "position": "",
+      "jerseyNumber": "",
+      "years": "2001-2020",
+      "achievements": "Five Grand Slam titles, Olympic silver medalist",
+      "knownFor": [
+        "Powerful serve",
+        "Competitive spirit"
+      ],
+      "awards": "ITF World Champion",
+      "stats": "36 WTA singles titles",
+      "verified": true,
+      "source": "https://www.wtatennis.com/players/310137/maria-sharapova"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "West Side Story",
+      "year": 1961,
+      "type": "Movie",
+      "characterName": "Maria",
+      "characterDescription": "A young Puerto Rican girl who falls in love with a member of a rival gang.",
+      "imdbUrl": "https://www.imdb.com/title/tt0055614/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 91
+    },
+    {
+      "title": "The Sound of Music",
+      "year": 1965,
+      "type": "Movie",
+      "characterName": "Maria",
+      "characterDescription": "A spirited young woman who becomes the governess for the von Trapp family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0059742/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 94
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I feel pretty, oh so pretty!",
+      "character": "Maria",
+      "source": "West Side Story",
+      "year": 1961,
+      "context": "Maria sings about her newfound love and happiness.",
+      "genre": "Musical",
+      "impact": "The song captures Maria's youthful joy and optimism."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and clarity, perfect for celebrating achievements.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These water signs share Maria's depth of emotion and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water symbolizes emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Maria's archetype is associated with compassion and nurturing.",
+    "karmicLessons": "Embrace and express emotions fully.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 116,
+    "peak": 31,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Maria, you're the song in my heart.",
+    "author": "Famous Artist",
+    "context": "Expressing admiration and love."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ma-ri-a"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "María",
+      "script": "Latin",
+      "scriptName": "María",
+      "pronunciation": "maˈɾi.a",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαρία",
+      "script": "Greek",
+      "scriptName": "Μαρία",
+      "pronunciation": "maˈri.a",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماريا",
+      "script": "Arabic",
+      "scriptName": "ماريا",
+      "pronunciation": "maˈriːa",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛丽亚",
+      "script": "Han",
+      "scriptName": "玛丽亚",
+      "pronunciation": "mǎ lì yà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мария",
+      "script": "Cyrillic",
+      "scriptName": "Мария",
+      "pronunciation": "mɐˈrʲijə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מריה",
+      "script": "Hebrew",
+      "scriptName": "מריה",
+      "pronunciation": "maˈʁia",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "My Name is Maria Isabel",
+      "author": "Alma Flor Ada",
+      "publishedYear": 1993,
+      "genre": "Children's Literature",
+      "significance": "This book explores themes of identity and cultural pride.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Maria is a timeless name with historical and cultural roots across the world."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "The name Maria is associated with the Virgin Mary, a central figure in Christianity."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name Maria has been consistently popular and widely used across different eras."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Maria",
+      "artist": "Blondie",
+      "year": 1999,
+      "genre": "Rock",
+      "nameContext": "The name appears as the focal point of the song's chorus.",
+      "description": "This song by Blondie describes a woman named Maria who is confident and alluring, capturing attention wherever she goes.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Blondie+Maria",
+      "geniusUrl": "https://genius.com/Blondie-maria-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Maria Maria",
+      "artist": "Santana",
+      "year": 1999,
+      "genre": "Latin Rock",
+      "nameContext": "The name is used in the chorus, referencing a woman of charm and complexity.",
+      "description": "This song blends Latin sounds with rock and hip-hop, celebrating a woman named Maria and her cultural roots.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Santana+Maria+Maria",
+      "geniusUrl": "https://genius.com/Santana-maria-maria-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Maria is a name that resonates with timeless elegance and profound cultural significance. From its biblical roots to its modern-day usage, Maria has been a staple across cultures and continents. This name evokes a sense of grace and strength, making it a favorite for parents seeking a classic choice.",
+    "etymology_meaning": "Maria originates from the Hebrew name Maryam or Miriam, which means 'bitter'. Despite its seemingly negative meaning, the name has been embraced for its association with the Virgin Mary, adding layers of reverence and honor.",
+    "famous_bearers": "Throughout history, many notable figures have borne the name Maria. From Maria Theresa, the formidable ruler of the Habsburg Empire, to Maria Montessori, the pioneering educator, this name has been associated with women of influence and innovation.",
+    "pop_culture_moments": "In pop culture, Maria has been immortalized in musicals like 'West Side Story' and 'The Sound of Music', where the characters named Maria are central to the narrative and beloved by audiences.",
+    "personality_profile": "Individuals named Maria are often seen as nurturing and empathetic, with a natural ability to connect with others. They are perceived as strong yet gentle, embodying both resilience and compassion.",
+    "variations_nicknames": "Maria has several variations including Marie, Mary, and Miriam. Common nicknames include Mia, Mari, and Ria, offering a range of options for personalization.",
+    "popularity_data": "Maria has consistently ranked among the top names in many countries, particularly in regions with strong Catholic traditions. Its enduring popularity is a testament to its universal appeal.",
+    "pairing_suggestions": "Maria pairs beautifully with a range of surnames, offering a harmonious blend with both short and long last names. Consider pairing it with classic middle names like Elizabeth or modern choices like Grace.",
+    "cultural_context": "The name Maria holds a special place in many cultures, particularly within Christian communities where it symbolizes purity and devotion. Its widespread use across different languages highlights its global resonance.",
+    "final_recommendation": "For parents seeking a name that combines history, elegance, and cultural depth, Maria is an excellent choice. Its timeless appeal ensures that it will remain cherished for generations to come.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

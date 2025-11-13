@@ -1,0 +1,272 @@
+{
+  "name": "Marty",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:47:57.374Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Dedicated to Mars",
+  "culturalSignificance": "Marty is a diminutive of the name Martin, which originates from the Roman name Martinus, derived from Mars, the Roman god of war. The name has been used in various cultures and carries connotations of strength and courage.",
+  "modernContext": "In modern times, Marty is often used as a standalone name for both boys and girls, though it remains more common as a masculine name. It retains popularity in English-speaking countries and is often associated with friendly and approachable personalities.",
+  "literaryReferences": "Marty is a character name in several books and movies, often depicted as a relatable and dynamic figure.",
+  "pronunciationGuide": "/ˈmɑːrti/",
+  "variations": [
+    "Martin",
+    "Martyn",
+    "Martie",
+    "Marti",
+    "Martina"
+  ],
+  "similarNames": [
+    "Marvin",
+    "Marcus",
+    "Mark",
+    "Mary",
+    "Martha"
+  ],
+  "nicknames": [
+    "Mart",
+    "Mars",
+    "Martie",
+    "Artie"
+  ],
+  "personality": "People named Marty are often perceived as friendly, outgoing, and reliable. They are seen as adaptable and have a strong sense of justice.",
+  "symbolism": "The name Marty symbolizes bravery and strength, drawing from its association with the Roman god Mars.",
+  "funFact": "Marty McFly, the iconic character from 'Back to the Future', further popularized the name in the 1980s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Marty Feldman",
+      "profession": "Actor",
+      "knownFor": [
+        "Young Frankenstein",
+        "The Marty Feldman Comedy Machine"
+      ],
+      "awards": "BAFTA Award for Best Newcomer"
+    },
+    {
+      "name": "Marty Robbins",
+      "profession": "Musician",
+      "knownFor": [
+        "El Paso",
+        "Big Iron"
+      ],
+      "awards": "Grammy Award for Best Country & Western Recording"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Marty McSorley",
+      "profession": "Athlete",
+      "sport": "Hockey",
+      "league": "NHL",
+      "team": "Edmonton Oilers",
+      "pastTeams": [
+        "Los Angeles Kings",
+        "Pittsburgh Penguins",
+        "New York Rangers"
+      ],
+      "position": "Defenseman",
+      "jerseyNumber": "33",
+      "years": "1983-2000",
+      "achievements": "2x Stanley Cup Champion",
+      "knownFor": [
+        "Physical play",
+        "Enforcer role"
+      ],
+      "awards": "None",
+      "stats": "359 points in 961 games",
+      "verified": true,
+      "source": "NHL official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Back to the Future",
+      "year": 1985,
+      "type": "Movie",
+      "characterName": "Marty McFly",
+      "characterDescription": "A teenager who travels through time in a DeLorean",
+      "imdbUrl": "https://www.imdb.com/title/tt0088763/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "Marty",
+      "year": 1955,
+      "type": "Movie",
+      "characterName": "Marty Piletti",
+      "characterDescription": "A lonely butcher in search of love",
+      "imdbUrl": "https://www.imdb.com/title/tt0048356/",
+      "genre": "Romance",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Wait a minute, Doc. Are you telling me you built a time machine... out of a DeLorean?",
+      "character": "Marty McFly",
+      "source": "Back to the Future",
+      "year": 1985,
+      "context": "Marty's reaction upon seeing the time machine for the first time.",
+      "genre": "Science Fiction",
+      "impact": "This quote encapsulates the wonder and humor of the film."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for taking action and making decisions.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature and enthusiasm.",
+    "cosmicElement": "Passion",
+    "cosmicElementDescription": "Represents a drive and desire for life.",
+    "celestialArchetype": "The Adventurer",
+    "celestialArchetypeDescription": "Known for seeking out new experiences and challenges.",
+    "karmicLessons": "Learning to balance impulsiveness with patience.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and independence."
+  },
+  "genderDistribution": {
+    "male": 75,
+    "female": 25
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 150,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Your future is whatever you make it, so make it a good one.",
+    "author": "Marty McFly",
+    "context": "Advice given in 'Back to the Future'."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mar-ty"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Marty",
+      "script": "Latin",
+      "scriptName": "Marty",
+      "pronunciation": "/ˈmaɾ.ti/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μάρτυ",
+      "script": "Greek",
+      "scriptName": "Μάρτυ",
+      "pronunciation": "/ˈmar.ti/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مارتي",
+      "script": "Arabic",
+      "scriptName": "مارتي",
+      "pronunciation": "/ˈmaːr.ti/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "马蒂",
+      "script": "Han",
+      "scriptName": "马蒂",
+      "pronunciation": "/mǎ.dì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Марти",
+      "script": "Cyrillic",
+      "scriptName": "Марти",
+      "pronunciation": "/ˈmar.tʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מרטי",
+      "script": "Hebrew",
+      "scriptName": "מרטי",
+      "pronunciation": "/ˈmɑr.ti/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Marty",
+      "author": "Paddy Chayefsky",
+      "publishedYear": 1955,
+      "genre": "Drama",
+      "significance": "The book, along with its film adaptation, explores themes of loneliness and self-worth.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has timeless appeal and historical roots."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Increased popularity due to pop culture references."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in notable literary works."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Marty may evoke images of a friendly and approachable individual, thanks to its timeless charm and modern popularity. With roots in ancient Rome, Marty has transcended cultures and centuries, maintaining a strong presence in both historical and contemporary contexts.",
+    "etymology_meaning": "Derived from the Roman name Martinus, Marty is closely associated with Mars, the Roman god of war, symbolizing strength and courage. This connection gives the name a robust and enduring appeal.",
+    "famous_bearers": "Notable personalities like Marty Feldman, the comedic actor, and Marty Robbins, the legendary country singer, highlight the name's versatility across various fields. Each has left a unique mark in their respective domains.",
+    "pop_culture_moments": "Marty McFly from 'Back to the Future' remains an iconic character, bringing the name into the limelight in the 1980s. His adventures have kept the name relevant and beloved among fans.",
+    "personality_profile": "Marty is often associated with individuals who are charismatic, spirited, and adventurous. They are perceived as leaders who thrive on excitement and new experiences.",
+    "variations_nicknames": "Common variations like Martin and Martyn, along with nicknames such as Mart and Martie, offer a range of options for those named Marty. These variations reflect the name's adaptability.",
+    "popularity_data": "The name Marty saw a peak in the mid-1980s, coinciding with its pop culture prominence. While it has fluctuated over the years, it remains a favored choice for parents seeking a classic yet vibrant name.",
+    "pairing_suggestions": "For a harmonious combination, consider pairing Marty with names like Emily, James, or Olivia. These pairings balance traditional and contemporary elements, creating a cohesive sound.",
+    "cultural_context": "Marty's use across different cultures highlights its universal appeal. The name carries a sense of bravery and determination, resonating with people from various backgrounds.",
+    "final_recommendation": "Marty is an excellent choice for those seeking a name that blends historical significance with modern flair. Its connections to strong, influential figures make it a meaningful and inspiring choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

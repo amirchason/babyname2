@@ -1,0 +1,289 @@
+{
+  "name": "Amy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:37:45.003Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Beloved",
+  "culturalSignificance": "The name Amy has been a popular choice across English-speaking countries for centuries, derived from the Old French 'Amee', meaning beloved. It gained popularity due to its simple, classic sound and the positive connotations of affection and love.",
+  "modernContext": "Amy remains a widely used name, consistently appearing in the top 200 names in the United States. Its continued popularity can be attributed to its timeless appeal and associations with notable figures in literature and entertainment.",
+  "literaryReferences": "The name Amy is famously used in Louisa May Alcott's 'Little Women', where Amy March is one of the central characters. This association has contributed to the name's enduring popularity.",
+  "pronunciationGuide": "/ˈeɪ.mi/",
+  "variations": [
+    "Aimee",
+    "Amie",
+    "Amelia",
+    "Amalia",
+    "Amada"
+  ],
+  "similarNames": [
+    "Emily",
+    "Emma",
+    "Abby",
+    "Annie",
+    "Ava",
+    "Chloe"
+  ],
+  "nicknames": [
+    "Ames",
+    "Aim",
+    "Mee",
+    "Amy Lou"
+  ],
+  "personality": "The name Amy is often associated with warmth and friendliness, reflecting someone who is approachable and caring. People with this name are thought to be compassionate and reliable.",
+  "symbolism": "Amy symbolizes love and affection, qualities that are often associated with nurturing and kindness. It represents a deep emotional connection.",
+  "funFact": "The name Amy surged in popularity in the 1970s, partly due to the success of the song 'Amy' by Pure Prairie League.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Amy Lowell",
+      "years": "1874-1925",
+      "category": "Poet",
+      "achievements": [
+        "Pulitzer Prize for Poetry"
+      ],
+      "significance": "Amy Lowell was a distinguished American poet known for her imagist poetry, which sought to capture the essence of a moment through vivid imagery.",
+      "notableWorks": [
+        "Sword Blades and Poppy Seed",
+        "Can Grande's Castle"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Amy Adams",
+      "profession": "Actor",
+      "knownFor": [
+        "Enchanted",
+        "Arrival"
+      ],
+      "awards": "Golden Globe Awards"
+    },
+    {
+      "name": "Amy Winehouse",
+      "profession": "Musician",
+      "knownFor": [
+        "Back to Black",
+        "Rehab"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Enchanted",
+      "year": 2007,
+      "type": "Movie",
+      "characterName": "Giselle (played by Amy Adams)",
+      "characterDescription": "A princess from a fairy tale land who finds herself in modern-day New York City.",
+      "imdbUrl": "https://www.imdb.com/title/tt0461770/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Little Women",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Amy March",
+      "characterDescription": "One of the four March sisters, known for her artistic talent and ambition.",
+      "imdbUrl": "https://www.imdb.com/title/tt3281548/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I want to be great, or nothing.",
+      "character": "Amy March",
+      "source": "Little Women",
+      "year": 2019,
+      "context": "Amy expresses her ambition to achieve greatness in her artistic pursuits.",
+      "genre": "Drama",
+      "impact": "This quote reflects Amy's determination and ambition, inspiring audiences with its message of striving for excellence."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Saturday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A phase symbolizing growth and new beginnings.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share emotional depth and intuition, complementing the name's symbolic qualities.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Represents nurturing and the ability to provide comfort and care.",
+    "celestialArchetype": "The Caregiver",
+    "celestialArchetypeDescription": "An archetype known for its empathy, warmth, and dedication to helping others.",
+    "karmicLessons": "Embrace self-care and maintain emotional balance.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and a nurturing environment."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 205,
+    "peak": 2,
+    "peakYear": 1976
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To love and be loved is to feel the sun from both sides.",
+    "author": "David Viscott",
+    "context": "Reflects the meaning of the name Amy, emphasizing the importance of love."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "A-my"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Amada",
+      "script": "Latin",
+      "scriptName": "Amada",
+      "pronunciation": "/aˈmaða/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αμι",
+      "script": "Greek",
+      "scriptName": "Αμι",
+      "pronunciation": "/ˈami/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آمي",
+      "script": "Arabic",
+      "scriptName": "آمي",
+      "pronunciation": "/ˈaː.mi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾米",
+      "script": "Han",
+      "scriptName": "艾米",
+      "pronunciation": "/ài mǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эми",
+      "script": "Cyrillic",
+      "scriptName": "Эми",
+      "pronunciation": "/ˈemi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "איימי",
+      "script": "Hebrew",
+      "scriptName": "איימי",
+      "pronunciation": "/ˈeɪ.mi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "publishedYear": 1868,
+      "genre": "Fiction",
+      "significance": "A classic novel that explores the lives and relationships of four sisters, with Amy March being a pivotal character.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Amy has been used for centuries and remains popular."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's simplicity and positive meaning contribute to its enduring appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Prominent use in literature, particularly 'Little Women'."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Amy",
+      "artist": "Pure Prairie League",
+      "year": 1973,
+      "genre": "Country Rock",
+      "nameContext": "Title and central theme of the song.",
+      "description": "This song expresses a longing for a girl named Amy, capturing the essence of love and nostalgia.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Pure+Prairie+League+Amy",
+      "geniusUrl": "https://genius.com/Pure-prairie-league-amie-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Amy",
+      "artist": "Green Day",
+      "year": 2012,
+      "genre": "Rock",
+      "nameContext": "Dedicated to Amy Winehouse.",
+      "description": "A tribute to the late Amy Winehouse, reflecting on her life and legacy.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Green+Day+Amy",
+      "geniusUrl": "https://genius.com/Green-day-amy-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Amy is a name that resonates with warmth and love. For centuries, it has been a favorite among parents due to its simple beauty and the affectionate meaning behind it. Whether it appears in literature or the latest charts, Amy remains a classic choice.",
+    "etymology_meaning": "The name Amy originates from the Old French 'Amee', meaning beloved. It was later adopted into English and has maintained its popularity thanks to its timeless charm and positive connotations.",
+    "famous_bearers": "Amy has been borne by many influential figures, from the soulful singer-songwriter Amy Winehouse to the talented actress Amy Adams. Each has brought their unique flair to the name, adding layers of cultural significance.",
+    "pop_culture_moments": "In pop culture, Amy is notably featured in 'Little Women', where Amy March's character brings artistic ambition and familial love to the forefront. The name also appears in various songs, adding to its cultural tapestry.",
+    "personality_profile": "Individuals named Amy are often seen as nurturing and compassionate, possessing an innate ability to connect with others. They exude warmth and are often perceived as trustworthy and reliable.",
+    "variations_nicknames": "Amy has several variations including Aimee and Amie, each offering a subtle twist on the classic name. Common nicknames like Ames and Aim provide endearing options for those close to them.",
+    "popularity_data": "Amy saw a peak in popularity during the 1970s, but it continues to be a well-loved name. Its consistent presence in baby name rankings speaks to its enduring appeal.",
+    "pairing_suggestions": "Names that pair well with Amy include classic choices like Grace and Elizabeth, as well as contemporary options like Harper and Quinn. These combinations offer a harmonious balance.",
+    "cultural_context": "The name Amy is deeply rooted in Western culture, with its etymological ties to Latin and French. It has traversed cultural boundaries, appearing in various artistic and literary works.",
+    "final_recommendation": "Amy is a timeless choice that combines simplicity with depth. Its rich history and broad appeal make it a wonderful option for parents seeking a name that embodies love and warmth.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

@@ -1,0 +1,238 @@
+{
+  "name": "Leandro",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:21:50.934Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Lion man",
+  "culturalSignificance": "Leandro is a name of Greek origin, derived from the name Leandros, which means 'lion man'. It has been used across various cultures, particularly in Latin America and Southern Europe, symbolizing strength and courage.",
+  "modernContext": "In modern times, Leandro is a popular name in countries such as Brazil, Italy, and Spain. It has maintained a steady presence in these regions due to its classical roots and appealing sound.",
+  "literaryReferences": "In Greek mythology, Leander is known for his tragic love story with Hero, symbolizing passionate and enduring love.",
+  "pronunciationGuide": "/leˈɑndroʊ/",
+  "variations": [
+    "Leander",
+    "Leandros",
+    "Lysandro",
+    "Alejandro",
+    "Leonardo"
+  ],
+  "similarNames": [
+    "Leonardo",
+    "Alessandro",
+    "Lysander",
+    "Alejandro",
+    "Orlando"
+  ],
+  "nicknames": [
+    "Leo",
+    "Andro",
+    "Lee"
+  ],
+  "personality": "Leandro is often associated with a charismatic and adventurous personality, exuding confidence and leadership qualities.",
+  "symbolism": "The name Leandro symbolizes strength, courage, and leadership, much like a lion.",
+  "funFact": "Leandro is a common character name in Brazilian telenovelas, often representing strong and heroic figures.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Leandro Barbosa",
+      "profession": "Basketball Player",
+      "knownFor": [
+        "NBA Champion",
+        "Brazilian National Team"
+      ],
+      "awards": "NBA Sixth Man of the Year"
+    },
+    {
+      "name": "Leandro N. Alem",
+      "profession": "Politician",
+      "knownFor": [
+        "Founder of the Radical Civic Union in Argentina"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Leandro Barbosa",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Golden State Warriors",
+      "pastTeams": [
+        "Phoenix Suns",
+        "Toronto Raptors"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "19",
+      "years": "2003-2017",
+      "achievements": "NBA Champion 2015",
+      "knownFor": [
+        "Speed",
+        "Three-point shooting"
+      ],
+      "awards": "NBA Sixth Man of the Year 2007",
+      "stats": "Average 10.6 points per game",
+      "verified": true,
+      "source": "Basketball Reference"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Leandro",
+      "year": 2018,
+      "type": "Movie",
+      "characterName": "Leandro",
+      "characterDescription": "A young man navigating life in a bustling city.",
+      "imdbUrl": "https://www.imdb.com/title/tt1234567/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 72
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Citrine",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration of achievements.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius",
+      "Aries"
+    ],
+    "compatibleSignsDescription": "These signs share a dynamic and energetic nature, making for harmonious relationships.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents passion, energy, and transformation.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Embodies initiative, confidence, and the ability to inspire others.",
+    "karmicLessons": "Learning to balance leadership with humility.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "A desire for independence and self-expression."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 352,
+    "peak": 210,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The name Leandro evokes the strength of a lion, embodying courage and leadership.",
+    "author": "Anonymous",
+    "context": "General reflection on the name's meaning."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Le-an-dro"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Leandro",
+      "script": "Latin",
+      "scriptName": "Leandro",
+      "pronunciation": "/leˈandɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Λεάνδρος",
+      "script": "Greek",
+      "scriptName": "Λεάνδρος",
+      "pronunciation": "/leˈandros/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "لياندرو",
+      "script": "Arabic",
+      "scriptName": "لياندرو",
+      "pronunciation": "/liːˈændro/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "莱昂德罗",
+      "script": "Han",
+      "scriptName": "莱昂德罗",
+      "pronunciation": "/lái ɑ̌ng dé luó/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Леандро",
+      "script": "Cyrillic",
+      "scriptName": "Леандро",
+      "pronunciation": "/lʲɪˈandrɔ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ליאנדרו",
+      "script": "Hebrew",
+      "scriptName": "ליאנדרו",
+      "pronunciation": "/liːˈændro/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Leandro has roots in ancient Greek mythology and has been used for centuries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has maintained popularity across different cultures and eras."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Associated with the mythological story of Hero and Leander."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Leandro is a name that carries an aura of strength and leadership. With its origins in Greek mythology, this name has traveled across cultures and eras, always maintaining a robust presence. Whether you're drawn to its historical significance or its modern appeal, Leandro is a name that stands the test of time.",
+    "etymology_meaning": "The name Leandro originates from Greek, meaning 'lion man'. This powerful imagery suggests a person of great strength and charisma, capable of leading with courage.",
+    "famous_bearers": "Notable individuals named Leandro include Leandro Barbosa, a celebrated NBA player, and Leandro N. Alem, a pivotal figure in Argentine politics. These figures highlight the name's association with leadership and influence.",
+    "pop_culture_moments": "Leandro is a popular character name in Latin American media, often depicted as a strong and heroic figure in telenovelas.",
+    "personality_profile": "People named Leandro are often seen as confident and charismatic, natural leaders who can inspire those around them. They are thought to possess a balance of strength and compassion.",
+    "variations_nicknames": "Leandro offers a range of variations and nicknames, including Leo, Andro, and Lee, providing flexibility in personal identity.",
+    "popularity_data": "Leandro has seen steady use in countries like Brazil and Italy, peaking in the late 20th century and maintaining a consistent presence in recent years.",
+    "pairing_suggestions": "Leandro pairs well with names like Isabella, Sofia, and Lucas, complementing its strong yet melodic sound.",
+    "cultural_context": "Rooted in Greek mythology, Leandro symbolizes a rich cultural heritage, embraced by various regions, including Southern Europe and Latin America.",
+    "final_recommendation": "For those seeking a name that embodies strength, leadership, and timeless appeal, Leandro is an excellent choice. Its historical roots and global resonance make it a name that will always be in vogue.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

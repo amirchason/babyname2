@@ -1,0 +1,225 @@
+{
+  "name": "Rey",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:25:30.276Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "King",
+  "culturalSignificance": "Rey is a name of Spanish origin that means 'king.' It is often used as a given name and occasionally as a surname. The name has associations with royalty and leadership due to its meaning.",
+  "modernContext": "In modern times, Rey gained additional visibility through popular culture, notably with the character Rey in the Star Wars sequel trilogy. The name is considered unisex, appealing to parents looking for a short, strong name.",
+  "literaryReferences": "",
+  "pronunciationGuide": "reɪ",
+  "variations": [
+    "Rei",
+    "Ray",
+    "Rae",
+    "Rai"
+  ],
+  "similarNames": [
+    "Roy",
+    "Raymond",
+    "Rex",
+    "Royce",
+    "Riley"
+  ],
+  "nicknames": [
+    "Ray",
+    "Re",
+    "ReyRey"
+  ],
+  "personality": "Names like Rey are often associated with strong leadership qualities and charisma. Individuals with this name may be seen as confident and decisive.",
+  "symbolism": "Rey symbolizes leadership and authority, reflecting the name's meaning of 'king.' It can also represent strength and resilience.",
+  "funFact": "The name Rey became widely recognized due to the female protagonist of the same name in the Star Wars sequel trilogy.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Rey Juan Carlos I",
+      "years": "1938-Present",
+      "category": "Royalty",
+      "achievements": [
+        "Instrumental in Spain's transition to democracy"
+      ],
+      "significance": "Juan Carlos I was the King of Spain from 1975 to 2014 and played a key role in transitioning Spain from a dictatorship to a democracy.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rey Mysterio",
+      "profession": "Professional Wrestler",
+      "knownFor": [
+        "WWE",
+        "High-flying wrestling style"
+      ],
+      "awards": "WWE World Heavyweight Champion"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Star Wars: The Force Awakens",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Rey",
+      "characterDescription": "A scavenger who becomes a Jedi.",
+      "imdbUrl": "https://www.imdb.com/title/tt2488496/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I am no one.",
+      "character": "Rey",
+      "source": "Star Wars: The Force Awakens",
+      "year": 2015,
+      "context": "Rey introduces herself to BB-8 when they first meet.",
+      "genre": "Science Fiction",
+      "impact": "This quote highlights Rey's mysterious origins and sets the stage for her journey."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for action and decision making.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs are also influenced by the element of Air, promoting harmony and connection.",
+    "cosmicElement": "The Leader",
+    "cosmicElementDescription": "Represents those who lead with vision and integrity.",
+    "celestialArchetype": "The Visionary",
+    "celestialArchetypeDescription": "Symbolizes foresight and inspiration.",
+    "karmicLessons": "Learning to balance authority with empathy.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Desire to lead and make a significant impact."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 150,
+    "peakYear": 2016
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+    "author": "Martin Luther King Jr.",
+    "context": "This quote encourages leadership and action, resonating with the name's meaning."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Rey"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rey",
+      "script": "Latin",
+      "scriptName": "Rey",
+      "pronunciation": "reɪ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρέι",
+      "script": "Greek",
+      "scriptName": "Ρέι",
+      "pronunciation": "reɪ",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ري",
+      "script": "Arabic",
+      "scriptName": "ري",
+      "pronunciation": "reɪ",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雷",
+      "script": "Han",
+      "scriptName": "雷",
+      "pronunciation": "léi",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рей",
+      "script": "Cyrillic",
+      "scriptName": "Рей",
+      "pronunciation": "reɪ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ריי",
+      "script": "Hebrew",
+      "scriptName": "ריי",
+      "pronunciation": "reɪ",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Rey has gained modern popularity through media and pop culture."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "The meaning of 'king' gives it a royal association."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "Short and strong, Rey has timeless appeal."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Rey is a name that exudes strength and regality, with its Spanish roots meaning 'king.' It's a simple yet powerful choice that has captured the attention of parents around the world.",
+    "etymology_meaning": "Originating from Spanish, Rey means 'king,' reflecting authority and leadership. It's a unisex name that fits in various cultures and languages.",
+    "famous_bearers": "Rey has been borne by notable figures such as professional wrestler Rey Mysterio and was brought to the forefront by the Star Wars character Rey.",
+    "pop_culture_moments": "Rey's popularity surged with the release of the Star Wars sequel trilogy, where the character Rey played a pivotal role as a new generation's Jedi hero.",
+    "personality_profile": "Individuals named Rey are often seen as leaders, displaying confidence and charisma. They are perceived as strong, independent, and capable.",
+    "variations_nicknames": "Rey offers versatile variations such as Ray and Rae, with nicknames like Ray-Ray providing a personal touch.",
+    "popularity_data": "Rey has seen a rise in popularity since the mid-2010s, peaking around 2016 due to its association with popular media.",
+    "pairing_suggestions": "Rey pairs well with middle names that are classic or modern, such as Alexander or Jade, providing a balance of tradition and contemporary flair.",
+    "cultural_context": "With its origins in Spanish culture, Rey carries a universal appeal thanks to its regal meaning and ease of pronunciation across languages.",
+    "final_recommendation": "For parents seeking a name that embodies leadership and simplicity, Rey is a perfect choice. Its cultural richness and modern associations make it a standout option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

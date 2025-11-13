@@ -1,0 +1,250 @@
+{
+  "name": "Cassie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:56:47.768Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Shining upon man",
+  "culturalSignificance": "Cassie is often considered a diminutive form of Cassandra, a name with Greek origins. In Greek mythology, Cassandra was a daughter of Priam, the king of Troy, who was given the gift of prophecy but cursed so that no one would believe her predictions.",
+  "modernContext": "In modern times, Cassie is a popular standalone name, often chosen for its gentle sound and ease of pronunciation. It has been fairly popular in English-speaking countries, especially during the late 20th and early 21st centuries.",
+  "literaryReferences": "Cassie appears in various novels and stories as a character name, often embodying youthful and spirited qualities.",
+  "pronunciationGuide": "/ˈkæsi/",
+  "variations": [
+    "Cassandra",
+    "Kassie",
+    "Kassandra",
+    "Cass",
+    "Cassia"
+  ],
+  "similarNames": [
+    "Cassidy",
+    "Casey",
+    "Callie",
+    "Carrie",
+    "Carly"
+  ],
+  "nicknames": [
+    "Cass",
+    "Cassy",
+    "Cassie"
+  ],
+  "personality": "The name Cassie is often associated with vibrant, friendly, and approachable individuals who exude warmth and charisma.",
+  "symbolism": "Cassie symbolizes brightness and foresight, drawing from its roots in the name Cassandra and the associated mythological stories.",
+  "funFact": "The name Cassie gained additional popularity in the 2000s due to the success of singer-songwriter Cassie Ventura.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Cassie Ventura",
+      "profession": "Musician",
+      "knownFor": [
+        "Me & U",
+        "Must Be Love"
+      ],
+      "awards": "ASCAP Pop Music Award"
+    },
+    {
+      "name": "Cassie Scerbo",
+      "profession": "Actress",
+      "knownFor": [
+        "Make It or Break It",
+        "Sharknado"
+      ],
+      "awards": "Nominated for a Teen Choice Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Skins",
+      "year": 2007,
+      "type": "TV Show",
+      "characterName": "Cassie Ainsworth",
+      "characterDescription": "A quirky and complex teenager dealing with mental health issues.",
+      "imdbUrl": "https://www.imdb.com/title/tt0840196/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Ant-Man and the Wasp",
+      "year": 2018,
+      "type": "Movie",
+      "characterName": "Cassie Lang",
+      "characterDescription": "The daughter of Scott Lang, known for her intelligence and bravery.",
+      "imdbUrl": "https://www.imdb.com/title/tt5095030/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for taking decisive actions and making progress.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for communication and intellectual pursuits, complementing Cassie's natural charisma.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to connect with others and share ideas.",
+    "karmicLessons": "Learning to balance intuition with rational thought.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Driven by a desire for creativity and self-expression."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 453,
+    "peak": 254,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The key to success is to focus on goals, not obstacles.",
+    "author": "Cassie Ventura",
+    "context": "A motivational message reflecting a positive outlook."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Cas-sie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Casia",
+      "script": "Latin",
+      "scriptName": "Casia",
+      "pronunciation": "/ˈkasja/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κασσία",
+      "script": "Greek",
+      "scriptName": "Κασσία",
+      "pronunciation": "/kaˈsia/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كاسي",
+      "script": "Arabic",
+      "scriptName": "كاسي",
+      "pronunciation": "/ˈkæsi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "卡西",
+      "script": "Han",
+      "scriptName": "卡西",
+      "pronunciation": "/kǎ xī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кэсси",
+      "script": "Cyrillic",
+      "scriptName": "Кэсси",
+      "pronunciation": "/ˈkɛsi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קסי",
+      "script": "Hebrew",
+      "scriptName": "קסי",
+      "pronunciation": "/ˈkæsi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Cassandra",
+      "author": "Christa Wolf",
+      "publishedYear": 1983,
+      "genre": "Fiction",
+      "significance": "This novel reimagines the story of the mythological figure Cassandra, providing a feminist perspective.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Cassie is derived from Cassandra, a classic name with ancient Greek roots."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Cassie has been popularized in modern times as a standalone name."
+    },
+    {
+      "tag": "Mythological",
+      "confidence": 0.9,
+      "reason": "The name is linked to Greek mythology through Cassandra."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Me & U",
+      "artist": "Cassie",
+      "year": 2006,
+      "genre": "R&B",
+      "nameContext": "Performed by Cassie Ventura",
+      "description": "A hit single that reached high positions on the charts, known for its catchy tune and smooth vocals.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Cassie+Me+%26+U",
+      "geniusUrl": "https://genius.com/Cassie-me-and-u-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Cassie is a name that exudes charm and simplicity, often associated with friendly and approachable individuals. Its origins in Greek mythology add a layer of depth, giving it a timeless appeal. Whether as a standalone name or a diminutive of Cassandra, Cassie continues to capture hearts worldwide.",
+    "etymology_meaning": "Cassie is derived from the Greek name Cassandra, which means 'shining upon man.' In mythology, Cassandra was known for her prophetic abilities, though cursed never to be believed. This heritage gives Cassie a sense of mystique and foresight.",
+    "famous_bearers": "Cassie Ventura, a renowned musician, brought the name to the forefront with her hit singles in the early 2000s. In the acting world, Cassie Scerbo is known for her roles in popular TV shows and movies.",
+    "pop_culture_moments": "Cassie Ainsworth from the TV show 'Skins' is a memorable character, showcasing the name's versatility in pop culture. Additionally, Cassie Lang in the Marvel Cinematic Universe adds a heroic touch to the name.",
+    "personality_profile": "Individuals named Cassie are often seen as vibrant and full of life. They are known for their ability to connect with others, making them natural communicators and leaders in social settings.",
+    "variations_nicknames": "While Cassie stands strong on its own, it can also be a nickname for Cassandra. Other variations include Kassie and Cassia, each with its unique flair.",
+    "popularity_data": "Cassie has enjoyed popularity peaks in the late 20th century, maintaining a steady presence due to its classic yet modern appeal. It remains a favorite among parents seeking a name that is both familiar and distinctive.",
+    "pairing_suggestions": "Cassie pairs well with names like Grace, James, and Thomas, creating combinations that are harmonious and timeless. It also complements more modern names such as Harper and Mason.",
+    "cultural_context": "Rooted in Greek culture, Cassie carries with it a sense of history and tradition. Its connection to mythology gives it a universal appeal, transcending cultural boundaries.",
+    "final_recommendation": "Cassie is an excellent choice for parents seeking a name that balances tradition with modernity. Its rich history and contemporary usage make it suitable for any child destined for greatness.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

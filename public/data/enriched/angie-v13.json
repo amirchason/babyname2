@@ -1,0 +1,242 @@
+{
+  "name": "Angie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:01:53.888Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Messenger",
+  "culturalSignificance": "Angie is a diminutive of Angela, which is derived from the Greek word 'angelos' meaning 'messenger'. The name has been popular in various cultures, often associated with being a bearer of good news.",
+  "modernContext": "In modern times, Angie remains a popular name in English-speaking countries. It is often chosen for its simplicity and the positive connotations associated with its meaning.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈændʒi/",
+  "variations": [
+    "Angela",
+    "Angelina",
+    "Angelique",
+    "Angeline",
+    "Angel"
+  ],
+  "similarNames": [
+    "Annie",
+    "Alicia",
+    "Anna",
+    "Amy",
+    "Alice"
+  ],
+  "nicknames": [
+    "Ang",
+    "Gigi",
+    "Ange",
+    "Angy"
+  ],
+  "personality": "The name Angie is often associated with warm, friendly, and optimistic personality traits.",
+  "symbolism": "As a derivative of Angela, Angie carries the symbolism of being a 'messenger', often linked with bringing good news or positivity.",
+  "funFact": "The name Angie gained popularity in the 1970s, partly due to the Rolling Stones' hit song 'Angie'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Angie Harmon",
+      "profession": "Actor",
+      "knownFor": [
+        "Law & Order",
+        "Rizzoli & Isles"
+      ],
+      "awards": "Gracie Award"
+    },
+    {
+      "name": "Angie Dickinson",
+      "profession": "Actor",
+      "knownFor": [
+        "Police Woman",
+        "Rio Bravo"
+      ],
+      "awards": "Golden Globe Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Angie",
+      "year": 1994,
+      "type": "Movie",
+      "characterName": "Angie Scacciapensieri",
+      "characterDescription": "A woman dealing with unexpected pregnancy and the challenges of single motherhood.",
+      "imdbUrl": "https://www.imdb.com/title/tt0109129/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "Symbolizes growth and setting intentions.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share the Air element, promoting communication and intellectual connection.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents freedom and change.",
+    "celestialArchetype": "The Messenger",
+    "celestialArchetypeDescription": "Represents communication and the spread of ideas.",
+    "karmicLessons": "Learning to balance communication and listening.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventures."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 548,
+    "peak": 18,
+    "peakYear": 1974
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To communicate well is a sign of intelligence and clarity.",
+    "author": "Anonymous",
+    "context": "Describing the essence of being a messenger."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "An-gie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Angie",
+      "script": "Latin",
+      "scriptName": "Angie",
+      "pronunciation": "/ˈaŋxi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άντζι",
+      "script": "Greek",
+      "scriptName": "Άντζι",
+      "pronunciation": "/ˈandzi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أنجي",
+      "script": "Arabic",
+      "scriptName": "أنجي",
+      "pronunciation": "/ˈændʒi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安吉",
+      "script": "Han",
+      "scriptName": "安吉",
+      "pronunciation": "/ˈanˈtɕi/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Энджи",
+      "script": "Cyrillic",
+      "scriptName": "Энджи",
+      "pronunciation": "/ˈɛndʒi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנג'י",
+      "script": "Hebrew",
+      "scriptName": "אנג'י",
+      "pronunciation": "/ˈændʒi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Angie has been a classic choice for decades, maintaining steady popularity."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Its continued relevance in pop culture keeps it modern."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name's enduring appeal across generations marks it as timeless."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Angie",
+      "artist": "The Rolling Stones",
+      "year": 1973,
+      "genre": "Rock",
+      "nameContext": "Main subject of the song",
+      "description": "A poignant ballad expressing longing and heartbreak, 'Angie' became a major hit for The Rolling Stones.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Angie+Rolling+Stones",
+      "geniusUrl": "https://genius.com/The-rolling-stones-angie-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Angie Baby",
+      "artist": "Helen Reddy",
+      "year": 1974,
+      "genre": "Pop",
+      "nameContext": "Protagonist of the song",
+      "description": "A mysterious and haunting pop song that tells the story of a reclusive girl named Angie.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Angie+Baby+Helen+Reddy",
+      "geniusUrl": "https://genius.com/Helen-reddy-angie-baby-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Angie is a name that encapsulates warmth and charm. Derived from the Greek word 'angelos', meaning 'messenger', it has been a beloved choice for many parents across different cultures. The simplicity of the name paired with its positive connotations makes it a timeless selection.",
+    "etymology_meaning": "The name Angie is a diminutive of Angela, rooted in Greek origins. It translates to 'messenger', often associated with angels, making it a name that carries an aura of serenity and hope.",
+    "famous_bearers": "Famous Angies include Angie Harmon, an acclaimed actor known for her roles in 'Law & Order', and Angie Dickinson, a celebrated actress from the 1960s and 70s.",
+    "pop_culture_moments": "Angie has left its mark in pop culture, most notably through the Rolling Stones' hit song 'Angie', which topped charts worldwide in the 1970s.",
+    "personality_profile": "Individuals named Angie are often perceived as friendly and approachable, with a natural ability to communicate and spread positivity.",
+    "variations_nicknames": "Variations of Angie include Angela, Angelina, and Angelique, while common nicknames are Ang, Gigi, and Ange.",
+    "popularity_data": "The name Angie saw peak popularity in the mid-1970s and continues to be a favored choice for its classic and enduring appeal.",
+    "pairing_suggestions": "Angie pairs well with middle names like Marie, Grace, and Nicole, creating a harmonious and elegant combination.",
+    "cultural_context": "As a name with Greek origins, Angie holds a cultural significance that transcends borders, often linked with divine messengers and positive news.",
+    "final_recommendation": "For parents seeking a name that is both classic and modern, Angie offers a perfect balance. Its rich history and cultural significance, combined with a pleasant sound, make it a standout choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

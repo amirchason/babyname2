@@ -1,0 +1,311 @@
+{
+  "name": "Angela",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:50:25.815Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Messenger",
+  "culturalSignificance": "Angela is a feminine given name derived from the Greek word 'angelos', meaning messenger or angel. It has been popular in various cultures due to its association with angelic qualities and has been a common name in Christian communities.",
+  "modernContext": "In modern times, Angela remains a popular name in English-speaking countries and beyond, often seen as a classic and timeless choice. It has been consistently used in various forms of media and is associated with a multitude of well-known personalities.",
+  "literaryReferences": "Angela is a character in Willa Cather's novel 'My Antonia', representing innocence and hope.",
+  "pronunciationGuide": "/ˈæn.dʒə.lə/",
+  "variations": [
+    "Angelina",
+    "Angelica",
+    "Angie",
+    "Angele",
+    "Angeline"
+  ],
+  "similarNames": [
+    "Anna",
+    "Annabel",
+    "Angel",
+    "Angela",
+    "Angelique"
+  ],
+  "nicknames": [
+    "Angie",
+    "Ang",
+    "Ange"
+  ],
+  "personality": "Those named Angela are often perceived as kind-hearted, approachable, and compassionate. They are seen as natural leaders with a strong sense of empathy.",
+  "symbolism": "Angela symbolizes purity and divine messenger qualities, often associated with protection, guidance, and spirituality.",
+  "funFact": "The name Angela became notably popular in the United States during the 1960s and 1970s, often ranking in the top 10.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "St. Angela Merici",
+    "significance": "St. Angela Merici was an Italian saint and the founder of the Ursulines, a religious order dedicated to the education of girls.",
+    "keyStories": [
+      "St. Angela Merici dedicated her life to the education of girls and established a religious community to support this mission."
+    ],
+    "spiritualMeaning": "The name is spiritually associated with angelic qualities, such as delivering messages of hope and faith.",
+    "historicalImpact": "St. Angela Merici's work had a lasting impact on the education system, emphasizing the importance of female education in the Christian community."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Angela Davis",
+      "years": "1944-Present",
+      "category": "Activist",
+      "achievements": [
+        "Prominent civil rights leader",
+        "Advocate for prison reform"
+      ],
+      "significance": "Angela Davis is a significant figure in the fight for racial equality and social justice in the United States.",
+      "notableWorks": [
+        "Angela Davis: An Autobiography",
+        "Are Prisons Obsolete?"
+      ]
+    },
+    {
+      "fullName": "Angela Merkel",
+      "years": "1954-Present",
+      "category": "Politician",
+      "achievements": [
+        "First female Chancellor of Germany",
+        "Time's Person of the Year 2015"
+      ],
+      "significance": "Angela Merkel has been a leading figure in European politics, known for her pragmatic leadership and influence on global affairs.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Freedom is a constant struggle.",
+      "author": "Angela Davis",
+      "context": "From her speeches on civil rights and social justice.",
+      "year": 2016,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Angela Lansbury",
+      "profession": "Actor",
+      "knownFor": [
+        "Murder, She Wrote",
+        "Beauty and the Beast"
+      ],
+      "awards": "Tony Awards, Honorary Oscar"
+    },
+    {
+      "name": "Angela Bassett",
+      "profession": "Actor",
+      "knownFor": [
+        "Black Panther",
+        "What's Love Got to Do with It"
+      ],
+      "awards": "Golden Globe Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Office",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Angela Martin",
+      "characterDescription": "A precise and often stern accountant at Dunder Mifflin.",
+      "imdbUrl": "https://www.imdb.com/title/tt0386676/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "Bones",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Angela Montenegro",
+      "characterDescription": "A skilled forensic artist and best friend to the protagonist.",
+      "imdbUrl": "https://www.imdb.com/title/tt0460627/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I don't back down. My sister and I have a code. We don't throw like girls.",
+      "character": "Angela Montenegro",
+      "source": "Bones",
+      "year": 2005,
+      "context": "From a conversation showcasing her strong personality.",
+      "genre": "Crime, Drama",
+      "impact": "Highlights the character's determination and resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and fresh starts.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the Air element, encouraging communication and intellectual connection.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change and freedom.",
+    "celestialArchetype": "The Messenger",
+    "celestialArchetypeDescription": "One who delivers important messages and insights.",
+    "karmicLessons": "To embrace communication and adaptability.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desires freedom, adventure, and new experiences."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 6,
+    "peakYear": 1974
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Angela Davis",
+    "context": "A motivational message promoting hope and perseverance."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "An-ge-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ángela",
+      "script": "Latin",
+      "scriptName": "Ángela",
+      "pronunciation": "/ˈan.xe.la/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αγγέλα",
+      "script": "Greek",
+      "scriptName": "Αγγέλα",
+      "pronunciation": "/aˈɣela/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أنجيلا",
+      "script": "Arabic",
+      "scriptName": "أنجيلا",
+      "pronunciation": "/anˈd͡ʒila/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安吉拉",
+      "script": "Han",
+      "scriptName": "安吉拉",
+      "pronunciation": "/ān jí lā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Анжела",
+      "script": "Cyrillic",
+      "scriptName": "Анжела",
+      "pronunciation": "/ɐnˈʐɛlə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנג'לה",
+      "script": "Hebrew",
+      "scriptName": "אנג'לה",
+      "pronunciation": "/anˈd͡ʒela/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "My Antonia",
+      "author": "Willa Cather",
+      "publishedYear": 1918,
+      "genre": "Fiction",
+      "significance": "A classic of American literature, exploring the pioneer experience.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Angela has a long history of usage and remains popular across generations."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "The name's association with angelic figures gives it a biblical resonance."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Angela's enduring popularity makes it a timeless choice."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Angela",
+      "artist": "The Lumineers",
+      "year": 2016,
+      "genre": "Indie Rock",
+      "nameContext": "The song is titled after and prominently features the name Angela.",
+      "description": "A reflective song about a woman named Angela, exploring themes of identity and self-discovery.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=The+Lumineers+Angela",
+      "geniusUrl": "https://genius.com/The-lumineers-angela-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Angela",
+      "artist": "Saïan Supa Crew",
+      "year": 1999,
+      "genre": "Hip Hop",
+      "nameContext": "Angela is central to the song's narrative.",
+      "description": "The song tells the story of a woman named Angela, with themes of love and relationships.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Saïan+Supa+Crew+Angela",
+      "geniusUrl": "https://genius.com/Saian-supa-crew-angela-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Angela, a name that carries both grace and strength, has been a popular choice across cultures and generations. Its association with angelic qualities makes it a timeless option for parents seeking a name with depth and charm.",
+    "etymology_meaning": "Derived from the Greek word 'angelos', Angela means 'messenger' or 'angel'. This etymology highlights its spiritual and uplifting connotations, often linked to divine messengers and guidance.",
+    "famous_bearers": "Prominent figures like Angela Davis, the civil rights activist, and Angela Merkel, the former Chancellor of Germany, have brought the name into the spotlight with their remarkable achievements.",
+    "pop_culture_moments": "Angela has been featured in popular TV shows like 'The Office' and 'Bones', where characters named Angela bring unique charm and depth to their respective stories.",
+    "personality_profile": "Angela is often associated with kindness, empathy, and leadership. People with this name are seen as approachable and reliable, bringing comfort and inspiration to those around them.",
+    "variations_nicknames": "Common variations of Angela include Angelina and Angelica, while nicknames like Angie and Ange provide a more casual, affectionate tone.",
+    "popularity_data": "The name Angela achieved peak popularity in the United States during the 1970s, consistently ranking among the top names for girls, and continues to be a classic choice today.",
+    "pairing_suggestions": "Angela pairs well with names like Michael and David, which complement its classic and timeless nature. For a modern twist, consider pairing it with names like Luna or Aria.",
+    "cultural_context": "Across different cultures, Angela is embraced for its spiritual significance and association with guardianship, making it a universally appealing choice.",
+    "final_recommendation": "For parents seeking a name that embodies both tradition and modern appeal, Angela is a perfect choice. Its rich history and positive attributes ensure it remains a beloved option for generations to come.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

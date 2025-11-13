@@ -1,0 +1,327 @@
+{
+  "name": "Nick",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:55:02.158Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Victory of the people",
+  "culturalSignificance": "The name Nick is a short form of Nicholas, which originates from the Greek name Nikolaos, meaning 'victory of the people.' It has been a popular name throughout history, often associated with strength and leadership.",
+  "modernContext": "Nick remains a widely used name in English-speaking countries, often considered friendly and approachable. It is commonly used as a standalone name and has maintained steady popularity over the years.",
+  "literaryReferences": "Nick Carraway is the narrator of F. Scott Fitzgerald's novel 'The Great Gatsby,' providing a critical perspective on the events and characters.",
+  "pronunciationGuide": "/nɪk/",
+  "variations": [
+    "Nicholas",
+    "Nicolas",
+    "Nikolai",
+    "Nico",
+    "Nik"
+  ],
+  "similarNames": [
+    "Rick",
+    "Mick",
+    "Vic",
+    "Jack",
+    "Zack"
+  ],
+  "nicknames": [
+    "Nicky",
+    "Nico",
+    "Nik",
+    "Nicko"
+  ],
+  "personality": "The name Nick is often associated with traits such as charisma, sociability, and confidence. People with this name are perceived as approachable and friendly.",
+  "symbolism": "Nick symbolizes victory, as its Greek origin denotes 'victory of the people.' It reflects a sense of triumph and leadership.",
+  "funFact": "The name Nick is often used as the unofficial nickname for the devil, 'Old Nick,' in British folklore.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Nicholas",
+    "significance": "Saint Nicholas is a significant figure in Christianity, known for his generosity and kindness, which inspired the modern-day figure of Santa Claus.",
+    "keyStories": [
+      "The story of Saint Nicholas saving three sisters from poverty",
+      "Miraculous accounts of Nicholas' generosity"
+    ],
+    "spiritualMeaning": "Represents charity, kindness, and guardian of children.",
+    "historicalImpact": "Saint Nicholas' story has had a lasting impact on Christian traditions, particularly in influencing the celebration of Christmas."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Nikola Tesla",
+      "years": "1856-1943",
+      "category": "Scientist",
+      "achievements": [
+        "Developed the AC electricity supply system",
+        "Invented the Tesla coil"
+      ],
+      "significance": "Tesla's work laid the foundation for modern electrical engineering and wireless communications.",
+      "notableWorks": [
+        "Alternating current system",
+        "Tesla coil"
+      ]
+    },
+    {
+      "fullName": "Niccolò Machiavelli",
+      "years": "1469-1527",
+      "category": "Philosopher",
+      "achievements": [
+        "Author of 'The Prince'",
+        "Founder of modern political science"
+      ],
+      "significance": "Machiavelli's writings on political power and strategy have influenced leaders and political thought throughout history.",
+      "notableWorks": [
+        "The Prince",
+        "Discourses on Livy"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The greatest minds are capable of the greatest vices as well as of the greatest virtues.",
+      "author": "René Descartes",
+      "context": "Discussing the duality of human nature",
+      "year": 1637,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Nick Jonas",
+      "profession": "Musician",
+      "knownFor": [
+        "Jonas Brothers",
+        "Solo career"
+      ],
+      "awards": "Grammy nominations"
+    },
+    {
+      "name": "Nick Nolte",
+      "profession": "Actor",
+      "knownFor": [
+        "The Prince of Tides",
+        "Warrior"
+      ],
+      "awards": "Golden Globe Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Nick Foles",
+      "profession": "Athlete",
+      "sport": "American Football",
+      "league": "NFL",
+      "team": "Chicago Bears",
+      "pastTeams": [
+        "Philadelphia Eagles",
+        "St. Louis Rams"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "9",
+      "years": "2012-Present",
+      "achievements": "Super Bowl MVP",
+      "knownFor": [
+        "Clutch performances",
+        "Leadership"
+      ],
+      "awards": "Super Bowl MVP",
+      "stats": "Career passing yards: 14,003 (as of 2023)",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "New Girl",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Nick Miller",
+      "characterDescription": "A bartender and one of the main characters known for his humor and pragmatism.",
+      "imdbUrl": "https://www.imdb.com/title/tt1826940/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 88
+    },
+    {
+      "title": "The Great Gatsby",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Nick Carraway",
+      "characterDescription": "The narrator of the film, a Yale graduate who moves to West Egg and becomes entangled in Gatsby's world.",
+      "imdbUrl": "https://www.imdb.com/title/tt1343092/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You can't repeat the past? Why of course you can!",
+      "character": "Nick Carraway",
+      "source": "The Great Gatsby",
+      "year": 2013,
+      "context": "Reflecting on Gatsby's belief in recreating the past.",
+      "genre": "Drama",
+      "impact": "Highlights the central theme of nostalgia and the impossibility of recapturing the past."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, promoting communication and intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and change.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for bringing people together and sharing ideas.",
+    "karmicLessons": "Learning to balance communication and listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desires to express and communicate effectively."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 315,
+    "peak": 45,
+    "peakYear": 1984
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "Reflecting on the relationship between passion and achievement."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Nick"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Nicolás",
+      "script": "Latin",
+      "scriptName": "Nicolás",
+      "pronunciation": "/ni.koˈlas/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Νίκος",
+      "script": "Greek",
+      "scriptName": "Νίκος",
+      "pronunciation": "/ˈni.kos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "نيك",
+      "script": "Arabic",
+      "scriptName": "نيك",
+      "pronunciation": "/niːk/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "尼克",
+      "script": "Han",
+      "scriptName": "尼克",
+      "pronunciation": "/nǐ kè/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Николай",
+      "script": "Cyrillic",
+      "scriptName": "Николай",
+      "pronunciation": "/nʲɪkɐˈlaj/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ניק",
+      "script": "Hebrew",
+      "scriptName": "ניק",
+      "pronunciation": "/nik/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publishedYear": 1925,
+      "genre": "Fiction",
+      "significance": "A classic novel exploring themes of wealth, love, and the American Dream.",
+      "nameRole": "narrator",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Nick is a time-honored name with a long-standing presence in various cultures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "The name features prominently in classic literature, such as 'The Great Gatsby.'"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Nick has been steadily popular for decades, maintaining its appeal across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Nick of Time",
+      "artist": "Bonnie Raitt",
+      "year": 1989,
+      "genre": "Rock",
+      "nameContext": "The name is used in the song's title and lyrics.",
+      "description": "This song reflects on the passage of time and making the most of life before it's too late.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Nick+of+Time+Bonnie+Raitt",
+      "geniusUrl": "https://genius.com/Bonnie-raitt-nick-of-time-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Choosing a name for your child is a significant decision, and Nick is a name that carries a rich history and a modern-day appeal. With its roots in Greek culture and its association with victory, Nick is both classic and contemporary. It's a name that has found its place in literature, sports, and popular culture, making it a timeless choice for parents.",
+    "etymology_meaning": "The name Nick is derived from the Greek name Nikolaos, which means 'victory of the people.' This powerful meaning has contributed to its enduring popularity. Over time, Nick has been used as a standalone name and a nickname for Nicholas.",
+    "famous_bearers": "Notable individuals with the name Nick include musician Nick Jonas, known for his role in the Jonas Brothers, and NFL quarterback Nick Foles, celebrated for his Super Bowl win. These figures exemplify the name's connection to talent and success.",
+    "pop_culture_moments": "Nick has been a popular name in TV and film, with characters like Nick Miller from 'New Girl' and Nick Carraway from 'The Great Gatsby' adding to its cultural resonance. These characters underscore the name's versatility and relatability.",
+    "personality_profile": "Those named Nick are often seen as charismatic and friendly, embodying traits of leadership and approachability. The name suggests a person who is confident and capable, yet down-to-earth.",
+    "variations_nicknames": "Nick is a versatile name with several variations, including Nicholas, Nico, and Nik. Common nicknames include Nicky and Nicko, offering a range of informal options.",
+    "popularity_data": "Nick has consistently ranked among the popular names for boys, with its peak in the 1980s. It continues to be a favorite due to its simplicity and strong sound.",
+    "pairing_suggestions": "Nick pairs well with both traditional and modern middle names, such as James or Alexander, allowing parents to craft a name that suits their family's style.",
+    "cultural_context": "Nick's cultural significance spans various traditions, from its Greek origins to its place in Western popular culture. Its association with Saint Nicholas adds a layer of historical and religious depth.",
+    "final_recommendation": "For parents seeking a name that is both familiar and meaningful, Nick offers a perfect blend of history and modern appeal. Its strong, concise nature makes it a standout choice for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

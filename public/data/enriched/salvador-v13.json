@@ -1,0 +1,225 @@
+{
+  "name": "Salvador",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:31:06.131Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Savior",
+  "culturalSignificance": "Salvador is a name of Latin origin meaning 'savior'. It holds significant cultural importance in Spanish-speaking countries and is often associated with religious and historical contexts.",
+  "modernContext": "In modern times, Salvador remains a popular name in countries like Spain and Latin America. Its usage has been influenced by notable figures in art, politics, and religion.",
+  "literaryReferences": "The name Salvador appears in various Spanish literary works, often symbolizing salvation or hope.",
+  "pronunciationGuide": "/salˈβa.ðoɾ/",
+  "variations": [
+    "Salvatore",
+    "Salvator",
+    "Salvadora",
+    "Salvadori"
+  ],
+  "similarNames": [
+    "Salvatore",
+    "Salvadori",
+    "Salvadora",
+    "Santiago",
+    "Sebastian"
+  ],
+  "nicknames": [
+    "Sal",
+    "Salvy",
+    "Doro"
+  ],
+  "personality": "Individuals named Salvador are often perceived as charismatic and influential, with a strong presence and a sense of responsibility.",
+  "symbolism": "The name Salvador symbolizes salvation and redemption, often associated with positive change and leadership.",
+  "funFact": "Salvador is the name of a major city in Brazil, known for its rich cultural heritage and history.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Salvador Dalí",
+      "years": "1904-1989",
+      "category": "Artist",
+      "achievements": [
+        "Pioneer of Surrealism",
+        "Innovative painting techniques"
+      ],
+      "significance": "Salvador Dalí was a prominent Spanish surrealist artist known for his striking and bizarre images.",
+      "notableWorks": [
+        "The Persistence of Memory",
+        "The Elephants"
+      ]
+    },
+    {
+      "fullName": "Salvador Allende",
+      "years": "1908-1973",
+      "category": "Politician",
+      "achievements": [
+        "First Marxist to be elected President in a Latin American country"
+      ],
+      "significance": "Salvador Allende was the 29th President of Chile and the first Marxist to be elected president in a country with a liberal democracy.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only difference between me and a madman is that I'm not mad.",
+      "author": "Salvador Dalí",
+      "context": "Discussing his unique perspective on art and life",
+      "year": 1950,
+      "category": "Art"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Salvador Sobral",
+      "profession": "Musician",
+      "knownFor": [
+        "Winning Eurovision Song Contest 2017"
+      ],
+      "awards": "Eurovision Song Contest 2017 winner"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of fulfillment and realization, often associated with clarity and completion.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, fostering stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and a grounded nature.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing, care, and a talent for bringing peace.",
+    "karmicLessons": "Learning to balance personal needs with the needs of others.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A deep desire to help humanity and contribute to the greater good."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 478,
+    "peak": 320,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Intelligence without ambition is a bird without wings.",
+    "author": "Salvador Dalí",
+    "context": "A perspective on the importance of ambition in achieving one's potential."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Sal-va-dor"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Salvador",
+      "script": "Latin",
+      "scriptName": "Salvador",
+      "pronunciation": "/salˈβa.ðoɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σαλβαδόρ",
+      "script": "Greek",
+      "scriptName": "Σαλβαδόρ",
+      "pronunciation": "/salvaˈðor/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سالڤادور",
+      "script": "Arabic",
+      "scriptName": "سالڤادور",
+      "pronunciation": "/salvaˈdoːr/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "萨尔瓦多",
+      "script": "Han",
+      "scriptName": "萨尔瓦多",
+      "pronunciation": "/sà'ěrwǎduō/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сальвадор",
+      "script": "Cyrillic",
+      "scriptName": "Сальвадор",
+      "pronunciation": "/səl'vadər/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סלוודור",
+      "script": "Hebrew",
+      "scriptName": "סלוודור",
+      "pronunciation": "/salvaˈdor/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Long-standing use in many cultures, especially in Spanish-speaking countries."
+    },
+    {
+      "tag": "Artistic",
+      "confidence": 0.8,
+      "reason": "Association with notable figures like Salvador Dalí."
+    },
+    {
+      "tag": "Historical",
+      "confidence": 0.7,
+      "reason": "Used by influential figures in history such as Salvador Allende."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Salvador is a name that evokes a sense of history and artistic flair. With its roots in Latin, meaning 'savior', it has been borne by influential figures in the arts and politics. This name carries a legacy of cultural richness and innovation.",
+    "etymology_meaning": "The name Salvador originates from the Latin word 'salvator', meaning 'savior'. It's a classic name with deep religious and cultural connotations, often associated with redemption and leadership.",
+    "famous_bearers": "Notable bearers of the name include Salvador Dalí, the surrealist artist known for his eccentricity and groundbreaking work, and Salvador Allende, the former president of Chile. Their legacies continue to influence art and politics.",
+    "pop_culture_moments": "While not as prevalent in pop culture as other names, Salvador's impact comes through historical contributions and its presence in literature and art.",
+    "personality_profile": "Those named Salvador are often seen as creative and visionary, with a strong sense of purpose. They are thought to be charismatic leaders who inspire others with their passion.",
+    "variations_nicknames": "Variations like Salvatore and nicknames such as Sal offer alternatives for those who appreciate the name's classic roots but seek a more modern touch.",
+    "popularity_data": "Salvador has maintained a steady presence in the naming charts, particularly in Spanish-speaking countries, and continues to be a favored choice for its timeless appeal.",
+    "pairing_suggestions": "Salvador pairs well with names like Isabella, Leonardo, and Sofia, offering a harmonious blend of classic and contemporary styles.",
+    "cultural_context": "The name Salvador is deeply embedded in the cultural fabric of Latin America and Spain, where it is appreciated for its historical significance and artistic ties.",
+    "final_recommendation": "For parents seeking a name with depth and character, Salvador is a compelling choice. Its historical roots and artistic flair make it a timeless option.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

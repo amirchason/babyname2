@@ -1,0 +1,212 @@
+{
+  "name": "Koji",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T10:39:26.883Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Japanese",
+  "meaning": "Little one, child",
+  "culturalSignificance": "Koji is a common name in Japan, often given to boys. The name is associated with youth and innocence, reflective of its meaning 'little one' or 'child'. It is a traditional name that has been popular throughout different periods in Japanese history.",
+  "modernContext": "In modern times, Koji remains a popular choice for baby boys in Japan. It is also recognized internationally due to Japanese media and cultural influence, appearing in various films and video games.",
+  "literaryReferences": "Koji is a name that occasionally appears in Japanese literature, representing youthful or innocent characters.",
+  "pronunciationGuide": "/ˈkoʊ.dʒi/",
+  "variations": [
+    "Kouji",
+    "Kohji",
+    "Kōji"
+  ],
+  "similarNames": [
+    "Kenji",
+    "Hiroshi",
+    "Satoshi",
+    "Takeshi",
+    "Ryo"
+  ],
+  "nicknames": [
+    "Ko",
+    "Koko",
+    "Ji"
+  ],
+  "personality": "The name Koji is often associated with creativity, intelligence, and a gentle disposition. People with this name are thought to be thoughtful and introspective.",
+  "symbolism": "Koji symbolizes youth and a fresh start, making it a fitting name for a child with potential and promise.",
+  "funFact": "The name Koji is also associated with a type of mold used in the fermentation process of sake, soy sauce, and miso, highlighting its cultural importance in Japan.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Koji Kondo",
+      "profession": "Composer",
+      "knownFor": [
+        "Super Mario Bros. soundtrack",
+        "The Legend of Zelda soundtrack"
+      ],
+      "awards": "Game Audio Network Guild Lifetime Achievement Award"
+    },
+    {
+      "name": "Koji Yakusho",
+      "profession": "Actor",
+      "knownFor": [
+        "Shall We Dance?",
+        "13 Assassins"
+      ],
+      "awards": "Japan Academy Prize for Best Actor"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Tampopo",
+      "year": 1985,
+      "type": "Movie",
+      "characterName": "Koji",
+      "characterDescription": "A supportive character in the film's subplot about food and life.",
+      "imdbUrl": "https://www.imdb.com/title/tt0092048/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share the Water element, fostering emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and healing.",
+    "celestialArchetype": "The Dreamer",
+    "celestialArchetypeDescription": "Dreamers are imaginative and seek deeper meanings in life.",
+    "karmicLessons": "To embrace change and trust one's intuition.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "The seeker of truth and spiritual understanding."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 200,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "context": "A famous saying about beginnings and perseverance."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ko-ji"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Koji",
+      "script": "Latin",
+      "scriptName": "Koji",
+      "pronunciation": "/ˈko.xi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κότζι",
+      "script": "Greek",
+      "scriptName": "Κότζι",
+      "pronunciation": "/ˈko.dʒi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كوجي",
+      "script": "Arabic",
+      "scriptName": "كوجي",
+      "pronunciation": "/ˈkuː.dʒi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "小次",
+      "script": "Han",
+      "scriptName": "小次",
+      "pronunciation": "/xiǎo cì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кодзи",
+      "script": "Cyrillic",
+      "scriptName": "Кодзи",
+      "pronunciation": "/ˈko.dʐi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קוג'י",
+      "script": "Hebrew",
+      "scriptName": "קוג'י",
+      "pronunciation": "/ˈko.dʒi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Koji is a traditional Japanese name with a long history of use."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Despite its historical roots, Koji remains popular today."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.95,
+      "reason": "Koji has cultural significance in Japan due to its association with traditional foods."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Koji is a name that carries a sense of youth and tradition. With its roots deeply embedded in Japanese culture, Koji is both classic and modern, making it a timeless choice for parents seeking a name with cultural significance. This name evokes imagery of purity and new beginnings, much like a child's first steps.",
+    "etymology_meaning": "Koji is a Japanese name that translates to 'little one' or 'child', reflecting innocence and potential. This name has been used for generations in Japan, highlighting its enduring popularity and cultural resonance.",
+    "famous_bearers": "Famous individuals named Koji include Koji Kondo, the composer behind the iconic Super Mario Bros. and The Legend of Zelda soundtracks, and Koji Yakusho, a celebrated actor known for his roles in films like 'Shall We Dance?' and '13 Assassins'.",
+    "pop_culture_moments": "Koji often appears in Japanese media, including movies and television shows, portraying characters that embody youthfulness and creativity. Its presence in pop culture helps maintain its popularity outside of Japan.",
+    "personality_profile": "People named Koji are often seen as creative and introspective. They are thought to possess a gentle nature and an appreciation for art and beauty, making them compassionate and thoughtful individuals.",
+    "variations_nicknames": "Variations of Koji include Kouji and Kohji, while common nicknames are Ko, Koko, and Ji. These variations and nicknames add flexibility and personal touch to the name.",
+    "popularity_data": "Koji has consistently been a popular name in Japan, and its appeal has spread internationally, particularly in regions influenced by Japanese culture. Its peak popularity was in the 1990s, but it continues to be a favored choice for parents today.",
+    "pairing_suggestions": "Koji pairs well with names like Kenji and Satoshi, which share similar cultural backgrounds and phonetic qualities. For female siblings, names like Yuki or Aiko complement Koji beautifully.",
+    "cultural_context": "As a name deeply rooted in Japanese tradition, Koji is often chosen to honor cultural heritage. Its connection to traditional foods and practices adds layers of cultural meaning, making it a name rich with history and significance.",
+    "final_recommendation": "Koji is a name that offers both cultural depth and modern charm. It is ideal for parents looking for a name that honors tradition while remaining relevant in today's world. With its gentle sound and meaningful etymology, Koji is a beautiful choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

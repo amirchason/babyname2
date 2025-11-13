@@ -1,0 +1,245 @@
+{
+  "name": "Aisha",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:42:52.031Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Arabic",
+  "meaning": "Alive, living",
+  "culturalSignificance": "Aisha is a name of Arabic origin, widely recognized due to its historical and religious significance in Islam. It holds a prominent place in Muslim culture as the name of one of the Prophet Muhammad's wives, known for her intelligence and contribution to Islamic tradition.",
+  "modernContext": "In modern times, Aisha remains a popular choice among Arabic-speaking and Muslim communities around the world. The name's timeless appeal and cultural resonance have also led to its adoption in diverse cultures, where it symbolizes life and vitality.",
+  "literaryReferences": "The name Aisha has appeared in various literary works, often representing characters of strength and wisdom, reflecting the historical figure's esteemed legacy.",
+  "pronunciationGuide": "/ˈaɪʃə/",
+  "variations": [
+    "Ayesha",
+    "Aysha",
+    "Iesha",
+    "Aicha",
+    "Ayishah"
+  ],
+  "similarNames": [
+    "Fatima",
+    "Layla",
+    "Amira",
+    "Zainab",
+    "Mariam"
+  ],
+  "nicknames": [
+    "Aish",
+    "Ash",
+    "Ishi"
+  ],
+  "personality": "People named Aisha are often perceived as vibrant, strong, and intelligent, embodying the qualities of leadership and compassion.",
+  "symbolism": "Aisha symbolizes life, vitality, and resilience, drawing from its etymological roots meaning 'alive'.",
+  "funFact": "Aisha was one of the most beloved wives of Prophet Muhammad and is considered a key figure in Islamic history.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Islam"
+    ],
+    "character": "Aisha bint Abi Bakr",
+    "significance": "Aisha bint Abi Bakr was a wife of Prophet Muhammad and played a crucial role in early Islamic history. She is revered for her knowledge and is one of the most significant female figures in Islam.",
+    "keyStories": [
+      "Battle of the Camel",
+      "Preservation of Hadith"
+    ],
+    "spiritualMeaning": "Aisha's life and narratives are often seen as embodying wisdom and faithfulness.",
+    "historicalImpact": "Aisha's narrations of the hadiths and her involvement in early Islamic events have had a lasting impact on Islamic jurisprudence and history."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Aisha bint Abi Bakr",
+      "years": "613-678",
+      "category": "Religious",
+      "achievements": [
+        "Narrated over 2,000 hadiths",
+        "Influential in early Islamic jurisprudence"
+      ],
+      "significance": "Aisha was a prominent figure in early Islamic history, known for her intelligence and her role in transmitting hadiths.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Aisha Tyler",
+      "profession": "Actor",
+      "knownFor": [
+        "Friends",
+        "Archer"
+      ],
+      "awards": "Emmy Award"
+    },
+    {
+      "name": "Aisha Hinds",
+      "profession": "Actor",
+      "knownFor": [
+        "Underground",
+        "9-1-1"
+      ],
+      "awards": "Black Reel Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Aisha Tyler Show",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Aisha",
+      "characterDescription": "A talk show hosted by Aisha Tyler.",
+      "imdbUrl": "https://www.imdb.com/title/tt0463854/",
+      "genre": "Talk Show",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and growth.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connectivity with Aisha.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents intuition, emotions, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Embodies compassion and nurturing, often helping others.",
+    "karmicLessons": "Learning to balance giving and receiving love.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 280,
+    "peak": 122,
+    "peakYear": 1991
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Real knowledge is to know the extent of one's ignorance.",
+    "author": "Aisha bint Abi Bakr",
+    "context": "A reflection on the pursuit of knowledge and humility."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ai-sha"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Aisha",
+      "script": "Latin",
+      "scriptName": "Aisha",
+      "pronunciation": "/ˈaiʃa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αΐσα",
+      "script": "Greek",
+      "scriptName": "Αΐσα",
+      "pronunciation": "/aˈisa/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "عائشة",
+      "script": "Arabic",
+      "scriptName": "عائشة",
+      "pronunciation": "/ʕaːʔiʃa/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾莎",
+      "script": "Han",
+      "scriptName": "艾莎",
+      "pronunciation": "/ài shā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Аиша",
+      "script": "Cyrillic",
+      "scriptName": "Аиша",
+      "pronunciation": "/aˈiʂa/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "איישה",
+      "script": "Hebrew",
+      "scriptName": "איישה",
+      "pronunciation": "/aiˈʃa/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "A name with historical roots and enduring popularity."
+    },
+    {
+      "tag": "Islamic",
+      "confidence": 1,
+      "reason": "Strong ties to Islamic history and religion."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Remains popular across decades and cultures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Aisha",
+      "artist": "Cheb Khaled",
+      "year": 1996,
+      "genre": "Raï",
+      "nameContext": "The song is named after a woman named Aisha.",
+      "description": "A romantic song where the singer expresses his love and admiration for Aisha.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Khaled+Aisha",
+      "geniusUrl": "https://genius.com/Khaled-aisha-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Aisha is a name that resonates with history and culture, carrying an aura of life and vitality. Rooted in Arabic origins, it has transcended cultural barriers to become a globally recognized name. From its historical significance in Islamic traditions to its modern-day appeal, Aisha is a timeless choice for parents seeking a name with depth and beauty.",
+    "etymology_meaning": "Derived from the Arabic word for 'alive' or 'living', Aisha encapsulates the essence of vitality. It is a name that has been cherished for centuries, particularly within Muslim communities, due to its association with Aisha bint Abi Bakr, a revered figure in Islamic history.",
+    "famous_bearers": "Among the most famous bearers of the name is Aisha bint Abi Bakr, the wife of Prophet Muhammad, whose contributions to Islamic jurisprudence are widely acknowledged. In the contemporary world, Aisha Tyler and Aisha Hinds have brought the name into the spotlight through their successful careers in entertainment.",
+    "pop_culture_moments": "Aisha has been featured in various pop culture references, including songs like 'Aisha' by Cheb Khaled, which celebrates love and admiration. The name's presence in media and entertainment underscores its universal appeal.",
+    "personality_profile": "Aisha is often associated with personality traits such as vibrancy, intelligence, and strength. The name suggests a natural leader, someone who is compassionate and deeply connected to their roots.",
+    "variations_nicknames": "Variations of Aisha include Ayesha, Aysha, and Iesha, while nicknames like Aish and Ash offer a more casual form. These variations highlight the name's adaptability across different cultures and languages.",
+    "popularity_data": "Aisha has maintained a steady popularity in many regions, particularly in countries with Muslim populations. Its highest popularity in the U.S. was in the early 1990s, and it continues to be a favored choice for parents today.",
+    "pairing_suggestions": "Aisha pairs beautifully with names like Layla, Fatima, and Amira, creating harmonious and culturally resonant combinations. For those seeking a more modern pairing, names like Sophia or Olivia complement Aisha's timeless charm.",
+    "cultural_context": "With strong roots in Arabic culture, Aisha is more than just a name; it is a cultural emblem. It carries the weight of history while continuing to inspire new generations around the world.",
+    "final_recommendation": "For parents seeking a name rich in history and cultural significance, Aisha is an excellent choice. Its timeless appeal and positive connotations make it a name that will undoubtedly stand the test of time.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

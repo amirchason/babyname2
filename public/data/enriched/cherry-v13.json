@@ -1,0 +1,250 @@
+{
+  "name": "Cherry",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:52:39.610Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Cherry fruit",
+  "culturalSignificance": "The name Cherry is derived from the English word for the fruit, which has been a symbol of beauty and sweetness in various cultures. The cherry blossom, in particular, holds significant cultural importance in Japan, symbolizing the transient nature of life.",
+  "modernContext": "Cherry is considered a unique and charming name choice for girls, often evoking a sense of freshness and natural beauty. While not extremely common, it has seen periodic use in English-speaking countries, often influenced by pop culture.",
+  "literaryReferences": "Cherry appears as a character name in several books, including 'Cherry Ames,' a series about a nurse.",
+  "pronunciationGuide": "/ˈtʃɛri/",
+  "variations": [
+    "Cherri",
+    "Cherie",
+    "Chery",
+    "Sherry",
+    "Cher"
+  ],
+  "similarNames": [
+    "Berry",
+    "Merry",
+    "Carrie",
+    "Charity",
+    "Cheryl"
+  ],
+  "nicknames": [
+    "Cher",
+    "Che",
+    "Ches",
+    "Riri"
+  ],
+  "personality": "Names like Cherry often evoke a playful and cheerful personality, with associations of sweetness and approachability.",
+  "symbolism": "Cherries are often associated with love, happiness, and good fortune, making the name Cherry symbolic of positivity and delight.",
+  "funFact": "In Japan, cherry blossoms, or 'sakura,' are celebrated annually in a festival known as Hanami, where people gather to appreciate the fleeting beauty of the blossoms.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Cherry Jones",
+      "profession": "Actress",
+      "knownFor": [
+        "24",
+        "The Handmaid's Tale"
+      ],
+      "awards": "Tony Awards, Emmy Awards"
+    },
+    {
+      "name": "Cherry Healey",
+      "profession": "Television Presenter",
+      "knownFor": [
+        "Inside the Factory",
+        "Cherry Healey Investigates"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Outsiders",
+      "year": 1983,
+      "type": "Movie",
+      "characterName": "Cherry Valance",
+      "characterDescription": "A kind and understanding Soc girl who befriends the Greasers.",
+      "imdbUrl": "https://www.imdb.com/title/tt0086066/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Things are rough all over.",
+      "character": "Cherry Valance",
+      "source": "The Outsiders",
+      "year": 1983,
+      "context": "Cherry Valance explaining the universal nature of struggles to Ponyboy.",
+      "genre": "Drama",
+      "impact": "This quote highlights the theme of shared human experience despite social divides."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fruition, when energies peak and life comes to full bloom.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs that share emotional depth and intuition.",
+    "cosmicElement": "The Lover",
+    "cosmicElementDescription": "Represents passion, connection, and emotional depth.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing, compassion, and emotional support.",
+    "karmicLessons": "Embrace vulnerability and cherish fleeting moments.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a desire for love and harmony in relationships."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 500,
+    "peakYear": 1970
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is just a bowl of cherries.",
+    "author": "Lew Brown",
+    "context": "A popular song lyric encouraging optimism and not taking problems too seriously."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Cher-ry"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Cereza",
+      "script": "Latin",
+      "scriptName": "Cereza",
+      "pronunciation": "/θeˈɾeθa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κεράσι",
+      "script": "Greek",
+      "scriptName": "Κεράσι",
+      "pronunciation": "/keˈrasi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كرز",
+      "script": "Arabic",
+      "scriptName": "كرز",
+      "pronunciation": "/karaz/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "樱桃",
+      "script": "Han",
+      "scriptName": "樱桃",
+      "pronunciation": "/yīng táo/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Вишня",
+      "script": "Cyrillic",
+      "scriptName": "Вишня",
+      "pronunciation": "/ˈviʂnʲə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דובדבן",
+      "script": "Hebrew",
+      "scriptName": "דובדבן",
+      "pronunciation": "/dovdevan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Cherry Ames, Student Nurse",
+      "author": "Helen Wells",
+      "publishedYear": 1943,
+      "genre": "Fiction",
+      "significance": "The first book in the Cherry Ames series, following her adventures as a nurse.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Nature-Inspired",
+      "confidence": 0.9,
+      "reason": "Derived from the name of the cherry fruit."
+    },
+    {
+      "tag": "Feminine",
+      "confidence": 0.8,
+      "reason": "Commonly used as a female name."
+    },
+    {
+      "tag": "Unique",
+      "confidence": 0.7,
+      "reason": "Not a commonly used name, offering a distinct choice."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Cherry Pie",
+      "artist": "Warrant",
+      "year": 1990,
+      "genre": "Rock",
+      "nameContext": "The name appears in the song title and lyrics, symbolizing something sweet.",
+      "description": "A glam metal song that became a hit in the early 90s, known for its energetic style and catchy chorus.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Cherry+Pie+Warrant",
+      "geniusUrl": "https://genius.com/Warrant-cherry-pie-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Cherry is a name that brings to mind the sweet taste of summer and the beauty of nature. Its vibrant and playful sound makes it a charming choice for parents seeking something unique yet familiar. With cultural ties to the celebrated cherry blossom festivals in Japan, this name carries a sense of joy and renewal.",
+    "etymology_meaning": "The name Cherry originates from the English word for the fruit, which in turn comes from the Latin 'cerasum.' It's a name that resonates with simplicity and natural beauty, reflective of the cherry fruit itself.",
+    "famous_bearers": "Notable individuals named Cherry include Cherry Jones, a highly acclaimed actress known for her roles in '24' and 'The Handmaid's Tale,' and Cherry Healey, a popular British television presenter. Their accomplishments highlight the name's association with talent and charisma.",
+    "pop_culture_moments": "In pop culture, the name Cherry is famously associated with the character Cherry Valance from 'The Outsiders,' a classic film and novel about social divides and friendship. The name also appears in music, such as the hit song 'Cherry Pie' by Warrant.",
+    "personality_profile": "Individuals named Cherry are often perceived as vibrant and cheerful, bringing a sense of warmth and friendliness to those around them. They are seen as approachable and down-to-earth, with a natural affinity for creativity and expression.",
+    "variations_nicknames": "Variations of the name include Cherri and Cherie, while common nicknames like Cher and Riri add a personal touch. These variations offer flexibility and personalization, allowing for a range of affectionate forms.",
+    "popularity_data": "While not currently among the most popular names, Cherry reached a peak in the 1970s and remains a charming choice for those seeking a unique yet accessible name. Its periodic resurgence in pop culture keeps it relevant and endearing.",
+    "pairing_suggestions": "Cherry pairs beautifully with classic names like Rose or modern choices like Skye, creating a harmonious blend of nature-inspired and timeless appeal. For a more traditional combination, consider Cherry Anne or Cherry Elizabeth.",
+    "cultural_context": "Culturally, the cherry fruit is celebrated in various traditions, most notably in Japan, where cherry blossoms symbolize the fleeting beauty of life. This cultural richness adds depth and meaning to the name, making it a thoughtful choice.",
+    "final_recommendation": "For parents seeking a name that embodies sweetness, vibrancy, and a touch of nature, Cherry is an excellent choice. Its cultural significance and charming simplicity make it a standout option, offering both uniqueness and familiarity.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

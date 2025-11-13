@@ -1,0 +1,214 @@
+{
+  "name": "Aime",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:30:11.813Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Beloved",
+  "culturalSignificance": "Aime is a name of French origin, derived from the Latin 'Amatus,' meaning 'beloved.' It has been used historically in various European cultures and is often considered a classic name.",
+  "modernContext": "In modern times, Aime is seen as a unique and elegant name choice, particularly in English-speaking countries where it offers a distinctive alternative to more common names like Amy or Aimée.",
+  "literaryReferences": "Aime has appeared in various French literary works, often symbolizing love and affection due to its meaning.",
+  "pronunciationGuide": "eɪm",
+  "variations": [
+    "Aimée",
+    "Amy",
+    "Amie",
+    "Aimee"
+  ],
+  "similarNames": [
+    "Amelia",
+    "Amelie",
+    "Emma",
+    "Elise",
+    "Claire"
+  ],
+  "nicknames": [
+    "Aim",
+    "Mimi",
+    "Aimy"
+  ],
+  "personality": "Names like Aime are often associated with warmth, kindness, and a loving nature, reflecting its literal meaning 'beloved.'",
+  "symbolism": "The name Aime symbolizes love and affection, often embodying a sense of warmth and endearment.",
+  "funFact": "The name Aime and its variations have been popular in France and other French-speaking regions for centuries.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Aimé Césaire",
+      "years": "1913-2008",
+      "category": "Poet",
+      "achievements": [
+        "Founder of the Négritude movement",
+        "Mayor of Fort-de-France"
+      ],
+      "significance": "Aimé Césaire was a renowned Francophone poet and politician who played a significant role in the cultural and political life of Martinique and the broader Francophone world.",
+      "notableWorks": [
+        "Notebook of a Return to the Native Land"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Poetry is a way of taking life by the throat.",
+      "author": "Aimé Césaire",
+      "context": "Aimé Césaire's reflection on the power of poetry.",
+      "year": 1950,
+      "category": "Literature"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Aimé Jacquet",
+      "profession": "Football Coach",
+      "knownFor": [
+        "Coaching the French national team to victory in the 1998 FIFA World Cup"
+      ],
+      "awards": "FIFA World Coach of the Year 1998"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The Full Moon represents completion and abundance.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs are compatible due to their emotional depth and intuitive nature.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water is associated with emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "This archetype is known for nurturing and compassion.",
+    "karmicLessons": "Learning to balance emotion and logic.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "People with this soul urge number seek harmony and are often drawn to helping others."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 750,
+    "peak": 320,
+    "peakYear": 2000
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To love and be loved is to feel the sun from both sides.",
+    "author": "David Viscott",
+    "context": "This quote reflects the essence of love, akin to the meaning of the name Aime."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Aime"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Amado",
+      "script": "Latin",
+      "scriptName": "Amado",
+      "pronunciation": "aˈmaðo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αγαπητός",
+      "script": "Greek",
+      "scriptName": "Αγαπητός",
+      "pronunciation": "aɣapiˈtos",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "محبوب",
+      "script": "Arabic",
+      "scriptName": "محبوب",
+      "pronunciation": "maḥbūb",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "爱米",
+      "script": "Han",
+      "scriptName": "爱米",
+      "pronunciation": "ài mǐ",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Любимый",
+      "script": "Cyrillic",
+      "scriptName": "Любимый",
+      "pronunciation": "ljʉˈbʲimɨj",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אהוב",
+      "script": "Hebrew",
+      "scriptName": "אהוב",
+      "pronunciation": "a'huv",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Aime has historical roots and has been used for centuries."
+    },
+    {
+      "tag": "Romantic",
+      "confidence": 0.8,
+      "reason": "The name's meaning 'beloved' gives it a romantic connotation."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Aime has been used across generations, maintaining its appeal."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Aime is a name that carries a sense of love and affection wherever it goes. It is a name that has graced many languages and cultures, often symbolizing warmth and endearment. Whether you’re considering it for its classic charm or its romantic meaning, Aime is a choice that speaks volumes.",
+    "etymology_meaning": "Derived from the Latin 'Amatus,' Aime means 'beloved.' This name has been popular in French-speaking regions and is cherished for its simple yet profound meaning.",
+    "famous_bearers": "Notable individuals with the name include Aimé Césaire, a pioneering poet and politician, and Aimé Jacquet, the celebrated football coach who led France to World Cup victory.",
+    "pop_culture_moments": "While not extensively featured in movies or TV shows, Aime's rich meaning and French flair make it a favorite in literature and artistic circles.",
+    "personality_profile": "Those named Aime are often perceived as warm, caring, and affectionate. They tend to be empathetic individuals who value close relationships.",
+    "variations_nicknames": "Common variations include Aimée and Aimee, while nicknames like Aim and Mimi offer casual alternatives.",
+    "popularity_data": "The name Aime has seen various peaks in popularity, particularly in French-speaking areas. It remains a unique choice in English-speaking countries.",
+    "pairing_suggestions": "Aime pairs well with classic middle names like Marie or James, offering a balance of heritage and modernity.",
+    "cultural_context": "Aime's cultural roots lie primarily in France, where it has been a staple name due to its beautiful meaning and simple elegance.",
+    "final_recommendation": "If you are looking for a name that embodies love and timelessness, Aime is an excellent choice. Its cultural heritage and graceful simplicity make it a standout name.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

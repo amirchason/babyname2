@@ -1,0 +1,254 @@
+{
+  "name": "Harrison",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:35:22.955Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Son of Harry",
+  "culturalSignificance": "Harrison is a surname turned first name, originating from the English patronymic tradition. It became well-known as a given name in the United States, partly due to President William Henry Harrison and his grandson Benjamin Harrison, both of whom served as Presidents of the United States.",
+  "modernContext": "In modern times, Harrison has become a popular first name, especially in English-speaking countries. It is favored for its strong and historical connotations and is often associated with leadership and charisma.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈhærɪsən/",
+  "variations": [
+    "Harrisson",
+    "Haryson",
+    "Harryson"
+  ],
+  "similarNames": [
+    "Harry",
+    "Henry",
+    "Garrett",
+    "Hudson",
+    "Emerson"
+  ],
+  "nicknames": [
+    "Harry",
+    "Harris",
+    "Sonny"
+  ],
+  "personality": "Individuals named Harrison are often perceived as charismatic and intelligent, with a natural inclination towards leadership roles. They are seen as reliable and trustworthy.",
+  "symbolism": "The name Harrison symbolizes heritage and legacy, often invoking images of familial strength and continuity.",
+  "funFact": "The name Harrison soared in popularity in the late 20th century, largely due to its use by celebrities and public figures, making it a trendy choice for parents.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "William Henry Harrison",
+      "years": "1773-1841",
+      "category": "Politics",
+      "achievements": [
+        "9th President of the United States"
+      ],
+      "significance": "He was known for having the shortest presidency in U.S. history, dying just 31 days after taking office.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Benjamin Harrison",
+      "years": "1833-1901",
+      "category": "Politics",
+      "achievements": [
+        "23rd President of the United States"
+      ],
+      "significance": "He was known for modernizing the U.S. Navy and for his efforts in civil rights, including the enforcement of voting rights for African Americans.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Harrison Ford",
+      "profession": "Actor",
+      "knownFor": [
+        "Star Wars",
+        "Indiana Jones"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "George Harrison",
+      "profession": "Musician",
+      "knownFor": [
+        "The Beatles",
+        "Solo Career"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Dexter",
+      "year": 2006,
+      "type": "TV Show",
+      "characterName": "Harrison Morgan",
+      "characterDescription": "Son of the main character, Dexter Morgan, who plays a significant role in the later seasons.",
+      "imdbUrl": "https://www.imdb.com/title/tt0773262/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Harrison",
+      "characterDescription": "Minor character in the film adaptation.",
+      "imdbUrl": "https://www.imdb.com/title/tt0241527/",
+      "genre": "Fantasy, Adventure",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The Full Moon is a time of completion and illumination.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs are known for their intellect and adaptability, complementing Harrison's air element.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents communication, intelligence, and social connections.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Harrison is seen as a natural leader, often taking charge and guiding others.",
+    "karmicLessons": "Learning to balance personal ambitions with empathy for others.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom, adventure, and new experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 113,
+    "peak": 113,
+    "peakYear": 2021
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "A name is the blueprint of the thing we call character.",
+    "author": "William Shakespeare",
+    "context": "Reflection on the significance of names and identity."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Har-ri-son"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Harrison",
+      "script": "Latin",
+      "scriptName": "Harrison",
+      "pronunciation": "/aɾiˈson/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Χάρισον",
+      "script": "Greek",
+      "scriptName": "Χάρισον",
+      "pronunciation": "/ˈxaɾison/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هاريسون",
+      "script": "Arabic",
+      "scriptName": "هاريسون",
+      "pronunciation": "/haːriːˈsuːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "哈里森",
+      "script": "Han",
+      "scriptName": "哈里森",
+      "pronunciation": "/hā lǐ sēn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Харрисон",
+      "script": "Cyrillic",
+      "scriptName": "Харрисон",
+      "pronunciation": "/ˈxarʲɪsən/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הריסון",
+      "script": "Hebrew",
+      "scriptName": "הריסון",
+      "pronunciation": "/haʁiˈson/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "childName": "Harrison",
+      "parentNames": [
+        "Jude Law",
+        "Sadie Frost"
+      ],
+      "birthYear": 2002,
+      "context": "Child of actors Jude Law and Sadie Frost."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Harrison has a long-standing history and is derived from traditional English patronymics."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has remained popular over several decades, appealing to various generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "While not directly a literary name, its use in various media gives it a cultural edge."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Harrison is a name that resonates with history, charisma, and a touch of modern flair. With its roots in the English tradition, Harrison has made its way into the hearts of many parents seeking a name with both strength and legacy.",
+    "etymology_meaning": "Originating from the English language, Harrison means 'son of Harry.' It is a patronymic surname that has transitioned smoothly into a first name, encompassing a rich history of usage.",
+    "famous_bearers": "Notable individuals named Harrison include Harrison Ford, the iconic actor known for roles in Star Wars and Indiana Jones, and George Harrison, the legendary musician from The Beatles.",
+    "pop_culture_moments": "Harrison has made appearances in various forms of media, from TV shows like Dexter to being referenced in films such as Harry Potter. Its presence in pop culture underscores its enduring appeal.",
+    "personality_profile": "The name Harrison is often associated with leadership, intelligence, and charisma. Those bearing the name are seen as reliable, trustworthy, and naturally inclined towards positions of influence.",
+    "variations_nicknames": "Variations of Harrison include Harrisson and Harryson, while common nicknames are Harry, Harris, and Sonny. These variations and nicknames offer a range of options for personalization.",
+    "popularity_data": "Harrison has consistently ranked within the top names for boys, peaking in recent years due to its classic appeal and strong historical connections. Its popularity reflects its timeless nature.",
+    "pairing_suggestions": "Harrison pairs well with names like Grace, Olivia, and Charlotte for girls, and Henry, William, and James for boys, creating a harmonious blend of classic and modern.",
+    "cultural_context": "With its English origins, Harrison carries a cultural weight that is both traditional and modern. It is favored in English-speaking countries, appealing to those who value heritage and continuity.",
+    "final_recommendation": "Choosing the name Harrison offers a blend of history, strength, and modern appeal. It is a name that not only stands the test of time but also opens doors to a legacy of leadership and charisma.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

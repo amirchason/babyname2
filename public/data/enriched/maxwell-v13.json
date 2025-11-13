@@ -1,0 +1,287 @@
+{
+  "name": "Maxwell",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:59:54.936Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Scottish",
+  "meaning": "Great stream",
+  "culturalSignificance": "Maxwell is a name of Scottish origin, originally a surname derived from a place name in Roxburghshire, Scotland. It has been used as a given name since the 19th century and is often associated with nobility and intellectual achievement.",
+  "modernContext": "In modern times, Maxwell is a popular name in English-speaking countries, often chosen for its strong and classic sound. It is commonly used in both formal and casual contexts, appealing to parents who favor traditional yet distinguished names.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈmæksˌwɛl/",
+  "variations": [
+    "Max",
+    "Maximilian",
+    "Mack",
+    "Maximus",
+    "Maxime"
+  ],
+  "similarNames": [
+    "Jackson",
+    "Mason",
+    "Alexander",
+    "Samuel",
+    "Gabriel"
+  ],
+  "nicknames": [
+    "Max",
+    "Maxy",
+    "Wells",
+    "Maxie",
+    "Mack"
+  ],
+  "personality": "People named Maxwell are often perceived as intelligent, responsible, and charismatic. They tend to be leaders who inspire confidence in others.",
+  "symbolism": "The name Maxwell is symbolically linked to strength and nobility, often evoking images of leadership and scholarly pursuits.",
+  "funFact": "James Clerk Maxwell, a notable physicist, formulated the classical theory of electromagnetic radiation, combining electricity, magnetism, and light as aspects of the same phenomenon.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "James Clerk Maxwell",
+      "years": "1831-1879",
+      "category": "Scientist",
+      "achievements": [
+        "Formulated Maxwell's equations",
+        "Contributed to the kinetic theory of gases"
+      ],
+      "significance": "James Clerk Maxwell was a pivotal figure in the field of physics, known for his groundbreaking work on electromagnetic theory.",
+      "notableWorks": [
+        "A Treatise on Electricity and Magnetism"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Thoroughly conscious ignorance is the prelude to every real advance in science.",
+      "author": "James Clerk Maxwell",
+      "context": "Referring to the importance of acknowledging the limits of current knowledge in scientific progress.",
+      "year": 1870,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Maxwell",
+      "profession": "Musician",
+      "knownFor": [
+        "Urban Hang Suite",
+        "Pretty Wings"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Maxwell Caulfield",
+      "profession": "Actor",
+      "knownFor": [
+        "Grease 2",
+        "The Colbys"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Maxwell Scherzer",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "New York Mets",
+      "pastTeams": [
+        "Washington Nationals",
+        "Detroit Tigers"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "31",
+      "years": "2008-Present",
+      "achievements": "World Series Champion, Cy Young Award",
+      "knownFor": [
+        "Strikeouts",
+        "Fastball"
+      ],
+      "awards": "Multiple Cy Young Awards",
+      "stats": "Over 3000 career strikeouts",
+      "verified": true,
+      "source": "MLB Official Site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Rush Hour",
+      "year": 1998,
+      "type": "Movie",
+      "characterName": "Maxwell",
+      "characterDescription": "FBI agent involved in a kidnapping case",
+      "imdbUrl": "https://www.imdb.com/title/tt0120812/",
+      "genre": "Action, Comedy",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and clarity, bringing projects to fruition.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, providing stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Scholar",
+    "celestialArchetypeDescription": "Represents a quest for knowledge and understanding.",
+    "karmicLessons": "Balancing intellectual pursuits with emotional well-being.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A desire for spiritual understanding and wisdom."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 145,
+    "peak": 107,
+    "peakYear": 2014
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "On the pursuit of happiness and success."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Max-well"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Maxwell",
+      "script": "Latin",
+      "scriptName": "Maxwell",
+      "pronunciation": "/maksˈwel/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαξγουέλ",
+      "script": "Greek",
+      "scriptName": "Μαξγουέλ",
+      "pronunciation": "/maksˈɣwel/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماكسويل",
+      "script": "Arabic",
+      "scriptName": "ماكسويل",
+      "pronunciation": "/maːkswiːl/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "麦克斯韦尔",
+      "script": "Han",
+      "scriptName": "麦克斯韦尔",
+      "pronunciation": "/mài kè sī wēi ěr/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Максвелл",
+      "script": "Cyrillic",
+      "scriptName": "Максвелл",
+      "pronunciation": "/maksˈvɛl/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מקסוול",
+      "script": "Hebrew",
+      "scriptName": "מקסוול",
+      "pronunciation": "/maksvel/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Maxwell's Demon",
+      "author": "Steven Hall",
+      "publishedYear": 2021,
+      "genre": "Fiction",
+      "significance": "Explores themes of reality, identity, and the boundaries of knowledge.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Maxwell has historical roots and enduring popularity."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maxwell has remained a consistently used name over the decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with intellectual figures like James Clerk Maxwell."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Maxwell's Silver Hammer",
+      "artist": "The Beatles",
+      "year": 1969,
+      "genre": "Rock",
+      "nameContext": "The name appears in the title and throughout the song.",
+      "description": "A whimsical song by The Beatles about a character named Maxwell who causes chaos with his silver hammer.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Maxwell's+Silver+Hammer+The+Beatles",
+      "geniusUrl": "https://genius.com/The-beatles-maxwells-silver-hammer-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Maxwell is a name that resonates with strength and intellect. With its roots in Scottish heritage, it has become a beloved choice for parents seeking a classic and dignified name. Its association with the scientific brilliance of James Clerk Maxwell adds an extra layer of prestige.",
+    "etymology_meaning": "The name Maxwell originates from a Scottish surname, derived from a place name meaning 'great stream'. It has been used as a first name since the 19th century, symbolizing strength and leadership.",
+    "famous_bearers": "Maxwell is famously borne by James Clerk Maxwell, a pioneering physicist whose work laid the foundation for modern electromagnetic theory. In entertainment, the R&B singer Maxwell has charmed audiences with his soulful music.",
+    "pop_culture_moments": "Maxwell's presence in popular culture includes the Beatles' song 'Maxwell's Silver Hammer', which whimsically portrays a character named Maxwell. This song has cemented the name's quirky appeal in musical history.",
+    "personality_profile": "Maxwell is often associated with traits of intelligence, leadership, and charisma. Individuals with this name are seen as persuasive communicators and natural leaders, often excelling in academic and professional pursuits.",
+    "variations_nicknames": "Common variations of Maxwell include Max and Maximus, each offering a slightly different flair. Nicknames like Maxy and Wells provide affectionate alternatives for this distinguished name.",
+    "popularity_data": "Maxwell has consistently ranked among the top names for boys, peaking in popularity in the early 2010s. Its appeal lies in its classic nature and the modern trend for strong, traditional names.",
+    "pairing_suggestions": "Maxwell pairs well with middle names like James and Alexander, creating a harmonious and timeless combination. For sibling names, consider classic choices like Charlotte or Henry.",
+    "cultural_context": "With its Scottish origins, Maxwell carries a rich cultural heritage. It represents a blend of historical significance and modern appeal, making it a versatile choice for families.",
+    "final_recommendation": "Maxwell is an excellent choice for parents seeking a name with historical depth and modern relevance. Its associations with strength and intellect make it a compelling option for your child's future.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

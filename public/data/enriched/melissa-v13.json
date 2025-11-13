@@ -1,0 +1,250 @@
+{
+  "name": "Melissa",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:40:29.368Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Honeybee",
+  "culturalSignificance": "Melissa originates from the Greek word 'μέλισσα' meaning 'honeybee.' In Greek mythology, Melissa was a nymph who discovered and taught the use of honey and was associated with nymphs. The name symbolizes sweetness and industriousness.",
+  "modernContext": "Melissa became popular in English-speaking countries during the 20th century and has remained a classic choice. It was especially popular in the United States during the 1970s and 1980s.",
+  "literaryReferences": "In literature, Melissa is often used as a name for characters that embody kindness and care, reflecting its mythological roots.",
+  "pronunciationGuide": "məˈlɪs.ə",
+  "variations": [
+    "Melisa",
+    "Mellisa",
+    "Malissa",
+    "Melyssa"
+  ],
+  "similarNames": [
+    "Alyssa",
+    "Marissa",
+    "Elissa",
+    "Clarissa"
+  ],
+  "nicknames": [
+    "Mel",
+    "Liss",
+    "Lissa",
+    "Meli"
+  ],
+  "personality": "Melissa is often associated with a warm and nurturing personality, reflecting the industrious and sweet nature of a honeybee.",
+  "symbolism": "The name Melissa symbolizes sweetness, hard work, and community, much like the honeybee.",
+  "funFact": "In Greek mythology, Melissa was a nymph who discovered and taught the use of honey, leading to the name's association with sweetness.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Melissa officinalis",
+      "years": "Not applicable",
+      "category": "Botanical",
+      "achievements": [
+        "Used in herbal medicine",
+        "Known for calming effects"
+      ],
+      "significance": "Melissa officinalis, or lemon balm, is a plant used since antiquity for its soothing properties.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Melissa McCarthy",
+      "profession": "Actress",
+      "knownFor": [
+        "Bridesmaids",
+        "Spy"
+      ],
+      "awards": "Primetime Emmy Award"
+    },
+    {
+      "name": "Melissa Etheridge",
+      "profession": "Musician",
+      "knownFor": [
+        "Come to My Window",
+        "I'm the Only One"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Melissa & Joey",
+      "year": 2010,
+      "type": "TV Show",
+      "characterName": "Melissa Burke",
+      "characterDescription": "A local politician who hires a manny to help care for her niece and nephew.",
+      "imdbUrl": "https://www.imdb.com/title/tt1597420/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Yellow",
+      "hex": "#FFFF00"
+    },
+    "luckyGemstone": "Citrine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The Full Moon signifies completion and illumination.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Melissa is compatible with Earth signs known for their stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth is grounded, practical, and nurturing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Melissa embodies the archetype of healing and nurturing.",
+    "karmicLessons": "To balance giving and receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Melissa's soul urge is to care for others and create harmony."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 123,
+    "peak": 2,
+    "peakYear": 1979
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "A bee is never as busy as it seems; it’s just that it can’t buzz any slower.",
+    "author": "Kin Hubbard",
+    "context": "Referring to the industrious nature symbolized by the name Melissa."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Me-lis-sa"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Melissa",
+      "script": "Latin",
+      "scriptName": "Melissa",
+      "pronunciation": "meˈlisa",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μελίσσα",
+      "script": "Greek",
+      "scriptName": "Μελίσσα",
+      "pronunciation": "meˈlisa",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميليسا",
+      "script": "Arabic",
+      "scriptName": "ميليسا",
+      "pronunciation": "miːˈliː.sa",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "梅丽莎",
+      "script": "Han",
+      "scriptName": "梅丽莎",
+      "pronunciation": "měi lì shā",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мелисса",
+      "script": "Cyrillic",
+      "scriptName": "Мелисса",
+      "pronunciation": "mʲɪˈlʲisə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מליסה",
+      "script": "Hebrew",
+      "scriptName": "מליסה",
+      "pronunciation": "meˈlisa",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Melissa",
+      "author": "Alex Gino",
+      "publishedYear": 2015,
+      "genre": "Fiction",
+      "significance": "This book is significant for its representation of a transgender girl and its impact on young adult literature.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Melissa has been a popular name for many decades, especially in the 20th century."
+    },
+    {
+      "tag": "Greek",
+      "confidence": 1,
+      "reason": "The name originates from Greek mythology and language."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name is used in literature and has mythological roots."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Sweet Melissa",
+      "artist": "The Allman Brothers Band",
+      "year": 1972,
+      "genre": "Rock",
+      "nameContext": "The name Melissa is used as a term of endearment in the song.",
+      "description": "Sweet Melissa is a popular song by The Allman Brothers Band, known for its soothing melody and heartfelt lyrics.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sweet+Melissa+Allman+Brothers",
+      "geniusUrl": "https://genius.com/The-allman-brothers-band-melissa-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Melissa is a name that exudes sweetness and warmth, much like the honeybee from which it gets its meaning. With roots deep in Greek mythology, Melissa has been a symbol of industriousness and community. Its rich history and melodic sound make it a timeless choice for parents.",
+    "etymology_meaning": "The name Melissa originates from the Greek word 'μέλισσα,' meaning 'honeybee.' In mythology, Melissa was a nurturing nymph who cared for Zeus and discovered the uses of honey.",
+    "famous_bearers": "Famous Melissas include actress Melissa McCarthy, known for her comedic roles, and musician Melissa Etheridge, celebrated for her powerful voice and impactful music.",
+    "pop_culture_moments": "Melissa has been featured in numerous pop culture references, including the TV show 'Melissa & Joey,' which showcased the name's charm and versatility.",
+    "personality_profile": "Those named Melissa are often seen as warm, nurturing, and industrious. They are thought to bring people together and create harmonious environments.",
+    "variations_nicknames": "Variations like Melisa and Malissa offer unique takes on the name, while common nicknames include Mel, Liss, and Meli.",
+    "popularity_data": "Melissa saw a peak in popularity during the 1970s and 1980s in the United States, consistently ranking among the top baby names.",
+    "pairing_suggestions": "Melissa pairs beautifully with middle names like Grace, Anne, and Rose, adding a touch of elegance and continuity.",
+    "cultural_context": "With its Greek origins and mythological connections, Melissa carries a rich cultural heritage that appeals to those seeking a name with historical depth.",
+    "final_recommendation": "Melissa is a classic choice for those who value tradition and mythological significance. Its sweet sound and enduring popularity make it a versatile and charming name choice.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

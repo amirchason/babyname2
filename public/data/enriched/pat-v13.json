@@ -1,0 +1,235 @@
+{
+  "name": "Pat",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:08:27.905Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Noble",
+  "culturalSignificance": "The name Pat is often a diminutive of Patrick or Patricia and has been used across cultures as a standalone name. It gained popularity in English-speaking countries in the 20th century and is often associated with friendliness and approachability.",
+  "modernContext": "In modern times, Pat is recognized as a gender-neutral name, often used in informal settings or as a nickname. It has seen a decline in popularity but remains a familiar choice due to its simplicity and ease of pronunciation.",
+  "literaryReferences": "Pat is a common character name in literature, often used to depict everyday, relatable characters.",
+  "pronunciationGuide": "/pæt/",
+  "variations": [
+    "Patrick",
+    "Patricia",
+    "Patrice",
+    "Patsy",
+    "Paddy"
+  ],
+  "similarNames": [
+    "Patty",
+    "Patton",
+    "Pam",
+    "Nat",
+    "Matt"
+  ],
+  "nicknames": [
+    "Paddy",
+    "Patsy",
+    "Trish"
+  ],
+  "personality": "People named Pat are often seen as approachable, friendly, and dependable. They are perceived to have a balanced nature and a practical outlook.",
+  "symbolism": "The name Pat symbolizes nobility and simplicity, reflecting a strong yet approachable personality.",
+  "funFact": "Pat was a popular gender-neutral name during the mid-20th century, often used in media to depict characters with ambiguous gender, such as the SNL character 'Pat'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Pat Boone",
+      "profession": "Musician",
+      "knownFor": [
+        "Ain't That a Shame",
+        "Love Letters in the Sand"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Pat Benatar",
+      "profession": "Musician",
+      "knownFor": [
+        "Hit Me with Your Best Shot",
+        "Love Is a Battlefield"
+      ],
+      "awards": "Four-time Grammy Award winner"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Pat Tillman",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "Arizona Cardinals",
+      "pastTeams": [],
+      "position": "Safety",
+      "jerseyNumber": "40",
+      "years": "1998-2001",
+      "achievements": "All-Pac-10 honors, Pat Tillman Foundation",
+      "knownFor": [
+        "Courage",
+        "Sacrifice"
+      ],
+      "awards": "Arthur Ashe Courage Award",
+      "stats": "Career tackles: 340",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "It's Pat",
+      "year": 1994,
+      "type": "Movie",
+      "characterName": "Pat",
+      "characterDescription": "A character with an ambiguous gender, trying to navigate life.",
+      "imdbUrl": "https://www.imdb.com/title/tt0110169/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 50
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share a practical approach to life.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and reliability.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for compassion and care.",
+    "karmicLessons": "Learning to balance practicality with emotions.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony and domesticity."
+  },
+  "genderDistribution": {
+    "male": 50,
+    "female": 50
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 100,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The noblest art is that of making others happy.",
+    "author": "P.T. Barnum",
+    "context": "Encouragement to pursue kindness and happiness."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Pat"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pat",
+      "script": "Latin",
+      "scriptName": "Pat",
+      "pronunciation": "/pat/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πατ",
+      "script": "Greek",
+      "scriptName": "Πατ",
+      "pronunciation": "/pat/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بات",
+      "script": "Arabic",
+      "scriptName": "بات",
+      "pronunciation": "/bat/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "帕特",
+      "script": "Han",
+      "scriptName": "帕特",
+      "pronunciation": "/pà tè/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пат",
+      "script": "Cyrillic",
+      "scriptName": "Пат",
+      "pronunciation": "/pat/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פאט",
+      "script": "Hebrew",
+      "scriptName": "פאט",
+      "pronunciation": "/pat/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Pat has been used for decades and remains a familiar name."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's simplicity gives it a timeless quality."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 1,
+      "reason": "Equally used for both males and females."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Pat is a name that resonates with simplicity and warmth, often evoking a sense of nostalgia. As a name that has been used for both boys and girls, Pat embodies a unisex charm that is both classic and contemporary. Despite its decline in recent popularity, Pat remains a beloved choice for those seeking a name that is both approachable and friendly.",
+    "etymology_meaning": "Derived from the Latin name Patrick or Patricia, Pat means 'noble'. This name has roots in antiquity, carrying connotations of strength and integrity.",
+    "famous_bearers": "Famous individuals named Pat include musician Pat Boone, known for his smooth vocals, and Pat Benatar, a rock icon with a powerful voice. These individuals have contributed to the name's recognition in pop culture.",
+    "pop_culture_moments": "Pat has made appearances in various media, notably the character 'Pat' from the Saturday Night Live sketches, which humorously explored gender ambiguity. The name’s use in such contexts highlights its versatility.",
+    "personality_profile": "Those named Pat are often perceived as down-to-earth, reliable, and affable. They are seen as individuals who value simplicity and are often approachable and easygoing.",
+    "variations_nicknames": "Common variations include Patrick and Patricia, while nicknames like Paddy and Patsy offer a playful twist. The name's flexibility lends itself to various adaptations.",
+    "popularity_data": "Pat's popularity peaked in the mid-20th century, reflecting cultural trends of the time. While it has seen a decline, it remains a familiar and enduring choice.",
+    "pairing_suggestions": "Pat pairs well with surnames that have two or more syllables, balancing its short, crisp sound. It complements middle names that are either traditional or trendy.",
+    "cultural_context": "Culturally, Pat has been used across English-speaking countries and holds a place in both formal and informal settings. Its use in media underscores its versatility.",
+    "final_recommendation": "For those seeking a name that is both classic and versatile, Pat offers a strong choice. Its historical roots and modern adaptability make it suitable for individuals looking for a name that embodies both tradition and contemporary relevance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,252 @@
+{
+  "name": "Fanny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:32:11.381Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Free one",
+  "culturalSignificance": "The name Fanny has been used throughout history, especially in English-speaking countries, as a diminutive of Frances. It was quite popular in the 18th and 19th centuries, often associated with characters in classic literature.",
+  "modernContext": "In modern times, the use of the name Fanny has declined in popularity, partly due to changes in slang meanings across different cultures. However, it remains a nostalgic and endearing choice for some.",
+  "literaryReferences": "Fanny Price is the main character in Jane Austen's novel 'Mansfield Park', known for her moral integrity and resilience.",
+  "pronunciationGuide": "/ˈfæni/",
+  "variations": [
+    "Frances",
+    "Franny",
+    "Fran",
+    "Francine"
+  ],
+  "similarNames": [
+    "Annie",
+    "Jenny",
+    "Fran",
+    "Fiona",
+    "Nanny"
+  ],
+  "nicknames": [
+    "Fan",
+    "Fay",
+    "Fae"
+  ],
+  "personality": "People named Fanny are often seen as nurturing and compassionate, with a strong sense of morality and justice.",
+  "symbolism": "The name Fanny symbolizes freedom and independence, reflecting its meaning 'free one'.",
+  "funFact": "Fanny was a popular name in Victorian England and often used in literature to denote a kind and virtuous female character.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Fanny Mendelssohn",
+      "years": "1805-1847",
+      "category": "Composer",
+      "achievements": [
+        "Composed over 460 pieces of music",
+        "Influential in the Romantic music period"
+      ],
+      "significance": "Fanny Mendelssohn was a talented composer and pianist, known for her role in the 19th-century Romantic music movement.",
+      "notableWorks": [
+        "Das Jahr",
+        "Piano Trio in D minor"
+      ]
+    },
+    {
+      "fullName": "Fanny Wright",
+      "years": "1795-1852",
+      "category": "Social Reformer",
+      "achievements": [
+        "Advocate for women's rights",
+        "Founded Nashoba Commune"
+      ],
+      "significance": "Fanny Wright was a prominent social reformer and feminist in the 19th century, advocating for education and abolitionism.",
+      "notableWorks": [
+        "Views of Society and Manners in America"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Fanny Ardant",
+      "profession": "Actress",
+      "knownFor": [
+        "La Femme d'à côté",
+        "8 Women"
+      ],
+      "awards": "César Award for Best Actress"
+    },
+    {
+      "name": "Fanny Brice",
+      "profession": "Comedian and Actress",
+      "knownFor": [
+        "The Ziegfeld Follies",
+        "Funny Girl (inspiration)"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Funny Girl",
+      "year": 1968,
+      "type": "Movie",
+      "characterName": "Fanny Brice",
+      "characterDescription": "A talented and unconventional comedienne who rises to fame on Broadway.",
+      "imdbUrl": "https://www.imdb.com/title/tt0062994/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, fostering communication and creativity.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and ideas.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for creativity, adaptability, and social skills.",
+    "karmicLessons": "Learning to balance freedom and responsibility.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and expression."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 150,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Freedom is the open window through which pours the sunlight of the human spirit and human dignity.",
+    "author": "Herbert Hoover",
+    "context": "Reflection on the concept of freedom."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Fan-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Fanny",
+      "script": "Latin",
+      "scriptName": "Fanny",
+      "pronunciation": "/ˈfani/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Φανή",
+      "script": "Greek",
+      "scriptName": "Φανή",
+      "pronunciation": "/faˈni/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "فاني",
+      "script": "Arabic",
+      "scriptName": "فاني",
+      "pronunciation": "/faːniː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "芬妮",
+      "script": "Han",
+      "scriptName": "芬妮",
+      "pronunciation": "/fēn nī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Фанни",
+      "script": "Cyrillic",
+      "scriptName": "Фанни",
+      "pronunciation": "/ˈfanʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פאני",
+      "script": "Hebrew",
+      "scriptName": "פאני",
+      "pronunciation": "/ˈfani/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Mansfield Park",
+      "author": "Jane Austen",
+      "publishedYear": 1814,
+      "genre": "Fiction",
+      "significance": "A classic novel exploring themes of morality and social structures.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical roots and literary significance."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Featured prominently in classic literature."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "Despite fluctuations in popularity, it remains a recognizable name."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Fanny has a rich history and timeless charm, often evoking images of 19th-century heroines and literary classics. While its popularity has waned in modern times, it remains an endearing choice for those seeking a name with historical depth.",
+    "etymology_meaning": "Fanny is derived from the Latin name Frances, meaning 'free one'. It has been used as a diminutive form for Frances in English-speaking countries.",
+    "famous_bearers": "Notable bearers of the name include Fanny Mendelssohn, a talented composer, and Fanny Brice, a famous comedienne who inspired the musical 'Funny Girl'.",
+    "pop_culture_moments": "Fanny has appeared in numerous literary and theatrical works, most prominently in Jane Austen's 'Mansfield Park'.",
+    "personality_profile": "Those named Fanny are often perceived as nurturing and independent, embodying the spirit of freedom and resilience.",
+    "variations_nicknames": "Fanny can be a diminutive of Frances, with variations like Franny and Fran. Nicknames such as Fan and Fay add a modern twist.",
+    "popularity_data": "The name saw its peak popularity in the 19th century but has since become less common, largely due to evolving cultural contexts.",
+    "pairing_suggestions": "Fanny pairs well with classic and timeless names such as Charles, Alice, or Henry, creating a harmonious and traditional feel.",
+    "cultural_context": "Historically popular in the UK and the US, Fanny has been used across various cultures, retaining its classical charm.",
+    "final_recommendation": "Choosing Fanny as a name offers a connection to historical and literary significance, making it a meaningful choice for those who appreciate its rich heritage.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

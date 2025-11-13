@@ -1,0 +1,304 @@
+{
+  "name": "Jesus",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:48:54.693Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is salvation",
+  "culturalSignificance": "Jesus is a name of profound cultural and religious significance, primarily due to its association with Jesus of Nazareth, the central figure of Christianity. The name is derived from the Hebrew name Yeshua, which was a common name in ancient Hebrew culture.",
+  "modernContext": "In modern times, the name Jesus is widely used in Spanish-speaking countries but is less common in English-speaking regions due to its religious connotations. It remains a popular choice in Latin America and among Hispanic communities.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈdʒiːzəs",
+  "variations": [
+    "Jess",
+    "Joshua",
+    "Isa",
+    "Josue",
+    "Yeshua"
+  ],
+  "similarNames": [
+    "Joshua",
+    "Joseph",
+    "James",
+    "John",
+    "Jacob"
+  ],
+  "nicknames": [
+    "Jess",
+    "Jay",
+    "Chu",
+    "Chucho"
+  ],
+  "personality": "The name Jesus is often associated with traits of leadership, compassion, and spiritual insight, reflecting the qualities of its most famous bearer.",
+  "symbolism": "The name Jesus symbolizes salvation, hope, and forgiveness, deeply rooted in Christian theology and beliefs.",
+  "funFact": "In many Spanish-speaking countries, the name Jesus is often paired with Maria for girls, reflecting the parents' devotion to both Jesus Christ and the Virgin Mary.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Jesus of Nazareth",
+    "significance": "Jesus Christ is the central figure of Christianity, believed to be the Son of God and the savior of humanity. His life and teachings form the foundation of Christian beliefs.",
+    "keyStories": [
+      "Birth in Bethlehem",
+      "Sermon on the Mount",
+      "Crucifixion and Resurrection"
+    ],
+    "spiritualMeaning": "Represents salvation, love, and the promise of eternal life.",
+    "historicalImpact": "The teachings of Jesus have shaped Western civilization, influencing art, culture, philosophy, and law."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jesus of Nazareth",
+      "years": "circa 4 BC - circa AD 30",
+      "category": "Religious Leader",
+      "achievements": [
+        "Founding Christianity",
+        "Preaching love and forgiveness"
+      ],
+      "significance": "Jesus Christ's life and teachings are the foundation of Christianity, the world's largest religion.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jesús Navas",
+      "profession": "Footballer",
+      "knownFor": [
+        "Playing for Sevilla FC",
+        "Spanish National Team"
+      ],
+      "awards": "UEFA Europa League Winner"
+    },
+    {
+      "name": "Jesús Luz",
+      "profession": "Model and DJ",
+      "knownFor": [
+        "Modeling career",
+        "Music"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jesús Navas",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "La Liga",
+      "team": "Sevilla FC",
+      "pastTeams": [
+        "Manchester City"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "16",
+      "years": "2003-Present",
+      "achievements": "UEFA Europa League, World Cup Winner",
+      "knownFor": [
+        "Speed",
+        "Crossing ability"
+      ],
+      "awards": "UEFA Europa League Final Man of the Match",
+      "stats": "Over 500 club appearances",
+      "verified": true,
+      "source": "https://www.transfermarkt.com/jesus-navas/profil/spieler/15943"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Passion of the Christ",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Jesus Christ",
+      "characterDescription": "Depicts the final 12 hours of Jesus' life.",
+      "imdbUrl": "https://www.imdb.com/title/tt0335345/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Jesus Christ Superstar",
+      "year": 1973,
+      "type": "Movie",
+      "characterName": "Jesus",
+      "characterDescription": "A rock opera that portrays the story of Jesus through modern music.",
+      "imdbUrl": "https://www.imdb.com/title/tt0070239/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Father, forgive them; for they know not what they do.",
+      "character": "Jesus Christ",
+      "source": "The Passion of the Christ",
+      "year": 2004,
+      "context": "Spoken during the crucifixion.",
+      "genre": "Drama",
+      "impact": "Highlights the theme of forgiveness central to Christian teachings."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The full moon represents completion and clarity.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer"
+    ],
+    "compatibleSignsDescription": "These signs are intuitive and nurturing, complementing the compassionate nature associated with the name Jesus.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water signifies intuition, emotion, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes compassion, empathy, and the ability to nurture others.",
+    "karmicLessons": "Embrace forgiveness and compassion.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A deep desire to bring peace and understanding to the world."
+  },
+  "genderDistribution": {
+    "male": 99,
+    "female": 1
+  },
+  "ranking": {
+    "current": 321,
+    "peak": 78,
+    "peakYear": 1998
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Blessed are the peacemakers: for they shall be called the children of God.",
+    "author": "Jesus Christ",
+    "context": "From the Sermon on the Mount, emphasizing the importance of peace."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Je-sus"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jesús",
+      "script": "Latin",
+      "scriptName": "Jesús",
+      "pronunciation": "xeˈsus",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιησούς",
+      "script": "Greek",
+      "scriptName": "Ιησούς",
+      "pronunciation": "i.eˈsus",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "عيسى",
+      "script": "Arabic",
+      "scriptName": "عيسى",
+      "pronunciation": "ʕiːsaː",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "耶稣",
+      "script": "Han",
+      "scriptName": "耶稣",
+      "pronunciation": "Yēsū",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Иисус",
+      "script": "Cyrillic",
+      "scriptName": "Иисус",
+      "pronunciation": "iˈisus",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ישוע",
+      "script": "Hebrew",
+      "scriptName": "ישוע",
+      "pronunciation": "jeˈʃua",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "The name is directly associated with Jesus Christ, the central figure of Christianity."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name's historical and religious roots make it a classic choice."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Despite its ancient origins, the name remains in use today, especially in Hispanic cultures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jesus Walks",
+      "artist": "Kanye West",
+      "year": 2004,
+      "genre": "Hip-Hop",
+      "nameContext": "The song explores themes of faith and redemption.",
+      "description": "A powerful hip-hop track that discusses the struggles of faith and the need for divine guidance.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jesus+Walks+Kanye+West",
+      "geniusUrl": "https://genius.com/Kanye-west-jesus-walks-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Personal Jesus",
+      "artist": "Depeche Mode",
+      "year": 1989,
+      "genre": "Rock",
+      "nameContext": "The song uses the name metaphorically to describe a personal savior.",
+      "description": "A rock song that speaks about having a personal connection with a guiding figure or savior.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Personal+Jesus+Depeche+Mode",
+      "geniusUrl": "https://genius.com/Depeche-mode-personal-jesus-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Jesus carries a weighty legacy, being one of the most significant names in religious history. Known primarily for its association with Jesus of Nazareth, it has influenced countless cultures and societies around the world. Today, it remains a popular name in many Spanish-speaking communities.",
+    "etymology_meaning": "The name Jesus originates from the Hebrew name Yeshua, meaning 'God is salvation.' It became widely recognized through the Greek 'Iēsous' and the Latin 'Iesus,' following the spread of Christianity.",
+    "famous_bearers": "Beyond Jesus of Nazareth, many notable figures have borne the name Jesus, especially in sports and entertainment. Jesús Navas, a celebrated footballer, is a contemporary bearer of the name.",
+    "pop_culture_moments": "In pop culture, the name Jesus appears in various films and songs, such as 'The Passion of the Christ' and Kanye West's 'Jesus Walks,' reflecting its enduring influence.",
+    "personality_profile": "Namesakes of Jesus are often seen as compassionate leaders with a strong sense of justice and empathy, mirroring the qualities of their most famous namesake.",
+    "variations_nicknames": "Common variations of the name Jesus include Joshua and Yeshua, while nicknames like Jess and Chucho add a personal touch.",
+    "popularity_data": "Historically popular in regions with strong Christian influences, the name Jesus maintains its presence in modern times, particularly in Latin American countries.",
+    "pairing_suggestions": "For those considering Jesus as a baby name, pairing it with names like Maria or David can create a harmonious and culturally resonant combination.",
+    "cultural_context": "The name's deep roots in Christian tradition make it a meaningful choice for many families, particularly those with religious or Hispanic heritage.",
+    "final_recommendation": "Choosing the name Jesus is a decision that carries cultural and spiritual weight. It's a name that offers a timeless connection to faith and history, ideal for families looking to honor their heritage.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

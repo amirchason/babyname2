@@ -1,0 +1,287 @@
+{
+  "name": "Nancy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:28:27.363Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Grace",
+  "culturalSignificance": "The name Nancy has been popular in English-speaking countries since the 18th century. Initially a diminutive of Anne, it gained independence as a standalone name in the 19th century. Widely regarded for its simple charm, it has been a favorite in both literature and royalty.",
+  "modernContext": "In recent years, the name Nancy has seen a decline in popularity, yet it remains a classic choice for many parents. It is often associated with a certain vintage appeal, reflecting a timeless elegance.",
+  "literaryReferences": "Nancy is famously the name of a character in Charles Dickens' 'Oliver Twist', where she is portrayed as a sympathetic figure with a tragic fate.",
+  "pronunciationGuide": "ˈnænsi",
+  "variations": [
+    "Nan",
+    "Nance",
+    "Nannie",
+    "Nanci",
+    "Nancie"
+  ],
+  "similarNames": [
+    "Anne",
+    "Grace",
+    "Alice",
+    "Lucy",
+    "Jane"
+  ],
+  "nicknames": [
+    "Nan",
+    "Nance",
+    "Nanny"
+  ],
+  "personality": "Nancy is often associated with traits of kindness, grace, and intelligence. Individuals with this name are perceived as nurturing and compassionate.",
+  "symbolism": "The name Nancy symbolizes grace and favor, often associated with gentleness and elegance.",
+  "funFact": "Nancy was the name of the First Lady of the United States, Nancy Reagan, who was known for her influential role in the 'Just Say No' drug awareness campaign.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Nancy Astor",
+      "years": "1879-1964",
+      "category": "Politician",
+      "achievements": [
+        "First female Member of Parliament to take her seat in the House of Commons"
+      ],
+      "significance": "Nancy Astor was the first woman to sit as a Member of Parliament in the British House of Commons, paving the way for future female politicians.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Nancy Harkness Love",
+      "years": "1914-1976",
+      "category": "Aviation",
+      "achievements": [
+        "Founder of the Women's Auxiliary Ferrying Squadron (WAFS)"
+      ],
+      "significance": "Nancy Harkness Love was a pioneering female pilot who played a key role in the inclusion of women pilots during World War II.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "If you obey all the rules, you miss all the fun.",
+      "author": "Nancy Astor",
+      "context": "A reflection on living life to the fullest",
+      "year": 1940,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Nancy Pelosi",
+      "profession": "Politician",
+      "knownFor": [
+        "Speaker of the United States House of Representatives"
+      ],
+      "awards": "Time 100 Most Influential People"
+    },
+    {
+      "name": "Nancy Sinatra",
+      "profession": "Musician",
+      "knownFor": [
+        "These Boots Are Made for Walkin'",
+        "Bang Bang (My Baby Shot Me Down)"
+      ],
+      "awards": "Grammy Hall of Fame"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Nancy Drew",
+      "year": 2007,
+      "type": "Movie",
+      "characterName": "Nancy Drew",
+      "characterDescription": "A teenage amateur detective known for her intelligence and resourcefulness.",
+      "imdbUrl": "https://www.imdb.com/title/tt0479500/",
+      "genre": "Mystery",
+      "verified": true,
+      "popularity": 78
+    },
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Nancy Wheeler",
+      "characterDescription": "A brave and determined young woman navigating the mysteries of the Upside Down.",
+      "imdbUrl": "https://www.imdb.com/title/tt4574334/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You're not a monster. You saved me.",
+      "character": "Nancy Wheeler",
+      "source": "Stranger Things",
+      "year": 2016,
+      "context": "Reassuring a friend about their inner goodness",
+      "genre": "Science Fiction",
+      "impact": "Highlights Nancy's compassion and understanding."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for decisions and taking action.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share emotional depth and intuition.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Associated with nurturing and empathy.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes care and compassion.",
+    "karmicLessons": "Learning to balance giving with receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and a nurturing environment."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 900,
+    "peak": 5,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Nancy Reagan",
+    "context": "Encouraging belief in one's aspirations"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Nan-cy"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Nancy",
+      "script": "Latin",
+      "scriptName": "Nancy",
+      "pronunciation": "ˈnanθi",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Νάνσι",
+      "script": "Greek",
+      "scriptName": "Νάνσι",
+      "pronunciation": "ˈnansi",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "نانسي",
+      "script": "Arabic",
+      "scriptName": "نانسي",
+      "pronunciation": "ˈnæːnsi",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "南希",
+      "script": "Han",
+      "scriptName": "南希",
+      "pronunciation": "nán xī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Нэнси",
+      "script": "Cyrillic",
+      "scriptName": "Нэнси",
+      "pronunciation": "ˈnɛnsi",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ננסי",
+      "script": "Hebrew",
+      "scriptName": "ננסי",
+      "pronunciation": "ˈnansi",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Nancy Drew Mystery Stories",
+      "author": "Carolyn Keene",
+      "publishedYear": 1930,
+      "genre": "Fiction",
+      "significance": "A popular series that has inspired generations of young readers, featuring the intelligent and adventurous Nancy Drew.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Nancy has been a popular name for centuries, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Featured prominently in literature such as 'Oliver Twist' and the 'Nancy Drew' series."
+    },
+    {
+      "tag": "Vintage",
+      "confidence": 0.85,
+      "reason": "Often associated with a bygone era, offering a sense of nostalgia."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Nancy With The Laughing Face",
+      "artist": "Frank Sinatra",
+      "year": 1945,
+      "genre": "Jazz",
+      "nameContext": "Dedicated to his daughter, Nancy Sinatra",
+      "description": "A tender jazz standard celebrating the beauty and joy that Nancy brings to those around her.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Nancy+With+The+Laughing+Face+Frank+Sinatra",
+      "geniusUrl": "https://genius.com/Frank-sinatra-nancy-with-the-laughing-face-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Nancy carries a rich history and timeless charm, making it a beloved choice for generations. From its origin as a diminutive of Anne to its status as a standalone name, Nancy has captured the hearts of many.",
+    "etymology_meaning": "Derived from the Hebrew name 'Anne', meaning 'grace', Nancy evolved into a popular English name. It gained popularity as an independent name in the 18th century.",
+    "famous_bearers": "Notable figures include Nancy Reagan, former First Lady of the United States, and Nancy Pelosi, a leading American politician. The name has also been immortalized in literature through the character Nancy Drew.",
+    "pop_culture_moments": "Nancy is a recurring name in popular culture, perhaps best known as a character in the 'Stranger Things' series and the 'Nancy Drew' mystery novels.",
+    "personality_profile": "Those named Nancy are often perceived as intelligent and graceful. They tend to be nurturing individuals with a strong sense of responsibility.",
+    "variations_nicknames": "Variations like Nan and Nancie offer a modern twist, while nicknames such as Nance and Nanny provide affectionate alternatives.",
+    "popularity_data": "While its popularity peaked in the mid-20th century, Nancy remains a classic choice. Its vintage appeal continues to attract parents seeking a timeless name.",
+    "pairing_suggestions": "Nancy pairs well with classic names like Elizabeth and timeless choices like James. It balances beautifully with both traditional and modern middle names.",
+    "cultural_context": "Nancy's widespread use in literature and politics highlights its cultural impact, making it a name associated with strong, influential women.",
+    "final_recommendation": "Nancy is a name steeped in history and grace. For those seeking a name that embodies elegance and timelessness, Nancy is an excellent choice.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

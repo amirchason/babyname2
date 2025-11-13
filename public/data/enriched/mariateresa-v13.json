@@ -1,0 +1,212 @@
+{
+  "name": "Mariateresa",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:22:38.818Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Mariateresa is a combination of Maria, meaning 'bitter' or 'beloved,' and Teresa, meaning 'harvester.'",
+  "culturalSignificance": "Mariateresa is a compound name that reflects the strong influence of Catholicism, combining the reverence for the Virgin Mary and the historical significance of Saint Teresa of Ávila, a prominent Spanish mystic and writer. Such compound names are popular in Italian and Spanish-speaking countries, reflecting religious devotion and cultural tradition.",
+  "modernContext": "In modern times, Mariateresa is less common but retains a classic appeal in Italian and Hispanic cultures. It is often seen as a name that conveys a sense of tradition and family heritage, frequently used in Catholic communities.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˌmaːrja.teˈreːza/",
+  "variations": [
+    "Maria Teresa",
+    "Marie-Therese",
+    "Mariaterezinha",
+    "Maritere",
+    "Terry"
+  ],
+  "similarNames": [
+    "Marianna",
+    "Marietta",
+    "Teresa",
+    "Therese",
+    "Marina"
+  ],
+  "nicknames": [
+    "Maria",
+    "Terry",
+    "Tessa",
+    "Reese"
+  ],
+  "personality": "Mariateresa is often associated with traits of nurturing, resilience, and strong faith. People with this name are perceived as compassionate and dedicated, with a deep sense of responsibility.",
+  "symbolism": "The name Mariateresa symbolizes a blend of divine grace and earthly dedication. It reflects a harmonious balance between spiritual devotion and practical industriousness.",
+  "funFact": "The name Mariateresa is especially popular in Italy and Spain, where compound names honor saints and the Virgin Mary.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Teresa of Ávila",
+    "significance": "Saint Teresa of Ávila is a renowned Spanish mystic, Catholic saint, and reformer of the Carmelite Order. Her writings and teachings have had a profound impact on Christian spirituality.",
+    "keyStories": [
+      "Reformation of the Carmelite Order",
+      "Visions and writings"
+    ],
+    "spiritualMeaning": "A name invoking devotion, transformation, and spiritual insight.",
+    "historicalImpact": "Saint Teresa's works, including 'The Interior Castle,' have influenced Christian mysticism and the broader Catholic tradition."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Maria Teresa of Austria",
+      "years": "1717-1780",
+      "category": "Royalty",
+      "achievements": [
+        "First and only female ruler of the Habsburg dominions",
+        "Reforming empress"
+      ],
+      "significance": "Maria Teresa was a pivotal figure in European history, known for her administrative reforms, strengthening the Habsburg monarchy, and her role in the War of the Austrian Succession.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Mariateresa Di Lascia",
+      "profession": "Politician and Writer",
+      "knownFor": [
+        "Italian member of parliament",
+        "Founder of the human rights organization 'Nessuno tocchi Caino'"
+      ],
+      "awards": "None"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment of plans.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs share practicality and a love for stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, reliability, and nurturing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing, empathy, and care for others' well-being.",
+    "karmicLessons": "Learning to balance nurturing with self-care.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to create harmony and provide comfort to others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Let nothing disturb you, let nothing frighten you. All things are passing. God alone is changeless.",
+    "author": "Saint Teresa of Ávila",
+    "context": "A reflection on the enduring nature of faith in the face of life's challenges."
+  },
+  "syllables": {
+    "count": 5,
+    "breakdown": "Ma-ri-a-te-re-sa"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Mariateresa",
+      "script": "Latin",
+      "scriptName": "Mariateresa",
+      "pronunciation": "/ˌmaɾja.teˈɾesa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαρία Τερέζα",
+      "script": "Greek",
+      "scriptName": "Μαρία Τερέζα",
+      "pronunciation": "/maˈri.a teˈreza/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماريا تيريزا",
+      "script": "Arabic",
+      "scriptName": "ماريا تيريزا",
+      "pronunciation": "/maːr.jaː tiːr.iː.zaː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛丽亚特蕾莎",
+      "script": "Han",
+      "scriptName": "玛丽亚特蕾莎",
+      "pronunciation": "/mǎ lì yà tè léi shā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мария Тереза",
+      "script": "Cyrillic",
+      "scriptName": "Мария Тереза",
+      "pronunciation": "/maˈrʲijə tʲɪˈrʲezə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מריה תרזה",
+      "script": "Hebrew",
+      "scriptName": "מריה תרזה",
+      "pronunciation": "/maˈri.a teˈre.za/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Mariateresa is a traditional name with deep roots in Christian and European history."
+    },
+    {
+      "tag": "Religious",
+      "confidence": 0.95,
+      "reason": "The name combines two significant religious figures: the Virgin Mary and Saint Teresa."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has been in use for centuries, maintaining its appeal across generations."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Mariateresa is a timeless name that resonates with historical and religious significance, drawing from deep roots in European culture. Its combination of 'Maria' and 'Teresa' offers a harmonious blend of meanings, symbolizing both divine grace and earthly diligence.",
+    "etymology_meaning": "Mariateresa is derived from the Latin 'Maria,' meaning 'bitter' or 'beloved,' and 'Teresa,' meaning 'harvester' or 'reaper.' The name has strong ties to Christian heritage, often honoring the Virgin Mary and Saint Teresa of Ávila.",
+    "famous_bearers": "Notable individuals with this name include Maria Teresa of Austria, a significant empress in European history, and Mariateresa Di Lascia, an Italian politician and writer dedicated to human rights.",
+    "pop_culture_moments": "While not frequently found in mainstream media, the name Mariateresa can be seen in historical documentaries and literature focusing on significant figures like Maria Teresa of Austria.",
+    "personality_profile": "Those named Mariateresa are often seen as compassionate, strong-willed, and nurturing. They are perceived to have a deep sense of responsibility and a commitment to helping others.",
+    "variations_nicknames": "Variations of the name include Maria Teresa and Marie-Therese, with common nicknames like Maria, Terry, and Tessa, which offer a more casual touch to the formal compound name.",
+    "popularity_data": "Though not currently trending, Mariateresa maintains a steady presence in regions with strong Catholic traditions, particularly in Italy and Spain.",
+    "pairing_suggestions": "Names that pair well with Mariateresa include classic choices like Alessandro for boys or Isabella for girls, offering a harmonious blend of tradition and elegance.",
+    "cultural_context": "Mariateresa is a name steeped in cultural significance, especially within Italian and Spanish communities where religious and historical heritage play a vital role in naming conventions.",
+    "final_recommendation": "For parents seeking a name that embodies tradition and spiritual depth, Mariateresa offers a beautiful and meaningful choice. Its rich history and cultural resonance ensure that it remains a timeless favorite.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,241 @@
+{
+  "name": "Abbie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:48:17.593Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "My Father is Joy",
+  "culturalSignificance": "The name Abbie is a diminutive form of Abigail, a name of Hebrew origin found in the Bible. Abigail was the wife of King David, known for her wisdom and beauty, which lends the name a historical and cultural depth. It has been used in English-speaking countries since the 18th century.",
+  "modernContext": "In modern times, Abbie is often used as an independent given name, particularly in English-speaking countries. It remains a popular choice for parents due to its sweet, approachable sound and its connection to the classic name Abigail.",
+  "literaryReferences": "Abbie does not have significant standalone literary references but is often found as a derivative of Abigail in various works.",
+  "pronunciationGuide": "/ˈæb.i/",
+  "variations": [
+    "Abby",
+    "Abi",
+    "Abbie",
+    "Abbi",
+    "Abbye"
+  ],
+  "similarNames": [
+    "Abigail",
+    "Addie",
+    "Allie",
+    "Annie",
+    "Maddie"
+  ],
+  "nicknames": [
+    "Ab",
+    "Abs",
+    "Abb",
+    "Bie",
+    "Bee"
+  ],
+  "personality": "People with the name Abbie are often seen as friendly and approachable, with a balanced mix of charm and assertiveness. They are perceived as reliable, loyal, and nurturing.",
+  "symbolism": "The name Abbie symbolizes joy, wisdom, and strength, reflecting the attributes of its biblical ancestor, Abigail.",
+  "funFact": "The name Abbie rose to popularity in the 19th century as a standalone name, separate from Abigail.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Abbie Cornish",
+      "profession": "Actor",
+      "knownFor": [
+        "Bright Star",
+        "Sucker Punch"
+      ],
+      "awards": "Australian Film Institute Award for Best Actress"
+    },
+    {
+      "name": "Abbie Hoffman",
+      "profession": "Activist",
+      "knownFor": [
+        "Yippie Movement",
+        "Steal This Book"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Broad City",
+      "year": 2014,
+      "type": "TV Show",
+      "characterName": "Abbi Abrams",
+      "characterDescription": "A young woman navigating life in New York City with her best friend.",
+      "imdbUrl": "https://www.imdb.com/title/tt2578560/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Yes, and I want to have adventures with you.",
+      "character": "Abbi Abrams",
+      "source": "Broad City",
+      "year": 2014,
+      "context": "Abbi expresses her desire to experience life and adventures with her best friend.",
+      "genre": "Comedy",
+      "impact": "This quote highlights the character's enthusiasm and loyal friendship."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share the Water element, promoting emotional connectivity and intuition.",
+    "cosmicElement": "Intuition",
+    "cosmicElementDescription": "Represents a deep connection to emotional understanding and empathy.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes care, empathy, and nurturing energy.",
+    "karmicLessons": "Embrace change and trust your intuition.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A deep desire to create harmony in your surroundings and relationships."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 432,
+    "peak": 167,
+    "peakYear": 2006
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    "author": "Abbie Hoffman",
+    "context": "A quote emphasizing the importance of personal freedom and resistance against conformity."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ab-bie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Abbie",
+      "script": "Latin",
+      "scriptName": "Abbie",
+      "pronunciation": "/ˈaβ.je/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αμπι",
+      "script": "Greek",
+      "scriptName": "Αμπι",
+      "pronunciation": "/ˈa.bi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آبي",
+      "script": "Arabic",
+      "scriptName": "آبي",
+      "pronunciation": "/ˈʔæ.bi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾比",
+      "script": "Han",
+      "scriptName": "艾比",
+      "pronunciation": "/àibǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эбби",
+      "script": "Cyrillic",
+      "scriptName": "Эбби",
+      "pronunciation": "/ˈɛ.bi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אבי",
+      "script": "Hebrew",
+      "scriptName": "אבי",
+      "pronunciation": "/ˈa.vi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Abbie is derived from the timeless name Abigail, which has biblical roots."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The name has become popular as a standalone name in recent years."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Often associated with the literary character of Abigail in the Bible."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Abbie",
+      "artist": "Fountains of Wayne",
+      "year": 2005,
+      "genre": "Rock",
+      "nameContext": "The song features the name Abbie prominently in its lyrics.",
+      "description": "A song that captures a narrative involving a character named Abbie, highlighting themes of youth and nostalgia.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Fountains+of+Wayne+Abbie",
+      "geniusUrl": "https://genius.com/search?q=Abbie+Fountains+of+Wayne",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Choosing a name for your baby is a significant decision that can influence their identity and how they are perceived by others. Abbie is a charming and versatile name that has been cherished for generations.",
+    "etymology_meaning": "The name Abbie is derived from the Hebrew name Abigail, meaning 'my father is joy'. It carries with it a sense of happiness and parental pride.",
+    "famous_bearers": "Abbie Cornish, an acclaimed Australian actress, and Abbie Hoffman, a renowned activist from the 1960s, are notable figures bearing this name.",
+    "pop_culture_moments": "Abbie has appeared in various TV shows and movies, most notably as Abbi Abrams in the popular comedy series 'Broad City'.",
+    "personality_profile": "Abbie is often associated with individuals who are friendly, charismatic, and nurturing, making it a perfect choice for a loving and approachable personality.",
+    "variations_nicknames": "Common variations include Abby and Abi, while nicknames like Abs and Bee offer playful alternatives.",
+    "popularity_data": "The name Abbie reached its peak popularity in the early 2000s, reflecting its enduring appeal and modern charm.",
+    "pairing_suggestions": "Abbie pairs well with classic middle names like Grace or Elizabeth, offering both a modern and timeless feel.",
+    "cultural_context": "With roots in Hebrew culture and widespread usage in English-speaking countries, Abbie is a name that bridges cultural heritage and contemporary trends.",
+    "final_recommendation": "If you're seeking a name that combines historical significance with a modern twist, Abbie could be the perfect choice for your child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

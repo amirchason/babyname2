@@ -1,0 +1,262 @@
+{
+  "name": "Judy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:24:49.229Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "He will be praised",
+  "culturalSignificance": "Judy is a diminutive of Judith, a name of Hebrew origin meaning 'woman from Judea' or 'He will be praised'. It gained popularity in the English-speaking world in the early 20th century and has been associated with various cultural figures.",
+  "modernContext": "In modern times, Judy continues to be a well-recognized name, often associated with iconic figures like Judy Garland. It's a name that's seen less frequent use in recent years but still carries a classic charm.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈdʒuːdi",
+  "variations": [
+    "Judith",
+    "Judi",
+    "Judie",
+    "Judyta"
+  ],
+  "similarNames": [
+    "Julie",
+    "June",
+    "Jodie",
+    "Janet",
+    "Joyce"
+  ],
+  "nicknames": [
+    "Jude",
+    "Juju",
+    "Jud",
+    "Dee"
+  ],
+  "personality": "The name Judy is often associated with a vibrant, friendly, and approachable personality. People with this name may be seen as charismatic and warm-hearted.",
+  "symbolism": "Judy symbolizes joy and praise, reflecting its Hebrew roots. It embodies a sense of traditional charm and timelessness.",
+  "funFact": "Judy Garland, born Frances Ethel Gumm, is one of the most famous bearers of the name and starred in the classic film 'The Wizard of Oz'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Judy Garland",
+      "profession": "Actress",
+      "knownFor": [
+        "The Wizard of Oz",
+        "Meet Me in St. Louis"
+      ],
+      "awards": "Academy Juvenile Award, Golden Globe Award"
+    },
+    {
+      "name": "Judge Judy Sheindlin",
+      "profession": "Television Personality",
+      "knownFor": [
+        "Judge Judy"
+      ],
+      "awards": "Daytime Emmy Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Judge Judy",
+      "year": 1996,
+      "type": "TV Show",
+      "characterName": "Judge Judy",
+      "characterDescription": "A no-nonsense judge known for her direct approach in small-claims cases.",
+      "imdbUrl": "https://www.imdb.com/title/tt0115227/",
+      "genre": "Reality",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "What's Up, Doc?",
+      "year": 1972,
+      "type": "Movie",
+      "characterName": "Judy Maxwell",
+      "characterDescription": "A quirky and unpredictable woman who causes chaos.",
+      "imdbUrl": "https://www.imdb.com/title/tt0069495/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Yellow",
+      "hex": "#FFFF00"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and celebration, harnessing the power of the full moon.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, promoting intellectual connection and communication.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Emphasizes expression and connection with others.",
+    "karmicLessons": "Embrace change and new ideas.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and variety in life."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 832,
+    "peak": 18,
+    "peakYear": 1947
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Always be a first-rate version of yourself, instead of a second-rate version of somebody else.",
+    "author": "Judy Garland",
+    "context": "Encouraging authenticity and self-worth."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ju-dy"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Judy",
+      "script": "Latin",
+      "scriptName": "Judy",
+      "pronunciation": "ˈxuði",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζούντι",
+      "script": "Greek",
+      "scriptName": "Τζούντι",
+      "pronunciation": "ˈdzuni",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جودي",
+      "script": "Arabic",
+      "scriptName": "جودي",
+      "pronunciation": "ˈdʒuːdi",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "朱迪",
+      "script": "Han",
+      "scriptName": "朱迪",
+      "pronunciation": "Zhū dí",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джуди",
+      "script": "Cyrillic",
+      "scriptName": "Джуди",
+      "pronunciation": "ˈdʒʊdi",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ודי",
+      "script": "Hebrew",
+      "scriptName": "ג'ודי",
+      "pronunciation": "ˈdʒuːdi",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Judy Moody",
+      "author": "Megan McDonald",
+      "publishedYear": 2000,
+      "genre": "Children's Fiction",
+      "significance": "Popular series featuring the adventures of a spirited third-grader.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Judy has longstanding popularity and cultural recognition."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with the 'Judy Moody' book series."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has been in use for many decades and remains recognized."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Judy's Turn to Cry",
+      "artist": "Lesley Gore",
+      "year": 1963,
+      "genre": "Pop",
+      "nameContext": "The song tells the story of a teenage romance and rivalry.",
+      "description": "A follow-up to 'It's My Party', this song continues the theme of teenage love and heartbreak.",
+      "theme": "positive",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Judy's+Turn+to+Cry+Lesley+Gore",
+      "geniusUrl": "https://genius.com/Lesley-gore-judys-turn-to-cry-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Judy in Disguise (With Glasses)",
+      "artist": "John Fred and His Playboy Band",
+      "year": 1967,
+      "genre": "Pop Rock",
+      "nameContext": "A playful take on 'Lucy in the Sky with Diamonds', using Judy as a playful character.",
+      "description": "This song was a parody of Beatles' songs and became a hit for its catchy tune and humorous lyrics.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Judy+in+Disguise+John+Fred",
+      "geniusUrl": "https://genius.com/John-fred-and-his-playboy-band-judy-in-disguise-with-glasses-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Judy evokes images of classic Hollywood glamour and timeless charm. Known for its association with iconic figures like Judy Garland, it carries a rich cultural heritage. But beyond its star-studded past, what does the name Judy truly signify?",
+    "etymology_meaning": "Judy is derived from the Hebrew name Judith, meaning 'He will be praised'. It became widely popular in English-speaking countries during the 20th century, particularly in the 1930s and 40s.",
+    "famous_bearers": "One of the most famous bearers of the name is Judy Garland, known for her role in 'The Wizard of Oz'. Judy Sheindlin, better known as Judge Judy, has also brought the name to prominence in modern-day television.",
+    "pop_culture_moments": "Judy has made its mark in pop culture through songs like 'Judy's Turn to Cry' by Lesley Gore and 'Judy in Disguise (With Glasses)' by John Fred and His Playboy Band. These hits highlight the name's catchy appeal.",
+    "personality_profile": "Names like Judy often conjure up images of friendliness and approachability. Those with the name Judy are frequently perceived as charismatic, warm-hearted, and lively.",
+    "variations_nicknames": "While 'Judy' stands strong on its own, variations like Judith and nicknames such as Jude or Juju offer versatile options for personalization.",
+    "popularity_data": "Judy reached its peak popularity in the United States in the 1940s and 50s. Though less common today, it remains a beloved classic for its historical and cultural significance.",
+    "pairing_suggestions": "Pairing Judy with a strong middle name like Elizabeth or a soft one like Marie can create a balanced and harmonious full name. It also pairs well with surnames of both modern and traditional styles.",
+    "cultural_context": "The name Judy holds a special place in American culture, often associated with the entertainment industry and strong, independent women.",
+    "final_recommendation": "For parents seeking a name with historical depth and timeless charm, Judy offers a perfect blend of both. Its rich cultural associations and classic appeal make it a wonderful choice for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

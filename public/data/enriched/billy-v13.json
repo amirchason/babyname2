@@ -1,0 +1,303 @@
+{
+  "name": "Billy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:06:06.724Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Resolute protector",
+  "culturalSignificance": "Billy is a diminutive of William, a name of Germanic origin meaning 'resolute protector.' It has been popular in English-speaking countries for centuries and is often associated with a friendly and approachable personality.",
+  "modernContext": "The name Billy remains popular today, often used as a casual and affectionate form of William. It is commonly seen in pop culture, from musicians and actors to fictional characters, maintaining its appeal across different generations.",
+  "literaryReferences": "Billy is a common character name in literature, symbolizing a relatable and everyman persona. Notable examples include Billy Pilgrim from Kurt Vonnegut's 'Slaughterhouse-Five.'",
+  "pronunciationGuide": "ˈbɪli",
+  "variations": [
+    "Billie",
+    "Bill",
+    "Willy"
+  ],
+  "similarNames": [
+    "William",
+    "Bobby",
+    "Eddie",
+    "Tommy"
+  ],
+  "nicknames": [
+    "Bill",
+    "Will",
+    "Liam"
+  ],
+  "personality": "Billy is often associated with a friendly and down-to-earth personality, embodying traits of approachability and kindness.",
+  "symbolism": "The name symbolizes protection and strength, reflecting its roots in the name William.",
+  "funFact": "Billy is often used in nursery rhymes and children's stories, adding to its friendly and approachable image.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Billy the Kid",
+      "years": "1859-1881",
+      "category": "Outlaw",
+      "achievements": [
+        "Notorious outlaw in the American Old West"
+      ],
+      "significance": "Billy the Kid became a legendary figure of the American Old West, known for his involvement in the Lincoln County War and numerous escapes from law enforcement.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Billy Joel",
+      "profession": "Musician",
+      "knownFor": [
+        "Piano Man",
+        "Uptown Girl"
+      ],
+      "awards": "6 Grammy Awards"
+    },
+    {
+      "name": "Billy Crystal",
+      "profession": "Actor",
+      "knownFor": [
+        "When Harry Met Sally",
+        "City Slickers"
+      ],
+      "awards": "Primetime Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Billy Beane",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Oakland Athletics",
+      "pastTeams": [
+        "New York Mets",
+        "Minnesota Twins"
+      ],
+      "position": "General Manager",
+      "jerseyNumber": "",
+      "years": "1984-1989",
+      "achievements": "Pioneered the Moneyball approach",
+      "knownFor": [
+        "Innovative management strategies"
+      ],
+      "awards": "",
+      "stats": "",
+      "verified": true,
+      "source": "https://www.mlb.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Billy Elliot",
+      "year": 2000,
+      "type": "Movie",
+      "characterName": "Billy Elliot",
+      "characterDescription": "A young boy who discovers a passion for ballet",
+      "imdbUrl": "https://www.imdb.com/title/tt0249462/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "The Grim Adventures of Billy & Mandy",
+      "year": 2001,
+      "type": "TV Show",
+      "characterName": "Billy",
+      "characterDescription": "A dim-witted but lovable boy",
+      "imdbUrl": "https://www.imdb.com/title/tt0292800/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I don't want to do what everyone else does.",
+      "character": "Billy Elliot",
+      "source": "Billy Elliot",
+      "year": 2000,
+      "context": "Billy expresses his desire to pursue ballet despite societal norms.",
+      "genre": "Drama",
+      "impact": "Highlights the theme of following one's passion against the odds."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time of new beginnings and growth",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs that share stability and practicality",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents strength, reliability, and groundedness",
+    "celestialArchetype": "The Protector",
+    "celestialArchetypeDescription": "Symbolizes safeguarding and nurturing qualities",
+    "karmicLessons": "Embrace change and adaptability",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships"
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 600,
+    "peak": 50,
+    "peakYear": 1935
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "You may be disappointed if you fail, but you are doomed if you don’t try.",
+    "author": "Billy Joel",
+    "context": "Encouraging perseverance and effort"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Bil-ly"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Billy",
+      "script": "Latin",
+      "scriptName": "Billy",
+      "pronunciation": "ˈbili",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπίλι",
+      "script": "Greek",
+      "scriptName": "Μπίλι",
+      "pronunciation": "ˈbili",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بيلي",
+      "script": "Arabic",
+      "scriptName": "بيلي",
+      "pronunciation": "ˈbili",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "比利",
+      "script": "Han",
+      "scriptName": "比利",
+      "pronunciation": "bi˥˩ li˥˩",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Билли",
+      "script": "Cyrillic",
+      "scriptName": "Билли",
+      "pronunciation": "ˈbʲilʲi",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בילי",
+      "script": "Hebrew",
+      "scriptName": "בילי",
+      "pronunciation": "ˈbili",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Billy Budd, Sailor",
+      "author": "Herman Melville",
+      "publishedYear": 1924,
+      "genre": "Fiction",
+      "significance": "A classic novella exploring themes of innocence and justice.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Billy is a timeless diminutive of William with historical usage."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Frequent appearance in classic literature and stories."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.85,
+      "reason": "The name is widely regarded as approachable and warm."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Billy Jean",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "genre": "Pop",
+      "nameContext": "The name appears as a central character in the song.",
+      "description": "A hit song about a woman named Billie Jean who claims the singer is the father of her child.",
+      "theme": "neutral",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Billie+Jean+Michael+Jackson",
+      "geniusUrl": "https://genius.com/Michael-jackson-billie-jean-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Billy Don't Be a Hero",
+      "artist": "Paper Lace",
+      "year": 1974,
+      "genre": "Pop",
+      "nameContext": "The name Billy is used in the song title and lyric.",
+      "description": "A song about a young man who goes off to war, despite being advised otherwise.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Billy+Don%27t+Be+a+Hero+Paper+Lace",
+      "geniusUrl": "https://genius.com/Paper-lace-billy-dont-be-a-hero-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Billy exudes a friendly and approachable vibe, often associated with a sense of familiarity and warmth. It's a name that has traversed through generations, maintaining its charm and relevance. Whether seen in classic literature or modern pop culture, Billy continues to be a beloved choice for parents.",
+    "etymology_meaning": "Billy is a diminutive of William, which has Germanic roots meaning 'resolute protector.' Over the years, Billy has become a standalone name, appreciated for its simplicity and endearing quality.",
+    "famous_bearers": "Famous bearers of the name include musician Billy Joel, known for his timeless hits, and actor Billy Crystal, who has brought laughter to audiences worldwide. These personalities have helped keep the name in the public eye.",
+    "pop_culture_moments": "Pop culture moments featuring Billy are plentiful, from the heartwarming story of 'Billy Elliot' to the adventurous 'Billy the Kid.' These references contribute to the name's dynamic and multifaceted nature.",
+    "personality_profile": "People named Billy are often seen as approachable and kind-hearted, embodying a mix of strength and friendliness. The name suggests a down-to-earth and reliable personality.",
+    "variations_nicknames": "Common variations of the name include Billie and Bill. Nicknames like Will and Liam also offer a modern twist for those looking to personalize the name further.",
+    "popularity_data": "While Billy may not be at the peak of its popularity today, it remains a well-loved choice. Its historical usage and cultural references ensure its consistent presence in naming trends.",
+    "pairing_suggestions": "Billy pairs well with classic names such as James and Elizabeth, creating a harmonious blend of tradition and familiarity. It also complements modern choices like Harper and Mason, offering versatility in name combinations.",
+    "cultural_context": "Billy has a rich cultural background, with appearances in literature, music, and film. Its enduring appeal is a testament to its versatility and the warmth it evokes.",
+    "final_recommendation": "Choosing the name Billy offers a blend of history, warmth, and timeless appeal. It's a name that resonates with a sense of protection and friendliness, making it a wonderful choice for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

@@ -1,0 +1,247 @@
+{
+  "name": "Jeanne",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:42:54.428Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Jeanne is a classic French name, historically linked to Saint Joan of Arc, a national heroine of France and a Catholic saint. The name gained prominence in the Middle Ages and has been associated with courage and piety.",
+  "modernContext": "In modern times, Jeanne remains popular in French-speaking countries and has a timeless appeal. It is often chosen for its classic elegance and historical roots.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ʒɑːn/",
+  "variations": [
+    "Jean",
+    "Joan",
+    "Johanna",
+    "Jeannette",
+    "Janet"
+  ],
+  "similarNames": [
+    "Jean",
+    "Janet",
+    "Joan",
+    "Jane",
+    "Johanna",
+    "Julia"
+  ],
+  "nicknames": [
+    "Jeannie",
+    "Jan",
+    "Jen",
+    "Nina"
+  ],
+  "personality": "The name Jeanne is often associated with a strong and independent personality, reflecting the historical significance of figures like Joan of Arc.",
+  "symbolism": "Jeanne symbolizes grace and strength, often associated with divine favor and resilience.",
+  "funFact": "The name Jeanne was the most popular girl's name in France in the early 20th century, reflecting its enduring legacy.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Joan of Arc (Jeanne d'Arc)",
+    "significance": "Joan of Arc, known in French as Jeanne d'Arc, is a canonized saint in the Catholic Church and a symbol of French unity and nationalism.",
+    "keyStories": [
+      "Led the French army to victory at Orleans",
+      "Burned at the stake for heresy"
+    ],
+    "spiritualMeaning": "A symbol of divine mission and martyrdom.",
+    "historicalImpact": "Joan of Arc's story has inspired countless works of art, literature, and film."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jeanne d'Arc",
+      "years": "1412-1431",
+      "category": "Military Leader",
+      "achievements": [
+        "Led French army to victory at Orleans",
+        "Canonized as a saint"
+      ],
+      "significance": "Jeanne d'Arc is a national heroine of France and a Catholic saint known for her role in the Hundred Years' War.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Jeanne Moreau",
+      "years": "1928-2017",
+      "category": "Actress",
+      "achievements": [
+        "Starred in 'Jules et Jim'",
+        "Won Best Actress at Cannes"
+      ],
+      "significance": "A celebrated French actress and singer, known for her roles in classic films and her contributions to French cinema.",
+      "notableWorks": [
+        "Jules et Jim",
+        "The Lovers"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jeanne Moreau",
+      "profession": "Actress",
+      "knownFor": [
+        "Jules et Jim",
+        "The Lovers"
+      ],
+      "awards": "César Award, BAFTA Fellowship"
+    },
+    {
+      "name": "Jeanne Tripplehorn",
+      "profession": "Actress",
+      "knownFor": [
+        "Basic Instinct",
+        "The Firm"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Joan of Arc",
+      "year": 1999,
+      "type": "TV Show",
+      "characterName": "Jeanne d'Arc",
+      "characterDescription": "A young farm girl who believes she is chosen by God to lead France to victory.",
+      "imdbUrl": "https://www.imdb.com/title/tt0178145/",
+      "genre": "Historical Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Both signs are intuitive and sensitive, resonating with Jeanne's compassionate nature.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes a nurturing and restorative presence.",
+    "karmicLessons": "To trust in one's intuition and embrace emotional growth.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A deep desire to be of service to others and contribute to the greater good."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 10,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "One life is all we have and we live it as we believe in living it. But to sacrifice what you are and to live without belief, that is a fate more terrible than dying.",
+    "author": "Jeanne d'Arc",
+    "context": "Joan of Arc's statement on belief and sacrifice."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Jeanne"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Juana",
+      "script": "Latin",
+      "scriptName": "Juana",
+      "pronunciation": "/'xwana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωάννα",
+      "script": "Greek",
+      "scriptName": "Ιωάννα",
+      "pronunciation": "/i.oˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جان",
+      "script": "Arabic",
+      "scriptName": "جان",
+      "pronunciation": "/d͡ʒaːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "珍妮",
+      "script": "Han",
+      "scriptName": "珍妮",
+      "pronunciation": "/ʈʂən˥˩ni˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Жанна",
+      "script": "Cyrillic",
+      "scriptName": "Жанна",
+      "pronunciation": "/ˈʐanə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'אן",
+      "script": "Hebrew",
+      "scriptName": "ג'אן",
+      "pronunciation": "/ʒan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Jeanne is a name with deep historical roots and enduring popularity."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Derived from the Hebrew name Yohanan, meaning 'God is gracious.'"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has been used consistently through the ages."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Jeanne is a name that echoes through history, resonating with grace and strength. Known best for its association with the legendary Joan of Arc, it carries a legacy of bravery and faith. In both historical and modern contexts, Jeanne stands as a symbol of resilience and divine favor.",
+    "etymology_meaning": "The name Jeanne originates from the Hebrew name Yohanan, meaning 'God is gracious.' It is a feminine form of the name John and has been a popular name in French-speaking regions for centuries.",
+    "famous_bearers": "Jeanne d'Arc, known as Joan of Arc, is the most famous bearer of this name, celebrated for her leadership and martyrdom. Jeanne Moreau, a renowned French actress, further popularized the name in the 20th century.",
+    "pop_culture_moments": "Jeanne has been immortalized in films and literature, most notably through depictions of Joan of Arc. The name continues to inspire in various art forms, reflecting its timeless appeal.",
+    "personality_profile": "Those named Jeanne are often seen as strong-willed and compassionate, embodying a blend of grace and determination. They are thought to possess a deep sense of justice and an intuitive nature.",
+    "variations_nicknames": "Variations of Jeanne include Jean, Joan, and Johanna, while common nicknames are Jeannie and Jan. These variations allow for a personalized touch to the classic name.",
+    "popularity_data": "The name Jeanne saw peak popularity in the early 20th century, particularly in France, and has remained a beloved choice for its classic elegance.",
+    "pairing_suggestions": "Jeanne pairs well with both traditional and modern middle names, such as Marie, Claire, or Elise, offering a harmonious balance of sounds and styles.",
+    "cultural_context": "In French culture, Jeanne is a name that carries weight and respect, often associated with historical figures of significance. Its usage across Western cultures underscores its universal appeal.",
+    "final_recommendation": "Jeanne is a timeless choice for those seeking a name with depth and historical resonance. Its association with strong female figures makes it a powerful option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

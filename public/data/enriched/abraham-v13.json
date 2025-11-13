@@ -1,0 +1,265 @@
+{
+  "name": "Abraham",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T15:01:10.268Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Father of many",
+  "culturalSignificance": "Abraham is a name with deep historical and cultural roots, primarily known from the biblical patriarch who is a significant figure in Judaism, Christianity, and Islam. The name has been associated with leadership, faith, and the founding of nations.",
+  "modernContext": "In modern times, the name Abraham is often seen as a classic and timeless choice, retaining popularity due to its strong historical and religious associations. It is frequently used across various cultures and communities around the world.",
+  "literaryReferences": "Abraham is frequently mentioned in religious texts such as the Bible and the Quran, where he is portrayed as a model of faith and devotion.",
+  "pronunciationGuide": "/ˈeɪbrəˌhæm/",
+  "variations": [
+    "Avraham",
+    "Ibrahim",
+    "Abe",
+    "Abram"
+  ],
+  "similarNames": [
+    "Isaac",
+    "Jacob",
+    "Joseph",
+    "Samuel",
+    "Elijah"
+  ],
+  "nicknames": [
+    "Abe",
+    "Bram",
+    "Abram"
+  ],
+  "personality": "The name Abraham is often associated with strong leadership qualities, wisdom, and a nurturing spirit. Individuals with this name are seen as dependable and influential.",
+  "symbolism": "Symbolically, Abraham is often linked to leadership, faith, and fatherhood, embodying the role of a patriarch and a visionary.",
+  "funFact": "Abraham Lincoln, the 16th President of the United States, is one of the most famous bearers of this name, known for his leadership during the American Civil War and the abolition of slavery.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism",
+      "Islam"
+    ],
+    "character": "Abraham",
+    "significance": "Abraham is considered a patriarch in Judaism, Christianity, and Islam, known for his covenant with God and his role as the father of many nations.",
+    "keyStories": [
+      "Binding of Isaac",
+      "Covenant with God"
+    ],
+    "spiritualMeaning": "Abraham represents faith and obedience to God.",
+    "historicalImpact": "Abraham's story is foundational in the religious narratives of the Abrahamic faiths, influencing religious practices and beliefs."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Abraham Lincoln",
+      "years": "1809-1865",
+      "category": "Politics",
+      "achievements": [
+        "16th President of the United States",
+        "Emancipation Proclamation"
+      ],
+      "significance": "Lincoln led the United States through the Civil War and worked to end slavery.",
+      "notableWorks": [
+        "Gettysburg Address",
+        "Emancipation Proclamation"
+      ]
+    },
+    {
+      "fullName": "Abraham Maslow",
+      "years": "1908-1970",
+      "category": "Psychology",
+      "achievements": [
+        "Developed Maslow's hierarchy of needs"
+      ],
+      "significance": "Maslow's theories on human motivation have been influential in psychology and education.",
+      "notableWorks": [
+        "A Theory of Human Motivation"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Government of the people, by the people, for the people, shall not perish from the Earth.",
+      "author": "Abraham Lincoln",
+      "context": "From the Gettysburg Address",
+      "year": 1863,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Abraham Lincoln",
+      "profession": "Politician",
+      "knownFor": [
+        "16th President of the United States",
+        "Emancipation Proclamation"
+      ],
+      "awards": "None"
+    },
+    {
+      "name": "Abraham Maslow",
+      "profession": "Psychologist",
+      "knownFor": [
+        "Maslow's hierarchy of needs"
+      ],
+      "awards": "None"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Abraham Lincoln: Vampire Hunter",
+      "year": 2012,
+      "type": "Movie",
+      "characterName": "Abraham Lincoln",
+      "characterDescription": "A fictionalized version of the historical Abraham Lincoln who battles vampires.",
+      "imdbUrl": "https://www.imdb.com/title/tt1611224/",
+      "genre": "Action, Fantasy",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fruition.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, fostering stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, reliability, and nurturing.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Represents someone who guides and inspires others.",
+    "karmicLessons": "Learning the balance between leadership and humility.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and support family and community."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 400,
+    "peak": 3,
+    "peakYear": 1880
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The best way to predict your future is to create it.",
+    "author": "Abraham Lincoln",
+    "context": "Motivational message about taking control of one's destiny."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "A-bra-ham"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Abraham",
+      "script": "Latin",
+      "scriptName": "Abraham",
+      "pronunciation": "/aˈβɾa.am/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αβραάμ",
+      "script": "Greek",
+      "scriptName": "Αβραάμ",
+      "pronunciation": "/avraˈam/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إبراهيم",
+      "script": "Arabic",
+      "scriptName": "إبراهيم",
+      "pronunciation": "/ʔɪbraːˈhiːm/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "亚伯拉罕",
+      "script": "Han",
+      "scriptName": "亚伯拉罕",
+      "pronunciation": "/yà bǎ lā hàn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Авраам",
+      "script": "Cyrillic",
+      "scriptName": "Авраам",
+      "pronunciation": "/ɐvrɐˈam/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אברהם",
+      "script": "Hebrew",
+      "scriptName": "אברהם",
+      "pronunciation": "/av.raˈham/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Abraham Lincoln: A Life",
+      "author": "Michael Burlingame",
+      "publishedYear": 2008,
+      "genre": "Biography",
+      "significance": "A comprehensive biography that details the life and presidency of Abraham Lincoln.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 1,
+      "reason": "The name Abraham has been used for centuries and is rooted in biblical tradition."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "Abraham is a major biblical figure in Judaism, Christianity, and Islam."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name's consistent use and recognition across cultures and generations make it timeless."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Abraham is a name that resonates through history, carrying with it the weight of tradition and faith. Known for its biblical roots, this name has been cherished across cultures for its strong association with leadership and devotion. Whether you're drawn to its historical significance or its timeless appeal, Abraham remains a name of enduring legacy.",
+    "etymology_meaning": "The name Abraham originates from the Hebrew name 'Avraham,' which means 'Father of many.' This reflects the biblical narrative where Abraham is promised to be the ancestor of many nations.",
+    "famous_bearers": "Among the most famous bearers of the name is Abraham Lincoln, the 16th President of the United States, who is celebrated for his leadership during the Civil War and his efforts to abolish slavery. Another notable figure is Abraham Maslow, a renowned psychologist known for developing the hierarchy of needs.",
+    "pop_culture_moments": "In popular culture, Abraham Lincoln has been depicted in numerous films, including the unique portrayal in 'Abraham Lincoln: Vampire Hunter.' His legacy continues to influence stories and media, reflecting his importance in American history.",
+    "personality_profile": "Those named Abraham are often perceived as strong, wise, and nurturing. They carry an air of authority and are seen as natural leaders who are capable of guiding others with wisdom and compassion.",
+    "variations_nicknames": "Variations of the name include Avraham, Ibrahim, and Abram, while common nicknames are Abe and Bram. These variations offer a range of options that suit different cultural contexts while maintaining the name's core essence.",
+    "popularity_data": "The name Abraham has enjoyed steady popularity, peaking in the late 19th century and maintaining a consistent presence in the top 500 names in the United States. Its timeless appeal continues to attract parents looking for a name with historical depth.",
+    "pairing_suggestions": "Abraham pairs well with names like Isaac, Samuel, and Elijah, which share its biblical roots and classic appeal. For a balanced combination, consider pairing it with a modern middle name to create a harmonious blend of old and new.",
+    "cultural_context": "Culturally, Abraham is revered as a patriarch in Judaism, Christianity, and Islam. His story of faith and leadership is a cornerstone in religious teachings, making the name a symbol of spiritual significance and moral strength.",
+    "final_recommendation": "Choosing the name Abraham means embracing a legacy of leadership and faith. It's a name that carries with it a sense of history and timelessness, ideal for parents who wish to instill these values in their child. Whether you're drawn to its biblical significance or its classic charm, Abraham is a name that stands the test of time.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

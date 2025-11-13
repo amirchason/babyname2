@@ -1,0 +1,252 @@
+{
+  "name": "Manny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:00:52.806Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is with us",
+  "culturalSignificance": "Manny is often a short form of the name Emmanuel, which holds significant cultural and religious weight, particularly in Christianity where Emmanuel is used as a name for Jesus, signifying 'God with us.' It is a popular name in various cultures, especially in Spanish-speaking countries.",
+  "modernContext": "In modern times, Manny is used as a standalone name or a nickname for Emmanuel and Manuel. It is a friendly and approachable name, often associated with warmth and kindness. The name has maintained a steady presence in the United States, particularly among Hispanic communities.",
+  "literaryReferences": "Manny is a character in several contemporary novels, often portrayed as a strong, supportive figure.",
+  "pronunciationGuide": "/ˈmæni/",
+  "variations": [
+    "Emmanuel",
+    "Manuel",
+    "Mano",
+    "Manolo",
+    "Mannie"
+  ],
+  "similarNames": [
+    "Danny",
+    "Sammy",
+    "Andy",
+    "Johnny",
+    "Tommy"
+  ],
+  "nicknames": [
+    "Mannie",
+    "Man",
+    "Manny",
+    "Mans"
+  ],
+  "personality": "The name Manny is often associated with a friendly, approachable, and reliable personality. Those named Manny are seen as dependable friends and caring individuals.",
+  "symbolism": "The name Manny symbolizes guidance, protection, and divine presence, reflecting its root in the name Emmanuel.",
+  "funFact": "Manny is a popular nickname for baseball players, notably Manny Ramirez, a famous MLB player.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Emmanuel",
+    "significance": "In Christianity, Emmanuel is a prophetic name for Jesus, meaning 'God is with us.' It signifies the divine presence with humanity.",
+    "keyStories": [
+      "The prophecy of Emmanuel in the Book of Isaiah"
+    ],
+    "spiritualMeaning": "The name represents the presence and guidance of God among people.",
+    "historicalImpact": "The name Emmanuel has been used in Christian liturgy and hymns, emphasizing the divine nature of Jesus."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Manuel Noriega",
+      "years": "1934-2017",
+      "category": "Political Leader",
+      "achievements": [
+        "Military leadership in Panama",
+        "Involvement in the US-Panama relations"
+      ],
+      "significance": "Noriega was a significant figure in Panama's history and US-Latin American relations during the late 20th century.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Manny Pacquiao",
+      "profession": "Boxer",
+      "knownFor": [
+        "World boxing championships",
+        "Philippine senator"
+      ],
+      "awards": "Multiple world championships in boxing"
+    },
+    {
+      "name": "Manny Ramirez",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "Major League Baseball",
+        "Boston Red Sox"
+      ],
+      "awards": "World Series MVP"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Manny Pacquiao",
+      "profession": "Athlete",
+      "sport": "Boxing",
+      "league": "Professional Boxing",
+      "team": [],
+      "pastTeams": [],
+      "position": "Boxer",
+      "jerseyNumber": "",
+      "years": "1995-2021",
+      "achievements": "World boxing titles in eight weight divisions",
+      "knownFor": [
+        "Powerful punches",
+        "Speed"
+      ],
+      "awards": "Fighter of the Decade by BWAA",
+      "stats": "62 wins, 7 losses, 2 draws",
+      "verified": true,
+      "source": "https://www.boxrec.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Ice Age",
+      "year": 2002,
+      "type": "Movie",
+      "characterName": "Manny",
+      "characterDescription": "A woolly mammoth who is a main character in the animated movie series.",
+      "imdbUrl": "https://www.imdb.com/title/tt0268380/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The full moon represents completion and the peak of energy.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs that complement stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, reliability, and nurturing.",
+    "celestialArchetype": "The Provider",
+    "celestialArchetypeDescription": "This archetype is about caring and providing for others.",
+    "karmicLessons": "Learning to balance self-care with nurturing others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "To create harmony and provide support to loved ones."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 250,
+    "peakYear": 1998
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "General wisdom about life and success."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Man-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Manuel",
+      "script": "Latin",
+      "scriptName": "Manuel",
+      "pronunciation": "/maˈnwel/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μανώλης",
+      "script": "Greek",
+      "scriptName": "Μανώλης",
+      "pronunciation": "/maˈnolis/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماني",
+      "script": "Arabic",
+      "scriptName": "ماني",
+      "pronunciation": "/ˈmaːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "曼尼",
+      "script": "Han",
+      "scriptName": "曼尼",
+      "pronunciation": "/màn ní/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мэнни",
+      "script": "Cyrillic",
+      "scriptName": "Мэнни",
+      "pronunciation": "/ˈmɛnni/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מני",
+      "script": "Hebrew",
+      "scriptName": "מני",
+      "pronunciation": "/ˈmani/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Manny, from Emmanuel, is a classic name with biblical roots."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Derived from Emmanuel, the name has significant biblical importance."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.8,
+      "reason": "Manny is widely recognized as a friendly and approachable name."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Manny is a charming and approachable name with deep historical roots. Often seen as a nickname for Emmanuel or Manuel, it carries a rich cultural presence across various communities. This name exudes warmth and reliability, often associated with strong, supportive personalities.",
+    "etymology_meaning": "The name Manny is derived from Emmanuel, a Hebrew name meaning 'God is with us.' This etymology highlights a profound religious context, especially within Christian traditions where Emmanuel refers to the prophetic name for Jesus.",
+    "famous_bearers": "Among the notable individuals bearing this name are Manny Pacquiao, a renowned boxer and politician, and Manny Ramirez, an accomplished Major League Baseball player. These figures have brought the name into the limelight in sports and beyond.",
+    "pop_culture_moments": "In pop culture, Manny is best known as the woolly mammoth in the popular 'Ice Age' movie series, where he is depicted as a kind and protective character. This portrayal contributes to the name's association with warmth and strength.",
+    "personality_profile": "Individuals named Manny are often seen as dependable and caring. They are known for their supportive nature and ability to bring comfort to those around them, making them cherished friends and family members.",
+    "variations_nicknames": "Common variations of Manny include Emmanuel and Manuel, with nicknames like Mannie and Man. These variations are popular in different cultures, adding to the name's versatility and adaptability.",
+    "popularity_data": "Manny has maintained moderate popularity, particularly in the United States and Hispanic communities. It peaked in the late 1990s and continues to be a favored choice for its friendly tone and strong roots.",
+    "pairing_suggestions": "For parents considering sibling names, Manny pairs well with names like Danny, Sammy, or Andy, offering a cohesive and harmonious sound. It also complements more traditional names like Michael and Joseph.",
+    "cultural_context": "Culturally, Manny is embraced in many Spanish-speaking countries as a common nickname for Manuel. Its biblical roots in Emmanuel further extend its significance across Christian communities worldwide.",
+    "final_recommendation": "If you're seeking a name that combines approachability with historical depth, Manny is an excellent choice. Its strong cultural resonance and endearing sound make it a versatile option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

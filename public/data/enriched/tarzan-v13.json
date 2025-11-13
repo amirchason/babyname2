@@ -1,0 +1,236 @@
+{
+  "name": "Tarzan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T09:44:46.745Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "White skin",
+  "culturalSignificance": "Tarzan is a fictional character created by Edgar Rice Burroughs, introduced in 1912 in the novel 'Tarzan of the Apes'. He is a classic example of the noble savage and has become an icon of popular culture, symbolizing adventure, nature, and the clash between civilization and the wild.",
+  "modernContext": "The name Tarzan remains most commonly associated with the character from Burroughs' novels and their numerous adaptations. It is rarely used as a given name in modern times due to its strong association with the fictional character.",
+  "literaryReferences": "Tarzan is the protagonist of Edgar Rice Burroughs' series of novels starting with 'Tarzan of the Apes'. These books have inspired countless films, television series, and other adaptations.",
+  "pronunciationGuide": "/ˈtɑːrzæn/",
+  "variations": [
+    "Tarzán"
+  ],
+  "similarNames": [
+    "Taran",
+    "Talon",
+    "Taranis",
+    "Tristan",
+    "Torrance"
+  ],
+  "nicknames": [
+    "Tar",
+    "Zan",
+    "Taz"
+  ],
+  "personality": "The name Tarzan is associated with traits like bravery, adventurous spirit, and a deep connection with nature, reflecting the character's upbringing in the jungle.",
+  "symbolism": "Tarzan symbolizes the harmony between man and nature, as well as the strength and adaptability of the human spirit.",
+  "funFact": "The character Tarzan has appeared in over 25 films and numerous television adaptations, making him one of the most enduring characters in popular culture.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Tarzan",
+      "year": 1999,
+      "type": "Movie",
+      "characterName": "Tarzan",
+      "characterDescription": "A man raised by gorillas in the African jungle who struggles to adapt to the civilized world.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120855/",
+      "genre": "Animation, Adventure, Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The Legend of Tarzan",
+      "year": 2016,
+      "type": "Movie",
+      "characterName": "Tarzan",
+      "characterDescription": "The film follows Tarzan as he is called back to the jungle after living in London.",
+      "imdbUrl": "https://www.imdb.com/title/tt0918940/",
+      "genre": "Action, Adventure, Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Tarzan, Jane. Jane, Tarzan.",
+      "character": "Tarzan",
+      "source": "Tarzan",
+      "year": 1999,
+      "context": "Tarzan's first attempt to communicate with Jane by introducing themselves.",
+      "genre": "Animation",
+      "impact": "This quote highlights the simplicity and innocence of Tarzan's character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment of what was started at the new moon.",
+    "compatibleSigns": [
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share an appreciation for nature and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and a strong connection with nature.",
+    "celestialArchetype": "The Wild",
+    "celestialArchetypeDescription": "Symbolizes untamed nature and a deep connection with the natural world.",
+    "karmicLessons": "To find balance between civilization and nature.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The jungle is a part of me, and I am a part of the jungle.",
+    "author": "Tarzan",
+    "context": "Expressing the deep connection with his natural habitat."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Tar-zan"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Tarzán",
+      "script": "Latin",
+      "scriptName": "Tarzán",
+      "pronunciation": "/taɾˈsan/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ταρζάν",
+      "script": "Greek",
+      "scriptName": "Ταρζάν",
+      "pronunciation": "/tarˈzan/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "طرزان",
+      "script": "Arabic",
+      "scriptName": "طرزان",
+      "pronunciation": "/tarˈzan/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "泰山",
+      "script": "Han",
+      "scriptName": "泰山",
+      "pronunciation": "/tài ʂan/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Тарзан",
+      "script": "Cyrillic",
+      "scriptName": "Тарзан",
+      "pronunciation": "/tarˈzan/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "טרזן",
+      "script": "Hebrew",
+      "scriptName": "טרזן",
+      "pronunciation": "/tarˈzan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Tarzan of the Apes",
+      "author": "Edgar Rice Burroughs",
+      "publishedYear": 1912,
+      "genre": "Fiction",
+      "significance": "The novel introduced the character of Tarzan, a cultural icon symbolizing adventure and the noble savage.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.95,
+      "reason": "The name is primarily known from Edgar Rice Burroughs' literary works."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Tarzan is a classic character that has been part of popular culture for over a century."
+    },
+    {
+      "tag": "Adventure",
+      "confidence": 0.9,
+      "reason": "Associated with adventurous stories and settings."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Tarzan Boy",
+      "artist": "Baltimora",
+      "year": 1985,
+      "genre": "Pop",
+      "nameContext": "The song uses the name Tarzan in its chorus, symbolizing freedom and fun.",
+      "description": "A lively pop song with catchy beats, capturing the spirit of adventure and carefree living associated with the character of Tarzan.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Tarzan+Boy+Baltimora",
+      "geniusUrl": "https://genius.com/Baltimora-tarzan-boy-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Tarzan instantly conjures images of the untamed jungle and the legendary hero who swings through the trees with ease. Originating from the pages of Edgar Rice Burroughs' classic novels, Tarzan has captured the imagination of readers and audiences worldwide.",
+    "etymology_meaning": "The name Tarzan, meaning 'white skin,' was created by Burroughs for his fictional character. It is an invented name with no traditional etymology but has become synonymous with adventure and the wild.",
+    "famous_bearers": "The most famous bearer of the name is, of course, the fictional character Tarzan from Edgar Rice Burroughs' books, who has been portrayed in numerous films and television series.",
+    "pop_culture_moments": "Tarzan has been a staple of pop culture with his story being adapted into movies, cartoons, and even a Broadway musical. The 1999 Disney animated film 'Tarzan' is one of the most popular adaptations.",
+    "personality_profile": "Names like Tarzan are often associated with traits like bravery, independence, and a strong connection to nature. These attributes reflect the character's upbringing in the jungle and his adventurous spirit.",
+    "variations_nicknames": "While there are few variations of the name Tarzan, nicknames like Tar and Zan are sometimes used. The name itself is unique and instantly recognizable.",
+    "popularity_data": "Tarzan is not commonly used as a given name, likely due to its strong association with the fictional character. However, it remains a cultural icon and a popular choice for fictional narratives.",
+    "pairing_suggestions": "Names like Jane, Cheetah, or Clayton could be considered for siblings or characters related to Tarzan, drawing inspiration from the stories.",
+    "cultural_context": "Tarzan represents the ideal of the 'noble savage' and explores themes of civilization versus nature, making it culturally significant in discussions about human nature and societal norms.",
+    "final_recommendation": "If you're looking for a name steeped in adventure and cultural significance, Tarzan offers a unique choice. While it may not be practical for everyday use, it carries a mystique and daring spirit perfect for storytelling.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

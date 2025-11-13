@@ -1,0 +1,290 @@
+{
+  "name": "Jean",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:13:39.156Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "The name Jean is a classic name with roots in Hebrew, derived from the name Yohanan. It has been used widely in French-speaking countries and became popular through various historical figures and saints.",
+  "modernContext": "In modern times, Jean is used as both a male and female name, with a more feminine usage in English-speaking countries. It remains popular due to its timeless simplicity and classic sound.",
+  "literaryReferences": "Jean Valjean is the protagonist of Victor Hugo's 'Les Misérables', a classic novel that explores themes of justice and redemption.",
+  "pronunciationGuide": "/ʒɑːn/ (French), /dʒiːn/ (English)",
+  "variations": [
+    "John",
+    "Joan",
+    "Jeanne",
+    "Giovanni",
+    "Juan"
+  ],
+  "similarNames": [
+    "Gene",
+    "Joan",
+    "Jane",
+    "Jeanette",
+    "Janet"
+  ],
+  "nicknames": [
+    "J",
+    "Jeanie",
+    "Jeannie",
+    "Johnny"
+  ],
+  "personality": "People with the name Jean are often perceived as creative, empathetic, and insightful, with a strong sense of justice and fairness.",
+  "symbolism": "The name Jean symbolizes grace and generosity, often associated with kindness and compassion.",
+  "funFact": "Jean is a top name in France, often used in combination with other names, such as Jean-Claude or Jean-Paul.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "John the Baptist",
+    "significance": "John the Baptist is a major figure in Christianity, known for baptizing Jesus and preaching about repentance.",
+    "keyStories": [
+      "Baptism of Jesus",
+      "Preaching in the wilderness"
+    ],
+    "spiritualMeaning": "Repentance and renewal",
+    "historicalImpact": "John the Baptist is considered a forerunner to Jesus, playing a crucial role in Christian teachings."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jean-Jacques Rousseau",
+      "years": "1712-1778",
+      "category": "Philosopher",
+      "achievements": [
+        "Key figure in the Enlightenment",
+        "Author of 'The Social Contract'"
+      ],
+      "significance": "Rousseau's ideas influenced the French Revolution and modern political thought.",
+      "notableWorks": [
+        "The Social Contract",
+        "Emile, or On Education"
+      ]
+    },
+    {
+      "fullName": "Jean d'Arc",
+      "years": "1412-1431",
+      "category": "Military Leader",
+      "achievements": [
+        "Led French army to victories during the Hundred Years' War"
+      ],
+      "significance": "Joan of Arc is a national heroine of France and a Catholic saint.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Man is born free, and everywhere he is in chains.",
+      "author": "Jean-Jacques Rousseau",
+      "context": "From 'The Social Contract', discussing societal constraints.",
+      "year": 1762,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Jean Reno",
+      "profession": "Actor",
+      "knownFor": [
+        "Léon: The Professional",
+        "The Da Vinci Code"
+      ],
+      "awards": "European Film Award for Best Actor"
+    },
+    {
+      "name": "Jean Seberg",
+      "profession": "Actress",
+      "knownFor": [
+        "Breathless",
+        "Saint Joan"
+      ],
+      "awards": "BAFTA Award nomination"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Breathless",
+      "year": 1960,
+      "type": "Movie",
+      "characterName": "Patricia Franchini",
+      "characterDescription": "A young American woman living in Paris who becomes involved with a criminal.",
+      "imdbUrl": "https://www.imdb.com/title/tt0053472/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Water signs are intuitive and nurturing, complementing each other well.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "This archetype is nurturing and empathetic, often helping others.",
+    "karmicLessons": "Learning to balance giving with receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony, love, and community."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 50,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To live is to change, and to be perfect is to have changed often.",
+    "author": "Jean-Paul Sartre",
+    "context": "Encouraging adaptability and growth."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Jean"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Juan",
+      "script": "Latin",
+      "scriptName": "Juan",
+      "pronunciation": "/xwan/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωάννης",
+      "script": "Greek",
+      "scriptName": "Ιωάννης",
+      "pronunciation": "/ioˈanis/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "يوحنا",
+      "script": "Arabic",
+      "scriptName": "يوحنا",
+      "pronunciation": "/juːħannā/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "约翰",
+      "script": "Han",
+      "scriptName": "约翰",
+      "pronunciation": "/yuē hàn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Иван",
+      "script": "Cyrillic",
+      "scriptName": "Иван",
+      "pronunciation": "/iˈvan/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יוחנן",
+      "script": "Hebrew",
+      "scriptName": "יוחנן",
+      "pronunciation": "/joχaˈnan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "publishedYear": 1862,
+      "genre": "Fiction",
+      "significance": "A classic novel exploring themes of justice, redemption, and love.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jean has been a popular name for centuries, maintaining a classic appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has remained in use across various cultures and eras."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Derived from the Hebrew name Yohanan, associated with John the Baptist."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jean",
+      "artist": "Rod McKuen",
+      "year": 1969,
+      "genre": "Folk",
+      "nameContext": "The name is used as the central theme of the song.",
+      "description": "A tender ballad expressing admiration and love for someone named Jean.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Rod+McKuen+Jean",
+      "geniusUrl": "https://genius.com/search?q=Rod+McKuen+Jean",
+      "verified": true
+    },
+    {
+      "title": "Jean Genie",
+      "artist": "David Bowie",
+      "year": 1972,
+      "genre": "Rock",
+      "nameContext": "The name appears in the title and throughout the song.",
+      "description": "A rock song with energetic riffs, exploring themes of urban life and identity.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=David+Bowie+Jean+Genie",
+      "geniusUrl": "https://genius.com/search?q=David+Bowie+Jean+Genie",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jean is a timeless name that has graced the annals of history and remains beloved today. Its simplicity and elegance have made it a popular choice for both boys and girls across different cultures. From literary classics to modern cinema, the name Jean continues to captivate and charm.",
+    "etymology_meaning": "Derived from the Hebrew name Yohanan, meaning 'God is gracious', Jean carries a deep spiritual significance. Its use in various languages has led to numerous variations, each with its own unique flavor.",
+    "famous_bearers": "Famous bearers of the name include Jean-Jacques Rousseau, a philosopher who profoundly influenced the Enlightenment, and Jean Seberg, an iconic actress of the French New Wave.",
+    "pop_culture_moments": "In pop culture, Jean has been immortalized in films like 'Breathless' and the classic novel 'Les Misérables'. Its versatility in both male and female roles has kept it relevant in modern storytelling.",
+    "personality_profile": "Those named Jean are often seen as compassionate, insightful, and fair-minded. They have a natural ability to connect with others and often seek to bring harmony to their surroundings.",
+    "variations_nicknames": "Variations like John, Jeanne, and Giovanni offer a rich tapestry of cultural connections. Common nicknames such as Jeanie and Johnny add a personal touch to this classic name.",
+    "popularity_data": "Jean has experienced fluctuating popularity over the years, peaking in the early 20th century. Today, it remains a beloved choice for those seeking a name with history and grace.",
+    "pairing_suggestions": "Jean pairs well with both traditional and modern names, making it a versatile choice for first or middle name combinations. Consider pairing it with names like Marie or Michael for a balanced sound.",
+    "cultural_context": "With roots in Hebrew and widespread use in French-speaking countries, Jean bridges cultural divides. Its international appeal has made it a staple in many societies.",
+    "final_recommendation": "If you're looking for a name that is both classic and adaptable, Jean offers the perfect blend of history and modernity. Its graceful sound and rich background make it an excellent choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

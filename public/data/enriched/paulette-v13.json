@@ -1,0 +1,229 @@
+{
+  "name": "Paulette",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:36:32.363Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "French",
+  "meaning": "Little Paul",
+  "culturalSignificance": "Paulette is a diminutive of the name Paule, which is the French feminine form of Paul. The name has been popular in French-speaking countries and has been embraced in English-speaking regions due to its elegant and classic sound.",
+  "modernContext": "Paulette saw a rise in popularity in the mid-20th century and is often associated with a vintage charm. While not as common today, it retains a certain appeal for those looking for a name with French elegance.",
+  "literaryReferences": "Paulette is occasionally used in literature to evoke a sense of sophistication or nostalgia, often appearing in works set in France or featuring French characters.",
+  "pronunciationGuide": "/poʊˈlɛt/",
+  "variations": [
+    "Paule",
+    "Pauline",
+    "Paula",
+    "Polly",
+    "Paulina"
+  ],
+  "similarNames": [
+    "Pauline",
+    "Colette",
+    "Annette",
+    "Juliette",
+    "Odette",
+    "Suzette"
+  ],
+  "nicknames": [
+    "Pau",
+    "Letty",
+    "Ettie"
+  ],
+  "personality": "Names like Paulette are often associated with grace and charm, evoking a sense of sophistication and warmth.",
+  "symbolism": "The name Paulette symbolizes elegance and tradition, often connected with the classic charm of French culture.",
+  "funFact": "Paulette was a popular name in the United States during the 1940s and 1950s, often chosen by parents for its chic and continental flair.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Paulette Goddard",
+      "profession": "Actor",
+      "knownFor": [
+        "Modern Times",
+        "The Great Dictator"
+      ],
+      "awards": "Nominated for an Academy Award for Best Supporting Actress"
+    },
+    {
+      "name": "Paulette Dubost",
+      "profession": "Actor",
+      "knownFor": [
+        "The Rules of the Game",
+        "Le Plaisir"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Paulette",
+      "year": 2012,
+      "type": "Movie",
+      "characterName": "Paulette",
+      "characterDescription": "A cantankerous retiree who turns to dealing cannabis to improve her financial situation.",
+      "imdbUrl": "https://www.imdb.com/title/tt2112999/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection and understanding.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Associated with intuition, emotions, and healing.",
+    "celestialArchetype": "The Dreamer",
+    "celestialArchetypeDescription": "Known for imagination and sensitivity.",
+    "karmicLessons": "Learning to balance emotions and intuition with practicality.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 110,
+    "peakYear": 1949
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Elegance is the only beauty that never fades.",
+    "author": "Audrey Hepburn",
+    "context": "A famous quote about timeless beauty, resonating with the classic nature of the name Paulette."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pau-lette"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Paulette",
+      "script": "Latin",
+      "scriptName": "Paulette",
+      "pronunciation": "/pauˈlete/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πωλέτ",
+      "script": "Greek",
+      "scriptName": "Πωλέτ",
+      "pronunciation": "/poˈlet/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بوليت",
+      "script": "Arabic",
+      "scriptName": "بوليت",
+      "pronunciation": "/buːˈlit/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "波莱特",
+      "script": "Han",
+      "scriptName": "波莱特",
+      "pronunciation": "/pɔːˈlɛt/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Полетта",
+      "script": "Cyrillic",
+      "scriptName": "Полетта",
+      "pronunciation": "/pɐˈlʲetə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פולט",
+      "script": "Hebrew",
+      "scriptName": "פולט",
+      "pronunciation": "/poˈlet/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Paulette has a timeless French charm that has endured across generations."
+    },
+    {
+      "tag": "Vintage",
+      "confidence": 0.8,
+      "reason": "The name was particularly popular in the mid-20th century, giving it a retro appeal."
+    },
+    {
+      "tag": "French",
+      "confidence": 0.95,
+      "reason": "As a diminutive of Paule, the name is of French origin and retains strong cultural ties."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Paulette",
+      "artist": "Joe Dassin",
+      "year": 1969,
+      "genre": "Chanson",
+      "nameContext": "The song features Paulette in its lyrics.",
+      "description": "A romantic French chanson that captures the essence of love and nostalgia, popular in France during the late 60s.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Joe+Dassin+Paulette",
+      "geniusUrl": "https://genius.com/search?q=Joe+Dassin+Paulette",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Paulette is a name that evokes the timeless elegance of French culture. With its classic charm and vintage appeal, this name has captivated parents across generations. Whether you're drawn to its melodic sound or its cultural roots, Paulette offers a sophistication that is hard to resist.",
+    "etymology_meaning": "Paulette is derived from the French name Paule, a diminutive of Paul, meaning 'little'. The name carries with it a sense of grace and tradition, often associated with the elegance of French names.",
+    "famous_bearers": "Notable figures with the name Paulette include actress Paulette Goddard, known for her roles in 'Modern Times' and 'The Great Dictator'. Her presence in Hollywood's golden age adds a touch of glamour to this name.",
+    "pop_culture_moments": "Paulette has made appearances in various cultural mediums, including the 2012 French comedy film 'Paulette', where the character's journey into unlikely entrepreneurship provides both humor and heart.",
+    "personality_profile": "Individuals named Paulette are often seen as elegant and refined, with a strong sense of tradition. They are perceived as warm and approachable, yet sophisticated, embodying a balance of grace and charm.",
+    "variations_nicknames": "Variations of Paulette include Pauline, Paula, and Paulina, while common nicknames are Pau, Letty, and Ettie. These variations offer flexibility while maintaining the name's core elegance.",
+    "popularity_data": "Paulette enjoyed peak popularity in the mid-20th century, particularly in 1949. While its use has declined, the name remains a beloved classic for those seeking a name with vintage appeal.",
+    "pairing_suggestions": "Paulette pairs well with names like Juliette, Colette, and Annette, creating a harmonious blend of French elegance. These combinations offer a lyrical quality that resonates with the name's charm.",
+    "cultural_context": "Rooted in French heritage, Paulette is a name that carries cultural significance. Its usage in both French and English-speaking countries highlights its cross-cultural appeal and timeless nature.",
+    "final_recommendation": "For parents seeking a name that combines elegance and tradition, Paulette is a perfect choice. Its classic charm and cultural richness make it a standout option, offering a sense of sophistication and warmth.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -1,0 +1,274 @@
+{
+  "name": "Hugh",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:17:49.832Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Mind, spirit",
+  "culturalSignificance": "Hugh is a name of Germanic origin, derived from the Old High German 'Hugi', meaning 'mind' or 'spirit'. It became popular in the English-speaking world due to the influence of several medieval saints and prominent historical figures.",
+  "modernContext": "In modern times, Hugh remains a classic name, known for its simplicity and strength. It has been consistently used in the United Kingdom and the United States, often associated with figures in literature and entertainment.",
+  "literaryReferences": "Hugh is a character in Evelyn Waugh's novel 'Brideshead Revisited', showcasing the name's longstanding presence in English literature.",
+  "pronunciationGuide": "hjuː",
+  "variations": [
+    "Hugo",
+    "Hugues",
+    "Huw"
+  ],
+  "similarNames": [
+    "Eugene",
+    "Henry",
+    "Harry",
+    "Harold",
+    "Howard"
+  ],
+  "nicknames": [
+    "Hughie",
+    "Huey",
+    "Hughey"
+  ],
+  "personality": "People named Hugh are often perceived as intellectual and thoughtful, with a calm and composed demeanor.",
+  "symbolism": "Hugh symbolizes wisdom and intellectual strength, often associated with clarity of thought and leadership.",
+  "funFact": "The name Hugh has been borne by several kings of France, notably Hugh Capet, the founding monarch of the Capetian dynasty.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Hugh Capet",
+      "years": "940-996",
+      "category": "Royalty",
+      "achievements": [
+        "Founder of the Capetian dynasty"
+      ],
+      "significance": "Hugh Capet was the first King of the Franks of the House of Capet, marking the beginning of the Capetian dynasty that ruled France for centuries.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Hugh of Lincoln",
+      "years": "1135-1200",
+      "category": "Religious Figure",
+      "achievements": [
+        "Canonized as a saint"
+      ],
+      "significance": "Hugh of Lincoln was a Carthusian monk and bishop who became one of the most celebrated saints of medieval England.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Hugh Jackman",
+      "profession": "Actor",
+      "knownFor": [
+        "X-Men series",
+        "Les Misérables"
+      ],
+      "awards": "Tony Award, Golden Globe Award"
+    },
+    {
+      "name": "Hugh Grant",
+      "profession": "Actor",
+      "knownFor": [
+        "Notting Hill",
+        "Love Actually"
+      ],
+      "awards": "Golden Globe Award, BAFTA Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Hugh McCutcheon",
+      "profession": "Athlete",
+      "sport": "Volleyball",
+      "league": "Olympics",
+      "team": "USA Volleyball",
+      "pastTeams": [],
+      "position": "Coach",
+      "jerseyNumber": "",
+      "years": "2005-2012",
+      "achievements": "Olympic Gold Medal, Olympic Silver Medal",
+      "knownFor": [
+        "Coaching USA men's and women's volleyball teams"
+      ],
+      "awards": "",
+      "stats": "",
+      "verified": true,
+      "source": "USA Volleyball"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "House, M.D.",
+      "year": 2004,
+      "type": "TV Show",
+      "characterName": "Dr. Gregory House",
+      "characterDescription": "A brilliant but misanthropic diagnostician",
+      "imdbUrl": "https://www.imdb.com/title/tt0412142/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "The Night Manager",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Hugh Laurie",
+      "characterDescription": "Plays Richard Roper, a charming arms dealer",
+      "imdbUrl": "https://www.imdb.com/title/tt1399664/",
+      "genre": "Thriller",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Royal Blue",
+      "hex": "#4169E1"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and celebration",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share a love for intellectual conversations and social connections.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Symbolizes movement, freedom, and communication.",
+    "celestialArchetype": "The Visionary",
+    "celestialArchetypeDescription": "Represents foresight and innovative thinking.",
+    "karmicLessons": "Learning to communicate effectively and use intellect for higher purposes.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom, adventure, and expression."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 100,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The measure of who we are is what we do with what we have.",
+    "author": "Hugh Laurie",
+    "context": "A reflection on personal responsibility and resourcefulness."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Hugh"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Hugo",
+      "script": "Latin",
+      "scriptName": "Hugo",
+      "pronunciation": "ˈuɣo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιούγος",
+      "script": "Greek",
+      "scriptName": "Ιούγος",
+      "pronunciation": "ˈi.ʝos",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هيو",
+      "script": "Arabic",
+      "scriptName": "هيو",
+      "pronunciation": "hjuː",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "休",
+      "script": "Han",
+      "scriptName": "休",
+      "pronunciation": "xiū",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Хью",
+      "script": "Cyrillic",
+      "scriptName": "Хью",
+      "pronunciation": "xʲu",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יו",
+      "script": "Hebrew",
+      "scriptName": "יו",
+      "pronunciation": "hu",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Brideshead Revisited",
+      "author": "Evelyn Waugh",
+      "publishedYear": 1945,
+      "genre": "Fiction",
+      "significance": "The novel is a classic of English literature, exploring themes of faith and love.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Hugh has been in use for centuries and has historical significance."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Used by several kings and nobles throughout history."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Appears in classic literature such as 'Brideshead Revisited'."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Hugh invokes a sense of timelessness and strength, echoing through the corridors of history with its royal and intellectual connections. From medieval saints to modern-day actors, Hugh has graced many influential figures. Its concise form and profound meaning make it a favorite across English-speaking countries.",
+    "etymology_meaning": "Hugh finds its roots in the Old High German word 'Hugi', meaning 'mind' or 'spirit', which highlights its association with wisdom and intellect. This Germanic origin has been embraced by various cultures, particularly in England and France, due to its historical prominence.",
+    "famous_bearers": "Famous bearers of the name Hugh include Hugh Jackman, known for his role as Wolverine, and Hugh Grant, celebrated for his charming presence in romantic comedies. Historically, Hugh Capet was a pivotal figure as the first king of the Capetian dynasty.",
+    "pop_culture_moments": "In pop culture, the name Hugh has appeared in various films and TV shows. Notably, Hugh Laurie portrayed Dr. Gregory House in the acclaimed series 'House, M.D.', bringing a complex and captivating character to life.",
+    "personality_profile": "Hugh is often associated with intelligence, calmness, and leadership qualities. People with this name are thought to possess a strong sense of justice and a natural ability to lead and inspire others.",
+    "variations_nicknames": "Variations of the name include Hugo and Hugues, each with its unique flair. Common nicknames like Hughie and Huey offer a playful alternative for those named Hugh.",
+    "popularity_data": "Hugh has maintained steady popularity, particularly in the UK and the US. Although its peak was in the early 20th century, it continues to be a favored choice for parents seeking a classic name.",
+    "pairing_suggestions": "Hugh pairs well with names like Elizabeth and Charlotte for girls, or with William and James for boys, creating a harmonious balance of timeless appeal.",
+    "cultural_context": "The name Hugh has a rich cultural background, celebrated in various European traditions. Its use by royalty and religious figures adds to its esteemed reputation.",
+    "final_recommendation": "Choosing the name Hugh for your child is to embrace a legacy of intellect and leadership. Its historical roots and modern charm make it a versatile choice for any parent seeking a name with depth and character.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

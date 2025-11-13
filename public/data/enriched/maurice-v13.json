@@ -1,0 +1,304 @@
+{
+  "name": "Maurice",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:41:57.673Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Dark-skinned, Moorish",
+  "culturalSignificance": "The name Maurice has deep roots in European history, often associated with Saint Maurice, a Roman legionnaire and Christian martyr. It has been a popular name in France and other parts of Europe, symbolizing strength and faith.",
+  "modernContext": "In modern times, Maurice is considered a classic name, often associated with sophistication and tradition. Its popularity has waned slightly but remains a strong choice for parents seeking a name with historical depth.",
+  "literaryReferences": "Maurice is notably the title character in E.M. Forster's novel 'Maurice', which explores themes of homosexuality and societal expectations in early 20th-century England.",
+  "pronunciationGuide": "/mɔːˈriːs/",
+  "variations": [
+    "Mauricio",
+    "Morris",
+    "Mauro",
+    "Mauritz",
+    "Maurits"
+  ],
+  "similarNames": [
+    "Marcus",
+    "Maximus",
+    "Martin",
+    "Lucas",
+    "Julian"
+  ],
+  "nicknames": [
+    "Moe",
+    "Reese",
+    "Morris",
+    "Morry"
+  ],
+  "personality": "The name Maurice is often associated with individuals who are thoughtful, intelligent, and considerate. They are perceived as having a strong sense of justice and integrity.",
+  "symbolism": "Maurice symbolizes resilience and faith, often connected to its historical ties to Saint Maurice and the values of loyalty and strength.",
+  "funFact": "Saint Maurice is one of the few African saints venerated in both Eastern and Western Christianity.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Maurice",
+    "significance": "Saint Maurice is revered as a Christian martyr and the leader of the Theban Legion, who was martyred for refusing to renounce his faith.",
+    "keyStories": [
+      "The martyrdom of the Theban Legion"
+    ],
+    "spiritualMeaning": "Represents steadfast faith and loyalty to religious beliefs.",
+    "historicalImpact": "Saint Maurice's story has inspired many Christian soldiers and is celebrated in various religious traditions."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Saint Maurice",
+      "years": "circa 3rd century",
+      "category": "Religious",
+      "achievements": [
+        "Leader of the Theban Legion",
+        "Christian martyr"
+      ],
+      "significance": "Saint Maurice is a key figure in Christian history, known for his leadership and martyrdom for his faith.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Maurice Ravel",
+      "years": "1875-1937",
+      "category": "Composer",
+      "achievements": [
+        "Composer of 'Boléro'",
+        "Pioneer of Impressionist music"
+      ],
+      "significance": "Ravel is considered one of the most influential composers of the 20th century, known for his masterful orchestration and innovative compositions.",
+      "notableWorks": [
+        "Boléro",
+        "Daphnis et Chloé"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only love affair I have ever had was with music.",
+      "author": "Maurice Ravel",
+      "context": "Reflecting on his dedication to music",
+      "year": 1930,
+      "category": "Music"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Maurice Chevalier",
+      "profession": "Actor",
+      "knownFor": [
+        "Gigi",
+        "Love in the Afternoon"
+      ],
+      "awards": "Honorary Academy Award"
+    },
+    {
+      "name": "Maurice Sendak",
+      "profession": "Author",
+      "knownFor": [
+        "Where the Wild Things Are"
+      ],
+      "awards": "Caldecott Medal"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Maurice Greene",
+      "profession": "Athlete",
+      "sport": "Track and Field",
+      "league": "IAAF",
+      "team": "USA National Team",
+      "pastTeams": [],
+      "position": "Sprinter",
+      "jerseyNumber": "",
+      "years": "1995-2008",
+      "achievements": "Olympic Gold Medalist, World Champion",
+      "knownFor": [
+        "100m sprint",
+        "World record holder"
+      ],
+      "awards": "Olympic Gold Medal, World Championships",
+      "stats": "9.79 seconds in 100m",
+      "verified": true,
+      "source": "https://www.olympic.org/maurice-greene"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Maurice",
+      "year": 1987,
+      "type": "Movie",
+      "characterName": "Maurice Hall",
+      "characterDescription": "A young man navigating his sexual identity in early 20th-century England.",
+      "imdbUrl": "https://www.imdb.com/title/tt0093512/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 80
+    },
+    {
+      "title": "Beauty and the Beast",
+      "year": 1991,
+      "type": "Movie",
+      "characterName": "Maurice",
+      "characterDescription": "Belle's loving and eccentric father.",
+      "imdbUrl": "https://www.imdb.com/title/tt0101414/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I want adventure in the great wide somewhere!",
+      "character": "Belle",
+      "source": "Beauty and the Beast",
+      "year": 1991,
+      "context": "Belle expressing her desire for more than her provincial life.",
+      "genre": "Animation",
+      "impact": "Highlights Belle's longing for exploration and knowledge."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and illumination.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share similar traits of stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents grounding and stability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Symbolizes strength, determination, and the ability to create and maintain structure.",
+    "karmicLessons": "Learning to balance material needs with spiritual growth.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom, adventure, and new experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 578,
+    "peak": 114,
+    "peakYear": 1921
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Music gives a soul to the universe, wings to the mind, flight to the imagination, and life to everything.",
+    "author": "Plato",
+    "context": "The importance of music in enriching life."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mau-rice"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Mauricio",
+      "script": "Latin",
+      "scriptName": "Mauricio",
+      "pronunciation": "/mauˈɾi.sjo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαυρίκιος",
+      "script": "Greek",
+      "scriptName": "Μαυρίκιος",
+      "pronunciation": "/maˈvri.cios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "موريس",
+      "script": "Arabic",
+      "scriptName": "موريس",
+      "pronunciation": "/muːˈriːs/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "莫里斯",
+      "script": "Han",
+      "scriptName": "莫里斯",
+      "pronunciation": "/mò lǐ sī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Морис",
+      "script": "Cyrillic",
+      "scriptName": "Морис",
+      "pronunciation": "/ˈmorʲis/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מוריס",
+      "script": "Hebrew",
+      "scriptName": "מוריס",
+      "pronunciation": "/moˈʁis/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Maurice",
+      "author": "E.M. Forster",
+      "publishedYear": 1971,
+      "genre": "Fiction",
+      "significance": "A groundbreaking novel exploring same-sex love in early 20th-century England.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name Maurice has been used for centuries, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Featured prominently in E.M. Forster's novel 'Maurice'."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Associated with Saint Maurice, a figure of historical and religious importance."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Maurice is a name that carries a rich tapestry of history and cultural significance. From its Latin origins to its association with revered figures like Saint Maurice, this name has been a symbol of strength and tradition. Whether in literature or music, Maurice continues to resonate with a sense of timeless elegance.",
+    "etymology_meaning": "The name Maurice originates from the Latin 'Mauritius', meaning 'dark-skinned' or 'Moorish'. It was historically used to denote someone from Mauritania, reflecting its deep-rooted cultural connections.",
+    "famous_bearers": "Maurice Ravel, the acclaimed composer known for 'Boléro', and Maurice Sendak, the beloved author of 'Where the Wild Things Are', are just a few notable figures who have carried this distinguished name.",
+    "pop_culture_moments": "In film, Maurice has been immortalized by characters such as Maurice Hall in E.M. Forster's novel adaptation and Belle's father in Disney's 'Beauty and the Beast'. These characters highlight the name's versatility and depth.",
+    "personality_profile": "Individuals named Maurice often exude a sense of intelligence and thoughtfulness. They are known for their strong sense of justice and capacity for empathy, making them natural leaders and influencers.",
+    "variations_nicknames": "Variations like Mauricio and Morris, along with nicknames such as Moe and Reese, offer a range of options for those bearing the name Maurice, allowing for both formal and casual expressions.",
+    "popularity_data": "Although Maurice saw its peak popularity in the early 20th century, it remains a cherished choice for parents seeking a name with historical and cultural significance.",
+    "pairing_suggestions": "Maurice pairs well with names that share its classic and timeless appeal, such as Alexander, Theodore, or Victoria, creating a harmonious and distinguished combination.",
+    "cultural_context": "Maurice's cultural background is rich with historical and religious significance. Its association with Saint Maurice, a figure of Christian martyrdom, reflects its enduring legacy and influence across cultures.",
+    "final_recommendation": "For those seeking a name that embodies both tradition and sophistication, Maurice is an excellent choice. Its historical roots and cultural resonance make it a timeless option for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

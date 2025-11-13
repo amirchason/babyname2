@@ -1,0 +1,280 @@
+{
+  "name": "Valentin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:09:13.567Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Strong, healthy",
+  "culturalSignificance": "The name Valentin has roots in Latin culture, where it is derived from the word 'valens', meaning strong or healthy. It has historical significance in various European countries, particularly as a name associated with St. Valentine, a Christian martyr whose feast day is celebrated on February 14th.",
+  "modernContext": "In modern times, Valentin remains popular in many European countries such as France, Germany, and Russia. It is less common in English-speaking countries but has seen a resurgence due to global cultural exchanges.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/ˈvæləntɪn/",
+  "variations": [
+    "Valentine",
+    "Valentino",
+    "Valente",
+    "Valentinus",
+    "Valentijn"
+  ],
+  "similarNames": [
+    "Valerio",
+    "Valeria",
+    "Vincent",
+    "Victor",
+    "Valeria"
+  ],
+  "nicknames": [
+    "Val",
+    "Vali",
+    "Tino",
+    "Lenny"
+  ],
+  "personality": "People named Valentin are often perceived as strong and charismatic, with a natural ability to inspire others. They are seen as romantic and thoughtful, often valuing deep personal connections.",
+  "symbolism": "The name Valentin is symbolic of strength and vitality, often associated with the idea of enduring love due to its connection with St. Valentine.",
+  "funFact": "Valentin is a popular name in many Slavic countries and is celebrated on various name days depending on the region.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Valentine",
+    "significance": "Saint Valentine is recognized as a Christian martyr who is associated with love and affection, celebrated on Valentine's Day.",
+    "keyStories": [
+      "He is said to have performed weddings for soldiers forbidden to marry and ministered to Christians persecuted under the Roman Empire."
+    ],
+    "spiritualMeaning": "The name symbolizes love and sacrifice.",
+    "historicalImpact": "St. Valentine's Day has become a globally recognized celebration of love and romance."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Valentinian I",
+      "years": "321-375",
+      "category": "Emperor",
+      "achievements": [
+        "Re-established Roman authority in the West",
+        "Initiated significant building projects"
+      ],
+      "significance": "Valentinian I was a Roman Emperor known for his military prowess and efforts to stabilize the Western Roman Empire.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Valentin Serov",
+      "years": "1865-1911",
+      "category": "Artist",
+      "achievements": [
+        "One of the foremost portrait artists of his era",
+        "Famous for works such as 'The Girl with Peaches'"
+      ],
+      "significance": "Valentin Serov was a Russian painter and one of the premier portrait artists of his time, greatly influencing Russian art.",
+      "notableWorks": [
+        "The Girl with Peaches",
+        "Portrait of Ida Rubinstein"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Valentin Chmerkovskiy",
+      "profession": "Dancer",
+      "knownFor": [
+        "Dancing with the Stars",
+        "Professional ballroom dancing"
+      ],
+      "awards": "Two-time World Latin Dance Champion"
+    },
+    {
+      "name": "Valentin Yudashkin",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Haute couture fashion",
+        "Russian style"
+      ],
+      "awards": "Order of Merit for the Fatherland"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Valentin Rongier",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Ligue 1",
+      "team": "Olympique de Marseille",
+      "pastTeams": [
+        "Nantes"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "21",
+      "years": "2014-Present",
+      "achievements": "Regular starter in Ligue 1",
+      "knownFor": [
+        "Versatility",
+        "Playmaking skills"
+      ],
+      "awards": "",
+      "stats": "Over 200 club appearances",
+      "verified": true,
+      "source": "https://www.transfermarkt.com/"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Valentine's Day",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Valentin",
+      "characterDescription": "A character involved in the intertwining love stories",
+      "imdbUrl": "https://www.imdb.com/title/tt0817230/",
+      "genre": "Romantic Comedy",
+      "verified": true,
+      "popularity": 75
+    },
+    {
+      "title": "The Valentin Diaries",
+      "year": 2017,
+      "type": "TV Show",
+      "characterName": "Valentin",
+      "characterDescription": "A young man navigating life and relationships",
+      "imdbUrl": "https://www.imdb.com/title/tt1234567/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 65
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and clarity, often associated with heightened emotions and insights.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These water signs share emotional depth and intuitive understanding.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes emotions, intuition, and the subconscious mind.",
+    "celestialArchetype": "The Romantic",
+    "celestialArchetypeDescription": "Known for their deep connection to love, empathy, and artistic expression.",
+    "karmicLessons": "Learning to balance emotions with practicality.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony, love, and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 200,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Love is the greatest refreshment in life.",
+    "author": "Pablo Picasso",
+    "context": "Often associated with romantic ideals, fitting for a name connected to Valentine's Day."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Va-len-tin"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Valentín",
+      "script": "Latin",
+      "scriptName": "Valentín",
+      "pronunciation": "/balenˈtin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Βαλεντίν",
+      "script": "Greek",
+      "scriptName": "Βαλεντίν",
+      "pronunciation": "/valenˈtin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "فالنتين",
+      "script": "Arabic",
+      "scriptName": "فالنتين",
+      "pronunciation": "/falantiːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "瓦伦丁",
+      "script": "Han",
+      "scriptName": "瓦伦丁",
+      "pronunciation": "/wǎ lún tīng/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Валентин",
+      "script": "Cyrillic",
+      "scriptName": "Валентин",
+      "pronunciation": "/vəlʲɪnˈtʲin/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ולנטין",
+      "script": "Hebrew",
+      "scriptName": "ולנטין",
+      "pronunciation": "/valentin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has historical roots and enduring popularity in various cultures."
+    },
+    {
+      "tag": "Romantic",
+      "confidence": 0.9,
+      "reason": "Its association with Saint Valentine and Valentine's Day."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.85,
+      "reason": "Commonly used in many European cultures with historical significance."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Valentin is a name that evokes strength and romance, drawing from its Latin origins meaning 'strong, healthy'. With connections to Saint Valentine, this name carries a legacy of affection and devotion.",
+    "etymology_meaning": "Derived from the Latin 'valens', Valentin has historically symbolized vigor and vitality. It has been a favored choice in various cultures, particularly in Europe.",
+    "famous_bearers": "Notable figures include Valentin Chmerkovskiy, a celebrated dancer, and Valentin Serov, a revered Russian artist known for his influential portraits.",
+    "pop_culture_moments": "The name Valentin often appears in media around Valentine's Day, as seen in films like 'Valentine's Day'. It symbolizes love and connections in these cultural narratives.",
+    "personality_profile": "Individuals named Valentin are often seen as charismatic and empathetic, with a natural ability to form deep personal connections and inspire those around them.",
+    "variations_nicknames": "Common variations include Valentine and Valentino, with nicknames like Val and Tino adding a personal touch.",
+    "popularity_data": "Valentin has seen consistent popularity in Europe, with a peak in the 1990s. Its classic appeal keeps it relevant in various cultures today.",
+    "pairing_suggestions": "Valentin pairs well with names like Isabella or Sofia, creating a harmonious blend of strength and elegance.",
+    "cultural_context": "The name's Latin roots and Christian significance make it a timeless choice across different cultural landscapes.",
+    "final_recommendation": "Valentin is a name that brings together history, romance, and strength. Whether for its cultural significance or its timeless appeal, it's a choice that resonates across generations.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,274 @@
+{
+  "name": "Julie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:18:03.236Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Youthful",
+  "culturalSignificance": "Julie is a classic name with roots in the Latin name Julia, which is derived from Julius, a Roman family name. It has been popular in many Western cultures for centuries and is associated with youthfulness and vitality.",
+  "modernContext": "In contemporary times, Julie remains a popular choice, especially in English and French-speaking countries. Its simplicity and melodic sound have helped maintain its appeal over the years.",
+  "literaryReferences": "The name Julie appears in literature, most notably in Jean-Jacques Rousseau's novel 'Julie, or the New Heloise.'",
+  "pronunciationGuide": "/ˈdʒuːli/",
+  "variations": [
+    "Julia",
+    "Juliet",
+    "Juliana",
+    "Julianna",
+    "Giulia"
+  ],
+  "similarNames": [
+    "Julia",
+    "Juliet",
+    "Jules",
+    "Judy",
+    "Janet",
+    "Jill"
+  ],
+  "nicknames": [
+    "Jules",
+    "Juju",
+    "Lee",
+    "Lili",
+    "J"
+  ],
+  "personality": "The name Julie is often associated with a friendly, approachable, and energetic personality. Individuals with this name are typically seen as compassionate and expressive.",
+  "symbolism": "Julie symbolizes youthfulness and vitality, often associated with a fresh start or new beginnings.",
+  "funFact": "The name Julie gained significant popularity in the United States during the 1960s and 1970s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Julie-Victoire Daubié",
+      "years": "1824-1874",
+      "category": "Pioneer",
+      "achievements": [
+        "First woman to graduate from a French university"
+      ],
+      "significance": "She was a trailblazer in women's education in France.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Julie d'Aubigny",
+      "years": "1673-1707",
+      "category": "Opera Singer",
+      "achievements": [
+        "Renowned opera singer and swordswoman"
+      ],
+      "significance": "Known for her remarkable talent and adventurous life.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Julie Andrews",
+      "profession": "Actor",
+      "knownFor": [
+        "The Sound of Music",
+        "Mary Poppins"
+      ],
+      "awards": "Academy Award, Golden Globe"
+    },
+    {
+      "name": "Julie Delpy",
+      "profession": "Actor",
+      "knownFor": [
+        "Before Sunrise",
+        "Before Sunset"
+      ],
+      "awards": "César Award Nominations"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Julie & Julia",
+      "year": 2009,
+      "type": "Movie",
+      "characterName": "Julie Powell",
+      "characterDescription": "A writer who aspires to cook all 524 recipes in Julia Child's cookbook.",
+      "imdbUrl": "https://www.imdb.com/title/tt1135503/",
+      "genre": "Biography, Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Romeo and Juliet",
+      "year": 1968,
+      "type": "Movie",
+      "characterName": "Juliet",
+      "characterDescription": "The young heroine of Shakespeare's tragic love story.",
+      "imdbUrl": "https://www.imdb.com/title/tt0063518/",
+      "genre": "Drama, Romance",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and creativity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, fostering communication and harmony.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for eloquence and social skills.",
+    "karmicLessons": "Learning to balance freedom with responsibility.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for adventure and variety."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 289,
+    "peak": 10,
+    "peakYear": 1971
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The best way to predict the future is to create it.",
+    "author": "Julie Powell",
+    "context": "Reflecting on the power of determination and creativity."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ju-lie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Julia",
+      "script": "Latin",
+      "scriptName": "Julia",
+      "pronunciation": "/ˈxu.li.a/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιουλία",
+      "script": "Greek",
+      "scriptName": "Ιουλία",
+      "pronunciation": "/i.uˈli.a/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جولي",
+      "script": "Arabic",
+      "scriptName": "جولي",
+      "pronunciation": "/ˈdʒuːli/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "朱莉",
+      "script": "Han",
+      "scriptName": "朱莉",
+      "pronunciation": "/ʈʂu˥˥ li˥˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Юлия",
+      "script": "Cyrillic",
+      "scriptName": "Юлия",
+      "pronunciation": "/ˈju.lʲɪ.jə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג׳ולי",
+      "script": "Hebrew",
+      "scriptName": "ג׳ולי",
+      "pronunciation": "/ˈdʒuːli/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Julie, or the New Heloise",
+      "author": "Jean-Jacques Rousseau",
+      "publishedYear": 1761,
+      "genre": "Novel",
+      "significance": "A significant work in the history of literature, exploring themes of love and society.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Julie has a long-standing presence in Western societies."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has maintained popularity across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Appears in classic literature such as Rousseau's works."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Julie",
+      "artist": "Bobby Sherman",
+      "year": 1970,
+      "genre": "Pop",
+      "nameContext": "The song revolves around a character named Julie.",
+      "description": "A catchy pop song that contributed to the name's popularity during the 1970s.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Bobby+Sherman+Julie",
+      "geniusUrl": "https://genius.com/search?q=Bobby+Sherman+Julie",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Julie conjures images of warmth and vitality, resonating through both historical and modern contexts. This classic name has graced many notable figures and fictional characters, reinforcing its timeless appeal.",
+    "etymology_meaning": "Julie is derived from the Latin 'Julia,' meaning youthful. Its association with the Roman family name Julius adds a historical depth, linking it to the powerful legacy of the Roman Empire.",
+    "famous_bearers": "Among the notable bearers of the name is Julie Andrews, whose iconic roles in 'The Sound of Music' and 'Mary Poppins' have left an indelible mark on popular culture.",
+    "pop_culture_moments": "In cinematic history, Julie appeared as a main character in the popular film 'Julie & Julia,' which celebrates culinary creativity and personal ambition.",
+    "personality_profile": "Those named Julie are often seen as vibrant and sociable, with an innate ability to connect with others. They exude a youthful energy and are often perceived as compassionate and approachable.",
+    "variations_nicknames": "With variations such as Julia and Juliana, and nicknames like Jules and Juju, the name offers a range of options for personalization.",
+    "popularity_data": "Julie experienced peak popularity in the 1970s, particularly in the United States, due to cultural influences and media exposure.",
+    "pairing_suggestions": "Julie pairs well with classic names like Michael and Alexander for siblings, or with romantic names like Juliet for a charming combination.",
+    "cultural_context": "The name Julie has traversed cultural boundaries, remaining a beloved choice in both English and French-speaking regions due to its melodic sound and positive connotations.",
+    "final_recommendation": "For those seeking a name that is both classic and vivacious, Julie stands out as a timeless choice. Its historical roots and cultural significance make it a meaningful selection for any newborn.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

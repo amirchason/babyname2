@@ -1,0 +1,282 @@
+{
+  "name": "Carrie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:54:00.691Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Germanic",
+  "meaning": "Free woman",
+  "culturalSignificance": "The name Carrie gained popularity as a diminutive form of Caroline, which is derived from the Germanic 'Karl,' meaning 'free man.' It became widely used in English-speaking countries by the late 19th century.",
+  "modernContext": "Carrie remains a popular name in the United States and other English-speaking regions, often associated with strong, independent female characters in literature and film.",
+  "literaryReferences": "Stephen King's 'Carrie' (1974) is a notable novel where the protagonist, Carrie White, is a high school girl with telekinetic powers.",
+  "pronunciationGuide": "/ˈkæri/",
+  "variations": [
+    "Kerry",
+    "Kari",
+    "Carie",
+    "Cary",
+    "Cari"
+  ],
+  "similarNames": [
+    "Caroline",
+    "Kara",
+    "Karen",
+    "Carly",
+    "Chloe"
+  ],
+  "nicknames": [
+    "Care",
+    "Cee",
+    "Caz",
+    "Carr"
+  ],
+  "personality": "Individuals named Carrie are often perceived as strong, independent, and resilient, with a touch of creativity.",
+  "symbolism": "The name Carrie symbolizes freedom and independence, often associated with a free spirit and strong will.",
+  "funFact": "The name Carrie was popularized by the character Carrie Bradshaw, played by Sarah Jessica Parker, in the TV series 'Sex and the City.'",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Carrie Chapman Catt",
+      "years": "1859-1947",
+      "category": "Activist",
+      "achievements": [
+        "Leader in the women's suffrage movement",
+        "Founder of the League of Women Voters"
+      ],
+      "significance": "Catt played a pivotal role in securing the right to vote for American women with the 19th Amendment.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Carrie Nation",
+      "years": "1846-1911",
+      "category": "Activist",
+      "achievements": [
+        "Leader in the temperance movement"
+      ],
+      "significance": "Known for her radical methods in the fight against alcohol, including smashing saloons with a hatchet.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Carrie Underwood",
+      "profession": "Musician",
+      "knownFor": [
+        "American Idol winner",
+        "Country music hits"
+      ],
+      "awards": "Multiple Grammy Awards"
+    },
+    {
+      "name": "Carrie Fisher",
+      "profession": "Actor",
+      "knownFor": [
+        "Princess Leia in Star Wars",
+        "Author of 'Postcards from the Edge'"
+      ],
+      "awards": "Saturn Award for Best Supporting Actress"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Carrie",
+      "year": 1976,
+      "type": "Movie",
+      "characterName": "Carrie White",
+      "characterDescription": "A high school girl with telekinetic powers, facing bullying and a strict home life.",
+      "imdbUrl": "https://www.imdb.com/title/tt0074285/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 88
+    },
+    {
+      "title": "Sex and the City",
+      "year": 1998,
+      "type": "TV Show",
+      "characterName": "Carrie Bradshaw",
+      "characterDescription": "A columnist and fashionista navigating life and relationships in New York City.",
+      "imdbUrl": "https://www.imdb.com/title/tt0159206/",
+      "genre": "Comedy, Drama, Romance",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I never really thought about what I wanted. I just went along with everything.",
+      "character": "Carrie White",
+      "source": "Carrie",
+      "year": 1976,
+      "context": "Carrie reflects on her life and choices.",
+      "genre": "Horror",
+      "impact": "Highlights Carrie's struggle with self-identity and autonomy."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time of new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for creativity and independence.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "An archetype focused on sharing ideas and connecting with others.",
+    "karmicLessons": "Embrace independence and self-expression.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom, adventure, and new experiences."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 420,
+    "peak": 18,
+    "peakYear": 1977
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "context": "Encouraging individuality and authenticity."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Car-rie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Carla",
+      "script": "Latin",
+      "scriptName": "Carla",
+      "pronunciation": "/ˈkar.la/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κάρι",
+      "script": "Greek",
+      "scriptName": "Κάρι",
+      "pronunciation": "/ˈka.ri/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كاري",
+      "script": "Arabic",
+      "scriptName": "كاري",
+      "pronunciation": "/kaː.ri/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "凯莉",
+      "script": "Han",
+      "scriptName": "凯莉",
+      "pronunciation": "/kʰai˥˩ li˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Карри",
+      "script": "Cyrillic",
+      "scriptName": "Карри",
+      "pronunciation": "/ˈkarʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קארי",
+      "script": "Hebrew",
+      "scriptName": "קארי",
+      "pronunciation": "/ˈka.ri/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Carrie",
+      "author": "Stephen King",
+      "publishedYear": 1974,
+      "genre": "Horror",
+      "significance": "Stephen King's first published novel, exploring themes of bullying and supernatural powers.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Carrie has been a consistently popular name throughout the 20th century."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Prominent use in literature, notably in Stephen King's 'Carrie.'"
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.85,
+      "reason": "Continues to be used in contemporary media and culture."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Carrie",
+      "artist": "Europe",
+      "year": 1986,
+      "genre": "Rock",
+      "nameContext": "The name Carrie is featured prominently in the song's lyrics.",
+      "description": "A power ballad about love and longing, solidifying the name's association with romance.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Europe+Carrie",
+      "geniusUrl": "https://genius.com/Europe-carrie-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Carrie is a name that resonates with strength and independence, a timeless choice for those looking for a name with both modern appeal and classic roots.",
+    "etymology_meaning": "Derived from the Germanic 'Karl,' meaning 'free man,' Carrie signifies freedom and autonomy, a nod to its historical roots as a feminine form of Caroline.",
+    "famous_bearers": "Carrie Underwood, an acclaimed country music star, and Carrie Fisher, beloved for her role as Princess Leia, are just two of the notable figures who have carried this name into the spotlight.",
+    "pop_culture_moments": "From Stephen King's chilling novel to the fashionable escapades of Carrie Bradshaw in 'Sex and the City,' the name Carrie has made significant cultural impacts across different media.",
+    "personality_profile": "Those named Carrie are often perceived as creative, independent, and resilient, embodying a spirit of adventure and a penchant for new experiences.",
+    "variations_nicknames": "Common variations of Carrie include Kari and Cary, with nicknames like Care and Cee offering more casual, affectionate forms.",
+    "popularity_data": "Carrie reached its peak popularity in the late 1970s, and while its usage has become less frequent, it remains a cherished name with a steady presence.",
+    "pairing_suggestions": "For parents considering middle names, combinations like Carrie Marie or Carrie Elizabeth offer a balanced, harmonious sound.",
+    "cultural_context": "While rooted in Germanic origins, Carrie's usage has become universal, embraced across cultures and languages for its simplicity and charm.",
+    "final_recommendation": "Choosing the name Carrie means embracing a legacy of strength, creativity, and classic elegance. It's a name that stands the test of time, favored by those who appreciate both its historical and modern significance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

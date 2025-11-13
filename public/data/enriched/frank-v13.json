@@ -1,0 +1,318 @@
+{
+  "name": "Frank",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:07:12.020Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Free man",
+  "culturalSignificance": "The name Frank has been a common given name in English-speaking countries since the Middle Ages. It is derived from the Old Germanic name 'Franco', which means 'free' or 'free man'. The name became popular due to its association with the Franks, a group of Germanic tribes known for their role in the history of Western Europe.",
+  "modernContext": "In modern times, Frank remains a popular name, especially in the United States and Europe. It is often associated with a straightforward, no-nonsense personality and has been used by several notable figures in various fields, contributing to its enduring popularity.",
+  "literaryReferences": "The name Frank appears in several literary works, including 'The Diary of a Young Girl' by Anne Frank, where it represents a historical figure rather than a fictional character.",
+  "pronunciationGuide": "/fræŋk/",
+  "variations": [
+    "Franc",
+    "Franck",
+    "Francis",
+    "Franco",
+    "Francesco"
+  ],
+  "similarNames": [
+    "Fred",
+    "Jack",
+    "Mark",
+    "John",
+    "Paul"
+  ],
+  "nicknames": [
+    "Frankie",
+    "Franco",
+    "Franko",
+    "Franky"
+  ],
+  "personality": "People named Frank are often perceived as reliable, grounded, and practical. They tend to be straightforward and honest, with a strong sense of duty.",
+  "symbolism": "Frank symbolizes freedom and honesty, associated with straightforwardness and a strong sense of justice.",
+  "funFact": "Frank Sinatra, one of the most famous bearers of the name, was known as 'Ol' Blue Eyes' and is considered one of the greatest singers of the 20th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Franklin D. Roosevelt",
+      "years": "1882-1945",
+      "category": "Politics",
+      "achievements": [
+        "32nd President of the United States",
+        "Led the U.S. through the Great Depression and World War II"
+      ],
+      "significance": "Roosevelt's New Deal policies helped lift the United States out of the Great Depression, and his leadership during World War II was pivotal.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Frank Lloyd Wright",
+      "years": "1867-1959",
+      "category": "Architecture",
+      "achievements": [
+        "Pioneered the Prairie School movement",
+        "Designed over 1,000 structures"
+      ],
+      "significance": "Wright is considered one of the greatest architects of the 20th century, known for his innovative and organic architectural designs.",
+      "notableWorks": [
+        "Fallingwater",
+        "Guggenheim Museum"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt",
+      "context": "First inaugural address as President of the United States",
+      "year": 1933,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Frank Sinatra",
+      "profession": "Musician",
+      "knownFor": [
+        "My Way",
+        "New York, New York"
+      ],
+      "awards": "Academy Award, Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Frank Ocean",
+      "profession": "Musician",
+      "knownFor": [
+        "Channel Orange",
+        "Blonde"
+      ],
+      "awards": "Grammy Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Frank Lampard",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Chelsea FC",
+      "pastTeams": [
+        "West Ham United",
+        "Manchester City"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "1995-2015",
+      "achievements": "Premier League titles, UEFA Champions League",
+      "knownFor": [
+        "Goal-scoring",
+        "Leadership"
+      ],
+      "awards": "FWA Footballer of the Year",
+      "stats": "177 Premier League goals",
+      "verified": true,
+      "source": "https://www.premierleague.com/players/888/Frank-Lampard/stats"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Donnie Darko",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Frank",
+      "characterDescription": "A mysterious figure in a rabbit suit who appears to the protagonist.",
+      "imdbUrl": "https://www.imdb.com/title/tt0246578/",
+      "genre": "Sci-Fi",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "House of Cards",
+      "year": 2013,
+      "type": "TV Show",
+      "characterName": "Frank Underwood",
+      "characterDescription": "Ruthless politician and main character of the series.",
+      "imdbUrl": "https://www.imdb.com/title/tt1856010/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Democracy is so overrated.",
+      "character": "Frank Underwood",
+      "source": "House of Cards",
+      "year": 2013,
+      "context": "Frank Underwood's cynical view on politics.",
+      "genre": "Drama",
+      "impact": "Highlights the character's manipulative nature."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Virgo",
+      "Taurus"
+    ],
+    "compatibleSignsDescription": "Earth signs share a practical and grounded nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Focused on creating strong foundations.",
+    "karmicLessons": "Learning to balance freedom with responsibility.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and order."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 391,
+    "peak": 6,
+    "peakYear": 1880
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "I did it my way.",
+    "author": "Frank Sinatra",
+    "context": "A reflection on living life on one's own terms."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Frank"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Francisco",
+      "script": "Latin",
+      "scriptName": "Francisco",
+      "pronunciation": "/fɾanˈθisko/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Φράνκο",
+      "script": "Greek",
+      "scriptName": "Φράνκο",
+      "pronunciation": "/ˈfranko/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "فرانك",
+      "script": "Arabic",
+      "scriptName": "فرانك",
+      "pronunciation": "/fraːnk/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "弗兰克",
+      "script": "Han",
+      "scriptName": "弗兰克",
+      "pronunciation": "/fú lán kè/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Фрэнк",
+      "script": "Cyrillic",
+      "scriptName": "Фрэнк",
+      "pronunciation": "/frɛnk/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פרנק",
+      "script": "Hebrew",
+      "scriptName": "פרנק",
+      "pronunciation": "/fʁaŋk/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "publishedYear": 1947,
+      "genre": "Non-fiction",
+      "significance": "The personal account of a Jewish girl hiding during World War II.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Frank has been used widely across generations."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Frank has maintained consistent popularity over the decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name appears in well-known literary works like Anne Frank's diary."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Frank's Wild Years",
+      "artist": "Tom Waits",
+      "year": 1983,
+      "genre": "Rock",
+      "nameContext": "Title character",
+      "description": "A song about a character named Frank and his journey through life.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Frank%27s+Wild+Years+Tom+Waits",
+      "geniusUrl": "https://genius.com/Tom-waits-franks-wild-years-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Frank is synonymous with classic charm and timeless appeal. From the bustling streets of New York to the serene countryside of England, you'll find many Franks making their mark. Whether it’s in the world of politics, architecture, or music, Frank is a name that carries weight and recognition.",
+    "etymology_meaning": "Frank is derived from the Old Germanic name 'Franco', meaning 'free man'. This name was popularized by the Franks, a powerful group of Germanic tribes that played a crucial role in shaping European history.",
+    "famous_bearers": "Famous bearers of the name Frank include U.S. President Franklin D. Roosevelt, renowned architect Frank Lloyd Wright, and iconic singer Frank Sinatra, each leaving a lasting legacy in their respective fields.",
+    "pop_culture_moments": "In pop culture, the name Frank has been immortalized in films like 'Donnie Darko' and TV shows such as 'House of Cards', where characters named Frank have captured audiences with their complexity and depth.",
+    "personality_profile": "Franks are often perceived as strong-willed and dependable individuals. They are known for their honesty and directness, making them trustworthy companions and leaders.",
+    "variations_nicknames": "The name Frank can be varied to Francis or Franco, with nicknames like Frankie or Franky adding a touch of familiarity and affection.",
+    "popularity_data": "The name Frank has seen various peaks in popularity, notably ranking high in the early 20th century. It remains a well-loved choice for parents seeking a name with historical significance.",
+    "pairing_suggestions": "Frank pairs well with classic middle names like James or William, creating a harmonious blend of tradition and sophistication.",
+    "cultural_context": "Rooted in Germanic culture, Frank has been embraced by English-speaking countries, maintaining its relevance through centuries as a name of strength and freedom.",
+    "final_recommendation": "For those seeking a name that embodies freedom and timelessness, Frank is an excellent choice. Its rich history and cultural significance offer a name that stands the test of time.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

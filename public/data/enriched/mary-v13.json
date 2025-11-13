@@ -1,0 +1,313 @@
+{
+  "name": "Mary",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:22:18.503Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Beloved",
+  "culturalSignificance": "Mary is one of the most enduring female names across cultures, largely due to its biblical connection to the Virgin Mary, the mother of Jesus Christ. The name has been consistently popular in Christian-majority countries and carries a sense of purity and grace.",
+  "modernContext": "In modern times, Mary remains a classic name, although its popularity has seen some decline with the rise of more contemporary names. It is often used as a middle name and is still favored in religious families.",
+  "literaryReferences": "The name Mary appears in many classic literary works, including 'Pride and Prejudice' by Jane Austen, where Mary Bennet is one of the Bennet sisters.",
+  "pronunciationGuide": "/ˈmɛəri/",
+  "variations": [
+    "Maria",
+    "Marie",
+    "Miriam",
+    "Maree",
+    "Marya"
+  ],
+  "similarNames": [
+    "Anne",
+    "Jane",
+    "Grace",
+    "Elizabeth",
+    "Margaret"
+  ],
+  "nicknames": [
+    "Molly",
+    "Mimi",
+    "Mae",
+    "Mare",
+    "Mitzi"
+  ],
+  "personality": "Mary is often associated with a nurturing and caring personality, embodying qualities of compassion, kindness, and reliability.",
+  "symbolism": "The name Mary symbolizes purity and devotion, reflecting its religious roots and the perceived virtues of historical and biblical figures named Mary.",
+  "funFact": "Mary was the most popular name for girls in the United States for over 70 years, from 1879 to 1946.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Mary, Mother of Jesus",
+    "significance": "Mary is venerated in Christianity as the mother of Jesus Christ, playing a central role in the New Testament and Christian theology.",
+    "keyStories": [
+      "Annunciation",
+      "Nativity"
+    ],
+    "spiritualMeaning": "Symbolizes purity, motherhood, and obedience to God.",
+    "historicalImpact": "Mary's image and story have deeply influenced Christian art, literature, and doctrine throughout history."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Mary, Queen of Scots",
+      "years": "1542-1587",
+      "category": "Royalty",
+      "achievements": [
+        "Queen of Scotland",
+        "Claimant to the English throne"
+      ],
+      "significance": "Mary, Queen of Scots, was a pivotal figure in the religious and political conflicts of her time, leaving a lasting impact on British history.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Mary Wollstonecraft",
+      "years": "1759-1797",
+      "category": "Writer",
+      "achievements": [
+        "Pioneer of feminist philosophy",
+        "Author of 'A Vindication of the Rights of Woman'"
+      ],
+      "significance": "Mary Wollstonecraft was a trailblazer for women's rights and education, influencing generations of feminist movements.",
+      "notableWorks": [
+        "A Vindication of the Rights of Woman"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I do not wish them [women] to have power over men; but over themselves.",
+      "author": "Mary Wollstonecraft",
+      "context": "From her seminal work advocating for women's rights",
+      "year": 1792,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Mary J. Blige",
+      "profession": "Musician",
+      "knownFor": [
+        "Songs like 'Family Affair'",
+        "Album 'The Breakthrough'"
+      ],
+      "awards": "9 Grammy Awards"
+    },
+    {
+      "name": "Mary Tyler Moore",
+      "profession": "Actor",
+      "knownFor": [
+        "The Mary Tyler Moore Show",
+        "Ordinary People"
+      ],
+      "awards": "7 Emmy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "There’s Something About Mary",
+      "year": 1998,
+      "type": "Movie",
+      "characterName": "Mary Jensen",
+      "characterDescription": "The central character, an object of affection due to her charm and beauty.",
+      "imdbUrl": "https://www.imdb.com/title/tt0129387/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 88
+    },
+    {
+      "title": "Downton Abbey",
+      "year": 2010,
+      "type": "TV Show",
+      "characterName": "Lady Mary Crawley",
+      "characterDescription": "A headstrong and independent member of the Crawley family.",
+      "imdbUrl": "https://www.imdb.com/title/tt1606375/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Is it possible to love someone so completely they simply can’t die?",
+      "character": "Lady Mary Crawley",
+      "source": "Downton Abbey",
+      "year": 2010,
+      "context": "Mary reflecting on love and loss.",
+      "genre": "Drama",
+      "impact": "Highlights the emotional depth of her character and the themes of the show."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and reflection.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs that share emotional depth and intuition.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Represents compassion and nurturing qualities.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes care, empathy, and support.",
+    "karmicLessons": "Learning to balance giving and receiving love.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 121,
+    "peak": 1,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "You are more powerful than you know; you are beautiful just as you are.",
+    "author": "Mary J. Blige",
+    "context": "Encouragement and self-empowerment."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mar-y"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "María",
+      "script": "Latin",
+      "scriptName": "María",
+      "pronunciation": "/maˈɾi.a/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαρία",
+      "script": "Greek",
+      "scriptName": "Μαρία",
+      "pronunciation": "/maˈria/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مريم",
+      "script": "Arabic",
+      "scriptName": "مريم",
+      "pronunciation": "/ma.riː.jam/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛丽",
+      "script": "Han",
+      "scriptName": "玛丽",
+      "pronunciation": "/mǎ.lì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мария",
+      "script": "Cyrillic",
+      "scriptName": "Мария",
+      "pronunciation": "/mɐˈrʲi.jə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מרים",
+      "script": "Hebrew",
+      "scriptName": "מרים",
+      "pronunciation": "/mi.riˈjam/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Mary, Mary",
+      "author": "James Patterson",
+      "publishedYear": 2005,
+      "genre": "Thriller",
+      "significance": "A popular crime novel featuring the name in its title, contributing to its cultural presence.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Mary has been a popular name for centuries, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "The name is directly associated with the biblical figure, Mary, Mother of Jesus."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Despite fluctuations in popularity, Mary remains a consistently used name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Proud Mary",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1969,
+      "genre": "Rock",
+      "nameContext": "The name appears prominently in the chorus.",
+      "description": "A classic rock song that tells the story of a riverboat worker, often associated with themes of freedom and the American spirit.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Proud+Mary+Creedence+Clearwater+Revival",
+      "geniusUrl": "https://genius.com/Creedence-clearwater-revival-proud-mary-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Mary, Did You Know?",
+      "artist": "Pentatonix",
+      "year": 2014,
+      "genre": "A cappella",
+      "nameContext": "The name Mary is central to the song, addressing the Virgin Mary.",
+      "description": "A modern Christmas classic, the song reflects on Mary's role and the significance of her son, Jesus.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Mary+Did+You+Know+Pentatonix",
+      "geniusUrl": "https://genius.com/Pentatonix-mary-did-you-know-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Mary is a name that echoes through history, a timeless classic that has adorned queens, saints, and artists alike. Its origin and biblical roots have given it a revered place in many cultures, transcending time and geography. Whether as a first or middle name, Mary carries a weight of tradition and grace.",
+    "etymology_meaning": "The name Mary originates from the Hebrew name Miryam, which is believed to mean 'beloved' or 'wished-for child'. It has been a staple in Christian communities due to its association with the Virgin Mary, further embedding it into religious and cultural traditions.",
+    "famous_bearers": "Throughout history, Mary has been the name of numerous influential figures, from Mary, Queen of Scots, to pioneering feminist Mary Wollstonecraft. In modern times, it continues to be celebrated by figures like Mary J. Blige, who has made significant contributions to music and culture.",
+    "pop_culture_moments": "Mary has been immortalized in pop culture through songs like 'Proud Mary' by Creedence Clearwater Revival and movies like 'There’s Something About Mary', showcasing its versatility and enduring charm.",
+    "personality_profile": "The name Mary is often associated with a calm and nurturing personality. It embodies characteristics of empathy, resilience, and a strong sense of responsibility, making it a favored choice for those seeking a name with depth and meaning.",
+    "variations_nicknames": "With variations such as Maria, Marie, and Miriam, and nicknames like Molly and Mae, the name offers flexibility and a personal touch. These variations allow it to fit a wide range of cultural and personal preferences.",
+    "popularity_data": "While Mary was once the most popular name for girls in the United States, its prevalence has declined in recent years. However, it remains a beloved choice for parents who appreciate its historical and cultural significance.",
+    "pairing_suggestions": "Mary pairs well with a variety of names, both traditional and modern. Consider combinations like Mary Elizabeth for a classic feel, or Mary Quinn for a more contemporary edge.",
+    "cultural_context": "Mary's cultural significance is deeply rooted in its biblical use, yet it transcends religion. It is a name that has found a place in literature, music, and film, maintaining a strong presence across different societies.",
+    "final_recommendation": "For those seeking a name with a rich historical background and a timeless appeal, Mary is an excellent choice. It offers a blend of tradition and elegance, making it a versatile option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

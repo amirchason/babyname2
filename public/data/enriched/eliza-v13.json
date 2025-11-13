@@ -1,0 +1,299 @@
+{
+  "name": "Eliza",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:04:51.059Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is my oath",
+  "culturalSignificance": "Eliza is a name with strong historical and cultural roots, primarily derived as a diminutive of Elizabeth. The name gained popularity in English-speaking countries through its association with royal and religious figures, as well as its frequent use in literature and music.",
+  "modernContext": "In modern times, Eliza is celebrated for its classic appeal and elegance. It has been popularized by characters in musicals such as 'My Fair Lady' and 'Hamilton', contributing to its enduring popularity among baby names.",
+  "literaryReferences": "Eliza is a prominent character in George Bernard Shaw's play 'Pygmalion', which was later adapted into the musical 'My Fair Lady'.",
+  "pronunciationGuide": "ɪˈlaɪzə",
+  "variations": [
+    "Elizabeth",
+    "Elise",
+    "Elisa",
+    "Liza",
+    "Ellie"
+  ],
+  "similarNames": [
+    "Elizabeth",
+    "Elise",
+    "Ella",
+    "Emma",
+    "Eli"
+  ],
+  "nicknames": [
+    "Liz",
+    "Liza",
+    "Ellie",
+    "Lisa",
+    "Lizzy"
+  ],
+  "personality": "People named Eliza are often seen as strong, independent, and creative. They are known for their charismatic and outgoing nature.",
+  "symbolism": "Eliza embodies themes of promise and devotion, reflecting its meaning of 'God is my oath'.",
+  "funFact": "The musical 'Hamilton' features a character named Eliza Schuyler, which helped revive the name's popularity in the 21st century.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Elizabeth",
+    "significance": "The name Eliza is derived from Elizabeth, which is associated with several religious figures, including Elizabeth, the mother of John the Baptist in the New Testament.",
+    "keyStories": [
+      "Elizabeth and Zechariah",
+      "The birth of John the Baptist"
+    ],
+    "spiritualMeaning": "Represents faithfulness and God's promise.",
+    "historicalImpact": "Elizabeth is a significant biblical figure whose story is celebrated in Christian traditions."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Eliza Lucas Pinckney",
+      "years": "1722-1793",
+      "category": "Agriculturalist",
+      "achievements": [
+        "Developed indigo as a cash crop in the American colonies"
+      ],
+      "significance": "Eliza Lucas Pinckney played a vital role in the colonial economy by pioneering the cultivation of indigo, which became a major export.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Eliza R. Snow",
+      "years": "1804-1887",
+      "category": "Poet",
+      "achievements": [
+        "Prominent leader in the Latter-day Saint movement",
+        "Prolific poet and hymn writer"
+      ],
+      "significance": "Eliza R. Snow was a significant figure in the early Latter-day Saint community, known for her poetry and leadership in women's organizations.",
+      "notableWorks": [
+        "Many hymns in LDS hymnals"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Let us never lose sight of our own potential.",
+      "author": "Eliza R. Snow",
+      "context": "Encouraging women in faith and personal growth.",
+      "year": 1850,
+      "category": "Spirituality"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Eliza Dushku",
+      "profession": "Actor",
+      "knownFor": [
+        "Buffy the Vampire Slayer",
+        "Bring It On"
+      ],
+      "awards": "Teen Choice Award nominations"
+    },
+    {
+      "name": "Eliza Taylor",
+      "profession": "Actor",
+      "knownFor": [
+        "The 100",
+        "Neighbours"
+      ],
+      "awards": "Teen Choice Award nominations"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Hamilton",
+      "year": 2020,
+      "type": "Movie",
+      "characterName": "Eliza Schuyler",
+      "characterDescription": "Wife of Alexander Hamilton, known for her intelligence and generosity.",
+      "imdbUrl": "https://www.imdb.com/title/tt8503618/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "My Fair Lady",
+      "year": 1964,
+      "type": "Movie",
+      "characterName": "Eliza Doolittle",
+      "characterDescription": "A flower girl who undergoes a transformation into a refined lady.",
+      "imdbUrl": "https://www.imdb.com/title/tt0058385/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Just you wait, 'enry 'iggins, just you wait!",
+      "character": "Eliza Doolittle",
+      "source": "My Fair Lady",
+      "year": 1964,
+      "context": "Eliza asserts her determination to rise above her current station.",
+      "genre": "Musical",
+      "impact": "Highlights Eliza's transformation and independent spirit."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Turquoise",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time of growth and setting intentions.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a sense of curiosity and love for communication.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change, communication, and adaptability.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their expressive and articulate nature, often serving as mediators.",
+    "karmicLessons": "Learning to balance communication with listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desires to express creativity and form meaningful connections."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 195,
+    "peak": 172,
+    "peakYear": 2016
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The most important thing is to enjoy your life - to be happy - it's all that matters.",
+    "author": "Eliza Doolittle",
+    "context": "A reminder of finding joy and fulfillment."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "E-li-za"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Elisa",
+      "script": "Latin",
+      "scriptName": "Elisa",
+      "pronunciation": "eˈlisa",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ελίζα",
+      "script": "Greek",
+      "scriptName": "Ελίζα",
+      "pronunciation": "eˈliza",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إليزا",
+      "script": "Arabic",
+      "scriptName": "إليزا",
+      "pronunciation": "ʔɪˈliːza",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "伊莱扎",
+      "script": "Han",
+      "scriptName": "伊莱扎",
+      "pronunciation": "yī lái zhā",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Элиза",
+      "script": "Cyrillic",
+      "scriptName": "Элиза",
+      "pronunciation": "ɪˈlʲiza",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אליזה",
+      "script": "Hebrew",
+      "scriptName": "אליזה",
+      "pronunciation": "eˈliza",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Eliza and Her Monsters",
+      "author": "Francesca Zappia",
+      "publishedYear": 2017,
+      "genre": "Young Adult",
+      "significance": "Explores themes of identity, creativity, and mental health.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Eliza is a timeless name with historical roots and modern appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Featured in significant literary and musical works."
+    },
+    {
+      "tag": "Musical",
+      "confidence": 0.85,
+      "reason": "Known from musicals like 'My Fair Lady' and 'Hamilton'."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Eliza",
+      "artist": "Phineas and Ferb",
+      "year": 2011,
+      "genre": "Soundtrack",
+      "nameContext": "The name is central to the song's lyrics.",
+      "description": "A playful song from the animated series 'Phineas and Ferb', highlighting a character named Eliza.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Phineas+and+Ferb+Eliza",
+      "geniusUrl": "https://genius.com/search?q=Phineas+and+Ferb+Eliza",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Eliza is a name that has charmed parents for generations, with its elegant sound and rich historical roots. From musicals to the Bible, Eliza holds a place in various cultural narratives, making it a timeless choice for a baby name. Whether you're inspired by its melodic tone or its significance in popular culture, Eliza offers a sense of grace and continuity.",
+    "etymology_meaning": "Derived from the Hebrew name Elizabeth, meaning 'God is my oath', Eliza has been a beloved nickname that stands strong on its own. Its etymology reflects a deep-seated connection to faith and promise, which has resonated through centuries.",
+    "famous_bearers": "Notable figures named Eliza include Eliza Lucas Pinckney, an influential agriculturalist, and Eliza Dushku, a popular actress. Their achievements in their respective fields highlight the name's association with strength and talent.",
+    "pop_culture_moments": "In pop culture, Eliza is perhaps best known from 'My Fair Lady' and 'Hamilton', bringing the name to new generations through theater and film. These portrayals have cemented Eliza as a symbol of transformation and resilience.",
+    "personality_profile": "Eliza is often associated with qualities like creativity, intelligence, and resilience. Individuals with this name are seen as natural leaders who inspire others with their vision and determination.",
+    "variations_nicknames": "While Eliza stands strong as a name, it also lends itself to variations and nicknames like Liz, Liza, and Ellie. These options provide flexibility and personalization for anyone carrying the name.",
+    "popularity_data": "Eliza has maintained steady popularity over the years, consistently ranking in the top 200 names in the United States. Its timeless charm and cultural connections have kept it a favorite among parents.",
+    "pairing_suggestions": "Eliza pairs well with both traditional and modern names, offering versatility in combinations. Consider pairing it with names like James, Alexander, or Grace for a harmonious blend of classic and contemporary.",
+    "cultural_context": "Rooted in Hebrew tradition, Eliza carries a cultural significance that spans religious and historical contexts. Its presence in literature and music further enriches its cultural tapestry.",
+    "final_recommendation": "For parents seeking a name with depth, elegance, and enduring appeal, Eliza is an excellent choice. Its historical roots and cultural significance make it a name that will stand the test of time.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

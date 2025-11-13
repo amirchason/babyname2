@@ -1,0 +1,301 @@
+{
+  "name": "Pedro",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:35:37.654Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Rock, stone",
+  "culturalSignificance": "Pedro is a classic Spanish and Portuguese name derived from the Latin 'Petrus,' meaning 'rock' or 'stone.' It is highly popular in Latin American and Iberian cultures and is often associated with strength and stability.",
+  "modernContext": "Pedro remains a common name in Spanish and Portuguese-speaking countries and has gained some popularity in English-speaking regions. It is often chosen for its traditional roots and solid meaning.",
+  "literaryReferences": "Pedro is a character in the novel 'Pedro Páramo' by Juan Rulfo, which is a cornerstone of Mexican literature and a significant work in the Latin American Boom movement.",
+  "pronunciationGuide": "/ˈpeðɾo/",
+  "variations": [
+    "Pietro",
+    "Pierre",
+    "Peter",
+    "Pieter",
+    "Petros"
+  ],
+  "similarNames": [
+    "Pablo",
+    "Paco",
+    "Paulo",
+    "Pietro",
+    "Pere"
+  ],
+  "nicknames": [
+    "Pete",
+    "Pedrito",
+    "Perico"
+  ],
+  "personality": "Names like Pedro often evoke characteristics of reliability and resilience, reflecting the name's meaning of 'rock.'",
+  "symbolism": "The name Pedro symbolizes steadfastness and dependability, much like a rock that provides a foundation.",
+  "funFact": "Pedro is a popular name for fictional characters, including the protagonist in the acclaimed novel 'Pedro Páramo' by Juan Rulfo.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Peter",
+    "significance": "Saint Peter, known as Pedro in Spanish, is one of the Twelve Apostles of Jesus and is considered the first Pope by the Catholic Church.",
+    "keyStories": [
+      "Peter's denial of Jesus",
+      "The keys to the kingdom of Heaven"
+    ],
+    "spiritualMeaning": "Peter is seen as a foundational figure in the Christian Church, symbolizing faith and redemption.",
+    "historicalImpact": "Saint Peter's leadership and teachings significantly shaped early Christianity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Pedro I of Brazil",
+      "years": "1798-1834",
+      "category": "Royalty",
+      "achievements": [
+        "First Emperor of Brazil",
+        "Declared Brazilian independence"
+      ],
+      "significance": "Pedro I played a crucial role in the independence of Brazil from Portugal and established the Brazilian Empire.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Pedro Calderón de la Barca",
+      "years": "1600-1681",
+      "category": "Playwright",
+      "achievements": [
+        "Renowned playwright of the Spanish Golden Age"
+      ],
+      "significance": "Calderón de la Barca is considered one of Spain's greatest dramatists, known for his plays that explore complex themes.",
+      "notableWorks": [
+        "Life is a Dream"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Pedro Almodóvar",
+      "profession": "Director",
+      "knownFor": [
+        "All About My Mother",
+        "Talk to Her"
+      ],
+      "awards": "Academy Awards, BAFTA Awards"
+    },
+    {
+      "name": "Pedro Pascal",
+      "profession": "Actor",
+      "knownFor": [
+        "The Mandalorian",
+        "Game of Thrones"
+      ],
+      "awards": "Critics' Choice Television Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Pedro Rodríguez",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "La Liga",
+      "team": "SS Lazio",
+      "pastTeams": [
+        "Barcelona",
+        "Chelsea"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2008-Present",
+      "achievements": "UEFA Champions League, FIFA World Cup",
+      "knownFor": [
+        "Speed",
+        "Skill"
+      ],
+      "awards": "UEFA Team of the Year",
+      "stats": "Career goals and assists",
+      "verified": true,
+      "source": "FIFA"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Napoleon Dynamite",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Pedro Sánchez",
+      "characterDescription": "A quiet and kind student running for class president.",
+      "imdbUrl": "https://www.imdb.com/title/tt0374900/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Vote for Pedro.",
+      "character": "Pedro Sánchez",
+      "source": "Napoleon Dynamite",
+      "year": 2004,
+      "context": "Pedro's campaign slogan in his bid for class president.",
+      "genre": "Comedy",
+      "impact": "Became a popular catchphrase and meme in pop culture."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Capricorn",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share stability and practicality with Pedro's nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and reliability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Known for creating strong foundations and supporting structures.",
+    "karmicLessons": "Learning patience and perseverance.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and support others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 234,
+    "peak": 50,
+    "peakYear": 1983
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The rock upon which we build our lives is our steadfast spirit.",
+    "author": "Anonymous",
+    "context": "A metaphorical expression often related to the name's meaning."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pe-dro"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pedro",
+      "script": "Latin",
+      "scriptName": "Pedro",
+      "pronunciation": "/ˈpeðɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πέτρος",
+      "script": "Greek",
+      "scriptName": "Πέτρος",
+      "pronunciation": "/ˈpetros/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بطرس",
+      "script": "Arabic",
+      "scriptName": "بطرس",
+      "pronunciation": "/butrus/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "彼得",
+      "script": "Han",
+      "scriptName": "彼得",
+      "pronunciation": "/bǐ dé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пётр",
+      "script": "Cyrillic",
+      "scriptName": "Пётр",
+      "pronunciation": "/pʲɵtr/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פטרוס",
+      "script": "Hebrew",
+      "scriptName": "פטרוס",
+      "pronunciation": "/petros/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Pedro Páramo",
+      "author": "Juan Rulfo",
+      "publishedYear": 1955,
+      "genre": "Fiction",
+      "significance": "A landmark of 20th-century Latin American literature, exploring themes of death and memory.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Pedro has been a well-established name for centuries, particularly in Spanish and Portuguese-speaking cultures."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "The name has religious significance due to its association with Saint Peter."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Pedro has maintained consistent popularity over the years."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Pedro Navaja",
+      "artist": "Rubén Blades",
+      "year": 1978,
+      "genre": "Salsa",
+      "nameContext": "The song's title character",
+      "description": "A famous salsa song about a slick and dangerous man named Pedro Navaja, reflecting themes of urban life.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Pedro+Navaja+Rub%C3%A9n+Blades",
+      "geniusUrl": "https://genius.com/Ruben-blades-pedro-navaja-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Pedro is a name that resonates with historical depth and cultural significance. Rooted in Latin, this timeless choice is perfect for those seeking a name with strong foundations and a classic appeal. Its enduring popularity in Spanish and Portuguese-speaking countries highlights its universal charm.",
+    "etymology_meaning": "The name Pedro derives from the Latin 'Petrus,' meaning 'rock' or 'stone.' It is a testament to strength and steadfastness, qualities deeply embedded in its historical and cultural roots.",
+    "famous_bearers": "Famous individuals named Pedro include the iconic film director Pedro Almodóvar and the revered actor Pedro Pascal, both of whom have made significant contributions to the arts.",
+    "pop_culture_moments": "Pedro Sánchez from 'Napoleon Dynamite' became a cultural phenomenon, with his slogan 'Vote for Pedro' becoming a staple in pop culture lexicon.",
+    "personality_profile": "Pedro is often associated with reliability and resilience. Those named Pedro are seen as dependable and grounded, offering a solid presence in any environment.",
+    "variations_nicknames": "Popular variations of Pedro include Peter and Pietro, with common nicknames like Pedrito and Pete offering endearing alternatives.",
+    "popularity_data": "Pedro enjoys widespread popularity, particularly in Latin American and Iberian countries. Its peak in the U.S. occurred in the early 1980s but continues to be a beloved choice.",
+    "pairing_suggestions": "Pedro pairs well with classic names like Maria or contemporary choices like Sofia, creating harmonious combinations that honor cultural heritage.",
+    "cultural_context": "Deeply rooted in Spanish and Portuguese cultures, Pedro is a name that carries both historical weight and modern appeal, transcending borders with its universal charm.",
+    "final_recommendation": "Choosing Pedro means embracing a name with a rich history and a timeless quality. It's a perfect choice for parents seeking a name that offers both strength and cultural resonance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

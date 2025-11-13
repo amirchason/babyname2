@@ -1,0 +1,223 @@
+{
+  "name": "Dom",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:32:11.380Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Lord, master",
+  "culturalSignificance": "Dom is often used as a diminutive of Dominic, a name with strong roots in Latin culture. It has been associated with religious figures, particularly St. Dominic, founder of the Dominican Order.",
+  "modernContext": "In modern times, Dom is popular as a standalone name and is especially common in English-speaking countries. It is often chosen for its simplicity and strong, classic sound.",
+  "literaryReferences": "Dom is occasionally used in literature as a short, impactful name for characters, often symbolizing authority or leadership.",
+  "pronunciationGuide": "/dɒm/",
+  "variations": [
+    "Dominic",
+    "Domenico",
+    "Domingo",
+    "Doman"
+  ],
+  "similarNames": [
+    "Tom",
+    "Don",
+    "Dan",
+    "Sam",
+    "Ron"
+  ],
+  "nicknames": [
+    "Dommy",
+    "D",
+    "Domo"
+  ],
+  "personality": "Names like Dom are often associated with leadership and strength. People with this name may be seen as decisive and confident.",
+  "symbolism": "The name Dom symbolizes authority and mastery, echoing its roots in the Latin word for 'lord'.",
+  "funFact": "Dom is a popular name for characters in action films, often depicting strong, fearless protagonists.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Dom DeLuise",
+      "profession": "Actor",
+      "knownFor": [
+        "The Cannonball Run",
+        "Blazing Saddles"
+      ],
+      "awards": "Golden Globe nominations"
+    },
+    {
+      "name": "Domhnall Gleeson",
+      "profession": "Actor",
+      "knownFor": [
+        "Ex Machina",
+        "Star Wars"
+      ],
+      "awards": "Irish Film & Television Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Fast & Furious",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Dominic Toretto",
+      "characterDescription": "A skilled street racer and mechanic, known for his strong sense of family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0232500/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I live my life a quarter mile at a time.",
+      "character": "Dominic Toretto",
+      "source": "The Fast and the Furious",
+      "year": 2001,
+      "context": "Reflecting on his approach to life and racing.",
+      "genre": "Action",
+      "impact": "Iconic line representing the character's philosophy."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and fulfillment.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo"
+    ],
+    "compatibleSignsDescription": "Fire signs that share a dynamic and energetic nature.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents passion, energy, and assertiveness.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural born leader with a desire to pioneer and guide.",
+    "karmicLessons": "Learning to balance control with flexibility.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Desire to lead and innovate."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 345,
+    "peak": 220,
+    "peakYear": 2015
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "An inspirational message about finding joy in one's passions."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Dom"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Dom",
+      "script": "Latin",
+      "scriptName": "Dom",
+      "pronunciation": "/dom/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντομ",
+      "script": "Greek",
+      "scriptName": "Ντομ",
+      "pronunciation": "/dom/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دوم",
+      "script": "Arabic",
+      "scriptName": "دوم",
+      "pronunciation": "/dom/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "多姆",
+      "script": "Han",
+      "scriptName": "多姆",
+      "pronunciation": "/duo˥˥ mu˨˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дом",
+      "script": "Cyrillic",
+      "scriptName": "Дом",
+      "pronunciation": "/dom/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דום",
+      "script": "Hebrew",
+      "scriptName": "דום",
+      "pronunciation": "/dom/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Dom is an enduring name with historical and cultural roots."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Frequently used in contemporary settings and media."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maintains popularity across generations."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Dom is a name that carries with it a sense of authority and charm. Derived from the Latin word for 'lord', it has historical connections to nobility and leadership. With its strong, simple sound, Dom has become a popular choice for parents looking for a name that is both classic and contemporary.",
+    "etymology_meaning": "The name Dom is a diminutive of Dominic, which itself comes from the Latin 'Dominicus', meaning 'of the Lord'. This gives the name a regal and commanding presence, often associated with leadership and strength.",
+    "famous_bearers": "Notable people named Dom include Dom DeLuise, an American actor known for his comedic roles, and Domhnall Gleeson, an acclaimed Irish actor recognized for his work in both film and theater. These individuals have contributed to the name's recognition in popular culture.",
+    "pop_culture_moments": "Dom is a name that has found its way into pop culture through characters like Dominic Toretto in the 'Fast & Furious' franchise, where he is depicted as a fearless leader with a strong sense of family and loyalty.",
+    "personality_profile": "People named Dom are often perceived as confident and assertive, with a natural inclination towards leadership. They are seen as decisive and are admired for their ability to inspire those around them.",
+    "variations_nicknames": "Variations of Dom include Dominic and Domenico, providing a range of options depending on cultural and personal preference. Common nicknames such as Dommy and D add a friendly, approachable flair to the name.",
+    "popularity_data": "Dom has seen varying levels of popularity over the years, peaking in the mid-2010s. Its enduring appeal is attributed to its classic roots and modern adaptability.",
+    "pairing_suggestions": "Dom pairs well with names like Grace and Claire for a harmonious blend of strength and elegance. For a more traditional combination, consider pairing it with Alexander or Elizabeth.",
+    "cultural_context": "With roots in Latin culture, Dom is a name that carries historical significance and modern appeal. It is favored for its strong, authoritative connotations and its adaptability across different languages and cultures.",
+    "final_recommendation": "Choosing the name Dom offers a blend of classic charm and modern flair, making it a versatile choice for parents seeking a name that exudes confidence and leadership. Its rich history and cultural connections make it an enduring favorite.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

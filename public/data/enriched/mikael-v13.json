@@ -1,0 +1,234 @@
+{
+  "name": "Mikael",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:47:05.598Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Who is like God?",
+  "culturalSignificance": "Mikael is a common name in various cultures, often associated with the archangel Michael from the Bible. The name has been used across the Christian, Jewish, and Islamic traditions, symbolizing strength and protection.",
+  "modernContext": "Mikael remains a popular name in Scandinavian countries and has gained popularity in other parts of the world due to its biblical roots. It is often chosen by parents for its strong and timeless connotations.",
+  "literaryReferences": "Mikael appears in various literary works and religious texts, often associated with the archangel Michael, who is a recurring figure in many stories.",
+  "pronunciationGuide": "ˈmiːkaɛl",
+  "variations": [
+    "Michael",
+    "Mikhail",
+    "Michel",
+    "Michele",
+    "Miguel"
+  ],
+  "similarNames": [
+    "Gabriel",
+    "Raphael",
+    "Daniel",
+    "Samuel",
+    "Ezekiel"
+  ],
+  "nicknames": [
+    "Mike",
+    "Mikey",
+    "Mick",
+    "Miki"
+  ],
+  "personality": "The name Mikael is often associated with leadership, protection, and a nurturing spirit. Individuals with this name are perceived as strong and dependable.",
+  "symbolism": "Mikael symbolizes divine strength and protection, often seen as a guardian figure in religious contexts.",
+  "funFact": "Mikael is a very popular name in Sweden, often ranking among the top names for boys.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism",
+      "Islam"
+    ],
+    "character": "Archangel Michael",
+    "significance": "Michael is an archangel in the Christian, Jewish, and Islamic traditions, known as a protector and leader of the heavenly armies.",
+    "keyStories": [
+      "Battle against Lucifer",
+      "Protector of Israel"
+    ],
+    "spiritualMeaning": "Symbolizes divine strength and protection.",
+    "historicalImpact": "Michael has been revered in religious texts and prayers as a protector and warrior against evil."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Mikael Åkerfeldt",
+      "profession": "Musician",
+      "knownFor": [
+        "Opeth",
+        "Progressive Metal"
+      ],
+      "awards": "Grammy Award for Best Metal Performance"
+    },
+    {
+      "name": "Mikael Persbrandt",
+      "profession": "Actor",
+      "knownFor": [
+        "In a Better World",
+        "Beck"
+      ],
+      "awards": "Guldbagge Award for Best Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Mikael Granlund",
+      "profession": "Athlete",
+      "sport": "Ice Hockey",
+      "league": "NHL",
+      "team": "Nashville Predators",
+      "pastTeams": [
+        "Minnesota Wild"
+      ],
+      "position": "Center",
+      "jerseyNumber": "64",
+      "years": "2010-Present",
+      "achievements": "Olympic Bronze Medal",
+      "knownFor": [
+        "Playmaking",
+        "Versatility"
+      ],
+      "awards": "IIHF World U20 Championship MVP",
+      "stats": "Over 300 career points",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for fulfillment and illumination.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs are emotionally intuitive and nurturing, complementing the protective nature of Mikael.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents intuition, emotion, and healing.",
+    "celestialArchetype": "The Protector",
+    "celestialArchetypeDescription": "A guardian figure who watches over and defends others.",
+    "karmicLessons": "Learn to balance protection with personal growth.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and provide harmony in relationships."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 542,
+    "peak": 89,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The name Mikael resonates with strength and protection, embodying a guardian's spirit.",
+    "author": "Anonymous",
+    "context": "A reflection on the symbolic nature of the name."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mi-kael"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Miguel",
+      "script": "Latin",
+      "scriptName": "Miguel",
+      "pronunciation": "miˈɣel",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μιχαήλ",
+      "script": "Greek",
+      "scriptName": "Μιχαήλ",
+      "pronunciation": "miˈxa.il",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميكائيل",
+      "script": "Arabic",
+      "scriptName": "ميكائيل",
+      "pronunciation": "miːkaːʔiːl",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "米卡埃尔",
+      "script": "Han",
+      "scriptName": "米卡埃尔",
+      "pronunciation": "mǐ kǎ ǎi ěr",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Михаил",
+      "script": "Cyrillic",
+      "scriptName": "Михаил",
+      "pronunciation": "mʲɪxɐˈil",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מיכאל",
+      "script": "Hebrew",
+      "scriptName": "מיכאל",
+      "pronunciation": "miχaˈʔel",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "The name Mikael is derived from the Hebrew name Michael, a prominent archangel in the Bible."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Mikael has been a timeless choice for centuries due to its biblical roots."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has maintained popularity across cultures and generations."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Mikael carries a rich history and cultural significance across various traditions. Its origins trace back to the Hebrew name Michael, meaning 'who is like God?' This name has resonated throughout history, symbolizing strength and protection.",
+    "etymology_meaning": "Mikael is a variant of the Hebrew name Michael, which means 'who is like God?' This rhetorical question underscores the humility and reverence associated with the divine.",
+    "famous_bearers": "Notable individuals named Mikael include Mikael Åkerfeldt, a renowned musician in the progressive metal genre, and Mikael Persbrandt, an acclaimed Swedish actor. Their achievements contribute to the name's modern recognition.",
+    "pop_culture_moments": "Mikael has appeared in various cultural contexts, often as a character embodying strength and leadership. Its representation in literature and media reinforces its association with protection and heroism.",
+    "personality_profile": "People named Mikael are often perceived as leaders and protectors, exhibiting a nurturing and dependable nature. Their strong sense of responsibility makes them natural guardians.",
+    "variations_nicknames": "Common variations of Mikael include Michael, Mikhail, and Miguel, while nicknames like Mike and Mikey offer more casual alternatives. These variations reflect the name's adaptability across cultures.",
+    "popularity_data": "Mikael remains popular in Scandinavian countries and has seen varying levels of use globally. Its biblical roots and strong connotations contribute to its enduring appeal.",
+    "pairing_suggestions": "Mikael pairs well with names that are equally classic and strong, such as Gabriel, Daniel, or Samuel. These combinations highlight the name's timeless quality.",
+    "cultural_context": "The name Mikael is deeply embedded in religious traditions, particularly in Christianity, Judaism, and Islam. Its association with the archangel Michael lends it a powerful symbolic presence.",
+    "final_recommendation": "Choosing the name Mikael for your child can offer them a strong sense of identity rooted in cultural and religious history. Its timeless appeal and positive connotations make it a compelling choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

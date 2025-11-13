@@ -1,0 +1,215 @@
+{
+  "name": "Rosco",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T09:10:03.158Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Deer wood",
+  "culturalSignificance": "The name Rosco, derived from the Old Norse 'hróskr', meaning 'deer wood', carries connotations of strength and connection to nature. It has appeared in various forms across English-speaking countries, often connected to rural and pastoral imagery.",
+  "modernContext": "In modern times, Rosco is seen more as an eclectic or vintage name, occasionally used in literature and pop culture. Its unique sound and historical roots make it appealing to parents looking for a less common name.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/ˈrɒskoʊ/",
+  "variations": [
+    "Roscoe",
+    "Roskow",
+    "Rosco"
+  ],
+  "similarNames": [
+    "Ross",
+    "Oscar",
+    "Rocco",
+    "Roman",
+    "Riley",
+    "Rex"
+  ],
+  "nicknames": [
+    "Ross",
+    "Rossi",
+    "Co"
+  ],
+  "personality": "Individuals named Rosco are often perceived as strong, adaptable, and charismatic. They are thought to possess a natural affinity for leadership and creativity.",
+  "symbolism": "Rosco symbolizes a deep connection to nature and resilience, often associated with the strength and grace of a deer.",
+  "funFact": "Rosco is also a brand name for lighting and scenic products used in theater, television, and film industries.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rosco 'Fatty' Arbuckle",
+      "profession": "Actor",
+      "knownFor": [
+        "Silent film comedy",
+        "Slapstick humor"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Dukes of Hazzard",
+      "year": 1979,
+      "type": "TV Show",
+      "characterName": "Sheriff Rosco P. Coltrane",
+      "characterDescription": "A bumbling sheriff often outsmarted by the Duke boys.",
+      "imdbUrl": "https://www.imdb.com/title/tt0078607/",
+      "genre": "Action/Comedy",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm gonna get them Duke boys if it's the last thing I do!",
+      "character": "Sheriff Rosco P. Coltrane",
+      "source": "The Dukes of Hazzard",
+      "year": 1980,
+      "context": "Sheriff Rosco's ongoing pursuit of the Duke family.",
+      "genre": "Action/Comedy",
+      "impact": "This quote highlights the comedic and persistent nature of the character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Forest Green",
+      "hex": "#228B22"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and learning.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the earth element, promoting stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, structure, and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Associated with constructing and nurturing environments.",
+    "karmicLessons": "Learning to balance creativity with practicality.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and building a secure foundation."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 345,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "context": "Inspiration for pursuing passion in one's career."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ros-co"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rosco",
+      "script": "Latin",
+      "scriptName": "Rosco",
+      "pronunciation": "/ˈros.ko/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρόσκο",
+      "script": "Greek",
+      "scriptName": "Ρόσκο",
+      "pronunciation": "/ˈros.ko/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روسكو",
+      "script": "Arabic",
+      "scriptName": "روسكو",
+      "pronunciation": "/ˈros.ko/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗斯科",
+      "script": "Han",
+      "scriptName": "罗斯科",
+      "pronunciation": "/luó sī kē/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Роско",
+      "script": "Cyrillic",
+      "scriptName": "Роско",
+      "pronunciation": "/ˈros.ko/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רוסקו",
+      "script": "Hebrew",
+      "scriptName": "רוסקו",
+      "pronunciation": "/ˈros.ko/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Vintage",
+      "confidence": 0.9,
+      "reason": "Rosco is considered a vintage name due to its peak popularity in the early 20th century."
+    },
+    {
+      "tag": "Eclectic",
+      "confidence": 0.8,
+      "reason": "The name's unique sound and less common usage make it feel eclectic."
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.7,
+      "reason": "The meaning 'deer wood' connects it to nature."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Rosco is a name that evokes images of pastoral landscapes and rustic charm. With its roots in Old Norse, it carries the meaning of 'deer wood', suggesting a connection to nature and strength. This name has been a part of English-speaking cultures for centuries, offering a sense of history and tradition.",
+    "etymology_meaning": "The name Rosco is derived from the Old Norse word 'hróskr', which translates to 'deer wood'. This etymology reflects a deep connection to nature, symbolizing strength and grace.",
+    "famous_bearers": "One of the most famous bearers of the name is Rosco 'Fatty' Arbuckle, a silent film actor known for his comedic roles and slapstick humor. His work in early cinema helped shape the genre and left a lasting impact on the film industry.",
+    "pop_culture_moments": "In pop culture, the name Rosco is perhaps most famously associated with the character Sheriff Rosco P. Coltrane from 'The Dukes of Hazzard', a TV show that ran from 1979 to 1985. The character's comedic antics made him a memorable part of the series.",
+    "personality_profile": "People named Rosco are often seen as strong and charismatic, with a natural ability to lead. They are viewed as creative individuals who value stability and have a deep connection to the natural world.",
+    "variations_nicknames": "Variations of the name include Roscoe and Roskow, while common nicknames are Ross and Rossi. These alternatives offer a range of options for those who love the sound and feel of Rosco.",
+    "popularity_data": "Rosco experienced its peak popularity in the early 20th century, specifically around 1910. Today, it is considered a more unique choice, appealing to those who appreciate vintage and eclectic names.",
+    "pairing_suggestions": "Rosco pairs well with names like Hazel, Ivy, and Jasper, which also have natural and vintage vibes. Sibling names like these can create a harmonious and cohesive feel.",
+    "cultural_context": "Culturally, Rosco is a name that carries a sense of tradition and history. Its origins in Old Norse and the imagery of deer and woodlands give it a timeless quality that appeals to many.",
+    "final_recommendation": "Rosco is a charming choice for parents seeking a name with historical roots and natural appeal. Its unique sound and vintage feel make it a standout option for anyone looking to avoid more common names.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

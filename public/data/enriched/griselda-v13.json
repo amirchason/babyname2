@@ -1,0 +1,202 @@
+{
+  "name": "Griselda",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:24:54.461Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Germanic",
+  "meaning": "Grey battle maiden",
+  "culturalSignificance": "Griselda is a name of Germanic origin that has been associated with the medieval legend of Patient Griselda, a figure known for her virtue and patience. The story was popularized by authors like Giovanni Boccaccio and Geoffrey Chaucer.",
+  "modernContext": "In modern times, the name Griselda is less common but retains a certain classic and literary charm. It is occasionally used in literature and media, giving it a vintage and somewhat regal aura.",
+  "literaryReferences": "Griselda is famously depicted in Giovanni Boccaccio's 'Decameron' and Geoffrey Chaucer's 'The Canterbury Tales', where she is a symbol of patience and fidelity.",
+  "pronunciationGuide": "/ɡrɪˈzɛldə/",
+  "variations": [
+    "Griseldis",
+    "Grizelda",
+    "Grissel"
+  ],
+  "similarNames": [
+    "Matilda",
+    "Gertrude",
+    "Adelaide",
+    "Gretchen"
+  ],
+  "nicknames": [
+    "Giselle",
+    "Zelda",
+    "Sella"
+  ],
+  "personality": "The name Griselda is often associated with qualities of patience, resilience, and strength, reflecting its historical and literary roots.",
+  "symbolism": "Griselda symbolizes patience and unwavering loyalty, traits that are celebrated in the literary works in which she appears.",
+  "funFact": "The story of Griselda was adapted into an opera by Vivaldi, titled 'Griselda', which premiered in 1735.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Griselda Blanco",
+      "years": "1943-2012",
+      "category": "Criminal",
+      "achievements": [
+        "Major figure in the Miami cocaine trade"
+      ],
+      "significance": "Griselda Blanco was a notorious drug lord in the Medellín Cartel, known as the 'Black Widow'.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Silver",
+      "hex": "#C0C0C0"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that value steadiness and practicality.",
+    "cosmicElement": "The Hermit",
+    "cosmicElementDescription": "A search for deeper truths and self-reflection.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing and compassion.",
+    "karmicLessons": "Learning patience and inner strength.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and responsibility."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 500,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Patience is not simply the ability to wait - it's how we behave while we're waiting.",
+    "author": "Joyce Meyer",
+    "context": "Reflecting the virtues associated with Griselda."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Gri-sel-da"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Griselda",
+      "script": "Latin",
+      "scriptName": "Griselda",
+      "pronunciation": "/gɾiˈselda/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκριζέλντα",
+      "script": "Greek",
+      "scriptName": "Γκριζέλντα",
+      "pronunciation": "/ɡriˈzel.da/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "غريزيلدا",
+      "script": "Arabic",
+      "scriptName": "غريزيلدا",
+      "pronunciation": "/ɡriːˈzilda/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "格里塞尔达",
+      "script": "Han",
+      "scriptName": "格里塞尔达",
+      "pronunciation": "/ɡɤ˥˥.li˨˩.sə˥˥.ɚ˧˥.ta˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гризельда",
+      "script": "Cyrillic",
+      "scriptName": "Гризельда",
+      "pronunciation": "/ɡrʲɪˈzʲelʲdə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גריזלדה",
+      "script": "Hebrew",
+      "scriptName": "גריזלדה",
+      "pronunciation": "/ɡriˈzɛlda/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Clerk's Tale",
+      "author": "Geoffrey Chaucer",
+      "publishedYear": 1387,
+      "genre": "Fiction",
+      "significance": "Part of 'The Canterbury Tales', exploring themes of patience and virtue.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Griselda is prominently featured in classic literature."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been used for centuries with historical significance."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Associated with traditional stories and values."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Griselda carries with it a rich history and a sense of timelessness. Known for its association with classic tales of patience and virtue, it evokes an image of strength and grace. Though not as common today, it remains a name of literary and cultural significance.",
+    "etymology_meaning": "Griselda is a name of Germanic origin, meaning 'grey battle maiden'. It has been immortalized in literature through stories that praise its bearer's patience and loyalty.",
+    "famous_bearers": "One of the most notable individuals with this name was Griselda Blanco, a Colombian drug lord who gained infamy in the 1980s. Her story adds a modern edge to this otherwise historical name.",
+    "pop_culture_moments": "Griselda's story has been retold in various forms, from operas to literary adaptations, ensuring its continued presence in cultural discourse.",
+    "personality_profile": "Those named Griselda may be seen as patient and resilient, drawing from the virtues exemplified by their namesake. They are thought to possess an inner strength and a calm demeanor.",
+    "variations_nicknames": "Variations like Griseldis and Grizelda, along with nicknames such as Zelda and Giselle, offer a range of options for personalization.",
+    "popularity_data": "While Griselda's popularity peaked in the early 20th century, it remains a unique choice for parents seeking a name with depth and historical roots.",
+    "pairing_suggestions": "Griselda pairs well with equally classic names like Matilda and Adelaide, offering a harmonious blend of tradition and elegance.",
+    "cultural_context": "Griselda's story, especially as told by Chaucer, highlights themes of enduring patience and loyalty. These qualities resonate across cultures and time periods.",
+    "final_recommendation": "For those seeking a name with historical depth and literary significance, Griselda offers a unique blend of strength and grace. It is a name that stands out for its timeless appeal.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,217 @@
+{
+  "name": "Patty",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:46:17.380Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Noblewoman",
+  "culturalSignificance": "Patty is a diminutive of the name Patricia, which has its roots in the Latin word 'patricius', meaning 'noble' or 'noblewoman'. It carries a sense of elegance and class historically associated with Roman nobility.",
+  "modernContext": "In modern times, Patty has become a familiar name in English-speaking countries, often used as a friendly and approachable version of Patricia. It is commonly used in literature and media, maintaining a steady, albeit modest, presence.",
+  "literaryReferences": "Patty is a character name in several classic and modern novels, often portrayed as a warm and approachable individual.",
+  "pronunciationGuide": "/ˈpæti/",
+  "variations": [
+    "Patricia",
+    "Pattie",
+    "Patsy",
+    "Tricia",
+    "Trish"
+  ],
+  "similarNames": [
+    "Patricia",
+    "Patsy",
+    "Tricia",
+    "Trish",
+    "Peggy"
+  ],
+  "nicknames": [
+    "Pat",
+    "Pats",
+    "Trish",
+    "Tricia",
+    "Pattie"
+  ],
+  "personality": "The name Patty is often associated with a friendly and approachable personality, characterized by warmth and a strong sense of loyalty.",
+  "symbolism": "Patty symbolizes nobility and grace, a reflection of its Latin origins associated with the patrician class.",
+  "funFact": "The name Patty became more widely recognized in the mid-20th century due to its use in popular media and television.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Patty Duke",
+      "profession": "Actress",
+      "knownFor": [
+        "The Patty Duke Show",
+        "The Miracle Worker"
+      ],
+      "awards": "Academy Award for Best Supporting Actress"
+    },
+    {
+      "name": "Patty Jenkins",
+      "profession": "Director",
+      "knownFor": [
+        "Wonder Woman",
+        "Monster"
+      ],
+      "awards": "Directors Guild of America Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Patty Duke Show",
+      "year": 1963,
+      "type": "TV Show",
+      "characterName": "Patty Lane",
+      "characterDescription": "A teenage girl with a lively and spirited personality living in Brooklyn Heights.",
+      "imdbUrl": "https://www.imdb.com/title/tt0056781/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and plans for the future.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that share a grounded and practical nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and a nurturing spirit.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Associated with care, empathy, and the ability to mend and nurture.",
+    "karmicLessons": "Learning to balance giving and receiving love and care.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "A desire for harmony and partnership, often seeking balance in relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 200,
+    "peakYear": 1964
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "context": "A motivational quote about passion and work."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pat-ty"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Patricia",
+      "script": "Latin",
+      "scriptName": "Patricia",
+      "pronunciation": "/paˈtɾiθja/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πατρίσια",
+      "script": "Greek",
+      "scriptName": "Πατρίσια",
+      "pronunciation": "/paˈtrisja/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "باتريشيا",
+      "script": "Arabic",
+      "scriptName": "باتريشيا",
+      "pronunciation": "/batriːʃja/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "帕特里夏",
+      "script": "Han",
+      "scriptName": "帕特里夏",
+      "pronunciation": "/pàtèlǐxià/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Патти",
+      "script": "Cyrillic",
+      "scriptName": "Патти",
+      "pronunciation": "/ˈpatʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פאטי",
+      "script": "Hebrew",
+      "scriptName": "פאטי",
+      "pronunciation": "/ˈpati/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name has been in use for many decades and is derived from the classic name Patricia."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "Despite fluctuations in popularity, Patty remains a recognizable and enduring name."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.6,
+      "reason": "The name appears in various literary works, enhancing its cultural resonance."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Choosing the perfect name for your baby can be a delightful yet challenging task. If you're looking for a name that exudes warmth and familiarity, Patty might just be the one. This charming and approachable name has captured the hearts of many throughout the years.",
+    "etymology_meaning": "Derived from the Latin name Patricia, Patty means 'noblewoman'. This name carries a sense of elegance and historical significance, originating from the Roman patrician class.",
+    "famous_bearers": "Notable individuals with the name Patty include the talented actress Patty Duke and acclaimed director Patty Jenkins. These women have left a mark in the entertainment industry, showcasing the name's versatility and charm.",
+    "pop_culture_moments": "The name Patty has been popularized in media, notably with 'The Patty Duke Show', where the character Patty Lane charmed audiences with her spirited personality.",
+    "personality_profile": "Those named Patty are often perceived as friendly, loyal, and nurturing. They have a natural ability to connect with others and bring joy to those around them.",
+    "variations_nicknames": "Patty is a playful and endearing diminutive of Patricia, with variations like Pattie and Patsy. Common nicknames include Pat and Trish, adding to its appeal.",
+    "popularity_data": "While Patty peaked in popularity in the mid-20th century, it remains a classic choice. Its charm and ease of pronunciation continue to make it a favored option for parents.",
+    "pairing_suggestions": "Patty pairs well with traditional names like Michael or David, as well as more modern choices like Ethan or Olivia, offering versatility in naming combinations.",
+    "cultural_context": "Rooted in Latin tradition, Patty embodies a rich cultural heritage. It reflects a blend of historical nobility and modern accessibility.",
+    "final_recommendation": "If you're seeking a name that balances tradition with a friendly and approachable demeanor, Patty is a wonderful choice. With its noble roots and enduring charm, it stands as a timeless option for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

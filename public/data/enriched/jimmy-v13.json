@@ -1,0 +1,323 @@
+{
+  "name": "Jimmy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:13:29.385Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Supplanter",
+  "culturalSignificance": "Jimmy is a diminutive form of the name James, which has Hebrew origins. It became popular in English-speaking countries and has been associated with various cultural figures, making it a staple choice for a familiar and approachable name.",
+  "modernContext": "In modern usage, Jimmy remains a popular name, often chosen for its friendly and informal tone. It is commonly used in pop culture, from movies to music, and remains a beloved choice for naming boys in Western countries.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈdʒɪmi/",
+  "variations": [
+    "James",
+    "Jamie",
+    "Jim",
+    "Jimmie",
+    "Jem"
+  ],
+  "similarNames": [
+    "Timmy",
+    "Johnny",
+    "Tommy",
+    "Bobby",
+    "Billy",
+    "Eddie"
+  ],
+  "nicknames": [
+    "Jim",
+    "Jem",
+    "Jay",
+    "Jams"
+  ],
+  "personality": "The name Jimmy is often associated with a friendly, approachable, and charismatic personality. Individuals with this name are perceived as sociable and easygoing.",
+  "symbolism": "Jimmy symbolizes adaptability and the ability to navigate social environments with ease, reflecting its origins from the name James, meaning 'supplanter'.",
+  "funFact": "Jimmy has been a popular name for fictional characters, contributing to its perception as a charming and everyman name.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jimmy Carter",
+      "years": "1924-Present",
+      "category": "Politician",
+      "achievements": [
+        "39th President of the United States",
+        "Nobel Peace Prize laureate"
+      ],
+      "significance": "Jimmy Carter is noted for his post-presidential humanitarian efforts and his emphasis on human rights.",
+      "notableWorks": [
+        "Keeping Faith: Memoirs of a President",
+        "A Full Life: Reflections at Ninety"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "We must adjust to changing times and still hold to unchanging principles.",
+      "author": "Jimmy Carter",
+      "context": "During his presidency and public speaking engagements",
+      "year": 1977,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Jimmy Fallon",
+      "profession": "Comedian",
+      "knownFor": [
+        "The Tonight Show Starring Jimmy Fallon",
+        "Saturday Night Live"
+      ],
+      "awards": "Primetime Emmy Award"
+    },
+    {
+      "name": "Jimmy Page",
+      "profession": "Musician",
+      "knownFor": [
+        "Led Zeppelin",
+        "Guitarist and songwriter"
+      ],
+      "awards": "Rock and Roll Hall of Fame"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jimmy Butler",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Miami Heat",
+      "pastTeams": [
+        "Chicago Bulls",
+        "Minnesota Timberwolves",
+        "Philadelphia 76ers"
+      ],
+      "position": "Small forward",
+      "jerseyNumber": "22",
+      "years": "2011-Present",
+      "achievements": "NBA All-Star, Olympic gold medalist",
+      "knownFor": [
+        "Defensive skills",
+        "Leadership"
+      ],
+      "awards": "NBA Most Improved Player",
+      "stats": "Career averages: 17.5 points, 5.3 rebounds, 4.0 assists per game",
+      "verified": true,
+      "source": "NBA Official Website"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Goodfellas",
+      "year": 1990,
+      "type": "Movie",
+      "characterName": "Jimmy Conway",
+      "characterDescription": "A seasoned gangster who mentors the protagonist.",
+      "imdbUrl": "https://www.imdb.com/title/tt0099685/",
+      "genre": "Crime",
+      "verified": true,
+      "popularity": 91
+    },
+    {
+      "title": "Better Call Saul",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "Jimmy McGill",
+      "characterDescription": "A small-time lawyer hustling to build his practice.",
+      "imdbUrl": "https://www.imdb.com/title/tt3032476/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 89
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Every day is a new opportunity.",
+      "character": "Jimmy McGill",
+      "source": "Better Call Saul",
+      "year": 2015,
+      "context": "Encouraging words in a challenging situation",
+      "genre": "Drama",
+      "impact": "Represents the character's resilience and optimism"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs are known for their emotional depth and intuition, complementing the adaptability of Jimmy.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotional depth and intuition.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes empathy, nurturing, and the ability to soothe others.",
+    "karmicLessons": "Embracing change and adapting to new environments.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and variety in life experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 485,
+    "peak": 1,
+    "peakYear": 1940
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Jimmy Carter",
+    "context": "Reflecting on resilience and perseverance in life."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jim-my"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jimmy",
+      "script": "Latin",
+      "scriptName": "Jimmy",
+      "pronunciation": "/ˈximi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζίμι",
+      "script": "Greek",
+      "scriptName": "Τζίμι",
+      "pronunciation": "/ˈdzimi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيمي",
+      "script": "Arabic",
+      "scriptName": "جيمي",
+      "pronunciation": "/ˈdʒimi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "吉米",
+      "script": "Han",
+      "scriptName": "吉米",
+      "pronunciation": "/tɕi˧˥ mi˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джимми",
+      "script": "Cyrillic",
+      "scriptName": "Джимми",
+      "pronunciation": "/ˈdʒimi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ימי",
+      "script": "Hebrew",
+      "scriptName": "ג'ימי",
+      "pronunciation": "/ˈdʒimi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Jimmy Corrigan, the Smartest Kid on Earth",
+      "author": "Chris Ware",
+      "publishedYear": 2000,
+      "genre": "Graphic Novel",
+      "significance": "This acclaimed graphic novel explores the complex relationships and inner life of its protagonist.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jimmy has been a popular name for decades, maintaining a classic status."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Due to its ongoing use and appeal across generations."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.8,
+      "reason": "The name's informal and approachable tone makes it widely appealing."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jimmy Jazz",
+      "artist": "The Clash",
+      "year": 1979,
+      "genre": "Punk Rock",
+      "nameContext": "The name appears as a character in the song.",
+      "description": "A song by The Clash that tells the story of a character named Jimmy Jazz, reflecting themes of lawlessness and rebellion.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jimmy+Jazz+The+Clash",
+      "geniusUrl": "https://genius.com/The-clash-jimmy-jazz-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Jimmy Mack",
+      "artist": "Martha and the Vandellas",
+      "year": 1967,
+      "genre": "Soul",
+      "nameContext": "The name is the subject of the song.",
+      "description": "This classic Motown song expresses a longing for a loved one named Jimmy Mack to return.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jimmy+Mack+Martha+and+the+Vandellas",
+      "geniusUrl": "https://genius.com/Martha-and-the-vandellas-jimmy-mack-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jimmy is a name that evokes a sense of friendliness and approachability. From its origins as a diminutive of James, it has become a beloved choice for many families. The name carries a rich history and has been borne by numerous notable figures, adding to its charm.",
+    "etymology_meaning": "The name Jimmy is derived from James, which originates from the Hebrew name Jacob, meaning 'supplanter'. Over time, Jimmy emerged as a popular diminutive form, especially in English-speaking countries.",
+    "famous_bearers": "Famous people named Jimmy include former U.S. President Jimmy Carter, known for his humanitarian work, and Jimmy Page, the legendary guitarist of Led Zeppelin. These figures have contributed to the name's enduring popularity.",
+    "pop_culture_moments": "In pop culture, Jimmy is a familiar name often used for characters in movies and TV shows, such as Jimmy McGill in 'Better Call Saul'. Its presence in media reinforces its image as a relatable and everyman name.",
+    "personality_profile": "People with the name Jimmy are often seen as sociable and easygoing. They tend to have a warm and approachable demeanor, making them well-liked by others.",
+    "variations_nicknames": "The name has several variations, including James, Jamie, and Jim. Common nicknames include Jim, Jem, and Jay, offering a variety of options for personalization.",
+    "popularity_data": "Jimmy has enjoyed significant popularity throughout the 20th century, peaking in the mid-20th century. It remains a common choice for parents seeking a classic yet informal name.",
+    "pairing_suggestions": "Jimmy pairs well with names like Lily, Emily, or Sophie for siblings, creating a harmonious and friendly-sounding family set.",
+    "cultural_context": "The name Jimmy is deeply ingrained in Western culture, often associated with friendliness and charm. Its use in various cultural contexts has only strengthened its appeal.",
+    "final_recommendation": "For those seeking a name that balances tradition with a casual vibe, Jimmy is an excellent choice. Its historical significance and modern relevance make it a timeless option.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

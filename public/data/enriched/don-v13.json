@@ -1,0 +1,283 @@
+{
+  "name": "Don",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:29:46.879Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "World ruler",
+  "culturalSignificance": "The name Don is often used as a short form of Donald, which has Gaelic roots and means 'world ruler'. It gained popularity in English-speaking countries and is sometimes used independently.",
+  "modernContext": "In modern times, Don is often seen as a classic name, primarily in English-speaking countries. Its usage has declined since its peak in the mid-20th century, but it remains a recognizable and respected name.",
+  "literaryReferences": "Don Quixote, the main character in Miguel de Cervantes' famous novel, is a notable literary character that has inspired many adaptations.",
+  "pronunciationGuide": "/dɒn/",
+  "variations": [
+    "Donald",
+    "Donnie",
+    "Donny"
+  ],
+  "similarNames": [
+    "Ron",
+    "Dan",
+    "Jon",
+    "Tom",
+    "Dom"
+  ],
+  "nicknames": [
+    "Donny",
+    "Donnie",
+    "DJ"
+  ],
+  "personality": "The name Don is often associated with leadership and a strong, confident demeanor. People with this name are perceived as reliable and authoritative.",
+  "symbolism": "Don symbolizes leadership and the ability to command respect, stemming from its meaning 'world ruler'.",
+  "funFact": "Don is a traditional honorific in Spanish cultures, often used to denote respect, similar to 'Sir' in English.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Don Quixote",
+      "years": "1547-1616",
+      "category": "Literary Character",
+      "achievements": [
+        "Inspired numerous adaptations",
+        "Symbol of chivalry and idealism"
+      ],
+      "significance": "Don Quixote is a fictional character from Miguel de Cervantes' novel, representing chivalric ideals and the conflict between reality and illusion.",
+      "notableWorks": [
+        "Don Quixote by Miguel de Cervantes"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Don Cheadle",
+      "profession": "Actor",
+      "knownFor": [
+        "Hotel Rwanda",
+        "Iron Man 2"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Don Henley",
+      "profession": "Musician",
+      "knownFor": [
+        "Eagles",
+        "Solo career"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Don Mattingly",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Miami Marlins",
+      "pastTeams": [
+        "New York Yankees"
+      ],
+      "position": "First Baseman",
+      "jerseyNumber": "23",
+      "years": "1982-1995",
+      "achievements": "AL MVP",
+      "knownFor": [
+        "Batting skills",
+        "Defensive prowess"
+      ],
+      "awards": "AL MVP",
+      "stats": "Career .307 batting average",
+      "verified": true,
+      "source": "MLB official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Don Jon",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Don Jon",
+      "characterDescription": "A young man with a penchant for porn and clubbing who seeks out meaningful relationships.",
+      "imdbUrl": "https://www.imdb.com/title/tt2229499/",
+      "genre": "Romantic Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I am I, Don Quixote, the Lord of La Mancha.",
+      "character": "Don Quixote",
+      "source": "Don Quixote",
+      "year": 1605,
+      "context": "In this line, Don Quixote declares his identity and his chivalric mission.",
+      "genre": "Literary",
+      "impact": "This quote epitomizes the idealism and delusion of the character, capturing the spirit of chivalry."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Forest Green",
+      "hex": "#228B22"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs share stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and reliability.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes authority and responsibility.",
+    "karmicLessons": "Learning to balance leadership with empathy.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desires to establish order and security."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 20,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "context": "Encouragement to persevere through challenges."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Don"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Don",
+      "script": "Latin",
+      "scriptName": "Don",
+      "pronunciation": "/don/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντον",
+      "script": "Greek",
+      "scriptName": "Ντον",
+      "pronunciation": "/don/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دون",
+      "script": "Arabic",
+      "scriptName": "دون",
+      "pronunciation": "/don/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "唐",
+      "script": "Han",
+      "scriptName": "唐",
+      "pronunciation": "/tɑŋ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дон",
+      "script": "Cyrillic",
+      "scriptName": "Дон",
+      "pronunciation": "/don/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דון",
+      "script": "Hebrew",
+      "scriptName": "דון",
+      "pronunciation": "/don/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "publishedYear": 1605,
+      "genre": "Fiction",
+      "significance": "A seminal work in Western literature, exploring themes of reality and idealism.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Don has been used for centuries and remains well-known."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Prominent literary characters like Don Quixote add to its literary significance."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Despite fluctuations in popularity, the name Don has enduring recognition."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Don’t Let the Sun Go Down on Me",
+      "artist": "Elton John",
+      "year": 1974,
+      "genre": "Rock",
+      "nameContext": "The name 'Don' is a part of the title and lyrics.",
+      "description": "A powerful ballad about personal struggle and resilience, featuring strong vocal performance.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Don’t+Let+the+Sun+Go+Down+on+Me+Elton+John",
+      "geniusUrl": "https://genius.com/Elton-john-dont-let-the-sun-go-down-on-me-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Don carries with it a sense of tradition and authority, having been a favored choice for parents seeking a strong, timeless name. With roots in Gaelic, it stands for 'world ruler', a fitting meaning for a name that has graced both literature and real-life figures.",
+    "etymology_meaning": "Don is derived from the Gaelic name Domhnall, meaning 'world ruler'. Over time, it has become a standalone name, popularized in various cultures, especially in English-speaking countries.",
+    "famous_bearers": "Famous bearers of the name include actor Don Cheadle and musician Don Henley, both of whom have made significant contributions to their respective fields.",
+    "pop_culture_moments": "Don Quixote, the iconic literary character created by Miguel de Cervantes, has cemented the name in cultural consciousness, symbolizing the idealistic quest for chivalry.",
+    "personality_profile": "People named Don are often perceived as leaders, possessing a natural charisma and the ability to inspire those around them. They are seen as reliable and authoritative figures in their communities.",
+    "variations_nicknames": "Common variations of Don include Donald and Donny, while nicknames like Donnie and DJ offer a more casual take on this classic name.",
+    "popularity_data": "The name Don saw its peak popularity in the mid-20th century, particularly in the 1950s. Though its usage has waned over the years, it retains a steady presence.",
+    "pairing_suggestions": "Don pairs well with strong, traditional middle names like Michael or James, creating a balanced and classic full name. It also complements more modern choices, adding a touch of timelessness.",
+    "cultural_context": "In Spanish-speaking cultures, 'Don' is an honorific title, adding a layer of respect and dignity to the name. This cultural crossover enhances its appeal globally.",
+    "final_recommendation": "Whether you're drawn to its literary roots or its strong, authoritative presence, the name Don offers a rich tapestry of history and modern relevance. It's a choice that promises both respect and recognition.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

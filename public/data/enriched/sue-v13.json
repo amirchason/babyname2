@@ -1,0 +1,228 @@
+{
+  "name": "Sue",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:16:58.685Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Lily",
+  "culturalSignificance": "The name Sue is primarily used as a diminutive of Susan and has been popularized in English-speaking cultures since the 19th century. It gained prominence through various cultural works, such as songs and films, often representing a sweet and approachable character.",
+  "modernContext": "In modern times, Sue is often seen as a classic and somewhat nostalgic name, frequently associated with older generations. Its usage has declined in recent years, but it remains a common middle name.",
+  "literaryReferences": "Sue is notably featured in Charles Dickens' novel 'Hard Times' as a character named Sissy Jupe, whose full name is Cecilia but is affectionately called Sue.",
+  "pronunciationGuide": "/suː/",
+  "variations": [
+    "Susan",
+    "Susanna",
+    "Suzanne",
+    "Suzie",
+    "Susie"
+  ],
+  "similarNames": [
+    "Lucy",
+    "Sally",
+    "Judy",
+    "Anne",
+    "Mary"
+  ],
+  "nicknames": [
+    "Suzy",
+    "Susie",
+    "Suki"
+  ],
+  "personality": "The name Sue is often associated with friendly, down-to-earth, and dependable traits. People named Sue are perceived as approachable and trustworthy.",
+  "symbolism": "Sue symbolizes purity and innocence, often associated with the lily flower, which is its root meaning.",
+  "funFact": "The name Sue became widely known in pop culture thanks to the song 'A Boy Named Sue' by Johnny Cash, which humorously narrates the challenges faced by a boy named Sue.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Sue Grafton",
+      "profession": "Author",
+      "knownFor": [
+        "'Alphabet' mystery series"
+      ],
+      "awards": "Anthony Award, Shamus Award"
+    },
+    {
+      "name": "Sue Perkins",
+      "profession": "Comedian",
+      "knownFor": [
+        "The Great British Bake Off",
+        "Mel and Sue"
+      ],
+      "awards": "British Comedy Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Glee",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Sue Sylvester",
+      "characterDescription": "Sue Sylvester is the cheerleading coach of the fictional William McKinley High School, known for her tough, no-nonsense attitude.",
+      "imdbUrl": "https://www.imdb.com/title/tt1327801/",
+      "genre": "Comedy, Drama, Music",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for culmination and fruition, representing clarity and completion.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These water signs share emotional depth and intuitive understanding.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "This element represents nurturing, empathy, and caring for others.",
+    "celestialArchetype": "The Caregiver",
+    "celestialArchetypeDescription": "Symbolizes compassion, nurturing, and support for those in need.",
+    "karmicLessons": "To embrace change and let go of past grievances.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a desire to care for others and create harmonious environments."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 120,
+    "peakYear": 1955
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Sue is a name that carries grace and strength, much like the lily from which it derives.",
+    "author": "Anonymous",
+    "context": "A reflection on the meaning of the name Sue."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Sue"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Sue",
+      "script": "Latin",
+      "scriptName": "Sue",
+      "pronunciation": "/su/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σου",
+      "script": "Greek",
+      "scriptName": "Σου",
+      "pronunciation": "/su/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سو",
+      "script": "Arabic",
+      "scriptName": "سو",
+      "pronunciation": "/suː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "苏",
+      "script": "Han",
+      "scriptName": "苏",
+      "pronunciation": "/su˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сью",
+      "script": "Cyrillic",
+      "scriptName": "Сью",
+      "pronunciation": "/sʲʉ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סו",
+      "script": "Hebrew",
+      "scriptName": "סו",
+      "pronunciation": "/su/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Sue is a timeless name with historical roots and consistent usage over decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name appears in classic literature such as Charles Dickens' works."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Sue has a simple elegance that has allowed it to remain in use over many years."
+    }
+  ],
+  "songs": [
+    {
+      "title": "A Boy Named Sue",
+      "artist": "Johnny Cash",
+      "year": 1969,
+      "genre": "Country",
+      "nameContext": "The song humorously tells the story of a boy named Sue.",
+      "description": "This country song narrates the life of a boy named Sue who grows up tough because of his name. It highlights themes of resilience and identity.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=A+Boy+Named+Sue+Johnny+Cash",
+      "geniusUrl": "https://genius.com/Johnny-cash-a-boy-named-sue-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Sue may be short, but it carries with it a legacy of elegance and strength. Often seen as a diminutive of Susan, Sue has carved its own identity in the world of names. From classic literature to iconic songs, Sue remains a beloved choice for many.",
+    "etymology_meaning": "Sue is derived from the Hebrew name Shoshannah, which means 'lily.' This connection to the lily flower brings with it associations of purity and beauty.",
+    "famous_bearers": "Notable individuals named Sue include Sue Grafton, known for her mystery novels, and Sue Perkins, a celebrated British comedian and television presenter.",
+    "pop_culture_moments": "Sue has made its mark in pop culture, most famously with Johnny Cash's song 'A Boy Named Sue,' which humorously tells the tale of a boy grappling with his name.",
+    "personality_profile": "Individuals named Sue are often seen as approachable and reliable. Their name suggests a friendly disposition and a strong sense of empathy.",
+    "variations_nicknames": "While Sue is often a standalone name, it can also be a nickname for Susan or Suzanne. Common nicknames include Suzy and Susie.",
+    "popularity_data": "The name Sue saw peak popularity in the mid-20th century but has since become less common. It remains enduringly popular as a middle name.",
+    "pairing_suggestions": "Sue pairs well with both traditional and modern names, such as Sue Elizabeth or Sue Harper, offering a balance of old and new.",
+    "cultural_context": "Sue's cultural roots stem from its Hebrew origin, and it has been embraced in various forms across English-speaking countries.",
+    "final_recommendation": "If you're considering the name Sue, you're choosing a name with rich history and timeless charm. Its simplicity and elegance make it a versatile choice for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

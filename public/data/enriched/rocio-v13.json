@@ -1,0 +1,204 @@
+{
+  "name": "Rocio",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:45:31.949Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Spanish",
+  "meaning": "Dew",
+  "culturalSignificance": "Rocio is a name with significant cultural roots in Spanish-speaking countries, often associated with the Virgin of Rocío, a revered figure in Andalusian culture. It evokes images of freshness and purity, similar to the morning dew.",
+  "modernContext": "In modern times, Rocio continues to be a popular name in Spain and Latin America. It is admired for its melodic sound and cultural resonance, often chosen by parents for its traditional yet fresh appeal.",
+  "literaryReferences": "Notable literary references if any (1-2 sentences or omit)",
+  "pronunciationGuide": "roˈθjo",
+  "variations": [
+    "Rosio",
+    "Rocia",
+    "Rosia"
+  ],
+  "similarNames": [
+    "Lucia",
+    "Rosa",
+    "Marina",
+    "Sofia"
+  ],
+  "nicknames": [
+    "Rochi",
+    "Cio",
+    "Ro"
+  ],
+  "personality": "Rocio is often associated with a vibrant and positive personality, reflecting warmth and a nurturing character. People with this name are seen as down-to-earth and approachable.",
+  "symbolism": "The name Rocio symbolizes new beginnings and purity, much like the fresh morning dew it describes.",
+  "funFact": "The Romería del Rocío is a famous annual pilgrimage in Spain, attracting thousands of participants who honor the Virgin of Rocío.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Virgin of Rocío",
+    "significance": "The Virgin of Rocío is a highly venerated figure in Andalusian Christianity, celebrated in a major pilgrimage event.",
+    "keyStories": [
+      "The apparition of the Virgin in Almonte",
+      "Miraculous healings attributed to the Virgin"
+    ],
+    "spiritualMeaning": "Rocio is associated with spiritual renewal and protection.",
+    "historicalImpact": "The devotion to the Virgin of Rocío has significantly influenced Andalusian culture and religious practices."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rocío Dúrcal",
+      "profession": "Singer and Actress",
+      "knownFor": [
+        "Queen of Ranchera",
+        "Amor Eterno"
+      ],
+      "awards": "Latin Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Rocío Jurado",
+      "profession": "Singer and Actress",
+      "knownFor": [
+        "La Más Grande",
+        "Paloma Brava"
+      ],
+      "awards": "Premio Ondas"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and fresh starts.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These water signs share emotional depth and intuitive understanding with Rocio.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and the flow of life.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "This archetype is associated with nurturing, care, and emotional wisdom.",
+    "karmicLessons": "Learning to balance emotional involvement with personal boundaries.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 150,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is like the morning dew, brief yet beautiful.",
+    "author": "Anonymous",
+    "context": "Common saying reflecting the transient beauty of life."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ro-ci-o"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rocío",
+      "script": "Latin",
+      "scriptName": "Rocío",
+      "pronunciation": "roˈθjo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ροσίο",
+      "script": "Greek",
+      "scriptName": "Ροσίο",
+      "pronunciation": "roˈsi.o",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روكيو",
+      "script": "Arabic",
+      "scriptName": "روكيو",
+      "pronunciation": "ruːkiːo",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "露西奥",
+      "script": "Han",
+      "scriptName": "露西奥",
+      "pronunciation": "lù xī ào",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Росио",
+      "script": "Cyrillic",
+      "scriptName": "Росио",
+      "pronunciation": "roˈsʲio",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רוסיו",
+      "script": "Hebrew",
+      "scriptName": "רוסיו",
+      "pronunciation": "roˈsiu",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Cultural",
+      "confidence": 0.9,
+      "reason": "Strong cultural ties to Spanish traditions and the Virgin of Rocío."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Traditional use in Spanish-speaking countries for centuries."
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.7,
+      "reason": "The name directly relates to a natural element, dew."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Rocio is a name that conjures images of fresh morning dew and carries with it a rich cultural heritage. It's a name deeply rooted in Spanish-speaking countries, offering a sense of purity and new beginnings. Parents often choose Rocio for its melodic sound and cultural resonance.",
+    "etymology_meaning": "The name Rocio originates from the Spanish word for 'dew,' symbolizing freshness and purity. It is often associated with the Virgin of Rocío, who is venerated in Andalusian culture.",
+    "famous_bearers": "Notable figures with the name Rocio include Rocío Dúrcal, a celebrated Spanish singer and actress, and Rocío Jurado, known for her powerful voice and contribution to Spanish music.",
+    "pop_culture_moments": "Rocio has been a popular choice in Spanish-speaking media, often appearing in songs and cultural events, notably the Romería del Rocío, a major Spanish pilgrimage.",
+    "personality_profile": "Those named Rocio are often perceived as warm and approachable, embodying nurturing qualities and emotional depth. This name suggests a personality that is both caring and intuitive.",
+    "variations_nicknames": "Variations of Rocio include Rosio and Rocia, with common nicknames being Rochi, Cio, and Ro, each offering a casual and affectionate alternative.",
+    "popularity_data": "While Rocio's popularity peaked in the 1980s, it remains a beloved choice for its traditional appeal and cultural significance. It continues to be a popular name in Spain and Latin America.",
+    "pairing_suggestions": "Rocio pairs beautifully with names like Lucia and Sofia, offering a harmonious blend of classic and lyrical sounds. These combinations reflect a sense of elegance and tradition.",
+    "cultural_context": "Rocio is deeply embedded in Spanish culture, often linked to the Virgin of Rocío. It holds a special place in Andalusian traditions and religious celebrations.",
+    "final_recommendation": "Choosing the name Rocio offers a connection to rich cultural traditions and a name that symbolizes freshness and purity. It's an elegant choice for parents seeking a name with both beauty and heritage.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

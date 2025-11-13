@@ -1,0 +1,273 @@
+{
+  "name": "Rene",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:07:49.055Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Reborn",
+  "culturalSignificance": "Rene is a name with significant historical and cultural roots, primarily used in French-speaking countries. It derives from the Latin word 'renatus', meaning 'reborn', and has been a popular name in various forms across Europe.",
+  "modernContext": "In modern times, Rene is considered a unisex name, though its usage is more common among men in certain regions. It maintains a classic charm and is often chosen for its elegant simplicity and cultural resonance.",
+  "literaryReferences": "In literature, Rene is a name that appears in various works, symbolizing renewal or rebirth, aligning with its etymological meaning.",
+  "pronunciationGuide": "/rəˈneɪ/",
+  "variations": [
+    "René",
+    "Rena",
+    "Renata",
+    "Renato",
+    "Renny"
+  ],
+  "similarNames": [
+    "Ray",
+    "Rey",
+    "Renee",
+    "Rina",
+    "Reina"
+  ],
+  "nicknames": [
+    "Ren",
+    "Nay",
+    "Renny"
+  ],
+  "personality": "People named Rene are often thought to be creative, dynamic, and adaptable, reflecting their name's meaning of renewal.",
+  "symbolism": "The name Rene symbolizes rebirth and regeneration, often associated with new beginnings and personal growth.",
+  "funFact": "Rene Descartes, a famous French philosopher, mathematician, and scientist, is one of the most notable figures with this name.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "René Descartes",
+      "years": "1596-1650",
+      "category": "Philosopher",
+      "achievements": [
+        "Father of modern philosophy",
+        "Cartesian coordinate system"
+      ],
+      "significance": "René Descartes is considered the father of modern philosophy, famous for his statement 'Cogito, ergo sum' (I think, therefore I am).",
+      "notableWorks": [
+        "Meditations on First Philosophy",
+        "Discourse on the Method"
+      ]
+    },
+    {
+      "fullName": "René Magritte",
+      "years": "1898-1967",
+      "category": "Artist",
+      "achievements": [
+        "Pioneering surrealist art"
+      ],
+      "significance": "René Magritte was a Belgian surrealist artist known for thought-provoking images that challenge observers' perceptions of reality.",
+      "notableWorks": [
+        "The Treachery of Images",
+        "The Son of Man"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Cogito, ergo sum.",
+      "author": "René Descartes",
+      "context": "Foundational element of Western philosophy",
+      "year": 1637,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "René Auberjonois",
+      "profession": "Actor",
+      "knownFor": [
+        "Star Trek: Deep Space Nine",
+        "Boston Legal"
+      ],
+      "awards": "Tony Award"
+    },
+    {
+      "name": "René Redzepi",
+      "profession": "Chef",
+      "knownFor": [
+        "Noma restaurant"
+      ],
+      "awards": "World's Best Restaurant Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "René Higuita",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Colombian League",
+      "team": "Atlético Nacional",
+      "pastTeams": [
+        "Real Valladolid",
+        "Independiente Medellín"
+      ],
+      "position": "Goalkeeper",
+      "jerseyNumber": "1",
+      "years": "1985-2010",
+      "achievements": "Famous for the 'Scorpion Kick'",
+      "knownFor": [
+        "Innovative goalkeeping",
+        "Flamboyant style"
+      ],
+      "awards": "Copa Libertadores winner",
+      "stats": "68 national team caps",
+      "verified": true,
+      "source": "ESPN"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The World According to Garp",
+      "year": 1982,
+      "type": "Movie",
+      "characterName": "Roberta Muldoon (played by Rene Auberjonois)",
+      "characterDescription": "A transgender woman and former football player",
+      "imdbUrl": "https://www.imdb.com/title/tt0084917/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, fostering communication and intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect and communication.",
+    "celestialArchetype": "The Thinker",
+    "celestialArchetypeDescription": "This archetype is characterized by a quest for knowledge and understanding.",
+    "karmicLessons": "Learning to embrace change and adapt quickly.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 892,
+    "peak": 134,
+    "peakYear": 1969
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only thing we have to fear is fear itself.",
+    "author": "René Descartes",
+    "context": "A reflection on the nature of fear and courage."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Re-ne"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "René",
+      "script": "Latin",
+      "scriptName": "René",
+      "pronunciation": "/reˈne/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρενέ",
+      "script": "Greek",
+      "scriptName": "Ρενέ",
+      "pronunciation": "/reˈne/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "رينيه",
+      "script": "Arabic",
+      "scriptName": "رينيه",
+      "pronunciation": "/reˈne/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雷内",
+      "script": "Han",
+      "scriptName": "雷内",
+      "pronunciation": "/lěiˈnèi/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рене",
+      "script": "Cyrillic",
+      "scriptName": "Рене",
+      "pronunciation": "/rʲɪˈnɛ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רנה",
+      "script": "Hebrew",
+      "scriptName": "רנה",
+      "pronunciation": "/reˈne/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Rene has been used consistently for centuries, conveying timeless elegance."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name has been used in various literary works and by notable authors."
+    },
+    {
+      "tag": "Philosophical",
+      "confidence": 0.85,
+      "reason": "Associated with René Descartes, a foundational figure in philosophy."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Rene is a name with deep historical roots and a timeless appeal. From the halls of philosophy to the canvas of surrealism, this name has graced many iconic figures. Known for its elegant simplicity, Rene remains a popular choice among parents seeking a name with cultural resonance.",
+    "etymology_meaning": "The name Rene originates from the Latin 'renatus', meaning 'reborn'. It has been used across Europe, particularly in French-speaking countries, signifying renewal and new beginnings.",
+    "famous_bearers": "Notable figures include René Descartes, a pivotal philosopher, and René Magritte, a celebrated surrealist artist, both of whom have left indelible marks on their respective fields.",
+    "pop_culture_moments": "Rene has appeared in various films and TV shows, often symbolizing themes of transformation and growth, aligning with its meaning.",
+    "personality_profile": "Those named Rene are often seen as creative, thoughtful, and versatile, embodying the concept of renewal and adaptability.",
+    "variations_nicknames": "Variations like René and Renata, along with nicknames such as Ren and Renny, offer flexibility and personalization.",
+    "popularity_data": "Rene has seen fluctuating popularity over the decades, peaking in the late 1960s but maintaining a steady presence.",
+    "pairing_suggestions": "Rene pairs well with names like Elise, Marie, or Pierre, offering a harmonious and elegant combination.",
+    "cultural_context": "With roots in Latin and a strong presence in French culture, Rene carries a rich cultural heritage that resonates globally.",
+    "final_recommendation": "For parents seeking a name that is both classic and meaningful, Rene offers a perfect blend of history and modern appeal. Its associations with renewal make it an inspiring choice.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

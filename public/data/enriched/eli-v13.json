@@ -1,0 +1,290 @@
+{
+  "name": "Eli",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:52:28.019Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Ascended, uplifted, high",
+  "culturalSignificance": "Eli is a biblical name of Hebrew origin meaning 'ascended' or 'uplifted'. It is found in the Old Testament as the name of a high priest and judge of Israel who was a mentor to Samuel.",
+  "modernContext": "In modern times, Eli is a popular name in various English-speaking countries. It has a timeless appeal and is favored for its simplicity and strong sound.",
+  "literaryReferences": "Eli is a character in the Book of Samuel in the Bible, serving as a high priest and judge.",
+  "pronunciationGuide": "/ˈiːlaɪ/",
+  "variations": [
+    "Ely",
+    "Elie",
+    "Elihu",
+    "Elias",
+    "Elijah"
+  ],
+  "similarNames": [
+    "Elias",
+    "Elijah",
+    "Ezra",
+    "Noah",
+    "Isaac"
+  ],
+  "nicknames": [
+    "El",
+    "Lee",
+    "Li",
+    "Lilo"
+  ],
+  "personality": "Eli is often associated with leadership and wisdom, reflecting the characteristics of its biblical namesake.",
+  "symbolism": "The name Eli symbolizes spiritual elevation and leadership.",
+  "funFact": "Eli was one of the top 60 most popular boys' names in the United States in recent years.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Eli",
+    "significance": "Eli was a high priest and judge in the Bible, known for his role as a mentor to the prophet Samuel.",
+    "keyStories": [
+      "The calling of Samuel",
+      "The fall of Eli's house"
+    ],
+    "spiritualMeaning": "Represents divine guidance and spiritual leadership.",
+    "historicalImpact": "Eli's narrative underscores the importance of faith and obedience to divine will in religious texts."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Eli Whitney",
+      "years": "1765-1825",
+      "category": "Inventor",
+      "achievements": [
+        "Invented the cotton gin",
+        "Pioneered mass production techniques"
+      ],
+      "significance": "Eli Whitney's invention revolutionized the cotton industry and had a profound economic impact on the United States.",
+      "notableWorks": [
+        "Cotton gin patent"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I have always been interested in technology and the way it can change our lives.",
+      "author": "Eli Whitney",
+      "context": "Referring to his interest in invention and innovation.",
+      "year": 1800,
+      "category": "Technology"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Eli Wallach",
+      "profession": "Actor",
+      "knownFor": [
+        "The Good, the Bad and the Ugly",
+        "The Magnificent Seven"
+      ],
+      "awards": "Honorary Academy Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Eli Manning",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "New York Giants",
+      "pastTeams": [],
+      "position": "Quarterback",
+      "jerseyNumber": "10",
+      "years": "2004-2019",
+      "achievements": "2x Super Bowl Champion, Super Bowl MVP",
+      "knownFor": [
+        "Leadership",
+        "Clutch performances"
+      ],
+      "awards": "Super Bowl MVP",
+      "stats": "57,023 passing yards, 366 touchdowns",
+      "verified": true,
+      "source": "NFL official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Book of Eli",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Eli",
+      "characterDescription": "A lone warrior in a post-apocalyptic world tasked with protecting a sacred book.",
+      "imdbUrl": "https://www.imdb.com/title/tt1037705/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I walk by faith, not by sight.",
+      "character": "Eli",
+      "source": "The Book of Eli",
+      "year": 2010,
+      "context": "Eli explains his guiding principle in the post-apocalyptic world.",
+      "genre": "Action",
+      "impact": "Highlights the character's deep faith and resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Symbolizes new beginnings and fresh starts.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a dynamic and intellectual energy.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents communication, intelligence, and social connections.",
+    "celestialArchetype": "The Messenger",
+    "celestialArchetypeDescription": "Known for their ability to connect and communicate ideas.",
+    "karmicLessons": "Learning to balance intellect with emotion.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and variety in life."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 60,
+    "peak": 43,
+    "peakYear": 2011
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to achieve the impossible is to believe it is possible.",
+    "author": "Eli Broad",
+    "context": "Eli Broad was a renowned philanthropist and entrepreneur."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "E-li"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Elías",
+      "script": "Latin",
+      "scriptName": "Elías",
+      "pronunciation": "/eˈli.as/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ηλίας",
+      "script": "Greek",
+      "scriptName": "Ηλίας",
+      "pronunciation": "/iˈli.as/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إيلي",
+      "script": "Arabic",
+      "scriptName": "إيلي",
+      "pronunciation": "/ˈiːli/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "以利",
+      "script": "Han",
+      "scriptName": "以利",
+      "pronunciation": "/yǐ lì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Илай",
+      "script": "Cyrillic",
+      "scriptName": "Илай",
+      "pronunciation": "/iˈlaj/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "עלי",
+      "script": "Hebrew",
+      "scriptName": "עלי",
+      "pronunciation": "/ˈe.li/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Eli the Good",
+      "author": "Silas House",
+      "publishedYear": 2009,
+      "genre": "Fiction",
+      "significance": "A coming-of-age story set in the summer of 1976, dealing with family and personal growth.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "Eli is a significant figure in the Bible, known as a high priest."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Eli has been used for centuries and maintains a timeless appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Eli continues to be a popular choice for boys, remaining relevant across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Eli's Comin'",
+      "artist": "Three Dog Night",
+      "year": 1969,
+      "genre": "Rock",
+      "nameContext": "The song's protagonist, Eli, is referenced in the chorus.",
+      "description": "A song about an enigmatic and impactful person named Eli, warning of their arrival.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Eli%27s+Comin%27+Three+Dog+Night",
+      "geniusUrl": "https://genius.com/Three-dog-night-elis-comin-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Eli is a name steeped in history and simplicity, offering a strong yet gentle presence. It's a name that's been carried by inventors, athletes, and spiritual leaders, making it a timeless choice for parents seeking something meaningful yet familiar.",
+    "etymology_meaning": "Derived from Hebrew, Eli means 'ascended' or 'uplifted', a fitting description for its biblical namesake who served as a high priest and judge of Israel.",
+    "famous_bearers": "Notable Elis include Eli Whitney, the inventor of the cotton gin, and Eli Manning, a two-time Super Bowl MVP, showcasing the name's versatility across fields.",
+    "pop_culture_moments": "In pop culture, Eli has been immortalized in films like 'The Book of Eli', where the name carries a sense of mystery and strength.",
+    "personality_profile": "Names like Eli are often associated with leadership and wisdom, reflecting a personality that is both approachable and commanding.",
+    "variations_nicknames": "Variations such as Ely and Elie offer softer takes on the name, while nicknames like El and Lee provide casual options.",
+    "popularity_data": "Eli has consistently ranked within the top 100 names for boys in the United States, maintaining its appeal through its biblical roots and modern-day usage.",
+    "pairing_suggestions": "Eli pairs well with names like Noah and Isaac, providing a harmonious blend of traditional and contemporary sounds.",
+    "cultural_context": "With deep roots in Hebrew culture, Eli carries a significant religious and historical weight, making it a choice that honors tradition.",
+    "final_recommendation": "For parents seeking a name that bridges the gap between ancient and modern, Eli offers a perfect balance of history, strength, and simplicity.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,246 @@
+{
+  "name": "Ash",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:39:37.395Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "English",
+  "meaning": "Ash tree",
+  "culturalSignificance": "The name Ash has roots in English culture, derived from the Old English word 'æsc', which means 'ash tree'. Ash trees have been significant in various cultures, often symbolizing protection and strength.",
+  "modernContext": "In modern times, Ash is often used as a unisex name and is popular in English-speaking countries. It gained popularity partly due to its use in media and entertainment, such as in the Pokémon series.",
+  "literaryReferences": "Ash is frequently used in fantasy literature, often as a name for strong, nature-associated characters.",
+  "pronunciationGuide": "/æʃ/",
+  "variations": [
+    "Ashe",
+    "Asher",
+    "Ashley",
+    "Ashlyn"
+  ],
+  "similarNames": [
+    "Dash",
+    "Nash",
+    "Cash",
+    "Josh",
+    "Max"
+  ],
+  "nicknames": [
+    "Ashy",
+    "Ashie",
+    "A"
+  ],
+  "personality": "People named Ash are often perceived as strong, grounded, and reliable, reflecting the sturdy nature of the ash tree.",
+  "symbolism": "Ash trees symbolize protection, strength, and healing in various cultures.",
+  "funFact": "Ash is also a symbol of rebirth and renewal due to its ability to regrow quickly after being cut down.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ash Ketchum",
+      "profession": "Fictional Character",
+      "knownFor": [
+        "Pokémon series"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Ash Stymest",
+      "profession": "Model",
+      "knownFor": [
+        "Modeling for top fashion brands"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Pokémon: The First Movie",
+      "year": 1998,
+      "type": "Movie",
+      "characterName": "Ash Ketchum",
+      "characterDescription": "A Pokémon trainer on a quest to become a Pokémon Master.",
+      "imdbUrl": "https://www.imdb.com/title/tt0190641/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Evil Dead",
+      "year": 1981,
+      "type": "Movie",
+      "characterName": "Ash Williams",
+      "characterDescription": "A hero fighting against demonic forces.",
+      "imdbUrl": "https://www.imdb.com/title/tt0083907/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Groovy.",
+      "character": "Ash Williams",
+      "source": "Evil Dead II",
+      "year": 1987,
+      "context": "Ash Williams arms himself with a chainsaw to fight evil.",
+      "genre": "Horror",
+      "impact": "This quote became iconic for its humorous take on horror."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded and practical nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, practicality, and reliability.",
+    "celestialArchetype": "The Protector",
+    "celestialArchetypeDescription": "Symbolizes guardianship and nurturing.",
+    "karmicLessons": "Learning to adapt and grow from challenges.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 50,
+    "female": 50
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 150,
+    "peakYear": 1999
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Adventure is worthwhile in itself.",
+    "author": "Ash Ketchum",
+    "context": "A message from the Pokémon series highlighting the value of adventure."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Ash"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Fresno",
+      "script": "Latin",
+      "scriptName": "Fresno",
+      "pronunciation": "/ˈfɾes.no/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Στάχτη",
+      "script": "Greek",
+      "scriptName": "Στάχτη",
+      "pronunciation": "/ˈstaxi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "رماد",
+      "script": "Arabic",
+      "scriptName": "رماد",
+      "pronunciation": "/ra.maːd/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "灰",
+      "script": "Han",
+      "scriptName": "灰",
+      "pronunciation": "/huī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пепел",
+      "script": "Cyrillic",
+      "scriptName": "Пепел",
+      "pronunciation": "/ˈpʲepʲɪl/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אֵפֶר",
+      "script": "Hebrew",
+      "scriptName": "אֵפֶר",
+      "pronunciation": "/eˈfer/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Ash has seen a rise in popularity due to modern media and culture."
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.8,
+      "reason": "Ash is directly associated with the ash tree."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.95,
+      "reason": "Ash is commonly used for both boys and girls."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ashes",
+      "artist": "Céline Dion",
+      "year": 2018,
+      "genre": "Pop",
+      "nameContext": "The song's title and theme revolve around renewal and transformation.",
+      "description": "Featured in the movie Deadpool 2, 'Ashes' is about finding strength and hope amidst chaos.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Céline+Dion+Ashes",
+      "geniusUrl": "https://genius.com/Celine-dion-ashes-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Ash is a modern, nature-inspired choice that's grown in popularity thanks to its use in popular culture. From the world of Pokémon to the rugged landscapes of fantasy novels, Ash is a name that carries strength and vitality.",
+    "etymology_meaning": "Ash is derived from the Old English word 'æsc', meaning 'ash tree'. The ash tree has been a symbol of strength and resilience in various cultures, adding a layer of depth to the name.",
+    "famous_bearers": "Ash Ketchum from Pokémon and Ash Williams from the Evil Dead series are two fictional bearers who have helped popularize the name in modern culture.",
+    "pop_culture_moments": "The name Ash is synonymous with adventure and heroism, thanks to its association with beloved characters in anime and horror films.",
+    "personality_profile": "Ash is often associated with individuals who are adventurous, resilient, and grounded, mirroring the characteristics of the ash tree.",
+    "variations_nicknames": "While Ash is often used on its own, variations like Ashe, Asher, and Ashley offer a range of options. Common nicknames include Ashy and Ashie.",
+    "popularity_data": "Ash peaked in popularity in the late 1990s, driven by its use in popular media. It remains a trendy choice for parents seeking a modern, nature-inspired name.",
+    "pairing_suggestions": "Ash pairs well with names like Willow, Sage, and Rowan, continuing the nature theme or balancing it with more traditional names like Michael or Elizabeth.",
+    "cultural_context": "With its roots in English culture, Ash is a name that has transcended its origins to become a beloved choice worldwide.",
+    "final_recommendation": "Ash is a versatile and timeless choice for a child, offering strength and modernity in one simple syllable. Whether inspired by nature or pop culture, it's a name that promises adventure.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

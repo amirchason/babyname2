@@ -1,0 +1,260 @@
+{
+  "name": "Amber",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:17:14.976Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Arabic",
+  "meaning": "Amber refers to a fossilized tree resin, often used as a gemstone.",
+  "culturalSignificance": "Amber has been valued since antiquity for its color and natural beauty, often used in jewelry and as a healing agent. It is also associated with warmth and the sun, symbolizing energy and vitality.",
+  "modernContext": "The name Amber became popular in the United States during the 1970s and 1980s, partly due to its evocative, natural connotations. It remains a popular choice for girls, often associated with bright, positive attributes.",
+  "literaryReferences": "Amber appears in fantasy literature such as Roger Zelazny's 'Chronicles of Amber,' where it represents a magical realm.",
+  "pronunciationGuide": "/ˈæmbər/",
+  "variations": [
+    "Ambre",
+    "Ambra",
+    "Ambar",
+    "Amberly",
+    "Amberlee"
+  ],
+  "similarNames": [
+    "Jade",
+    "Ruby",
+    "Crystal",
+    "Sapphire",
+    "Opal"
+  ],
+  "nicknames": [
+    "Am",
+    "Ambie",
+    "Amberly",
+    "Bambi",
+    "Amb"
+  ],
+  "personality": "Amber is often associated with warmth, friendliness, and a vibrant personality. It conveys a sense of energy and optimism.",
+  "symbolism": "Amber symbolizes protection, energy, and healing. It is believed to help balance emotions and clear the mind.",
+  "funFact": "Amber is formed from resin that oozed from ancient trees and fossilized over millions of years.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Amber Heard",
+      "profession": "Actor",
+      "knownFor": [
+        "Aquaman",
+        "The Danish Girl"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Amber Riley",
+      "profession": "Singer and Actress",
+      "knownFor": [
+        "Glee",
+        "Dreamgirls"
+      ],
+      "awards": "Laurence Olivier Award for Best Actress in a Musical"
+    },
+    {
+      "name": "Amber Valletta",
+      "profession": "Model and Actress",
+      "knownFor": [
+        "Hitch",
+        "Revenge"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Clueless",
+      "year": 1995,
+      "type": "Movie",
+      "characterName": "Amber Mariens",
+      "characterDescription": "A fashionable but snarky high school student.",
+      "imdbUrl": "https://www.imdb.com/title/tt0112697/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 87
+    },
+    {
+      "title": "The Chronicles of Amber",
+      "year": 1970,
+      "type": "Book Series",
+      "characterName": "Amber",
+      "characterDescription": "A magical realm that is the center of the universe.",
+      "imdbUrl": "",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Amber",
+      "hex": "#FFBF00"
+    },
+    "luckyGemstone": "Amber",
+    "luckyDay": "Sunday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery, energetic nature.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents passion, energy, and transformation.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing, protection, and transformation.",
+    "karmicLessons": "Learning to balance giving and receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires a harmonious and loving environment."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 471,
+    "peak": 13,
+    "peakYear": 1986
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Amber is the color of your energy.",
+    "author": "311",
+    "context": "From the song 'Amber' by 311."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Am-ber"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ámbar",
+      "script": "Latin",
+      "scriptName": "Ámbar",
+      "pronunciation": "/ˈambar/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άμπερ",
+      "script": "Greek",
+      "scriptName": "Άμπερ",
+      "pronunciation": "/ˈamber/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "عنبر",
+      "script": "Arabic",
+      "scriptName": "عنبر",
+      "pronunciation": "/ʕanbar/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "琥珀",
+      "script": "Han",
+      "scriptName": "琥珀",
+      "pronunciation": "/hǔpò/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Янтарь",
+      "script": "Cyrillic",
+      "scriptName": "Янтарь",
+      "pronunciation": "/jantərʲ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אמבר",
+      "script": "Hebrew",
+      "scriptName": "אמבר",
+      "pronunciation": "/ˈamber/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Chronicles of Amber",
+      "author": "Roger Zelazny",
+      "publishedYear": 1970,
+      "genre": "Fantasy",
+      "significance": "A classic fantasy series that explores the concept of parallel worlds.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Amber has been consistently used over decades without falling out of style."
+    },
+    {
+      "tag": "Nature-Inspired",
+      "confidence": 0.95,
+      "reason": "The name is derived from a natural resin, emphasizing its connection to nature."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Featured in notable literary works such as 'The Chronicles of Amber.'"
+    }
+  ],
+  "songs": [
+    {
+      "title": "Amber",
+      "artist": "311",
+      "year": 2001,
+      "genre": "Rock",
+      "nameContext": "Title and central theme of the song.",
+      "description": "A mellow, reggae-infused rock song that uses Amber as a metaphor for warmth and positivity.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Amber+311",
+      "geniusUrl": "https://genius.com/311-amber-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Amber is a name that shines with warmth and timeless beauty, much like the gemstone it represents. With roots in various cultures, Amber has been cherished for its natural glow and rich hues.",
+    "etymology_meaning": "The name Amber originates from the Arabic word 'anbar,' referring to the fossilized tree resin known for its captivating color and use in jewelry.",
+    "famous_bearers": "Notable personalities include actress Amber Heard, known for her roles in 'Aquaman' and 'The Danish Girl,' and singer Amber Riley, acclaimed for her performance in 'Glee.'",
+    "pop_culture_moments": "Amber has made its mark in pop culture through movies like 'Clueless' and the song 'Amber' by 311, which celebrates its warm and positive connotations.",
+    "personality_profile": "Individuals named Amber are often seen as vibrant and warm-hearted, radiating positivity and a nurturing spirit.",
+    "variations_nicknames": "Variations like Ambra and Amberly offer unique twists, while nicknames such as Ambie and Bambi add a playful touch.",
+    "popularity_data": "Amber peaked in popularity during the 1980s and remains a beloved choice for parents seeking a name with natural elegance.",
+    "pairing_suggestions": "Amber pairs well with names like Jade and Ruby, creating a harmonious blend of nature-inspired choices.",
+    "cultural_context": "Amber's allure crosses cultural boundaries, symbolizing energy and healing in many traditions.",
+    "final_recommendation": "For those seeking a name that embodies warmth, beauty, and enduring appeal, Amber is a shining choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

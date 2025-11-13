@@ -1,0 +1,196 @@
+{
+  "name": "Felina",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T07:24:56.449Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Cat-like",
+  "culturalSignificance": "The name Felina is derived from the Latin word 'felinus,' meaning 'cat-like.' It evokes imagery of elegance, grace, and independence, qualities often associated with cats. In some cultures, the name is linked to mystery and allure, similar to the traits attributed to felines.",
+  "modernContext": "In modern times, Felina is not a widely popular name but is appreciated for its unique charm and connection to feline grace. It occasionally appears in literature and media, contributing to its enigmatic allure.",
+  "literaryReferences": "Felina is a name that can often appear in fictional works, invoking a sense of mystery and elegance, although it lacks a strong presence in any major literary works.",
+  "pronunciationGuide": "feˈliːnə",
+  "variations": [
+    "Feline",
+    "Felino",
+    "Felicia"
+  ],
+  "similarNames": [
+    "Selena",
+    "Felicia",
+    "Melina",
+    "Serena",
+    "Celina"
+  ],
+  "nicknames": [
+    "Feli",
+    "Lina",
+    "FiFi"
+  ],
+  "personality": "People with the name Felina are often perceived as graceful and independent, much like the animals they are named after. They may exhibit a mysterious charm and a keen sense of curiosity.",
+  "symbolism": "Felina symbolizes independence, beauty, and a mysterious allure, akin to the qualities associated with cats.",
+  "funFact": "The name Felina gained some attention from the song 'El Paso' by Marty Robbins, where Felina is a character in the narrative.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Friday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs are known for their stability and harmony with the Earth element.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth is grounded, stable, and nurturing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing and compassion, with a focus on growth and stability.",
+    "karmicLessons": "To embrace change and remain adaptable.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony, balance, and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Elegance is the only beauty that never fades.",
+    "author": "Audrey Hepburn",
+    "context": "This quote reflects the timeless and graceful qualities often associated with the name Felina."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Fe-li-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Felina",
+      "script": "Latin",
+      "scriptName": "Felina",
+      "pronunciation": "feˈlina",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Φελίνα",
+      "script": "Greek",
+      "scriptName": "Φελίνα",
+      "pronunciation": "feˈlina",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "فيلينا",
+      "script": "Arabic",
+      "scriptName": "فيلينا",
+      "pronunciation": "fiːˈliːna",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "菲丽娜",
+      "script": "Han",
+      "scriptName": "菲丽娜",
+      "pronunciation": "fèi lì nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Фелина",
+      "script": "Cyrillic",
+      "scriptName": "Фелина",
+      "pronunciation": "fʲɪˈlʲinə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פלינה",
+      "script": "Hebrew",
+      "scriptName": "פלינה",
+      "pronunciation": "feˈlina",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Unique",
+      "confidence": 0.9,
+      "reason": "Felina is not a common name, giving it a unique and exotic flair."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "The name has a contemporary feel and is not tied to any historical figures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.6,
+      "reason": "The name has been used in literary contexts, adding a sense of narrative intrigue."
+    }
+  ],
+  "songs": [
+    {
+      "title": "El Paso",
+      "artist": "Marty Robbins",
+      "year": 1959,
+      "genre": "Country",
+      "nameContext": "Felina is the name of a character in the song.",
+      "description": "The song tells a story about a cowboy's love for a Mexican girl named Felina, highlighting themes of romance and tragedy.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=El+Paso+Marty+Robbins",
+      "geniusUrl": "https://genius.com/Marty-robbins-el-paso-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Felina is a name that evokes the elegance and mystery of the feline world. With its Latin roots, it carries a sense of grace and beauty that is timeless. For parents seeking a name that stands out yet feels familiar, Felina offers a unique blend of allure and charm.",
+    "etymology_meaning": "Derived from the Latin 'felinus,' meaning 'cat-like,' the name Felina embodies qualities such as independence and grace. It resonates with those who appreciate the mystique and elegance associated with felines.",
+    "famous_bearers": "While not common, Felina has captured attention in music and literature, often used to embody characters with grace and mystery. Its presence in Marty Robbins' song 'El Paso' is a notable example.",
+    "pop_culture_moments": "Felina's pop culture presence, though not widespread, is impactful. The name is often chosen for characters that possess a unique flair, adding to its enigmatic aura.",
+    "personality_profile": "Those named Felina are often seen as independent and charming, with a natural grace that draws others in. Their personalities tend to be as intriguing as the name itself.",
+    "variations_nicknames": "Variations like Feline and Felicia offer slight twists on the name, while nicknames such as Feli and Lina provide affectionate alternatives.",
+    "popularity_data": "Felina remains a rare choice, making it a distinctive option for parents. Its rarity adds to its charm, appealing to those who seek a unique name.",
+    "pairing_suggestions": "Felina pairs beautifully with names like Serena and Celina, complementing its melodic quality. Its distinctiveness also allows it to stand alone with elegance.",
+    "cultural_context": "Rooted in Latin, Felina carries cultural connotations of elegance and mystery. It captures the imagination, much like the graceful creatures it represents.",
+    "final_recommendation": "For those seeking a name that is both unique and evocative, Felina is an excellent choice. Its blend of elegance, mystery, and charm makes it a timeless option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

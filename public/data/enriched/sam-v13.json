@@ -1,0 +1,338 @@
+{
+  "name": "Sam",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:30:32.781Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "God has heard",
+  "culturalSignificance": "Sam is a versatile name used across various cultures, primarily derived from the Hebrew name Samuel. It has been popular in English-speaking countries for centuries and is often used as a standalone name or a diminutive of Samuel or Samantha.",
+  "modernContext": "In modern times, Sam is favored for its simplicity and gender-neutral appeal. It frequently appears in popular culture and is commonly used in the United States, the United Kingdom, and Australia.",
+  "literaryReferences": "Sam is a notable character in J.R.R. Tolkien's 'The Lord of the Rings', where Samwise Gamgee is a loyal and brave companion to Frodo Baggins.",
+  "pronunciationGuide": "/sæm/",
+  "variations": [
+    "Samuel",
+    "Samantha",
+    "Samson",
+    "Samuele"
+  ],
+  "similarNames": [
+    "Max",
+    "Ben",
+    "Tom",
+    "Jack",
+    "Alex"
+  ],
+  "nicknames": [
+    "Sammy",
+    "Sammy-boy",
+    "Sammie"
+  ],
+  "personality": "Names like Sam are often associated with friendliness, reliability, and a down-to-earth nature. People named Sam are perceived as approachable and dependable.",
+  "symbolism": "The name Sam symbolizes a strong connection to spirituality and divine listening, reflecting its Hebrew origin meaning 'God has heard'.",
+  "funFact": "Sam has been a popular name for fictional characters in numerous films and TV shows, exemplifying its universal appeal.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Samuel",
+    "significance": "Samuel is a significant prophet in the Hebrew Bible, known for anointing the first two kings of Israel, Saul and David.",
+    "keyStories": [
+      "Samuel's call by God as a child",
+      "Anointing of King David"
+    ],
+    "spiritualMeaning": "Samuel's story emphasizes obedience to God and the importance of spiritual leadership.",
+    "historicalImpact": "Samuel's role in the establishment of the monarchy in ancient Israel marks a critical transition in biblical history."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Samuel Morse",
+      "years": "1791-1872",
+      "category": "Inventor",
+      "achievements": [
+        "Invented the telegraph",
+        "Co-developed Morse code"
+      ],
+      "significance": "Morse's inventions revolutionized long-distance communication.",
+      "notableWorks": [
+        "Morse code",
+        "Telegraph system"
+      ]
+    },
+    {
+      "fullName": "Samuel Johnson",
+      "years": "1709-1784",
+      "category": "Writer",
+      "achievements": [
+        "Compiled 'A Dictionary of the English Language'"
+      ],
+      "significance": "Johnson's dictionary was one of the first comprehensive works of its kind and greatly influenced the English language.",
+      "notableWorks": [
+        "A Dictionary of the English Language",
+        "The Lives of the Poets"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Curiosity is, in great and generous minds, the first passion and the last.",
+      "author": "Samuel Johnson",
+      "context": "Reflections on human nature",
+      "year": 1750,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Sam Smith",
+      "profession": "Musician",
+      "knownFor": [
+        "Songs 'Stay With Me'",
+        "Album 'In the Lonely Hour'"
+      ],
+      "awards": "Multiple Grammy Awards"
+    },
+    {
+      "name": "Sam Worthington",
+      "profession": "Actor",
+      "knownFor": [
+        "Role in 'Avatar'",
+        "Role in 'Clash of the Titans'"
+      ],
+      "awards": "Saturn Award for Best Actor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Sam Kerr",
+      "profession": "Athlete",
+      "sport": "Soccer",
+      "league": "FA Women's Super League",
+      "team": "Chelsea FC",
+      "pastTeams": [
+        "Perth Glory",
+        "Chicago Red Stars"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "20",
+      "years": "2008-Present",
+      "achievements": "Multiple W-League Golden Boot awards",
+      "knownFor": [
+        "Goal-scoring ability",
+        "Leadership on field"
+      ],
+      "awards": "AFC Women's Player of the Year",
+      "stats": "Over 50 international goals",
+      "verified": true,
+      "source": "https://www.chelseafc.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Supernatural",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Sam Winchester",
+      "characterDescription": "One of the main protagonists, a hunter of supernatural creatures.",
+      "imdbUrl": "https://www.imdb.com/title/tt0460681/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 88
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "type": "Movie",
+      "characterName": "Samwise Gamgee",
+      "characterDescription": "A loyal hobbit and friend to Frodo Baggins.",
+      "imdbUrl": "https://www.imdb.com/title/tt0167260/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "There's some good in this world, Mr. Frodo, and it's worth fighting for.",
+      "character": "Samwise Gamgee",
+      "source": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "context": "Encouraging Frodo during their journey",
+      "genre": "Fantasy",
+      "impact": "Highlights the theme of hope and perseverance in the story."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and reflection.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions, intuition, and sensitivity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for their nurturing and empathetic nature.",
+    "karmicLessons": "Learning to trust one's intuition and emotional intelligence.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 425,
+    "peak": 12,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "context": "Encouragement to persevere in the face of challenges."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Sam"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Sam",
+      "script": "Latin",
+      "scriptName": "Sam",
+      "pronunciation": "/sam/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σαμ",
+      "script": "Greek",
+      "scriptName": "Σαμ",
+      "pronunciation": "/sam/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سام",
+      "script": "Arabic",
+      "scriptName": "سام",
+      "pronunciation": "/sa:m/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "山姆",
+      "script": "Han",
+      "scriptName": "山姆",
+      "pronunciation": "/ʃɑn.mu/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сэм",
+      "script": "Cyrillic",
+      "scriptName": "Сэм",
+      "pronunciation": "/sɛm/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סם",
+      "script": "Hebrew",
+      "scriptName": "סם",
+      "pronunciation": "/sam/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "My Name is Sam",
+      "author": "John Doe",
+      "publishedYear": 2018,
+      "genre": "Fiction",
+      "significance": "Explores themes of identity and self-discovery.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been in use for centuries and remains timeless."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Derived from the biblical name Samuel."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.85,
+      "reason": "Commonly used for both boys and girls."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Sam's Town",
+      "artist": "The Killers",
+      "year": 2006,
+      "genre": "Rock",
+      "nameContext": "Title and theme of the album.",
+      "description": "The song reflects on small-town life and the aspirations of its inhabitants.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sam's+Town+The+Killers",
+      "geniusUrl": "https://genius.com/The-killers-sams-town-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Sam",
+      "artist": "Olivia Newton-John",
+      "year": 1977,
+      "genre": "Pop",
+      "nameContext": "The name appears in the context of a romantic narrative.",
+      "description": "The song narrates a heartfelt plea to a loved one named Sam, expressing longing and affection.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Olivia+Newton-John+Sam",
+      "geniusUrl": "https://genius.com/Olivia-newton-john-sam-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Sam, a name steeped in history and versatility, holds a special place in the hearts of many. From its biblical roots to its modern-day charm, Sam continues to be a favorite choice for parents around the world. Whether as a standalone name or a diminutive, it's loved for its simplicity and strength.",
+    "etymology_meaning": "The name Sam originates from the Hebrew name Samuel, meaning 'God has heard'. This etymological background lends it a spiritual depth, often associated with the biblical prophet Samuel.",
+    "famous_bearers": "Throughout history, many notable figures have borne the name Sam, including inventor Samuel Morse and literary giant Samuel Johnson. In the modern era, Sam Smith and Sam Worthington have brought the name into the limelight.",
+    "pop_culture_moments": "Sam has been immortalized in pop culture through characters like Samwise Gamgee from 'The Lord of the Rings' and Sam Winchester from 'Supernatural'. These characters exemplify the steadfast and heroic qualities often associated with the name.",
+    "personality_profile": "People named Sam are often seen as reliable, approachable, and friendly. They are thought to possess a natural charisma that draws others to them, making them popular in social and professional circles.",
+    "variations_nicknames": "Sam can be a short form of Samuel, Samantha, or Samson. Nicknames like Sammy and Sammie add a playful touch, making it a versatile choice for any age.",
+    "popularity_data": "Historically, Sam has maintained a steady level of popularity. It reached its peak in the early 20th century but continues to be a top choice due to its timeless appeal.",
+    "pairing_suggestions": "For those considering names that pair well with Sam, options like Max, Ben, or Jack offer a harmonious match. These combinations create a classic yet contemporary feel.",
+    "cultural_context": "Sam's cultural roots are primarily linked to Hebrew traditions, but its widespread use in English-speaking countries has given it a global appeal. It's a name that transcends cultural boundaries.",
+    "final_recommendation": "If you're seeking a name that is both classic and modern, Sam is an exceptional choice. Its historical depth and contemporary relevance make it a perfect blend of the old and new.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

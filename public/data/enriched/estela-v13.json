@@ -1,0 +1,217 @@
+{
+  "name": "Estela",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:59:36.971Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Star",
+  "culturalSignificance": "Estela is a name with Latin roots, derived from 'Stella,' meaning 'star.' It has been used in various cultures, particularly in Spanish-speaking countries, symbolizing light and guidance.",
+  "modernContext": "In modern times, Estela remains a popular choice in Hispanic communities, appreciated for its elegance and celestial connotations. Its use is less common in other regions, making it a unique choice for those seeking a distinctive name.",
+  "literaryReferences": "Estela is a common name in Spanish literature, often used to depict characters with grace and beauty.",
+  "pronunciationGuide": "ɛsˈte.la",
+  "variations": [
+    "Estella",
+    "Stella",
+    "Estrella",
+    "Estelle",
+    "Estel"
+  ],
+  "similarNames": [
+    "Stella",
+    "Isabel",
+    "Elena",
+    "Lucia",
+    "Marina"
+  ],
+  "nicknames": [
+    "Este",
+    "Ella",
+    "Lala",
+    "Essie"
+  ],
+  "personality": "The name Estela is often associated with individuals who are bright, inspiring, and intuitive, with a natural inclination towards leadership and creativity.",
+  "symbolism": "Estela symbolizes guidance and hope, akin to how stars guide travelers at night.",
+  "funFact": "The name Estela is often chosen for characters in Spanish telenovelas, highlighting its popularity in Hispanic culture.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Estela Barnes de Carlotto",
+      "years": "1930-Present",
+      "category": "Activist",
+      "achievements": [
+        "President of the Grandmothers of the Plaza de Mayo"
+      ],
+      "significance": "Estela Barnes de Carlotto is a prominent human rights activist in Argentina, advocating for the victims of forced disappearances during the military dictatorship.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Estela Renee",
+      "profession": "Actress",
+      "knownFor": [
+        "The Spanish Princess"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Estela",
+      "year": 2003,
+      "type": "Movie",
+      "characterName": "Estela",
+      "characterDescription": "A young woman navigating life in Mexico City.",
+      "imdbUrl": "https://www.imdb.com/title/tt0388594/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Star White",
+      "hex": "#FFFFFF"
+    },
+    "luckyGemstone": "Diamond",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of clarity and illumination, perfect for completion and reflection.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for communication and intellectual connection.",
+    "cosmicElement": "Light",
+    "cosmicElementDescription": "Represents clarity, enlightenment, and inspiration.",
+    "celestialArchetype": "The Guiding Star",
+    "celestialArchetypeDescription": "Represents hope, guidance, and brilliance.",
+    "karmicLessons": "To embrace one's inner light and inspire others.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Yearns to experience life fully and inspire others with joy and enthusiasm."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 350,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Reach for the stars, for even if you miss, you'll land among the brilliance.",
+    "author": "Les Brown",
+    "context": "Motivational context encouraging aspiration and effort."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Es-te-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Estela",
+      "script": "Latin",
+      "scriptName": "Estela",
+      "pronunciation": "ɛsˈte.la",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εστέλα",
+      "script": "Greek",
+      "scriptName": "Εστέλα",
+      "pronunciation": "esˈte.la",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إستيلا",
+      "script": "Arabic",
+      "scriptName": "إستيلا",
+      "pronunciation": "ʔɪstɛːla",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾丝特拉",
+      "script": "Han",
+      "scriptName": "艾丝特拉",
+      "pronunciation": "ài sī tè lā",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эстела",
+      "script": "Cyrillic",
+      "scriptName": "Эстела",
+      "pronunciation": "ɪsˈtʲe.la",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אסטלה",
+      "script": "Hebrew",
+      "scriptName": "אסטלה",
+      "pronunciation": "ɛstɛˈla",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Estela has a timeless quality due to its Latin roots and celestial meaning."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Commonly used in literature to denote characters with grace and beauty."
+    },
+    {
+      "tag": "Celestial",
+      "confidence": 0.95,
+      "reason": "Directly linked to the concept of stars and celestial bodies."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Estela, a name that evokes the brilliance of the night sky, shines brightly in the constellation of classic names. With its roots in Latin, Estela has been cherished across cultures for its elegant simplicity and celestial connections.",
+    "etymology_meaning": "The name Estela originates from the Latin word 'stella,' meaning 'star.' It has traveled through time, maintaining its association with light, hope, and guidance.",
+    "famous_bearers": "Notable individuals like Estela Barnes de Carlotto have brought the name into the spotlight, showcasing its strength and resilience through her human rights work in Argentina.",
+    "pop_culture_moments": "Estela has often appeared in Spanish-language media, including films and literature, where it is used to characterize individuals with grace and inner light.",
+    "personality_profile": "Those named Estela are often seen as visionary and inspiring, with an innate ability to guide and uplift others. They are creative and intuitive, often drawn to the arts and leadership roles.",
+    "variations_nicknames": "Popular variations like Estella and Stella offer a range of options, while nicknames such as Este and Ella add a personal touch to this luminous name.",
+    "popularity_data": "Estela's popularity has fluctuated over the years, with peaks in the mid-20th century. It remains a beloved choice in many Spanish-speaking regions today.",
+    "pairing_suggestions": "Estela pairs beautifully with names like Lucia and Elena, creating harmonious combinations that are both melodious and meaningful.",
+    "cultural_context": "Estela's cultural richness is underscored by its widespread use in Hispanic communities, where it continues to be a symbol of beauty and brilliance.",
+    "final_recommendation": "For those seeking a name that embodies elegance and a touch of celestial magic, Estela is a stellar choice. Its timeless appeal and cultural significance make it a standout name for any little star.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,288 @@
+{
+  "name": "Rosa",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:14:18.068Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Rose",
+  "culturalSignificance": "Rosa is a classic name with floral connotations, popular across various cultures due to its association with the rose, a symbol of beauty and love. It has been used in many European countries and has a timeless appeal.",
+  "modernContext": "Rosa remains a popular name globally, especially in Spanish-speaking countries, due to its elegant simplicity and connection to nature. It is often chosen for its classic charm and cultural resonance.",
+  "literaryReferences": "The name Rosa appears in several literary works, such as 'Rosa' by Cynthia Ozick, a story exploring themes of identity and survival.",
+  "pronunciationGuide": "/ˈroʊzə/",
+  "variations": [
+    "Rose",
+    "Rosie",
+    "Rosita",
+    "Rosalina",
+    "Rosalind"
+  ],
+  "similarNames": [
+    "Rose",
+    "Rosalie",
+    "Rosalyn",
+    "Rosetta",
+    "Rosina"
+  ],
+  "nicknames": [
+    "Rosie",
+    "Ro",
+    "Rosi",
+    "Roz",
+    "Roro"
+  ],
+  "personality": "People named Rosa are often perceived as graceful, loving, and strong-willed, embodying the beauty and resilience of a rose.",
+  "symbolism": "Rosa symbolizes love, beauty, and passion, much like the flower it is named after.",
+  "funFact": "Rosa Parks, a civil rights icon, was named after her grandmother, whose strength and compassion she admired.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Rosa Parks",
+      "years": "1913-2005",
+      "category": "Activist",
+      "achievements": [
+        "Montgomery Bus Boycott",
+        "Civil Rights Movement"
+      ],
+      "significance": "Rosa Parks is celebrated for her pivotal role in the American civil rights movement, particularly for her act of defiance on a Montgomery bus in 1955.",
+      "notableWorks": [
+        "Quiet Strength",
+        "Rosa Parks: My Story"
+      ]
+    },
+    {
+      "fullName": "Rosa Luxemburg",
+      "years": "1871-1919",
+      "category": "Political Theorist",
+      "achievements": [
+        "Marxist Theory",
+        "Spartacist Uprising"
+      ],
+      "significance": "Rosa Luxemburg was a Marxist theorist and revolutionary who played a significant role in the early 20th-century socialist movement in Germany.",
+      "notableWorks": [
+        "The Accumulation of Capital",
+        "Reform or Revolution"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I would like to be remembered as a person who wanted to be free so other people would be also free.",
+      "author": "Rosa Parks",
+      "context": "Civil rights advocacy",
+      "year": 1994,
+      "category": "Civil Rights"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Rosa Salazar",
+      "profession": "Actor",
+      "knownFor": [
+        "Alita: Battle Angel",
+        "Bird Box"
+      ],
+      "awards": "Nominated for multiple Teen Choice Awards"
+    },
+    {
+      "name": "Rosa Blasi",
+      "profession": "Actor",
+      "knownFor": [
+        "Strong Medicine",
+        "The Thundermans"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Brooklyn Nine-Nine",
+      "year": 2013,
+      "type": "TV Show",
+      "characterName": "Rosa Diaz",
+      "characterDescription": "A tough, no-nonsense detective known for her sarcastic humor.",
+      "imdbUrl": "https://www.imdb.com/title/tt2467372/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I’m Rosa Diaz, and I’m done talking.",
+      "character": "Rosa Diaz",
+      "source": "Brooklyn Nine-Nine",
+      "year": 2013,
+      "context": "Rosa expressing her blunt attitude during an investigation.",
+      "genre": "Comedy",
+      "impact": "Reflects her no-nonsense persona."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Rose Pink",
+      "hex": "#FF66CC"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and growth.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded, practical nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and nurturing.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Known for their caring and supportive nature.",
+    "karmicLessons": "Embracing change and letting go of control.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to create harmony and comfort in life."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 152,
+    "peak": 18,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Each person must live their life as a model for others.",
+    "author": "Rosa Parks",
+    "context": "Encouragement to lead by example."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ro-sa"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rosa",
+      "script": "Latin",
+      "scriptName": "Rosa",
+      "pronunciation": "/ˈrosa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρόζα",
+      "script": "Greek",
+      "scriptName": "Ρόζα",
+      "pronunciation": "/ˈroza/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روزا",
+      "script": "Arabic",
+      "scriptName": "روزا",
+      "pronunciation": "/ˈruːza/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗莎",
+      "script": "Han",
+      "scriptName": "罗莎",
+      "pronunciation": "/luó shā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Роза",
+      "script": "Cyrillic",
+      "scriptName": "Роза",
+      "pronunciation": "/ˈrozə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רוזה",
+      "script": "Hebrew",
+      "scriptName": "רוזה",
+      "pronunciation": "/ˈroza/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Rosa",
+      "author": "Cynthia Ozick",
+      "publishedYear": 1983,
+      "genre": "Fiction",
+      "significance": "Explores themes of identity and survival of a Holocaust survivor.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has been in use for centuries and maintains a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Featured in significant literary works, enhancing its cultural depth."
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.9,
+      "reason": "Directly associated with the rose, a symbol of natural beauty."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Rosa",
+      "artist": "Pixies",
+      "year": 1990,
+      "genre": "Rock",
+      "nameContext": "Title and lyrics",
+      "description": "The song 'Rosa' by Pixies conveys themes of longing and beauty, reflecting the symbolic nature of the name.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Rosa+Pixies",
+      "geniusUrl": "https://genius.com/search?q=Rosa%20Pixies",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Rosa is a timeless name that evokes imagery of the beautiful and symbolic rose. With its roots in Latin, this name has graced many notable women throughout history and continues to be a popular choice for its elegance and cultural resonance.",
+    "etymology_meaning": "The name Rosa is derived from the Latin word for 'rose', symbolizing beauty and love. As a floral name, it has been cherished across cultures for its simplicity and grace.",
+    "famous_bearers": "Rosa Parks, the civil rights icon, and Rosa Luxemburg, the influential Marxist theorist, are among the most notable individuals who have borne this name, each leaving a significant impact on history.",
+    "pop_culture_moments": "Rosa is a character in the popular TV show 'Brooklyn Nine-Nine', known for her strong and independent personality, adding a modern twist to this classic name.",
+    "personality_profile": "Rosa is often associated with traits of elegance and resilience, embodying both the beauty and the strength of its floral counterpart.",
+    "variations_nicknames": "Common variations include Rose and Rosalie, while nicknames like Rosie and Rosi offer affectionate alternatives.",
+    "popularity_data": "The name Rosa has seen fluctuating popularity, reaching its peak in the early 20th century and maintaining steady usage in various regions around the world.",
+    "pairing_suggestions": "Rosa pairs beautifully with names like Grace and Marie, offering a harmonious blend of classic and contemporary styles.",
+    "cultural_context": "Rosa has a rich cultural history, particularly in Spanish-speaking countries, where it is celebrated for its elegance and connection to nature.",
+    "final_recommendation": "For those seeking a name with historical depth and natural beauty, Rosa is a perfect choice. Its timeless appeal and cultural significance make it a name that endures through generations.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Jeannie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:13:39.156Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Jeannie is a diminutive form of the name Jean, which itself is a variant of Jane or Joan. The name carries the meaning 'God is gracious', reflecting its Hebrew roots. It gained popularity in English-speaking countries and has been associated with various cultural and historical contexts.",
+  "modernContext": "The name Jeannie became particularly popular in the mid-20th century, partly due to cultural references such as the TV show 'I Dream of Jeannie'. It is less commonly used today but still retains a nostalgic charm for many.",
+  "literaryReferences": "Jeannie does not have significant literary references, but it is often used in popular culture.",
+  "pronunciationGuide": "/ˈdʒiːni/",
+  "variations": [
+    "Jeanne",
+    "Jean",
+    "Jeana",
+    "Gina",
+    "Jenna"
+  ],
+  "similarNames": [
+    "Janet",
+    "Jenny",
+    "Jane",
+    "Joan",
+    "Jean"
+  ],
+  "nicknames": [
+    "Jea",
+    "Nina",
+    "J",
+    "Jeje"
+  ],
+  "personality": "Jeannie is often seen as a friendly and approachable name, associated with creativity and a caring nature.",
+  "symbolism": "The name Jeannie symbolizes grace and kindness, reflecting its meaning of 'God is gracious'.",
+  "funFact": "The popularity of the name Jeannie was significantly boosted by the 1960s TV show 'I Dream of Jeannie', which featured a genie character named Jeannie.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jeannie C. Riley",
+      "profession": "Musician",
+      "knownFor": [
+        "Harper Valley PTA"
+      ],
+      "awards": "Grammy Award"
+    },
+    {
+      "name": "Jeannie Mai",
+      "profession": "Television Host",
+      "knownFor": [
+        "The Real",
+        "How Do I Look?"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "I Dream of Jeannie",
+      "year": 1965,
+      "type": "TV Show",
+      "characterName": "Jeannie",
+      "characterDescription": "A 2000-year-old genie who falls in love with her master, an astronaut.",
+      "imdbUrl": "https://www.imdb.com/title/tt0058815/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Yes, Master.",
+      "character": "Jeannie",
+      "source": "I Dream of Jeannie",
+      "year": 1965,
+      "context": "Jeannie often responds to her master's requests with this phrase.",
+      "genre": "Comedy",
+      "impact": "This quote reflects Jeannie's loyal and devoted nature."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share the Water element, fostering emotional connection.",
+    "cosmicElement": "The Dreamer",
+    "cosmicElementDescription": "Associated with imagination and intuition.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing and caring energy.",
+    "karmicLessons": "To embrace one's creativity and emotional depth.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 95,
+    "peakYear": 1966
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To dream is to believe in the magic of what could be.",
+    "author": "Jeannie C. Riley",
+    "context": "A reminder of the power of imagination and possibility."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jean-nie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jeannie",
+      "script": "Latin",
+      "scriptName": "Jeannie",
+      "pronunciation": "/ˈdʒiːni/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζίνι",
+      "script": "Greek",
+      "scriptName": "Τζίνι",
+      "pronunciation": "/ˈdʒini/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيني",
+      "script": "Arabic",
+      "scriptName": "جيني",
+      "pronunciation": "/ʒiːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "珍妮",
+      "script": "Han",
+      "scriptName": "珍妮",
+      "pronunciation": "/ʈʂən.ni/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джини",
+      "script": "Cyrillic",
+      "scriptName": "Джини",
+      "pronunciation": "/ˈdʒi.nʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'יני",
+      "script": "Hebrew",
+      "scriptName": "ג'יני",
+      "pronunciation": "/dʒiːni/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jeannie is considered a classic name due to its historical usage and timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "The name has appeared in various pop culture contexts, giving it a literary feel."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.6,
+      "reason": "Despite its classic roots, Jeannie has maintained a modern appeal due to media influences."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jeannie",
+      "artist": "The Cowsills",
+      "year": 1969,
+      "genre": "Pop",
+      "nameContext": "The song is about a girl named Jeannie.",
+      "description": "A catchy pop tune from the 1960s that reflects the era's musical style and themes of youthful romance.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jeannie+The+Cowsills",
+      "geniusUrl": "https://genius.com/search?q=Jeannie%20The%20Cowsills",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jeannie is a name that evokes a sense of nostalgia and charm, often associated with the iconic 1960s TV series 'I Dream of Jeannie'. Its origins are deeply rooted in the Hebrew tradition, carrying a meaning that emphasizes grace and divine favor.",
+    "etymology_meaning": "The name Jeannie is derived from the Hebrew name Yochanan, meaning 'God is gracious'. It evolved through various forms such as Jean and Jane, ultimately becoming a popular diminutive in English-speaking regions.",
+    "famous_bearers": "Notable individuals named Jeannie include Jeannie C. Riley, famous for her hit song 'Harper Valley PTA', and Jeannie Mai, a well-known television host. These figures have helped maintain the name's presence in the public eye.",
+    "pop_culture_moments": "Jeannie gained significant cultural traction with the television show 'I Dream of Jeannie', where the character's whimsical and magical nature captured the hearts of viewers worldwide.",
+    "personality_profile": "People named Jeannie are often perceived as warm, creative, and approachable. The name suggests a personality that is both nurturing and imaginative, akin to the character from the beloved TV series.",
+    "variations_nicknames": "Variations of Jeannie include Jeanne and Jean, while common nicknames are Jea and Nina. These forms highlight the name's flexibility and enduring appeal.",
+    "popularity_data": "Jeannie reached its peak popularity in the late 1960s, influenced by media and entertainment. Though less common today, it remains a beloved choice for those seeking a classic yet lively name.",
+    "pairing_suggestions": "Jeannie pairs well with names like Michael, David, and Grace, creating a harmonious blend of traditional and modern styles. These combinations offer a balanced and appealing sound.",
+    "cultural_context": "Rooted in Hebrew origins, Jeannie has been embraced across cultures, resonating with its themes of grace and kindness. Its adaptability has allowed it to remain relevant in various cultural contexts.",
+    "final_recommendation": "For parents seeking a name with historical depth and cultural significance, Jeannie is a delightful choice. Its association with grace and creativity makes it a name that is both meaningful and timeless.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

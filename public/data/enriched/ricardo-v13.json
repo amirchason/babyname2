@@ -1,0 +1,300 @@
+{
+  "name": "Ricardo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:16:39.344Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Powerful ruler",
+  "culturalSignificance": "Ricardo is a name with strong roots in the Spanish and Portuguese-speaking worlds, derived from the Germanic name Richard. It has been borne by notable figures throughout history, often associated with leadership and strength.",
+  "modernContext": "In modern times, Ricardo remains a popular name in Spanish and Portuguese cultures. It is frequently chosen for its classic sound and connection to historical figures.",
+  "literaryReferences": "The name Ricardo appears in various works of literature, often as a character that embodies leadership or nobility.",
+  "pronunciationGuide": "/rəˈkɑːrdoʊ/",
+  "variations": [
+    "Richard",
+    "Rikard",
+    "Riccardo",
+    "Rikardo",
+    "Richardo"
+  ],
+  "similarNames": [
+    "Roberto",
+    "Rodrigo",
+    "Rafael",
+    "Diego",
+    "Carlos"
+  ],
+  "nicknames": [
+    "Ricky",
+    "Ric",
+    "Rico",
+    "Rico",
+    "Cardo"
+  ],
+  "personality": "The name Ricardo is often associated with people who are strong, charismatic, and natural leaders. They are seen as dependable and influential.",
+  "symbolism": "Ricardo symbolizes power and leadership, often associated with individuals who have a commanding presence.",
+  "funFact": "The name Ricardo was popularized in the 20th century by well-known figures in sports and entertainment, contributing to its enduring appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ricardo Palma",
+      "years": "1833-1919",
+      "category": "Writer",
+      "achievements": [
+        "Established the National Library of Peru",
+        "Authored 'Peruvian Traditions'"
+      ],
+      "significance": "Ricardo Palma was a pivotal figure in Peruvian literature, known for his works that captured the cultural and historical essence of Peru.",
+      "notableWorks": [
+        "Peruvian Traditions"
+      ]
+    },
+    {
+      "fullName": "Ricardo Lagos",
+      "years": "1938-Present",
+      "category": "Politician",
+      "achievements": [
+        "President of Chile (2000-2006)",
+        "Economic reforms in Chile"
+      ],
+      "significance": "Ricardo Lagos is noted for his leadership in Chile, where he implemented significant economic reforms and strengthened democratic institutions.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ricardo Montalbán",
+      "profession": "Actor",
+      "knownFor": [
+        "Fantasy Island",
+        "Star Trek II: The Wrath of Khan"
+      ],
+      "awards": "Emmy Award for Outstanding Single Performance by an Actor in a Leading Role"
+    },
+    {
+      "name": "Ricardo Arjona",
+      "profession": "Musician",
+      "knownFor": [
+        "Hits like 'Te Conozco'",
+        "Album 'Historias'"
+      ],
+      "awards": "Grammy Award for Best Latin Pop Album"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ricardo Kaká",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Serie A",
+      "team": "AC Milan",
+      "pastTeams": [
+        "Real Madrid",
+        "Orlando City SC"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "22",
+      "years": "2003-2017",
+      "achievements": "FIFA World Cup winner, Ballon d'Or",
+      "knownFor": [
+        "Vision",
+        "Dribbling"
+      ],
+      "awards": "Ballon d'Or, FIFA World Player of the Year",
+      "stats": "104 goals in Serie A",
+      "verified": true,
+      "source": "https://www.acmilan.com/en"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "I Love Lucy",
+      "year": 1951,
+      "type": "TV Show",
+      "characterName": "Ricky Ricardo",
+      "characterDescription": "Cuban bandleader and husband of Lucy Ricardo",
+      "imdbUrl": "https://www.imdb.com/title/tt0043208/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "Star Trek II: The Wrath of Khan",
+      "year": 1982,
+      "type": "Movie",
+      "characterName": "Khan Noonien Singh",
+      "characterDescription": "Played by Ricardo Montalbán, a genetically engineered superhuman",
+      "imdbUrl": "https://www.imdb.com/title/tt0084726/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 87
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Lucy, you got some 'splainin' to do!",
+      "character": "Ricky Ricardo",
+      "source": "I Love Lucy",
+      "year": 1951,
+      "context": "Ricky often says this to Lucy when she gets into mischief.",
+      "genre": "Comedy",
+      "impact": "This quote became iconic in popular culture, symbolizing humorous marital misunderstandings."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for reflection and completion, the full moon represents clarity and realization.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs share a practical and grounded nature, making them compatible with Ricardo.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Those with this archetype are natural leaders and influencers.",
+    "karmicLessons": "Learn to balance power with compassion.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Ricardo seeks wisdom and understanding."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 100,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The key to success is action, and the essential in action is perseverance.",
+    "author": "Ricardo Arjona",
+    "context": "On the importance of perseverance in achieving goals."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ri-car-do"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ricardo",
+      "script": "Latin",
+      "scriptName": "Ricardo",
+      "pronunciation": "/riˈkaɾðo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρικάρδος",
+      "script": "Greek",
+      "scriptName": "Ρικάρδος",
+      "pronunciation": "/riˈkarðos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ريكاردو",
+      "script": "Arabic",
+      "scriptName": "ريكاردو",
+      "pronunciation": "/riˈkaːrdu/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "里卡多",
+      "script": "Han",
+      "scriptName": "里卡多",
+      "pronunciation": "/li˨˦ kʰa˥˩ toʊ˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рикардо",
+      "script": "Cyrillic",
+      "scriptName": "Рикардо",
+      "pronunciation": "/rʲɪˈkardə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ריקרדו",
+      "script": "Hebrew",
+      "scriptName": "ריקרדו",
+      "pronunciation": "/riˈkaʁdo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Ricardo has been a popular name for centuries, maintaining a classic appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name's continued use across generations makes it timeless."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.8,
+      "reason": "Widely used in Spanish and Portuguese cultures, with deep cultural roots."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ricardo",
+      "artist": "Pusha T",
+      "year": 2019,
+      "genre": "Hip-Hop",
+      "nameContext": "The name is used in the title and lyrics.",
+      "description": "The song 'Ricardo' by Pusha T features themes of ambition and success, with the name symbolizing strength and leadership.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Pusha+T+Ricardo",
+      "geniusUrl": "https://genius.com/Pusha-t-ricardo-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Ricardo carries a sense of timelessness, resonating with strength and leadership. Its roots in the Germanic tradition have given it a robust presence across cultures.",
+    "etymology_meaning": "Ricardo is derived from the Germanic name Richard, meaning 'powerful ruler'. Over centuries, it has been adapted into various languages, including Spanish and Portuguese, where it remains popular.",
+    "famous_bearers": "Notable individuals named Ricardo include Ricardo Montalbán, a celebrated actor known for his role in 'Fantasy Island', and Ricardo Arjona, a Grammy-winning musician.",
+    "pop_culture_moments": "In pop culture, the character Ricky Ricardo from the TV show 'I Love Lucy' brought the name into homes worldwide, further cementing its popularity.",
+    "personality_profile": "Individuals named Ricardo are often seen as charismatic and dependable, embodying traits of leadership and reliability.",
+    "variations_nicknames": "Common variations of Ricardo include Richard and Riccardo, while nicknames like Ricky and Rico provide a more casual option.",
+    "popularity_data": "Ricardo has consistently ranked well in popularity charts, particularly in Spanish-speaking countries, and remains a strong choice for parents.",
+    "pairing_suggestions": "Ricardo pairs well with classic names like Maria or contemporary choices like Sophia, offering a balance between tradition and modernity.",
+    "cultural_context": "The name Ricardo is deeply embedded in Spanish and Portuguese culture, often associated with historical figures and leaders.",
+    "final_recommendation": "If you're seeking a name that exudes strength and has a rich cultural heritage, Ricardo is an excellent choice. Its classic appeal ensures it remains relevant across generations.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

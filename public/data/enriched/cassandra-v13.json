@@ -1,0 +1,249 @@
+{
+  "name": "Cassandra",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:42:41.130Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Prophetess",
+  "culturalSignificance": "Cassandra is a name rooted in Greek mythology, where Cassandra was a daughter of Priam, the King of Troy, who was granted the gift of prophecy by Apollo. However, when she spurned his advances, he cursed her so that no one would believe her predictions. This story has lent the name a cultural connotation of foreseeing disaster without being believed.",
+  "modernContext": "In modern times, Cassandra remains a popular choice in English-speaking countries, often associated with intelligence and foresight. It's a name that carries both historical weight and a sense of elegance, making it a timeless choice.",
+  "literaryReferences": "Cassandra appears in numerous works of literature, including Aeschylus's 'Agamemnon' and Shakespeare's 'Troilus and Cressida'.",
+  "pronunciationGuide": "/kəˈsændrə/",
+  "variations": [
+    "Kassandra",
+    "Casandra",
+    "Cassandre",
+    "Kassondra"
+  ],
+  "similarNames": [
+    "Alexandra",
+    "Katherine",
+    "Samantha",
+    "Jessica"
+  ],
+  "nicknames": [
+    "Cassie",
+    "Sandra",
+    "Sandy",
+    "Cass"
+  ],
+  "personality": "The name Cassandra is often associated with individuals who are intuitive, perceptive, and often seen as wise beyond their years.",
+  "symbolism": "Symbolically, Cassandra represents foresight and the tragic consequence of unheeded warnings.",
+  "funFact": "Cassandra has been used as a term in psychology to describe situations where valid warnings or concerns are dismissed or disbelieved.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Cassandra Wilson",
+      "years": "1955-present",
+      "category": "Musician",
+      "achievements": [
+        "Grammy Award for Best Jazz Vocal Album"
+      ],
+      "significance": "An influential American jazz musician known for her distinctive voice and innovative style.",
+      "notableWorks": [
+        "Blue Light 'Til Dawn",
+        "New Moon Daughter"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Cassandra Clare",
+      "profession": "Author",
+      "knownFor": [
+        "The Mortal Instruments series"
+      ],
+      "awards": "Numerous literary awards"
+    },
+    {
+      "name": "Cassandra Peterson",
+      "profession": "Actress",
+      "knownFor": [
+        "Elvira, Mistress of the Dark"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Troy",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Cassandra",
+      "characterDescription": "A prophetess in the epic tale of the Trojan War.",
+      "imdbUrl": "https://www.imdb.com/title/tt0332452/",
+      "genre": "Historical Drama",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Monday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A phase of growth and new beginnings.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Highly compatible due to shared emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents intuition, emotion, and adaptability.",
+    "celestialArchetype": "The Seer",
+    "celestialArchetypeDescription": "Embodies foresight and wisdom.",
+    "karmicLessons": "Learning to trust one's intuition.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A deep-seated need to serve humanity and contribute to the greater good."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 457,
+    "peak": 49,
+    "peakYear": 1988
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "context": "A message about the power of belief in one's vision."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Cas-san-dra"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Cassandra",
+      "script": "Latin",
+      "scriptName": "Cassandra",
+      "pronunciation": "/kaˈsandɾa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κασσάνδρα",
+      "script": "Greek",
+      "scriptName": "Κασσάνδρα",
+      "pronunciation": "/kaˈsan.ðra/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كاساندرا",
+      "script": "Arabic",
+      "scriptName": "كاساندرا",
+      "pronunciation": "/ka.saːn.dra/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "卡桑德拉",
+      "script": "Han",
+      "scriptName": "卡桑德拉",
+      "pronunciation": "/kǎ sāng dé lā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кассандра",
+      "script": "Cyrillic",
+      "scriptName": "Кассандра",
+      "pronunciation": "/kɐ'sandrə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קסנדרה",
+      "script": "Hebrew",
+      "scriptName": "קסנדרה",
+      "pronunciation": "/kasandra/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Cassandra",
+      "author": "Christa Wolf",
+      "publishedYear": 1983,
+      "genre": "Fiction",
+      "significance": "A modern retelling of the classic myth, exploring themes of power and prophecy.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 1,
+      "reason": "The name has been in use since ancient times and has mythological roots."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Frequently appears in literature, especially in retellings of Greek myths."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Resilient popularity across different eras and cultures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Cassandra",
+      "artist": "ABBA",
+      "year": 1982,
+      "genre": "Pop",
+      "nameContext": "The song is named after the mythological figure Cassandra.",
+      "description": "ABBA's 'Cassandra' tells the story of the tragic prophetess from Greek mythology, blending a catchy tune with the somber tale of unheeded warnings.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=ABBA+Cassandra",
+      "geniusUrl": "https://genius.com/Abba-cassandra-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Cassandra, a name with ancient roots, carries a rich tapestry of history and meaning. Known for its mythological origins, it embodies the power of foresight and prophecy. Today, it remains a popular choice for those seeking a name with elegance and depth.",
+    "etymology_meaning": "Cassandra is derived from the Greek name 'Kassandra', meaning 'prophetess'. The name is deeply linked to Greek mythology, where Cassandra was a daughter of Priam, the king of Troy.",
+    "famous_bearers": "Famous bearers include Cassandra Clare, the renowned author of 'The Mortal Instruments' series, and Cassandra Wilson, an acclaimed jazz musician.",
+    "pop_culture_moments": "Cassandra has appeared in numerous films and books, including the movie 'Troy', where she is portrayed as a tragic figure with the gift of prophecy.",
+    "personality_profile": "Individuals named Cassandra are often seen as intelligent, insightful, and possessing a strong sense of intuition. They are perceived as individuals who can see beyond the surface, much like their mythological namesake.",
+    "variations_nicknames": "Common variations include Kassandra and Casandra, with nicknames like Cassie and Sandra offering casual alternatives. These variations have made the name versatile and adaptable across cultures.",
+    "popularity_data": "Cassandra saw a peak in popularity during the 1980s and continues to be a favored choice for parents seeking a name with historical significance.",
+    "pairing_suggestions": "Cassandra pairs well with traditional middle names like Elizabeth or modern ones like Sky. It also complements sibling names such as Alexander or Victoria, creating a harmonious blend.",
+    "cultural_context": "With roots in ancient Greece, Cassandra has transcended its origins to become a staple in Western culture, celebrated for its literary and historical significance.",
+    "final_recommendation": "Choosing Cassandra offers a blend of historical depth and cultural resonance. It's a name that stands the test of time, offering a sense of wisdom and elegance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

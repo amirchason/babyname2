@@ -1,0 +1,211 @@
+{
+  "name": "Adonias",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T07:42:46.189Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Lord is my God",
+  "culturalSignificance": "Adonias is a name of Hebrew origin, often considered a variant of Adonijah, a biblical figure. It carries a regal and religious connotation, historically used in Jewish and Christian contexts.",
+  "modernContext": "While not very common, Adonias is sometimes used in regions with strong biblical traditions. It maintains a classical feel, appealing to those looking for a name with historical depth.",
+  "literaryReferences": "Adonias is not commonly featured in literature, but its variant Adonijah appears in biblical texts.",
+  "pronunciationGuide": "əˈdoʊniəs",
+  "variations": [
+    "Adonijah",
+    "Adoni",
+    "Adonia",
+    "Adon"
+  ],
+  "similarNames": [
+    "Adonis",
+    "Adriel",
+    "Atticus",
+    "Amias"
+  ],
+  "nicknames": [
+    "Adi",
+    "Don",
+    "Nias"
+  ],
+  "personality": "Names like Adonias are often associated with leadership and a strong sense of faith, reflecting a personality that is both charismatic and principled.",
+  "symbolism": "The name Adonias symbolizes devotion and leadership, often associated with a divine or noble mission.",
+  "funFact": "Adonias is often linked to the biblical story of Adonijah, who was a son of King David.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Adonijah",
+    "significance": "Adonijah was a son of King David who attempted to become king of Israel.",
+    "keyStories": [
+      "The story of Adonijah's attempt to become king as narrated in the Book of Kings."
+    ],
+    "spiritualMeaning": "The name reflects a desire for divine approval and leadership.",
+    "historicalImpact": "Adonijah's story is a significant biblical narrative about succession and divine intervention in leadership."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Adonias Filho",
+      "years": "1915-1990",
+      "category": "Author",
+      "achievements": [
+        "Renowned Brazilian novelist",
+        "Member of the Brazilian Academy of Letters"
+      ],
+      "significance": "Adonias Filho was a prominent figure in Brazilian literature, known for his exploration of social themes.",
+      "notableWorks": [
+        "Corpo Vivo",
+        "Memórias de Lázaro"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Adonias Filho",
+      "profession": "Author",
+      "knownFor": [
+        "Corpo Vivo",
+        "Memórias de Lázaro"
+      ],
+      "awards": "Member of the Brazilian Academy of Letters"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity, symbolizing fullness and achievement.",
+    "compatibleSigns": [
+      "Leo",
+      "Aries"
+    ],
+    "compatibleSignsDescription": "Fire signs are dynamic and passionate, sharing a vibrant energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents energy, assertiveness, and passion.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes leadership, courage, and a pioneering spirit.",
+    "karmicLessons": "To balance ambition with humility.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "A strong desire to be a leader in spiritual or religious endeavors."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 300,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership is not about being in charge. It's about taking care of those in your charge.",
+    "author": "Simon Sinek",
+    "context": "Leadership and management philosophy"
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "A-do-ni-as"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Adonías",
+      "script": "Latin",
+      "scriptName": "Adonías",
+      "pronunciation": "aˈðonjas",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αδωνίας",
+      "script": "Greek",
+      "scriptName": "Αδωνίας",
+      "pronunciation": "aˈðonias",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أدونيا",
+      "script": "Arabic",
+      "scriptName": "أدونيا",
+      "pronunciation": "ʔadoːniːa",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "亚多尼亚",
+      "script": "Han",
+      "scriptName": "亚多尼亚",
+      "pronunciation": "Yàduōníyà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Адониас",
+      "script": "Cyrillic",
+      "scriptName": "Адониас",
+      "pronunciation": "ɐˈdonʲɪəs",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אֲדֹנִיָּה",
+      "script": "Hebrew",
+      "scriptName": "אֲדֹנִיָּה",
+      "pronunciation": "adonia",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "Directly linked to a biblical figure, Adonijah."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Has historical roots and a timeless quality."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.75,
+      "reason": "Connected to notable works by Adonias Filho."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Adonias is a name steeped in history and tradition, offering a sense of regal and divine presence. Its roots in biblical stories provide a rich backdrop, making it a compelling choice for those seeking a meaningful name. Though not widely used today, its classic charm continues to resonate.",
+    "etymology_meaning": "Derived from the Hebrew name Adonijah, Adonias means 'Lord is my God'. It reflects a deep spiritual connection and a sense of leadership, often associated with biblical narratives.",
+    "famous_bearers": "Adonias Filho, a prominent Brazilian author, carried this name to literary fame, known for his insightful novels and contributions to Brazilian literature.",
+    "pop_culture_moments": "While Adonias hasn't featured prominently in mainstream pop culture, its biblical variant Adonijah is well-known in religious contexts.",
+    "personality_profile": "Those named Adonias are often seen as natural leaders with a strong sense of faith and integrity. They exude confidence and are often drawn to roles that involve guidance and responsibility.",
+    "variations_nicknames": "Variations like Adonijah and Adoni offer slight twists on the name, while nicknames such as Adi and Don provide more casual options.",
+    "popularity_data": "Adonias enjoys moderate popularity, particularly in communities with strong biblical traditions. Its usage has remained steady over the years, reflecting a preference for its classic roots.",
+    "pairing_suggestions": "Adonias pairs well with names like Gabriel, Elijah, and Ezekiel, which share a similar biblical gravitas. For a more modern twist, consider pairing with names like Lucas or Noah.",
+    "cultural_context": "The name Adonias has a rich cultural background, prominently featured in Jewish and Christian religious texts. Its narrative significance adds depth to its usage.",
+    "final_recommendation": "Adonias is a powerful choice for parents seeking a name with historical and spiritual significance. Its classic charm and meaningful roots make it a timeless option that carries a legacy of leadership.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

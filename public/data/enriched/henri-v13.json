@@ -1,0 +1,271 @@
+{
+  "name": "Henri",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:45:36.743Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Ruler of the home",
+  "culturalSignificance": "Henri is a French variant of Henry, a name that has been borne by many kings of England and France, symbolizing leadership and authority. The name has deep roots in European history and is associated with power and governance.",
+  "modernContext": "Today, Henri remains a classic choice in French-speaking countries and is appreciated for its timeless elegance. It is less common in English-speaking countries but retains a sophisticated charm.",
+  "literaryReferences": "Henri is a character in Stendhal's novel 'The Red and the Black', which explores themes of ambition and social class in post-Napoleonic France.",
+  "pronunciationGuide": "/ɑ̃ˈʁi/",
+  "variations": [
+    "Henry",
+    "Heinrich",
+    "Enrico",
+    "Henrik",
+    "Harry"
+  ],
+  "similarNames": [
+    "Henry",
+    "Harry",
+    "Harvey",
+    "Hugo",
+    "Hank"
+  ],
+  "nicknames": [
+    "Hen",
+    "Hank",
+    "Rico",
+    "Harry"
+  ],
+  "personality": "Henri is often associated with leadership qualities, intelligence, and a refined sense of style. The name suggests a person who is both thoughtful and decisive.",
+  "symbolism": "The name Henri symbolizes strength, authority, and a sense of stewardship, often linked to historical figures who were rulers of their domains.",
+  "funFact": "The name Henri was famously borne by Henri Matisse, one of the leading figures of modern art, known for his use of color and fluid draftsmanship.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Henri IV of France",
+      "years": "1553-1610",
+      "category": "Royalty",
+      "achievements": [
+        "First French monarch of the House of Bourbon",
+        "Issued the Edict of Nantes"
+      ],
+      "significance": "Henri IV is known for his efforts to end the French Wars of Religion and his Edict of Nantes, which granted rights to the Huguenots.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Henri Matisse",
+      "years": "1869-1954",
+      "category": "Artist",
+      "achievements": [
+        "Leader of Fauvism",
+        "Pioneering modern artist"
+      ],
+      "significance": "Henri Matisse is celebrated for his revolutionary use of color and form, influencing the development of modern art.",
+      "notableWorks": [
+        "Woman with a Hat",
+        "The Red Studio"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Creativity takes courage.",
+      "author": "Henri Matisse",
+      "context": "On the nature of artistic endeavor",
+      "year": 1940,
+      "category": "Art"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Henri Cartier-Bresson",
+      "profession": "Photographer",
+      "knownFor": [
+        "Pioneering photojournalism",
+        "Founder of Magnum Photos"
+      ],
+      "awards": "Grand Prix National de la Photographie"
+    },
+    {
+      "name": "Henri Becquerel",
+      "profession": "Physicist",
+      "knownFor": [
+        "Discovery of radioactivity",
+        "Nobel Prize in Physics"
+      ],
+      "awards": "Nobel Prize in Physics 1903"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Henri Leconte",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "ATP",
+      "team": "",
+      "pastTeams": [],
+      "position": "Player",
+      "jerseyNumber": "",
+      "years": "1980-1996",
+      "achievements": "French Open Doubles Champion",
+      "knownFor": [
+        "Powerful serve",
+        "Charismatic personality"
+      ],
+      "awards": "Davis Cup Winner",
+      "stats": "9 ATP singles titles",
+      "verified": true,
+      "source": "https://www.atptour.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Henri",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Henri",
+      "characterDescription": "A man dealing with life changes and relationships in a small town.",
+      "imdbUrl": "https://www.imdb.com/title/tt2404010/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 67
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for clarity and completion, ideal for bringing projects to fruition.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that share stability and practicality.",
+    "cosmicElement": "The Builder",
+    "cosmicElementDescription": "Represents strong foundations and growth.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes authority and the ability to guide others.",
+    "karmicLessons": "To lead with compassion and integrity.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desires stability and security, with a keen sense of responsibility."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 678,
+    "peak": 127,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To create is to live twice.",
+    "author": "Albert Camus",
+    "context": "Expressing the essence of artistic creation"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Hen-ri"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Enrique",
+      "script": "Latin",
+      "scriptName": "Enrique",
+      "pronunciation": "/enˈrike/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ερρίκος",
+      "script": "Greek",
+      "scriptName": "Ερρίκος",
+      "pronunciation": "/eˈricos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هنري",
+      "script": "Arabic",
+      "scriptName": "هنري",
+      "pronunciation": "/hɛnˈriː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "亨利",
+      "script": "Han",
+      "scriptName": "亨利",
+      "pronunciation": "/hɛŋˈliː/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Генри",
+      "script": "Cyrillic",
+      "scriptName": "Генри",
+      "pronunciation": "/ˈɡʲɛnʲrʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הנרי",
+      "script": "Hebrew",
+      "scriptName": "הנרי",
+      "pronunciation": "/hɛnˈri/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Henri is a name with a long history and traditional usage."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "The name has been borne by many kings and noble figures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Appears in notable literary works like 'The Red and the Black.'"
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Henri stands as a name of elegance and authority, often associated with the grandeur of European royalty. This name carries with it a rich heritage of power and culture, making it a timeless choice for parents seeking a name with historical depth.",
+    "etymology_meaning": "Henri is a French variant of the Germanic name Henry, which means 'ruler of the home.' The name has been popular in various forms across Europe, particularly in France and England.",
+    "famous_bearers": "Notable individuals named Henri include Henri Matisse, the renowned artist known for his revolutionary use of color, and Henri Cartier-Bresson, a pioneering figure in photojournalism.",
+    "pop_culture_moments": "Henri has made its mark in literature and film, appearing in works like 'The Red and the Black.' Its presence in pop culture underscores its enduring appeal and versatility.",
+    "personality_profile": "Those named Henri are often perceived as leaders and visionaries, with a strong sense of responsibility and creativity. The name suggests a personality that is both charismatic and thoughtful.",
+    "variations_nicknames": "While Henri is the French form, variations like Henry, Heinrich, and Enrico are also popular. Common nicknames include Hank and Harry, offering a more casual twist on this classic name.",
+    "popularity_data": "Henri remains a popular choice in French-speaking countries and continues to hold appeal worldwide due to its regal connotations and historical significance.",
+    "pairing_suggestions": "Henri pairs well with names like Charlotte, Isabelle, and Lucien, creating combinations that evoke a sense of elegance and tradition.",
+    "cultural_context": "With its roots in Germanic and French cultures, Henri embodies a blend of historical prestige and modern sophistication, making it a versatile name choice.",
+    "final_recommendation": "For those looking for a name that combines tradition with a touch of artistic flair, Henri is a perfect choice. Its royal history and cultural richness provide a strong foundation for any child's identity.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

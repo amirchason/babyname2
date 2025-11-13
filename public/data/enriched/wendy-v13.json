@@ -1,0 +1,257 @@
+{
+  "name": "Wendy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:40:29.367Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Friend",
+  "culturalSignificance": "The name Wendy is most famously associated with J.M. Barrie's play 'Peter Pan,' where it was used for the character Wendy Darling. This play popularized the name, which Barrie is said to have invented or popularized based on the phrase 'friend' used by a young girl he knew.",
+  "modernContext": "Wendy remains a popular name in English-speaking countries, though its peak usage was in the mid-20th century. It is often appreciated for its association with imagination and adventure due to its literary roots.",
+  "literaryReferences": "Wendy Darling is a central character in J.M. Barrie's 'Peter Pan,' representing a motherly figure to the Lost Boys and a symbol of childhood innocence.",
+  "pronunciationGuide": "ˈwɛndi",
+  "variations": [
+    "Wendi",
+    "Wendie",
+    "Wendey"
+  ],
+  "similarNames": [
+    "Mindy",
+    "Cindy",
+    "Mandy",
+    "Jenny",
+    "Sandy"
+  ],
+  "nicknames": [
+    "Wen",
+    "Wends",
+    "Dee"
+  ],
+  "personality": "People named Wendy are often perceived as nurturing and imaginative, reflecting the traits of Wendy Darling from 'Peter Pan.' They are seen as caring and adventurous.",
+  "symbolism": "The name Wendy symbolizes friendship and loyalty, echoing the character traits of Wendy Darling who was a steadfast friend and caregiver.",
+  "funFact": "The name Wendy was virtually unknown before J.M. Barrie used it in 'Peter Pan,' and it quickly gained popularity due to the character's endearing qualities.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Wendy Carlos",
+      "profession": "Musician",
+      "knownFor": [
+        "Switched-On Bach",
+        "A Clockwork Orange soundtrack"
+      ],
+      "awards": "Grammy Award"
+    },
+    {
+      "name": "Wendy Williams",
+      "profession": "Television Host",
+      "knownFor": [
+        "The Wendy Williams Show"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Peter Pan",
+      "year": 1953,
+      "type": "Movie",
+      "characterName": "Wendy Darling",
+      "characterDescription": "The eldest of the Darling children, a nurturing and imaginative girl.",
+      "imdbUrl": "https://www.imdb.com/title/tt0046183/",
+      "genre": "Animation, Adventure, Family",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Wendy",
+      "year": 2020,
+      "type": "Movie",
+      "characterName": "Wendy",
+      "characterDescription": "A reimagined take on the classic story of 'Peter Pan' focusing on Wendy Darling.",
+      "imdbUrl": "https://www.imdb.com/title/tt2603596/",
+      "genre": "Drama, Fantasy",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Oh, Peter, you just think of me as a mother!",
+      "character": "Wendy Darling",
+      "source": "Peter Pan",
+      "year": 1953,
+      "context": "Wendy expresses her feelings to Peter Pan about her role in Neverland.",
+      "genre": "Animation, Adventure, Family",
+      "impact": "Highlights Wendy's nurturing and caring nature."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs are also ruled by Air, promoting communication and creativity.",
+    "cosmicElement": "Imagination",
+    "cosmicElementDescription": "Encourages creativity and dreaming.",
+    "celestialArchetype": "The Dreamer",
+    "celestialArchetypeDescription": "Represents those who are imaginative and visionary.",
+    "karmicLessons": "Learning to balance reality and imagination.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire to express creativity and nurture friendships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 527,
+    "peak": 28,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "All the world is made of faith, and trust, and pixie dust.",
+    "author": "J.M. Barrie",
+    "context": "From 'Peter Pan,' encapsulating the magic of believing."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Wen-dy"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Wendy",
+      "script": "Latin",
+      "scriptName": "Wendy",
+      "pronunciation": "ˈwendi",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γουέντι",
+      "script": "Greek",
+      "scriptName": "Γουέντι",
+      "pronunciation": "ɣuˈendi",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "وندي",
+      "script": "Arabic",
+      "scriptName": "وندي",
+      "pronunciation": "ˈwindi",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "温迪",
+      "script": "Han",
+      "scriptName": "温迪",
+      "pronunciation": "wēndí",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Венди",
+      "script": "Cyrillic",
+      "scriptName": "Венди",
+      "pronunciation": "ˈvʲendʲi",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ונדי",
+      "script": "Hebrew",
+      "scriptName": "ונדי",
+      "pronunciation": "ˈwendi",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Peter Pan",
+      "author": "J.M. Barrie",
+      "publishedYear": 1911,
+      "genre": "Fiction",
+      "significance": "Introduced the character Wendy Darling and popularized the name.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "The name gained popularity through literature, specifically 'Peter Pan.'"
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name has been consistently used since the early 20th century."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "Wendy has remained a recognizable and beloved name over the decades."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Wendy",
+      "artist": "The Beach Boys",
+      "year": 1964,
+      "genre": "Rock",
+      "nameContext": "The song is about a girl named Wendy.",
+      "description": "A classic song by The Beach Boys that discusses themes of love and loss centered around the girl named Wendy.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=The+Beach+Boys+Wendy",
+      "geniusUrl": "https://genius.com/The-beach-boys-wendy-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Wendy is a name that instantly evokes images of adventure, magic, and nurturing care. Known primarily from J.M. Barrie's 'Peter Pan,' Wendy has become a beloved name for generations. Its charm lies in its simplicity and the warmth it conveys.",
+    "etymology_meaning": "The name Wendy is believed to have been popularized by J.M. Barrie, who used it in 'Peter Pan.' It is thought to derive from the phrase 'friendly.' Though its origins are relatively modern, it has become a classic name.",
+    "famous_bearers": "Wendy Carlos, the pioneering electronic musician, and Wendy Williams, the charismatic television host, are two notable figures who share this name. Their achievements highlight the diverse talents associated with the name.",
+    "pop_culture_moments": "Wendy's presence in pop culture is largely defined by the character Wendy Darling from 'Peter Pan,' a story that has been adapted numerous times in films and theater, keeping the name in the public eye.",
+    "personality_profile": "Wendy is often associated with kindness, creativity, and a sense of adventure, much like the character who first made the name famous. People named Wendy are seen as reliable friends and imaginative thinkers.",
+    "variations_nicknames": "Variations of the name include Wendi and Wendie, while common nicknames are Wen and Dee. These variations offer a range of options for different personalities.",
+    "popularity_data": "Wendy saw its peak popularity in the mid-20th century and remains a well-loved name today, especially in English-speaking countries. Its literary roots contribute to its enduring appeal.",
+    "pairing_suggestions": "Wendy pairs well with classic names like James and Michael, as well as more modern choices like Ethan and Ava. Its versatility makes it suitable for a variety of name combinations.",
+    "cultural_context": "Culturally, Wendy is a name that crosses borders due to its literary origins, and it is embraced universally for its friendly and approachable nature.",
+    "final_recommendation": "Whether you're drawn to Wendy for its literary significance or its timeless charm, it's a name that promises warmth and creativity. Ideal for those seeking a classic yet distinctive choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

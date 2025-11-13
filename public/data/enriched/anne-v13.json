@@ -1,0 +1,286 @@
+{
+  "name": "Anne",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:34:29.531Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Grace",
+  "culturalSignificance": "Anne is a classic name with roots in Hebrew culture, meaning 'grace.' It has been a popular name across various cultures and time periods, often associated with royalty and historical figures.",
+  "modernContext": "The name Anne continues to be widely used in many countries, appreciated for its simplicity and elegance. It remains a top choice in English-speaking countries and has various international variations.",
+  "literaryReferences": "Anne Shirley, the protagonist of 'Anne of Green Gables,' is one of the most famous literary Annes, known for her imaginative and spirited nature.",
+  "pronunciationGuide": "/æn/",
+  "variations": [
+    "Ann",
+    "Anna",
+    "Annie",
+    "Annette",
+    "Anita"
+  ],
+  "similarNames": [
+    "Anna",
+    "Annie",
+    "Hannah",
+    "Annabelle",
+    "Annika"
+  ],
+  "nicknames": [
+    "Annie",
+    "Nan",
+    "Nina"
+  ],
+  "personality": "Those named Anne are often associated with grace, intelligence, and a strong sense of independence. They are seen as reliable and trustworthy.",
+  "symbolism": "The name Anne symbolizes grace and favor, often linked to qualities of elegance and poise.",
+  "funFact": "Anne has been the name of several queens, including Anne Boleyn, the second wife of King Henry VIII.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Anne",
+    "significance": "Saint Anne is traditionally recognized as the mother of the Virgin Mary and is honored as a saint in Christianity.",
+    "keyStories": [
+      "The birth of Mary",
+      "Role as Mary’s mother"
+    ],
+    "spiritualMeaning": "Symbolizes maternal care and faithfulness.",
+    "historicalImpact": "Her veneration has influenced art and culture significantly, especially in the Middle Ages."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Anne Boleyn",
+      "years": "1501-1536",
+      "category": "Royalty",
+      "achievements": [
+        "Queen consort of England",
+        "Mother of Queen Elizabeth I"
+      ],
+      "significance": "Anne Boleyn’s marriage to Henry VIII led to the English Reformation.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Anne Frank",
+      "years": "1929-1945",
+      "category": "Writer",
+      "achievements": [
+        "Authored 'The Diary of a Young Girl'"
+      ],
+      "significance": "Her diary provides a poignant insight into life during the Holocaust.",
+      "notableWorks": [
+        "The Diary of a Young Girl"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Despite everything, I believe that people are really good at heart.",
+      "author": "Anne Frank",
+      "context": "From her diary, written while hiding from the Nazis.",
+      "year": 1944,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Anne Hathaway",
+      "profession": "Actor",
+      "knownFor": [
+        "The Devil Wears Prada",
+        "Les Misérables"
+      ],
+      "awards": "Academy Award for Best Supporting Actress"
+    },
+    {
+      "name": "Anne Rice",
+      "profession": "Author",
+      "knownFor": [
+        "Interview with the Vampire",
+        "The Vampire Chronicles"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Anne of Green Gables",
+      "year": 1985,
+      "type": "TV Show",
+      "characterName": "Anne Shirley",
+      "characterDescription": "An imaginative and spirited orphan girl.",
+      "imdbUrl": "https://www.imdb.com/title/tt0088727/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
+      "character": "Anne Shirley",
+      "source": "Anne of Green Gables",
+      "year": 1985,
+      "context": "Anne expresses optimism about the future.",
+      "genre": "Drama",
+      "impact": "Encourages positive thinking and hope."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for reflection and celebration of achievements.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs share emotional depth and intuition.",
+    "cosmicElement": "The Nurturer",
+    "cosmicElementDescription": "Symbolizes care and support for others.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for compassion and empathy.",
+    "karmicLessons": "Embrace change and trust in your intuition.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony and community."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 600,
+    "peak": 37,
+    "peakYear": 1945
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Despite everything, I believe that people are really good at heart.",
+    "author": "Anne Frank",
+    "context": "A message of hope from her diary."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Anne"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ana",
+      "script": "Latin",
+      "scriptName": "Ana",
+      "pronunciation": "/ˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άννα",
+      "script": "Greek",
+      "scriptName": "Άννα",
+      "pronunciation": "/ˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "حنّا",
+      "script": "Arabic",
+      "scriptName": "حنّا",
+      "pronunciation": "/ħaˈna/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安妮",
+      "script": "Han",
+      "scriptName": "安妮",
+      "pronunciation": "/ˈan ni/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Анна",
+      "script": "Cyrillic",
+      "scriptName": "Анна",
+      "pronunciation": "/ˈanna/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חנה",
+      "script": "Hebrew",
+      "scriptName": "חנה",
+      "pronunciation": "/ˈχana/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Anne of Green Gables",
+      "author": "L.M. Montgomery",
+      "publishedYear": 1908,
+      "genre": "Fiction",
+      "significance": "A classic novel that has captivated readers for over a century.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Anne has been a timeless name used across generations."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.9,
+      "reason": "Used by several queens and princesses."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Saint Anne is a significant biblical figure."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Anne's Song",
+      "artist": "Faith No More",
+      "year": 1987,
+      "genre": "Rock",
+      "nameContext": "The song title references the name.",
+      "description": "A song by the American rock band Faith No More, featuring elements of punk and funk.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Anne's+Song+Faith+No+More",
+      "geniusUrl": "https://genius.com/search?q=Anne%27s+Song+Faith+No+More",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Anne is a name that has graced the pages of history and literature for centuries. Its simplicity and elegance have made it a perennial favorite among parents worldwide. From royal courts to literary classics, Anne has left an indelible mark on culture and society.",
+    "etymology_meaning": "The name Anne is derived from the Hebrew name Hannah, which means 'grace' or 'favor.' It has been adopted into various languages and cultures, each with its unique variations.",
+    "famous_bearers": "Famous bearers of the name include Anne Boleyn, a queen whose influence changed English history, and Anne Frank, whose diary provides a powerful account of life during the Holocaust.",
+    "pop_culture_moments": "Anne of Green Gables remains one of the most beloved characters in literature, known for her vibrant imagination and spirit.",
+    "personality_profile": "People named Anne are often seen as graceful, intelligent, and independent. They embody reliability and are known for their nurturing nature.",
+    "variations_nicknames": "The name Anne has several variations and nicknames, including Anna, Annie, and Annette. Each carries its own charm and cultural significance.",
+    "popularity_data": "Anne has consistently ranked among the top names for girls, peaking in the mid-20th century and maintaining a steady presence.",
+    "pairing_suggestions": "Anne pairs well with classic middle names like Elizabeth, Marie, or Katherine, adding a touch of elegance to any name combination.",
+    "cultural_context": "Anne's cultural significance spans across continents, with roots in European royalty and biblical tradition.",
+    "final_recommendation": "For those seeking a name with historical depth and timeless appeal, Anne is a perfect choice. Its grace and versatility ensure it will remain cherished for generations.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

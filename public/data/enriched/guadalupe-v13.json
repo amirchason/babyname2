@@ -1,0 +1,231 @@
+{
+  "name": "Guadalupe",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:59:30.731Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "River of black stones",
+  "culturalSignificance": "The name Guadalupe has significant cultural resonance, particularly in Spanish-speaking countries, due to its association with the Virgin of Guadalupe, the patron saint of Mexico. The name originates from a Marian apparition to Juan Diego in 1531, which has become a central figure in Mexican Catholicism.",
+  "modernContext": "Today, Guadalupe remains a popular name in Mexico and among Hispanic communities in the United States. It is commonly used for both boys and girls, reflecting its deep cultural roots and religious significance.",
+  "literaryReferences": "The name is often mentioned in literature relating to Mexican culture and Catholic traditions.",
+  "pronunciationGuide": "ɡwaˈðalupe",
+  "variations": [
+    "Guada",
+    "Lupita",
+    "Lupe"
+  ],
+  "similarNames": [
+    "Maria",
+    "Jose",
+    "Juan",
+    "Santiago",
+    "Carmen"
+  ],
+  "nicknames": [
+    "Lupe",
+    "Lupita",
+    "Guada"
+  ],
+  "personality": "Namesakes of Guadalupe are often seen as nurturing and compassionate, reflecting qualities associated with the Virgin of Guadalupe.",
+  "symbolism": "The name symbolizes faith, protection, and cultural pride, especially in Mexican and Catholic contexts.",
+  "funFact": "The Basilica of Our Lady of Guadalupe in Mexico City is one of the most visited Catholic pilgrimage sites in the world.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Our Lady of Guadalupe",
+    "significance": "Our Lady of Guadalupe is a Marian apparition believed to have appeared to Juan Diego in 1531. She is a symbol of Mexican identity and faith.",
+    "keyStories": [
+      "The apparition to Juan Diego in 1531",
+      "The miraculous image on the tilma"
+    ],
+    "spiritualMeaning": "Represents maternal protection and divine intervention.",
+    "historicalImpact": "The Virgin of Guadalupe played a crucial role in the Christianization of Mexico and has been a symbol of Mexican nationalism and identity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Guadalupe Victoria",
+      "years": "1786-1843",
+      "category": "Political Leader",
+      "achievements": [
+        "First President of Mexico"
+      ],
+      "significance": "Guadalupe Victoria was instrumental in the Mexican War of Independence and became the first president of the Republic of Mexico.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Lupita Nyong'o",
+      "profession": "Actress",
+      "knownFor": [
+        "12 Years a Slave",
+        "Black Panther"
+      ],
+      "awards": "Academy Award for Best Supporting Actress"
+    },
+    {
+      "name": "Guadalupe Pineda",
+      "profession": "Singer",
+      "knownFor": [
+        "Boleros",
+        "Rancheras"
+      ],
+      "awards": "Latin Grammy Lifetime Achievement Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Embodies nurturing and empathetic qualities.",
+    "karmicLessons": "To learn the balance of giving and receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desiring harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 30,
+    "female": 70
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 120,
+    "peakYear": 1998
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Faith is the strength by which a shattered world shall emerge into the light.",
+    "author": "Helen Keller",
+    "context": "The power of belief in overcoming adversity."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "Gua-da-lu-pe"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Guadalupe",
+      "script": "Latin",
+      "scriptName": "Guadalupe",
+      "pronunciation": "ɡwaˈðalupe",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γουαδελούπη",
+      "script": "Greek",
+      "scriptName": "Γουαδελούπη",
+      "pronunciation": "ɣwa.ðeˈlu.pi",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "غوادالوبي",
+      "script": "Arabic",
+      "scriptName": "غوادالوبي",
+      "pronunciation": "ɣwaː.daluː.bi",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "瓜达卢佩",
+      "script": "Han",
+      "scriptName": "瓜达卢佩",
+      "pronunciation": "ɡuā dá lú pèi",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гвадалупе",
+      "script": "Cyrillic",
+      "scriptName": "Гвадалупе",
+      "pronunciation": "ɡvədɐˈlupə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גואדלופה",
+      "script": "Hebrew",
+      "scriptName": "גואדלופה",
+      "pronunciation": "ɡwadaloˈpe",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "The name is associated with the Virgin of Guadalupe, a significant figure in Christianity."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Guadalupe is a timeless name with historical and religious roots."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.95,
+      "reason": "Strong cultural significance in Mexican and Hispanic communities."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Guadalupe",
+      "artist": "Tom Russell",
+      "year": 2004,
+      "genre": "Folk",
+      "nameContext": "The song focuses on the Virgin of Guadalupe.",
+      "description": "A song that reflects on the spiritual and cultural significance of the Virgin of Guadalupe in Mexican culture.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Tom+Russell+Guadalupe",
+      "geniusUrl": "https://genius.com/search?q=Tom+Russell+Guadalupe",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Guadalupe is a name that carries with it a rich tapestry of history and cultural significance. Rooted in Spanish origins, it is widely recognized for its association with the Virgin of Guadalupe, a figure central to Mexican spirituality. This name has transcended its religious beginnings to become a beloved choice in many Hispanic families.",
+    "etymology_meaning": "Derived from a Spanish word meaning 'river of black stones,' Guadalupe reflects natural beauty and spiritual depth. It has been borne by notable figures throughout history, adding layers to its legacy.",
+    "famous_bearers": "Prominent individuals such as Guadalupe Victoria, the first president of Mexico, and actress Lupita Nyong'o highlight the name's versatility and enduring appeal across different fields.",
+    "pop_culture_moments": "Guadalupe frequently appears in works that explore Mexican culture and heritage, underscoring its importance in both religious and cultural narratives.",
+    "personality_profile": "Those named Guadalupe are often seen as compassionate and nurturing, embodying attributes associated with the Virgin of Guadalupe such as protection and grace.",
+    "variations_nicknames": "Common variations and affectionate nicknames like Lupe and Lupita make the name adaptable and endearing, suitable for both formal and informal settings.",
+    "popularity_data": "While its peak popularity in the United States was in the late 20th century, Guadalupe continues to be a familiar and respected name, particularly within Hispanic communities.",
+    "pairing_suggestions": "Guadalupe pairs beautifully with names like Maria and Jose, creating combinations that reflect cultural richness and tradition.",
+    "cultural_context": "Deeply rooted in Mexican Catholicism, Guadalupe is more than a name—it is a symbol of faith and identity for many Spanish-speaking communities.",
+    "final_recommendation": "Choosing Guadalupe as a baby name offers a connection to a profound cultural and spiritual heritage. It is a name that promises to instill a sense of history, identity, and pride.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

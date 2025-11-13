@@ -1,0 +1,233 @@
+{
+  "name": "Ginny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:49:55.841Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Virgin",
+  "culturalSignificance": "Ginny is often used as a diminutive of Virginia, a name that has classical roots and was popularized in the English-speaking world due to the influence of Queen Elizabeth I of England, the 'Virgin Queen.' The name has been associated with purity and virtue.",
+  "modernContext": "In modern times, Ginny has gained popularity due to its association with characters in popular fiction, most notably in the Harry Potter series. It is seen as a friendly and approachable name, often used independently of Virginia.",
+  "literaryReferences": "Ginny Weasley is a prominent character in the Harry Potter series by J.K. Rowling, known for her bravery and strong personality.",
+  "pronunciationGuide": "/ˈdʒɪni/",
+  "variations": [
+    "Virginia",
+    "Ginevra",
+    "Gin",
+    "Ginger",
+    "Jenny"
+  ],
+  "similarNames": [
+    "Jenny",
+    "Gina",
+    "Winnie",
+    "Lily",
+    "Minnie"
+  ],
+  "nicknames": [
+    "Gin",
+    "Gin-Gin",
+    "Gigi"
+  ],
+  "personality": "The name Ginny is often associated with a vibrant, friendly, and strong-willed personality, embodying both warmth and resilience.",
+  "symbolism": "Ginny symbolizes purity and innocence, often linked with qualities of loyalty and courage.",
+  "funFact": "The popularity of the name Ginny surged after the release of J.K. Rowling's Harry Potter series due to the character Ginny Weasley.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ginny Weasley",
+      "profession": "Fictional Character",
+      "knownFor": [
+        "Harry Potter series"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Ginny Simms",
+      "profession": "Singer",
+      "knownFor": [
+        "Jazz and Big Band music"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "type": "Movie",
+      "characterName": "Ginny Weasley",
+      "characterDescription": "The youngest sibling in the Weasley family, known for her courage and magical skill.",
+      "imdbUrl": "https://www.imdb.com/title/tt0295297/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Anything's possible if you've got enough nerve.",
+      "character": "Ginny Weasley",
+      "source": "Harry Potter and the Order of the Phoenix",
+      "year": 2003,
+      "context": "Ginny speaking about bravery and determination.",
+      "genre": "Fantasy",
+      "impact": "This quote is often cited for its inspirational message about courage."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Light Blue",
+      "hex": "#ADD8E6"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the Air element, promoting communication and intellect.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and social connection.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to express and connect with others.",
+    "karmicLessons": "Balancing communication with listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express creativity and connect with others through communication."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 752,
+    "peak": 490,
+    "peakYear": 2007
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "You are more powerful than you know; you are beautiful just as you are.",
+    "author": "Ginny Weasley",
+    "context": "Encouraging self-belief and inner strength."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Gin-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ginny",
+      "script": "Latin",
+      "scriptName": "Ginny",
+      "pronunciation": "/ˈxini/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζίνι",
+      "script": "Greek",
+      "scriptName": "Τζίνι",
+      "pronunciation": "/ˈʝini/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيني",
+      "script": "Arabic",
+      "scriptName": "جيني",
+      "pronunciation": "/ˈdʒiːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "吉妮",
+      "script": "Han",
+      "scriptName": "吉妮",
+      "pronunciation": "/tɕi˥˩ ni˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джинни",
+      "script": "Cyrillic",
+      "scriptName": "Джинни",
+      "pronunciation": "/ˈdʐinʲːi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג׳יני",
+      "script": "Hebrew",
+      "scriptName": "ג׳יני",
+      "pronunciation": "/ˈdʒini/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J.K. Rowling",
+      "publishedYear": 1998,
+      "genre": "Fiction",
+      "significance": "Features Ginny Weasley as an important character.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Strong association with the Harry Potter series."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Increased usage in recent decades due to pop culture."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.6,
+      "reason": "Derived from the classic name Virginia."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Ginny is a charming name that carries both literary prestige and modern appeal. Known for its association with strong, adventurous characters, Ginny stands out as a name with both warmth and courage. Whether you are inspired by its classic roots or its contemporary connections, Ginny is a name that resonates.",
+    "etymology_meaning": "Ginny is primarily a diminutive of Virginia, which derives from the Latin 'Virgo,' meaning virgin. The name gained recognition in the English-speaking world due to its association with Queen Elizabeth I, known as the 'Virgin Queen.'",
+    "famous_bearers": "Ginny Weasley from the Harry Potter series is perhaps the most famous bearer of this name, known for her bravery and loyalty. Another notable figure is Ginny Simms, a celebrated singer during the Big Band era.",
+    "pop_culture_moments": "Ginny Weasley has become an iconic character in pop culture, thanks to the global success of the Harry Potter series. Her character is often celebrated for her strength and determination.",
+    "personality_profile": "Ginny is often associated with individuals who are warm-hearted, strong-willed, and adventurous. Those with this name are perceived to have a lively spirit and a compassionate nature.",
+    "variations_nicknames": "Common variations of Ginny include Virginia and Ginevra, while nicknames like Gin and Gigi add a fun twist. These variations offer versatility in both formal and informal settings.",
+    "popularity_data": "The name Ginny saw a rise in popularity during the early 2000s, influenced by its literary presence. While not as common today, it maintains a classic charm that appeals to many.",
+    "pairing_suggestions": "Ginny pairs well with classic and strong names like James, Henry, or Amelia. These combinations create a balanced and timeless feel.",
+    "cultural_context": "Rooted in English culture, Ginny carries a sense of history and tradition. Its literary connections have given it a modern twist, making it a favorite among literary enthusiasts.",
+    "final_recommendation": "For those seeking a name with both historical depth and modern flair, Ginny is an excellent choice. Its literary associations and timeless sound make it a versatile option for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

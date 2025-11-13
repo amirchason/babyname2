@@ -1,0 +1,332 @@
+{
+  "name": "Steve",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:57:31.856Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Crown, garland",
+  "culturalSignificance": "Steve is an English diminutive of Stephen, a name of Greek origin meaning 'crown' or 'garland'. Historically, it has been borne by numerous saints and kings, adding to its cultural significance. The name became particularly popular in English-speaking countries during the 20th century.",
+  "modernContext": "In modern times, Steve remains a popular and classic choice, often associated with influential figures in technology and entertainment. Despite a slight decline in popularity due to the rise of more contemporary names, it continues to be widely used.",
+  "literaryReferences": "The name Steve often appears in modern literature and pop culture, frequently as a character representing the everyman or a relatable, approachable figure.",
+  "pronunciationGuide": "stiːv",
+  "variations": [
+    "Steven",
+    "Stephen",
+    "Stefan",
+    "Stephan",
+    "Stevie"
+  ],
+  "similarNames": [
+    "Steven",
+    "Stephen",
+    "Stefan",
+    "Stephan",
+    "Stevie"
+  ],
+  "nicknames": [
+    "Stevie",
+    "Ste",
+    "Vee"
+  ],
+  "personality": "The name Steve is often associated with friendly, approachable personality traits, reflecting a sense of reliability and down-to-earth nature.",
+  "symbolism": "Symbolically, the name Steve suggests leadership and honor, linked to its meaning 'crown'.",
+  "funFact": "Steve Jobs, co-founder of Apple Inc., is one of the most famous individuals with this name, having significantly impacted technology and design.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Steve Jobs",
+      "years": "1955-2011",
+      "category": "Entrepreneur",
+      "achievements": [
+        "Co-founder of Apple Inc.",
+        "Revolutionized personal computing"
+      ],
+      "significance": "Jobs was a pioneer of the personal computer revolution and a major figure in the consumer electronics industry.",
+      "notableWorks": [
+        "Apple I",
+        "iPhone"
+      ]
+    },
+    {
+      "fullName": "Steve Wozniak",
+      "years": "1950-Present",
+      "category": "Inventor",
+      "achievements": [
+        "Co-founder of Apple Inc.",
+        "Invented Apple I and II"
+      ],
+      "significance": "Wozniak's engineering prowess and innovative designs were crucial in the development and success of Apple Inc.",
+      "notableWorks": [
+        "Apple I",
+        "Apple II"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Innovation distinguishes between a leader and a follower.",
+      "author": "Steve Jobs",
+      "context": "A quote reflecting on the importance of innovation in leadership.",
+      "year": 2001,
+      "category": "Business"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Steve Martin",
+      "profession": "Actor",
+      "knownFor": [
+        "The Jerk",
+        "Father of the Bride"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Steve Carell",
+      "profession": "Actor",
+      "knownFor": [
+        "The Office",
+        "The 40-Year-Old Virgin"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Steve Harvey",
+      "profession": "Comedian",
+      "knownFor": [
+        "Family Feud",
+        "The Steve Harvey Show"
+      ],
+      "awards": "Daytime Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Steve Nash",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Phoenix Suns",
+        "Dallas Mavericks"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "13",
+      "years": "1996-2015",
+      "achievements": "Two-time NBA MVP",
+      "knownFor": [
+        "Passing",
+        "Leadership"
+      ],
+      "awards": "NBA MVP",
+      "stats": "Career averages: 14.3 points, 8.5 assists per game",
+      "verified": true,
+      "source": "NBA official site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Blues Brothers",
+      "year": 1980,
+      "type": "Movie",
+      "characterName": "Steve 'The Colonel' Cropper",
+      "characterDescription": "A member of the band in the classic musical comedy film.",
+      "imdbUrl": "https://www.imdb.com/title/tt0080455/",
+      "genre": "Musical Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Steve Harrington",
+      "characterDescription": "A popular high school student who becomes an unlikely hero.",
+      "imdbUrl": "https://www.imdb.com/title/tt4574334/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I may be a pretty shitty boyfriend, but turns out I'm actually a pretty damn good babysitter.",
+      "character": "Steve Harrington",
+      "source": "Stranger Things",
+      "year": 2017,
+      "context": "Steve reflects on his role as a protector to younger characters.",
+      "genre": "Science Fiction",
+      "impact": "Highlights character growth and charm."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and reflection.",
+    "compatibleSigns": [
+      "Capricorn",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs that provide stability and reliability.",
+    "cosmicElement": "The Leader",
+    "cosmicElementDescription": "Represents guidance and authority.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes strength, leadership, and determination.",
+    "karmicLessons": "Embrace innovation and inspire others.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire for creativity and expression."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 670,
+    "peak": 39,
+    "peakYear": 1959
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "context": "A call to embrace curiosity and innovation."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Steve"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Esteban",
+      "script": "Latin",
+      "scriptName": "Esteban",
+      "pronunciation": "esˈteβan",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Στέφανος",
+      "script": "Greek",
+      "scriptName": "Στέφανος",
+      "pronunciation": "ˈstefanos",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ستيف",
+      "script": "Arabic",
+      "scriptName": "ستيف",
+      "pronunciation": "steev",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "史蒂夫",
+      "script": "Han",
+      "scriptName": "史蒂夫",
+      "pronunciation": "ʃɪ˥˩ti˥˩fʊ˥˩",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Стив",
+      "script": "Cyrillic",
+      "scriptName": "Стив",
+      "pronunciation": "stʲiv",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סטיב",
+      "script": "Hebrew",
+      "scriptName": "סטיב",
+      "pronunciation": "steev",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has longstanding popularity and historical usage."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Associated with modern figures in technology and media."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistently used across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Steve McQueen",
+      "artist": "Sheryl Crow",
+      "year": 2002,
+      "genre": "Rock",
+      "nameContext": "Referencing the iconic actor Steve McQueen.",
+      "description": "The song celebrates the adventurous spirit and cool persona of the legendary actor Steve McQueen.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Steve+McQueen+Sheryl+Crow",
+      "geniusUrl": "https://genius.com/search?q=Steve%20McQueen%20Sheryl%20Crow",
+      "verified": true
+    },
+    {
+      "title": "Steve's Theme",
+      "artist": "James Newton Howard",
+      "year": 2000,
+      "genre": "Soundtrack",
+      "nameContext": "Instrumental theme from a film featuring a character named Steve.",
+      "description": "This instrumental piece captures the essence of the character Steve from the film 'Unbreakable', reflecting his inner strength and journey.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Steve%27s+Theme+James+Newton+Howard",
+      "geniusUrl": "https://genius.com/search?q=Steve%27s%20Theme%20James%20Newton%20Howard",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Steve is a name that resonates with timeless charm and modern appeal. From boardrooms to basketball courts, Steves have left their mark across diverse fields. Whether you're inspired by tech giants or iconic entertainers, the name Steve carries a legacy of innovation and charisma.",
+    "etymology_meaning": "Derived from the Greek name Stephen, meaning 'crown' or 'garland', Steve has been a symbol of leadership and honor for centuries. Its Greek roots highlight a tradition of achievement and distinction.",
+    "famous_bearers": "Among the most notable Steves are Steve Jobs, who revolutionized technology, and Steve Martin, a beloved comedian and actor. These figures exemplify the name's association with creativity and influence.",
+    "pop_culture_moments": "In pop culture, Steve is often portrayed as the quintessential everyman, from Steve Rogers in the Marvel Universe to Steve Harrington in 'Stranger Things'. These characters reflect the name's relatability and enduring appeal.",
+    "personality_profile": "Steves are often seen as charismatic, reliable, and grounded. They possess a natural leadership quality and an ability to connect with diverse people, making them popular and respected figures.",
+    "variations_nicknames": "Common variations include Steven and Stephen, while nicknames like Stevie and Ste are affectionate and approachable. These variations add versatility to the name's usage.",
+    "popularity_data": "Steve enjoyed peak popularity in the mid-20th century and remains a beloved choice today. Its consistent presence in baby name rankings reflects a timeless quality.",
+    "pairing_suggestions": "For a harmonious sibling set, consider pairing Steve with names like Lauren, Emily, or Michael, which share a classic and friendly vibe.",
+    "cultural_context": "As a name with deep historical roots, Steve carries cultural significance in both Western and Eastern contexts. Its adaptability and cross-cultural appeal make it a globally recognized name.",
+    "final_recommendation": "Choosing the name Steve offers a blend of historical depth and modern relevance. It's a name that stands the test of time, embodying qualities of leadership and innovation. Whether honoring a family tradition or inspired by famous Steves, this name is a strong choice for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

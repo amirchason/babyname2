@@ -1,0 +1,259 @@
+{
+  "name": "Meg",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:31:43.571Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Pearl",
+  "culturalSignificance": "The name Meg is often considered a diminutive of Margaret, which has been popular across various cultures due to its classic and timeless appeal. Margaret was a common name among royalty and saints, lending a sense of nobility and virtue to its shorter form, Meg.",
+  "modernContext": "In modern times, Meg is a popular choice as a standalone name, given its simplicity and elegance. It is frequently used in English-speaking countries and is often associated with warmth and friendliness.",
+  "literaryReferences": "Meg March, a character from Louisa May Alcott's 'Little Women', is a notable literary reference, known for her nurturing and responsible nature.",
+  "pronunciationGuide": "mɛɡ",
+  "variations": [
+    "Megan",
+    "Margaret",
+    "Meggie",
+    "Meggan"
+  ],
+  "similarNames": [
+    "Megan",
+    "Mae",
+    "Molly",
+    "Maeve",
+    "Maggie"
+  ],
+  "nicknames": [
+    "Megs",
+    "Meggie",
+    "Mimi"
+  ],
+  "personality": "Individuals with the name Meg are often perceived as dependable and caring, with a strong sense of responsibility and empathy.",
+  "symbolism": "The name Meg, like its root Margaret, symbolizes purity and rarity, akin to a pearl.",
+  "funFact": "Meg was among the top 100 names for girls in the United States during the late 19th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Meg Ryan",
+      "profession": "Actor",
+      "knownFor": [
+        "When Harry Met Sally",
+        "You've Got Mail"
+      ],
+      "awards": "Golden Globe nominations"
+    },
+    {
+      "name": "Meg Cabot",
+      "profession": "Author",
+      "knownFor": [
+        "The Princess Diaries",
+        "The Mediator series"
+      ],
+      "awards": "Multiple young adult fiction awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Family Guy",
+      "year": 1999,
+      "type": "TV Show",
+      "characterName": "Meg Griffin",
+      "characterDescription": "The teenage daughter often overlooked by her family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0182576/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 88
+    },
+    {
+      "title": "Little Women",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Meg March",
+      "characterDescription": "The eldest March sister known for her nurturing nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt3281548/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Why does nobody like me?",
+      "character": "Meg Griffin",
+      "source": "Family Guy",
+      "year": 1999,
+      "context": "Meg expressing her feelings of being overlooked.",
+      "genre": "Animation",
+      "impact": "Highlights her recurring role as the overlooked family member."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Pearl",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for culmination and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Water signs complement the emotional and intuitive nature of the name Meg.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and fluidity.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes caregiving and emotional support.",
+    "karmicLessons": "Learning to balance care for others with self-care.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "A desire to love and be loved, often seeking emotional security."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 457,
+    "peak": 111,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "context": "A motivational quote encouraging proactive change."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Meg"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Meg",
+      "script": "Latin",
+      "scriptName": "Meg",
+      "pronunciation": "meɣ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μεγ",
+      "script": "Greek",
+      "scriptName": "Μεγ",
+      "pronunciation": "meɡ",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميغ",
+      "script": "Arabic",
+      "scriptName": "ميغ",
+      "pronunciation": "meɡ",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "梅格",
+      "script": "Han",
+      "scriptName": "梅格",
+      "pronunciation": "méi gé",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мег",
+      "script": "Cyrillic",
+      "scriptName": "Мег",
+      "pronunciation": "mʲɛɡ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מג",
+      "script": "Hebrew",
+      "scriptName": "מג",
+      "pronunciation": "meɡ",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "publishedYear": 1868,
+      "genre": "Fiction",
+      "significance": "A classic novel that explores the lives of four sisters during the Civil War era.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has a long-standing history and is derived from the classic name Margaret."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Featured prominently in renowned literature such as 'Little Women'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maintains popularity across different eras and cultures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Meg White",
+      "artist": "Ray LaMontagne",
+      "year": 2008,
+      "genre": "Folk",
+      "nameContext": "The song is about Meg White from The White Stripes.",
+      "description": "A tribute to the musician Meg White, celebrating her unique style and persona.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ray+LaMontagne+Meg+White",
+      "geniusUrl": "https://genius.com/Ray-lamontagne-meg-white-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Meg is a name that carries a sense of warmth and familiarity, often evoking images of nurturing and dependable individuals. With roots in the classic name Margaret, Meg has established itself as a beloved choice through its simplicity and charm.",
+    "etymology_meaning": "Derived from the Greek name Margaret, meaning 'pearl', Meg offers a sense of purity and rarity. Its etymological journey has seen it adopted across various cultures, maintaining a timeless appeal.",
+    "famous_bearers": "Celebrities like Meg Ryan and author Meg Cabot have brought attention to the name, making it a popular choice in modern times. These figures embody the name's association with creativity and charisma.",
+    "pop_culture_moments": "Meg Griffin from 'Family Guy' and Meg March from 'Little Women' are iconic characters that have kept the name relevant in pop culture. These characters highlight the versatility and enduring nature of the name.",
+    "personality_profile": "Those named Meg are often seen as caring and responsible, with a strong inclination towards empathy and understanding. They are perceived as reliable friends and family members.",
+    "variations_nicknames": "Variations like Megan and nicknames such as Meggie and Mimi offer flexibility, allowing for personalization while retaining the core essence of the name.",
+    "popularity_data": "Meg has experienced fluctuating popularity, peaking in the late 19th century. Its timeless nature ensures it remains a favored choice among parents.",
+    "pairing_suggestions": "Names that complement Meg include classic choices like Henry or modern selections like Ethan, enhancing its simplicity with a stylish balance.",
+    "cultural_context": "Meg's cultural significance is enriched by its literary and historical roots, making it a name that resonates across different eras and societies.",
+    "final_recommendation": "For those seeking a name that combines classic elegance with modern simplicity, Meg is a perfect choice. Its rich history and cultural presence offer a name that stands the test of time.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

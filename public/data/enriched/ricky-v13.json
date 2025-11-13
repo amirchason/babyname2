@@ -1,0 +1,264 @@
+{
+  "name": "Ricky",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:37:46.744Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Powerful ruler",
+  "culturalSignificance": "Ricky is a diminutive of the name Richard, which has been popular across English-speaking countries. The name has historical significance due to its association with kings and nobility, making it a name that carries connotations of leadership and strength.",
+  "modernContext": "In modern times, Ricky is often used as a standalone name, particularly in the United States and the UK. It gained popularity in the mid-20th century, partly due to its association with celebrities and fictional characters.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈrɪki/",
+  "variations": [
+    "Rick",
+    "Richie",
+    "Rico",
+    "Rikki",
+    "Rik"
+  ],
+  "similarNames": [
+    "Richard",
+    "Rick",
+    "Richie",
+    "Mickey",
+    "Nicky"
+  ],
+  "nicknames": [
+    "Rick",
+    "Rich",
+    "Rico"
+  ],
+  "personality": "The name Ricky is often associated with a charismatic and outgoing personality. People named Ricky are seen as approachable and friendly, often possessing a natural charm.",
+  "symbolism": "Ricky symbolizes leadership and charisma, drawing from its roots as a diminutive of Richard, a name historically tied to powerful rulers.",
+  "funFact": "The name Ricky was popularized by the character Ricky Ricardo, played by Desi Arnaz, in the iconic TV show 'I Love Lucy'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ricky Martin",
+      "profession": "Musician",
+      "knownFor": [
+        "Livin' la Vida Loca",
+        "The Cup of Life"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Ricky Gervais",
+      "profession": "Comedian",
+      "knownFor": [
+        "The Office",
+        "Extras"
+      ],
+      "awards": "Golden Globe Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ricky Rubio",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Cleveland Cavaliers",
+      "pastTeams": [
+        "Minnesota Timberwolves",
+        "Phoenix Suns"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "9",
+      "years": "2011-Present",
+      "achievements": "NBA All-Rookie First Team",
+      "knownFor": [
+        "Passing",
+        "Defense"
+      ],
+      "awards": "EuroLeague Rising Star",
+      "stats": "Career averages of 11.1 PPG, 7.6 APG",
+      "verified": true,
+      "source": "https://www.nba.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "I Love Lucy",
+      "year": 1951,
+      "type": "TV Show",
+      "characterName": "Ricky Ricardo",
+      "characterDescription": "Cuban bandleader and husband of Lucy Ricardo",
+      "imdbUrl": "https://www.imdb.com/title/tt0043208/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "Ricky",
+      "year": 2009,
+      "type": "Movie",
+      "characterName": "Ricky",
+      "characterDescription": "A baby with extraordinary abilities",
+      "imdbUrl": "https://www.imdb.com/title/tt1189076/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 65
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs that share dynamic energy and enthusiasm.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents energy, assertiveness, and passion.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural born leaders with a commanding presence.",
+    "karmicLessons": "To harness their energy for positive pursuits.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "Driven by a desire to improve the world."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 87,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "context": "A reminder to stay present and appreciate life's moments."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ric-ky"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ricky",
+      "script": "Latin",
+      "scriptName": "Ricky",
+      "pronunciation": "/ˈriki/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρίκι",
+      "script": "Greek",
+      "scriptName": "Ρίκι",
+      "pronunciation": "/ˈriki/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ريكي",
+      "script": "Arabic",
+      "scriptName": "ريكي",
+      "pronunciation": "/ˈriːki/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "瑞奇",
+      "script": "Han",
+      "scriptName": "瑞奇",
+      "pronunciation": "/ruèi qí/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рики",
+      "script": "Cyrillic",
+      "scriptName": "Рики",
+      "pronunciation": "/ˈrʲikʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ריקי",
+      "script": "Hebrew",
+      "scriptName": "ריקי",
+      "pronunciation": "/ˈriki/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Derived from the classic name Richard with historical significance."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Gained modern popularity through media exposure."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Has remained in use across multiple generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ricky",
+      "artist": "Weezer",
+      "year": 2010,
+      "genre": "Rock",
+      "nameContext": "The song features the name Ricky prominently.",
+      "description": "A song by Weezer that captures the essence of youthful energy and rebellion.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Weezer+Ricky",
+      "geniusUrl": "https://genius.com/Weezer-ricky-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Ricky is a name that resonates with charm and charisma, often evoking images of dynamic leaders and charismatic entertainers. Its appeal spans across generations, making it a name that is both familiar and fresh.",
+    "etymology_meaning": "Derived from the Germanic name Richard, Ricky means 'powerful ruler.' The name has a longstanding history, associated with nobility and leadership.",
+    "famous_bearers": "Famous individuals named Ricky include musician Ricky Martin, known for his lively performances, and comedian Ricky Gervais, celebrated for his sharp wit.",
+    "pop_culture_moments": "Ricky Ricardo from 'I Love Lucy' is one of the most iconic characters with this name, contributing to its popularity in the mid-20th century.",
+    "personality_profile": "The name Ricky often suggests a person who is outgoing and charismatic, with a natural ability to lead and inspire others.",
+    "variations_nicknames": "Variations of the name include Rick, Richie, and Rico, each offering a slightly different flair. Common nicknames are Rick and Rich.",
+    "popularity_data": "Ricky saw its peak popularity in the 1980s. It remains a beloved choice for parents who seek a name with both historical depth and modern appeal.",
+    "pairing_suggestions": "Ricky pairs well with classic names like William and Elizabeth, as well as modern choices like Olivia and Ethan.",
+    "cultural_context": "The name's cultural background is rich, with ties to royalty and pop culture icons, making it a versatile choice for parents worldwide.",
+    "final_recommendation": "Ricky is a name that embodies leadership and charm. Whether you're drawn to its historical roots or its modern vibe, Ricky is a choice that stands the test of time.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

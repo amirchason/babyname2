@@ -1,0 +1,211 @@
+{
+  "name": "Hipolito",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T15:37:48.075Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Freer of horses",
+  "culturalSignificance": "Hipolito is a name of Greek origin, derived from 'Hippolytos,' which means 'freer of horses.' It has been used in various cultures, particularly in Spanish-speaking countries, and is associated with historical figures and saints.",
+  "modernContext": "Today, the name Hipolito is relatively uncommon but holds a classic charm, often seen in Hispanic communities. It is valued for its historical resonance and strong pronunciation.",
+  "literaryReferences": "The name is associated with Hippolytus, a character in Greek mythology who was the son of Theseus and an Amazonian queen, known for his devotion to Artemis.",
+  "pronunciationGuide": "/hiˈpo.li.to/",
+  "variations": [
+    "Hippolytus",
+    "Ippolito",
+    "Ipolito",
+    "Polito",
+    "Hippolyte"
+  ],
+  "similarNames": [
+    "Felipe",
+    "Pedro",
+    "Hector",
+    "Ignacio",
+    "Antonio"
+  ],
+  "nicknames": [
+    "Poli",
+    "Ito",
+    "Lito"
+  ],
+  "personality": "The name Hipolito is often associated with strength and leadership, reflecting a person who is determined and charismatic.",
+  "symbolism": "The name symbolizes freedom and strength, often linked with the nobility and grace of horses.",
+  "funFact": "Hipolito is a common name in several Latin American countries and has been used by various notable figures throughout history.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Hippolytus",
+    "significance": "Saint Hippolytus is considered a martyr in Christian tradition, known for his scholarly work and eventual martyrdom.",
+    "keyStories": [
+      "Martyrdom of Saint Hippolytus"
+    ],
+    "spiritualMeaning": "Represents sacrifice and devotion.",
+    "historicalImpact": "His writings contributed to early Christian theology."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Hipólito Yrigoyen",
+      "years": "1852-1933",
+      "category": "Politician",
+      "achievements": [
+        "President of Argentina",
+        "Leader of the Radical Civic Union"
+      ],
+      "significance": "Yrigoyen was a key figure in Argentine politics, known for his progressive reforms and efforts to modernize the country.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Hipólito Bouchard",
+      "years": "1780-1837",
+      "category": "Naval Officer",
+      "achievements": [
+        "Argentine privateer",
+        "Fought for independence"
+      ],
+      "significance": "Bouchard was instrumental in the naval campaigns of the Argentine War of Independence.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and reflection.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share intellectual and social qualities.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their adaptability and eloquence.",
+    "karmicLessons": "To learn to balance freedom with responsibility.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 900,
+    "peak": 450,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Freedom is the oxygen of the soul.",
+    "author": "Moshe Dayan",
+    "context": "The quote reflects the essence of freedom associated with the name Hipolito."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "Hi-po-li-to"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Hipólito",
+      "script": "Latin",
+      "scriptName": "Hipólito",
+      "pronunciation": "/iˈpo.li.to/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιππόλυτος",
+      "script": "Greek",
+      "scriptName": "Ιππόλυτος",
+      "pronunciation": "/iˈpo.li.tos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هيبوليتو",
+      "script": "Arabic",
+      "scriptName": "هيبوليتو",
+      "pronunciation": "/hiːboˈliːto/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "伊波利托",
+      "script": "Han",
+      "scriptName": "伊波利托",
+      "pronunciation": "/yī bō lì tuō/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ипполит",
+      "script": "Cyrillic",
+      "scriptName": "Ипполит",
+      "pronunciation": "/iˈpo.lit/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "היפוליטו",
+      "script": "Hebrew",
+      "scriptName": "היפוליטו",
+      "pronunciation": "/hiːpoˈlito/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has a long historical usage and is rooted in ancient Greek culture."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with Greek mythology and literature."
+    },
+    {
+      "tag": "Historical",
+      "confidence": 0.85,
+      "reason": "Linked to historical figures and saints."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Hipolito is a name that carries with it a rich historical and cultural heritage. With roots in ancient Greece, it evokes images of strength and freedom, reminiscent of its original meaning, 'freer of horses.' Though not as common today, this name resonates with those who appreciate its classic charm.",
+    "etymology_meaning": "The name Hipolito originates from the Greek 'Hippolytos,' which means 'freer of horses.' It has been used historically in various forms across Europe and Latin America, maintaining a noble and powerful connotation.",
+    "famous_bearers": "Notable individuals named Hipolito include Hipólito Yrigoyen, a prominent Argentine politician, and Hipólito Bouchard, a celebrated naval officer who contributed to Argentina's independence.",
+    "pop_culture_moments": "In pop culture, the name Hipolito might not frequently appear, but its historical and mythological roots have kept it relevant, especially in literary contexts.",
+    "personality_profile": "People named Hipolito are often perceived as strong and charismatic leaders, embodying the qualities of freedom and intellectual prowess. They are seen as adaptable and communicative, able to inspire those around them.",
+    "variations_nicknames": "Variations of the name include Hippolytus and Ippolito, with common nicknames like Poli and Lito providing a personable touch to this classic name.",
+    "popularity_data": "While the name Hipolito is not currently among the most popular baby names, it has experienced peaks in the past, particularly in regions with strong Spanish influences.",
+    "pairing_suggestions": "Hipolito pairs well with names that have a similar cultural or historical resonance, such as Antonio or Isabella, creating a harmonious blend of tradition and elegance.",
+    "cultural_context": "With a background steeped in Greek mythology and Christian tradition, Hipolito holds a place in both ancient and modern narratives, making it a culturally rich choice for those seeking a name with depth.",
+    "final_recommendation": "For parents looking for a name that embodies tradition and strength, Hipolito offers a unique choice that honors historical roots while still being adaptable to modern contexts. Its classic appeal and cultural significance make it a timeless option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

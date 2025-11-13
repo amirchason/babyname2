@@ -1,0 +1,214 @@
+{
+  "name": "Henrry",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:44:39.630Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Ruler of the home",
+  "culturalSignificance": "The name Henrry, a variation of Henry, has been associated with royalty and leadership throughout history. Derived from the Germanic name Heinrich, it was popularized by various kings of England and France.",
+  "modernContext": "The name Henrry is less common than its traditional spelling, Henry, but it is appreciated for its unique twist on a classic name. It appeals to parents looking for a familiar name with a distinctive spelling.",
+  "literaryReferences": "Henrry does not have notable literary references distinct from the name Henry.",
+  "pronunciationGuide": "ˈhɛnri",
+  "variations": [
+    "Henry",
+    "Henri",
+    "Henrik",
+    "Heinrich",
+    "Enrico"
+  ],
+  "similarNames": [
+    "Harry",
+    "Harrison",
+    "Hendrik",
+    "Harvey",
+    "Hank"
+  ],
+  "nicknames": [
+    "Hank",
+    "Harry",
+    "Hal"
+  ],
+  "personality": "Henrry is often associated with leadership and reliability. Those with this name are perceived as strong and dependable.",
+  "symbolism": "Symbolically, Henrry represents strength, authority, and a connection to history and tradition.",
+  "funFact": "Henry VIII, a historical bearer of the name, was known for his six marriages and significant impact on the Church of England.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Henry VIII",
+      "years": "1491-1547",
+      "category": "Royalty",
+      "achievements": [
+        "Established the Church of England",
+        "Significant military campaigns"
+      ],
+      "significance": "Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Henry Ford",
+      "years": "1863-1947",
+      "category": "Industrialist",
+      "achievements": [
+        "Founder of Ford Motor Company",
+        "Introduced assembly line production"
+      ],
+      "significance": "Henry Ford revolutionized the automobile industry with the introduction of the assembly line, making cars affordable for the general public.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Coming together is a beginning; keeping together is progress; working together is success.",
+      "author": "Henry Ford",
+      "context": "On teamwork and collaboration",
+      "year": 1920,
+      "category": "Business"
+    }
+  ],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment of what was started at the new moon.",
+    "compatibleSigns": [
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a practical and grounded nature with Henrry.",
+    "cosmicElement": "The Leader",
+    "cosmicElementDescription": "Represents guidance and authority, often taking charge in situations.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for bringing peace and stability to those around them.",
+    "karmicLessons": "Learning to balance authority with empathy.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and to nurture others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 478,
+    "peak": 32,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest thing in this world is not so much where we stand, as in what direction we are moving.",
+    "author": "Oliver Wendell Holmes",
+    "context": "On progress and determination."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Hen-rry"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Henrry",
+      "script": "Latin",
+      "scriptName": "Henrry",
+      "pronunciation": "ˈenri",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Χένρι",
+      "script": "Greek",
+      "scriptName": "Χένρι",
+      "pronunciation": "ˈxen.ri",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هنري",
+      "script": "Arabic",
+      "scriptName": "هنري",
+      "pronunciation": "ˈhɛn.ri",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "亨利",
+      "script": "Han",
+      "scriptName": "亨利",
+      "pronunciation": "hēng lì",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Генри",
+      "script": "Cyrillic",
+      "scriptName": "Генри",
+      "pronunciation": "ˈɡʲen.rʲi",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הנרי",
+      "script": "Hebrew",
+      "scriptName": "הנרי",
+      "pronunciation": "ˈhɛn.ri",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Henrry is a variant of the classic name Henry, known for its long-standing historical significance."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "The name is associated with multiple kings across history."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Despite the spelling variation, the name Henrry maintains a timeless appeal."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Henrry is a unique twist on the classic name Henry, offering a blend of tradition and individuality. Its roots are steeped in history, making it a choice with depth and character. While less common than its traditional counterpart, Henrry stands out for those seeking a name with historical gravitas yet modern appeal.",
+    "etymology_meaning": "Henrry originates from the Germanic name Heinrich, meaning 'ruler of the home.' This name has been borne by many notable figures throughout history, adding to its aura of authority and leadership.",
+    "famous_bearers": "Though Henrry is a modern variation, names like Henry Ford and King Henry VIII have shaped its legacy. These figures exemplify leadership and innovation, qualities often associated with the name.",
+    "pop_culture_moments": "While Henrry itself might not appear frequently in pop culture, its variant Henry is well-represented in literature and film, symbolizing strength and resilience.",
+    "personality_profile": "Those named Henrry are often seen as strong leaders, reliable and steadfast. Their namesake's history imbues them with a natural authority and an aura of respect.",
+    "variations_nicknames": "Henrry offers a range of nicknames like Hank or Harry, providing flexibility and a personal touch. It shares roots with variations like Henri and Henrik, broadening its cultural reach.",
+    "popularity_data": "Henrry is less common than Henry, providing a unique option for parents. Its ranking reflects a preference for traditional names with a modern twist.",
+    "pairing_suggestions": "Names like Elizabeth or Charlotte pair well with Henrry, balancing classic and contemporary styles. For a modern touch, consider pairing with names like Ava or Liam.",
+    "cultural_context": "The name's Germanic origins link it to a rich cultural tapestry, celebrated in European history and royal lineages. Henrry embodies a blend of old-world charm and modern flair.",
+    "final_recommendation": "Choosing Henrry is opting for a name with depth and distinction. Its historical roots and contemporary appeal make it a versatile choice, suitable for any future leader.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

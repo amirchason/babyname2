@@ -1,0 +1,291 @@
+{
+  "name": "Rob",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:11:16.755Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Bright fame",
+  "culturalSignificance": "The name 'Rob' is a short form of Robert, which has been popular across various cultures, particularly in English-speaking countries. It is often associated with historical figures like Robert the Bruce, a revered King of Scotland, and has been used in literature and media to denote characters with leadership qualities.",
+  "modernContext": "In modern times, 'Rob' remains a popular choice for parents seeking a classic yet approachable name. It's frequently used in media and pop culture, contributing to its enduring popularity.",
+  "literaryReferences": "Rob Roy is a notable character from Sir Walter Scott's novel of the same name, which portrays him as a Scottish folk hero.",
+  "pronunciationGuide": "/rɒb/",
+  "variations": [
+    "Robert",
+    "Robbie",
+    "Robin",
+    "Bob",
+    "Bobby"
+  ],
+  "similarNames": [
+    "Bob",
+    "Ron",
+    "Rod",
+    "Roy",
+    "Ross"
+  ],
+  "nicknames": [
+    "Robby",
+    "Bobby",
+    "Bob",
+    "Robbie"
+  ],
+  "personality": "Individuals named Rob are often perceived as strong, dependable, and charismatic. They are seen as natural leaders with a friendly and approachable demeanor.",
+  "symbolism": "The name 'Rob' symbolizes fame and brightness, often associated with leadership and success.",
+  "funFact": "The name Rob is often associated with Rob Roy MacGregor, a famous Scottish folk hero known for his defiance against the English in the early 18th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Robert the Bruce",
+      "years": "1274-1329",
+      "category": "Royalty",
+      "achievements": [
+        "Led Scotland during the First War of Scottish Independence",
+        "Won the Battle of Bannockburn"
+      ],
+      "significance": "Robert the Bruce was a key figure in Scottish history, known for securing Scotland's independence from England.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Rob Roy MacGregor",
+      "years": "1671-1734",
+      "category": "Folk Hero",
+      "achievements": [
+        "Renowned for his defiance against the English"
+      ],
+      "significance": "Rob Roy became a symbol of Scottish resistance and is a celebrated folk hero.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rob Lowe",
+      "profession": "Actor",
+      "knownFor": [
+        "The West Wing",
+        "Parks and Recreation"
+      ],
+      "awards": "Nominated for Golden Globe Awards"
+    },
+    {
+      "name": "Rob Zombie",
+      "profession": "Musician/Filmmaker",
+      "knownFor": [
+        "White Zombie",
+        "House of 1000 Corpses"
+      ],
+      "awards": "Nominated for Grammy Awards"
+    },
+    {
+      "name": "Rob Thomas",
+      "profession": "Musician",
+      "knownFor": [
+        "Matchbox Twenty",
+        "Solo career"
+      ],
+      "awards": "Grammy Award winner"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Rob Gronkowski",
+      "profession": "Athlete",
+      "sport": "American Football",
+      "league": "NFL",
+      "team": "Tampa Bay Buccaneers",
+      "pastTeams": [
+        "New England Patriots"
+      ],
+      "position": "Tight End",
+      "jerseyNumber": "87",
+      "years": "2010-2021",
+      "achievements": "4-time Super Bowl Champion",
+      "knownFor": [
+        "Catching ability",
+        "Blocking"
+      ],
+      "awards": "5-time Pro Bowler",
+      "stats": "621 receptions, 9,286 yards, 92 touchdowns",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Parks and Recreation",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Rob Lowe",
+      "characterDescription": "Chris Traeger, a health-obsessed government official",
+      "imdbUrl": "https://www.imdb.com/title/tt1266020/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Rob Roy",
+      "year": 1995,
+      "type": "Movie",
+      "characterName": "Rob Roy",
+      "characterDescription": "Scottish folk hero and outlaw",
+      "imdbUrl": "https://www.imdb.com/title/tt0114287/",
+      "genre": "Adventure",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and reflection, ideal for achieving goals.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs are intellectually stimulating and social, matching Rob's natural charisma.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents communication, intelligence, and freedom.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "This archetype is characterized by strength, guidance, and determination.",
+    "karmicLessons": "Learning to balance leadership with humility.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and exploration, both mentally and physically."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 50,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Rob Roy",
+    "context": "A reflection on perseverance and resilience."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Rob"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Roberto",
+      "script": "Latin",
+      "scriptName": "Roberto",
+      "pronunciation": "/roˈβeɾ.to/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ροβέρτος",
+      "script": "Greek",
+      "scriptName": "Ροβέρτος",
+      "pronunciation": "/roˈver.tos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روبرت",
+      "script": "Arabic",
+      "scriptName": "روبرت",
+      "pronunciation": "/ruːˈbeːrt/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗伯特",
+      "script": "Han",
+      "scriptName": "罗伯特",
+      "pronunciation": "/luó bó tè/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Роберт",
+      "script": "Cyrillic",
+      "scriptName": "Роберт",
+      "pronunciation": "/ˈrobʲɪrt/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רוברט",
+      "script": "Hebrew",
+      "scriptName": "רוברט",
+      "pronunciation": "/ˈroːbɛrt/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Rob Roy",
+      "author": "Sir Walter Scott",
+      "publishedYear": 1817,
+      "genre": "Historical Fiction",
+      "significance": "A classic novel that dramatizes the life of Rob Roy MacGregor, a Scottish folk hero.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Rob has been used for centuries and remains a timeless choice."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Appears in notable works such as Sir Walter Scott's 'Rob Roy'."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Connected to historic figures like Robert the Bruce."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Rob has a rich history rooted in leadership and fame. Derived from the name Robert, it has been associated with notable figures across centuries, including kings and folk heroes. Its simplicity and strength make it a favorite among parents seeking a classic name.",
+    "etymology_meaning": "Rob is a shortened form of Robert, which originates from the Old High German name Hrodebert, meaning 'bright fame'. Over time, it became popular in English-speaking countries, maintaining its association with leadership and distinction.",
+    "famous_bearers": "The name Rob is borne by several famous individuals, including actor Rob Lowe, musician Rob Zombie, and NFL player Rob Gronkowski. Each of these figures has contributed to the name's modern appeal and recognition.",
+    "pop_culture_moments": "In pop culture, Rob has been featured in various films and TV shows, such as 'Parks and Recreation' with Rob Lowe and the historical film 'Rob Roy'. These appearances have cemented its reputation as a versatile and enduring name.",
+    "personality_profile": "The name Rob evokes images of charisma and leadership. Those named Rob are often seen as approachable and reliable, with a strong sense of determination and a knack for inspiring others.",
+    "variations_nicknames": "Rob is commonly associated with variations like Robert, Robbie, and Bob. Nicknames such as Robby and Bobby offer additional options for personalization, making it adaptable across different contexts.",
+    "popularity_data": "Rob has maintained a steady presence in baby name charts, peaking in the late 20th century. Its consistent usage reflects its enduring appeal and the timeless nature of its simplicity.",
+    "pairing_suggestions": "Consider pairing Rob with middle names that complement its strength, such as Alexander or James. For siblings, names like Kate or Jack offer a harmonious balance, reflecting a classic and cohesive family set.",
+    "cultural_context": "Rooted in Germanic origins, Rob has transcended cultural boundaries, becoming a staple in English-speaking regions. Its usage in various media and historical contexts underscores its broad cultural significance.",
+    "final_recommendation": "Rob is a name that blends historical prestige with modern charm. Its versatility and timeless appeal make it an excellent choice for parents seeking a name that embodies strength, leadership, and simplicity.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

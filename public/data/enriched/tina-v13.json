@@ -1,0 +1,259 @@
+{
+  "name": "Tina",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:00:34.146Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Follower of Christ",
+  "culturalSignificance": "Tina is often used as a diminutive of names like Christina or Martina, which have Latin origins. It gained popularity in the English-speaking world in the mid-20th century and is associated with simplicity and friendliness.",
+  "modernContext": "In recent years, Tina has seen a decline in popularity but remains a classic name choice. It is often chosen for its timeless appeal and ease of pronunciation.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈtiːnə",
+  "variations": [
+    "Christina",
+    "Martina",
+    "Valentina",
+    "Justina",
+    "Albertina"
+  ],
+  "similarNames": [
+    "Nina",
+    "Gina",
+    "Lina",
+    "Mina",
+    "Rina"
+  ],
+  "nicknames": [
+    "Tee",
+    "Tiny",
+    "T",
+    "Tinny"
+  ],
+  "personality": "People named Tina are often seen as approachable and warm-hearted, with a strong sense of loyalty to their friends and family.",
+  "symbolism": "The name Tina symbolizes a sense of timelessness and grace, often associated with qualities like simplicity and strength.",
+  "funFact": "Tina Turner, one of the most famous bearers of the name, is a legendary singer known for her powerful voice and energetic performances.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [
+    {
+      "quote": "Sometimes you've got to let everything go - purge yourself. If you are unhappy with anything... whatever is bringing you down, get rid of it. Because you'll find that when you're free, your true creativity, your true self, comes out.",
+      "author": "Tina Turner",
+      "context": "Expressing personal philosophy on freedom and creativity.",
+      "year": 1990,
+      "category": "Personal Development"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Tina Turner",
+      "profession": "Musician",
+      "knownFor": [
+        "What's Love Got to Do with It",
+        "Proud Mary"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Tina Fey",
+      "profession": "Comedian",
+      "knownFor": [
+        "30 Rock",
+        "Saturday Night Live"
+      ],
+      "awards": "Primetime Emmy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Napoleon Dynamite",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Tina",
+      "characterDescription": "A llama owned by the protagonist's family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0374900/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Bob's Burgers",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Tina Belcher",
+      "characterDescription": "A socially awkward teenager with a vivid imagination.",
+      "imdbUrl": "https://www.imdb.com/title/tt1561755/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm no hero. I put my bra on one boob at a time like everyone else.",
+      "character": "Tina Belcher",
+      "source": "Bob's Burgers",
+      "year": 2013,
+      "context": "Tina expressing her down-to-earth personality.",
+      "genre": "Animation",
+      "impact": "Showcases Tina's relatable humor."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and abundance.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery and dynamic energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Symbolizes passion, energy, and transformation.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Embodies courage, initiative, and charisma.",
+    "karmicLessons": "Learning to balance independence with cooperation.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Driven by a desire for independence and achievement."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 50,
+    "peakYear": 1975
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "You must love and care for yourself because that's when the best comes out.",
+    "author": "Tina Turner",
+    "context": "Encouragement for self-care and personal growth."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ti-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Tina",
+      "script": "Latin",
+      "scriptName": "Tina",
+      "pronunciation": "ˈtina",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τίνα",
+      "script": "Greek",
+      "scriptName": "Τίνα",
+      "pronunciation": "ˈtina",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "تينا",
+      "script": "Arabic",
+      "scriptName": "تينا",
+      "pronunciation": "ˈtiːna",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "蒂娜",
+      "script": "Han",
+      "scriptName": "蒂娜",
+      "pronunciation": "dì nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Тина",
+      "script": "Cyrillic",
+      "scriptName": "Тина",
+      "pronunciation": "ˈtʲinə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "טינה",
+      "script": "Hebrew",
+      "scriptName": "טינה",
+      "pronunciation": "ˈtina",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Tina is a timeless name that has been consistently used for decades."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has maintained a steady presence across generations."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Despite its classic roots, Tina remains a modern choice for many parents."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Tina",
+      "artist": "Frank Zappa",
+      "year": 1981,
+      "genre": "Rock",
+      "nameContext": "The name appears in the lyrics of the song.",
+      "description": "A track by Frank Zappa featuring quirky and humorous lyrics.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Frank+Zappa+Tina",
+      "geniusUrl": "https://genius.com/search?q=Frank+Zappa+Tina",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Tina exudes an aura of simplicity and charm, making it a beloved choice for many parents over the decades. Whether as a standalone name or a diminutive of other names, Tina has carved its niche in the realm of timeless names.",
+    "etymology_meaning": "Derived from Latin origins, Tina is often a diminutive of Christina or Martina, both of which have religious connotations as 'follower of Christ'. This adds an elegant depth to its simple form.",
+    "famous_bearers": "Tina Turner, the iconic music legend, and Tina Fey, the celebrated comedian and writer, have both brought immense prestige to the name. These accomplished women have showcased the versatility and strength associated with the name Tina.",
+    "pop_culture_moments": "Tina Belcher from the popular animated series 'Bob's Burgers' is a testament to the name's enduring charm, capturing the hearts of audiences with her quirky humor and unique personality.",
+    "personality_profile": "Individuals named Tina are often perceived as approachable and nurturing, with a natural ability to connect with others. They are seen as reliable friends who offer a comforting presence.",
+    "variations_nicknames": "While Tina stands strong on its own, it is often used as a diminutive for names like Christina or Martina. Common nicknames include Tee, Tinny, or simply T.",
+    "popularity_data": "Tina reached its peak popularity in the mid to late 20th century, particularly around the 1970s. Despite a decline in recent years, it remains a beloved classic.",
+    "pairing_suggestions": "Tina pairs well with both traditional and contemporary middle names, such as Marie, Elizabeth, or more unique options like Skye or Jade.",
+    "cultural_context": "Across cultures, Tina is recognized for its simplicity and adaptability, making it a name that resonates globally. Its ease of pronunciation and spelling adds to its cross-cultural appeal.",
+    "final_recommendation": "For parents seeking a name that blends simplicity with timeless appeal, Tina is an excellent choice. It carries a rich history and modern relevance, making it a versatile option for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

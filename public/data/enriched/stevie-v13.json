@@ -1,0 +1,278 @@
+{
+  "name": "Stevie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:21:42.578Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Greek",
+  "meaning": "Crown, garland",
+  "culturalSignificance": "The name Stevie is a diminutive form of Stephen or Stephanie, originating from the Greek name 'Stephanos', which means 'crown' or 'garland'. It gained popularity in the 20th century, especially in English-speaking countries.",
+  "modernContext": "Stevie is used as a unisex name, though it is more commonly associated with females in recent years due to cultural influences like Stevie Nicks. The name maintains a modern and friendly appeal, frequently appearing in pop culture.",
+  "literaryReferences": "Notable literary references include the use of 'Stevie' in novels and songs, often characterizing someone with a free spirit.",
+  "pronunciationGuide": "/ˈstiːvi/",
+  "variations": [
+    "Stephen",
+    "Stephanie",
+    "Steph",
+    "Stefan",
+    "Stefani"
+  ],
+  "similarNames": [
+    "Steven",
+    "Stella",
+    "Stefan",
+    "Stephanie",
+    "Steve"
+  ],
+  "nicknames": [
+    "Ste",
+    "Stev",
+    "Stevo",
+    "Stevie Wonder"
+  ],
+  "personality": "People named Stevie are often perceived as creative and free-spirited, with a warm and approachable demeanor.",
+  "symbolism": "The name Stevie symbolizes creativity and imagination, often associated with musical talent and artistic expression.",
+  "funFact": "Stevie Nicks, a member of Fleetwood Mac, has significantly influenced the popularity of the name Stevie, especially among girls.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Stevie Smith",
+      "years": "1902-1971",
+      "category": "Poet",
+      "achievements": [
+        "Published numerous poetry collections",
+        "Known for her novel 'Novel on Yellow Paper'"
+      ],
+      "significance": "Stevie Smith was a British poet and novelist, celebrated for her quirky and imaginative poetry.",
+      "notableWorks": [
+        "Not Waving but Drowning",
+        "Novel on Yellow Paper"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Stevie Nicks",
+      "profession": "Musician",
+      "knownFor": [
+        "Fleetwood Mac",
+        "Solo career"
+      ],
+      "awards": "Grammy Award"
+    },
+    {
+      "name": "Stevie Wonder",
+      "profession": "Musician",
+      "knownFor": [
+        "Superstition",
+        "Isn't She Lovely"
+      ],
+      "awards": "25 Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Schitt's Creek",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "Stevie Budd",
+      "characterDescription": "A witty and sarcastic motel clerk",
+      "imdbUrl": "https://www.imdb.com/title/tt3526078/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm not going to be around forever.",
+      "character": "Stevie Budd",
+      "source": "Schitt's Creek",
+      "year": 2015,
+      "context": "Stevie reflects on her life choices while working at the motel.",
+      "genre": "Comedy",
+      "impact": "This quote showcases Stevie's realistic and introspective nature."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and growth",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for communication and social interaction.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to express and share ideas.",
+    "karmicLessons": "Embracing change and adaptability.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "An urge to express oneself and bring joy to others."
+  },
+  "genderDistribution": {
+    "male": 35,
+    "female": 65
+  },
+  "ranking": {
+    "current": 732,
+    "peak": 218,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only thing worse than being blind is having sight but no vision.",
+    "author": "Stevie Wonder",
+    "context": "A reminder of the importance of vision and purpose."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ste-vie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Esteban",
+      "script": "Latin",
+      "scriptName": "Esteban",
+      "pronunciation": "/esˈteβan/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Στέφανος",
+      "script": "Greek",
+      "scriptName": "Στέφανος",
+      "pronunciation": "/ˈstefanos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ستيفي",
+      "script": "Arabic",
+      "scriptName": "ستيفي",
+      "pronunciation": "/stiːvi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "斯蒂维",
+      "script": "Han",
+      "scriptName": "斯蒂维",
+      "pronunciation": "/sī dì wéi/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Стиви",
+      "script": "Cyrillic",
+      "scriptName": "Стиви",
+      "pronunciation": "/ˈstʲivʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סטיבי",
+      "script": "Hebrew",
+      "scriptName": "סטיבי",
+      "pronunciation": "/stiːvi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "childName": "Stevie",
+      "parentNames": [
+        "Jessica Alba",
+        "Cash Warren"
+      ],
+      "birthYear": 2024,
+      "context": "Jessica Alba and Cash Warren named their third child Stevie, contributing to the name's popularity."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Stevie has become popular in recent decades, influenced by music and pop culture."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.95,
+      "reason": "Stevie is widely used for both boys and girls, especially in the English-speaking world."
+    },
+    {
+      "tag": "Musical",
+      "confidence": 0.85,
+      "reason": "The name is strongly associated with musicians like Stevie Wonder and Stevie Nicks."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Stevie's Dream",
+      "artist": "Stevie Wonder",
+      "year": 2016,
+      "genre": "R&B/Soul",
+      "nameContext": "The name is part of the album's concept.",
+      "description": "A song that reflects Stevie Wonder's vision and dreams for a better world.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Stevie's+Dream+Stevie+Wonder",
+      "geniusUrl": "https://genius.com/search?q=Stevie's+Dream+Stevie+Wonder",
+      "verified": true
+    },
+    {
+      "title": "Stevie",
+      "artist": "Kasabian",
+      "year": 2014,
+      "genre": "Rock",
+      "nameContext": "The song title and lyrics explore the character of Stevie.",
+      "description": "A rock song by Kasabian with an energetic beat and introspective lyrics.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Stevie+Kasabian",
+      "geniusUrl": "https://genius.com/search?q=Stevie+Kasabian",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Stevie is a name that carries a sense of rhythm and charm, often associated with musical legends. Whether you're envisioning a future rock star or a creative thinker, Stevie is a name that resonates with potential.",
+    "etymology_meaning": "Derived from the Greek 'Stephanos', meaning 'crown' or 'garland', Stevie is a diminutive of Stephen or Stephanie. Its regal connotations are paired with a modern, friendly vibe.",
+    "famous_bearers": "Stevie Nicks and Stevie Wonder are iconic musicians whose talents have brought the name into the limelight, influencing its popularity across generations.",
+    "pop_culture_moments": "From the TV character Stevie Budd on 'Schitt's Creek' to numerous songs and albums, Stevie continues to be a name that captures the imagination in pop culture.",
+    "personality_profile": "Individuals named Stevie often exude creativity and warmth. They are seen as approachable and innovative, often leaving a lasting impression on those they meet.",
+    "variations_nicknames": "Variations like Stephen and Stephanie offer formal alternatives, while nicknames such as Ste and Stevo add a personal touch.",
+    "popularity_data": "While the name Stevie has seen fluctuations in popularity, its peak was in the 1980s. Today, it remains a beloved choice for parents seeking a unique yet familiar name.",
+    "pairing_suggestions": "Stevie pairs well with names like James and Rose, offering a blend of modern flair and timeless elegance.",
+    "cultural_context": "The name Stevie bridges cultures and eras, from ancient Greek roots to modern musical influences, embodying a blend of history and contemporary appeal.",
+    "final_recommendation": "If you're looking for a name that carries musical and cultural significance, Stevie might just be the perfect choice. Its unisex nature and strong associations make it a versatile and enduring option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

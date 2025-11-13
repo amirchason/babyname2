@@ -1,0 +1,250 @@
+{
+  "name": "Beth",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:32:00.090Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is my oath",
+  "culturalSignificance": "Beth is often used as a diminutive of Elizabeth, which has been a popular name in English-speaking countries for centuries. The name Beth gained popularity as a standalone name during the 20th century, particularly in the United States.",
+  "modernContext": "Beth remains a moderately popular name in modern times, often seen as a classic and simple choice. It is frequently used in literature and media, contributing to its continued recognition.",
+  "literaryReferences": "Beth March is a beloved character from Louisa May Alcott's classic novel 'Little Women', known for her kindness and gentle nature.",
+  "pronunciationGuide": "bɛθ",
+  "variations": [
+    "Elizabeth",
+    "Bethany",
+    "Liz",
+    "Eliza",
+    "Lisa"
+  ],
+  "similarNames": [
+    "Bess",
+    "Betty",
+    "Betsy",
+    "Bethan",
+    "Liza"
+  ],
+  "nicknames": [
+    "Bethie",
+    "B",
+    "Bee",
+    "Bet"
+  ],
+  "personality": "People named Beth are often perceived as compassionate, reliable, and nurturing, likely due to the influence of literature and media portrayals.",
+  "symbolism": "Beth symbolizes faithfulness and devotion, aligning with its Hebrew origins meaning 'God is my oath'.",
+  "funFact": "The name Beth became notably popular after the character Beth March in 'Little Women', whose gentle personality left a strong impression on readers.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Beth Behrs",
+      "profession": "Actress",
+      "knownFor": [
+        "2 Broke Girls"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Beth Orton",
+      "profession": "Musician",
+      "knownFor": [
+        "Central Reservation",
+        "Trailer Park"
+      ],
+      "awards": "BRIT Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Little Women",
+      "year": 1994,
+      "type": "Movie",
+      "characterName": "Beth March",
+      "characterDescription": "The gentle and kind third sister in the March family.",
+      "imdbUrl": "https://www.imdb.com/title/tt0110367/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "This Is Us",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Beth Pearson",
+      "characterDescription": "The loving and supportive wife of Randall Pearson.",
+      "imdbUrl": "https://www.imdb.com/title/tt5555260/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and progress.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, fostering stability and reliability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes practicality, stability, and groundedness.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Represents care, compassion, and support for others.",
+    "karmicLessons": "To learn patience and the importance of nurturing relationships.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Desires harmony and balance in personal relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 150,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The simplest things are often the truest.",
+    "author": "Beth March, 'Little Women'",
+    "context": "A reflection on the value of simplicity and truth."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Beth"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Beth",
+      "script": "Latin",
+      "scriptName": "Beth",
+      "pronunciation": "bɛθ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπεθ",
+      "script": "Greek",
+      "scriptName": "Μπεθ",
+      "pronunciation": "bɛθ",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بيث",
+      "script": "Arabic",
+      "scriptName": "بيث",
+      "pronunciation": "biːθ",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "贝丝",
+      "script": "Han",
+      "scriptName": "贝丝",
+      "pronunciation": "bèi sī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Бет",
+      "script": "Cyrillic",
+      "scriptName": "Бет",
+      "pronunciation": "bɛt",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בת",
+      "script": "Hebrew",
+      "scriptName": "בת",
+      "pronunciation": "bɛθ",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "publishedYear": 1868,
+      "genre": "Fiction",
+      "significance": "A classic novel that explores the lives of the March sisters.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Beth is derived from Elizabeth, a name with historical depth and enduring usage."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name is prominently featured in 'Little Women', a classic piece of literature."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Beth has remained a consistent choice for decades, reflecting timeless appeal."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Beth",
+      "artist": "KISS",
+      "year": 1976,
+      "genre": "Rock",
+      "nameContext": "The name is central to the song's lyrics.",
+      "description": "A ballad expressing regret and longing, where the narrator apologizes to Beth for not being able to be with her.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=KISS+Beth",
+      "geniusUrl": "https://genius.com/Kiss-beth-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Beth, a name that captures simplicity and grace, has been cherished for generations. Often seen as a standalone name or a diminutive of Elizabeth, Beth carries a sense of timelessness and warmth. Its use in literature and media has only added to its enduring appeal.",
+    "etymology_meaning": "Derived from the Hebrew name Elizabeth, meaning 'God is my oath', Beth carries a deep religious connotation. Over time, it evolved into a popular standalone name, particularly in English-speaking regions.",
+    "famous_bearers": "Beth Behrs, known for her role in '2 Broke Girls', and musician Beth Orton, have both contributed to the name's recognition in modern culture.",
+    "pop_culture_moments": "Beth March from 'Little Women' remains an iconic character, embodying kindness and humility. The song 'Beth' by KISS further popularized the name in the music world.",
+    "personality_profile": "Beth is often associated with kindness, reliability, and a nurturing spirit. These traits, coupled with its literary and cultural references, paint a picture of a name that is both strong and gentle.",
+    "variations_nicknames": "Beth can be a short form of Elizabeth, but stands strong on its own. Common nicknames like Bethie and Bee add a playful touch to its classic charm.",
+    "popularity_data": "Beth's popularity peaked in the late 20th century, driven by cultural influences in literature and music. While not as common today, it remains a beloved choice for parents seeking a classic name.",
+    "pairing_suggestions": "Pairing Beth with middle names like Anne or Louise can create a harmonious blend. It also complements longer surnames due to its simplicity and elegance.",
+    "cultural_context": "Beth's roots in the Hebrew name Elizabeth give it a rich cultural background. Its widespread use across various cultures underscores its universal appeal.",
+    "final_recommendation": "For those seeking a name that is both classic and meaningful, Beth offers a perfect balance. Its literary ties and gentle sound make it a timeless choice.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

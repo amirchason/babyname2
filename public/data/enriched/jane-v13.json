@@ -1,0 +1,317 @@
+{
+  "name": "Jane",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:41:02.611Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Jane is a classic name with deep historical roots, stemming from the Hebrew name Yochanan, meaning 'God is gracious.' It became widely used in the English-speaking world from the 16th century onwards and has been associated with royalty and literary figures.",
+  "modernContext": "In modern times, Jane remains a popular choice for its simplicity and elegance. It is often perceived as a timeless name that conveys strength and grace. It has gained popularity through its association with iconic literary characters and public figures.",
+  "literaryReferences": "Jane is famously associated with the character Jane Eyre from Charlotte Brontë's novel 'Jane Eyre,' a story about a strong and independent woman navigating life's challenges.",
+  "pronunciationGuide": "/dʒeɪn/",
+  "variations": [
+    "Janet",
+    "Janie",
+    "Jayne",
+    "Jana",
+    "Jean"
+  ],
+  "similarNames": [
+    "Joan",
+    "June",
+    "Jean",
+    "Janice",
+    "Jade",
+    "Julie"
+  ],
+  "nicknames": [
+    "Janey",
+    "Janie",
+    "Jay",
+    "JJ"
+  ],
+  "personality": "The name Jane is often associated with traits such as intelligence, independence, and kindness. People named Jane are perceived as reliable and thoughtful.",
+  "symbolism": "The name Jane symbolizes grace and resilience, often associated with literary heroines who embody these qualities.",
+  "funFact": "The name Jane has been popularized by many fictional characters, including Jane Austen's heroines and Disney's Jane Porter from 'Tarzan.'",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jane Austen",
+      "years": "1775-1817",
+      "category": "Author",
+      "achievements": [
+        "Author of 'Pride and Prejudice'",
+        "Pioneer of the novel of manners"
+      ],
+      "significance": "Jane Austen is one of the most famous authors in English literature, known for her novels that provide a critique of the British landed gentry at the end of the 18th century.",
+      "notableWorks": [
+        "Pride and Prejudice",
+        "Sense and Sensibility"
+      ]
+    },
+    {
+      "fullName": "Jane Goodall",
+      "years": "1934-Present",
+      "category": "Scientist",
+      "achievements": [
+        "Renowned primatologist",
+        "UN Messenger of Peace"
+      ],
+      "significance": "Jane Goodall is best known for her groundbreaking research on wild chimpanzees in Gombe Stream National Park, Tanzania. Her work has transformed our understanding of primates and conservation.",
+      "notableWorks": [
+        "In the Shadow of Man",
+        "The Chimpanzees of Gombe"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "It isn't what we say or think that defines us, but what we do.",
+      "author": "Jane Austen",
+      "context": "From her novel 'Sense and Sensibility'",
+      "year": 1811,
+      "category": "Literature"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Jane Fonda",
+      "profession": "Actor",
+      "knownFor": [
+        "Klute",
+        "Coming Home"
+      ],
+      "awards": "Two Academy Awards"
+    },
+    {
+      "name": "Jane Lynch",
+      "profession": "Actor",
+      "knownFor": [
+        "Glee",
+        "The 40-Year-Old Virgin"
+      ],
+      "awards": "Primetime Emmy Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Jane Eyre",
+      "year": 2011,
+      "type": "Movie",
+      "characterName": "Jane Eyre",
+      "characterDescription": "An orphaned governess and the protagonist of the story.",
+      "imdbUrl": "https://www.imdb.com/title/tt1229822/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    },
+    {
+      "title": "Tarzan",
+      "year": 1999,
+      "type": "Movie",
+      "characterName": "Jane Porter",
+      "characterDescription": "An explorer and the love interest of Tarzan.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120855/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I am no bird; and no net ensnares me: I am a free human being with an independent will.",
+      "character": "Jane Eyre",
+      "source": "Jane Eyre",
+      "year": 1847,
+      "context": "Jane asserts her independence and self-worth.",
+      "genre": "Romance",
+      "impact": "This quote has become emblematic of female empowerment and independence."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs are known for their emotional depth and intuition, complementing the name Jane's qualities.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Associated with emotion and intuition, water represents adaptability and sensitivity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "This archetype is nurturing and compassionate, aiming to help and heal others.",
+    "karmicLessons": "Learning to balance emotions and practicality.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 5,
+    "peakYear": 1940
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "context": "This quote encourages individuals with the name Jane to pursue their dreams with confidence."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Jane"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Juana",
+      "script": "Latin",
+      "scriptName": "Juana",
+      "pronunciation": "/ˈxwana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωάννα",
+      "script": "Greek",
+      "scriptName": "Ιωάννα",
+      "pronunciation": "/ioˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جين",
+      "script": "Arabic",
+      "scriptName": "جين",
+      "pronunciation": "/ʤeːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "简",
+      "script": "Han",
+      "scriptName": "简",
+      "pronunciation": "/jiǎn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Жанна",
+      "script": "Cyrillic",
+      "scriptName": "Жанна",
+      "pronunciation": "/ˈʐanə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'יין",
+      "script": "Hebrew",
+      "scriptName": "ג'יין",
+      "pronunciation": "/ʤeɪn/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "publishedYear": 1847,
+      "genre": "Fiction",
+      "significance": "This novel is a classic of English literature, known for its strong female protagonist and themes of independence and morality.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name Jane has been consistently used for centuries, retaining its timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Jane is strongly associated with literary figures such as Jane Eyre and Jane Austen."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Its consistent popularity over the years makes Jane a timeless choice."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Jane has historical ties to royalty, including Lady Jane Grey."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Sweet Jane",
+      "artist": "The Velvet Underground",
+      "year": 1970,
+      "genre": "Rock",
+      "nameContext": "The chorus repeatedly uses the name Jane.",
+      "description": "An iconic rock song that captures the essence of the 1970s counterculture movement.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Sweet+Jane+The+Velvet+Underground",
+      "geniusUrl": "https://genius.com/The-velvet-underground-sweet-jane-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Jane",
+      "artist": "Jefferson Starship",
+      "year": 1979,
+      "genre": "Rock",
+      "nameContext": "Jane is the central character and theme of the song.",
+      "description": "A rock anthem that showcases the band's energetic style and lyrical depth.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jane+Jefferson+Starship",
+      "geniusUrl": "https://genius.com/Jefferson-starship-jane-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jane is a name that has stood the test of time, gracing the pages of literature and the annals of history. From classic novels to modern-day movies, Jane is a name that carries elegance and strength. Whether as a first name or a middle name, its simplicity and charm make it a favorite among parents.",
+    "etymology_meaning": "The name Jane originates from the Hebrew name Yochanan, meaning 'God is gracious.' It has been anglicized over the centuries and retains its popularity due to its classic appeal and profound meaning.",
+    "famous_bearers": "Famous individuals named Jane include Jane Austen, the influential English novelist, and Jane Goodall, the renowned primatologist. Their contributions to literature and science have made the name synonymous with intelligence and achievement.",
+    "pop_culture_moments": "Jane has appeared in numerous cultural contexts, from the character Jane Eyre in Charlotte Brontë's novel to Jane Porter in Disney's 'Tarzan.' These characters have reinforced the name's association with strong, independent women.",
+    "personality_profile": "People named Jane are often perceived as thoughtful, reliable, and kind. They are seen as having a quiet strength and a nurturing nature, making them approachable and trustworthy.",
+    "variations_nicknames": "Variations of Jane include Janet, Jayne, and Janey, offering a range of options for personalizing the name. Nicknames like Janey or JJ provide a playful touch.",
+    "popularity_data": "Jane has consistently ranked in the top names for girls over the past century, peaking in popularity in the mid-20th century. Its continued use reflects its timeless nature.",
+    "pairing_suggestions": "Jane pairs beautifully with many names, offering balance and rhythm. Consider combinations like Jane Elizabeth or Jane Marie for a classic sound.",
+    "cultural_context": "As a name with deep roots in Western culture, Jane has appeared in various forms across different languages, maintaining its elegance and accessibility.",
+    "final_recommendation": "If you're looking for a name that combines historical significance with modern appeal, Jane is a top choice. Its simplicity is matched by its depth, making it a name that will never go out of style.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

@@ -1,0 +1,301 @@
+{
+  "name": "Douglas",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:37:32.542Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Scottish",
+  "meaning": "Dark river",
+  "culturalSignificance": "Douglas is a name of Scottish origin, historically associated with the powerful Douglas clan in Scotland. It was initially used as a surname, derived from the Gaelic 'Dubhghlas', meaning 'dark river', reflecting the geographical features of their ancestral lands.",
+  "modernContext": "In modern times, Douglas is a classic and steady choice for boys' names, often seen in English-speaking countries. It has maintained a consistent presence without peaking or waning dramatically, appealing to those who favor traditional and strong names.",
+  "literaryReferences": "Douglas appears in various works of literature, including Sir Walter Scott's 'The Lady of the Lake', where the character James Douglas is a prominent figure.",
+  "pronunciationGuide": "ˈdʌɡləs",
+  "variations": [
+    "Douglass",
+    "Doug",
+    "Dougie"
+  ],
+  "similarNames": [
+    "Donald",
+    "Duncan",
+    "David",
+    "Daniel",
+    "Dylan"
+  ],
+  "nicknames": [
+    "Doug",
+    "Dougie",
+    "Dug"
+  ],
+  "personality": "Douglas is often associated with leadership and reliability, traits that reflect its historical roots in nobility and strength. People with this name are seen as dependable and authoritative.",
+  "symbolism": "The name Douglas symbolizes strength and resilience, much like the enduring rivers it originally described.",
+  "funFact": "The Douglas Fir, a species of evergreen conifer native to North America, was named after the Scottish botanist David Douglas.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "James Douglas",
+      "years": "1286-1330",
+      "category": "Warrior",
+      "achievements": [
+        "Fought alongside Robert the Bruce",
+        "Key figure in the Wars of Scottish Independence"
+      ],
+      "significance": "James Douglas, known as 'The Good Sir James' or 'Black Douglas', was a key military leader during the Scottish Wars of Independence.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "David Douglas",
+      "years": "1799-1834",
+      "category": "Botanist",
+      "achievements": [
+        "Introduced numerous plant species to Britain",
+        "Namesake of the Douglas Fir"
+      ],
+      "significance": "David Douglas was a prominent Scottish botanist known for his exploration and introduction of plant species from North America to Europe.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only real voyage of discovery consists not in seeking new landscapes but in having new eyes.",
+      "author": "Douglas Adams",
+      "context": "From 'Last Chance to See', a book about endangered species",
+      "year": 1990,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Douglas Adams",
+      "profession": "Author",
+      "knownFor": [
+        "The Hitchhiker's Guide to the Galaxy"
+      ],
+      "awards": "Prometheus Award"
+    },
+    {
+      "name": "Douglas MacArthur",
+      "profession": "Military Leader",
+      "knownFor": [
+        "World War II leadership",
+        "Korean War"
+      ],
+      "awards": "Medal of Honor"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Doug Flutie",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "New England Patriots",
+      "pastTeams": [
+        "Buffalo Bills",
+        "San Diego Chargers"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "7",
+      "years": "1986-2005",
+      "achievements": "Heisman Trophy winner",
+      "knownFor": [
+        "Flutie Magic",
+        "Hail Mary pass"
+      ],
+      "awards": "NFL Comeback Player of the Year",
+      "stats": "Career passing yards: 14,715",
+      "verified": true,
+      "source": "Pro Football Hall of Fame"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Twin Peaks",
+      "year": 1990,
+      "type": "TV Show",
+      "characterName": "Douglas Milford",
+      "characterDescription": "Mayor of Twin Peaks",
+      "imdbUrl": "https://www.imdb.com/title/tt0098936/",
+      "genre": "Mystery",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's a strange world, isn't it?",
+      "character": "Douglas Milford",
+      "source": "Twin Peaks",
+      "year": 1990,
+      "context": "Reflecting on the bizarre happenings in Twin Peaks",
+      "genre": "Mystery",
+      "impact": "Captures the surreal essence of the show"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Forest Green",
+      "hex": "#228B22"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and manifestation",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that share practicality and reliability",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and groundedness",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Symbolizes creating and nurturing foundations",
+    "karmicLessons": "To learn persistence and patience",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A desire for stability and order"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 482,
+    "peak": 23,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To achieve great things, two things are needed: a plan and not quite enough time.",
+    "author": "Douglas Adams",
+    "context": "Discussing the creative process"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Doug-las"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Douglas",
+      "script": "Latin",
+      "scriptName": "Douglas",
+      "pronunciation": "ˈdɔɣlas",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντάγκλας",
+      "script": "Greek",
+      "scriptName": "Ντάγκλας",
+      "pronunciation": "ˈdaɣlas",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دوغلاس",
+      "script": "Arabic",
+      "scriptName": "دوغلاس",
+      "pronunciation": "duːɣlas",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "道格拉斯",
+      "script": "Han",
+      "scriptName": "道格拉斯",
+      "pronunciation": "dào gé lā sī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дуглас",
+      "script": "Cyrillic",
+      "scriptName": "Дуглас",
+      "pronunciation": "ˈduɡləs",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דאגלס",
+      "script": "Hebrew",
+      "scriptName": "דאגלס",
+      "pronunciation": "ˈdoɡlas",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "publishedYear": 1979,
+      "genre": "Science Fiction",
+      "significance": "A classic of British science fiction humor",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Douglas has longstanding historical and cultural roots."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name has remained in use for centuries without becoming outdated."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Appears in literature and is borne by notable authors."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Douglas",
+      "artist": "The Mountain Goats",
+      "year": 2002,
+      "genre": "Indie Rock",
+      "nameContext": "Title of the song",
+      "description": "A song by The Mountain Goats that explores themes of memory and place.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Douglas+The+Mountain+Goats",
+      "geniusUrl": "https://genius.com/search?q=Douglas+The+Mountain+Goats",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Douglas is a name steeped in history and tradition, conjuring images of noble lineage and rugged landscapes. With its roots in the Scottish highlands, it offers a connection to the natural world and a legacy of strength. Today, Douglas remains a classic choice for parents seeking a name with enduring appeal.",
+    "etymology_meaning": "Derived from the Scottish Gaelic 'Dubhghlas', meaning 'dark river', Douglas has a rich etymology that reflects the natural beauty of its origins. The name has been used as both a surname and a given name, retaining its strength and nobility through the ages.",
+    "famous_bearers": "Douglas is a name borne by notable figures such as Douglas Adams, the beloved author of 'The Hitchhiker's Guide to the Galaxy', and General Douglas MacArthur, a prominent American military leader known for his role in World War II.",
+    "pop_culture_moments": "From literary works to the silver screen, Douglas has made numerous appearances in popular culture. Characters like Douglas Milford in 'Twin Peaks' add a layer of intrigue and depth to the name's narrative.",
+    "personality_profile": "Names carry personalities, and Douglas is no exception. It is often associated with leadership, strength, and dependability. People named Douglas are seen as grounded and reliable, qualities that are admired in many cultures.",
+    "variations_nicknames": "Douglas offers several variations and nicknames, including Douglass and Dougie, which allow for a more casual or formal use depending on the context. These variations provide flexibility and personalization for this timeless name.",
+    "popularity_data": "Douglas reached its peak popularity in the mid-20th century but has maintained a steady presence in the name charts. Its classic appeal ensures that it remains a favored choice among parents who appreciate names with historical significance.",
+    "pairing_suggestions": "Douglas pairs well with names that have a similar classic and strong feel, such as Alexander, James, or Elizabeth. These combinations create a harmonious balance that is pleasing to the ear and rich in tradition.",
+    "cultural_context": "The name Douglas is deeply tied to Scottish culture and heritage, often evoking images of the highlands and the clan system. Its use has spread across English-speaking countries, where it is appreciated for its strong yet approachable sound.",
+    "final_recommendation": "Douglas is an excellent choice for those seeking a name with historical depth and modern relevance. Its versatility and strong associations make it a timeless option that will serve any bearer well throughout their life.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

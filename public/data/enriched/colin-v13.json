@@ -1,0 +1,293 @@
+{
+  "name": "Colin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:13:23.620Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Gaelic",
+  "meaning": "Young pup",
+  "culturalSignificance": "Colin is a traditional Gaelic name, often used in Scotland and Ireland. It is derived from the Gaelic name 'Cailean' or 'Coilean', meaning young pup or cub, symbolizing youthful energy and innocence.",
+  "modernContext": "In modern times, Colin remains a popular name in English-speaking countries. It gained further popularity due to notable figures in politics, entertainment, and sports.",
+  "literaryReferences": "Colin is a character in Shakespeare's play 'As You Like It', where he is depicted as a shepherd.",
+  "pronunciationGuide": "/ˈkɒlɪn/",
+  "variations": [
+    "Collin",
+    "Colen",
+    "Colan",
+    "Colyn",
+    "Cailean"
+  ],
+  "similarNames": [
+    "Caleb",
+    "Connor",
+    "Callum",
+    "Cameron",
+    "Cole",
+    "Carson"
+  ],
+  "nicknames": [
+    "Cole",
+    "Col",
+    "Lyn",
+    "Coco"
+  ],
+  "personality": "The name Colin is often associated with individuals who are charismatic, thoughtful, and have a strong sense of duty.",
+  "symbolism": "Symbolically, Colin represents youthfulness and vitality, often seen as a name for leaders or those with a pioneering spirit.",
+  "funFact": "The name Colin rose in popularity in the United States during the 1970s, partly due to actor Colin Firth's rising fame.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Colin Campbell",
+      "years": "1792-1863",
+      "category": "Military Leader",
+      "achievements": [
+        "Commanded British forces in the Crimean War"
+      ],
+      "significance": "Colin Campbell, 1st Baron Clyde, was a prominent British Army officer known for his service during the Crimean War.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Colin Maclaurin",
+      "years": "1698-1746",
+      "category": "Mathematician",
+      "achievements": [
+        "Developed the Maclaurin series"
+      ],
+      "significance": "Colin Maclaurin was a Scottish mathematician who made significant contributions to calculus and is best known for the Maclaurin series.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Colin Firth",
+      "profession": "Actor",
+      "knownFor": [
+        "The King's Speech",
+        "Pride and Prejudice"
+      ],
+      "awards": "Academy Award for Best Actor"
+    },
+    {
+      "name": "Colin Farrell",
+      "profession": "Actor",
+      "knownFor": [
+        "In Bruges",
+        "The Lobster"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Colin Powell",
+      "profession": "Politician",
+      "knownFor": [
+        "U.S. Secretary of State"
+      ],
+      "awards": "Presidential Medal of Freedom"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Colin Kaepernick",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "Free Agent",
+      "pastTeams": [
+        "San Francisco 49ers"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "7",
+      "years": "2011-2016",
+      "achievements": "Led team to Super Bowl XLVII",
+      "knownFor": [
+        "Kneeling protest",
+        "Athleticism"
+      ],
+      "awards": "N/A",
+      "stats": "72 touchdowns, 12,271 passing yards",
+      "verified": true,
+      "source": "NFL official site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Love Actually",
+      "year": 2003,
+      "type": "Movie",
+      "characterName": "Colin Frissell",
+      "characterDescription": "A young man who travels to America to find love.",
+      "imdbUrl": "https://www.imdb.com/title/tt0314331/",
+      "genre": "Romantic Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The King's Speech",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "King George VI",
+      "characterDescription": "Portrayed by Colin Firth, a king overcoming a speech impediment.",
+      "imdbUrl": "https://www.imdb.com/title/tt1504320/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waning Crescent",
+    "moonPhaseDescription": "A time for reflection and letting go.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "Air signs that stimulate intellectual and social connections.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for excellent communication and social skills.",
+    "karmicLessons": "Learning to adapt and communicate effectively.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom, adventure, and change."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 263,
+    "peak": 85,
+    "peakYear": 2004
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Colin Powell",
+    "context": "A motivational quote about resilience and perseverance."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Co-lin"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Colin",
+      "script": "Latin",
+      "scriptName": "Colin",
+      "pronunciation": "/ˈkolin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κόλιν",
+      "script": "Greek",
+      "scriptName": "Κόλιν",
+      "pronunciation": "/ˈkolin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كولين",
+      "script": "Arabic",
+      "scriptName": "كولين",
+      "pronunciation": "/ˈkoː.lin/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "科林",
+      "script": "Han",
+      "scriptName": "科林",
+      "pronunciation": "/kəʊˈlɪn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Колин",
+      "script": "Cyrillic",
+      "scriptName": "Колин",
+      "pronunciation": "/ˈkɔlʲɪn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קולין",
+      "script": "Hebrew",
+      "scriptName": "קולין",
+      "pronunciation": "/ˈko.lin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Colin has a timeless appeal and has been used for centuries."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name appears in literature, notably in Shakespeare's works."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Continued popularity across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Colin Zeal",
+      "artist": "Blur",
+      "year": 1993,
+      "genre": "Rock",
+      "nameContext": "Title character",
+      "description": "A song by Blur that satirizes the character of Colin Zeal, representing a stereotypically contented and self-satisfied individual.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Colin+Zeal+Blur",
+      "geniusUrl": "https://genius.com/Blur-colin-zeal-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Colin is a name that evokes both history and modernity, bridging the past with the present. Its roots in Gaelic culture give it a rich heritage, while its continued use today speaks to its timeless appeal.",
+    "etymology_meaning": "The name Colin is of Gaelic origin, derived from 'Cailean' or 'Coilean', meaning young pup or cub. This name captures the essence of youth and vitality, making it a popular choice for centuries.",
+    "famous_bearers": "Notable figures named Colin include actor Colin Firth, known for his roles in 'The King's Speech' and 'Pride and Prejudice', and Colin Powell, the first African-American U.S. Secretary of State.",
+    "pop_culture_moments": "Colin has appeared in various cultural contexts, including film and literature. Notably, Colin Firth's portrayal of King George VI in 'The King's Speech' brought significant attention to the name.",
+    "personality_profile": "Individuals named Colin are often seen as charismatic and thoughtful, with a strong sense of duty and leadership qualities. They are known for their communication skills and ability to connect with others.",
+    "variations_nicknames": "Common variations of Colin include Collin and Colen, with nicknames like Cole and Col. These variations offer flexibility and personalization for those who bear the name.",
+    "popularity_data": "Colin reached peak popularity in the early 2000s, influenced by notable public figures and actors. Its timeless nature ensures it remains a popular choice for parents today.",
+    "pairing_suggestions": "Colin pairs well with middle names like James or Alexander, offering a classic and sophisticated combination. For siblings, names like Emma or Lucas complement Colin nicely.",
+    "cultural_context": "With roots in Gaelic culture, Colin carries a rich historical significance. Its use in literature and its enduring popularity in modern times highlight its cultural versatility.",
+    "final_recommendation": "Colin is a name that offers both historical depth and modern appeal. Whether chosen for its cultural roots or timeless charm, it's a name that will stand the test of time.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

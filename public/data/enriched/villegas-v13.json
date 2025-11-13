@@ -1,0 +1,206 @@
+{
+  "name": "Villegas",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T08:26:14.063Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "From the village",
+  "culturalSignificance": "Villegas is a surname of Spanish origin, often associated with families from regions such as Castile and León. It is derived from the term 'villa,' meaning settlement or village, and has historically signified someone who is from a particular village.",
+  "modernContext": "The name Villegas is primarily used as a surname rather than a first name. It is common in Spanish-speaking countries and among people of Hispanic descent. The use of Villegas as a given name is rare but can be found in some contemporary contexts.",
+  "literaryReferences": "The name Villegas appears in various Spanish historical documents and literary texts, often signifying characters from rural or village backgrounds.",
+  "pronunciationGuide": "viˈʎeɣas",
+  "variations": [
+    "Villas",
+    "Villa",
+    "Viegas",
+    "Vilegas",
+    "Vialegas"
+  ],
+  "similarNames": [
+    "Vargas",
+    "Vasquez",
+    "Villanueva",
+    "Villar",
+    "Valle"
+  ],
+  "nicknames": [
+    "Vil",
+    "Villy",
+    "Legas"
+  ],
+  "personality": "Individuals with the name Villegas are often seen as grounded and connected to their roots. They are perceived as reliable and community-oriented.",
+  "symbolism": "The name symbolizes a connection to one's heritage and community, often representing a bond to a specific place or origin.",
+  "funFact": "Villegas is a common surname found in historical records dating back to the medieval period in Spain.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jorge de Villegas",
+      "years": "1500s",
+      "category": "Poet",
+      "achievements": [
+        "Contributions to Spanish Renaissance poetry"
+      ],
+      "significance": "Jorge de Villegas was a noted Spanish poet during the Renaissance, contributing significantly to the literary culture of the time.",
+      "notableWorks": [
+        "Poems included in various Renaissance collections"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Daniel Villegas",
+      "profession": "Actor",
+      "knownFor": [
+        "Various roles in Spanish television"
+      ],
+      "awards": "Nominations in Spanish TV awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs are grounded and practical, matching the earthy nature of the name.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, reliability, and a connection to nature.",
+    "celestialArchetype": "The Provider",
+    "celestialArchetypeDescription": "Represents nurturing and providing for others.",
+    "karmicLessons": "Learning to balance personal needs with community obligations.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 55,
+    "female": 45
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 600,
+    "peakYear": 2000
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Wherever you go becomes a part of you somehow.",
+    "author": "Anita Desai",
+    "context": "Reflecting the essence of connectivity and roots."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Vil-le-gas"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Villegas",
+      "script": "Latin",
+      "scriptName": "Villegas",
+      "pronunciation": "viˈʎeɣas",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Βιγιέγας",
+      "script": "Greek",
+      "scriptName": "Βιγιέγας",
+      "pronunciation": "vi'ʎeɣas",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "فيليغاس",
+      "script": "Arabic",
+      "scriptName": "فيليغاس",
+      "pronunciation": "fi'li:ɣas",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "维列加斯",
+      "script": "Han",
+      "scriptName": "维列加斯",
+      "pronunciation": "Wéilièjiāsī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Вильегас",
+      "script": "Cyrillic",
+      "scriptName": "Вильегас",
+      "pronunciation": "vʲɪˈlʲjegəs",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "וילגס",
+      "script": "Hebrew",
+      "scriptName": "וילגס",
+      "pronunciation": "vil'gas",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name has historical roots and remains in use over centuries."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.9,
+      "reason": "Villegas is heavily tied to Spanish culture and heritage."
+    },
+    {
+      "tag": "Geographical",
+      "confidence": 0.7,
+      "reason": "The name signifies origin from a specific village or area."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Names carry the weight of history, and Villegas is no exception. Rooted deeply in Spanish culture, this name evokes images of charming villages and strong community ties. Often a surname, Villegas occasionally finds its way into the modern world as a unique given name, carrying with it a narrative of heritage and belonging.",
+    "etymology_meaning": "The name Villegas originates from the Spanish term 'villa,' meaning village. It historically indicated someone who hailed from a particular village. Over time, it has become a common surname in Spanish-speaking regions, symbolizing connection to one's roots.",
+    "famous_bearers": "Jorge de Villegas, a renowned poet from the Spanish Renaissance, is one of the notable historical figures with this name. In modern times, Daniel Villegas has gained recognition in the entertainment industry.",
+    "pop_culture_moments": "While not prevalent in pop culture, the name Villegas appears in various historical and literary contexts, often associated with characters of rural or noble backgrounds in Spanish literature.",
+    "personality_profile": "Those named Villegas are often perceived as grounded and community-oriented, embodying reliability and a strong sense of heritage. They are seen as individuals who value connection and tradition.",
+    "variations_nicknames": "Villegas has several variations such as Villas and Viegas. Common nicknames include Vil, Villy, and Legas, providing a friendly and approachable twist to the name.",
+    "popularity_data": "Villegas is more commonly used as a surname. As a first name, it maintains a niche appeal, primarily within communities valuing strong cultural ties and heritage.",
+    "pairing_suggestions": "Names that complement Villegas often share a similar cultural or historical resonance, such as Garcia, Martinez, or Santiago. These pairings create a harmonious blend of tradition and identity.",
+    "cultural_context": "Villegas is deeply embedded in Spanish culture, representing a lineage that traces back to rural villages. It carries a sense of pride and belonging for many who share this name.",
+    "final_recommendation": "If you're looking for a name that embodies heritage and community, Villegas might be the perfect choice. It offers a unique nod to cultural roots while providing a strong, grounded identity.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

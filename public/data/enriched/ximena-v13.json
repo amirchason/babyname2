@@ -1,0 +1,226 @@
+{
+  "name": "Ximena",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:10:37.174Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Spanish",
+  "meaning": "Heard",
+  "culturalSignificance": "Ximena is a name of Spanish origin that has become popular in many Spanish-speaking countries. It is often associated with elegance and strength, partly due to its historical roots and regal sound.",
+  "modernContext": "In recent years, the name Ximena has gained popularity in the United States, particularly among Hispanic communities. It is often seen as a modern, yet classic choice for parents looking for a name with cultural depth.",
+  "literaryReferences": "Ximena is a character in the Spanish epic 'El Cid', where she is portrayed as the wife of the hero, Rodrigo Díaz de Vivar.",
+  "pronunciationGuide": "/ʃiˈme.na/",
+  "variations": [
+    "Jimena",
+    "Simona",
+    "Ximona",
+    "Ximenia",
+    "Xymena"
+  ],
+  "similarNames": [
+    "Jimena",
+    "Simona",
+    "Yasmina",
+    "Mena",
+    "Camila"
+  ],
+  "nicknames": [
+    "Xime",
+    "Mena",
+    "Mimi",
+    "Xixi"
+  ],
+  "personality": "People named Ximena are often perceived as charismatic and proactive, with a strong sense of identity and leadership qualities.",
+  "symbolism": "The name Ximena symbolizes clarity and communication, as it has roots meaning 'heard'.",
+  "funFact": "The name Ximena became especially popular in the early 2000s, partly due to the influence of Latin American telenovelas.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ximena Díaz",
+      "years": "1046-1106",
+      "category": "Nobility",
+      "achievements": [
+        "Wife of 'El Cid'",
+        "Regency for her son"
+      ],
+      "significance": "Ximena Díaz was a noblewoman of the Spanish medieval period, known for her role in the epic of 'El Cid'.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ximena Sariñana",
+      "profession": "Musician",
+      "knownFor": [
+        "Songs like 'Mediocre'",
+        "Acting in Mexican films"
+      ],
+      "awards": "Latin Grammy Award nominations"
+    },
+    {
+      "name": "Ximena Navarrete",
+      "profession": "Model",
+      "knownFor": [
+        "Miss Universe 2010"
+      ],
+      "awards": "Miss Universe 2010"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Queen of the South",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Ximena",
+      "characterDescription": "A character involved in the complex world of drug cartels",
+      "imdbUrl": "https://www.imdb.com/title/tt1704637/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and intentions.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer"
+    ],
+    "compatibleSignsDescription": "These signs share the water element, bringing emotional depth and understanding.",
+    "cosmicElement": "The Caregiver",
+    "cosmicElementDescription": "This archetype is known for its nurturing nature and emotional intelligence.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for compassion and empathy, bringing comfort to others.",
+    "karmicLessons": "Balancing self-care with care for others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and support those around them."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 129,
+    "peak": 118,
+    "peakYear": 2013
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The name Ximena, with its historical roots and modern appeal, embodies strength and grace.",
+    "author": "Alex Rivers",
+    "context": "Commentary on the cultural significance of the name."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Xi-me-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ximena",
+      "script": "Latin",
+      "scriptName": "Ximena",
+      "pronunciation": "/ʃiˈme.na/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ξιμένα",
+      "script": "Greek",
+      "scriptName": "Ξιμένα",
+      "pronunciation": "/ksiˈmena/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "شيمينا",
+      "script": "Arabic",
+      "scriptName": "شيمينا",
+      "pronunciation": "/ʃiˈmina/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "西梅娜",
+      "script": "Han",
+      "scriptName": "西梅娜",
+      "pronunciation": "/ɕi˥˥meɪ˧˥na˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Химена",
+      "script": "Cyrillic",
+      "scriptName": "Химена",
+      "pronunciation": "/ˈximʲɪnə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חימנה",
+      "script": "Hebrew",
+      "scriptName": "חימנה",
+      "pronunciation": "/χiˈmena/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Ximena has historical roots and has been used for centuries."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The name has gained popularity in recent decades, especially in Hispanic communities."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Ximena is a character in the Spanish epic 'El Cid'."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Ximena is a name that carries a rich tapestry of history and culture, appealing to parents seeking a blend of tradition and modernity. With its roots in Spanish nobility, it has a regal sound that resonates with strength and elegance.",
+    "etymology_meaning": "Derived from the Spanish name Jimena, Ximena means 'heard'. It has historical significance, being associated with the noble wife of the legendary hero El Cid.",
+    "famous_bearers": "Famous individuals bearing the name include Ximena Navarrete, who was crowned Miss Universe in 2010, and Ximena Sariñana, a renowned Mexican singer and actress.",
+    "pop_culture_moments": "Ximena has appeared in various cultural works, including the Spanish epic 'El Cid'. It has also been featured in popular TV shows, highlighting its continued relevance.",
+    "personality_profile": "Those named Ximena are often viewed as charismatic and proactive, with an innate ability to lead and inspire others.",
+    "variations_nicknames": "Common variations of Ximena include Jimena and Simona, with affectionate nicknames such as Xime and Mena adding a personal touch.",
+    "popularity_data": "Ximena has seen a rise in popularity, particularly in the United States, where it ranks highly among Hispanic communities. Its appeal lies in its cultural depth and melodic sound.",
+    "pairing_suggestions": "Ximena pairs well with both traditional and modern middle names, such as Ximena Rose or Ximena Sofia, offering a balance of elegance and contemporary flair.",
+    "cultural_context": "Rooted in Spanish culture, Ximena's historical and cultural significance makes it a name that carries stories of nobility and strength.",
+    "final_recommendation": "For parents seeking a name that embodies both heritage and modern appeal, Ximena offers a perfect blend. Its musicality and historical roots make it a timeless choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

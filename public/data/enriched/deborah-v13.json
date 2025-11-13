@@ -1,0 +1,289 @@
+{
+  "name": "Deborah",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:03:41.782Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Bee",
+  "culturalSignificance": "The name Deborah has a rich historical and cultural significance, originating from the Hebrew language, meaning 'bee'. It is famously associated with a prophetess and judge in the Bible, who is celebrated for her leadership and wisdom.",
+  "modernContext": "Deborah remains a popular name in many English-speaking countries, especially noted for its peak in popularity during the mid-20th century. It continues to be a classic choice for parents seeking a name with historical depth and feminine strength.",
+  "literaryReferences": "Deborah appears in various literary works, often symbolizing wisdom and leadership due to its biblical roots.",
+  "pronunciationGuide": "ˈdɛbərə",
+  "variations": [
+    "Debra",
+    "Deborrah",
+    "Debora",
+    "Debbie",
+    "Devorah"
+  ],
+  "similarNames": [
+    "Rebecca",
+    "Judith",
+    "Sarah",
+    "Hannah",
+    "Rachel"
+  ],
+  "nicknames": [
+    "Deb",
+    "Debbie",
+    "Debs",
+    "Debo",
+    "Dee"
+  ],
+  "personality": "The name Deborah is often associated with strong leadership qualities, intelligence, and a nurturing spirit, reflecting its biblical roots.",
+  "symbolism": "The bee, the meaning of Deborah, symbolizes industriousness, community, and harmony.",
+  "funFact": "Deborah was one of the first female judges mentioned in the Bible, a rarity for the time, highlighting the name's association with breaking gender norms.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Deborah",
+    "significance": "Deborah is a significant biblical figure, known as a prophetess and the only female judge in the Old Testament, leading Israel to victory over Canaanite oppressors.",
+    "keyStories": [
+      "Deborah's leadership in the battle against Sisera",
+      "Her role as a judge in Israel"
+    ],
+    "spiritualMeaning": "Deborah symbolizes wisdom, leadership, and courage.",
+    "historicalImpact": "Deborah's story has inspired countless generations in religious and cultural contexts, representing female empowerment and divine guidance."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Deborah Sampson",
+      "years": "1760-1827",
+      "category": "Military",
+      "achievements": [
+        "Disguised as a man to fight in the American Revolutionary War"
+      ],
+      "significance": "Deborah Sampson was a notable figure for her courage and determination, breaking gender barriers in military history.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Deborah Read Franklin",
+      "years": "1708-1774",
+      "category": "Historical Figure",
+      "achievements": [
+        "Wife of Benjamin Franklin, managed his affairs during his absences"
+      ],
+      "significance": "Deborah Read Franklin played a crucial role in supporting her husband's endeavors, showcasing the influence of women in early American history.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Deborah Harry",
+      "profession": "Musician",
+      "knownFor": [
+        "Lead singer of Blondie",
+        "Hit song 'Heart of Glass'"
+      ],
+      "awards": "Inducted into the Rock and Roll Hall of Fame"
+    },
+    {
+      "name": "Deborah Kerr",
+      "profession": "Actress",
+      "knownFor": [
+        "Movies 'The King and I'",
+        "From Here to Eternity"
+      ],
+      "awards": "Honorary Academy Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Deborah",
+      "year": 1974,
+      "type": "Movie",
+      "characterName": "Deborah",
+      "characterDescription": "A central character dealing with personal and social challenges.",
+      "imdbUrl": "https://www.imdb.com/title/tt0071391/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 70
+    },
+    {
+      "title": "Everybody Loves Raymond",
+      "year": 1996,
+      "type": "TV Show",
+      "characterName": "Debra Barone",
+      "characterDescription": "Raymond's wife, known for her wit and patience.",
+      "imdbUrl": "https://www.imdb.com/title/tt0115167/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "This is not how you do things.",
+      "character": "Debra Barone",
+      "source": "Everybody Loves Raymond",
+      "year": 1996,
+      "context": "Debra expressing her frustration with Raymond's antics.",
+      "genre": "Comedy",
+      "impact": "Highlights the character's role as the voice of reason in the family."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Yellow",
+      "hex": "#FFFF00"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and growth.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a practical and grounded nature.",
+    "cosmicElement": "The Nurturer",
+    "cosmicElementDescription": "Represents care, growth, and stability.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes strength, guidance, and protection.",
+    "karmicLessons": "Learning to balance leadership and empathy.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and nurturing connections."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 320,
+    "peak": 25,
+    "peakYear": 1955
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "context": "Inspiring individuals to pursue their dreams with determination."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Deb-o-rah"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Débora",
+      "script": "Latin",
+      "scriptName": "Débora",
+      "pronunciation": "ˈdeβoɾa",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Δεβόρα",
+      "script": "Greek",
+      "scriptName": "Δεβόρα",
+      "pronunciation": "ðeˈvora",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ديبورا",
+      "script": "Arabic",
+      "scriptName": "ديبورا",
+      "pronunciation": "diːˈbuːra",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "黛博拉",
+      "script": "Han",
+      "scriptName": "黛博拉",
+      "pronunciation": "dài bólā",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дебора",
+      "script": "Cyrillic",
+      "scriptName": "Дебора",
+      "pronunciation": "ˈdʲɛbərə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דבורה",
+      "script": "Hebrew",
+      "scriptName": "דְּבוֹרָה",
+      "pronunciation": "dəˈvoːʁa",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Deborah",
+      "author": "Marilynne Robinson",
+      "publishedYear": 2000,
+      "genre": "Fiction",
+      "significance": "Explores deep themes of faith and identity.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been used consistently over centuries, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "Directly associated with a prominent biblical figure."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Appears in various literary works, often with significant roles."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Deborah",
+      "artist": "The Crickets",
+      "year": 1957,
+      "genre": "Rock",
+      "nameContext": "The song is a love ballad to a girl named Deborah.",
+      "description": "A classic rock ballad expressing love and admiration for Deborah, capturing the music style of the late 1950s.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=The+Crickets+Deborah",
+      "geniusUrl": "https://genius.com/The-crickets-deborah-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Deborah is a name steeped in history, from its biblical roots to its modern-day appeal. It's a name that embodies strength and wisdom, much like the notable figures who have borne it.",
+    "etymology_meaning": "The name Deborah originates from the Hebrew language, meaning 'bee', symbolizing industriousness and community spirit. Its biblical significance adds a layer of historical depth.",
+    "famous_bearers": "Famous bearers of the name include Deborah Sampson, a revolutionary war heroine, and Deborah Kerr, a celebrated actress known for her elegance and talent.",
+    "pop_culture_moments": "Deborah has made its mark in pop culture, from the screens of 'Everybody Loves Raymond' to the music of Blondie's Debbie Harry.",
+    "personality_profile": "Those named Deborah are often perceived as strong leaders, wise decision-makers, and compassionate individuals, reflecting the qualities of their biblical namesake.",
+    "variations_nicknames": "Common variations include Debra and Deborrah, while nicknames like Deb and Debbie offer a more casual touch.",
+    "popularity_data": "Deborah experienced a surge in popularity during the mid-20th century, particularly in English-speaking countries, maintaining a steady presence in baby name charts.",
+    "pairing_suggestions": "Deborah pairs beautifully with classic names like Michael and David, offering a harmonious blend of tradition and elegance.",
+    "cultural_context": "Rooted in Hebrew culture, Deborah's biblical origins offer a rich tapestry of stories and meanings, making it a name of enduring significance.",
+    "final_recommendation": "For parents seeking a name that combines historical significance with modern appeal, Deborah is an excellent choice, offering a legacy of wisdom and strength.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

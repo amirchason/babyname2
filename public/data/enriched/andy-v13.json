@@ -1,0 +1,309 @@
+{
+  "name": "Andy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:09:06.308Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Greek",
+  "meaning": "Manly, brave",
+  "culturalSignificance": "The name Andy is a diminutive of Andrew, which has its roots in the Greek name Andreas, meaning 'manly' or 'brave'. It gained popularity in English-speaking countries and is often used as a friendly, approachable alternative to more formal names.",
+  "modernContext": "Andy is widely used across various cultures and remains a popular choice for both boys and girls. It maintains a steady presence in baby name rankings, often seen as a versatile and timeless name.",
+  "literaryReferences": "Andy is a common character name in literature, often used to convey a relatable, everyman quality.",
+  "pronunciationGuide": "/ˈæn.di/",
+  "variations": [
+    "Andrew",
+    "Andi",
+    "Andie",
+    "Anders",
+    "Andreas"
+  ],
+  "similarNames": [
+    "Randy",
+    "Mandy",
+    "Sandy",
+    "Danny",
+    "Cindy",
+    "Candy"
+  ],
+  "nicknames": [
+    "And",
+    "Drew",
+    "Drewie"
+  ],
+  "personality": "The name Andy is often associated with friendly, approachable, and dependable personality traits. People named Andy are perceived as easygoing and sociable.",
+  "symbolism": "Andy symbolizes bravery and strength, reflecting its Greek origins and historical usage.",
+  "funFact": "Andy Warhol, the famous artist, helped popularize the name in the art world during the 20th century.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Andrew",
+    "significance": "Saint Andrew, the namesake of Andy, was one of the twelve apostles of Jesus and is the patron saint of Scotland.",
+    "keyStories": [
+      "The calling of Saint Andrew by Jesus"
+    ],
+    "spiritualMeaning": "Represents strength and faith.",
+    "historicalImpact": "Saint Andrew's influence is observed in various Christian traditions and his legacy is celebrated on Saint Andrew's Day."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Andy Warhol",
+      "years": "1928-1987",
+      "category": "Artist",
+      "achievements": [
+        "Pioneering Pop Art movement",
+        "Creating iconic works like Campbell's Soup Cans"
+      ],
+      "significance": "Warhol was a leading figure in the visual art movement known as Pop Art and his works explore the relationship between artistic expression, culture, and advertisement.",
+      "notableWorks": [
+        "Campbell's Soup Cans",
+        "Marilyn Diptych"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "In the future, everyone will be world-famous for 15 minutes.",
+      "author": "Andy Warhol",
+      "context": "Prediction about fame in the modern media age",
+      "year": 1968,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Andy Serkis",
+      "profession": "Actor",
+      "knownFor": [
+        "Gollum in The Lord of the Rings",
+        "Caesar in Planet of the Apes"
+      ],
+      "awards": "Empire Award for Best Actor"
+    },
+    {
+      "name": "Andy Murray",
+      "profession": "Tennis Player",
+      "knownFor": [
+        "Winning Wimbledon",
+        "Olympic Gold Medalist"
+      ],
+      "awards": "Multiple Grand Slam titles"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Andy Murray",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "ATP",
+      "team": "N/A",
+      "pastTeams": [],
+      "position": "Singles",
+      "jerseyNumber": "N/A",
+      "years": "2005-Present",
+      "achievements": "Three Grand Slam titles, Two Olympic Gold Medals",
+      "knownFor": [
+        "Exceptional returns",
+        "Strong backhand"
+      ],
+      "awards": "BBC Sports Personality of the Year",
+      "stats": "Over 45 career titles",
+      "verified": true,
+      "source": "ATP Official Website"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Toy Story",
+      "year": 1995,
+      "type": "Movie",
+      "characterName": "Andy Davis",
+      "characterDescription": "The young boy who owns the toys",
+      "imdbUrl": "https://www.imdb.com/title/tt0114709/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Andy Bernard",
+      "characterDescription": "An employee known for his musical talent and eccentric personality",
+      "imdbUrl": "https://www.imdb.com/title/tt0386676/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm an early bird and a night owl. So I'm wise and I have worms.",
+      "character": "Andy Bernard",
+      "source": "The Office",
+      "year": 2006,
+      "context": "A humorous self-description",
+      "genre": "Comedy",
+      "impact": "Illustrates Andy's quirky personality"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "Air signs share intellectual and communicative traits",
+    "cosmicElement": "The Connector",
+    "cosmicElementDescription": "Represents communication and social connections",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for being articulate and sociable",
+    "karmicLessons": "To learn patience and focus",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire for creativity and self-expression"
+  },
+  "genderDistribution": {
+    "male": 75,
+    "female": 25
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 100,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Andy Warhol",
+    "context": "Reflecting on perseverance and resilience"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "An-dy"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Andrés",
+      "script": "Latin",
+      "scriptName": "Andrés",
+      "pronunciation": "/anˈdɾes/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ανδρέας",
+      "script": "Greek",
+      "scriptName": "Ανδρέας",
+      "pronunciation": "/anˈðreas/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أندي",
+      "script": "Arabic",
+      "scriptName": "أندي",
+      "pronunciation": "/ˈændi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安迪",
+      "script": "Han",
+      "scriptName": "安迪",
+      "pronunciation": "/ān dí/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Андрей",
+      "script": "Cyrillic",
+      "scriptName": "Андрей",
+      "pronunciation": "/ɐnˈdrʲej/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנדי",
+      "script": "Hebrew",
+      "scriptName": "אנדי",
+      "pronunciation": "/ˈændi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Andy and the Lion",
+      "author": "James Daugherty",
+      "publishedYear": 1938,
+      "genre": "Children's Literature",
+      "significance": "A classic children's book about bravery and friendship",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Long-standing use in English-speaking countries"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maintains popularity over decades"
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Commonly used in contemporary culture"
+    }
+  ],
+  "songs": [
+    {
+      "title": "Andy You’re a Star",
+      "artist": "The Killers",
+      "year": 2004,
+      "genre": "Rock",
+      "nameContext": "Name appears in the title and lyrics",
+      "description": "A song reflecting admiration for a high school athlete, capturing themes of idolization and longing.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Andy+You’re+a+Star+The+Killers",
+      "geniusUrl": "https://genius.com/The-killers-andy-youre-a-star-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Andy, with its approachable and friendly vibe, has been a favorite for generations. Its roots lie in the Greek name Andreas, meaning 'manly' or 'brave', giving it a strong yet accessible feel. Whether used as a standalone name or a nickname for Andrew, Andy has a timeless appeal.",
+    "etymology_meaning": "Originating from the Greek name Andreas, Andy means 'manly' or 'brave'. It has been adapted across various languages and cultures, maintaining its core meaning while gaining a distinct identity in English-speaking countries.",
+    "famous_bearers": "Notable bearers of the name Andy include the iconic artist Andy Warhol, whose work in the Pop Art movement left an indelible mark on the art world, and Andy Murray, a celebrated tennis player known for his Grand Slam victories.",
+    "pop_culture_moments": "Andy is a popular character name in media, with memorable representations like Andy Davis in Disney's 'Toy Story' and Andy Bernard from 'The Office'. These characters contribute to the name's relatable and enduring charm.",
+    "personality_profile": "People named Andy are often perceived as friendly, approachable, and dependable. They tend to be sociable and easygoing, with a natural ability to connect with others.",
+    "variations_nicknames": "Common variations of Andy include Andrew, Andi, and Andie. As a nickname, Andy is versatile and can seamlessly transition between formal and informal settings.",
+    "popularity_data": "Andy has consistently ranked among popular names across various decades, reflecting its timeless appeal. It peaked in the 1980s and continues to be a preferred choice for parents.",
+    "pairing_suggestions": "For parents seeking complementary names, consider pairing Andy with classic names like Emily or modern choices like Zoe. These pairings highlight Andy's versatility and charm.",
+    "cultural_context": "With origins in Greece and widespread use in English-speaking countries, Andy embodies a rich cultural heritage. It is celebrated for its simplicity and strength, making it a beloved choice globally.",
+    "final_recommendation": "In choosing Andy, parents opt for a name that is both strong and approachable. Its historical significance and modern appeal make it a timeless choice for a child's name, suitable for any personality.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

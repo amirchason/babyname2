@@ -1,0 +1,258 @@
+{
+  "name": "Pamela",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:28:27.364Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "All sweetness",
+  "culturalSignificance": "The name Pamela was first used by Sir Philip Sidney in his 16th-century pastoral romance 'Arcadia'. It gained popularity in England and beyond, particularly in the 18th and 19th centuries.",
+  "modernContext": "Pamela saw a peak in popularity during the mid-20th century, especially in English-speaking countries. It remains a recognizable name today, though its usage has declined in recent decades.",
+  "literaryReferences": "Pamela is prominently featured in Samuel Richardson's novel 'Pamela, or Virtue Rewarded', which was one of the first English novels and had a significant impact on the development of the novel as a genre.",
+  "pronunciationGuide": "ˈpæmələ",
+  "variations": [
+    "Pam",
+    "Pammie",
+    "Pamella"
+  ],
+  "similarNames": [
+    "Camilla",
+    "Angela",
+    "Penelope",
+    "Priscilla",
+    "Amelia"
+  ],
+  "nicknames": [
+    "Pam",
+    "Pammy",
+    "Mela"
+  ],
+  "personality": "Pamela is often associated with sweetness and charm, likely due to its meaning. Individuals with this name are perceived as kind and approachable.",
+  "symbolism": "The name symbolizes sweetness and virtue, as suggested by its Greek roots.",
+  "funFact": "Pamela Anderson, a Canadian-American actress, became a cultural icon through her role in the TV series 'Baywatch'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Pamela Churchill Harriman",
+      "years": "1920-1997",
+      "category": "Diplomat",
+      "achievements": [
+        "US Ambassador to France"
+      ],
+      "significance": "Pamela Harriman was a notable British-American socialite and diplomat, and she played a significant role in U.S.-France relations.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Pamela Anderson",
+      "profession": "Actress",
+      "knownFor": [
+        "Baywatch",
+        "Home Improvement"
+      ],
+      "awards": "Golden Apple Award"
+    },
+    {
+      "name": "Pamela Adlon",
+      "profession": "Actress",
+      "knownFor": [
+        "Better Things",
+        "King of the Hill"
+      ],
+      "awards": "Primetime Emmy Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Office",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Pamela 'Pam' Beesly",
+      "characterDescription": "A receptionist who later becomes a salesperson and art student, known for her sweet and caring nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt0386676/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 93
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I feel God in this Chili’s tonight.",
+      "character": "Pamela 'Pam' Beesly",
+      "source": "The Office",
+      "year": 2005,
+      "context": "Pam says this during a night out with her coworkers.",
+      "genre": "Comedy",
+      "impact": "This quote became popular among fans for its humorous, out-of-context delivery."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Pink",
+      "hex": "#FFC0CB"
+    },
+    "luckyGemstone": "Rose Quartz",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotions, intuition, and healing.",
+    "celestialArchetype": "The Caregiver",
+    "celestialArchetypeDescription": "Known for nurturing and protecting others.",
+    "karmicLessons": "Embrace change and remain open to new experiences.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Desires a harmonious and peaceful environment."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 10,
+    "peakYear": 1953
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The most beautiful experience we can have is the mysterious.",
+    "author": "Pamela Adlon",
+    "context": "Reflecting on the beauty of life's unpredictability."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Pa-me-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pamela",
+      "script": "Latin",
+      "scriptName": "Pamela",
+      "pronunciation": "paˈmela",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πάμελα",
+      "script": "Greek",
+      "scriptName": "Πάμελα",
+      "pronunciation": "ˈpamela",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "باميلا",
+      "script": "Arabic",
+      "scriptName": "باميلا",
+      "pronunciation": "baːmiːla",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "帕梅拉",
+      "script": "Han",
+      "scriptName": "帕梅拉",
+      "pronunciation": "pà méi lā",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Памела",
+      "script": "Cyrillic",
+      "scriptName": "Памела",
+      "pronunciation": "ˈpamʲɪlə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פמלה",
+      "script": "Hebrew",
+      "scriptName": "פמלה",
+      "pronunciation": "pamela",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Pamela, or Virtue Rewarded",
+      "author": "Samuel Richardson",
+      "publishedYear": 1740,
+      "genre": "Fiction",
+      "significance": "Considered one of the first true English novels, it explores themes of virtue and social class.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Originating from a 16th-century literary work and maintaining usage over centuries."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "The name has strong literary associations, particularly from works like 'Pamela, or Virtue Rewarded'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Pamela has been in use for several centuries, showcasing timeless appeal."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Pamela",
+      "artist": "Toto",
+      "year": 1988,
+      "genre": "Rock",
+      "nameContext": "The song describes longing and romantic feelings for a person named Pamela.",
+      "description": "A hit single from Toto's album 'The Seventh One', it became popular for its catchy tune and heartfelt lyrics.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Toto+Pamela",
+      "geniusUrl": "https://genius.com/Toto-pamela-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Pamela is a name that conjures images of literary heroines and golden-era Hollywood glamour. With a rich history and timeless charm, it has been a favorite for generations.",
+    "etymology_meaning": "The name Pamela originates from Greek roots, meaning 'all sweetness'. It was first coined by Sir Philip Sidney in his 16th-century work 'Arcadia'.",
+    "famous_bearers": "Famous Pamelas include Pamela Anderson, known for her role in 'Baywatch', and Pamela Adlon, an Emmy-winning actress and producer.",
+    "pop_culture_moments": "Pamela has been a popular name in film and television, with memorable characters like Pam Beesly from 'The Office' capturing audiences' hearts.",
+    "personality_profile": "Pamela is often seen as sweet and caring, with a gentle nature and a strong sense of virtue, reminiscent of its Greek meaning.",
+    "variations_nicknames": "Common variations of Pamela include Pam and Pammie, offering a range of informal and affectionate alternatives.",
+    "popularity_data": "The name Pamela reached its peak popularity in the 1950s and 60s, but it remains a classic choice that continues to be recognized today.",
+    "pairing_suggestions": "Pamela pairs well with traditional or classic middle names like Anne, Louise, or Jane, creating a harmonious and elegant full name.",
+    "cultural_context": "Rooted in literary tradition and popular culture, Pamela has a broad cultural appeal that spans centuries and continents.",
+    "final_recommendation": "Pamela is a name with a storied past and a timeless allure. Whether for its literary roots or modern-day associations, it's a choice that carries elegance and depth.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

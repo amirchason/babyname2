@@ -1,0 +1,231 @@
+{
+  "name": "Jimena",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:12:44.250Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Heard",
+  "culturalSignificance": "Jimena is a Spanish feminine name derived from the Hebrew name Solomon, meaning 'heard'. It has been a popular name in Spanish-speaking countries due to its noble and historical connections, particularly in medieval Spain.",
+  "modernContext": "In modern times, Jimena remains a popular choice in Latin America and Spain. It is often chosen for its melodic sound and historical significance, making it a timeless option for parents.",
+  "literaryReferences": "Jimena is a character in the Spanish epic 'El Cid', which portrays the life of the Castilian nobleman and military leader Rodrigo Díaz de Vivar.",
+  "pronunciationGuide": "/xiˈmena/",
+  "variations": [
+    "Ximena",
+    "Simona",
+    "Gemina"
+  ],
+  "similarNames": [
+    "Juliana",
+    "Camila",
+    "Isabella",
+    "Lucia"
+  ],
+  "nicknames": [
+    "Jime",
+    "Mena",
+    "Xime"
+  ],
+  "personality": "Jimena is often associated with strong leadership qualities and a compassionate nature, reflecting its roots in nobility and historical influence.",
+  "symbolism": "The name Jimena symbolizes wisdom and clarity, often associated with the ability to listen and understand deeply.",
+  "funFact": "Jimena is a popular name in telenovelas, often chosen for protagonists due to its noble and classic sound.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jimena Díaz",
+      "years": "1054-1116",
+      "category": "Royalty",
+      "achievements": [
+        "Ruled Valencia after El Cid’s death"
+      ],
+      "significance": "Jimena Díaz was the wife of El Cid, a legendary Spanish hero, and played a crucial role in governing Valencia after his death.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jimena Navarrete",
+      "profession": "Model",
+      "knownFor": [
+        "Miss Universe 2010"
+      ],
+      "awards": "Miss Universe"
+    },
+    {
+      "name": "Jimena Barón",
+      "profession": "Singer and Actress",
+      "knownFor": [
+        "La Tonta",
+        "Casi Ángeles"
+      ],
+      "awards": "Premios Gardel"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "El Cid",
+      "year": 1961,
+      "type": "Movie",
+      "characterName": "Jimena",
+      "characterDescription": "The wife of El Cid, portrayed as a noble and strong-willed woman.",
+      "imdbUrl": "https://www.imdb.com/title/tt0054847/",
+      "genre": "Historical Drama",
+      "verified": true,
+      "popularity": 87
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The Full Moon is a time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded and practical nature, complementing each other well.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability and reliability.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "This archetype is nurturing and supportive, often guiding others through difficult times.",
+    "karmicLessons": "To learn the balance between giving and receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and community."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 300,
+    "peak": 150,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "True nobility lies in being superior to your former self.",
+    "author": "Jimena Navarrete",
+    "context": "Reflecting on personal growth and achievements."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ji-me-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jimena",
+      "script": "Latin",
+      "scriptName": "Jimena",
+      "pronunciation": "/xiˈmena/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Χιμένα",
+      "script": "Greek",
+      "scriptName": "Χιμένα",
+      "pronunciation": "/xiˈmena/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "خيمينا",
+      "script": "Arabic",
+      "scriptName": "خيمينا",
+      "pronunciation": "/xiˈmena/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "希梅娜",
+      "script": "Han",
+      "scriptName": "希梅娜",
+      "pronunciation": "Xī méi nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Химена",
+      "script": "Cyrillic",
+      "scriptName": "Химена",
+      "pronunciation": "/xiˈmena/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חימנה",
+      "script": "Hebrew",
+      "scriptName": "חימנה",
+      "pronunciation": "/xiˈmena/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "El Cid",
+      "author": "Anonymous",
+      "publishedYear": 1200,
+      "genre": "Epic",
+      "significance": "A historical epic detailing the life of Rodrigo Díaz de Vivar, with Jimena as a key character.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jimena has historical roots and has been used for centuries."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "The name is associated with nobility, particularly through historical figures like Jimena Díaz."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has remained popular in various cultures over time."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Jimena is a name that resonates with history and elegance, a choice that has captivated parents for centuries. Its roots in Spanish nobility lend it a sense of timelessness that appeals to many. With its melodic sound and rich heritage, Jimena is a name that stands out in any setting.",
+    "etymology_meaning": "Derived from the Hebrew name Solomon, meaning 'heard', Jimena has traversed cultures to become a staple in Spanish-speaking regions. Its association with listening and understanding gives it a profound depth.",
+    "famous_bearers": "Notable figures with the name Jimena include Jimena Navarrete, who rose to fame as Miss Universe 2010, and Jimena Barón, a celebrated singer and actress. Their achievements showcase the name's association with success and talent.",
+    "pop_culture_moments": "Jimena has appeared in various cultural works, most notably in the epic 'El Cid', highlighting its longstanding cultural significance. The name frequently appears in telenovelas, underscoring its enduring appeal.",
+    "personality_profile": "Those named Jimena are often seen as compassionate leaders, with a natural ability to listen and guide. Their presence is marked by a strong sense of responsibility and empathy.",
+    "variations_nicknames": "Variations like Ximena and nicknames such as Jime and Mena offer flexible options for those who prefer a more casual or unique touch.",
+    "popularity_data": "Jimena has consistently ranked as a popular name in Latin America and Spain, experiencing peaks during times of cultural revival and media exposure.",
+    "pairing_suggestions": "Jimena pairs well with names like Carlos and Sofia, creating a harmonious blend of classic and contemporary styles.",
+    "cultural_context": "The name Jimena carries a rich cultural background, particularly within Spanish-speaking countries, where it is associated with historical figures and nobility.",
+    "final_recommendation": "Jimena is a name that combines historical reverence with modern charm. Its rich heritage and beautiful sound make it a wonderful choice for parents seeking a name with depth and elegance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

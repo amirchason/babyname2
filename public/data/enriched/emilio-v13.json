@@ -1,0 +1,214 @@
+{
+  "name": "Emilio",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:00:13.140Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Rival",
+  "culturalSignificance": "Emilio is a name with deep roots in Latin culture, derived from the Roman family name Aemilius. It has been used across various Spanish and Italian-speaking cultures, signifying strength and competitiveness.",
+  "modernContext": "In modern times, Emilio is a popular choice in Hispanic communities and has gained recognition globally. It remains a classic name that carries a sense of elegance and historical depth.",
+  "literaryReferences": "The name Emilio appears in Jean-Jacques Rousseau's novel 'Émile, or On Education', where it is used for the main character.",
+  "pronunciationGuide": "/ɛˈmiːlioʊ/",
+  "variations": [
+    "Emil",
+    "Emiliano",
+    "Emiliano",
+    "Emiliana"
+  ],
+  "similarNames": [
+    "Emil",
+    "Emmanuel",
+    "Elio",
+    "Elias",
+    "Elliot"
+  ],
+  "nicknames": [
+    "Em",
+    "Milo",
+    "Emmy"
+  ],
+  "personality": "Individuals named Emilio are often perceived as charismatic and determined, with a strong sense of leadership.",
+  "symbolism": "The name Emilio is often associated with ambition and a competitive spirit.",
+  "funFact": "Emilio Estevez, a notable American actor, kept his real surname while his father, Martin Sheen, adopted a stage name.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Emilio Estevez",
+      "profession": "Actor",
+      "knownFor": [
+        "The Breakfast Club",
+        "The Mighty Ducks"
+      ],
+      "awards": "Nominated for Golden Globe"
+    },
+    {
+      "name": "Emilio Pucci",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Colorful prints",
+        "Luxury fashion"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Mighty Ducks",
+      "year": 1992,
+      "type": "Movie",
+      "characterName": "Gordon Bombay",
+      "characterDescription": "A former hockey player turned coach.",
+      "imdbUrl": "https://www.imdb.com/title/tt0104868/",
+      "genre": "Family, Comedy, Sport",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature and dynamic energy.",
+    "cosmicElement": "Energy",
+    "cosmicElementDescription": "Represents vitality and enthusiasm.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes courage and authority.",
+    "karmicLessons": "To balance ambition with compassion.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "A desire to be a pioneering force."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 302,
+    "peak": 230,
+    "peakYear": 2007
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "context": "A motivational reminder that aligns with the competitive spirit of those named Emilio."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "E-mi-lio"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Emilio",
+      "script": "Latin",
+      "scriptName": "Emilio",
+      "pronunciation": "/eˈmiljo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εμίλιος",
+      "script": "Greek",
+      "scriptName": "Εμίλιος",
+      "pronunciation": "/eˈmilios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إميليو",
+      "script": "Arabic",
+      "scriptName": "إميليو",
+      "pronunciation": "/ʔeːˈmiljo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "埃米利奥",
+      "script": "Han",
+      "scriptName": "埃米利奥",
+      "pronunciation": "/ài mǐ lì ào/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эмилио",
+      "script": "Cyrillic",
+      "scriptName": "Эмилио",
+      "pronunciation": "/ɪˈmilʲɪo/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אמיליו",
+      "script": "Hebrew",
+      "scriptName": "אמיליו",
+      "pronunciation": "/ɛˈmiljo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Emilio is a timeless name with Latin origins."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been consistently used across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in classic literature like Rousseau's works."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Emilio is a name that resonates with a rich cultural heritage and timeless appeal. With its roots in Latin tradition, it carries a sense of history and strength. It's a name that stands out for its elegance and historical depth.",
+    "etymology_meaning": "Derived from the Latin Aemilius, Emilio means 'rival' and is associated with strength and competitiveness. The name has been used widely across Spanish and Italian cultures.",
+    "famous_bearers": "Emilio Estevez, a notable actor, and Emilio Pucci, a renowned fashion designer, are among the famous bearers of this name. Their influence spans the fields of entertainment and fashion.",
+    "pop_culture_moments": "Emilio has made its mark in pop culture through characters like Gordon Bombay in 'The Mighty Ducks', showcasing its versatility across different media.",
+    "personality_profile": "Those named Emilio are often seen as charismatic leaders, driven by a competitive spirit. They are known for their ambition and strong presence.",
+    "variations_nicknames": "Variations of the name include Emil and Emiliano, with common nicknames such as Em and Milo, offering a range of personalization options.",
+    "popularity_data": "Emilio has maintained a steady popularity, peaking in the early 2000s and continuing to be a favored choice in many cultures.",
+    "pairing_suggestions": "Emilio pairs well with classic names like Isabella or modern choices like Aria, offering flexibility for sibling names.",
+    "cultural_context": "With deep roots in Latin culture, Emilio is a name that carries a sense of heritage and tradition, appealing to those who value cultural significance.",
+    "final_recommendation": "Choosing Emilio is embracing a name with historical depth and modern appeal. It's a choice that stands out for its elegance and timeless quality.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

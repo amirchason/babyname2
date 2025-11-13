@@ -1,0 +1,238 @@
+{
+  "name": "Osvaldo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:18:14.488Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "God's power",
+  "culturalSignificance": "Osvaldo is a name of Germanic origin, commonly used in Spanish and Italian-speaking countries. It is derived from the Old High German elements 'os', meaning god, and 'wald', meaning ruler or power, indicating a divine strength or leadership.",
+  "modernContext": "Osvaldo is moderately popular in Latin American countries and among Italian communities. It is often chosen for its strong historical connotations and melodic sound.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/osˈβaldo/",
+  "variations": [
+    "Oswald",
+    "Oswaldo",
+    "Osvalda",
+    "Ozvaldo",
+    "Osvaldos"
+  ],
+  "similarNames": [
+    "Oswald",
+    "Osbourne",
+    "Osmond",
+    "Orlando",
+    "Orval"
+  ],
+  "nicknames": [
+    "Ozzy",
+    "Valdo",
+    "Ozzie",
+    "Ovi"
+  ],
+  "personality": "People named Osvaldo are often seen as charismatic and strong leaders with a natural ability to inspire others. They are perceived as reliable and determined.",
+  "symbolism": "The name Osvaldo symbolizes divine strength and leadership, often associated with a deep sense of responsibility and integrity.",
+  "funFact": "The name Osvaldo has been used by several notable footballers, emphasizing its association with strength and agility.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Osvaldo Aranha",
+      "years": "1894-1960",
+      "category": "Politician",
+      "achievements": [
+        "President of the UN General Assembly",
+        "Influential in the creation of Israel"
+      ],
+      "significance": "Osvaldo Aranha was a Brazilian politician and diplomat who played a significant role in international diplomacy during and after World War II.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Osvaldo Golijov",
+      "profession": "Composer",
+      "knownFor": [
+        "La Pasión según San Marcos",
+        "Ainadamar"
+      ],
+      "awards": "Grammy Award for Best Opera Recording"
+    },
+    {
+      "name": "Osvaldo Ardiles",
+      "profession": "Footballer",
+      "knownFor": [
+        "Playing for Tottenham Hotspur",
+        "Winning the 1978 FIFA World Cup with Argentina"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Osvaldo Alonso",
+      "profession": "Athlete",
+      "sport": "Soccer",
+      "league": "MLS",
+      "team": "Minnesota United FC",
+      "pastTeams": [
+        "Seattle Sounders FC"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "6",
+      "years": "2009-Present",
+      "achievements": "MLS Cup Champion",
+      "knownFor": [
+        "Defensive skills",
+        "Leadership"
+      ],
+      "awards": "",
+      "stats": "Over 300 MLS appearances",
+      "verified": true,
+      "source": "https://www.mlssoccer.com/players/osvaldo-alonso/"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Brown",
+      "hex": "#A52A2A"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration, ideal for recognizing accomplishments.",
+    "compatibleSigns": [
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that share practicality and reliability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth is associated with stability, reliability, and a grounded nature.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Representing creation and growth, focused on building a legacy.",
+    "karmicLessons": "Learning to balance personal power with humility.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A strong desire for stability and security in life."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 750,
+    "peak": 350,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Strength lies in differences, not in similarities.",
+    "author": "Stephen Covey",
+    "context": "A motivational quote about the power of diversity and individuality."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Os-val-do"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Osvaldo",
+      "script": "Latin",
+      "scriptName": "Osvaldo",
+      "pronunciation": "/osˈβaldo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Οσβάλδο",
+      "script": "Greek",
+      "scriptName": "Οσβάλδο",
+      "pronunciation": "/osˈvalðo/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أوسفالدو",
+      "script": "Arabic",
+      "scriptName": "أوسفالدو",
+      "pronunciation": "/ʔusˈvaldu/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "奥斯瓦尔多",
+      "script": "Han",
+      "scriptName": "奥斯瓦尔多",
+      "pronunciation": "/àosīwǎěrduō/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Освальдо",
+      "script": "Cyrillic",
+      "scriptName": "Освальдо",
+      "pronunciation": "/osˈvaldə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אוסבלדו",
+      "script": "Hebrew",
+      "scriptName": "אוסבלדו",
+      "pronunciation": "/ɔːsˈvaldɔ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Osvaldo has historical roots and has been used across generations."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's elements 'god' and 'power' give it a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "The name's association with strong characters in literature and history."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Osvaldo is a name that echoes with strength and history. With roots in Germanic languages, this name carries the weight of divine power and leadership. It's a choice that resonates with those who value tradition and strength.",
+    "etymology_meaning": "Osvaldo is derived from the Germanic elements 'os', meaning god, and 'wald', meaning ruler or power. This reflects a name steeped in the idea of divine strength.",
+    "famous_bearers": "Notable people named Osvaldo include Osvaldo Golijov, a celebrated composer, and Osvaldo Ardiles, a World Cup-winning footballer.",
+    "pop_culture_moments": "While not frequently found in pop culture, Osvaldo has made its mark through sports and music, with figures who have achieved international recognition.",
+    "personality_profile": "The name Osvaldo often suggests a strong, charismatic personality. People with this name are seen as leaders and are admired for their reliability.",
+    "variations_nicknames": "Osvaldo has variations such as Oswald and nicknames like Ozzy and Valdo, allowing for personal customization.",
+    "popularity_data": "The name Osvaldo has seen moderate popularity, particularly in Latin America, maintaining a steady presence over the years.",
+    "pairing_suggestions": "Osvaldo pairs well with classic names like Isabella or contemporary ones like Sofia, offering flexibility in naming conventions.",
+    "cultural_context": "Used predominantly in Spanish and Italian-speaking regions, Osvaldo brings a sense of cultural richness and historical depth.",
+    "final_recommendation": "For parents seeking a name that bridges tradition with strength, Osvaldo is an excellent choice. It offers a blend of historical significance and modern appeal.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

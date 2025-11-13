@@ -1,0 +1,206 @@
+{
+  "name": "Toribio",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T16:19:12.836Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "God of thunder",
+  "culturalSignificance": "The name Toribio has roots in the Greek name Thóribos, which means 'God of thunder.' It was popularized in the Spanish-speaking world, particularly because of its association with Saint Toribio of Mogrovejo, a notable missionary in South America.",
+  "modernContext": "In modern times, the name Toribio is less commonly used but still holds cultural significance in Latin American communities. It is often chosen for its religious and historical connotations.",
+  "literaryReferences": "",
+  "pronunciationGuide": "toˈɾiβjo",
+  "variations": [
+    "Torbio",
+    "Toribo",
+    "Toribío",
+    "Thorbio",
+    "Torib"
+  ],
+  "similarNames": [
+    "Tobias",
+    "Torio",
+    "Tomas",
+    "Tito",
+    "Teodoro",
+    "Tomás"
+  ],
+  "nicknames": [
+    "Tori",
+    "Tibo",
+    "Toby",
+    "Rio",
+    "Tor"
+  ],
+  "personality": "The name Toribio is often associated with strong, dynamic individuals who possess leadership qualities. They are seen as resilient and charismatic.",
+  "symbolism": "The name carries a symbolic association with strength and power, akin to the thunder god it is named after.",
+  "funFact": "Saint Toribio of Mogrovejo is the second most frequently canonized saint from the Americas.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Toribio of Mogrovejo",
+    "significance": "Saint Toribio was a Spanish missionary archbishop in Peru, known for his dedication to evangelizing the indigenous peoples of South America.",
+    "keyStories": [
+      "He learned indigenous languages to communicate effectively with local communities.",
+      "He was canonized by Pope Benedict XIII in 1726."
+    ],
+    "spiritualMeaning": "He is regarded as a symbol of dedication and compassion in Christian missionary work.",
+    "historicalImpact": "Saint Toribio's work significantly impacted the spread of Christianity in South America, establishing many churches and schools."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Saint Toribio de Mogrovejo",
+      "years": "1538-1606",
+      "category": "Religious Leader",
+      "achievements": [
+        "Canonized as a saint",
+        "Missionary efforts in Peru"
+      ],
+      "significance": "He was a key figure in the Catholic Church's missionary work in the New World, known for his efforts to protect and educate indigenous peoples.",
+      "notableWorks": [
+        "Evangelization of Peru",
+        "Establishment of seminaries"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for intellectual pursuits and balance.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural born leaders who inspire others.",
+    "karmicLessons": "Learning to harness power responsibly and ethically.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Driven by a need for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 100,
+    "female": 0
+  },
+  "ranking": {
+    "current": 980,
+    "peak": 750,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The thunderous spirit of Toribio inspires strength in adversity.",
+    "author": "Unknown",
+    "context": "A saying about the name's association with strength."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "To-ri-bio"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Toribio",
+      "script": "Latin",
+      "scriptName": "Toribio",
+      "pronunciation": "toˈɾiβjo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Θορύβιος",
+      "script": "Greek",
+      "scriptName": "Θορύβιος",
+      "pronunciation": "θoˈɾivios",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "توريبيو",
+      "script": "Arabic",
+      "scriptName": "توريبيو",
+      "pronunciation": "tuˈriːbju",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "托里比奥",
+      "script": "Han",
+      "scriptName": "托里比奥",
+      "pronunciation": "Tuō lǐ bǐ ào",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Торибио",
+      "script": "Cyrillic",
+      "scriptName": "Торибио",
+      "pronunciation": "tɐˈrʲibʲɪo",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "טוריביו",
+      "script": "Hebrew",
+      "scriptName": "טוריביו",
+      "pronunciation": "toˈribju",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical and religious roots, making it timeless."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Associated with Saint Toribio, a significant religious figure."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.85,
+      "reason": "Widely recognized in Hispanic cultures due to its historical significance."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Toribio resonates with the echoes of history and religion, offering a unique blend of cultural richness and spiritual significance. Known for its association with Saint Toribio of Mogrovejo, the name carries an aura of strength and leadership.",
+    "etymology_meaning": "Toribio has its roots in the Greek name Thóribos, translating to 'God of thunder.' It embodies power and authority, traits that have been celebrated throughout history.",
+    "famous_bearers": "Saint Toribio de Mogrovejo stands as the most renowned bearer of this name, recognized for his missionary work in South America. His dedication to spreading Christianity and protecting indigenous people is well-documented.",
+    "pop_culture_moments": "While not commonly found in modern pop culture, the name Toribio remains a staple in religious texts and histories, particularly in Latin America.",
+    "personality_profile": "Individuals named Toribio are often seen as leaders, possessing a natural charisma and resilience. They inspire others with their dedication and strength.",
+    "variations_nicknames": "Variations like Toribo and Toribío, along with nicknames such as Tori and Toby, offer several choices for those seeking a unique yet traditional name.",
+    "popularity_data": "The name has seen fluctuating popularity, with its peak in the mid-20th century. Today, it is cherished for its historical and cultural ties.",
+    "pairing_suggestions": "Toribio pairs well with classic names like Elena and Sofia for females, or traditional names like Mateo and Santiago for males.",
+    "cultural_context": "Deeply rooted in Hispanic culture, Toribio is often chosen to honor its religious and historical significance.",
+    "final_recommendation": "For parents seeking a name with deep cultural roots and strong historical significance, Toribio offers a powerful choice that carries both tradition and a sense of leadership.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

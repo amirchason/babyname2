@@ -1,0 +1,278 @@
+{
+  "name": "Joan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:01:50.198Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Joan is a name with historical significance, prominently borne by Joan of Arc, a French heroine and saint. It has been widely used in English-speaking countries and is associated with strength and leadership.",
+  "modernContext": "In contemporary settings, Joan is considered a classic name and remains popular due to its historic and cultural associations. It is often chosen for its timeless appeal and strong sound.",
+  "literaryReferences": "The name Joan appears in various literary works, often symbolizing strength and independence, inspired by historical figures like Joan of Arc.",
+  "pronunciationGuide": "dʒoʊn",
+  "variations": [
+    "Joanne",
+    "Johanna",
+    "Joanna",
+    "Joanita",
+    "Joann"
+  ],
+  "similarNames": [
+    "Jane",
+    "Jean",
+    "June",
+    "Judith",
+    "Joy"
+  ],
+  "nicknames": [
+    "Jo",
+    "Jojo",
+    "Joni"
+  ],
+  "personality": "People named Joan are often seen as strong-willed, independent, and confident, drawing inspiration from historical figures bearing the name.",
+  "symbolism": "Joan often symbolizes courage, leadership, and piety, reflecting its historical and religious associations.",
+  "funFact": "Joan of Arc, known as 'The Maid of Orléans,' led the French army to several important victories during the Hundred Years' War.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Joan of Arc",
+    "significance": "Joan of Arc is a canonized saint in the Catholic Church, known for her role in the Hundred Years' War and her dedication to her faith.",
+    "keyStories": [
+      "Joan of Arc's visions",
+      "Her role in the Siege of Orléans"
+    ],
+    "spiritualMeaning": "Joan is often seen as a symbol of divine inspiration and determination.",
+    "historicalImpact": "Her canonization and legacy as a martyr have had a profound impact on Christian history and French national identity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Joan of Arc",
+      "years": "1412-1431",
+      "category": "Military Leader",
+      "achievements": [
+        "Led French army to victories",
+        "Canonized as a saint"
+      ],
+      "significance": "Joan of Arc is a national heroine of France and a saint of the Roman Catholic Church.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Joan Baez",
+      "years": "1941-Present",
+      "category": "Musician",
+      "achievements": [
+        "Influential folk singer",
+        "Civil rights activist"
+      ],
+      "significance": "Joan Baez is known for her music and activism, particularly during the civil rights movement.",
+      "notableWorks": [
+        "Diamonds & Rust",
+        "We Shall Overcome"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I am not afraid... I was born to do this.",
+      "author": "Joan of Arc",
+      "context": "During her trial",
+      "year": 1431,
+      "category": "Courage"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Joan Collins",
+      "profession": "Actress",
+      "knownFor": [
+        "Dynasty",
+        "The Stud"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Joan Jett",
+      "profession": "Musician",
+      "knownFor": [
+        "I Love Rock 'n' Roll",
+        "Bad Reputation"
+      ],
+      "awards": "Rock and Roll Hall of Fame"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Joan of Arc Story",
+      "year": 1948,
+      "type": "Movie",
+      "characterName": "Joan",
+      "characterDescription": "A portrayal of the life of Joan of Arc.",
+      "imdbUrl": "https://www.imdb.com/title/tt0040491/",
+      "genre": "Biography",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius",
+      "Aries"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature and love for adventure.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents energy, assertiveness, and passion.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "A natural leader with charisma and vision.",
+    "karmicLessons": "To embrace leadership opportunities and inspire others.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "A desire to be independent and lead with conviction."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 320,
+    "peak": 45,
+    "peakYear": 1940
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Act and God will act.",
+    "author": "Joan of Arc",
+    "context": "Motivational encouragement for taking initiative."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Joan"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Juana",
+      "script": "Latin",
+      "scriptName": "Juana",
+      "pronunciation": "ˈxwana",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωάννα",
+      "script": "Greek",
+      "scriptName": "Ιωάννα",
+      "pronunciation": "ioˈana",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جون",
+      "script": "Arabic",
+      "scriptName": "جون",
+      "pronunciation": "dʒuːn",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "琼",
+      "script": "Han",
+      "scriptName": "琼",
+      "pronunciation": "qióng",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Жанна",
+      "script": "Cyrillic",
+      "scriptName": "Жанна",
+      "pronunciation": "ʐana",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ואן",
+      "script": "Hebrew",
+      "scriptName": "ג'ואן",
+      "pronunciation": "dʒoʊn",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Saint Joan",
+      "author": "George Bernard Shaw",
+      "publishedYear": 1923,
+      "genre": "Drama",
+      "significance": "A play that explores the life and trial of Joan of Arc.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Joan has been used for centuries and remains a timeless choice."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "The name has roots in the Hebrew name Yohanan, meaning 'God is gracious.'"
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured prominently in literature and plays."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Joan of Arc",
+      "artist": "Leonard Cohen",
+      "year": 1971,
+      "genre": "Folk",
+      "nameContext": "The song reflects on the life and legacy of Joan of Arc.",
+      "description": "A contemplative song about the life and impact of Joan of Arc, capturing her bravery and tragic end.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Leonard+Cohen+Joan+of+Arc",
+      "geniusUrl": "https://genius.com/Leonard-cohen-joan-of-arc-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Joan carries with it a rich tapestry of history and significance, from the battlefields of medieval France to the stages of modern music. It's a name that resonates with strength and grace.",
+    "etymology_meaning": "Joan is derived from the Hebrew name Yohanan, which means 'God is gracious.' It became popular in the English-speaking world as a feminine form of John.",
+    "famous_bearers": "Joan of Arc, a pivotal figure in French history, and Joan Baez, an iconic folk singer and activist, are among the most renowned bearers of this name.",
+    "pop_culture_moments": "Joan has been immortalized in plays, movies, and songs, continually inspiring new generations with stories of valor and resilience.",
+    "personality_profile": "Names like Joan are often associated with leadership and courage, drawing from historical figures who have left a lasting impact.",
+    "variations_nicknames": "Common variations include Joanne and Johanna, while nicknames such as Jo and Joni offer a more casual, endearing touch.",
+    "popularity_data": "Joan experienced peak popularity in the mid-20th century and continues to be a classic choice for those seeking a name with historical significance.",
+    "pairing_suggestions": "Joan pairs well with names like Elizabeth and Katherine, providing a balance of strength and elegance in sibling sets.",
+    "cultural_context": "With roots in Hebrew and widespread use across Europe, Joan is a name that transcends cultural boundaries, maintaining its relevance through centuries.",
+    "final_recommendation": "Choosing the name Joan is choosing a legacy of strength and grace. It's a name that honors its past while fitting seamlessly into the present.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

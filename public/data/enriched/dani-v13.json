@@ -1,0 +1,247 @@
+{
+  "name": "Dani",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:28:54.632Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "God is my judge",
+  "culturalSignificance": "The name Dani is often used as a diminutive of Daniel or Danielle, names with deep roots in biblical history. In Hebrew, it signifies divine judgment, reflecting its religious origins.",
+  "modernContext": "Dani has gained popularity as a standalone name, particularly in English-speaking countries, due to its simplicity and versatility. It is frequently chosen for both boys and girls, reflecting modern trends toward unisex names.",
+  "literaryReferences": "Dani is a popular character name in modern literature, often used to signify youthful, dynamic characters.",
+  "pronunciationGuide": "/ˈdæ.ni/",
+  "variations": [
+    "Danny",
+    "Danielle",
+    "Daniel",
+    "Dania",
+    "Danica"
+  ],
+  "similarNames": [
+    "Dan",
+    "Dana",
+    "Dane",
+    "Dylan",
+    "Denis"
+  ],
+  "nicknames": [
+    "Dan",
+    "Danny",
+    "D"
+  ],
+  "personality": "People named Dani are often perceived as energetic and friendly, with a natural inclination towards creativity and communication.",
+  "symbolism": "The name Dani symbolizes fairness and justice, echoing its Hebrew origins meaning 'God is my judge'.",
+  "funFact": "Dani is often used in various languages as a diminutive for Daniel or Danielle, showcasing its global appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Dani Filth",
+      "profession": "Musician",
+      "knownFor": [
+        "Cradle of Filth"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Dani Alves",
+      "profession": "Athlete",
+      "knownFor": [
+        "Football career"
+      ],
+      "awards": "FIFA World Cup, UEFA Champions League"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Dani Alves",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "La Liga",
+      "team": "Sevilla FC",
+      "pastTeams": [
+        "FC Barcelona",
+        "Paris Saint-Germain"
+      ],
+      "position": "Right Back",
+      "jerseyNumber": "2",
+      "years": "2001-Present",
+      "achievements": "UEFA Champions League, FIFA World Cup",
+      "knownFor": [
+        "Defensive skills",
+        "Leadership"
+      ],
+      "awards": "Multiple UEFA and FIFA titles",
+      "stats": "Over 600 career appearances",
+      "verified": true,
+      "source": "https://www.transfermarkt.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Midsommar",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Dani Ardor",
+      "characterDescription": "A woman dealing with trauma who travels to a Swedish festival.",
+      "imdbUrl": "https://www.imdb.com/title/tt8772262/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's almost as if they were waiting for me to come.",
+      "character": "Dani Ardor",
+      "source": "Midsommar",
+      "year": 2019,
+      "context": "Dani reflecting on the strange happenings at the festival.",
+      "genre": "Horror",
+      "impact": "Highlights the unsettling nature of the film's events."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for communication and social interaction.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and freedom.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Associated with expression and connection.",
+    "karmicLessons": "Learning to balance personal freedom with responsibility.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire for self-expression and creativity."
+  },
+  "genderDistribution": {
+    "male": 45,
+    "female": 55
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 150,
+    "peakYear": 2000
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "context": "A reminder to push past self-doubt."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Dan-i"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Dani",
+      "script": "Latin",
+      "scriptName": "Dani",
+      "pronunciation": "/ˈdani/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντάνι",
+      "script": "Greek",
+      "scriptName": "Ντάνι",
+      "pronunciation": "/ˈdani/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "داني",
+      "script": "Arabic",
+      "scriptName": "داني",
+      "pronunciation": "/ˈdaː.ni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "丹尼",
+      "script": "Han",
+      "scriptName": "丹尼",
+      "pronunciation": "/dān ní/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дани",
+      "script": "Cyrillic",
+      "scriptName": "Дани",
+      "pronunciation": "/ˈdanʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דני",
+      "script": "Hebrew",
+      "scriptName": "דני",
+      "pronunciation": "/ˈdani/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Dani is often chosen for its contemporary, versatile appeal."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Rooted in the classic names Daniel and Danielle."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 1,
+      "reason": "Widely used for all genders."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Dani is a name that exudes charm and simplicity, a perfect choice for parents looking for a contemporary twist on a classic. With roots in biblical tradition, Dani brings a sense of timelessness while fitting effortlessly into modern life.",
+    "etymology_meaning": "Originating from the Hebrew name Daniel, meaning 'God is my judge', Dani has transcended its origins to become a popular standalone name. Its etymology speaks to a rich history, while its current usage reflects an adaptive, modern identity.",
+    "famous_bearers": "Notable figures with the name include Dani Filth, lead singer of the band Cradle of Filth, and Dani Alves, a renowned footballer known for his exceptional career in clubs like FC Barcelona.",
+    "pop_culture_moments": "Dani has made appearances in pop culture, most notably as Dani Ardor, the central character in the horror film 'Midsommar'. This character has contributed to the name's recognition in the media.",
+    "personality_profile": "Individuals named Dani often embody creativity and expressiveness, with a natural inclination towards social interaction. They are seen as dynamic and adaptable, traits that align with their versatile name.",
+    "variations_nicknames": "Variations of the name include Danny, Daniele, and Danica, offering a range of options for personalization. Common nicknames like Dan and D highlight the name's friendly and approachable nature.",
+    "popularity_data": "Dani has enjoyed steady popularity, particularly in the late 20th and early 21st centuries, reflecting broader trends towards shorter, unisex names. Its peak in 2000 underscores its enduring appeal.",
+    "pairing_suggestions": "Dani pairs well with middle names that provide a contrast in length or style, such as Alexander, Grace, or Isabelle. These combinations can offer a balance between tradition and modernity.",
+    "cultural_context": "The name Dani is embraced across cultures, underscoring its universal appeal. Its Hebrew origins lend it a timeless quality, while its contemporary usage speaks to its adaptability.",
+    "final_recommendation": "For parents seeking a name that combines tradition with modern flair, Dani is an excellent choice. Its unisex nature and cultural resonance make it a versatile option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

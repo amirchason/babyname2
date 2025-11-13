@@ -1,0 +1,228 @@
+{
+  "name": "Domingo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:38:23.595Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Belonging to the Lord",
+  "culturalSignificance": "The name Domingo is traditionally used in Spanish-speaking countries and is derived from the Latin 'Dominicus,' which means 'belonging to the Lord.' It is often associated with Sunday, the day of the Lord in Christian traditions.",
+  "modernContext": "In modern times, Domingo remains a popular name in Hispanic cultures. It is often used as both a first and a last name, maintaining its religious connotations while also being appreciated for its strong, classic feel.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/doˈmiŋɡo/",
+  "variations": [
+    "Dominic",
+    "Dominique",
+    "Domingos",
+    "Domingo"
+  ],
+  "similarNames": [
+    "Dominic",
+    "Diego",
+    "Damian",
+    "Domenico",
+    "Dionisio"
+  ],
+  "nicknames": [
+    "Dom",
+    "Mingo",
+    "Domi"
+  ],
+  "personality": "People named Domingo are often thought to be reliable, strong, and dignified. The name carries a sense of authority and respect.",
+  "symbolism": "The name Domingo symbolizes devotion and faithfulness, reflecting its religious roots.",
+  "funFact": "Domingo is also the Spanish word for Sunday, reinforcing its association with the day of worship in Christianity.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "",
+    "significance": "Sunday, or Domingo, is considered the Lord's Day in Christianity, a day for rest and worship.",
+    "keyStories": [],
+    "spiritualMeaning": "The name Domingo is associated with devotion and reverence towards God.",
+    "historicalImpact": "The association of Domingo with Sunday highlights the importance of worship and rest in Christian tradition."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Domingo Faustino Sarmiento",
+      "years": "1811-1888",
+      "category": "Politician",
+      "achievements": [
+        "President of Argentina",
+        "Educational reformer"
+      ],
+      "significance": "Sarmiento was a key figure in Argentina's development, particularly in education and infrastructure.",
+      "notableWorks": [
+        "Facundo"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Plácido Domingo",
+      "profession": "Musician",
+      "knownFor": [
+        "Opera singing",
+        "Conducting"
+      ],
+      "awards": "Multiple Grammy Awards"
+    },
+    {
+      "name": "Domingo Zapata",
+      "profession": "Artist",
+      "knownFor": [
+        "Contemporary art",
+        "Fashion collaborations"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The Full Moon is a time of culmination and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These Earth signs are known for their stability and reliability, aligning well with the traits associated with Domingo.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, practicality, and dependability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Reflects a personality focused on creating and maintaining stability.",
+    "karmicLessons": "Learning to balance work and rest.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desires stability, order, and a harmonious home environment."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 230,
+    "peakYear": 1975
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "context": "Encouragement in overcoming obstacles"
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Do-min-go"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Domingo",
+      "script": "Latin",
+      "scriptName": "Domingo",
+      "pronunciation": "/doˈmiŋɡo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Δομήνικος",
+      "script": "Greek",
+      "scriptName": "Δομήνικος",
+      "pronunciation": "/ðoˈminikos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دومينجو",
+      "script": "Arabic",
+      "scriptName": "دومينجو",
+      "pronunciation": "/doˈmiŋɡo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "多明戈",
+      "script": "Han",
+      "scriptName": "多明戈",
+      "pronunciation": "/duō míng gē/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Доминго",
+      "script": "Cyrillic",
+      "scriptName": "Доминго",
+      "pronunciation": "/dɐˈmʲinɡə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דומינגו",
+      "script": "Hebrew",
+      "scriptName": "דומינגו",
+      "pronunciation": "/doˈmiŋɡo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Domingo's Angel",
+      "author": "Jenny Twist",
+      "publishedYear": 2011,
+      "genre": "Fiction",
+      "significance": "A touching story set in Spain, exploring love and history.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Domingo has a long history and traditional roots."
+    },
+    {
+      "tag": "Religious",
+      "confidence": 0.85,
+      "reason": "Associated with the day of worship in Christianity."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Remains popular over generations in Hispanic cultures."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Domingo is a name that resonates with historical and cultural depth, cherished in many Spanish-speaking countries. Its roots trace back to Latin, embodying a sense of belonging and devotion. From historic figures to modern celebrities, Domingo carries a legacy of strength and integrity.",
+    "etymology_meaning": "Domingo is derived from the Latin 'Dominicus,' meaning 'belonging to the Lord.' This name has held significance through centuries, especially in Christian contexts, where it is associated with Sunday, the day of worship.",
+    "famous_bearers": "Among the notable bearers of this name is Plácido Domingo, an acclaimed opera singer known worldwide for his powerful performances and contributions to classical music.",
+    "pop_culture_moments": "In popular culture, the name Domingo appears in various forms, from literature to art, reflecting its enduring appeal and connection to Spanish heritage.",
+    "personality_profile": "People named Domingo are often seen as reliable and strong, with a dignified presence. They are known for their steadfastness and commitment, traits that align with the name's historical and religious roots.",
+    "variations_nicknames": "Variations of Domingo include Dominic and Dominique, while common nicknames are Dom and Mingo, each offering a unique twist to the classic name.",
+    "popularity_data": "The name Domingo has fluctuated in popularity but maintains a strong presence in Hispanic communities. It reached its peak in the late 20th century and continues to be a favored choice for its cultural resonance.",
+    "pairing_suggestions": "Domingo pairs well with names like Maria, Sofia, and Diego, creating harmonious combinations that celebrate Spanish linguistic traditions.",
+    "cultural_context": "Rich in cultural significance, Domingo embodies a blend of religious tradition and modern usage, making it a name that honors the past while fitting seamlessly into contemporary life.",
+    "final_recommendation": "For those seeking a name with depth and timeless appeal, Domingo is an excellent choice. Its cultural roots and strong associations make it a meaningful option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

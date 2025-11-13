@@ -1,0 +1,215 @@
+{
+  "name": "Graciela",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:55:26.100Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Graceful",
+  "culturalSignificance": "Graciela is a name with deep cultural roots in Spanish-speaking countries. It is derived from the Latin word 'gratia', meaning grace, and is often associated with elegance and kindness. The name is popular in many Spanish-speaking communities and is often chosen for its melodic sound and positive connotations.",
+  "modernContext": "In modern times, Graciela remains a popular name in Latin America and among Hispanic communities in the United States. The name is appreciated for its classic appeal and gentle sound, often seen as a timeless choice for baby girls.",
+  "literaryReferences": "Graciela does not have any prominent literary references.",
+  "pronunciationGuide": "/ɡɾaˈθjela/ or /ɡɾaˈsiela/",
+  "variations": [
+    "Grace",
+    "Gracia",
+    "Graziella",
+    "Graciana",
+    "Gracina"
+  ],
+  "similarNames": [
+    "Gabriela",
+    "Mariela",
+    "Isabela",
+    "Daniela",
+    "Luciana"
+  ],
+  "nicknames": [
+    "Grace",
+    "Ciela",
+    "Gracie",
+    "Gigi"
+  ],
+  "personality": "People named Graciela are often perceived as elegant, compassionate, and nurturing. They are thought to have a natural grace and charm that draws others to them.",
+  "symbolism": "The name Graciela symbolizes grace, elegance, and beauty. It conveys a sense of harmony and balance.",
+  "funFact": "Graciela was a popular name during the mid-20th century in Argentina, often chosen for its association with grace and beauty.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Graciela Daniele",
+      "profession": "Choreographer",
+      "knownFor": [
+        "Ragtime",
+        "The Visit"
+      ],
+      "awards": "Tony Award nominations"
+    },
+    {
+      "name": "Graciela Iturbide",
+      "profession": "Photographer",
+      "knownFor": [
+        "Black and white photography"
+      ],
+      "awards": "Hasselblad Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Bridge",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Graciela Rivera",
+      "characterDescription": "A powerful and influential figure in the show's plot.",
+      "imdbUrl": "https://www.imdb.com/title/tt2406376/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a natural affinity with water elements, fostering deep emotional connections.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents intuition, emotion, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "The Healer is compassionate and nurturing, always seeking to bring balance and harmony.",
+    "karmicLessons": "Learning to balance emotions and intellect.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to create harmony and provide compassion and care to others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 812,
+    "peak": 450,
+    "peakYear": 1972
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Grace is not part of consciousness; it is the amount of light in our souls, not knowledge nor reason.",
+    "author": "Pope Francis",
+    "context": "Discussing the spiritual concept of grace."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Gra-cie-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Graciela",
+      "script": "Latin",
+      "scriptName": "Graciela",
+      "pronunciation": "/ɡɾaˈθjela/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκρασιέλα",
+      "script": "Greek",
+      "scriptName": "Γκρασιέλα",
+      "pronunciation": "/ɡraˈsi.e.la/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "غراسييلا",
+      "script": "Arabic",
+      "scriptName": "غراسييلا",
+      "pronunciation": "/ɣra.siˈje.la/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "格拉谢拉",
+      "script": "Han",
+      "scriptName": "格拉谢拉",
+      "pronunciation": "/ɡə.laˈɕjɛ.la/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Грасиела",
+      "script": "Cyrillic",
+      "scriptName": "Грасиела",
+      "pronunciation": "/ɡrɐˈsʲi.lə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גרסיאלה",
+      "script": "Hebrew",
+      "scriptName": "גרסיאלה",
+      "pronunciation": "/ɡra.siˈe.la/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Graciela has been used for generations, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has remained popular across various cultures and eras."
+    },
+    {
+      "tag": "Elegant",
+      "confidence": 0.85,
+      "reason": "Graciela is associated with grace and beauty."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Graciela, a name that resonates with elegance and grace, has a rich history that spans across cultures. Its melodious sound and positive connotations make it a popular choice for parents seeking a timeless name for their daughters. Embracing both tradition and charm, Graciela continues to captivate families around the world.",
+    "etymology_meaning": "Derived from the Latin 'gratia' meaning grace, Graciela embodies elegance and beauty. Its roots can be traced back to the Latin language, where it has long been associated with virtues of kindness and charm.",
+    "famous_bearers": "Notable bearers of the name include Graciela Daniele, a celebrated choreographer known for her work on Broadway, and Graciela Iturbide, a renowned photographer whose evocative images have been acclaimed worldwide.",
+    "pop_culture_moments": "In popular culture, the name Graciela has appeared in various media, including the TV show 'The Bridge', where a character named Graciela Rivera plays a significant role. This appearance highlights the name's enduring appeal and presence in modern storytelling.",
+    "personality_profile": "Graciela is often associated with qualities such as compassion, elegance, and an innate sense of balance. Those with this name are thought to possess a natural grace that attracts others and fosters harmonious relationships.",
+    "variations_nicknames": "Variations of Graciela include Grace, Gracia, and Graziella, while popular nicknames are Gracie and Ciela. These forms offer a range of options for personalization and affection.",
+    "popularity_data": "Graciela has enjoyed a steady presence in naming charts, particularly within Hispanic communities. While not currently at its peak popularity, it remains a beloved choice for its timeless appeal.",
+    "pairing_suggestions": "Graciela pairs beautifully with classic names such as Sofia and Isabella, and can also complement modern names like Mia and Ava. Its elegance and grace make it a versatile choice for sibling and middle names.",
+    "cultural_context": "The name Graciela holds significant cultural value in Spanish-speaking countries, where it is celebrated for its association with grace and virtue. Its popularity in these regions reflects a deep appreciation for its melodic sound and meaningful roots.",
+    "final_recommendation": "If you are seeking a name that embodies elegance, grace, and cultural richness, Graciela is an excellent choice. Its timeless charm and positive associations make it a name that will continue to shine across generations.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

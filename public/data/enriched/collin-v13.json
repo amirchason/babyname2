@@ -1,0 +1,228 @@
+{
+  "name": "Collin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:47:57.651Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "young creature",
+  "culturalSignificance": "The name Collin is derived from the Gaelic name 'Coilean', which means 'young creature' or 'cub'. It has been used in Irish and Scottish contexts, often as a diminutive form of Nicholas in English-speaking countries.",
+  "modernContext": "In modern times, Collin is a popular choice for boys in English-speaking countries. It is commonly used in the United States and has gained favor due to its simple, yet classic appeal.",
+  "literaryReferences": "Collin does not have significant literary references.",
+  "pronunciationGuide": "/ˈkɒlɪn/",
+  "variations": [
+    "Colin",
+    "Collen",
+    "Collyn",
+    "Colan",
+    "Colyn"
+  ],
+  "similarNames": [
+    "Connor",
+    "Cameron",
+    "Caleb",
+    "Colton",
+    "Cody"
+  ],
+  "nicknames": [
+    "Coll",
+    "Cole",
+    "Linn",
+    "Coco"
+  ],
+  "personality": "The name Collin is often associated with individuals who are friendly, approachable, and well-liked by others. They are perceived as dependable and grounded, often acting as a stabilizing force in their communities.",
+  "symbolism": "Collin symbolizes youth and vitality, representing a fresh start or new beginnings.",
+  "funFact": "The name Collin was among the top 100 names for boys in the United States during the late 1990s and early 2000s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Collin McKinney",
+      "years": "1766-1861",
+      "category": "Politician",
+      "achievements": [
+        "Signatory of the Texas Declaration of Independence",
+        "Surveyor"
+      ],
+      "significance": "Collin McKinney was a key figure in the early history of Texas, notably as a signer of the Texas Declaration of Independence.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Collin Farrell",
+      "profession": "Actor",
+      "knownFor": [
+        "In Bruges",
+        "The Lobster"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Collin Raye",
+      "profession": "Musician",
+      "knownFor": [
+        "Love, Me",
+        "In This Life"
+      ],
+      "awards": "Academy of Country Music Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Secret Life of Walter Mitty",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Collin",
+      "characterDescription": "A minor character in the film.",
+      "imdbUrl": "https://www.imdb.com/title/tt0359950/",
+      "genre": "Adventure, Comedy, Drama",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for growth and taking action.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the stable and practical qualities associated with Earth elements.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Known for creating strong foundations and practical solutions.",
+    "karmicLessons": "Learning patience and the value of hard work.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A desire for security and a stable environment."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 320,
+    "peak": 72,
+    "peakYear": 2004
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Albert Schweitzer",
+    "context": "A motivational quote emphasizing the importance of happiness."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Col-lin"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Colin",
+      "script": "Latin",
+      "scriptName": "Colin",
+      "pronunciation": "/koˈlin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κόλιν",
+      "script": "Greek",
+      "scriptName": "Κόλιν",
+      "pronunciation": "/ˈko.lin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كولين",
+      "script": "Arabic",
+      "scriptName": "كولين",
+      "pronunciation": "/kɔː.lin/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "科林",
+      "script": "Han",
+      "scriptName": "科林",
+      "pronunciation": "/kʰɤ˥˥lin/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Коллин",
+      "script": "Cyrillic",
+      "scriptName": "Коллин",
+      "pronunciation": "/ˈkolʲɪn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קולין",
+      "script": "Hebrew",
+      "scriptName": "קולין",
+      "pronunciation": "/koˈlin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Collin has a longstanding history of use in English-speaking countries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has maintained consistent popularity over the decades."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Collin remains a fashionable choice for new parents today."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Collin is a name that exudes charm and simplicity, capturing the hearts of parents seeking a classic yet modern moniker for their child. It stands out for its soft sounds and approachable nature, making it a popular choice for boys around the world.",
+    "etymology_meaning": "The name Collin originates from the Gaelic 'Coilean', meaning 'young creature' or 'cub'. It is often linked to the diminutive form of Nicholas in English-speaking contexts.",
+    "famous_bearers": "Notable individuals named Collin include actor Collin Farrell, known for his versatile roles in films like 'In Bruges' and 'The Lobster', as well as country musician Collin Raye, famous for hits like 'Love, Me'.",
+    "pop_culture_moments": "In popular culture, the name Collin has appeared in films such as 'The Secret Life of Walter Mitty', where it is used for a minor character, adding to its subtle yet impactful presence.",
+    "personality_profile": "Collin is often associated with individuals who are seen as dependable and grounded, possessing a friendly demeanor that makes them well-liked and trusted by others.",
+    "variations_nicknames": "Variations of the name include Colin, Collen, and Colyn, while common nicknames are Coll, Cole, and Linn.",
+    "popularity_data": "Collin has been a favorite among parents, especially in the United States, where it peaked in popularity in the early 2000s, maintaining a strong presence in baby name charts.",
+    "pairing_suggestions": "Collin pairs well with middle names like James, Alexander, or Michael, adding a touch of elegance and balance to the overall name.",
+    "cultural_context": "With roots in Irish and Scottish culture, Collin carries a rich heritage, appealing to those with Gaelic ancestry or a fondness for Celtic names.",
+    "final_recommendation": "Choosing Collin for your child offers a name that is both timeless and trendy, ensuring it will remain a beloved choice for years to come.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

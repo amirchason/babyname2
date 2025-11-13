@@ -1,0 +1,267 @@
+{
+  "name": "Jenna",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:27:16.675Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Fair phantom",
+  "culturalSignificance": "Jenna is a modern English name, often considered a diminutive of Jennifer, which itself is derived from the Welsh name Gwenhwyfar, meaning 'fair phantom' or 'white enchantress'. The name gained popularity in the 20th century, particularly in English-speaking countries.",
+  "modernContext": "In contemporary times, Jenna is a popular name in the United States, having peaked in popularity during the late 20th and early 21st centuries. It is frequently used in media and pop culture, contributing to its modern appeal.",
+  "literaryReferences": "The name Jenna does not have significant literary references.",
+  "pronunciationGuide": "ˈdʒɛnə",
+  "variations": [
+    "Jena",
+    "Gina",
+    "Jenny",
+    "Jennifer",
+    "Jen"
+  ],
+  "similarNames": [
+    "Emma",
+    "Hannah",
+    "Ella",
+    "Anna",
+    "Lena"
+  ],
+  "nicknames": [
+    "Jen",
+    "Jenny",
+    "J",
+    "Jenna-bear",
+    "Nena"
+  ],
+  "personality": "The name Jenna is often associated with a friendly and approachable personality, reflecting warmth and a strong sense of loyalty.",
+  "symbolism": "Jenna symbolizes purity and charm, often linked to its meaning of 'fair phantom'.",
+  "funFact": "The name Jenna was popularized in the 1980s by actress Jenna Elfman, known for her role in the TV show 'Dharma & Greg'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jenna Fischer",
+      "profession": "Actor",
+      "knownFor": [
+        "The Office"
+      ],
+      "awards": "Screen Actors Guild Award"
+    },
+    {
+      "name": "Jenna Coleman",
+      "profession": "Actor",
+      "knownFor": [
+        "Doctor Who",
+        "Victoria"
+      ],
+      "awards": "Glamour Award for UK TV Actress"
+    },
+    {
+      "name": "Jenna Bush Hager",
+      "profession": "Television Personality",
+      "knownFor": [
+        "NBC's Today Show"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Waitress",
+      "year": 2007,
+      "type": "Movie",
+      "characterName": "Jenna Hunterson",
+      "characterDescription": "A waitress with a talent for baking pies who dreams of a better life.",
+      "imdbUrl": "https://www.imdb.com/title/tt0473308/",
+      "genre": "Comedy, Drama, Romance",
+      "verified": true,
+      "popularity": 75
+    },
+    {
+      "title": "Awkward.",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Jenna Hamilton",
+      "characterDescription": "A teenage girl who struggles with her identity and social status in high school.",
+      "imdbUrl": "https://www.imdb.com/title/tt1663676/",
+      "genre": "Comedy, Drama, Romance",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I want what's best for me.",
+      "character": "Jenna Hunterson",
+      "source": "Waitress",
+      "year": 2007,
+      "context": "Jenna expresses her desire for a better life.",
+      "genre": "Drama",
+      "impact": "This quote reflects Jenna's internal struggle and desire for independence."
+    },
+    {
+      "quote": "It's just high school. It's not the end of the world.",
+      "character": "Jenna Hamilton",
+      "source": "Awkward.",
+      "year": 2011,
+      "context": "Jenna tries to put perspective on the social pressures of high school.",
+      "genre": "Comedy, Drama",
+      "impact": "Highlights the relatability of teenage experiences."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Full Moon is a time of culmination and fulfillment of what was started at the New Moon.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share the Air element, promoting communication and intellect.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Wind symbolizes freedom and the ability to adapt to any situation.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Representing expression and the sharing of ideas.",
+    "karmicLessons": "Learning to balance communication with listening.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and variety in life experiences."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 45,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success.",
+    "author": "Jenna Bush Hager",
+    "context": "Reflects the importance of finding joy in life."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jen-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jenna",
+      "script": "Latin",
+      "scriptName": "Jenna",
+      "pronunciation": "ˈxena",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζένα",
+      "script": "Greek",
+      "scriptName": "Τζένα",
+      "pronunciation": "ˈdʒena",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جينا",
+      "script": "Arabic",
+      "scriptName": "جينا",
+      "pronunciation": "dʒiː.naː",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "珍娜",
+      "script": "Han",
+      "scriptName": "珍娜",
+      "pronunciation": "Zhēnnà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дженна",
+      "script": "Cyrillic",
+      "scriptName": "Дженна",
+      "pronunciation": "ˈdʐɛnə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'נה",
+      "script": "Hebrew",
+      "scriptName": "ג'נה",
+      "pronunciation": "ˈdʒɛ.na",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Jenna gained significant popularity in modern times, particularly during the late 20th century."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Despite being modern, Jenna has remained consistently popular over several decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Used in fictional works and media, contributing to its cultural footprint."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jenna",
+      "artist": "John Frusciante",
+      "year": 2004,
+      "genre": "Alternative",
+      "nameContext": "Title and theme of the song.",
+      "description": "A song from John Frusciante's album 'Inside of Emptiness', exploring themes of love and introspection.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=John+Frusciante+Jenna",
+      "geniusUrl": "https://genius.com/search?q=John+Frusciante+Jenna",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jenna is a beloved name that combines modern charm with timeless appeal. Originating from the English-speaking world, it has captured the hearts of many with its simplicity and elegance. Whether you know a Jenna or are considering the name for your child, there's much to appreciate about this delightful choice.",
+    "etymology_meaning": "The name Jenna is primarily of English origin and is often considered a contemporary form of Jennifer, which comes from the Welsh 'Gwenhwyfar,' meaning 'fair phantom' or 'white enchantress'. This gives Jenna an air of mystery and grace.",
+    "famous_bearers": "Some of the most notable figures named Jenna include Jenna Fischer, known for her role in 'The Office,' and Jenna Coleman, celebrated for her performances in 'Doctor Who' and 'Victoria.' Jenna Bush Hager, daughter of former U.S. President George W. Bush, is another prominent bearer of the name.",
+    "pop_culture_moments": "Jenna has made its mark in pop culture through characters like Jenna Hunterson in the film 'Waitress' and Jenna Hamilton from the TV series 'Awkward.' These characters have helped maintain the name's popularity and relevance.",
+    "personality_profile": "Names like Jenna are often associated with friendly and approachable personality traits. They are perceived as warm, loyal, and thoughtful, making them well-loved in social circles.",
+    "variations_nicknames": "Jenna has a few variations such as Jena and Gina, and common nicknames include Jen and Jenny. These variations and nicknames add to its versatility and charm.",
+    "popularity_data": "Jenna reached its peak popularity in the United States in the mid-1980s and continues to be a favored choice for many parents. Its steady presence in the top 1000 names speaks to its lasting appeal.",
+    "pairing_suggestions": "Jenna pairs well with classic and modern names alike. Consider combinations like Jenna Marie, Jenna Rose, or Jenna Claire for a harmonious blend.",
+    "cultural_context": "Jenna's cultural roots are primarily in the English-speaking world, but its popularity has spread globally, making it a name that transcends cultural boundaries.",
+    "final_recommendation": "Choosing Jenna for your child promises a name that is both contemporary and enduring. Its pleasant sound and rich cultural connections make it a wonderful choice, ensuring your child carries a name with grace and warmth.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,219 @@
+{
+  "name": "Stevenson",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T07:59:01.956Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Son of Steven",
+  "culturalSignificance": "The name Stevenson is a patronymic surname derived from 'Steven', which means 'crown' or 'garland' in Greek. It was commonly used in medieval England and Scotland, passed down through generations as a way to identify lineage.",
+  "modernContext": "In modern times, Stevenson is more commonly used as a surname than a first name. It maintains a classic and historical appeal, often associated with literary and historical figures, giving it a distinguished aura.",
+  "literaryReferences": "Robert Louis Stevenson, a renowned Scottish novelist, is a notable bearer of the surname, known for works like 'Treasure Island' and 'Dr. Jekyll and Mr. Hyde'.",
+  "pronunciationGuide": "/ˈstiːvənsən/",
+  "variations": [
+    "Stephenson",
+    "Stevinson",
+    "Stevin",
+    "Stevens",
+    "Steven"
+  ],
+  "similarNames": [
+    "Steven",
+    "Stephen",
+    "Spencer",
+    "Anderson",
+    "Harrison",
+    "Johnson"
+  ],
+  "nicknames": [
+    "Steve",
+    "Stevie",
+    "Sonny"
+  ],
+  "personality": "People with the name Stevenson are often perceived as strong, reliable, and intellectual, with a natural leadership ability that draws others to them.",
+  "symbolism": "The name symbolizes heritage and tradition, often evoking a sense of historical depth and familial pride.",
+  "funFact": "The Stevenson name was popular among Scottish engineers, especially known for its association with the family of lighthouse engineers, including Robert Stevenson.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Adlai E. Stevenson II",
+      "years": "1900-1965",
+      "category": "Politician",
+      "achievements": [
+        "U.S. Ambassador to the United Nations",
+        "Governor of Illinois"
+      ],
+      "significance": "Adlai Stevenson II was a significant figure in American politics, known for his eloquence and two-time candidacy for the U.S. presidency.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Robert Louis Stevenson",
+      "years": "1850-1894",
+      "category": "Author",
+      "achievements": [
+        "Wrote 'Treasure Island'",
+        "Wrote 'Dr. Jekyll and Mr. Hyde'"
+      ],
+      "significance": "A celebrated Scottish novelist, Stevenson is renowned for his adventure novels and contributions to literature.",
+      "notableWorks": [
+        "Treasure Island",
+        "Dr. Jekyll and Mr. Hyde"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+      "author": "Robert Louis Stevenson",
+      "context": "A reflection on patience and perseverance.",
+      "year": 1890,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Associated with completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the earth element, fostering stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, reliability, and pragmatism.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Associated with creating solid foundations and structures.",
+    "karmicLessons": "Embrace change and flexibility.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A desire for order, stability, and building a secure future."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 600,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The world is full of willing people; some willing to work, the rest willing to let them.",
+    "author": "Robert Louis Stevenson",
+    "context": "A commentary on human nature and work ethic."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ste-ven-son"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Estebanson",
+      "script": "Latin",
+      "scriptName": "Estebanson",
+      "pronunciation": "/esˈteβanson/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Στίβενσον",
+      "script": "Greek",
+      "scriptName": "Στίβενσον",
+      "pronunciation": "/ˈstivenson/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ستيفنسون",
+      "script": "Arabic",
+      "scriptName": "ستيفنسون",
+      "pronunciation": "/sti:venson/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "史蒂文森",
+      "script": "Han",
+      "scriptName": "史蒂文森",
+      "pronunciation": "/ʂɨ˥˩ti˥˩wən˥sən˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Стивенсон",
+      "script": "Cyrillic",
+      "scriptName": "Стивенсон",
+      "pronunciation": "/ˈstʲivʲɪnsən/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סטיבנסון",
+      "script": "Hebrew",
+      "scriptName": "סטיבנסון",
+      "pronunciation": "/ˈstivensɔn/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Stevenson has a long history as a surname with literary and historic significance."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Due to its association with the famous author Robert Louis Stevenson."
+    },
+    {
+      "tag": "Traditional",
+      "confidence": 0.85,
+      "reason": "It carries a sense of heritage and classic roots."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Stevenson is a name that evokes images of literary grandeur and historical depth. With roots deep in English heritage, this name carries with it stories of adventure and exploration. It's a name that stands the test of time, much like the enduring works of Robert Louis Stevenson.",
+    "etymology_meaning": "The name Stevenson is an English patronymic surname, meaning 'son of Steven'. 'Steven' itself comes from the Greek 'Stephanos', meaning 'crown' or 'garland', reflecting a sense of achievement and honor.",
+    "famous_bearers": "Notable individuals with the name include Robert Louis Stevenson, the famed Scottish author, and Adlai Stevenson II, a distinguished American politician known for his eloquence and public service.",
+    "pop_culture_moments": "Stevenson's name resonates in pop culture through various adaptations of Robert Louis Stevenson's novels, such as 'Treasure Island', which has been adapted into numerous films and television shows.",
+    "personality_profile": "The name Stevenson is often associated with individuals who are intellectual, reliable, and possess a strong sense of leadership. They are seen as thoughtful and strategic thinkers, often excelling in fields that require precision and creativity.",
+    "variations_nicknames": "While Stevenson is primarily used as a surname, variations like Stephenson and Stevinson exist. Common nicknames include Steve, Stevie, and Sonny, all of which carry a friendly and approachable vibe.",
+    "popularity_data": "Although not commonly used as a first name, Stevenson remains a respected surname. Its popularity has waned as a personal name but continues to hold a classic appeal due to its rich history.",
+    "pairing_suggestions": "Stevenson pairs well with classic first names like James, William, and Elizabeth, each complementing its historical resonance. For a more modern twist, names like Lucas or Riley add a contemporary flair.",
+    "cultural_context": "Rooted in English tradition, the name Stevenson reflects a lineage of craftsmen and thinkers. Its cultural significance is enriched by its association with literature and public service.",
+    "final_recommendation": "Stevenson is a name that carries with it a legacy of intelligence and creativity. It is ideal for those who appreciate the depth of history and the allure of literary connections. Whether used as a first name or a surname, Stevenson offers a timeless appeal.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

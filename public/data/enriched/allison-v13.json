@@ -1,0 +1,275 @@
+{
+  "name": "Allison",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:47:57.377Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Germanic",
+  "meaning": "Noble",
+  "culturalSignificance": "The name Allison is derived from the medieval French name Alis, which was a diminutive of Alice. It gained popularity in English-speaking countries and is often associated with nobility and grace.",
+  "modernContext": "Allison remains a popular name in English-speaking countries and is often seen as a versatile and timeless choice. Its usage has been consistent across various cultures, maintaining its appeal due to its melodic sound and classic roots.",
+  "literaryReferences": "Allison is not commonly associated with major literary works, but its variants like Alice have appeared in significant literature.",
+  "pronunciationGuide": "/ˈælɪsən/",
+  "variations": [
+    "Alison",
+    "Alyson",
+    "Alysson",
+    "Allyson",
+    "Allisson"
+  ],
+  "similarNames": [
+    "Alice",
+    "Alicia",
+    "Alana",
+    "Alyssa",
+    "Amelia",
+    "Annabelle"
+  ],
+  "nicknames": [
+    "Allie",
+    "Al",
+    "Ali",
+    "Lissy",
+    "Sonny"
+  ],
+  "personality": "Allison is often associated with a strong, independent, and intelligent personality. People with this name are perceived as reliable and compassionate.",
+  "symbolism": "The name Allison symbolizes nobility and grace, reflecting its historical roots and elegant sound.",
+  "funFact": "Allison was one of the top 50 names for girls in the United States from the mid-1980s to the early 2000s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Allison Janney",
+      "profession": "Actor",
+      "knownFor": [
+        "The West Wing",
+        "Mom"
+      ],
+      "awards": "Academy Award, Emmy Awards"
+    },
+    {
+      "name": "Allison Williams",
+      "profession": "Actor",
+      "knownFor": [
+        "Girls",
+        "Get Out"
+      ],
+      "awards": "Nominated for Golden Globe"
+    },
+    {
+      "name": "Allison Krauss",
+      "profession": "Musician",
+      "knownFor": [
+        "Bluegrass music",
+        "Union Station"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Pretty Little Liars",
+      "year": 2010,
+      "type": "TV Show",
+      "characterName": "Alison DiLaurentis",
+      "characterDescription": "A central character known for her mysterious and manipulative nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt1578873/",
+      "genre": "Drama, Mystery",
+      "verified": true,
+      "popularity": 87
+    },
+    {
+      "title": "Teen Wolf",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Allison Argent",
+      "characterDescription": "A skilled archer and love interest of the protagonist.",
+      "imdbUrl": "https://www.imdb.com/title/tt1567432/",
+      "genre": "Action, Drama, Fantasy",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and release, the full moon is a period of reflection and celebration.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These air signs share a love for communication and intellectual pursuits.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change, freedom, and adaptability.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to express ideas clearly and inspire others.",
+    "karmicLessons": "To embrace change and seek balance in communication.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and variety, often drawn to travel and new experiences."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 50,
+    "peak": 30,
+    "peakYear": 1987
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "context": "An inspirational quote about passion and work."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Al-li-son"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Alison",
+      "script": "Latin",
+      "scriptName": "Alison",
+      "pronunciation": "/ˈaliˌson/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αλισον",
+      "script": "Greek",
+      "scriptName": "Αλισον",
+      "pronunciation": "/ˈalisɔn/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أليسون",
+      "script": "Arabic",
+      "scriptName": "أليسون",
+      "pronunciation": "/ˈʔaliˌson/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾莉森",
+      "script": "Han",
+      "scriptName": "艾莉森",
+      "pronunciation": "/àilìsēn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эллисон",
+      "script": "Cyrillic",
+      "scriptName": "Эллисон",
+      "pronunciation": "/ˈɛlʲɪsɔn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אליסון",
+      "script": "Hebrew",
+      "scriptName": "אליסון",
+      "pronunciation": "/ˈalisɔn/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Unbecoming of Mara Dyer",
+      "author": "Michelle Hodkin",
+      "publishedYear": 2011,
+      "genre": "Fiction",
+      "significance": "A popular young adult novel where the name Allison appears as a secondary character.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Allison is rooted in historical usage and maintains a timeless appeal."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The name has been consistently popular in modern times."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Allison's enduring popularity across decades makes it a timeless choice."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Allison",
+      "artist": "Elvis Costello",
+      "year": 1977,
+      "genre": "Rock",
+      "nameContext": "The song is centered around a character named Allison.",
+      "description": "A poignant rock ballad about lost love and reflection, 'Allison' remains one of Elvis Costello's most beloved tracks.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Elvis+Costello+Allison",
+      "geniusUrl": "https://genius.com/Elvis-costello-allison-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Allison Road",
+      "artist": "Gin Blossoms",
+      "year": 1994,
+      "genre": "Alternative Rock",
+      "nameContext": "The song's title references a place but has an emotional connection to the name Allison.",
+      "description": "A track from the Gin Blossoms that reflects on life's journey and personal introspection, using 'Allison Road' as a metaphorical destination.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gin+Blossoms+Allison+Road",
+      "geniusUrl": "https://genius.com/Gin-blossoms-allison-road-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Allison is a name that resonates with grace and nobility, a timeless choice that has withstood the test of time. Its melodic sound and strong historical roots make it a favorite among parents seeking both tradition and modernity.",
+    "etymology_meaning": "The name Allison originates from the medieval French diminutive of Alice, meaning 'noble.' It has evolved over the centuries to become a standalone name celebrated for its elegance and strength.",
+    "famous_bearers": "Prominent figures such as actress Allison Janney and musician Allison Krauss have brought the name into the spotlight, showcasing its versatility across various fields.",
+    "pop_culture_moments": "In pop culture, characters like Alison DiLaurentis from 'Pretty Little Liars' and Allison Argent from 'Teen Wolf' have helped maintain the name's relevance among younger generations.",
+    "personality_profile": "Individuals named Allison are often seen as reliable and compassionate, with a natural inclination towards leadership and creativity.",
+    "variations_nicknames": "Variations of the name include Alison and Allyson, while common nicknames like Allie and Ali add a personal touch.",
+    "popularity_data": "Allison has consistently ranked among the top choices for girls in the United States, reflecting its enduring appeal across different eras.",
+    "pairing_suggestions": "Allison pairs well with names like James for boys or Elizabeth for girls, creating a harmonious blend of classic and contemporary.",
+    "cultural_context": "Culturally, Allison has been embraced by various communities, maintaining its status as a name synonymous with nobility and grace.",
+    "final_recommendation": "For those seeking a name that embodies elegance and resilience, Allison is a perfect choice. Its rich history and modern charm make it suitable for any child destined to make a mark.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

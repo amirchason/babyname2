@@ -1,0 +1,218 @@
+{
+  "name": "Briana",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:59:05.134Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Celtic",
+  "meaning": "Strong, noble",
+  "culturalSignificance": "Briana is a name with Celtic roots, derived from the masculine name Brian. It carries connotations of strength and nobility, reflecting its etymological origins in words meaning 'hill' or 'high'. The name gained popularity in the late 20th century, particularly in English-speaking countries.",
+  "modernContext": "In modern times, Briana has become a popular choice for parents looking for a strong yet feminine name. It has been consistently used in the United States since the 1970s and continues to be a favorite due to its melodic sound and powerful meaning.",
+  "literaryReferences": "Briana appears in literature, including medieval romance tales, where characters often embody the noble qualities the name implies.",
+  "pronunciationGuide": "briˈɑːnə",
+  "variations": [
+    "Breanna",
+    "Bryanna",
+    "Briona",
+    "Breana",
+    "Bryana"
+  ],
+  "similarNames": [
+    "Brianne",
+    "Brielle",
+    "Ariana",
+    "Brianna",
+    "Kiara",
+    "Sienna"
+  ],
+  "nicknames": [
+    "Bri",
+    "Ana",
+    "Bree",
+    "Bri-Bri",
+    "Ria"
+  ],
+  "personality": "People named Briana are often perceived as confident and capable, embodying the strength and nobility suggested by the name's origins. They are seen as leaders with a strong sense of justice and fairness.",
+  "symbolism": "Briana symbolizes strength and nobility, often associated with leadership and resilience. The name implies a person of high status and moral integrity.",
+  "funFact": "Briana was one of the fastest-rising names in popularity during the 1980s and 1990s in the United States.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Briana Evigan",
+      "profession": "Actress",
+      "knownFor": [
+        "Step Up 2: The Streets",
+        "Sorority Row"
+      ],
+      "awards": "MTV Movie Award for Best Kiss"
+    },
+    {
+      "name": "Briana Scurry",
+      "profession": "Soccer Player",
+      "knownFor": [
+        "1999 FIFA Women's World Cup",
+        "Olympic Gold Medalist"
+      ],
+      "awards": "Inducted into the National Soccer Hall of Fame"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Charmed",
+      "year": 1998,
+      "type": "TV Show",
+      "characterName": "Briana",
+      "characterDescription": "A powerful witch in the series",
+      "imdbUrl": "https://www.imdb.com/title/tt0158552/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time of growth and expansion, perfect for setting plans into motion.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs share a practical and reliable nature, complementing Briana's strengths.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and a grounded perspective.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Briana is seen as a guiding force with the ability to inspire and direct others.",
+    "karmicLessons": "To cultivate patience and appreciate the journey as much as the destination.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and the pursuit of adventure and new experiences."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 149,
+    "peakYear": 1994
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "author": "Mahatma Gandhi",
+    "context": "A quote reflecting the essence of inner strength and perseverance."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Bri-a-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Briana",
+      "script": "Latin",
+      "scriptName": "Briana",
+      "pronunciation": "briˈana",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Βριάνα",
+      "script": "Greek",
+      "scriptName": "Βριάνα",
+      "pronunciation": "vriˈana",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بريانا",
+      "script": "Arabic",
+      "scriptName": "بريانا",
+      "pronunciation": "briˈʔaːna",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "布里安娜",
+      "script": "Han",
+      "scriptName": "布里安娜",
+      "pronunciation": "bù lǐ ān nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Бриана",
+      "script": "Cyrillic",
+      "scriptName": "Бриана",
+      "pronunciation": "brʲɪˈanə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בריאנה",
+      "script": "Hebrew",
+      "scriptName": "בריאנה",
+      "pronunciation": "briˈʔana",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name gained significant popularity in the late 20th century."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Briana's roots trace back to ancient Celtic traditions, giving it a timeless quality."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "The name appears in various literary works, adding to its cultural richness."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Briana is a name that evokes strength and elegance, with a rich history rooted in Celtic tradition. It has captured the hearts of many parents looking for a name that combines beauty with a sense of nobility. This name has been a favorite for decades, embraced for its melodic sound and powerful meaning.",
+    "etymology_meaning": "The name Briana is derived from the Celtic word meaning 'strong' or 'noble'. It is the feminine form of the name Brian, which has been a staple in Irish history and mythology. Briana carries the same dignified aura, suggesting a person of high standing and integrity.",
+    "famous_bearers": "Briana Evigan and Briana Scurry are two notable figures who have brought prominence to this name. Evigan is known for her roles in popular films, while Scurry has made history as a trailblazing soccer player. Their achievements highlight the name's association with talent and resilience.",
+    "pop_culture_moments": "Briana has made appearances in pop culture, including the long-running TV show 'Charmed', where it features as a character name. This has helped keep the name in the public eye, contributing to its modern appeal.",
+    "personality_profile": "Individuals named Briana are often perceived as natural leaders with an inherent ability to inspire those around them. They are seen as reliable and trustworthy, with a magnetic personality that draws others to them. Briana's are typically associated with a sense of adventure and a love for exploring new ideas.",
+    "variations_nicknames": "Variations like Breanna and Bryanna offer slightly different takes on the name, each carrying the same core meaning of strength and nobility. Common nicknames such as Bri and Ana provide a more casual, affectionate way to address someone with this name.",
+    "popularity_data": "The popularity of Briana soared in the 1980s and 1990s, reaching its peak in the mid-1990s. Since then, it has maintained a steady presence on baby name charts, reflecting its enduring appeal among new generations of parents.",
+    "pairing_suggestions": "Briana pairs well with classic middle names like Rose or Marie, offering a balance between modern and traditional elements. It can also complement more unique names, such as Briana Skye or Briana Jade, adding a touch of elegance and sophistication.",
+    "cultural_context": "Rooted in Celtic tradition, Briana carries the dignity and strength of its origins. It has been embraced across various cultures, transcending its initial Irish roots to become a beloved name in many countries.",
+    "final_recommendation": "Briana is an excellent choice for parents seeking a name with both strength and grace. Its timeless appeal and cultural richness make it suitable for a child who will grow up embodying these qualities. Whether for its melodic charm or its noble meaning, Briana is a name that continues to resonate with many.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

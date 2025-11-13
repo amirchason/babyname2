@@ -1,0 +1,255 @@
+{
+  "name": "Oscar",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:55:20.750Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Old English",
+  "meaning": "God's spear",
+  "culturalSignificance": "The name Oscar has been used in various cultures, notably in Scandinavia and English-speaking countries. It was popularized by the Irish king Oscar, a character in the Ossianic poems by James Macpherson, which contributed to its usage in the 19th century.",
+  "modernContext": "Oscar remains a popular name across the world, often associated with creativity and distinction. It is notably the name of the prestigious Academy Awards, which adds a layer of glamour to the name.",
+  "literaryReferences": "Oscar Wilde, the renowned Irish playwright and poet, is a notable literary figure bearing this name, contributing to its cultural prestige.",
+  "pronunciationGuide": "/ˈɒskər/",
+  "variations": [
+    "Oskar",
+    "Osgar",
+    "Osker"
+  ],
+  "similarNames": [
+    "Oliver",
+    "Owen",
+    "Ethan",
+    "Liam",
+    "Henry"
+  ],
+  "nicknames": [
+    "Ozzie",
+    "Oz",
+    "Osc",
+    "Oskie"
+  ],
+  "personality": "The name Oscar is often associated with individuals who are creative, artistic, and have a strong sense of individuality.",
+  "symbolism": "Oscar symbolizes strength and valor, often linked to its meaning 'God's spear'.",
+  "funFact": "The name Oscar is also associated with the Oscars, the annual awards ceremony recognizing excellence in the film industry.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Oscar II",
+      "years": "1829-1907",
+      "category": "Royalty",
+      "achievements": [
+        "King of Sweden and Norway"
+      ],
+      "significance": "Oscar II was a significant figure in Scandinavian history, reigning during a period of modernization and political change.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Be yourself; everyone else is already taken.",
+      "author": "Oscar Wilde",
+      "context": "This quote emphasizes the importance of individuality and authenticity.",
+      "year": 1890,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Oscar Wilde",
+      "profession": "Writer",
+      "knownFor": [
+        "The Picture of Dorian Gray",
+        "The Importance of Being Earnest"
+      ],
+      "awards": "Posthumous recognition for literature"
+    },
+    {
+      "name": "Oscar Isaac",
+      "profession": "Actor",
+      "knownFor": [
+        "Star Wars: The Force Awakens",
+        "Ex Machina"
+      ],
+      "awards": "Golden Globe Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Oscar Robertson",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Milwaukee Bucks",
+      "pastTeams": [
+        "Cincinnati Royals"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "14",
+      "years": "1960-1974",
+      "achievements": "NBA Champion, MVP",
+      "knownFor": [
+        "Triple-doubles",
+        "Scoring"
+      ],
+      "awards": "NBA MVP",
+      "stats": "Average 25.7 PPG, 9.5 APG",
+      "verified": true,
+      "source": "NBA official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Oscar",
+      "year": 1991,
+      "type": "Movie",
+      "characterName": "Oscar",
+      "characterDescription": "A gangster trying to go straight.",
+      "imdbUrl": "https://www.imdb.com/title/tt0102603/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 65
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of clarity and reflection.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "Air signs share intellectual and social compatibility.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Associated with communication and intellect.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for eloquence and social connectivity.",
+    "karmicLessons": "Embrace originality and express creativity.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and exploration."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 206,
+    "peak": 29,
+    "peakYear": 1918
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to get rid of temptation is to yield to it.",
+    "author": "Oscar Wilde",
+    "context": "A humorous take on human nature and indulgence."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Os-car"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Óscar",
+      "script": "Latin",
+      "scriptName": "Óscar",
+      "pronunciation": "/ˈoskar/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Όσκαρ",
+      "script": "Greek",
+      "scriptName": "Όσκαρ",
+      "pronunciation": "/ˈoskar/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أوسكار",
+      "script": "Arabic",
+      "scriptName": "أوسكار",
+      "pronunciation": "/ʔosˈkaːr/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "奥斯卡",
+      "script": "Han",
+      "scriptName": "奥斯卡",
+      "pronunciation": "/àosīkǎ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Оскар",
+      "script": "Cyrillic",
+      "scriptName": "Оскар",
+      "pronunciation": "/ˈoskər/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אוסקר",
+      "script": "Hebrew",
+      "scriptName": "אוסקר",
+      "pronunciation": "/ˈoskar/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Oscar has been used consistently over centuries."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with Oscar Wilde, a significant literary figure."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has endured through various cultural changes."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Oscar is a name that conjures images of strength and creativity. Widely recognized across cultures, it carries a timeless appeal. Known for its association with the prestigious Academy Awards, the name Oscar also holds literary significance.",
+    "etymology_meaning": "Oscar is derived from the Old English elements 'os', meaning 'god', and 'gar', meaning 'spear'. This gives the name its powerful meaning of 'God's spear'.",
+    "famous_bearers": "Oscar Wilde, the famous playwright and poet, is perhaps the most notable bearer of this name. In modern times, actor Oscar Isaac has brought the name to the forefront in the film industry.",
+    "pop_culture_moments": "The name Oscar is synonymous with the Academy Awards, adding a layer of glamor and prestige. It has also appeared in various films and literature, reinforcing its cultural significance.",
+    "personality_profile": "Individuals named Oscar are often seen as creative and independent. They are thought to possess a strong sense of individuality and a flair for the artistic.",
+    "variations_nicknames": "Common variations include Oskar and Osgar, while nicknames like Ozzie and Oz offer a more casual take. The name's versatility is part of its enduring charm.",
+    "popularity_data": "Oscar has remained popular over the years, peaking in the early 20th century and maintaining a steady presence in baby name charts.",
+    "pairing_suggestions": "Oscar pairs well with classic names like Henry and Alice, providing a balance of tradition and creativity. It also complements more modern names like Ethan and Emma.",
+    "cultural_context": "Oscar has roots in various cultures, from its Old English origins to its popularity in Scandinavian and Irish histories. This cultural richness adds depth to the name.",
+    "final_recommendation": "Oscar is an excellent choice for those seeking a name with historical depth and modern appeal. Its associations with literature and film make it a name of distinction and creativity.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

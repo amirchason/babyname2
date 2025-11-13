@@ -1,0 +1,302 @@
+{
+  "name": "Richard",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:22:18.503Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Brave ruler",
+  "culturalSignificance": "Richard is a name with deep royal connections, famously borne by three English kings. The name has been a symbol of strength and leadership throughout history, often associated with power and nobility.",
+  "modernContext": "Richard remains a classic name in many English-speaking countries. Although its popularity has waned slightly in recent years, it continues to be a favored choice due to its historical significance and strong sound.",
+  "literaryReferences": "Richard is a prominent name in literature, notably appearing in Shakespeare's plays such as 'Richard III'.",
+  "pronunciationGuide": "ˈrɪtʃ.ərd",
+  "variations": [
+    "Ricardo",
+    "Rikard",
+    "Ryszard",
+    "Richárd",
+    "Rikhard"
+  ],
+  "similarNames": [
+    "Robert",
+    "Raymond",
+    "Ronald",
+    "Roger",
+    "Randall"
+  ],
+  "nicknames": [
+    "Rick",
+    "Ricky",
+    "Rich",
+    "Dick",
+    "Rico"
+  ],
+  "personality": "The name Richard is often associated with leadership qualities, decisiveness, and charisma, traits that reflect its historical royal connections.",
+  "symbolism": "Richard symbolizes authority and courage, often linked to its meaning of 'brave ruler'.",
+  "funFact": "Richard is one of the few names to have been borne by three English kings, including the renowned Richard the Lionheart.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Richard the Lionheart",
+      "years": "1157-1199",
+      "category": "Royalty",
+      "achievements": [
+        "Led the Third Crusade",
+        "Known for military leadership"
+      ],
+      "significance": "Richard I of England, known as 'Richard the Lionheart', was a key figure during the Crusades and is celebrated for his bravery and leadership.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Richard III",
+      "years": "1452-1485",
+      "category": "Royalty",
+      "achievements": [
+        "Last king of the House of York",
+        "Defeated at the Battle of Bosworth"
+      ],
+      "significance": "His defeat marked the end of the Wars of the Roses and the rise of the Tudor dynasty.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I am determined to prove a villain and hate the idle pleasures of these days.",
+      "author": "Richard III",
+      "context": "From Shakespeare's play 'Richard III', reflecting the character's ambition and cunning.",
+      "year": 1592,
+      "category": "Literature"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Richard Gere",
+      "profession": "Actor",
+      "knownFor": [
+        "Pretty Woman",
+        "Chicago"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Richard Branson",
+      "profession": "Entrepreneur",
+      "knownFor": [
+        "Virgin Group"
+      ],
+      "awards": "Knighted for services to entrepreneurship"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Richard Sherman",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "Tampa Bay Buccaneers",
+      "pastTeams": [
+        "Seattle Seahawks",
+        "San Francisco 49ers"
+      ],
+      "position": "Cornerback",
+      "jerseyNumber": "5",
+      "years": "2011-Present",
+      "achievements": "Super Bowl Champion",
+      "knownFor": [
+        "Defensive skills",
+        "Leadership"
+      ],
+      "awards": "Pro Bowl selections",
+      "stats": "368 tackles, 37 interceptions",
+      "verified": true,
+      "source": "NFL official site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Richard III",
+      "year": 1995,
+      "type": "Movie",
+      "characterName": "Richard III",
+      "characterDescription": "A tyrannical king from Shakespeare's play, portrayed by Ian McKellen.",
+      "imdbUrl": "https://www.imdb.com/title/tt0114279/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    },
+    {
+      "title": "Friends",
+      "year": 1994,
+      "type": "TV Show",
+      "characterName": "Dr. Richard Burke",
+      "characterDescription": "Monica's older boyfriend, portrayed by Tom Selleck.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108778/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Now is the winter of our discontent.",
+      "character": "Richard III",
+      "source": "Richard III",
+      "year": 1995,
+      "context": "Opening line of the play, setting the stage for his ambitions.",
+      "genre": "Drama",
+      "impact": "Known for its powerful declaration of ambition."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, offering stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability and groundedness.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Associated with authority and decision-making.",
+    "karmicLessons": "Learning to balance ambition with empathy.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 163,
+    "peak": 5,
+    "peakYear": 1947
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "A quote about finding joy in one's pursuits."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Rich-ard"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ricardo",
+      "script": "Latin",
+      "scriptName": "Ricardo",
+      "pronunciation": "riˈkaɾðo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ριχάρδος",
+      "script": "Greek",
+      "scriptName": "Ριχάρδος",
+      "pronunciation": "riˈxarðos",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ريتشارد",
+      "script": "Arabic",
+      "scriptName": "ريتشارد",
+      "pronunciation": "riˈʃɑːrd",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "理查德",
+      "script": "Han",
+      "scriptName": "理查德",
+      "pronunciation": "lǐ chá dé",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ричард",
+      "script": "Cyrillic",
+      "scriptName": "Ричард",
+      "pronunciation": "ˈrʲit͡ɕərd",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ריצ'רד",
+      "script": "Hebrew",
+      "scriptName": "ריצ'רד",
+      "pronunciation": "riˈtʃard",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Richard III",
+      "author": "William Shakespeare",
+      "publishedYear": 1592,
+      "genre": "Drama",
+      "significance": "One of Shakespeare's most famous historical plays, exploring the ambition and downfall of King Richard III.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name Richard has been used for centuries and remains timeless."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.9,
+      "reason": "Borne by several English kings, it has a strong royal association."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistently used throughout history without falling out of favor."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Richard is a name that carries the weight of history and the charm of tradition. With its roots in nobility and leadership, it has graced kings, knights, and modern celebrities alike. Whether you're drawn to its royal past or its steady presence in today's world, Richard continues to be a name of distinction.",
+    "etymology_meaning": "Derived from Old High German 'ric' (ruler, leader) and 'hard' (hardy, brave), Richard means 'brave ruler'. Its etymology reflects the strength and leadership qualities historically associated with the name.",
+    "famous_bearers": "From Richard the Lionheart, a legendary king and crusader, to Richard Branson, an iconic entrepreneur, the name has been borne by influential figures across various fields.",
+    "pop_culture_moments": "In popular culture, Richard has appeared in numerous films and TV shows, including the memorable character Dr. Richard Burke in 'Friends'.",
+    "personality_profile": "Individuals named Richard are often seen as leaders, known for their decisiveness and charisma. They are perceived as reliable and authoritative, mirroring the name's royal heritage.",
+    "variations_nicknames": "Variations such as Ricardo and nicknames like Rick or Ricky offer flexibility and a modern twist to the classic name.",
+    "popularity_data": "While Richard was most popular in the mid-20th century, it remains a steady choice for parents today, consistently ranking in the top names for boys.",
+    "pairing_suggestions": "Richard pairs well with middle names like Alexander or James, and complements sibling names such as Elizabeth or Katherine.",
+    "cultural_context": "Rooted in Germanic origins, Richard has been embraced by English-speaking countries, maintaining a strong cultural presence through its historical and literary significance.",
+    "final_recommendation": "For those seeking a name that embodies tradition, strength, and timeless appeal, Richard is an excellent choice. It's a name that promises to stand the test of time, just as it has for centuries.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

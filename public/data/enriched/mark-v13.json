@@ -1,0 +1,321 @@
+{
+  "name": "Mark",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:27:58.253Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Warlike",
+  "culturalSignificance": "Mark is a name of Latin origin, derived from the name Marcus, which means 'warlike.' It has been used across various cultures primarily due to the influence of the Roman Empire. In the Christian tradition, Mark is significant as the name of one of the four Evangelists, traditionally ascribed to the author of the second Gospel.",
+  "modernContext": "Mark remains a popular male name, especially in English-speaking countries, although its popularity has slightly declined since its peak in the mid-20th century. It is commonly chosen for its classic appeal and strong, masculine connotation.",
+  "literaryReferences": "Mark is often used in literature as a character name due to its timeless appeal and historical significance.",
+  "pronunciationGuide": "mɑːrk",
+  "variations": [
+    "Marc",
+    "Marcus",
+    "Marco",
+    "Marcos",
+    "Markus"
+  ],
+  "similarNames": [
+    "Luke",
+    "John",
+    "Paul",
+    "Matthew",
+    "Peter"
+  ],
+  "nicknames": [
+    "Marky",
+    "M",
+    "Marko"
+  ],
+  "personality": "The name Mark is often associated with strong, leadership-oriented individuals who are reliable and practical.",
+  "symbolism": "Mark symbolizes strength and resilience, reflecting its historical roots in Roman culture.",
+  "funFact": "Mark is one of the most common names in the United States, having been a top 50 name for boys for over 50 years.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Mark",
+    "significance": "Saint Mark is traditionally believed to be the author of the Gospel of Mark, one of the four canonical gospels. He is considered one of the four Evangelists in Christianity.",
+    "keyStories": [
+      "Author of the Gospel of Mark"
+    ],
+    "spiritualMeaning": "The name Mark signifies a messenger of God's word, reflecting the role of Saint Mark in spreading the teachings of Jesus.",
+    "historicalImpact": "Saint Mark's Gospel is an essential part of the New Testament, influencing Christian theology and doctrine."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Mark Antony",
+      "years": "83 BC-30 BC",
+      "category": "Politician",
+      "achievements": [
+        "Triumvir of Rome",
+        "Alliance with Cleopatra"
+      ],
+      "significance": "Mark Antony was a Roman politician and general, a key ally of Julius Caesar and a central figure in the transformation of the Roman Republic into the Roman Empire.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Mark Twain",
+      "years": "1835-1910",
+      "category": "Author",
+      "achievements": [
+        "Huckleberry Finn",
+        "Tom Sawyer"
+      ],
+      "significance": "Mark Twain is a celebrated American author known for his wit and social commentary, often referred to as the 'father of American literature.'",
+      "notableWorks": [
+        "Adventures of Huckleberry Finn",
+        "The Adventures of Tom Sawyer"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The secret of getting ahead is getting started.",
+      "author": "Mark Twain",
+      "context": "Advice on motivation and action",
+      "year": 1900,
+      "category": "Motivation"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Mark Zuckerberg",
+      "profession": "Entrepreneur",
+      "knownFor": [
+        "Co-founding Facebook"
+      ],
+      "awards": "Time Person of the Year 2010"
+    },
+    {
+      "name": "Mark Wahlberg",
+      "profession": "Actor",
+      "knownFor": [
+        "The Departed",
+        "Ted"
+      ],
+      "awards": "Academy Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Mark Messier",
+      "profession": "Athlete",
+      "sport": "Ice Hockey",
+      "league": "NHL",
+      "team": "New York Rangers",
+      "pastTeams": [
+        "Edmonton Oilers",
+        "Vancouver Canucks"
+      ],
+      "position": "Center",
+      "jerseyNumber": "11",
+      "years": "1979-2004",
+      "achievements": "6-time Stanley Cup champion",
+      "knownFor": [
+        "Leadership",
+        "Scoring ability"
+      ],
+      "awards": "Hart Trophy, Conn Smythe Trophy",
+      "stats": "694 goals, 1193 assists",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Social Network",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Mark Zuckerberg",
+      "characterDescription": "Co-founder of Facebook, portrayed during the creation of the social media platform.",
+      "imdbUrl": "https://www.imdb.com/title/tt1285016/",
+      "genre": "Biography, Drama",
+      "verified": true,
+      "popularity": 92
+    },
+    {
+      "title": "Friends",
+      "year": 1994,
+      "type": "TV Show",
+      "characterName": "Mark Robinson",
+      "characterDescription": "A temporary co-worker of Rachel Green, causing tension with Ross.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108778/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 89
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You don't get to 500 million friends without making a few enemies.",
+      "character": "Mark Zuckerberg",
+      "source": "The Social Network",
+      "year": 2010,
+      "context": "Reflecting on the challenges of building Facebook.",
+      "genre": "Drama",
+      "impact": "Highlights the ambitious and sometimes controversial nature of entrepreneurship."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of high energy and culmination, often associated with achievement and clarity.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Compatible due to shared enthusiasm and leadership traits.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents passion, energy, and transformation.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Represents those who are naturally inclined to take charge and inspire others.",
+    "karmicLessons": "Learning to balance ambition with empathy.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Desire to lead and inspire others through action."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 6,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "context": "Encouragement to take the first step towards achieving goals."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Mark"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Marcos",
+      "script": "Latin",
+      "scriptName": "Marcos",
+      "pronunciation": "ˈmaɾ.kos",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μάρκος",
+      "script": "Greek",
+      "scriptName": "Μάρκος",
+      "pronunciation": "ˈmar.kos",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مارك",
+      "script": "Arabic",
+      "scriptName": "مارك",
+      "pronunciation": "maːrk",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "马克",
+      "script": "Han",
+      "scriptName": "马克",
+      "pronunciation": "Mǎkè",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Марк",
+      "script": "Cyrillic",
+      "scriptName": "Марк",
+      "pronunciation": "mark",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מרק",
+      "script": "Hebrew",
+      "scriptName": "מרק",
+      "pronunciation": "mark",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Gospel of Mark",
+      "author": "Traditionally attributed to John Mark",
+      "publishedYear": 70,
+      "genre": "Religious",
+      "significance": "One of the four canonical gospels of the New Testament, providing a unique perspective on the life of Jesus.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Mark is a timeless name with historical and religious roots, often chosen for its traditional appeal."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "The name is closely associated with Saint Mark, one of the Evangelists."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Mark has been consistently used across generations, maintaining its relevance and popularity."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Mark on the Radio",
+      "artist": "Unknown Mortal Orchestra",
+      "year": 2015,
+      "genre": "Indie Rock",
+      "nameContext": "The song's narrative includes a character named Mark.",
+      "description": "This song explores themes of identity and self-perception through the lens of its titular character.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Mark+on+the+Radio+Unknown+Mortal+Orchestra",
+      "geniusUrl": "https://genius.com/search?q=Mark+on+the+Radio+Unknown+Mortal+Orchestra",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Mark is a name that exudes strength and timelessness, drawing from its roots in ancient Rome to its presence in modern pop culture. Whether associated with revered saints or iconic literary figures, Mark has left a significant mark on history.",
+    "etymology_meaning": "The name Mark originates from the Latin name Marcus, meaning 'warlike'. It reflects a sense of strength and resilience, traits that have made it a popular choice across cultures and epochs.",
+    "famous_bearers": "From Mark Twain, the beloved American author, to Mark Zuckerberg, the tech mogul behind Facebook, the name Mark has been borne by numerous influential figures who have shaped their respective fields.",
+    "pop_culture_moments": "In movies and TV, characters named Mark have played pivotal roles, such as Mark Zuckerberg in 'The Social Network', highlighting the name's association with dynamic and influential personalities.",
+    "personality_profile": "People named Mark are often seen as leaders, embodying traits of determination and charisma. They are perceived as reliable and strong-willed, often taking charge in various situations.",
+    "variations_nicknames": "Variations like Marcus, Marco, and Marc offer a diverse appeal, while nicknames such as Marky and Marko provide a more casual touch.",
+    "popularity_data": "Mark experienced peak popularity in the 1960s, maintaining a steady presence in the top 100 names for decades, though it has seen a gradual decline in recent years.",
+    "pairing_suggestions": "For those seeking complementary names, Mark pairs well with classic names like Elizabeth or contemporary choices like Ava, offering a balanced and harmonious combination.",
+    "cultural_context": "Rich in history and cultural significance, Mark's biblical roots and Roman heritage continue to influence its enduring popularity and widespread use.",
+    "final_recommendation": "Choosing Mark for a child is a nod to a storied past while embracing a name that carries strength and significance into the future. Its timeless appeal makes it a versatile choice for any era.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

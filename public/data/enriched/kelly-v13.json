@@ -1,0 +1,290 @@
+{
+  "name": "Kelly",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:56:59.170Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Irish",
+  "meaning": "Warrior",
+  "culturalSignificance": "Kelly is a name of Irish origin that has been used as both a given name and a surname. It is derived from the Gaelic 'O'Ceallaigh', meaning 'descendant of Ceallach', which translates to 'warrior'. The name has been popular in Ireland for centuries and has spread globally, maintaining its connection to Irish heritage.",
+  "modernContext": "In modern times, Kelly is a popular name in English-speaking countries and is used for both boys and girls, though it is more commonly given to girls today. It reached peak popularity in the United States during the 1970s and 1980s, often associated with a friendly and approachable personality.",
+  "literaryReferences": "Kelly is a character name featured in various novels and literary works, symbolizing diverse traits from strength to kindness.",
+  "pronunciationGuide": "/ˈkɛli/",
+  "variations": [
+    "Kelley",
+    "Kellie",
+    "Kelli",
+    "Kelleigh",
+    "Chelle"
+  ],
+  "similarNames": [
+    "Casey",
+    "Kerry",
+    "Kyle",
+    "Kelsey",
+    "Kimberly"
+  ],
+  "nicknames": [
+    "Kel",
+    "Kels",
+    "Lee",
+    "Elle"
+  ],
+  "personality": "The name Kelly is often associated with a vibrant, sociable personality. Those with this name are perceived as adaptable and friendly, often acting as peacekeepers in social settings.",
+  "symbolism": "Symbolically, Kelly is associated with strength and resilience, reflecting its meaning as 'warrior'. It carries connotations of protection and leadership.",
+  "funFact": "Kelly was among the top 100 most popular names in the United States for girls from the 1960s through the 1990s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Kelly Clarkson",
+      "profession": "Musician",
+      "knownFor": [
+        "American Idol",
+        "Breakaway"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Kelly Ripa",
+      "profession": "Television Host",
+      "knownFor": [
+        "Live with Kelly and Ryan"
+      ],
+      "awards": "Daytime Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Kelly Slater",
+      "profession": "Athlete",
+      "sport": "Surfing",
+      "league": "World Surf League",
+      "team": "",
+      "pastTeams": [],
+      "position": "Surfer",
+      "jerseyNumber": "",
+      "years": "1990-Present",
+      "achievements": "11-time World Surf League Champion",
+      "knownFor": [
+        "Exceptional surfing skills"
+      ],
+      "awards": "Multiple surfing titles",
+      "stats": "",
+      "verified": true,
+      "source": "World Surf League"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Saved by the Bell",
+      "year": 1989,
+      "type": "TV Show",
+      "characterName": "Kelly Kapowski",
+      "characterDescription": "Popular high school cheerleader",
+      "imdbUrl": "https://www.imdb.com/title/tt0096694/",
+      "genre": "Teen Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The Office",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Kelly Kapoor",
+      "characterDescription": "Customer service representative with a dramatic flair",
+      "imdbUrl": "https://www.imdb.com/title/tt0386676/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I talk a lot, so I've learned to just tune myself out.",
+      "character": "Kelly Kapoor",
+      "source": "The Office",
+      "year": 2005,
+      "context": "Kelly Kapoor explaining her talkative nature.",
+      "genre": "Comedy",
+      "impact": "The quote humorously highlights the character's self-awareness."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs offer emotional harmony and understanding.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents intuition, emotions, and adaptability.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents a nurturing and empathetic personality.",
+    "karmicLessons": "Learn to balance emotions and rationality.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Desires knowledge, understanding, and deep connections."
+  },
+  "genderDistribution": {
+    "male": 30,
+    "female": 70
+  },
+  "ranking": {
+    "current": 320,
+    "peak": 10,
+    "peakYear": 1977
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "A quote reflecting the positive, driven spirit often associated with the name Kelly."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Kel-ly"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Kelly",
+      "script": "Latin",
+      "scriptName": "Kelly",
+      "pronunciation": "/ˈkeɪ.li/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κέλλυ",
+      "script": "Greek",
+      "scriptName": "Κέλλυ",
+      "pronunciation": "/ˈce.li/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كيلي",
+      "script": "Arabic",
+      "scriptName": "كيلي",
+      "pronunciation": "/ˈkiː.li/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "凯莉",
+      "script": "Han",
+      "scriptName": "凯莉",
+      "pronunciation": "/kʰai˧˥.li˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Келли",
+      "script": "Cyrillic",
+      "scriptName": "Келли",
+      "pronunciation": "/ˈkʲelʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קלי",
+      "script": "Hebrew",
+      "scriptName": "קלי",
+      "pronunciation": "/ˈkeli/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Kelly's Heroes",
+      "author": "William Roberts",
+      "publishedYear": 1970,
+      "genre": "Fiction",
+      "significance": "A novelization of the film 'Kelly's Heroes', which explores themes of camaraderie and adventure.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "childName": "Kelly Jackson",
+      "parentNames": [
+        "Samuel L. Jackson",
+        "LaTanya Richardson"
+      ],
+      "birthYear": 1982,
+      "context": "Kelly Jackson is the daughter of actor Samuel L. Jackson and actress LaTanya Richardson."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Kelly has been used for generations and maintains a timeless appeal."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The name gained significant popularity in the late 20th century, reflecting modern naming trends."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 1,
+      "reason": "Kelly is widely accepted as a name for both boys and girls."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Kelly",
+      "artist": "Van She",
+      "year": 2008,
+      "genre": "Indie Pop",
+      "nameContext": "The song features the name Kelly prominently in its lyrics.",
+      "description": "A catchy indie pop tune that talks about a romantic interest named Kelly.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Van+She+Kelly",
+      "geniusUrl": "https://genius.com/search?q=Van+She+Kelly",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Discover the rich history and modern charm of the name Kelly, a name that has captured the hearts of many across generations. With its roots in Irish culture, Kelly embodies strength and resilience, making it a timeless choice for both boys and girls.",
+    "etymology_meaning": "Kelly originates from the Gaelic 'O'Ceallaigh', meaning 'descendant of Ceallach', which translates to 'warrior'. This name carries a sense of bravery and leadership, rooted deeply in Irish tradition.",
+    "famous_bearers": "Famous personalities such as Kelly Clarkson and Kelly Ripa have brought this name into the spotlight, showcasing its versatility and appeal in various fields from music to television.",
+    "pop_culture_moments": "Kelly Kapowski from 'Saved by the Bell' and Kelly Kapoor from 'The Office' are iconic TV characters, each embodying unique traits that have made the name memorable in pop culture.",
+    "personality_profile": "Those named Kelly are often seen as approachable, vibrant, and adaptable. They are known for their sociable nature and ability to bring people together.",
+    "variations_nicknames": "Variations like Kelley, Kellie, and Kelli offer a personalized touch, while nicknames such as Kel and Kels provide a friendly familiarity.",
+    "popularity_data": "Kelly has enjoyed widespread popularity, particularly in the United States during the late 20th century, reflecting its consistent appeal.",
+    "pairing_suggestions": "Consider pairing Kelly with middle names like Anne or James to create a harmonious and balanced name combination.",
+    "cultural_context": "Firmly rooted in Irish culture, Kelly has become a globally recognized name, symbolizing strength and friendliness.",
+    "final_recommendation": "Whether you're drawn to its cultural heritage or its modern charm, Kelly is a name that offers both strength and warmth, making it a wonderful choice for your child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

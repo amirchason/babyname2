@@ -1,0 +1,273 @@
+{
+  "name": "Eddie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:03:41.779Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Wealthy guardian",
+  "culturalSignificance": "Eddie is a diminutive form of the name Edward, which has been popular in English-speaking cultures for centuries. It conveys a sense of strength and protection, often associated with traditional values and family legacy.",
+  "modernContext": "The name Eddie remains a popular choice for its friendly and approachable vibe. It is often used as a nickname for Edward, Edmund, or Edwin, but stands alone as a given name in modern times.",
+  "literaryReferences": "Eddie is a common name in literature, often used for characters that are relatable and down-to-earth.",
+  "pronunciationGuide": "/ˈɛdi/",
+  "variations": [
+    "Edward",
+    "Edwin",
+    "Edmund",
+    "Ed",
+    "Eddy"
+  ],
+  "similarNames": [
+    "Teddy",
+    "Freddie",
+    "Charlie",
+    "Jack",
+    "Harry"
+  ],
+  "nicknames": [
+    "Ed",
+    "Eddy",
+    "Ted",
+    "Ned"
+  ],
+  "personality": "Eddie is often associated with a friendly, warm, and approachable personality. Individuals with this name are perceived as reliable and supportive.",
+  "symbolism": "The name Eddie symbolizes protection and guardianship, often linked to traditional and familial values.",
+  "funFact": "Eddie is often used as a character name in movies and TV shows, representing the everyman character.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Eddie Murphy",
+      "profession": "Actor",
+      "knownFor": [
+        "Beverly Hills Cop",
+        "Shrek"
+      ],
+      "awards": "Golden Globe Award"
+    },
+    {
+      "name": "Eddie Vedder",
+      "profession": "Musician",
+      "knownFor": [
+        "Pearl Jam"
+      ],
+      "awards": "Grammy Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Eddie George",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "Tennessee Titans",
+      "pastTeams": [
+        "Dallas Cowboys"
+      ],
+      "position": "Running back",
+      "jerseyNumber": "27",
+      "years": "1996-2004",
+      "achievements": "Heisman Trophy",
+      "knownFor": [
+        "Rushing ability",
+        "Durability"
+      ],
+      "awards": "NFL Offensive Rookie of the Year",
+      "stats": "10,441 rushing yards",
+      "verified": true,
+      "source": "https://www.pro-football-reference.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Eddie the Eagle",
+      "year": 2016,
+      "type": "Movie",
+      "characterName": "Eddie Edwards",
+      "characterDescription": "British ski jumper who became famous for his participation in the 1988 Winter Olympics.",
+      "imdbUrl": "https://www.imdb.com/title/tt1083452/",
+      "genre": "Biography",
+      "verified": true,
+      "popularity": 78
+    },
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Eddie Munson",
+      "characterDescription": "A rebellious and eccentric character who is part of the Hellfire Club.",
+      "imdbUrl": "https://www.imdb.com/title/tt4574334/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I may be in a wheelchair, but I’m still standing up for what I believe in.",
+      "character": "Eddie Barzoon",
+      "source": "The Devil's Advocate",
+      "year": 1997,
+      "context": "Eddie is a character in the movie who faces moral dilemmas.",
+      "genre": "Thriller",
+      "impact": "This quote highlights the character's resolve and moral stance."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the earth element, providing stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and groundedness.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents a person who creates and maintains stability.",
+    "karmicLessons": "The importance of stability and reliability.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A desire for stability, security, and a solid foundation."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 486,
+    "peak": 64,
+    "peakYear": 1948
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "context": "About resilience and perseverance."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ed-die"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Eddie",
+      "script": "Latin",
+      "scriptName": "Eddie",
+      "pronunciation": "/ˈedi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Έντι",
+      "script": "Greek",
+      "scriptName": "Έντι",
+      "pronunciation": "/ˈe.ði/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إدي",
+      "script": "Arabic",
+      "scriptName": "إدي",
+      "pronunciation": "/ˈʔɛ.di/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾迪",
+      "script": "Han",
+      "scriptName": "艾迪",
+      "pronunciation": "/àidí/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эдди",
+      "script": "Cyrillic",
+      "scriptName": "Эдди",
+      "pronunciation": "/ˈɛ.dʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אדי",
+      "script": "Hebrew",
+      "scriptName": "אדי",
+      "pronunciation": "/ˈɛ.di/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Eddie has been a consistently popular name over many decades, particularly in English-speaking countries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name Eddie has a classic appeal that remains popular across generations."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.85,
+      "reason": "The diminutive form of Edward, Eddie, is often perceived as approachable and friendly."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Eddie",
+      "artist": "Pearl Jam",
+      "year": 2022,
+      "genre": "Rock",
+      "nameContext": "Title of the song",
+      "description": "A tribute to Eddie Van Halen, the song reflects on his influence and legacy in the music world.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Pearl+Jam+Eddie",
+      "geniusUrl": "https://genius.com/search?q=Pearl+Jam+Eddie",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Eddie is a name that exudes charm and friendliness, making it a popular choice for parents seeking a name that combines tradition with warmth. Whether as a standalone name or a diminutive of Edward, Eddie has a timeless appeal that continues to resonate across generations.",
+    "etymology_meaning": "The name Eddie originates from the Old English name Edward, meaning 'wealthy guardian.' It signifies protection and prosperity, traits that have made it a beloved choice over the years.",
+    "famous_bearers": "Notable figures such as comedian Eddie Murphy and musician Eddie Vedder highlight the name's versatility and enduring popularity in various fields.",
+    "pop_culture_moments": "Eddie has appeared in numerous films and TV shows, often portraying characters that are relatable and endearing, such as Eddie Munson in 'Stranger Things.'",
+    "personality_profile": "Eddie is often associated with a friendly and approachable personality, making it a name that conveys warmth and reliability.",
+    "variations_nicknames": "Common variations of Eddie include Edward, Ed, and Eddy. These variations offer flexibility, allowing the name to suit various personalities and preferences.",
+    "popularity_data": "The name Eddie has seen fluctuating popularity over the decades, peaking in the mid-20th century but maintaining a steady presence on baby name charts.",
+    "pairing_suggestions": "Eddie pairs well with classic names like James or modern choices like Liam, offering a blend of tradition and contemporary charm.",
+    "cultural_context": "Eddie has been embraced in various cultures, with its roots in English-speaking countries where it often signifies a guardian or protector.",
+    "final_recommendation": "For parents seeking a name that balances tradition with a touch of modernity, Eddie is a delightful choice. Its friendly vibe and historical roots make it a name that will grow with your child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -1,0 +1,236 @@
+{
+  "name": "Devin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:44:32.635Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Irish",
+  "meaning": "Poet",
+  "culturalSignificance": "Devin is a name of Irish origin that means 'poet' or 'bard'. It has been used for both boys and girls, though it is more commonly associated with males in certain cultures. The name carries a sense of creativity and expression, reflective of its meaning.",
+  "modernContext": "In modern times, Devin has become a popular name in English-speaking countries, particularly in the United States. It reached its peak popularity in the 1990s and continues to be a favored choice for parents looking for a name that is both traditional and contemporary.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈdɛvɪn/",
+  "variations": [
+    "Devon",
+    "Devyn",
+    "Devan",
+    "Deven",
+    "Devinn"
+  ],
+  "similarNames": [
+    "Kevin",
+    "Evan",
+    "Dylan",
+    "Gavin",
+    "Logan"
+  ],
+  "nicknames": [
+    "Dev",
+    "Devy",
+    "Vinny"
+  ],
+  "personality": "The name Devin is often associated with individuals who are creative, expressive, and possess an innate ability to communicate effectively. They are seen as adaptable and open-minded, often thriving in social settings.",
+  "symbolism": "Devin symbolizes creativity and expression, drawing from its meaning of 'poet'. It embodies a sense of artistry and the ability to convey thoughts and emotions eloquently.",
+  "funFact": "Devin is a name that has been used by several notable athletes, adding a sporty and dynamic association to its meaning.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Devin Booker",
+      "profession": "Basketball Player",
+      "knownFor": [
+        "Playing for the Phoenix Suns",
+        "NBA All-Star appearances"
+      ],
+      "awards": "NBA All-Star"
+    },
+    {
+      "name": "Devin Townsend",
+      "profession": "Musician",
+      "knownFor": [
+        "Fronting the Devin Townsend Project",
+        "Albums like 'Empath'"
+      ],
+      "awards": "Juno Award for Metal/Hard Music Album of the Year"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Devin Booker",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Phoenix Suns",
+      "pastTeams": [],
+      "position": "Shooting Guard",
+      "jerseyNumber": "1",
+      "years": "2015-Present",
+      "achievements": "NBA All-Star, NBA Three-Point Contest Champion",
+      "knownFor": [
+        "Shooting skills",
+        "Scoring ability"
+      ],
+      "awards": "NBA All-Star",
+      "stats": "27.5 points per game in the 2020-21 season",
+      "verified": true,
+      "source": "https://www.nba.com/player/1626164/devin-booker"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Devin Townsend Project: By a Thread",
+      "year": 2012,
+      "type": "Documentary",
+      "characterName": "Devin Townsend",
+      "characterDescription": "Focuses on musician Devin Townsend's live performances",
+      "imdbUrl": "https://www.imdb.com/title/tt3559600/",
+      "genre": "Documentary, Music",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and planning",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a communicative and social nature, much like the name Devin.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "This archetype is skilled in expressing ideas and connecting with others.",
+    "karmicLessons": "Learning to balance expression with listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for creativity and self-expression."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 59,
+    "peakYear": 1997
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Creativity is the way I share my soul with the world.",
+    "author": "Devin Townsend",
+    "context": "A reflection on the importance of creative expression."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "De-vin"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Devin",
+      "script": "Latin",
+      "scriptName": "Devin",
+      "pronunciation": "/ˈdeβin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντέβιν",
+      "script": "Greek",
+      "scriptName": "Ντέβιν",
+      "pronunciation": "/ˈdevin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ديفين",
+      "script": "Arabic",
+      "scriptName": "ديفين",
+      "pronunciation": "/ˈdiːvin/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "德文",
+      "script": "Han",
+      "scriptName": "德文",
+      "pronunciation": "/dé wén/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Девин",
+      "script": "Cyrillic",
+      "scriptName": "Девин",
+      "pronunciation": "/ˈdʲevʲɪn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דווין",
+      "script": "Hebrew",
+      "scriptName": "דווין",
+      "pronunciation": "/ˈdevin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Devin has seen increased usage in modern contexts, especially since the 1990s."
+    },
+    {
+      "tag": "Creative",
+      "confidence": 0.85,
+      "reason": "The meaning 'poet' associates the name with creativity."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.8,
+      "reason": "Devin is used for both boys and girls."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Devin enchants with its poetic origins and modern appeal. As a name that balances the charm of tradition with contemporary style, Devin continues to capture the hearts of parents around the world.",
+    "etymology_meaning": "Devin originates from the Irish language, meaning 'poet' or 'bard'. This artistic connotation has helped the name maintain its allure across generations.",
+    "famous_bearers": "Famous individuals named Devin include NBA star Devin Booker and progressive metal musician Devin Townsend, both of whom have brought distinction to the name.",
+    "pop_culture_moments": "Devin has appeared in various cultural contexts, from music documentaries to sports arenas, reinforcing its modern and dynamic presence.",
+    "personality_profile": "Individuals named Devin are often seen as creative, expressive, and sociable, with a natural aptitude for communication and artistic endeavors.",
+    "variations_nicknames": "Variations of Devin include Devon and Devyn, while common nicknames such as Dev and Vinny add a personal touch.",
+    "popularity_data": "Though its popularity peaked in the late 1990s, Devin remains a beloved choice for its versatility and melodic sound.",
+    "pairing_suggestions": "Devin pairs well with names like Elise or Nolan, creating a harmonious blend suitable for siblings.",
+    "cultural_context": "With roots in Irish culture, Devin reflects a rich heritage while appealing to modern naming trends.",
+    "final_recommendation": "For parents seeking a name that embodies creativity and charm, Devin offers a timeless yet fresh option, bridging the old with the new.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

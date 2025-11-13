@@ -1,0 +1,261 @@
+{
+  "name": "Susie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:46:23.695Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Lily",
+  "culturalSignificance": "The name Susie is a diminutive of Susan, which has roots in the Hebrew name Shoshana, meaning 'lily.' It gained popularity in English-speaking countries during the 19th century and has often been associated with sweetness and elegance.",
+  "modernContext": "In modern times, Susie is considered a classic name that maintains a sense of charm and nostalgia. While not as common as it once was, it is still used as a standalone name or a nickname for Susan.",
+  "literaryReferences": "In literature, Susie is often used as a character name to evoke a sense of innocence and friendliness, such as in the novel 'The Lovely Bones' by Alice Sebold.",
+  "pronunciationGuide": "/ˈsuːzi/",
+  "variations": [
+    "Susan",
+    "Suzanne",
+    "Susanna",
+    "Sue",
+    "Suzy"
+  ],
+  "similarNames": [
+    "Lucy",
+    "Sally",
+    "Sophie",
+    "Samantha",
+    "Sierra"
+  ],
+  "nicknames": [
+    "Sue",
+    "Suz",
+    "Zee"
+  ],
+  "personality": "People named Susie are often perceived as friendly, approachable, and caring. They are seen as nurturing figures with a strong sense of community.",
+  "symbolism": "The name Susie, like its root Susan, symbolizes purity and beauty, often associated with the lily flower.",
+  "funFact": "Susie was a particularly popular name in the United States during the mid-20th century, often used in popular media to depict the 'girl next door' archetype.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Susie Essman",
+      "profession": "Comedian",
+      "knownFor": [
+        "Curb Your Enthusiasm"
+      ],
+      "awards": "N/A"
+    },
+    {
+      "name": "Susie Wolff",
+      "profession": "Motorsport Executive",
+      "knownFor": [
+        "Venturi Racing",
+        "Williams F1"
+      ],
+      "awards": "N/A"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Lovely Bones",
+      "year": 2009,
+      "type": "Movie",
+      "characterName": "Susie Salmon",
+      "characterDescription": "A young girl who narrates the story after being murdered.",
+      "imdbUrl": "https://www.imdb.com/title/tt0380510/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 77
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I was here for a moment and then I was gone.",
+      "character": "Susie Salmon",
+      "source": "The Lovely Bones",
+      "year": 2009,
+      "context": "Reflecting on her life and death.",
+      "genre": "Drama",
+      "impact": "This quote underscores the fleeting nature of life and the impact of loss."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and fresh starts.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share an emotional depth and intuition.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Symbolizes caring and nurturing qualities.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Known for their caring and supportive nature.",
+    "karmicLessons": "Learning to balance self-care with caring for others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to nurture and care for others, creating harmony and peace."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 120,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+    "author": "Unknown",
+    "context": "A motivational quote often attributed to anonymous sources."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Su-sie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Susana",
+      "script": "Latin",
+      "scriptName": "Susana",
+      "pronunciation": "/suˈsana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σουζάνα",
+      "script": "Greek",
+      "scriptName": "Σουζάνα",
+      "pronunciation": "/suˈzana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سوزي",
+      "script": "Arabic",
+      "scriptName": "سوزي",
+      "pronunciation": "/suːzi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "苏西",
+      "script": "Han",
+      "scriptName": "苏西",
+      "pronunciation": "/sū xī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сюзи",
+      "script": "Cyrillic",
+      "scriptName": "Сюзи",
+      "pronunciation": "/sʲuˈzi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סוזי",
+      "script": "Hebrew",
+      "scriptName": "סוזי",
+      "pronunciation": "/suːzi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Lovely Bones",
+      "author": "Alice Sebold",
+      "publishedYear": 2002,
+      "genre": "Fiction",
+      "significance": "A bestselling novel that follows the story of Susie Salmon, a young girl who watches over her family from the afterlife.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Susie has been a popular choice for generations, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Featured prominently in novels such as 'The Lovely Bones.'"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Despite fluctuations in popularity, Susie remains a beloved name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Wake Up Little Susie",
+      "artist": "The Everly Brothers",
+      "year": 1957,
+      "genre": "Rock and Roll",
+      "nameContext": "The name Susie is central to the song's storyline.",
+      "description": "A classic rock and roll hit about a couple who fall asleep at the movies and wake up late.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Wake+Up+Little+Susie+The+Everly+Brothers",
+      "geniusUrl": "https://genius.com/The-everly-brothers-wake-up-little-susie-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Susie Q",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1968,
+      "genre": "Rock",
+      "nameContext": "The name is part of the song's title and main chorus.",
+      "description": "A rock song highlighting a girl's captivating charm, originally recorded by Dale Hawkins.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Susie+Q+Creedence+Clearwater+Revival",
+      "geniusUrl": "https://genius.com/Creedence-clearwater-revival-susie-q-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Susie is a charming, classic name that evokes a sense of nostalgia and warmth. Often associated with sweetness and the quintessential 'girl next door,' Susie has been a beloved choice for generations. Whether as a standalone name or a diminutive of Susan, it carries an enduring appeal.",
+    "etymology_meaning": "Susie originates from the Hebrew name Shoshana, meaning 'lily.' Over the years, it has evolved into a standalone name with a gentle and feminine touch. Its floral roots highlight its association with purity and beauty.",
+    "famous_bearers": "Notable individuals with the name Susie include Susie Essman, a comedian known for her role in 'Curb Your Enthusiasm,' and Susie Wolff, a pioneering figure in motorsports. These women exemplify the diverse paths that bearers of the name Susie have taken.",
+    "pop_culture_moments": "In pop culture, Susie has been immortalized in songs like 'Wake Up Little Susie' by The Everly Brothers and 'Susie Q' by Creedence Clearwater Revival. The name also appears in literature, notably in 'The Lovely Bones' by Alice Sebold.",
+    "personality_profile": "Susie is often associated with friendly, approachable, and nurturing personalities. Bearers of this name are seen as compassionate and community-oriented, with a natural inclination to care for others.",
+    "variations_nicknames": "Common variations of Susie include Susan, Suzanne, and Susanna, while nicknames like Sue, Suz, and Zee add a playful twist. These variations allow for personalization and adaptability across cultures and languages.",
+    "popularity_data": "While Susie's popularity peaked in the mid-20th century, it remains a beloved choice for those seeking a classic, timeless name. Its enduring charm ensures it remains a staple in baby name lists.",
+    "pairing_suggestions": "Susie pairs well with middle names that complement its simplicity, such as Susie Mae or Susie Ann. For siblings, consider classic names like Lucy or Jack to maintain a cohesive theme.",
+    "cultural_context": "Culturally, Susie resonates with English-speaking communities but has universal appeal due to its phonetic simplicity and floral associations. It embodies a classic charm that transcends cultural boundaries.",
+    "final_recommendation": "Susie is an excellent choice for parents seeking a name that is both timeless and charming. Its historical roots, coupled with its modern appeal, make it suitable for those who appreciate tradition and simplicity.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

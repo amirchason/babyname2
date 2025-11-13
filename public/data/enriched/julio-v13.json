@@ -1,0 +1,262 @@
+{
+  "name": "Julio",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:56:59.168Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Soft-haired, youthful",
+  "culturalSignificance": "Julio is a name with Roman origins, often associated with the ancient Roman family name Julius. It has been widely used in Spanish-speaking countries and carries a sense of history and nobility due to its connection to notable figures like Julius Caesar.",
+  "modernContext": "In modern times, the name Julio is popular in many Spanish-speaking countries and has been embraced by cultures around the world. It is often associated with warmth and charisma, partly due to famous figures named Julio in music and sports.",
+  "literaryReferences": "Julio is a name that appears in various literary works, often highlighting characters with Latin heritage or background.",
+  "pronunciationGuide": "/ˈhuːlioʊ/",
+  "variations": [
+    "Julius",
+    "Julian",
+    "Giulio",
+    "Jules",
+    "Julia"
+  ],
+  "similarNames": [
+    "Marco",
+    "Lucas",
+    "Antonio",
+    "Miguel",
+    "Carlos"
+  ],
+  "nicknames": [
+    "Jules",
+    "Juli",
+    "Lio"
+  ],
+  "personality": "People named Julio are often perceived as charismatic and youthful, embodying a sense of warmth and friendliness.",
+  "symbolism": "Julio symbolizes youthfulness and vitality, often associated with a sense of new beginnings and growth.",
+  "funFact": "Julio is a common name in Latin music, with famous artists like Julio Iglesias popularizing it globally.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Gaius Julius Caesar",
+      "years": "100 BC-44 BC",
+      "category": "Politician",
+      "achievements": [
+        "Conquest of Gaul",
+        "Reforms in the Roman Republic"
+      ],
+      "significance": "Julius Caesar was a pivotal figure in the transition of Rome from a Republic to an Empire.",
+      "notableWorks": [
+        "Commentarii de Bello Gallico"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Julio Iglesias",
+      "profession": "Musician",
+      "knownFor": [
+        "Romantic ballads",
+        "Worldwide hits"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Julio Cortázar",
+      "profession": "Writer",
+      "knownFor": [
+        "Innovative literature",
+        "Short stories"
+      ],
+      "awards": "Premio Médicis étranger"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Julio César Chávez",
+      "profession": "Athlete",
+      "sport": "Boxing",
+      "league": "WBC",
+      "team": "",
+      "pastTeams": [],
+      "position": "Boxer",
+      "jerseyNumber": "",
+      "years": "1980-2005",
+      "achievements": "Multiple world championships",
+      "knownFor": [
+        "Powerful punches",
+        "Unbeaten streak"
+      ],
+      "awards": "International Boxing Hall of Fame",
+      "stats": "107 wins, 6 losses, 2 draws",
+      "verified": true,
+      "source": "BoxRec"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for culmination and illumination.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share the fire element, fostering enthusiasm and energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents passion, energy, and transformation.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural-born leaders with charisma and determination.",
+    "karmicLessons": "Learning to balance ambition with empathy.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 210,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "context": "Encouraging perseverance and belief in one's potential."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ju-lio"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Julio",
+      "script": "Latin",
+      "scriptName": "Julio",
+      "pronunciation": "/ˈxuljo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιούλιος",
+      "script": "Greek",
+      "scriptName": "Ιούλιος",
+      "pronunciation": "/iˈulios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "خوليو",
+      "script": "Arabic",
+      "scriptName": "خوليو",
+      "pronunciation": "/ˈxuljo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "胡里奥",
+      "script": "Han",
+      "scriptName": "胡里奥",
+      "pronunciation": "/hú lǐ ào/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Хулио",
+      "script": "Cyrillic",
+      "scriptName": "Хулио",
+      "pronunciation": "/ˈxulʲɪo/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חוליו",
+      "script": "Hebrew",
+      "scriptName": "חוליו",
+      "pronunciation": "/ˈxuljo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Julio's Day",
+      "author": "Gilbert Hernandez",
+      "publishedYear": 2013,
+      "genre": "Graphic Novel",
+      "significance": "Explores a century in the life of its protagonist, showcasing human resilience.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Long-standing use in various cultures and historical significance."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistent popularity across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Presence in notable literary works."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Me and Julio Down by the Schoolyard",
+      "artist": "Paul Simon",
+      "year": 1972,
+      "genre": "Folk Rock",
+      "nameContext": "Title and lyrics",
+      "description": "The song tells a whimsical story of youthful rebellion and friendship, with Julio as a central character.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Me+and+Julio+Down+by+the+Schoolyard",
+      "geniusUrl": "https://genius.com/Paul-simon-me-and-julio-down-by-the-schoolyard-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Julio is a name that resonates with history and charm, carrying with it a sense of nobility and warmth. Its Latin roots connect it to the ancient Roman family name Julius, making it a classic choice for parents seeking a name with a rich background. The name has been embraced across various cultures, particularly in Spanish-speaking countries, and remains a popular choice to this day.",
+    "etymology_meaning": "The name Julio has Latin origins, derived from the Roman family name Julius. It means 'soft-haired' or 'youthful,' reflecting a sense of vitality and vigor. This etymological connection to Julius Caesar adds a layer of historical depth to the name.",
+    "famous_bearers": "Famous individuals named Julio have made significant contributions across multiple fields. Julio Iglesias, a renowned musician, has captivated audiences worldwide with his romantic ballads. Similarly, the literary world recognizes Julio Cortázar for his innovative storytelling and profound impact on contemporary literature.",
+    "pop_culture_moments": "In pop culture, Julio has been immortalized in songs like Paul Simon's 'Me and Julio Down by the Schoolyard,' which captures the spirit of youthful rebellion and friendship. Such references keep the name alive in the collective consciousness, ensuring its continued appeal.",
+    "personality_profile": "Individuals named Julio are often perceived as charismatic and dynamic, exuding warmth and friendliness. They are seen as natural leaders with a strong sense of purpose, embodying the youthful energy that their name suggests.",
+    "variations_nicknames": "Julio has several variations and nicknames that add to its versatility. Variations like Julius, Julian, and Giulia offer different stylistic choices, while nicknames such as Jules and Lio provide affectionate alternatives.",
+    "popularity_data": "Julio has maintained a steady presence in baby name rankings, particularly in Spanish-speaking regions. Its peak popularity occurred in the late 20th century, driven by cultural and musical influences.",
+    "pairing_suggestions": "Julio pairs well with both traditional and modern names. Consider combinations like Julio Alexander or Julio Sofia to create a balanced and harmonious name pairing that complements its classic charm.",
+    "cultural_context": "Culturally, Julio is a name that bridges the past and present, offering a connection to ancient Rome while thriving in contemporary society. Its widespread use in Latin America and Spain highlights its enduring popularity and adaptability.",
+    "final_recommendation": "Choosing the name Julio provides a timeless option with historical significance and modern appeal. Its association with influential figures and cultural references ensures that it remains a distinguished choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

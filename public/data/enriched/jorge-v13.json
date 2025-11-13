@@ -1,0 +1,267 @@
+{
+  "name": "Jorge",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:58:26.650Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Farmer",
+  "culturalSignificance": "Jorge is a popular Spanish and Portuguese variant of the name George, which originates from the Greek name Georgios. It has been historically significant in Spanish-speaking countries and is often associated with figures of leadership and strength.",
+  "modernContext": "In modern times, Jorge remains a popular name in Latin America and among Spanish-speaking communities worldwide. It is frequently chosen for its classic sound and cultural resonance, maintaining steady popularity across different regions.",
+  "literaryReferences": "One notable literary reference is Machado de Assis' character Jorge in 'Dom Casmurro', which explores themes of love and jealousy.",
+  "pronunciationGuide": "/ˈxoɾxe/",
+  "variations": [
+    "George",
+    "Georgios",
+    "Jordi",
+    "Giorgio",
+    "Jørgen"
+  ],
+  "similarNames": [
+    "Juan",
+    "Jose",
+    "Javier",
+    "Julio",
+    "Joaquin"
+  ],
+  "nicknames": [
+    "Jorgito",
+    "Jorgie",
+    "Jorgi"
+  ],
+  "personality": "The name Jorge is often associated with qualities such as leadership, reliability, and a strong sense of duty. People named Jorge are perceived to be dependable and charismatic.",
+  "symbolism": "The name Jorge symbolizes cultivation and growth, reflecting its meaning as 'farmer'. It suggests a connection to nature and the nurturing of life.",
+  "funFact": "Jorge is a common name among royalty in Spain and Portugal, often used by kings and nobility.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint George",
+    "significance": "Saint George is a prominent Christian martyr known for the legend of Saint George and the Dragon. He is the patron saint of various countries and regions.",
+    "keyStories": [
+      "Saint George and the Dragon"
+    ],
+    "spiritualMeaning": "The story of Saint George represents the triumph of good over evil.",
+    "historicalImpact": "Saint George's emblem has been used in crusades and is a symbol of bravery and faith in Christianity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jorge Luis Borges",
+      "years": "1899-1986",
+      "category": "Writer",
+      "achievements": [
+        "Internationally acclaimed author",
+        "Pioneer of magical realism"
+      ],
+      "significance": "Borges is considered one of the most significant writers of the 20th century, known for his complex narratives and philosophical themes.",
+      "notableWorks": [
+        "Ficciones",
+        "Labyrinths"
+      ]
+    },
+    {
+      "fullName": "Jorge Amado",
+      "years": "1912-2001",
+      "category": "Writer",
+      "achievements": [
+        "Best-selling Brazilian author",
+        "Cultural ambassador of Brazil"
+      ],
+      "significance": "Amado's works reflect Brazilian culture and social issues, making him a literary icon in Brazil and worldwide.",
+      "notableWorks": [
+        "Dona Flor and Her Two Husbands",
+        "Gabriela, Clove and Cinnamon"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jorge Ramos",
+      "profession": "Journalist",
+      "knownFor": [
+        "Anchor on Univision",
+        "Advocate for Latino community"
+      ],
+      "awards": "8 Emmy Awards"
+    },
+    {
+      "name": "Jorge Garcia",
+      "profession": "Actor",
+      "knownFor": [
+        "Role as Hurley on Lost"
+      ],
+      "awards": "Nominated for ALMA Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jorge Posada",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "New York Yankees",
+      "pastTeams": [],
+      "position": "Catcher",
+      "jerseyNumber": "20",
+      "years": "1995-2011",
+      "achievements": "5-time All-Star, 4-time World Series Champion",
+      "knownFor": [
+        "Switch-hitting",
+        "Clutch performances"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "275 home runs, .273 batting average",
+      "verified": true,
+      "source": "MLB official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Narcos",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "Jorge Salcedo",
+      "characterDescription": "A key figure in the Cali Cartel who becomes an informant.",
+      "imdbUrl": "https://www.imdb.com/title/tt2707408/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and celebration.",
+    "compatibleSigns": [
+      "Taurus",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs share practical and grounded qualities.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and nurturing.",
+    "celestialArchetype": "The Provider",
+    "celestialArchetypeDescription": "Represents nurturing and resourcefulness.",
+    "karmicLessons": "Learning to balance work and relaxation.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and building a secure future."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 560,
+    "peak": 260,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "In the end, everything will be okay. If it's not okay, it's not the end.",
+    "author": "Jorge Garcia",
+    "context": "A message of hope and perseverance."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jor-ge"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jorge",
+      "script": "Latin",
+      "scriptName": "Jorge",
+      "pronunciation": "/ˈxoɾxe/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γιώργος",
+      "script": "Greek",
+      "scriptName": "Γιώργος",
+      "pronunciation": "/ˈʝorɣos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جورج",
+      "script": "Arabic",
+      "scriptName": "جورج",
+      "pronunciation": "/d͡ʒoːrd͡ʒ/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "乔治",
+      "script": "Han",
+      "scriptName": "乔治",
+      "pronunciation": "/tɕjɔʊ˧˥ ʈʂɻ̩˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Георгий",
+      "script": "Cyrillic",
+      "scriptName": "Георгий",
+      "pronunciation": "/ɡʲɪˈorɡʲɪj/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ורג'",
+      "script": "Hebrew",
+      "scriptName": "ג'ורג'",
+      "pronunciation": "/dʒoʁdʒ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jorge is a classic name with a long history of usage in Spanish-speaking countries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Its consistent popularity over the years makes it a timeless choice."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.7,
+      "reason": "The association with Saint George gives it a biblical connection."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Jorge is a name that carries a rich cultural heritage and timeless appeal. With roots stretching back to ancient Greece, it has remained a beloved choice across generations. Whether in the context of historical figures or modern pop culture, Jorge is a name that resonates with strength and nobility.",
+    "etymology_meaning": "The name Jorge originates from the Greek name Georgios, meaning 'farmer' or 'earth worker'. Over time, it has adapted into various forms in different languages, retaining its core meaning and cultural significance.",
+    "famous_bearers": "Notable individuals named Jorge include the renowned writer Jorge Luis Borges and journalist Jorge Ramos, both of whom have made significant contributions to their fields. Their achievements underscore the name's association with intellectual prowess and leadership.",
+    "pop_culture_moments": "In pop culture, the name Jorge has been featured in various TV shows and films, often portraying characters known for their depth and complexity. For example, Jorge Salcedo in 'Narcos' is a character marked by intelligence and moral dilemmas.",
+    "personality_profile": "Those named Jorge are often seen as reliable and charismatic, embodying qualities of leadership and determination. They are known for their ability to nurture and cultivate both relationships and projects.",
+    "variations_nicknames": "Variations of Jorge include George and Giorgio, with nicknames like Jorgito and Jorgie offering a more casual, affectionate form. These variations highlight the name's adaptability and enduring popularity.",
+    "popularity_data": "Jorge has maintained steady popularity, particularly in Spanish-speaking regions. Its classic appeal and cultural significance keep it a favorite choice for parents looking for a strong, traditional name.",
+    "pairing_suggestions": "Jorge pairs well with names like Maria, Sofia, and Lucia, offering a harmonious blend that reflects both cultural roots and a sense of balance. These combinations emphasize the name's versatility and melodic quality.",
+    "cultural_context": "Rooted deeply in Hispanic culture, Jorge is more than just a name; it's a symbol of heritage and identity. Its use across various cultures underscores its universal appeal and adaptability.",
+    "final_recommendation": "For those seeking a name that is rich in history yet fresh in its modern applications, Jorge is a perfect choice. It offers a blend of strength, tradition, and global appeal, making it a timeless option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

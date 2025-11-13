@@ -1,0 +1,318 @@
+{
+  "name": "Bob",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:13:50.857Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Bright fame",
+  "culturalSignificance": "Bob is a diminutive of the name Robert, which has been a popular name in English-speaking countries for centuries. It has been borne by many kings, saints, and notable figures, contributing to its cultural significance.",
+  "modernContext": "In modern times, Bob is often used in English-speaking countries as a friendly, approachable name. It has seen a decline in popularity but remains a classic choice for its simplicity and strong association with notable figures.",
+  "literaryReferences": "Bob Cratchit is a notable character in Charles Dickens' 'A Christmas Carol', representing the spirit of kindness and family values.",
+  "pronunciationGuide": "/bɒb/",
+  "variations": [
+    "Robert",
+    "Rob",
+    "Bobby",
+    "Roberto",
+    "Rupert"
+  ],
+  "similarNames": [
+    "Bill",
+    "Tom",
+    "Jim",
+    "Jack",
+    "Sam"
+  ],
+  "nicknames": [
+    "Bobby",
+    "Rob",
+    "Robbie"
+  ],
+  "personality": "The name Bob is often associated with a friendly and down-to-earth personality, embodying reliability and approachability.",
+  "symbolism": "Bob symbolizes a sense of tradition and straightforwardness, often linked with qualities such as honesty and integrity.",
+  "funFact": "Bob is often used as a placeholder name in English-speaking countries, similar to names like 'Joe' or 'John Doe'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Bob Dylan",
+      "years": "1941-Present",
+      "category": "Musician",
+      "achievements": [
+        "Nobel Prize in Literature",
+        "Multiple Grammy Awards"
+      ],
+      "significance": "Bob Dylan is a pivotal figure in music history, known for his influential work in folk and rock music.",
+      "notableWorks": [
+        "Like a Rolling Stone",
+        "Blowin' in the Wind"
+      ]
+    },
+    {
+      "fullName": "Bob Marley",
+      "years": "1945-1981",
+      "category": "Musician",
+      "achievements": [
+        "Pioneer of reggae music",
+        "Inducted into the Rock and Roll Hall of Fame"
+      ],
+      "significance": "Bob Marley is celebrated for popularizing reggae music worldwide and advocating for peace and social justice.",
+      "notableWorks": [
+        "No Woman, No Cry",
+        "Redemption Song"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The times they are a-changin'.",
+      "author": "Bob Dylan",
+      "context": "Song lyrics from 'The Times They Are a-Changin''",
+      "year": 1964,
+      "category": "Music"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Bob Newhart",
+      "profession": "Comedian",
+      "knownFor": [
+        "The Bob Newhart Show",
+        "Newhart"
+      ],
+      "awards": "Emmy Award"
+    },
+    {
+      "name": "Bob Saget",
+      "profession": "Actor",
+      "knownFor": [
+        "Full House",
+        "America's Funniest Home Videos"
+      ],
+      "awards": "TV Land Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Bob Cousy",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Boston Celtics",
+      "pastTeams": [],
+      "position": "Point Guard",
+      "jerseyNumber": "14",
+      "years": "1950-1963",
+      "achievements": "6-time NBA champion",
+      "knownFor": [
+        "Excellent passing",
+        "Court vision"
+      ],
+      "awards": "NBA MVP",
+      "stats": "16,960 career points",
+      "verified": true,
+      "source": "NBA official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Bob's Burgers",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Bob Belcher",
+      "characterDescription": "Owner of a small burger restaurant, known for his optimism and family values.",
+      "imdbUrl": "https://www.imdb.com/title/tt1561755/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 87
+    },
+    {
+      "title": "What About Bob?",
+      "year": 1991,
+      "type": "Movie",
+      "characterName": "Bob Wiley",
+      "characterDescription": "A patient with multiple phobias who follows his psychiatrist on vacation.",
+      "imdbUrl": "https://www.imdb.com/title/tt0103241/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm not a slacker, I'm just a guy who has taken a lot of time to find the right career.",
+      "character": "Bob Wiley",
+      "source": "What About Bob?",
+      "year": 1991,
+      "context": "Bob Wiley explaining his life choices.",
+      "genre": "Comedy",
+      "impact": "Reflects the humor and depth of the character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the stability and practicality of Earth.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth symbolizes grounding, practicality, and reliability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents stability and a strong foundation.",
+    "karmicLessons": "Learning the value of patience and perseverance.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A deep desire for nurturing and harmony."
+  },
+  "genderDistribution": {
+    "male": 99,
+    "female": 1
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 30,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Bob Dylan",
+    "context": "A reminder of the importance of passion in achieving success."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Bob"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Bob",
+      "script": "Latin",
+      "scriptName": "Bob",
+      "pronunciation": "/bob/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπομπ",
+      "script": "Greek",
+      "scriptName": "Μπομπ",
+      "pronunciation": "/bɔb/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بوب",
+      "script": "Arabic",
+      "scriptName": "بوب",
+      "pronunciation": "/buːb/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "鲍勃",
+      "script": "Han",
+      "scriptName": "鲍勃",
+      "pronunciation": "/bào bó/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Боб",
+      "script": "Cyrillic",
+      "scriptName": "Боб",
+      "pronunciation": "/bob/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בוב",
+      "script": "Hebrew",
+      "scriptName": "בוב",
+      "pronunciation": "/bɔb/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "A Christmas Carol",
+      "author": "Charles Dickens",
+      "publishedYear": 1843,
+      "genre": "Fiction",
+      "significance": "A classic tale highlighting social issues and personal redemption.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Bob is a timeless name with historical significance."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Frequently appears in classic literature."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Remains a steady choice across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Bob",
+      "artist": "Weird Al Yankovic",
+      "year": 2003,
+      "genre": "Comedy",
+      "nameContext": "The song is a parody of Bob Dylan's style.",
+      "description": "The song humorously mimics the style of Bob Dylan using palindromes.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Weird+Al+Yankovic+Bob",
+      "geniusUrl": "https://genius.com/Weird-al-yankovic-bob-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Bob is a name that carries a rich heritage and a down-to-earth charm. Often associated with friendliness and approachability, it remains a beloved choice for parents seeking simplicity and strength. From its roots in the name Robert, Bob has been a staple in English-speaking countries.",
+    "etymology_meaning": "The name Bob is a diminutive form of Robert, which originates from the Old High German 'Hrodebert', meaning 'bright fame'. Its enduring appeal lies in its simplicity and the illustrious history of its full form.",
+    "famous_bearers": "Many famous individuals have carried the name Bob, including Bob Dylan, the iconic musician and Nobel laureate, and Bob Marley, the legendary reggae artist known for his messages of peace and unity.",
+    "pop_culture_moments": "Bob has appeared in numerous cultural references, including the character Bob Cratchit in Charles Dickens' 'A Christmas Carol' and Bob Belcher in the animated series 'Bob's Burgers'. These characters highlight the name's association with warmth and family values.",
+    "personality_profile": "The name Bob is often associated with reliability and a friendly demeanor. People named Bob are perceived as trustworthy and capable, making them popular in both personal and professional circles.",
+    "variations_nicknames": "Variations of Bob include Robert, Rob, and Bobby, each offering a slightly different flavor while maintaining the core essence. Nicknames like Bobby and Rob add a playful twist to this classic name.",
+    "popularity_data": "Bob reached its peak popularity in the 1960s but has since seen a decline. Despite this, it remains a classic choice for those who appreciate its straightforwardness and historical significance.",
+    "pairing_suggestions": "Bob pairs well with names like Tom and Jack for siblings, creating a harmonious blend of classic and timeless names. For a more modern twist, consider pairing Bob with names like Liam or Ethan.",
+    "cultural_context": "Bob has deep roots in Western culture, often symbolizing simplicity and strength. Its use in literature and media solidifies its place as a name that represents both tradition and modernity.",
+    "final_recommendation": "If you're seeking a name that embodies reliability and charm, Bob is an excellent choice. Its historical roots combined with its modern appeal make it a versatile and enduring option for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

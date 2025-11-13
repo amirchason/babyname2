@@ -1,0 +1,247 @@
+{
+  "name": "Doug",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:32:58.498Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Scottish",
+  "meaning": "Dark river or black stream",
+  "culturalSignificance": "The name Doug is a short form of Douglas, which is derived from the Scottish Gaelic 'dubh glas,' meaning 'dark water' or 'black stream.' It has roots in Scottish history, often associated with the Douglas clan, a prominent Scottish family known for their significant historical influence.",
+  "modernContext": "Doug remains a popular name in English-speaking countries, especially in the United States. It is often chosen for its straightforward and friendly sound, making it a common choice for fictional characters in media.",
+  "literaryReferences": "Doug is often used in literature and media as a friendly, everyman type of character, reflecting its approachable and straightforward sound.",
+  "pronunciationGuide": "dʌɡ",
+  "variations": [
+    "Douglas",
+    "Dougie",
+    "Dougal"
+  ],
+  "similarNames": [
+    "Don",
+    "Dan",
+    "Dean",
+    "Dale",
+    "Drew"
+  ],
+  "nicknames": [
+    "Dougie",
+    "D",
+    "Dougs"
+  ],
+  "personality": "The name Doug is often associated with traits such as reliability, friendliness, and approachability. People with this name are perceived as down-to-earth and practical.",
+  "symbolism": "The name is symbolic of strength and resilience, often connected to the powerful nature of rivers.",
+  "funFact": "Doug is a common name for characters in animated series, such as the popular Nickelodeon show 'Doug' from the 1990s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Doug Jones",
+      "profession": "Actor",
+      "knownFor": [
+        "The Shape of Water",
+        "Star Trek: Discovery"
+      ],
+      "awards": "Numerous nominations for his work in fantasy and horror films"
+    },
+    {
+      "name": "Doug Collins",
+      "profession": "Basketball Coach",
+      "knownFor": [
+        "Coaching Chicago Bulls",
+        "NBA commentary"
+      ],
+      "awards": "NBA All-Star as a player"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Doug Flutie",
+      "profession": "Athlete",
+      "sport": "American Football",
+      "league": "NFL",
+      "team": "Buffalo Bills",
+      "pastTeams": [
+        "New England Patriots",
+        "Chicago Bears"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "22",
+      "years": "1986-2005",
+      "achievements": "Heisman Trophy winner, multiple CFL championships",
+      "knownFor": [
+        "Flutie Flakes cereal",
+        "Hail Flutie pass"
+      ],
+      "awards": "Heisman Trophy",
+      "stats": "NFL and CFL career statistics",
+      "verified": true,
+      "source": "Pro Football Reference"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Doug",
+      "year": 1991,
+      "type": "TV Show",
+      "characterName": "Doug Funnie",
+      "characterDescription": "An imaginative and kind-hearted teenager navigating life",
+      "imdbUrl": "https://www.imdb.com/title/tt0101084/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Dear Journal, it's me, Doug.",
+      "character": "Doug Funnie",
+      "source": "Doug",
+      "year": 1991,
+      "context": "Opening line often used by Doug in his journal entries.",
+      "genre": "Animation",
+      "impact": "Sets the tone for the introspective and imaginative nature of the show."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional and intuitive connection.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes emotions, intuition, and adaptability.",
+    "celestialArchetype": "The Dreamer",
+    "celestialArchetypeDescription": "Known for their imagination and sensitivity.",
+    "karmicLessons": "Learning to balance dreams with reality.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A desire for introspection and understanding the deeper aspects of life."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 75,
+    "peakYear": 1963
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "author": "Mahatma Gandhi",
+    "context": "A quote about inner strength and perseverance."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Doug"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Doug",
+      "script": "Latin",
+      "scriptName": "Doug",
+      "pronunciation": "doʊɡ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Νταγκ",
+      "script": "Greek",
+      "scriptName": "Νταγκ",
+      "pronunciation": "daɡ",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دوغ",
+      "script": "Arabic",
+      "scriptName": "دوغ",
+      "pronunciation": "duːɣ",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "道格",
+      "script": "Han",
+      "scriptName": "道格",
+      "pronunciation": "dào gé",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Даг",
+      "script": "Cyrillic",
+      "scriptName": "Даг",
+      "pronunciation": "daɡ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דאג",
+      "script": "Hebrew",
+      "scriptName": "דאג",
+      "pronunciation": "daɡ",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Doug is derived from the traditional Scottish name Douglas."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The name Doug has been popularized in modern media through TV shows and movies."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Doug has a lasting appeal and has been used consistently over the decades."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Doug, a name that resonates with familiarity and warmth, has been a fixture in popular culture for decades. Evolving from the classic name Douglas, Doug embodies a modern, approachable charm. It's a name that feels both timeless and contemporary, making it a favorite among parents seeking a friendly and unpretentious choice.",
+    "etymology_meaning": "The name Doug is a short form of Douglas, originally a Scottish surname. It comes from the Gaelic 'dubh glas,' which means 'dark water' or 'black stream.' This etymology reflects the deep connection to nature and the historical significance of Scottish heritage.",
+    "famous_bearers": "Notable individuals named Doug include actor Doug Jones, known for his roles in fantasy films, and Doug Flutie, an accomplished American football player. These figures highlight the versatility and broad appeal of the name.",
+    "pop_culture_moments": "Doug has been popularized in media through the beloved animated series 'Doug,' which captured the hearts of 90s kids. The show’s main character, Doug Funnie, exemplifies the everyman appeal of the name.",
+    "personality_profile": "Those named Doug are often seen as reliable and down-to-earth individuals. They are perceived as friendly and approachable, with a strong sense of practicality and resilience.",
+    "variations_nicknames": "Doug is commonly derived from Douglas, with variations like Dougie adding a playful twist. Nicknames such as Dougie and D showcase its versatility and affectionate potential.",
+    "popularity_data": "Doug reached peak popularity in the 1960s and has maintained a steady presence in baby naming charts. Its enduring popularity can be attributed to its simplicity and strong cultural resonance.",
+    "pairing_suggestions": "Doug pairs well with classic and simple middle names like James or Michael. For sibling names, consider complementary choices like Ben or Kate to capture a cohesive familial vibe.",
+    "cultural_context": "Rooted in Scottish tradition, Doug carries a sense of heritage and historical significance. Its usage across various cultures highlights its adaptability and universal appeal.",
+    "final_recommendation": "If you're looking for a name that blends tradition with modern appeal, Doug is an excellent choice. It offers a rich history, a friendly demeanor, and a timeless quality that ensures it will never go out of style.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

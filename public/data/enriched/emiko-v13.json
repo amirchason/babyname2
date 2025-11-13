@@ -1,0 +1,203 @@
+{
+  "name": "Emiko",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T07:58:21.147Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Japanese",
+  "meaning": "Blessed, beautiful child",
+  "culturalSignificance": "Emiko is a traditional Japanese name often associated with elegance and beauty. It is a feminine name that reflects deep cultural values of grace and positivity in Japanese society.",
+  "modernContext": "In modern times, Emiko remains a popular name in Japan and among Japanese communities worldwide. It is appreciated for its melodic sound and the positive attributes it conveys.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈɛmikoʊ/",
+  "variations": [
+    "Emi",
+    "Emieko",
+    "Emica"
+  ],
+  "similarNames": [
+    "Emi",
+    "Eriko",
+    "Miko",
+    "Aiko",
+    "Yumiko"
+  ],
+  "nicknames": [
+    "Emi",
+    "Em",
+    "Ems"
+  ],
+  "personality": "People named Emiko are often perceived as elegant and kind-hearted, embodying a blend of beauty and intelligence.",
+  "symbolism": "The name Emiko symbolizes beauty and blessing, often associated with purity and charm.",
+  "funFact": "Emiko is also a popular name for characters in Japanese manga and anime, reflecting its cultural resonance.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Emiko Shiratori",
+      "profession": "Singer",
+      "knownFor": [
+        "Song 'Yume ni Chikara'",
+        "Performing at the 1998 Winter Olympics"
+      ],
+      "awards": "Japan Record Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Snow Falling on Cedars",
+      "year": 1999,
+      "type": "Movie",
+      "characterName": "Emiko",
+      "characterDescription": "A character involved in the storyline of justice and prejudice.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120834/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs are known for their emotional intelligence and creativity.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water symbolizes emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing and empathetic characteristics.",
+    "karmicLessons": "To embrace change and nurture relationships.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing connections."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 750,
+    "peak": 500,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Grace is not just a word, but an embodiment of beauty and strength.",
+    "author": "Emiko Shiratori",
+    "context": "A quote on the meaning of grace and beauty."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "E-mi-ko"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Emiko",
+      "script": "Latin",
+      "scriptName": "Emiko",
+      "pronunciation": "/ˈemiko/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εμικό",
+      "script": "Greek",
+      "scriptName": "Εμικό",
+      "pronunciation": "/eˈmiko/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إميكو",
+      "script": "Arabic",
+      "scriptName": "إميكو",
+      "pronunciation": "/ʔaˈmiko/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "惠美子",
+      "script": "Han",
+      "scriptName": "惠美子",
+      "pronunciation": "/huì měi zǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эмико",
+      "script": "Cyrillic",
+      "scriptName": "Эмико",
+      "pronunciation": "/ɛˈmiko/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אמיקו",
+      "script": "Hebrew",
+      "scriptName": "אמיקו",
+      "pronunciation": "/ɛˈmiko/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Emiko is a traditional name with deep roots in Japanese culture."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has maintained its appeal across generations."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.85,
+      "reason": "Strongly associated with Japanese heritage and values."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Emiko is a name that resonates with elegance and cultural depth. Originating from Japan, it captures the essence of beauty and blessing, reflecting the rich traditions of its roots. With its melodic sound, Emiko has found a place not only in Japan but also in communities worldwide.",
+    "etymology_meaning": "The name Emiko is derived from the Japanese words 'e' meaning blessed and 'mi' meaning beautiful, combined with 'ko' which signifies child. This combination results in a name that means 'blessed, beautiful child'.",
+    "famous_bearers": "One of the well-known personalities with this name is Emiko Shiratori, a prominent Japanese singer known for her Olympic performance in 1998. Her career highlights the name's association with talent and grace.",
+    "pop_culture_moments": "In pop culture, Emiko is a common choice for characters in Japanese manga and anime, often representing characters with grace and charm, further popularizing the name among fans of these genres.",
+    "personality_profile": "Individuals named Emiko are often seen as nurturing and empathetic, with a natural inclination towards creativity and harmony. They are admired for their emotional intelligence and caring nature.",
+    "variations_nicknames": "Common variations of Emiko include Emi and Emieko. Nicknames such as Emi and Em provide a casual alternative to the full name, often used affectionately.",
+    "popularity_data": "While Emiko is not among the top names globally, it maintains a steady presence within Japanese communities. Its peak popularity was observed in the early 2010s, reflecting a period of renewed interest in traditional names.",
+    "pairing_suggestions": "Emiko pairs well with names like Aiko, Yuki, and Hiroshi, creating harmonious combinations that reflect similar cultural and tonal qualities.",
+    "cultural_context": "Emiko holds a significant place within Japanese culture, representing ideals of beauty and blessing. It is a name that carries historical weight and modern appeal, making it a timeless choice.",
+    "final_recommendation": "For parents seeking a name with cultural significance and elegant charm, Emiko is an excellent choice. Its association with grace and beauty makes it a name that is both meaningful and appealing.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

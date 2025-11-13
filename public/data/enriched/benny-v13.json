@@ -1,0 +1,280 @@
+{
+  "name": "Benny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:15:29.563Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Son",
+  "culturalSignificance": "The name Benny is often used as a diminutive of Benjamin, which holds significant cultural and historical value, especially in Jewish traditions as it is a biblical name. It has been a popular choice for its friendly and approachable sound.",
+  "modernContext": "In modern contexts, Benny is often used as a standalone name or as a nickname for Benjamin. It has maintained a steady presence in English-speaking countries, especially in informal contexts.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈbɛni",
+  "variations": [
+    "Ben",
+    "Benjamin",
+    "Benito",
+    "Bennett",
+    "Benson"
+  ],
+  "similarNames": [
+    "Ben",
+    "Danny",
+    "Kenny",
+    "Lenny",
+    "Nicky"
+  ],
+  "nicknames": [
+    "Ben",
+    "Bennie",
+    "Benno"
+  ],
+  "personality": "Benny is often associated with a cheerful and friendly personality. People with this name are perceived as approachable and easy to get along with.",
+  "symbolism": "The name Benny, derived from Benjamin, can symbolize strength and familial bonds, often associated with the biblical Benjamin who was Jacob's youngest son.",
+  "funFact": "In the United States, 'Benny' was a popular slang term during the early 20th century for someone from New Jersey.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Benjamin",
+    "significance": "Benjamin is one of the twelve sons of Jacob, making the name significant in Jewish and Christian traditions.",
+    "keyStories": [
+      "The story of Benjamin in Genesis"
+    ],
+    "spiritualMeaning": "Symbolizes strength and unity within the family.",
+    "historicalImpact": "Benjamin's legacy as one of the twelve tribes of Israel has had a lasting religious impact."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Benny Goodman",
+      "profession": "Musician",
+      "knownFor": [
+        "King of Swing",
+        "Clarinetist"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Benny Hill",
+      "profession": "Comedian",
+      "knownFor": [
+        "The Benny Hill Show"
+      ],
+      "awards": "BAFTA TV Award Nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Benny Feilhaber",
+      "profession": "Athlete",
+      "sport": "Soccer",
+      "league": "MLS",
+      "team": "Sporting Kansas City",
+      "pastTeams": [
+        "New England Revolution",
+        "Los Angeles FC"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "10",
+      "years": "2005-2019",
+      "achievements": "MLS Cup winner",
+      "knownFor": [
+        "Playmaking",
+        "Passing"
+      ],
+      "awards": "",
+      "stats": "Over 300 professional appearances",
+      "verified": true,
+      "source": "https://www.mlssoccer.com/players/benny-feilhaber/"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Benny Hill Show",
+      "year": 1955,
+      "type": "TV Show",
+      "characterName": "Benny",
+      "characterDescription": "A comedic character played by Benny Hill",
+      "imdbUrl": "https://www.imdb.com/title/tt0063869/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "L.A. Confidential",
+      "year": 1997,
+      "type": "Movie",
+      "characterName": "Benny 'The Hat'",
+      "characterDescription": "A minor character involved in a crime plot",
+      "imdbUrl": "https://www.imdb.com/title/tt0119488/",
+      "genre": "Crime",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time of new beginnings and growth",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer"
+    ],
+    "compatibleSignsDescription": "Water signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Associated with emotions, intuition, and fluidity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing and care for others.",
+    "karmicLessons": "Learning to balance emotions and rationality.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony and family connection."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 200,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The true measure of a man is how he treats someone who can do him absolutely no good.",
+    "author": "Samuel Johnson",
+    "context": "A reminder to be kind and empathetic to all."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ben-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Benito",
+      "script": "Latin",
+      "scriptName": "Benito",
+      "pronunciation": "beˈnito",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Βενιαμίν",
+      "script": "Greek",
+      "scriptName": "Βενιαμίν",
+      "pronunciation": "veniˈamin",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بني",
+      "script": "Arabic",
+      "scriptName": "بني",
+      "pronunciation": "bɛni",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "班尼",
+      "script": "Han",
+      "scriptName": "班尼",
+      "pronunciation": "bān ní",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Бенни",
+      "script": "Cyrillic",
+      "scriptName": "Бенни",
+      "pronunciation": "ˈbʲenʲɪ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בני",
+      "script": "Hebrew",
+      "scriptName": "בני",
+      "pronunciation": "bɛni",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Benny is a timeless name derived from the classic name Benjamin."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Benny is derived from Benjamin, a significant biblical figure."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.8,
+      "reason": "The name Benny has a friendly and approachable sound."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Benny and the Jets",
+      "artist": "Elton John",
+      "year": 1973,
+      "genre": "Rock",
+      "nameContext": "Title and lyrics",
+      "description": "A song about a fictional band and their lead singer, Benny. It captures the glitz and glam of the music industry.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Benny+and+the+Jets",
+      "geniusUrl": "https://genius.com/Elton-john-benny-and-the-jets-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Benny's Dispatch",
+      "artist": "Lin-Manuel Miranda",
+      "year": 2008,
+      "genre": "Musical",
+      "nameContext": "Character's name in 'In the Heights'",
+      "description": "A song from the musical 'In the Heights' where Benny, a key character, expresses his ambitions and dreams.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Benny's+Dispatch+In+the+Heights",
+      "geniusUrl": "https://genius.com/Original-cast-of-in-the-heights-bennys-dispatch-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Benny is a name that exudes warmth and friendliness, often bringing to mind cherished memories and familial bonds. Its roots in the classic name Benjamin give it a timeless appeal, making it a favorite across generations. Whether used as a standalone name or as a beloved nickname, Benny carries a sense of familiarity and charm.",
+    "etymology_meaning": "The name Benny originates from the Hebrew name Benjamin, meaning 'son of the right hand'. It carries a legacy of strength and favor, often associated with the youngest son of Jacob in the Bible. Over time, Benny has become a popular choice in its own right, appreciated for its simplicity and ease.",
+    "famous_bearers": "Benny Goodman, the renowned jazz musician known as the 'King of Swing', and Benny Hill, the beloved British comedian, are among the most notable bearers of the name. These figures have contributed to the name's association with creativity and entertainment.",
+    "pop_culture_moments": "In pop culture, Benny has been immortalized in songs like Elton John's 'Benny and the Jets', which captures the spirit of the music industry. The name also features prominently in the musical 'In the Heights', where Benny is a character full of dreams and aspirations.",
+    "personality_profile": "Benny is often associated with a lively and approachable personality. Those with the name are seen as sociable and good-natured, often bringing joy and positivity to those around them.",
+    "variations_nicknames": "Variations of the name include Ben and Benito, each adding a unique twist while retaining the original's charm. Nicknames like Ben and Bennie offer affectionate alternatives, making the name versatile and endearing.",
+    "popularity_data": "Benny has enjoyed steady popularity, peaking in the mid-20th century but maintaining a presence in modern times. Its timeless appeal ensures that it remains a beloved choice for parents seeking a classic yet friendly name.",
+    "pairing_suggestions": "Benny pairs well with both traditional and modern names. Consider combinations like Benny James for a classic feel or Benny Kai for a contemporary touch. The name's versatility makes it a great match with a variety of middle names.",
+    "cultural_context": "Benny's cultural significance is rooted in its biblical origins and its widespread use in English-speaking countries. It is celebrated for its friendly sound and the positive associations it carries in both historical and modern contexts.",
+    "final_recommendation": "For those seeking a name that is both classic and approachable, Benny is an excellent choice. Its rich history, cultural significance, and modern charm make it a name that resonates across generations. Whether as a first name or a cherished nickname, Benny brings warmth and joy.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

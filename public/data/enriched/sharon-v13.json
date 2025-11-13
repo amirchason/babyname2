@@ -1,0 +1,256 @@
+{
+  "name": "Sharon",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:49:10.020Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "A plain or flat area",
+  "culturalSignificance": "Sharon is a name of Hebrew origin, often associated with the biblical region of Sharon in Israel, known for its fertile land and beauty. It gained popularity in the English-speaking world in the mid-20th century.",
+  "modernContext": "Sharon remains a classic name, though its popularity has waned since its peak in the 1940s and 1950s. It is still used in various cultures and continues to evoke a sense of timelessness and elegance.",
+  "literaryReferences": "Sharon is a character name in several novels and works, often representing a strong and compassionate figure.",
+  "pronunciationGuide": "/ˈʃærən/",
+  "variations": [
+    "Sharron",
+    "Sharyn",
+    "Sharona",
+    "Sharen",
+    "Sharren"
+  ],
+  "similarNames": [
+    "Karen",
+    "Sheila",
+    "Susan",
+    "Sarah",
+    "Lauren"
+  ],
+  "nicknames": [
+    "Shari",
+    "Ronnie",
+    "Share",
+    "Shar",
+    "Ron"
+  ],
+  "personality": "The name Sharon is often associated with warmth, kindness, and a nurturing spirit. People with this name are perceived to be reliable and supportive.",
+  "symbolism": "Sharon symbolizes beauty and fertility, reflecting the lush plains of Israel. It is often linked to grace and serenity.",
+  "funFact": "The name Sharon was particularly popular in the United States during the baby boom era, reaching its peak in the 1940s.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Sharon Plain",
+    "significance": "The Sharon Plain is mentioned in the Bible as a region of beauty and fertility.",
+    "keyStories": [
+      "The Song of Solomon refers to the 'Rose of Sharon' as a symbol of beauty."
+    ],
+    "spiritualMeaning": "Sharon represents divine beauty and abundance.",
+    "historicalImpact": "The name Sharon has been used in religious hymns and texts to symbolize beauty and divine grace."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Sharon Stone",
+      "profession": "Actor",
+      "knownFor": [
+        "Basic Instinct",
+        "Casino"
+      ],
+      "awards": "Golden Globe Award for Best Actress"
+    },
+    {
+      "name": "Sharon Osbourne",
+      "profession": "Television Personality",
+      "knownFor": [
+        "The Osbournes",
+        "The X Factor"
+      ],
+      "awards": "Emmy Award for Outstanding Reality Program"
+    },
+    {
+      "name": "Sharon Tate",
+      "profession": "Actor",
+      "knownFor": [
+        "Valley of the Dolls",
+        "The Fearless Vampire Killers"
+      ],
+      "awards": "Nominated for Golden Globe Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Sharon's Secret",
+      "year": 1995,
+      "type": "TV Movie",
+      "characterName": "Sharon",
+      "characterDescription": "A young girl with a mysterious past.",
+      "imdbUrl": "https://www.imdb.com/title/tt0114382/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 70
+    },
+    {
+      "title": "The Craft",
+      "year": 1996,
+      "type": "Movie",
+      "characterName": "Sarah Bailey",
+      "characterDescription": "New student at a Catholic high school who discovers her magical powers.",
+      "imdbUrl": "https://www.imdb.com/title/tt0115963/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a practical and grounded nature with Sharon.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Embodies care, comfort, and support.",
+    "karmicLessons": "Learning to balance nurturing others with self-care.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Reflects a desire for knowledge and understanding."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 879,
+    "peak": 10,
+    "peakYear": 1947
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "In every walk with nature, one receives far more than he seeks.",
+    "author": "John Muir",
+    "context": "Emphasizing the beauty of nature, akin to the fertile plains of Sharon."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Shar-on"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Sharon",
+      "script": "Latin",
+      "scriptName": "Sharon",
+      "pronunciation": "/ˈʃaɾon/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σάρον",
+      "script": "Greek",
+      "scriptName": "Σάρον",
+      "pronunciation": "/ˈsaron/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "شارون",
+      "script": "Arabic",
+      "scriptName": "شارون",
+      "pronunciation": "/ʃaːruːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "莎伦",
+      "script": "Han",
+      "scriptName": "莎伦",
+      "pronunciation": "/ʂɑːlən/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Шэрон",
+      "script": "Cyrillic",
+      "scriptName": "Шэрон",
+      "pronunciation": "/ʃɛron/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "שרון",
+      "script": "Hebrew",
+      "scriptName": "שרון",
+      "pronunciation": "/ʃaˈʁon/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Sharon has been a popular name for decades, especially mid-20th century."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "The name has origins and references in the Bible, specifically the fertile Sharon Plain."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Despite fluctuating popularity, Sharon remains a recognized and enduring name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Sharon",
+      "artist": "David Bromberg",
+      "year": 1972,
+      "genre": "Folk Rock",
+      "nameContext": "The song is about a woman named Sharon.",
+      "description": "A lively folk rock song that tells the story of a captivating woman named Sharon.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=David+Bromberg+Sharon",
+      "geniusUrl": "https://genius.com/David-bromberg-sharon-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Sharon is a name that conjures images of natural beauty and timeless elegance. With its roots in the Hebrew language, Sharon has long been associated with the fertile plains of Israel. Its popularity soared in the mid-20th century, making it a beloved choice for parents around the world.",
+    "etymology_meaning": "The name Sharon originates from Hebrew, meaning 'a plain or flat area.' It refers to the fertile Sharon Plain in Israel, often celebrated for its beauty and abundance.",
+    "famous_bearers": "Famous individuals named Sharon include actress Sharon Stone, known for her roles in 'Basic Instinct' and 'Casino,' and Sharon Osbourne, a prominent television personality. Their achievements have kept the name in the public eye.",
+    "pop_culture_moments": "The name Sharon has appeared in various cultural contexts, from movies like 'Sharon's Secret' to songs by artists such as David Bromberg. These references have helped maintain its presence in popular culture.",
+    "personality_profile": "People named Sharon are often seen as nurturing and reliable, embodying warmth and kindness. They are perceived as supportive figures, echoing the fertile and nurturing Sharon Plain.",
+    "variations_nicknames": "Sharon has several variations including Sharron and Sharyn, and common nicknames like Shari and Shar. These variations allow for personal customization while retaining the name's classic charm.",
+    "popularity_data": "Sharon was most popular in the United States during the 1940s and 1950s, reflecting its mid-century appeal. Although its usage has declined, it remains a recognizable and cherished name.",
+    "pairing_suggestions": "Sharon pairs well with classic names like Michael and David for boys, and names like Susan and Karen for girls, creating harmonious and timeless combinations.",
+    "cultural_context": "Sharon's cultural significance is deeply rooted in its biblical references and continued use in modern times. It represents beauty and abundance, resonating across various cultures.",
+    "final_recommendation": "If you're seeking a name that combines classic appeal with historical depth, Sharon is a wonderful choice. Its timeless nature and cultural resonance make it a meaningful option for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

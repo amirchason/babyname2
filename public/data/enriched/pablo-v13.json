@@ -1,0 +1,309 @@
+{
+  "name": "Pablo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T02:24:31.717Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Small",
+  "culturalSignificance": "Pablo is a Spanish variant of the Latin name Paulus, meaning 'small' or 'humble.' It has strong cultural ties to Spain and Latin America, often associated with artistic and literary figures.",
+  "modernContext": "The name Pablo remains popular in Spanish-speaking countries and has gained recognition worldwide due to famous personalities like Pablo Picasso. It is seen as a classic yet vibrant name.",
+  "literaryReferences": "Pablo Neruda, a renowned poet, has brought literary significance to the name with his profound poetry and influence on 20th-century literature.",
+  "pronunciationGuide": "/ˈpa.blo/",
+  "variations": [
+    "Paolo",
+    "Paulo",
+    "Paul",
+    "Pawel",
+    "Pavlos"
+  ],
+  "similarNames": [
+    "Pedro",
+    "Luis",
+    "Carlos",
+    "Miguel",
+    "Juan"
+  ],
+  "nicknames": [
+    "Pabli",
+    "Pablito",
+    "Pabs"
+  ],
+  "personality": "People named Pablo are often perceived as artistic, creative, and charismatic, with a strong sense of individuality.",
+  "symbolism": "The name Pablo symbolizes creativity and a humble spirit, drawing from its Latin roots meaning 'small' or 'humble.'",
+  "funFact": "Pablo Picasso, one of the most influential artists of the 20th century, popularized the name worldwide through his groundbreaking contributions to modern art.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Pablo Picasso",
+      "years": "1881-1973",
+      "category": "Artist",
+      "achievements": [
+        "Co-founded the Cubist movement",
+        "Revolutionized modern art"
+      ],
+      "significance": "Pablo Picasso is considered one of the greatest and most influential artists of the 20th century. His innovative works, including 'Les Demoiselles d'Avignon' and 'Guernica,' have left a lasting impact on art and culture.",
+      "notableWorks": [
+        "Les Demoiselles d'Avignon",
+        "Guernica"
+      ]
+    },
+    {
+      "fullName": "Pablo Neruda",
+      "years": "1904-1973",
+      "category": "Poet",
+      "achievements": [
+        "Nobel Prize in Literature"
+      ],
+      "significance": "Pablo Neruda was a prominent Chilean poet known for his passionate and sensual poetry. He won the Nobel Prize for Literature in 1971.",
+      "notableWorks": [
+        "Twenty Love Poems and a Song of Despair",
+        "Canto General"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+      "author": "Pablo Picasso",
+      "context": "Discussing creativity and childhood",
+      "year": 1950,
+      "category": "Art"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Pablo Alborán",
+      "profession": "Musician",
+      "knownFor": [
+        "Hit songs such as 'Solamente Tú'",
+        "Successful albums"
+      ],
+      "awards": "Latin Grammy nominations"
+    },
+    {
+      "name": "Pablo Schreiber",
+      "profession": "Actor",
+      "knownFor": [
+        "Portrayal of 'Pornstache' in Orange is the New Black"
+      ],
+      "awards": "Primetime Emmy Award nomination"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Pablo Zabaleta",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "English Premier League",
+      "team": "Manchester City",
+      "pastTeams": [
+        "Espanyol",
+        "West Ham United"
+      ],
+      "position": "Right-back",
+      "jerseyNumber": "5",
+      "years": "2008-2020",
+      "achievements": "Premier League Champion",
+      "knownFor": [
+        "Defensive skills",
+        "Leadership"
+      ],
+      "awards": "PFA Team of the Year",
+      "stats": "333 appearances, 9 goals",
+      "verified": true,
+      "source": "Premier League official site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Narcos",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "Pablo Escobar",
+      "characterDescription": "A notorious Colombian drug lord.",
+      "imdbUrl": "https://www.imdb.com/title/tt2707408/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 87
+    },
+    {
+      "title": "Loving Pablo",
+      "year": 2017,
+      "type": "Movie",
+      "characterName": "Pablo Escobar",
+      "characterDescription": "Explores the relationship between journalist Virginia Vallejo and Pablo Escobar.",
+      "imdbUrl": "https://www.imdb.com/title/tt4682788/",
+      "genre": "Biography, Crime, Drama",
+      "verified": true,
+      "popularity": 76
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "There is a time to fight and there is a time to be clever.",
+      "character": "Pablo Escobar",
+      "source": "Narcos",
+      "year": 2015,
+      "context": "Expressing his cunning nature",
+      "genre": "Crime, Drama",
+      "impact": "Highlights the strategic mind of the character"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and fresh starts.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs complement the intuitive and emotional nature.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions, intuition, and healing.",
+    "celestialArchetype": "The Artist",
+    "celestialArchetypeDescription": "Creative and expressive, always seeking inspiration.",
+    "karmicLessons": "Learning to harness creativity for positive impact.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 432,
+    "peak": 312,
+    "peakYear": 2003
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Only put off until tomorrow what you are willing to die having left undone.",
+    "author": "Pablo Picasso",
+    "context": "On the importance of diligence and seizing the moment."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pa-blo"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pablo",
+      "script": "Latin",
+      "scriptName": "Pablo",
+      "pronunciation": "/ˈpa.blo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Παύλος",
+      "script": "Greek",
+      "scriptName": "Παύλος",
+      "pronunciation": "/ˈpav.los/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بابلو",
+      "script": "Arabic",
+      "scriptName": "بابلو",
+      "pronunciation": "/ˈpab.lo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "帕布洛",
+      "script": "Han",
+      "scriptName": "帕布洛",
+      "pronunciation": "/pàbùluò/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пабло",
+      "script": "Cyrillic",
+      "scriptName": "Пабло",
+      "pronunciation": "/ˈpab.lə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פבלו",
+      "script": "Hebrew",
+      "scriptName": "פבלו",
+      "pronunciation": "/ˈpab.lo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Pablo has been used consistently over the centuries, particularly in Spanish-speaking cultures."
+    },
+    {
+      "tag": "Artistic",
+      "confidence": 0.95,
+      "reason": "Associated with famous artists and creative figures like Pablo Picasso."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Despite fluctuations in popularity, Pablo has remained a recognizable and enduring name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Pablo",
+      "artist": "Soda Stereo",
+      "year": 1986,
+      "genre": "Rock",
+      "nameContext": "Title and theme of the song",
+      "description": "A song by the iconic Argentine rock band Soda Stereo, exploring themes of identity and introspection.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Soda+Stereo+Pablo",
+      "geniusUrl": "https://genius.com/search?q=Soda+Stereo+Pablo",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Pablo is a name that resonates with creativity and depth, drawing from its illustrious bearers throughout history. Known for its cultural richness, the name has adorned many artists and thinkers.",
+    "etymology_meaning": "Derived from the Latin name Paulus, Pablo means 'small' or 'humble.' It carries a legacy of artistic brilliance and cultural significance, especially in Spanish-speaking countries.",
+    "famous_bearers": "From Pablo Picasso, the revolutionary artist, to Pablo Neruda, the Nobel Prize-winning poet, the name has been associated with groundbreaking figures who have left a lasting mark on their fields.",
+    "pop_culture_moments": "Pablo has been immortalized in pop culture through characters like Pablo Escobar in 'Narcos' and songs by artists such as Kanye West. Its presence in media underscores its widespread appeal.",
+    "personality_profile": "Those named Pablo are often viewed as creative, introspective, and charismatic, with a penchant for artistic expression and a deep sense of empathy.",
+    "variations_nicknames": "Variations like Paolo and Paulo offer international flair, while nicknames such as Pablito add a personal touch. These variations highlight the name's adaptability across cultures.",
+    "popularity_data": "While its popularity has fluctuated, Pablo remains a beloved choice in many cultures, consistently ranking high in Spain and Latin America.",
+    "pairing_suggestions": "Pablo pairs well with names like Sofia, Gabriela, or Diego, offering a harmonious blend of classic and modern tones.",
+    "cultural_context": "Rooted in Latin origins, Pablo is a name that transcends borders, celebrated for its artistic associations and cultural depth.",
+    "final_recommendation": "For parents seeking a name that embodies creativity and cultural richness, Pablo is a timeless choice. Its artistic legacy and international appeal make it a standout option.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

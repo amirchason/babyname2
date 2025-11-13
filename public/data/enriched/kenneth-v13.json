@@ -1,0 +1,318 @@
+{
+  "name": "Kenneth",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:16:39.070Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Gaelic",
+  "meaning": "Handsome, born of fire",
+  "culturalSignificance": "Kenneth is a name of Gaelic origin, historically borne by Scottish kings. It has been a popular name in English-speaking countries, reflecting strength and leadership.",
+  "modernContext": "Kenneth remains a classic name that has maintained steady popularity over the decades, often chosen for its strong and traditional connotations. It is a common choice in the United States and the UK.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈkɛnɪθ/",
+  "variations": [
+    "Ken",
+    "Kenny",
+    "Kendrick",
+    "Kenn",
+    "Kennith"
+  ],
+  "similarNames": [
+    "Keith",
+    "Kevin",
+    "Kurt",
+    "Kyle",
+    "Kelvin",
+    "Kieran"
+  ],
+  "nicknames": [
+    "Ken",
+    "Kenny",
+    "Kenna",
+    "Kennyboy"
+  ],
+  "personality": "Kenneth is often associated with strong leadership, charisma, and a thoughtful nature, making it a name that exudes confidence and reliability.",
+  "symbolism": "The name Kenneth symbolizes nobility and strength, often linked to fiery and passionate traits.",
+  "funFact": "Kenneth was the name of the first King of Scots, Kenneth MacAlpin, who united the Picts and Scots in the 9th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Kenneth MacAlpin",
+      "years": "810-858",
+      "category": "Royalty",
+      "achievements": [
+        "United the Picts and Scots",
+        "First King of Scots"
+      ],
+      "significance": "Kenneth MacAlpin is credited with founding the Kingdom of Scotland, a significant milestone in Scottish history.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Kenneth Clark",
+      "years": "1903-1983",
+      "category": "Historian",
+      "achievements": [
+        "Civilisation TV series",
+        "Art historian"
+      ],
+      "significance": "Kenneth Clark was a prominent art historian and television presenter, known for making art accessible to a wider audience.",
+      "notableWorks": [
+        "Civilisation: A Personal View by Kenneth Clark"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The greatest achievement of the human spirit is to live up to one's opportunities and make the most of one's resources.",
+      "author": "Kenneth Clark",
+      "context": "Commentary on human potential and creativity",
+      "year": 1969,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Kenneth Branagh",
+      "profession": "Actor",
+      "knownFor": [
+        "Henry V",
+        "Murder on the Orient Express"
+      ],
+      "awards": "Academy Award nominations, BAFTA wins"
+    },
+    {
+      "name": "Kenneth Cole",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Kenneth Cole Productions"
+      ],
+      "awards": "CFDA Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Kenny Dalglish",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "English Premier League",
+      "team": "Liverpool",
+      "pastTeams": [
+        "Celtic",
+        "Liverpool"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "7",
+      "years": "1971-1990",
+      "achievements": "Multiple league titles, European Cups",
+      "knownFor": [
+        "Goal scoring",
+        "Leadership"
+      ],
+      "awards": "Ballon d'Or nominations",
+      "stats": "230 goals in 559 appearances",
+      "verified": true,
+      "source": "FIFA archives"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "30 Rock",
+      "year": 2006,
+      "type": "TV Show",
+      "characterName": "Kenneth Parcell",
+      "characterDescription": "A cheerful and naive NBC page",
+      "imdbUrl": "https://www.imdb.com/title/tt0496424/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "A Beautiful Mind",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Dr. Kenneth Kaufman",
+      "characterDescription": "A psychiatrist in the film",
+      "imdbUrl": "https://www.imdb.com/title/tt0268978/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "There are only two things I love in this world: everybody and television.",
+      "character": "Kenneth Parcell",
+      "source": "30 Rock",
+      "year": 2006,
+      "context": "Kenneth expressing his love for TV and people.",
+      "genre": "Comedy",
+      "impact": "Highlights Kenneth's cheerful and simplistic worldview."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and illumination.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature, promoting enthusiasm and passion.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Associated with energy, assertiveness, and courage.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural leadership and a pioneering spirit characterize this archetype.",
+    "karmicLessons": "Learning to channel energy constructively.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Desire for independence and leadership."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 14,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership and learning are indispensable to each other.",
+    "author": "John F. Kennedy",
+    "context": "On the importance of leadership and education."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ken-neth"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Kenneth",
+      "script": "Latin",
+      "scriptName": "Kenneth",
+      "pronunciation": "/ˈkɛnɛθ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κένεθ",
+      "script": "Greek",
+      "scriptName": "Κένεθ",
+      "pronunciation": "/ˈken.eθ/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كينيث",
+      "script": "Arabic",
+      "scriptName": "كينيث",
+      "pronunciation": "/kiːˈnɛθ/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "肯尼斯",
+      "script": "Han",
+      "scriptName": "肯尼斯",
+      "pronunciation": "/kən.ˈniːs/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кеннет",
+      "script": "Cyrillic",
+      "scriptName": "Кеннет",
+      "pronunciation": "/ˈkɛnʲ.nʲɪt/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קנת",
+      "script": "Hebrew",
+      "scriptName": "קנת",
+      "pronunciation": "/ˈkenet/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Kenneth Williams Diaries",
+      "author": "Kenneth Williams",
+      "publishedYear": 1993,
+      "genre": "Non-fiction",
+      "significance": "Provides insight into the life of the famous British actor and comedian.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Kenneth has a long history of usage and has been popular for decades."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Historically borne by Scottish kings, adding a regal touch."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Its enduring popularity makes Kenneth a timeless choice."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Kenneth",
+      "artist": "R.E.M.",
+      "year": 1994,
+      "genre": "Rock",
+      "nameContext": "The song title and chorus",
+      "description": "The song 'What's the Frequency, Kenneth?' was inspired by a bizarre incident involving journalist Dan Rather.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=R.E.M.+What's+the+Frequency,+Kenneth?",
+      "geniusUrl": "https://genius.com/Rem-whats-the-frequency-kenneth-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Kenneth is a name with a rich history and timeless appeal. Often chosen for its strong and classic sound, it carries a sense of nobility and leadership that has been celebrated throughout the ages.",
+    "etymology_meaning": "Derived from the Gaelic name 'Cináed', Kenneth means 'handsome' or 'born of fire', reflecting both physical beauty and a fiery spirit.",
+    "famous_bearers": "Notable bearers include Kenneth Branagh, an acclaimed actor and director, and Kenneth Cole, a renowned fashion designer, both of whom have contributed significantly to their respective fields.",
+    "pop_culture_moments": "Kenneth Parcell from '30 Rock' is a beloved character known for his quirky personality and unwavering optimism, embodying the name's cheerful and friendly traits.",
+    "personality_profile": "People named Kenneth are often perceived as strong leaders with a charismatic presence. They are known for their reliability, wisdom, and sometimes a playful sense of humor.",
+    "variations_nicknames": "Kenneth can be shortened to Ken or Kenny, offering a more casual and approachable version of the name. Other variations include Kenn and Kendrik, each with its unique flair.",
+    "popularity_data": "Kenneth has consistently remained a popular choice across decades, peaking in popularity during the mid-20th century and maintaining a steady presence in baby name charts.",
+    "pairing_suggestions": "Kenneth pairs well with classic middle names like James or Alexander, creating a balanced and harmonious full name. For a more modern twist, consider pairing with names like Sawyer or Blake.",
+    "cultural_context": "With its origins rooted in Scottish history, Kenneth carries a sense of cultural depth and tradition. It is a name that embodies both heritage and contemporary charm.",
+    "final_recommendation": "Kenneth is a versatile and enduring choice, offering a blend of tradition and modern appeal. Whether you're drawn to its historic roots or its strong, classic sound, Kenneth is a name that stands the test of time.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

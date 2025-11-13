@@ -1,0 +1,250 @@
+{
+  "name": "Georgie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:39:04.348Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Greek",
+  "meaning": "Farmer",
+  "culturalSignificance": "The name 'Georgie' is a diminutive form of George, which has Greek origins meaning 'farmer' or 'earth-worker'. It has been popular in various cultures and has often been associated with the rural and agrarian lifestyle.",
+  "modernContext": "In modern times, 'Georgie' is often used as a playful and affectionate form of George or Georgia. It is popular in English-speaking countries and is often chosen for its charming and approachable vibe.",
+  "literaryReferences": "Georgie appears in literature such as 'It' by Stephen King, where Georgie Denbrough is a significant character.",
+  "pronunciationGuide": "/ˈdʒɔːr.dʒi/",
+  "variations": [
+    "George",
+    "Georgia",
+    "Georgina",
+    "Georgiana",
+    "Georgy"
+  ],
+  "similarNames": [
+    "Charlie",
+    "Frankie",
+    "Jamie",
+    "Bobby",
+    "Mickey"
+  ],
+  "nicknames": [
+    "Geo",
+    "Gigi",
+    "Jojo",
+    "Gee"
+  ],
+  "personality": "Individuals named Georgie are often seen as friendly, approachable, and down-to-earth. They are perceived as adaptable and personable.",
+  "symbolism": "The name Georgie symbolizes a connection to the earth and nature, reflecting a grounding and nurturing presence.",
+  "funFact": "The name Georgie gained popularity in part due to the character Georgie Denbrough in Stephen King's novel 'It'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Georgie Henley",
+      "profession": "Actor",
+      "knownFor": [
+        "The Chronicles of Narnia",
+        "Perfect Sisters"
+      ],
+      "awards": "Phoenix Film Critics Society Award for Best Performance by a Youth in a Lead or Supporting Role"
+    },
+    {
+      "name": "Georgie Fame",
+      "profession": "Musician",
+      "knownFor": [
+        "Yeh Yeh",
+        "The Ballad of Bonnie and Clyde"
+      ],
+      "awards": "NME Award for World's Outstanding Popular Singer"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "It",
+      "year": 2017,
+      "type": "Movie",
+      "characterName": "Georgie Denbrough",
+      "characterDescription": "A young boy whose tragic encounter sets off the events of the story.",
+      "imdbUrl": "https://www.imdb.com/title/tt1396484/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "year": 2005,
+      "type": "Movie",
+      "characterName": "Lucy Pevensie (played by Georgie Henley)",
+      "characterDescription": "A courageous young girl who discovers the magical world of Narnia.",
+      "imdbUrl": "https://www.imdb.com/title/tt0363771/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You'll float too!",
+      "character": "Georgie Denbrough",
+      "source": "It",
+      "year": 2017,
+      "context": "This line is famously uttered by Georgie before his tragic encounter.",
+      "genre": "Horror",
+      "impact": "The quote became iconic in horror culture."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for reflection and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded and practical approach to life.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, security, and support.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "One who supports and sustains others.",
+    "karmicLessons": "Learning to balance giving and receiving.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A desire for knowledge and deeper understanding."
+  },
+  "genderDistribution": {
+    "male": 55,
+    "female": 45
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 150,
+    "peakYear": 2008
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The earth delights to feel your bare feet and the winds long to play with your hair.",
+    "author": "Khalil Gibran",
+    "context": "A quote about the beauty of nature and simplicity."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Geor-gie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jorgito",
+      "script": "Latin",
+      "scriptName": "Jorgito",
+      "pronunciation": "/xoɾˈxi.to/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γεωργάκης",
+      "script": "Greek",
+      "scriptName": "Γεωργάκης",
+      "pronunciation": "/ʝeoˈra.cis/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جورجي",
+      "script": "Arabic",
+      "scriptName": "جورجي",
+      "pronunciation": "/d͡ʒuːr.d͡ʒiː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "乔治",
+      "script": "Han",
+      "scriptName": "乔治",
+      "pronunciation": "/tɕjǎu tʂɻ̩̂/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Георгий",
+      "script": "Cyrillic",
+      "scriptName": "Георгий",
+      "pronunciation": "/ɡʲɪˈorɡʲɪj/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ורג'",
+      "script": "Hebrew",
+      "scriptName": "ג'ורג'",
+      "pronunciation": "/d͡ʒoɹd͡ʒ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name Georgie has been a long-standing diminutive of George, with historical roots."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Georgie is a notable name in literature, particularly in horror and fantasy genres."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Georgie has consistently been used over the decades, maintaining its appeal."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Georgy Girl",
+      "artist": "The Seekers",
+      "year": 1966,
+      "genre": "Pop",
+      "nameContext": "The name appears in the chorus and is central to the song.",
+      "description": "The song 'Georgy Girl' is about a young woman coming to terms with her identity and aspirations.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Georgy+Girl+The+Seekers",
+      "geniusUrl": "https://genius.com/The-seekers-georgy-girl-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Georgie, a charming diminutive of George, has captured hearts with its approachable and friendly sound. Often associated with classic literature and beloved characters, Georgie carries a timeless appeal.",
+    "etymology_meaning": "Georgie originates from the Greek name George, meaning 'farmer' or 'earth-worker'. This connection to nature gives it a grounding and nurturing essence.",
+    "famous_bearers": "Notable individuals named Georgie include Georgie Henley, known for her role in 'The Chronicles of Narnia', and Georgie Fame, a celebrated musician.",
+    "pop_culture_moments": "The name Georgie is well-known in pop culture, partly due to the character Georgie Denbrough in Stephen King's horror classic 'It'.",
+    "personality_profile": "People named Georgie are often viewed as approachable and friendly, exuding warmth and reliability. They are seen as nurturing, with a strong connection to nature.",
+    "variations_nicknames": "Common variations of Georgie include George, Georgia, and Georgina, while popular nicknames are Geo, Gigi, and Jojo.",
+    "popularity_data": "Georgie has enjoyed steady popularity, particularly in the early 21st century, appealing to those seeking a classic yet playful name.",
+    "pairing_suggestions": "Georgie pairs well with traditional names like James and Elizabeth, offering a balance of familiarity and charm.",
+    "cultural_context": "With roots in Greek culture, Georgie embodies a rich historical significance, often linked to rural and agrarian lifestyles.",
+    "final_recommendation": "For parents seeking a name that combines classic roots with a modern twist, Georgie is an excellent choice. Its literary connections and friendly sound make it a timeless favorite.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

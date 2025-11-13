@@ -1,0 +1,291 @@
+{
+  "name": "Ana",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:46:16.095Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Grace",
+  "culturalSignificance": "Ana is a classic name with deep roots in many cultures, particularly in Spanish-speaking countries where it is very popular. The name has biblical origins, being a derivative of the Hebrew name Hannah, which means grace or favor.",
+  "modernContext": "In modern times, Ana remains a popular choice for parents, especially in Latin American countries and among Spanish-speaking communities worldwide. It is often chosen for its simplicity and elegance.",
+  "literaryReferences": "Ana appears in many works of literature, often as a character embodying grace and elegance.",
+  "pronunciationGuide": "ˈænə",
+  "variations": [
+    "Anna",
+    "Anya",
+    "Anita",
+    "Ann",
+    "Anne"
+  ],
+  "similarNames": [
+    "Emma",
+    "Ava",
+    "Mia",
+    "Ella",
+    "Lila"
+  ],
+  "nicknames": [
+    "Annie",
+    "Nana",
+    "Ann",
+    "Ani"
+  ],
+  "personality": "The name Ana is often associated with a graceful and nurturing personality, someone who is compassionate and empathetic.",
+  "symbolism": "Ana symbolizes grace and favor, qualities often associated with the name due to its Hebrew origins.",
+  "funFact": "Ana is a palindrome, meaning it reads the same forwards and backwards.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Hannah",
+    "significance": "In the Bible, Hannah is the mother of the prophet Samuel and is known for her devout faith and prayerful nature.",
+    "keyStories": [
+      "Hannah's prayer for a child",
+      "Birth of Samuel"
+    ],
+    "spiritualMeaning": "The name symbolizes grace and divine favor.",
+    "historicalImpact": "Hannah's story is often cited as an example of faith and devotion in religious teachings."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ana de Mendoza y de la Cerda",
+      "years": "1540-1592",
+      "category": "Nobility",
+      "achievements": [
+        "Duchess of Pastrana",
+        "Prominent figure in Spanish court"
+      ],
+      "significance": "Ana de Mendoza was a notable figure in Spanish history known for her intelligence and influence in the court.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Ana Nzinga",
+      "years": "1583-1663",
+      "category": "Royalty",
+      "achievements": [
+        "Queen of Ndongo and Matamba",
+        "Leader against Portuguese colonization"
+      ],
+      "significance": "Ana Nzinga was a powerful queen who resisted Portuguese control and is remembered for her leadership and diplomatic skills.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ana de Armas",
+      "profession": "Actor",
+      "knownFor": [
+        "Knives Out",
+        "No Time to Die"
+      ],
+      "awards": "Nominated for a Golden Globe Award"
+    },
+    {
+      "name": "Ana Ivanovic",
+      "profession": "Tennis Player",
+      "knownFor": [
+        "Former world No. 1",
+        "French Open winner"
+      ],
+      "awards": "French Open 2008 winner"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ana Ivanovic",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "WTA",
+      "team": "N/A",
+      "pastTeams": [],
+      "position": "Singles",
+      "jerseyNumber": "N/A",
+      "years": "2003-2016",
+      "achievements": "French Open 2008 Champion, former world No. 1",
+      "knownFor": [
+        "Powerful forehand",
+        "Mental toughness"
+      ],
+      "awards": "French Open 2008 Champion",
+      "stats": "15 WTA singles titles",
+      "verified": true,
+      "source": "https://www.wtatennis.com/"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Frozen",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Anna",
+      "characterDescription": "Princess of Arendelle and Elsa's sister",
+      "imdbUrl": "https://www.imdb.com/title/tt2294629/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "Ana",
+      "year": 2020,
+      "type": "Movie",
+      "characterName": "Ana",
+      "characterDescription": "A young girl who joins a struggling car salesman on a road trip",
+      "imdbUrl": "https://www.imdb.com/title/tt9199798/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 60
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and growth.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share the Water element, promoting emotional connection and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions, intuition, and the subconscious.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for compassion and the ability to provide comfort.",
+    "karmicLessons": "Embrace your nurturing side and use it to heal others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 135,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Grace is the beauty of form under the influence of freedom.",
+    "author": "Friedrich Schiller",
+    "context": "Reflects the essence of the name Ana, which means grace."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "A-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ana",
+      "script": "Latin",
+      "scriptName": "Ana",
+      "pronunciation": "ˈana",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άννα",
+      "script": "Greek",
+      "scriptName": "Άννα",
+      "pronunciation": "ˈana",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آنا",
+      "script": "Arabic",
+      "scriptName": "آنا",
+      "pronunciation": "ʔæːna",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安娜",
+      "script": "Han",
+      "scriptName": "安娜",
+      "pronunciation": "ān nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Анна",
+      "script": "Cyrillic",
+      "scriptName": "Анна",
+      "pronunciation": "ˈanːə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חנה",
+      "script": "Hebrew",
+      "scriptName": "חנה",
+      "pronunciation": "χaˈna",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Ana is a timeless name with historical and religious roots."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Derived from the Hebrew name Hannah, a prominent biblical figure."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been consistently popular across cultures and eras."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ana's Song (Open Fire)",
+      "artist": "Silverchair",
+      "year": 1999,
+      "genre": "Alternative Rock",
+      "nameContext": "Title and central theme",
+      "description": "The song is about lead singer Daniel Johns' battle with anorexia, with Ana symbolizing the condition.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Ana%27s+Song+Silverchair",
+      "geniusUrl": "https://genius.com/Silverchair-anas-song-open-fire-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Ana is a name that carries a sense of elegance and simplicity that transcends cultural boundaries. With its roots in Hebrew and widespread use in Spanish-speaking countries, Ana remains a favorite among parents worldwide. Whether you're looking for a name that's classic or contemporary, Ana offers a timeless appeal.",
+    "etymology_meaning": "The name Ana is derived from the Hebrew name Hannah, which means 'grace' or 'favor.' Its biblical origins contribute to its enduring popularity across many cultures and religions. The name embodies qualities of grace and kindness, making it a cherished choice for centuries.",
+    "famous_bearers": "Many notable figures bear the name Ana, including Ana de Armas, a celebrated actress known for her roles in 'Knives Out' and 'No Time to Die.' Ana Ivanovic, a former tennis champion, also exemplifies the name's association with grace and excellence.",
+    "pop_culture_moments": "Ana has made its mark in pop culture with characters like Princess Anna from Disney's 'Frozen,' capturing hearts with her adventurous spirit and warmth. The name continues to resonate in various forms of media, symbolizing grace and resilience.",
+    "personality_profile": "People named Ana are often perceived as graceful and nurturing, embodying a sense of empathy and understanding. They are seen as reliable friends and compassionate leaders, making them well-respected in their communities.",
+    "variations_nicknames": "Ana has several variations and nicknames, such as Anna, Anya, and Annie, offering flexibility and personalization. These variations are popular across different cultures, adding to the name's global appeal.",
+    "popularity_data": "Ana has maintained a strong presence in global baby name charts, particularly in Spanish-speaking countries. Its simplicity and elegance contribute to its enduring popularity, making it a classic choice for new parents.",
+    "pairing_suggestions": "Ana pairs beautifully with both traditional and modern names. Consider combinations like Ana Sofia or Ana Grace for a touch of elegance, or Ana Lucia for a more exotic flair.",
+    "cultural_context": "Ana's cultural roots are deeply embedded in Hebrew and Spanish traditions, symbolizing grace and favor. It is a name that carries religious significance, adding to its timeless and universal appeal.",
+    "final_recommendation": "If you're seeking a name that encapsulates grace, simplicity, and cultural richness, Ana is a perfect choice. Its versatility and elegance make it suitable for any child, ensuring it remains a beloved name for generations to come.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

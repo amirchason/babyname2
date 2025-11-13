@@ -1,0 +1,198 @@
+{
+  "name": "Maybelline",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T08:17:24.678Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Lovable beauty",
+  "culturalSignificance": "Maybelline is a name that gained cultural significance primarily due to the popular cosmetics brand. The name itself suggests a sense of beauty and elegance, often associated with femininity and style.",
+  "modernContext": "In modern contexts, Maybelline is largely associated with the cosmetics brand, which may influence its use as a baby name. The name isn't commonly used today, but it holds a nostalgic charm due to its association with the brand and the classic rock song by Chuck Berry.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈmeɪbəˌliːn",
+  "variations": [
+    "Mabeline",
+    "Maybeline",
+    "Mabelle",
+    "Maybel",
+    "Mabel"
+  ],
+  "similarNames": [
+    "Mabel",
+    "Madeline",
+    "Marilyn",
+    "Madelyn",
+    "Melanie"
+  ],
+  "nicknames": [
+    "May",
+    "Belle",
+    "Lina"
+  ],
+  "personality": "Names like Maybelline often convey a sense of charm and creativity. Individuals with this name might be perceived as artistic and stylish.",
+  "symbolism": "The name Maybelline symbolizes beauty and allure, often evoking imagery of elegance and sophistication.",
+  "funFact": "The name Maybelline became widely known due to the hit song 'Maybellene' by Chuck Berry, which was inspired by the name but with a different spelling.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and realization.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share the water element's intuitive and emotional depth.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for nurturing and compassionate qualities.",
+    "karmicLessons": "To embrace and trust intuition.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for love, harmony, and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Beauty begins the moment you decide to be yourself.",
+    "author": "Coco Chanel",
+    "context": "Famous quote about beauty and authenticity."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "May-bel-line"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Maybelline",
+      "script": "Latin",
+      "scriptName": "Maybelline",
+      "pronunciation": "ˈmeɪbəˌlin",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μέιμπελιν",
+      "script": "Greek",
+      "scriptName": "Μέιμπελιν",
+      "pronunciation": "ˈmeɪbəˌlin",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مايبلين",
+      "script": "Arabic",
+      "scriptName": "مايبلين",
+      "pronunciation": "ˈmeɪbəˌlin",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "美宝莲",
+      "script": "Han",
+      "scriptName": "美宝莲",
+      "pronunciation": "měi bǎo lián",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мейбеллин",
+      "script": "Cyrillic",
+      "scriptName": "Мейбеллин",
+      "pronunciation": "ˈmeɪbəlin",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מייבלין",
+      "script": "Hebrew",
+      "scriptName": "מייבלין",
+      "pronunciation": "ˈmeɪbəlin",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name gained prominence in modern times through cultural references."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "The name is recognized from the song 'Maybellene' by Chuck Berry."
+    },
+    {
+      "tag": "Pop Culture",
+      "confidence": 0.95,
+      "reason": "Widely known due to the cosmetics brand and music."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Maybellene",
+      "artist": "Chuck Berry",
+      "year": 1955,
+      "genre": "Rock and Roll",
+      "nameContext": "The song uses a variant of the name as its title and subject.",
+      "description": "Chuck Berry's 'Maybellene' is considered one of the first rock and roll songs, telling a story about a car chase.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Chuck+Berry+Maybellene",
+      "geniusUrl": "https://genius.com/Chuck-berry-maybellene-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Maybelline is a name that evokes elegance and beauty, often bringing to mind iconic cultural references. From the famous cosmetics brand to Chuck Berry's classic rock song, the name carries a rich history.",
+    "etymology_meaning": "The name Maybelline is an English name, combining 'May' and 'belle,' meaning beautiful. It suggests a sense of charm and grace.",
+    "famous_bearers": "Though not common as a personal name, Maybelline is widely recognized due to its association with the cosmetics brand and Chuck Berry's song 'Maybellene.'",
+    "pop_culture_moments": "The name gained prominence through the Maybelline cosmetics brand, known globally for beauty products, and the classic rock song by Chuck Berry.",
+    "personality_profile": "Associated with beauty and style, the name Maybelline might be linked to traits such as elegance, creativity, and expressiveness.",
+    "variations_nicknames": "Variations like Mabeline and Maybeline offer different spellings, while nicknames such as May and Belle add a personal touch.",
+    "popularity_data": "While not a popular choice as a baby name today, Maybelline holds a nostalgic and iconic status due to its cultural references.",
+    "pairing_suggestions": "Consider pairing Maybelline with classic names like Grace or modern choices like Skye to balance its unique charm.",
+    "cultural_context": "Culturally, Maybelline is embedded in the beauty industry and music history, making it a name with a strong pop culture presence.",
+    "final_recommendation": "Choosing Maybelline for your child could be a nod to beauty and timeless elegance. Its rich associations offer a unique touch for those looking for something distinctive.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

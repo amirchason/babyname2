@@ -1,0 +1,254 @@
+{
+  "name": "Esther",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:14:47.103Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Star",
+  "culturalSignificance": "Esther is a name of significant cultural and historical importance, primarily due to its biblical roots. It is derived from the Hebrew name 'Hadassah' and became widely known through the Book of Esther in the Hebrew Bible, where Esther is a Jewish queen of Persia who saves her people from genocide.",
+  "modernContext": "In modern times, Esther remains a popular name in many cultures and is often associated with strength and beauty. It continues to be a common choice for girls in many English-speaking countries and has seen a resurgence in popularity due to its classic and timeless appeal.",
+  "literaryReferences": "Esther features prominently in the Bible, particularly in the Book of Esther, which is part of the Hebrew Bible and Christian Old Testament.",
+  "pronunciationGuide": "/ˈɛs.tər/",
+  "variations": [
+    "Ester",
+    "Essie",
+    "Hester",
+    "Estera",
+    "Ettie"
+  ],
+  "similarNames": [
+    "Ruth",
+    "Naomi",
+    "Hannah",
+    "Sarah",
+    "Rachel"
+  ],
+  "nicknames": [
+    "Essie",
+    "Ettie",
+    "Star",
+    "Tess"
+  ],
+  "personality": "The name Esther is often associated with qualities like leadership, bravery, and wisdom, largely due to the biblical character's courageous actions.",
+  "symbolism": "Esther symbolizes bravery and determination, as she is known for her role in saving her people in the biblical narrative.",
+  "funFact": "The Jewish festival of Purim celebrates the story of Esther, highlighting her importance in Jewish culture and religion.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Esther",
+    "significance": "Esther is celebrated as a heroine who saved the Jewish people from extermination in ancient Persia.",
+    "keyStories": [
+      "The story of Esther in the Book of Esther"
+    ],
+    "spiritualMeaning": "Esther represents divine providence and courage.",
+    "historicalImpact": "The story of Esther is commemorated annually during the Jewish festival of Purim."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Esther Hobart Morris",
+      "years": "1814-1902",
+      "category": "Pioneer",
+      "achievements": [
+        "First female justice of the peace in the United States"
+      ],
+      "significance": "Esther Hobart Morris was a leading figure in the women's suffrage movement in the U.S.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Esther Williams",
+      "profession": "Actor",
+      "knownFor": [
+        "Famous swimmer and Hollywood star in the 1940s and 1950s"
+      ],
+      "awards": "Hollywood Walk of Fame star"
+    },
+    {
+      "name": "Esther Dyson",
+      "profession": "Businesswoman",
+      "knownFor": [
+        "Influential technology investor and commentator"
+      ],
+      "awards": "Honorary Doctorate from the Carnegie Mellon University"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Book of Esther",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Esther",
+      "characterDescription": "A Jewish queen who saves her people from destruction.",
+      "imdbUrl": "https://www.imdb.com/title/tt2543152/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 72
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Represents completion and clarity.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs known for emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Associated with emotions, intuition, and fluidity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing and empathy.",
+    "karmicLessons": "Learning to balance caring for others with self-care.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing connections."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 208,
+    "peak": 32,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "And who knows but that you have come to your royal position for such a time as this?",
+    "author": "Esther",
+    "context": "From the Book of Esther, highlighting the theme of destiny and purpose."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Es-ther"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Esther",
+      "script": "Latin",
+      "scriptName": "Esther",
+      "pronunciation": "/esˈteɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εσθήρ",
+      "script": "Greek",
+      "scriptName": "Εσθήρ",
+      "pronunciation": "/esˈθiɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إستير",
+      "script": "Arabic",
+      "scriptName": "إستير",
+      "pronunciation": "/ʔisˈtiːr/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "以斯帖",
+      "script": "Han",
+      "scriptName": "以斯帖",
+      "pronunciation": "/yǐ sī tiē/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эстер",
+      "script": "Cyrillic",
+      "scriptName": "Эстер",
+      "pronunciation": "/ˈɛstʲɪr/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אסתר",
+      "script": "Hebrew",
+      "scriptName": "אסתר",
+      "pronunciation": "/esˈter/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Book of Esther",
+      "author": "Biblical Text",
+      "publishedYear": -400,
+      "genre": "Religious Text",
+      "significance": "A central narrative in the Jewish and Christian traditions, celebrating Esther's bravery.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "The name's origin and significance are deeply rooted in the Bible."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Esther has been used consistently over many centuries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has maintained its appeal across different generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Esther",
+      "artist": "Phish",
+      "year": 1992,
+      "genre": "Rock",
+      "nameContext": "The name Esther is central to the song's narrative.",
+      "description": "A whimsical and narrative song by Phish about a girl named Esther and her adventures.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Phish+Esther",
+      "geniusUrl": "https://genius.com/Phish-esther-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Esther is a name that carries a rich history and timeless appeal. With its roots in ancient texts, the name has been cherished by many cultures for its association with strength and beauty. Whether you're drawn to its biblical origins or its modern elegance, Esther is a name that stands out.",
+    "etymology_meaning": "The name Esther originates from the Hebrew name 'Hadassah' and is often translated to mean 'star.' Its significance is largely connected to the biblical Queen Esther, a symbol of bravery and faith.",
+    "famous_bearers": "Famous bearers of the name Esther include Esther Williams, a Hollywood actress known for her swimming films, and Esther Dyson, a prominent technology investor. Both women exemplify the strength and versatility associated with the name.",
+    "pop_culture_moments": "In pop culture, Esther is a name that has appeared in various forms, from the biblical story celebrated during Purim to the whimsical lyrics of Phish's song 'Esther.' The name's literary and musical connections add to its enduring charm.",
+    "personality_profile": "Esther is a name often associated with qualities of leadership, courage, and wisdom. People with this name are thought to possess a natural ability to inspire and lead others, much like the biblical queen who bore the name.",
+    "variations_nicknames": "Variations of Esther include Ester and Hester, while common nicknames like Essie and Ettie add a playful touch. These variations allow for personalization while maintaining the name's classic essence.",
+    "popularity_data": "Esther has enjoyed consistent popularity, peaking in usage in the early 20th century and remaining a favored choice for parents today. Its blend of historical significance and modern appeal makes it a timeless option.",
+    "pairing_suggestions": "For a balanced name combination, consider pairing Esther with classic names like Josephine or Benjamin. These names complement Esther's elegance and strength, creating a harmonious and dignified full name.",
+    "cultural_context": "Esther's cultural context is deeply rooted in Jewish and Christian traditions. The story of Esther is celebrated during the festival of Purim, highlighting her role as a protector and savior of her people.",
+    "final_recommendation": "Choosing the name Esther offers a blend of history, beauty, and resilience. Whether you are drawn to its biblical roots or its enduring charm, Esther is a name that promises both grace and strength for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

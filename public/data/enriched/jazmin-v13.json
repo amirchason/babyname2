@@ -1,0 +1,230 @@
+{
+  "name": "Jazmin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:01:40.211Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Persian",
+  "meaning": "Jasmine flower",
+  "culturalSignificance": "The name 'Jazmin' is derived from the Persian word 'yasmin,' which refers to the jasmine flower, symbolizing elegance and grace. This name has traveled through different cultures, often associated with beauty and fragrance.",
+  "modernContext": "In modern times, Jazmin is a popular name choice in English and Spanish-speaking countries, often favored for its floral association and melodic sound. It is seen as a modern twist on the classic name Jasmine.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈdʒæz.mɪn",
+  "variations": [
+    "Jasmine",
+    "Yasmin",
+    "Jasmin",
+    "Jazmine",
+    "Jessamine"
+  ],
+  "similarNames": [
+    "Jasmine",
+    "Yasmin",
+    "Jocelyn",
+    "Janelle",
+    "Jada"
+  ],
+  "nicknames": [
+    "Jaz",
+    "Minnie",
+    "Jazz",
+    "Jazzy"
+  ],
+  "personality": "Individuals named Jazmin are often associated with creativity and charm. They are perceived as vibrant and social, with a natural ability to inspire and bring joy to others.",
+  "symbolism": "The name Jazmin symbolizes purity and love, reflecting the qualities traditionally associated with the jasmine flower.",
+  "funFact": "The jasmine flower, which Jazmin is named after, is the national flower of several countries, including the Philippines and Pakistan, known for its sweet fragrance.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jazmin Grace Grimaldi",
+      "profession": "Actress",
+      "knownFor": [
+        "Monaco Royalty",
+        "Acting"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Jazmin Whitley",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Fashion House Li Cari",
+        "Reality TV"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Aladdin",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Jasmine",
+      "characterDescription": "Princess of Agrabah, known for her independence and strong will.",
+      "imdbUrl": "https://www.imdb.com/title/tt6139732/",
+      "genre": "Adventure, Family, Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Lavender",
+      "hex": "#E6E6FA"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration of achievements.",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share a love for harmony and communication.",
+    "cosmicElement": "Flower",
+    "cosmicElementDescription": "Symbolizes growth, beauty, and renewal.",
+    "celestialArchetype": "The Artist",
+    "celestialArchetypeDescription": "Embodies creativity and an appreciation for aesthetics.",
+    "karmicLessons": "To cultivate patience and understanding.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express and create in the world."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 457,
+    "peak": 204,
+    "peakYear": 1998
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "A flower does not think of competing with the flower next to it. It just blooms.",
+    "author": "Zen Shin",
+    "context": "A quote about self-expression and growth."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jaz-min"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jazmín",
+      "script": "Latin",
+      "scriptName": "Jazmín",
+      "pronunciation": "xaθˈmin",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γιασμίν",
+      "script": "Greek",
+      "scriptName": "Γιασμίν",
+      "pronunciation": "ʝasˈmin",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ياسمين",
+      "script": "Arabic",
+      "scriptName": "ياسمين",
+      "pronunciation": "jaːsˈmiːn",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "茉莉",
+      "script": "Han",
+      "scriptName": "茉莉",
+      "pronunciation": "mò lì",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Жасмин",
+      "script": "Cyrillic",
+      "scriptName": "Жасмин",
+      "pronunciation": "ʐɐsˈmʲin",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יסמין",
+      "script": "Hebrew",
+      "scriptName": "יסמין",
+      "pronunciation": "jasˈmin",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Jazmin is a modern adaptation of the classic name Jasmine."
+    },
+    {
+      "tag": "Floral",
+      "confidence": 1,
+      "reason": "Directly associated with the jasmine flower."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been used across different cultures for centuries."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jasmine",
+      "artist": "Jai Paul",
+      "year": 2012,
+      "genre": "Electronic",
+      "nameContext": "The name is used as a central theme in the song.",
+      "description": "An electronic music track that became popular for its unique sound and innovative production.",
+      "theme": "neutral",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jai+Paul+Jasmine",
+      "geniusUrl": "https://genius.com/Jai-paul-jasmine-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jazmin is a name that exudes beauty and elegance, much like the flower it represents. With roots in Persian culture, this name has become a beloved choice for many parents across the globe. Its connection to the fragrant jasmine flower adds a touch of nature's grace to its charm.",
+    "etymology_meaning": "Jazmin originates from the Persian word 'yasmin,' meaning jasmine flower. This floral name has been adapted in various languages and cultures, maintaining its association with beauty and fragrance.",
+    "famous_bearers": "Notable individuals named Jazmin include Jazmin Grace Grimaldi, an actress and member of the Monaco royal family, and Jazmin Whitley, a fashion designer known for her innovative styles.",
+    "pop_culture_moments": "In popular culture, the name Jazmin is often associated with Princess Jasmine from Disney's Aladdin, a character known for her independence and strength.",
+    "personality_profile": "Those named Jazmin are often seen as creative and charismatic, embodying the qualities of the jasmine flower—beauty, elegance, and a captivating presence.",
+    "variations_nicknames": "Variations of Jazmin include Jasmine and Yasmin, while common nicknames are Jaz, Jazz, and Jazzy. These variations and nicknames add flexibility and personalization to the name.",
+    "popularity_data": "Jazmin has maintained steady popularity, reaching its peak in the late 1990s. It continues to be a favored choice due to its modern sound and floral association.",
+    "pairing_suggestions": "Jazmin pairs well with both traditional and contemporary names, such as Jazmin Rose or Jazmin Leigh, offering a balance of classic and modern appeal.",
+    "cultural_context": "The name Jazmin has a rich cultural background, originating from Persian culture and embraced by many for its connection to the jasmine flower, a symbol of purity and love.",
+    "final_recommendation": "Jazmin is a delightful choice for parents seeking a name that blends beauty, elegance, and a touch of nature. Its timeless appeal and vibrant associations make it a standout option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,287 @@
+{
+  "name": "Antoine",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:39:16.139Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Priceless, of inestimable worth",
+  "culturalSignificance": "Antoine is a French variant of Anthony, a name with strong roots in the Roman world, originally derived from the Latin family name Antonius. It has been popular in France and other French-speaking countries due to its association with royalty and nobility.",
+  "modernContext": "In modern times, Antoine remains a popular name in both France and French-speaking regions around the world. It is often chosen for its classic appeal and historical significance, maintaining steady popularity in baby name rankings.",
+  "literaryReferences": "Antoine de Saint-Exupéry, author of 'The Little Prince', is one of the most renowned literary figures with this name, contributing to its recognition.",
+  "pronunciationGuide": "/anˈtwan/",
+  "variations": [
+    "Anthony",
+    "Anton",
+    "Antonio",
+    "Antwan",
+    "Antoni"
+  ],
+  "similarNames": [
+    "Andre",
+    "Adrien",
+    "Augustin",
+    "Alexandre",
+    "Alain"
+  ],
+  "nicknames": [
+    "Tony",
+    "Twan",
+    "Anto",
+    "Tone",
+    "Toine"
+  ],
+  "personality": "The name Antoine is often associated with qualities of leadership, creativity, and a strong sense of purpose. Those with this name are thought to be ambitious and charismatic.",
+  "symbolism": "Antoine symbolizes strength and timelessness, often associated with nobility and a rich cultural heritage.",
+  "funFact": "Antoine de Saint-Exupéry, besides being a famous author, was also an aviator, which influenced his writing of 'The Little Prince'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Antoine Lavoisier",
+      "years": "1743-1794",
+      "category": "Scientist",
+      "achievements": [
+        "Father of modern chemistry",
+        "Named oxygen and hydrogen"
+      ],
+      "significance": "Antoine Lavoisier is renowned for his role in the development of modern chemistry, particularly for his discovery of the role oxygen plays in combustion.",
+      "notableWorks": [
+        "Elementary Treatise on Chemistry"
+      ]
+    },
+    {
+      "fullName": "Antoine de Saint-Exupéry",
+      "years": "1900-1944",
+      "category": "Author",
+      "achievements": [
+        "Wrote 'The Little Prince'",
+        "Aviator and pioneer of airmail routes"
+      ],
+      "significance": "Antoine de Saint-Exupéry is celebrated for his literary contributions, especially 'The Little Prince', a classic in children's literature and philosophical storytelling.",
+      "notableWorks": [
+        "The Little Prince",
+        "Night Flight"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+      "author": "Antoine de Saint-Exupéry",
+      "context": "From the book 'The Little Prince'",
+      "year": 1943,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Antoine Griezmann",
+      "profession": "Footballer",
+      "knownFor": [
+        "Playing for FC Barcelona",
+        "French national team"
+      ],
+      "awards": "FIFA World Cup 2018"
+    },
+    {
+      "name": "Antoine Fuqua",
+      "profession": "Director",
+      "knownFor": [
+        "Training Day",
+        "The Equalizer"
+      ],
+      "awards": "Black Reel Award for Best Director"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Antoine Griezmann",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "La Liga",
+      "team": "Atletico Madrid",
+      "pastTeams": [
+        "Real Sociedad",
+        "FC Barcelona"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "7",
+      "years": "2009-Present",
+      "achievements": "FIFA World Cup 2018 winner, UEFA Euro 2016 finalist",
+      "knownFor": [
+        "Agility",
+        "Goal scoring"
+      ],
+      "awards": "La Liga Best Player 2016",
+      "stats": "Over 200 career goals",
+      "verified": true,
+      "source": "https://www.fifa.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Little Prince",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Antoine",
+      "characterDescription": "A pilot who tells the story of the Little Prince",
+      "imdbUrl": "https://www.imdb.com/title/tt1754656/",
+      "genre": "Animation, Fantasy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, promoting communication and intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Visionary",
+    "celestialArchetypeDescription": "Known for innovation and seeing beyond the horizon.",
+    "karmicLessons": "Embrace change and seek new horizons.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express oneself creatively and connect with others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 278,
+    "peak": 115,
+    "peakYear": 1998
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+    "author": "Antoine de Saint-Exupéry",
+    "context": "A reflection on simplicity and elegance in design and life."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "An-toine"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Antonio",
+      "script": "Latin",
+      "scriptName": "Antonio",
+      "pronunciation": "/anˈtonjo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αντώνιος",
+      "script": "Greek",
+      "scriptName": "Αντώνιος",
+      "pronunciation": "/anˈtonios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أنطوان",
+      "script": "Arabic",
+      "scriptName": "أنطوان",
+      "pronunciation": "/ʔantoːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安东尼",
+      "script": "Han",
+      "scriptName": "安东尼",
+      "pronunciation": "/Āndōngní/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Антуан",
+      "script": "Cyrillic",
+      "scriptName": "Антуан",
+      "pronunciation": "/ɐnˈtuan/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנטואן",
+      "script": "Hebrew",
+      "scriptName": "אנטואן",
+      "pronunciation": "/antoːan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Little Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "publishedYear": 1943,
+      "genre": "Fiction",
+      "significance": "A philosophical tale beloved by children and adults alike, exploring themes of human nature and relationships.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Antoine has been used consistently over centuries, maintaining a classic appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "The name is associated with famous literary figures like Antoine de Saint-Exupéry."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has remained relevant and appreciated across different eras and cultures."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Antoine is a name that carries the elegance of French culture, echoing through history with a touch of nobility. Used by inventors and authors alike, it offers a sense of timeless charm.",
+    "etymology_meaning": "Derived from the Latin name Antonius, Antoine means 'priceless' or 'of inestimable worth'. It reflects a heritage of strength and value.",
+    "famous_bearers": "Historically, Antoine Lavoisier revolutionized chemistry, while Antoine de Saint-Exupéry captured hearts with 'The Little Prince'.",
+    "pop_culture_moments": "In pop culture, Antoine's presence is noted in films and books, especially through characters that embody its classic roots.",
+    "personality_profile": "Those named Antoine are often perceived as creative leaders, possessing a visionary spirit and a knack for communication.",
+    "variations_nicknames": "Variations like Anthony and Anton offer global appeal, while nicknames such as Tony bring a casual flair.",
+    "popularity_data": "Antoine has maintained steady popularity, celebrated for its classic status and cultural resonance.",
+    "pairing_suggestions": "Antoine pairs well with names like Juliette or Amélie, balancing elegance with a traditional touch.",
+    "cultural_context": "As a staple in French-speaking regions, Antoine reflects a rich cultural tapestry, from historical figures to modern icons.",
+    "final_recommendation": "Choosing Antoine for your child brings a sense of timeless elegance and cultural depth, perfect for parents seeking a name with historical weight.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

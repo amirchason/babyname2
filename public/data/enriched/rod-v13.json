@@ -1,0 +1,249 @@
+{
+  "name": "Rod",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:18:45.486Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Famous ruler",
+  "culturalSignificance": "The name Rod is a short form of the name Roderick or Rodney, which has Germanic origins. Historically, it has been associated with leadership and power, often given to those in positions of authority.",
+  "modernContext": "In modern times, Rod is often used as a casual, friendly name, popular in English-speaking countries. It is less common as a standalone given name but remains prevalent as a nickname.",
+  "literaryReferences": "The name Rod appears in various literary works, often as a straightforward, everyman character.",
+  "pronunciationGuide": "/rɒd/",
+  "variations": [
+    "Roderick",
+    "Rodney",
+    "Roddy",
+    "Rodrigo"
+  ],
+  "similarNames": [
+    "Todd",
+    "Rob",
+    "Roy",
+    "Ron",
+    "Roger"
+  ],
+  "nicknames": [
+    "Roddy",
+    "Rod",
+    "Rodge"
+  ],
+  "personality": "People named Rod are often seen as approachable and down-to-earth, with a strong sense of leadership and responsibility.",
+  "symbolism": "Rod symbolizes strength and leadership, often associated with the qualities of a ruler.",
+  "funFact": "The name Rod was particularly popularized in the 1950s and 1960s due to its use in popular culture and television.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rod Stewart",
+      "profession": "Musician",
+      "knownFor": [
+        "Maggie May",
+        "Do Ya Think I'm Sexy"
+      ],
+      "awards": "Grammy Award for Best Traditional Pop Vocal Album"
+    },
+    {
+      "name": "Rod Serling",
+      "profession": "Screenwriter",
+      "knownFor": [
+        "The Twilight Zone",
+        "Night Gallery"
+      ],
+      "awards": "Multiple Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Rod Laver",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "ATP",
+      "team": "",
+      "pastTeams": [],
+      "position": "Player",
+      "jerseyNumber": "",
+      "years": "1960-1979",
+      "achievements": "11 Grand Slam titles",
+      "knownFor": [
+        "Grand Slam victories",
+        "Left-handed play"
+      ],
+      "awards": "Inducted into the International Tennis Hall of Fame",
+      "stats": "Career singles titles: 200",
+      "verified": true,
+      "source": "International Tennis Hall of Fame"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Twilight Zone",
+      "year": 1959,
+      "type": "TV Show",
+      "characterName": "Rod Serling",
+      "characterDescription": "Narrator and creator of the show",
+      "imdbUrl": "https://www.imdb.com/title/tt0052520/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment of what was started at the new moon.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature, encouraging enthusiasm and energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents energy, assertiveness, and passion.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes initiative, courage, and a pioneering spirit.",
+    "karmicLessons": "To develop patience and learn from experiences.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "A desire for leadership and the ability to influence others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 200,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Every step you take, every move you make, I'll be watching you.",
+    "author": "Rod Stewart",
+    "context": "From the famous song lyrics representing vigilance and care."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Rod"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rodrigo",
+      "script": "Latin",
+      "scriptName": "Rodrigo",
+      "pronunciation": "/roˈðɾiɣo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ροδρίγος",
+      "script": "Greek",
+      "scriptName": "Ροδρίγος",
+      "pronunciation": "/roˈðriɣos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "رودريغو",
+      "script": "Arabic",
+      "scriptName": "رودريغو",
+      "pronunciation": "/rudriːɣo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗德里戈",
+      "script": "Han",
+      "scriptName": "罗德里戈",
+      "pronunciation": "/luó dé lǐ gē/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Родриго",
+      "script": "Cyrillic",
+      "scriptName": "Родриго",
+      "pronunciation": "/rɐˈdrʲigə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רודריגו",
+      "script": "Hebrew",
+      "scriptName": "רודריגו",
+      "pronunciation": "/ʁodriːɡo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Widely used in the 20th century and has historical significance."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Remains in use over decades, maintaining its appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Appears in various literary works, often as a character name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Maggie May",
+      "artist": "Rod Stewart",
+      "year": 1971,
+      "genre": "Rock",
+      "nameContext": "Performed by Rod Stewart",
+      "description": "A classic rock song by Rod Stewart about a young man's mixed feelings towards an older woman.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Maggie+May+Rod+Stewart",
+      "geniusUrl": "https://genius.com/Rod-stewart-maggie-may-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Rod is a name that carries with it a sense of strength and simplicity. Often associated with leadership, it has a rich history and cultural significance.",
+    "etymology_meaning": "Derived from the Germanic elements meaning 'famous ruler', Rod is a short form of Roderick or Rodney.",
+    "famous_bearers": "Notable individuals named Rod include Rod Stewart, the iconic musician, and Rod Serling, the creative force behind 'The Twilight Zone'.",
+    "pop_culture_moments": "Rod's influence in pop culture is marked by memorable performances and creative works that have left lasting impressions.",
+    "personality_profile": "Typically, those named Rod are seen as down-to-earth individuals with a strong sense of leadership and responsibility.",
+    "variations_nicknames": "Variations of Rod include Roderick and Rodney, with common nicknames being Roddy and Rodge.",
+    "popularity_data": "Rod peaked in popularity during the mid-20th century, retaining a steady presence as a classic choice.",
+    "pairing_suggestions": "Rod pairs well with names like Jack, Leo, and Max, providing a strong, solid backdrop.",
+    "cultural_context": "With its roots in Germanic culture, Rod has been embraced by English speakers across the globe.",
+    "final_recommendation": "Rod is a timeless choice that conveys strength and dependability, making it suitable for parents seeking a solid, classic name.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

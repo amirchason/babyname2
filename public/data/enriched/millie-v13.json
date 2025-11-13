@@ -1,0 +1,229 @@
+{
+  "name": "Millie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:36:47.766Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Germanic",
+  "meaning": "Gentle strength",
+  "culturalSignificance": "Millie is a diminutive of names like Millicent, which has been used since the Middle Ages. It carries a sense of endearment and has been popular in English-speaking countries for centuries.",
+  "modernContext": "In recent years, Millie has seen a resurgence in popularity, partly due to its vintage charm and the influence of popular culture, such as the character Millie Bobby Brown. It is often chosen for its sweet sound and timeless appeal.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈmɪli/",
+  "variations": [
+    "Millicent",
+    "Mildred",
+    "Camille",
+    "Amelia",
+    "Emilia"
+  ],
+  "similarNames": [
+    "Molly",
+    "Lily",
+    "Ellie",
+    "Sophie",
+    "Chloe"
+  ],
+  "nicknames": [
+    "Mills",
+    "Mimi",
+    "Mia",
+    "Mill"
+  ],
+  "personality": "The name Millie is often associated with a friendly and approachable personality, embodying warmth and kindness.",
+  "symbolism": "Millie symbolizes gentle strength and resilience, often representing a balance between softness and determination.",
+  "funFact": "Millie was a popular name during the early 20th century and has seen a revival due to its vintage appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Millie Bobby Brown",
+      "profession": "Actor",
+      "knownFor": [
+        "Stranger Things",
+        "Enola Holmes"
+      ],
+      "awards": "Screen Actors Guild Award nomination"
+    },
+    {
+      "name": "Millie Perkins",
+      "profession": "Actor",
+      "knownFor": [
+        "The Diary of Anne Frank"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Eleven",
+      "characterDescription": "A young girl with psychokinetic abilities",
+      "imdbUrl": "https://www.imdb.com/title/tt4574334/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Lavender",
+      "hex": "#E6E6FA"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded and practical nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability and nurturing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents those who bring comfort and support to others.",
+    "karmicLessons": "Learning to balance nurturing with personal growth",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to nurture and create harmony in relationships."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 125,
+    "peak": 100,
+    "peakYear": 2020
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Strength lies in differences, not in similarities.",
+    "author": "Stephen R. Covey",
+    "context": "About embracing diversity and individuality."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mil-lie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Millie",
+      "script": "Latin",
+      "scriptName": "Millie",
+      "pronunciation": "/ˈmi.lje/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μίλλι",
+      "script": "Greek",
+      "scriptName": "Μίλλι",
+      "pronunciation": "/ˈmi.li/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميلي",
+      "script": "Arabic",
+      "scriptName": "ميلي",
+      "pronunciation": "/ˈmiː.li/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "米莉",
+      "script": "Han",
+      "scriptName": "米莉",
+      "pronunciation": "/mǐ lì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Милли",
+      "script": "Cyrillic",
+      "scriptName": "Милли",
+      "pronunciation": "/ˈmi.li/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מילי",
+      "script": "Hebrew",
+      "scriptName": "מילי",
+      "pronunciation": "/miː.li/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Millie has been a beloved name through generations, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Vintage",
+      "confidence": 0.8,
+      "reason": "The name has an old-fashioned charm that is currently in vogue."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "The name has gained renewed popularity due to recent pop culture influences."
+    }
+  ],
+  "songs": [
+    {
+      "title": "My Girl Bill",
+      "artist": "Jim Stafford",
+      "year": 1974,
+      "genre": "Country Pop",
+      "nameContext": "Mention of 'Millie' in the lyrics",
+      "description": "The song humorously plays with expectations, with 'Millie' being part of the story's twist.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=My+Girl+Bill+Jim+Stafford",
+      "geniusUrl": "https://genius.com/Jim-stafford-my-girl-bill-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Millie is a name that embodies both a vintage charm and a modern resurgence. Its gentle sound and timeless appeal make it a popular choice for parents today. Whether inspired by historical figures or beloved pop culture characters, Millie continues to capture hearts.",
+    "etymology_meaning": "Millie is derived from the Germanic name Millicent, which means 'gentle strength'. The name has been used in English-speaking countries since the Middle Ages, often chosen for its sweet and approachable sound.",
+    "famous_bearers": "Millie Bobby Brown, a talented young actress known for her role in 'Stranger Things', has helped bring the name into the spotlight. Another notable bearer is Millie Perkins, who starred in 'The Diary of Anne Frank'.",
+    "pop_culture_moments": "The character Eleven from 'Stranger Things', portrayed by Millie Bobby Brown, has been a significant influence in the name's recent popularity. Her powerful portrayal has left a lasting impact on audiences worldwide.",
+    "personality_profile": "People named Millie are often seen as kind, nurturing, and approachable. They carry a gentle strength, balancing empathy with resilience.",
+    "variations_nicknames": "Variations like Millicent and Amelia share similar roots, while nicknames such as Mills and Mimi offer endearing alternatives. These variations allow for personalization and versatility in the name's usage.",
+    "popularity_data": "Millie has experienced a resurgence in popularity, peaking in recent years due to cultural influences and a trend towards vintage names. It remains a top choice for its classic yet fresh appeal.",
+    "pairing_suggestions": "Millie pairs beautifully with classic names like James or timeless choices such as Oliver. For a more modern touch, consider pairing with names like Leo or Ava.",
+    "cultural_context": "Historically, Millie has been a name associated with gentle strength and kindness. Its use across cultures and time periods highlights its universal appeal.",
+    "final_recommendation": "Millie is an excellent choice for parents seeking a name that is both classic and contemporary. Its rich history and modern cultural relevance make it a standout option for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

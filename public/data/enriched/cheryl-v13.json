@@ -1,0 +1,251 @@
+{
+  "name": "Cheryl",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:22:07.190Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "French",
+  "meaning": "Beloved",
+  "culturalSignificance": "Cheryl gained popularity in the mid-20th century, particularly in English-speaking countries. It is often associated with the post-war era, reflecting a trend towards more modern-sounding names.",
+  "modernContext": "Today, Cheryl is less common for newborns but retains recognition due to its historical popularity and associations with various famous figures. It is often viewed as a classic choice with a vintage charm.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈʃɛrəl",
+  "variations": [
+    "Cheril",
+    "Sheryl",
+    "Sheril",
+    "Cherelle",
+    "Cherryl"
+  ],
+  "similarNames": [
+    "Carol",
+    "Sharon",
+    "Charlotte",
+    "Chelsea",
+    "Cherie"
+  ],
+  "nicknames": [
+    "Cher",
+    "Cherri",
+    "Cherrie",
+    "Chery",
+    "Shell"
+  ],
+  "personality": "Names like Cheryl are often associated with charisma and charm, giving the impression of a friendly and approachable personality.",
+  "symbolism": "The name Cheryl symbolizes love and affection, often linked with warmth and kindness.",
+  "funFact": "The name Cheryl was particularly popular in the United States during the 1950s and 1960s, but it saw a decline in the late 20th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Cheryl Cole",
+      "profession": "Musician",
+      "knownFor": [
+        "Girls Aloud",
+        "Solo Career"
+      ],
+      "awards": "Brit Awards"
+    },
+    {
+      "name": "Cheryl Strayed",
+      "profession": "Author",
+      "knownFor": [
+        "Wild: From Lost to Found on the Pacific Crest Trail"
+      ],
+      "awards": "Goodreads Choice Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Archer",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Cheryl Tunt",
+      "characterDescription": "A secretary with a quirky personality and unusual interests.",
+      "imdbUrl": "https://www.imdb.com/title/tt1486217/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Charlie's Angels",
+      "year": 1976,
+      "type": "TV Show",
+      "characterName": "Cheryl Ladd",
+      "characterDescription": "Played Kris Munroe, one of the iconic Angels.",
+      "imdbUrl": "https://www.imdb.com/title/tt0073972/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, promoting harmony and understanding.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air signifies communication, intellect, and adaptability.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Emphasizes expression, socialization, and exchange of ideas.",
+    "karmicLessons": "Learning to balance personal ideals with practical realities.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire for creativity, expression, and communication."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 980,
+    "peak": 22,
+    "peakYear": 1958
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "author": "Cheryl Strayed",
+    "context": "From her memoir 'Wild', reflecting on personal growth and challenges."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Cher-yl"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Cheryl",
+      "script": "Latin",
+      "scriptName": "Cheryl",
+      "pronunciation": "ˈʃeɾil",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σέριλ",
+      "script": "Greek",
+      "scriptName": "Σέριλ",
+      "pronunciation": "ˈseɾil",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "شيريل",
+      "script": "Arabic",
+      "scriptName": "شيريل",
+      "pronunciation": "ʃeːriːl",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雪莉尔",
+      "script": "Han",
+      "scriptName": "雪莉尔",
+      "pronunciation": "ɕyèlìěr",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Шерил",
+      "script": "Cyrillic",
+      "scriptName": "Шерил",
+      "pronunciation": "ʃerʲil",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "שריל",
+      "script": "Hebrew",
+      "scriptName": "שריל",
+      "pronunciation": "ʃeʁil",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Wild: From Lost to Found on the Pacific Crest Trail",
+      "author": "Cheryl Strayed",
+      "publishedYear": 2012,
+      "genre": "Memoir",
+      "significance": "A best-selling memoir that recounts the author's personal growth and adventures.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Cheryl has historical popularity and is recognized as a vintage name."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Cheryl Strayed's memoir has brought literary attention to the name."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Despite fluctuating in popularity, Cheryl remains a recognized and enduring name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Oh Cheryl",
+      "artist": "Blake Babies",
+      "year": 1991,
+      "genre": "Rock",
+      "nameContext": "The song's title and lyrics center around a character named Cheryl.",
+      "description": "A rock song that explores themes of longing and relationships, featuring the name Cheryl prominently.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Blake+Babies+Oh+Cheryl",
+      "geniusUrl": "https://genius.com/search?q=Oh+Cheryl",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Cheryl is a name that evokes a sense of nostalgia and classic charm. Once a top choice for baby girls in the mid-20th century, it carries a sense of warmth and familiarity. Today, while it may not be as commonly chosen for newborns, it remains a beloved name for many.",
+    "etymology_meaning": "Derived from the French name Cherie, meaning 'beloved', Cheryl embodies affection and endearment. It became popular in English-speaking countries in the 20th century, particularly in the United States.",
+    "famous_bearers": "Famous individuals such as singer Cheryl Cole and author Cheryl Strayed have brought attention to the name. Cheryl Cole's musical career and Cheryl Strayed's bestselling memoir 'Wild' have solidified Cheryl's place in pop culture.",
+    "pop_culture_moments": "Cheryl has appeared in various media, including TV shows like 'Archer' with the character Cheryl Tunt. These representations have kept the name in the public eye.",
+    "personality_profile": "Cheryl is often associated with individuals who are charismatic and personable. The name suggests a friendly and approachable nature, often linked to creativity and expression.",
+    "variations_nicknames": "Variations like Sheryl and Cheril offer different takes on this classic name, while nicknames such as Cher and Cherri provide casual and endearing options.",
+    "popularity_data": "Cheryl reached the height of its popularity in the 1950s and 60s, but its appeal has waned in recent decades. Despite this, it remains a recognized and cherished choice.",
+    "pairing_suggestions": "Cheryl pairs well with middle names like Anne or Marie, adding a touch of elegance and balance. Sibling names like David or Laura complement Cheryl's classic charm.",
+    "cultural_context": "Though it originated from French roots, Cheryl has been embraced widely in English-speaking cultures, particularly in the United States and the UK.",
+    "final_recommendation": "For those seeking a name with vintage appeal and a touch of timeless elegance, Cheryl is a beautiful choice. Its rich history and cultural resonance make it a meaningful option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,250 @@
+{
+  "name": "Ada",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:29:50.180Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Germanic",
+  "meaning": "Noble",
+  "culturalSignificance": "The name Ada has roots in various cultures, prominently in Germanic languages where it means 'noble'. It has been used historically in royal families and is associated with grace and dignity.",
+  "modernContext": "In modern times, Ada has gained popularity due to its simplicity and elegance. It is widely used in English-speaking countries and often regarded as a timeless classic.",
+  "literaryReferences": "Ada is the title of a novel by Vladimir Nabokov, which has contributed to its literary significance.",
+  "pronunciationGuide": "/ˈeɪ.də/",
+  "variations": [
+    "Adah",
+    "Aida",
+    "Adaline",
+    "Adelaide",
+    "Adela"
+  ],
+  "similarNames": [
+    "Ava",
+    "Eva",
+    "Ida",
+    "Emma",
+    "Anna"
+  ],
+  "nicknames": [
+    "Addie",
+    "Adi",
+    "Didi"
+  ],
+  "personality": "People named Ada are often perceived as intelligent, poised, and thoughtful. They are seen as dependable and nurturing.",
+  "symbolism": "Ada symbolizes nobility and grace, often associated with historical figures who embodied these traits.",
+  "funFact": "Ada Lovelace, a 19th-century mathematician, is considered the first computer programmer.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ada Lovelace",
+      "years": "1815-1852",
+      "category": "Scientist",
+      "achievements": [
+        "First computer programmer",
+        "Worked on Charles Babbage's Analytical Engine"
+      ],
+      "significance": "Ada Lovelace is recognized as one of the first computer programmers, contributing to early computing concepts.",
+      "notableWorks": [
+        "Notes on the Analytical Engine"
+      ]
+    },
+    {
+      "fullName": "Ada, Countess of Lovelace",
+      "years": "1815-1852",
+      "category": "Royalty",
+      "achievements": [
+        "Contributed to early computer science"
+      ],
+      "significance": "Recognized for her work on the Analytical Engine and contributions to computing.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ada Nicodemou",
+      "profession": "Actor",
+      "knownFor": [
+        "Home and Away"
+      ],
+      "awards": "Logie Award"
+    },
+    {
+      "name": "Ada E. Yonath",
+      "profession": "Scientist",
+      "knownFor": [
+        "Nobel Prize in Chemistry"
+      ],
+      "awards": "Nobel Prize"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Ada",
+      "year": 1961,
+      "type": "Movie",
+      "characterName": "Ada Gillis",
+      "characterDescription": "A strong-willed woman navigating political intrigue.",
+      "imdbUrl": "https://www.imdb.com/title/tt0054594/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 1,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and expansion.",
+    "compatibleSigns": [
+      "Virgo",
+      "Taurus"
+    ],
+    "compatibleSignsDescription": "Earth signs that share stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, practicality, and nourishment.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents steady growth and construction.",
+    "karmicLessons": "To learn patience and endurance.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "The desire to nurture and care for others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 180,
+    "peak": 140,
+    "peakYear": 1901
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The more I study, the more insatiable do I feel my genius for it to be.",
+    "author": "Ada Lovelace",
+    "context": "On her passion for learning and science."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "A-da"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ada",
+      "script": "Latin",
+      "scriptName": "Ada",
+      "pronunciation": "/ˈa.ða/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άντα",
+      "script": "Greek",
+      "scriptName": "Άντα",
+      "pronunciation": "/ˈan.da/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آدا",
+      "script": "Arabic",
+      "scriptName": "آدا",
+      "pronunciation": "/ˈaː.da/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾达",
+      "script": "Han",
+      "scriptName": "艾达",
+      "pronunciation": "/àidá/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ада",
+      "script": "Cyrillic",
+      "scriptName": "Ада",
+      "pronunciation": "/ˈa.də/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "עדה",
+      "script": "Hebrew",
+      "scriptName": "עדה",
+      "pronunciation": "/ˈa.da/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Ada has been used for centuries across different cultures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Its simplicity and elegance ensure its enduring appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Referenced in notable literary works such as Nabokov's 'Ada'."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ada",
+      "artist": "The National",
+      "year": 2007,
+      "genre": "Indie Rock",
+      "nameContext": "Title and subject of the song.",
+      "description": "A reflective song that explores themes of love and nostalgia, focusing on a character named Ada.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=The+National+Ada",
+      "geniusUrl": "https://genius.com/The-national-ada-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Ada is a name that resonates with nobility and elegance, carrying a rich historical heritage. Its simplicity and beauty have made it a favorite across cultures and generations. Whether in literature or in modern media, Ada stands out as a timeless choice.",
+    "etymology_meaning": "The name Ada originates from the Germanic word for 'noble', and it has been embraced by various cultures throughout history. It conveys a sense of dignity and grace, qualities that have helped it endure through the ages.",
+    "famous_bearers": "Ada Lovelace, the pioneering mathematician and the first computer programmer, is one of the most notable figures bearing this name. Her work laid the groundwork for modern computing, highlighting the profound impact of women in science.",
+    "pop_culture_moments": "Ada has appeared in various forms of media, including in novels like Nabokov's 'Ada', which adds to its literary pedigree. The name has also been featured in songs, further embedding it in contemporary culture.",
+    "personality_profile": "Ada is often associated with intelligence, creativity, and a nurturing spirit. Name bearers are perceived as strong and resourceful, capable of achieving greatness while maintaining their elegance.",
+    "variations_nicknames": "Some variations of Ada include Adah and Aida, and common nicknames are Addie and Adi. These variations offer flexibility while retaining the core qualities of the name.",
+    "popularity_data": "Ada has seen a resurgence in popularity in recent years, driven by its classic appeal and cultural significance. It remains a beloved choice for parents seeking a name with history and charm.",
+    "pairing_suggestions": "Ada pairs well with other classic names like Grace, Charlotte, or James. Its simplicity allows it to complement both traditional and modern names beautifully.",
+    "cultural_context": "Across different cultures, Ada has been embraced for its noble meaning and historical roots. Its use in various languages and regions underscores its universal appeal.",
+    "final_recommendation": "For those seeking a name that embodies both historical significance and modern elegance, Ada is an excellent choice. Its timeless charm and noble meaning make it a name that will be cherished for generations.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

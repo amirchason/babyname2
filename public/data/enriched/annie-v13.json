@@ -1,0 +1,288 @@
+{
+  "name": "Annie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:35:42.076Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Grace",
+  "culturalSignificance": "Annie is a diminutive of Ann, a name with deep roots in Hebrew tradition, meaning 'grace'. It became popular in English-speaking countries during the 19th century as a standalone name and has been affectionately used in various cultures.",
+  "modernContext": "Annie remains a popular choice among English-speaking parents, often associated with a cheerful and approachable personality. It has also been popularized by cultural references such as musicals and films.",
+  "literaryReferences": "Annie Oakley is a famous sharpshooter who inspired numerous stories and musicals, most notably 'Annie Get Your Gun'.",
+  "pronunciationGuide": "/ˈæni/",
+  "variations": [
+    "Ann",
+    "Anna",
+    "Anabel",
+    "Anita",
+    "Ana"
+  ],
+  "similarNames": [
+    "Anne",
+    "Anya",
+    "Amy",
+    "Alice",
+    "Ava"
+  ],
+  "nicknames": [
+    "Ann",
+    "Nan",
+    "Nina",
+    "An",
+    "Ani"
+  ],
+  "personality": "People named Annie are often viewed as friendly, approachable, and optimistic, carrying an air of grace and charm.",
+  "symbolism": "Annie symbolizes grace and favor, often associated with kindness and a nurturing spirit.",
+  "funFact": "The musical 'Annie' premiered on Broadway in 1977 and became a cultural phenomenon, featuring songs like 'Tomorrow'.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Annie Oakley",
+      "years": "1860-1926",
+      "category": "Entertainer",
+      "achievements": [
+        "Renowned sharpshooter",
+        "Star in Buffalo Bill's Wild West show"
+      ],
+      "significance": "Annie Oakley was a legendary sharpshooter whose incredible skill and showmanship made her an American icon of the Wild West era.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Annie Besant",
+      "years": "1847-1933",
+      "category": "Activist",
+      "achievements": [
+        "Advocate for women's rights",
+        "Supporter of Indian independence"
+      ],
+      "significance": "Annie Besant was a prominent British socialist, theosophist, and supporter of Indian self-rule, whose activism influenced social reform in the 19th and 20th centuries.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Annie Lennox",
+      "profession": "Musician",
+      "knownFor": [
+        "Eurythmics",
+        "Solo career"
+      ],
+      "awards": "Grammy Awards, Academy Award"
+    },
+    {
+      "name": "Annie Leibovitz",
+      "profession": "Photographer",
+      "knownFor": [
+        "Rolling Stone magazine",
+        "Iconic celebrity portraits"
+      ],
+      "awards": "Lucie Awards, Prince of Asturias Award for Communication"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Annie",
+      "year": 1982,
+      "type": "Movie",
+      "characterName": "Annie",
+      "characterDescription": "An optimistic orphan searching for her parents.",
+      "imdbUrl": "https://www.imdb.com/title/tt0083564/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Annie Hall",
+      "year": 1977,
+      "type": "Movie",
+      "characterName": "Annie Hall",
+      "characterDescription": "A quirky and charming woman in a romantic comedy.",
+      "imdbUrl": "https://www.imdb.com/title/tt0075686/",
+      "genre": "Romantic Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share emotional depth and intuition, complementing Annie's nature.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes emotional depth, intuition, and adaptability.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "An archetype representing empathy, compassion, and nurturing.",
+    "karmicLessons": "To embrace change and trust intuition.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and create a harmonious environment."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 356,
+    "peak": 37,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The sun will come out tomorrow.",
+    "author": "Annie",
+    "context": "From the musical 'Annie' symbolizing hope and optimism."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "An-nie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Annie",
+      "script": "Latin",
+      "scriptName": "Annie",
+      "pronunciation": "/ˈani/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άνι",
+      "script": "Greek",
+      "scriptName": "Άνι",
+      "pronunciation": "/ˈani/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آني",
+      "script": "Arabic",
+      "scriptName": "آني",
+      "pronunciation": "/ˈani/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安妮",
+      "script": "Han",
+      "scriptName": "安妮",
+      "pronunciation": "/ˈanˌni/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Анни",
+      "script": "Cyrillic",
+      "scriptName": "Анни",
+      "pronunciation": "/ˈani/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנני",
+      "script": "Hebrew",
+      "scriptName": "אנני",
+      "pronunciation": "/ˈani/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Annie John",
+      "author": "Jamaica Kincaid",
+      "publishedYear": 1985,
+      "genre": "Fiction",
+      "significance": "A coming-of-age novel about a young girl's childhood in Antigua.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Annie has been a consistently popular name over the decades, maintaining its charm and classic appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name features prominently in literature, notably in works like 'Annie John' and 'Annie Get Your Gun'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Its enduring popularity and widespread use make Annie a timeless choice."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Annie's Song",
+      "artist": "John Denver",
+      "year": 1974,
+      "genre": "Folk",
+      "nameContext": "The song is a love ballad dedicated to the artist's wife, Annie.",
+      "description": "A heartfelt tribute expressing deep love and appreciation, capturing the beauty of nature and emotion.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Annie%27s+Song+John+Denver",
+      "geniusUrl": "https://genius.com/John-denver-annies-song-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Tomorrow",
+      "artist": "Cast of Annie",
+      "year": 1977,
+      "genre": "Musical",
+      "nameContext": "From the musical 'Annie', a song of optimism.",
+      "description": "A well-known anthem of hope and positivity from the musical 'Annie', emphasizing the belief in a brighter future.",
+      "theme": "positive",
+      "positiveVibeScore": 10,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Annie+Tomorrow",
+      "geniusUrl": "https://genius.com/Aileen-quinn-tomorrow-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Annie is a name that exudes grace and charm, a timeless choice for parents seeking a classic yet vibrant option. With its roots in Hebrew, meaning 'grace', Annie has captured the hearts of many around the world. From its historical significance to its pop culture presence, Annie remains a beloved choice.",
+    "etymology_meaning": "Annie is derived from the Hebrew name Hannah, meaning 'grace'. It has been used as a diminutive of Ann and Anna, gaining popularity as a standalone name in the English-speaking world.",
+    "famous_bearers": "Famous individuals named Annie include Annie Lennox, the acclaimed musician, and Annie Leibovitz, a prominent photographer known for her striking portraits. These women have made significant impacts in their respective fields.",
+    "pop_culture_moments": "Annie has made numerous appearances in pop culture, most notably in the Broadway musical 'Annie', which features the optimistic anthem 'Tomorrow'. The film 'Annie Hall' also brought the name to cinematic fame.",
+    "personality_profile": "The name Annie is often associated with a cheerful and approachable personality. Individuals named Annie are seen as optimistic, nurturing, and full of grace, often bringing warmth to those around them.",
+    "variations_nicknames": "Variations of Annie include Ann and Anna, with nicknames like Ann, Nan, and Nina offering affectionate alternatives. These variations allow for personalization while maintaining the name's core charm.",
+    "popularity_data": "Annie has experienced fluctuations in popularity, peaking in the late 20th century. It remains a favored choice for parents seeking a name with historical depth and modern appeal.",
+    "pairing_suggestions": "Annie pairs well with names like Grace, Rose, or James, creating a harmonious balance with both classic and contemporary names. Its simplicity and elegance complement a wide range of sibling names.",
+    "cultural_context": "Culturally, Annie is rooted in Hebrew tradition and has been embraced across various cultures as a symbol of grace. Its widespread use and recognition make it a universally appealing choice.",
+    "final_recommendation": "Annie is a delightful name that combines classic elegance with a modern feel. Its historical significance and positive associations make it a strong choice for parents looking for a name with both charm and depth.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

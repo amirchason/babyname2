@@ -1,0 +1,245 @@
+{
+  "name": "Claude",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:47:57.649Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Lame, crippled",
+  "culturalSignificance": "The name Claude has been used in various cultures, prominently in French-speaking regions. It has historical roots in the Roman family name Claudius, which was borne by several Roman emperors, including Claudius I. The name has been popular in France and has also been used in English-speaking countries.",
+  "modernContext": "Claude remains a classic choice, particularly in French-speaking countries. It is less common in English-speaking countries today but remains a strong, traditional name with a sense of sophistication.",
+  "literaryReferences": "Claude appears as a character in Victor Hugo's 'Les Misérables', highlighting the name's use in classic literature.",
+  "pronunciationGuide": "/klɔːd/",
+  "variations": [
+    "Claudio",
+    "Claudius",
+    "Claudette",
+    "Claudia",
+    "Claudine"
+  ],
+  "similarNames": [
+    "Clara",
+    "Clive",
+    "Claudeine",
+    "Claudia",
+    "Clifford"
+  ],
+  "nicknames": [
+    "Clo",
+    "Claudie",
+    "Clau",
+    "Dee",
+    "Claude"
+  ],
+  "personality": "People named Claude are often associated with artistic flair and a strong sense of individuality, likely influenced by prominent figures such as Claude Monet.",
+  "symbolism": "The name Claude may symbolize resilience and overcoming challenges, as its meaning, 'lame' or 'crippled', has been transformed into a name associated with strength and artistic achievement.",
+  "funFact": "Claude Monet, the famous French painter, was a founder of the Impressionist movement, which changed the course of art history.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Claude Monet",
+      "years": "1840-1926",
+      "category": "Artist",
+      "achievements": [
+        "Founder of Impressionism",
+        "Influential painter"
+      ],
+      "significance": "Claude Monet was a pioneer of the Impressionist movement, which emphasized light and color in painting.",
+      "notableWorks": [
+        "Impression, Sunrise",
+        "Water Lilies"
+      ]
+    },
+    {
+      "fullName": "Claude Debussy",
+      "years": "1862-1918",
+      "category": "Composer",
+      "achievements": [
+        "Innovative French composer",
+        "Developed Impressionist music"
+      ],
+      "significance": "Debussy was a leading figure in the Impressionist music movement, known for his innovative approach to harmony and texture.",
+      "notableWorks": [
+        "Clair de Lune",
+        "Prelude to the Afternoon of a Faun"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Claude Rains",
+      "profession": "Actor",
+      "knownFor": [
+        "The Invisible Man",
+        "Casablanca"
+      ],
+      "awards": "Nominated for four Academy Awards"
+    },
+    {
+      "name": "Claude Shannon",
+      "profession": "Mathematician",
+      "knownFor": [
+        "Father of Information Theory"
+      ],
+      "awards": "National Medal of Science"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Claude",
+      "year": 2005,
+      "type": "Movie",
+      "characterName": "Claude",
+      "characterDescription": "A character navigating personal and professional challenges",
+      "imdbUrl": "https://www.imdb.com/title/tt0458352/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 76
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Waning Gibbous",
+    "moonPhaseDescription": "A time for introspection and reflection.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These water signs share emotional depth and intuition.",
+    "cosmicElement": "The Dreamer",
+    "cosmicElementDescription": "Associated with creativity and imagination.",
+    "celestialArchetype": "The Artist",
+    "celestialArchetypeDescription": "Represents creativity and a unique perspective.",
+    "karmicLessons": "Embrace change and express individuality.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 70,
+    "female": 30
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 150,
+    "peakYear": 1905
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Color is my day-long obsession, joy, and torment.",
+    "author": "Claude Monet",
+    "context": "Reflecting on his approach to painting and the importance of color in his work."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Claude"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Claudio",
+      "script": "Latin",
+      "scriptName": "Claudio",
+      "pronunciation": "/ˈklaw.djo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κλαύδιος",
+      "script": "Greek",
+      "scriptName": "Κλαύδιος",
+      "pronunciation": "/ˈklav.ðios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كلود",
+      "script": "Arabic",
+      "scriptName": "كلود",
+      "pronunciation": "/kluːd/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "克劳德",
+      "script": "Han",
+      "scriptName": "克劳德",
+      "pronunciation": "/kè láo dé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Клод",
+      "script": "Cyrillic",
+      "scriptName": "Клод",
+      "pronunciation": "/klot/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קלוד",
+      "script": "Hebrew",
+      "scriptName": "קלוד",
+      "pronunciation": "/klod/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Claude has been used for centuries and is linked to historical figures and classic art."
+    },
+    {
+      "tag": "Artistic",
+      "confidence": 0.9,
+      "reason": "Associated with famous artists like Claude Monet and Claude Debussy."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Despite fluctuations in popularity, Claude remains a timeless choice."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Claude is a name rich with artistic heritage and historical significance. It has traversed centuries, from Roman emperors to iconic artists, maintaining its classic charm. While not as commonly used today, it carries a timeless appeal.",
+    "etymology_meaning": "The name Claude originates from the Latin 'Claudius', a Roman family name that means 'lame' or 'crippled'. Despite its literal meaning, it has been associated with strength and resilience.",
+    "famous_bearers": "Claude Monet, a leading figure in the Impressionist movement, and Claude Debussy, a revolutionary composer, are among the most famous bearers of this name, symbolizing the artistic legacy it carries.",
+    "pop_culture_moments": "Claude has appeared in various films and literature, including Victor Hugo's 'Les Misérables', illustrating its enduring presence in cultural narratives.",
+    "personality_profile": "Individuals named Claude are often perceived as creative, with a strong sense of individuality and artistic inclination, perhaps influenced by the legacy of their name's famous bearers.",
+    "variations_nicknames": "Variations like Claudio and Claudius offer a more formal tone, while nicknames such as Clo and Claudie provide a casual alternative.",
+    "popularity_data": "While not as prevalent in modern times, Claude reached peak popularity in the early 20th century, remaining a classic choice in many cultures.",
+    "pairing_suggestions": "Claude pairs well with names like Marie or Louise for a classic French combination, or with modern names like Olivia or Ethan for a unique blend.",
+    "cultural_context": "Culturally, Claude is deeply rooted in French history and has been a preferred choice for artists and intellectuals, adding a layer of sophistication to its bearers.",
+    "final_recommendation": "Claude is an excellent choice for parents seeking a name with historical depth and artistic flair. Its timelessness and cultural significance make it a distinguished option.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

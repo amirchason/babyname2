@@ -1,0 +1,278 @@
+{
+  "name": "Gerald",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:11:44.546Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Ruler with the spear",
+  "culturalSignificance": "The name Gerald has its roots in the Old High German elements 'ger,' meaning 'spear,' and 'wald,' meaning 'rule.' It has been a popular name in English-speaking countries since the 19th century, often associated with nobility and leadership.",
+  "modernContext": "In modern times, Gerald remains a classic name though it has seen a decline in popularity compared to its peak in the mid-20th century. It is often chosen for its traditional and strong connotations.",
+  "literaryReferences": "Gerald is a character in D.H. Lawrence's novel 'Women in Love,' where he is portrayed as a complex figure struggling with industrial and personal challenges.",
+  "pronunciationGuide": "/ˈdʒɛrəld/",
+  "variations": [
+    "Geraldo",
+    "Gerard",
+    "Jerry",
+    "Gerrit",
+    "Gerhardt"
+  ],
+  "similarNames": [
+    "Harold",
+    "Leonard",
+    "Edward",
+    "Arnold",
+    "Raymond"
+  ],
+  "nicknames": [
+    "Gerry",
+    "Jerry",
+    "G",
+    "Ged",
+    "Jed"
+  ],
+  "personality": "People with the name Gerald are often perceived as strong, reliable, and traditional. They are thought to possess leadership qualities and a sense of responsibility.",
+  "symbolism": "Gerald symbolizes strength and leadership, often associated with protection and authority due to its meaning involving a spear.",
+  "funFact": "Gerald was a popular name among European nobility during the Middle Ages, often used by rulers and leaders.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Gerald of Wales",
+      "years": "1146-1223",
+      "category": "Cleric and Writer",
+      "achievements": [
+        "Author of 'The Itinerary of Archbishop Baldwin through Wales'",
+        "Chronicler of medieval British history"
+      ],
+      "significance": "Gerald of Wales was a prominent medieval clergyman and writer known for his detailed accounts of the British Isles.",
+      "notableWorks": [
+        "The Itinerary of Archbishop Baldwin through Wales",
+        "The Description of Wales"
+      ]
+    },
+    {
+      "fullName": "Gerald Ford",
+      "years": "1913-2006",
+      "category": "Politician",
+      "achievements": [
+        "38th President of the United States",
+        "Presided over the end of the Vietnam War"
+      ],
+      "significance": "Gerald Ford became the 38th president of the United States following the resignation of Richard Nixon, noted for his efforts to restore trust in government post-Watergate.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Gerald Butler",
+      "profession": "Actor",
+      "knownFor": [
+        "300",
+        "The Phantom of the Opera"
+      ],
+      "awards": "Saturn Award for Best Actor"
+    },
+    {
+      "name": "Gerald Durrell",
+      "profession": "Naturalist and Author",
+      "knownFor": [
+        "My Family and Other Animals",
+        "The Durrell Wildlife Conservation Trust"
+      ],
+      "awards": "Order of the British Empire"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Gerald Green",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Houston Rockets",
+      "pastTeams": [
+        "Boston Celtics",
+        "Phoenix Suns"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "14",
+      "years": "2005-2020",
+      "achievements": "NBA Slam Dunk Contest champion",
+      "knownFor": [
+        "Dunking ability",
+        "Three-point shooting"
+      ],
+      "awards": "NBA Slam Dunk Contest champion",
+      "stats": "Average 9.7 points per game",
+      "verified": true,
+      "source": "NBA.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Marine",
+      "year": 2006,
+      "type": "Movie",
+      "characterName": "Gerald",
+      "characterDescription": "A minor character involved in the main plot",
+      "imdbUrl": "https://www.imdb.com/title/tt0419946/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 60
+    },
+    {
+      "title": "Finding Forrester",
+      "year": 2000,
+      "type": "Movie",
+      "characterName": "Gerald",
+      "characterDescription": "A friend of the protagonist's mentor",
+      "imdbUrl": "https://www.imdb.com/title/tt0181536/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Forest Green",
+      "hex": "#228B22"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, reliability, and a grounded nature.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Embodies authority, ambition, and a drive to guide others.",
+    "karmicLessons": "Learning to balance leadership with empathy.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desires stability and security, often in leadership roles."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 700,
+    "peak": 33,
+    "peakYear": 1930
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "Motivational context about pursuing passions."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ger-ald"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Gerardo",
+      "script": "Latin",
+      "scriptName": "Gerardo",
+      "pronunciation": "/xeˈɾaɾðo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γεράλδος",
+      "script": "Greek",
+      "scriptName": "Γεράλδος",
+      "pronunciation": "/ʝeˈralðos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيرالد",
+      "script": "Arabic",
+      "scriptName": "جيرالد",
+      "pronunciation": "/dʒɪˈraːld/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "杰拉尔德",
+      "script": "Han",
+      "scriptName": "杰拉尔德",
+      "pronunciation": "/tɕjɛ˧˥la˧˥ɚ˧˥dɤ˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джеральд",
+      "script": "Cyrillic",
+      "scriptName": "Джеральд",
+      "pronunciation": "/dʒɪˈrald/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'רלד",
+      "script": "Hebrew",
+      "scriptName": "ג'רלד",
+      "pronunciation": "/ˈdʒɛr.əld/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Gerald has been used for centuries and maintains a traditional appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has remained in use across generations, symbolizing enduring qualities."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.7,
+      "reason": "Historically associated with nobility and leadership."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Gerald is a timeless classic, evoking images of strength and leadership. Rooted in Germanic origins, it combines the powerful elements of 'spear' and 'rule,' making it a name with historical depth and modern appeal. Throughout history, Gerald has been associated with notable figures in various fields, from politics to literature.",
+    "etymology_meaning": "Gerald originates from the Old High German elements 'ger' meaning 'spear' and 'wald' meaning 'rule.' This combination suggests a powerful image of leadership and protection, qualities that have contributed to its enduring popularity.",
+    "famous_bearers": "Notable Geralds include Gerald Ford, the 38th President of the United States, and Gerald Durrell, a renowned naturalist and author. These individuals highlight the name's association with leadership and creativity.",
+    "pop_culture_moments": "In popular culture, Gerald has appeared in various films and literature, such as D.H. Lawrence's 'Women in Love.' Characters named Gerald often portray strong, complex roles, reinforcing the name’s robust image.",
+    "personality_profile": "Geralds are often seen as reliable and authoritative figures, embodying a sense of responsibility. They are perceived as natural leaders, with a pragmatic approach to life and a desire to make a meaningful impact.",
+    "variations_nicknames": "Common variations of the name include Gerry, Geraldo, and Gerard, each offering a unique twist while maintaining the core essence of the name. Nicknames like Jerry and Ged provide a more casual option.",
+    "popularity_data": "Gerald reached its peak popularity in the United States during the 1930s and 1940s but has seen a decline in recent years. Despite this, it remains a respected choice for those seeking a name with historical and cultural significance.",
+    "pairing_suggestions": "Gerald pairs well with classic names like Elizabeth or Catherine for siblings, offering a harmonious blend of tradition. For middle names, options like James or Alexander complement its strong, timeless nature.",
+    "cultural_context": "The name Gerald has roots in Germanic culture, where it was originally used by nobility. Its spread to English-speaking countries has solidified its status as a dignified name choice.",
+    "final_recommendation": "Choosing the name Gerald offers a blend of historical depth and modern relevance. It's a name that stands the test of time, perfect for parents seeking a strong, traditional name with a touch of nobility.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

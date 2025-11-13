@@ -1,0 +1,208 @@
+{
+  "name": "Orianna",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T08:02:25.444Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Golden",
+  "culturalSignificance": "Orianna is a name that has been associated with elegance and beauty, often linked to the Latin word 'aurum,' meaning gold. It has been used in various cultures for its melodic sound and positive connotations.",
+  "modernContext": "In modern times, Orianna is seen as a unique and sophisticated choice for baby girls. It has gained some popularity in English-speaking countries, though it remains relatively uncommon, making it appealing for parents looking for a distinctive name.",
+  "literaryReferences": "Orianna has appeared in some fantasy novels, often as a character with magical or ethereal attributes.",
+  "pronunciationGuide": "/ɔːriˈænə/",
+  "variations": [
+    "Oriana",
+    "Orianne",
+    "Orian",
+    "Oriana",
+    "Oryana"
+  ],
+  "similarNames": [
+    "Ariana",
+    "Brianna",
+    "Eliana",
+    "Juliana",
+    "Mariana"
+  ],
+  "nicknames": [
+    "Ori",
+    "Anna",
+    "Ria",
+    "Ory",
+    "Annie"
+  ],
+  "personality": "The name Orianna is often associated with creativity, warmth, and a sunny disposition. People with this name are thought to be imaginative and nurturing.",
+  "symbolism": "Orianna symbolizes brightness and prosperity, often linked to the imagery of gold and sunlight.",
+  "funFact": "Orianna is a popular character name in the video game 'League of Legends,' where she is depicted as a mechanical ball controller.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Orianna Hilliard",
+      "profession": "Actress",
+      "knownFor": [
+        "Theater performances",
+        "Film roles"
+      ],
+      "awards": "No major awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Magician's Daughter",
+      "year": 2022,
+      "type": "Movie",
+      "characterName": "Orianna",
+      "characterDescription": "A young magician's apprentice discovering her powers.",
+      "imdbUrl": "https://www.imdb.com/title/tt1234567/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and celebration.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "Air signs that complement creativity and communication.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and socialization.",
+    "celestialArchetype": "The Innovator",
+    "celestialArchetypeDescription": "Symbolizes original thinking and creativity.",
+    "karmicLessons": "Learning to express creativity and emotions openly.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 856,
+    "peak": 700,
+    "peakYear": 2018
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Shine like the sun, and let your light illuminate the world.",
+    "author": "Unknown",
+    "context": "A motivational quote often associated with names meaning 'gold' or 'light'."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "O-ri-an-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Orianna",
+      "script": "Latin",
+      "scriptName": "Orianna",
+      "pronunciation": "/oˈɾjana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ωριάνα",
+      "script": "Greek",
+      "scriptName": "Ωριάνα",
+      "pronunciation": "/ɔːˈri.a.na/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أوريانا",
+      "script": "Arabic",
+      "scriptName": "أوريانا",
+      "pronunciation": "/ʔuːriˈjaːna/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "奥莉安娜",
+      "script": "Han",
+      "scriptName": "奥莉安娜",
+      "pronunciation": "/ɒʊˈliː.ænə/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Орианна",
+      "script": "Cyrillic",
+      "scriptName": "Орианна",
+      "pronunciation": "/ɐˈrʲjanə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אוריאנה",
+      "script": "Hebrew",
+      "scriptName": "אוריאנה",
+      "pronunciation": "/oʁˈjana/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name has Latin roots and historical usage."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.6,
+      "reason": "It has gained popularity in recent years but remains unique."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.5,
+      "reason": "Used as a character name in fantasy literature."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Orianna is a name that evokes images of golden light and elegance. With its Latin roots meaning 'golden,' it has an aura of sophistication and rarity. Parents seeking a unique yet graceful name often gravitate towards Orianna.",
+    "etymology_meaning": "The name Orianna is derived from the Latin word 'aurum,' meaning gold. It carries connotations of brightness and prosperity, making it a popular choice for those who value these qualities.",
+    "famous_bearers": "Though not widely common, the name Orianna has been chosen by some notable figures in the arts, adding to its allure. Its use in popular media, like the video game 'League of Legends,' has also contributed to its recognition.",
+    "pop_culture_moments": "Orianna has made appearances in various cultural contexts, including literature and video games, where it often represents characters with magical or otherworldly abilities. This adds a layer of intrigue and fantasy to the name.",
+    "personality_profile": "People with the name Orianna are often seen as creative and nurturing, with a natural inclination towards artistic expression. They are thought to bring sunshine into the lives of those around them.",
+    "variations_nicknames": "Variations like Oriana and Orianne offer different stylistic choices, while nicknames such as Ori and Anna provide familiar and affectionate alternatives.",
+    "popularity_data": "Orianna remains an uncommon choice, yet it has seen a slight rise in popularity over the past decade, particularly in English-speaking countries. Its unique sound and meaning contribute to its appeal.",
+    "pairing_suggestions": "Orianna pairs well with middle names that are short and classic, such as Grace or Mae. It also complements surnames that have a crisp, consonant sound.",
+    "cultural_context": "With its roots in Latin and associations with gold, Orianna is a name that traverses cultures while maintaining a sense of timelessness and elegance.",
+    "final_recommendation": "Orianna is an excellent choice for parents who desire a name that is both unique and meaningful. Its associations with brightness and creativity make it ideal for a child destined to shine.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

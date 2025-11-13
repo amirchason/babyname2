@@ -1,0 +1,267 @@
+{
+  "name": "Eve",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:47:01.581Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Life",
+  "culturalSignificance": "Eve is a name of profound cultural significance, primarily known from the biblical story of Adam and Eve. In Judeo-Christian tradition, Eve is considered the first woman created by God and is associated with themes of life and temptation.",
+  "modernContext": "In modern times, Eve remains a popular name in many English-speaking countries. It is favored for its simplicity, elegance, and historical resonance, often chosen by parents looking for a classic yet timeless name.",
+  "literaryReferences": "Eve appears in various literary works that explore biblical themes and human nature, such as John Milton's 'Paradise Lost.'",
+  "pronunciationGuide": "/iːv/",
+  "variations": [
+    "Eva",
+    "Ava",
+    "Evelyn",
+    "Evie",
+    "Evita"
+  ],
+  "similarNames": [
+    "Ava",
+    "Eva",
+    "Evelyn",
+    "Evie",
+    "Elaine",
+    "Emily"
+  ],
+  "nicknames": [
+    "Evie",
+    "Evy",
+    "E",
+    "Vee"
+  ],
+  "personality": "The name Eve is often associated with a strong, independent personality, and a nurturing nature. It suggests a person who is compassionate and thoughtful.",
+  "symbolism": "Eve symbolizes new beginnings, life, and sometimes temptation or curiosity, drawing from the biblical narrative.",
+  "funFact": "The name Eve is often linked to the word 'evening,' as it is derived from a Hebrew word meaning 'life' or 'living.'",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism",
+      "Islam"
+    ],
+    "character": "Eve",
+    "significance": "Eve is traditionally considered the first woman created by God according to the Book of Genesis. She is a central figure in the story of the Garden of Eden.",
+    "keyStories": [
+      "The Creation of Eve",
+      "The Fall of Man"
+    ],
+    "spiritualMeaning": "Eve represents the beginning of human life and the complexities of free will.",
+    "historicalImpact": "Eve has had a significant impact on religious teachings about sin, redemption, and the role of women in society."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Eve Ensler",
+      "profession": "Playwright",
+      "knownFor": [
+        "The Vagina Monologues"
+      ],
+      "awards": "Obie Award"
+    },
+    {
+      "name": "Eve Hewson",
+      "profession": "Actress",
+      "knownFor": [
+        "The Knick",
+        "Robin Hood"
+      ],
+      "awards": "N/A"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "All About Eve",
+      "year": 1950,
+      "type": "Movie",
+      "characterName": "Eve Harrington",
+      "characterDescription": "An ambitious young actress who insinuates herself into the lives of Broadway star Margo Channing and her circle of theater friends.",
+      "imdbUrl": "https://www.imdb.com/title/tt0042192/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 92
+    },
+    {
+      "title": "Killing Eve",
+      "year": 2018,
+      "type": "TV Show",
+      "characterName": "Eve Polastri",
+      "characterDescription": "A British intelligence investigator obsessed with capturing a psychopathic assassin.",
+      "imdbUrl": "https://www.imdb.com/title/tt7016936/",
+      "genre": "Thriller",
+      "verified": true,
+      "popularity": 89
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Fasten your seatbelts, it's going to be a bumpy night.",
+      "character": "Eve Harrington",
+      "source": "All About Eve",
+      "year": 1950,
+      "context": "A famous line delivered as tensions rise during a party.",
+      "genre": "Drama",
+      "impact": "This quote is iconic in cinema, representing the film's dramatic tension."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Friday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs complement Eve's grounded nature.",
+    "cosmicElement": "Life",
+    "cosmicElementDescription": "Associated with growth and renewal.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Represents care, compassion, and growth.",
+    "karmicLessons": "Learning to balance curiosity with wisdom.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture, protect, and heal others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 374,
+    "peak": 47,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "context": "A quote about individuality and authenticity."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Eve"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Eva",
+      "script": "Latin",
+      "scriptName": "Eva",
+      "pronunciation": "/ˈeβa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εύα",
+      "script": "Greek",
+      "scriptName": "Εύα",
+      "pronunciation": "/ˈeva/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "حواء",
+      "script": "Arabic",
+      "scriptName": "حواء",
+      "pronunciation": "/ħawːaːʔ/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "夏娃",
+      "script": "Han",
+      "scriptName": "夏娃",
+      "pronunciation": "/xià wá/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ева",
+      "script": "Cyrillic",
+      "scriptName": "Ева",
+      "pronunciation": "/ˈjɛvə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חוה",
+      "script": "Hebrew",
+      "scriptName": "חוה",
+      "pronunciation": "/χa'va/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Eve: A Novel",
+      "author": "William Paul Young",
+      "publishedYear": 2015,
+      "genre": "Fiction",
+      "significance": "Explores themes of identity, creation, and redemption through a reimagining of the story of Adam and Eve.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "Eve is a central figure in the Bible, known as the first woman."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Eve has been consistently used throughout history, maintaining its appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's simplicity and historical roots give it a timeless quality."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Eve of Destruction",
+      "artist": "Barry McGuire",
+      "year": 1965,
+      "genre": "Folk Rock",
+      "nameContext": "The title and lyrics address themes of impending doom.",
+      "description": "A protest song reflecting the social and political unrest of the 1960s, capturing the fears of nuclear war and global conflict.",
+      "theme": "negative",
+      "positiveVibeScore": 3,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Eve+of+Destruction+Barry+McGuire",
+      "geniusUrl": "https://genius.com/Barry-mcguire-eve-of-destruction-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Eve is a name that resonates through history, carrying with it stories of creation and life. As the first woman in biblical lore, Eve's story is one of beginnings and new chapters. This timeless name offers a sense of elegance and simplicity that appeals to many.",
+    "etymology_meaning": "Derived from the Hebrew name Chavah, meaning 'life' or 'living,' Eve is a name steeped in history and meaning. It reflects the essence of existence and vitality.",
+    "famous_bearers": "Famous individuals named Eve include playwright Eve Ensler, known for 'The Vagina Monologues,' and actress Eve Hewson, who has made her mark in Hollywood.",
+    "pop_culture_moments": "Eve has appeared in various cultural moments, such as the classic film 'All About Eve' and the thrilling TV series 'Killing Eve,' showcasing the name's versatility and enduring appeal.",
+    "personality_profile": "Eve is often associated with a nurturing and compassionate personality. People named Eve are thought to be thoughtful, caring, and strong-willed.",
+    "variations_nicknames": "Variations of Eve include Eva and Evie, offering a range of options for parents seeking a similar sound. Nicknames like Evie add a playful touch to this classic name.",
+    "popularity_data": "Eve has maintained a steady presence in baby name charts, peaking in the 1980s but continuing to be a popular choice for its historical and cultural significance.",
+    "pairing_suggestions": "Eve pairs well with both traditional and modern names, such as Eve Marie or Eve Isabella, offering a balance of sophistication and charm.",
+    "cultural_context": "In various cultures, Eve is a name that symbolizes life and new beginnings, resonating with its biblical origins and universal themes.",
+    "final_recommendation": "Choosing the name Eve means embracing a name with deep roots and timeless elegance. It's a choice that reflects strength, life, and the beauty of simplicity.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

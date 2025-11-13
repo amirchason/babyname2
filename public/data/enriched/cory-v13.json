@@ -1,0 +1,283 @@
+{
+  "name": "Cory",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:39:37.396Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Greek",
+  "meaning": "Helmet or helmeted one",
+  "culturalSignificance": "Cory is a name that has seen usage across various cultures, primarily as a given name for both genders. It gained popularity in English-speaking countries in the mid-20th century, often perceived as modern and friendly.",
+  "modernContext": "In contemporary settings, Cory is used for both males and females, though slightly more common among males. It remains a popular choice due to its simplicity and versatility.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈkɔːri/",
+  "variations": [
+    "Corey",
+    "Kory",
+    "Corie",
+    "Corrie",
+    "Kori"
+  ],
+  "similarNames": [
+    "Cody",
+    "Casey",
+    "Cameron",
+    "Colby",
+    "Colin"
+  ],
+  "nicknames": [
+    "Cor",
+    "Coco",
+    "Rory"
+  ],
+  "personality": "Those named Cory are often perceived as approachable and friendly, with a down-to-earth personality. They are seen as adaptable and easy-going.",
+  "symbolism": "Symbolically, Cory may represent protection and strength, aligning with its meaning related to helmets.",
+  "funFact": "The name Cory was notably popularized in the United States during the 1970s and 1980s, peaking in the late 1980s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Cory Monteith",
+      "profession": "Actor",
+      "knownFor": [
+        "Finn Hudson on Glee"
+      ],
+      "awards": "Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Comedy Series"
+    },
+    {
+      "name": "Cory Doctorow",
+      "profession": "Author",
+      "knownFor": [
+        "Little Brother",
+        "Down and Out in the Magic Kingdom"
+      ],
+      "awards": "Locus Award for Best First Novel"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Cory Joseph",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Golden State Warriors",
+      "pastTeams": [
+        "San Antonio Spurs",
+        "Toronto Raptors"
+      ],
+      "position": "Point Guard",
+      "jerseyNumber": "18",
+      "years": "2011-Present",
+      "achievements": "NBA Champion (2014)",
+      "knownFor": [
+        "Defensive skills",
+        "Playmaking"
+      ],
+      "awards": "",
+      "stats": "Career averages: 7.0 points, 3.0 assists per game",
+      "verified": true,
+      "source": "https://www.nba.com/player/202709/cory-joseph"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Boy Meets World",
+      "year": 1993,
+      "type": "TV Show",
+      "characterName": "Cory Matthews",
+      "characterDescription": "The main character who navigates the challenges of adolescence and young adulthood.",
+      "imdbUrl": "https://www.imdb.com/title/tt0105958/",
+      "genre": "Comedy, Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Glee",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Finn Hudson",
+      "characterDescription": "High school quarterback who becomes a member of the glee club.",
+      "imdbUrl": "https://www.imdb.com/title/tt1327801/",
+      "genre": "Comedy, Drama, Music",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Life's tough, get a helmet.",
+      "character": "Cory Matthews",
+      "source": "Boy Meets World",
+      "year": 1993,
+      "context": "Cory gives advice to his younger brother about handling life's challenges.",
+      "genre": "Comedy, Drama",
+      "impact": "This quote reflects the show's themes of growing up and resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share an intellectual and communicative nature.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and flexibility.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to express ideas clearly and connect with others.",
+    "karmicLessons": "Balancing communication with listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Driven by a desire for expression and creativity."
+  },
+  "genderDistribution": {
+    "male": 70,
+    "female": 30
+  },
+  "ranking": {
+    "current": 504,
+    "peak": 71,
+    "peakYear": 1988
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "Cory Booker",
+    "context": "Emphasizing the importance of living a full and meaningful life."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Cor-y"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Cory",
+      "script": "Latin",
+      "scriptName": "Cory",
+      "pronunciation": "/ˈkoɾi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κόρι",
+      "script": "Greek",
+      "scriptName": "Κόρι",
+      "pronunciation": "/ˈkori/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كوري",
+      "script": "Arabic",
+      "scriptName": "كوري",
+      "pronunciation": "/ˈkoː.ri/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "科里",
+      "script": "Han",
+      "scriptName": "科里",
+      "pronunciation": "/kʰʊɚ˧˥li˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кори",
+      "script": "Cyrillic",
+      "scriptName": "Кори",
+      "pronunciation": "/ˈkorʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קורי",
+      "script": "Hebrew",
+      "scriptName": "קורי",
+      "pronunciation": "/ˈkoʁi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Little Brother",
+      "author": "Cory Doctorow",
+      "publishedYear": 2008,
+      "genre": "Science Fiction",
+      "significance": "A notable work in the genre that explores themes of privacy and government surveillance.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Cory gained popularity in modern times, especially during the late 20th century."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.8,
+      "reason": "Cory is used for both boys and girls, making it a widely recognized unisex name."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.85,
+      "reason": "The name Cory is often associated with approachable and friendly individuals."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Cory's Song",
+      "artist": "Michael Stanley Band",
+      "year": 1975,
+      "genre": "Rock",
+      "nameContext": "The song is about a person named Cory.",
+      "description": "A rock song that tells the story of someone named Cory, capturing themes of youth and nostalgia.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Cory%27s+Song+Michael+Stanley+Band",
+      "geniusUrl": "https://genius.com/Michael-stanley-band-corys-song-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Cory is a charming and versatile name with a modern flair. Often chosen for its friendly sound and easy pronunciation, Cory has been a favorite among parents for several decades. Its unisex appeal and straightforward nature make it a timeless choice.",
+    "etymology_meaning": "Derived from the Greek word 'korys', meaning helmet or helmeted one, Cory carries connotations of protection and strength. The name's origins highlight its classical roots while maintaining a contemporary feel.",
+    "famous_bearers": "Notable individuals named Cory include Cory Monteith, an actor known for his role in 'Glee', and Cory Doctorow, an acclaimed science fiction author. These figures have contributed to the name's recognition and popularity.",
+    "pop_culture_moments": "Cory Matthews from the popular TV series 'Boy Meets World' is one of the most beloved characters bearing this name. The show helped cement Cory's place in pop culture as a relatable and endearing figure.",
+    "personality_profile": "Corys are often seen as approachable and easy-going, with a knack for communication and creativity. Their friendly nature makes them popular and well-liked in social circles.",
+    "variations_nicknames": "Variations of Cory include Corey, Kory, and Corie, each offering a slightly different twist on the original. Common nicknames like Cor and Coco add an affectionate touch.",
+    "popularity_data": "Cory saw a peak in popularity during the 1980s, maintaining steady usage in the following years. It remains a well-regarded choice for parents seeking a name that is both familiar and fresh.",
+    "pairing_suggestions": "Cory pairs well with names like Ryan, Taylor, and Morgan, offering a balanced and harmonious sound. These combinations reflect a modern sensibility and cross-gender compatibility.",
+    "cultural_context": "Widely used in English-speaking countries, Cory's cultural appeal lies in its simplicity and versatility. Its Greek origins provide a historical backdrop that enriches its contemporary usage.",
+    "final_recommendation": "For parents seeking a name that is both modern and rooted in history, Cory presents an ideal choice. Its friendly vibe and unisex nature make it adaptable for a wide range of personalities.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

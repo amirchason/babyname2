@@ -1,0 +1,215 @@
+{
+  "name": "Jaden",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:39:37.395Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "God has heard",
+  "culturalSignificance": "Jaden is a modern name that gained popularity in the late 20th century. It is often seen as a variant of the Hebrew name Jadon, which appears in the Old Testament. The name has become popular in various cultures due to its contemporary sound and gender-neutral appeal.",
+  "modernContext": "Jaden has become a trendy name choice in English-speaking countries, particularly in the United States, often associated with celebrities like Jaden Smith, son of Will Smith. The name's popularity peaked in the early 2000s, reflecting the trend of names ending in '-den' such as Aiden, Brayden, and Caden.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈdʒeɪdən",
+  "variations": [
+    "Jayden",
+    "Jaiden",
+    "Jadon",
+    "Jaidyn"
+  ],
+  "similarNames": [
+    "Aiden",
+    "Brayden",
+    "Caden",
+    "Hayden",
+    "Jordan"
+  ],
+  "nicknames": [
+    "Jay",
+    "Jade",
+    "Jady"
+  ],
+  "personality": "Those named Jaden are often perceived as creative and charismatic individuals, with a strong sense of individuality and a modern flair.",
+  "symbolism": "The name Jaden is often associated with new beginnings and modernity, given its rise in contemporary naming trends.",
+  "funFact": "Jaden Smith, the actor and musician, helped popularize the name in the early 2000s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jaden Smith",
+      "profession": "Actor, Musician",
+      "knownFor": [
+        "The Pursuit of Happyness",
+        "After Earth"
+      ],
+      "awards": "BET Award for YoungStars"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "After Earth",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Kitai Raige",
+      "characterDescription": "A teenage boy who embarks on a dangerous journey to signal for help after a crash landing on a deserted Earth.",
+      "imdbUrl": "https://www.imdb.com/title/tt1815862/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 72
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "The beginning of a new cycle, representing new beginnings and fresh starts.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the element of Air, promoting communication and intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for eloquence and the ability to connect with others.",
+    "karmicLessons": "Learning to harness creativity and communication for positive impact.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express oneself creatively and connect with others."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 345,
+    "peak": 73,
+    "peakYear": 2007
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "context": "Encouraging belief in oneself and one's dreams."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ja-den"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jaden",
+      "script": "Latin",
+      "scriptName": "Jaden",
+      "pronunciation": "ˈxadɛn",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζέιντεν",
+      "script": "Greek",
+      "scriptName": "Τζέιντεν",
+      "pronunciation": "ˈdzeɪden",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جايدن",
+      "script": "Arabic",
+      "scriptName": "جايدن",
+      "pronunciation": "ˈdʒaːjen",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "杰登",
+      "script": "Han",
+      "scriptName": "杰登",
+      "pronunciation": "jié dēng",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джейден",
+      "script": "Cyrillic",
+      "scriptName": "Джейден",
+      "pronunciation": "ˈdʐejdən",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'יידן",
+      "script": "Hebrew",
+      "scriptName": "ג'יידן",
+      "pronunciation": "dʒaɪ.dɛn",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "childName": "Jaden Smith",
+      "parentNames": [
+        "Will Smith",
+        "Jada Pinkett Smith"
+      ],
+      "birthYear": 1998,
+      "context": "Jaden Smith is the son of actors Will Smith and Jada Pinkett Smith, known for his work as an actor and musician."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Jaden rose to prominence in the late 20th century, aligning with modern naming trends."
+    },
+    {
+      "tag": "Trendy",
+      "confidence": 0.85,
+      "reason": "Jaden's popularity surged in the 2000s, reflecting its trendy appeal."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.95,
+      "reason": "Jaden is commonly used for both boys and girls."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Jaden is a name that perfectly balances modern flair with a deep-rooted history. With its rise in popularity in the late 20th century, the name has become a favorite choice for parents seeking something both trendy and meaningful.",
+    "etymology_meaning": "Derived from the Hebrew name Jadon, which means 'God has heard', Jaden carries a spiritual resonance that appeals to many.",
+    "famous_bearers": "Perhaps the most well-known bearer of the name is Jaden Smith, an actor and musician who has brought further attention to this name.",
+    "pop_culture_moments": "Jaden Smith's role in movies like 'The Pursuit of Happyness' and 'After Earth' have cemented the name's place in pop culture.",
+    "personality_profile": "Individuals named Jaden are often seen as creative and expressive, with a knack for communication and an innate charisma.",
+    "variations_nicknames": "Variations like Jayden and Jaiden offer alternative spellings, while nicknames such as Jay and Jade provide a personal touch.",
+    "popularity_data": "Jaden saw a peak in popularity around 2007, reflecting its modern appeal and the influence of celebrity culture.",
+    "pairing_suggestions": "Jaden pairs well with siblings named Aiden or Jordan, creating a cohesive and trendy family name set.",
+    "cultural_context": "With its Hebrew roots and modern popularity, Jaden bridges cultural traditions and contemporary trends.",
+    "final_recommendation": "Whether you're drawn to its stylish sound or meaningful origin, Jaden is a versatile choice that fits a variety of tastes and backgrounds.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -1,0 +1,246 @@
+{
+  "name": "Jess",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:11:23.546Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "God beholds",
+  "culturalSignificance": "Jess is often used as a diminutive form of Jessica, which became popular in English-speaking countries due to Shakespeare's play 'The Merchant of Venice'. As a standalone name, Jess has been embraced for its simplicity and gender-neutral appeal.",
+  "modernContext": "In modern times, Jess is commonly used as a unisex name, appreciated for its brevity and versatility. It remains a popular choice in various English-speaking regions, often appearing in media and pop culture.",
+  "literaryReferences": "In literature, Jess is notably mentioned as a character in the novel 'Bridge to Terabithia' by Katherine Paterson, where Jess Aarons is one of the protagonists.",
+  "pronunciationGuide": "/dʒɛs/",
+  "variations": [
+    "Jessica",
+    "Jesse",
+    "Jessie",
+    "Jessy",
+    "Jessika"
+  ],
+  "similarNames": [
+    "Jesse",
+    "Jessie",
+    "Joss",
+    "Jasper",
+    "James"
+  ],
+  "nicknames": [
+    "Jay",
+    "J",
+    "Jessie"
+  ],
+  "personality": "The name Jess is often associated with individuals who are approachable, friendly, and adaptable. They are perceived as creative and independent thinkers.",
+  "symbolism": "Jess symbolizes clarity and directness, often associated with individuals who have a straightforward and honest nature.",
+  "funFact": "The name Jess saw a surge in popularity in the 1990s, particularly as a name for characters in television series, reflecting its versatile and relatable appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jess Glynne",
+      "profession": "Musician",
+      "knownFor": [
+        "Songs like 'Hold My Hand'",
+        "Grammy-winning collaborations"
+      ],
+      "awards": "Grammy Award for Best Dance Recording"
+    },
+    {
+      "name": "Jess Weixler",
+      "profession": "Actor",
+      "knownFor": [
+        "Roles in 'Teeth'",
+        "The Good Wife"
+      ],
+      "awards": "Sundance Special Jury Prize for Acting"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "New Girl",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Jess Day",
+      "characterDescription": "A quirky, optimistic teacher looking for love and friendship.",
+      "imdbUrl": "https://www.imdb.com/title/tt1826940/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Bridge to Terabithia",
+      "year": 2007,
+      "type": "Movie",
+      "characterName": "Jess Aarons",
+      "characterDescription": "A creative and artistic boy who forms a unique friendship with Leslie Burke.",
+      "imdbUrl": "https://www.imdb.com/title/tt0398808/",
+      "genre": "Adventure, Drama",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I am not afraid of storms, for I am learning how to sail my ship.",
+      "character": "Jess Aarons",
+      "source": "Bridge to Terabithia",
+      "year": 2007,
+      "context": "Jess's realization of personal growth and resilience.",
+      "genre": "Adventure, Drama",
+      "impact": "This quote highlights Jess's journey towards self-discovery and courage."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Light Blue",
+      "hex": "#ADD8E6"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for taking action and making progress.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share intellectual dynamism and creativity.",
+    "cosmicElement": "The Communicator",
+    "cosmicElementDescription": "Represents expression and interaction.",
+    "celestialArchetype": "The Visionary",
+    "celestialArchetypeDescription": "Known for forward-thinking and innovative ideas.",
+    "karmicLessons": "Embrace change and communicate openly.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desires for creativity, freedom, and expression."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 502,
+    "peak": 132,
+    "peakYear": 1991
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "context": "Encouraging individuals to overcome self-doubt and achieve their dreams."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Jess"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jess",
+      "script": "Latin",
+      "scriptName": "Jess",
+      "pronunciation": "/xes/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζες",
+      "script": "Greek",
+      "scriptName": "Τζες",
+      "pronunciation": "/dʒes/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيس",
+      "script": "Arabic",
+      "scriptName": "جيس",
+      "pronunciation": "/dʒis/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "杰斯",
+      "script": "Han",
+      "scriptName": "杰斯",
+      "pronunciation": "/jié sī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джесс",
+      "script": "Cyrillic",
+      "scriptName": "Джесс",
+      "pronunciation": "/dʒɛs/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ס",
+      "script": "Hebrew",
+      "scriptName": "ג'ס",
+      "pronunciation": "/dʒes/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Bridge to Terabithia",
+      "author": "Katherine Paterson",
+      "publishedYear": 1977,
+      "genre": "Fiction",
+      "significance": "A classic novel exploring friendship and imagination.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Jess is a contemporary and gender-neutral choice popular in modern times."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Appears in well-known literature such as 'Bridge to Terabithia'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been consistently used across generations."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Jess is a name that exudes simplicity and charm, often chosen for its effortless appeal. Whether as a standalone name or a diminutive, it carries a sense of warmth and friendliness that is hard to resist.",
+    "etymology_meaning": "Rooted in Hebrew, Jess is traditionally a diminutive form of Jessica, meaning 'God beholds'. Over time, it has established itself as a standalone name with universal appeal.",
+    "famous_bearers": "Famous individuals like musician Jess Glynne and actor Jess Weixler have brought contemporary recognition to the name, showcasing its adaptability across various fields.",
+    "pop_culture_moments": "The name Jess has appeared in popular media, such as the TV show 'New Girl' and the film 'Bridge to Terabithia', further cementing its place in pop culture.",
+    "personality_profile": "People named Jess are often seen as approachable and creative, with a knack for communication and expression. They are known for their bright, optimistic personalities.",
+    "variations_nicknames": "Variations of Jess include Jessica, Jesse, and Jessie, while common nicknames are Jay and J. These offer flexibility for personal preference.",
+    "popularity_data": "While Jess peaked in popularity in the 1990s, it remains a favored choice for those seeking a simple yet impactful name.",
+    "pairing_suggestions": "Jess pairs well with names like Alex, Taylor, and Jordan, which share similar unisex appeal and modern sensibility.",
+    "cultural_context": "With origins in Hebrew, Jess has transcended its roots to become a globally recognized name, appreciated for its straightforwardness and charm.",
+    "final_recommendation": "Choosing Jess is a nod to timeless simplicity and modern versatility. It's a name that fits well in any context, offering a sense of familiarity and warmth.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

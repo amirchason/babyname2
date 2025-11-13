@@ -1,0 +1,227 @@
+{
+  "name": "Annemarie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:44:32.634Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew and Latin",
+  "meaning": "Grace and bitter",
+  "culturalSignificance": "Annemarie is a combination of the names Anne and Marie, popular in Dutch and German cultures. It has been used to honor Saint Anne, the mother of the Virgin Mary, and is seen as a name that carries both religious and historical weight.",
+  "modernContext": "In modern times, Annemarie remains a popular name in European countries, though less common in English-speaking regions. It is often chosen for its classic and timeless appeal, blending tradition with a modern feel.",
+  "literaryReferences": "Annemarie appears in Lois Lowry's novel 'Number the Stars', where the protagonist is named Annemarie Johansen, highlighting the name's strong and courageous connotations.",
+  "pronunciationGuide": "/ˌænəˈmɑːri/",
+  "variations": [
+    "Annemaria",
+    "Annemari",
+    "Annemary",
+    "Anne-Marie",
+    "Anna-Marie"
+  ],
+  "similarNames": [
+    "Anne",
+    "Marie",
+    "Anna",
+    "Maria",
+    "Marianne"
+  ],
+  "nicknames": [
+    "Anne",
+    "Annie",
+    "Marie",
+    "Ria",
+    "Mimi"
+  ],
+  "personality": "Annemarie is often associated with individuals who are nurturing and compassionate, embodying grace and a strong sense of justice.",
+  "symbolism": "The name Annemarie symbolizes grace and strength, often linked to individuals who are seen as natural leaders with a deep sense of empathy.",
+  "funFact": "The name Annemarie gained popularity following the publication of 'Number the Stars', which won the Newbery Medal in 1990.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Annemarie Schwarzenbach",
+      "profession": "Writer and Photographer",
+      "knownFor": [
+        "Travel writings",
+        "Photography"
+      ],
+      "awards": "N/A"
+    },
+    {
+      "name": "Annemarie Moser-Pröll",
+      "profession": "Alpine Ski Racer",
+      "knownFor": [
+        "Winning six overall World Cup titles",
+        "Olympic gold medalist"
+      ],
+      "awards": "Olympic gold medal in 1980"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Number the Stars",
+      "year": 1996,
+      "type": "TV Movie",
+      "characterName": "Annemarie Johansen",
+      "characterDescription": "A young Danish girl who helps her Jewish friend escape the Nazis.",
+      "imdbUrl": "https://www.imdb.com/title/tt0117194/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and gaining momentum.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Annemarie's nurturing nature aligns well with water signs, known for their emotional depth.",
+    "cosmicElement": "The Empath",
+    "cosmicElementDescription": "Represents deep emotional understanding and connection.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing and restoring balance.",
+    "karmicLessons": "To learn the importance of emotional expression and boundaries.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a deep desire to care for and nurture others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 854,
+    "peak": 234,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "context": "A quote that embodies resilience and perseverance."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "An-ne-ma-rie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Anamaría",
+      "script": "Latin",
+      "scriptName": "Anamaría",
+      "pronunciation": "/ˌanaˈmaɾia/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ανναμαρία",
+      "script": "Greek",
+      "scriptName": "Ανναμαρία",
+      "pronunciation": "/anamarˈia/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أناماري",
+      "script": "Arabic",
+      "scriptName": "أناماري",
+      "pronunciation": "/ʔanaˈmaːri/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安娜玛丽",
+      "script": "Han",
+      "scriptName": "安娜玛丽",
+      "pronunciation": "/ān nà mǎ lì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Аннемари",
+      "script": "Cyrillic",
+      "scriptName": "Аннемари",
+      "pronunciation": "/anʲɪˈmarʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנמרי",
+      "script": "Hebrew",
+      "scriptName": "אנמרי",
+      "pronunciation": "/ʔanemari/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Number the Stars",
+      "author": "Lois Lowry",
+      "publishedYear": 1989,
+      "genre": "Historical Fiction",
+      "significance": "A Newbery Medal-winning novel that highlights courage and friendship during WWII.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been consistently used across generations and cultures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Featured prominently in significant literary works like 'Number the Stars'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has maintained popularity over a long period."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Annemarie is a name that gracefully bridges the gap between tradition and modernity. With its roots in Hebrew and Latin, this name carries a rich history while maintaining a contemporary feel. Whether you're drawn to its cultural depth or its melodic sound, Annemarie is a choice that resonates with timeless elegance.",
+    "etymology_meaning": "Derived from the Hebrew name Anne, meaning 'grace', and the Latin Maria, meaning 'bitter', Annemarie combines two powerful meanings. It's a name that suggests a balance between grace and fortitude, making it a popular choice across various cultures.",
+    "famous_bearers": "Notable individuals named Annemarie include Annemarie Schwarzenbach, a renowned Swiss writer and photographer, and Annemarie Moser-Pröll, an Austrian alpine ski racer with multiple World Cup titles. These figures highlight the name's association with creativity and athleticism.",
+    "pop_culture_moments": "In pop culture, Annemarie is prominently featured in Lois Lowry's 'Number the Stars', a classic piece of literature that has inspired many with its themes of bravery and friendship. Such appearances have helped keep the name in the public eye.",
+    "personality_profile": "Those named Annemarie are often perceived as nurturing and empathetic, with a natural inclination towards leadership. Their grace and resilience make them well-suited for roles that require both compassion and strength.",
+    "variations_nicknames": "Variations of Annemarie include Annemaria and Anne-Marie, offering a range of options for personalization. Common nicknames like Anne, Marie, and Annie add to its versatility and appeal.",
+    "popularity_data": "Annemarie has seen varying levels of popularity over the years, peaking in usage during the late 20th century in several European countries. Its charm and classic appeal ensure it remains a cherished choice for many parents.",
+    "pairing_suggestions": "When considering sibling names, Annemarie pairs well with classic names like Alexander for a boy or Elizabeth for a girl. These combinations complement its timeless elegance and cultural depth.",
+    "cultural_context": "Annemarie carries significant cultural weight, particularly in Dutch and German-speaking regions. Its religious undertones and literary associations add layers of meaning, making it a name rich in heritage.",
+    "final_recommendation": "For those seeking a name that embodies both strength and grace, Annemarie is a compelling choice. Its historical roots and enduring popularity make it a name that will stand the test of time, offering a connection to tradition while embracing modern trends.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

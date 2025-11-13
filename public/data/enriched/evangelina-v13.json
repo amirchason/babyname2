@@ -1,0 +1,215 @@
+{
+  "name": "Evangelina",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:49:46.441Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Good news",
+  "culturalSignificance": "Evangelina is a name derived from the Greek word 'euangelion', meaning 'good news'. It has been used traditionally in cultures with strong Christian influences, as it aligns with the concept of the Gospel, which is also referred to as 'good news'.",
+  "modernContext": "In modern times, Evangelina is appreciated for its melodic sound and historical resonance. It is considered a classic name that remains popular in various parts of Europe and Latin America.",
+  "literaryReferences": "Evangelina has appeared in various literary works as a character name symbolizing purity and hope.",
+  "pronunciationGuide": "/ˌɛvænˈdʒɛlɪnə/",
+  "variations": [
+    "Evangelia",
+    "Evangeline",
+    "Evangelin",
+    "Evangela",
+    "Evangelique"
+  ],
+  "similarNames": [
+    "Angelina",
+    "Evangeline",
+    "Evelina",
+    "Evangela",
+    "Evelyn"
+  ],
+  "nicknames": [
+    "Eva",
+    "Lina",
+    "Angie",
+    "Vangie"
+  ],
+  "personality": "People named Evangelina are often perceived as kind-hearted and optimistic, exuding warmth and friendliness.",
+  "symbolism": "The name Evangelina symbolizes positivity and hope, often associated with bringing good news.",
+  "funFact": "Evangelina is a name that has been particularly popular in Spanish-speaking countries, often chosen for its religious connotations.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "",
+    "significance": "The name is symbolically linked to the Christian Gospel, which means 'good news'.",
+    "keyStories": [],
+    "spiritualMeaning": "Evangelina carries a spiritual connotation of spreading joy and positive messages.",
+    "historicalImpact": "The name reinforces the Christian tradition of evangelism, which is the act of spreading the Gospel."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Evangelina Elizondo",
+      "profession": "Actress",
+      "knownFor": [
+        "Voice of Cinderella in the Spanish version of the Disney film"
+      ],
+      "awards": "Ariel Award for Best Actress"
+    },
+    {
+      "name": "Evangelina Anderson",
+      "profession": "Model and Actress",
+      "knownFor": [
+        "Various television appearances in Argentina"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Young and the Restless",
+      "year": 1973,
+      "type": "TV Show",
+      "characterName": "Evangelina",
+      "characterDescription": "A character who brings hope and change to the storyline.",
+      "imdbUrl": "https://www.imdb.com/title/tt0069658/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share similar intellectual and communicative traits.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect and connection.",
+    "celestialArchetype": "The Messenger",
+    "celestialArchetypeDescription": "Symbolizes communication and dissemination of ideas.",
+    "karmicLessons": "To embrace and share positivity.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Evangelina seeks freedom and adventure, often driven by curiosity."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 567,
+    "peak": 245,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The name Evangelina carries with it a legacy of hope and joy, reminding us of the importance of spreading positivity.",
+    "author": "Morgan Lee",
+    "context": "A reflection on the significance of names."
+  },
+  "syllables": {
+    "count": 5,
+    "breakdown": "E-van-ge-li-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Evangelina",
+      "script": "Latin",
+      "scriptName": "Evangelina",
+      "pronunciation": "/eβanxeˈlina/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ευαγγελίνα",
+      "script": "Greek",
+      "scriptName": "Ευαγγελίνα",
+      "pronunciation": "/e.va.ŋeˈli.na/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إيفانجلينا",
+      "script": "Arabic",
+      "scriptName": "إيفانجلينا",
+      "pronunciation": "/iː.fan.dʒeˈliː.na/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "伊万杰琳娜",
+      "script": "Han",
+      "scriptName": "伊万杰琳娜",
+      "pronunciation": "/yī wàn jié lín nà/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Евангелина",
+      "script": "Cyrillic",
+      "scriptName": "Евангелина",
+      "pronunciation": "/jɪvənɡʲɪˈlʲinə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אוונגלינה",
+      "script": "Hebrew",
+      "scriptName": "אוונגלינה",
+      "pronunciation": "/evanɡelina/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical roots and has been consistently used over time."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Associated with the Christian Gospel meaning 'good news'."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Frequently used in literature to denote characters with positive traits."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Evangelina carries with it an air of grace and optimism. With its roots deeply embedded in the concept of 'good news', it embodies a legacy that is both uplifting and timeless. Whether you're considering it for its melodic sound or its profound meaning, Evangelina is a choice that resonates with positivity.",
+    "etymology_meaning": "Evangelina originates from the Greek word 'euangelion', which translates to 'good news'. This etymology ties the name closely to Christian traditions where the Gospel is also known as the 'good news'.",
+    "famous_bearers": "Notable individuals named Evangelina include Evangelina Elizondo, renowned for her role as the voice of Cinderella in the Spanish version of the Disney film, and Evangelina Anderson, a popular model and actress in Argentina.",
+    "pop_culture_moments": "Evangelina has made appearances in various TV shows and literature, often symbolizing characters of hope and positivity. Its usage in pop culture underscores its timeless appeal.",
+    "personality_profile": "Those named Evangelina are often seen as radiant and compassionate, bringing light and joy to those around them. They are known for their warm personalities and ability to inspire others.",
+    "variations_nicknames": "Evangelina offers versatility with nicknames like Eva, Lina, and Angie, and variations such as Evangeline and Evangelia, each adding a unique twist to the name.",
+    "popularity_data": "Evangelina enjoys popularity in Spanish-speaking regions and has maintained a steady presence on baby name charts, peaking in the early 2010s.",
+    "pairing_suggestions": "Evangelina pairs beautifully with classic middle names like Grace or Marie, creating a harmonious blend. It also complements more modern choices such as Skye or Willow.",
+    "cultural_context": "Culturally, Evangelina is embraced for its historical resonance and religious significance, particularly within Christian communities. It is a name that bridges tradition and contemporary appeal.",
+    "final_recommendation": "If you're looking for a name that exudes positivity and elegance, Evangelina is an excellent choice. Its rich history and beautiful sound make it a timeless option for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

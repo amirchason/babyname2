@@ -1,0 +1,274 @@
+{
+  "name": "Jenny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:25:22.326Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "God is gracious",
+  "culturalSignificance": "Jenny is a diminutive of Jane and Jennifer, both of which have roots in the Hebrew name Yochanan, meaning 'God is gracious.' It gained popularity in the English-speaking world during the 19th century and has remained a common choice for girls.",
+  "modernContext": "In modern times, Jenny is often seen as a friendly and approachable name. It peaked in popularity during the 1970s and 1980s and remains a well-loved name due to its timeless appeal and simplicity.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈd͡ʒɛni/",
+  "variations": [
+    "Jennie",
+    "Jenni",
+    "Jenn",
+    "Jennifer",
+    "Jenna"
+  ],
+  "similarNames": [
+    "Jessica",
+    "Jenna",
+    "Jill",
+    "Julie",
+    "Judy"
+  ],
+  "nicknames": [
+    "Jen",
+    "J",
+    "Nini",
+    "Jenna"
+  ],
+  "personality": "People named Jenny are often perceived as kind, approachable, and fun-loving. They have a warm, engaging personality that draws people in.",
+  "symbolism": "The name Jenny symbolizes grace and graciousness, reflecting a gentle and kind nature.",
+  "funFact": "Jenny was one of the most popular names in the United States during the 1970s and 1980s, often used as a standalone name and as a nickname for Jennifer.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jenny McCarthy",
+      "profession": "Actress",
+      "knownFor": [
+        "The Jenny McCarthy Show",
+        "Scream 3"
+      ],
+      "awards": "Golden Apple Award"
+    },
+    {
+      "name": "Jenny Slate",
+      "profession": "Comedian",
+      "knownFor": [
+        "Saturday Night Live",
+        "Parks and Recreation"
+      ],
+      "awards": "Critics' Choice Movie Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Forrest Gump",
+      "year": 1994,
+      "type": "Movie",
+      "characterName": "Jenny Curran",
+      "characterDescription": "Forrest's lifelong love interest, whose life takes many turns.",
+      "imdbUrl": "https://www.imdb.com/title/tt0109830/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "Love Story",
+      "year": 1970,
+      "type": "Movie",
+      "characterName": "Jenny Cavilleri",
+      "characterDescription": "A smart and beautiful music student who falls in love with Oliver.",
+      "imdbUrl": "https://www.imdb.com/title/tt0066011/",
+      "genre": "Romance",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Run, Forrest, run!",
+      "character": "Jenny Curran",
+      "source": "Forrest Gump",
+      "year": 1994,
+      "context": "Encouraging Forrest to escape bullies.",
+      "genre": "Drama",
+      "impact": "Became an iconic line symbolizing motivation and perseverance."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Pearl",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A phase of completion and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These water signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents fluidity, intuition, and emotion.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes care, empathy, and support.",
+    "karmicLessons": "Learning to express emotions openly.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and care for others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 15,
+    "peakYear": 1977
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Sometimes the smallest things take up the most room in your heart.",
+    "author": "Winnie the Pooh",
+    "context": "The impact of love and kindness."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jen-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jenny",
+      "script": "Latin",
+      "scriptName": "Jenny",
+      "pronunciation": "/ˈxeni/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζένη",
+      "script": "Greek",
+      "scriptName": "Τζένη",
+      "pronunciation": "/ˈdzeni/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيني",
+      "script": "Arabic",
+      "scriptName": "جيني",
+      "pronunciation": "/ˈd͡ʒeːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "珍妮",
+      "script": "Han",
+      "scriptName": "珍妮",
+      "pronunciation": "/Zhēnnī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дженни",
+      "script": "Cyrillic",
+      "scriptName": "Дженни",
+      "pronunciation": "/ˈdʒɛnʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ני",
+      "script": "Hebrew",
+      "scriptName": "ג'ני",
+      "pronunciation": "/ˈd͡ʒɛni/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Jenny's Adventures",
+      "author": "Author Unknown",
+      "publishedYear": 1980,
+      "genre": "Fiction",
+      "significance": "A popular children's book featuring a character named Jenny who embarks on various adventures.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Has been used consistently over the decades."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Retains popularity across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in various books and films."
+    }
+  ],
+  "songs": [
+    {
+      "title": "867-5309/Jenny",
+      "artist": "Tommy Tutone",
+      "year": 1981,
+      "genre": "Rock",
+      "nameContext": "Jenny is the subject of the song.",
+      "description": "A catchy rock song about a girl named Jenny, whose phone number became famous.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=867-5309+Jenny",
+      "geniusUrl": "https://genius.com/Tommy-tutone-867-5309-jenny-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Jenny from the Block",
+      "artist": "Jennifer Lopez",
+      "year": 2002,
+      "genre": "Pop",
+      "nameContext": "Jenny is a reference to Jennifer Lopez's nickname.",
+      "description": "A pop song by Jennifer Lopez emphasizing her roots and staying grounded despite fame.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jenny+from+the+Block",
+      "geniusUrl": "https://genius.com/Jennifer-lopez-jenny-from-the-block-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jenny is a name that exudes charm and friendliness, often associated with warmth and kindness. Its simplicity and elegance have made it a perennial favorite among parents. Whether as a standalone name or a diminutive of Jennifer, Jenny has a timeless appeal.",
+    "etymology_meaning": "The name Jenny is derived from the Old French name 'Genevieve' and the English name 'Jane,' both of which have roots in the Hebrew name 'Yochanan,' meaning 'God is gracious.' Over time, Jenny evolved as a standalone name and gained popularity for its sweet and approachable sound.",
+    "famous_bearers": "Notable bearers of the name include Jenny McCarthy, an American actress and television host, and Jenny Slate, a renowned comedian and actress. These individuals have contributed to the name's fame through their achievements in entertainment.",
+    "pop_culture_moments": "One of the most iconic cultural references to the name Jenny is in the movie 'Forrest Gump,' where Jenny Curran is a central character. The song '867-5309/Jenny' by Tommy Tutone also popularized the name through its catchy tune.",
+    "personality_profile": "Jenny is often seen as a name that resonates with kindness and amiability. People named Jenny are thought to be compassionate, empathetic, and strong-willed, often having a nurturing personality that makes them beloved by friends and family.",
+    "variations_nicknames": "Common variations of Jenny include Jennie, Jenni, and Jennifer. Nicknames such as Jen and Nini add an affectionate touch, allowing for a range of informal and endearing options.",
+    "popularity_data": "Jenny experienced a surge in popularity during the 1970s and 1980s, particularly in the United States, where it became one of the top choices for girls' names. Its use has declined slightly since then but remains a classic choice.",
+    "pairing_suggestions": "Jenny pairs well with both traditional and modern middle names, such as Jenny Marie or Jenny Grace. Sibling names like Emily, Michael, or David complement its timeless style.",
+    "cultural_context": "Jenny's rise in popularity can be attributed to its use in various cultures and languages, making it a versatile name choice. Its simplicity and international appeal have helped it maintain relevance across different regions.",
+    "final_recommendation": "Jenny is a name that offers both grace and charm, making it a wonderful choice for those seeking a name with a touch of classic elegance. Its cultural and historical roots provide depth, while its modern usage ensures it remains fresh and appealing.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

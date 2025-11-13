@@ -1,0 +1,225 @@
+{
+  "name": "Flor",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:52:09.068Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Flower",
+  "culturalSignificance": "Flor is a name with roots in Latin, where it simply means 'flower'. It has been used in various cultures, particularly in Spanish-speaking countries, where it often symbolizes beauty and nature.",
+  "modernContext": "In contemporary times, Flor is used as both a given name and a surname. It remains popular in Latin America and among Hispanic communities in the United States, partly due to its simplicity and natural connotation.",
+  "literaryReferences": "Flor is a character name in the novel 'The House of the Spirits' by Isabel Allende, which highlights themes of family and political upheaval.",
+  "pronunciationGuide": "/flɔːr/",
+  "variations": [
+    "Flora",
+    "Fleur",
+    "Fiorella",
+    "Flore",
+    "Florinda"
+  ],
+  "similarNames": [
+    "Flora",
+    "Florence",
+    "Fiona",
+    "Faith",
+    "Fern"
+  ],
+  "nicknames": [
+    "Flo",
+    "Flori",
+    "Florrie"
+  ],
+  "personality": "Names like Flor are often associated with gentle and nurturing personalities, reflecting a connection to nature and beauty.",
+  "symbolism": "The name Flor symbolizes blooming, growth, and the natural beauty of flowers.",
+  "funFact": "Flor is also the name of a genus of butterflies, emphasizing its connection to nature.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Flor Silvestre",
+      "profession": "Singer and Actress",
+      "knownFor": [
+        "La Cruz del Olvido",
+        "El Cielo Rojo"
+      ],
+      "awards": "Latin Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Flor Amargo",
+      "profession": "Musician",
+      "knownFor": [
+        "Semillas",
+        "Bachata Rosa"
+      ],
+      "awards": "Nominations for Premio Lo Nuestro"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Spanglish",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Flor Moreno",
+      "characterDescription": "A Mexican housekeeper working for an affluent family in Los Angeles.",
+      "imdbUrl": "https://www.imdb.com/title/tt0371246/",
+      "genre": "Comedy, Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "No English, no problem.",
+      "character": "Flor Moreno",
+      "source": "Spanglish",
+      "year": 2004,
+      "context": "Flor's approach to working in an English-speaking environment despite language barriers.",
+      "genre": "Comedy, Drama",
+      "impact": "Highlights the cultural and language barriers faced by immigrants."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of fullness, energy, and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs align with the nurturing and stable qualities associated with the name Flor.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents grounding, stability, and nurturing growth.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing and providing comfort to others.",
+    "karmicLessons": "Learning to find beauty in growth and transformation.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for nurturing relationships and creating harmony in one's environment."
+  },
+  "genderDistribution": {
+    "male": 10,
+    "female": 90
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 350,
+    "peakYear": 2015
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Where flowers bloom, so does hope.",
+    "author": "Lady Bird Johnson",
+    "context": "Reflecting the beauty and hope symbolized by flowers."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Flor"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Flor",
+      "script": "Latin",
+      "scriptName": "Flor",
+      "pronunciation": "/floɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Φλορ",
+      "script": "Greek",
+      "scriptName": "Φλορ",
+      "pronunciation": "/floɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "فلور",
+      "script": "Arabic",
+      "scriptName": "فلور",
+      "pronunciation": "/flor/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "弗洛尔",
+      "script": "Han",
+      "scriptName": "弗洛尔",
+      "pronunciation": "/fuː luoː ɚ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Флор",
+      "script": "Cyrillic",
+      "scriptName": "Флор",
+      "pronunciation": "/flor/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פלור",
+      "script": "Hebrew",
+      "scriptName": "פלור",
+      "pronunciation": "/floɾ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Nature-inspired",
+      "confidence": 0.9,
+      "reason": "Flor directly translates to 'flower' in several languages, making it a name inspired by nature."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name Flor has been used historically in various cultures, giving it a classic appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "Due to its natural and simple meaning, Flor remains a timeless choice."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Flor is a name that evokes natural beauty and simplicity. With its Latin roots meaning 'flower', it carries an inherent grace and elegance. Whether used as a first name or a surname, Flor maintains its charm across different cultures and languages.",
+    "etymology_meaning": "The name Flor originates from the Latin word for 'flower'. It is widely used in Spanish-speaking countries, where it symbolizes beauty, growth, and nature's bounty.",
+    "famous_bearers": "Notable people with the name include Flor Silvestre, a celebrated Mexican singer and actress known for her contributions to music and cinema.",
+    "pop_culture_moments": "Flor Moreno, the protagonist in the movie 'Spanglish', brought the name to a wider audience, highlighting themes of cultural integration and personal resilience.",
+    "personality_profile": "Names like Flor are often associated with nurturing and gentle personalities. Those with this name are perceived as caring, grounded, and in tune with nature.",
+    "variations_nicknames": "Variations of Flor include Flora and Fleur, each adding a unique twist while maintaining the original meaning. Common nicknames like Flo and Flori add a casual, affectionate touch.",
+    "popularity_data": "Flor has enjoyed steady popularity, especially in Latin America and among Hispanic communities. It peaked in the mid-2010s, reflecting a trend towards nature-inspired names.",
+    "pairing_suggestions": "Flor pairs well with names like Rose or Lily, creating a harmonious blend of floral-inspired names. It also complements strong, classic names like Isabel or Sofia.",
+    "cultural_context": "Flor's cultural background is rich, with deep roots in Latin American traditions. It is often chosen to reflect cultural heritage and a connection to the natural world.",
+    "final_recommendation": "If you're looking for a name that combines simplicity with elegance, Flor is a perfect choice. Its timeless appeal and nature-inspired meaning make it suitable for those who value tradition and beauty.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

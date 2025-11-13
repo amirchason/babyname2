@@ -1,0 +1,262 @@
+{
+  "name": "Katie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:12:00.262Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Pure",
+  "culturalSignificance": "Katie is a diminutive of Katherine, which has been popular in English-speaking countries for centuries. The name's popularity has been bolstered by its association with royalty and saints, contributing to its timeless appeal.",
+  "modernContext": "In modern times, Katie remains a popular name, often chosen for its friendly and approachable sound. It is commonly used in the United States and the UK and often appears in various forms of media.",
+  "literaryReferences": "Katie is a common character name in children's literature, often symbolizing innocence and curiosity.",
+  "pronunciationGuide": "ˈkeɪti",
+  "variations": [
+    "Kate",
+    "Katherine",
+    "Kathleen",
+    "Katy",
+    "Kaitlyn"
+  ],
+  "similarNames": [
+    "Anna",
+    "Emma",
+    "Lucy",
+    "Hannah",
+    "Chloe"
+  ],
+  "nicknames": [
+    "Kat",
+    "Kate",
+    "Kay",
+    "Kiki"
+  ],
+  "personality": "The name Katie is often associated with vibrant, cheerful, and sociable individuals. People named Katie are seen as approachable and kind-hearted.",
+  "symbolism": "Katie symbolizes purity and innocence, reflecting its meaning derived from the Greek name Aikaterine.",
+  "funFact": "Katie was among the top 100 most popular girls' names in the United States during the 1980s and 1990s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Katie Holmes",
+      "profession": "Actor",
+      "knownFor": [
+        "Dawson's Creek",
+        "Batman Begins"
+      ],
+      "awards": "Satellite Award for Best Actress – Miniseries or Television Film"
+    },
+    {
+      "name": "Katie Couric",
+      "profession": "Journalist",
+      "knownFor": [
+        "CBS Evening News",
+        "Today"
+      ],
+      "awards": "Peabody Award"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Katie Ledecky",
+      "profession": "Athlete",
+      "sport": "Swimming",
+      "league": "Olympics",
+      "team": "USA Swimming Team",
+      "pastTeams": [],
+      "position": "Freestyle Swimmer",
+      "jerseyNumber": "",
+      "years": "2012-Present",
+      "achievements": "7 Olympic gold medals, 15 World Championship gold medals",
+      "knownFor": [
+        "Long-distance freestyle",
+        "World records"
+      ],
+      "awards": "FINA Swimmer of the Year",
+      "stats": "Multiple world records in 400m, 800m, and 1500m freestyle",
+      "verified": true,
+      "source": "https://www.teamusa.org/"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Way Way Back",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Katie",
+      "characterDescription": "A lifeguard at the water park",
+      "imdbUrl": "https://www.imdb.com/title/tt1727388/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    },
+    {
+      "title": "Paranormal Activity",
+      "year": 2007,
+      "type": "Movie",
+      "characterName": "Katie",
+      "characterDescription": "A woman experiencing supernatural activities",
+      "imdbUrl": "https://www.imdb.com/title/tt1179904/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes clarity and completion",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection and intuition.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Represents nurturing and healing qualities.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for empathy and the ability to comfort others.",
+    "karmicLessons": "To embrace emotional intelligence and empathy.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and balance in all aspects of life."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 38,
+    "peakYear": 1987
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Pure things are always inspiring.",
+    "author": "Anonymous",
+    "context": "A reflection on purity and inspiration."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ka-tie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Catalina",
+      "script": "Latin",
+      "scriptName": "Catalina",
+      "pronunciation": "kataˈlina",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κατερίνα",
+      "script": "Greek",
+      "scriptName": "Κατερίνα",
+      "pronunciation": "kateˈrina",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كاتي",
+      "script": "Arabic",
+      "scriptName": "كاتي",
+      "pronunciation": "kaːti",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "凯蒂",
+      "script": "Han",
+      "scriptName": "凯蒂",
+      "pronunciation": "kǎi dì",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Катя",
+      "script": "Cyrillic",
+      "scriptName": "Катя",
+      "pronunciation": "ˈkatʲə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קייטי",
+      "script": "Hebrew",
+      "scriptName": "קייטי",
+      "pronunciation": "kɛɪti",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Katie has historical roots and consistent popularity."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has remained popular across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Frequently used in literature and media."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Katie's Song",
+      "artist": "The Hollies",
+      "year": 1974,
+      "genre": "Rock",
+      "nameContext": "The song is a tribute to a girl named Katie.",
+      "description": "A heartfelt rock ballad expressing admiration and love for Katie.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Katie's+Song+The+Hollies",
+      "geniusUrl": "https://genius.com/search?q=Katie's+Song+The+Hollies",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Katie is a name that has charmed parents and children alike for decades. With its roots in the classic name Katherine, it exudes a sense of purity and timelessness. Whether you're considering this name for your child or simply curious about its cultural impact, Katie offers a rich tapestry of history and modern relevance.",
+    "etymology_meaning": "Katie is a diminutive form of Katherine, which originates from the Greek name Aikaterine, meaning 'pure.' This etymology has contributed to the name's enduring appeal across cultures and generations.",
+    "famous_bearers": "Famous bearers of the name Katie include Katie Holmes, an acclaimed actress known for her role in 'Dawson's Creek,' and Katie Couric, a renowned journalist and television host. Their contributions to entertainment and media have kept the name in the public eye.",
+    "pop_culture_moments": "Katie has appeared in various films and shows, such as 'Paranormal Activity,' where the character Katie experiences eerie supernatural events. This widespread usage in pop culture reflects the name's versatility and appeal.",
+    "personality_profile": "The name Katie is often associated with warmth, friendliness, and a nurturing spirit. Individuals named Katie are typically seen as compassionate and approachable, making them beloved in social circles.",
+    "variations_nicknames": "Katie has several variations and nicknames, including Kate, Katy, and Kat. These variations add a personal touch and allow for flexibility in different cultural contexts.",
+    "popularity_data": "Katie reached its peak popularity in the late 20th century, ranking highly among girls' names in English-speaking countries. Despite shifts in naming trends, it remains a popular choice for its simplicity and charm.",
+    "pairing_suggestions": "Katie pairs well with classic middle names like Elizabeth or modern choices like Grace. This versatility makes it suitable for a variety of naming styles and combinations.",
+    "cultural_context": "Culturally, Katie is embraced in both Western and Eastern contexts, adapted into various forms and languages. Its universal appeal is a testament to its adaptability and enduring charm.",
+    "final_recommendation": "If you're looking for a name that embodies purity and timeless elegance, Katie might be the perfect choice. Its rich history and cultural significance make it a name that will never go out of style.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

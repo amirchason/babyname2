@@ -1,0 +1,338 @@
+{
+  "name": "Louis",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:09:58.495Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Famed warrior",
+  "culturalSignificance": "Louis is a name with strong royal associations, having been borne by 18 kings of France, including Louis XIV, known as the Sun King. It has been a popular name in various Western countries, signifying nobility and strength.",
+  "modernContext": "In modern times, Louis remains a popular choice, often appearing in the top 100 names in countries like France and the United States. It has been revitalized in recent years due to cultural icons and celebrities choosing the name for their children.",
+  "literaryReferences": "Louis appears in numerous literary works, often used to denote characters of nobility or leadership.",
+  "pronunciationGuide": "/ˈluː.i/",
+  "variations": [
+    "Lewis",
+    "Ludwig",
+    "Luigi",
+    "Luis",
+    "Louie"
+  ],
+  "similarNames": [
+    "Lucas",
+    "Leo",
+    "Liam",
+    "Luca",
+    "Laurent"
+  ],
+  "nicknames": [
+    "Lou",
+    "Louie",
+    "Lulu"
+  ],
+  "personality": "The name Louis is often associated with leadership, charisma, and a strong sense of responsibility. People named Louis are perceived as dignified and influential.",
+  "symbolism": "Louis symbolizes leadership and nobility, often associated with the qualities of a strong and influential ruler.",
+  "funFact": "Louis Armstrong, the legendary jazz musician, was one of the most influential figures in jazz music, known for his charismatic stage presence and distinct trumpet playing style.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Louis XIV",
+      "years": "1638-1715",
+      "category": "Royalty",
+      "achievements": [
+        "Consolidation of absolute monarchy in France",
+        "Building of the Palace of Versailles"
+      ],
+      "significance": "Known as the Sun King, Louis XIV's reign is noted for its absolute monarchy and significant cultural achievements.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Louis Pasteur",
+      "years": "1822-1895",
+      "category": "Scientist",
+      "achievements": [
+        "Development of the germ theory of disease",
+        "Pasteurization"
+      ],
+      "significance": "Pasteur was a pioneering microbiologist whose work led to significant advancements in the understanding and prevention of diseases.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The spirit of revolution, the spirit of insurrection, is a spirit radically opposed to liberty.",
+      "author": "Louis Antoine de Saint-Just",
+      "context": "During the French Revolution",
+      "year": 1793,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Louis Armstrong",
+      "profession": "Musician",
+      "knownFor": [
+        "Jazz music",
+        "Trumpet playing"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Louis C.K.",
+      "profession": "Comedian",
+      "knownFor": [
+        "Stand-up comedy",
+        "TV show 'Louie'"
+      ],
+      "awards": "Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Louis Saha",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Retired",
+      "pastTeams": [
+        "Manchester United",
+        "Everton"
+      ],
+      "position": "Striker",
+      "jerseyNumber": "9",
+      "years": "1997-2013",
+      "achievements": "Premier League titles",
+      "knownFor": [
+        "Pace",
+        "Finishing"
+      ],
+      "awards": "Premier League Player of the Month",
+      "stats": "124 goals in 426 appearances",
+      "verified": true,
+      "source": "Reliable source"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Interview with the Vampire",
+      "year": 1994,
+      "type": "Movie",
+      "characterName": "Louis de Pointe du Lac",
+      "characterDescription": "A vampire recounting his life story to a reporter.",
+      "imdbUrl": "https://www.imdb.com/title/tt0110148/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Louis Theroux's Weird Weekends",
+      "year": 1998,
+      "type": "TV Show",
+      "characterName": "Louis Theroux",
+      "characterDescription": "A journalist exploring the fringes of society.",
+      "imdbUrl": "https://www.imdb.com/title/tt0337791/",
+      "genre": "Documentary",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "That morning I was not yet a vampire, and I saw my last sunrise.",
+      "character": "Louis de Pointe du Lac",
+      "source": "Interview with the Vampire",
+      "year": 1994,
+      "context": "Recounting the moment of transformation into a vampire.",
+      "genre": "Horror",
+      "impact": "Highlights the dramatic shift in perspective and existence."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Gemini",
+      "Aquarius",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share a communicative and social nature.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect and communication.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes initiative and strength.",
+    "karmicLessons": "Learning to balance leadership with listening.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and new experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 123,
+    "peak": 25,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+    "author": "Simon Sinek",
+    "context": "Discussing effective leadership principles."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Lou-is"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Luis",
+      "script": "Latin",
+      "scriptName": "Luis",
+      "pronunciation": "/ˈlwiz/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Λουίς",
+      "script": "Greek",
+      "scriptName": "Λουίς",
+      "pronunciation": "/luˈis/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "لويس",
+      "script": "Arabic",
+      "scriptName": "لويس",
+      "pronunciation": "/luˈwiːs/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "路易",
+      "script": "Han",
+      "scriptName": "路易",
+      "pronunciation": "/lù yì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Луи",
+      "script": "Cyrillic",
+      "scriptName": "Луи",
+      "pronunciation": "/luˈi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "לואי",
+      "script": "Hebrew",
+      "scriptName": "לואי",
+      "pronunciation": "/luˈi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Interview with the Vampire",
+      "author": "Anne Rice",
+      "publishedYear": 1976,
+      "genre": "Fiction",
+      "significance": "A foundational work in the modern vampire genre.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "childName": "Louis",
+      "parentNames": [
+        "Prince William",
+        "Catherine, Duchess of Cambridge"
+      ],
+      "birthYear": 2018,
+      "context": "The third child of the Duke and Duchess of Cambridge, part of the British royal family."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Historically significant and widely used across generations."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "Associated with numerous kings and noble figures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maintains popularity across different eras and cultures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "King Louis",
+      "artist": "The Strokes",
+      "year": 2003,
+      "genre": "Rock",
+      "nameContext": "Refers to King Louis in the lyrics.",
+      "description": "A song reflecting on themes of power and influence, with references to historical figures.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=King+Louis+The+Strokes",
+      "geniusUrl": "https://genius.com/search?q=King+Louis+The+Strokes",
+      "verified": true
+    },
+    {
+      "title": "Louis, Louis",
+      "artist": "The Kingsmen",
+      "year": 1963,
+      "genre": "Rock",
+      "nameContext": "Famous for its catchy refrain.",
+      "description": "An iconic rock song known for its energetic beat and simple, memorable lyrics.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Louis+Louis+The+Kingsmen",
+      "geniusUrl": "https://genius.com/search?q=Louis+Louis+The+Kingsmen",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Louis is a name that resonates with historical significance and modern charm. Whether you're drawn to its royal lineage or its timeless appeal, Louis offers a rich tapestry of culture and tradition.",
+    "etymology_meaning": "The name Louis derives from the Old High German 'Chlodowig', meaning 'famed warrior'. It has evolved through the centuries, maintaining a strong presence in various cultures.",
+    "famous_bearers": "Famous individuals named Louis include Louis Armstrong, the jazz legend whose influence on music is unparalleled, and Louis Pasteur, whose scientific breakthroughs changed the world.",
+    "pop_culture_moments": "In pop culture, Louis has appeared in numerous films and TV shows, such as 'Interview with the Vampire', where it is associated with the character's introspective journey.",
+    "personality_profile": "Those named Louis are often seen as charismatic leaders, embodying qualities of strength, nobility, and a keen intellect. They are known for their ability to inspire and lead.",
+    "variations_nicknames": "Louis offers various forms and nicknames, such as Louie and Lou, making it adaptable across cultures and languages.",
+    "popularity_data": "Louis has consistently ranked among the top names in many countries, reflecting its enduring appeal and royal connections.",
+    "pairing_suggestions": "For those considering pairing suggestions, names like Charlotte, Eleanor, and Henry complement Louis beautifully, offering a balanced and harmonious sound.",
+    "cultural_context": "Culturally, Louis has been a staple in European history, often associated with royalty and significant historical figures across France and beyond.",
+    "final_recommendation": "Choosing Louis offers a blend of historical depth and modern charm, making it a name that stands the test of time.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

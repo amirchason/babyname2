@@ -1,0 +1,321 @@
+{
+  "name": "Pete",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:25:22.324Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Rock",
+  "culturalSignificance": "The name Pete is a diminutive of Peter, which is derived from the Greek word 'petros' meaning 'rock' or 'stone'. It has been associated with strength and reliability over the centuries. In many cultures, it is seen as a symbol of steadfastness and trustworthiness.",
+  "modernContext": "In modern times, Pete is a popular casual form of Peter, especially in English-speaking countries. It often carries a friendly and approachable connotation, making it a favored choice for informal settings and nicknames.",
+  "literaryReferences": "Pete is a common name in various literary works, often used as a relatable and down-to-earth character, embodying qualities of loyalty and strength.",
+  "pronunciationGuide": "/piːt/",
+  "variations": [
+    "Peter",
+    "Petey",
+    "Petra",
+    "Piet",
+    "Pedro"
+  ],
+  "similarNames": [
+    "Paul",
+    "Patrick",
+    "Pat",
+    "Phil",
+    "Perry"
+  ],
+  "nicknames": [
+    "Petey",
+    "P",
+    "Pet",
+    "Petes"
+  ],
+  "personality": "Individuals named Pete are often perceived as reliable and grounded, with a strong sense of duty and loyalty. They tend to be approachable and are seen as trustworthy friends.",
+  "symbolism": "Pete symbolizes durability and reliability, often associated with the steadfast nature of a rock.",
+  "funFact": "Pete has been a popular name in music and sports, often used by notable public figures and as character names in various media.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Peter",
+    "significance": "Saint Peter, one of the Twelve Apostles of Jesus, is a significant religious figure in Christianity, known as the 'rock' upon which Jesus would build his church.",
+    "keyStories": [
+      "Peter's Denial",
+      "The Rock of the Church"
+    ],
+    "spiritualMeaning": "Peter represents faith and leadership in the Christian tradition.",
+    "historicalImpact": "Saint Peter is considered the first pope by the Roman Catholic Church, having a profound influence on the development of early Christianity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Pete Seeger",
+      "years": "1919-2014",
+      "category": "Musician",
+      "achievements": [
+        "Folk music revival",
+        "Political activism"
+      ],
+      "significance": "Pete Seeger was a prominent American folk musician and social activist, known for his contributions to the American folk music revival and his efforts in promoting social change through music.",
+      "notableWorks": [
+        "Where Have All the Flowers Gone?",
+        "Turn! Turn! Turn!"
+      ]
+    },
+    {
+      "fullName": "Pete Rozelle",
+      "years": "1926-1996",
+      "category": "Sports Executive",
+      "achievements": [
+        "NFL Commissioner",
+        "Super Bowl creation"
+      ],
+      "significance": "As the Commissioner of the NFL, Pete Rozelle was instrumental in the creation of the Super Bowl and the expansion of the league, contributing greatly to the popularity of American football.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Participation in sports helps teach young people to be better citizens.",
+      "author": "Pete Rozelle",
+      "context": "Commenting on the importance of sports in education and society.",
+      "year": 1980,
+      "category": "Sports"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Pete Townshend",
+      "profession": "Musician",
+      "knownFor": [
+        "The Who",
+        "Rock operas"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    },
+    {
+      "name": "Pete Davidson",
+      "profession": "Comedian",
+      "knownFor": [
+        "Saturday Night Live",
+        "Stand-up comedy"
+      ],
+      "awards": "None"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Pete Sampras",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "ATP",
+      "team": "N/A",
+      "pastTeams": [],
+      "position": "N/A",
+      "jerseyNumber": "N/A",
+      "years": "1988-2002",
+      "achievements": "14 Grand Slam titles",
+      "knownFor": [
+        "Powerful serve",
+        "Grass court success"
+      ],
+      "awards": "ITF World Champion",
+      "stats": "Winner of 14 Grand Slam singles titles",
+      "verified": true,
+      "source": "ATP Official"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Pete's Dragon",
+      "year": 1977,
+      "type": "Movie",
+      "characterName": "Pete",
+      "characterDescription": "A young orphan boy who befriends a dragon.",
+      "imdbUrl": "https://www.imdb.com/title/tt0076538/",
+      "genre": "Family",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The Adventures of Pete & Pete",
+      "year": 1992,
+      "type": "TV Show",
+      "characterName": "Pete Wrigley",
+      "characterDescription": "One of two brothers both named Pete, navigating childhood adventures.",
+      "imdbUrl": "https://www.imdb.com/title/tt0105933/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not about how fast you run, it's about how fast you get back up.",
+      "character": "Pete Wrigley",
+      "source": "The Adventures of Pete & Pete",
+      "year": 1992,
+      "context": "Encouraging resilience and perseverance.",
+      "genre": "Comedy",
+      "impact": "Highlights the show's underlying theme of resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs share a practical and responsible nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and reliability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Symbolizes strength, dependability, and creation.",
+    "karmicLessons": "Embrace change and adaptability.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Seeks harmony and family."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 480,
+    "peak": 200,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack in will.",
+    "author": "Pete Sampras",
+    "context": "Motivational quote about perseverance in sports."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Pete"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pedro",
+      "script": "Latin",
+      "scriptName": "Pedro",
+      "pronunciation": "/ˈpeðɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πέτρος",
+      "script": "Greek",
+      "scriptName": "Πέτρος",
+      "pronunciation": "/ˈpetros/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بطرس",
+      "script": "Arabic",
+      "scriptName": "بطرس",
+      "pronunciation": "/ˈbutrus/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "彼得",
+      "script": "Han",
+      "scriptName": "彼得",
+      "pronunciation": "/pǐ.dé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пётр",
+      "script": "Cyrillic",
+      "scriptName": "Пётр",
+      "pronunciation": "/pʲɵtr/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פטרוס",
+      "script": "Hebrew",
+      "scriptName": "פטרוס",
+      "pronunciation": "/ˈpetros/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Pete the Cat: I Love My White Shoes",
+      "author": "Eric Litwin",
+      "publishedYear": 2010,
+      "genre": "Children's Literature",
+      "significance": "A popular children's book series that teaches kids about resilience and positivity.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Pete has been a consistent name choice over the decades, maintaining its charm and reliability."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has enduring appeal and has been in use for many generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in various books and stories, often as a relatable character."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Hey Pete",
+      "artist": "Jimi Hendrix",
+      "year": 1966,
+      "genre": "Rock",
+      "nameContext": "In the song title and lyrics",
+      "description": "A song by Jimi Hendrix that tells a story involving a character named Pete.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hey+Pete+Jimi+Hendrix",
+      "geniusUrl": "https://genius.com/Jimi-hendrix-hey-pete-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Pete is a name that exudes reliability and strength, much like the rock from which it derives its meaning. This classic name has stood the test of time, maintaining its popularity across generations. Whether in literature or real life, Pete often symbolizes a steadfast and trustworthy figure.",
+    "etymology_meaning": "Derived from the Greek 'petros', meaning 'rock', Pete is a diminutive of Peter, a name with significant historical and religious roots. It is often associated with steadfastness and dependability.",
+    "famous_bearers": "Notable figures named Pete include musician Pete Townshend of The Who and tennis legend Pete Sampras, both of whom have left a lasting impact in their respective fields.",
+    "pop_culture_moments": "Pete's name has been featured in various pop culture references, from children's books like 'Pete the Cat' to characters in movies and TV shows, exemplifying its broad appeal.",
+    "personality_profile": "The name Pete is associated with personality traits such as reliability, approachability, and a grounded nature. Individuals named Pete often exhibit a strong sense of duty and loyalty.",
+    "variations_nicknames": "While Pete is a standalone name, it often serves as a nickname for Peter. Variations include Petey and Pedro, offering a range of options for personalizing this classic name.",
+    "popularity_data": "Pete has maintained a steady presence in baby name charts, particularly in English-speaking countries, reflecting its timeless charm.",
+    "pairing_suggestions": "Pete pairs well with both traditional and modern middle names, such as Alexander or James, and works seamlessly in full names.",
+    "cultural_context": "With roots in Greek culture and strong ties to Christian history through Saint Peter, Pete carries a rich cultural heritage.",
+    "final_recommendation": "If you're seeking a name that combines historical depth with modern simplicity, Pete is a perfect choice. Its enduring appeal and positive connotations make it a reliable option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

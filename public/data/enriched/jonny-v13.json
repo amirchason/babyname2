@@ -1,0 +1,254 @@
+{
+  "name": "Jonny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:09:45.833Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is gracious",
+  "culturalSignificance": "The name Jonny is a diminutive form of Jonathan, which has its roots in the Hebrew name Yehonatan. It has been a popular choice in English-speaking countries and is often associated with friendliness and approachability.",
+  "modernContext": "In modern times, Jonny is often used as a casual, friendly version of Jonathan or John. It remains popular in various forms across different cultures, often chosen for its informal and approachable sound.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈdʒɒni/",
+  "variations": [
+    "Johnny",
+    "Jonnie",
+    "Johnnie",
+    "Jonathan",
+    "Jon"
+  ],
+  "similarNames": [
+    "John",
+    "Jonathan",
+    "Ronny",
+    "Tommy",
+    "Jimmy"
+  ],
+  "nicknames": [
+    "Jon",
+    "J",
+    "Jono",
+    "Jay",
+    "Nny"
+  ],
+  "personality": "People named Jonny are often perceived as outgoing and friendly. They are thought to be creative and energetic, with a natural charisma that draws others to them.",
+  "symbolism": "Jonny symbolizes grace and kindness, often associated with a light-hearted and jovial spirit.",
+  "funFact": "The name Jonny is often used in music and pop culture, notably in the title of the song 'Oh Jonny' by Jan Delay.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jonny Lee Miller",
+      "profession": "Actor",
+      "knownFor": [
+        "Trainspotting",
+        "Elementary"
+      ],
+      "awards": "Satellite Award for Best Actor in a Series, Drama"
+    },
+    {
+      "name": "Jonny Greenwood",
+      "profession": "Musician",
+      "knownFor": [
+        "Radiohead",
+        "Film Scores"
+      ],
+      "awards": "Grammy Award for Best Alternative Music Album"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jonny Wilkinson",
+      "profession": "Athlete",
+      "sport": "Rugby",
+      "league": "Rugby Union",
+      "team": "Toulon",
+      "pastTeams": [
+        "Newcastle Falcons"
+      ],
+      "position": "Fly-half",
+      "jerseyNumber": "10",
+      "years": "1997-2014",
+      "achievements": "World Cup Winner (2003)",
+      "knownFor": [
+        "Goal Kicking",
+        "Tactical Play"
+      ],
+      "awards": "World Rugby Player of the Year",
+      "stats": "Over 1000 points in international rugby",
+      "verified": true,
+      "source": "World Rugby"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Trainspotting",
+      "year": 1996,
+      "type": "Movie",
+      "characterName": "Jonny",
+      "characterDescription": "A character with a wild lifestyle, part of a group of friends navigating life's challenges.",
+      "imdbUrl": "https://www.imdb.com/title/tt0117951/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "First Quarter",
+    "moonPhaseDescription": "A time for decision-making and taking action.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "Air signs are known for their intellect and communication skills.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Wind represents change and freedom.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to articulate ideas and connect with others.",
+    "karmicLessons": "Learning to balance communication and listening.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 120,
+    "peakYear": 1999
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston S. Churchill",
+    "context": "This quote embodies the spirit of perseverance and resilience."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jon-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jonny",
+      "script": "Latin",
+      "scriptName": "Jonny",
+      "pronunciation": "/ˈxo.ni/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζόνι",
+      "script": "Greek",
+      "scriptName": "Τζόνι",
+      "pronunciation": "/ˈd͡ʒo.ni/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جوني",
+      "script": "Arabic",
+      "scriptName": "جوني",
+      "pronunciation": "/ˈd͡ʒoː.ni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "强尼",
+      "script": "Han",
+      "scriptName": "强尼",
+      "pronunciation": "/tɕjɑ̌ŋ ni/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джонни",
+      "script": "Cyrillic",
+      "scriptName": "Джонни",
+      "pronunciation": "/ˈd͡ʒonʲnʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'וני",
+      "script": "Hebrew",
+      "scriptName": "ג'וני",
+      "pronunciation": "/ˈdʒoni/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Jonny is commonly used as a modern and informal version of Jonathan."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been in consistent use for several decades."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.85,
+      "reason": "The name Jonny is often associated with a friendly and approachable demeanor."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Oh Jonny",
+      "artist": "Jan Delay",
+      "year": 2009,
+      "genre": "Pop",
+      "nameContext": "The song's title and lyrics revolve around the character Jonny.",
+      "description": "A vibrant and energetic song that captures the lively spirit associated with the name Jonny.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Oh+Jonny+Jan+Delay",
+      "geniusUrl": "https://genius.com/search?q=Oh+Jonny+Jan+Delay",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jonny is a name filled with charm and a touch of modern flair. Often seen as a friendly and approachable version of Jonathan, it carries a sense of grace and kindness. This name has been embraced across various cultures for its simplicity and warmth.",
+    "etymology_meaning": "Jonny originates from the Hebrew name Yehonatan, meaning 'God is gracious'. Over time, it evolved as a diminutive form of Jonathan and has been popular in English-speaking countries.",
+    "famous_bearers": "Notable individuals named Jonny include Jonny Lee Miller, an acclaimed actor known for his roles in 'Trainspotting' and 'Elementary', and Jonny Greenwood, a celebrated musician from the band Radiohead.",
+    "pop_culture_moments": "Jonny has made its mark in pop culture through various songs and films, highlighting its appeal as a relatable and engaging name.",
+    "personality_profile": "Those named Jonny are often seen as outgoing and charismatic, with a natural ability to connect with others. Their joyful and optimistic outlook makes them well-liked among peers.",
+    "variations_nicknames": "Variations of Jonny include Johnny, Jonnie, and Johnnie, while common nicknames are Jon, J, and Jono.",
+    "popularity_data": "The name Jonny has maintained steady popularity, peaking in the late 1990s. Its casual charm continues to attract parents looking for a modern classic.",
+    "pairing_suggestions": "Jonny pairs well with middle names that have classic or contemporary appeal, such as Alexander or Reese. It also complements surnames with one or two syllables.",
+    "cultural_context": "Culturally, Jonny is recognized for its informal yet respectable tone, making it a popular choice in both Western and non-Western societies.",
+    "final_recommendation": "Consider Jonny if you're seeking a name that's both timeless and trendy. Its friendly nature and rich history offer a strong foundation for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

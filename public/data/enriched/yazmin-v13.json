@@ -1,0 +1,228 @@
+{
+  "name": "Yazmin",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T15:22:49.182Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Persian",
+  "meaning": "Jasmine flower",
+  "culturalSignificance": "The name Yazmin is a variant of Yasmin, which has Persian roots and is associated with the jasmine flower. Jasmine is often linked with beauty and purity in many cultures, making the name popular in regions influenced by Persian culture.",
+  "modernContext": "In modern times, Yazmin is a popular name in various English-speaking countries, often favored for its exotic flair and floral association. It is used frequently in Latin American cultures as well, where it retains its floral and symbolic meanings.",
+  "literaryReferences": "The name Yazmin is not commonly found in classical literature but may appear in contemporary works that explore multicultural themes or settings.",
+  "pronunciationGuide": "/ˈjaz.mɪn/",
+  "variations": [
+    "Yasmin",
+    "Jasmin",
+    "Jasmine",
+    "Yazmine",
+    "Yasmeen"
+  ],
+  "similarNames": [
+    "Yasmine",
+    "Jasmina",
+    "Yasmeen",
+    "Yasmin",
+    "Jaslyn"
+  ],
+  "nicknames": [
+    "Yaz",
+    "Min",
+    "Minnie",
+    "Yazzy"
+  ],
+  "personality": "Yazmin is often associated with individuals who are perceived as graceful and charming, reflecting the elegance of the jasmine flower. People with this name may be seen as nurturing and compassionate.",
+  "symbolism": "Yazmin symbolizes beauty and purity, much like the jasmine flower it is named after. It often represents love and sensuality in various cultures.",
+  "funFact": "The jasmine flower, associated with the name Yazmin, is a popular motif in perfumes due to its sweet and rich fragrance.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Yazmin Oukhellou",
+      "profession": "Reality TV Star",
+      "knownFor": [
+        "The Only Way Is Essex"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Yazmin Fox",
+      "profession": "Model",
+      "knownFor": [
+        "Plus-size modeling"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The L Word: Generation Q",
+      "year": 2019,
+      "type": "TV Show",
+      "characterName": "Yazmin",
+      "characterDescription": "A character appearing in the series known for her dynamic personality.",
+      "imdbUrl": "https://www.imdb.com/title/tt7661384/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Lavender",
+      "hex": "#E6E6FA"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and growth.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "These signs share a love for harmony and communication.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect and communication.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for their nurturing and supportive nature.",
+    "karmicLessons": "Learning to balance nurturing others with self-care.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a desire to create harmony and provide care to others."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 523,
+    "peak": 215,
+    "peakYear": 2004
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Like a jasmine flower, Yazmin brings beauty and tranquility to every space.",
+    "author": "Unknown",
+    "context": "A popular saying reflecting the qualities associated with the name."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Yaz-min"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Yazmín",
+      "script": "Latin",
+      "scriptName": "Yazmín",
+      "pronunciation": "/jaθˈmin/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γιαζμίν",
+      "script": "Greek",
+      "scriptName": "Γιαζμίν",
+      "pronunciation": "/jaˈzmin/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ياسمين",
+      "script": "Arabic",
+      "scriptName": "ياسمين",
+      "pronunciation": "/jaːsˈmiːn/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雅兹敏",
+      "script": "Han",
+      "scriptName": "雅兹敏",
+      "pronunciation": "/jǎ.zī.mǐn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Язмин",
+      "script": "Cyrillic",
+      "scriptName": "Язмин",
+      "pronunciation": "/jɪzˈmin/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יזמין",
+      "script": "Hebrew",
+      "scriptName": "יזמין",
+      "pronunciation": "/jazˈmin/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Floral",
+      "confidence": 0.9,
+      "reason": "The name is directly derived from the jasmine flower."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Increased popularity in recent decades."
+    },
+    {
+      "tag": "Exotic",
+      "confidence": 0.85,
+      "reason": "The name has a distinctive sound and origin."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Yasmin the Light",
+      "artist": "Explosions in the Sky",
+      "year": 2001,
+      "genre": "Post-rock",
+      "nameContext": "The name is part of the song title.",
+      "description": "This instrumental track by Explosions in the Sky is known for its evocative melodies and emotional depth, often used in film and TV soundtracks.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Yasmin+the+Light+Explosions+in+the+Sky",
+      "geniusUrl": "https://genius.com/search?q=Yasmin%20the%20Light",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Yazmin, a name as fragrant and beautiful as the flower it represents, has been cherished across cultures for its delicate charm and vibrant personality. With roots in Persian tradition, Yazmin carries with it a legacy of elegance and grace.",
+    "etymology_meaning": "Derived from the Persian word for jasmine, Yazmin embodies the timeless allure of one of the world's most beloved flowers. The name has traversed cultures, often symbolizing purity and love.",
+    "famous_bearers": "Yazmin Oukhellou, a prominent figure in reality television, showcases the name's modern flair, while Yazmin Fox has made waves in the fashion industry as a celebrated model.",
+    "pop_culture_moments": "Yazmin has made its way into popular culture through appearances in shows like 'The L Word: Generation Q', where characters bearing the name add depth and diversity to the narrative.",
+    "personality_profile": "Names like Yazmin are often associated with individuals who exude grace and charm. They are perceived as nurturing and compassionate, much like the delicate jasmine flower.",
+    "variations_nicknames": "Variants such as Yasmin and Jasmine offer subtle shifts in pronunciation and spelling, while nicknames like Yaz and Minnie provide a playful twist.",
+    "popularity_data": "While Yazmin's popularity peaked in the early 2000s, it remains a beloved choice for parents seeking a name with both cultural richness and modern appeal.",
+    "pairing_suggestions": "Yazmin pairs beautifully with names like Alexander or Gabriel for boys, and with Sophia or Isabella for girls, creating harmonious and balanced combinations.",
+    "cultural_context": "Rooted in Persian tradition, Yazmin is embraced in many cultures for its elegance and the symbolic beauty of the jasmine flower.",
+    "final_recommendation": "For those seeking a name that combines cultural significance with modern allure, Yazmin presents an exquisite choice. Its floral roots and melodic sound make it a timeless favorite.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

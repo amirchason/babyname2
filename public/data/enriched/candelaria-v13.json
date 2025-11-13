@@ -1,0 +1,205 @@
+{
+  "name": "Candelaria",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:44:02.309Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Spanish",
+  "meaning": "Candlemas",
+  "culturalSignificance": "Candelaria is a name of Spanish origin that is associated with the Christian festival of Candlemas, which commemorates the presentation of Jesus at the Temple. The name reflects the tradition of lighting candles during this festival, symbolizing purification and light.",
+  "modernContext": "In modern times, Candelaria is a unique name that is predominantly used in Spanish-speaking countries. It is seen as both a traditional and elegant name, often chosen for its cultural and religious ties.",
+  "literaryReferences": "The name Candelaria appears in various works of Spanish literature, often symbolizing light and purity.",
+  "pronunciationGuide": "ˌkan-de-ˈla-rja",
+  "variations": [
+    "Candela",
+    "Candelas",
+    "Candelora"
+  ],
+  "similarNames": [
+    "Lucia",
+    "Luz",
+    "Clara",
+    "Sofia",
+    "Isabella"
+  ],
+  "nicknames": [
+    "Cande",
+    "Lari",
+    "Candela"
+  ],
+  "personality": "People with the name Candelaria are often seen as warm and nurturing, embodying a sense of light and guidance to those around them.",
+  "symbolism": "The name Candelaria symbolizes light, purity, and guidance, reflecting the candle-lit traditions of the festival it is associated with.",
+  "funFact": "Candelaria is the name of a popular festival in the Canary Islands, where the Virgin of Candelaria is the patron saint.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "",
+    "significance": "Candelaria is linked to Candlemas, a Christian holiday that celebrates the presentation of Jesus at the Temple and the purification of Mary.",
+    "keyStories": [
+      "Presentation of Jesus at the Temple"
+    ],
+    "spiritualMeaning": "Represents purification and the light of Christ entering the world.",
+    "historicalImpact": "Candlemas has been celebrated in the Christian tradition for centuries, marking an important event in the liturgical calendar."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Candelaria Molfese",
+      "profession": "Actress",
+      "knownFor": [
+        "Violetta",
+        "Soy Luna"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Candelaria Tinelli",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Lelé",
+        "Tattoo Art"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Citrine",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Leo",
+      "Aries",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery nature, fostering warmth and enthusiasm.",
+    "cosmicElement": "Light",
+    "cosmicElementDescription": "Represents clarity, vision, and positivity.",
+    "celestialArchetype": "The Guide",
+    "celestialArchetypeDescription": "Symbolizes leadership, direction, and enlightenment.",
+    "karmicLessons": "To bring light and resolve to situations.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Driven by creativity and a desire to inspire others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 890,
+    "peak": 450,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Light up the world with your presence.",
+    "author": "Anonymous",
+    "context": "Inspirational message encouraging positive impact."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "Can-de-la-ria"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Candelaria",
+      "script": "Latin",
+      "scriptName": "Candelaria",
+      "pronunciation": "ˌkan-de-ˈla-rja",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κανδελαρία",
+      "script": "Greek",
+      "scriptName": "Κανδελαρία",
+      "pronunciation": "kanðeˈlaria",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كانديلاريا",
+      "script": "Arabic",
+      "scriptName": "كانديلاريا",
+      "pronunciation": "kændiˈlaːrija",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "坎德拉里亚",
+      "script": "Han",
+      "scriptName": "坎德拉里亚",
+      "pronunciation": "kǎn dé lā lǐ yà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Канделария",
+      "script": "Cyrillic",
+      "scriptName": "Канделария",
+      "pronunciation": "kəndɪˈlarʲɪjə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קנדלריה",
+      "script": "Hebrew",
+      "scriptName": "קנדלריה",
+      "pronunciation": "kandelaria",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Religious",
+      "confidence": 0.9,
+      "reason": "Associated with the Christian festival of Candlemas."
+    },
+    {
+      "tag": "Traditional",
+      "confidence": 0.85,
+      "reason": "Common in Spanish-speaking cultures with historical roots."
+    },
+    {
+      "tag": "Elegant",
+      "confidence": 0.8,
+      "reason": "Carries a graceful and sophisticated sound."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Candelaria is a name steeped in tradition and religious significance, drawing its roots from the Spanish celebration of Candlemas. This name carries a sense of warmth and light, resonating with those who appreciate its historical and cultural context. Whether you're drawn to its melodic sound or its spiritual connotations, Candelaria offers a unique choice for a baby name.",
+    "etymology_meaning": "The name Candelaria originates from the Spanish word for Candlemas, a Christian feast day that celebrates the presentation of Jesus at the Temple. This event, deeply rooted in religious tradition, brings forth the symbolism of light and purification, which the name embodies.",
+    "famous_bearers": "Candelaria Molfese, an Argentine actress known for her roles in popular television series, and Candelaria Tinelli, a noted fashion designer and artist, are among the famous individuals who carry this name, adding to its modern-day appeal.",
+    "pop_culture_moments": "The name Candelaria, while not commonly seen in mainstream media, holds a strong presence in Spanish-speaking cultures and religious contexts. Its ties to Candlemas make it a name that resonates during festivals and celebrations.",
+    "personality_profile": "Individuals named Candelaria are often perceived as nurturing and charismatic, bringing light into the lives of those around them. They are seen as guides, capable of leading others with warmth and wisdom.",
+    "variations_nicknames": "The name offers several variations and nicknames, including Candela and Cande, which provide a more casual and affectionate form. These variations maintain the essence of the original name while offering flexibility.",
+    "popularity_data": "Although not among the most popular names globally, Candelaria retains a steady presence in regions with strong Spanish influences. Its unique charm and cultural depth ensure it remains a cherished choice for many parents.",
+    "pairing_suggestions": "Candelaria pairs well with names that have a similar cultural or religious background, such as Lucia or Sofia. These combinations create harmonious and meaningful name pairings.",
+    "cultural_context": "Rooted in Spanish culture, Candelaria reflects the rich traditions and religious history of its origin. This name is often chosen by families who wish to honor their heritage and embrace the cultural significance it holds.",
+    "final_recommendation": "Choosing the name Candelaria is a decision that comes with a deep connection to light, tradition, and warmth. It is an excellent choice for parents seeking a name that embodies cultural richness and spiritual significance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

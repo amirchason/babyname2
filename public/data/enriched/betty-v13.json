@@ -1,0 +1,281 @@
+{
+  "name": "Betty",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:04:51.058Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is my oath",
+  "culturalSignificance": "Betty is traditionally a diminutive of Elizabeth, a name with deep biblical roots. It gained popularity in the 20th century as an independent name, becoming iconic in American culture through figures like Betty Boop and Betty Grable.",
+  "modernContext": "The name Betty saw its peak in popularity in the mid-20th century but has since declined. It is often associated with a vintage charm and is occasionally chosen for its retro appeal.",
+  "literaryReferences": "Betty is featured in numerous works of literature, often as a character embodying the quintessential 'girl next door' archetype.",
+  "pronunciationGuide": "/ˈbɛti/",
+  "variations": [
+    "Bettie",
+    "Bette",
+    "Beth",
+    "Betsy",
+    "Eliza"
+  ],
+  "similarNames": [
+    "Elizabeth",
+    "Beth",
+    "Betsy",
+    "Beatrice",
+    "Bella"
+  ],
+  "nicknames": [
+    "Bet",
+    "Bets",
+    "Betsy",
+    "Bette",
+    "Bee"
+  ],
+  "personality": "People named Betty are often perceived as friendly, approachable, and dependable. They are seen as nurturing and often have a strong sense of community.",
+  "symbolism": "Betty symbolizes reliability and warmth, often associated with a classic and timeless appeal.",
+  "funFact": "Betty Grable was one of the most popular pin-up girls during World War II, known for her million-dollar legs.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Betty Friedan",
+      "years": "1921-2006",
+      "category": "Activist",
+      "achievements": [
+        "Wrote 'The Feminine Mystique'",
+        "Co-founded the National Organization for Women"
+      ],
+      "significance": "Betty Friedan was a leading figure in the women's rights movement, helping to spark the second wave of feminism in the United States.",
+      "notableWorks": [
+        "The Feminine Mystique"
+      ]
+    },
+    {
+      "fullName": "Betty Grable",
+      "years": "1916-1973",
+      "category": "Actress",
+      "achievements": [
+        "Top box office draw of the 1940s",
+        "Popular pin-up girl during WWII"
+      ],
+      "significance": "Betty Grable was an American actress and dancer who became the highest-paid woman in America during the 1940s, known for her iconic bathing suit poster.",
+      "notableWorks": [
+        "How to Marry a Millionaire",
+        "Mother Wore Tights"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Betty White",
+      "profession": "Actress",
+      "knownFor": [
+        "The Golden Girls",
+        "The Mary Tyler Moore Show"
+      ],
+      "awards": "Multiple Emmy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Mad Men",
+      "year": 2007,
+      "type": "TV Show",
+      "characterName": "Betty Draper",
+      "characterDescription": "A complex character known for her beauty and emotional struggles as a 1960s housewife.",
+      "imdbUrl": "https://www.imdb.com/title/tt0804503/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 91
+    },
+    {
+      "title": "Ugly Betty",
+      "year": 2006,
+      "type": "TV Show",
+      "characterName": "Betty Suarez",
+      "characterDescription": "A young, smart, and hard-working woman navigating the fashion industry despite not fitting the industry's beauty standards.",
+      "imdbUrl": "https://www.imdb.com/title/tt0805669/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I have a job, I have a great boss, and I have friends who love me.",
+      "character": "Betty Suarez",
+      "source": "Ugly Betty",
+      "year": 2006,
+      "context": "Betty reflects on her life's positives amidst challenges at work.",
+      "genre": "Comedy",
+      "impact": "The quote epitomizes the show's theme of resilience and self-acceptance."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded nature and appreciate stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Characterized by caring, supportive, and reliable traits.",
+    "karmicLessons": "To embrace change and flexibility.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for community and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 2,
+    "female": 98
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 11,
+    "peakYear": 1930
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "It's your outlook on life that counts. If you take yourself lightly and don't take yourself too seriously, pretty soon you can find the humor in our everyday lives.",
+    "author": "Betty White",
+    "context": "Betty White's perspective on life and humor."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Bet-ty"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Betty",
+      "script": "Latin",
+      "scriptName": "Betty",
+      "pronunciation": "/ˈβeti/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπέτυ",
+      "script": "Greek",
+      "scriptName": "Μπέτυ",
+      "pronunciation": "/ˈbɛti/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بيتي",
+      "script": "Arabic",
+      "scriptName": "بيتي",
+      "pronunciation": "/ˈbeːtˤiː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "贝蒂",
+      "script": "Han",
+      "scriptName": "贝蒂",
+      "pronunciation": "/bèi dì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Бетти",
+      "script": "Cyrillic",
+      "scriptName": "Бетти",
+      "pronunciation": "/ˈbɛtʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "בטי",
+      "script": "Hebrew",
+      "scriptName": "בטי",
+      "pronunciation": "/ˈbeti/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Betty Zane",
+      "author": "Zane Grey",
+      "publishedYear": 1903,
+      "genre": "Historical Fiction",
+      "significance": "The book is based on the life of Betty Zane, a heroine of the American Revolutionary War.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Betty has been a popular name throughout the 20th century, maintaining its classic appeal."
+    },
+    {
+      "tag": "Retro",
+      "confidence": 0.9,
+      "reason": "The name Betty evokes a vintage charm, popular in earlier decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Featured in numerous literary works, Betty carries a literary significance."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Betty",
+      "artist": "Taylor Swift",
+      "year": 2020,
+      "genre": "Country/Folk",
+      "nameContext": "The song tells a story involving a character named Betty.",
+      "description": "Part of Swift's 'Folklore' album, the song 'Betty' is a nostalgic narrative from a teenage perspective.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Betty+Taylor+Swift",
+      "geniusUrl": "https://genius.com/Taylor-swift-betty-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Betty is a name that resonates with vintage charm and timeless appeal. From the silver screen to literary pages, Betty has been a beloved choice for decades.",
+    "etymology_meaning": "Derived from the Hebrew name Elizabeth, meaning 'God is my oath', Betty carries a rich historical and cultural legacy.",
+    "famous_bearers": "With icons like Betty White and Betty Grable, the name has been associated with entertainment royalty, embodying both humor and glamour.",
+    "pop_culture_moments": "Betty has been immortalized in pop culture through characters like Betty Draper and Betty Boop, each adding layers to its persona.",
+    "personality_profile": "Betty is often seen as friendly and approachable, with a nurturing personality that draws people in.",
+    "variations_nicknames": "Common variations and nicknames include Bettie, Bette, and Betsy, each offering a slight twist on this classic name.",
+    "popularity_data": "While its peak was in the early 20th century, Betty continues to hold a place in American nostalgia and occasionally sees a resurgence.",
+    "pairing_suggestions": "For a harmonious combination, consider pairing Betty with middle names like Jane or Rose, enhancing its classic feel.",
+    "cultural_context": "Betty has roots in biblical tradition, yet its modern usage spans cultures, embodying a blend of heritage and contemporary style.",
+    "final_recommendation": "If you're drawn to names with a storied past and a touch of elegance, Betty is a choice that offers both charm and substance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

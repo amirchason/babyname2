@@ -1,0 +1,288 @@
+{
+  "name": "Maggie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:27:16.675Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "English",
+  "meaning": "Pearl",
+  "culturalSignificance": "Maggie is often considered a diminutive of Margaret, which originated from the Greek name Margarites, meaning 'pearl'. It has been a popular name in English-speaking countries for centuries, often associated with warmth and friendliness.",
+  "modernContext": "In contemporary times, Maggie is often used as a standalone name and remains popular due to its simplicity and charm. It frequently appears in media and pop culture, contributing to its sustained popularity.",
+  "literaryReferences": "Maggie is a character in Stephen Crane's novel 'Maggie: A Girl of the Streets', which explores themes of poverty and survival in a harsh urban environment.",
+  "pronunciationGuide": "/ˈmæɡi/",
+  "variations": [
+    "Margaret",
+    "Maggy",
+    "Maggi",
+    "Meg",
+    "Madge"
+  ],
+  "similarNames": [
+    "Molly",
+    "Sadie",
+    "Lucy",
+    "Maisie",
+    "Millie",
+    "Ellie"
+  ],
+  "nicknames": [
+    "Mags",
+    "Mag",
+    "Madge",
+    "Magpie",
+    "Meg"
+  ],
+  "personality": "Maggie is often associated with a cheerful and lively personality, reflecting a sense of warmth and approachability. People with this name are often seen as nurturing and compassionate.",
+  "symbolism": "The name Maggie symbolizes purity and innocence, often linked to the pearl, which is regarded as a symbol of wisdom and integrity.",
+  "funFact": "Maggie was the name of a beloved character on the long-running TV series 'The Simpsons', known for being the youngest member of the Simpson family.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Maggie Lena Walker",
+      "years": "1864-1934",
+      "category": "Businesswoman",
+      "achievements": [
+        "First female bank president",
+        "Civil rights activist"
+      ],
+      "significance": "Maggie Lena Walker was an African American leader and businesswoman who became the first woman to charter a bank in the United States, contributing significantly to the upliftment of African American communities.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Maggie Smith",
+      "profession": "Actor",
+      "knownFor": [
+        "Downton Abbey",
+        "Harry Potter series"
+      ],
+      "awards": "Academy Award, BAFTA, Golden Globe"
+    },
+    {
+      "name": "Maggie Gyllenhaal",
+      "profession": "Actor",
+      "knownFor": [
+        "The Dark Knight",
+        "Secretary"
+      ],
+      "awards": "Golden Globe"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Simpsons",
+      "year": 1989,
+      "type": "TV Show",
+      "characterName": "Maggie Simpson",
+      "characterDescription": "The youngest member of the Simpson family, known for her pacifier and silent demeanor.",
+      "imdbUrl": "https://www.imdb.com/title/tt0096697/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "Maggie's Plan",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Maggie",
+      "characterDescription": "A young woman whose plan to have a baby on her own is derailed when she falls in love.",
+      "imdbUrl": "https://www.imdb.com/title/tt3471098/",
+      "genre": "Romantic Comedy",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Silence is golden.",
+      "character": "Maggie Simpson",
+      "source": "The Simpsons",
+      "year": 1989,
+      "context": "Maggie often communicates through silence or subtle gestures.",
+      "genre": "Animation",
+      "impact": "This quote humorously emphasizes Maggie's characteristic silence."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Pearl",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment, symbolizing a period of illumination.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional bond and intuitive understanding.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for nurturing and compassionate qualities, focusing on emotional well-being.",
+    "karmicLessons": "To learn the balance between giving and receiving love.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and care for others, seeking harmony in relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 239,
+    "peak": 55,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The name Maggie exudes charm and friendliness, much like a pearl that shines brightly.",
+    "author": "Anonymous",
+    "context": "A general appreciation of the name's qualities."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mag-gie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Margarita",
+      "script": "Latin",
+      "scriptName": "Margarita",
+      "pronunciation": "/maɾɣaˈɾita/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαργαρίτα",
+      "script": "Greek",
+      "scriptName": "Μαργαρίτα",
+      "pronunciation": "/marɣaˈrita/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ماجي",
+      "script": "Arabic",
+      "scriptName": "ماجي",
+      "pronunciation": "/maːʒi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛吉",
+      "script": "Han",
+      "scriptName": "玛吉",
+      "pronunciation": "/mà jī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мэгги",
+      "script": "Cyrillic",
+      "scriptName": "Мэгги",
+      "pronunciation": "/ˈmɛɡʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מגי",
+      "script": "Hebrew",
+      "scriptName": "מגי",
+      "pronunciation": "/ˈmaɡi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Maggie: A Girl of the Streets",
+      "author": "Stephen Crane",
+      "publishedYear": 1893,
+      "genre": "Fiction",
+      "significance": "Considered one of the first works of American naturalism, it explores the harsh realities of urban life.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Maggie is a timeless name with roots in classic literature and history."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name is featured in notable literary works such as 'Maggie: A Girl of the Streets'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maggie has maintained popularity over the decades, appealing across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Maggie May",
+      "artist": "Rod Stewart",
+      "year": 1971,
+      "genre": "Rock",
+      "nameContext": "The song tells the story of a young man's affair with an older woman named Maggie May.",
+      "description": "A classic song by Rod Stewart about youthful romance and regret, capturing the essence of the 70s rock era.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Maggie+May+Rod+Stewart",
+      "geniusUrl": "https://genius.com/Rod-stewart-maggie-may-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Maggie",
+      "artist": "Colin Hay",
+      "year": 2005,
+      "genre": "Folk",
+      "nameContext": "The song centers around a character named Maggie and reflects on themes of love and life.",
+      "description": "A heartfelt folk song by Colin Hay that explores themes of love, loss, and nostalgia.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Maggie+Colin+Hay",
+      "geniusUrl": "https://genius.com/search?q=Maggie%20Colin%20Hay",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Maggie is a name that exudes warmth and familiarity, often bringing to mind images of pearls and classic charm. Its simplicity and elegance have made it a favorite among parents for generations.",
+    "etymology_meaning": "Derived from the Greek name Margarites, meaning 'pearl', Maggie is a diminutive of Margaret, which has been used as both a standalone name and a nickname across various cultures.",
+    "famous_bearers": "From Maggie Smith, the acclaimed actress known for her roles in 'Downton Abbey' and the 'Harry Potter' series, to Maggie Gyllenhaal, the talented film actress, the name is well-represented in the entertainment industry.",
+    "pop_culture_moments": "Maggie's cultural presence is prominent in shows like 'The Simpsons', where Maggie Simpson is adored for her silent yet impactful presence, making the name synonymous with both humor and affection.",
+    "personality_profile": "People named Maggie are often perceived as nurturing and empathetic, with a natural inclination towards caring for those around them. They embody a sense of loyalty and kindness that draws others to them.",
+    "variations_nicknames": "Maggie offers a variety of charming nicknames like Mags and Magpie, and is closely related to variations such as Margaret and Madge, each carrying its own unique flair.",
+    "popularity_data": "While Maggie's popularity has seen fluctuations over the decades, it remains a consistent choice for parents who appreciate its timeless appeal and gentle sound.",
+    "pairing_suggestions": "Maggie's classic nature pairs well with equally traditional names like James or Elizabeth, creating a harmonious blend of elegance and familiarity.",
+    "cultural_context": "Rooted in English and Greek heritage, Maggie's cultural significance is reflected in its widespread use and recognition in literature, film, and television.",
+    "final_recommendation": "With its rich history, cultural depth, and endearing personality, Maggie is a delightful choice for parents seeking a name that embodies both tradition and warmth.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

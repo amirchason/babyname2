@@ -1,0 +1,209 @@
+{
+  "name": "Herrera",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T16:26:32.564Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "Ironworker or blacksmith",
+  "culturalSignificance": "Herrera is a surname of Spanish origin, derived from the Latin 'ferrarius,' meaning 'ironworker.' It is commonly found in Spanish-speaking countries and often denotes a family lineage connected to the historic trade of blacksmithing.",
+  "modernContext": "Today, Herrera is primarily known as a common surname in Spanish-speaking countries. It is also used occasionally as a first name, reflecting a trend of using traditional surnames as given names.",
+  "literaryReferences": [],
+  "pronunciationGuide": "eˈreɾa",
+  "variations": [
+    "Herrero",
+    "Ferrera",
+    "Ferrero",
+    "Herr",
+    "Herrer"
+  ],
+  "similarNames": [
+    "Hernandez",
+    "Herrick",
+    "Herbert",
+    "Herman",
+    "Harrison"
+  ],
+  "nicknames": [
+    "Harry",
+    "Hera",
+    "Ray"
+  ],
+  "personality": "The name Herrera is often associated with strength and craftsmanship, reflecting the historical significance of blacksmithing.",
+  "symbolism": "The name symbolizes resilience and the transformative power of fire and metal, akin to the blacksmith's craft.",
+  "funFact": "Herrera is a very common surname in Colombia, often ranking among the top ten most common surnames in the country.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Francisco de Herrera the Elder",
+      "years": "1590-1656",
+      "category": "Artist",
+      "achievements": [
+        "Pioneer of Baroque painting in Spain",
+        "Mentor to Diego Velázquez"
+      ],
+      "significance": "Francisco de Herrera the Elder was a prominent Spanish painter known for his dramatic Baroque style. His work influenced many artists of his time.",
+      "notableWorks": [
+        "St. Basil Dictating His Doctrine",
+        "The Triumph of Saint Hermenegild"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Carolina Herrera",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Chic and elegant fashion designs",
+        "Iconic wedding dresses"
+      ],
+      "awards": "CFDA Lifetime Achievement Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Silver",
+      "hex": "#C0C0C0"
+    },
+    "luckyGemstone": "Hematite",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination, perfect for bringing projects to fruition.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These Earth signs share stability and practicality, complementing the grounded nature of Herrera.",
+    "cosmicElement": "Metal",
+    "cosmicElementDescription": "Represents strength, resilience, and the ability to shape one's destiny.",
+    "celestialArchetype": "The Craftsman",
+    "celestialArchetypeDescription": "Symbolizes creativity, skill, and the transformative power of hard work.",
+    "karmicLessons": "To embrace change and transformation as a path to growth.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and the pursuit of new experiences."
+  },
+  "genderDistribution": {
+    "male": 50,
+    "female": 50
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 750,
+    "peakYear": 2015
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The best way to predict the future is to create it.",
+    "author": "Peter Drucker",
+    "context": "Famous quote about innovation and leadership."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Her-re-ra"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Herrera",
+      "script": "Latin",
+      "scriptName": "Herrera",
+      "pronunciation": "eˈreɾa",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ερέρα",
+      "script": "Greek",
+      "scriptName": "Ερέρα",
+      "pronunciation": "eˈreɾa",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هيريرا",
+      "script": "Arabic",
+      "scriptName": "هيريرا",
+      "pronunciation": "hiːˈreːra",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "埃雷拉",
+      "script": "Han",
+      "scriptName": "埃雷拉",
+      "pronunciation": "Āi léi lā",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эррера",
+      "script": "Cyrillic",
+      "scriptName": "Эррера",
+      "pronunciation": "eˈreɾa",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הררה",
+      "script": "Hebrew",
+      "scriptName": "הררה",
+      "pronunciation": "heˈreɾa",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical significance and longevity."
+    },
+    {
+      "tag": "Traditional",
+      "confidence": 0.85,
+      "reason": "Rooted in the traditional trade of blacksmithing."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.8,
+      "reason": "Strong ties to Spanish-speaking cultures."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Herrera carries the weight of history and craftsmanship, making it a unique choice for those seeking a name with depth. With roots in the trade of blacksmithing, it symbolizes strength and resilience. Today, it stands as a testament to the enduring craft of shaping metal and destiny alike.",
+    "etymology_meaning": "Herrera is of Spanish origin, derived from the Latin 'ferrarius,' meaning 'ironworker' or 'blacksmith.' It reflects a historical connection to the craft of metalwork, a trade that was integral to society for centuries.",
+    "famous_bearers": "Carolina Herrera, the renowned fashion designer, has brought the name to the forefront of the fashion world, known for her elegant and timeless designs.",
+    "pop_culture_moments": "While not frequently highlighted in movies or TV shows, the name Herrera remains a strong cultural identifier, especially in Spanish-speaking countries.",
+    "personality_profile": "Names like Herrera often suggest a personality that is strong, resilient, and creative, with a focus on craftsmanship and attention to detail.",
+    "variations_nicknames": "Variations such as Herrero and Ferrera reflect similar linguistic roots. Common nicknames include Harry and Ray, offering casual alternatives.",
+    "popularity_data": "Herrera is more commonly recognized as a surname, but its usage as a first name is rising, following the trend of using surnames as given names.",
+    "pairing_suggestions": "Pairing Herrera with a simple first name like John or a more lyrical name like Isabella can create a harmonious balance.",
+    "cultural_context": "As a name deeply rooted in Spanish culture, Herrera carries connotations of tradition and heritage, often found in regions with rich histories of metalwork.",
+    "final_recommendation": "Choosing the name Herrera connects a child to a legacy of craftsmanship and cultural depth. It's an excellent choice for those seeking a name with historical and cultural significance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

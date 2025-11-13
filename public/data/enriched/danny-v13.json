@@ -1,0 +1,284 @@
+{
+  "name": "Danny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:34:43.068Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is my judge",
+  "culturalSignificance": "Danny is a diminutive of Daniel, a significant name in Hebrew culture and the Bible, known for the biblical figure who was thrown into the lion's den. The name has been popular in English-speaking countries and carries a sense of timelessness and strength.",
+  "modernContext": "In modern times, Danny is often used as a friendly and approachable version of Daniel. It has a popular presence in various forms of media, including movies and television shows, contributing to its enduring popularity.",
+  "literaryReferences": "Danny is a character in 'Danny, the Champion of the World' by Roald Dahl, which adds a whimsical and adventurous dimension to the name.",
+  "pronunciationGuide": "/ˈdæni/",
+  "variations": [
+    "Daniel",
+    "Dani",
+    "Dan",
+    "Dannie",
+    "Danilo"
+  ],
+  "similarNames": [
+    "David",
+    "Dylan",
+    "Darren",
+    "Donnie",
+    "Dennis"
+  ],
+  "nicknames": [
+    "Dan",
+    "Danno",
+    "D-Man"
+  ],
+  "personality": "Danny is often associated with a friendly and approachable personality, known for being sociable and charismatic.",
+  "symbolism": "The name Danny symbolizes protection and divine judgment, echoing its biblical roots.",
+  "funFact": "Danny is frequently used as a character name in movies and TV shows, highlighting its appeal as a relatable and likable name.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Danny DeVito",
+      "profession": "Actor",
+      "knownFor": [
+        "It's Always Sunny in Philadelphia",
+        "Matilda"
+      ],
+      "awards": "Primetime Emmy Award"
+    },
+    {
+      "name": "Danny Boyle",
+      "profession": "Director",
+      "knownFor": [
+        "Slumdog Millionaire",
+        "Trainspotting"
+      ],
+      "awards": "Academy Award for Best Director"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Danny Green",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Philadelphia 76ers",
+      "pastTeams": [
+        "Los Angeles Lakers",
+        "Toronto Raptors"
+      ],
+      "position": "Shooting Guard",
+      "jerseyNumber": "14",
+      "years": "2009-Present",
+      "achievements": "3-time NBA Champion",
+      "knownFor": [
+        "3-point shooting",
+        "Defense"
+      ],
+      "awards": "NBA All-Defensive Second Team",
+      "stats": "Career averages of 8.9 points, 3.4 rebounds per game",
+      "verified": true,
+      "source": "https://www.nba.com/player/201980/danny-green"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Grease",
+      "year": 1978,
+      "type": "Movie",
+      "characterName": "Danny Zuko",
+      "characterDescription": "The charming leader of the T-Birds, played by John Travolta.",
+      "imdbUrl": "https://www.imdb.com/title/tt0077631/",
+      "genre": "Musical",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "The Shining",
+      "year": 1980,
+      "type": "Movie",
+      "characterName": "Danny Torrance",
+      "characterDescription": "A young boy with psychic abilities, played by Danny Lloyd.",
+      "imdbUrl": "https://www.imdb.com/title/tt0081505/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 89
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Sandy, my darling, you hurt me real bad.",
+      "character": "Danny Zuko",
+      "source": "Grease",
+      "year": 1978,
+      "context": "Danny expresses his feelings to Sandy in the movie.",
+      "genre": "Musical",
+      "impact": "This quote highlights the emotional depth of the character's relationship."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for new beginnings and growth.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the Air element, promoting communication and intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "The element of intellect and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for being articulate and sociable.",
+    "karmicLessons": "Learning to balance social connections with personal reflection.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 300,
+    "peak": 75,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "context": "A quote about resilience and perseverance."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Dan-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Dani",
+      "script": "Latin",
+      "scriptName": "Dani",
+      "pronunciation": "/ˈdani/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντάνι",
+      "script": "Greek",
+      "scriptName": "Ντάνι",
+      "pronunciation": "/ˈdani/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "داني",
+      "script": "Arabic",
+      "scriptName": "داني",
+      "pronunciation": "/ˈdaːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "丹尼",
+      "script": "Han",
+      "scriptName": "丹尼",
+      "pronunciation": "/tɛ́n.nǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дэнни",
+      "script": "Cyrillic",
+      "scriptName": "Дэнни",
+      "pronunciation": "/ˈdɛnʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דני",
+      "script": "Hebrew",
+      "scriptName": "דני",
+      "pronunciation": "/ˈdani/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Danny, the Champion of the World",
+      "author": "Roald Dahl",
+      "publishedYear": 1975,
+      "genre": "Fiction",
+      "significance": "A beloved children's book that tells the story of a young boy's adventures with his father.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Danny has been a popular name for decades and is derived from the timeless name Daniel."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "The name is a diminutive of Daniel, a notable biblical figure."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Danny is frequently used in modern media and remains popular today."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Danny's Song",
+      "artist": "Loggins and Messina",
+      "year": 1971,
+      "genre": "Folk Rock",
+      "nameContext": "The song is about the joy and love of family life.",
+      "description": "A heartfelt song written by Kenny Loggins for his brother Danny on the occasion of his son’s birth. It celebrates the simple joys of life.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Danny's+Song+Loggins+and+Messina",
+      "geniusUrl": "https://genius.com/Loggins-and-messina-dannys-song-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Danny is a name that exudes warmth and friendliness, often associated with charismatic and approachable individuals. From its biblical origins to its modern charm, Danny captivates with its timeless appeal.",
+    "etymology_meaning": "The name Danny is a diminutive of Daniel, originating from Hebrew and meaning 'God is my judge.' It carries a rich history and spiritual significance.",
+    "famous_bearers": "Danny has been a popular choice among celebrities and public figures, including beloved actor Danny DeVito and acclaimed director Danny Boyle, adding to its star-studded allure.",
+    "pop_culture_moments": "Danny Zuko from 'Grease' and Danny Torrance from 'The Shining' are just a couple of iconic characters that have kept the name in the limelight.",
+    "personality_profile": "Names like Danny often suggest a person who is outgoing and sociable, with a natural ability to connect with others and bring joy to any situation.",
+    "variations_nicknames": "While Danny is a popular standalone name, it remains closely linked to Daniel, offering flexibility with nicknames like Dan or Danno.",
+    "popularity_data": "Danny reached peak popularity in the 1980s and remains a favorite choice today, ranking well within the top 300 names.",
+    "pairing_suggestions": "Danny pairs well with both traditional and modern names, offering a versatile option for sibling or middle names like Michael, James, or Lily.",
+    "cultural_context": "Rooted in Hebrew tradition, Danny spans various cultures and languages, maintaining its relevance and charm across the globe.",
+    "final_recommendation": "If you're looking for a name with historical roots and modern appeal, Danny is a perfect choice. Its friendly nature and cultural versatility make it a timeless favorite.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

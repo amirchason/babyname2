@@ -1,0 +1,222 @@
+{
+  "name": "Ortiz",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T16:16:56.566Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "Son of Orti",
+  "culturalSignificance": "Ortiz is a common Spanish surname, indicative of patrilineal descent, meaning 'son of Orti'. It has historical roots in Spain and is widely found in Latin American countries due to the Spanish colonization.",
+  "modernContext": "In modern times, Ortiz is a prevalent surname in Spanish-speaking countries and among Hispanic communities worldwide. It is often associated with notable figures in sports, music, and politics.",
+  "literaryReferences": [],
+  "pronunciationGuide": "ɔːrˈtiːz",
+  "variations": [
+    "Ortiz",
+    "Ortis",
+    "Ortez",
+    "Ortis"
+  ],
+  "similarNames": [
+    "Ortega",
+    "Ortego",
+    "Ortegal",
+    "Oritz"
+  ],
+  "nicknames": [
+    "Orty",
+    "Ort",
+    "O"
+  ],
+  "personality": "The name Ortiz is often associated with a strong and resilient personality, reflecting the enduring nature of its bearers.",
+  "symbolism": "Ortiz symbolizes heritage and familial roots, often evoking a sense of tradition and lineage.",
+  "funFact": "Ortiz is one of the most common surnames in Puerto Rico.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "David Ortiz",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "Boston Red Sox",
+        "Home Runs"
+      ],
+      "awards": "World Series MVP, 10× All-Star"
+    },
+    {
+      "name": "Luis Ortiz",
+      "profession": "Boxer",
+      "knownFor": [
+        "Heavyweight Contender"
+      ],
+      "awards": "WBA Interim Heavyweight Title"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "David Ortiz",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Boston Red Sox",
+      "pastTeams": [
+        "Minnesota Twins"
+      ],
+      "position": "Designated Hitter",
+      "jerseyNumber": "34",
+      "years": "1997-2016",
+      "achievements": "3× World Series Champion",
+      "knownFor": [
+        "Clutch Hitting",
+        "Charisma"
+      ],
+      "awards": "World Series MVP, 10× All-Star",
+      "stats": "541 HR, 1768 RBI",
+      "verified": true,
+      "source": "https://www.mlb.com/player/david-ortiz-120074"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs share stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and realism.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Focused on creating solid foundations.",
+    "karmicLessons": "Learning patience and persistence.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for a stable and harmonious home life."
+  },
+  "genderDistribution": {
+    "male": 50,
+    "female": 50
+  },
+  "ranking": {
+    "current": 750,
+    "peak": 500,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success isn't given. It's earned on the track, on the field, in the gym. With blood, sweat, and the occasional tear.",
+    "author": "David Ortiz",
+    "context": "Inspiring athletes to work hard."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Or-tiz"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ortiz",
+      "script": "Latin",
+      "scriptName": "Ortiz",
+      "pronunciation": "ɔrˈtiθ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ορτίζ",
+      "script": "Greek",
+      "scriptName": "Ορτίζ",
+      "pronunciation": "oɾˈtis",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أورتيز",
+      "script": "Arabic",
+      "scriptName": "أورتيز",
+      "pronunciation": "ʔur.tiːz",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "奥尔蒂斯",
+      "script": "Han",
+      "scriptName": "奥尔蒂斯",
+      "pronunciation": "Ào'ěrdìsī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ортис",
+      "script": "Cyrillic",
+      "scriptName": "Ортис",
+      "pronunciation": "or'tis",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אורטיז",
+      "script": "Hebrew",
+      "scriptName": "אורטיז",
+      "pronunciation": "oʁ'tiz",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Ortiz is a timeless surname with longstanding historical significance."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.95,
+      "reason": "Strong association with Hispanic culture."
+    },
+    {
+      "tag": "Athletic",
+      "confidence": 0.8,
+      "reason": "Associated with famous athletes like David Ortiz."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Ortiz is not just a surname; it’s a bridge to the past, filled with stories of lineage and heritage. With roots deeply planted in Spanish-speaking countries, it’s a name that evokes strength and legacy.",
+    "etymology_meaning": "The name Ortiz originates from Spain, meaning 'son of Orti'. It is a patronymic surname, signifying its bearer’s lineage.",
+    "famous_bearers": "Notable individuals with the surname Ortiz include David Ortiz, a celebrated baseball player known for his tenure with the Boston Red Sox.",
+    "pop_culture_moments": "In the realm of sports, Ortiz is synonymous with power and success, especially in baseball.",
+    "personality_profile": "Those with the name Ortiz are often seen as strong and reliable, with a deep connection to their roots and family.",
+    "variations_nicknames": "Variations of Ortiz are minimal due to its strong cultural identity, but nicknames like Orty and Ort are common.",
+    "popularity_data": "While primarily a surname, Ortiz has seen a steady presence in Hispanic communities, maintaining a consistent ranking in name databases.",
+    "pairing_suggestions": "Ortiz pairs well with first names that are short and strong, complementing its robust nature.",
+    "cultural_context": "Ortiz is steeped in cultural heritage, especially within Spanish-speaking families, where it symbolizes a connection to ancestors.",
+    "final_recommendation": "Choosing Ortiz as a name for your child connects them to a rich cultural legacy, offering a sense of identity and pride.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

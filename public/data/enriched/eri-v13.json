@@ -1,0 +1,226 @@
+{
+  "name": "Eri",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:30:32.782Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "My guardian",
+  "culturalSignificance": "Eri is a name found in the Hebrew Bible, associated with one of the sons of Gad, a patriarch of one of the tribes of Israel. It is also used in Japanese culture as a feminine name, where it can mean 'blessing' or 'prize' depending on the kanji used.",
+  "modernContext": "The name Eri is relatively uncommon in Western countries but has seen some popularity in Japan due to its pleasing sound and positive meanings. It is occasionally chosen for its simplicity and cross-cultural appeal.",
+  "literaryReferences": [],
+  "pronunciationGuide": "/ˈɛri/",
+  "variations": [
+    "Erie",
+    "Erii",
+    "Ery"
+  ],
+  "similarNames": [
+    "Ari",
+    "Eli",
+    "Eric",
+    "Erin",
+    "Emi"
+  ],
+  "nicknames": [
+    "E",
+    "Ri",
+    "Ery"
+  ],
+  "personality": "People named Eri are often perceived as creative and gentle, with a strong sense of intuition. They are seen as empathetic individuals who care deeply about others.",
+  "symbolism": "The name Eri symbolizes protection and guardianship, reflecting its Hebrew origins as 'my guardian'.",
+  "funFact": "In Japanese pop culture, the name Eri has been featured in various anime and manga series, often given to kind-hearted, supportive characters.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism"
+    ],
+    "character": "Eri, son of Gad",
+    "significance": "Eri is noted as one of the sons of Gad, who was one of the tribes of Israel, making it a name of historical and religious significance.",
+    "keyStories": [
+      "Eri is mentioned among the descendants of Gad in the Hebrew Bible."
+    ],
+    "spiritualMeaning": "The name signifies protection and guardianship in a spiritual context.",
+    "historicalImpact": "Eri's mention in the Bible contributes to the historical tapestry of the tribes of Israel."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Eri Fukatsu",
+      "profession": "Actress",
+      "knownFor": [
+        "Like Father, Like Son",
+        "The Magic Hour"
+      ],
+      "awards": "Japan Academy Prize for Best Actress"
+    },
+    {
+      "name": "Eri Kitamura",
+      "profession": "Voice Actress",
+      "knownFor": [
+        "Bakemonogatari",
+        "Toradora!"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "My Hero Academia",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Eri",
+      "characterDescription": "A young girl with a tragic past and the Quirk 'Rewind'.",
+      "imdbUrl": "https://www.imdb.com/title/tt5626028/",
+      "genre": "Anime",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "People aren't born equal. That's the hard truth I learned at age four.",
+      "character": "Eri",
+      "source": "My Hero Academia",
+      "year": 2016,
+      "context": "A reflection on her difficult life experiences.",
+      "genre": "Anime",
+      "impact": "This quote underscores the challenges faced by the character and adds depth to her story."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for growth and development.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share an affinity for creativity and emotional depth.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Associated with empathy, compassion, and nurturing qualities.",
+    "karmicLessons": "To learn the balance between giving and receiving care.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A deep desire to nurture and support others."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 500,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest gift you can give someone is your time.",
+    "author": "Eri Fukatsu",
+    "context": "A reflection on the importance of presence and support."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "E-ri"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Eri",
+      "script": "Latin",
+      "scriptName": "Eri",
+      "pronunciation": "/ˈɛri/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Έρι",
+      "script": "Greek",
+      "scriptName": "Έρι",
+      "pronunciation": "/ˈɛri/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إري",
+      "script": "Arabic",
+      "scriptName": "إري",
+      "pronunciation": "/ˈɛri/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾瑞",
+      "script": "Han",
+      "scriptName": "艾瑞",
+      "pronunciation": "/àiruì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эри",
+      "script": "Cyrillic",
+      "scriptName": "Эри",
+      "pronunciation": "/ˈɛri/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ארי",
+      "script": "Hebrew",
+      "scriptName": "ארי",
+      "pronunciation": "/ɛˈri/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Eri is a name with biblical origins, giving it a timeless and classic appeal."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "The name has gained popularity in modern culture through anime and media."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.6,
+      "reason": "The name's use in popular anime and stories lends it a literary quality."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Eri is a name that resonates with simplicity and depth, drawing from both ancient traditions and modern culture. Whether found in biblical texts or Japanese anime, Eri is a name that carries a sense of guardianship and empathy.",
+    "etymology_meaning": "The name Eri has its roots in Hebrew, where it means 'my guardian.' It is also common in Japan, where it can mean 'blessing' or 'prize' depending on the characters used.",
+    "famous_bearers": "Eri Fukatsu, a celebrated Japanese actress, and Eri Kitamura, a well-known voice actress, are among the notable individuals bearing this name. Their contributions to film and voice acting have brought attention to the name.",
+    "pop_culture_moments": "Eri has made appearances in popular culture, particularly in the anime series 'My Hero Academia,' where a character named Eri plays a significant role. This has increased the name's visibility and appeal.",
+    "personality_profile": "Eri is often associated with individuals who are empathetic, creative, and intuitive. They are seen as nurturers who possess a strong sense of care and responsibility.",
+    "variations_nicknames": "Variations of Eri include Erie and Erii, with common nicknames such as E and Ri. These variations provide flexibility and personal touch to the name.",
+    "popularity_data": "Eri is more prevalent in Japanese culture but has seen some usage in Western countries. Its peak popularity was in 2005, and it remains a unique choice today.",
+    "pairing_suggestions": "Eri pairs well with names like Kai or Hana, offering a harmonious blend of sound and cultural resonance. Such pairings can enhance the name's aesthetic appeal.",
+    "cultural_context": "Rooted in Hebrew and Japanese traditions, Eri offers a rich cultural tapestry. Its dual heritage makes it a versatile and meaningful choice for families seeking a name with depth.",
+    "final_recommendation": "If you seek a name that embodies protection, empathy, and cultural richness, Eri might be the ideal choice. Its blend of ancient roots and modern relevance makes it a compelling option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

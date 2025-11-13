@@ -1,0 +1,235 @@
+{
+  "name": "Brendon",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:39:37.395Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "Prince",
+  "culturalSignificance": "The name Brendon is of Irish origin and is derived from the Gaelic name 'Bréanainn', which means 'prince'. It has been a popular name in Ireland and among Irish descendants worldwide, often associated with noble qualities.",
+  "modernContext": "Brendon remains a popular name in English-speaking countries, particularly in Australia and the United States. It is often chosen for its strong, yet approachable sound and its association with leadership.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈbrɛn.dən/",
+  "variations": [
+    "Brendan",
+    "Brenden",
+    "Brendyn",
+    "Brendin",
+    "Brendyn"
+  ],
+  "similarNames": [
+    "Brandon",
+    "Brady",
+    "Brennan",
+    "Aiden",
+    "Landon",
+    "Bryan"
+  ],
+  "nicknames": [
+    "Bren",
+    "Brendy",
+    "Don",
+    "Bran"
+  ],
+  "personality": "Brendon is often associated with charismatic and confident individuals who possess leadership qualities. People with this name are perceived as reliable and trustworthy.",
+  "symbolism": "The name Brendon symbolizes nobility and leadership, reflecting its etymological roots as 'prince'. It carries connotations of strength and integrity.",
+  "funFact": "The name Brendon spiked in popularity during the late 20th century, particularly in the United States.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Brendon Urie",
+      "profession": "Musician",
+      "knownFor": [
+        "Panic! At The Disco"
+      ],
+      "awards": "Grammy nominations"
+    },
+    {
+      "name": "Brendon Burchard",
+      "profession": "Author",
+      "knownFor": [
+        "High Performance Habits"
+      ],
+      "awards": "Best-selling author"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Brendon McCullum",
+      "profession": "Athlete",
+      "sport": "Cricket",
+      "league": "International",
+      "team": "New Zealand National Team",
+      "pastTeams": [],
+      "position": "Batsman",
+      "jerseyNumber": "42",
+      "years": "2002-2016",
+      "achievements": "Former New Zealand captain, held record for fastest Test century",
+      "knownFor": [
+        "Aggressive batting",
+        "Leadership"
+      ],
+      "awards": "ICC Awards",
+      "stats": "6453 Test runs, 6083 ODI runs",
+      "verified": true,
+      "source": "ESPN"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Freaks and Geeks",
+      "year": 1999,
+      "type": "TV Show",
+      "characterName": "Brendon",
+      "characterDescription": "A high school student navigating adolescence",
+      "imdbUrl": "https://www.imdb.com/title/tt0193676/",
+      "genre": "Comedy, Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The Full Moon represents completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs that harmonize with Brendon's element, promoting stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Associated with practicality and stability.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes guidance and authority.",
+    "karmicLessons": "Learning to balance leadership with humility.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 175,
+    "peakYear": 1996
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "You don't have to be great to start, but you have to start to be great.",
+    "author": "Brendon Burchard",
+    "context": "Motivational speaking"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Bren-don"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Brendon",
+      "script": "Latin",
+      "scriptName": "Brendon",
+      "pronunciation": "/ˈbɾen.don/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μπρέντον",
+      "script": "Greek",
+      "scriptName": "Μπρέντον",
+      "pronunciation": "/ˈbre.ton/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بريندون",
+      "script": "Arabic",
+      "scriptName": "بريندون",
+      "pronunciation": "/ˈbriː.n.don/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "布伦登",
+      "script": "Han",
+      "scriptName": "布伦登",
+      "pronunciation": "/bù lún dēng/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Брендон",
+      "script": "Cyrillic",
+      "scriptName": "Брендон",
+      "pronunciation": "/ˈbrʲen.don/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ברנדון",
+      "script": "Hebrew",
+      "scriptName": "ברנדון",
+      "pronunciation": "/ˈbre.n.don/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.95,
+      "reason": "Gained popularity in the late 20th century."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistently used in Irish culture."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Appears in various fictional works."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Brendon is a name that exudes strength and leadership, often chosen by parents who seek a name with a regal touch. Its Irish roots give it a timeless quality, while its modern usage keeps it relevant today. Whether associated with famous musicians or athletes, Brendon stands out in a crowd.",
+    "etymology_meaning": "The name Brendon originates from the Irish name 'Bréanainn', meaning 'prince'. This noble meaning has contributed to its enduring appeal across various cultures.",
+    "famous_bearers": "Famous bearers of the name include Brendon Urie, the lead singer of Panic! At The Disco, and Brendon McCullum, a renowned New Zealand cricketer. These individuals highlight the name's association with talent and leadership.",
+    "pop_culture_moments": "Brendon has appeared in various pop culture contexts, including television shows like 'Freaks and Geeks'. These appearances have cemented its place in modern entertainment.",
+    "personality_profile": "Brendon is often linked with charismatic individuals who possess natural leadership abilities. The name suggests a person who is both reliable and inspiring.",
+    "variations_nicknames": "Variations of the name include Brendan and Brenden, while common nicknames are Bren and Don. These variations allow for personalization and adaptability.",
+    "popularity_data": "Brendon saw a peak in popularity during the 1990s, especially in the United States, and continues to be a favored choice for parents today.",
+    "pairing_suggestions": "For parents seeking complementary names, consider pairing Brendon with names like Aiden or Landon, which share a similar sound and vibe.",
+    "cultural_context": "In Irish culture, Brendon is a name rich with history and significance, embodying the qualities of nobility and leadership.",
+    "final_recommendation": "Brendon is an excellent choice for parents looking for a name that balances modern appeal with historical depth. Its strong sound and noble meaning make it a standout option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

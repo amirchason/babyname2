@@ -1,0 +1,252 @@
+{
+  "name": "Serge",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:16:05.436Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Servant, attendant",
+  "culturalSignificance": "The name Serge has roots in the Latin name 'Sergius', which was a prominent Roman family name. It gained popularity in various European countries, particularly in France and Russia, due to its association with nobility and the Orthodox Church.",
+  "modernContext": "In modern times, Serge is commonly used in French-speaking countries and Russia. While its popularity has waned in recent decades, it remains a classic choice for parents seeking a name with historical depth.",
+  "literaryReferences": "The name Serge appears in several Russian literary works, often symbolizing strength and reliability.",
+  "pronunciationGuide": "/sɛʁʒ/",
+  "variations": [
+    "Sergio",
+    "Sergius",
+    "Sergey",
+    "Sergi",
+    "Sergiu"
+  ],
+  "similarNames": [
+    "George",
+    "Simon",
+    "Marc",
+    "Peter",
+    "Paul"
+  ],
+  "nicknames": [
+    "Ser",
+    "Serg",
+    "Segi"
+  ],
+  "personality": "Names like Serge are often associated with qualities such as leadership, reliability, and a strong sense of duty.",
+  "symbolism": "The name Serge symbolizes service and dedication, often linked with historical figures who were devoted to their causes.",
+  "funFact": "Serge Gainsbourg, a famous French musician, significantly popularized the name in the 20th century.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Sergei Rachmaninoff",
+      "years": "1873-1943",
+      "category": "Composer",
+      "achievements": [
+        "Composed Piano Concerto No. 2",
+        "Pioneered Russian classical music"
+      ],
+      "significance": "Rachmaninoff was one of the last great representatives of Romanticism in Russian classical music.",
+      "notableWorks": [
+        "Piano Concerto No. 2",
+        "Rhapsody on a Theme of Paganini"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Serge Gainsbourg",
+      "profession": "Musician",
+      "knownFor": [
+        "'Je t'aime... moi non plus'",
+        "Provocative style"
+      ],
+      "awards": "Victoires de la Musique"
+    },
+    {
+      "name": "Serge Ibaka",
+      "profession": "Basketball Player",
+      "knownFor": [
+        "Playing in the NBA",
+        "Defensive skills"
+      ],
+      "awards": "NBA Champion"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Serge Ibaka",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Milwaukee Bucks",
+      "pastTeams": [
+        "Toronto Raptors",
+        "Oklahoma City Thunder"
+      ],
+      "position": "Power Forward",
+      "jerseyNumber": "9",
+      "years": "2009-Present",
+      "achievements": "NBA Champion 2019",
+      "knownFor": [
+        "Shot-blocking",
+        "Rebounding"
+      ],
+      "awards": "NBA All-Defensive First Team",
+      "stats": "Career averages of 12.0 points and 7.3 rebounds",
+      "verified": true,
+      "source": "NBA official records"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time of energy and growth, ideal for new beginnings.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "Air signs share a similar intellectual and social energy.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and adaptability.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Those with this archetype are known for their ability to connect and share ideas.",
+    "karmicLessons": "Learning to balance intellect with emotion.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for harmony and creativity."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 150,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "context": "A reflection on individualism and authenticity."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Serge"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Sergio",
+      "script": "Latin",
+      "scriptName": "Sergio",
+      "pronunciation": "/ˈseɾ.xjo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σέργιος",
+      "script": "Greek",
+      "scriptName": "Σέργιος",
+      "pronunciation": "/ˈser.ji.os/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سيرج",
+      "script": "Arabic",
+      "scriptName": "سيرج",
+      "pronunciation": "/sɪr.dʒ/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "塞尔日",
+      "script": "Han",
+      "scriptName": "塞尔日",
+      "pronunciation": "/sài ěr rì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сергей",
+      "script": "Cyrillic",
+      "scriptName": "Сергей",
+      "pronunciation": "/sʲɪrˈɡʲej/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סרג",
+      "script": "Hebrew",
+      "scriptName": "סרג",
+      "pronunciation": "/serdʒ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Serge Panine",
+      "author": "Georges Ohnet",
+      "publishedYear": 1881,
+      "genre": "Novel",
+      "significance": "A story exploring themes of ambition and love in a changing society.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Serge has been used for centuries and maintains a timeless appeal."
+    },
+    {
+      "tag": "European",
+      "confidence": 0.8,
+      "reason": "Widely used in European countries, particularly France and Russia."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in notable literary works, symbolizing depth and character."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Serge carries with it a rich tapestry of history and cultural significance. With roots in the Latin Sergius, it has graced the annals of European history and continues to be a choice for those seeking a name with depth and character. Its usage across various cultures adds to its timeless allure.",
+    "etymology_meaning": "Serge originates from the Latin family name Sergius, which means 'servant' or 'attendant'. It was a common name in Roman times and later became popular in Christian Europe through saints and nobility.",
+    "famous_bearers": "Serge Gainsbourg, a revolutionary French musician known for his provocative style, and Sergei Rachmaninoff, a legendary Russian composer, are among the most famous bearers of the name. Their contributions to music have left a lasting legacy.",
+    "pop_culture_moments": "In pop culture, the name Serge has been featured in various films and literature, often portraying characters with resilience and depth. Its presence in French and Russian films further cements its cultural impact.",
+    "personality_profile": "Individuals named Serge are often seen as reliable and strong-willed. They tend to be leaders, with a natural ability to inspire those around them. Their personality reflects a blend of creativity and pragmatism.",
+    "variations_nicknames": "Variations like Sergio and Sergey offer international appeal, while nicknames such as Serg and Ser provide a more casual touch. These variations allow flexibility across different languages and cultures.",
+    "popularity_data": "While Serge has seen dips in popularity over the years, it remains a steady choice in French-speaking regions and Russia. Its classic nature ensures it never strays too far from public consciousness.",
+    "pairing_suggestions": "Serge pairs well with names like Marie, Claire, and Elise for a classic combination, or with modern names like Ava and Liam for a contemporary twist. These pairings offer balance and harmony.",
+    "cultural_context": "Serge's cultural background is deeply rooted in European traditions, making it a name rich in history and significance. Its use in literature and music highlights its enduring appeal across generations.",
+    "final_recommendation": "For those seeking a name with historical depth and modern relevance, Serge offers a perfect blend. Its timeless nature and cultural richness make it an excellent choice for parents looking for something classic yet distinctive.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

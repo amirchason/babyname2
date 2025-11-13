@@ -1,0 +1,219 @@
+{
+  "name": "Jewel",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:18:23.779Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "English",
+  "meaning": "Precious stone",
+  "culturalSignificance": "The name Jewel is often associated with beauty and value, stemming from its meaning related to precious gemstones. Throughout history, jewels have been symbols of wealth and status, which lends the name an air of elegance and importance.",
+  "modernContext": "In modern times, Jewel is a somewhat uncommon but still recognizable name, often chosen for its unique and glamorous connotations. The name gained additional visibility due to the success of pop singer Jewel Kilcher in the late 1990s and 2000s.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈdʒuːəl/",
+  "variations": [
+    "Jewell",
+    "Jule",
+    "Juell"
+  ],
+  "similarNames": [
+    "Ruby",
+    "Pearl",
+    "Emerald",
+    "Diamond",
+    "Opal"
+  ],
+  "nicknames": [
+    "Jew",
+    "Juju",
+    "Ellie",
+    "Jay"
+  ],
+  "personality": "People named Jewel are often perceived as elegant, artistic, and creative, reflecting the beauty and uniqueness associated with their name.",
+  "symbolism": "The name symbolizes rarity, value, and beauty, much like the gemstones it represents.",
+  "funFact": "The name Jewel became particularly popular in the U.S. during the late 1990s, partly due to the rise of singer-songwriter Jewel Kilcher.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jewel Kilcher",
+      "profession": "Musician",
+      "knownFor": [
+        "Who Will Save Your Soul",
+        "Foolish Games"
+      ],
+      "awards": "American Music Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Deadwood",
+      "year": 2004,
+      "type": "TV Show",
+      "characterName": "Jewel",
+      "characterDescription": "A woman with a physical disability who works at Al Swearengen's saloon.",
+      "imdbUrl": "https://www.imdb.com/title/tt0348914/",
+      "genre": "Western",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs are known for their stability and reliability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, reliability, and resilience.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "The Healer is nurturing and supportive, bringing comfort to those around them.",
+    "karmicLessons": "Learning to value oneself and others.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express oneself creatively and to be appreciated for one's uniqueness."
+  },
+  "genderDistribution": {
+    "male": 10,
+    "female": 90
+  },
+  "ranking": {
+    "current": 940,
+    "peak": 227,
+    "peakYear": 1998
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "In the midst of our lives, we must find the magic that makes our souls soar.",
+    "author": "Jewel Kilcher",
+    "context": "A quote from the musician known for her soulful and introspective lyrics."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jew-el"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Joya",
+      "script": "Latin",
+      "scriptName": "Joya",
+      "pronunciation": "/ˈxoʝa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κόσμημα",
+      "script": "Greek",
+      "scriptName": "Κόσμημα",
+      "pronunciation": "/ˈkozmi.ma/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جوهرة",
+      "script": "Arabic",
+      "scriptName": "جوهرة",
+      "pronunciation": "/dʒawhara/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "宝石",
+      "script": "Han",
+      "scriptName": "宝石",
+      "pronunciation": "/bǎoshí/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Драгоценность",
+      "script": "Cyrillic",
+      "scriptName": "Драгоценность",
+      "pronunciation": "/drəɡɐˈtsɛnəsʲtʲ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יַהֲלוֹם",
+      "script": "Hebrew",
+      "scriptName": "יַהֲלוֹם",
+      "pronunciation": "/jaˈhalom/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name Jewel has been used for centuries due to its association with precious stones."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The name gained popularity in modern times, particularly in the late 1990s."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Jewel is often used metaphorically in literature to denote something of great value."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jewel",
+      "artist": "Marc Anthony",
+      "year": 1999,
+      "genre": "Latin Pop",
+      "nameContext": "The name appears as a metaphor for someone precious.",
+      "description": "In this song, Marc Anthony uses 'Jewel' to describe a person who is invaluable and cherished.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Marc+Anthony+Jewel",
+      "geniusUrl": "https://genius.com/search?q=Marc+Anthony+Jewel",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Jewel is a name that sparkles with elegance and charm, much like the precious stones it represents. Its allure lies in its simplicity and the timeless beauty associated with gems. Whether as a first name or a middle name, Jewel has a unique appeal that sets it apart.",
+    "etymology_meaning": "The name Jewel is derived from the Middle English word 'jouel', referring to a precious ornament. Its roots trace back to the Old French 'jouel', which in turn is from the Latin 'iocus', meaning 'joke' or 'plaything', reflecting the whimsical nature of jewels.",
+    "famous_bearers": "The name Jewel has been popularized by notable figures such as Jewel Kilcher, an American singer-songwriter known for her expressive voice and heartfelt lyrics. Her success in the music industry brought the name into the spotlight during the late 1990s.",
+    "pop_culture_moments": "Jewel has appeared in various forms of media, including the TV show 'Deadwood', where a character by this name adds depth to the storyline. The name's association with elegance and value keeps it relevant in cultural discussions.",
+    "personality_profile": "Individuals named Jewel are often seen as artistic and creative, with a natural inclination towards beauty and aesthetics. They are perceived as thoughtful and introspective, often possessing a deep appreciation for the finer things in life.",
+    "variations_nicknames": "Variations of the name include Jewell and Jule, offering a slight twist to the original. Common nicknames like Jew, Juju, and Ellie provide affectionate alternatives for close friends and family.",
+    "popularity_data": "Jewel experienced a surge in popularity during the 1990s, particularly in the United States. While it remains relatively rare, its unique charm ensures it continues to be chosen by parents seeking a distinctive name.",
+    "pairing_suggestions": "Jewel pairs well with classic and sophisticated names, such as Jewel Elizabeth or Jewel Alexander. It also complements modern names, offering a balanced blend of tradition and contemporary style.",
+    "cultural_context": "With roots in English and French languages, the name Jewel carries a legacy of elegance and value. It's a name that transcends cultures, often found in literary and artistic contexts as a symbol of worth.",
+    "final_recommendation": "If you're looking for a name that embodies beauty and rarity, Jewel is a wonderful choice. Its rich history and cultural significance make it a name that will stand the test of time, offering both elegance and charm.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

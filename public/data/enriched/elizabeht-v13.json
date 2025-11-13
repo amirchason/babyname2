@@ -1,0 +1,214 @@
+{
+  "name": "Elizabeht",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T03:14:59.212Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is my oath",
+  "culturalSignificance": "Elizabeht appears to be a variant of the name Elizabeth, which has roots in Hebrew culture. The name is historically significant, often associated with royalty and notable figures throughout history.",
+  "modernContext": "In modern times, the name Elizabeth remains popular across various cultures, often seen as a classic and timeless choice for girls. The variant 'Elizabeht' may be a typographical variation, but it carries the same traditional charm.",
+  "literaryReferences": "The name Elizabeth has been featured in numerous literary works, including Jane Austen's 'Pride and Prejudice' with the beloved character Elizabeth Bennet.",
+  "pronunciationGuide": "ɛ-lɪ-zə-bɛt",
+  "variations": [
+    "Elizabeth",
+    "Elisabeth",
+    "Lizbeth",
+    "Elisa",
+    "Elise"
+  ],
+  "similarNames": [
+    "Isabel",
+    "Beth",
+    "Elisa",
+    "Elena",
+    "Lillian"
+  ],
+  "nicknames": [
+    "Liz",
+    "Beth",
+    "Eliza",
+    "Lizzie",
+    "Betsy"
+  ],
+  "personality": "Names like Elizabeht are often associated with grace, intelligence, and a strong sense of duty, reflecting the historical figures who bore the name.",
+  "symbolism": "The name Elizabeth, and its variants like Elizabeht, symbolize faithfulness and devotion, stemming from its meaning 'God is my oath'.",
+  "funFact": "The name Elizabeth has been borne by two reigning queens of England, reinforcing its royal connotations.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Elizabeth, mother of John the Baptist",
+    "significance": "Elizabeth is recognized in the Christian tradition as the mother of John the Baptist, a significant figure in the New Testament.",
+    "keyStories": [
+      "The Annunciation to Elizabeth",
+      "The Visitation"
+    ],
+    "spiritualMeaning": "Represents faith and the miraculous power of God.",
+    "historicalImpact": "Elizabeth's story is pivotal in the Christian narrative of the coming of Jesus Christ."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Elizabeth I",
+      "years": "1533-1603",
+      "category": "Royalty",
+      "achievements": [
+        "Defeated the Spanish Armada",
+        "Patron of the arts"
+      ],
+      "significance": "Elizabeth I was a powerful and influential queen of England, known for her strong leadership and the Elizabethan era's cultural flourishing.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Elizabeth II",
+      "years": "1926-2022",
+      "category": "Royalty",
+      "achievements": [
+        "Longest-reigning British monarch",
+        "Modernized the monarchy"
+      ],
+      "significance": "Elizabeth II was a symbol of stability and continuity for the UK and the Commonwealth, overseeing significant changes during her reign.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The full moon is a time of fulfillment and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These water signs share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotions, intuition, and fluidity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents compassion and nurturing qualities.",
+    "karmicLessons": "Embrace emotional intelligence and balance.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "Seeks truth and spiritual understanding."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 987,
+    "peak": 5,
+    "peakYear": 1880
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Do not be afraid of your greatness; it is meant to be shared.",
+    "author": "Elizabeth I",
+    "context": "The quote reflects Elizabeth I's encouragement of ambition and leadership."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "E-li-za-beht"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Isabel",
+      "script": "Latin",
+      "scriptName": "Isabel",
+      "pronunciation": "is-a-bɛl",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ελισάβετ",
+      "script": "Greek",
+      "scriptName": "Ελισάβετ",
+      "pronunciation": "el-i-sá-vet",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إليزابيث",
+      "script": "Arabic",
+      "scriptName": "إليزابيث",
+      "pronunciation": "ʔɪliːzaːbiːθ",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "伊丽莎白",
+      "script": "Han",
+      "scriptName": "伊丽莎白",
+      "pronunciation": "Yī lì shā bái",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Елизавета",
+      "script": "Cyrillic",
+      "scriptName": "Елизавета",
+      "pronunciation": "yi-li-za-vʲe-ta",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אליזבת",
+      "script": "Hebrew",
+      "scriptName": "אליזבת",
+      "pronunciation": "ɛ-li-za-bɛt",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Elizabeht, as a variant of Elizabeth, retains the classic appeal of its original form."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "The name is historically associated with royalty, including queens and princesses."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "The name Elizabeth has biblical roots, being the name of a significant figure in the Bible."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Elizabeht, a unique twist on the classic name Elizabeth, carries with it a rich history and timeless appeal. Known for its royal and biblical connections, this name has been borne by queens and revered figures throughout history.",
+    "etymology_meaning": "The name Elizabeht, derived from the Hebrew name Elizabeth, means 'God is my oath'. It reflects a deep spiritual connection and has been a popular choice across generations.",
+    "famous_bearers": "While Elizabeht itself is less common, variations like Elizabeth have been borne by notable figures such as Queen Elizabeth I and II, making it synonymous with leadership and grace.",
+    "pop_culture_moments": "Elizabeth has been featured prominently in literature and film, often representing strong and intelligent characters, such as Elizabeth Bennet in 'Pride and Prejudice'.",
+    "personality_profile": "Names like Elizabeht suggest a personality that is thoughtful, committed, and often drawn to leadership roles. These individuals are seen as trustworthy and influential.",
+    "variations_nicknames": "Common variations of Elizabeht include Elizabeth and Elisabeth, with nicknames like Liz, Beth, and Eliza offering familiar and friendly alternatives.",
+    "popularity_data": "Though the specific variant Elizabeht is rare, Elizabeth consistently ranks high in popularity charts due to its enduring charm and versatility.",
+    "pairing_suggestions": "Elizabeht pairs well with classic middle names such as Marie or Anne, and modern surnames like Parker or Greene, offering a blend of tradition and contemporary style.",
+    "cultural_context": "With roots in Hebrew culture, names like Elizabeht carry a universal appeal, transcending cultural and linguistic boundaries while maintaining their historical significance.",
+    "final_recommendation": "For parents seeking a name that blends tradition with individuality, Elizabeht offers a unique yet familiar choice. Its rich history and cultural significance make it a strong contender for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

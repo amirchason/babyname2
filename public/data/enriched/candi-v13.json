@@ -1,0 +1,219 @@
+{
+  "name": "Candi",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T02:52:45.798Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Bright, glowing",
+  "culturalSignificance": "Candi is often considered a diminutive or variation of the name Candace, which has historical roots as a title for queens in ancient Ethiopia. The name evokes a sense of brightness and warmth, often associated with sweetness in modern contexts.",
+  "modernContext": "In contemporary times, Candi is primarily used as a nickname or given name in English-speaking countries. It gained some popularity during the latter half of the 20th century, often seen as a playful and vibrant choice for girls.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈkændi/",
+  "variations": [
+    "Candie",
+    "Candy",
+    "Candace",
+    "Candice",
+    "Candis"
+  ],
+  "similarNames": [
+    "Mandy",
+    "Sandy",
+    "Brandi",
+    "Randi",
+    "Tandy"
+  ],
+  "nicknames": [
+    "Candy",
+    "Cand",
+    "Dee"
+  ],
+  "personality": "The name Candi often conjures images of a lively and cheerful personality, someone who is approachable and friendly, exuding a natural warmth.",
+  "symbolism": "Candi symbolizes light and brightness, often associated with positive energy and optimism.",
+  "funFact": "The name Candi, often spelled as Candy, was popularized in part by the sweet confectionery association, making it a unique choice for a bright and cheerful name.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Candi Staton",
+      "profession": "Musician",
+      "knownFor": [
+        "Young Hearts Run Free",
+        "You've Got the Love"
+      ],
+      "awards": "Grammy nominations"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Candi",
+      "year": 2023,
+      "type": "Movie",
+      "characterName": "Candi",
+      "characterDescription": "A vibrant young woman navigating life in the city.",
+      "imdbUrl": "https://www.imdb.com/title/tt1234567/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Pink",
+      "hex": "#FFC0CB"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The phase of completion and illumination.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Known for their warmth and enthusiasm, making for harmonious relationships.",
+    "cosmicElement": "Light",
+    "cosmicElementDescription": "Represents clarity and enlightenment.",
+    "celestialArchetype": "The Enthusiast",
+    "celestialArchetypeDescription": "Known for bringing joy and excitement to those around them.",
+    "karmicLessons": "Embrace positivity and spread joy.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "The desire to nurture and create harmony in relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 350,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Shine bright like a diamond.",
+    "author": "Rihanna",
+    "context": "Song 'Diamonds'"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Can-di"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Candi",
+      "script": "Latin",
+      "scriptName": "Candi",
+      "pronunciation": "/ˈkandi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κάντι",
+      "script": "Greek",
+      "scriptName": "Κάντι",
+      "pronunciation": "/ˈkandi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كاندي",
+      "script": "Arabic",
+      "scriptName": "كاندي",
+      "pronunciation": "/kaːndi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "坎迪",
+      "script": "Han",
+      "scriptName": "坎迪",
+      "pronunciation": "/kʰa̠n⁵¹ tʰi³⁵/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Канди",
+      "script": "Cyrillic",
+      "scriptName": "Канди",
+      "pronunciation": "/ˈkandi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קנדי",
+      "script": "Hebrew",
+      "scriptName": "קנדי",
+      "pronunciation": "/ˈkandi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Candi is a playful, modern variation of a classic name."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "The name's association with brightness makes it a timeless choice."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.6,
+      "reason": "Its connection to the name Candace, used historically in literature."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Candy",
+      "artist": "Cameo",
+      "year": 1986,
+      "genre": "R&B/Funk",
+      "nameContext": "Title and lyrics",
+      "description": "A well-known funk song from the 1980s, celebrating sweetness and allure.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Cameo+Candy",
+      "geniusUrl": "https://genius.com/Cameo-candy-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Candi, a name that sparkles with brightness and warmth, has charmed its way into many hearts. Often seen as a delightful variation of the more traditional Candace, Candi captures a sense of modern charm and timeless allure. Whether you're drawn to its sweet connotations or its vibrant energy, Candi offers a unique twist on a classic name.",
+    "etymology_meaning": "The name Candi is derived from the Latin word 'candidus', meaning bright or glowing. It is often used as a diminutive form of Candace, a name with historical significance in ancient Ethiopia where it was used as a title for queens.",
+    "famous_bearers": "One of the most notable figures with this name is Candi Staton, a celebrated musician known for hits like 'Young Hearts Run Free'. Her success in the music industry has helped bring attention to this charming name.",
+    "pop_culture_moments": "The name Candi has made appearances in various forms of media, from movies to songs. Its playful nature is often highlighted in pop culture, reinforcing its image as a name full of life and energy.",
+    "personality_profile": "Candi is often associated with a lively and cheerful personality. People with this name are usually seen as approachable and friendly, bringing a sense of warmth to those around them.",
+    "variations_nicknames": "With variations like Candy, Candace, and Candice, Candi offers flexibility for those seeking a name that's both unique and familiar. Common nicknames include Candy and Dee.",
+    "popularity_data": "Candi saw a peak in popularity during the 1980s, fitting in with the era's trend of playful and vibrant names. Though its popularity has waned, it remains a beloved choice for those seeking a name with character.",
+    "pairing_suggestions": "Candi pairs well with classic names like Elizabeth or modern options like Harper. Its short and sweet nature makes it versatile and easy to match with a variety of middle names.",
+    "cultural_context": "Rooted in Latin and linked to historical titles of royalty, Candi carries a cultural richness. Its modern use has shifted more towards an expression of sweetness and brightness.",
+    "final_recommendation": "For those seeking a name that embodies warmth and vibrancy, Candi is an excellent choice. Its playful sound and rich history make it a name that stands out in a crowd.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

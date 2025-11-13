@@ -1,0 +1,231 @@
+{
+  "name": "Jeffery",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:56:49.164Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "peaceful pledge",
+  "culturalSignificance": "Jeffery is a variant of the name Geoffrey, which has roots in the medieval period. It was popularized in England and has been used by various figures throughout history.",
+  "modernContext": "In modern times, Jeffery is a common name in English-speaking countries, although its popularity has fluctuated over the decades. It remains a classic choice for many parents.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈdʒɛfəri/",
+  "variations": [
+    "Jeffrey",
+    "Geoffrey",
+    "Jeff",
+    "Jeffery",
+    "Joffrey"
+  ],
+  "similarNames": [
+    "Jeremy",
+    "Jefferson",
+    "Jerry",
+    "Justin",
+    "Jordan"
+  ],
+  "nicknames": [
+    "Jeff",
+    "Jeffy",
+    "Jef",
+    "Rey"
+  ],
+  "personality": "Jeffery is often associated with a calm and steady demeanor, reflecting its meaning of 'peaceful pledge.' People with this name are thought to be reliable and trustworthy.",
+  "symbolism": "The name Jeffery symbolizes peace and commitment, often associated with loyalty and steadfastness.",
+  "funFact": "The name Jeffery gained popularity in the United States during the mid-20th century, peaking in the 1960s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Geoffrey Chaucer",
+      "years": "1343-1400",
+      "category": "Poet",
+      "achievements": [
+        "Father of English literature",
+        "Author of The Canterbury Tales"
+      ],
+      "significance": "Chaucer is considered the greatest English poet of the Middle Ages and known for his wide influence on the English language.",
+      "notableWorks": [
+        "The Canterbury Tales",
+        "Troilus and Criseyde"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jeffery Deaver",
+      "profession": "Author",
+      "knownFor": [
+        "The Bone Collector",
+        "Lincoln Rhyme series"
+      ],
+      "awards": "Nero Wolfe Award"
+    },
+    {
+      "name": "Jeffery Tambor",
+      "profession": "Actor",
+      "knownFor": [
+        "Arrested Development",
+        "Transparent"
+      ],
+      "awards": "Primetime Emmy Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Transparent",
+      "year": 2014,
+      "type": "TV Show",
+      "characterName": "Maura Pfefferman",
+      "characterDescription": "The central character of the series, portrayed by Jeffrey Tambor.",
+      "imdbUrl": "https://www.imdb.com/title/tt3502262/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs are believed to provide stability and support.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth symbolizes stability, reliability, and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Known for creating solid foundations and bringing plans to fruition.",
+    "karmicLessons": "Learning to balance work and personal life.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by the desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 560,
+    "peak": 56,
+    "peakYear": 1966
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "context": "A quote about overcoming self-doubt and embracing potential."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Jef-fer-y"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jeffery",
+      "script": "Latin",
+      "scriptName": "Jeffery",
+      "pronunciation": "/ˈxefeɾi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζέφρι",
+      "script": "Greek",
+      "scriptName": "Τζέφρι",
+      "pronunciation": "/ˈʤefri/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيفري",
+      "script": "Arabic",
+      "scriptName": "جيفري",
+      "pronunciation": "/d͡ʒɪf.riː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "杰弗里",
+      "script": "Han",
+      "scriptName": "杰弗里",
+      "pronunciation": "/ˈdʒɛfəri/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джеффри",
+      "script": "Cyrillic",
+      "scriptName": "Джеффри",
+      "pronunciation": "/ˈdʒɛfri/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג׳פרי",
+      "script": "Hebrew",
+      "scriptName": "ג׳פרי",
+      "pronunciation": "/ˈdʒɛfri/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jeffery has been a consistent choice over the decades."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has maintained its relevance across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Connected to Geoffrey Chaucer, a seminal literary figure."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Jeffery is a name that echoes through the halls of history, carrying with it a sense of peaceful commitment. With roots deep in the Germanic languages, it has been a favorite across generations, offering a classic yet contemporary appeal.",
+    "etymology_meaning": "Derived from the Germanic elements 'gawia' meaning 'region, territory' and 'frid' meaning 'peace,' Jeffery signifies a peaceful pledge. This name evolved over time, influenced by the Norman conquest of England.",
+    "famous_bearers": "Among the most notable bearers of the name is Jeffery Deaver, the acclaimed author of the Lincoln Rhyme series, and Jeffery Tambor, renowned for his roles in 'Arrested Development' and 'Transparent'.",
+    "pop_culture_moments": "Jeffery has made notable appearances in popular culture, particularly through characters in TV shows like 'Transparent', where Jeffery Tambor's portrayal won critical acclaim.",
+    "personality_profile": "Those named Jeffery are often seen as reliable and steadfast, embodying the peaceful and committed nature suggested by the name's meaning. They are thought to bring stability and calm to those around them.",
+    "variations_nicknames": "Variations of Jeffery include Jeffrey, Geoffrey, and Joffrey, each offering a slightly different cultural flavor. Common nicknames like Jeff and Jeffy add a personal touch.",
+    "popularity_data": "Jeffery saw a peak in popularity during the 1960s in the United States, and while it has seen some decline, it remains a respected choice for parents seeking a name with historical depth.",
+    "pairing_suggestions": "Jeffery pairs well with similarly classic names like Elizabeth or Katherine for girls, and Alexander or Benjamin for boys, creating a harmonious and balanced full name.",
+    "cultural_context": "Historically, Jeffery has been associated with nobility and literature, lending it a timeless quality. Its usage spans multiple cultures, with variations adapting to different linguistic contexts.",
+    "final_recommendation": "For those seeking a name with a strong historical foundation and a peaceful connotation, Jeffery is an excellent choice. Its classic appeal and enduring nature make it a name that stands the test of time.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

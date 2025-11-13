@@ -1,0 +1,236 @@
+{
+  "name": "Jacobo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:40:56.375Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Supplanter",
+  "culturalSignificance": "Jacobo is a Spanish variant of the name Jacob, which has deep roots in biblical tradition. The name is historically significant due to its association with the biblical patriarch Jacob, who was a son of Isaac and the father of the twelve tribes of Israel.",
+  "modernContext": "In modern times, Jacobo is predominantly used in Spanish-speaking countries. It remains a popular choice for those seeking a name with historical and religious significance.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/haˈkoβo/",
+  "variations": [
+    "Jacob",
+    "James",
+    "Giacomo",
+    "Jaime",
+    "Jakub"
+  ],
+  "similarNames": [
+    "Diego",
+    "Santiago",
+    "Mateo",
+    "Lucas",
+    "Gabriel"
+  ],
+  "nicknames": [
+    "Jake",
+    "Coby",
+    "Jack",
+    "Jaco",
+    "Kobe"
+  ],
+  "personality": "Names like Jacobo are often associated with leadership qualities and a strong sense of responsibility. People with this name are thought to be determined and focused.",
+  "symbolism": "Jacobo carries symbolic meanings of transition and change, often associated with the biblical story of Jacob's ladder.",
+  "funFact": "In some cultures, Jacobo is used as a given name to honor Saint James, who is considered the patron saint of Spain.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Jacob",
+    "significance": "Jacob is a key figure in both the Hebrew Bible and the Christian Old Testament. He is known for his role as the patriarch of the Israelites.",
+    "keyStories": [
+      "Jacob's Ladder",
+      "Jacob Wrestling with the Angel"
+    ],
+    "spiritualMeaning": "The name Jacob, and by extension Jacobo, is often associated with spiritual journeys and divine encounters.",
+    "historicalImpact": "Jacob's story has had a profound impact on the religious traditions of Judaism and Christianity, influencing countless theological discussions."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jacobo Fitz-James Stuart, 17th Duke of Alba",
+      "years": "1878-1953",
+      "category": "Royalty",
+      "achievements": [
+        "Prominent Spanish nobleman",
+        "Influential in Spanish cultural circles"
+      ],
+      "significance": "He played a significant role in preserving Spanish art and culture during a turbulent period.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Jacobo Timerman",
+      "years": "1923-1999",
+      "category": "Journalist",
+      "achievements": [
+        "Argentinian newspaper publisher",
+        "Human rights activist"
+      ],
+      "significance": "Timerman was known for his courageous journalism during the Dirty War in Argentina.",
+      "notableWorks": [
+        "Prisoner Without a Name, Cell Without a Number"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jacobo Zabludovsky",
+      "profession": "Journalist",
+      "knownFor": [
+        "Leading Mexican television news anchor"
+      ],
+      "awards": "Premio Nacional de Periodismo"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Associated with completion and realization of goals.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a practical and grounded approach to life.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "This archetype is characterized by a solid foundation and a focus on creating lasting structures.",
+    "karmicLessons": "Learning to embrace change and transformation.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Desires harmony and companionship."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 300,
+    "peakYear": 2000
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "context": "Encouraging pursuit of passion in one's work."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ja-co-bo"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jacobo",
+      "script": "Latin",
+      "scriptName": "Jacobo",
+      "pronunciation": "/haˈkoβo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιάκωβος",
+      "script": "Greek",
+      "scriptName": "Ιάκωβος",
+      "pronunciation": "/iˈakovo̞s/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "يعقوب",
+      "script": "Arabic",
+      "scriptName": "يعقوب",
+      "pronunciation": "/jaʕquːb/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雅各布",
+      "script": "Han",
+      "scriptName": "雅各布",
+      "pronunciation": "/yǎgèbù/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Яков",
+      "script": "Cyrillic",
+      "scriptName": "Яков",
+      "pronunciation": "/ˈjakəf/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יעקב",
+      "script": "Hebrew",
+      "scriptName": "יעקב",
+      "pronunciation": "/jaˈakob/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Prisoner Without a Name, Cell Without a Number",
+      "author": "Jacobo Timerman",
+      "publishedYear": 1981,
+      "genre": "Non-fiction",
+      "significance": "A powerful memoir about Timerman's imprisonment and torture during Argentina's Dirty War.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Jacobo is a Spanish variant of Jacob, a significant biblical figure."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name has been in use for centuries across various cultures."
+    },
+    {
+      "tag": "Traditional",
+      "confidence": 0.85,
+      "reason": "Widely used in Spanish-speaking countries, maintaining cultural heritage."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Choosing a baby name can be both exciting and daunting, especially when you're looking for something with historical depth and cultural resonance. The name Jacobo offers the perfect blend of tradition and charm, making it a wonderful choice for parents seeking a meaningful name.",
+    "etymology_meaning": "Jacobo is of Hebrew origin, meaning 'supplanter.' It is the Spanish form of Jacob, which is deeply rooted in biblical narratives, particularly known for the story of Jacob's ladder.",
+    "famous_bearers": "Notable individuals named Jacobo include Jacobo Zabludovsky, a leading Mexican journalist, and Jacobo Timerman, an Argentine journalist known for his courageous reporting during the Dirty War.",
+    "pop_culture_moments": "While not frequently featured in mainstream pop culture, the name Jacobo carries historical weight and is often chosen for its biblical connections.",
+    "personality_profile": "Names like Jacobo are often associated with strong leadership qualities and a deep sense of responsibility. Those bearing the name are seen as determined and reliable.",
+    "variations_nicknames": "Variations of Jacobo include Jacob, James, and Giacomo, while common nicknames are Jake, Coby, and Jack. These variations allow for flexibility in cultural and personal expression.",
+    "popularity_data": "Jacobo enjoys moderate popularity in Spanish-speaking regions, consistently ranking within the top names due to its classical appeal and cultural significance.",
+    "pairing_suggestions": "Jacobo pairs well with middle names like Alexander or Miguel, offering a balance between tradition and modernity. For siblings, names like Sofia and Mateo complement Jacobo beautifully.",
+    "cultural_context": "In Spanish-speaking countries, Jacobo is a name rich with cultural and religious significance, often chosen for its historical roots and biblical associations.",
+    "final_recommendation": "For parents seeking a name with both historical depth and cultural resonance, Jacobo is an excellent choice. Its biblical roots and classic charm make it a timeless option that carries a sense of dignity and tradition.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,300 @@
+{
+  "name": "Edward",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:50:24.857Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Wealthy guardian",
+  "culturalSignificance": "Edward is a classic English name with royal connotations, often associated with kings and nobility in British history. It has been borne by a number of English monarchs, including Edward the Confessor, who was canonized as a saint.",
+  "modernContext": "In modern times, Edward remains a popular choice for boys, maintaining its status as a traditional and timeless name. It gained a resurgence in popularity due to its association with the 'Twilight' series, where Edward Cullen is a main character.",
+  "literaryReferences": "Edward is a prominent name in literature, notably used in the 'Twilight' series by Stephenie Meyer, where Edward Cullen is a vampire protagonist.",
+  "pronunciationGuide": "/ˈɛdwərd/",
+  "variations": [
+    "Edvard",
+    "Eduardo",
+    "Édouard",
+    "Edwin",
+    "Eadbhard"
+  ],
+  "similarNames": [
+    "Edmund",
+    "Edgar",
+    "Edwin",
+    "Ethan",
+    "Henry"
+  ],
+  "nicknames": [
+    "Ed",
+    "Eddie",
+    "Ned",
+    "Ted",
+    "Ward"
+  ],
+  "personality": "People named Edward are often perceived as strong, reliable, and intelligent, reflecting the name's noble and regal heritage.",
+  "symbolism": "Edward symbolizes protection and prosperity, often associated with leadership and wisdom.",
+  "funFact": "Edward was the name of eight kings of England, starting with Edward the Elder in the 10th century.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "St. Edward the Confessor",
+    "significance": "St. Edward the Confessor was one of the last Anglo-Saxon kings of England and is venerated as a saint in the Catholic Church.",
+    "keyStories": [
+      "St. Edward's peaceful reign",
+      "His pious life and canonization"
+    ],
+    "spiritualMeaning": "Represents piety and wisdom.",
+    "historicalImpact": "His reign is often seen as a period of relative peace and his canonization added to the religious significance of the name."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Edward the Confessor",
+      "years": "1003-1066",
+      "category": "Royalty",
+      "achievements": [
+        "Canonized as a saint",
+        "Built Westminster Abbey"
+      ],
+      "significance": "Edward the Confessor is remembered for his pious nature and his role in the construction of Westminster Abbey.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Edward VIII",
+      "years": "1894-1972",
+      "category": "Royalty",
+      "achievements": [
+        "Abdicated the throne to marry Wallis Simpson"
+      ],
+      "significance": "His abdication led to a constitutional crisis and significant changes in the British monarchy.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I have found it impossible to carry the heavy burden of responsibility and to discharge my duties as king as I would wish to do without the help and support of the woman I love.",
+      "author": "Edward VIII",
+      "context": "Abdication speech",
+      "year": 1936,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Edward Norton",
+      "profession": "Actor",
+      "knownFor": [
+        "Fight Club",
+        "American History X"
+      ],
+      "awards": "Nominated for Academy Awards"
+    },
+    {
+      "name": "Edward Snowden",
+      "profession": "Whistleblower",
+      "knownFor": [
+        "NSA surveillance disclosures"
+      ],
+      "awards": "Sam Adams Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Twilight",
+      "year": 2008,
+      "type": "Movie",
+      "characterName": "Edward Cullen",
+      "characterDescription": "A vampire who falls in love with a human girl, Bella Swan.",
+      "imdbUrl": "https://www.imdb.com/title/tt1099212/",
+      "genre": "Fantasy/Romance",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Edward Scissorhands",
+      "year": 1990,
+      "type": "Movie",
+      "characterName": "Edward Scissorhands",
+      "characterDescription": "A gentle man with scissor blades instead of hands.",
+      "imdbUrl": "https://www.imdb.com/title/tt0099487/",
+      "genre": "Fantasy/Romance",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "And so the lion fell in love with the lamb.",
+      "character": "Edward Cullen",
+      "source": "Twilight",
+      "year": 2008,
+      "context": "Expressing his love for Bella Swan",
+      "genre": "Fantasy/Romance",
+      "impact": "Became a memorable and iconic line from the series."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#228B22"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and a grounded nature.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural leaders with a strong sense of responsibility.",
+    "karmicLessons": "Learning to balance personal desires with duties.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for nurturing and caring relationships."
+  },
+  "genderDistribution": {
+    "male": 97,
+    "female": 3
+  },
+  "ranking": {
+    "current": 167,
+    "peak": 10,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To handle yourself, use your head; to handle others, use your heart.",
+    "author": "Eleanor Roosevelt",
+    "context": "Inspirational advice on leadership and empathy."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ed-ward"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Eduardo",
+      "script": "Latin",
+      "scriptName": "Eduardo",
+      "pronunciation": "/eˈðwaɾðo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εδουάρδος",
+      "script": "Greek",
+      "scriptName": "Εδουάρδος",
+      "pronunciation": "/eðuˈarðos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إدوارد",
+      "script": "Arabic",
+      "scriptName": "إدوارد",
+      "pronunciation": "/ʔidˈwaːrd/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "爱德华",
+      "script": "Han",
+      "scriptName": "爱德华",
+      "pronunciation": "/àidéhuá/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эдвард",
+      "script": "Cyrillic",
+      "scriptName": "Эдвард",
+      "pronunciation": "/ˈɛdvərt/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אדוארד",
+      "script": "Hebrew",
+      "scriptName": "אדוארד",
+      "pronunciation": "/ɛdˈvard/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Twilight",
+      "author": "Stephenie Meyer",
+      "publishedYear": 2005,
+      "genre": "Fiction",
+      "significance": "Popular novel featuring Edward Cullen, which sparked a global phenomenon.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Edward is a traditional and enduring name with historical roots."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.9,
+      "reason": "The name has been used by numerous kings and has a regal connotation."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.92,
+      "reason": "Edward has remained popular across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Featured prominently in classic and modern literature."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Edward",
+      "artist": "Steeleye Span",
+      "year": 1971,
+      "genre": "Folk",
+      "nameContext": "The name is central to the song's narrative.",
+      "description": "A traditional folk ballad telling a story of remorse and tragedy involving the character Edward.",
+      "theme": "negative",
+      "positiveVibeScore": 3,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Steeleye+Span+Edward",
+      "geniusUrl": "https://genius.com/search?q=Edward%20Steeleye%20Span",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Edward is a timeless and regal name with a rich history and a strong presence in both royal and literary circles. From the courtrooms of medieval England to the pages of modern bestsellers, Edward has gracefully maintained its place in hearts and minds worldwide.",
+    "etymology_meaning": "Originating from the Old English elements 'ead' (wealth, fortune) and 'weard' (guardian, protector), Edward means 'wealthy guardian.' The name emphasizes protection and prosperity, befitting its noble roots.",
+    "famous_bearers": "Notable Edwards include historical figures such as Edward the Confessor and modern personalities like actor Edward Norton and whistleblower Edward Snowden. Each has left a unique mark on history and culture.",
+    "pop_culture_moments": "Edward Cullen from the 'Twilight' series brought a new wave of popularity to the name, enchanting a generation of readers and viewers with its romantic allure.",
+    "personality_profile": "Edward is often associated with leadership, wisdom, and reliability. Those bearing this name are perceived as thoughtful and intelligent, with a strong sense of duty.",
+    "variations_nicknames": "Variations like Eduardo and Édouard reflect the name's international appeal, while nicknames such as Ed and Eddie offer friendly, approachable options.",
+    "popularity_data": "Edward has consistently ranked within the top 200 names for boys, with its peak popularity in the early 20th century. It remains a classic choice for parents seeking a name with historical depth.",
+    "pairing_suggestions": "Edward pairs well with names like Charlotte and Elizabeth for a classic feel or with modern names like Amelia and Oliver for a contemporary twist.",
+    "cultural_context": "With roots in Germanic languages and a strong association with English royalty, Edward carries a sense of tradition and elegance that transcends cultural boundaries.",
+    "final_recommendation": "For those seeking a name with historical significance and modern charm, Edward offers a perfect blend of both. It is a name that carries weight and warmth, making it a timeless choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

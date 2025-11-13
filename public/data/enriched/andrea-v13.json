@@ -1,0 +1,311 @@
+{
+  "name": "Andrea",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:06:50.469Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Greek",
+  "meaning": "manly, brave",
+  "culturalSignificance": "Andrea is a name of Greek origin that means 'manly' or 'brave'. It is used as both a male and female name in different cultures, with a particularly strong presence in Italy as a male name and in English-speaking countries as a female name.",
+  "modernContext": "In modern times, Andrea is a popular unisex name. It is particularly common in Italy as a male name and is often used for females in English-speaking countries. Its popularity has remained steady due to its versatile and international appeal.",
+  "literaryReferences": "The name Andrea appears in various works of literature, often used for characters who embody bravery or strong will.",
+  "pronunciationGuide": "ˈæn.dri.ə",
+  "variations": [
+    "Andreas",
+    "Andre",
+    "Andrew",
+    "Andriana",
+    "Andreia"
+  ],
+  "similarNames": [
+    "Andrew",
+    "Anders",
+    "Adrienne",
+    "Angela",
+    "Audrey"
+  ],
+  "nicknames": [
+    "Andy",
+    "Drea",
+    "Andi",
+    "Ann",
+    "Rea"
+  ],
+  "personality": "People named Andrea are often perceived as strong and independent, embodying qualities of leadership and bravery.",
+  "symbolism": "The name Andrea symbolizes courage and strength, reflecting its meaning of 'manly' and 'brave'.",
+  "funFact": "Andrea Bocelli, a world-renowned Italian tenor, has helped popularize the name internationally.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Andrea Palladio",
+      "years": "1508-1580",
+      "category": "Architect",
+      "achievements": [
+        "Developed Palladian architecture",
+        "Influenced Western architecture"
+      ],
+      "significance": "Andrea Palladio was a highly influential Italian architect whose work inspired the Palladian style, shaping architecture across Europe and North America.",
+      "notableWorks": [
+        "Villa Capra",
+        "Basilica Palladiana"
+      ]
+    },
+    {
+      "fullName": "Andrea del Verrocchio",
+      "years": "1435-1488",
+      "category": "Artist",
+      "achievements": [
+        "Influential teacher of Leonardo da Vinci",
+        "Renowned sculptor and painter"
+      ],
+      "significance": "Verrocchio was a prominent Italian sculptor and painter during the Renaissance, known for his influence on Leonardo da Vinci.",
+      "notableWorks": [
+        "Equestrian statue of Bartolomeo Colleoni",
+        "Christ and St. Thomas"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The only real voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
+      "author": "Marcel Proust",
+      "context": "Referring to the understanding and perception in exploration.",
+      "year": 1923,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Andrea Bocelli",
+      "profession": "Musician",
+      "knownFor": [
+        "Opera singing",
+        "Pop crossover"
+      ],
+      "awards": "Grammy nominations, Golden Globe"
+    },
+    {
+      "name": "Andrea Pirlo",
+      "profession": "Athlete",
+      "knownFor": [
+        "Football (Soccer)",
+        "Midfield playmaking"
+      ],
+      "awards": "World Cup Champion, Serie A titles"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Andrea Pirlo",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Serie A",
+      "team": "Retired",
+      "pastTeams": [
+        "AC Milan",
+        "Juventus"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "21",
+      "years": "1995-2017",
+      "achievements": "World Cup 2006 winner, multiple Serie A titles",
+      "knownFor": [
+        "Vision",
+        "Passing"
+      ],
+      "awards": "UEFA Team of the Year",
+      "stats": "Over 100 caps for Italy",
+      "verified": true,
+      "source": "Wikipedia"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Devil Wears Prada",
+      "year": 2006,
+      "type": "Movie",
+      "characterName": "Andrea 'Andy' Sachs",
+      "characterDescription": "A young woman navigating the fashion world under a demanding boss.",
+      "imdbUrl": "https://www.imdb.com/title/tt0458352/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I don't know that I want to be the one who says this, but... you have to start thinking like a leader.",
+      "character": "Andrea Sachs",
+      "source": "The Devil Wears Prada",
+      "year": 2006,
+      "context": "Encouraging her friend to take charge.",
+      "genre": "Drama",
+      "impact": "Highlights the character's growth and assertiveness."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of clarity and illumination.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share a strong intellectual and communicative bond with Air elements.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and adaptability.",
+    "celestialArchetype": "The Thinker",
+    "celestialArchetypeDescription": "Known for their clarity of thought and ability to see the bigger picture.",
+    "karmicLessons": "To embrace change and communicate effectively.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and new experiences."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 134,
+    "peak": 22,
+    "peakYear": 1985
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Courage is not the absence of fear, but the triumph over it.",
+    "author": "Nelson Mandela",
+    "context": "Referring to the essence of bravery and courage."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "An-dre-a"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Andrea",
+      "script": "Latin",
+      "scriptName": "Andrea",
+      "pronunciation": "anˈdɾea",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ανδρέας",
+      "script": "Greek",
+      "scriptName": "Ανδρέας",
+      "pronunciation": "anˈðreas",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أندريا",
+      "script": "Arabic",
+      "scriptName": "أندريا",
+      "pronunciation": "ʔanˈdriːa",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安德烈",
+      "script": "Han",
+      "scriptName": "安德烈",
+      "pronunciation": "Āndéliè",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Андрей",
+      "script": "Cyrillic",
+      "scriptName": "Андрей",
+      "pronunciation": "ɐnˈdrʲej",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אנדריאה",
+      "script": "Hebrew",
+      "scriptName": "אנדריאה",
+      "pronunciation": "anˈdri.a",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Devil Wears Prada",
+      "author": "Lauren Weisberger",
+      "publishedYear": 2003,
+      "genre": "Fiction",
+      "significance": "The book is a bestseller that offers a satirical take on the fashion industry.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "The name Andrea has been consistently popular across different cultures and time periods."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Andrea has historical significance and a strong etymological background."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name appears in notable literary works and popular culture."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Andrea",
+      "artist": "Phoenix",
+      "year": 2000,
+      "genre": "Rock",
+      "nameContext": "The song title and lyrics mention the name Andrea.",
+      "description": "A song by the French band Phoenix, featuring themes of love and longing.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Phoenix+Andrea",
+      "geniusUrl": "https://genius.com/search?q=Phoenix+Andrea",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Andrea is a name that resonates with strength and versatility, embodying both classic and modern qualities. Whether you're inspired by the world-renowned tenor Andrea Bocelli or intrigued by its presence in various cultural contexts, this name holds a unique charm. Its adaptability across languages and regions makes it a perennial favorite among parents worldwide.",
+    "etymology_meaning": "Andrea originates from the Greek word 'andreios', meaning 'manly' or 'brave'. This name has been used across different cultures and languages, often reflecting qualities of courage and leadership.",
+    "famous_bearers": "Famous individuals named Andrea include Andrea Bocelli, the acclaimed Italian tenor, and Andrea Pirlo, the legendary Italian footballer. Their achievements in music and sports have brought significant attention to the name.",
+    "pop_culture_moments": "Andrea Sachs, the protagonist of 'The Devil Wears Prada', is a notable character that has contributed to the name's pop culture presence. This reflects Andrea's association with ambition and determination.",
+    "personality_profile": "Andrea is often associated with individuals who are strong, independent, and adaptable. These personality traits make it a popular choice for those seeking a name that conveys both confidence and versatility.",
+    "variations_nicknames": "With variations like Andreas, Andre, and Andriana, Andrea offers a range of stylistic choices. Common nicknames such as Andy, Drea, and Andi provide informal and friendly alternatives.",
+    "popularity_data": "Andrea has maintained a steady popularity over the years, particularly in Italy and English-speaking countries. Its unisex nature and international appeal contribute to its enduring charm.",
+    "pairing_suggestions": "Andrea pairs well with names like Michael, Isabella, and Sophia, creating a harmonious blend of traditional and modern influences. These combinations are favored for their melodic quality and balance.",
+    "cultural_context": "Andrea's cultural roots in Greek, Italian, and English-speaking contexts highlight its global appeal. It is a name that bridges different cultures while retaining its core meaning of bravery.",
+    "final_recommendation": "If you're looking for a name that embodies strength, adaptability, and a touch of classical elegance, Andrea is a perfect choice. Its versatility and rich cultural heritage make it a timeless option for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

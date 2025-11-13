@@ -1,0 +1,199 @@
+{
+  "name": "Dallan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T06:05:48.191Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "blind",
+  "culturalSignificance": "Dallan is a name of Irish origin, often associated with ancient Irish poets and scholars. It is derived from the Gaelic word 'dall', meaning 'blind', and is famously linked to Saint Dallan Forgaill, a 6th-century poet known for his religious hymns and dedication to Christian learning.",
+  "modernContext": "Today, Dallan is a relatively uncommon name but retains a strong cultural resonance in Ireland and among those of Irish heritage. It is often chosen for its historical roots and lyrical sound.",
+  "literaryReferences": "Saint Dallan Forgaill is credited with writing the 'Amra Choluim Chille', a piece of early Irish literature.",
+  "pronunciationGuide": "ˈdælən",
+  "variations": [
+    "Dalan",
+    "Dalaney",
+    "Dalaney"
+  ],
+  "similarNames": [
+    "Declan",
+    "Dylan",
+    "Cillian",
+    "Donal",
+    "Darragh"
+  ],
+  "nicknames": [
+    "Dal",
+    "Dally",
+    "Dan",
+    "Dane"
+  ],
+  "personality": "People named Dallan are often thought to possess a creative and introspective nature, reflecting the scholarly and poetic associations of the name.",
+  "symbolism": "The name Dallan symbolizes vision beyond sight, reflecting the ancient Irish belief in the wisdom of poets and seers.",
+  "funFact": "Saint Dallan Forgaill, despite his name meaning 'blind', was reputedly a poet of great insight and wisdom.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Dallan Forgaill",
+    "significance": "Saint Dallan Forgaill was a prominent Christian poet whose works were integral to the religious and cultural life of early medieval Ireland.",
+    "keyStories": [
+      "Amra Choluim Chille"
+    ],
+    "spiritualMeaning": "The name is associated with wisdom and spiritual insight.",
+    "historicalImpact": "His hymns and poetry contributed to the spread of Christianity in Ireland."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Saint Dallan Forgaill",
+      "years": "530-598",
+      "category": "Poet",
+      "achievements": [
+        "Composing 'Amra Choluim Chille'"
+      ],
+      "significance": "He was a key figure in early Irish Christianity, known for his religious poetry.",
+      "notableWorks": [
+        "Amra Choluim Chille"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and gaining momentum.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Dallan's water element aligns well with other water signs, fostering emotional and intuitive connections.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water symbolizes emotion, intuition, and fluidity.",
+    "celestialArchetype": "The Seer",
+    "celestialArchetypeDescription": "The Seer is intuitive, insightful, and spiritually aware.",
+    "karmicLessons": "Learning to trust intuition and embrace emotions.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A desire to contribute to the greater good and seek spiritual enlightenment."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 723,
+    "peakYear": 2002
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To see the world clearly, sometimes we must close our eyes.",
+    "author": "Anonymous",
+    "context": "Reflects the deeper insight associated with the name Dallan."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Dal-lan"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Dallán",
+      "script": "Latin",
+      "scriptName": "Dallán",
+      "pronunciation": "daˈʎan",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντάλαν",
+      "script": "Greek",
+      "scriptName": "Ντάλαν",
+      "pronunciation": "ˈdalan",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دالان",
+      "script": "Arabic",
+      "scriptName": "دالان",
+      "pronunciation": "daːlan",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "达兰",
+      "script": "Han",
+      "scriptName": "达兰",
+      "pronunciation": "dá lán",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Даллан",
+      "script": "Cyrillic",
+      "scriptName": "Даллан",
+      "pronunciation": "ˈdalən",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דאלן",
+      "script": "Hebrew",
+      "scriptName": "דאלן",
+      "pronunciation": "daːlan",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Dallan has historical roots in ancient Irish culture."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with Saint Dallan Forgaill, a notable poet."
+    },
+    {
+      "tag": "Spiritual",
+      "confidence": 0.85,
+      "reason": "The name carries spiritual significance due to its religious associations."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Dallan is a name steeped in history and culture, evoking images of ancient Irish poets and scholars. It's a name that carries with it a sense of mystery and depth, appealing to those who appreciate a connection to the past. In modern times, Dallan is chosen for its unique sound and its ties to spiritual and poetic traditions.",
+    "etymology_meaning": "Derived from the Irish word 'dall', meaning 'blind', Dallan has historical significance due to its association with Saint Dallan Forgaill. This name is a testament to the potential for great insight and wisdom beyond physical sight.",
+    "famous_bearers": "Saint Dallan Forgaill is perhaps the most notable bearer, recognized for his contributions to early Christian poetry in Ireland. His works, like 'Amra Choluim Chille', have left a lasting legacy.",
+    "pop_culture_moments": "While not prevalent in modern pop culture, the name Dallan maintains a presence in discussions of Irish history and literature, especially among enthusiasts of Celtic studies.",
+    "personality_profile": "Those named Dallan are often seen as introspective and thoughtful, with a natural inclination towards creativity and spiritual pursuits. They may also be perceived as wise beyond their years.",
+    "variations_nicknames": "Variations of the name include Dalan and Dalaney, with common nicknames being Dal and Dally. These variations offer flexibility while maintaining the name's unique charm.",
+    "popularity_data": "Dallan is not a common name in contemporary times, maintaining a spot outside of the top 700 names. Its rarity adds to its appeal for those seeking a distinctive name with deep roots.",
+    "pairing_suggestions": "Dallan pairs well with other traditional Irish names such as Saoirse for girls or Cillian for boys, creating a harmonious and culturally rich combination.",
+    "cultural_context": "In Irish culture, names carry significant weight and often reflect historical and familial ties. Dallan, with its poetic and spiritual connotations, is a prime example of this tradition.",
+    "final_recommendation": "For parents looking for a name that is both unique and deeply rooted in history, Dallan offers a compelling choice. Its connection to ancient Irish culture and its melodic sound make it an excellent option for those seeking a meaningful name.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -1,0 +1,299 @@
+{
+  "name": "Hector",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:43:53.369Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Holding fast",
+  "culturalSignificance": "Hector is a name of Greek origin, famously borne by the Trojan prince Hector in Homer’s epic, 'The Iliad'. He is depicted as a noble and brave warrior and is a central figure in Trojan lore, symbolizing courage and loyalty.",
+  "modernContext": "Hector remains a popular name in many cultures, especially in Hispanic communities. It has maintained steady usage due to its strong historical roots and noble connotations.",
+  "literaryReferences": "Hector is a central character in Homer's 'The Iliad', where he is portrayed as the greatest of the Trojan warriors.",
+  "pronunciationGuide": "ˈhɛktər",
+  "variations": [
+    "Hektor",
+    "Héctor",
+    "Etore"
+  ],
+  "similarNames": [
+    "Victor",
+    "Eric",
+    "Henry",
+    "Arthur",
+    "Alexander"
+  ],
+  "nicknames": [
+    "Hec",
+    "Hecky",
+    "Hettie"
+  ],
+  "personality": "The name Hector is often associated with strength, reliability, and a protective nature, reflecting the attributes of the legendary Trojan hero.",
+  "symbolism": "Hector symbolizes bravery, leadership, and protection, stemming from his role as a defender of Troy.",
+  "funFact": "Hector is often depicted in classical art and literature as the epitome of heroism and loyalty.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Hector Berlioz",
+      "years": "1803-1869",
+      "category": "Composer",
+      "achievements": [
+        "Symphony 'Fantastique'",
+        "Grande messe des morts"
+      ],
+      "significance": "Berlioz was a French Romantic composer known for his innovative orchestration and significant contributions to the development of the modern orchestra.",
+      "notableWorks": [
+        "Symphonie fantastique",
+        "Les Troyens"
+      ]
+    },
+    {
+      "fullName": "Hector Hugh Munro",
+      "years": "1870-1916",
+      "category": "Writer",
+      "achievements": [
+        "Short stories",
+        "Novels"
+      ],
+      "significance": "Better known by his pen name, Saki, Hector Hugh Munro was a master of the short story, known for his witty, mischievous, and sometimes macabre tales.",
+      "notableWorks": [
+        "The Open Window",
+        "Sredni Vashtar"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Héctor Elizondo",
+      "profession": "Actor",
+      "knownFor": [
+        "Chicago Hope",
+        "Pretty Woman"
+      ],
+      "awards": "Emmy Award for Outstanding Supporting Actor in a Drama Series"
+    },
+    {
+      "name": "Héctor Lavoe",
+      "profession": "Musician",
+      "knownFor": [
+        "Salsa music",
+        "Singing"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Héctor Bellerín",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Real Betis",
+      "pastTeams": [
+        "Arsenal",
+        "Barcelona"
+      ],
+      "position": "Right-back",
+      "jerseyNumber": "22",
+      "years": "2013-Present",
+      "achievements": "FA Cup winner",
+      "knownFor": [
+        "Speed",
+        "Defensive skills"
+      ],
+      "awards": "",
+      "stats": "Numerous assists and defensive actions",
+      "verified": true,
+      "source": "https://www.premierleague.com/players/10424/H%C3%A9ctor-Beller%C3%ADn/overview"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Troy",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Hector",
+      "characterDescription": "A noble Trojan prince and the leading warrior against the Greeks.",
+      "imdbUrl": "https://www.imdb.com/title/tt0332452/",
+      "genre": "Action, Drama",
+      "verified": true,
+      "popularity": 87
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Honor the gods, love your woman, and defend your country!",
+      "character": "Hector",
+      "source": "Troy",
+      "year": 2004,
+      "context": "Hector speaks this line to encourage his men before battle.",
+      "genre": "Action, Drama",
+      "impact": "This quote encapsulates Hector's values of honor, love, and duty."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery temperament and strong leadership qualities.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Associated with energy, assertiveness, and passion.",
+    "celestialArchetype": "The Protector",
+    "celestialArchetypeDescription": "Symbolizes guardianship and defense of loved ones.",
+    "karmicLessons": "Learning to balance personal desires with responsibility.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A drive to nurture and protect others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 250,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "A true hero is not measured by the size of his strength, but by the strength of his heart.",
+    "author": "Hercules (Disney's Hercules)",
+    "context": "A reflection on true heroism."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Hec-tor"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Héctor",
+      "script": "Latin",
+      "scriptName": "Héctor",
+      "pronunciation": "ˈeɪktɔr",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Έκτορας",
+      "script": "Greek",
+      "scriptName": "Έκτορας",
+      "pronunciation": "ˈɛktoras",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هيكتور",
+      "script": "Arabic",
+      "scriptName": "هيكتور",
+      "pronunciation": "hiktor",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "赫克托",
+      "script": "Han",
+      "scriptName": "赫克托",
+      "pronunciation": "Hè kè tuō",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гектор",
+      "script": "Cyrillic",
+      "scriptName": "Гектор",
+      "pronunciation": "ˈɡʲektər",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הקטור",
+      "script": "Hebrew",
+      "scriptName": "הקטור",
+      "pronunciation": "hektor",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Iliad",
+      "author": "Homer",
+      "publishedYear": -750,
+      "genre": "Epic Poetry",
+      "significance": "An epic poem central to ancient Greek literature, detailing the events of the Trojan War, with Hector as a key figure.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Hector is a name with ancient roots and enduring popularity."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.95,
+      "reason": "The name is prominently featured in classical literature, especially 'The Iliad'."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Hector has been used consistently across centuries."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Héctor",
+      "artist": "The Zolas",
+      "year": 2016,
+      "genre": "Indie Rock",
+      "nameContext": "The song mentions the name Hector in its narrative.",
+      "description": "A modern indie rock song that tells a story involving a character named Hector.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=The+Zolas+H%C3%A9ctor",
+      "geniusUrl": "https://genius.com/The-zolas-hector-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Hector is a name that resonates with strength and valor, drawing from its epic origins. As the noble Trojan hero in Homer's 'The Iliad', Hector's legacy of courage and leadership has transcended time. Today, it remains a name that embodies tradition and timeless appeal.",
+    "etymology_meaning": "The name Hector originates from Greek, meaning 'holding fast'. Associated with the legendary Trojan prince, it conveys themes of steadfastness and protection.",
+    "famous_bearers": "Famous bearers of the name include the French composer Hector Berlioz, known for his innovative orchestration, and Héctor Lavoe, a celebrated figure in salsa music.",
+    "pop_culture_moments": "Hector's pop culture presence continues with portrayals in films like 'Troy', where Eric Bana's depiction highlights the name's enduring association with heroism.",
+    "personality_profile": "Those named Hector are often seen as resilient and dependable, reflecting the protective nature of their epic namesake. They are perceived as natural leaders and loyal companions.",
+    "variations_nicknames": "Common variations include Héctor and Hektor, with nicknames like Hec and Hecky offering a more casual touch.",
+    "popularity_data": "Hector has maintained a steady presence in baby name rankings, particularly popular in Hispanic cultures, reflecting its timeless allure.",
+    "pairing_suggestions": "Hector pairs well with classic names like Isabella or modern choices like Olivia, offering a harmonious balance of tradition and contemporary style.",
+    "cultural_context": "Rooted in Greek mythology, Hector's cultural significance spans centuries, symbolizing noble qualities and heroism across the world.",
+    "final_recommendation": "Choosing Hector for your child can imbue them with a sense of history and valor. It’s a name that stands strong against the test of time, offering both heritage and modern appeal.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

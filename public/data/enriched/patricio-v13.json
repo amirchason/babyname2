@@ -1,0 +1,235 @@
+{
+  "name": "Patricio",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:08:27.905Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Noble",
+  "culturalSignificance": "Patricio is a name of Latin origin, derived from 'Patricius,' meaning 'noble' or 'patrician.' It has historical roots in Roman culture where it was associated with the ruling class.",
+  "modernContext": "In modern times, Patricio is primarily used in Spanish-speaking countries and is seen as a classic and dignified name. It remains relatively popular in countries like Mexico and Argentina.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/paˈtɾisjo/",
+  "variations": [
+    "Patrick",
+    "Patrice",
+    "Patric",
+    "Patryk",
+    "Patrice"
+  ],
+  "similarNames": [
+    "Patrick",
+    "Patrice",
+    "Matias",
+    "Felipe",
+    "Santiago"
+  ],
+  "nicknames": [
+    "Pat",
+    "Pato",
+    "Paddy",
+    "Rick"
+  ],
+  "personality": "The name Patricio is often associated with qualities such as nobility, leadership, and charisma. People with this name are thought to embody a sense of elegance and authority.",
+  "symbolism": "Patricio symbolizes nobility and class due to its roots in the Roman patrician class.",
+  "funFact": "The name Patricio was popularized in the Spanish-speaking world through the influence of Saint Patrick, whose Latin name was Patricius.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Patricio Aylwin",
+      "years": "1918-2016",
+      "category": "Politician",
+      "achievements": [
+        "First President of Chile after Pinochet's dictatorship",
+        "Promoted democratic reforms"
+      ],
+      "significance": "Patricio Aylwin was instrumental in the transition to democracy in Chile, guiding the nation through significant political changes.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Patricio Guzmán",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "The Battle of Chile",
+        "Nostalgia for the Light"
+      ],
+      "awards": "Berlin International Film Festival awards"
+    },
+    {
+      "name": "Patricio Rey",
+      "profession": "Musician",
+      "knownFor": [
+        "Patricio Rey y sus Redonditos de Ricota"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Patricio Freire",
+      "profession": "Athlete",
+      "sport": "Mixed Martial Arts",
+      "league": "Bellator",
+      "team": "",
+      "pastTeams": [],
+      "position": "",
+      "jerseyNumber": "",
+      "years": "2010-Present",
+      "achievements": "Bellator Featherweight Champion",
+      "knownFor": [
+        "Knockout power",
+        "Versatile fighting style"
+      ],
+      "awards": "Multiple Bellator titles",
+      "stats": "Numerous wins by knockout and submission",
+      "verified": true,
+      "source": "Reliable source"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and planning.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing and the ability to bring balance.",
+    "karmicLessons": "Learning to embrace change and innovation.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 580,
+    "peak": 400,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "context": "A motivational message about perseverance."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Pa-tri-cio"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Patricio",
+      "script": "Latin",
+      "scriptName": "Patricio",
+      "pronunciation": "/paˈtɾisjo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πατρίσιο",
+      "script": "Greek",
+      "scriptName": "Πατρίσιο",
+      "pronunciation": "/patˈrisio/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "باتريسيو",
+      "script": "Arabic",
+      "scriptName": "باتريسيو",
+      "pronunciation": "/baːtˈriːsjo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "帕特里西奥",
+      "script": "Han",
+      "scriptName": "帕特里西奥",
+      "pronunciation": "/pàtèlǐxīào/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Патрицио",
+      "script": "Cyrillic",
+      "scriptName": "Патрицио",
+      "pronunciation": "/pɐtrʲˈitsɨo/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פטריסיו",
+      "script": "Hebrew",
+      "scriptName": "פטריסיו",
+      "pronunciation": "/patˈrisjo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name Patricio has a timeless quality due to its historical roots and noble meaning."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "It has been used consistently over time, maintaining its prestige and charm."
+    },
+    {
+      "tag": "Noble",
+      "confidence": 0.85,
+      "reason": "Derived from the Latin word for 'noble,' it carries an air of dignity."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Patricio is a name that carries the weight of history and the charm of nobility. With its roots in ancient Rome, it has evolved to become a prominent name in Spanish-speaking cultures. Its meaning, 'noble,' reflects the qualities often associated with those bearing the name.",
+    "etymology_meaning": "The name Patricio originates from the Latin 'Patricius,' which was used to denote the patrician class in ancient Rome. This class was known for their status and influence, a reflection of the name's meaning 'noble.'",
+    "famous_bearers": "Notable figures with the name Patricio include Patricio Aylwin, a key political figure in Chile's return to democracy, and Patricio Guzmán, a renowned Chilean filmmaker known for his documentaries.",
+    "pop_culture_moments": "While Patricio may not frequently appear in mainstream media, its presence in the arts, particularly through individuals like filmmaker Patricio Guzmán, highlights its cultural impact.",
+    "personality_profile": "People named Patricio are often seen as leaders with a noble and charismatic presence. They are perceived as reliable and strong, often taking on roles that require wisdom and integrity.",
+    "variations_nicknames": "Variations of the name include Patrick and Patrice, which offer a more Anglicized or French twist. Nicknames like Pat and Pato are common, providing a friendly and informal touch.",
+    "popularity_data": "Patricio has maintained a steady presence in Spanish-speaking countries, occasionally peaking in popularity during periods of cultural or political significance.",
+    "pairing_suggestions": "Patricio pairs well with names like Sofia and Valentina, which complement its classic and noble tone, making for harmonious combinations.",
+    "cultural_context": "In Latin American cultures, Patricio is often associated with honor and respect, reflecting the values of its Roman origins.",
+    "final_recommendation": "For parents seeking a name with historical depth and noble connotations, Patricio offers a timeless choice. Its cultural resonance and dignified sound make it a standout option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,331 @@
+{
+  "name": "Steven",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:11:38.289Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Crown, Garland",
+  "culturalSignificance": "The name Steven has its roots in the Greek name 'Stephanos', which means 'crown' or 'garland'. It was popularized in the Christian tradition due to Saint Stephen, the first Christian martyr, whose feast day is celebrated on December 26th.",
+  "modernContext": "Steven remains a popular name in English-speaking countries, often considered classic and timeless. It saw a peak in popularity during the mid-20th century but continues to be a common choice for boys today.",
+  "literaryReferences": "The name Steven appears in various literary works, often used for characters who are intelligent and trustworthy.",
+  "pronunciationGuide": "/ˈstiːvən/",
+  "variations": [
+    "Stephen",
+    "Stefan",
+    "Stephan",
+    "Stevan",
+    "Esteban"
+  ],
+  "similarNames": [
+    "Stephen",
+    "Stefan",
+    "Stephen",
+    "Stefano",
+    "Steve"
+  ],
+  "nicknames": [
+    "Steve",
+    "Stevie",
+    "Steph",
+    "Ste",
+    "Stevo"
+  ],
+  "personality": "The name Steven is often associated with individuals who are dependable, analytical, and thoughtful. They are seen as leaders who value knowledge and understanding.",
+  "symbolism": "Steven symbolizes leadership and wisdom, often associated with the wearing of a crown, reflecting authority and respect.",
+  "funFact": "Steven Spielberg, a renowned filmmaker, has been a significant cultural influence, contributing to the enduring popularity of the name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Stephen",
+    "significance": "Saint Stephen is recognized as the first Christian martyr, known for his strong faith and forgiveness.",
+    "keyStories": [
+      "Acts 6-7"
+    ],
+    "spiritualMeaning": "Represents faithfulness and sacrifice for one's beliefs.",
+    "historicalImpact": "Saint Stephen's martyrdom is seen as a pivotal moment in early Christian history."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Stephen I of Hungary",
+      "years": "975-1038",
+      "category": "Royalty",
+      "achievements": [
+        "First King of Hungary",
+        "Canonized as a saint"
+      ],
+      "significance": "Stephen I played a crucial role in establishing Hungary as a Christian kingdom.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Stephen Hawking",
+      "years": "1942-2018",
+      "category": "Scientist",
+      "achievements": [
+        "Contributions to cosmology and theoretical physics",
+        "Author of 'A Brief History of Time'"
+      ],
+      "significance": "Hawking's work on black holes and relativity revolutionized our understanding of the universe.",
+      "notableWorks": [
+        "A Brief History of Time"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "However difficult life may seem, there is always something you can do and succeed at.",
+      "author": "Stephen Hawking",
+      "context": "Inspiration and motivation speech",
+      "year": 2007,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Steven Spielberg",
+      "profession": "Director",
+      "knownFor": [
+        "E.T. the Extra-Terrestrial",
+        "Jurassic Park"
+      ],
+      "awards": "Academy Awards"
+    },
+    {
+      "name": "Steven Tyler",
+      "profession": "Musician",
+      "knownFor": [
+        "Aerosmith",
+        "Dream On"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Steven Gerrard",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Liverpool FC",
+      "pastTeams": [
+        "LA Galaxy"
+      ],
+      "position": "Midfielder",
+      "jerseyNumber": "8",
+      "years": "1998-2016",
+      "achievements": "Champions League, UEFA Cup",
+      "knownFor": [
+        "Leadership",
+        "Passing"
+      ],
+      "awards": "PFA Player of the Year",
+      "stats": "504 appearances, 120 goals",
+      "verified": true,
+      "source": "Reliable source"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Steve Jobs",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Steve Jobs",
+      "characterDescription": "Co-founder of Apple Inc.",
+      "imdbUrl": "https://www.imdb.com/title/tt2080374/",
+      "genre": "Biography",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Full House",
+      "year": 1987,
+      "type": "TV Show",
+      "characterName": "Steve Hale",
+      "characterDescription": "D.J.'s boyfriend",
+      "imdbUrl": "https://www.imdb.com/title/tt0092359/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's not about money. It's about the people you have, how you're led, and how much you get it.",
+      "character": "Steve Jobs",
+      "source": "Steve Jobs",
+      "year": 2015,
+      "context": "Regarding leadership and innovation",
+      "genre": "Biography",
+      "impact": "Reflects the character's vision and leadership."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "Air signs share intellectual connection and creativity.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect, communication, and ideas.",
+    "celestialArchetype": "The Thinker",
+    "celestialArchetypeDescription": "Emphasizes knowledge, understanding, and exploration.",
+    "karmicLessons": "To embrace change and new ideas.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 200,
+    "peak": 10,
+    "peakYear": 1955
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "context": "Motivational context"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ste-ven"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Esteban",
+      "script": "Latin",
+      "scriptName": "Esteban",
+      "pronunciation": "/esˈteβan/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Στέφανος",
+      "script": "Greek",
+      "scriptName": "Στέφανος",
+      "pronunciation": "/ˈstefanos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ستيفن",
+      "script": "Arabic",
+      "scriptName": "ستيفن",
+      "pronunciation": "/ˈstiːvən/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "史蒂文",
+      "script": "Han",
+      "scriptName": "史蒂文",
+      "pronunciation": "/ʂi˨˩ ti˥˩ wən˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Стивен",
+      "script": "Cyrillic",
+      "scriptName": "Стивен",
+      "pronunciation": "/ˈstʲivʲɪn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סטיבן",
+      "script": "Hebrew",
+      "scriptName": "סטיבן",
+      "pronunciation": "/ˈstivɛn/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Life of Stephen Hawking",
+      "author": "Jane Hawking",
+      "publishedYear": 1999,
+      "genre": "Biography",
+      "significance": "Provides insights into the personal and professional life of Stephen Hawking.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "childName": "Steven",
+      "parentNames": [
+        "Bruce Willis",
+        "Demi Moore"
+      ],
+      "birthYear": 1994,
+      "context": "Steven is a common name chosen by celebrity parents."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Long-standing usage across cultures and time periods."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Associated with Saint Stephen, the first Christian martyr."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.88,
+      "reason": "Consistently popular over decades."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Hey Steven",
+      "artist": "Taylor Swift",
+      "year": 2008,
+      "genre": "Pop",
+      "nameContext": "Title and lyrics",
+      "description": "A song expressing admiration and a crush on someone named Steven.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hey+Steven+Taylor+Swift",
+      "geniusUrl": "https://genius.com/search?q=Hey+Steven+Taylor+Swift",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Steven is a name that resonates with strength and timelessness, making it a popular choice for generations. With roots in ancient Greece, it carries a sense of history and dignity.",
+    "etymology_meaning": "Derived from the Greek 'Stephanos', meaning 'crown', Steven symbolizes victory and honor. Its etymology reflects a rich cultural and historical background.",
+    "famous_bearers": "Notable Stevens include acclaimed director Steven Spielberg and legendary physicist Stephen Hawking, both of whom have left indelible marks in their respective fields.",
+    "pop_culture_moments": "From films like 'Steve Jobs' to TV shows like 'Full House', the name Steven has found its way into pop culture, often associated with characters who are intelligent and charismatic.",
+    "personality_profile": "People named Steven are often seen as dependable and wise, with a natural inclination towards leadership and innovation.",
+    "variations_nicknames": "Variations such as Stephen and Stefan offer a different flair, while nicknames like Steve and Stevie provide a casual, friendly touch.",
+    "popularity_data": "Steven enjoyed peak popularity in the mid-20th century and continues to be a beloved choice for parents seeking a classic name.",
+    "pairing_suggestions": "Pair Steven with names like Elizabeth or Margaret for a timeless combination, or with names like Olivia or Sophia for a modern twist.",
+    "cultural_context": "Steven's cultural significance is rooted in its Biblical ties and its widespread adoption across English-speaking countries.",
+    "final_recommendation": "For those seeking a name with historical depth and modern appeal, Steven stands as a strong contender. Its versatility makes it suitable for any generation.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

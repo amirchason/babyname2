@@ -1,0 +1,290 @@
+{
+  "name": "Luis",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:06:42.699Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Famous warrior",
+  "culturalSignificance": "Luis is a popular name in Spanish-speaking countries, derived from the Germanic name Ludwig. It has been borne by various kings and noblemen throughout history, emphasizing its royal connections and strong cultural presence.",
+  "modernContext": "In modern times, Luis remains a popular name, particularly in Latin America and Spain. It is often associated with qualities of strength and leadership, maintaining its appeal across generations.",
+  "literaryReferences": "Luis is not prominently featured in notable literary works.",
+  "pronunciationGuide": "luˈis",
+  "variations": [
+    "Louis",
+    "Lewis",
+    "Ludwig",
+    "Luiz",
+    "Lucho"
+  ],
+  "similarNames": [
+    "Lucas",
+    "Luke",
+    "Leo",
+    "Liam",
+    "Lorenzo"
+  ],
+  "nicknames": [
+    "Lu",
+    "Lucho",
+    "Luigi",
+    "Lou",
+    "Louie"
+  ],
+  "personality": "The name Luis is often associated with strong leadership qualities and a charismatic personality. People named Luis are seen as reliable and confident.",
+  "symbolism": "Luis symbolizes strength and nobility, reflecting its association with warriors and kings.",
+  "funFact": "Luis is the Spanish version of the name Louis, which has been borne by 18 kings of France.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Luis Muñoz Marín",
+      "years": "1898-1980",
+      "category": "Politician",
+      "achievements": [
+        "First democratically elected Governor of Puerto Rico",
+        "Pioneer in Puerto Rico's industrialization"
+      ],
+      "significance": "Luis Muñoz Marín was a significant figure in Puerto Rican history, known for his role in transforming the island's economy and political status.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Luís de Camões",
+      "years": "1524-1580",
+      "category": "Poet",
+      "achievements": [
+        "Authored 'Os Lusíadas'",
+        "Considered Portugal's greatest poet"
+      ],
+      "significance": "Luís de Camões is celebrated for his epic poem 'Os Lusíadas', which is a cornerstone of Portuguese literature.",
+      "notableWorks": [
+        "Os Lusíadas"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Luis Fonsi",
+      "profession": "Musician",
+      "knownFor": [
+        "Despacito",
+        "Échame la Culpa"
+      ],
+      "awards": "Latin Grammy Awards"
+    },
+    {
+      "name": "Luis Suárez",
+      "profession": "Footballer",
+      "knownFor": [
+        "Playing for FC Barcelona",
+        "Uruguay national team"
+      ],
+      "awards": "European Golden Shoe"
+    },
+    {
+      "name": "Luis Miguel",
+      "profession": "Singer",
+      "knownFor": [
+        "Romance",
+        "Segundo Romance"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Luis Suárez",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "La Liga",
+      "team": "Grêmio",
+      "pastTeams": [
+        "Barcelona",
+        "Atlético Madrid",
+        "Liverpool"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "9",
+      "years": "2005-Present",
+      "achievements": "Champions League, Copa América",
+      "knownFor": [
+        "Goal scoring",
+        "Aggressive play"
+      ],
+      "awards": "European Golden Shoe",
+      "stats": "Over 500 career goals",
+      "verified": true,
+      "source": "https://www.fcbarcelona.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Luis",
+      "year": 2018,
+      "type": "TV Show",
+      "characterName": "Luis",
+      "characterDescription": "The main character navigating life and relationships.",
+      "imdbUrl": "https://www.imdb.com/title/tt8116036/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for growth and new beginnings.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery passion and drive.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Symbolizes passion, energy, and transformation.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Associated with leadership and pioneering spirit.",
+    "karmicLessons": "Embrace change and lead with confidence.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire to express creativity and make an impact."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 123,
+    "peak": 67,
+    "peakYear": 1999
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "author": "Mahatma Gandhi",
+    "context": "A reminder of the inner strength symbolized by the name Luis."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Lu-is"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Luis",
+      "script": "Latin",
+      "scriptName": "Luis",
+      "pronunciation": "luˈis",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Λουίς",
+      "script": "Greek",
+      "scriptName": "Λουίς",
+      "pronunciation": "luˈis",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "لويس",
+      "script": "Arabic",
+      "scriptName": "لويس",
+      "pronunciation": "luˈis",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "路易斯",
+      "script": "Han",
+      "scriptName": "路易斯",
+      "pronunciation": "lù yì sī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Луис",
+      "script": "Cyrillic",
+      "scriptName": "Луис",
+      "pronunciation": "luˈis",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "לואיס",
+      "script": "Hebrew",
+      "scriptName": "לואיס",
+      "pronunciation": "luˈis",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Luis has been a consistent choice over the years, maintaining its popularity."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "The name's association with historical kings and nobility."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Luis continues to be a popular and enduring name choice."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Luis",
+      "artist": "Luis Fonsi",
+      "year": 2017,
+      "genre": "Latin Pop",
+      "nameContext": "The song celebrates the name and its cultural impact.",
+      "description": "A catchy Latin pop song that highlights the charisma and appeal associated with the name Luis.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Luis+Fonsi+Luis",
+      "geniusUrl": "https://genius.com/search?q=Luis+Fonsi+Luis",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Luis is a name that resonates with strength and nobility, carrying a rich history and a vibrant modern presence. From royal courts to contemporary culture, Luis has left its mark across time and continents. With its roots in the Germanic tradition, it continues to be a popular choice for parents around the world.",
+    "etymology_meaning": "Luis is derived from the Old High German name 'Chlodovech', meaning 'famous warrior'. It evolved into the French name 'Louis', and subsequently into the Spanish 'Luis'. This name has been associated with many kings and leaders, underscoring its historical significance.",
+    "famous_bearers": "Prominent figures named Luis include Luis Muñoz Marín, the first democratically elected governor of Puerto Rico, and Luís de Camões, the renowned Portuguese poet. In the world of music, Luis Fonsi has achieved global fame with hits like 'Despacito'.",
+    "pop_culture_moments": "Luis has been featured in various cultural contexts, including movies and songs that celebrate its strong, charismatic essence. The name often appears in Latin pop music, adding to its vibrant, lively image.",
+    "personality_profile": "Individuals named Luis are often seen as charismatic and strong leaders. They are known for their determination and ability to inspire those around them. The name is associated with a confident and dynamic personality.",
+    "variations_nicknames": "Variations of the name include Louis, Lewis, and Ludwig. Common nicknames for Luis are Lu, Lucho, and Louie, each adding a unique, personal touch to the name.",
+    "popularity_data": "Luis has consistently ranked high in popularity, especially in Spanish-speaking countries. Its timeless appeal contributes to its steady presence in naming charts over the decades.",
+    "pairing_suggestions": "Luis pairs well with names like Sofia, Isabella, and Gabriela, creating a harmonious blend of classic and modern. These combinations highlight the elegant and strong nature of Luis.",
+    "cultural_context": "The name Luis holds a significant place in Hispanic cultures, often associated with familial pride and cultural heritage. It is a name that embodies both tradition and modernity.",
+    "final_recommendation": "If you're seeking a name that embodies strength, charisma, and cultural richness, Luis is an excellent choice. Its timeless appeal and strong historical roots make it a name that stands the test of time.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

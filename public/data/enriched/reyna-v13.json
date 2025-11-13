@@ -1,0 +1,226 @@
+{
+  "name": "Reyna",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T01:34:50.126Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Spanish",
+  "meaning": "Queen",
+  "culturalSignificance": "Reyna is a name of Spanish origin that directly translates to 'queen'. It is often associated with royalty and sovereignty, reflecting a sense of authority and elegance. The name has been used in various cultures due to its regal connotations and simplicity.",
+  "modernContext": "In modern times, Reyna is a popular choice for parents looking for a name that balances traditional elegance with modern appeal. It has gained popularity in the United States and other English-speaking countries, often chosen for its strong and sophisticated sound.",
+  "literaryReferences": "Reyna is a character in Rick Riordan's 'Heroes of Olympus' series, where she serves as a strong and capable leader, reflecting the name's queenly qualities.",
+  "pronunciationGuide": "ˈreɪnə",
+  "variations": [
+    "Raina",
+    "Rena",
+    "Reina",
+    "Rayna",
+    "Rina"
+  ],
+  "similarNames": [
+    "Regina",
+    "Rhea",
+    "Riley",
+    "Rowan",
+    "Raven"
+  ],
+  "nicknames": [
+    "Rey",
+    "Nina",
+    "Rae",
+    "Ray",
+    "Ren"
+  ],
+  "personality": "Names like Reyna are often associated with leadership, confidence, and grace. People with this name may be seen as strong-willed and independent.",
+  "symbolism": "Reyna symbolizes regality and power, often associated with leadership and dignity.",
+  "funFact": "The name Reyna has been used in various forms across different cultures and is often associated with queens or royalty in folklore and history.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Reyna Grande",
+      "profession": "Author",
+      "knownFor": [
+        "The Distance Between Us",
+        "A Dream Called Home"
+      ],
+      "awards": "American Book Award"
+    },
+    {
+      "name": "Reyna Avila Ramírez-Arellano",
+      "profession": "Fictional Character",
+      "knownFor": [
+        "Heroes of Olympus series"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Queen of the South",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Reyna",
+      "characterDescription": "A character involved in the drug cartel dynamics, embodying strength and resilience.",
+      "imdbUrl": "https://www.imdb.com/title/tt1064899/",
+      "genre": "Crime, Drama, Thriller",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Royal Blue",
+      "hex": "#4169E1"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration, representing wholeness and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs are stable and grounded, complementing the regal nature of Reyna.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability, practicality, and reliability.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes authority, wisdom, and the ability to guide others.",
+    "karmicLessons": "Learning to balance authority with empathy.",
+    "soulUrge": 8,
+    "soulUrgeDescription": "Desire for power, success, and recognition."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 320,
+    "peakYear": 2019
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership is not a position or a title, it is action and example.",
+    "author": "Reyna Grande",
+    "context": "A reflection on the qualities of leadership."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Rey-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Reina",
+      "script": "Latin",
+      "scriptName": "Reina",
+      "pronunciation": "ˈreina",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρέινα",
+      "script": "Greek",
+      "scriptName": "Ρέινα",
+      "pronunciation": "ˈreina",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "رينا",
+      "script": "Arabic",
+      "scriptName": "رينا",
+      "pronunciation": "ˈreina",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "蕾娜",
+      "script": "Han",
+      "scriptName": "蕾娜",
+      "pronunciation": "lěi nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рейна",
+      "script": "Cyrillic",
+      "scriptName": "Рейна",
+      "pronunciation": "ˈreina",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ריינה",
+      "script": "Hebrew",
+      "scriptName": "ריינה",
+      "pronunciation": "ˈreina",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Distance Between Us",
+      "author": "Reyna Grande",
+      "publishedYear": 2012,
+      "genre": "Memoir",
+      "significance": "A poignant memoir about the immigrant experience.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.9,
+      "reason": "The name's meaning of 'queen' directly ties it to royalty."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Its rising popularity in recent years places it in modern usage."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "The name's regal association gives it a timeless quality."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Reyna is a name that exudes elegance and power, capturing the essence of royalty with its simple yet commanding presence. It's a name that has traversed cultural boundaries, maintaining its regal charm across generations.",
+    "etymology_meaning": "Originating from the Spanish language, Reyna means 'queen'. This connection to royalty gives the name an inherent strength and grace, qualities that have made it a popular choice among parents.",
+    "famous_bearers": "One of the most notable bearers of the name is Reyna Grande, an acclaimed author whose works explore themes of immigration and identity. Her memoirs have touched the hearts of many, echoing the strength and resilience often associated with the name.",
+    "pop_culture_moments": "Reyna has made appearances in literature, notably in Rick Riordan's 'Heroes of Olympus' series, where a character by this name leads with courage and wisdom. Such portrayals reinforce the name's association with leadership and authority.",
+    "personality_profile": "Individuals named Reyna are often seen as natural leaders, exuding confidence and charisma. They are perceived as decisive and authoritative, yet capable of empathy and understanding.",
+    "variations_nicknames": "Variations of Reyna include Raina, Reina, and Rayna, each offering a slight twist on the original. Common nicknames like Rey and Rae add a casual touch to this otherwise regal name.",
+    "popularity_data": "Reyna has seen a steady rise in popularity, particularly in the United States, where it has become a favored choice for those seeking a name with both cultural depth and modern appeal.",
+    "pairing_suggestions": "Reyna pairs well with middle names that are classic and sophisticated, such as Elizabeth or Catherine, enhancing its regal undertones. It also complements surnames that are short and strong, allowing its full power to shine.",
+    "cultural_context": "Rooted in Spanish culture, Reyna embodies a sense of heritage and tradition. Its widespread use across various cultures highlights its universal appeal and timeless beauty.",
+    "final_recommendation": "Choosing the name Reyna for your child is a decision that carries with it a legacy of strength and dignity. It's a name that not only honors the past but also looks boldly to the future, making it a fitting choice for a little queen in the making.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,244 @@
+{
+  "name": "Elise",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:04:51.058Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "French",
+  "meaning": "God is my oath",
+  "culturalSignificance": "Elise is a name of French origin that is often considered a diminutive form of Elizabeth. It gained popularity through its association with classical music, particularly Ludwig van Beethoven's 'Für Elise'.",
+  "modernContext": "In contemporary times, Elise remains a popular choice for girls in many Western countries. Its timeless and elegant sound contributes to its enduring appeal.",
+  "literaryReferences": "The name Elise is featured in various literary works, often representing characters with grace and sophistication.",
+  "pronunciationGuide": "/əˈliːz/",
+  "variations": [
+    "Elisa",
+    "Elyse",
+    "Alyse",
+    "Elyssa",
+    "Elis"
+  ],
+  "similarNames": [
+    "Alice",
+    "Eliza",
+    "Ella",
+    "Eloise",
+    "Louise",
+    "Claire"
+  ],
+  "nicknames": [
+    "Ellie",
+    "Elsie",
+    "Lisa",
+    "Lise"
+  ],
+  "personality": "Those named Elise are often perceived as graceful and intelligent, with a strong sense of independence and creativity.",
+  "symbolism": "Elise symbolizes commitment and faithfulness, as reflected in its meaning 'God is my oath'.",
+  "funFact": "Beethoven's 'Für Elise', a well-known piano composition, was believed to be dedicated to a woman named Elise, although the exact identity remains a mystery.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Elise Stefanik",
+      "profession": "Politician",
+      "knownFor": [
+        "U.S. Representative",
+        "Youngest woman elected to Congress in 2014"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Elise Neal",
+      "profession": "Actress",
+      "knownFor": [
+        "'The Hughleys'",
+        "'Scream 2'"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Queen's Gambit",
+      "year": 2020,
+      "type": "TV Show",
+      "characterName": "Alice Harmon",
+      "characterDescription": "Beth Harmon's mother who influences her early life.",
+      "imdbUrl": "https://www.imdb.com/title/tt10048342/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Cancer",
+      "Scorpio",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs share the Water element, promoting emotional depth and understanding.",
+    "cosmicElement": "The Dreamer",
+    "cosmicElementDescription": "Associated with imagination and intuition.",
+    "celestialArchetype": "The Artist",
+    "celestialArchetypeDescription": "Represents creativity and emotional expression.",
+    "karmicLessons": "Learning to balance emotions with practicality.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to create harmony and beauty in life."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 150,
+    "peak": 100,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Music can change the world because it can change people.",
+    "author": "Bono",
+    "context": "Emphasizing the transformative power of music, a theme connected to 'Für Elise'."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "E-lise"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Elisa",
+      "script": "Latin",
+      "scriptName": "Elisa",
+      "pronunciation": "/eˈlisa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ελισάβετ",
+      "script": "Greek",
+      "scriptName": "Ελισάβετ",
+      "pronunciation": "/eˈlisavet/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إليز",
+      "script": "Arabic",
+      "scriptName": "إليز",
+      "pronunciation": "/ʔeˈliz/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "伊莉丝",
+      "script": "Han",
+      "scriptName": "伊莉丝",
+      "pronunciation": "/yī lì sī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Элиза",
+      "script": "Cyrillic",
+      "scriptName": "Элиза",
+      "pronunciation": "/ɪˈliza/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אליס",
+      "script": "Hebrew",
+      "scriptName": "אליס",
+      "pronunciation": "/eˈliz/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Elise has a timeless appeal due to its historical roots and enduring use."
+    },
+    {
+      "tag": "Musical",
+      "confidence": 0.8,
+      "reason": "Associated with Beethoven's 'Für Elise'."
+    },
+    {
+      "tag": "Elegant",
+      "confidence": 0.95,
+      "reason": "The name's sound and meaning project grace and sophistication."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Für Elise",
+      "artist": "Ludwig van Beethoven",
+      "year": 1810,
+      "genre": "Classical",
+      "nameContext": "The piece is named 'For Elise'.",
+      "description": "One of Beethoven's most popular compositions, 'Für Elise' is a bagatelle in A minor that captivates with its delicate melody.",
+      "theme": "neutral",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Für+Elise+Beethoven",
+      "geniusUrl": "https://genius.com/Ludwig-van-beethoven-fur-elise-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Elise",
+      "artist": "The Cure",
+      "year": 1992,
+      "genre": "Alternative Rock",
+      "nameContext": "The song is addressed to someone named Elise.",
+      "description": "A track from The Cure's album 'Wish', it explores themes of change and longing.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Elise+The+Cure",
+      "geniusUrl": "https://genius.com/The-cure-a-letter-to-elise-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Elise is a name that resonates with elegance and musical charm. With its roots in French culture, it has become a favorite for parents seeking a name with both historical depth and a modern touch.",
+    "etymology_meaning": "Derived from the French diminutive of Elizabeth, Elise means 'God is my oath'. This meaning reflects a deep sense of commitment and faithfulness.",
+    "famous_bearers": "Elise has been carried by notable figures like Elise Stefanik, a prominent U.S. politician, and Elise Neal, a talented actress known for her roles in film and television.",
+    "pop_culture_moments": "The name Elise gained cultural prominence through Beethoven's 'Für Elise', a piano piece that remains beloved by musicians and audiences worldwide.",
+    "personality_profile": "Those named Elise often exhibit traits of creativity, grace, and intelligence. They are perceived as individuals with a strong sense of independence and artistic flair.",
+    "variations_nicknames": "Variations of Elise include Elisa and Elyse, while common nicknames are Ellie and Lisa. These variations offer flexibility and personalization.",
+    "popularity_data": "Elise has consistently ranked well in baby name charts, peaking in popularity around 2010. Its steady usage is a testament to its timeless appeal.",
+    "pairing_suggestions": "Elise pairs beautifully with middle names like Grace, Marie, or Ann, offering a blend of classic and contemporary styles.",
+    "cultural_context": "While Elise is primarily of French origin, its adoption across various cultures highlights its universal charm and adaptability.",
+    "final_recommendation": "For parents seeking a name that embodies elegance and musical heritage, Elise is a perfect choice. Its rich history and modern appeal make it a timeless option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

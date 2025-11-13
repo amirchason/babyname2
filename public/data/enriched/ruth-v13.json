@@ -1,0 +1,301 @@
+{
+  "name": "Ruth",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:59:30.444Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Friend, companion",
+  "culturalSignificance": "Ruth is a name of Hebrew origin, meaning 'friend' or 'companion'. It is famously borne by the biblical figure Ruth, known for her loyalty and dedication, making it a name associated with friendship and steadfastness.",
+  "modernContext": "In modern times, Ruth remains a popular choice, celebrated for its simplicity and strong historical roots. It has been a consistent choice for parents seeking a classic and timeless name.",
+  "literaryReferences": "Ruth is the title character in the Book of Ruth in the Hebrew Bible, a story of love and loyalty.",
+  "pronunciationGuide": "/ruːθ/",
+  "variations": [
+    "Ruthie",
+    "Rutha",
+    "Ruthanne",
+    "Ruthy"
+  ],
+  "similarNames": [
+    "Naomi",
+    "Hannah",
+    "Esther",
+    "Rachel",
+    "Sarah"
+  ],
+  "nicknames": [
+    "Ruthie",
+    "Rue",
+    "Ruthy"
+  ],
+  "personality": "People named Ruth are often perceived as loyal and dependable, embodying qualities of friendship and trustworthiness.",
+  "symbolism": "The name Ruth symbolizes loyalty, devotion, and friendship, traits embodied by its biblical namesake.",
+  "funFact": "Ruth is the only female name in the Bible to have an entire book named after her.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "Ruth",
+    "significance": "Ruth is a central figure in the Book of Ruth in the Old Testament, known for her loyalty to her mother-in-law Naomi and her conversion to Judaism. Her story is one of faithfulness and divine providence.",
+    "keyStories": [
+      "Ruth's loyalty to Naomi",
+      "Ruth's marriage to Boaz"
+    ],
+    "spiritualMeaning": "A symbol of loyalty and devotion, Ruth's story is often seen as an example of faith in action.",
+    "historicalImpact": "Ruth's story has had a lasting impact on religious teachings about conversion, loyalty, and providence."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ruth Bader Ginsburg",
+      "years": "1933-2020",
+      "category": "Justice",
+      "achievements": [
+        "Associate Justice of the Supreme Court of the United States",
+        "Advocate for gender equality"
+      ],
+      "significance": "Ginsburg was a pioneering advocate for women's rights and served as a justice on the U.S. Supreme Court, known for her powerful dissents and role in shaping modern jurisprudence.",
+      "notableWorks": [
+        "Ledbetter v. Goodyear Tire & Rubber Co.",
+        "United States v. Virginia"
+      ]
+    },
+    {
+      "fullName": "Ruth Benedict",
+      "years": "1887-1948",
+      "category": "Anthropologist",
+      "achievements": [
+        "Influential work in cultural anthropology"
+      ],
+      "significance": "Benedict was a pioneering American anthropologist whose work focused on the social and cultural influences on personality.",
+      "notableWorks": [
+        "Patterns of Culture",
+        "The Chrysanthemum and the Sword"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Fight for the things that you care about, but do it in a way that will lead others to join you.",
+      "author": "Ruth Bader Ginsburg",
+      "context": "Encouragement to advocate for change",
+      "year": 2015,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Ruth Bader Ginsburg",
+      "profession": "Justice",
+      "knownFor": [
+        "U.S. Supreme Court Justice",
+        "Advocate for gender equality"
+      ],
+      "awards": "Numerous awards for her contributions to law and gender equality"
+    },
+    {
+      "name": "Ruth Negga",
+      "profession": "Actor",
+      "knownFor": [
+        "Loving",
+        "Preacher"
+      ],
+      "awards": "Nominated for an Academy Award for Best Actress"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Fried Green Tomatoes",
+      "year": 1991,
+      "type": "Movie",
+      "characterName": "Ruth Jamison",
+      "characterDescription": "A central character known for her strength and resilience.",
+      "imdbUrl": "https://www.imdb.com/title/tt0101921/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 86
+    },
+    {
+      "title": "The Book of Ruth: Journey of Faith",
+      "year": 2009,
+      "type": "Movie",
+      "characterName": "Ruth",
+      "characterDescription": "Portrays the biblical story of Ruth's loyalty and faith.",
+      "imdbUrl": "https://www.imdb.com/title/tt1274296/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You may be the only person left who believes in you, but it's enough. It takes just one star to pierce a universe of darkness. Never give up.",
+      "character": "Ruth Jamison",
+      "source": "Fried Green Tomatoes",
+      "year": 1991,
+      "context": "Encouragement in a moment of despair",
+      "genre": "Drama",
+      "impact": "Highlights the power of belief and perseverance"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of abundance and fulfillment",
+    "compatibleSigns": [
+      "Capricorn",
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share the earth element, promoting stability and reliability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, grounding, and practicality.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Denotes a nurturing and supportive presence.",
+    "karmicLessons": "Learning to balance self-reliance with openness to others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to nurture and support others, seeking harmony and balance."
+  },
+  "genderDistribution": {
+    "male": 1,
+    "female": 99
+  },
+  "ranking": {
+    "current": 250,
+    "peak": 5,
+    "peakYear": 1940
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Fight for the things that you care about, but do it in a way that will lead others to join you.",
+    "author": "Ruth Bader Ginsburg",
+    "context": "Encouragement to advocate for change"
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Ruth"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rut",
+      "script": "Latin",
+      "scriptName": "Rut",
+      "pronunciation": "/rut/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρουθ",
+      "script": "Greek",
+      "scriptName": "Ρουθ",
+      "pronunciation": "/ruθ/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روث",
+      "script": "Arabic",
+      "scriptName": "روث",
+      "pronunciation": "/ruːθ/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "露丝",
+      "script": "Han",
+      "scriptName": "露丝",
+      "pronunciation": "/lù sī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рут",
+      "script": "Cyrillic",
+      "scriptName": "Рут",
+      "pronunciation": "/rut/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רות",
+      "script": "Hebrew",
+      "scriptName": "רות",
+      "pronunciation": "/rut/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Book of Ruth",
+      "author": "Jane Hamilton",
+      "publishedYear": 1988,
+      "genre": "Fiction",
+      "significance": "Explores themes of family, hardship, and resilience.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "Ruth is a well-known biblical name, associated with the Book of Ruth."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Ruth has a long history of use and is seen as timeless."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Ruth continues to be a popular choice across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ruth",
+      "artist": "Built to Spill",
+      "year": 1994,
+      "genre": "Indie Rock",
+      "nameContext": "Title of the song",
+      "description": "A song by Built to Spill that uses the name Ruth in its title, characterized by its introspective lyrics and melodic sound.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Built+to+Spill+Ruth",
+      "geniusUrl": "https://genius.com/search?q=Built+to+Spill+Ruth",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Ruth is a name that resonates with historical depth and timeless appeal. With its roots in Hebrew culture, the name has transcended generations, remaining a favorite choice for parents seeking a name that embodies loyalty and companionship. Its biblical origins further enrich its appeal, making it a name steeped in tradition.",
+    "etymology_meaning": "Ruth originates from the Hebrew word 'reut', meaning 'friend' or 'companion'. This meaning is fitting given the biblical narrative of Ruth, who is celebrated for her unwavering loyalty and companionship to her mother-in-law, Naomi.",
+    "famous_bearers": "The name Ruth has been borne by many notable figures, including Ruth Bader Ginsburg, the influential U.S. Supreme Court Justice known for her work on gender equality, and Ruth Benedict, a pioneering anthropologist. These women exemplify the strength and resilience often associated with the name.",
+    "pop_culture_moments": "Ruth has made its mark in popular culture through various films and literature, such as 'Fried Green Tomatoes', where Ruth Jamison stands out as a character of strength, and 'The Book of Ruth' by Jane Hamilton, a novel exploring themes of resilience and family.",
+    "personality_profile": "Those named Ruth are often viewed as steadfast, dependable, and nurturing. They are seen as individuals who value deep connections and are committed to supporting those they care about.",
+    "variations_nicknames": "Ruth offers a few variations and nicknames, such as Ruthie and Rue, providing a range of options for personalization while retaining its classic charm.",
+    "popularity_data": "Ruth has enjoyed enduring popularity, consistently ranking among the top names for girls. Its peak popularity in the United States occurred in the 1940s, although it continues to be a beloved choice today.",
+    "pairing_suggestions": "Ruth pairs well with classic names like Naomi and Esther, as well as modern choices like Ava and Lily, offering a versatile option for sibling name combinations.",
+    "cultural_context": "With its roots in Hebrew, Ruth holds cultural significance in both Christianity and Judaism, symbolizing loyalty and faith. Its biblical narrative enriches its cultural resonance, making it a name of deep historical importance.",
+    "final_recommendation": "Ruth is a name that embodies both strength and warmth, making it a timeless choice for parents. Its rich historical background and modern appeal ensure that it remains a meaningful and versatile option for those seeking a name with depth and character.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

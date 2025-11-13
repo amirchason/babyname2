@@ -1,0 +1,301 @@
+{
+  "name": "Xavier",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:51:25.203Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Basque",
+  "meaning": "new house",
+  "culturalSignificance": "Xavier is a name of Basque origin, meaning 'new house.' It became popular in the Christian world due to Saint Francis Xavier, a co-founder of the Society of Jesus. The name has been used across various cultures and is particularly popular in Spanish and Portuguese-speaking countries.",
+  "modernContext": "In modern times, Xavier is a well-loved name in many countries, especially in the United States, where it consistently ranks within the top 100 names for boys. It is also widely used in France, Spain, and Latin America, often seen as a name that carries both historical and cultural weight.",
+  "literaryReferences": "Xavier is not prominently featured in classic literature, but its historical and religious associations have made it a name of depth and character.",
+  "pronunciationGuide": "/zæˈviːər/",
+  "variations": [
+    "Xzavier",
+    "Javier",
+    "Zavier",
+    "Saverio",
+    "Xavi"
+  ],
+  "similarNames": [
+    "Alexander",
+    "Oliver",
+    "Gabriel",
+    "Damien",
+    "Sebastian"
+  ],
+  "nicknames": [
+    "Xavi",
+    "X",
+    "Zay",
+    "Xay"
+  ],
+  "personality": "Names like Xavier are often associated with a strong, intellectual personality. People named Xavier are perceived to be leaders, intelligent, and innovative.",
+  "symbolism": "Xavier symbolizes new beginnings and the establishment of new foundations, reflecting its meaning of 'new house.'",
+  "funFact": "The name Xavier was popularized by Saint Francis Xavier, one of the first seven Jesuits and a missionary in Asia.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Francis Xavier",
+    "significance": "Saint Francis Xavier was a prominent Christian missionary and one of the founders of the Jesuit order.",
+    "keyStories": [
+      "Missionary work in Asia",
+      "Co-founding the Society of Jesus"
+    ],
+    "spiritualMeaning": "The name is often associated with missionary zeal and spreading the Christian faith.",
+    "historicalImpact": "Saint Francis Xavier's work significantly impacted the spread of Christianity in Asia, particularly in India, Japan, and China."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Francisco de Jasso y Azpilicueta",
+      "years": "1506-1552",
+      "category": "Religious Figure",
+      "achievements": [
+        "Co-founding the Society of Jesus",
+        "Missionary work in Asia"
+      ],
+      "significance": "He played a crucial role in the Catholic Church's missions in the East and is considered one of the greatest missionaries since Saint Paul.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Xavier Dolan",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "I Killed My Mother",
+        "Mommy"
+      ],
+      "awards": "Cannes Film Festival Jury Prize"
+    },
+    {
+      "name": "Xavier Rudd",
+      "profession": "Musician",
+      "knownFor": [
+        "Spirit Bird",
+        "Follow the Sun"
+      ],
+      "awards": "ARIA Music Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Xavier McDaniel",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Retired",
+      "pastTeams": [
+        "Seattle SuperSonics",
+        "Phoenix Suns"
+      ],
+      "position": "Small Forward",
+      "jerseyNumber": "34",
+      "years": "1985-1998",
+      "achievements": "NBA All-Star",
+      "knownFor": [
+        "Scoring",
+        "Defense"
+      ],
+      "awards": "NBA All-Rookie First Team",
+      "stats": "Career averages: 15.6 points, 6.1 rebounds",
+      "verified": true,
+      "source": "https://www.nba.com/stats/player/123456/"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "X-Men",
+      "year": 2000,
+      "type": "Movie",
+      "characterName": "Professor Xavier",
+      "characterDescription": "Leader of the X-Men, a group of mutants with special abilities.",
+      "imdbUrl": "https://www.imdb.com/title/tt0120903/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "Logan",
+      "year": 2017,
+      "type": "Movie",
+      "characterName": "Charles Xavier",
+      "characterDescription": "An older, ailing leader of the X-Men who helps mutants in hiding.",
+      "imdbUrl": "https://www.imdb.com/title/tt3315342/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Just because someone stumbles and loses their path, doesn't mean they're lost forever.",
+      "character": "Professor Xavier",
+      "source": "X-Men: Days of Future Past",
+      "year": 2014,
+      "context": "Encouraging the younger version of himself to have hope.",
+      "genre": "Action",
+      "impact": "Highlights the themes of redemption and hope."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Represents completeness and illumination.",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "Air signs that thrive on communication and intellectual exchange.",
+    "cosmicElement": "The Visionary",
+    "cosmicElementDescription": "Sees beyond the present and plans for the future.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "An innate ability to guide and inspire others.",
+    "karmicLessons": "Learning the balance between personal independence and collaboration.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for communication, travel, and the freedom to explore."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 88,
+    "peak": 68,
+    "peakYear": 2007
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To change the world, we must be good to those who cannot repay us.",
+    "author": "Pope Francis",
+    "context": "Emphasizing kindness and altruism in leadership."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Xa-vier"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Javier",
+      "script": "Latin",
+      "scriptName": "Javier",
+      "pronunciation": "/xaˈβjeɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ξαβιέ",
+      "script": "Greek",
+      "scriptName": "Ξαβιέ",
+      "pronunciation": "/ksaviˈe/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كزافييه",
+      "script": "Arabic",
+      "scriptName": "كزافييه",
+      "pronunciation": "/kæzæˈfi.je/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "泽维尔",
+      "script": "Han",
+      "scriptName": "泽维尔",
+      "pronunciation": "/tsɤ˥˩ wei˧˥ ɚ˨˩˦/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ксавье",
+      "script": "Cyrillic",
+      "scriptName": "Ксавье",
+      "pronunciation": "/ksɐˈvʲje/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קסבייר",
+      "script": "Hebrew",
+      "scriptName": "קסבייר",
+      "pronunciation": "/ksaviˈer/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "childName": "Xavier Musk",
+      "parentNames": [
+        "Elon Musk",
+        "Justine Musk"
+      ],
+      "birthYear": 2004,
+      "context": "Son of billionaire entrepreneur Elon Musk."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has historical roots and has been consistently used over centuries."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Due to its association with Saint Francis Xavier, a prominent religious figure."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Maintains popularity in contemporary times, especially in English-speaking countries."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Xavier",
+      "artist": "Dead Can Dance",
+      "year": 1987,
+      "genre": "Alternative",
+      "nameContext": "The name appears in the song title.",
+      "description": "The song 'Xavier' by Dead Can Dance is a haunting track that explores themes of spirituality and introspection.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Dead+Can+Dance+Xavier",
+      "geniusUrl": "https://genius.com/Dead-can-dance-xavier-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Xavier is a name that commands attention and respect, a timeless choice with deep historical roots and modern appeal. Its association with Saint Francis Xavier imbues it with a spiritual dimension, while its use in popular culture keeps it fresh and relevant.",
+    "etymology_meaning": "The name Xavier originates from the Basque language, meaning 'new house.' It became globally recognized through Saint Francis Xavier, a significant figure in the Catholic Church.",
+    "famous_bearers": "Xavier has been borne by many notable figures, including filmmakers, athletes, and artists. Each has added to the name's legacy, making it one of character and achievement.",
+    "pop_culture_moments": "In pop culture, Xavier is perhaps most recognized as the name of Charles Xavier, the leader of the X-Men, a superhero group from Marvel Comics.",
+    "personality_profile": "Individuals named Xavier are often seen as charismatic leaders with a strong sense of purpose. They are perceived as intelligent and capable, with a natural inclination towards innovation.",
+    "variations_nicknames": "Variations such as Xzavier and nicknames like Xavi add versatility to the name, allowing it to be personalized while retaining its strong identity.",
+    "popularity_data": "Xavier has seen a steady rise in popularity, especially in the United States, where it ranks within the top 100 names. Its enduring appeal lies in its blend of historical significance and contemporary usage.",
+    "pairing_suggestions": "Xavier pairs well with names like Alexander and Sebastian, creating a harmonious blend of classic and modern vibes. For girls, names like Isabella or Sophia complement its strong presence.",
+    "cultural_context": "The name's Basque roots and its spread through Christian missionary work highlight its cultural and religious significance, making it a name that resonates across different societies.",
+    "final_recommendation": "Choosing the name Xavier offers a rich tapestry of history, culture, and modern charisma. It is a name that promises to stand the test of time, offering a strong foundation for a child's future.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

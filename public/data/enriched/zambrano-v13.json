@@ -1,0 +1,225 @@
+{
+  "name": "Zambrano",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T10:04:20.315Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "Place of wild olive trees",
+  "culturalSignificance": "Zambrano is primarily a Spanish surname with roots in the southern regions of Spain. It is often associated with a geographical location, indicating a place where wild olive trees grow. The name reflects a connection to nature and the rural landscapes of Spain.",
+  "modernContext": "In contemporary times, Zambrano is more commonly recognized as a surname rather than a given name. It is found among Spanish-speaking communities around the world, particularly in Latin America and Spain. The name carries a sense of heritage and cultural identity.",
+  "literaryReferences": "",
+  "pronunciationGuide": "zɑmˈbrɑːnoʊ",
+  "variations": [
+    "Sambrano",
+    "Zambreno"
+  ],
+  "similarNames": [
+    "Zamora",
+    "Zapata",
+    "Zaragoza",
+    "Zaldivar",
+    "Zavala"
+  ],
+  "nicknames": [
+    "Zam",
+    "Zambo",
+    "Zee"
+  ],
+  "personality": "Names like Zambrano are often associated with strong ties to heritage and tradition. Individuals with this name might be perceived as grounded and connected to their roots.",
+  "symbolism": "The name symbolizes a connection to nature and heritage, often evoking images of lush landscapes and enduring traditions.",
+  "funFact": "The Zambrano surname is linked to various historical figures in Spanish history, including explorers and military leaders.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Francisco Zambrano",
+      "years": "1620-1680",
+      "category": "Explorer",
+      "achievements": [
+        "Explored parts of the New World"
+      ],
+      "significance": "Francisco Zambrano was notable for his contributions to the exploration of the Americas during the Spanish colonial period.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Carlos Zambrano",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "Chicago Cubs",
+        "MLB All-Star"
+      ],
+      "awards": "3× MLB All-Star"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Carlos Zambrano",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Chicago Cubs",
+      "pastTeams": [
+        "Miami Marlins"
+      ],
+      "position": "Pitcher",
+      "jerseyNumber": "38",
+      "years": "2001-2012",
+      "achievements": "3× MLB All-Star",
+      "knownFor": [
+        "Pitching skills",
+        "Batting ability as a pitcher"
+      ],
+      "awards": "Silver Slugger Award",
+      "stats": "Career ERA: 3.66, Strikeouts: 1,637",
+      "verified": true,
+      "source": "https://www.baseball-reference.com/players/z/zambrca01.shtml"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and harmony.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, practicality, and realism.",
+    "celestialArchetype": "The Sustainer",
+    "celestialArchetypeDescription": "Represents stability and nurturing qualities.",
+    "karmicLessons": "Learning to balance tradition with innovation.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A desire for security and a stable environment."
+  },
+  "genderDistribution": {
+    "male": 70,
+    "female": 30
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Heritage is the key to understanding one's place in the world.",
+    "author": "Unknown",
+    "context": "A reflection on the importance of cultural identity."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Zam-bra-no"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Zambrano",
+      "script": "Latin",
+      "scriptName": "Zambrano",
+      "pronunciation": "zɑmˈbrɑːnoʊ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ζαμπράνο",
+      "script": "Greek",
+      "scriptName": "Ζαμπράνο",
+      "pronunciation": "zamˈbra.no",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "زامبرانو",
+      "script": "Arabic",
+      "scriptName": "زامبرانو",
+      "pronunciation": "zamˈbrano",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "赞布拉诺",
+      "script": "Han",
+      "scriptName": "赞布拉诺",
+      "pronunciation": "zàn bù lā nuò",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Замбрано",
+      "script": "Cyrillic",
+      "scriptName": "Замбрано",
+      "pronunciation": "zəmbrˈano",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "זמברנו",
+      "script": "Hebrew",
+      "scriptName": "זמברנו",
+      "pronunciation": "zamˈbrano",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Zambrano has historical roots in Spanish culture."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.8,
+      "reason": "The name is closely tied to Spanish heritage."
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.7,
+      "reason": "The name's meaning refers to a natural landscape."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Zambrano is a name that carries with it a rich history and deep cultural roots. Often associated with the lush landscapes of Spain, it evokes a sense of heritage and tradition. This name, although traditionally a surname, has found its way into the hearts of many as a symbol of identity.",
+    "etymology_meaning": "Zambrano originates from the Spanish language, referring to a place where wild olive trees grow. This connection to nature highlights the name's deep roots in the rural landscapes of Spain.",
+    "famous_bearers": "One of the most well-known individuals with this surname is Carlos Zambrano, a celebrated baseball player known for his time with the Chicago Cubs. His achievements on the field have brought recognition to the name.",
+    "pop_culture_moments": "While Zambrano is less common as a first name, its presence as a surname in sports and history offers a touch of familiarity. It's a name that resonates with those who value tradition and cultural identity.",
+    "personality_profile": "Individuals with the name Zambrano are often seen as grounded and connected to their roots. They may possess a strong sense of tradition and a desire to maintain their cultural heritage.",
+    "variations_nicknames": "Variations of the name include Sambra and Zambreno, while common nicknames are Zam, Zambo, and Zee. These variations and nicknames offer a modern twist on a classic name.",
+    "popularity_data": "As a first name, Zambrano is rare, with its usage primarily seen in Spanish-speaking regions as a surname. However, its unique sound and cultural significance make it a standout choice.",
+    "pairing_suggestions": "When paired with names like Maria or Diego, Zambrano can evoke a strong sense of cultural identity. It's a name that pairs well with others that have a rich heritage.",
+    "cultural_context": "Zambrano is deeply embedded in Spanish culture, often reflecting a family's connection to their ancestral land. Its meaning and history make it a name that carries a story.",
+    "final_recommendation": "For those seeking a name with depth and heritage, Zambrano offers a unique choice. Its cultural significance and connection to nature make it a meaningful option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

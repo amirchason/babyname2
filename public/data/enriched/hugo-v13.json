@@ -1,0 +1,295 @@
+{
+  "name": "Hugo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:10:07.291Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Mind, intellect",
+  "culturalSignificance": "The name Hugo has been a popular choice in Europe for centuries, especially in countries like France, Spain, and Germany. It has royal connotations, as it has been borne by various kings and nobles throughout history.",
+  "modernContext": "In the 21st century, Hugo maintains its popularity, particularly in European countries. It is appreciated for its classic yet modern appeal, often chosen for its strong and intellectual connotations.",
+  "literaryReferences": "Hugo is famously associated with Victor Hugo, the renowned French author of 'Les Misérables' and 'The Hunchback of Notre-Dame'.",
+  "pronunciationGuide": "/ˈhjuːɡoʊ/",
+  "variations": [
+    "Hugh",
+    "Hugues",
+    "Ugo",
+    "Huw",
+    "Hugo"
+  ],
+  "similarNames": [
+    "Hugh",
+    "Eugene",
+    "Louis",
+    "Otto",
+    "Leo"
+  ],
+  "nicknames": [
+    "Hughie",
+    "Huey",
+    "Go",
+    "Hug"
+  ],
+  "personality": "People named Hugo are often thought to be intellectual, curious, and charismatic, with a natural ability to lead.",
+  "symbolism": "The name Hugo symbolizes intellect and wisdom, often associated with literary and artistic creativity.",
+  "funFact": "Victor Hugo, a famous bearer of the name, is credited with coining the term 'utopia' in its modern sense.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Victor Hugo",
+      "years": "1802-1885",
+      "category": "Author",
+      "achievements": [
+        "Wrote 'Les Misérables'",
+        "Wrote 'The Hunchback of Notre-Dame'"
+      ],
+      "significance": "Victor Hugo is regarded as one of the greatest French writers, known for his profound influence on literature and politics.",
+      "notableWorks": [
+        "Les Misérables",
+        "The Hunchback of Notre-Dame"
+      ]
+    },
+    {
+      "fullName": "Hugo Grotius",
+      "years": "1583-1645",
+      "category": "Philosopher",
+      "achievements": [
+        "Father of international law",
+        "Pioneered concepts of natural law"
+      ],
+      "significance": "Grotius is considered a foundational thinker in international law and political philosophy.",
+      "notableWorks": [
+        "On the Law of War and Peace",
+        "The Rights of War and Peace"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Music expresses that which cannot be put into words and that which cannot remain silent.",
+      "author": "Victor Hugo",
+      "context": "From his writings on the arts",
+      "year": 1852,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Hugo Weaving",
+      "profession": "Actor",
+      "knownFor": [
+        "The Matrix",
+        "The Lord of the Rings"
+      ],
+      "awards": "Australian Academy of Cinema and Television Arts Awards"
+    },
+    {
+      "name": "Hugo Chávez",
+      "profession": "Politician",
+      "knownFor": [
+        "President of Venezuela"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Hugo Lloris",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Tottenham Hotspur",
+      "pastTeams": [
+        "Olympique Lyonnais",
+        "OGC Nice"
+      ],
+      "position": "Goalkeeper",
+      "jerseyNumber": "1",
+      "years": "2005-Present",
+      "achievements": "2018 FIFA World Cup Winner",
+      "knownFor": [
+        "Leadership",
+        "Reflexes"
+      ],
+      "awards": "Ligue 1 Goalkeeper of the Year",
+      "stats": "Over 100 international caps",
+      "verified": true,
+      "source": "FIFA Official Website"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Hugo",
+      "year": 2011,
+      "type": "Movie",
+      "characterName": "Hugo Cabret",
+      "characterDescription": "A young orphan who lives in the walls of a train station in Paris.",
+      "imdbUrl": "https://www.imdb.com/title/tt0970179/",
+      "genre": "Adventure",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'd imagine the whole world was one big machine.",
+      "character": "Hugo Cabret",
+      "source": "Hugo",
+      "year": 2011,
+      "context": "Hugo reflects on the interconnectedness of the world.",
+      "genre": "Adventure",
+      "impact": "Highlights the theme of curiosity and discovery."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and planning.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share a love for communication and intellectual pursuits.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents intellect and communication.",
+    "celestialArchetype": "The Thinker",
+    "celestialArchetypeDescription": "Known for deep thoughts and a love for knowledge.",
+    "karmicLessons": "To balance intellectual pursuits with emotional understanding.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom and new experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 324,
+    "peak": 350,
+    "peakYear": 2015
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "There is nothing like a dream to create the future.",
+    "author": "Victor Hugo",
+    "context": "A quote reflecting the power of imagination and vision."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Hu-go"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Hugo",
+      "script": "Latin",
+      "scriptName": "Hugo",
+      "pronunciation": "/ˈuɡo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ούγκο",
+      "script": "Greek",
+      "scriptName": "Ούγκο",
+      "pronunciation": "/ˈuɣo/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هوغو",
+      "script": "Arabic",
+      "scriptName": "هوغو",
+      "pronunciation": "/ˈhuːɡo/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雨果",
+      "script": "Han",
+      "scriptName": "雨果",
+      "pronunciation": "/yǔɡuǒ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Хьюго",
+      "script": "Cyrillic",
+      "scriptName": "Хьюго",
+      "pronunciation": "/ˈxʲʉɡə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הוגו",
+      "script": "Hebrew",
+      "scriptName": "הוגו",
+      "pronunciation": "/ˈhuːɡo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Hugo",
+      "author": "Brian Selznick",
+      "publishedYear": 2007,
+      "genre": "Fiction",
+      "significance": "A novel that inspired the film adaptation directed by Martin Scorsese.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Hugo has been a well-used name across many cultures for centuries."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Associated with Victor Hugo, a major literary figure."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Historically borne by nobles and royalty."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Hugo is a name that exudes charm and intellect, drawing from its rich historical background and cultural significance. Whether associated with literary giants or modern icons, Hugo carries an air of sophistication and depth.",
+    "etymology_meaning": "The name Hugo derives from the Germanic element 'hug', meaning 'mind' or 'intellect'. It has been a popular name in various European regions due to its noble and scholarly connotations.",
+    "famous_bearers": "Victor Hugo, the esteemed French author, is perhaps the most notable bearer of this name, renowned for his works like 'Les Misérables'. In contemporary times, Hugo Weaving and Hugo Lloris are prominent figures bearing this name.",
+    "pop_culture_moments": "Hugo has made appearances in various films and books, most notably in the film 'Hugo', based on the novel by Brian Selznick. It remains a popular choice for fictional characters, often portrayed as intelligent and resourceful.",
+    "personality_profile": "Individuals named Hugo are often perceived as intelligent and thoughtful, with a natural curiosity about the world. They are known for their leadership qualities and ability to inspire others.",
+    "variations_nicknames": "Hugo has several variations including Hugh and Hugues, with nicknames like Hughie and Huey. Each variation carries its own unique flair while maintaining the core qualities of the name.",
+    "popularity_data": "Hugo has consistently ranked within the top 500 names in various countries, particularly in Europe. Its peak popularity in recent years was around 2015, reflecting its enduring appeal.",
+    "pairing_suggestions": "Hugo pairs well with classic and timeless names such as Charlotte or Alexander, creating a balanced and harmonious combination that resonates with both historical and modern sensibilities.",
+    "cultural_context": "The name Hugo is deeply embedded in European culture, often associated with intellectual and artistic achievements. Its use across different countries highlights its versatility and universal appeal.",
+    "final_recommendation": "If you're looking for a name that combines historical gravitas with modern appeal, Hugo is an excellent choice. It offers a sense of depth and sophistication, making it suitable for a child destined for greatness.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

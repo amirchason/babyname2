@@ -1,0 +1,303 @@
+{
+  "name": "Arthur",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:43:48.022Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Celtic",
+  "meaning": "Bear",
+  "culturalSignificance": "Arthur is a name of Celtic origin, most famously associated with the legendary King Arthur of medieval lore. The name has been linked with nobility and heroism due to its connection with the Arthurian legends, where King Arthur is depicted as a noble and just ruler.",
+  "modernContext": "In modern times, Arthur remains a popular name in many English-speaking countries, often associated with qualities of wisdom and strength. It has been consistently used for generations, maintaining a classic and timeless appeal.",
+  "literaryReferences": "Arthur is prominently featured in Arthurian legends, which include works like 'Le Morte d'Arthur' by Sir Thomas Malory, depicting stories of chivalry and gallantry.",
+  "pronunciationGuide": "/ˈɑːrθər/",
+  "variations": [
+    "Artur",
+    "Arturo",
+    "Art",
+    "Artie"
+  ],
+  "similarNames": [
+    "Albert",
+    "Alfred",
+    "Arnold",
+    "Edward",
+    "Henry"
+  ],
+  "nicknames": [
+    "Art",
+    "Artie",
+    "Arty"
+  ],
+  "personality": "Arthur is often associated with leadership qualities, wisdom, and a sense of justice, reflecting the legendary king's attributes.",
+  "symbolism": "The name Arthur symbolizes strength and leadership, often linked to the image of a bear, which is a common interpretation of its meaning.",
+  "funFact": "The name Arthur is often associated with the legendary sword Excalibur, a symbol of rightful sovereignty.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "King Arthur",
+      "years": "Legendary",
+      "category": "Royalty",
+      "achievements": [
+        "Established the Knights of the Round Table",
+        "Defended Britain against Saxon invaders"
+      ],
+      "significance": "King Arthur is a legendary figure who represents the ideals of chivalry and heroism in medieval literature.",
+      "notableWorks": [
+        "Le Morte d'Arthur"
+      ]
+    },
+    {
+      "fullName": "Arthur Wellesley",
+      "years": "1769-1852",
+      "category": "Military Leader",
+      "achievements": [
+        "Victory at the Battle of Waterloo",
+        "British Prime Minister"
+      ],
+      "significance": "Arthur Wellesley, the Duke of Wellington, was a key figure in defeating Napoleon and later served as British Prime Minister.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Arthur Conan Doyle",
+      "profession": "Author",
+      "knownFor": [
+        "Sherlock Holmes series"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Arthur Miller",
+      "profession": "Playwright",
+      "knownFor": [
+        "Death of a Salesman",
+        "The Crucible"
+      ],
+      "awards": "Pulitzer Prize for Drama"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Arthur Ashe",
+      "profession": "Athlete",
+      "sport": "Tennis",
+      "league": "ATP",
+      "team": "",
+      "pastTeams": [],
+      "position": "",
+      "jerseyNumber": "",
+      "years": "1969-1980",
+      "achievements": "Three Grand Slam titles, first African-American to win Wimbledon",
+      "knownFor": [
+        "Exceptional sportsmanship",
+        "Civil rights activism"
+      ],
+      "awards": "Sportsman of the Year",
+      "stats": "",
+      "verified": true,
+      "source": "https://www.tennisfame.com/hall-of-famers/inductees/arthur-ashe"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "King Arthur: Legend of the Sword",
+      "year": 2017,
+      "type": "Movie",
+      "characterName": "Arthur",
+      "characterDescription": "A young Arthur who discovers his royal lineage and destiny.",
+      "imdbUrl": "https://www.imdb.com/title/tt1972591/",
+      "genre": "Action, Adventure, Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Merlin",
+      "year": 2008,
+      "type": "TV Show",
+      "characterName": "Arthur Pendragon",
+      "characterDescription": "The future king of Camelot and a central character in the series.",
+      "imdbUrl": "https://www.imdb.com/title/tt1199099/",
+      "genre": "Adventure, Drama, Fantasy",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "The sword. You know what it is? It's not just a weapon. It's a tool. A tool for peace.",
+      "character": "Arthur",
+      "source": "King Arthur: Legend of the Sword",
+      "year": 2017,
+      "context": "Arthur reflecting on the significance of Excalibur.",
+      "genre": "Action, Adventure, Drama",
+      "impact": "Highlights Arthur's role as a peacekeeper and leader."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Royal Blue",
+      "hex": "#4169E1"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and realization of goals.",
+    "compatibleSigns": [
+      "Taurus",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs are generally stable and reliable, complementing Arthur's grounded nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes authority and responsibility.",
+    "karmicLessons": "To lead with wisdom and courage.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to create harmony and nurture family and community."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 162,
+    "peak": 14,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "True courage is not the absence of fear, but the triumph over it.",
+    "author": "Arthur Ashe",
+    "context": "Arthur Ashe speaking on courage and overcoming adversity."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ar-thur"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Arturo",
+      "script": "Latin",
+      "scriptName": "Arturo",
+      "pronunciation": "/aɾˈtuɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άρθουρ",
+      "script": "Greek",
+      "scriptName": "Άρθουρ",
+      "pronunciation": "/ˈarθur/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آرثر",
+      "script": "Arabic",
+      "scriptName": "آرثر",
+      "pronunciation": "/ˈʔartʰur/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "亚瑟",
+      "script": "Han",
+      "scriptName": "亚瑟",
+      "pronunciation": "/yà sè/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Артур",
+      "script": "Cyrillic",
+      "scriptName": "Артур",
+      "pronunciation": "/ˈartur/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ארתור",
+      "script": "Hebrew",
+      "scriptName": "ארתור",
+      "pronunciation": "/ˈaʁtoʁ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Le Morte d'Arthur",
+      "author": "Sir Thomas Malory",
+      "publishedYear": 1485,
+      "genre": "Fiction",
+      "significance": "A seminal work in Arthurian literature depicting the life and times of King Arthur.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Arthur has been in use for centuries and has a timeless appeal."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.9,
+      "reason": "The name is associated with the legendary King Arthur."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Arthur is a central figure in many literary works, especially Arthurian legends."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Arthur's Theme (Best That You Can Do)",
+      "artist": "Christopher Cross",
+      "year": 1981,
+      "genre": "Pop",
+      "nameContext": "The song is the theme for the movie 'Arthur'.",
+      "description": "A hit song from the 1981 film 'Arthur', capturing the film's themes of love and finding one's way.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Arthur%27s+Theme+Christopher+Cross",
+      "geniusUrl": "https://genius.com/Christopher-cross-arthurs-theme-best-that-you-can-do-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Arthur, a name steeped in legend and history, has captured the imagination of many for centuries. From the tales of King Arthur and his Knights of the Round Table to its modern usage across the globe, Arthur remains a name synonymous with nobility and wisdom. Whether you're drawn to its historical roots or its timeless charm, Arthur is a name that stands the test of time.",
+    "etymology_meaning": "The name Arthur is of Celtic origin, often believed to mean 'bear'. This ties into the legendary King Arthur, suggesting strength and leadership. Its roots in ancient Britain give it a rich historical background.",
+    "famous_bearers": "Famous individuals named Arthur include Arthur Conan Doyle, the creator of Sherlock Holmes, and Arthur Ashe, the first African-American tennis player to win Wimbledon. These figures highlight the name's association with brilliance and breakthrough achievements.",
+    "pop_culture_moments": "Arthur has been featured in numerous cultural works, from the classic 'Le Morte d'Arthur' to the modern film 'King Arthur: Legend of the Sword'. These references keep the name relevant and appealing across different media.",
+    "personality_profile": "Those named Arthur are often seen as leaders with a strong sense of justice and fairness. They are perceived as wise and thoughtful, characteristics that are embodied by the legendary King Arthur.",
+    "variations_nicknames": "Variations of Arthur include Artur and Arturo, while nicknames like Art and Artie are common. These variants ensure the name's flexibility and adaptability across cultures.",
+    "popularity_data": "Arthur has consistently been a popular name, reaching its peak in the early 20th century. It remains a favored choice for those seeking a name with historical significance and enduring appeal.",
+    "pairing_suggestions": "Arthur pairs well with classic names like Elizabeth or Victoria for girls, and Henry or James for boys. These combinations enhance its timeless elegance.",
+    "cultural_context": "Arthur's cultural significance is rooted in its legendary associations with King Arthur and the chivalric ideals of courage and honor. Its continued use in literature and media underscores its lasting impact.",
+    "final_recommendation": "Choosing Arthur for your child bestows a name rich in history and positive associations. Whether inspired by its legendary past or its modern elegance, Arthur is a name that offers dignity and charm.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

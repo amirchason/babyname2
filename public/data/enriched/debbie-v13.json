@@ -1,0 +1,238 @@
+{
+  "name": "Debbie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:23:39.823Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Bee",
+  "culturalSignificance": "Debbie is a diminutive of Deborah, a name with biblical origins. It became particularly popular in English-speaking countries during the mid-20th century, reflecting a trend of using shortened forms of traditional names.",
+  "modernContext": "In modern times, Debbie is often considered a nostalgic name, capturing the essence of the 1950s and 60s. Its popularity has waned, but it still holds a place in cultural memory thanks to notable figures and characters.",
+  "literaryReferences": "The name Debbie appears in various 20th-century novels and films, often as a character representing the quintessential girl-next-door.",
+  "pronunciationGuide": "/ˈdɛbi/",
+  "variations": [
+    "Deborah",
+    "Debra",
+    "Deb"
+  ],
+  "similarNames": [
+    "Deborah",
+    "Debra",
+    "Della",
+    "Daphne",
+    "Daisy"
+  ],
+  "nicknames": [
+    "Deb",
+    "Debs",
+    "Debz"
+  ],
+  "personality": "Debbie is often associated with friendly and approachable personality traits. People with this name are perceived as warm and sociable.",
+  "symbolism": "The name symbolizes industriousness and community, much like the bee from which it derives its meaning.",
+  "funFact": "Debbie was a top 10 name in the United States in the 1950s and 60s, reflecting its popularity during that era.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Debbie Reynolds",
+      "profession": "Actress",
+      "knownFor": [
+        "Singin' in the Rain",
+        "The Unsinkable Molly Brown"
+      ],
+      "awards": "Academy Award nomination, Jean Hersholt Humanitarian Award"
+    },
+    {
+      "name": "Debbie Harry",
+      "profession": "Musician",
+      "knownFor": [
+        "Lead singer of Blondie",
+        "Heart of Glass"
+      ],
+      "awards": "Inducted into the Rock and Roll Hall of Fame"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Debbie Does Dallas",
+      "year": 1978,
+      "type": "Movie",
+      "characterName": "Debbie",
+      "characterDescription": "A cheerleader who tries to raise money to join the Texas Cowgirls cheerleading squad.",
+      "imdbUrl": "https://www.imdb.com/title/tt0077415/",
+      "genre": "Adult",
+      "verified": true,
+      "popularity": 82
+    },
+    {
+      "title": "Addams Family Values",
+      "year": 1993,
+      "type": "Movie",
+      "characterName": "Debbie Jellinsky",
+      "characterDescription": "A cunning and manipulative character who marries Uncle Fester.",
+      "imdbUrl": "https://www.imdb.com/title/tt0106220/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 88
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Yellow",
+      "hex": "#FFFF00"
+    },
+    "luckyGemstone": "Amber",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A phase of growth and development, ideal for setting intentions.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the grounded and practical nature of Earth elements.",
+    "cosmicElement": "The Builder",
+    "cosmicElementDescription": "Associated with constructing stable foundations.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes care, compassion, and nurturing strength.",
+    "karmicLessons": "Learning balance between self-care and helping others.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for harmony and nurturing environments."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 876,
+    "peak": 8,
+    "peakYear": 1959
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The power of imagination makes us infinite.",
+    "author": "Debbie Allen",
+    "context": "Inspiring creativity and limitless potential."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Deb-bie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Debbie",
+      "script": "Latin",
+      "scriptName": "Debbie",
+      "pronunciation": "/ˈdɛbi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντέμπι",
+      "script": "Greek",
+      "scriptName": "Ντέμπι",
+      "pronunciation": "/ˈnde.bi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ديبي",
+      "script": "Arabic",
+      "scriptName": "ديبي",
+      "pronunciation": "/ˈdiːbi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "黛比",
+      "script": "Han",
+      "scriptName": "黛比",
+      "pronunciation": "/dài bǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дебби",
+      "script": "Cyrillic",
+      "scriptName": "Дебби",
+      "pronunciation": "/ˈdɛbi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דבי",
+      "script": "Hebrew",
+      "scriptName": "דבי",
+      "pronunciation": "/ˈdɛbi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Popularized in the mid-20th century, representing classic naming trends."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "While its popularity has decreased, it remains a recognized name."
+    },
+    {
+      "tag": "Nostalgic",
+      "confidence": 0.85,
+      "reason": "Evokes a sense of nostalgia from its peak in the 1950s and 60s."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Debbie",
+      "artist": "The B-52's",
+      "year": 1998,
+      "genre": "Rock",
+      "nameContext": "The song is a tribute to Debbie Harry of Blondie.",
+      "description": "A celebratory song that pays homage to a pop culture icon, capturing her influence on the music scene.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Debbie+The+B-52%27s",
+      "geniusUrl": "https://genius.com/search?q=Debbie+The+B-52%27s",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "With a nod to the past, the name Debbie brings a sense of nostalgia, echoing the charm of the mid-20th century. Often associated with friendly and welcoming personalities, Debbie is a name that has been embraced by many cultures.",
+    "etymology_meaning": "Debbie is derived from the Hebrew name Deborah, which means 'bee'. This reflects industriousness and community.",
+    "famous_bearers": "Notable figures such as Debbie Reynolds and Debbie Harry have kept the name in the limelight, showcasing its versatility across different fields.",
+    "pop_culture_moments": "Debbie has appeared in various films and songs, often as characters that embody the spirit of an era or a tribute to iconic figures.",
+    "personality_profile": "The name Debbie is often associated with warmth and sociability, making it a popular choice for those seeking a friendly and approachable name.",
+    "variations_nicknames": "Common variations include Deborah and Debra, with popular nicknames like Deb and Debs adding a personal touch.",
+    "popularity_data": "Though its popularity has decreased since its peak in the 1950s, Debbie remains a timeless choice with cultural resonance.",
+    "pairing_suggestions": "Pair Debbie with classic middle names like Jane or Anne for a harmonious blend, or with modern choices like Rae for a contemporary twist.",
+    "cultural_context": "Rooted in Hebrew tradition, Debbie has transcended its origins to become a beloved name worldwide, symbolizing connection and community.",
+    "final_recommendation": "For those seeking a name with historical depth and modern charm, Debbie offers a perfect blend of both. Whether honoring a family tradition or starting a new one, Debbie is a name that continues to inspire.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

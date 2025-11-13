@@ -1,0 +1,284 @@
+{
+  "name": "Theo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:26:09.627Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "God's gift",
+  "culturalSignificance": "Theo is a diminutive of Theodore, which has been popular in various cultures due to its meaning 'God's gift'. It has been used throughout history by notable figures in religion, art, and leadership.",
+  "modernContext": "In recent years, Theo has seen a resurgence in popularity, often chosen for its classic yet modern appeal. It is widely used in English-speaking countries and has a strong presence in popular culture.",
+  "literaryReferences": "Theo is a character name in John Green's novel 'Looking for Alaska', highlighting its literary appeal.",
+  "pronunciationGuide": "ˈθiːoʊ",
+  "variations": [
+    "Theodore",
+    "Theodorus",
+    "Theodoric"
+  ],
+  "similarNames": [
+    "Leo",
+    "Theo",
+    "Eli",
+    "Milo",
+    "Jude"
+  ],
+  "nicknames": [
+    "Ted",
+    "Teddy",
+    "Theo"
+  ],
+  "personality": "Theo is often associated with creativity, intelligence, and a strong sense of individuality. People with this name are seen as thoughtful and charismatic.",
+  "symbolism": "The name symbolizes divine blessing and is often associated with intellect and artistic talent.",
+  "funFact": "Theo van Gogh, the brother of the famous painter Vincent van Gogh, was an art dealer who played a crucial role in supporting Vincent's career.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Theo van Gogh",
+      "years": "1857-1891",
+      "category": "Art Dealer",
+      "achievements": [
+        "Supported Vincent van Gogh",
+        "Influential in the art world"
+      ],
+      "significance": "Theo van Gogh was instrumental in supporting his brother Vincent's art career and played a crucial role in the posthumous fame of his artwork.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Theo James",
+      "profession": "Actor",
+      "knownFor": [
+        "Divergent series",
+        "Underworld: Awakening"
+      ],
+      "awards": "Teen Choice Awards"
+    },
+    {
+      "name": "Theo Epstein",
+      "profession": "Baseball Executive",
+      "knownFor": [
+        "Boston Red Sox",
+        "Chicago Cubs"
+      ],
+      "awards": "Sporting News Executive of the Year"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Theo Walcott",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Southampton",
+      "pastTeams": [
+        "Arsenal",
+        "Everton"
+      ],
+      "position": "Winger",
+      "jerseyNumber": "14",
+      "years": "2005-Present",
+      "achievements": "FA Cup winner",
+      "knownFor": [
+        "Speed",
+        "Agility"
+      ],
+      "awards": "PFA Young Player of the Year",
+      "stats": "Over 100 career goals",
+      "verified": true,
+      "source": "https://www.premierleague.com/players/3128/Theo-Walcott/overview"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Haunting of Hill House",
+      "year": 2018,
+      "type": "TV Show",
+      "characterName": "Theo Crain",
+      "characterDescription": "A child psychologist with a special gift",
+      "imdbUrl": "https://www.imdb.com/title/tt6763664/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "The Divergent Series: Insurgent",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Four (Tobias Eaton)",
+      "characterDescription": "A brave and skilled member of Dauntless",
+      "imdbUrl": "https://www.imdb.com/title/tt2908446/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity, a time to harvest the fruits of your labor.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Shares the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and the physical world.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes compassion and the ability to mend and nurture.",
+    "karmicLessons": "Learning to balance material and spiritual pursuits.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "The desire for inner knowledge and understanding."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 155,
+    "peak": 148,
+    "peakYear": 2021
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Blessed are the curious, for they shall have adventures.",
+    "author": "Lovelle Drachman",
+    "context": "A quote about the spirit of exploration and learning."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "The-o"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Teo",
+      "script": "Latin",
+      "scriptName": "Teo",
+      "pronunciation": "ˈte.o",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Θεό",
+      "script": "Greek",
+      "scriptName": "Θεό",
+      "pronunciation": "θeˈo",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ثيو",
+      "script": "Arabic",
+      "scriptName": "ثيو",
+      "pronunciation": "θiːʊ",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "西奥",
+      "script": "Han",
+      "scriptName": "西奥",
+      "pronunciation": "xī ào",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Тео",
+      "script": "Cyrillic",
+      "scriptName": "Тео",
+      "pronunciation": "tʲɪˈo",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "תיאו",
+      "script": "Hebrew",
+      "scriptName": "תיאו",
+      "pronunciation": "tiˈo",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Goldfinch",
+      "author": "Donna Tartt",
+      "publishedYear": 2013,
+      "genre": "Fiction",
+      "significance": "Winner of the Pulitzer Prize for Fiction, this novel is a coming-of-age story with a character named Theo.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Theo is derived from Theodore, a name with historical and classical roots."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Theo has become increasingly popular in modern times due to its stylish simplicity."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has been used consistently over centuries, maintaining its relevance."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Theo",
+      "artist": "Vulfpeck",
+      "year": 2019,
+      "genre": "Funk",
+      "nameContext": "Title and main subject of the song",
+      "description": "A funky, upbeat instrumental piece that showcases the band's unique style and musical prowess.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Vulfpeck+Theo",
+      "geniusUrl": "https://genius.com/search?q=Vulfpeck+Theo",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Theo is a name that has been cherished across generations, combining simplicity with a touch of elegance. With its roots in ancient Greece, the name carries a profound meaning that resonates with many. From artists to athletes, Theo has been a name worn by individuals who have made significant impacts in their fields.",
+    "etymology_meaning": "Theo, a diminutive of Theodore, originates from the Greek name Theodoros, meaning 'God's gift'. This name has been prevalent in various forms across different cultures, often chosen for its noble and divine connotations.",
+    "famous_bearers": "Theo van Gogh, the art dealer brother of Vincent van Gogh, is a notable historical figure who played an essential role in the art world. In the present day, Theo James captivates audiences with his performances on the big screen.",
+    "pop_culture_moments": "Theo is a name that appears in popular TV shows like 'The Haunting of Hill House', where the character Theo Crain is portrayed as intelligent and intuitive. The name also features prominently in literature, such as in Donna Tartt's acclaimed novel 'The Goldfinch'.",
+    "personality_profile": "People named Theo are often viewed as creative and charismatic, possessing a natural ability to lead and inspire those around them. They are known for their intellectual curiosity and artistic flair.",
+    "variations_nicknames": "Variations of the name Theo include Theodore and Theodorus, with nicknames like Teddy and Ted offering a more casual alternative. These variations provide flexibility in choosing a name that best fits personal preferences.",
+    "popularity_data": "Theo has steadily climbed the ranks in baby name popularity over the past two decades, reaching its peak in the early 2020s. Its timeless appeal and modern sound make it a favored choice among new parents.",
+    "pairing_suggestions": "Theo pairs well with both traditional and contemporary names, making it versatile for sibling sets. Consider names like Leo or Mila for a harmonious combination, or explore longer names like Theodore and Clementine for a classic touch.",
+    "cultural_context": "Theo is a name that has transcended cultural boundaries, embraced by communities worldwide. Its Greek origins contribute to its rich historical background, while its modern usage reflects a more globalized naming trend.",
+    "final_recommendation": "Choosing the name Theo for your child can signify a bridge between tradition and modernity. With its profound meaning and versatile appeal, Theo is a name that carries both weight and style, making it an excellent choice for any parent.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

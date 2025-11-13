@@ -1,0 +1,219 @@
+{
+  "name": "Yosep",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T08:24:42.818Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God will increase",
+  "culturalSignificance": "Yosep is a variant of the Hebrew name Yosef, which is deeply rooted in Jewish tradition. It is often associated with the biblical Joseph, a prominent figure in the Old Testament known for his coat of many colors and his rise to power in Egypt.",
+  "modernContext": "The name Yosep is not as commonly used in English-speaking countries but can be found in various forms across different cultures, particularly in Hebrew-speaking communities. It is valued for its strong biblical associations and traditional roots.",
+  "literaryReferences": "",
+  "pronunciationGuide": "joˈsɛp",
+  "variations": [
+    "Joseph",
+    "Yosef",
+    "Josep",
+    "Jose",
+    "Yusuf"
+  ],
+  "similarNames": [
+    "Joseph",
+    "Yosef",
+    "Jose",
+    "Yusuf",
+    "Josiah",
+    "Jonas"
+  ],
+  "nicknames": [
+    "Joe",
+    "Joey",
+    "Seph",
+    "Jos",
+    "Jo"
+  ],
+  "personality": "Individuals named Yosep are often seen as reliable and trustworthy, with a strong sense of responsibility and an innate ability to lead.",
+  "symbolism": "The name Yosep symbolizes abundance and divine favor, reflecting the biblical story of Joseph's rise to prominence.",
+  "funFact": "The name Yosep, like its variant Joseph, is popular in various cultures and has been borne by many notable figures throughout history.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism",
+      "Islam"
+    ],
+    "character": "Joseph",
+    "significance": "Joseph in the Bible was Jacob's eleventh son, known for his prophetic dreams and his role in saving Egypt from famine.",
+    "keyStories": [
+      "Joseph's coat of many colors",
+      "Joseph's rise to power in Egypt"
+    ],
+    "spiritualMeaning": "The name is associated with foresight and divine providence.",
+    "historicalImpact": "Joseph's story is significant in religious texts as a testament to faith and resilience."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Yosef Ben Matityahu",
+      "years": "37-100",
+      "category": "Historian",
+      "achievements": [
+        "Wrote The Jewish War",
+        "Wrote Antiquities of the Jews"
+      ],
+      "significance": "A significant Jewish historian who documented Jewish history and the First Jewish–Roman War.",
+      "notableWorks": [
+        "The Jewish War",
+        "Antiquities of the Jews"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Yosep Anggi Noen",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "Solo, Solitude",
+        "The Science of Fictions"
+      ],
+      "awards": "Multiple international film festival awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and realization.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Their emotional depth and empathy resonate well.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes intuition and emotional depth.",
+    "celestialArchetype": "The Dreamer",
+    "celestialArchetypeDescription": "Typified by a vivid imagination and visionary qualities.",
+    "karmicLessons": "Embrace adaptability and balance emotions.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and family."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 350,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Great dreams of great dreamers are always transcended.",
+    "author": "A. P. J. Abdul Kalam",
+    "context": "Encouragement to pursue big dreams."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Yo-sep"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "José",
+      "script": "Latin",
+      "scriptName": "José",
+      "pronunciation": "xoˈse",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωσήφ",
+      "script": "Greek",
+      "scriptName": "Ιωσήφ",
+      "pronunciation": "ioˈsif",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "يوسف",
+      "script": "Arabic",
+      "scriptName": "يوسف",
+      "pronunciation": "juːsif",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "约瑟",
+      "script": "Han",
+      "scriptName": "约瑟",
+      "pronunciation": "Yuēsè",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Иосиф",
+      "script": "Cyrillic",
+      "scriptName": "Иосиф",
+      "pronunciation": "iˈosʲɪf",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יוסף",
+      "script": "Hebrew",
+      "scriptName": "יוסף",
+      "pronunciation": "joˈsef",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "The name is directly associated with the biblical figure of Joseph."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "The name has been used consistently across cultures for centuries."
+    },
+    {
+      "tag": "Traditional",
+      "confidence": 0.9,
+      "reason": "The name holds strong traditional and cultural significance."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Yosep holds a deep connection to history and tradition, echoing tales of biblical proportions. Its roots lie in the age-old stories that have shaped cultures and societies. With a timeless allure, this name continues to inspire and connect generations.",
+    "etymology_meaning": "Yosep is a variant of the Hebrew name Yosef, meaning 'God will increase.' It carries with it the promise of growth and prosperity, reflecting the story of Joseph from the Bible.",
+    "famous_bearers": "Among the noted individuals bearing this name is Yosep Anggi Noen, a filmmaker known for his impactful storytelling. His work has been recognized at international film festivals, contributing to the cultural tapestry.",
+    "pop_culture_moments": "While Yosep may not frequently appear in mainstream Western media, its variants like Joseph and Yosef have been featured in countless films, books, and songs, often symbolizing wisdom and leadership.",
+    "personality_profile": "People named Yosep are often seen as reliable, with a strong sense of justice and leadership. They are believed to possess an innate ability to inspire and guide others.",
+    "variations_nicknames": "Yosep has several variations, including Joseph, Yosef, and Yusuf. Common nicknames like Joe, Joey, and Seph add a casual charm to this traditional name.",
+    "popularity_data": "Although not as popular as its counterparts in English-speaking countries, Yosep holds its ground in communities that value its historical and religious significance.",
+    "pairing_suggestions": "Yosep pairs well with middle names that are equally timeless, such as Alexander or Michael, creating a strong and balanced full name.",
+    "cultural_context": "Rooted in Hebrew tradition, Yosep is a name that carries significant cultural weight. Its story is one of resilience and divine favor, making it a meaningful choice for many families.",
+    "final_recommendation": "Yosep is an excellent choice for parents seeking a name with historical depth and cultural resonance. Its rich background and timeless appeal make it a worthy contender for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

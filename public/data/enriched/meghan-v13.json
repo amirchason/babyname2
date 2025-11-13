@@ -1,0 +1,222 @@
+{
+  "name": "Meghan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:32:22.939Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Welsh",
+  "meaning": "Pearl",
+  "culturalSignificance": "Meghan is a name of Welsh origin, often considered a variant of Margaret. It became more widely recognized in English-speaking countries in the 20th century.",
+  "modernContext": "The name Meghan gained significant popularity in the late 20th century and is commonly associated with Meghan Markle, the Duchess of Sussex. It remains a popular choice for girls in English-speaking countries.",
+  "literaryReferences": "The name Meghan has not been prominently featured in classical literature.",
+  "pronunciationGuide": "/ˈmeɪɡən/",
+  "variations": [
+    "Megan",
+    "Meagan",
+    "Meaghan",
+    "Meggan"
+  ],
+  "similarNames": [
+    "Morgan",
+    "Megan",
+    "Molly",
+    "Marian"
+  ],
+  "nicknames": [
+    "Meg",
+    "Meggie",
+    "Megs"
+  ],
+  "personality": "Individuals named Meghan are often seen as strong-willed and charismatic, with a compassionate nature.",
+  "symbolism": "The name is symbolic of purity and beauty, akin to the preciousness of a pearl.",
+  "funFact": "Meghan was one of the top 100 names for girls in the United States during the 1990s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Meghan Markle",
+      "profession": "Actress and Duchess",
+      "knownFor": [
+        "Suits",
+        "Marriage to Prince Harry"
+      ],
+      "awards": "Teen Choice Award for Choice TV Actress: Drama"
+    },
+    {
+      "name": "Meghan Trainor",
+      "profession": "Singer",
+      "knownFor": [
+        "All About That Bass",
+        "Lips Are Movin"
+      ],
+      "awards": "Grammy Award for Best New Artist"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Felicity",
+      "year": 1998,
+      "type": "TV Show",
+      "characterName": "Meghan Rotundi",
+      "characterDescription": "A quirky and eccentric college student.",
+      "imdbUrl": "https://www.imdb.com/title/tt0134247/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Aquamarine",
+      "hex": "#7FFFD4"
+    },
+    "luckyGemstone": "Pearl",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs are known for their emotional depth and intuition, complementing the Water element.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water is associated with emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for empathy and nurturing qualities.",
+    "karmicLessons": "Learning to balance emotions and logic.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and family."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 870,
+    "peak": 10,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Your voice is your power. Use it wisely.",
+    "author": "Meghan Markle",
+    "context": "In a speech about women's empowerment."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Me-ghan"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Meghan",
+      "script": "Latin",
+      "scriptName": "Meghan",
+      "pronunciation": "/ˈmeɡan/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μέγκαν",
+      "script": "Greek",
+      "scriptName": "Μέγκαν",
+      "pronunciation": "/ˈmeɡan/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميغان",
+      "script": "Arabic",
+      "scriptName": "ميغان",
+      "pronunciation": "/ˈmeɡan/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "梅根",
+      "script": "Han",
+      "scriptName": "梅根",
+      "pronunciation": "/mei̯˧˥.kən˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Меган",
+      "script": "Cyrillic",
+      "scriptName": "Меган",
+      "pronunciation": "/ˈmʲeɡən/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מייגן",
+      "script": "Hebrew",
+      "scriptName": "מייגן",
+      "pronunciation": "/ˈmeɡan/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [
+    {
+      "childName": "Meghan",
+      "parentNames": [
+        "Prince Harry",
+        "Meghan Markle"
+      ],
+      "birthYear": 2019,
+      "context": "The royal couple named their daughter Lilibet 'Lili' Diana Mountbatten-Windsor, and she is often affectionately referred to as Meghan's daughter in media."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name gained popularity in the late 20th century."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Associated with Meghan Markle, Duchess of Sussex."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Derived from the classic name Margaret."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Meghan is a name that embodies elegance and modernity, having surged in popularity in recent decades. Known for its Welsh origins, Meghan carries a timeless appeal that resonates with many. The name is often associated with strength and charm, making it a popular choice for parents.",
+    "etymology_meaning": "The name Meghan is of Welsh origin, traditionally seen as a variant of Margaret, meaning 'pearl'. The name reflects a sense of beauty and rarity, akin to the precious gem it represents.",
+    "famous_bearers": "Notably, Meghan Markle, the Duchess of Sussex, has brought significant attention to the name in recent years. Her influence extends beyond royal circles, impacting fashion and social issues globally.",
+    "pop_culture_moments": "In pop culture, Meghan has been featured in various TV shows and is often associated with characters that are dynamic and engaging. This has helped maintain its relevance and appeal.",
+    "personality_profile": "People named Meghan are often seen as compassionate and charismatic, with a knack for leadership. They are perceived as empathetic individuals who value relationships and community.",
+    "variations_nicknames": "Common variations include Megan, Meagan, and Meaghan, with nicknames like Meg and Meggie frequently used. These variations offer flexibility and personalization.",
+    "popularity_data": "The name Meghan peaked in popularity during the 1990s, particularly in the United States. While its usage has declined slightly, it remains a favored choice for many parents.",
+    "pairing_suggestions": "Names like Morgan and Molly pair well with Meghan, complementing its melodic sound and modern vibe. These combinations are popular among parents seeking harmonious sibling names.",
+    "cultural_context": "Reflecting its Welsh origins, Meghan has a cultural richness that appeals to those interested in heritage and tradition. Its modern associations add a layer of contemporary charm.",
+    "final_recommendation": "Meghan is a versatile name that suits a wide range of personalities and backgrounds. Whether chosen for its elegance or its modern associations, it is a name that continues to captivate.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

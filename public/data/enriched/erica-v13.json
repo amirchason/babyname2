@@ -1,0 +1,252 @@
+{
+  "name": "Erica",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:58:26.648Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Old Norse",
+  "meaning": "Ruler, eternal ruler",
+  "culturalSignificance": "The name Erica is derived from the Old Norse name Eiríkr, which combines 'ei' (ever) and 'ríkr' (ruler). It has been used across various cultures, particularly in Scandinavia, and became popular in English-speaking countries in the 20th century.",
+  "modernContext": "Erica remains a popular name in many English-speaking countries, often chosen for its strong, regal connotations. Its popularity peaked in the United States during the 1980s and 1990s.",
+  "literaryReferences": "Erica has appeared in various literary works, often depicting characters with strong and independent traits.",
+  "pronunciationGuide": "ˈɛrɪkə",
+  "variations": [
+    "Erika",
+    "Ericka",
+    "Erykah"
+  ],
+  "similarNames": [
+    "Erin",
+    "Alicia",
+    "Emma",
+    "Emily",
+    "Ella"
+  ],
+  "nicknames": [
+    "Eri",
+    "Rica",
+    "Rikki"
+  ],
+  "personality": "The name Erica is often associated with a strong, independent personality, often seen as confident and assertive.",
+  "symbolism": "Symbolically, Erica is associated with leadership and strength, echoing its meaning of an eternal ruler.",
+  "funFact": "Erica is also a genus of flowering plants commonly known as heathers, which are known for their hardy nature.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Erica Jong",
+      "years": "1942-Present",
+      "category": "Author",
+      "achievements": [
+        "Wrote 'Fear of Flying'",
+        "Influenced feminist literature"
+      ],
+      "significance": "Erica Jong is a notable American author whose work in the feminist literary movement has had a significant impact.",
+      "notableWorks": [
+        "Fear of Flying",
+        "How to Save Your Own Life"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Erica Durance",
+      "profession": "Actress",
+      "knownFor": [
+        "Playing Lois Lane in 'Smallville'",
+        "Role in 'Saving Hope'"
+      ],
+      "awards": "Nominated for various Canadian Screen Awards"
+    },
+    {
+      "name": "Erica Jong",
+      "profession": "Author",
+      "knownFor": [
+        "Fear of Flying",
+        "Becoming Light"
+      ],
+      "awards": "Sigmund Freud Award for Literature"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Smallville",
+      "year": 2001,
+      "type": "TV Show",
+      "characterName": "Lois Lane",
+      "characterDescription": "A strong-willed and independent journalist.",
+      "imdbUrl": "https://www.imdb.com/title/tt0279600/",
+      "genre": "Superhero, Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs provide stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, patience, and practicality.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Symbolizes authority and guidance.",
+    "karmicLessons": "Learning to balance leadership with empathy.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 728,
+    "peak": 31,
+    "peakYear": 1986
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership is not about being in charge. It's about taking care of those in your charge.",
+    "author": "Simon Sinek",
+    "context": "Leadership and empathy"
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "E-ri-ca"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Erica",
+      "script": "Latin",
+      "scriptName": "Erica",
+      "pronunciation": "ˈeɾika",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ερίκα",
+      "script": "Greek",
+      "scriptName": "Ερίκα",
+      "pronunciation": "eˈrika",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إيريكا",
+      "script": "Arabic",
+      "scriptName": "إيريكا",
+      "pronunciation": "ˈiːrika",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾瑞卡",
+      "script": "Han",
+      "scriptName": "艾瑞卡",
+      "pronunciation": "ài ruì kǎ",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эрика",
+      "script": "Cyrillic",
+      "scriptName": "Эрика",
+      "pronunciation": "ˈɛrʲɪkə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אריקה",
+      "script": "Hebrew",
+      "scriptName": "אריקה",
+      "pronunciation": "eriˈka",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Fear of Flying",
+      "author": "Erica Jong",
+      "publishedYear": 1973,
+      "genre": "Fiction",
+      "significance": "A groundbreaking novel in the feminist movement.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Long history and usage across cultures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistent popularity over decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Associated with notable literary figures."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Erica Kane",
+      "artist": "Aaliyah",
+      "year": 2002,
+      "genre": "R&B",
+      "nameContext": "The song is about a character named Erica Kane.",
+      "description": "The song metaphorically addresses the drama and complexities often attributed to a soap opera character.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Erica+Kane+Aaliyah",
+      "geniusUrl": "https://genius.com/Aaliyah-erica-kane-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Erica is a name that resonates with strength and leadership, evoking images of a powerful ruler. Its origins in Old Norse lend it a timeless quality, making it a perennial favorite among parents seeking a name with both historical depth and modern appeal. From its peak popularity in the 1980s to its continued resonance today, Erica remains a name that commands respect and admiration.",
+    "etymology_meaning": "Derived from the Old Norse name Eiríkr, Erica means 'eternal ruler.' This etymology underlines its association with leadership and authority, qualities that have made it a lasting choice for many.",
+    "famous_bearers": "Famous bearers of the name include author Erica Jong, whose work has significantly influenced feminist literature, and actress Erica Durance, known for her role as Lois Lane in 'Smallville.'",
+    "pop_culture_moments": "In pop culture, Erica has appeared in various contexts, from TV shows like 'Smallville' to songs by artists such as Aaliyah. These references highlight its versatility and broad appeal.",
+    "personality_profile": "Erica is often associated with a strong, independent personality. Those with this name are perceived as confident leaders who are capable of guiding others with wisdom and empathy.",
+    "variations_nicknames": "Common variations of Erica include Erika and Erykah, while nicknames like Eri and Rica offer affectionate alternatives for those who bear this name.",
+    "popularity_data": "Erica saw a surge in popularity in the 1980s and 1990s in the United States, reaching its peak in 1986. Despite fluctuations, it remains a well-loved choice for its classic sound and modern sensibility.",
+    "pairing_suggestions": "Erica pairs well with both traditional and contemporary names. Consider combinations like Erica James or Erica Marie for a balanced and harmonious sound.",
+    "cultural_context": "With its roots in Old Norse and strong presence in English-speaking cultures, Erica carries both historical weight and contemporary charm. It is a name that transcends cultural boundaries, appealing to a wide audience.",
+    "final_recommendation": "For parents seeking a name with a regal touch and enduring charm, Erica offers a perfect blend of history and modernity. Its strong associations and versatile use make it a reliable choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

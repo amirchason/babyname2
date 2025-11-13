@@ -1,0 +1,311 @@
+{
+  "name": "Susan",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:35:16.661Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Lily",
+  "culturalSignificance": "Susan is derived from the Hebrew name Shoshana, meaning 'lily'. It gained widespread popularity in the English-speaking world during the Middle Ages and saw a resurgence in the 20th century. The name is often associated with beauty and purity, as lilies are symbols of these qualities.",
+  "modernContext": "Susan was an immensely popular name in the mid-20th century, particularly in the United States. Although its popularity has waned in recent years, it remains a classic choice for parents seeking a traditional name with historical significance.",
+  "literaryReferences": "Susan Pevensie is a notable character in C.S. Lewis's 'The Chronicles of Narnia' series, known for her practicality and archery skills.",
+  "pronunciationGuide": "ˈsuːzən",
+  "variations": [
+    "Suzanne",
+    "Susanna",
+    "Susana",
+    "Suzan",
+    "Sue"
+  ],
+  "similarNames": [
+    "Sarah",
+    "Samantha",
+    "Sofia",
+    "Sally",
+    "Sandra",
+    "Sophia"
+  ],
+  "nicknames": [
+    "Sue",
+    "Suzy",
+    "Susie",
+    "Suze"
+  ],
+  "personality": "The name Susan is often associated with individuals who are practical, reliable, and nurturing. They are known for their strong sense of responsibility and caring nature.",
+  "symbolism": "Susan symbolizes purity and beauty, often associated with the lily flower. It reflects a sense of elegance and grace.",
+  "funFact": "Susan was one of the most popular names for girls in the United States during the 1950s and 1960s, consistently ranking in the top ten.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Susan B. Anthony",
+      "years": "1820-1906",
+      "category": "Activist",
+      "achievements": [
+        "Leader in the women's suffrage movement",
+        "Co-founded the National Woman Suffrage Association"
+      ],
+      "significance": "Susan B. Anthony was a pivotal figure in the women's rights movement, advocating for women's suffrage and equal rights in the United States.",
+      "notableWorks": [
+        "The Revolution (newspaper)"
+      ]
+    },
+    {
+      "fullName": "Susan Sontag",
+      "years": "1933-2004",
+      "category": "Writer",
+      "achievements": [
+        "Influential essays on culture and media",
+        "National Book Award winner"
+      ],
+      "significance": "Susan Sontag was a renowned American writer and philosopher known for her works on modern culture and criticism.",
+      "notableWorks": [
+        "On Photography",
+        "Against Interpretation"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I declare to you that woman must not depend upon the protection of man, but must be taught to protect herself, and there I take my stand.",
+      "author": "Susan B. Anthony",
+      "context": "Advocating for women's independence and rights",
+      "year": 1877,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Susan Sarandon",
+      "profession": "Actor",
+      "knownFor": [
+        "Thelma & Louise",
+        "Dead Man Walking"
+      ],
+      "awards": "Academy Award for Best Actress"
+    },
+    {
+      "name": "Susan Boyle",
+      "profession": "Singer",
+      "knownFor": [
+        "Britain's Got Talent",
+        "I Dreamed a Dream"
+      ],
+      "awards": "World Music Award for World's Best Selling British Artist"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Desperate Housewives",
+      "year": 2004,
+      "type": "TV Show",
+      "characterName": "Susan Mayer",
+      "characterDescription": "A main character, known for her clumsy and romantic nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt0410975/",
+      "genre": "Comedy, Drama, Mystery",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Narnia: The Lion, the Witch and the Wardrobe",
+      "year": 2005,
+      "type": "Movie",
+      "characterName": "Susan Pevensie",
+      "characterDescription": "One of the Pevensie siblings, practical and skilled in archery.",
+      "imdbUrl": "https://www.imdb.com/title/tt0363771/",
+      "genre": "Adventure, Family, Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Once a king or queen of Narnia, always a king or queen.",
+      "character": "Susan Pevensie",
+      "source": "The Chronicles of Narnia",
+      "year": 2005,
+      "context": "Encouragement and reminder of their status in Narnia.",
+      "genre": "Fantasy",
+      "impact": "Highlights the enduring nature of the character's role in the story."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Represents fulfillment and clarity.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share the emotional depth and intuition associated with water elements.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes emotions, intuition, and fluidity.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing and empathy, often caring for others.",
+    "karmicLessons": "Learning to balance empathy with self-care.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a need to care for others and create harmony in relationships."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 600,
+    "peak": 2,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future depends entirely on what each of us does every day.",
+    "author": "Gloria Steinem",
+    "context": "Encouraging daily action towards change."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Su-san"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Susana",
+      "script": "Latin",
+      "scriptName": "Susana",
+      "pronunciation": "suˈsana",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σουζάνα",
+      "script": "Greek",
+      "scriptName": "Σουζάνα",
+      "pronunciation": "suˈzana",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سوزان",
+      "script": "Arabic",
+      "scriptName": "سوزان",
+      "pronunciation": "suːˈzaːn",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "苏珊",
+      "script": "Han",
+      "scriptName": "苏珊",
+      "pronunciation": "Sūshān",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сюзанна",
+      "script": "Cyrillic",
+      "scriptName": "Сюзанна",
+      "pronunciation": "sʲʊˈzanə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "שׁוֹשַׁנָּה",
+      "script": "Hebrew",
+      "scriptName": "שׁוֹשַׁנָּה",
+      "pronunciation": "ʃoˈʃana",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "publishedYear": 1950,
+      "genre": "Fiction",
+      "significance": "A classic series in children's fantasy literature.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Susan has been a popular name for centuries, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Its consistent use across generations highlights its timeless nature."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured prominently in literature, such as 'The Chronicles of Narnia'."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Susan",
+      "artist": "The Buckinghams",
+      "year": 1967,
+      "genre": "Pop",
+      "nameContext": "The song is named after a girl named Susan.",
+      "description": "A popular song from the 1960s, expressing affection and longing for a girl named Susan.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Susan+The+Buckinghams",
+      "geniusUrl": "https://genius.com/The-buckinghams-susan-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Wake Up Little Susie",
+      "artist": "The Everly Brothers",
+      "year": 1957,
+      "genre": "Rock",
+      "nameContext": "The song revolves around a girl named Susie.",
+      "description": "A classic rock and roll song about a couple falling asleep at the movies and worrying about getting in trouble.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Wake+Up+Little+Susie+The+Everly+Brothers",
+      "geniusUrl": "https://genius.com/The-everly-brothers-wake-up-little-susie-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Susan is a name that has graced many generations, carrying with it a sense of elegance and timelessness. Once a top choice for parents in the mid-20th century, it continues to be a beloved classic. Discover the rich history and cultural significance behind this enduring name.",
+    "etymology_meaning": "The name Susan is derived from the Hebrew 'Shoshana', meaning 'lily'. It has been a popular choice throughout history, often associated with purity and beauty.",
+    "famous_bearers": "Notable individuals such as activist Susan B. Anthony and actress Susan Sarandon have left their mark on history, showcasing the name's versatility across different fields.",
+    "pop_culture_moments": "From the pages of 'The Chronicles of Narnia' to the small screen in 'Desperate Housewives', Susan has been a prominent name in various pop culture narratives.",
+    "personality_profile": "People named Susan are often seen as reliable, nurturing, and practical. They possess a strong sense of responsibility and are known for their caring nature.",
+    "variations_nicknames": "Susan offers a variety of charming nicknames like Sue and Susie, and variations such as Suzanne and Susanna, providing flexibility for personalization.",
+    "popularity_data": "While Susan's popularity peaked in the 1960s, it remains a classic choice, reflecting a steady presence on baby name charts.",
+    "pairing_suggestions": "Pair Susan with names like Michael or David for a traditional feel, or with Emma or Grace for a modern twist.",
+    "cultural_context": "Rooted in Hebrew origins, Susan has transcended cultural boundaries to become a staple name in English-speaking countries.",
+    "final_recommendation": "Choosing Susan means embracing a name with a rich history and timeless appeal. It's a choice that stands strong across generations, offering both elegance and reliability.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

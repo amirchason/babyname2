@@ -1,0 +1,235 @@
+{
+  "name": "Nic",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:15:29.563Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Greek",
+  "meaning": "Victory of the people",
+  "culturalSignificance": "The name Nic is a short form of Nicholas, which has Greek origins and means 'victory of the people'. The name has been popularized by numerous saints and historical figures, making it culturally significant across various regions and time periods.",
+  "modernContext": "In modern times, Nic is often used as a short, casual variation of Nicholas or Nicole. It has become a popular choice for both boys and girls, offering a contemporary twist on a classic name.",
+  "literaryReferences": "",
+  "pronunciationGuide": "nɪk",
+  "variations": [
+    "Nick",
+    "Nico",
+    "Nicolas",
+    "Nicole",
+    "Nikolai"
+  ],
+  "similarNames": [
+    "Nick",
+    "Nico",
+    "Rick",
+    "Mick",
+    "Vic"
+  ],
+  "nicknames": [
+    "Nick",
+    "Nicky",
+    "Nico"
+  ],
+  "personality": "The name Nic is often associated with a strong, independent personality. People with this name are perceived as friendly, approachable, and charismatic.",
+  "symbolism": "As a derivative of Nicholas, Nic symbolizes victory and success, often associated with leadership and influence.",
+  "funFact": "Nic is often used as a stage name or pseudonym by artists and performers for its simplicity and modern appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Nic Cage",
+      "profession": "Actor",
+      "knownFor": [
+        "Leaving Las Vegas",
+        "National Treasure"
+      ],
+      "awards": "Academy Award for Best Actor"
+    },
+    {
+      "name": "Nic Pizzolatto",
+      "profession": "Screenwriter",
+      "knownFor": [
+        "True Detective"
+      ],
+      "awards": "Emmy nomination for Outstanding Drama Series"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Nic Naitanui",
+      "profession": "Athlete",
+      "sport": "Australian Rules Football",
+      "league": "AFL",
+      "team": "West Coast Eagles",
+      "pastTeams": [],
+      "position": "Ruckman",
+      "jerseyNumber": "9",
+      "years": "2008-Present",
+      "achievements": "All-Australian team, West Coast Eagles Best and Fairest",
+      "knownFor": [
+        "Athleticism",
+        "Ruck skills"
+      ],
+      "awards": "John Worsfold Medal",
+      "stats": "Career statistics",
+      "verified": true,
+      "source": "AFL official website"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "National Treasure",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Ben Gates",
+      "characterDescription": "A treasure hunter with a knack for solving historical puzzles.",
+      "imdbUrl": "https://www.imdb.com/title/tt0368891/",
+      "genre": "Adventure",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share an affinity for communication and intellect.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect, communication, and adaptability.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their ability to express ideas and connect with others.",
+    "karmicLessons": "Learning to balance communication with listening.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire to express oneself and create connections."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 210,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Victory belongs to the most persevering.",
+    "author": "Napoleon Bonaparte",
+    "context": "A quote emphasizing perseverance and success."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Nic"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Nic",
+      "script": "Latin",
+      "scriptName": "Nic",
+      "pronunciation": "nik",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Νικ",
+      "script": "Greek",
+      "scriptName": "Νικ",
+      "pronunciation": "nik",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "نيك",
+      "script": "Arabic",
+      "scriptName": "نيك",
+      "pronunciation": "nik",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "尼克",
+      "script": "Han",
+      "scriptName": "尼克",
+      "pronunciation": "nǐ kè",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Ник",
+      "script": "Cyrillic",
+      "scriptName": "Ник",
+      "pronunciation": "nik",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ניק",
+      "script": "Hebrew",
+      "scriptName": "ניק",
+      "pronunciation": "nik",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Nic is a classic name, derived from the traditional name Nicholas."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "The shorter form Nic has gained popularity as a modern twist on a classic name."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name has been in use for many generations, maintaining its appeal across time."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Nic, though short, carries a powerful meaning of 'victory of the people'. Often seen as a modern take on the classic name Nicholas, Nic is versatile and has found its place in both casual and professional settings.",
+    "etymology_meaning": "Nic is derived from the Greek name Nicholas, which means 'victory of the people'. This name has historical roots and is associated with numerous saints and historical figures.",
+    "famous_bearers": "Famous bearers of the name include actor Nic Cage, known for his dynamic roles, and Nic Pizzolatto, the creator of the critically acclaimed series 'True Detective'.",
+    "pop_culture_moments": "In pop culture, Nic has been represented in various forms, from characters in films like 'National Treasure' to prominent figures in modern entertainment.",
+    "personality_profile": "People named Nic are often seen as independent thinkers, charismatic leaders, and approachable individuals. They tend to excel in environments where communication and creativity are valued.",
+    "variations_nicknames": "Variations of the name include Nick, Nico, and Nicolas, offering a range of choices for parents. Common nicknames like Nicky and Nico add a friendly, personal touch.",
+    "popularity_data": "Nic has seen fluctuations in popularity, often influenced by trends in naming shorter, more modern names. It reached its peak in the mid-2000s but continues to be a popular choice.",
+    "pairing_suggestions": "Nic pairs well with longer, classic middle names such as Alexander or Elizabeth, creating a balanced and harmonious full name.",
+    "cultural_context": "The name Nic, while rooted in Greek tradition, has become a global name, appreciated for its simplicity and powerful meaning across different cultures.",
+    "final_recommendation": "For parents seeking a name that is both modern and meaningful, Nic offers a perfect blend of tradition and contemporary style. Its versatility and cultural resonance make it a strong choice for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

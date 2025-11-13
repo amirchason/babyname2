@@ -1,0 +1,250 @@
+{
+  "name": "Jaime",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T12:36:25.276Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Hebrew",
+  "meaning": "Supplanter",
+  "culturalSignificance": "Jaime is a variation of the name James, which has roots in Hebrew origins, meaning 'supplanter'. It is widely used in Spanish-speaking countries and has gained popularity in English-speaking regions as well.",
+  "modernContext": "In modern times, Jaime is recognized as a unisex name and is popular in both its male and female forms. It is often chosen for its cultural versatility and its phonetic appeal in various languages.",
+  "literaryReferences": "Jaime Lannister is a prominent character in the 'A Song of Ice and Fire' series by George R.R. Martin, known for his complex personality and storyline.",
+  "pronunciationGuide": "/ˈhaɪ.mi/ (English), /ˈxa.i.me/ (Spanish)",
+  "variations": [
+    "Jamie",
+    "Jaimie",
+    "Jayme",
+    "Jaimee",
+    "Jaimy"
+  ],
+  "similarNames": [
+    "James",
+    "Jacob",
+    "Jaimie",
+    "Jay",
+    "Jace"
+  ],
+  "nicknames": [
+    "Jay",
+    "Jai",
+    "Jim",
+    "Jimmy"
+  ],
+  "personality": "Individuals named Jaime are often perceived as adaptable and charismatic, with a dynamic and outgoing nature.",
+  "symbolism": "The name Jaime symbolizes adaptability and leadership, often associated with those who can navigate complex social landscapes.",
+  "funFact": "The name Jaime, in its various forms, has been a popular choice for fictional characters in both literature and television.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jaime King",
+      "profession": "Actor",
+      "knownFor": [
+        "Sin City",
+        "Hart of Dixie"
+      ],
+      "awards": "None notable"
+    },
+    {
+      "name": "Jaime Camil",
+      "profession": "Actor",
+      "knownFor": [
+        "Jane the Virgin",
+        "La Fea Más Bella"
+      ],
+      "awards": "Premios TVyNovelas"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Game of Thrones",
+      "year": 2011,
+      "type": "TV Show",
+      "characterName": "Jaime Lannister",
+      "characterDescription": "A complex, noble knight with a complicated family legacy.",
+      "imdbUrl": "https://www.imdb.com/title/tt0944947/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "The things I do for love.",
+      "character": "Jaime Lannister",
+      "source": "Game of Thrones",
+      "year": 2011,
+      "context": "Jaime Lannister says this line in reference to his complex motivations.",
+      "genre": "Fantasy",
+      "impact": "This quote highlights his internal conflict and the lengths he goes to for those he loves."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Aquamarine",
+      "hex": "#7FFFD4"
+    },
+    "luckyGemstone": "Turquoise",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share intellectual and social compatibility.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change, movement, and communication.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for their expressive nature and ability to connect with others.",
+    "karmicLessons": "Learning to balance personal ambition with consideration for others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony, balance, and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 356,
+    "peak": 120,
+    "peakYear": 1995
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The things I do for love.",
+    "author": "Jaime Lannister",
+    "context": "From the TV show 'Game of Thrones', highlighting personal sacrifice."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jai-me"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jaime",
+      "script": "Latin",
+      "scriptName": "Jaime",
+      "pronunciation": "/ˈxa.i.me/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζέιμ",
+      "script": "Greek",
+      "scriptName": "Τζέιμ",
+      "pronunciation": "/ˈd͡ʒe.im/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيمي",
+      "script": "Arabic",
+      "scriptName": "جيمي",
+      "pronunciation": "/d͡ʒeːmiː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "杰米",
+      "script": "Han",
+      "scriptName": "杰米",
+      "pronunciation": "/jié mǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джейми",
+      "script": "Cyrillic",
+      "scriptName": "Джейми",
+      "pronunciation": "/ˈd͡ʒeɪ.mi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג׳יימי",
+      "script": "Hebrew",
+      "scriptName": "ג׳יימי",
+      "pronunciation": "/ˈd͡ʒeɪmi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "publishedYear": 1996,
+      "genre": "Fiction",
+      "significance": "Introduces Jaime Lannister, a pivotal character in the series.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jaime has historical roots and remains popular across cultures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Prominent in literature, notably in 'A Song of Ice and Fire'."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Continues to be a popular unisex name in modern times."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jaime",
+      "artist": "Eddie Santiago",
+      "year": 1988,
+      "genre": "Salsa",
+      "nameContext": "The name Jaime is used in the lyrics, reflecting a personal connection.",
+      "description": "A salsa song that uses the name Jaime to convey personal emotions and storytelling.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Eddie+Santiago+Jaime",
+      "geniusUrl": "https://genius.com/search?q=Eddie+Santiago+Jaime",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Jaime is a timeless choice with rich cultural roots, offering a blend of classic charm and modern appeal. Its versatile nature makes it a popular choice for parents seeking a name that transcends gender and language barriers.",
+    "etymology_meaning": "Jaime is a derivative of the Hebrew name James, meaning 'supplanter'. It has been embraced in Spanish-speaking cultures and has spread globally, particularly in English-speaking regions.",
+    "famous_bearers": "Famous individuals named Jaime include actors like Jaime King and Jaime Camil, who have made significant impacts in film and television.",
+    "pop_culture_moments": "In pop culture, Jaime Lannister from 'Game of Thrones' stands out as a complex character with a significant impact on the series' narrative.",
+    "personality_profile": "People named Jaime are often seen as adaptable and charismatic, with a strong ability to connect with others and navigate social environments with ease.",
+    "variations_nicknames": "Common variations include Jamie and Jaimie, with nicknames like Jay and Jim providing familiar and affectionate alternatives.",
+    "popularity_data": "Jaime saw peak popularity in the 1990s and continues to be a favored choice, maintaining a steady presence in baby name rankings globally.",
+    "pairing_suggestions": "Jaime pairs well with names like Ashley, Morgan, and Taylor, offering a harmonious blend for siblings or middle names.",
+    "cultural_context": "Jaime's cultural significance spans across various regions, from its Spanish roots to its adoption in English-speaking countries, showcasing its universal appeal.",
+    "final_recommendation": "Overall, Jaime is a versatile, culturally rich name that suits a wide range of personalities and backgrounds. Its enduring popularity and adaptability make it a strong choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

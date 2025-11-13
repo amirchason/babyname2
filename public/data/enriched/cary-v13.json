@@ -1,0 +1,236 @@
+{
+  "name": "Cary",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T16:32:22.946Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Celtic",
+  "meaning": "From the fortress",
+  "culturalSignificance": "Cary is a name of Celtic origin, often derived from the surname Carey, which means 'from the castle' or 'from the fortress'. It has been used as both a given name and surname, particularly in English-speaking countries.",
+  "modernContext": "The name Cary is less common as a first name today but retains its charm due to prominent cultural figures. It is considered unisex, though historically more common among males.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈkɛəri/",
+  "variations": [
+    "Carey",
+    "Kerry",
+    "Kari",
+    "Cari"
+  ],
+  "similarNames": [
+    "Gary",
+    "Larry",
+    "Harry",
+    "Mary",
+    "Clare"
+  ],
+  "nicknames": [
+    "Caz",
+    "Cay",
+    "Cee"
+  ],
+  "personality": "People named Cary are often seen as creative and charismatic, possessing a natural flair for communication and leadership.",
+  "symbolism": "The name Cary symbolizes strength and protection, drawing from its meaning 'from the fortress'.",
+  "funFact": "Cary is often associated with the classic Hollywood actor Cary Grant, enhancing its timeless appeal.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Cary Grant",
+      "years": "1904-1986",
+      "category": "Actor",
+      "achievements": [
+        "Hollywood Icon",
+        "Academy Honorary Award"
+      ],
+      "significance": "Cary Grant was one of classic Hollywood's definitive leading men, known for his debonair demeanor and acting in films like 'North by Northwest' and 'An Affair to Remember'.",
+      "notableWorks": [
+        "North by Northwest",
+        "To Catch a Thief"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I pretended to be somebody I wanted to be until finally I became that person. Or he became me.",
+      "author": "Cary Grant",
+      "context": "Referring to his public persona and life",
+      "year": 1980,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Cary Elwes",
+      "profession": "Actor",
+      "knownFor": [
+        "The Princess Bride",
+        "Saw"
+      ],
+      "awards": "MTV Movie Award for Best Kiss"
+    },
+    {
+      "name": "Cary Fukunaga",
+      "profession": "Director",
+      "knownFor": [
+        "True Detective",
+        "No Time to Die"
+      ],
+      "awards": "Primetime Emmy Award for Outstanding Directing"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Princess Bride",
+      "year": 1987,
+      "type": "Movie",
+      "characterName": "Westley",
+      "characterDescription": "The protagonist who embarks on a quest to rescue his love, Buttercup.",
+      "imdbUrl": "https://www.imdb.com/title/tt0093779/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share the air element, promoting intellectual harmony.",
+    "cosmicElement": "The Communicator",
+    "cosmicElementDescription": "Representing clarity and connection.",
+    "celestialArchetype": "The Charmer",
+    "celestialArchetypeDescription": "Known for their magnetism and warmth.",
+    "karmicLessons": "To embrace change and adapt.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for expression and connection."
+  },
+  "genderDistribution": {
+    "male": 65,
+    "female": 35
+  },
+  "ranking": {
+    "current": 890,
+    "peak": 400,
+    "peakYear": 1975
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To succeed in life, you need three things: a wishbone, a backbone and a funny bone.",
+    "author": "Reba McEntire",
+    "context": "A reminder of the balance needed for success."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ca-ry"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Cary",
+      "script": "Latin",
+      "scriptName": "Cary",
+      "pronunciation": "/ˈkaɾi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κάρι",
+      "script": "Greek",
+      "scriptName": "Κάρι",
+      "pronunciation": "/ˈka.ri/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كاري",
+      "script": "Arabic",
+      "scriptName": "كاري",
+      "pronunciation": "/ˈkaː.ri/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "凯瑞",
+      "script": "Han",
+      "scriptName": "凯瑞",
+      "pronunciation": "/kʰai̯˥˥ ʈʂʰweɪ˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Кэри",
+      "script": "Cyrillic",
+      "scriptName": "Кэри",
+      "pronunciation": "/ˈkɛrʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קארי",
+      "script": "Hebrew",
+      "scriptName": "קארי",
+      "pronunciation": "/ˈkaʁi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Cary has been in use for many decades and is associated with classic Hollywood figures."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.8,
+      "reason": "Cary is used for both males and females, reflecting its unisex nature."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Cary has appeared in literature and film, enhancing its cultural presence."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Cary brings to mind a sense of timeless elegance, often associated with classic Hollywood charm. It is a name that resonates across generations, embodying both strength and sophistication. Whether as a first name or surname, Cary has left a lasting impression.",
+    "etymology_meaning": "Cary is believed to have Celtic origins, meaning 'from the fortress'. This etymology suggests protection and strength, qualities that have been celebrated through its use in various cultures.",
+    "famous_bearers": "Perhaps the most famous bearer of the name is Cary Grant, a Hollywood icon known for his suave roles and classic films. Cary Elwes, another actor well-known for 'The Princess Bride', adds to the name's fame.",
+    "pop_culture_moments": "In pop culture, Cary has been immortalized through characters in films and notable personalities, further solidifying its status as a name with enduring appeal.",
+    "personality_profile": "Those named Cary are often seen as charismatic and charming, with a natural ability to lead and inspire those around them. Their creative spirit and eloquence make them stand out in any crowd.",
+    "variations_nicknames": "The name Cary has several variations including Carey and Kari, with nicknames like Caz and Cay providing a personal touch.",
+    "popularity_data": "While not currently at the peak of its popularity, Cary remains a beloved choice for those seeking a classic name with cultural resonance.",
+    "pairing_suggestions": "Cary pairs well with names like Alexander or Elizabeth, offering a balance of classic and modern appeal. It works seamlessly as either a first or middle name.",
+    "cultural_context": "Rooted in Celtic tradition, Cary has transcended its origins to become a name recognized and appreciated in many English-speaking countries.",
+    "final_recommendation": "For parents seeking a name that embodies timeless elegance and charm, Cary is a perfect choice. Its rich history and cultural significance ensure it remains a perennial favorite.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

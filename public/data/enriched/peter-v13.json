@@ -1,0 +1,325 @@
+{
+  "name": "Peter",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:29:04.004Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "rock, stone",
+  "culturalSignificance": "Peter is a classic name with deep historical roots in Christianity, often associated with Saint Peter, one of the twelve apostles of Jesus and considered the first Pope by the Roman Catholic Church. It has been a popular choice across various cultures due to its strong, foundational meaning.",
+  "modernContext": "Peter remains a popular name in many English-speaking countries and retains a timeless appeal. It is often chosen for its classic sound and strong historical and religious associations.",
+  "literaryReferences": "The name Peter is famously used in J.M. Barrie's 'Peter Pan', a character who embodies eternal youth and adventure.",
+  "pronunciationGuide": "/ˈpiːtər/",
+  "variations": [
+    "Petr",
+    "Pierre",
+    "Pedro",
+    "Pietro",
+    "Pieter"
+  ],
+  "similarNames": [
+    "Paul",
+    "John",
+    "James",
+    "David",
+    "Andrew",
+    "Michael"
+  ],
+  "nicknames": [
+    "Pete",
+    "Petey",
+    "Pet",
+    "Piers"
+  ],
+  "personality": "Peter is often associated with strong, reliable, and steadfast personality traits, reflecting the name's meaning of 'rock'.",
+  "symbolism": "Symbolically, Peter represents stability and strength, often seen as a 'rock' that others can rely on.",
+  "funFact": "The name Peter is derived from the Greek word 'Petros', meaning stone or rock, and was originally a nickname given to the apostle Simon by Jesus in the New Testament.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Peter",
+    "significance": "Saint Peter is known as one of Jesus' twelve apostles and is considered the first Pope by the Catholic Church. He is a symbol of faith and leadership.",
+    "keyStories": [
+      "Denial of Jesus",
+      "Walking on Water"
+    ],
+    "spiritualMeaning": "Peter represents faith and leadership in Christianity.",
+    "historicalImpact": "As the first Pope, Saint Peter is a central figure in Christian history, embodying the church's foundation and continuity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Peter the Great",
+      "years": "1672-1725",
+      "category": "Royalty",
+      "achievements": [
+        "Modernized Russia",
+        "Founded Saint Petersburg"
+      ],
+      "significance": "Peter the Great was a Russian czar who expanded and modernized Russia, transforming it into a major European power.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Peter Paul Rubens",
+      "years": "1577-1640",
+      "category": "Artist",
+      "achievements": [
+        "Baroque painter",
+        "Diplomatic missions"
+      ],
+      "significance": "Rubens was a prolific 17th-century Flemish Baroque painter known for his vibrant, dynamic compositions and significant contributions to art.",
+      "notableWorks": [
+        "The Descent from the Cross",
+        "The Garden of Love"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "To be cunning is a sin, but to be stupid is not.",
+      "author": "Peter the Great",
+      "context": "Reflections on leadership and wisdom",
+      "year": 1700,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Peter Jackson",
+      "profession": "Director",
+      "knownFor": [
+        "The Lord of the Rings Trilogy",
+        "King Kong"
+      ],
+      "awards": "Academy Awards"
+    },
+    {
+      "name": "Peter Gabriel",
+      "profession": "Musician",
+      "knownFor": [
+        "Sledgehammer",
+        "In Your Eyes"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Peter Forsberg",
+      "profession": "Athlete",
+      "sport": "Ice Hockey",
+      "league": "NHL",
+      "team": "Colorado Avalanche",
+      "pastTeams": [
+        "Quebec Nordiques",
+        "Philadelphia Flyers"
+      ],
+      "position": "Center",
+      "jerseyNumber": "21",
+      "years": "1994-2011",
+      "achievements": "Stanley Cup, Olympic Gold Medalist",
+      "knownFor": [
+        "Playmaking",
+        "Skillful Passing"
+      ],
+      "awards": "Hart Memorial Trophy",
+      "stats": "885 points in 708 games",
+      "verified": true,
+      "source": "NHL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Peter Pan",
+      "year": 1953,
+      "type": "Movie",
+      "characterName": "Peter Pan",
+      "characterDescription": "The boy who never grows up, leader of the Lost Boys.",
+      "imdbUrl": "https://www.imdb.com/title/tt0046183/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "Spider-Man",
+      "year": 2002,
+      "type": "Movie",
+      "characterName": "Peter Parker",
+      "characterDescription": "A high school student who gains spider-like abilities.",
+      "imdbUrl": "https://www.imdb.com/title/tt0145487/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 95
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "With great power comes great responsibility.",
+      "character": "Peter Parker",
+      "source": "Spider-Man",
+      "year": 2002,
+      "context": "Peter Parker learns the importance of using his powers responsibly.",
+      "genre": "Action",
+      "impact": "This quote encapsulates the moral journey of Spider-Man."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth represents stability and groundedness.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Builders are reliable and practical, laying down strong foundations.",
+    "karmicLessons": "Learning to balance work and leisure.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "The desire for harmony and peace."
+  },
+  "genderDistribution": {
+    "male": 98,
+    "female": 2
+  },
+  "ranking": {
+    "current": 150,
+    "peak": 31,
+    "peakYear": 1955
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "With great power comes great responsibility.",
+    "author": "Peter Parker",
+    "context": "A guiding principle for moral decision-making."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pe-ter"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pedro",
+      "script": "Latin",
+      "scriptName": "Pedro",
+      "pronunciation": "/ˈpeðɾo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πέτρος",
+      "script": "Greek",
+      "scriptName": "Πέτρος",
+      "pronunciation": "/ˈpetros/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بطرس",
+      "script": "Arabic",
+      "scriptName": "بطرس",
+      "pronunciation": "/buːtˤrus/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "彼得",
+      "script": "Han",
+      "scriptName": "彼得",
+      "pronunciation": "/bǐ dé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пётр",
+      "script": "Cyrillic",
+      "scriptName": "Пётр",
+      "pronunciation": "/pʲɵtr/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פטר",
+      "script": "Hebrew",
+      "scriptName": "פטר",
+      "pronunciation": "/ˈpe.tɛr/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Peter Pan",
+      "author": "J.M. Barrie",
+      "publishedYear": 1911,
+      "genre": "Fiction",
+      "significance": "A classic tale of adventure and eternal youth.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Peter has been consistently used across generations."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "Peter is a significant figure in the New Testament."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Its usage has persisted over centuries without losing popularity."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Peter Gunn",
+      "artist": "Henry Mancini",
+      "year": 1959,
+      "genre": "Jazz",
+      "nameContext": "The title and theme of the song.",
+      "description": "An iconic jazz theme originally composed for a TV show, known for its driving rhythm and catchy melody.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Peter+Gunn+Henry+Mancini",
+      "geniusUrl": "https://genius.com/search?q=Peter%20Gunn",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Peter is a name steeped in history and cultural significance, known for its biblical roots and widespread appeal. As a name that has stood the test of time, it continues to be a favorite among parents seeking a classic and strong name for their child.",
+    "etymology_meaning": "Derived from the Greek word 'Petros', meaning 'rock' or 'stone', Peter is a name that conveys strength and reliability. It gained prominence through its association with Saint Peter, a pivotal figure in Christianity.",
+    "famous_bearers": "The name Peter has been carried by numerous notable figures, including Peter the Great, the Russian czar who modernized his country, and Peter Paul Rubens, a master of Baroque painting.",
+    "pop_culture_moments": "In pop culture, Peter is a name that resonates with audiences through characters like Peter Pan, the boy who never grows up, and Peter Parker, the alter ego of Spider-Man.",
+    "personality_profile": "People named Peter are often seen as dependable and solid, much like the meaning of their name. They are thought to be trustworthy, with a strong sense of duty and leadership.",
+    "variations_nicknames": "With variations like Pierre and Pedro, and nicknames such as Pete and Petey, Peter offers a range of options for personalization while maintaining its classic appeal.",
+    "popularity_data": "Peter has consistently ranked as a popular name in many countries, peaking in the mid-20th century and remaining a steady choice for parents today.",
+    "pairing_suggestions": "Peter pairs well with both traditional and modern names, making it a versatile choice for parents. Consider pairing it with names like Elizabeth or Grace for a classic combination.",
+    "cultural_context": "Culturally, Peter is recognized in many languages and countries, reflecting its widespread use and adaptation across different cultures and contexts.",
+    "final_recommendation": "Choosing Peter for your child means opting for a name with historical depth and timeless resonance. It is a name that carries a legacy of strength and faith, offering a solid foundation for your child's future.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

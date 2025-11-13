@@ -1,0 +1,240 @@
+{
+  "name": "Gus",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:35:31.129Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Great",
+  "culturalSignificance": "Gus is often a short form of names such as Augustus, Augustin, or Angus. It has been used across various cultures, particularly in English-speaking countries, where its simplicity and strength are appreciated.",
+  "modernContext": "Gus remains a popular choice for parents looking for a short, strong name with historical roots. It is often chosen for its straightforwardness and classic appeal.",
+  "literaryReferences": "Gus is often used in literature as a friendly, approachable character name, emphasizing its down-to-earth nature.",
+  "pronunciationGuide": "ɡʌs",
+  "variations": [
+    "Augustus",
+    "Angus",
+    "Gustav",
+    "Augustin",
+    "Gustavo"
+  ],
+  "similarNames": [
+    "Max",
+    "Leo",
+    "Jack",
+    "Sam",
+    "Ben"
+  ],
+  "nicknames": [
+    "Gussie",
+    "Gussy",
+    "G-Man"
+  ],
+  "personality": "Gus is often associated with a friendly, approachable nature. People with this name are perceived as reliable and down-to-earth.",
+  "symbolism": "The name Gus symbolizes strength and greatness, often linked to the historical name Augustus, which means 'great' or 'venerable'.",
+  "funFact": "The name Gus was popularized in the United States during the 19th century and has remained a steady choice, especially in rural areas.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Gustav Mahler",
+      "years": "1860-1911",
+      "category": "Composer",
+      "achievements": [
+        "Symphony No. 1",
+        "Symphony No. 5"
+      ],
+      "significance": "Gustav Mahler was an Austro-Bohemian Romantic composer, and one of the leading conductors of his generation.",
+      "notableWorks": [
+        "Symphony No. 2",
+        "Das Lied von der Erde"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Gus Van Sant",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "Good Will Hunting",
+        "Milk"
+      ],
+      "awards": "Academy Award nominations"
+    },
+    {
+      "name": "Gus Johnson",
+      "profession": "Sports Commentator",
+      "knownFor": [
+        "CBS Sports",
+        "Fox Sports"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Cinderella",
+      "year": 1950,
+      "type": "Movie",
+      "characterName": "Gus",
+      "characterDescription": "A friendly mouse who helps Cinderella.",
+      "imdbUrl": "https://www.imdb.com/title/tt0042332/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "Psych",
+      "year": 2006,
+      "type": "TV Show",
+      "characterName": "Burton 'Gus' Guster",
+      "characterDescription": "Best friend and partner of the main character, Shawn Spencer.",
+      "imdbUrl": "https://www.imdb.com/title/tt0491738/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for action and initiation.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share an earth element and practical nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, practicality, and reliability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Known for creating and stabilizing environments.",
+    "karmicLessons": "Learning to balance personal needs with those of others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for a harmonious and nurturing home life."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 357,
+    "peak": 134,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Greatness is not in what you have, but what you give.",
+    "author": "Unknown",
+    "context": "A motivational quote about the essence of greatness."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Gus"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Gus",
+      "script": "Latin",
+      "scriptName": "Gus",
+      "pronunciation": "ɡus",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκας",
+      "script": "Greek",
+      "scriptName": "Γκας",
+      "pronunciation": "ɣas",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "غاس",
+      "script": "Arabic",
+      "scriptName": "غاس",
+      "pronunciation": "ɣas",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "加斯",
+      "script": "Han",
+      "scriptName": "加斯",
+      "pronunciation": "jiā sī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гас",
+      "script": "Cyrillic",
+      "scriptName": "Гас",
+      "pronunciation": "ɡas",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גאס",
+      "script": "Hebrew",
+      "scriptName": "גאס",
+      "pronunciation": "ɡas",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Gus is a timeless name with historical significance."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "Gus is frequently chosen for its modern simplicity."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been in use for many generations without losing popularity."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Gus is a name that exudes strength and simplicity, often chosen for its straightforward charm. Its roots can be traced back to Latin origins, where it means 'great'. Despite its classic feel, Gus remains a modern favorite among new parents.",
+    "etymology_meaning": "The name Gus is derived from the Latin 'Augustus', meaning 'great' or 'venerable'. It has been a popular choice in various cultures, especially as a diminutive of longer names like Augustus or Angus.",
+    "famous_bearers": "Notable individuals named Gus include filmmaker Gus Van Sant, known for directing 'Good Will Hunting', and sports commentator Gus Johnson, recognized for his energetic play-by-play commentary.",
+    "pop_culture_moments": "In pop culture, Gus is a beloved character in the classic Disney film 'Cinderella', where he is one of Cinderella's helpful mouse friends. The name also appears in the TV show 'Psych', where Gus is the loyal partner of the main character.",
+    "personality_profile": "Gus is often associated with a friendly, approachable personality. People with this name are seen as reliable and down-to-earth, making them well-liked in their communities.",
+    "variations_nicknames": "Common variations of Gus include Augustus and Angus, while nicknames like Gussie and G-Man add a playful touch. These variations offer flexibility while maintaining the name's core appeal.",
+    "popularity_data": "Gus has maintained a steady level of popularity over the years, reaching its peak in the early 20th century. It continues to be a popular choice for its classic and modern appeal.",
+    "pairing_suggestions": "Gus pairs well with both traditional and contemporary names, making it versatile for sibling naming. Consider pairing it with names like Jack, Leo, or Max for a cohesive set.",
+    "cultural_context": "Historically, Gus has been used in English-speaking countries and has a presence in various cultures due to its adaptability as a nickname for longer names.",
+    "final_recommendation": "For parents seeking a name that is both classic and modern, Gus offers a perfect balance. Its simplicity and strength make it a timeless choice for any child.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

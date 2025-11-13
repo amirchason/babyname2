@@ -1,0 +1,305 @@
+{
+  "name": "Carl",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T13:01:50.200Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Free man",
+  "culturalSignificance": "The name Carl is derived from the Germanic name Karl, which means 'free man'. It has been a popular name in many European countries, especially in Scandinavian and German-speaking regions. Carl has also been associated with various historical figures, such as Charlemagne, whose name in Latin was Carolus Magnus.",
+  "modernContext": "In modern times, Carl continues to be a common name in many Western countries. Its simplicity and classic nature make it a preferred choice for parents who favor traditional names. Although its popularity has waned in recent decades, it remains a staple in various cultures.",
+  "literaryReferences": "The name Carl appears in many works of fiction, often used for characters who are steadfast and reliable.",
+  "pronunciationGuide": "/kɑːrl/",
+  "variations": [
+    "Karl",
+    "Carlos",
+    "Karel",
+    "Karol",
+    "Carlo"
+  ],
+  "similarNames": [
+    "Charles",
+    "Calvin",
+    "Curtis",
+    "Clark",
+    "Craig"
+  ],
+  "nicknames": [
+    "Carly",
+    "Chuck",
+    "Chaz",
+    "Carlito",
+    "Cee"
+  ],
+  "personality": "People named Carl are often perceived as dependable and rational, embodying a strong sense of duty and loyalty.",
+  "symbolism": "The name Carl symbolizes freedom and strength, rooted in its meaning of 'free man'.",
+  "funFact": "Carl is often associated with Carl Linnaeus, the Swedish botanist who formalized the modern system of naming organisms known as binomial nomenclature.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Carl Linnaeus",
+      "years": "1707-1778",
+      "category": "Scientist",
+      "achievements": [
+        "Father of modern taxonomy",
+        "Binomial nomenclature"
+      ],
+      "significance": "Carl Linnaeus was a Swedish botanist, physician, and zoologist who formalized the modern system of naming organisms.",
+      "notableWorks": [
+        "Systema Naturae"
+      ]
+    },
+    {
+      "fullName": "Carl Jung",
+      "years": "1875-1961",
+      "category": "Psychologist",
+      "achievements": [
+        "Founded analytical psychology",
+        "Concepts of introversion and extraversion"
+      ],
+      "significance": "Carl Jung was a Swiss psychiatrist and psychoanalyst who founded analytical psychology and introduced concepts such as the collective unconscious.",
+      "notableWorks": [
+        "Psychological Types",
+        "Man and His Symbols"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+      "author": "Carl Jung",
+      "context": "A reflection on self-awareness and personal growth.",
+      "year": 1960,
+      "category": "Psychology"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Carl Sagan",
+      "profession": "Astronomer",
+      "knownFor": [
+        "Cosmos: A Personal Voyage",
+        "Pale Blue Dot"
+      ],
+      "awards": "Pulitzer Prize for General Non-Fiction"
+    },
+    {
+      "name": "Carl Lewis",
+      "profession": "Athlete",
+      "knownFor": [
+        "Olympic gold medals",
+        "Track and field"
+      ],
+      "awards": "9 Olympic gold medals"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Carl Lewis",
+      "profession": "Athlete",
+      "sport": "Track and Field",
+      "league": "Olympics",
+      "team": "USA",
+      "pastTeams": [],
+      "position": "Sprinter, Long Jumper",
+      "jerseyNumber": "",
+      "years": "1979-1996",
+      "achievements": "9 Olympic gold medals",
+      "knownFor": [
+        "Speed",
+        "Long jump"
+      ],
+      "awards": "Numerous World Championships and Olympic medals",
+      "stats": "",
+      "verified": true,
+      "source": "Olympic records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Walking Dead",
+      "year": 2010,
+      "type": "TV Show",
+      "characterName": "Carl Grimes",
+      "characterDescription": "The son of the main protagonist, Rick Grimes, known for his coming-of-age story in a post-apocalyptic world.",
+      "imdbUrl": "https://www.imdb.com/title/tt1520211/",
+      "genre": "Horror, Drama",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Up",
+      "year": 2009,
+      "type": "Movie",
+      "characterName": "Carl Fredricksen",
+      "characterDescription": "An elderly widower who fulfills his dream of visiting South America by tying thousands of balloons to his house.",
+      "imdbUrl": "https://www.imdb.com/title/tt1049413/",
+      "genre": "Animation, Adventure",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Adventure is out there!",
+      "character": "Carl Fredricksen",
+      "source": "Up",
+      "year": 2009,
+      "context": "Carl's declaration as he embarks on his journey to South America.",
+      "genre": "Animation",
+      "impact": "Inspires viewers to seek adventure and fulfill dreams regardless of age."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and clarity, ideal for harvesting plans.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, providing stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes grounding and reliability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents those who create structures and foundations.",
+    "karmicLessons": "Patience and perseverance in achieving goals.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability, order, and practical achievements."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 352,
+    "peak": 46,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.",
+    "author": "Carl Sagan",
+    "context": "A reflection on humanity's place in the universe."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Carl"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Carlos",
+      "script": "Latin",
+      "scriptName": "Carlos",
+      "pronunciation": "/ˈkaɾlos/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Κάρολος",
+      "script": "Greek",
+      "scriptName": "Κάρολος",
+      "pronunciation": "/ˈkarolos/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "كارل",
+      "script": "Arabic",
+      "scriptName": "كارل",
+      "pronunciation": "/kaːrl/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "卡尔",
+      "script": "Han",
+      "scriptName": "卡尔",
+      "pronunciation": "/kɑːɚ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Карл",
+      "script": "Cyrillic",
+      "scriptName": "Карл",
+      "pronunciation": "/karɫ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "קרל",
+      "script": "Hebrew",
+      "scriptName": "קרל",
+      "pronunciation": "/kaʁl/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Death in Venice",
+      "author": "Thomas Mann",
+      "publishedYear": 1912,
+      "genre": "Fiction",
+      "significance": "A classic novella exploring themes of beauty, obsession, and decay.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Carl has historical roots and has been used consistently over centuries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Carl is a name that has retained popularity across generations."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Associated with royalty, including Charlemagne (Carolus Magnus)."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Carl has a rich history and enduring appeal, making it a classic choice for parents seeking a name with substance and simplicity. With its roots in the Germanic language, Carl offers a strong and straightforward presence.",
+    "etymology_meaning": "Carl originates from the Germanic word 'karl', meaning 'free man'. Over the centuries, it has been adopted in various forms across Europe, notably in Scandinavian and German-speaking nations.",
+    "famous_bearers": "Famous individuals named Carl include Carl Sagan, the renowned astronomer, and Carl Jung, the influential psychiatrist. Each has left an indelible mark on their respective fields.",
+    "pop_culture_moments": "In popular culture, Carl Grimes from 'The Walking Dead' and Carl Fredricksen from Pixar's 'Up' have brought the name to life on screen, each adding depth to the name's modern persona.",
+    "personality_profile": "Carl is often associated with traits such as reliability, strength, and a grounded nature. Those bearing the name are perceived as trustworthy and pragmatic.",
+    "variations_nicknames": "Variations of Carl include Karl, Carlos, and Carlo, while common nicknames are Carly and Carlito, offering a versatile range for different contexts.",
+    "popularity_data": "Carl's popularity has fluctuated over the years, reaching a peak in the early 20th century. Despite a decline, it remains a familiar and well-loved choice.",
+    "pairing_suggestions": "Carl pairs well with names like Anna, Grace, and Emma, providing a balanced and harmonious combination in naming siblings or twins.",
+    "cultural_context": "The name Carl holds a place in various cultures, particularly prominent in European history, where it has been borne by kings and scholars alike.",
+    "final_recommendation": "For those seeking a name that combines historical significance with modern versatility, Carl offers a timeless choice. Its enduring nature makes it a reliable option for any era.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

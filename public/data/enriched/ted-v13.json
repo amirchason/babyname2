@@ -1,0 +1,299 @@
+{
+  "name": "Ted",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:30:42.290Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Gift of God",
+  "culturalSignificance": "Ted is often a diminutive of Theodore or Edward, names that have historical roots in Europe. Theodore, from which Ted is derived, has Greek origins, meaning 'gift of God', and has been borne by several saints and two popes.",
+  "modernContext": "In modern times, Ted is a popular standalone name, particularly in English-speaking countries. It is often associated with friendly and approachable personalities, thanks in part to popular culture references.",
+  "literaryReferences": "The name Ted appears in various literary works, often as a character's name symbolizing reliability and affability.",
+  "pronunciationGuide": "tɛd",
+  "variations": [
+    "Theodore",
+    "Edward",
+    "Teddy",
+    "Theo",
+    "Ned"
+  ],
+  "similarNames": [
+    "Fred",
+    "Ed",
+    "Jed",
+    "Tom",
+    "Tim"
+  ],
+  "nicknames": [
+    "Teddy",
+    "T",
+    "Eddie"
+  ],
+  "personality": "People named Ted are often perceived as friendly, trustworthy, and intelligent, with a strong sense of humor.",
+  "symbolism": "The name Ted symbolizes warmth and generosity, often associated with a nurturing and supportive nature.",
+  "funFact": "Ted is often used as a short form for Theodore, which has been a popular name among American presidents and politicians.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ted Kennedy",
+      "years": "1932-2009",
+      "category": "Politician",
+      "achievements": [
+        "United States Senator",
+        "Advocate for civil rights"
+      ],
+      "significance": "Ted Kennedy was a prominent American politician who served as a U.S. Senator from Massachusetts for nearly 47 years, known for his work on health care reform and civil rights.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Ted Hughes",
+      "years": "1930-1998",
+      "category": "Poet",
+      "achievements": [
+        "Poet Laureate of the United Kingdom"
+      ],
+      "significance": "Ted Hughes was an influential English poet and children's writer, renowned for his powerful and evocative verse.",
+      "notableWorks": [
+        "The Hawk in the Rain",
+        "Crow"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Some people see things that are and ask, why? Some people dream of things that never were and ask, why not?",
+      "author": "Ted Kennedy",
+      "context": "Often used in speeches to inspire progress and change.",
+      "year": 1980,
+      "category": "Politics"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Ted Danson",
+      "profession": "Actor",
+      "knownFor": [
+        "Cheers",
+        "The Good Place"
+      ],
+      "awards": "Golden Globe Awards, Primetime Emmy Awards"
+    },
+    {
+      "name": "Ted Turner",
+      "profession": "Media Mogul",
+      "knownFor": [
+        "Founder of CNN",
+        "Philanthropy"
+      ],
+      "awards": "Peabody Awards, Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ted Williams",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Boston Red Sox",
+      "pastTeams": [],
+      "position": "Left Fielder",
+      "jerseyNumber": "9",
+      "years": "1939-1960",
+      "achievements": "19-time All-Star, 2-time AL MVP",
+      "knownFor": [
+        "Batting average",
+        "Home runs"
+      ],
+      "awards": "Triple Crown",
+      "stats": "Career .344 batting average, 521 home runs",
+      "verified": true,
+      "source": "Baseball Reference"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "How I Met Your Mother",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Ted Mosby",
+      "characterDescription": "An architect searching for love and stability.",
+      "imdbUrl": "https://www.imdb.com/title/tt0460649/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "Ted",
+      "year": 2012,
+      "type": "Movie",
+      "characterName": "Ted",
+      "characterDescription": "A talking teddy bear who is the best friend of the protagonist.",
+      "imdbUrl": "https://www.imdb.com/title/tt1637725/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It's going to be legend—wait for it—dary!",
+      "character": "Ted Mosby",
+      "source": "How I Met Your Mother",
+      "year": 2005,
+      "context": "Used to describe something that will be amazing.",
+      "genre": "Comedy",
+      "impact": "Became a catchphrase for anticipation and excitement."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration.",
+    "compatibleSigns": [
+      "Capricorn",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs share stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, structure, and dependability.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents those who create solid foundations and structures.",
+    "karmicLessons": "To embrace change and flexibility.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and strong foundations in life."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 250,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Ted Turner",
+    "context": "Motivational message about perseverance."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Ted"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ted",
+      "script": "Latin",
+      "scriptName": "Ted",
+      "pronunciation": "tɛd",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τεντ",
+      "script": "Greek",
+      "scriptName": "Τεντ",
+      "pronunciation": "tɛd",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "تيد",
+      "script": "Arabic",
+      "scriptName": "تيد",
+      "pronunciation": "teːd",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "泰德",
+      "script": "Han",
+      "scriptName": "泰德",
+      "pronunciation": "tài dé",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Тед",
+      "script": "Cyrillic",
+      "scriptName": "Тед",
+      "pronunciation": "tʲet",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "טד",
+      "script": "Hebrew",
+      "scriptName": "טד",
+      "pronunciation": "tɛd",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Ted and Me",
+      "author": "Dan Gutman",
+      "publishedYear": 2012,
+      "genre": "Fiction",
+      "significance": "Part of the 'Baseball Card Adventures' series, highlighting historical events through time travel.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Ted is a timeless name with historical and cultural roots."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Used in contemporary media and popular culture."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Appears in various literary works and narratives."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Ted is a name that blends simplicity with depth, making it a timeless choice for many parents. Its roots in Theodore, meaning 'gift of God', add a layer of classic appeal. Whether in literature or on screen, Ted has made its mark as a name associated with friendly and reliable characters.",
+    "etymology_meaning": "The name Ted is often a short form of Theodore, which originates from the Greek name Theodoros. The meaning 'gift of God' reflects the name's religious and historical significance.",
+    "famous_bearers": "The name Ted has been borne by notable figures such as Ted Kennedy, a long-serving U.S. Senator, and Ted Turner, the media mogul behind CNN. These individuals have contributed to the name's association with leadership and innovation.",
+    "pop_culture_moments": "Ted is well-represented in pop culture, with characters like Ted Mosby from 'How I Met Your Mother' and the titular character in the movie 'Ted'. These portrayals have reinforced the name's association with humor and charisma.",
+    "personality_profile": "Those named Ted are often seen as dependable and approachable, with a knack for making others feel at ease. They are typically associated with a strong sense of humor and a warm personality.",
+    "variations_nicknames": "Ted is a versatile name with variations such as Theodore and Edward, along with nicknames like Teddy. These variations add flexibility and personal touch to the name.",
+    "popularity_data": "The name Ted has seen varying levels of popularity over the decades, peaking in the mid-20th century. It continues to be a favored choice for its classic and enduring appeal.",
+    "pairing_suggestions": "Ted pairs well with names that carry a similar classic and timeless vibe, such as Jack or Henry. For a more modern twist, consider pairing it with names like Liam or Noah.",
+    "cultural_context": "With its roots in Greek and English cultures, Ted has a rich history and cultural significance. It has been a popular choice in both religious contexts and modern settings.",
+    "final_recommendation": "If you're seeking a name that is both classic and contemporary, Ted offers a perfect blend. Its associations with warmth and humor make it a delightful choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

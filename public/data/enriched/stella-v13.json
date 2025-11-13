@@ -1,0 +1,273 @@
+{
+  "name": "Stella",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:13:15.203Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Star",
+  "culturalSignificance": "Stella is a name of Latin origin, meaning 'star.' It has been used in English-speaking countries since the 19th century and gained popularity due to its celestial connotation and simplicity.",
+  "modernContext": "In recent years, Stella has become a popular choice for parents due to its vintage charm and association with the night sky. It remains in the top baby name charts, appealing to those looking for a classic yet distinctive name.",
+  "literaryReferences": "Stella is famously used in Sir Philip Sidney's sonnet sequence 'Astrophel and Stella,' where it symbolizes idealized love.",
+  "pronunciationGuide": "/ˈstɛlə/",
+  "variations": [
+    "Estella",
+    "Stela",
+    "Estelle",
+    "Stefania",
+    "Stellan"
+  ],
+  "similarNames": [
+    "Luna",
+    "Aurora",
+    "Celeste",
+    "Sienna",
+    "Violet",
+    "Isabella"
+  ],
+  "nicknames": [
+    "Stel",
+    "Stellie",
+    "Ella",
+    "Elle",
+    "Star"
+  ],
+  "personality": "The name Stella is often associated with a bright and optimistic personality, symbolizing hope and inspiration.",
+  "symbolism": "As a name meaning 'star,' Stella carries connotations of guidance, aspiration, and beauty, often symbolizing light in darkness.",
+  "funFact": "Stella was the name of a character in Tennessee Williams' famous play 'A Streetcar Named Desire,' which popularized the name in American culture.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Stella McCartney",
+      "profession": "Fashion Designer",
+      "knownFor": [
+        "Sustainable fashion",
+        "Stella McCartney brand"
+      ],
+      "awards": "British Fashion Awards Designer of the Year"
+    },
+    {
+      "name": "Stella Adler",
+      "profession": "Acting Teacher",
+      "knownFor": [
+        "The Stella Adler Studio of Acting",
+        "Influence on method acting"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "A Streetcar Named Desire",
+      "year": 1951,
+      "type": "Movie",
+      "characterName": "Stella Kowalski",
+      "characterDescription": "The sister of the main protagonist, Blanche DuBois, known for her complex relationship with her husband Stanley.",
+      "imdbUrl": "https://www.imdb.com/title/tt0044081/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 92
+    },
+    {
+      "title": "How I Met Your Mother",
+      "year": 2005,
+      "type": "TV Show",
+      "characterName": "Stella Zinman",
+      "characterDescription": "A dermatologist who becomes Ted Mosby's girlfriend and briefly his fiancée.",
+      "imdbUrl": "https://www.imdb.com/title/tt0460649/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 84
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Stella! Hey, Stella!",
+      "character": "Stanley Kowalski",
+      "source": "A Streetcar Named Desire",
+      "year": 1951,
+      "context": "A famous scene where Stanley calls out to his wife after a heated argument.",
+      "genre": "Drama",
+      "impact": "This quote has become iconic in film and theater for its emotional intensity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Silver",
+      "hex": "#C0C0C0"
+    },
+    "luckyGemstone": "Diamond",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and clarity, associated with illumination and heightened emotions.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "These signs are compatible due to their shared element of Air, promoting communication and intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect, communication, and social connections.",
+    "celestialArchetype": "The Visionary",
+    "celestialArchetypeDescription": "Symbolizes foresight and creativity, often inspiring others with innovative ideas.",
+    "karmicLessons": "To seek balance between aspiration and practicality.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desire for freedom and adventure, driven by exploration and curiosity."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 45,
+    "peak": 35,
+    "peakYear": 2020
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Reach for the stars, like Stella, and find your own light.",
+    "author": "Unknown",
+    "context": "A motivational quote aligning with the name's celestial meaning."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Stel-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Estrella",
+      "script": "Latin",
+      "scriptName": "Estrella",
+      "pronunciation": "/esˈtɾeʎa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Στέλλα",
+      "script": "Greek",
+      "scriptName": "Στέλλα",
+      "pronunciation": "/ˈstela/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ستيللا",
+      "script": "Arabic",
+      "scriptName": "ستيللا",
+      "pronunciation": "/stella/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "斯特拉",
+      "script": "Han",
+      "scriptName": "斯特拉",
+      "pronunciation": "/sītèlā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Стелла",
+      "script": "Cyrillic",
+      "scriptName": "Стелла",
+      "pronunciation": "/ˈstʲelə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סטלה",
+      "script": "Hebrew",
+      "scriptName": "סטלה",
+      "pronunciation": "/stela/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "A Streetcar Named Desire",
+      "author": "Tennessee Williams",
+      "publishedYear": 1947,
+      "genre": "Drama",
+      "significance": "A Pulitzer Prize-winning play that explores complex human emotions and relationships.",
+      "nameRole": "supporting",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [
+    {
+      "childName": "Stella Luna",
+      "parentNames": [
+        "Ellen Pompeo",
+        "Chris Ivery"
+      ],
+      "birthYear": 2009,
+      "context": "Ellen Pompeo, known for her role in Grey's Anatomy, named her daughter Stella Luna, highlighting the name's popularity among celebrities."
+    }
+  ],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Stella has been a popular name since the 19th century, maintaining its classic appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name appears in notable literary works such as 'Astrophel and Stella' and 'A Streetcar Named Desire.'"
+    },
+    {
+      "tag": "Celestial",
+      "confidence": 0.95,
+      "reason": "The meaning 'star' relates directly to celestial themes and symbolism."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Stella by Starlight",
+      "artist": "Miles Davis",
+      "year": 1958,
+      "genre": "Jazz",
+      "nameContext": "The song title references the name Stella.",
+      "description": "A jazz standard originally composed for the 1944 film 'The Uninvited,' celebrated for its haunting melody and rich harmonies.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Stella+by+Starlight+Miles+Davis",
+      "geniusUrl": "https://genius.com/search?q=Stella+by+Starlight",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Stella is a name that shines brightly with its celestial meaning of 'star.' This timeless name has captured the hearts of parents for generations, offering a sense of elegance and simplicity. Whether in literature or the night sky, Stella represents a guiding light.",
+    "etymology_meaning": "The name Stella originates from Latin, where it directly translates to 'star.' Its usage can be traced back to the 19th century, gaining popularity due to its beautiful and straightforward meaning.",
+    "famous_bearers": "Stella McCartney, a renowned fashion designer, and Stella Adler, an influential acting teacher, are among the famous personalities who carry this name. Their accomplishments have contributed to the name's enduring appeal.",
+    "pop_culture_moments": "Stella has made significant appearances in pop culture, notably in Tennessee Williams' play 'A Streetcar Named Desire.' The character Stella Kowalski is central to the drama, adding depth to the name's cultural presence.",
+    "personality_profile": "Stella is often associated with a vibrant, optimistic, and creative personality. Those bearing this name might be seen as inspirational figures who light the way for others.",
+    "variations_nicknames": "Variations of Stella include Estella and Estelle, while common nicknames are Stel and Stellie. These versions offer flexibility and personalization for those who bear the name.",
+    "popularity_data": "Stella has seen a resurgence in popularity over the past two decades, frequently appearing in the top baby name charts. Its classic yet modern appeal makes it a favorite choice for many parents.",
+    "pairing_suggestions": "Stella pairs well with names like Luna and Aurora, which also carry celestial meanings. For siblings, these combinations create a harmonious and thematic connection.",
+    "cultural_context": "With roots in Latin and significant appearances in English literature, Stella is a name that bridges cultures and eras. Its universal appeal is evident in its widespread use across different languages and regions.",
+    "final_recommendation": "Choosing the name Stella means embracing a name rich in history, culture, and meaning. Its elegance and timelessness make it a wonderful choice for parents seeking a name that will shine through generations.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

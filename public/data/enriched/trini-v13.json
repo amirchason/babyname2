@@ -1,0 +1,228 @@
+{
+  "name": "Trini",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T15:59:14.862Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Trinity",
+  "culturalSignificance": "The name Trini is derived from the Latin word 'Trinitas', meaning 'Trinity'. It is often associated with the Christian doctrine of the Holy Trinity, representing the Father, Son, and Holy Spirit. The name has been popular in Spanish-speaking countries and carries religious connotations.",
+  "modernContext": "Trini is a name that is relatively uncommon but carries a sense of uniqueness and cultural depth. It is occasionally used in the entertainment industry, contributing to its modern context as a name with artistic flair.",
+  "literaryReferences": "",
+  "pronunciationGuide": "ˈtriːni",
+  "variations": [
+    "Trinity",
+    "Trinidad",
+    "Trinnie",
+    "Trina"
+  ],
+  "similarNames": [
+    "Trina",
+    "Tracy",
+    "Tina",
+    "Tori",
+    "Tanya"
+  ],
+  "nicknames": [
+    "Trin",
+    "Trinny",
+    "Nini"
+  ],
+  "personality": "People named Trini are often seen as creative, expressive, and sociable. They tend to have a strong sense of individuality and are known for their vibrant personalities.",
+  "symbolism": "Trini is symbolically associated with balance, harmony, and unity due to its connection to the concept of the Trinity.",
+  "funFact": "The name Trini gained some popularity due to Trini Lopez, a famous American singer and guitarist in the 1960s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Trini Lopez",
+      "profession": "Musician",
+      "knownFor": [
+        "If I Had a Hammer",
+        "Lemon Tree"
+      ],
+      "awards": "Grammy Lifetime Achievement Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Mighty Morphin Power Rangers",
+      "year": 1993,
+      "type": "TV Show",
+      "characterName": "Trini Kwan",
+      "characterDescription": "Trini Kwan is the original Yellow Ranger known for her intelligence and calm demeanor.",
+      "imdbUrl": "https://www.imdb.com/title/tt0106064/",
+      "genre": "Action, Adventure, Family",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I may not be the strongest, but I can be the smartest.",
+      "character": "Trini Kwan",
+      "source": "Mighty Morphin Power Rangers",
+      "year": 1993,
+      "context": "Trini emphasizes using her intelligence to overcome challenges.",
+      "genre": "Action, Adventure, Family",
+      "impact": "Highlights the importance of intellect over brute strength."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Yellow",
+      "hex": "#FFFF00"
+    },
+    "luckyGemstone": "Citrine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and abundance.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share a common element of Air, promoting communication and intellectual connections.",
+    "cosmicElement": "The Communicator",
+    "cosmicElementDescription": "Symbolizes the power of words and connections.",
+    "celestialArchetype": "The Messenger",
+    "celestialArchetypeDescription": "Represents those who bring ideas and news to others.",
+    "karmicLessons": "Embrace change and adaptability.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Seeks adventure, freedom, and new experiences."
+  },
+  "genderDistribution": {
+    "male": 20,
+    "female": 80
+  },
+  "ranking": {
+    "current": 950,
+    "peak": 400,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "context": "Encouragement for pursuing one's passion."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Tri-ni"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Trini",
+      "script": "Latin",
+      "scriptName": "Trini",
+      "pronunciation": "ˈtɾini",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τρινι",
+      "script": "Greek",
+      "scriptName": "Τρινι",
+      "pronunciation": "ˈtrini",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "تريني",
+      "script": "Arabic",
+      "scriptName": "تريني",
+      "pronunciation": "ˈtriːni",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "特里尼",
+      "script": "Han",
+      "scriptName": "特里尼",
+      "pronunciation": "tèlǐní",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Трини",
+      "script": "Cyrillic",
+      "scriptName": "Трини",
+      "pronunciation": "ˈtrʲinʲi",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "טריני",
+      "script": "Hebrew",
+      "scriptName": "טריני",
+      "pronunciation": "triˈni",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name Trini has historical roots and has been used over generations."
+    },
+    {
+      "tag": "Religious",
+      "confidence": 0.7,
+      "reason": "The name is associated with the Christian concept of the Trinity."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.6,
+      "reason": "Despite its classic origins, Trini remains a stylish choice in modern times."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Trini to the Bone",
+      "artist": "David Rudder",
+      "year": 1998,
+      "genre": "Soca",
+      "nameContext": "In the title and lyrics celebrating Trinidadian culture.",
+      "description": "A tribute to the spirit and culture of Trinidad and Tobago, emphasizing pride and identity.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Trini+to+the+Bone+David+Rudder",
+      "geniusUrl": "https://genius.com/David-rudder-trini-to-the-bone-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Trini carries a unique charm, blending cultural richness with a modern twist. Often associated with the concept of the Trinity, it offers both spiritual depth and contemporary appeal.",
+    "etymology_meaning": "Trini originates from the Latin 'Trinitas', meaning 'Trinity', a reference to the Christian Holy Trinity. This gives the name a deep religious and historical significance.",
+    "famous_bearers": "The most notable bearer of the name is Trini Lopez, a musician famous for hits like 'If I Had a Hammer'. His success brought the name into the spotlight during the 1960s.",
+    "pop_culture_moments": "Trini Kwan from 'Mighty Morphin Power Rangers' is a beloved character who helped popularize the name in pop culture, symbolizing strength and intelligence.",
+    "personality_profile": "Individuals named Trini are often seen as energetic and creative. They tend to be outgoing and thrive in social settings, bringing joy to those around them.",
+    "variations_nicknames": "Common variations of the name include Trinity and Trinidad, with nicknames like Trin and Nini adding a personal touch.",
+    "popularity_data": "Trini saw a surge in popularity in the mid-20th century, influenced by cultural icons. Today, it remains a unique choice for parents seeking a name with historical depth.",
+    "pairing_suggestions": "Trini pairs well with names like Sofia or Lucas, balancing its uniqueness with timeless classics.",
+    "cultural_context": "With roots in Latin and strong ties to Spanish-speaking cultures, Trini embodies a blend of historical and modern influences.",
+    "final_recommendation": "For parents seeking a name with both cultural significance and modern appeal, Trini offers a perfect blend. Its association with the Trinity adds a layer of spiritual depth, making it a meaningful choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

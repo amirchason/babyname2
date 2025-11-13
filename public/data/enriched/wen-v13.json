@@ -1,0 +1,243 @@
+{
+  "name": "Wen",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:03:32.492Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Chinese",
+  "meaning": "Culture, literature",
+  "culturalSignificance": "Wen is a common Chinese given name that signifies culture and literary refinement. It is often associated with intelligence and scholarly pursuits in Chinese culture, reflecting traditional values of education and learning.",
+  "modernContext": "In modern times, Wen is used both as a first name and a surname. Its simplicity and elegance have maintained its popularity, particularly among Chinese communities around the world.",
+  "literaryReferences": "The name Wen appears in classical Chinese literature, often used to denote characters of wisdom and scholarly merit.",
+  "pronunciationGuide": "/wɛn/",
+  "variations": [
+    "Wena",
+    "Wenwen",
+    "Wenying",
+    "Wenqi",
+    "Wenhao"
+  ],
+  "similarNames": [
+    "Wei",
+    "Ling",
+    "Ming",
+    "Zhen",
+    "Xin"
+  ],
+  "nicknames": [
+    "Wenny",
+    "Wennie",
+    "Wenwen"
+  ],
+  "personality": "People named Wen are often perceived as intelligent, cultured, and eloquent, embodying a deep appreciation for the arts and learning.",
+  "symbolism": "Wen symbolizes cultural sophistication and a connection to traditional values of learning and refinement.",
+  "funFact": "In ancient China, the name Wen was often given to scholars and those who demonstrated a love for literature.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Wen Tianxiang",
+      "years": "1236-1283",
+      "category": "Poet",
+      "achievements": [
+        "Patriot during the Southern Song dynasty",
+        "Famous for his integrity and loyalty"
+      ],
+      "significance": "Wen Tianxiang is celebrated as a national hero in China for his resistance against the Mongol invasion and his poetic works that inspired future generations.",
+      "notableWorks": [
+        "Song of Righteousness"
+      ]
+    },
+    {
+      "fullName": "Wen Zhengming",
+      "years": "1470-1559",
+      "category": "Artist",
+      "achievements": [
+        "Renowned painter during the Ming dynasty",
+        "Influential figure in Chinese art"
+      ],
+      "significance": "Wen Zhengming was a key figure in the development of Chinese painting and calligraphy, known for his contributions to the Wu School of painting.",
+      "notableWorks": [
+        "Landscapes",
+        "Calligraphy pieces"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Wen Jiabao",
+      "profession": "Politician",
+      "knownFor": [
+        "Premier of the People's Republic of China",
+        "Advocacy for economic and social reforms"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Wen Jiang",
+      "profession": "Actor",
+      "knownFor": [
+        "In the Heat of the Sun",
+        "Devils on the Doorstep"
+      ],
+      "awards": "Cannes Film Festival Jury Prize"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Farewell",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Wen",
+      "characterDescription": "A family member navigating cultural challenges",
+      "imdbUrl": "https://www.imdb.com/title/tt8637428/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 8,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for reflection and celebration of achievements.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the grounded and practical nature of Earth.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Earth is stable, reliable, and nurturing, reflecting the grounded nature of those named Wen.",
+    "celestialArchetype": "The Scholar",
+    "celestialArchetypeDescription": "Represents wisdom, knowledge, and a deep connection to learning.",
+    "karmicLessons": "To balance intellectual pursuits with emotional understanding.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A desire for knowledge, introspection, and spiritual understanding."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 300,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The pen is mightier than the sword.",
+    "author": "Edward Bulwer-Lytton",
+    "context": "A reminder of the power of words and writing."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Wen"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Wen",
+      "script": "Latin",
+      "scriptName": "Wen",
+      "pronunciation": "/wɛn/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γουέν",
+      "script": "Greek",
+      "scriptName": "Γουέν",
+      "pronunciation": "/ɣuˈen/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "وين",
+      "script": "Arabic",
+      "scriptName": "وين",
+      "pronunciation": "/win/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "文",
+      "script": "Han",
+      "scriptName": "文",
+      "pronunciation": "/wən/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Вен",
+      "script": "Cyrillic",
+      "scriptName": "Вен",
+      "pronunciation": "/vʲen/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "וון",
+      "script": "Hebrew",
+      "scriptName": "וון",
+      "pronunciation": "/ven/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Wen has been a steady choice for centuries, rooted in traditional Chinese culture."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name's association with literacy and culture gives it a literary flair."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Wen's enduring popularity across generations makes it a timeless choice."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Wen carries with it a rich tapestry of cultural and literary significance, making it a timeless choice for parents worldwide. Its roots in Chinese history and tradition provide depth and character, resonating with those who value knowledge and refinement.",
+    "etymology_meaning": "Wen is a name of Chinese origin, meaning 'culture' or 'literature'. This reflects the traditional Chinese emphasis on education and the arts, embodying values of sophistication and intellectual pursuit.",
+    "famous_bearers": "Notable individuals named Wen include Wen Jiabao, former Premier of China, who is renowned for his leadership and reform policies, and Wen Jiang, an acclaimed actor and director in Chinese cinema.",
+    "pop_culture_moments": "In popular culture, the name Wen appears in films like 'The Farewell', showcasing characters that navigate cultural complexities, adding to its modern relevance.",
+    "personality_profile": "Individuals named Wen are often seen as thoughtful, cultured, and eloquent. They are believed to have a strong affinity for the arts and intellectual pursuits, often standing out in academic and creative fields.",
+    "variations_nicknames": "Variations of Wen, such as Wena and Wenwen, offer flexibility in naming, while common nicknames like Wenny add a personal touch.",
+    "popularity_data": "Wen has maintained a steady popularity over the years, particularly in Chinese communities, due to its cultural significance and elegant simplicity.",
+    "pairing_suggestions": "Wen pairs well with names that have similar cultural roots or meanings, such as Ming or Ling, creating harmonious and meaningful combinations.",
+    "cultural_context": "As a name deeply rooted in Chinese culture, Wen embodies values of learning and sophistication, making it a respected choice among those who appreciate traditional virtues.",
+    "final_recommendation": "Choosing the name Wen for your child can be a meaningful way to honor cultural heritage and emphasize the importance of education and refinement. Its timeless appeal and cultural depth make it a standout choice.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

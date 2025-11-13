@@ -1,0 +1,285 @@
+{
+  "name": "Diane",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:03:00.445Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Divine",
+  "culturalSignificance": "Diane is derived from the Roman goddess Diana, the goddess of the hunt, moon, and nature, often associated with wild animals and woodland. The name has been popular in various cultures due to its classical roots and associations with divinity and femininity.",
+  "modernContext": "In modern times, Diane has been a popular name in English-speaking countries, particularly in the mid-20th century. It has seen a resurgence in interest due to its classic charm and connection to strong female figures in history and mythology.",
+  "literaryReferences": "Diane has appeared in various literary works, often as a character symbolizing purity and strength, reflecting its mythological roots.",
+  "pronunciationGuide": "daɪˈæn",
+  "variations": [
+    "Diana",
+    "Dianna",
+    "Deanna",
+    "Dianne",
+    "Dian"
+  ],
+  "similarNames": [
+    "Diana",
+    "Donna",
+    "Deborah",
+    "Denise",
+    "Dolores"
+  ],
+  "nicknames": [
+    "Di",
+    "Dee",
+    "Didi",
+    "Ana"
+  ],
+  "personality": "The name Diane is often associated with strength, independence, and a nurturing spirit, drawing from its mythological heritage.",
+  "symbolism": "Symbolically, Diane represents purity and the divine feminine, often linked to the moon and nature.",
+  "funFact": "Diane has been a popular name among American women born in the 1940s and 1950s, possibly influenced by the popularity of the actress Diana Dors.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Diane de Poitiers",
+      "years": "1499-1566",
+      "category": "Noble",
+      "achievements": [
+        "Influential mistress of King Henry II of France",
+        "Patron of the arts"
+      ],
+      "significance": "Diane de Poitiers was a notable figure in French history, wielding significant influence over King Henry II and the French court.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Diane Keaton",
+      "profession": "Actor",
+      "knownFor": [
+        "The Godfather",
+        "Annie Hall"
+      ],
+      "awards": "Academy Award for Best Actress"
+    },
+    {
+      "name": "Diane Sawyer",
+      "profession": "Journalist",
+      "knownFor": [
+        "ABC World News",
+        "Good Morning America"
+      ],
+      "awards": "Multiple Emmy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Twin Peaks",
+      "year": 1990,
+      "type": "TV Show",
+      "characterName": "Diane",
+      "characterDescription": "Diane is a recurring character, known through Agent Cooper's tape recordings.",
+      "imdbUrl": "https://www.imdb.com/title/tt0098936/",
+      "genre": "Mystery",
+      "verified": true,
+      "popularity": 89
+    },
+    {
+      "title": "BoJack Horseman",
+      "year": 2014,
+      "type": "TV Show",
+      "characterName": "Diane Nguyen",
+      "characterDescription": "A ghostwriter and one of BoJack's closest friends.",
+      "imdbUrl": "https://www.imdb.com/title/tt3398228/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 91
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Diane, if you ever get up this way, that cherry pie is worth a stop.",
+      "character": "Agent Cooper",
+      "source": "Twin Peaks",
+      "year": 1990,
+      "context": "Agent Cooper speaking to Diane through a tape recorder.",
+      "genre": "Mystery",
+      "impact": "The quote has become iconic among fans of the show."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Silver",
+      "hex": "#C0C0C0"
+    },
+    "luckyGemstone": "Moonstone",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "The full moon represents completeness and the peak of energy.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Water signs share an emotional depth and intuition.",
+    "cosmicElement": "Moon",
+    "cosmicElementDescription": "Associated with feminine energy, intuition, and emotions.",
+    "celestialArchetype": "The Huntress",
+    "celestialArchetypeDescription": "Symbolizes independence, strength, and grace.",
+    "karmicLessons": "To harness inner strength and embrace one's nurturing side.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for harmony in relationships and surroundings."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 826,
+    "peak": 14,
+    "peakYear": 1955
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The greatest thing you'll ever learn is just to love and be loved in return.",
+    "author": "Diane, BoJack Horseman",
+    "context": "A touching expression of love and connection."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Di-ane"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Diana",
+      "script": "Latin",
+      "scriptName": "Diana",
+      "pronunciation": "diˈana",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Νταϊάνα",
+      "script": "Greek",
+      "scriptName": "Νταϊάνα",
+      "pronunciation": "ðaiˈana",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ديانا",
+      "script": "Arabic",
+      "scriptName": "ديانا",
+      "pronunciation": "dijana",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "戴安娜",
+      "script": "Han",
+      "scriptName": "戴安娜",
+      "pronunciation": "dài ān nà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Диана",
+      "script": "Cyrillic",
+      "scriptName": "Диана",
+      "pronunciation": "dʲɪˈanə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דיאנה",
+      "script": "Hebrew",
+      "scriptName": "דיאנה",
+      "pronunciation": "diana",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Diane Arbus: A Biography",
+      "author": "Patricia Bosworth",
+      "publishedYear": 1984,
+      "genre": "Biography",
+      "significance": "This biography explores the life and work of the influential American photographer Diane Arbus.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Diane has been a popular name for decades, especially in the mid-20th century."
+    },
+    {
+      "tag": "Mythological",
+      "confidence": 0.95,
+      "reason": "Named after the Roman goddess Diana."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistently used across generations due to its classic appeal."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jack & Diane",
+      "artist": "John Mellencamp",
+      "year": 1982,
+      "genre": "Rock",
+      "nameContext": "Diane is part of the song's title and central story.",
+      "description": "The song tells the story of two American teenagers growing up in the heartland.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jack+%26+Diane+John+Mellencamp",
+      "geniusUrl": "https://genius.com/John-mellencamp-jack-and-diane-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Diane",
+      "artist": "Cam",
+      "year": 2017,
+      "genre": "Country",
+      "nameContext": "The song addresses a woman named Diane.",
+      "description": "A heartfelt song from the perspective of a woman apologizing to another for an affair with her partner.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Diane+Cam",
+      "geniusUrl": "https://genius.com/Cam-diane-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Diane is a name with a rich history and timeless appeal. Rooted in mythology, it represents strength and femininity. From the goddess of the hunt to modern trailblazers, Diane has adorned influential women throughout history.",
+    "etymology_meaning": "Diane originates from the Latin 'Diviana', meaning 'divine'. It shares roots with the Roman goddess Diana, revered for her connection to the moon and nature.",
+    "famous_bearers": "Diane has been borne by many notable figures, including actress Diane Keaton and journalist Diane Sawyer. Each has left an indelible mark in their respective fields.",
+    "pop_culture_moments": "In pop culture, Diane has featured prominently, from the classic TV show 'Twin Peaks' to songs like 'Jack & Diane' by John Mellencamp.",
+    "personality_profile": "Those named Diane are often seen as strong, independent, and nurturing, echoing the qualities of the goddess Diana.",
+    "variations_nicknames": "Variations like Diana and Dianna offer subtle differences, while nicknames such as Di and Dee provide casual alternatives.",
+    "popularity_data": "Diane saw peak popularity in the mid-20th century, maintaining a classic appeal that resonates with many today.",
+    "pairing_suggestions": "Diane pairs well with names like Elizabeth or Grace, providing a balance of classic charm and elegance.",
+    "cultural_context": "Culturally, Diane is celebrated for its mythological roots and has maintained relevance across different societies.",
+    "final_recommendation": "For parents seeking a name that embodies strength and timelessness, Diane offers a perfect blend of historical significance and modern appeal.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

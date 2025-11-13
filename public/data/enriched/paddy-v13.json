@@ -1,0 +1,255 @@
+{
+  "name": "Paddy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:08:27.906Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Irish",
+  "meaning": "Noble",
+  "culturalSignificance": "Paddy is traditionally a diminutive of Patrick, widely used in Ireland and associated with St. Patrick, the patron saint of Ireland. The name has also been used colloquially to refer to Irish people, although this usage can be considered derogatory.",
+  "modernContext": "In modern contexts, Paddy is often used as a casual or affectionate nickname for Patrick. It remains popular in Ireland and among the Irish diaspora, often seen as a friendly and approachable name.",
+  "literaryReferences": "Paddy Clarke Ha Ha Ha by Roddy Doyle is a notable novel featuring the name, capturing childhood life in 1960s Dublin.",
+  "pronunciationGuide": "/ˈpædi/",
+  "variations": [
+    "Patrick",
+    "Pat",
+    "Padraig",
+    "Patsy",
+    "Patty"
+  ],
+  "similarNames": [
+    "Patrick",
+    "Pat",
+    "Patton",
+    "Parker",
+    "Paxton"
+  ],
+  "nicknames": [
+    "Pat",
+    "Rick",
+    "Patty"
+  ],
+  "personality": "The name Paddy is often associated with a cheerful and easygoing personality, reflecting a sense of humor and friendliness.",
+  "symbolism": "Paddy symbolizes a connection to Irish heritage and culture, often evoking images of Saint Patrick's Day and Irish pride.",
+  "funFact": "Paddy is often used in the naming of Irish pubs around the world, symbolizing a warm and welcoming atmosphere.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Patrick",
+    "significance": "Saint Patrick is revered as the patron saint of Ireland, known for bringing Christianity to the Irish people.",
+    "keyStories": [
+      "St. Patrick's use of the shamrock to explain the Holy Trinity"
+    ],
+    "spiritualMeaning": "Bringer of faith and enlightenment",
+    "historicalImpact": "St. Patrick's legacy is celebrated annually on March 17th, known as St. Patrick's Day."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Paddy Ashdown",
+      "years": "1941-2018",
+      "category": "Politician",
+      "achievements": [
+        "Leader of the Liberal Democrats",
+        "High Representative for Bosnia and Herzegovina"
+      ],
+      "significance": "Paddy Ashdown was a prominent British politician known for his leadership in the Liberal Democrats and his efforts in international diplomacy.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Paddy Considine",
+      "profession": "Actor",
+      "knownFor": [
+        "Dead Man's Shoes",
+        "The World's End"
+      ],
+      "awards": "BAFTA Award for Best Short Film"
+    },
+    {
+      "name": "Paddy McGuinness",
+      "profession": "Comedian",
+      "knownFor": [
+        "Phoenix Nights",
+        "Take Me Out"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Paddy",
+      "year": 1970,
+      "type": "Movie",
+      "characterName": "Paddy",
+      "characterDescription": "A young man navigating life's challenges",
+      "imdbUrl": "https://www.imdb.com/title/tt0066208/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 68
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs share a practical and grounded nature.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and grounding.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Symbolizes creation, stability, and persistence.",
+    "karmicLessons": "Learning to balance practicality with emotional expression.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 250,
+    "peakYear": 1975
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "May your troubles be less, and your blessings be more, and nothing but happiness come through your door.",
+    "author": "Irish Blessing",
+    "context": "A traditional Irish blessing often associated with good fortune and well-wishes."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pad-dy"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Paddy",
+      "script": "Latin",
+      "scriptName": "Paddy",
+      "pronunciation": "/ˈpaði/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πάτι",
+      "script": "Greek",
+      "scriptName": "Πάτι",
+      "pronunciation": "/ˈpati/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بادي",
+      "script": "Arabic",
+      "scriptName": "بادي",
+      "pronunciation": "/ˈbaːdi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "帕迪",
+      "script": "Han",
+      "scriptName": "帕迪",
+      "pronunciation": "/pàdì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пэдди",
+      "script": "Cyrillic",
+      "scriptName": "Пэдди",
+      "pronunciation": "/ˈpɛdi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פאדי",
+      "script": "Hebrew",
+      "scriptName": "פאדי",
+      "pronunciation": "/ˈpadi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Paddy Clarke Ha Ha Ha",
+      "author": "Roddy Doyle",
+      "publishedYear": 1993,
+      "genre": "Fiction",
+      "significance": "Won the Booker Prize and captures the essence of childhood in Dublin.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Due to its long-standing use and association with Saint Patrick."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.85,
+      "reason": "Strong ties to Irish culture and heritage."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.8,
+      "reason": "Known for its approachable and casual vibe."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Paddy's Lamentation",
+      "artist": "Sinead O'Connor",
+      "year": 1997,
+      "genre": "Folk",
+      "nameContext": "Song about the struggles of Irish immigrants",
+      "description": "A haunting folk song that narrates the hardships faced by Irish immigrants during the Great Famine.",
+      "theme": "negative",
+      "positiveVibeScore": 3,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Paddy%27s+Lamentation+Sinead+O%27Connor",
+      "geniusUrl": "https://genius.com/search?q=Paddy%27s+Lamentation",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Paddy is a name that evokes a sense of warmth and friendliness, often associated with the rich cultural heritage of Ireland. With roots dating back centuries, this name carries a charm that has captivated many across the globe.",
+    "etymology_meaning": "Paddy is derived from the Irish name Patrick, which means 'noble'. It is a diminutive form that has become a standalone name, especially popular in Ireland and among the Irish diaspora.",
+    "famous_bearers": "Famous people with the name Paddy include Paddy Ashdown, a British politician known for his leadership and international diplomacy, and Paddy Considine, an actor renowned for his powerful performances.",
+    "pop_culture_moments": "In pop culture, the name Paddy can be found in the classic novel 'Paddy Clarke Ha Ha Ha' by Roddy Doyle, which captures the essence of growing up in Dublin.",
+    "personality_profile": "Those named Paddy are often seen as approachable and easygoing, exuding a sense of humor and a friendly demeanor that makes them well-liked in social circles.",
+    "variations_nicknames": "Variations of the name include Patrick, Pat, and Padraig, with common nicknames being Pat and Rick, offering flexibility and personal touch.",
+    "popularity_data": "Historically, the name Paddy has seen peaks in popularity, particularly in regions with strong Irish communities. Its usage remains steady, reflecting its timeless appeal.",
+    "pairing_suggestions": "Paddy pairs well with surnames that emphasize its Irish roots, such as O'Reilly or McCarthy. It also complements names with similar cultural significance.",
+    "cultural_context": "Paddy is deeply rooted in Irish culture, often evoking images of festive celebrations like St. Patrick's Day and a sense of community spirit.",
+    "final_recommendation": "Choosing the name Paddy can be a wonderful way to honor Irish heritage while embracing a name that exudes warmth and friendliness. It's a classic choice with a modern charm.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,289 @@
+{
+  "name": "Ann",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:36:13.534Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Grace",
+  "culturalSignificance": "Ann is a classic name with roots in Hebrew culture, derived from the name Hannah, which means 'grace' or 'favor.' It has been widely used in English-speaking countries since the Middle Ages.",
+  "modernContext": "Ann remains popular in many English-speaking countries as a timeless and simple name. It is often chosen for its understated elegance and historical significance.",
+  "literaryReferences": "Ann is featured in numerous literary works, often embodying grace and dignity.",
+  "pronunciationGuide": "/æn/",
+  "variations": [
+    "Anne",
+    "Anna",
+    "Ana",
+    "Annie",
+    "Anya"
+  ],
+  "similarNames": [
+    "Anna",
+    "Hannah",
+    "Annie",
+    "Annabel",
+    "Anita"
+  ],
+  "nicknames": [
+    "Annie",
+    "Nana",
+    "Nan"
+  ],
+  "personality": "People named Ann are often perceived as graceful, poised, and reliable, with a strong sense of integrity.",
+  "symbolism": "The name Ann symbolizes grace and favor, reflecting a sense of elegance and kindness.",
+  "funFact": "The name Ann has been popular among royalty, with several queens and princesses bearing the name throughout history.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Anne",
+    "significance": "Saint Anne is traditionally recognized as the mother of the Virgin Mary, making her an important figure in Christian tradition.",
+    "keyStories": [
+      "Mother of the Virgin Mary",
+      "Patron saint of mothers"
+    ],
+    "spiritualMeaning": "Associated with motherhood, nurturing, and grace.",
+    "historicalImpact": "Saint Anne is venerated in both the Eastern Orthodox and Catholic traditions, often depicted as a model of devotion and patience."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Anne Boleyn",
+      "years": "1501-1536",
+      "category": "Royalty",
+      "achievements": [
+        "Queen Consort of England",
+        "Mother of Queen Elizabeth I"
+      ],
+      "significance": "Anne Boleyn played a key role in the English Reformation and was the mother of one of England's greatest monarchs, Elizabeth I.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Ann Radcliffe",
+      "years": "1764-1823",
+      "category": "Author",
+      "achievements": [
+        "Pioneer of Gothic fiction"
+      ],
+      "significance": "Ann Radcliffe was a leading author of the Gothic novel, influencing many writers in the genre.",
+      "notableWorks": [
+        "The Mysteries of Udolpho",
+        "The Italian"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Ann Richards",
+      "profession": "Politician",
+      "knownFor": [
+        "Governor of Texas"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Ann Patchett",
+      "profession": "Author",
+      "knownFor": [
+        "Bel Canto",
+        "The Dutch House"
+      ],
+      "awards": "Orange Prize for Fiction"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Ann",
+      "year": 2012,
+      "type": "TV Show",
+      "characterName": "Ann Perkins",
+      "characterDescription": "A caring and dedicated nurse in the show 'Parks and Recreation.'",
+      "imdbUrl": "https://www.imdb.com/title/tt1266020/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Ann of Green Gables",
+      "year": 1985,
+      "type": "TV Show",
+      "characterName": "Anne Shirley",
+      "characterDescription": "A spirited orphan girl in the classic series.",
+      "imdbUrl": "https://www.imdb.com/title/tt0088727/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Oh Ann, you poetic, noble land mermaid.",
+      "character": "Leslie Knope",
+      "source": "Parks and Recreation",
+      "year": 2012,
+      "context": "Leslie Knope describing her best friend Ann Perkins.",
+      "genre": "Comedy",
+      "impact": "Highlights the deep friendship and admiration Leslie has for Ann."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 2,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Monday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Represents completion, clarity, and manifestation.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs are typically intuitive and compassionate, aligning well with the traits of Ann.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water represents emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Represents nurturing, empathy, and the ability to heal emotional wounds.",
+    "karmicLessons": "To learn the balance between giving and receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for a nurturing and harmonious environment."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 432,
+    "peak": 28,
+    "peakYear": 1940
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Grace is the beauty of form under the influence of freedom.",
+    "author": "Johann Friedrich von Schiller",
+    "context": "A reflection on the concept of grace."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Ann"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ana",
+      "script": "Latin",
+      "scriptName": "Ana",
+      "pronunciation": "/ˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Άννα",
+      "script": "Greek",
+      "scriptName": "Άννα",
+      "pronunciation": "/ˈana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "آنا",
+      "script": "Arabic",
+      "scriptName": "آنا",
+      "pronunciation": "/ʕaː.naː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "安",
+      "script": "Han",
+      "scriptName": "安",
+      "pronunciation": "/ān/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Анна",
+      "script": "Cyrillic",
+      "scriptName": "Анна",
+      "pronunciation": "/ˈanːə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "חנה",
+      "script": "Hebrew",
+      "scriptName": "חנה",
+      "pronunciation": "/χaˈna/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Anne of Green Gables",
+      "author": "Lucy Maud Montgomery",
+      "publishedYear": 1908,
+      "genre": "Fiction",
+      "significance": "A classic novel about a spirited orphan girl named Anne Shirley.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Ann has been in use for centuries and remains a staple in English-speaking countries."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The simplicity and elegance of Ann make it a name that never goes out of style."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Derived from the biblical name Hannah, Ann has religious significance."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Annie's Song",
+      "artist": "John Denver",
+      "year": 1974,
+      "genre": "Folk",
+      "nameContext": "The song was inspired by and written for Denver's first wife, Annie.",
+      "description": "A beautiful love song expressing deep affection and appreciation.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Annie's+Song+John+Denver",
+      "geniusUrl": "https://genius.com/John-denver-annies-song-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Ann is a name that exudes grace and timeless elegance. With a history rooted in the Hebrew tradition, it has captivated parents for generations. Whether you're drawn to its simplicity or its cultural resonance, Ann is a name that stands the test of time.",
+    "etymology_meaning": "Ann is derived from the Hebrew name Hannah, meaning 'grace' or 'favor.' It became popular in English-speaking countries during the Middle Ages and has maintained its appeal ever since.",
+    "famous_bearers": "Famous bearers of the name Ann include historical figures like Anne Boleyn, a key player in the English Reformation, and modern authors like Ann Patchett, known for her compelling novels.",
+    "pop_culture_moments": "In pop culture, Ann Perkins from 'Parks and Recreation' is a beloved character known for her kindness and friendship. The name also appears in classics like 'Anne of Green Gables,' showcasing its literary presence.",
+    "personality_profile": "Individuals named Ann are often seen as graceful and reliable, with a strong sense of integrity and nurturing qualities. They are thought to embody the essence of grace in both demeanor and action.",
+    "variations_nicknames": "Variations of Ann include Anne, Anna, and Annie, each offering a slightly different flair. Common nicknames like Annie and Nan provide a casual and affectionate touch.",
+    "popularity_data": "Ann's popularity peaked in the mid-20th century but continues to be a favored choice for its classic charm. It remains a top pick for parents seeking a name with a rich history and simple elegance.",
+    "pairing_suggestions": "Ann pairs beautifully with longer, more complex surnames or as a middle name to balance a more modern first name. It complements names like Elizabeth, Catherine, or Margaret.",
+    "cultural_context": "In cultural contexts, Ann is celebrated for its biblical roots and association with Saint Anne, the mother of the Virgin Mary. It is revered in both religious and secular circles for its grace.",
+    "final_recommendation": "For parents seeking a name that encapsulates grace and timeless appeal, Ann is an excellent choice. Its rich history and cultural significance make it a name that resonates through the ages.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

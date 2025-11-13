@@ -1,0 +1,318 @@
+{
+  "name": "Ed",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T21:51:37.614Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Wealthy guardian",
+  "culturalSignificance": "The name Ed is often used as a diminutive of Edward or Edmund, both of which have roots in Old English. Historically, it has been associated with nobility and leadership, given its connection to English royalty.",
+  "modernContext": "In modern times, Ed remains a popular choice due to its simplicity and timeless appeal. It is frequently used in English-speaking countries as an independent name or as a nickname.",
+  "literaryReferences": "Ed is a common name in English literature, often used for relatable, everyman characters.",
+  "pronunciationGuide": "/ɛd/",
+  "variations": [
+    "Edward",
+    "Edmund",
+    "Eddie",
+    "Eddy",
+    "Edwin"
+  ],
+  "similarNames": [
+    "Ted",
+    "Ned",
+    "Fred",
+    "Jed",
+    "Red"
+  ],
+  "nicknames": [
+    "Eddie",
+    "Ed",
+    "Eddy"
+  ],
+  "personality": "Ed is often seen as a dependable and straightforward name, associated with practicality and groundedness.",
+  "symbolism": "The name Ed symbolizes protection and prosperity due to its meaning as 'wealthy guardian.'",
+  "funFact": "The name Ed is famously associated with Ed Sullivan, the host of a long-running television variety show.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Ed Sullivan",
+      "years": "1901-1974",
+      "category": "Television Host",
+      "achievements": [
+        "Hosted The Ed Sullivan Show for 23 years"
+      ],
+      "significance": "Ed Sullivan was a pioneering television host whose variety show was a cultural touchstone.",
+      "notableWorks": [
+        "The Ed Sullivan Show"
+      ]
+    },
+    {
+      "fullName": "Edmund Hillary",
+      "years": "1919-2008",
+      "category": "Explorer",
+      "achievements": [
+        "First confirmed ascent of Mount Everest"
+      ],
+      "significance": "Sir Edmund Hillary was a New Zealand mountaineer who, along with Tenzing Norgay, became the first climber to reach the summit of Mount Everest.",
+      "notableWorks": [
+        "High Adventure",
+        "View from the Summit"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Success is to be measured not so much by the position one has reached in life as by the obstacles which he has overcome.",
+      "author": "Booker T. Washington",
+      "context": "Booker T. Washington was a prominent African American educator and leader.",
+      "year": 1901,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Ed Sheeran",
+      "profession": "Musician",
+      "knownFor": [
+        "Shape of You",
+        "Thinking Out Loud"
+      ],
+      "awards": "Grammy Awards"
+    },
+    {
+      "name": "Ed Harris",
+      "profession": "Actor",
+      "knownFor": [
+        "Apollo 13",
+        "The Truman Show"
+      ],
+      "awards": "Golden Globe Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Ed Reed",
+      "profession": "Athlete",
+      "sport": "American Football",
+      "league": "NFL",
+      "team": "Baltimore Ravens",
+      "pastTeams": [
+        "Houston Texans",
+        "New York Jets"
+      ],
+      "position": "Safety",
+      "jerseyNumber": "20",
+      "years": "2002-2013",
+      "achievements": "Super Bowl Champion, 9× Pro Bowl",
+      "knownFor": [
+        "Interceptions",
+        "Leadership"
+      ],
+      "awards": "NFL Defensive Player of the Year",
+      "stats": "64 interceptions, 7 touchdowns",
+      "verified": true,
+      "source": "Pro Football Hall of Fame"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Ed, Edd n Eddy",
+      "year": 1999,
+      "type": "TV Show",
+      "characterName": "Ed",
+      "characterDescription": "One of the three main characters, known for his dim-witted and lovable nature.",
+      "imdbUrl": "https://www.imdb.com/title/tt0184111/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Ed",
+      "year": 2000,
+      "type": "TV Show",
+      "characterName": "Ed Stevens",
+      "characterDescription": "A lawyer who returns to his hometown to run a bowling alley and pursue a love interest.",
+      "imdbUrl": "https://www.imdb.com/title/tt0247091/",
+      "genre": "Comedy-Drama",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Life has a funny way of sneaking up on you when you think everything's okay and everything's going right.",
+      "character": "Ed Stevens",
+      "source": "Ed",
+      "year": 2000,
+      "context": "Ed reflects on the unpredictability of life.",
+      "genre": "Comedy-Drama",
+      "impact": "The quote highlights the show's theme of embracing life's unexpected turns."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and reflection.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and groundedness.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Known for creating solid foundations and structures.",
+    "karmicLessons": "Learning to balance practicality with dreams.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a desire for harmony and nurturing."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 200,
+    "peakYear": 1960
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "context": "Motivational quote encouraging belief in future possibilities."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Ed"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Ed",
+      "script": "Latin",
+      "scriptName": "Ed",
+      "pronunciation": "/ed/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Εντ",
+      "script": "Greek",
+      "scriptName": "Εντ",
+      "pronunciation": "/ent/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إد",
+      "script": "Arabic",
+      "scriptName": "إد",
+      "pronunciation": "/ʔid/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "艾德",
+      "script": "Han",
+      "scriptName": "艾德",
+      "pronunciation": "/àidé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эд",
+      "script": "Cyrillic",
+      "scriptName": "Эд",
+      "pronunciation": "/ɛd/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אד",
+      "script": "Hebrew",
+      "scriptName": "אד",
+      "pronunciation": "/ed/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Ed the Happy Clown",
+      "author": "Chester Brown",
+      "publishedYear": 1989,
+      "genre": "Graphic Novel",
+      "significance": "A surreal and darkly comedic graphic novel that explores themes of identity and society.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Ed is a well-established name with historical and cultural roots."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name Ed has been consistently used across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Frequent use in literature and media as a relatable name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ed is Dead",
+      "artist": "Pixies",
+      "year": 1988,
+      "genre": "Alternative Rock",
+      "nameContext": "Title and lyrics",
+      "description": "A track from the Pixies' debut album, exploring themes of disillusionment and existential angst.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Pixies+Ed+is+Dead",
+      "geniusUrl": "https://genius.com/Pixies-ed-is-dead-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Ed has been a staple in English-speaking cultures for generations, known for its simplicity and strong historical roots. Often used as a standalone name or a diminutive of longer names like Edward or Edmund, Ed carries an air of reliability and tradition.",
+    "etymology_meaning": "Ed originates from Old English, deriving from names that mean 'wealthy guardian' or 'protector of riches.' Its roots lie in names with noble connections, emphasizing strength and guardianship.",
+    "famous_bearers": "Ed Sheeran, a global music sensation, and Ed Harris, a celebrated actor, have brought contemporary fame to the name. Historically, figures like Ed Sullivan have left a lasting impact on entertainment.",
+    "pop_culture_moments": "The name Ed has popped up in various pop culture contexts, from the eccentric cartoon 'Ed, Edd n Eddy' to the introspective TV show 'Ed.' These references highlight the name's versatility and appeal.",
+    "personality_profile": "People named Ed are often perceived as grounded, practical, and reliable. The name suggests a person who is approachable, down-to-earth, and trustworthy.",
+    "variations_nicknames": "While Ed stands strong on its own, it can also be a nickname for longer names like Edward or Edwin. Variations like Eddie and Eddy add a playful touch to its classic appeal.",
+    "popularity_data": "Ed has maintained steady popularity over the decades, with peaks during the mid-20th century. Its enduring charm keeps it relevant in contemporary naming trends.",
+    "pairing_suggestions": "Ed pairs well with traditional names like Mary or modern choices like Ava, offering a balanced name combination. Its simplicity complements both short and long middle names.",
+    "cultural_context": "Culturally, Ed fits seamlessly into English-speaking societies and has found a place in global contexts through literature and media. Its classic roots make it a versatile choice.",
+    "final_recommendation": "If you're seeking a name with historical depth and modern flexibility, Ed is a timeless choice. Its association with notable figures and cultural icons ensures its continued relevance.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

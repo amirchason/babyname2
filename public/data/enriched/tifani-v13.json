@@ -1,0 +1,205 @@
+{
+  "name": "Tifani",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T10:08:10.119Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Manifestation of God",
+  "culturalSignificance": "Tifani is a modern spelling variation of Tiffany, which has roots in the Greek name Theophania, meaning 'manifestation of God.' Historically, the name was associated with the feast of Epiphany, celebrating the revelation of Christ to the Gentiles.",
+  "modernContext": "Tifani is a less common variant of Tiffany, which saw its peak popularity in the 1980s and 1990s. The name remains popular in English-speaking countries but is now more often seen in its traditional spelling.",
+  "literaryReferences": "",
+  "pronunciationGuide": "tɪˈfɑːni",
+  "variations": [
+    "Tiffany",
+    "Tiffani",
+    "Tiffanie"
+  ],
+  "similarNames": [
+    "Stephanie",
+    "Melanie",
+    "Brittany",
+    "Tanya",
+    "Tamara"
+  ],
+  "nicknames": [
+    "Tiff",
+    "Tiffy",
+    "Ani"
+  ],
+  "personality": "Names like Tifani are often associated with charm and creativity. Individuals with this name are perceived to be outgoing and friendly.",
+  "symbolism": "The name Tifani symbolizes revelation and divine manifestation, reflecting its historical roots in Christian tradition.",
+  "funFact": "The name Tiffany gained popularity in the U.S. due to the luxury jewelry brand Tiffany & Co., established in 1837.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Theophania",
+    "significance": "Associated with the Christian feast of Epiphany, celebrating the revelation of Christ to the Gentiles.",
+    "keyStories": [
+      "Epiphany"
+    ],
+    "spiritualMeaning": "Manifestation of the divine.",
+    "historicalImpact": "The name has been used historically to denote children born on Epiphany."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Tiffani Thiessen",
+      "profession": "Actress",
+      "knownFor": [
+        "Saved by the Bell",
+        "Beverly Hills, 90210"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Tiffani Faison",
+      "profession": "Chef",
+      "knownFor": [
+        "Top Chef",
+        "Boston restaurant scene"
+      ],
+      "awards": "James Beard Award nominations"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Aquamarine",
+      "hex": "#7FFFD4"
+    },
+    "luckyGemstone": "Turquoise",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fruition.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs that share emotional depth and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Symbolizes emotion, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for compassion and empathy.",
+    "karmicLessons": "Embrace emotional intelligence and nurturing qualities.",
+    "soulUrge": 7,
+    "soulUrgeDescription": "A deep desire for spiritual knowledge and introspection."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 0,
+    "peak": 0,
+    "peakYear": 0
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "Inspirational quote about success and happiness."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ti-fa-ni"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Tifani",
+      "script": "Latin",
+      "scriptName": "Tifani",
+      "pronunciation": "tiˈfani",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Θεοφανία",
+      "script": "Greek",
+      "scriptName": "Θεοφανία",
+      "pronunciation": "θe.o.faˈni.a",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "تيفاني",
+      "script": "Arabic",
+      "scriptName": "تيفاني",
+      "pronunciation": "tiːfaːni",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "蒂法妮",
+      "script": "Han",
+      "scriptName": "蒂法妮",
+      "pronunciation": "dì fǎ nī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Тифани",
+      "script": "Cyrillic",
+      "scriptName": "Тифани",
+      "pronunciation": "tʲɪˈfanʲɪ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "תיפאני",
+      "script": "Hebrew",
+      "scriptName": "תיפאני",
+      "pronunciation": "tifani",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "A contemporary spelling variation of a classic name."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Rooted in the Greek name Theophania, associated with religious tradition."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Occasional use in literature due to its classical roots."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Tifani brings a modern twist to a historically rich name. With its roots in the Greek name Theophania, Tifani captures the essence of divine manifestation, making it a name of both elegance and significance.",
+    "etymology_meaning": "Derived from Theophania, Tifani means 'manifestation of God.' This name has deep religious connotations, originating from the Greek word for Epiphany, a Christian feast celebrating the revelation of Christ.",
+    "famous_bearers": "Notable bearers include actress Tiffani Thiessen, known for her roles in 'Saved by the Bell' and 'Beverly Hills, 90210.' The name is also represented in the culinary world by chef Tiffani Faison.",
+    "pop_culture_moments": "Tifani, while not as widely used in pop culture as its variant Tiffany, still shares associations with the luxury brand Tiffany & Co., known for its iconic jewelry and timeless elegance.",
+    "personality_profile": "Individuals named Tifani are often seen as charming and creative. They are thought to possess a vibrant personality, with a natural inclination towards artistic and social endeavors.",
+    "variations_nicknames": "Common variations include Tiffany and Tiffani, with nicknames like Tiff and Tiffy frequently used. These variations maintain the name's classic yet modern appeal.",
+    "popularity_data": "While Tifani itself may not be as prevalent, the name Tiffany experienced significant popularity in the late 20th century, becoming a staple in English-speaking regions.",
+    "pairing_suggestions": "Tifani pairs well with names like James, Alexander, and Olivia, creating a harmonious blend of tradition and modernity. These combinations offer a balance of sound and style.",
+    "cultural_context": "With a name rooted in Greek tradition and Christian significance, Tifani carries both cultural depth and contemporary flair. Its usage reflects a blend of historical reverence and modern adaptation.",
+    "final_recommendation": "Tifani is a name that offers both historical significance and modern charm. It's an excellent choice for parents seeking a name that conveys elegance, tradition, and a touch of contemporary style.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

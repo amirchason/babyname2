@@ -1,0 +1,276 @@
+{
+  "name": "Amanda",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:28:27.364Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Worthy of love",
+  "culturalSignificance": "Amanda has been a popular name in various cultures, often associated with qualities of love and beauty. It gained significant traction in the English-speaking world during the 19th century and has maintained its popularity due to its pleasant meaning and elegant sound.",
+  "modernContext": "Amanda remains a popular choice for girls in the United States and many other countries. It saw a peak in popularity in the late 20th century, particularly during the 1980s and 1990s, and continues to be a favored name for its classic and timeless appeal.",
+  "literaryReferences": "Amanda is featured in several literary works, notably in plays from the 17th century, symbolizing the idealized woman.",
+  "pronunciationGuide": "/əˈmændə/",
+  "variations": [
+    "Amandine",
+    "Mandy",
+    "Manda",
+    "Amandla",
+    "Amandah"
+  ],
+  "similarNames": [
+    "Miranda",
+    "Melinda",
+    "Samantha",
+    "Cassandra",
+    "Alana"
+  ],
+  "nicknames": [
+    "Mandy",
+    "Amy",
+    "Manda",
+    "Andie",
+    "Ama"
+  ],
+  "personality": "People named Amanda are often perceived as warm, affectionate, and charismatic, often drawing people in with their friendly and approachable nature.",
+  "symbolism": "The name Amanda symbolizes love and endearment, often associated with kindness and tenderness.",
+  "funFact": "The name Amanda became especially popular in the United States after Charles Dickens used it in his novel 'Nicholas Nickleby' in 1839.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Amanda Theodosia Jones",
+      "years": "1835-1914",
+      "category": "Inventor",
+      "achievements": [
+        "Invented the vacuum canning process"
+      ],
+      "significance": "Amanda Jones was an American inventor known for developing a safer vacuum canning process, which was an important advancement in food preservation.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Amanda Seyfried",
+      "profession": "Actor",
+      "knownFor": [
+        "Mamma Mia!",
+        "Les Misérables"
+      ],
+      "awards": "Nominated for an Academy Award"
+    },
+    {
+      "name": "Amanda Bynes",
+      "profession": "Actor",
+      "knownFor": [
+        "The Amanda Show",
+        "She's the Man"
+      ],
+      "awards": "Nickelodeon Kids' Choice Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Saw",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Amanda Young",
+      "characterDescription": "A complex character who evolves from a victim to an accomplice in the Saw series.",
+      "imdbUrl": "https://www.imdb.com/title/tt0387564/",
+      "genre": "Horror",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Melrose Place",
+      "year": 1992,
+      "type": "TV Show",
+      "characterName": "Amanda Woodward",
+      "characterDescription": "A powerful and manipulative advertising executive.",
+      "imdbUrl": "https://www.imdb.com/title/tt0103491/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 6,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Amethyst",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and development, symbolizing the increasing light leading to the full moon.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection and intuitive understanding.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Water signifying emotion, intuition, and fluidity.",
+    "celestialArchetype": "The Caregiver",
+    "celestialArchetypeDescription": "Compassionate and nurturing, focused on helping others.",
+    "karmicLessons": "Learning to balance giving with self-care.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "The desire to serve humanity and make the world a better place."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 300,
+    "peak": 2,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Live life to the fullest, and focus on the positive.",
+    "author": "Matt Cameron",
+    "context": "A motivational quote to inspire positivity and a full life."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "A-man-da"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Amanda",
+      "script": "Latin",
+      "scriptName": "Amanda",
+      "pronunciation": "/aˈmanda/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αμάντα",
+      "script": "Greek",
+      "scriptName": "Αμάντα",
+      "pronunciation": "/aˈmanda/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "أماندا",
+      "script": "Arabic",
+      "scriptName": "أماندا",
+      "pronunciation": "/ʔaˈmand.a/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "阿曼达",
+      "script": "Han",
+      "scriptName": "阿曼达",
+      "pronunciation": "/ā mǎn dá/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Аманда",
+      "script": "Cyrillic",
+      "scriptName": "Аманда",
+      "pronunciation": "/ɐˈmandə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אמנדה",
+      "script": "Hebrew",
+      "scriptName": "אמנדה",
+      "pronunciation": "/aˈmanda/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Amanda's Wedding",
+      "author": "Jenny Colgan",
+      "publishedYear": 2000,
+      "genre": "Fiction",
+      "significance": "A comedic novel about love and friendship, centering around a character named Amanda.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Amanda has been a consistently popular name over the decades, maintaining a timeless appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name's elegant sound and meaning of 'worthy of love' give it a timeless quality."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Amanda has appeared in numerous literary works, contributing to its cultural richness."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Amanda",
+      "artist": "Boston",
+      "year": 1986,
+      "genre": "Rock",
+      "nameContext": "Title and central theme of the song.",
+      "description": "A classic rock ballad expressing deep love and emotion, highlighting the name Amanda as a symbol of affection.",
+      "theme": "positive",
+      "positiveVibeScore": 9,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Boston+Amanda",
+      "geniusUrl": "https://genius.com/Boston-amanda-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Amanda",
+      "artist": "Waylon Jennings",
+      "year": 1974,
+      "genre": "Country",
+      "nameContext": "Title and main focus of the song.",
+      "description": "A heartfelt country song that speaks about the narrator's love for Amanda, capturing a sense of nostalgia and longing.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Waylon+Jennings+Amanda",
+      "geniusUrl": "https://genius.com/Waylon-jennings-amanda-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Amanda is a name that exudes warmth and affection. With its Latin roots, meaning 'worthy of love,' it has been a popular choice for parents across generations. This timeless name carries a sense of grace and elegance, making it a perennial favorite.",
+    "etymology_meaning": "The name Amanda originates from the Latin word 'amandus,' meaning 'worthy of love.' This endearing quality has contributed to its widespread use and popularity since the 17th century.",
+    "famous_bearers": "Famous Amandas include actresses like Amanda Seyfried, known for her roles in 'Mamma Mia!' and 'Les Misérables,' and Amanda Bynes, a former Nickelodeon star. Their successes have helped to keep the name in the public eye.",
+    "pop_culture_moments": "In pop culture, Amanda has appeared in numerous films and TV shows, such as 'Saw' with the character Amanda Young and 'Melrose Place' with Amanda Woodward, showcasing its versatility and appeal.",
+    "personality_profile": "Amandas are often seen as charismatic and kind-hearted individuals, known for their ability to connect with others and make a positive impact in their circles. They are often creative and driven, with a passion for helping others.",
+    "variations_nicknames": "Common nicknames for Amanda include Mandy, Amy, and Manda. Variations like Amandine and Amandla offer unique twists on this classic name.",
+    "popularity_data": "Amanda saw a peak in popularity during the 1980s, consistently ranking among the top names for girls. While its popularity has fluctuated, it remains a beloved choice for many parents.",
+    "pairing_suggestions": "Amanda pairs well with middle names like Grace, Marie, or Elizabeth, and can be beautifully matched with sibling names like Emily, Benjamin, or Nathan.",
+    "cultural_context": "Amanda's cultural significance spans literature, music, and film, offering a rich tapestry of references that highlight its enduring appeal. Its Latin roots give it a classic foundation, while its use in modern contexts keeps it current.",
+    "final_recommendation": "If you're looking for a name that combines warmth, beauty, and timeless elegance, Amanda is an excellent choice. Its rich history and cultural significance make it a name that carries both charm and depth.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

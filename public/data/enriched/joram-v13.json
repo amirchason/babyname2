@@ -1,0 +1,211 @@
+{
+  "name": "Joram",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T09:24:26.213Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "God is exalted",
+  "culturalSignificance": "Joram is a biblical name with significant historical roots, primarily found in the Old Testament. It was borne by several kings in the ancient Israelite kingdom, reflecting a strong royal connection and religious importance.",
+  "modernContext": "In modern times, the name Joram is less common but is still used, especially within religious communities. It is appreciated for its biblical heritage and strong, meaningful etymology.",
+  "literaryReferences": "Joram appears in various religious texts and historical accounts related to the kings of Israel.",
+  "pronunciationGuide": "ˈdʒoʊrəm",
+  "variations": [
+    "Yoram",
+    "Joram",
+    "Jorim"
+  ],
+  "similarNames": [
+    "Jeremiah",
+    "Josiah",
+    "Jonah",
+    "Joel",
+    "Jordan"
+  ],
+  "nicknames": [
+    "Jo",
+    "Jori",
+    "Ram"
+  ],
+  "personality": "Individuals named Joram are often perceived as strong leaders with a deep sense of responsibility and spirituality. They are seen as thoughtful and introspective.",
+  "symbolism": "The name symbolizes divine exaltation and leadership, reflecting its biblical roots and association with royalty.",
+  "funFact": "Joram was a name shared by two kings in the Old Testament—one in Israel and another in Judah.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "King Joram",
+    "significance": "Joram was a king of Israel, mentioned in the Old Testament, known for his complex relationship with the prophet Elisha.",
+    "keyStories": [
+      "Joram's alliance with Jehoshaphat in battle",
+      "His interactions with Elisha"
+    ],
+    "spiritualMeaning": "Represents divine leadership and the challenges of following God's will.",
+    "historicalImpact": "Joram's reign is part of the narrative of the divided kingdoms of Israel and Judah, illustrating themes of faith and governance."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Joram of Israel",
+      "years": "849-842 BCE",
+      "category": "Royalty",
+      "achievements": [
+        "Ruled the Kingdom of Israel",
+        "Alliance with Judah"
+      ],
+      "significance": "Joram is a notable figure in the Bible, known for his rule during a tumultuous period in Israelite history.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Joram of Judah",
+      "years": "848-841 BCE",
+      "category": "Royalty",
+      "achievements": [
+        "King of Judah",
+        "Maintained dynastic continuity"
+      ],
+      "significance": "Joram of Judah was known for his efforts to strengthen his kingdom amidst regional conflicts.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Represents completeness and illumination.",
+    "compatibleSigns": [
+      "Leo",
+      "Aries",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery, dynamic energy and a passion for leadership.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire is associated with energy, assertiveness, and enthusiasm.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Embodying leadership qualities and a natural inclination towards guiding others.",
+    "karmicLessons": "Learning balance between authority and compassion.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Driven by a desire to lead and inspire others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 600,
+    "peak": 400,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+    "author": "Simon Sinek",
+    "context": "Inspirational message about leadership"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jo-ram"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Joram",
+      "script": "Latin",
+      "scriptName": "Joram",
+      "pronunciation": "ˈxoɾam",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιωράμ",
+      "script": "Greek",
+      "scriptName": "Ιωράμ",
+      "pronunciation": "i.oˈram",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "يورام",
+      "script": "Arabic",
+      "scriptName": "يورام",
+      "pronunciation": "juːˈraːm",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "约兰",
+      "script": "Han",
+      "scriptName": "约兰",
+      "pronunciation": "Yuēlán",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Иорам",
+      "script": "Cyrillic",
+      "scriptName": "Иорам",
+      "pronunciation": "iʌˈram",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יורם",
+      "script": "Hebrew",
+      "scriptName": "יורם",
+      "pronunciation": "joˈram",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Joram is a name found in the Bible, associated with historical kings."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "The name has been borne by kings, lending it a regal connotation."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.7,
+      "reason": "Joram has a timeless quality due to its ancient origins."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Joram is a name steeped in biblical history, carrying with it the weight of ancient royalty and divine exaltation. This name has been borne by kings and leaders, making it a choice that resonates with strength and tradition.",
+    "etymology_meaning": "The name Joram originates from the Hebrew language, meaning 'God is exalted.' It reflects a sense of reverence and leadership, qualities that have made it a timeless choice throughout history.",
+    "famous_bearers": "Throughout history, Joram has been a name associated with biblical kings, particularly those in the kingdoms of Israel and Judah. These figures have contributed to the name's enduring legacy.",
+    "pop_culture_moments": "While not prevalent in modern pop culture, the name Joram holds a place in religious texts and historical narratives, often symbolizing leadership and divine purpose.",
+    "personality_profile": "Names like Joram are often associated with individuals who exhibit strong leadership skills, a deep sense of spirituality, and a thoughtful, introspective nature.",
+    "variations_nicknames": "Variations such as Yoram or Jorim offer contemporary twists on the classic name, while nicknames like Jo or Jori provide a more casual option.",
+    "popularity_data": "Joram has maintained a steady, albeit low, level of popularity, particularly within religious communities where biblical names are revered.",
+    "pairing_suggestions": "Joram pairs well with names of similar biblical or royal origin, such as Josiah or Naomi, creating a harmonious blend of tradition and meaning.",
+    "cultural_context": "The cultural background of Joram is deeply tied to its biblical roots, offering a rich tapestry of historical and religious significance.",
+    "final_recommendation": "For those seeking a name with profound meaning and historical depth, Joram presents a compelling choice. Its biblical connections make it an ideal option for families valuing tradition and faith.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,253 @@
+{
+  "name": "Eustace",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T07:34:53.036Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Fruitful, prosperous",
+  "culturalSignificance": "The name Eustace has historical significance in the Christian tradition, notably as the name of Saint Eustace, a Christian martyr. It was also popular among European royalty in the medieval period, giving it a regal connotation.",
+  "modernContext": "In modern times, Eustace is less commonly used but retains a classic charm. It occasionally appears in literature and pop culture, maintaining its historical allure.",
+  "literaryReferences": "Eustace is a character in C.S. Lewis's 'The Chronicles of Narnia' series, known for his transformation from a selfish boy to a brave adventurer.",
+  "pronunciationGuide": "/ˈjuːstəs/",
+  "variations": [
+    "Eustachius",
+    "Eustis",
+    "Eustachy"
+  ],
+  "similarNames": [
+    "Eugene",
+    "Edmund",
+    "Ignatius",
+    "Ambrose",
+    "Benedict"
+  ],
+  "nicknames": [
+    "Eus",
+    "Stace",
+    "Ace"
+  ],
+  "personality": "Eustace is often associated with resilience and adaptability, reflecting the name's meaning of prosperity.",
+  "symbolism": "The name symbolizes growth and abundance, often inspiring notions of progress and success.",
+  "funFact": "The name Eustace was borne by several medieval saints and European nobles, enhancing its historical prestige.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Eustace",
+    "significance": "Saint Eustace is venerated as a martyr and is often depicted in Christian art. His story of conversion and martyrdom is a tale of faith and perseverance.",
+    "keyStories": [
+      "Conversion on a hunt",
+      "Martyrdom for faith"
+    ],
+    "spiritualMeaning": "Represents spiritual transformation and faithfulness.",
+    "historicalImpact": "Saint Eustace's story has been a source of inspiration in Christian teachings about conversion and faith."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Eustace IV of Boulogne",
+      "years": "1127-1153",
+      "category": "Royalty",
+      "achievements": [
+        "Count of Boulogne",
+        "Crowned as King of England"
+      ],
+      "significance": "Eustace IV was a key figure in the power struggles of 12th-century England, although his early death prevented him from becoming king.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Eustace the Monk",
+      "years": "1170-1217",
+      "category": "Pirate",
+      "achievements": [
+        "Famous medieval pirate",
+        "Served both England and France"
+      ],
+      "significance": "Eustace the Monk was a notorious pirate who played a significant role in the naval battles of the early 13th century.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Courage the Cowardly Dog",
+      "year": 1999,
+      "type": "TV Show",
+      "characterName": "Eustace Bagge",
+      "characterDescription": "Eustace is the grumpy farmer and owner of Courage in the animated series.",
+      "imdbUrl": "https://www.imdb.com/title/tt0220880/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Eustace Scrubb",
+      "characterDescription": "Eustace is a central character who undergoes significant personal growth during the journey.",
+      "imdbUrl": "https://www.imdb.com/title/tt0980970/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 80
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I don't want to be a dragon anymore. I want to be a boy.",
+      "character": "Eustace Scrubb",
+      "source": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+      "year": 2010,
+      "context": "Eustace expresses his desire to change back from a dragon to a human, symbolizing his character growth.",
+      "genre": "Fantasy",
+      "impact": "This quote marks a pivotal moment of self-awareness and transformation for Eustace."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Olive Green",
+      "hex": "#808000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of fruition and completion, aligning with Eustace's meaning of prosperity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that complement the stability and growth associated with Eustace.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and growth.",
+    "celestialArchetype": "The Provider",
+    "celestialArchetypeDescription": "Symbolizes nurturing and providing for others, consistent with prosperity.",
+    "karmicLessons": "Learning to balance personal growth with the needs of others.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to nurture and support family and community."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 300,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "A reflection on the concept of prosperity, related to the meaning of Eustace."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Eus-tace"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Eustaquio",
+      "script": "Latin",
+      "scriptName": "Eustaquio",
+      "pronunciation": "/eusˈtakjo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ευστάθιος",
+      "script": "Greek",
+      "scriptName": "Ευστάθιος",
+      "pronunciation": "/efˈstaθios/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "يوستاس",
+      "script": "Arabic",
+      "scriptName": "يوستاس",
+      "pronunciation": "/juːstɑːs/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "欧斯塔斯",
+      "script": "Han",
+      "scriptName": "欧斯塔斯",
+      "pronunciation": "/oʊˈstaɪs/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Евстахий",
+      "script": "Cyrillic",
+      "scriptName": "Евстахий",
+      "pronunciation": "/jɪfˈstaxij/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יוסטאס",
+      "script": "Hebrew",
+      "scriptName": "יוסטאס",
+      "pronunciation": "/jʊˈstɑs/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Voyage of the Dawn Treader",
+      "author": "C.S. Lewis",
+      "publishedYear": 1952,
+      "genre": "Fantasy",
+      "significance": "Part of the beloved Chronicles of Narnia series, featuring Eustace as a central character.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical roots and has been used for centuries."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Featured in C.S. Lewis's 'The Chronicles of Narnia'."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.7,
+      "reason": "Associated with Saint Eustace, a Christian martyr."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Eustace is a name that evokes images of medieval knights and Christian martyrs, carrying a sense of history and regal charm. Despite its ancient roots, the name has appeared in modern literature and media, keeping it relevant. Its meaning, 'fruitful' or 'prosperous,' adds a layer of optimism and promise.",
+    "etymology_meaning": "Eustace originates from the Greek name 'Eustachios,' meaning 'fruitful' or 'prosperous.' This etymology reflects a sense of growth and achievement, making it an auspicious choice for a child.",
+    "famous_bearers": "Historically, Eustace has been borne by several notable figures, including Saint Eustace, a Christian martyr, and Eustace IV, a medieval prince. These figures lend the name a sense of strength and resilience.",
+    "pop_culture_moments": "Eustace appears in popular culture as a character in the animated series 'Courage the Cowardly Dog' and in 'The Chronicles of Narnia' as Eustace Scrubb, a character known for his significant personal growth.",
+    "personality_profile": "Individuals named Eustace are often seen as resilient and adaptable, embodying the name's meaning of prosperity. They are thought to be reliable and grounded, with a strong sense of duty.",
+    "variations_nicknames": "Variations of Eustace include Eustachius and Eustis, while common nicknames are Eus, Stace, and Ace. These variations allow for personalization while retaining the name's classic feel.",
+    "popularity_data": "Eustace experienced its peak popularity in the early 20th century, though it has since become less common. Its historical and literary associations continue to make it a unique choice.",
+    "pairing_suggestions": "Eustace pairs well with names like Edmund and Ignatius, which share its classic and timeless appeal. It's an ideal choice for those seeking a name with historical depth.",
+    "cultural_context": "Rooted in Greek origin, Eustace has been embraced by various cultures, particularly in Christian contexts due to its association with Saint Eustace. It remains a name that conveys strength and tradition.",
+    "final_recommendation": "Choosing Eustace for a child can imbue them with a sense of historical significance and timeless charm. Its associations with prosperity and growth make it a hopeful choice for the future.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

@@ -1,0 +1,280 @@
+{
+  "name": "Harry",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:12:42.962Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Home ruler",
+  "culturalSignificance": "The name Harry has been a popular choice in English-speaking countries, often associated with British royalty and literature. It gained additional prominence through the character of Harry Potter, which has become a cultural icon worldwide.",
+  "modernContext": "Harry remains a popular name in modern times, frequently chosen by parents who appreciate its classic charm and literary associations. It is particularly common in the United Kingdom and the United States.",
+  "literaryReferences": "Harry Potter, the protagonist of J.K. Rowling's famous book series, is one of the most well-known literary characters, contributing significantly to the name's popularity.",
+  "pronunciationGuide": "/ˈhæri/",
+  "variations": [
+    "Harold",
+    "Harrison",
+    "Harris"
+  ],
+  "similarNames": [
+    "Henry",
+    "Harvey",
+    "Hank",
+    "Charlie",
+    "Jack"
+  ],
+  "nicknames": [
+    "Hal",
+    "Hank",
+    "Harry"
+  ],
+  "personality": "People named Harry are often perceived as charismatic and friendly, with a penchant for leadership and determination.",
+  "symbolism": "The name Harry symbolizes strength and leadership, often associated with regal qualities due to its historical royal connections.",
+  "funFact": "Harry is traditionally a diminutive of Henry, but it has become a standalone name in its own right.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Harry S. Truman",
+      "years": "1884-1972",
+      "category": "Politics",
+      "achievements": [
+        "33rd President of the United States",
+        "Implemented the Marshall Plan"
+      ],
+      "significance": "Truman is noted for his leadership during the final stages of World War II and the early years of the Cold War.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Prince Harry, Duke of Sussex",
+      "years": "1984-Present",
+      "category": "Royalty",
+      "achievements": [
+        "Military service",
+        "Philanthropy"
+      ],
+      "significance": "Prince Harry is known for his role in the British royal family and his charitable work, particularly through the Invictus Games.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Harry Styles",
+      "profession": "Musician",
+      "knownFor": [
+        "One Direction",
+        "Solo Music Career"
+      ],
+      "awards": "Grammy Award for Best Pop Solo Performance"
+    },
+    {
+      "name": "Harry Connick Jr.",
+      "profession": "Musician",
+      "knownFor": [
+        "Jazz Music",
+        "Acting"
+      ],
+      "awards": "Grammy Awards for Best Jazz Vocal Performance"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "type": "Movie",
+      "characterName": "Harry Potter",
+      "characterDescription": "A young wizard who discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry.",
+      "imdbUrl": "https://www.imdb.com/title/tt0241527/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "When Harry Met Sally...",
+      "year": 1989,
+      "type": "Movie",
+      "characterName": "Harry Burns",
+      "characterDescription": "A man who debates the nature of relationships with his friend Sally.",
+      "imdbUrl": "https://www.imdb.com/title/tt0098635/",
+      "genre": "Romantic Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+      "character": "Albus Dumbledore",
+      "source": "Harry Potter and the Chamber of Secrets",
+      "year": 2002,
+      "context": "Dumbledore giving Harry advice on character and morality.",
+      "genre": "Fantasy",
+      "impact": "This quote emphasizes the importance of personal choices and integrity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "These signs share a communicative and intellectual nature.",
+    "cosmicElement": "Wind",
+    "cosmicElementDescription": "Represents change, freedom, and adaptability.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "A natural storyteller and connector between people.",
+    "karmicLessons": "To embrace change and communication.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for expression and creativity."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 721,
+    "peak": 8,
+    "peakYear": 2011
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.",
+    "author": "A.A. Milne",
+    "context": "Advice on taking initiative and making connections."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Har-ry"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Harry",
+      "script": "Latin",
+      "scriptName": "Harry",
+      "pronunciation": "/ˈaɾi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Χάρι",
+      "script": "Greek",
+      "scriptName": "Χάρι",
+      "pronunciation": "/ˈxari/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هاري",
+      "script": "Arabic",
+      "scriptName": "هاري",
+      "pronunciation": "/ˈhaːri/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "哈利",
+      "script": "Han",
+      "scriptName": "哈利",
+      "pronunciation": "/hɑːˈliː/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гарри",
+      "script": "Cyrillic",
+      "scriptName": "Гарри",
+      "pronunciation": "/ˈɡarʲɪ/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הארי",
+      "script": "Hebrew",
+      "scriptName": "הארי",
+      "pronunciation": "/ˈhɑːʁi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "publishedYear": 1997,
+      "genre": "Fantasy",
+      "significance": "The book is the first in the globally popular Harry Potter series and has had a significant impact on modern literature.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Harry has been a consistently popular name for decades, often associated with traditional and royal connotations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "The name's association with the famous Harry Potter series makes it a significant literary name."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.9,
+      "reason": "Frequently used by British royalty, contributing to its regal reputation."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Harry's House",
+      "artist": "Harry Styles",
+      "year": 2022,
+      "genre": "Pop",
+      "nameContext": "The song's title and themes are inspired by personal experiences and introspection.",
+      "description": "The song explores themes of personal growth and finding one's place in the world.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Harry's+House+Harry+Styles",
+      "geniusUrl": "https://genius.com/search?q=Harry's+House+Harry+Styles",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Harry is a name that carries a rich tapestry of history, charm, and cultural significance. With royal connections and literary fame, it has captured the hearts of parents across generations. Whether you're a fan of the British monarchy or a lover of magical tales, Harry offers something special.",
+    "etymology_meaning": "The name Harry is derived from the Germanic name Henry, which means 'home ruler.' It has evolved over centuries, maintaining its regal and authoritative essence.",
+    "famous_bearers": "Famous individuals named Harry include the iconic Harry Potter, U.S. President Harry S. Truman, and the contemporary music sensation Harry Styles.",
+    "pop_culture_moments": "Harry has made significant pop culture appearances, most notably as the protagonist of the Harry Potter series, which has become a cornerstone of modern fantasy literature.",
+    "personality_profile": "Those named Harry are often viewed as charismatic leaders with a strong sense of determination. They are known for their friendly demeanor and ability to connect with others.",
+    "variations_nicknames": "Harry can be short for Harold or Harrison, with common nicknames including Hal and Hank. These variations offer a range of options for personalization.",
+    "popularity_data": "Harry has consistently ranked highly in baby name charts, especially in the UK and the US, thanks to its timeless appeal and cultural associations.",
+    "pairing_suggestions": "Pairing Harry with middle names like James or Alexander can create a harmonious and classic combination. Consider names like Henry or Charlie for siblings.",
+    "cultural_context": "With roots in Germanic languages and strong ties to English history, Harry embodies a blend of old-world charm and modern-day relevance.",
+    "final_recommendation": "Harry is a name that stands the test of time, appealing to those who appreciate tradition and literary flair. It's a choice that promises both elegance and a touch of magic.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

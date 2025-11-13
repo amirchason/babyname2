@@ -1,0 +1,301 @@
+{
+  "name": "Gloria",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T23:24:30.289Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Glory",
+  "culturalSignificance": "Gloria is a name that has been used for centuries, often associated with grandeur and fame due to its meaning 'glory'. It gained popularity in the early 20th century and is often seen as a classic name in many Western cultures.",
+  "modernContext": "In recent times, Gloria has maintained a steady presence, especially in English-speaking countries. It is appreciated for its strong, straightforward sound and positive connotations.",
+  "literaryReferences": "Gloria is a name that appears in various literary works, often symbolizing characters with strong, vibrant personalities.",
+  "pronunciationGuide": "/ˈɡlɔːriə/",
+  "variations": [
+    "Gloriana",
+    "Glory",
+    "Glorinda",
+    "Gloriosa"
+  ],
+  "similarNames": [
+    "Victoria",
+    "Sophia",
+    "Clara",
+    "Olivia",
+    "Aurora",
+    "Lydia"
+  ],
+  "nicknames": [
+    "Glory",
+    "Glo",
+    "Ria",
+    "Lori"
+  ],
+  "personality": "The name Gloria is often associated with an outgoing and confident personality, reflecting its meaning of glory and magnificence.",
+  "symbolism": "Symbolically, Gloria represents achievement and high esteem, often associated with success and honor.",
+  "funFact": "The name Gloria gained significant popularity after the release of the song 'Gloria' by Laura Branigan in 1982.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Gloria Steinem",
+      "years": "1934-Present",
+      "category": "Activist",
+      "achievements": [
+        "Feminist Movement Leader",
+        "Co-founder of Ms. Magazine"
+      ],
+      "significance": "Gloria Steinem is a prominent figure in the feminist movement, known for her activism and journalism.",
+      "notableWorks": [
+        "Ms. Magazine",
+        "Outrageous Acts and Everyday Rebellions"
+      ]
+    },
+    {
+      "fullName": "Gloria Swanson",
+      "years": "1899-1983",
+      "category": "Actress",
+      "achievements": [
+        "Silent Film Star",
+        "Academy Award Nominee"
+      ],
+      "significance": "Gloria Swanson was a major star of silent films and was known for her role in 'Sunset Boulevard'.",
+      "notableWorks": [
+        "Sunset Boulevard",
+        "Sadie Thompson"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Gloria Estefan",
+      "profession": "Musician",
+      "knownFor": [
+        "Conga",
+        "Rhythm Is Gonna Get You"
+      ],
+      "awards": "Multiple Grammy Awards"
+    },
+    {
+      "name": "Gloria Gaynor",
+      "profession": "Singer",
+      "knownFor": [
+        "I Will Survive"
+      ],
+      "awards": "Grammy Award for Best Disco Recording"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Gloria",
+      "year": 1980,
+      "type": "Movie",
+      "characterName": "Gloria Swenson",
+      "characterDescription": "A tough woman protecting a boy from the mob.",
+      "imdbUrl": "https://www.imdb.com/title/tt0080798/",
+      "genre": "Crime, Drama",
+      "verified": true,
+      "popularity": 75
+    },
+    {
+      "title": "Modern Family",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Gloria Pritchett",
+      "characterDescription": "A vivacious and loving wife and mother.",
+      "imdbUrl": "https://www.imdb.com/title/tt1442437/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I will survive!",
+      "character": "Gloria Gaynor",
+      "source": "Song",
+      "year": 1978,
+      "context": "An empowering anthem of resilience and strength.",
+      "genre": "Music",
+      "impact": "Became an iconic anthem for empowerment."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery passion and zest for life.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents energy, assertiveness, and courage.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Natural leaders who inspire and motivate others.",
+    "karmicLessons": "Embrace leadership and pursue goals with passion.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "Desire for independence and self-expression."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 590,
+    "peak": 27,
+    "peakYear": 1947
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Gloria is not just a name, it's a call to shine brightly and achieve greatness.",
+    "author": "Unknown",
+    "context": "An inspirational message often associated with the name's meaning."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Glo-ri-a"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Gloria",
+      "script": "Latin",
+      "scriptName": "Gloria",
+      "pronunciation": "/ˈɡloɾja/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκλόρια",
+      "script": "Greek",
+      "scriptName": "Γκλόρια",
+      "pronunciation": "/ɡloˈria/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "غلوريا",
+      "script": "Arabic",
+      "scriptName": "غلوريا",
+      "pronunciation": "/ɡloːˈriːa/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "格洛丽亚",
+      "script": "Han",
+      "scriptName": "格洛丽亚",
+      "pronunciation": "/ɡɤ³⁵ luɔ⁵¹ li⁵¹ a⁵¹/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Глория",
+      "script": "Cyrillic",
+      "scriptName": "Глория",
+      "pronunciation": "/ˈɡlorʲɪjə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גלוריה",
+      "script": "Hebrew",
+      "scriptName": "גלוריה",
+      "pronunciation": "/ɡloˈriːa/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Gloria",
+      "author": "Kerry Young",
+      "publishedYear": 2013,
+      "genre": "Fiction",
+      "significance": "Explores the life of a resilient woman in mid-20th century Jamaica.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has been used consistently over the decades."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Gloria has a meaning that remains relevant across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Appearing in various literary works, often associated with strong characters."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Gloria",
+      "artist": "Laura Branigan",
+      "year": 1982,
+      "genre": "Pop",
+      "nameContext": "The name is the title and main subject of the song.",
+      "description": "A high-energy anthem about a woman named Gloria, capturing her vibrant and complex life.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gloria+Laura+Branigan",
+      "geniusUrl": "https://genius.com/Laura-branigan-gloria-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Gloria",
+      "artist": "U2",
+      "year": 1981,
+      "genre": "Rock",
+      "nameContext": "The name is a significant refrain throughout the song.",
+      "description": "A rock song by U2 that uses the name Gloria in a spiritual and uplifting context.",
+      "theme": "positive",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gloria+U2",
+      "geniusUrl": "https://genius.com/U2-gloria-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Gloria is a name that echoes through history with a resonance of triumph and celebration. Derived from the Latin term for 'glory', it carries a sense of grandeur and honor. Whether you're drawn to its classic appeal or its rich cultural significance, Gloria remains a timeless choice.",
+    "etymology_meaning": "The name Gloria originates from the Latin word 'gloria', meaning 'glory' or 'fame'. It has been used as a given name in English-speaking countries since the late 19th century, consistently symbolizing honor and praise.",
+    "famous_bearers": "Notable individuals named Gloria include Gloria Steinem, a leading figure in the feminist movement, and Gloria Estefan, an internationally acclaimed musician. These figures have contributed to the name's association with strength and talent.",
+    "pop_culture_moments": "In pop culture, Gloria has been immortalized in songs like 'Gloria' by Laura Branigan and U2, both of which highlight the name's vibrant and enduring appeal.",
+    "personality_profile": "People named Gloria are often perceived as charismatic and confident, embodying the name's inherent sense of glory and achievement. They are seen as natural leaders who inspire those around them.",
+    "variations_nicknames": "Variations of the name include Gloriana and Glory, each offering a unique twist on the original. Common nicknames like Glo and Ria add a personal touch to this classic name.",
+    "popularity_data": "Gloria was most popular in the mid-20th century, peaking in the 1940s. While it may not be as common today, it has maintained a steady presence, appreciated for its classic and refined sound.",
+    "pairing_suggestions": "Gloria pairs well with names that share its classic and elegant qualities, such as Victoria, Claire, or Sophia. These combinations create a harmonious and sophisticated feel.",
+    "cultural_context": "Culturally, Gloria has been embraced across various mediums, from literature to music, often representing characters of great depth and substance. Its Latin roots give it a universal appeal.",
+    "final_recommendation": "Choosing the name Gloria offers a blend of historical richness and modern charm. It's a name that promises to stand the test of time, inspiring those who bear it to achieve greatness.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

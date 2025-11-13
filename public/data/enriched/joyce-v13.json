@@ -1,0 +1,260 @@
+{
+  "name": "Joyce",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:10:07.293Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Latin",
+  "meaning": "Lord",
+  "culturalSignificance": "The name Joyce originated as a medieval masculine name derived from the Old French name Josse, which itself was derived from the Latin 'Jodocus.' It gained popularity as a female name in the 19th century and is culturally significant due to its association with literature, particularly through the works of James Joyce.",
+  "modernContext": "In modern times, Joyce is more commonly used as a female name and is considered classic and timeless, though less common than it once was in the mid-20th century. It remains a popular choice due to its literary associations and elegant simplicity.",
+  "literaryReferences": "James Joyce, the renowned Irish author, is a notable literary figure with this name, known for his works like 'Ulysses' and 'A Portrait of the Artist as a Young Man.'",
+  "pronunciationGuide": "/dʒɔɪs/",
+  "variations": [
+    "Joice",
+    "Joy",
+    "Josie",
+    "Joey"
+  ],
+  "similarNames": [
+    "Grace",
+    "Alice",
+    "June",
+    "Jane",
+    "Judy"
+  ],
+  "nicknames": [
+    "Joy",
+    "Jo",
+    "Josie"
+  ],
+  "personality": "Joyce is often associated with intelligence and creativity, likely due to its literary connections. People with this name are perceived as thoughtful and articulate.",
+  "symbolism": "The name Joyce symbolizes literary elegance and timelessness, often evoking a sense of classic sophistication.",
+  "funFact": "The name Joyce experienced a peak in popularity as a girl's name in the United States during the 1930s and 1940s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "James Joyce",
+      "years": "1882-1941",
+      "category": "Author",
+      "achievements": [
+        "Author of 'Ulysses'",
+        "Influential modernist writer"
+      ],
+      "significance": "James Joyce is considered one of the most influential writers of the 20th century, known for his complex narratives and pioneering stream of consciousness technique.",
+      "notableWorks": [
+        "Ulysses",
+        "A Portrait of the Artist as a Young Man"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Mistakes are the portals of discovery.",
+      "author": "James Joyce",
+      "context": "This quote reflects Joyce's belief in the value of learning through errors.",
+      "year": 1906,
+      "category": "Literature"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Joyce Carol Oates",
+      "profession": "Author",
+      "knownFor": [
+        "'Blonde'",
+        "'Them'"
+      ],
+      "awards": "National Book Award"
+    },
+    {
+      "name": "Joyce Meyer",
+      "profession": "Author and Speaker",
+      "knownFor": [
+        "Christian ministry",
+        "Books on faith"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Mad Men",
+      "year": 2007,
+      "type": "TV Show",
+      "characterName": "Joyce Ramsay",
+      "characterDescription": "A creative and free-spirited character in the advertising world.",
+      "imdbUrl": "https://www.imdb.com/title/tt0804503/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for illumination and clarity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra"
+    ],
+    "compatibleSignsDescription": "Air signs are known for their intellect and communication skills, complementing the creative nature of Joyce.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Associated with intellect, communication, and versatility.",
+    "celestialArchetype": "The Innovator",
+    "celestialArchetypeDescription": "Embodies creativity and forward-thinking.",
+    "karmicLessons": "Learning to embrace change and adapt.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Driven by a desire for freedom and new experiences."
+  },
+  "genderDistribution": {
+    "male": 20,
+    "female": 80
+  },
+  "ranking": {
+    "current": 500,
+    "peak": 10,
+    "peakYear": 1935
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Mistakes are the portals of discovery.",
+    "author": "James Joyce",
+    "context": "Encouragement to learn from errors."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Joyce"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Joyce",
+      "script": "Latin",
+      "scriptName": "Joyce",
+      "pronunciation": "/xoʝs/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζόις",
+      "script": "Greek",
+      "scriptName": "Τζόις",
+      "pronunciation": "/dʒois/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جويز",
+      "script": "Arabic",
+      "scriptName": "جويز",
+      "pronunciation": "/dʒuːjs/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "乔伊斯",
+      "script": "Han",
+      "scriptName": "乔伊斯",
+      "pronunciation": "/tɕjaʊ jiːs/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джойс",
+      "script": "Cyrillic",
+      "scriptName": "Джойс",
+      "pronunciation": "/dʒɔɪs/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'ויס",
+      "script": "Hebrew",
+      "scriptName": "ג'ויס",
+      "pronunciation": "/dʒɔɪs/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "A Portrait of the Artist as a Young Man",
+      "author": "James Joyce",
+      "publishedYear": 1916,
+      "genre": "Fiction",
+      "significance": "A seminal work in modernist literature exploring the development of a young artist.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Joyce is timeless and has been used for decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Associated with famous author James Joyce."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Consistently used across generations."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Joyce",
+      "artist": "Luciana Souza",
+      "year": 2003,
+      "genre": "Jazz",
+      "nameContext": "Title of the song",
+      "description": "A jazz piece by Luciana Souza, this song highlights the melodic beauty of the name Joyce.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Luciana+Souza+Joyce",
+      "geniusUrl": "https://genius.com/search?q=Luciana+Souza+Joyce",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Joyce is a name that resonates with timeless elegance and literary significance. Its roots in Latin and its transformation over the centuries make it a name rich in history and cultural depth.",
+    "etymology_meaning": "The etymology of Joyce traces back to the Latin 'Jodocus,' meaning 'lord.' Originally a masculine name, it transitioned to a unisex name over time.",
+    "famous_bearers": "Among the most famous bearers of the name is James Joyce, the revolutionary modernist author whose works have left a lasting impact on literature.",
+    "pop_culture_moments": "Joyce has been featured in various films and TV shows, often embodying characters with creative or intellectual traits.",
+    "personality_profile": "Names like Joyce often carry a sense of sophistication and intelligence, likely influenced by its literary heritage.",
+    "variations_nicknames": "Variations include Joice and Josie, with common nicknames being Joy and Jo.",
+    "popularity_data": "Joyce was extremely popular as a girls' name in the mid-20th century, peaking in the 1930s.",
+    "pairing_suggestions": "Joyce pairs beautifully with classic middle names like Marie or Elizabeth, enhancing its timeless appeal.",
+    "cultural_context": "The name Joyce finds its roots in different cultures, offering a rich tapestry of historical and literary associations.",
+    "final_recommendation": "For those seeking a name with elegance and a storied past, Joyce offers a blend of historical depth and modern charm.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

@@ -1,0 +1,295 @@
+{
+  "name": "Jackie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:36:04.301Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "English",
+  "meaning": "Supplanter",
+  "culturalSignificance": "Jackie is often used as a diminutive of the names Jacqueline or Jack, which have their origins in French and English cultures respectively. The name gained significant cultural prominence in the 20th century, particularly in the United States, due to figures like Jackie Kennedy and Jackie Robinson.",
+  "modernContext": "Today, Jackie is considered a classic name that has maintained steady popularity due to its association with notable historical and cultural figures. It is commonly used for both boys and girls, reflecting its flexibility and timeless appeal.",
+  "literaryReferences": "Jackie is sometimes used in literature as a relatable and approachable character name, though it does not have significant standalone literary references.",
+  "pronunciationGuide": "/ˈdʒæki/",
+  "variations": [
+    "Jacqueline",
+    "Jack",
+    "Jax",
+    "Jacie",
+    "Jakki"
+  ],
+  "similarNames": [
+    "Jamie",
+    "Jesse",
+    "Jordan",
+    "Jamie",
+    "Jodie"
+  ],
+  "nicknames": [
+    "Jack",
+    "Jax",
+    "Jay",
+    "Jacie"
+  ],
+  "personality": "The name Jackie is often associated with a spirited, friendly, and approachable personality. People named Jackie are often seen as charismatic and adaptable, with a strong presence.",
+  "symbolism": "Jackie often symbolizes resilience and adaptability, drawing from its historical use by influential figures who overcame significant challenges.",
+  "funFact": "Jackie Robinson broke the color barrier in Major League Baseball in 1947, becoming a symbol of racial integration in sports.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Jackie Robinson",
+      "years": "1919-1972",
+      "category": "Athlete",
+      "achievements": [
+        "First African American to play in MLB",
+        "Rookie of the Year 1947"
+      ],
+      "significance": "Jackie Robinson is celebrated for breaking the color barrier in Major League Baseball, impacting American society by challenging racial segregation.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Jacqueline Kennedy Onassis",
+      "years": "1929-1994",
+      "category": "First Lady",
+      "achievements": [
+        "First Lady of the United States",
+        "Influential in arts and culture"
+      ],
+      "significance": "Jacqueline Kennedy Onassis was known for her style, elegance, and influence during her time as First Lady, as well as her contributions to the arts and historic preservation.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jackie Chan",
+      "profession": "Actor",
+      "knownFor": [
+        "Martial arts films",
+        "Comedy"
+      ],
+      "awards": "Honorary Academy Award"
+    },
+    {
+      "name": "Jackie Evancho",
+      "profession": "Singer",
+      "knownFor": [
+        "America's Got Talent",
+        "Classical crossover music"
+      ],
+      "awards": "Billboard Music Award nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jackie Joyner-Kersee",
+      "profession": "Athlete",
+      "sport": "Track and Field",
+      "league": "Olympics",
+      "team": "",
+      "pastTeams": [],
+      "position": "Heptathlete",
+      "jerseyNumber": "",
+      "years": "1984-1996",
+      "achievements": "Three Olympic gold medals",
+      "knownFor": [
+        "Heptathlon world record",
+        "Long jump"
+      ],
+      "awards": "World Athlete of the Year",
+      "stats": "",
+      "verified": true,
+      "source": "Olympic records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Jackie",
+      "year": 2016,
+      "type": "Movie",
+      "characterName": "Jackie Kennedy",
+      "characterDescription": "A portrayal of Jacqueline Kennedy's life after the assassination of John F. Kennedy.",
+      "imdbUrl": "https://www.imdb.com/title/tt1619029/",
+      "genre": "Biography",
+      "verified": true,
+      "popularity": 78
+    },
+    {
+      "title": "Nurse Jackie",
+      "year": 2009,
+      "type": "TV Show",
+      "characterName": "Jackie Peyton",
+      "characterDescription": "A nurse struggling with personal and professional challenges.",
+      "imdbUrl": "https://www.imdb.com/title/tt1190689/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 82
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You have to be Jackie Peyton every day.",
+      "character": "Jackie Peyton",
+      "source": "Nurse Jackie",
+      "year": 2009,
+      "context": "Reflecting on the challenges of her life and career.",
+      "genre": "Drama",
+      "impact": "Highlights the personal struggles faced by the character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share adaptability and intellectual curiosity.",
+    "cosmicElement": "The Innovator",
+    "cosmicElementDescription": "Represents creativity and forward-thinking.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Known for eloquence and social skills.",
+    "karmicLessons": "To embrace change and new challenges.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express oneself creatively and connect with others."
+  },
+  "genderDistribution": {
+    "male": 40,
+    "female": 60
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 35,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to prove that you're a good sport is to lose.",
+    "author": "Jackie Robinson",
+    "context": "Speaking on sportsmanship and character."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jack-ie"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jackie",
+      "script": "Latin",
+      "scriptName": "Jackie",
+      "pronunciation": "/ˈʝaki/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τζάκι",
+      "script": "Greek",
+      "scriptName": "Τζάκι",
+      "pronunciation": "/ˈd͡ʒaki/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جاكي",
+      "script": "Arabic",
+      "scriptName": "جاكي",
+      "pronunciation": "/ˈd͡ʒaki/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "杰基",
+      "script": "Han",
+      "scriptName": "杰基",
+      "pronunciation": "/ˈd͡ʒeki/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Джеки",
+      "script": "Cyrillic",
+      "scriptName": "Джеки",
+      "pronunciation": "/ˈd͡ʒɛki/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'קי",
+      "script": "Hebrew",
+      "scriptName": "ג'קי",
+      "pronunciation": "/ˈd͡ʒeki/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has been consistently used across generations."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Its enduring popularity and cultural significance."
+    },
+    {
+      "tag": "Unisex",
+      "confidence": 0.85,
+      "reason": "Widely used for both males and females."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Jackie Blue",
+      "artist": "Ozark Mountain Daredevils",
+      "year": 1974,
+      "genre": "Rock",
+      "nameContext": "The song centers around a character named Jackie.",
+      "description": "A classic rock song from the 70s that describes the life and feelings of a character named Jackie.",
+      "theme": "neutral",
+      "positiveVibeScore": 7,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Jackie+Blue",
+      "geniusUrl": "https://genius.com/Ozark-mountain-daredevils-jackie-blue-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Jackie carries with it a rich history and a sense of timeless charm. Whether used for boys or girls, Jackie has been a popular choice among parents for decades. This name's association with iconic figures in sports and politics adds a layer of prestige and inspiration.",
+    "etymology_meaning": "Jackie is typically a diminutive form of Jacqueline or Jack, both of which have their roots in French and English languages. The name means 'supplanter,' a reference to the biblical Jacob.",
+    "famous_bearers": "Jackie Robinson and Jacqueline Kennedy Onassis are two of the most celebrated figures bearing this name, each leaving a lasting impact in their respective fields of sports and politics.",
+    "pop_culture_moments": "The name Jackie has been featured in numerous films and TV shows, further cementing its place in popular culture. Notably, the movie 'Jackie' provides an intimate look at the life of Jacqueline Kennedy.",
+    "personality_profile": "Those named Jackie are often seen as charismatic and approachable, with a knack for leadership and adaptability. This name evokes a sense of resilience and determination.",
+    "variations_nicknames": "Variations like Jacqueline or Jack offer a more formal take, while nicknames like Jax or Jay add a modern twist. These variations provide flexibility and personalization.",
+    "popularity_data": "Jackie's popularity peaked in the mid-20th century, influenced by public figures and cultural icons. While it has seen fluctuations, the name remains a beloved choice for its classic appeal.",
+    "pairing_suggestions": "Consider pairing Jackie with middle names that complement its energetic vibe, such as Rose, James, or Alexander. These combinations can create a harmonious balance.",
+    "cultural_context": "Jackie has been embraced across diverse cultures, reflecting its universal appeal. Its use in both English and non-English speaking countries highlights its adaptability.",
+    "final_recommendation": "For parents seeking a name with historical significance and modern charm, Jackie offers the perfect blend. Its associations with influential figures and timeless elegance make it a strong contender.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

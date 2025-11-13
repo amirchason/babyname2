@@ -1,0 +1,226 @@
+{
+  "name": "Maddy",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T00:38:57.914Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "English",
+  "meaning": "From the name 'Madeline' or 'Madison'",
+  "culturalSignificance": "Maddy is often considered a diminutive of Madeline or Madison, names that have been popular in English-speaking countries. Madeline has French origins and is derived from Magdalene, while Madison has gained popularity in the United States as a surname-turned-first name.",
+  "modernContext": "In modern usage, Maddy is a popular name for girls, reflecting a trend in using more casual, friendly-sounding diminutives as given names. It is often seen as a youthful and approachable name.",
+  "literaryReferences": "Maddy can be found in various contemporary young adult novels as a relatable and friendly character name.",
+  "pronunciationGuide": "/ˈmædi/",
+  "variations": [
+    "Maddie",
+    "Madie",
+    "Maddee",
+    "Madi",
+    "Mady"
+  ],
+  "similarNames": [
+    "Madison",
+    "Madeline",
+    "Addy",
+    "Hattie",
+    "Macy",
+    "Mandy"
+  ],
+  "nicknames": [
+    "Mad",
+    "Mads",
+    "Madz",
+    "Madders"
+  ],
+  "personality": "Maddy is often associated with a cheerful and lively personality, someone who is friendly and approachable.",
+  "symbolism": "The name Maddy symbolizes modernity and youthfulness, often reflecting a free-spirited and independent nature.",
+  "funFact": "Maddy is often used as a friendly, casual name for characters in teen dramas and comedies.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Maddy Hill",
+      "profession": "Actress",
+      "knownFor": [
+        "EastEnders",
+        "Casualty"
+      ],
+      "awards": "British Soap Award for Best Newcomer"
+    },
+    {
+      "name": "Maddy Prior",
+      "profession": "Musician",
+      "knownFor": [
+        "Lead singer of Steeleye Span"
+      ],
+      "awards": "MBE for services to folk music"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Degrassi: The Next Generation",
+      "year": 2001,
+      "type": "TV Show",
+      "characterName": "Maddy",
+      "characterDescription": "A student at Degrassi Community School",
+      "imdbUrl": "https://www.imdb.com/title/tt0288937/",
+      "genre": "Teen Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and embarking on new projects.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "Air signs that complement the free-spirited nature of Maddy.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Represents communication, intellect, and social connections.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "An archetype that excels in sharing ideas and connecting with others.",
+    "karmicLessons": "To embrace change and seek balance in relationships.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "A desire for freedom, adventure, and expression."
+  },
+  "genderDistribution": {
+    "male": 15,
+    "female": 85
+  },
+  "ranking": {
+    "current": 345,
+    "peak": 245,
+    "peakYear": 2015
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "context": "A famous quote about ambition and belief."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mad-dy"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Maddy",
+      "script": "Latin",
+      "scriptName": "Maddy",
+      "pronunciation": "/ˈmaði/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μάντι",
+      "script": "Greek",
+      "scriptName": "Μάντι",
+      "pronunciation": "/ˈmadi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مادي",
+      "script": "Arabic",
+      "scriptName": "مادي",
+      "pronunciation": "/ˈmaːdi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛蒂",
+      "script": "Han",
+      "scriptName": "玛蒂",
+      "pronunciation": "/mǎdì/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мэдди",
+      "script": "Cyrillic",
+      "scriptName": "Мэдди",
+      "pronunciation": "/ˈmɛdi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מדי",
+      "script": "Hebrew",
+      "scriptName": "מדי",
+      "pronunciation": "/madi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Everything, Everything",
+      "author": "Nicola Yoon",
+      "publishedYear": 2015,
+      "genre": "Young Adult Fiction",
+      "significance": "The book features a protagonist named Maddy who navigates life despite her illness.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name is a contemporary choice, popular in recent years."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "A classic diminutive that has remained in use over decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Appears in popular young adult literature."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Maddy is a name that exudes a sense of youthful charm and modern appeal. Often used as a diminutive of Madeline or Madison, it has become a standalone name cherished by many. Its friendly and approachable nature makes it a favorite among parents seeking a contemporary name with a touch of classic elegance.",
+    "etymology_meaning": "The name Maddy primarily originates from English and is a diminutive form of Madeline or Madison. Madeline is derived from Magdalene, a name of French origin, while Madison is a surname-turned-first name that gained popularity in English-speaking countries.",
+    "famous_bearers": "Notable figures with the name Maddy include Maddy Hill, a British actress known for her role in 'EastEnders', and Maddy Prior, an acclaimed folk musician. These individuals highlight the diverse fields Maddy has made its mark in, from entertainment to music.",
+    "pop_culture_moments": "Maddy has appeared in numerous TV shows and books, such as the character Maddy in 'Degrassi: The Next Generation' and the protagonist in Nicola Yoon's 'Everything, Everything'. These references showcase the name's popularity in pop culture.",
+    "personality_profile": "The name Maddy is often associated with a lively and friendly personality. Those named Maddy are perceived as approachable, cheerful, and full of youthful energy, making the name suitable for someone who is outgoing and sociable.",
+    "variations_nicknames": "Variations of the name Maddy include Maddie, Madie, and Madi, while common nicknames include Mad, Mads, and Madz. These variations offer flexibility and personalization for those who choose this name.",
+    "popularity_data": "The name Maddy has seen a steady rise in popularity, particularly in the 2010s, where it reached its peak. It remains a favored choice for many parents looking for a modern and relatable name.",
+    "pairing_suggestions": "Maddy pairs well with both classic and modern names, making it a versatile choice. Consider pairing Maddy with names like Grace, Olivia, or Ethan for a complementary sibling set.",
+    "cultural_context": "Maddy has a rich cultural background due to its roots in the names Madeline and Madison. It reflects a blend of tradition and modernity, appealing to a wide range of cultural preferences.",
+    "final_recommendation": "For parents seeking a name that is both modern and timeless, Maddy presents an excellent choice. Its friendly nature and cultural richness make it a name that will suit any child, providing a foundation for a bright future.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

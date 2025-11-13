@@ -1,0 +1,310 @@
+{
+  "name": "Matt",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T22:53:11.599Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Gift of God",
+  "culturalSignificance": "Matt is a common diminutive of Matthew, a name of Hebrew origin that has been widely used in English-speaking countries since the Middle Ages. The name Matthew has significant cultural and religious importance, being the name of one of the apostles and the author of the first Gospel in the New Testament.",
+  "modernContext": "In modern times, Matt is a popular first name in English-speaking countries, often chosen for its simplicity and friendly sound. It remains a common choice for parents seeking a traditional yet approachable name.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/mæt/",
+  "variations": [
+    "Matthew",
+    "Matthias",
+    "Matteo",
+    "Matias",
+    "Mat"
+  ],
+  "similarNames": [
+    "Mark",
+    "Luke",
+    "John",
+    "James",
+    "Michael",
+    "David"
+  ],
+  "nicknames": [
+    "Matty",
+    "Mat",
+    "Mateo"
+  ],
+  "personality": "The name Matt often conjures traits of reliability and approachability, suggesting someone who is friendly and dependable.",
+  "symbolism": "Matt symbolizes a divine gift, reflecting its Hebrew origins meaning 'Gift of God'.",
+  "funFact": "Matt Damon, a famous Hollywood actor, shares this name and is known for his roles in the Bourne film series and Good Will Hunting.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Matthew the Apostle",
+    "significance": "Matthew is one of the twelve apostles of Jesus and is traditionally considered the author of the Gospel of Matthew.",
+    "keyStories": [
+      "Gospel of Matthew",
+      "Calling of Matthew"
+    ],
+    "spiritualMeaning": "The name signifies being a 'gift from God', reflecting the importance of Matthew's teachings in Christianity.",
+    "historicalImpact": "Matthew's Gospel is a foundational text in Christian theology and doctrine."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Matthew Parker",
+      "years": "1504-1575",
+      "category": "Religious Leader",
+      "achievements": [
+        "Archbishop of Canterbury",
+        "Oversaw the Elizabethan Religious Settlement"
+      ],
+      "significance": "Parker was a pivotal figure in the establishment of the Anglican Church.",
+      "notableWorks": [
+        "The Parker Society publications"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Matt Biondi",
+      "context": "Motivational speech",
+      "year": 2000,
+      "category": "Motivational"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Matt Damon",
+      "profession": "Actor",
+      "knownFor": [
+        "Good Will Hunting",
+        "The Bourne Series"
+      ],
+      "awards": "Academy Award for Best Original Screenplay"
+    },
+    {
+      "name": "Matt Groening",
+      "profession": "Animator",
+      "knownFor": [
+        "The Simpsons",
+        "Futurama"
+      ],
+      "awards": "Primetime Emmy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Matt Ryan",
+      "profession": "Athlete",
+      "sport": "American Football",
+      "league": "NFL",
+      "team": "Indianapolis Colts",
+      "pastTeams": [
+        "Atlanta Falcons"
+      ],
+      "position": "Quarterback",
+      "jerseyNumber": "2",
+      "years": "2008-Present",
+      "achievements": "NFL MVP 2016",
+      "knownFor": [
+        "Leadership",
+        "Passing accuracy"
+      ],
+      "awards": "NFL MVP",
+      "stats": "Over 50,000 passing yards",
+      "verified": true,
+      "source": "NFL Official"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Friends",
+      "year": 1994,
+      "type": "TV Show",
+      "characterName": "Matt LeBlanc as Joey Tribbiani",
+      "characterDescription": "A struggling actor known for his charm and humor.",
+      "imdbUrl": "https://www.imdb.com/title/tt0108778/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 95
+    },
+    {
+      "title": "The Martian",
+      "year": 2015,
+      "type": "Movie",
+      "characterName": "Matt Damon as Mark Watney",
+      "characterDescription": "An astronaut stranded on Mars, using ingenuity to survive.",
+      "imdbUrl": "https://www.imdb.com/title/tt3659388/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm not gonna die here.",
+      "character": "Mark Watney",
+      "source": "The Martian",
+      "year": 2015,
+      "context": "Mark Watney's determination to survive on Mars.",
+      "genre": "Science Fiction",
+      "impact": "Highlights human resilience and ingenuity."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs that provide stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, practicality, and groundedness.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes nurturing and restoration.",
+    "karmicLessons": "To learn patience and understanding.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and community."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 245,
+    "peak": 50,
+    "peakYear": 1980
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Your time is limited, don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "context": "Encouragement to live authentically."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Matt"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Mateo",
+      "script": "Latin",
+      "scriptName": "Mateo",
+      "pronunciation": "/maˈteo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ματθαίος",
+      "script": "Greek",
+      "scriptName": "Ματθαίος",
+      "pronunciation": "/matˈθe.os/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "متى",
+      "script": "Arabic",
+      "scriptName": "متى",
+      "pronunciation": "/matta/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "马修",
+      "script": "Han",
+      "scriptName": "马修",
+      "pronunciation": "/mǎ xiū/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Матвей",
+      "script": "Cyrillic",
+      "scriptName": "Матвей",
+      "pronunciation": "/mɐtˈvʲej/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מתתיהו",
+      "script": "Hebrew",
+      "scriptName": "מתתיהו",
+      "pronunciation": "/matˈtɪjahu/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Gospel According to Matthew",
+      "author": "Attributed to Matthew the Apostle",
+      "publishedYear": 60,
+      "genre": "Religious",
+      "significance": "One of the four canonical gospels in the New Testament.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Matt has been a commonly used short form of the classic name Matthew."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "The name is derived from Matthew, a prominent biblical figure."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Matt is frequently used in modern times as a standalone name."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Matt's Song",
+      "artist": "Joe Satriani",
+      "year": 1995,
+      "genre": "Instrumental Rock",
+      "nameContext": "The name appears in the song title.",
+      "description": "A powerful instrumental piece showcasing Satriani's guitar skills.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Matt's+Song+Joe+Satriani",
+      "geniusUrl": "https://genius.com/search?q=Matt's+Song+Joe+Satriani",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Matt, a popular diminutive of Matthew, is a staple in many English-speaking households, known for its simplicity and approachability. Whether you're a fan of the name for its biblical roots or its modern charm, Matt continues to be a favorite choice for parents around the world.",
+    "etymology_meaning": "Derived from the Hebrew name Matityahu, meaning 'Gift of God', Matt holds a deep spiritual significance. Its association with Matthew the Apostle further cements its place in religious and cultural history.",
+    "famous_bearers": "From Hollywood icon Matt Damon to animator Matt Groening, many renowned figures share this name, contributing to its enduring popularity. These individuals highlight the name's versatility across various fields.",
+    "pop_culture_moments": "In pop culture, Matt has made its mark through characters like Joey Tribbiani, played by Matt LeBlanc, in the iconic TV show 'Friends'. The name's presence in media underscores its widespread appeal.",
+    "personality_profile": "Those named Matt are often seen as reliable and friendly, attributes that stem from the name's historical and cultural roots. It's a name that implies trustworthiness and a grounded personality.",
+    "variations_nicknames": "While Matt is a nickname itself, it has other variations such as Matteo and Matthias, each bringing its unique flair. Common nicknames like Matty add a playful touch to the name.",
+    "popularity_data": "Matt has seen varying levels of popularity over the decades, peaking in the 1980s as a top choice for boys. Its consistent use underscores its timeless nature.",
+    "pairing_suggestions": "Matt pairs well with both classic and modern names, making it a versatile choice for first or middle names. Consider combinations like Matt Alexander or Matt Henry for a balanced name.",
+    "cultural_context": "Rooted in Hebrew origins, Matt's biblical connections give it a rich cultural background, making it a meaningful choice for those seeking a name with historical depth.",
+    "final_recommendation": "If you're looking for a name that blends traditional roots with modern appeal, Matt is a strong contender. Its simplicity and warmth make it a timeless choice.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

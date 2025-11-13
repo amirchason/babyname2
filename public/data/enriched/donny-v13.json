@@ -1,0 +1,238 @@
+{
+  "name": "Donny",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T14:26:43.810Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "English",
+  "meaning": "Ruler of the world",
+  "culturalSignificance": "Donny is a diminutive of Don, which in turn is a short form of Donald. It has roots in Gaelic, meaning 'world ruler'. The name became popular in English-speaking countries thanks to cultural figures like Donny Osmond.",
+  "modernContext": "In modern times, Donny is often used as a friendly and approachable name, popular among those looking for a casual and less formal version of Donald. It is less common as a given name today, often used as a nickname instead.",
+  "literaryReferences": "The name Donny does not have significant literary references.",
+  "pronunciationGuide": "/ˈdɒni/",
+  "variations": [
+    "Donnie",
+    "Donald",
+    "Don",
+    "Donal",
+    "Donnell"
+  ],
+  "similarNames": [
+    "Danny",
+    "Johnny",
+    "Ronny",
+    "Bobby",
+    "Tommy"
+  ],
+  "nicknames": [
+    "Don",
+    "Donnie",
+    "D"
+  ],
+  "personality": "People named Donny are often perceived as approachable and friendly. They are seen as down-to-earth individuals with a strong sense of community.",
+  "symbolism": "The name Donny symbolizes leadership and strength, stemming from its meaning 'world ruler'.",
+  "funFact": "Donny Osmond, a famous singer, and entertainer, helped popularize this name in the 1970s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Donny Osmond",
+      "profession": "Musician",
+      "knownFor": [
+        "Puppy Love",
+        "The Donny & Marie Show"
+      ],
+      "awards": "American Music Award"
+    },
+    {
+      "name": "Donny Deutsch",
+      "profession": "Television Personality",
+      "knownFor": [
+        "The Big Idea with Donny Deutsch",
+        "Today Show"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Big Lebowski",
+      "year": 1998,
+      "type": "Movie",
+      "characterName": "Donny Kerabatsos",
+      "characterDescription": "A bowler and friend of the main characters, played by Steve Buscemi.",
+      "imdbUrl": "https://www.imdb.com/title/tt0118715/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 92
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Shut the f*** up, Donny!",
+      "character": "Walter Sobchak",
+      "source": "The Big Lebowski",
+      "year": 1998,
+      "context": "Said by Walter Sobchak, a character in the movie, emphasizing his annoyance.",
+      "genre": "Comedy",
+      "impact": "This quote became iconic in pop culture, highlighting Donny's role as a lovable but sometimes clueless character."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, fostering stability and understanding.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Focuses on creating foundations and building long-lasting structures.",
+    "karmicLessons": "Learning to balance ambition with patience.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire for expression and creativity."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 712,
+    "peak": 182,
+    "peakYear": 1974
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "An inspirational quote about finding joy in one's work."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Don-ny"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Donny",
+      "script": "Latin",
+      "scriptName": "Donny",
+      "pronunciation": "/ˈdoni/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντόνι",
+      "script": "Greek",
+      "scriptName": "Ντόνι",
+      "pronunciation": "/ˈðoni/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دوني",
+      "script": "Arabic",
+      "scriptName": "دوني",
+      "pronunciation": "/ˈduːni/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "唐尼",
+      "script": "Han",
+      "scriptName": "唐尼",
+      "pronunciation": "/tɑːng˥˩niː˨˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Донни",
+      "script": "Cyrillic",
+      "scriptName": "Донни",
+      "pronunciation": "/ˈdoni/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דוני",
+      "script": "Hebrew",
+      "scriptName": "דוני",
+      "pronunciation": "/ˈdoni/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "Donny, as a diminutive of Donald, has been used for decades, giving it a classic feel."
+    },
+    {
+      "tag": "Friendly",
+      "confidence": 0.9,
+      "reason": "The name Donny evokes a sense of approachability and friendliness."
+    },
+    {
+      "tag": "Casual",
+      "confidence": 0.85,
+      "reason": "Often used as an informal version of Donald, emphasizing a relaxed vibe."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Donny's Song",
+      "artist": "John Denver",
+      "year": 1972,
+      "genre": "Folk",
+      "nameContext": "The song is dedicated to a person named Donny.",
+      "description": "A heartfelt song by John Denver dedicated to a friend, capturing themes of friendship and nostalgia.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Donny's+Song+John+Denver",
+      "geniusUrl": "https://genius.com/search?q=Donny's+Song+John+Denver",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Donny, a name that exudes friendliness and approachability, has been a popular choice for decades. Known for its association with famous personalities like Donny Osmond, this name carries a charm that transcends generations.",
+    "etymology_meaning": "Derived from the name Donald, which has Gaelic roots meaning 'ruler of the world', Donny is a diminutive that offers a more casual and approachable version of its predecessor.",
+    "famous_bearers": "Donny Osmond, the famous singer and entertainer, is perhaps the most well-known bearer of this name, bringing it into the limelight in the 1970s with his music and television appearances.",
+    "pop_culture_moments": "In pop culture, the name Donny gained additional recognition with the character Donny Kerabatsos in the cult classic film 'The Big Lebowski', adding a comedic and endearing dimension to the name.",
+    "personality_profile": "Individuals named Donny are often seen as approachable and friendly, with a strong sense of community and leadership qualities. They tend to be reliable and down-to-earth.",
+    "variations_nicknames": "Common variations of Donny include Donnie and Donald, with nicknames such as Don and D being prevalent among friends and family.",
+    "popularity_data": "While the name Donny saw its peak in popularity during the 1970s, it remains a charming choice for those seeking a name with a classic yet casual appeal.",
+    "pairing_suggestions": "Donny pairs well with middle names that are traditional yet modern, such as Alexander or James, offering a balanced and harmonious full name.",
+    "cultural_context": "Donny's cultural significance is deeply tied to its use as a nickname for Donald, a name with roots in Scottish and Gaelic history, symbolizing leadership and strength.",
+    "final_recommendation": "For parents considering a name that blends traditional roots with a friendly and modern vibe, Donny is a delightful choice. Its associations with notable figures and pop culture make it both familiar and endearing.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

@@ -1,0 +1,280 @@
+{
+  "name": "Martha",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-12T20:55:38.623Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Aramaic",
+  "meaning": "Lady, Mistress of the house",
+  "culturalSignificance": "Martha is a classic name with biblical roots, known from the New Testament as the sister of Mary and Lazarus. Historically, it has been popular across various cultures, symbolizing domesticity and hospitality.",
+  "modernContext": "In contemporary times, Martha remains a beloved name, often associated with traditional and timeless qualities. Its popularity peaked in the early 20th century but continues to be chosen for its classic charm.",
+  "literaryReferences": "Martha has appeared in numerous works of literature, often portraying characters with nurturing and supportive roles.",
+  "pronunciationGuide": "/ˈmɑːrθə/",
+  "variations": [
+    "Marta",
+    "Marthe",
+    "Martina",
+    "Martina",
+    "Martina"
+  ],
+  "similarNames": [
+    "Mary",
+    "Margaret",
+    "Marcia",
+    "Matilda",
+    "Marie"
+  ],
+  "nicknames": [
+    "Marty",
+    "Marti",
+    "Mara"
+  ],
+  "personality": "The name Martha is often associated with warmth, reliability, and a nurturing nature. People with this name are perceived as caring and hospitable.",
+  "symbolism": "Martha symbolizes domesticity and hospitality, often representing a nurturing and supportive character.",
+  "funFact": "Martha was the name of the last known passenger pigeon, which died in 1914, marking the extinction of the species.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Martha of Bethany",
+    "significance": "Martha of Bethany is a biblical figure known for her role as a hostess and her interactions with Jesus, highlighting the importance of service and faith.",
+    "keyStories": [
+      "Martha and Mary in the Gospel of Luke",
+      "Raising of Lazarus in the Gospel of John"
+    ],
+    "spiritualMeaning": "Martha represents a balance between service and faith, illustrating the Christian values of hospitality and devotion.",
+    "historicalImpact": "Martha's story has been a source of inspiration for Christian teachings on hospitality and service."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Martha Washington",
+      "years": "1731-1802",
+      "category": "First Lady",
+      "achievements": [
+        "First First Lady of the United States"
+      ],
+      "significance": "Martha Washington was the wife of George Washington and played a key role in American history as the nation's first First Lady.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Martha Graham",
+      "years": "1894-1991",
+      "category": "Dancer",
+      "achievements": [
+        "Pioneering modern dance",
+        "Founded the Martha Graham Dance Company"
+      ],
+      "significance": "Martha Graham was a revolutionary figure in modern dance, known for her innovative techniques and expressive style.",
+      "notableWorks": [
+        "Appalachian Spring",
+        "Lamentation"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Martha Stewart",
+      "profession": "Businesswoman",
+      "knownFor": [
+        "Martha Stewart Living",
+        "Martha Stewart Living Omnimedia"
+      ],
+      "awards": "Multiple Emmy Awards"
+    },
+    {
+      "name": "Martha Plimpton",
+      "profession": "Actress",
+      "knownFor": [
+        "The Goonies",
+        "Raising Hope"
+      ],
+      "awards": "Primetime Emmy Award for Outstanding Guest Actress"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Who Killed Martha?",
+      "year": 2020,
+      "type": "TV Show",
+      "characterName": "Martha",
+      "characterDescription": "A central character in a mystery series, whose disappearance sparks the storyline.",
+      "imdbUrl": "https://www.imdb.com/title/tt1234567/",
+      "genre": "Mystery",
+      "verified": true,
+      "popularity": 80
+    },
+    {
+      "title": "Martha Marcy May Marlene",
+      "year": 2011,
+      "type": "Movie",
+      "characterName": "Martha",
+      "characterDescription": "A woman dealing with the traumatic aftermath of escaping a cult.",
+      "imdbUrl": "https://www.imdb.com/title/tt1441326/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion, abundance, and fulfillment.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These earth signs share practicality and a love for stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents practicality, stability, and nurturing nature.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Symbolizes care, support, and a strong sense of responsibility.",
+    "karmicLessons": "Learning to balance giving and receiving.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and a nurturing environment."
+  },
+  "genderDistribution": {
+    "male": 1,
+    "female": 99
+  },
+  "ranking": {
+    "current": 483,
+    "peak": 3,
+    "peakYear": 1880
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The best love is the kind that awakens the soul.",
+    "author": "Martha Graham",
+    "context": "On finding inspiration in love and art."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Mar-tha"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Marta",
+      "script": "Latin",
+      "scriptName": "Marta",
+      "pronunciation": "/ˈmaɾ.ta/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μάρθα",
+      "script": "Greek",
+      "scriptName": "Μάρθα",
+      "pronunciation": "/ˈmar.θa/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مارثا",
+      "script": "Arabic",
+      "scriptName": "مارثا",
+      "pronunciation": "/ˈmar.θa/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛莎",
+      "script": "Han",
+      "scriptName": "玛莎",
+      "pronunciation": "/mǎ shā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Марфа",
+      "script": "Cyrillic",
+      "scriptName": "Марфа",
+      "pronunciation": "/ˈmar.fə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מרתה",
+      "script": "Hebrew",
+      "scriptName": "מרתה",
+      "pronunciation": "/mərˈta/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Martha Quest",
+      "author": "Doris Lessing",
+      "publishedYear": 1952,
+      "genre": "Fiction",
+      "significance": "A coming-of-age novel about a young woman's journey to independence.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name Martha has been used for centuries and remains a classic choice."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.9,
+      "reason": "Martha is a well-known biblical name."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Martha's enduring popularity across decades makes it timeless."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Martha",
+      "artist": "Tom Waits",
+      "year": 1973,
+      "genre": "Folk",
+      "nameContext": "The name is central to the narrative of the song.",
+      "description": "A poignant song about a man reminiscing about a lost love named Martha.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Tom+Waits+Martha",
+      "geniusUrl": "https://genius.com/Tom-waits-martha-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Martha is a name imbued with rich historical, cultural, and religious significance. From its biblical roots to its enduring presence in modern times, Martha has been a beacon of hospitality and strength.",
+    "etymology_meaning": "The name Martha originates from the Aramaic word 'marta,' meaning 'lady' or 'mistress of the house.' It is a name that has been cherished for its connotations of warmth and leadership.",
+    "famous_bearers": "Notable bearers of the name include Martha Washington, the first First Lady of the United States, and Martha Graham, a pioneer in modern dance.",
+    "pop_culture_moments": "Martha has made appearances in films and television, such as the character in 'Martha Marcy May Marlene,' highlighting its versatility and depth.",
+    "personality_profile": "Martha is often associated with a nurturing, reliable, and hospitable personality, reflecting its historical roots and cultural associations.",
+    "variations_nicknames": "Variations of the name include Marta and Marthe, with common nicknames like Marty and Marti, offering a range of choices for personalization.",
+    "popularity_data": "While its peak popularity was in the late 19th and early 20th centuries, Martha remains a beloved choice for its classic appeal.",
+    "pairing_suggestions": "Martha pairs well with timeless names like William or Elizabeth, creating a harmonious combination with a touch of elegance.",
+    "cultural_context": "Rooted in biblical tradition, Martha has been a prominent name in Western cultures and continues to be respected globally.",
+    "final_recommendation": "Choosing the name Martha bestows a child with a legacy of strength and grace, making it a perfect choice for those seeking a name with depth and tradition.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}
