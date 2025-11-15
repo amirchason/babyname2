@@ -1,0 +1,257 @@
+{
+  "name": "Salomon",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:14:49.275Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "Peaceful",
+  "culturalSignificance": "Salomon is a variant of Solomon, a name with deep roots in both religious and cultural contexts. It is associated with wisdom and peace, reflecting the biblical King Solomon's reputation as a wise ruler.",
+  "modernContext": "In modern times, Salomon is less common than Solomon but is recognized in various cultures, especially within Jewish, Christian, and European communities. It maintains historical appeal due to its biblical connections and royal connotations.",
+  "literaryReferences": "Salomon is often referenced in religious texts and historical literature due to its association with King Solomon.",
+  "pronunciationGuide": "səˈloʊmən",
+  "variations": [
+    "Solomon",
+    "Salomone",
+    "Salomo",
+    "Shlomo",
+    "Salim"
+  ],
+  "similarNames": [
+    "Solomon",
+    "Samuel",
+    "Simon",
+    "Saul",
+    "Samson"
+  ],
+  "nicknames": [
+    "Sal",
+    "Sol",
+    "Salo"
+  ],
+  "personality": "Individuals named Salomon are often thought to embody wisdom, diplomacy, and a peaceful demeanor, reflecting the historical and biblical attributes associated with the name.",
+  "symbolism": "The name symbolizes peace and wisdom, often linked to King Solomon's reputation for fairness and insight.",
+  "funFact": "Salomon is also the name of a well-known sports equipment company, specializing in skiing and snowboarding gear.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity",
+      "Judaism"
+    ],
+    "character": "King Solomon",
+    "significance": "Salomon, as Solomon, is a significant figure in the Bible known for his wisdom, wealth, and building the First Temple in Jerusalem.",
+    "keyStories": [
+      "Judgment of Solomon",
+      "Building of the First Temple"
+    ],
+    "spiritualMeaning": "Embodiment of divine wisdom and peace.",
+    "historicalImpact": "King Solomon's reign is considered a golden age in ancient Israel's history."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Solomon ibn Gabirol",
+      "years": "1021-1058",
+      "category": "Philosopher",
+      "achievements": [
+        "Developed influential philosophical works",
+        "Pioneer in Jewish Neo-Platonism"
+      ],
+      "significance": "Solomon ibn Gabirol was a prominent philosopher and poet in medieval Jewish culture, known for his work in Neo-Platonism and contribution to Hebrew poetry.",
+      "notableWorks": [
+        "Fons Vitae",
+        "Kingdom's Crown"
+      ]
+    },
+    {
+      "fullName": "Salomon August Andrée",
+      "years": "1854-1897",
+      "category": "Explorer",
+      "achievements": [
+        "Attempted to reach the North Pole by balloon"
+      ],
+      "significance": "Andrée was a Swedish engineer and explorer known for his ill-fated Arctic balloon expedition, which remains a significant event in polar exploration history.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Salomon Kalou",
+      "profession": "Footballer",
+      "knownFor": [
+        "Playing for Chelsea FC",
+        "Winning the Premier League"
+      ],
+      "awards": "UEFA Champions League winner"
+    },
+    {
+      "name": "Salomon Smith",
+      "profession": "Economist",
+      "knownFor": [
+        "Contributions to modern economic theory"
+      ],
+      "awards": "Notable academic awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Salomon Kalou",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "Premier League",
+      "team": "Chelsea FC",
+      "pastTeams": [
+        "Feyenoord",
+        "Hertha BSC"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "21",
+      "years": "2006-2020",
+      "achievements": "Premier League winner, UEFA Champions League winner",
+      "knownFor": [
+        "Speed",
+        "Technical skills"
+      ],
+      "awards": "CAF Young Player of the Year",
+      "stats": "Over 60 international caps for Ivory Coast",
+      "verified": true,
+      "source": "Reliable sports databases"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#00FF00"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and clarity",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that value stability and practicality",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and grounding",
+    "celestialArchetype": "The Wise Sage",
+    "celestialArchetypeDescription": "Associated with wisdom and knowledge",
+    "karmicLessons": "Learning to balance wisdom and compassion",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony, truth, and beauty"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 850,
+    "peak": 345,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk.",
+    "author": "Salomon ibn Gabirol",
+    "context": "Philosophical reflection on the value of listening"
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Sa-lo-mon"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Salomón",
+      "script": "Latin",
+      "scriptName": "Salomón",
+      "pronunciation": "saloˈmon",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σολομών",
+      "script": "Greek",
+      "scriptName": "Σολομών",
+      "pronunciation": "soloˈmon",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سليمان",
+      "script": "Arabic",
+      "scriptName": "سليمان",
+      "pronunciation": "sulajman",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "所罗门",
+      "script": "Han",
+      "scriptName": "所罗门",
+      "pronunciation": "Suǒluómén",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Соломон",
+      "script": "Cyrillic",
+      "scriptName": "Соломон",
+      "pronunciation": "səlɐˈmon",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "שלמה",
+      "script": "Hebrew",
+      "scriptName": "שלמה",
+      "pronunciation": "ʃlomo",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 0.95,
+      "reason": "The name is derived from a biblical figure, King Solomon."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Salomon has a long history of use and is considered a timeless name."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.85,
+      "reason": "Associated with King Solomon, a royal figure in biblical history."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Salomon carries a rich history that spans centuries, evoking images of wisdom and peace. With roots in ancient biblical texts, Salomon is a variant of Solomon, a name that resonates with cultural and religious significance.",
+    "etymology_meaning": "Salomon originates from the Hebrew name Shlomo, meaning 'peaceful.' It is related to the biblical King Solomon, renowned for his wisdom and peaceful reign.",
+    "famous_bearers": "Famous bearers of the name include Salomon August Andrée, a pioneering explorer, and Solomon ibn Gabirol, a medieval Jewish philosopher noted for his poetic contributions.",
+    "pop_culture_moments": "While not as prevalent in pop culture as some names, Salomon maintains its presence through historical texts and occasional literary references, keeping its classic charm alive.",
+    "personality_profile": "Those named Salomon are often perceived as wise and thoughtful, reflecting the name's association with King Solomon's legendary wisdom.",
+    "variations_nicknames": "Variations of Salomon include Solomon, Salomone, and Salomo. Common nicknames like Sal and Sol provide a modern twist to this timeless name.",
+    "popularity_data": "Salomon has seen fluctuating popularity over the years, with a peak in the early 20th century. Today, it remains a unique choice with historical depth.",
+    "pairing_suggestions": "Salomon pairs well with classic names like Benjamin or modern names like Oliver, creating a blend of tradition and contemporary appeal.",
+    "cultural_context": "The name Salomon is deeply rooted in Jewish and Christian traditions, carrying with it a legacy of wisdom and reverence.",
+    "final_recommendation": "For parents seeking a name with historical depth and cultural resonance, Salomon offers a timeless choice that embodies wisdom and peace.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -1,0 +1,225 @@
+{
+  "name": "Rosalia",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:13:13.771Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Rose",
+  "culturalSignificance": "Rosalia is a name of Latin origin, meaning 'rose', which has been used in various cultures, particularly in Italy and Spain. The name is often associated with the Sicilian festival of 'La Festa di Santa Rosalia', honoring Saint Rosalia, the patron saint of Palermo.",
+  "modernContext": "In modern times, Rosalia has seen sporadic usage, maintaining a classic charm that appeals to those seeking traditional names with a floral twist. It is not a common name in English-speaking countries but enjoys popularity in Spanish and Italian-speaking regions.",
+  "literaryReferences": "Rosalia is featured as a character in various works of literature, adding a romantic and classical touch to the narratives.",
+  "pronunciationGuide": "ɹoʊˈzɑːliə",
+  "variations": [
+    "Rosalie",
+    "Rosalina",
+    "Rosalinda",
+    "Rosa",
+    "Rosalinda"
+  ],
+  "similarNames": [
+    "Rose",
+    "Rosie",
+    "Rosalind",
+    "Rosalyn",
+    "Rosa"
+  ],
+  "nicknames": [
+    "Rosa",
+    "Rosie",
+    "Lia",
+    "Sally"
+  ],
+  "personality": "The name Rosalia is often associated with a warm, nurturing personality, reflecting qualities of elegance and grace.",
+  "symbolism": "Rosalia symbolizes beauty, love, and passion due to its connection to the rose, a flower often associated with these attributes.",
+  "funFact": "The name Rosalia is celebrated in the Sicilian festival 'La Festa di Santa Rosalia', which is a major cultural and religious event in Palermo.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Rosalia",
+    "significance": "Saint Rosalia is the patron saint of Palermo and is credited with saving the city from the plague.",
+    "keyStories": [
+      "Rosalia was a hermit who lived in a cave on Mount Pellegrino, where her remains were discovered in the 17th century, leading to the cessation of the plague."
+    ],
+    "spiritualMeaning": "Rosalia's life is seen as a symbol of divine intervention and protection.",
+    "historicalImpact": "Her story has had a lasting impact on Sicilian culture and religious practices, leading to her being venerated as a saint."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Saint Rosalia",
+      "years": "1130-1160",
+      "category": "Religious",
+      "achievements": [
+        "Hermit on Mount Pellegrino",
+        "Patron saint of Palermo"
+      ],
+      "significance": "Saint Rosalia is revered for her role in delivering Palermo from the plague.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rosalía Vila Tobella",
+      "profession": "Musician",
+      "knownFor": [
+        "El Mal Querer",
+        "Motomami"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Rose Pink",
+      "hex": "#FF66CC"
+    },
+    "luckyGemstone": "Rose Quartz",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for growth and setting intentions for the future.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection and intuitive understanding.",
+    "cosmicElement": "The Nurturer",
+    "cosmicElementDescription": "Represents the nurturing and caring essence of the name.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes compassion, empathy, and the ability to mend emotional wounds.",
+    "karmicLessons": "To embrace and spread love and compassion.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Driven by a desire to care for others and create harmonious relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 750,
+    "peak": 432,
+    "peakYear": 1924
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The name Rosalia reminds us of the timeless beauty and resilience of love and life.",
+    "author": "Anonymous",
+    "context": "Reflecting on the symbolic meaning of the rose."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "Ro-sa-li-a"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rosalía",
+      "script": "Latin",
+      "scriptName": "Rosalía",
+      "pronunciation": "roˈsa.li.a",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ροζαλία",
+      "script": "Greek",
+      "scriptName": "Ροζαλία",
+      "pronunciation": "roz.aˈli.a",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روزاليا",
+      "script": "Arabic",
+      "scriptName": "روزاليا",
+      "pronunciation": "ruːzaːliːa",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗莎莉亚",
+      "script": "Han",
+      "scriptName": "罗莎莉亚",
+      "pronunciation": "luó shā lì yà",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Розалия",
+      "script": "Cyrillic",
+      "scriptName": "Розалия",
+      "pronunciation": "rɐˈzalʲɪjə",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רוזליה",
+      "script": "Hebrew",
+      "scriptName": "רוזליה",
+      "pronunciation": "rozalia",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Rosalia has a timeless appeal due to its historical and cultural significance."
+    },
+    {
+      "tag": "Floral",
+      "confidence": 0.9,
+      "reason": "The name directly refers to the rose, a symbolic flower across cultures."
+    },
+    {
+      "tag": "Religious",
+      "confidence": 0.85,
+      "reason": "The name is associated with Saint Rosalia, a significant religious figure."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Rosalía",
+      "artist": "Juanes",
+      "year": 2008,
+      "genre": "Rock",
+      "nameContext": "The song is a tribute to a woman named Rosalía.",
+      "description": "This song by Juanes uses the name Rosalía to convey themes of love and admiration.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Juanes+Rosalía",
+      "geniusUrl": "https://genius.com/search?q=Juanes+Rosalía",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Rosalia is a name that carries the beauty and grace of a rose, offering a timeless elegance that has charmed generations. It is a name steeped in history, from ancient times to its modern renditions. Whether you're drawn to its floral origins or its religious connotations, Rosalia offers a rich tapestry of meanings.",
+    "etymology_meaning": "Derived from the Latin word 'rosa', meaning rose, Rosalia shares its roots with various floral names. It has been used historically in Italy and Spain, often linked to the celebration of nature's beauty.",
+    "famous_bearers": "The name Rosalia is perhaps most famously borne by Saint Rosalia, revered in Palermo for her role in the city's deliverance from the plague. In contemporary times, Rosalía Vila Tobella, known simply as Rosalía, has brought the name to the forefront of the music industry.",
+    "pop_culture_moments": "Rosalia has appeared in various films and songs, often symbolizing beauty and purity. The name was brought to popular attention by songs that celebrate its melodic sound and romantic connotations.",
+    "personality_profile": "Those named Rosalia are often seen as nurturing and compassionate, embodying the gentle beauty of the rose. They are perceived as caring individuals who bring harmony and peace to their surroundings.",
+    "variations_nicknames": "Variations like Rosalie and Rosalina offer slight twists on the classic, while nicknames such as Rosa and Lia provide casual alternatives for everyday use.",
+    "popularity_data": "While not a common name in the United States, Rosalia maintains steady popularity in Spanish and Italian-speaking regions, reflecting its cultural roots.",
+    "pairing_suggestions": "Rosalia pairs well with names like Isabella and Lucia, which share its romantic and classic qualities. It also complements names with floral ties, such as Lily and Jasmine.",
+    "cultural_context": "In Italy and Spain, Rosalia is not just a name but a cultural emblem, celebrated in festivals and religious ceremonies, highlighting its deep-rooted significance.",
+    "final_recommendation": "For those seeking a name that is both classic and infused with cultural richness, Rosalia is a beautiful choice. It offers a connection to history and nature, making it a meaningful option for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

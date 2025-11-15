@@ -1,0 +1,245 @@
+{
+  "name": "Terence",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:08:25.755Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Smooth",
+  "culturalSignificance": "The name Terence has deep roots in Roman culture, originally derived from the Latin name Terentius. It was borne by the Roman playwright Publius Terentius Afer, known as Terence, whose works were influential in shaping Roman comedy and literature.",
+  "modernContext": "Terence is a name that, while not as popular today as it once was, still holds a classic charm. It is often chosen for its historical significance and its connotations of sophistication and intelligence.",
+  "literaryReferences": "The Roman playwright Terence is one of the most notable literary figures bearing this name, known for his polished and elegant style.",
+  "pronunciationGuide": "/ˈtɛr.əns/",
+  "variations": [
+    "Terrence",
+    "Terry",
+    "Terentius"
+  ],
+  "similarNames": [
+    "Lawrence",
+    "Clarence",
+    "Vincent",
+    "Theodore"
+  ],
+  "nicknames": [
+    "Terry",
+    "Teri",
+    "Taz"
+  ],
+  "personality": "People named Terence are often perceived as intelligent and cultured, with a penchant for the arts and humanities.",
+  "symbolism": "The name Terence is often associated with smoothness and sophistication, reflecting its Latin origins.",
+  "funFact": "The playwright Terence was known for his adaptation of Greek plays, which significantly influenced Roman literature.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Publius Terentius Afer",
+      "years": "195-159 BC",
+      "category": "Playwright",
+      "achievements": [
+        "Wrote six comedies",
+        "Influenced Roman literature"
+      ],
+      "significance": "Terence was a Roman playwright of North African descent whose works have been praised for their sophisticated language and complex characters.",
+      "notableWorks": [
+        "Andria",
+        "Eunuchus"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "I am a human being, and I think nothing human is alien to me.",
+      "author": "Terence",
+      "context": "From his play 'Heauton Timorumenos'",
+      "year": -165,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Terence Stamp",
+      "profession": "Actor",
+      "knownFor": [
+        "The Adventures of Priscilla, Queen of the Desert",
+        "Superman"
+      ],
+      "awards": "Nominated for an Academy Award"
+    },
+    {
+      "name": "Terence Hill",
+      "profession": "Actor",
+      "knownFor": [
+        "They Call Me Trinity",
+        "My Name is Nobody"
+      ],
+      "awards": "David di Donatello Special Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Adventures of Priscilla, Queen of the Desert",
+      "year": 1994,
+      "type": "Movie",
+      "characterName": "Bernadette Bassenger",
+      "characterDescription": "A transgender woman who is one of the main characters",
+      "imdbUrl": "https://www.imdb.com/title/tt0109045/",
+      "genre": "Comedy/Drama",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Superman II",
+      "year": 1980,
+      "type": "Movie",
+      "characterName": "General Zod",
+      "characterDescription": "A powerful Kryptonian villain",
+      "imdbUrl": "https://www.imdb.com/title/tt0081573/",
+      "genre": "Action/Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and development, building up towards the full moon.",
+    "compatibleSigns": [
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share Earth element qualities, emphasizing practicality and stability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents grounding, stability, and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "An archetype focused on creating and nurturing solid foundations.",
+    "karmicLessons": "To learn patience and persistence.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony, beauty, and nurturing environments."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 723,
+    "peak": 185,
+    "peakYear": 1965
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "I am a human being, and I think nothing human is alien to me.",
+    "author": "Terence",
+    "context": "From his play 'Heauton Timorumenos'"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ter-ence"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Terencio",
+      "script": "Latin",
+      "scriptName": "Terencio",
+      "pronunciation": "/teˈɾenθjo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Τέρενς",
+      "script": "Greek",
+      "scriptName": "Τέρενς",
+      "pronunciation": "/ˈte.rens/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "تيرينس",
+      "script": "Arabic",
+      "scriptName": "تيرينس",
+      "pronunciation": "/tiːˈreːns/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "特伦斯",
+      "script": "Han",
+      "scriptName": "特伦斯",
+      "pronunciation": "/tɤ˥˩ lən˧˥ sɤ˥˩/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Теренс",
+      "script": "Cyrillic",
+      "scriptName": "Теренс",
+      "pronunciation": "/ˈtʲerʲɪns/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "טרנס",
+      "script": "Hebrew",
+      "scriptName": "טרנס",
+      "pronunciation": "/ˈteɾens/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Terence has historical significance and has been used for centuries."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Terence was a notable Roman playwright, contributing significantly to literature."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "The name's continuous use over centuries marks it as timeless."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Terence is a name steeped in history and cultural significance. Originating from Latin, it was borne by one of the most renowned Roman playwrights, whose works have stood the test of time. This name carries a sense of sophistication and artistic flair.",
+    "etymology_meaning": "The name Terence comes from the Latin 'Terentius,' which means 'smooth.' It was popularized by the Roman playwright Terence, who was known for his elegant writing style.",
+    "famous_bearers": "Notable bearers of the name include Terence Stamp, a distinguished actor known for his roles in films like 'Superman,' and Terence Hill, an Italian actor famous for his Westerns.",
+    "pop_culture_moments": "Terence has appeared in various films and shows, notably as the character Bernadette in 'The Adventures of Priscilla, Queen of the Desert.' This character brought attention to the name through its unique portrayal.",
+    "personality_profile": "Those named Terence are often seen as intellectual and cultured. They are drawn to the arts and possess a natural charm that makes them memorable.",
+    "variations_nicknames": "Common variations include Terrence and Terry, which are often used as nicknames. These variations maintain the classic appeal of the original name.",
+    "popularity_data": "The popularity of Terence has seen fluctuations, peaking in the mid-20th century. Although less common now, it still retains a classic charm that many parents find appealing.",
+    "pairing_suggestions": "Paired with names like Elizabeth or Charlotte, Terence complements names that share a classic and timeless quality. It also pairs well with shorter, modern names for a balanced contrast.",
+    "cultural_context": "Historically, Terence has been associated with Roman culture and literature. Its use in modern times reflects a nod to its rich cultural and historical roots.",
+    "final_recommendation": "Terence is an excellent choice for those looking for a name with historical depth and cultural significance. Its associations with literature and the arts make it a name that carries a sense of intelligence and refinement.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

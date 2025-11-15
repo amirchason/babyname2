@@ -1,0 +1,314 @@
+{
+  "name": "Donald",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:03:34.048Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Scottish",
+  "meaning": "Ruler of the world",
+  "culturalSignificance": "Donald is a name of Scottish origin, derived from the Gaelic name 'Dòmhnall', which means 'world ruler'. It has been a popular name in Scotland for centuries, often associated with clan leaders and warriors.",
+  "modernContext": "In the modern context, the name Donald has seen fluctuations in popularity. It gained significant recognition in the 20th century, particularly in the United States, due in part to its association with prominent public figures.",
+  "literaryReferences": "Donald Duck, a popular Disney character, has been a significant cultural icon since his debut in the 1930s.",
+  "pronunciationGuide": "/ˈdɒnəld/",
+  "variations": [
+    "Donal",
+    "Donell",
+    "Donaldo",
+    "Donn",
+    "Donnie"
+  ],
+  "similarNames": [
+    "Ronald",
+    "Daniel",
+    "Douglas",
+    "David",
+    "Duncan"
+  ],
+  "nicknames": [
+    "Don",
+    "Donnie",
+    "Donny",
+    "Dino"
+  ],
+  "personality": "The name Donald is often associated with strong leadership qualities, intelligence, and a commanding presence. People named Donald are frequently seen as decisive and authoritative.",
+  "symbolism": "Donald symbolizes leadership and authority, often associated with a sense of responsibility and governance.",
+  "funFact": "Donald is famously associated with Donald Duck, a character created by Disney that first appeared in 1934.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Donald III of Scotland",
+      "years": "1033-1099",
+      "category": "Royalty",
+      "achievements": [
+        "King of Scots",
+        "Defender of Scottish independence"
+      ],
+      "significance": "Donald III was a King of Scotland who defended the kingdom from external threats and maintained its independence during his reign.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Donald Knuth",
+      "years": "1938-Present",
+      "category": "Scientist",
+      "achievements": [
+        "Pioneering work in computer science",
+        "Author of 'The Art of Computer Programming'"
+      ],
+      "significance": "Donald Knuth is a renowned computer scientist known for his seminal work in algorithms and programming.",
+      "notableWorks": [
+        "The Art of Computer Programming"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Premature optimization is the root of all evil.",
+      "author": "Donald Knuth",
+      "context": "Discussing software development practices",
+      "year": 1974,
+      "category": "Science"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Donald Trump",
+      "profession": "Politician",
+      "knownFor": [
+        "45th President of the United States"
+      ],
+      "awards": "Time Person of the Year 2016"
+    },
+    {
+      "name": "Donald Glover",
+      "profession": "Actor/Musician",
+      "knownFor": [
+        "Atlanta",
+        "Childish Gambino"
+      ],
+      "awards": "Primetime Emmy Awards, Grammy Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Donald Driver",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "Green Bay Packers",
+      "pastTeams": [],
+      "position": "Wide Receiver",
+      "jerseyNumber": "80",
+      "years": "1999-2012",
+      "achievements": "Super Bowl Champion",
+      "knownFor": [
+        "Speed",
+        "Agility"
+      ],
+      "awards": "Pro Bowl",
+      "stats": "10,137 receiving yards",
+      "verified": true,
+      "source": "NFL.com"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "DuckTales",
+      "year": 1987,
+      "type": "TV Show",
+      "characterName": "Donald Duck",
+      "characterDescription": "A comedic and adventurous duck known for his quick temper and mischievous antics.",
+      "imdbUrl": "https://www.imdb.com/title/tt0092345/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 90
+    },
+    {
+      "title": "The Donald Duck Series",
+      "year": 1934,
+      "type": "Movie",
+      "characterName": "Donald Duck",
+      "characterDescription": "An iconic Disney character known for his sailor suit and distinctive quacking voice.",
+      "imdbUrl": "https://www.imdb.com/title/tt0025342/",
+      "genre": "Animation",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "What's the big idea?",
+      "character": "Donald Duck",
+      "source": "DuckTales",
+      "year": 1987,
+      "context": "Expressing frustration or confusion",
+      "genre": "Animation",
+      "impact": "Showcases Donald's classic temperamental personality"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and maturity",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs share a practical and stable nature",
+    "cosmicElement": "The Leader",
+    "cosmicElementDescription": "Symbolizes guidance and authority",
+    "celestialArchetype": "The Ruler",
+    "celestialArchetypeDescription": "Associated with power and governance",
+    "karmicLessons": "Learning to balance authority with empathy",
+    "soulUrge": 8,
+    "soulUrgeDescription": "A desire for success and recognition"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 487,
+    "peak": 6,
+    "peakYear": 1934
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs",
+    "context": "Encouraging leadership and innovation"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Don-ald"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Donaldo",
+      "script": "Latin",
+      "scriptName": "Donaldo",
+      "pronunciation": "/doˈnal.do/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντόναλντ",
+      "script": "Greek",
+      "scriptName": "Ντόναλντ",
+      "pronunciation": "/ˈdo.nald/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دونالد",
+      "script": "Arabic",
+      "scriptName": "دونالد",
+      "pronunciation": "/duː.nald/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "唐纳德",
+      "script": "Han",
+      "scriptName": "唐纳德",
+      "pronunciation": "/tɑ́ŋ.nà.dé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дональд",
+      "script": "Cyrillic",
+      "scriptName": "Дональд",
+      "pronunciation": "/ˈdonəld/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דונלד",
+      "script": "Hebrew",
+      "scriptName": "דונלד",
+      "pronunciation": "/doˈnald/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Donald Duck: 50 Years of Happy Frustration",
+      "author": "Carl Barks",
+      "publishedYear": 1984,
+      "genre": "Non-fiction",
+      "significance": "Celebrates the legacy of Donald Duck as a cultural icon.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "The name has been used for centuries and is associated with historical figures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.9,
+      "reason": "Despite fluctuations in popularity, it remains a recognizable and enduring name."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Associated with iconic characters like Donald Duck."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Donald Duck",
+      "artist": "Disney",
+      "year": 1934,
+      "genre": "Children's Music",
+      "nameContext": "A song featuring the character Donald Duck",
+      "description": "A playful and fun song that encapsulates the spirit of the mischievous character.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Donald+Duck+song",
+      "geniusUrl": "https://genius.com/search?q=Donald+Duck",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Donald is a name steeped in history and cultural significance. From Scottish clan leaders to modern-day figures, the name carries a sense of authority and leadership. Its roots in Gaelic tradition make it a classic choice for those looking to honor their heritage.",
+    "etymology_meaning": "Donald originates from the Scottish Gaelic name 'Dòmhnall', meaning 'ruler of the world'. This powerful meaning has contributed to its enduring popularity across various cultures and eras.",
+    "famous_bearers": "Notable individuals named Donald include former U.S. President Donald Trump and entertainer Donald Glover, illustrating the name's versatility across different fields.",
+    "pop_culture_moments": "Donald Duck, a beloved Disney character, has played a significant role in cementing the name's presence in pop culture since his introduction in the 1930s.",
+    "personality_profile": "The name Donald is often linked with leadership and authority. Those bearing the name are seen as decisive, ambitious, and often influential in their communities.",
+    "variations_nicknames": "Common variations of Donald include Donal and Donnell, while nicknames such as Don and Donnie offer a more casual approach to the classic name.",
+    "popularity_data": "Donald saw peak popularity in the mid-20th century, particularly in the United States, but remains a recognizable and respected name today.",
+    "pairing_suggestions": "Pairing Donald with classic middle names like James or modern choices like Alexander can create a harmonious and distinguished full name.",
+    "cultural_context": "Donald is a name deeply rooted in Scottish tradition, often associated with strength and leadership. Its cultural impact is seen both historically and in modern-day references.",
+    "final_recommendation": "For parents seeking a name with a rich history and a strong, authoritative presence, Donald is an excellent choice. Its timeless appeal and cultural significance make it a standout option.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

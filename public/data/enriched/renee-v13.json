@@ -1,0 +1,240 @@
+{
+  "name": "Renee",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:16:26.512Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Reborn",
+  "culturalSignificance": "Renee is a name of Latin origin, derived from the word 'renatus', meaning 'reborn'. It gained popularity in France and has been widely used in English-speaking countries since the 1920s. The name symbolizes renewal and new beginnings, making it a popular choice in Western cultures.",
+  "modernContext": "Renee remains a popular name in many English-speaking countries, often chosen for its classic and elegant sound. It has seen fluctuating popularity over the decades, often associated with sophistication and grace. In the modern era, it continues to be favored for its timeless appeal.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/rəˈneɪ/",
+  "variations": [
+    "Renae",
+    "Renée",
+    "Renny",
+    "Renata"
+  ],
+  "similarNames": [
+    "Rena",
+    "Rachel",
+    "Rebecca",
+    "Rosie",
+    "Rina"
+  ],
+  "nicknames": [
+    "Ren",
+    "Renny",
+    "Nay",
+    "Rae"
+  ],
+  "personality": "People named Renee are often perceived as intelligent, nurturing, and creative. They are seen as individuals who value relationships and personal connections.",
+  "symbolism": "Symbolically, the name Renee is associated with renewal and transformation, reflecting the idea of new beginnings and personal growth.",
+  "funFact": "Renée is a name often used in France and has been borne by several notable French actresses.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Renée of France",
+      "years": "1510-1575",
+      "category": "Royalty",
+      "achievements": [
+        "Duchess of Ferrara",
+        "Patron of the arts"
+      ],
+      "significance": "Renée of France was a duchess known for her support of the Protestant Reformation and as a patron of the arts.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Renée Zellweger",
+      "profession": "Actor",
+      "knownFor": [
+        "Bridget Jones's Diary",
+        "Judy"
+      ],
+      "awards": "Academy Awards, Golden Globe Awards"
+    },
+    {
+      "name": "Renée Fleming",
+      "profession": "Musician",
+      "knownFor": [
+        "Opera performances",
+        "Classical albums"
+      ],
+      "awards": "Grammy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Umbrella Academy",
+      "year": 2019,
+      "type": "TV Show",
+      "characterName": "Renée",
+      "characterDescription": "A minor character in the series",
+      "imdbUrl": "https://www.imdb.com/title/tt1312171/",
+      "genre": "Action, Adventure, Comedy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Sky Blue",
+      "hex": "#87CEEB"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Wednesday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "A time for new beginnings and setting intentions.",
+    "compatibleSigns": [
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share the Air element, promoting intellectual connection.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Associated with communication and intellect.",
+    "celestialArchetype": "The Communicator",
+    "celestialArchetypeDescription": "Emphasizes the importance of communication and understanding.",
+    "karmicLessons": "Embrace change and transformation.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "Desire for creativity and self-expression."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 642,
+    "peak": 62,
+    "peakYear": 1966
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "author": "Alan Watts",
+    "context": "A quote about embracing change, fitting for the name Renee."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Re-nee"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "René",
+      "script": "Latin",
+      "scriptName": "René",
+      "pronunciation": "/reˈne/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρενέ",
+      "script": "Greek",
+      "scriptName": "Ρενέ",
+      "pronunciation": "/reˈne/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "رينيه",
+      "script": "Arabic",
+      "scriptName": "رينيه",
+      "pronunciation": "/riˈneː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "蕾妮",
+      "script": "Han",
+      "scriptName": "蕾妮",
+      "pronunciation": "/lēi nī/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Рене",
+      "script": "Cyrillic",
+      "scriptName": "Рене",
+      "pronunciation": "/rʲɪˈnʲe/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רנה",
+      "script": "Hebrew",
+      "scriptName": "רנה",
+      "pronunciation": "/reˈne/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Renee has been consistently used across generations, maintaining a classic appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's elegant simplicity makes it timeless across various cultures."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Frequently appears in literature and media, adding to its literary charm."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Renée",
+      "artist": "Lost Boyz",
+      "year": 1996,
+      "genre": "Hip-Hop",
+      "nameContext": "The song is centered around a character named Renée.",
+      "description": "A hip-hop song that tells the story of a romantic relationship with a woman named Renée, highlighting themes of love and loss.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Lost+Boyz+Renée",
+      "geniusUrl": "https://genius.com/Lost-boyz-renee-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Renee is a name that exudes elegance and timelessness, often chosen for its classic appeal and sophisticated sound. Whether found in the halls of history or the pages of modern fiction, Renee continues to capture the imagination of parents worldwide.",
+    "etymology_meaning": "The name Renee originates from the Latin 'renatus', meaning 'reborn'. It has been a popular choice in France and has spread to English-speaking countries, embodying a sense of renewal and new beginnings.",
+    "famous_bearers": "Notable figures like actress Renée Zellweger and opera singer Renée Fleming have brought fame to the name, each contributing to its legacy in their respective fields.",
+    "pop_culture_moments": "From movies to music, Renee has been a name featured in various cultural moments, including the song 'Renée' by Lost Boyz, which explores themes of love and loss.",
+    "personality_profile": "Individuals named Renee are often perceived as nurturing and creative, with a strong appreciation for personal connections and intellectual pursuits.",
+    "variations_nicknames": "Common variations and nicknames for Renee include Renée, Renae, and Renny, offering a range of options for a personalized touch.",
+    "popularity_data": "While its popularity has fluctuated over the decades, Renee remains a beloved choice, often peaking in the mid-20th century and continuing to be a classic favorite.",
+    "pairing_suggestions": "Renee pairs well with middle names like Elizabeth, Marie, and Grace, offering a harmonious balance to its elegant sound.",
+    "cultural_context": "While primarily popular in Western cultures, Renee's roots in Latin and its spread through French and English-speaking countries highlight its broad cultural impact.",
+    "final_recommendation": "For those seeking a name that combines elegance, history, and modern appeal, Renee offers a perfect blend of all three. Its timeless charm and meaningful roots make it a standout choice.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

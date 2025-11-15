@@ -1,0 +1,219 @@
+{
+  "name": "Rossana",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:42:40.619Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Gracious rose",
+  "culturalSignificance": "Rossana is a name primarily of Italian and Spanish origin, often associated with charm and elegance. It gained popularity in the mid-20th century, particularly in Italy, due to its melodic sound and connection to the classic name Rose.",
+  "modernContext": "In modern times, Rossana remains a popular choice in Italian-speaking countries, though less common in English-speaking regions. Its association with the name Rose gives it a timeless appeal, making it a favorite for parents looking for a name that combines tradition with a floral touch.",
+  "literaryReferences": "Rossana is a variant of the name Roxane, famously known from Edmond Rostand's play 'Cyrano de Bergerac,' where Roxane is the beloved of the main character.",
+  "pronunciationGuide": "/roˈsana/",
+  "variations": [
+    "Roxana",
+    "Rosanna",
+    "Roxanne",
+    "Roxanne",
+    "Rosana"
+  ],
+  "similarNames": [
+    "Rosalina",
+    "Rosalia",
+    "Rosario",
+    "Rosetta",
+    "Rosa",
+    "Roxane"
+  ],
+  "nicknames": [
+    "Rosa",
+    "Rosi",
+    "Sana",
+    "Ro",
+    "Annie"
+  ],
+  "personality": "Those named Rossana are often perceived as graceful and charismatic, with a natural flair for creativity and an innate sense of elegance.",
+  "symbolism": "The name Rossana symbolizes beauty and grace, drawing from its connection to the rose, a flower universally associated with love and admiration.",
+  "funFact": "Rossana is a popular name in Italian pop culture, often appearing in songs and films, which has helped maintain its charm and relevance over the years.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rossana Podestà",
+      "profession": "Actress",
+      "knownFor": [
+        "Helen of Troy",
+        "Seven Hills of Rome"
+      ],
+      "awards": "No major awards"
+    },
+    {
+      "name": "Rossana de los Ríos",
+      "profession": "Tennis Player",
+      "knownFor": [
+        "Professional Tennis Career"
+      ],
+      "awards": "No major awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Rose Pink",
+      "hex": "#FF66B2"
+    },
+    "luckyGemstone": "Rose Quartz",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and new beginnings.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These water signs resonate with Rossana's emotional depth and creativity.",
+    "cosmicElement": "The Healer",
+    "cosmicElementDescription": "Rossana embodies the nurturing and compassionate qualities of a healer.",
+    "celestialArchetype": "The Muse",
+    "celestialArchetypeDescription": "Inspires creativity and beauty in others.",
+    "karmicLessons": "Embrace change and trust in your intuition.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "To bring beauty and harmony into the world."
+  },
+  "genderDistribution": {
+    "male": 1,
+    "female": 99
+  },
+  "ranking": {
+    "current": 700,
+    "peak": 450,
+    "peakYear": 1955
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Just living is not enough... one must have sunshine, freedom, and a little flower.",
+    "author": "Hans Christian Andersen",
+    "context": "Reflects the symbolic beauty of the name."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ros-sa-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rossana",
+      "script": "Latin",
+      "scriptName": "Rossana",
+      "pronunciation": "/roˈsana/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ροσάνα",
+      "script": "Greek",
+      "scriptName": "Ροσάνα",
+      "pronunciation": "/roˈsana/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روسانا",
+      "script": "Arabic",
+      "scriptName": "روسانا",
+      "pronunciation": "/roˈsana/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗萨娜",
+      "script": "Han",
+      "scriptName": "罗萨娜",
+      "pronunciation": "/luó sà nà/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Росса́на",
+      "script": "Cyrillic",
+      "scriptName": "Росса́на",
+      "pronunciation": "/rɐˈsanə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רוסנה",
+      "script": "Hebrew",
+      "scriptName": "רוסנה",
+      "pronunciation": "/roˈsana/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Rossana has been used for generations, maintaining its charm across time."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Connected to literary works through its variant Roxane in 'Cyrano de Bergerac.'"
+    },
+    {
+      "tag": "Floral",
+      "confidence": 0.85,
+      "reason": "Associated with the rose, a symbol of beauty and love."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Rossana",
+      "artist": "Toto",
+      "year": 1982,
+      "genre": "Rock",
+      "nameContext": "The song's title and lyrics revolve around a woman named Rossana.",
+      "description": "This song by Toto became a classic hit, renowned for its catchy melody and emotional lyrics about longing and love.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Rossana+Toto",
+      "geniusUrl": "https://genius.com/Toto-rossana-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Rossana is a name that exudes elegance and timeless beauty, much like the flower it's associated with. Known for its melodious sound, Rossana has captured the hearts of parents across generations. Its cultural roots and inherent grace make it a compelling choice for a baby girl.",
+    "etymology_meaning": "The name Rossana is derived from Latin origins, meaning 'gracious rose.' It combines the charm of the classic name Rose with a unique twist that adds sophistication and allure.",
+    "famous_bearers": "Notable individuals such as Italian actress Rossana Podestà have carried the name to international recognition. Her performances in classic films have cemented Rossana's place in cultural history.",
+    "pop_culture_moments": "Rossana has been immortalized in music, most famously by the band Toto, whose song 'Rossana' became a huge hit in the 1980s. This connection to pop culture keeps the name relevant and beloved.",
+    "personality_profile": "Those named Rossana are often seen as graceful, artistic, and compassionate. They bring a sense of warmth and beauty to their surroundings, much like the rose that symbolizes their name.",
+    "variations_nicknames": "Variations such as Roxana or Rosanna offer alternatives for those who love the name's essence but seek a different sound. Common nicknames include Rosa, Rosi, and Sana.",
+    "popularity_data": "Rossana's popularity peaked in the mid-20th century but continues to be a cherished choice in Italian and Spanish-speaking regions. Its classic appeal ensures it remains a timeless option.",
+    "pairing_suggestions": "Pair Rossana with classic middle names for a balanced, elegant full name. Options like Rossana Marie or Rossana Elizabeth offer a harmonious blend of tradition and beauty.",
+    "cultural_context": "Rooted in Latin culture, Rossana embodies qualities of grace and charm. Its connection to the rose adds layers of symbolic meaning, making it a name steeped in cultural richness.",
+    "final_recommendation": "Choosing Rossana for your child is a decision that honors beauty and tradition. With its rich history and elegant sound, Rossana is a name that will stand the test of time, offering grace and charm to its bearer.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

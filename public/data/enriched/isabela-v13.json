@@ -1,0 +1,219 @@
+{
+  "name": "Isabela",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:28:32.315Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "God is my oath",
+  "culturalSignificance": "Isabela is a variant of the name Isabella, which has been used by various royal families in Europe. The name is associated with nobility and grace, often linked to Queen Isabella of Castile who sponsored Christopher Columbus's 1492 voyage.",
+  "modernContext": "Isabela remains a popular choice in Spanish-speaking countries and among Hispanic communities in the United States. Its elegance and royal associations contribute to its enduring appeal.",
+  "literaryReferences": "The name Isabela appears in various modern and historical works of literature, often symbolizing beauty and strength.",
+  "pronunciationGuide": "/ˈiːsəˌbɛlə/",
+  "variations": [
+    "Isabella",
+    "Isabel",
+    "Isabelle",
+    "Ysabel",
+    "Izabela"
+  ],
+  "similarNames": [
+    "Gabriela",
+    "Daniela",
+    "Anabela",
+    "Mariana",
+    "Elena"
+  ],
+  "nicknames": [
+    "Isa",
+    "Bella",
+    "Bel",
+    "Izzy",
+    "Elle"
+  ],
+  "personality": "The name Isabela is often associated with individuals who are perceived as graceful, charismatic, and intelligent.",
+  "symbolism": "Isabela symbolizes loyalty and commitment, often linked to the steadfastness represented by its meaning 'God is my oath.'",
+  "funFact": "Queen Isabella of Castile was instrumental in the Spanish Inquisition and the unification of Spain.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Isabella I of Castile",
+      "years": "1451-1504",
+      "category": "Royalty",
+      "achievements": [
+        "Unified Spain",
+        "Sponsored Columbus's voyage"
+      ],
+      "significance": "Isabella played a key role in the formation of Spain as a unified state and the Age of Exploration.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Isabela Moner",
+      "profession": "Actress",
+      "knownFor": [
+        "Dora and the Lost City of Gold",
+        "Transformers: The Last Knight"
+      ],
+      "awards": "Young Entertainer Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Dora and the Lost City of Gold",
+      "year": 2019,
+      "type": "Movie",
+      "characterName": "Dora",
+      "characterDescription": "A teenage explorer who leads adventures to solve mysteries.",
+      "imdbUrl": "https://www.imdb.com/title/tt7547410/",
+      "genre": "Adventure",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A period of growth and development.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "Both signs share the Water element, fostering emotional connection and understanding.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions and intuition.",
+    "celestialArchetype": "The Nurturer",
+    "celestialArchetypeDescription": "Known for caring and supportive nature.",
+    "karmicLessons": "Learning to trust others and oneself.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for harmony and nurturing relationships."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 120,
+    "peak": 56,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To travel is to discover that everyone is wrong about other countries.",
+    "author": "Aldous Huxley",
+    "context": "The transformative power of exploration, reflecting the historical significance of Isabella of Castile's sponsorship of Columbus."
+  },
+  "syllables": {
+    "count": 4,
+    "breakdown": "I-sa-be-la"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Isabela",
+      "script": "Latin",
+      "scriptName": "Isabela",
+      "pronunciation": "/isaˈβela/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ισαβέλα",
+      "script": "Greek",
+      "scriptName": "Ισαβέλα",
+      "pronunciation": "/isavˈela/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إيزابيلا",
+      "script": "Arabic",
+      "scriptName": "إيزابيلا",
+      "pronunciation": "/iːzaːbiːlaː/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "伊莎贝拉",
+      "script": "Han",
+      "scriptName": "伊莎贝拉",
+      "pronunciation": "/jī shā bèi lā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Изабелла",
+      "script": "Cyrillic",
+      "scriptName": "Изабелла",
+      "pronunciation": "/ɪzəˈbɛlə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "איזבלה",
+      "script": "Hebrew",
+      "scriptName": "איזבלה",
+      "pronunciation": "/izabela/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Royal",
+      "confidence": 0.95,
+      "reason": "Frequently associated with royalty, such as Queen Isabella of Castile."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been in use for centuries and remains popular."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Has retained popularity and cultural relevance over many generations."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Isabela conjures images of elegance and historical significance. Known for its royal connections and timeless appeal, Isabela remains a favorite among parents seeking a name with depth and grace. Its roots in European royalty add a touch of grandeur that is hard to ignore.",
+    "etymology_meaning": "Isabela, derived from the Hebrew name Elisheba, means 'God is my oath.' It has been a notable name throughout history, especially in royal circles. The name has evolved through various cultures, maintaining its regal and pious undertones.",
+    "famous_bearers": "Isabela Moner, a talented actress known for her role in 'Dora and the Lost City of Gold,' brings contemporary recognition to the name. Historically, Queen Isabella of Castile was a pivotal figure in Spanish history, known for her support of Columbus's voyages.",
+    "pop_culture_moments": "Isabela has appeared in films and television, often representing characters with strength and integrity. The name's presence in pop culture continues to reinforce its classic yet modern appeal.",
+    "personality_profile": "Individuals named Isabela are often seen as charismatic and intelligent, with a natural grace that draws others in. They are perceived as leaders with a strong sense of duty and loyalty.",
+    "variations_nicknames": "Variations such as Isabella and Isabel add versatility to the name, while nicknames like Isa and Bella offer familiar and affectionate options. These variations ensure that the name can adapt to different languages and cultures.",
+    "popularity_data": "Isabela has consistently ranked among the top names for girls, especially in Spanish-speaking regions. Its peak popularity was in the early 2010s, but it remains a favorite choice for many parents today.",
+    "pairing_suggestions": "Isabela pairs well with middle names like Grace or Marie, complementing its elegance. For sibling names, consider options that share its classic appeal, like Gabriel or Sofia.",
+    "cultural_context": "With roots in Hebrew and widespread use in Spanish-speaking countries, Isabela offers a rich cultural background. Its historical ties to European royalty add a layer of sophistication and tradition.",
+    "final_recommendation": "For parents seeking a name with historical depth and modern charm, Isabela is a perfect choice. Its regal associations and timeless elegance make it a name that will stand the test of time, ensuring a meaningful legacy for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

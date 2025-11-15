@@ -1,0 +1,270 @@
+{
+  "name": "Edmund",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:42:40.619Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Wealthy protector",
+  "culturalSignificance": "The name Edmund has deep historical roots, often associated with English royalty and nobility. Notably, it was borne by Edmund the Martyr, a 9th-century king of East Anglia who was venerated as a martyr after his death at the hands of Viking invaders.",
+  "modernContext": "Edmund maintains a classic charm, often chosen by parents looking for a name with historical weight and literary connections. Although it is less common today, it remains a distinguished choice with a timeless appeal.",
+  "literaryReferences": "Edmund is a prominent character in C.S. Lewis's 'The Chronicles of Narnia' series, known for his complex character arc from betrayal to redemption.",
+  "pronunciationGuide": "/ˈɛdmənd/",
+  "variations": [
+    "Edmond",
+    "Edmundo",
+    "Eadmund",
+    "Edmunde",
+    "Edmon"
+  ],
+  "similarNames": [
+    "Edward",
+    "Edgar",
+    "Edwin",
+    "Ethan",
+    "Emmett"
+  ],
+  "nicknames": [
+    "Ed",
+    "Eddie",
+    "Ned",
+    "Ted"
+  ],
+  "personality": "Namesakes of Edmund are often perceived as reliable, thoughtful, and possessing a quiet strength.",
+  "symbolism": "Symbolically, Edmund represents protection and prosperity, reflecting its meaning of 'wealthy protector.'",
+  "funFact": "Edmund Hillary, the first person confirmed to reach the summit of Mount Everest, shares this name.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Edmund the Martyr",
+    "significance": "Saint Edmund the Martyr is venerated in the Christian tradition, particularly within the Anglican and Catholic churches, as a symbol of faith and sacrifice.",
+    "keyStories": [
+      "Martyrdom by Viking invaders"
+    ],
+    "spiritualMeaning": "Represents steadfast faith and sacrifice for one's beliefs.",
+    "historicalImpact": "Influenced the Christian narrative of martyrdom during the Viking invasions of England."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Edmund Ironside",
+      "years": "989-1016",
+      "category": "Royalty",
+      "achievements": [
+        "King of England",
+        "Fought off Danish invasions"
+      ],
+      "significance": "Known for his valiant efforts to defend England against Danish invasions.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Edmund Burke",
+      "years": "1729-1797",
+      "category": "Philosopher",
+      "achievements": [
+        "Member of Parliament",
+        "Reflections on the Revolution in France"
+      ],
+      "significance": "A prominent statesman and philosopher, Burke is considered the philosophical founder of modern conservatism.",
+      "notableWorks": [
+        "Reflections on the Revolution in France"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "Those who don't know history are destined to repeat it.",
+      "author": "Edmund Burke",
+      "context": "A reflection on the importance of historical awareness.",
+      "year": 1790,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Edmund Hillary",
+      "profession": "Explorer",
+      "knownFor": [
+        "First ascent of Mount Everest"
+      ],
+      "awards": "Order of the Garter, Order of New Zealand"
+    },
+    {
+      "name": "Edmund Gwenn",
+      "profession": "Actor",
+      "knownFor": [
+        "Miracle on 34th Street"
+      ],
+      "awards": "Academy Award for Best Supporting Actor"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "year": 2005,
+      "type": "Movie",
+      "characterName": "Edmund Pevensie",
+      "characterDescription": "A young boy who becomes a king of Narnia after overcoming his initial betrayal.",
+      "imdbUrl": "https://www.imdb.com/title/tt0363771/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "When things go wrong, you’ll find they usually go on getting worse for some time; but when things once start going right they often go on getting better and better.",
+      "character": "Edmund Pevensie",
+      "source": "The Chronicles of Narnia",
+      "year": 1950,
+      "context": "Expressing optimism after overcoming challenges.",
+      "genre": "Fantasy",
+      "impact": "Illustrates the theme of redemption and growth."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "New Moon",
+    "moonPhaseDescription": "Represents new beginnings and fresh starts.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "These signs share practical and grounded traits.",
+    "cosmicElement": "The Builder",
+    "cosmicElementDescription": "Emphasizes creation and stability.",
+    "celestialArchetype": "The Protector",
+    "celestialArchetypeDescription": "Associated with safeguarding and nurturing others.",
+    "karmicLessons": "Learning to balance protection with personal freedom.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desires harmony and a nurturing environment."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 150,
+    "peakYear": 1910
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself.",
+    "author": "Soren Kierkegaard",
+    "context": "Encouraging courage and the pursuit of personal growth."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ed-mund"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Edmundo",
+      "script": "Latin",
+      "scriptName": "Edmundo",
+      "pronunciation": "/eðˈmundo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Έντμουντ",
+      "script": "Greek",
+      "scriptName": "Έντμουντ",
+      "pronunciation": "/ˈɛdmund/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "إدموند",
+      "script": "Arabic",
+      "scriptName": "إدموند",
+      "pronunciation": "/ˈɛdmund/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "爱德蒙",
+      "script": "Han",
+      "scriptName": "爱德蒙",
+      "pronunciation": "/ài dé méng/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Эдмунд",
+      "script": "Cyrillic",
+      "scriptName": "Эдмунд",
+      "pronunciation": "/ˈɛdmund/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אדמונד",
+      "script": "Hebrew",
+      "scriptName": "אדמונד",
+      "pronunciation": "/ˈɛdmund/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Lion, the Witch and the Wardrobe",
+      "author": "C.S. Lewis",
+      "publishedYear": 1950,
+      "genre": "Fiction",
+      "significance": "A classic work of children's literature, introducing the magical world of Narnia.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been used historically and retains a timeless appeal."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Associated with English kings and nobility."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.85,
+      "reason": "Featured prominently in classic literature like 'The Chronicles of Narnia.'"
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Edmund is a name that carries a rich tapestry of history and storytelling. From the pages of classic English literature to the chronicles of royal history, Edmund has been a name of significance and grandeur. It's a choice that resonates with those who appreciate traditional names with a story to tell.",
+    "etymology_meaning": "Edmund is derived from the Old English elements 'ead', meaning 'wealth' or 'fortune', and 'mund', meaning 'protector'. This gives the name a powerful meaning: 'wealthy protector'.",
+    "famous_bearers": "Famous bearers of the name Edmund include Edmund Burke, an influential philosopher and statesman, and Edmund Hillary, the first person to successfully reach the summit of Mount Everest.",
+    "pop_culture_moments": "In pop culture, Edmund is perhaps best known as one of the main characters in C.S. Lewis's beloved 'The Chronicles of Narnia' series, where he undergoes a significant transformation from betrayal to redemption.",
+    "personality_profile": "Edmund is often associated with traits of reliability, intelligence, and a sense of duty. Those who bear the name are thought to be thoughtful and steadfast, with a strong moral compass.",
+    "variations_nicknames": "Variations of Edmund include Edmond and Edmundo, while common nicknames are Ed, Eddie, and Ned. These variations allow for both formal and informal use.",
+    "popularity_data": "While not as common today as it was in the early 20th century, Edmund continues to be a favored choice for parents seeking a name with historical and literary resonance.",
+    "pairing_suggestions": "Edmund pairs well with other classic names such as Henry, Charlotte, and Eleanor, creating harmonious combinations that exude elegance and tradition.",
+    "cultural_context": "With its roots in English nobility and literature, Edmund is a name that reflects a rich cultural heritage. It's a name that appeals to those who value history and storytelling.",
+    "final_recommendation": "For parents seeking a name that carries both historical significance and literary charm, Edmund is an excellent choice. Its timeless nature ensures it will remain a classic for generations to come.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

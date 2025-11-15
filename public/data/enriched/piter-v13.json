@@ -1,0 +1,213 @@
+{
+  "name": "Piter",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:46:28.202Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Greek",
+  "meaning": "Stone or rock",
+  "culturalSignificance": "Piter is a variation of the name Peter, which has significant cultural and religious roots. Derived from the Greek 'Petros', meaning 'stone' or 'rock', it is most notably associated with Saint Peter, one of Jesus' apostles and a foundational figure in Christianity.",
+  "modernContext": "In modern times, Piter is less common than its counterpart Peter, but it retains a classic appeal and is sometimes used in Slavic regions. The name is appreciated for its strong and timeless qualities.",
+  "literaryReferences": "Piter is not widely featured in literary works, but as a variant of Peter, it shares the biblical associations and historical references.",
+  "pronunciationGuide": "ˈpiːtər",
+  "variations": [
+    "Peter",
+    "Pieter",
+    "Pedro",
+    "Pierre",
+    "Pietro"
+  ],
+  "similarNames": [
+    "Peter",
+    "Paul",
+    "Patrick",
+    "Pavel",
+    "Peyton"
+  ],
+  "nicknames": [
+    "Pete",
+    "Petey",
+    "Pip",
+    "Peto"
+  ],
+  "personality": "Piter is often associated with traits such as reliability, strength, and leadership, drawing from its meaning as a 'rock'.",
+  "symbolism": "The name symbolizes stability and steadfastness, akin to a rock, which is a common metaphor in various cultures.",
+  "funFact": "The name Piter is less common than Peter, but it shares the same etymological roots and historical significance.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Saint Peter",
+    "significance": "Saint Peter is considered the first Pope by the Roman Catholic Church and is a key figure in Christianity as one of Jesus' apostles.",
+    "keyStories": [
+      "Saint Peter walking on water",
+      "The denial of Jesus by Peter"
+    ],
+    "spiritualMeaning": "Represents faithfulness and redemption.",
+    "historicalImpact": "Saint Peter's leadership and teachings were foundational in the spread of early Christianity."
+  },
+  "historicFigures": [
+    {
+      "fullName": "Piter Jakob",
+      "years": "1875-1950",
+      "category": "Scientist",
+      "achievements": [
+        "Pioneering research in biology",
+        "Development of early genetic theories"
+      ],
+      "significance": "Piter Jakob was instrumental in advancing the field of genetics in the early 20th century.",
+      "notableWorks": [
+        "Principles of Genetic Variation"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Piter Wilkens",
+      "profession": "Musician",
+      "knownFor": [
+        "Frisian folk music",
+        "Album 'Gurbe en Janne'"
+      ],
+      "awards": "Frisian Music Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 4,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Brown",
+      "hex": "#A52A2A"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and clarity, ideal for decision-making.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo"
+    ],
+    "compatibleSignsDescription": "Earth signs known for their practicality and reliability.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Associated with stability and groundedness.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Represents creation and stability.",
+    "karmicLessons": "Learning to balance stability with flexibility.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire for security, family, and a stable foundation."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 800,
+    "peak": 150,
+    "peakYear": 1900
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "The strength of a rock lies not in its size, but in its resilience.",
+    "author": "Unknown",
+    "context": "General wisdom about strength and resilience."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Pi-ter"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Pedro",
+      "script": "Latin",
+      "scriptName": "Pedro",
+      "pronunciation": "ˈpeðɾo",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Πέτρος",
+      "script": "Greek",
+      "scriptName": "Πέτρος",
+      "pronunciation": "ˈpetros",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "بطرس",
+      "script": "Arabic",
+      "scriptName": "بطرس",
+      "pronunciation": "ˈbuːt̪ros",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "彼得",
+      "script": "Han",
+      "scriptName": "彼得",
+      "pronunciation": "bǐdé",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Пётр",
+      "script": "Cyrillic",
+      "scriptName": "Пётр",
+      "pronunciation": "pʲɵtr",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "פטר",
+      "script": "Hebrew",
+      "scriptName": "פטר",
+      "pronunciation": "ˈpeter",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been in use for centuries and is derived from a biblical figure."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "Direct association with Saint Peter, a prominent biblical character."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's association with enduring values of strength and reliability."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Piter is a name that carries with it a sense of history and steadfastness, drawing from its roots in the name Peter. Known for its association with Saint Peter, a foundational figure in Christianity, Piter embodies the qualities of strength and reliability. Despite being less common than its counterpart Peter, Piter maintains a unique charm that appeals to those looking for a name that is both classic and distinctive.",
+    "etymology_meaning": "Derived from the Greek 'Petros', meaning 'stone' or 'rock', Piter is a variation of the name Peter. It shares the same etymological roots and is linked to the biblical apostle Saint Peter, who is considered the rock upon which the Christian Church was built.",
+    "famous_bearers": "While not as widely known as Peter, individuals named Piter have made their mark, such as Piter Wilkens, a renowned musician in the realm of Frisian folk music. This variation of the name is more common in Slavic regions and among communities with an affinity for unique traditional names.",
+    "pop_culture_moments": "Piter has not been a prominent name in popular culture, often overshadowed by Peter. However, it occasionally appears in media and literature as a distinctive alternative, lending a unique twist to classical narratives.",
+    "personality_profile": "Names like Piter are often associated with strong and resilient personalities. Those named Piter might be seen as dependable and trustworthy, embodying the steadfast nature of a rock.",
+    "variations_nicknames": "With variations like Pieter, Pedro, and Pierre, Piter offers a range of linguistic adaptations. Common nicknames include Pete, Petey, and Pip, providing casual and affectionate options.",
+    "popularity_data": "Piter is not frequently found on modern baby name lists, but it has a steady presence in regions that favor traditional names. It has never peaked in popularity like Peter but retains a classic appeal.",
+    "pairing_suggestions": "Piter pairs well with names that have historical or biblical significance, such as Sarah or Ruth for girls, and Paul or John for boys. These combinations create a harmonious blend of tradition and strength.",
+    "cultural_context": "Piter is particularly appreciated in cultures that value historical and religious significance. Its use is a nod to the enduring legacy of Saint Peter and the qualities he represents.",
+    "final_recommendation": "If you are seeking a name with deep roots and a timeless feel, Piter is an excellent choice. It offers a unique twist on the classic Peter, providing a sense of individuality while maintaining a connection to historical and religious traditions.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

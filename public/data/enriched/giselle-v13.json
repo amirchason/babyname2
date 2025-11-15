@@ -1,0 +1,242 @@
+{
+  "name": "Giselle",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:18:05.559Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Germanic",
+  "meaning": "Pledge",
+  "culturalSignificance": "Giselle is a name that has historical significance in Germanic and French cultures. It is often associated with nobility and grace, largely due to its etymology and the renown of the romantic ballet 'Giselle'.",
+  "modernContext": "In modern times, the name Giselle has maintained moderate popularity, especially in French and English-speaking countries. It is often associated with elegance and has been used in various forms of media, contributing to its enduring appeal.",
+  "literaryReferences": "The name Giselle is famously associated with the romantic ballet 'Giselle', which tells the story of a peasant girl who falls in love with a nobleman.",
+  "pronunciationGuide": "ʒɪˈzɛl",
+  "variations": [
+    "Gisele",
+    "Gisella",
+    "Gisèle",
+    "Gisella",
+    "Gisela"
+  ],
+  "similarNames": [
+    "Isabelle",
+    "Gabrielle",
+    "Michelle",
+    "Arielle",
+    "Danielle"
+  ],
+  "nicknames": [
+    "Gigi",
+    "Elle",
+    "Gis",
+    "Gissy"
+  ],
+  "personality": "The name Giselle is often associated with grace, elegance, and a strong sense of loyalty. People with this name are perceived as creative and artistic.",
+  "symbolism": "Giselle symbolizes purity and grace, often reflecting the qualities of gentleness and elegance.",
+  "funFact": "The ballet 'Giselle' is considered one of the greatest romantic ballets of all time and is known for its hauntingly beautiful score by Adolphe Adam.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Gisela of Hungary",
+      "years": "985-1065",
+      "category": "Royalty",
+      "achievements": [
+        "Queen consort of Hungary",
+        "Promoted Christianity"
+      ],
+      "significance": "Gisela was the first queen of Hungary and played a significant role in establishing Christianity in the region.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Gisele Bündchen",
+      "profession": "Model",
+      "knownFor": [
+        "Victoria's Secret",
+        "Environmental activism"
+      ],
+      "awards": "VH1/Vogue Model of the Year 1999"
+    },
+    {
+      "name": "Giselle Fernández",
+      "profession": "Journalist",
+      "knownFor": [
+        "Television reporting",
+        "NBC's Today Show"
+      ],
+      "awards": "Emmy Awards"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Giselle",
+      "year": 2013,
+      "type": "Movie",
+      "characterName": "Giselle",
+      "characterDescription": "A ballerina in a modern adaptation of the classic ballet.",
+      "imdbUrl": "https://www.imdb.com/title/tt2355800/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of heightened energy and clarity.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "Air signs are known for their intellect and communication skills, which complement Giselle's artistic nature.",
+    "cosmicElement": "Air",
+    "cosmicElementDescription": "Air represents intellect, communication, and creativity.",
+    "celestialArchetype": "The Artist",
+    "celestialArchetypeDescription": "The Artist archetype embodies creativity, expression, and a deep appreciation for beauty.",
+    "karmicLessons": "To embrace change and express creativity.",
+    "soulUrge": 3,
+    "soulUrgeDescription": "A desire to express oneself creatively and connect with others."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 412,
+    "peak": 134,
+    "peakYear": 2008
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "To dance is to be out of yourself. Larger, more beautiful, more powerful.",
+    "author": "Agnes de Mille",
+    "context": "A quote about the transformative power of dance, often associated with the ballet 'Giselle'."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Gi-selle"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Giselle",
+      "script": "Latin",
+      "scriptName": "Giselle",
+      "pronunciation": "xiˈsel",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκιζέλ",
+      "script": "Greek",
+      "scriptName": "Γκιζέλ",
+      "pronunciation": "ɡiˈzel",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "جيزيل",
+      "script": "Arabic",
+      "scriptName": "جيزيل",
+      "pronunciation": "ʒiˈziːl",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "吉赛尔",
+      "script": "Han",
+      "scriptName": "吉赛尔",
+      "pronunciation": "Jísài'ěr",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Жизель",
+      "script": "Cyrillic",
+      "scriptName": "Жизель",
+      "pronunciation": "ʐɨˈzʲelʲ",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "ג'יזל",
+      "script": "Hebrew",
+      "scriptName": "ג'יזל",
+      "pronunciation": "d͡ʒiˈzel",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has historical roots and a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "The name is associated with the classic ballet 'Giselle'."
+    },
+    {
+      "tag": "Romantic",
+      "confidence": 0.85,
+      "reason": "The name is often associated with romance due to its use in literary and artistic contexts."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Giselle",
+      "artist": "Paul Schwartz",
+      "year": 1998,
+      "genre": "Classical",
+      "nameContext": "The name appears in the title and themes of the song.",
+      "description": "A beautifully orchestrated piece inspired by the ballet 'Giselle', capturing the ethereal and romantic qualities of the story.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Paul+Schwartz+Giselle",
+      "geniusUrl": "https://genius.com/search?q=Paul+Schwartz+Giselle",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Giselle is a name that dances gracefully across the pages of history, much like the ballet of the same name. With roots in Germanic origins, it carries the meaning of 'pledge' or 'hostage', but its cultural significance far exceeds its etymological confines.",
+    "etymology_meaning": "The name Giselle originates from the Germanic word 'gisil', which translates to 'pledge'. This name gained prominence through various forms of art, most notably the romantic ballet 'Giselle'.",
+    "famous_bearers": "Among the notable bearers of the name is supermodel Gisele Bündchen, whose fame and environmental activism have made her a household name around the world. Journalist Giselle Fernández has also made significant contributions to broadcast journalism.",
+    "pop_culture_moments": "In pop culture, 'Giselle' is immortalized by the ballet, a timeless piece that continues to captivate audiences with its tragic love story and hauntingly beautiful music.",
+    "personality_profile": "Names like Giselle often connote elegance and grace. People named Giselle may be seen as artistic, gentle, and possessing a refined taste.",
+    "variations_nicknames": "Variations of Giselle include Gisele, Gisella, and Gisèle, each offering a unique flair while retaining the name's classic essence. Common nicknames such as Gigi or Elle add a personal touch.",
+    "popularity_data": "The name Giselle saw a surge in popularity in the early 2000s, peaking in 2008. It continues to be a favored choice for parents looking for a name that embodies sophistication and charm.",
+    "pairing_suggestions": "Names that pair well with Giselle include classic choices like Alexander or modern picks like Ethan. These combinations often evoke a sense of balance and harmony.",
+    "cultural_context": "Giselle has a rich cultural background, bridging Germanic origins with French elegance. It has been embraced in various countries, each adding its own cultural nuances to the name.",
+    "final_recommendation": "If you're seeking a name that exudes elegance and timeless charm, Giselle might just be the perfect choice. It's a name that not only stands the test of time but also carries a rich tapestry of cultural significance.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

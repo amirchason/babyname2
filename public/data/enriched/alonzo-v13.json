@@ -1,0 +1,266 @@
+{
+  "name": "Alonzo",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:45:21.333Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Noble and ready",
+  "culturalSignificance": "The name Alonzo is derived from the Germanic name Alfonso, which was popularized in Spain and Italy. It carries a sense of nobility and preparedness, often associated with historical figures and royalty.",
+  "modernContext": "Alonzo remains a classic name in the United States, maintaining a steady presence in baby name rankings. It is appreciated for its strong, yet elegant sound, and is often chosen by parents looking for a name with historical depth.",
+  "literaryReferences": "Alonzo appears in literature as a character in 'The Tempest' by William Shakespeare, where he is the King of Naples.",
+  "pronunciationGuide": "/əˈlɒn.zoʊ/",
+  "variations": [
+    "Alonso",
+    "Alfonso",
+    "Alphonso",
+    "Alfonzo",
+    "Lonzo"
+  ],
+  "similarNames": [
+    "Antonio",
+    "Alfredo",
+    "Lorenzo",
+    "Ramon",
+    "Marco"
+  ],
+  "nicknames": [
+    "Al",
+    "Lonnie",
+    "Zo",
+    "Lon",
+    "Zoe"
+  ],
+  "personality": "People named Alonzo are often perceived as noble and dignified, with a readiness to take on leadership roles and a strong sense of responsibility.",
+  "symbolism": "The name Alonzo symbolizes nobility and preparedness, reflecting a character that is both honorable and ready for challenges.",
+  "funFact": "Alonzo is often chosen by authors and playwrights for characters who are kings or leaders, highlighting its royal connotations.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Alonso de Ojeda",
+      "years": "1468-1515",
+      "category": "Explorer",
+      "achievements": [
+        "Explored the northern coast of South America",
+        "Known for his expeditions to Venezuela"
+      ],
+      "significance": "Ojeda was a Spanish explorer and navigator known for his expeditions to the New World, contributing to the Spanish colonization of the Americas.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Alonzo Church",
+      "years": "1903-1995",
+      "category": "Mathematician",
+      "achievements": [
+        "Developed the Church-Turing thesis",
+        "Founded lambda calculus"
+      ],
+      "significance": "Church was an American mathematician and logician whose work laid the foundation for computer science and mathematical logic.",
+      "notableWorks": [
+        "Introduction to Mathematical Logic"
+      ]
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Alonzo Mourning",
+      "profession": "Athlete",
+      "knownFor": [
+        "NBA player",
+        "Miami Heat"
+      ],
+      "awards": "NBA Champion, 7-time NBA All-Star"
+    },
+    {
+      "name": "Alonzo Bodden",
+      "profession": "Comedian",
+      "knownFor": [
+        "Winner of Last Comic Standing",
+        "Stand-up comedy"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Alonzo Mourning",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Miami Heat",
+      "pastTeams": [
+        "Charlotte Hornets",
+        "New Jersey Nets"
+      ],
+      "position": "Center",
+      "jerseyNumber": "33",
+      "years": "1992-2008",
+      "achievements": "NBA Champion, 2-time NBA Defensive Player of the Year",
+      "knownFor": [
+        "Shot-blocking",
+        "Defense"
+      ],
+      "awards": "NBA Champion, 7-time NBA All-Star",
+      "stats": "Career averages of 17.1 points and 8.5 rebounds per game",
+      "verified": true,
+      "source": "NBA official site"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Tempest",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Alonso",
+      "characterDescription": "King of Naples who is shipwrecked on an island.",
+      "imdbUrl": "https://www.imdb.com/title/tt1274300/",
+      "genre": "Drama",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Royal Blue",
+      "hex": "#4169E1"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for growth and setting intentions.",
+    "compatibleSigns": [
+      "Gemini",
+      "Libra",
+      "Aquarius"
+    ],
+    "compatibleSignsDescription": "These signs share an intellectual and communicative nature.",
+    "cosmicElement": "The Leader",
+    "cosmicElementDescription": "Reflects a strong sense of leadership and initiative.",
+    "celestialArchetype": "The Diplomat",
+    "celestialArchetypeDescription": "Known for harmony, balance, and cooperation.",
+    "karmicLessons": "To develop patience and understanding in relationships.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desires freedom and adventure, seeking new experiences."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 600,
+    "peak": 230,
+    "peakYear": 1890
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "A motivational quote for pursuing passion."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "A-lon-zo"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Alonso",
+      "script": "Latin",
+      "scriptName": "Alonso",
+      "pronunciation": "/aˈlon.so/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Αλόνσο",
+      "script": "Greek",
+      "scriptName": "Αλόνσο",
+      "pronunciation": "/aˈlon.so/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ألونسو",
+      "script": "Arabic",
+      "scriptName": "ألونسو",
+      "pronunciation": "/ʔaˈlon.so/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "阿隆佐",
+      "script": "Han",
+      "scriptName": "阿隆佐",
+      "pronunciation": "/ā lóng zuǒ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Алонзо",
+      "script": "Cyrillic",
+      "scriptName": "Алонзо",
+      "pronunciation": "/ɐˈlon.zə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "אלונזו",
+      "script": "Hebrew",
+      "scriptName": "אלונזו",
+      "pronunciation": "/aˈlon.zo/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Alonzo has historical roots and has been used for centuries."
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Often associated with regal and noble characters in literature and history."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Featured in classic literary works such as Shakespeare's 'The Tempest'."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Alonzo is a name with a rich historical and cultural background, rooted in nobility and readiness. It has been a choice for many throughout the centuries, providing a sense of strength and dignity.",
+    "etymology_meaning": "Derived from the Germanic name Alfonso, Alonzo means 'noble and ready'. This meaning has contributed to its popularity among those seeking a classic name with a strong heritage.",
+    "famous_bearers": "Alonzo has been borne by notable figures such as Alonzo Mourning, a celebrated basketball player, and Alonzo Church, a pioneering mathematician.",
+    "pop_culture_moments": "In pop culture, Alonzo features prominently in Shakespeare's 'The Tempest', highlighting its classical appeal.",
+    "personality_profile": "Those named Alonzo are often seen as leaders, with a natural ability to inspire and guide others. Their noble nature is complemented by a readiness to embrace challenges.",
+    "variations_nicknames": "Variations of Alonzo include Alonso and Alphonso, with nicknames such as Lonnie and Zo providing a more casual touch.",
+    "popularity_data": "While not at the peak of popularity, Alonzo maintains a steady presence, favored by parents who appreciate its timeless qualities.",
+    "pairing_suggestions": "Alonzo pairs well with names like Isabella and Lorenzo, offering a harmonious blend for siblings.",
+    "cultural_context": "With roots in Germanic and Spanish cultures, Alonzo embodies a blend of European influence and regal presence.",
+    "final_recommendation": "For parents seeking a name that offers historical depth and a sense of nobility, Alonzo is a compelling choice. Its timeless appeal and strong cultural roots make it a lasting favorite.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

@@ -44,7 +44,6 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({
         duration: 4,
         repeat: Infinity,
         delay: i * 0.4,
-        ease: "easeInOut",
       },
     }),
   };
@@ -66,7 +65,6 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({
         duration: 6,
         repeat: Infinity,
         delay: i * 0.8,
-        ease: "linear",
       },
     }),
   };
@@ -80,7 +78,6 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({
       transition: {
         duration: 8,
         repeat: Infinity,
-        ease: "easeInOut",
       },
     },
   };

@@ -1,0 +1,780 @@
+[
+  {
+    "name": "Liiz",
+    "rank": 1062,
+    "error": "Connection error.",
+    "timestamp": "2025-11-12T17:12:37.159Z",
+    "retries": 3,
+    "lastError": "Missing required fields in GPT response",
+    "lastRetry": "2025-11-13T04:44:21.379Z"
+  },
+  {
+    "name": "Josr",
+    "rank": 2043,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:27:20.836Z",
+    "retries": 1,
+    "lastError": "Missing required fields in GPT response",
+    "lastRetry": "2025-11-13T04:44:26.683Z"
+  },
+  {
+    "name": "Deybi",
+    "rank": 2083,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:38:12.611Z",
+    "retries": 1,
+    "lastError": "Missing required fields in GPT response",
+    "lastRetry": "2025-11-13T04:48:43.300Z"
+  },
+  {
+    "name": "Yimy",
+    "rank": 2084,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:38:12.611Z",
+    "retries": 1,
+    "lastError": "Missing required fields in GPT response",
+    "lastRetry": "2025-11-13T04:49:06.390Z"
+  },
+  {
+    "name": "Milthon",
+    "rank": 2161,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:52:17.092Z",
+    "retries": 0
+  },
+  {
+    "name": "Ventas",
+    "rank": 2166,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:53:16.670Z",
+    "retries": 0
+  },
+  {
+    "name": "Clariza",
+    "rank": 2171,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T04:54:51.308Z",
+    "retries": 0
+  },
+  {
+    "name": "Muebles",
+    "rank": 2173,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:54:51.310Z",
+    "retries": 0
+  },
+  {
+    "name": "Ruht",
+    "rank": 2180,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:57:59.868Z",
+    "retries": 0
+  },
+  {
+    "name": "Blady",
+    "rank": 2184,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T04:57:59.874Z",
+    "retries": 0
+  },
+  {
+    "name": "Yoyi",
+    "rank": 2196,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:01:39.991Z",
+    "retries": 0
+  },
+  {
+    "name": "Balvina",
+    "rank": 2199,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:01:39.996Z",
+    "retries": 0
+  },
+  {
+    "name": "Avis",
+    "rank": 2201,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:03:14.186Z",
+    "retries": 0
+  },
+  {
+    "name": "Sarahy",
+    "rank": 2202,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:03:14.187Z",
+    "retries": 0
+  },
+  {
+    "name": "Kebin",
+    "rank": 2203,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:03:14.188Z",
+    "retries": 0
+  },
+  {
+    "name": "Brallan",
+    "rank": 2205,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:03:14.194Z",
+    "retries": 0
+  },
+  {
+    "name": "Alvis",
+    "rank": 2206,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:04:58.674Z",
+    "retries": 0
+  },
+  {
+    "name": "Escarleth",
+    "rank": 2210,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:04:58.681Z",
+    "retries": 0
+  },
+  {
+    "name": "Clarivel",
+    "rank": 2212,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:06:33.356Z",
+    "retries": 0
+  },
+  {
+    "name": "Daniels",
+    "rank": 2217,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:08:14.342Z",
+    "retries": 0
+  },
+  {
+    "name": "Luzmi",
+    "rank": 2220,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:08:14.351Z",
+    "retries": 0
+  },
+  {
+    "name": "Juakin",
+    "rank": 2227,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:10:55.675Z",
+    "retries": 0
+  },
+  {
+    "name": "Ire",
+    "rank": 2229,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:10:55.680Z",
+    "retries": 0
+  },
+  {
+    "name": "Garfield",
+    "rank": 2230,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:10:55.680Z",
+    "retries": 0
+  },
+  {
+    "name": "Vicent",
+    "rank": 2235,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:12:30.076Z",
+    "retries": 0
+  },
+  {
+    "name": "Arturito",
+    "rank": 2237,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:14:04.907Z",
+    "retries": 0
+  },
+  {
+    "name": "Maldonado",
+    "rank": 2243,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:15:39.195Z",
+    "retries": 0
+  },
+  {
+    "name": "Olgui",
+    "rank": 2250,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:16:47.787Z",
+    "retries": 0
+  },
+  {
+    "name": "Armandito",
+    "rank": 2259,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:19:53.484Z",
+    "retries": 0
+  },
+  {
+    "name": "Anghy",
+    "rank": 2260,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:19:53.484Z",
+    "retries": 0
+  },
+  {
+    "name": "Clara",
+    "rank": 2264,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:21:28.286Z",
+    "retries": 0
+  },
+  {
+    "name": "Edwards",
+    "rank": 2265,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:21:28.286Z",
+    "retries": 0
+  },
+  {
+    "name": "Atanacio",
+    "rank": 2266,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:21:28.287Z",
+    "retries": 0
+  },
+  {
+    "name": "Joshue",
+    "rank": 2269,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:23:03.184Z",
+    "retries": 0
+  },
+  {
+    "name": "Rachell",
+    "rank": 2273,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:23:03.199Z",
+    "retries": 0
+  },
+  {
+    "name": "Jannett",
+    "rank": 2274,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:24:38.350Z",
+    "retries": 0
+  },
+  {
+    "name": "Salinas",
+    "rank": 2280,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:26:12.930Z",
+    "retries": 0
+  },
+  {
+    "name": "Benyi",
+    "rank": 2284,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:27:15.666Z",
+    "retries": 0
+  },
+  {
+    "name": "Irania",
+    "rank": 2300,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:30:53.893Z",
+    "retries": 0
+  },
+  {
+    "name": "Yosoy",
+    "rank": 2308,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:32:25.429Z",
+    "retries": 0
+  },
+  {
+    "name": "Yoi",
+    "rank": 2312,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:34:03.062Z",
+    "retries": 0
+  },
+  {
+    "name": "Yul",
+    "rank": 2313,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:34:03.062Z",
+    "retries": 0
+  },
+  {
+    "name": "Jse",
+    "rank": 2314,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:35:37.635Z",
+    "retries": 0
+  },
+  {
+    "name": "Nauj",
+    "rank": 2315,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:35:37.635Z",
+    "retries": 0
+  },
+  {
+    "name": "Piolin",
+    "rank": 2316,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:35:37.635Z",
+    "retries": 0
+  },
+  {
+    "name": "Joae",
+    "rank": 2317,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T05:35:37.635Z",
+    "retries": 0
+  },
+  {
+    "name": "Patricia",
+    "rank": 2318,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:35:37.635Z",
+    "retries": 0
+  },
+  {
+    "name": "Liza",
+    "rank": 2319,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:37:12.256Z",
+    "retries": 0
+  },
+  {
+    "name": "Gabriela",
+    "rank": 2321,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:37:12.256Z",
+    "retries": 0
+  },
+  {
+    "name": "Lorena",
+    "rank": 2323,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:37:12.270Z",
+    "retries": 0
+  },
+  {
+    "name": "Lee",
+    "rank": 2326,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:38:49.554Z",
+    "retries": 0
+  },
+  {
+    "name": "Miriam",
+    "rank": 2327,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:38:49.555Z",
+    "retries": 0
+  },
+  {
+    "name": "Leonardo",
+    "rank": 2329,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:38:49.562Z",
+    "retries": 0
+  },
+  {
+    "name": "Angelica",
+    "rank": 2330,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:38:49.562Z",
+    "retries": 0
+  },
+  {
+    "name": "Brenda",
+    "rank": 2331,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:40:24.179Z",
+    "retries": 0
+  },
+  {
+    "name": "Lucia",
+    "rank": 2332,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:40:24.180Z",
+    "retries": 0
+  },
+  {
+    "name": "Liliana",
+    "rank": 2333,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:40:24.180Z",
+    "retries": 0
+  },
+  {
+    "name": "Elaine",
+    "rank": 2334,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:40:24.180Z",
+    "retries": 0
+  },
+  {
+    "name": "Lucy",
+    "rank": 2335,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:40:24.180Z",
+    "retries": 0
+  },
+  {
+    "name": "Shane",
+    "rank": 2339,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:41:58.929Z",
+    "retries": 0
+  },
+  {
+    "name": "Irene",
+    "rank": 2344,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:43:40.155Z",
+    "retries": 0
+  },
+  {
+    "name": "Tracy",
+    "rank": 2347,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:45:16.956Z",
+    "retries": 0
+  },
+  {
+    "name": "Freddy",
+    "rank": 2349,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:45:16.966Z",
+    "retries": 0
+  },
+  {
+    "name": "Alonso",
+    "rank": 2351,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:46:52.277Z",
+    "retries": 0
+  },
+  {
+    "name": "Gilberto",
+    "rank": 2352,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:46:52.278Z",
+    "retries": 0
+  },
+  {
+    "name": "Edith",
+    "rank": 2355,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:46:52.281Z",
+    "retries": 0
+  },
+  {
+    "name": "Sunny",
+    "rank": 2366,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:49:32.055Z",
+    "retries": 0
+  },
+  {
+    "name": "Pepe",
+    "rank": 2375,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:52:46.349Z",
+    "retries": 0
+  },
+  {
+    "name": "Adela",
+    "rank": 2376,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:52:46.350Z",
+    "retries": 0
+  },
+  {
+    "name": "Shawn",
+    "rank": 2378,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:54:22.208Z",
+    "retries": 0
+  },
+  {
+    "name": "Eliana",
+    "rank": 2379,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:54:22.208Z",
+    "retries": 0
+  },
+  {
+    "name": "Stanley",
+    "rank": 2380,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:54:22.209Z",
+    "retries": 0
+  },
+  {
+    "name": "Luciano",
+    "rank": 2381,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:54:22.209Z",
+    "retries": 0
+  },
+  {
+    "name": "Fiona",
+    "rank": 2382,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:54:22.209Z",
+    "retries": 0
+  },
+  {
+    "name": "Uriel",
+    "rank": 2383,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:56:07.896Z",
+    "retries": 0
+  },
+  {
+    "name": "Rosemary",
+    "rank": 2385,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:56:07.916Z",
+    "retries": 0
+  },
+  {
+    "name": "Dale",
+    "rank": 2389,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:57:43.809Z",
+    "retries": 0
+  },
+  {
+    "name": "Sheila",
+    "rank": 2390,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:57:43.810Z",
+    "retries": 0
+  },
+  {
+    "name": "Trevor",
+    "rank": 2391,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T05:57:43.810Z",
+    "retries": 0
+  },
+  {
+    "name": "Gisela",
+    "rank": 2401,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:00:20.675Z",
+    "retries": 0
+  },
+  {
+    "name": "Marcia",
+    "rank": 2405,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:01:57.219Z",
+    "retries": 0
+  },
+  {
+    "name": "Noel",
+    "rank": 2406,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:01:57.219Z",
+    "retries": 0
+  },
+  {
+    "name": "Paty",
+    "rank": 2409,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:01:57.233Z",
+    "retries": 0
+  },
+  {
+    "name": "Celeste",
+    "rank": 2410,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:01:57.233Z",
+    "retries": 0
+  },
+  {
+    "name": "Crystal",
+    "rank": 2412,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:03:33.540Z",
+    "retries": 0
+  },
+  {
+    "name": "Jonatan",
+    "rank": 2418,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:05:09.791Z",
+    "retries": 0
+  },
+  {
+    "name": "Beverly",
+    "rank": 2419,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:05:09.791Z",
+    "retries": 0
+  },
+  {
+    "name": "April",
+    "rank": 2420,
+    "error": "Unterminated string in JSON at position 3124 (line 72 column 155)",
+    "timestamp": "2025-11-13T06:05:09.791Z",
+    "retries": 0
+  },
+  {
+    "name": "Manolo",
+    "rank": 2429,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:08:25.247Z",
+    "retries": 0
+  },
+  {
+    "name": "Lucio",
+    "rank": 2430,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:08:25.247Z",
+    "retries": 0
+  },
+  {
+    "name": "Randy",
+    "rank": 2433,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:10:01.063Z",
+    "retries": 0
+  },
+  {
+    "name": "Nathaniel",
+    "rank": 2441,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:11:36.797Z",
+    "retries": 0
+  },
+  {
+    "name": "Craig",
+    "rank": 2443,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:13:13.252Z",
+    "retries": 0
+  },
+  {
+    "name": "Arnoldo",
+    "rank": 2450,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:14:48.763Z",
+    "retries": 0
+  },
+  {
+    "name": "Micaela",
+    "rank": 2451,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:14:48.763Z",
+    "retries": 0
+  },
+  {
+    "name": "Jc",
+    "rank": 2469,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T06:20:18.360Z",
+    "retries": 0
+  },
+  {
+    "name": "Geovanny",
+    "rank": 2483,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:22:54.591Z",
+    "retries": 0
+  },
+  {
+    "name": "Rosana",
+    "rank": 2486,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:24:31.803Z",
+    "retries": 0
+  },
+  {
+    "name": "Nathaly",
+    "rank": 2502,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:28:31.779Z",
+    "retries": 0
+  },
+  {
+    "name": "Demetrio",
+    "rank": 2504,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:28:31.793Z",
+    "retries": 0
+  },
+  {
+    "name": "Amado",
+    "rank": 2508,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:30:10.510Z",
+    "retries": 0
+  },
+  {
+    "name": "Justina",
+    "rank": 2515,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:31:48.458Z",
+    "retries": 0
+  },
+  {
+    "name": "Nilda",
+    "rank": 2517,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:31:48.465Z",
+    "retries": 0
+  },
+  {
+    "name": "Lance",
+    "rank": 2521,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:33:26.352Z",
+    "retries": 0
+  },
+  {
+    "name": "Ileana",
+    "rank": 2528,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:35:03.815Z",
+    "retries": 0
+  },
+  {
+    "name": "Lillian",
+    "rank": 2534,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:36:40.438Z",
+    "retries": 0
+  },
+  {
+    "name": "Kiara",
+    "rank": 2535,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:36:40.438Z",
+    "retries": 0
+  },
+  {
+    "name": "Terrence",
+    "rank": 2541,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:39:19.814Z",
+    "retries": 0
+  },
+  {
+    "name": "Andreina",
+    "rank": 2543,
+    "error": "Connection error.",
+    "timestamp": "2025-11-13T06:39:19.816Z",
+    "retries": 0
+  },
+  {
+    "name": "Tj",
+    "rank": 2581,
+    "error": "Missing required fields in GPT response",
+    "timestamp": "2025-11-13T06:47:33.490Z",
+    "retries": 0
+  }
+]

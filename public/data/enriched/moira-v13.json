@@ -1,0 +1,222 @@
+{
+  "name": "Moira",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:46:28.199Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Greek",
+  "meaning": "Fate, destiny",
+  "culturalSignificance": "Moira is derived from the Greek word 'μοῖρα', meaning 'fate' or 'portion'. In ancient Greek mythology, the Moirai were the goddesses of fate, who controlled the destiny of both gods and humans. The name Moira, therefore, carries the weight of destiny and the inevitable course of life.",
+  "modernContext": "In modern times, Moira has been used in various cultures, often retaining its classic charm and association with destiny. The name gained slight popularity through its use in literature and media, but it remains relatively unique and less common.",
+  "literaryReferences": "The name Moira appears in James Joyce's novel 'Ulysses', symbolizing fate and destiny within the narrative.",
+  "pronunciationGuide": "/ˈmɔɪrə/",
+  "variations": [
+    "Maura",
+    "Moya",
+    "Moyra"
+  ],
+  "similarNames": [
+    "Maureen",
+    "Nora",
+    "Mira",
+    "Maya",
+    "Myra"
+  ],
+  "nicknames": [
+    "Mo",
+    "Moe",
+    "Mimi"
+  ],
+  "personality": "Individuals named Moira are often associated with a strong sense of destiny and purpose. They are thought to be insightful and reflective, with a natural inclination towards leadership and guidance.",
+  "symbolism": "Moira symbolizes the concept of fate and the passage of time, representing life's journey and the inevitability of destiny.",
+  "funFact": "Moira is often associated with the Moirai, or Fates, in Greek mythology, who were depicted as three sisters weaving the tapestry of life.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Moira Shearer",
+      "profession": "Ballet Dancer and Actress",
+      "knownFor": [
+        "The Red Shoes"
+      ],
+      "awards": "N/A"
+    },
+    {
+      "name": "Moira Kelly",
+      "profession": "Actress",
+      "knownFor": [
+        "The West Wing",
+        "The Lion King"
+      ],
+      "awards": "N/A"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Schitt's Creek",
+      "year": 2015,
+      "type": "TV Show",
+      "characterName": "Moira Rose",
+      "characterDescription": "A former soap opera star with a flair for the dramatic and an eccentric fashion sense.",
+      "imdbUrl": "https://www.imdb.com/title/tt3526078/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 91
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "You are blind to reality, and for that, I am most proud.",
+      "character": "Moira Rose",
+      "source": "Schitt's Creek",
+      "year": 2015,
+      "context": "Moira Rose delivering one of her many memorable lines with dramatic flair.",
+      "genre": "Comedy",
+      "impact": "Moira Rose's quotes are known for their humor and unique perspective on life."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Turquoise",
+      "hex": "#40E0D0"
+    },
+    "luckyGemstone": "Aquamarine",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion, celebration, and reflection.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "Water signs share emotional depth and intuition, making them naturally compatible.",
+    "cosmicElement": "The Seer",
+    "cosmicElementDescription": "The Seer is intuitive and insightful, often seeing beyond the surface.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "The Healer is nurturing and compassionate, with a deep understanding of emotional complexities.",
+    "karmicLessons": "Embrace destiny and learn to let go of control.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "The desire to make a positive impact on the world and help others."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 352,
+    "peak": 200,
+    "peakYear": 1950
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Destiny is not a matter of chance, but a matter of choice.",
+    "author": "William Jennings Bryan",
+    "context": "A quote about the power of destiny and choice."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Moi-ra"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Moira",
+      "script": "Latin",
+      "scriptName": "Moira",
+      "pronunciation": "/ˈmoiɾa/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μοίρα",
+      "script": "Greek",
+      "scriptName": "Μοίρα",
+      "pronunciation": "/ˈmira/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ميرا",
+      "script": "Arabic",
+      "scriptName": "ميرا",
+      "pronunciation": "/ˈmiːra/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "莫伊拉",
+      "script": "Han",
+      "scriptName": "莫伊拉",
+      "pronunciation": "/mò yī lā/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мойра",
+      "script": "Cyrillic",
+      "scriptName": "Мойра",
+      "pronunciation": "/ˈmojra/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מירה",
+      "script": "Hebrew",
+      "scriptName": "מירה",
+      "pronunciation": "/ˈmira/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name Moira has ancient roots in Greek mythology, giving it a timeless and classic feel."
+    },
+    {
+      "tag": "Mythological",
+      "confidence": 0.95,
+      "reason": "Moira is directly linked to the Moirai, the Fates of Greek mythology."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.8,
+      "reason": "Moira is featured in literary works such as James Joyce's 'Ulysses'."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Moira is a name steeped in history and mythology, offering a sense of mystique and depth. With its Greek origins and ties to the concept of fate, Moira captures the imagination of parents seeking a name with a strong narrative. Whether you are drawn to its classical roots or modern adaptations, Moira remains a name of intrigue and elegance.",
+    "etymology_meaning": "Derived from the Greek word 'μοῖρα', Moira means 'fate' or 'destiny'. In ancient mythology, the Moirai were the personifications of fate, overseeing the destinies of men and gods alike.",
+    "famous_bearers": "Famous bearers of the name include Moira Shearer, the renowned ballet dancer and actress, and Moira Kelly, known for her roles in 'The West Wing' and 'The Lion King'. These figures highlight the name's versatility and appeal across different media.",
+    "pop_culture_moments": "Moira has made its mark in pop culture through characters like Moira Rose from the popular TV show 'Schitt's Creek', known for her eccentricity and memorable quotes. This character has brought renewed attention to the name in recent years.",
+    "personality_profile": "Moira is often associated with individuals who possess a strong sense of purpose and destiny. They are seen as insightful and reflective, often gravitating towards leadership roles due to their natural guidance abilities.",
+    "variations_nicknames": "Variations of Moira include Maura and Moya, while common nicknames are Mo, Moe, and Mimi. These variations and nicknames offer flexibility and personalization for those who bear the name.",
+    "popularity_data": "While not among the most common names today, Moira saw its peak popularity in the mid-20th century. Its unique sound and mythological roots continue to attract parents who seek a distinctive yet classic name.",
+    "pairing_suggestions": "Moira pairs well with both classical and modern middle names, such as Moira Grace or Moira Quinn. Its versatility allows it to complement a variety of sibling names, creating harmonious family name sets.",
+    "cultural_context": "Rooted in Greek mythology, Moira carries cultural significance as a symbol of fate and the passage of time. This cultural background enriches the name, making it a meaningful choice for those who appreciate history and storytelling.",
+    "final_recommendation": "If you are searching for a name that combines historical depth with modern appeal, Moira is an excellent choice. Its mythological origins and literary presence make it a name that resonates with a sense of destiny, perfect for a child destined to make their mark on the world.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

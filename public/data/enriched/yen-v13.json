@@ -1,0 +1,205 @@
+{
+  "name": "Yen",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:40:18.276Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Vietnamese",
+  "meaning": "Calm, peaceful",
+  "culturalSignificance": "In Vietnamese culture, the name Yen is often associated with tranquility and serenity. It is a popular name for girls and is sometimes used for boys, reflecting the cultural appreciation for peace and harmony.",
+  "modernContext": "In modern times, Yen remains a popular choice in Vietnamese communities around the world. It is celebrated for its simple elegance and the positive qualities it embodies, making it a favored choice among parents seeking a name with cultural roots and a pleasant meaning.",
+  "literaryReferences": "Yen appears in some Vietnamese literature as a symbol of peace and beauty, often used to name characters who embody these qualities.",
+  "pronunciationGuide": "/jɛn/",
+  "variations": [
+    "Yên",
+    "Yenn",
+    "Yene",
+    "Yenna"
+  ],
+  "similarNames": [
+    "Jen",
+    "Ken",
+    "Ben",
+    "Zen",
+    "Yan"
+  ],
+  "nicknames": [
+    "Yenny",
+    "Yenni",
+    "Yen-Yen"
+  ],
+  "personality": "The name Yen is often associated with a calm and peaceful demeanor, suggesting a person who is balanced and harmonious.",
+  "symbolism": "Yen symbolizes peace and tranquility, often representing a harmonious life and a balanced nature.",
+  "funFact": "In Vietnamese culture, Yen is sometimes used in poetic contexts to evoke a sense of calm and beauty.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Witcher",
+      "year": 2019,
+      "type": "TV Show",
+      "characterName": "Yennefer of Vengerberg",
+      "characterDescription": "A powerful sorceress known for her intelligence and beauty.",
+      "imdbUrl": "https://www.imdb.com/title/tt5180504/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "Magic is chaos, art, and science. It is a curse, a blessing, and progress.",
+      "character": "Yennefer of Vengerberg",
+      "source": "The Witcher",
+      "year": 2019,
+      "context": "Yennefer explains the complex nature of magic.",
+      "genre": "Fantasy",
+      "impact": "This quote highlights the multifaceted nature of magic and Yennefer's deep understanding of it."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and fulfillment.",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer",
+      "Scorpio"
+    ],
+    "compatibleSignsDescription": "These signs share a deep emotional connection and intuition.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Represents emotions, intuition, and the subconscious.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Associated with healing, nurturing, and emotional depth.",
+    "karmicLessons": "Learn to balance emotions and maintain inner peace.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "Desire to create harmony and bring peace to others."
+  },
+  "genderDistribution": {
+    "male": 30,
+    "female": 70
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 300,
+    "peakYear": 2018
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Find peace within yourself and let it guide your actions.",
+    "author": "Yennefer of Vengerberg",
+    "context": "A reminder of the importance of inner tranquility."
+  },
+  "syllables": {
+    "count": 1,
+    "breakdown": "Yen"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Yen",
+      "script": "Latin",
+      "scriptName": "Yen",
+      "pronunciation": "/jɛn/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γεν",
+      "script": "Greek",
+      "scriptName": "Γεν",
+      "pronunciation": "/ʝen/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "ين",
+      "script": "Arabic",
+      "scriptName": "ين",
+      "pronunciation": "/jen/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "燕",
+      "script": "Han",
+      "scriptName": "燕",
+      "pronunciation": "/jɛn/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Йен",
+      "script": "Cyrillic",
+      "scriptName": "Йен",
+      "pronunciation": "/jen/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יין",
+      "script": "Hebrew",
+      "scriptName": "יין",
+      "pronunciation": "/jen/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.8,
+      "reason": "The name Yen has a longstanding presence in Vietnamese culture."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.6,
+      "reason": "Yen remains a popular choice in contemporary naming trends."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.7,
+      "reason": "The name's simplicity and elegance give it a timeless quality."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Yen carries a serene and calming aura, popular across Vietnamese communities. It holds a special place in hearts due to its peaceful and tranquil connotations.",
+    "etymology_meaning": "Yen is of Vietnamese origin, meaning 'calm' or 'peaceful'. The name reflects a desire for harmony and tranquility, often found in Vietnamese cultural contexts.",
+    "famous_bearers": "Yen is not only a common name in Vietnam but also appears in literature and media, such as the character Yennefer from 'The Witcher'.",
+    "pop_culture_moments": "Yennefer of Vengerberg from 'The Witcher' is a notable character bearing a variation of this name, known for her powerful presence and depth.",
+    "personality_profile": "Yen is associated with peace and calm. Individuals with this name are often seen as balanced, empathetic, and possessing a strong inner strength.",
+    "variations_nicknames": "Variations like Yên and nicknames such as Yenny reflect the name's adaptability and close-knit cultural ties.",
+    "popularity_data": "Yen's popularity peaked in the late 2010s but continues to be a cherished choice among Vietnamese families.",
+    "pairing_suggestions": "Yen pairs well with names that have a similar cultural or phonetic resonance, such as Linh or Minh.",
+    "cultural_context": "Yen is deeply rooted in Vietnamese tradition, symbolizing a connection to cultural heritage and values of peace.",
+    "final_recommendation": "Choosing the name Yen bestows a sense of peace and cultural richness, making it a meaningful choice for parents seeking a name with depth and harmony.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

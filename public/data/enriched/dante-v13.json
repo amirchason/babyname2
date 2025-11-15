@@ -1,0 +1,272 @@
+{
+  "name": "Dante",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:10:01.571Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Latin",
+  "meaning": "Enduring",
+  "culturalSignificance": "The name Dante is most famously associated with the Italian poet Dante Alighieri, the author of the epic poem 'The Divine Comedy'. This work is a cornerstone of Italian literature and has had a lasting impact on Western thought and culture.",
+  "modernContext": "Dante remains a popular name in various cultures, particularly in Italy and among Italian communities worldwide. It is seen as a classical name with a hint of artistic flair, partly due to its association with the famous poet.",
+  "literaryReferences": "Dante Alighieri's 'The Divine Comedy' is one of the most significant works in Western literature, exploring themes of justice, redemption, and divine love.",
+  "pronunciationGuide": "/ˈdɑːnteɪ/",
+  "variations": [
+    "Durante",
+    "Danté",
+    "Dantrell",
+    "Dantino",
+    "Dantae"
+  ],
+  "similarNames": [
+    "Damian",
+    "Daniel",
+    "Dorian",
+    "Dominic",
+    "Donovan"
+  ],
+  "nicknames": [
+    "Dan",
+    "Danny",
+    "Dane",
+    "Tay",
+    "D"
+  ],
+  "personality": "Dante is often associated with creativity and intelligence, likely due to its literary connections. People with this name are perceived to have a strong will and a deep sense of purpose.",
+  "symbolism": "The name Dante is symbolically linked to endurance and perseverance, embodying the journey through life's trials and tribulations.",
+  "funFact": "Dante Alighieri is credited with establishing the Tuscan dialect as the standard Italian language through his literary works.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Dante Alighieri",
+      "years": "1265-1321",
+      "category": "Poet",
+      "achievements": [
+        "Authored 'The Divine Comedy'",
+        "Influenced the Italian language"
+      ],
+      "significance": "Dante Alighieri is one of the most important poets of the Middle Ages, best known for his epic poem 'The Divine Comedy', which has had a profound influence on Christian theology and Western literature.",
+      "notableWorks": [
+        "The Divine Comedy"
+      ]
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The darkest places in hell are reserved for those who maintain their neutrality in times of moral crisis.",
+      "author": "Dante Alighieri",
+      "context": "This quote reflects Dante's views on the importance of moral courage.",
+      "year": 1300,
+      "category": "Philosophy"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Dante Basco",
+      "profession": "Actor",
+      "knownFor": [
+        "Voice of Zuko in 'Avatar: The Last Airbender'",
+        "Rufio in 'Hook'"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Dante Ferretti",
+      "profession": "Production Designer",
+      "knownFor": [
+        "Design work on 'The Aviator'",
+        "Design work on 'Hugo'"
+      ],
+      "awards": "Academy Awards for Best Art Direction"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Dante Bichette",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Colorado Rockies",
+      "pastTeams": [
+        "Milwaukee Brewers",
+        "Cincinnati Reds"
+      ],
+      "position": "Outfielder",
+      "jerseyNumber": "10",
+      "years": "1988-2001",
+      "achievements": "Four-time MLB All-Star",
+      "knownFor": [
+        "Power hitting",
+        "High batting average"
+      ],
+      "awards": "",
+      "stats": "Career .299 batting average, 274 home runs",
+      "verified": true,
+      "source": "Baseball Reference"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Dante's Peak",
+      "year": 1997,
+      "type": "Movie",
+      "characterName": "Dante",
+      "characterDescription": "The name of the volcano that threatens a small town.",
+      "imdbUrl": "https://www.imdb.com/title/tt0118928/",
+      "genre": "Disaster",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of completion and illumination.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo"
+    ],
+    "compatibleSignsDescription": "These signs share a fiery passion and enthusiasm.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Fire represents energy, assertiveness, and passion.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "This archetype is about initiating action and inspiring others.",
+    "karmicLessons": "Learning to balance ambition with empathy.",
+    "soulUrge": 9,
+    "soulUrgeDescription": "A deep desire to improve the world and help others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 320,
+    "peak": 200,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Follow your own star and you will never be lost.",
+    "author": "Dante Alighieri",
+    "context": "Encouragement to pursue one's own path."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Dan-te"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Dante",
+      "script": "Latin",
+      "scriptName": "Dante",
+      "pronunciation": "/ˈdante/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Δάντης",
+      "script": "Greek",
+      "scriptName": "Δάντης",
+      "pronunciation": "/ˈðantis/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "دانتي",
+      "script": "Arabic",
+      "scriptName": "دانتي",
+      "pronunciation": "/daːnti/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "但丁",
+      "script": "Han",
+      "scriptName": "但丁",
+      "pronunciation": "/dàndīng/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Данте",
+      "script": "Cyrillic",
+      "scriptName": "Данте",
+      "pronunciation": "/ˈdante/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דנטה",
+      "script": "Hebrew",
+      "scriptName": "דנטה",
+      "pronunciation": "/dante/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Inferno",
+      "author": "Dante Alighieri",
+      "publishedYear": 1320,
+      "genre": "Epic Poetry",
+      "significance": "Part of 'The Divine Comedy', a pivotal piece of literature.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Strong association with Dante Alighieri, a pivotal literary figure."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.85,
+      "reason": "Dante has historical roots and timeless appeal."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name has been in use for centuries and remains popular today."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Dante is a name that resonates with history and culture, bringing to mind the great Italian poet Dante Alighieri. Known for his pioneering work, 'The Divine Comedy', Dante offers a rich literary heritage that inspires many parents to choose this name for their children today.",
+    "etymology_meaning": "Originating from Latin, Dante means 'enduring'. This name has stood the test of time, much like the works of its most famous bearer, Dante Alighieri, whose writings continue to influence and inspire.",
+    "famous_bearers": "Dante Alighieri remains the most renowned bearer of this name, immortalized through his literary masterpieces. Contemporary figures like actor Dante Basco and production designer Dante Ferretti continue to bring recognition to the name in various fields.",
+    "pop_culture_moments": "Dante has made appearances in various forms of media, including the 1997 disaster film 'Dante's Peak'. This cinematic usage adds a modern dimension to a name steeped in classic literature.",
+    "personality_profile": "Those named Dante are often perceived as creative and intellectually curious, drawing from the name's association with the arts and literature. They are seen as leaders and visionaries, much like their historical namesake.",
+    "variations_nicknames": "While Dante stands strong on its own, variations such as Danté and nicknames like Danny maintain the name's charm across different cultures and settings.",
+    "popularity_data": "Dante has consistently been a popular choice, peaking in 2005 and maintaining a steady presence in baby name charts. Its classic appeal ensures its continued use across generations.",
+    "pairing_suggestions": "Dante pairs well with traditional names like Alexander or contemporary options such as Leo, creating a balanced and harmonious combination.",
+    "cultural_context": "With roots in Italy, Dante carries a sense of cultural richness and artistic heritage. This name is favored by those who appreciate its historical significance and enduring elegance.",
+    "final_recommendation": "For parents seeking a name that combines literary prestige with timeless appeal, Dante is a perfect choice. It offers a blend of historical weight and modern charm that few names can match.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

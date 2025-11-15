@@ -329,10 +329,10 @@ export default function BlogPostPage() {
           data={{
             headline: post.title,
             description: post.excerpt || '',
-            image: post.featuredImage || 'https://soulseedbaby.com/og-image.png',
-            datePublished: new Date(post.createdAt).toISOString(),
-            dateModified: post.updatedAt ? new Date(post.updatedAt).toISOString() : new Date(post.createdAt).toISOString(),
-            author: post.author || 'SoulSeed',
+            image: 'https://soulseedbaby.com/og-image.png',
+            datePublished: new Date(post.publishedAt).toISOString(),
+            dateModified: post.updatedAt ? new Date(post.updatedAt).toISOString() : new Date(post.publishedAt).toISOString(),
+            author: post.author?.name || 'SoulSeed',
             url: `https://soulseedbaby.com/blog/${slug}`
           }}
         />

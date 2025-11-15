@@ -1,0 +1,254 @@
+{
+  "name": "Sadie",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:40:18.275Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Princess",
+  "culturalSignificance": "Sadie is a diminutive of the Hebrew name Sarah, which means 'princess'. The name has been popular in English-speaking countries since the late 19th century, often associated with a spunky and lively personality.",
+  "modernContext": "In modern times, Sadie has gained popularity as a standalone name, consistently ranking among the top names for girls in the United States. It is often chosen for its charming and vintage appeal.",
+  "literaryReferences": "Sadie is a character in several children's books, often depicted as adventurous and spirited.",
+  "pronunciationGuide": "ˈseɪ.di",
+  "variations": [
+    "Sarah",
+    "Sade",
+    "Sada",
+    "Zadie"
+  ],
+  "similarNames": [
+    "Sophie",
+    "Katie",
+    "Lila",
+    "Maddie",
+    "Chloe"
+  ],
+  "nicknames": [
+    "Sade",
+    "Dee",
+    "Sadie Mae"
+  ],
+  "personality": "People named Sadie are often perceived as lively, friendly, and charming, with a touch of old-fashioned elegance.",
+  "symbolism": "The name Sadie symbolizes a sense of royalty and grace, deriving from its meaning 'princess'.",
+  "funFact": "The name Sadie was popularized by the song 'Sadie the Cleaning Lady', which was a hit for John Farnham in 1967.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism"
+    ],
+    "character": "Sarah",
+    "significance": "Sadie derives from Sarah, a biblical matriarch and the wife of Abraham.",
+    "keyStories": [
+      "Sarah's miraculous birth of Isaac in old age"
+    ],
+    "spiritualMeaning": "Faithfulness and devotion",
+    "historicalImpact": "Sarah's story is central to Jewish, Christian, and Islamic traditions."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Sadie Frost",
+      "profession": "Actress",
+      "knownFor": [
+        "Bram Stoker's Dracula",
+        "Shopping"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Sadie Sink",
+      "profession": "Actress",
+      "knownFor": [
+        "Stranger Things",
+        "The Whale"
+      ],
+      "awards": "Nominated for a Screen Actors Guild Award"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Stranger Things",
+      "year": 2016,
+      "type": "TV Show",
+      "characterName": "Sadie",
+      "characterDescription": "Played by Sadie Sink; character Max Mayfield is a tomboyish, skateboarding teenager.",
+      "imdbUrl": "https://www.imdb.com/title/tt4574334/",
+      "genre": "Science Fiction",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Air",
+    "luckyColor": {
+      "name": "Pink",
+      "hex": "#FFC0CB"
+    },
+    "luckyGemstone": "Rose Quartz",
+    "luckyDay": "Friday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and growth.",
+    "compatibleSigns": [
+      "Libra",
+      "Gemini"
+    ],
+    "compatibleSignsDescription": "Air signs are intellectually stimulating and communicative.",
+    "cosmicElement": "The Harmonizer",
+    "cosmicElementDescription": "Brings balance and peace.",
+    "celestialArchetype": "The Muse",
+    "celestialArchetypeDescription": "Inspires creativity and beauty.",
+    "karmicLessons": "To embrace change and adaptability.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to create harmony and nurture."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 78,
+    "peak": 49,
+    "peakYear": 2014
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is a journey, not a destination.",
+    "author": "Ralph Waldo Emerson",
+    "context": "Reflecting on the importance of personal growth and experiences."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Sa-die"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Sadie",
+      "script": "Latin",
+      "scriptName": "Sadie",
+      "pronunciation": "ˈsaðje",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σάντι",
+      "script": "Greek",
+      "scriptName": "Σάντι",
+      "pronunciation": "ˈsan.di",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سادي",
+      "script": "Arabic",
+      "scriptName": "سادي",
+      "pronunciation": "ˈsæː.di",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "萨迪",
+      "script": "Han",
+      "scriptName": "萨迪",
+      "pronunciation": "sà dí",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Сэди",
+      "script": "Cyrillic",
+      "scriptName": "Сэди",
+      "pronunciation": "ˈsɛ.di",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סיידי",
+      "script": "Hebrew",
+      "scriptName": "סיידי",
+      "pronunciation": "sa'di",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Sadie",
+      "author": "Courtney Summers",
+      "publishedYear": 2018,
+      "genre": "Mystery",
+      "significance": "The book explores themes of revenge and justice, following a girl named Sadie on a quest to find her sister's killer.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Sadie has historical roots and has been used for generations."
+    },
+    {
+      "tag": "Vintage",
+      "confidence": 0.85,
+      "reason": "The name has a charming, old-fashioned feel."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.8,
+      "reason": "Derived from the biblical name Sarah."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Sadie",
+      "artist": "Alkaline Trio",
+      "year": 2005,
+      "genre": "Punk Rock",
+      "nameContext": "Title and subject of the song",
+      "description": "The song delves into dark themes, exploring obsession and crime, inspired by the infamous Manson Family.",
+      "theme": "neutral",
+      "positiveVibeScore": 5,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Alkaline+Trio+Sadie",
+      "geniusUrl": "https://genius.com/Alkaline-trio-sadie-lyrics",
+      "verified": true
+    },
+    {
+      "title": "Sadie the Cleaning Lady",
+      "artist": "John Farnham",
+      "year": 1967,
+      "genre": "Pop",
+      "nameContext": "Title and central character",
+      "description": "A light-hearted song about a cleaning lady named Sadie, which became a major hit in Australia.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=John+Farnham+Sadie+the+Cleaning+Lady",
+      "geniusUrl": "https://genius.com/John-farnham-sadie-the-cleaning-lady-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Sadie is a name that encapsulates a blend of timeless elegance and modern charm. With its roots in the Hebrew language, meaning 'princess', Sadie has been a beloved choice for parents seeking a name that is both classic and trendy.",
+    "etymology_meaning": "Sadie is derived from the Hebrew name Sarah, which means 'princess'. Over the years, it has evolved into a standalone name, cherished for its simplicity and grace.",
+    "famous_bearers": "Famous individuals named Sadie include actress Sadie Sink, known for her role in 'Stranger Things', and Sadie Frost, an English actress and producer. These women have helped keep the name in the public consciousness.",
+    "pop_culture_moments": "In pop culture, Sadie has appeared in various songs and shows, notably in the TV series 'Stranger Things', where Sadie Sink portrays the character Max Mayfield. The name often carries a sense of youthful energy and adventure.",
+    "personality_profile": "The name Sadie is often associated with a bright, lively personality. People with this name are thought to be friendly, approachable, and imbued with a natural sense of leadership.",
+    "variations_nicknames": "Variations of Sadie include Sarah and Sade, while common nicknames are Sade and Dee. These variations offer a range of options for parents who appreciate versatility in a name.",
+    "popularity_data": "Sadie has seen a resurgence in popularity over the past few decades, reaching its peak in 2014. It consistently ranks among the top names for girls in the United States, highlighting its enduring appeal.",
+    "pairing_suggestions": "Sadie pairs well with names that have a similar vintage charm, such as Oliver for boys and Hazel for girls. Its simplicity also makes it a great middle name option.",
+    "cultural_context": "Culturally, Sadie has been embraced in various English-speaking countries, appreciated for its historical roots and modern adaptability. Its biblical origins add a layer of depth and tradition.",
+    "final_recommendation": "For parents seeking a name that is both classic and contemporary, Sadie offers the perfect blend. With its timeless appeal and charming simplicity, it is a name that will surely stand the test of time.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

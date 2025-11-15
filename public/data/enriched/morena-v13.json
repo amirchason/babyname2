@@ -1,0 +1,219 @@
+{
+  "name": "Morena",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:39:20.322Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Spanish",
+  "meaning": "Brown-skinned",
+  "culturalSignificance": "Morena is a name commonly used in Spanish and Portuguese-speaking countries. It is often associated with individuals who have a tanned or dark complexion, deriving from the Spanish word for brunette or dark-skinned.",
+  "modernContext": "In modern times, the name Morena is appreciated for its melodic sound and cultural roots. It is a popular choice in Latin American countries and is occasionally used in English-speaking countries as well.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/moˈɾena/",
+  "variations": [
+    "Morina",
+    "Morenita",
+    "Morenia"
+  ],
+  "similarNames": [
+    "Marina",
+    "Mora",
+    "Moira",
+    "Monica",
+    "Marlena",
+    "Mirena"
+  ],
+  "nicknames": [
+    "Mo",
+    "Rena",
+    "Mori"
+  ],
+  "personality": "People named Morena are often seen as warm and approachable, with a vibrant and lively personality. They are thought to possess a natural charm and are often admired for their strong sense of identity.",
+  "symbolism": "The name Morena symbolizes earthiness and natural beauty, often associated with a grounded personality and a connection to the earth.",
+  "funFact": "In some cultures, Morena is also used to refer to the Virgin Mary, highlighting the name's cultural and religious depth.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Morena Baccarin",
+      "profession": "Actor",
+      "knownFor": [
+        "Firefly",
+        "Deadpool"
+      ],
+      "awards": "Primetime Emmy Award nomination"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "The Witches",
+      "year": 2020,
+      "type": "Movie",
+      "characterName": "Morena",
+      "characterDescription": "A supporting character in the film adaptation of Roald Dahl's novel.",
+      "imdbUrl": "https://www.imdb.com/title/tt0805647/",
+      "genre": "Fantasy",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 5,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Terracotta",
+      "hex": "#E2725B"
+    },
+    "luckyGemstone": "Tiger's Eye",
+    "luckyDay": "Saturday",
+    "moonPhase": "Waxing Gibbous",
+    "moonPhaseDescription": "A time for growth and development, perfect for setting intentions.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share a grounded, practical approach to life.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Symbolizes stability, reliability, and a strong foundation.",
+    "celestialArchetype": "The Gardener",
+    "celestialArchetypeDescription": "Represents nurturing and cultivating growth in themselves and others.",
+    "karmicLessons": "Patience and perseverance to achieve long-term goals.",
+    "soulUrge": 6,
+    "soulUrgeDescription": "A desire to create harmony and beauty in their surroundings."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 487,
+    "peak": 320,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Embrace your roots and let your natural beauty shine.",
+    "author": "Morena Baccarin",
+    "context": "A statement about self-acceptance and cultural pride."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Mo-re-na"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Morena",
+      "script": "Latin",
+      "scriptName": "Morena",
+      "pronunciation": "/moˈɾena/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μορενά",
+      "script": "Greek",
+      "scriptName": "Μορενά",
+      "pronunciation": "/moˈrena/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مورينا",
+      "script": "Arabic",
+      "scriptName": "مورينا",
+      "pronunciation": "/muːˈriːna/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "莫雷纳",
+      "script": "Han",
+      "scriptName": "莫雷纳",
+      "pronunciation": "/mò léi nà/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Морена",
+      "script": "Cyrillic",
+      "scriptName": "Морена",
+      "pronunciation": "/mɐˈrʲenə/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מורנה",
+      "script": "Hebrew",
+      "scriptName": "מורנה",
+      "pronunciation": "/moˈrena/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has a long history in Spanish-speaking countries."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.8,
+      "reason": "Increasing use in contemporary culture."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.75,
+      "reason": "Appears in modern literature and film."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Morena",
+      "artist": "Tom Boxer & Antonia",
+      "year": 2010,
+      "genre": "Dance",
+      "nameContext": "The name is used as a central theme of the song.",
+      "description": "A popular dance track celebrating beauty and allure, with a catchy chorus invoking the name.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Tom+Boxer+Antonia+Morena",
+      "geniusUrl": "https://genius.com/search?q=Tom+Boxer+Antonia+Morena",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Morena is a name that evokes imagery of rich earth tones and a warm, inviting personality. It carries with it a sense of cultural heritage and a timeless appeal that crosses borders. This name, with its deep roots in Spanish-speaking countries, has found its way into the hearts of many around the world.",
+    "etymology_meaning": "The name Morena originates from the Spanish word for 'brown-skinned' or 'brunette,' highlighting its connection to natural beauty and earthiness. It is a name that celebrates diversity and the beauty found in different skin tones.",
+    "famous_bearers": "One of the most well-known bearers of the name is Morena Baccarin, a talented actress known for her roles in 'Firefly' and 'Deadpool.' Her success has brought attention to the name in Hollywood and beyond.",
+    "pop_culture_moments": "Morena has appeared in various cultural contexts, including music and film, reinforcing its presence in pop culture. Songs like Tom Boxer's 'Morena' have helped popularize the name internationally.",
+    "personality_profile": "Those named Morena are often seen as charismatic and approachable, with a strong sense of identity and a natural ability to connect with others. They are celebrated for their warmth and inclusivity.",
+    "variations_nicknames": "Variations like Morina and Morenita offer different nuances, while nicknames such as Mo and Rena provide affectionate alternatives. These variations highlight the name's flexibility and charm.",
+    "popularity_data": "While not a top-ranking name in English-speaking countries, Morena enjoys steady popularity in Latin America. Its unique sound and cultural resonance make it a favorite choice among parents seeking something distinctive.",
+    "pairing_suggestions": "Morena pairs beautifully with names that have a similar earthy or cultural feel, such as Diego or Sofia. These combinations create harmonious and balanced name pairings that resonate well together.",
+    "cultural_context": "The name Morena is deeply embedded in Spanish and Portuguese cultures, often reflecting pride in one's heritage and identity. Its use in literature and film further emphasizes its cultural significance.",
+    "final_recommendation": "For parents seeking a name that combines beauty, depth, and cultural resonance, Morena is an excellent choice. Its timeless appeal and positive associations make it a name that stands out in any context.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

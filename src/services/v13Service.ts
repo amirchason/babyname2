@@ -206,7 +206,7 @@ class V13Service {
       const response = await fetch('/data/enriched/v13-manifest.json');
       if (response.ok) {
         this.manifest = await response.json();
-        console.log(`✅ V13 Service initialized: ${this.manifest.totalEnriched} enriched names`);
+        console.log(`✅ V13 Service initialized: ${this.manifest?.totalEnriched || 0} enriched names`);
       } else {
         console.warn('⚠️  V13 manifest not found - no enriched names available yet');
         this.manifest = { version: '1.0', lastUpdated: '', totalEnriched: 0, names: [] };

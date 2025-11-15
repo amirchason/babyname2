@@ -1,0 +1,300 @@
+{
+  "name": "Harold",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:01:57.736Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Germanic",
+  "meaning": "Ruler of the army",
+  "culturalSignificance": "Harold is a name of Germanic origin, traditionally combining 'heri' (army) and 'wald' (ruler). It has historical significance in England, notably associated with King Harold II, the last Anglo-Saxon king before the Norman Conquest.",
+  "modernContext": "In modern times, Harold is considered a classic name and has maintained a steady level of use. It is perceived as traditional and somewhat old-fashioned, yet it has a timeless appeal that continues to resonate with parents seeking a strong, historical name.",
+  "literaryReferences": "Harold is a central character in Alfred Lord Tennyson's poem 'Harold' and also appears in various historical novels about the Battle of Hastings.",
+  "pronunciationGuide": "/ˈhɛrəld/",
+  "variations": [
+    "Harald",
+    "Herold",
+    "Heraldo",
+    "Harrold",
+    "Harry"
+  ],
+  "similarNames": [
+    "Henry",
+    "Edward",
+    "George",
+    "Charles",
+    "William"
+  ],
+  "nicknames": [
+    "Harry",
+    "Hal",
+    "Hank",
+    "Har",
+    "Haley"
+  ],
+  "personality": "The name Harold is often associated with leadership, authority, and a strong sense of duty. Those named Harold are perceived as reliable and trustworthy.",
+  "symbolism": "Harold symbolizes leadership and strength, drawing from its meaning 'ruler of the army'. It holds a sense of nobility and historical weight.",
+  "funFact": "Harold is often associated with the famous 'Harold and the Purple Crayon' children's book series by Crockett Johnson, which has been beloved by generations of readers.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Harold II Godwinson",
+      "years": "1022-1066",
+      "category": "Royalty",
+      "achievements": [
+        "Last Anglo-Saxon King of England",
+        "Defended England against the Norman invasion"
+      ],
+      "significance": "Harold II was the last crowned Anglo-Saxon king of England. His reign ended with his death at the Battle of Hastings.",
+      "notableWorks": []
+    },
+    {
+      "fullName": "Harold Alexander",
+      "years": "1891-1969",
+      "category": "Military Leader",
+      "achievements": [
+        "Field Marshal in WWII",
+        "Led Allied forces in North Africa"
+      ],
+      "significance": "Harold Alexander was a prominent British military leader known for his role in World War II, especially in the North African campaign.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [
+    {
+      "quote": "The battle is not to the strong alone; it is to the vigilant, the active, the brave.",
+      "author": "Harold II Godwinson",
+      "context": "Attributed to his leadership style",
+      "year": 1066,
+      "category": "Leadership"
+    }
+  ],
+  "famousPeople": [
+    {
+      "name": "Harold Ramis",
+      "profession": "Actor, Director",
+      "knownFor": [
+        "Ghostbusters",
+        "Groundhog Day"
+      ],
+      "awards": "BAFTA Award for Best Original Screenplay"
+    },
+    {
+      "name": "Harold Pinter",
+      "profession": "Playwright",
+      "knownFor": [
+        "The Birthday Party",
+        "The Homecoming"
+      ],
+      "awards": "Nobel Prize in Literature"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Harold Carmichael",
+      "profession": "Athlete",
+      "sport": "Football",
+      "league": "NFL",
+      "team": "Philadelphia Eagles",
+      "pastTeams": [],
+      "position": "Wide Receiver",
+      "jerseyNumber": "17",
+      "years": "1971-1984",
+      "achievements": "Pro Football Hall of Fame",
+      "knownFor": [
+        "Tall stature",
+        "Exceptional catching ability"
+      ],
+      "awards": "NFL Man of the Year",
+      "stats": "590 receptions, 8,985 yards, 79 touchdowns",
+      "verified": true,
+      "source": "Pro Football Hall of Fame"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Harold & Kumar Go to White Castle",
+      "year": 2004,
+      "type": "Movie",
+      "characterName": "Harold Lee",
+      "characterDescription": "A young investment banker who embarks on a journey with his friend to a fast-food restaurant",
+      "imdbUrl": "https://www.imdb.com/title/tt0366551/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Harold and Maude",
+      "year": 1971,
+      "type": "Movie",
+      "characterName": "Harold Chasen",
+      "characterDescription": "A young man obsessed with death who forms an unlikely friendship with an older woman",
+      "imdbUrl": "https://www.imdb.com/title/tt0067185/",
+      "genre": "Comedy-Drama",
+      "verified": true,
+      "popularity": 90
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "The things you own end up owning you.",
+      "character": "Harold Chasen",
+      "source": "Harold and Maude",
+      "year": 1971,
+      "context": "Referring to materialism and life’s values",
+      "genre": "Comedy-Drama",
+      "impact": "Highlights the film's existential themes"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Earth signs that value stability and practicality",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, realism, and persistence",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Embodies qualities of leadership and authority",
+    "karmicLessons": "Learning to balance ambition with compassion",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire for nurturing and creating a harmonious environment"
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 410,
+    "peak": 12,
+    "peakYear": 1920
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Harold Godwinson",
+    "context": "Reflecting the resilience and leadership of historical figures"
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Har-old"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Haroldo",
+      "script": "Latin",
+      "scriptName": "Haroldo",
+      "pronunciation": "/aˈɾoldo/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Χάρολντ",
+      "script": "Greek",
+      "scriptName": "Χάρολντ",
+      "pronunciation": "/ˈxaɾolnd/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "هارولد",
+      "script": "Arabic",
+      "scriptName": "هارولد",
+      "pronunciation": "/haːruːld/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "哈罗德",
+      "script": "Han",
+      "scriptName": "哈罗德",
+      "pronunciation": "/hā luó dé/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гарольд",
+      "script": "Cyrillic",
+      "scriptName": "Гарольд",
+      "pronunciation": "/ˈɡarəlt/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "הארולד",
+      "script": "Hebrew",
+      "scriptName": "הארולד",
+      "pronunciation": "/haˈʁold/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Harold and the Purple Crayon",
+      "author": "Crockett Johnson",
+      "publishedYear": 1955,
+      "genre": "Children's Fiction",
+      "significance": "A classic children's book with imaginative storytelling and creativity",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Long-standing use across generations"
+    },
+    {
+      "tag": "Royal",
+      "confidence": 0.8,
+      "reason": "Associated with historical kings and leaders"
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Continued relevance and use over centuries"
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Harold is a name that conjures images of nobility and leadership. With its roots in the ancient Germanic languages, Harold has been borne by kings and knights, embodying a sense of strength and authority. In modern times, it remains a popular choice for parents seeking a name with historical depth.",
+    "etymology_meaning": "The name Harold originates from the Old English 'Hereweald', which means 'ruler of the army'. It combines 'heri', meaning army, and 'wald', meaning ruler, reflecting its noble and commanding nature.",
+    "famous_bearers": "Famous individuals with the name Harold include King Harold II, the last Anglo-Saxon king of England, and Harold Pinter, the Nobel Prize-winning playwright known for his masterful use of the English language.",
+    "pop_culture_moments": "In pop culture, Harold has been immortalized by the children's book 'Harold and the Purple Crayon', a story beloved for its whimsical and creative storytelling. The name also features prominently in films like 'Harold & Kumar Go to White Castle'.",
+    "personality_profile": "Harolds are often seen as leaders and visionaries. They are typically characterized by their strong sense of duty and responsibility, combined with a practical and grounded nature.",
+    "variations_nicknames": "Variations of Harold include Harald and Herold, while common nicknames are Harry and Hal. These variations offer a range of options for personalization.",
+    "popularity_data": "Harold has consistently ranked among the top names for over a century, peaking in the early 20th century. Its enduring popularity is a testament to its timeless appeal.",
+    "pairing_suggestions": "When considering sibling names, Harold pairs well with other classic names like Henry and Eleanor, or more modern choices like Oliver and Amelia.",
+    "cultural_context": "With its roots in Germanic and Anglo-Saxon history, Harold carries a cultural weight that is both noble and grounded. It has been a name of choice for leaders and thinkers across centuries.",
+    "final_recommendation": "For parents seeking a name with historical significance and timeless appeal, Harold offers a perfect blend of tradition and strength. Its rich history and strong associations make it a compelling choice for any child.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

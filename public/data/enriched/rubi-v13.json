@@ -1,0 +1,228 @@
+{
+  "name": "Rubi",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:16:26.513Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Latin",
+  "meaning": "Red gemstone",
+  "culturalSignificance": "The name Rubi is derived from the Latin word 'ruber,' meaning red, and refers to the precious gemstone, ruby. This stone has historically been associated with love, passion, and power, making the name popular in various cultures for its beauty and symbolism.",
+  "modernContext": "In modern times, Rubi is favored for its vibrant and youthful connotations. It is often chosen for its unique spelling and the association with the precious gemstone, making it a popular choice among parents seeking a distinctive yet simple name.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈruːbi/",
+  "variations": [
+    "Ruby",
+    "Rubie",
+    "Rube",
+    "Rubina"
+  ],
+  "similarNames": [
+    "Ruby",
+    "Rosie",
+    "Lily",
+    "Lucy",
+    "Sophie"
+  ],
+  "nicknames": [
+    "Ru",
+    "Rube",
+    "Bee"
+  ],
+  "personality": "Names like Rubi are often associated with vibrant and charismatic personalities. Individuals with this name are perceived as energetic and passionate, often leaving a lasting impression on those they meet.",
+  "symbolism": "Rubi symbolizes passion, protection, and prosperity, much like the gemstone it derives from. It is often seen as a name that brings good fortune and vitality.",
+  "funFact": "Ruby, the gemstone, is the birthstone for July and is often associated with wisdom and wealth.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Rubi Rose",
+      "profession": "Musician",
+      "knownFor": [
+        "Songs like 'Big Mouth'",
+        "Collaborations with popular artists"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Rubi Riot",
+      "profession": "Professional Wrestler",
+      "knownFor": [
+        "WWE appearances",
+        "Her distinctive wrestling style"
+      ],
+      "awards": ""
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Ruby Sparks",
+      "year": 2012,
+      "type": "Movie",
+      "characterName": "Rubi",
+      "characterDescription": "A fictional character created by a writer that becomes real.",
+      "imdbUrl": "https://www.imdb.com/title/tt1839492/",
+      "genre": "Fantasy, Romance",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Red",
+      "hex": "#FF0000"
+    },
+    "luckyGemstone": "Ruby",
+    "luckyDay": "Tuesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment.",
+    "compatibleSigns": [
+      "Aries",
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "Fire signs share Rubi's passion and energy.",
+    "cosmicElement": "Fire",
+    "cosmicElementDescription": "Represents transformation and dynamic energy.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Rubi embodies leadership and charisma.",
+    "karmicLessons": "Embrace passion and courage.",
+    "soulUrge": 5,
+    "soulUrgeDescription": "Desires freedom and adventure."
+  },
+  "genderDistribution": {
+    "male": 5,
+    "female": 95
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 350,
+    "peakYear": 2015
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "A ruby is not polished without rubbing, nor a person perfected without trials.",
+    "author": "Chinese Proverb",
+    "context": "A traditional saying highlighting the value of challenge."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Ru-bi"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rubi",
+      "script": "Latin",
+      "scriptName": "Rubi",
+      "pronunciation": "/ˈruβi/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ρούμπι",
+      "script": "Greek",
+      "scriptName": "Ρούμπι",
+      "pronunciation": "/ˈru.bi/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "روبي",
+      "script": "Arabic",
+      "scriptName": "روبي",
+      "pronunciation": "/ˈruː.bi/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "露比",
+      "script": "Han",
+      "scriptName": "露比",
+      "pronunciation": "/lù bǐ/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Руби",
+      "script": "Cyrillic",
+      "scriptName": "Руби",
+      "pronunciation": "/ˈru.bʲi/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רובי",
+      "script": "Hebrew",
+      "scriptName": "רובי",
+      "pronunciation": "/ˈruː.bi/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "The name Rubi, with its unique spelling, is popular among modern parents."
+    },
+    {
+      "tag": "Gemstone",
+      "confidence": 1,
+      "reason": "Directly named after the ruby gemstone."
+    },
+    {
+      "tag": "Nature",
+      "confidence": 0.8,
+      "reason": "Associated with the natural beauty and value of gemstones."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Ruby",
+      "artist": "Kaiser Chiefs",
+      "year": 2007,
+      "genre": "Rock",
+      "nameContext": "The name is used prominently in the chorus.",
+      "description": "A catchy rock song that became an anthem in the mid-2000s, capturing themes of desire and infatuation.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Kaiser+Chiefs+Ruby",
+      "geniusUrl": "https://genius.com/Kaiser-chiefs-ruby-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Rubi, a name as vibrant and precious as the gemstone it's derived from, has captured the hearts of many with its simple yet elegant charm. With roots in Latin, Rubi signifies the deep red gemstone known for its beauty and association with love and passion.",
+    "etymology_meaning": "The name Rubi comes from the Latin word 'ruber,' meaning red, and is closely associated with the ruby gemstone, which has been valued for its beauty and rarity throughout history.",
+    "famous_bearers": "Famous bearers of the name include Rubi Rose, a musician known for her dynamic presence in the music industry, and Rubi Riot, a professional wrestler recognized for her unique style.",
+    "pop_culture_moments": "Rubi has made appearances in popular culture, notably in films like 'Ruby Sparks,' where the character brings a fictional creation to life, adding to the name's enchanting allure.",
+    "personality_profile": "Individuals named Rubi are often seen as charismatic and energetic, embodying the passionate qualities associated with the ruby gemstone.",
+    "variations_nicknames": "Variations of Rubi include Ruby and Rubie, while common nicknames are Ru and Bee, each offering a playful take on the name.",
+    "popularity_data": "The name Rubi has seen steady popularity, reaching its peak in the mid-2010s, and continues to be a favored choice for parents looking for a distinctive yet classic name.",
+    "pairing_suggestions": "Rubi pairs well with names like Lily and Sophie, offering a harmonious blend of elegance and modernity, making it a versatile choice for siblings or combinations.",
+    "cultural_context": "With its origins in Latin and connections to the ruby gemstone, Rubi carries cultural significance in various traditions, symbolizing love and prosperity.",
+    "final_recommendation": "For parents seeking a name that combines elegance, modernity, and a touch of nature's beauty, Rubi offers a perfect balance. Its vibrant associations make it a standout choice for any child.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

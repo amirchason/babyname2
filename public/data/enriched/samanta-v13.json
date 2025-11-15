@@ -1,0 +1,232 @@
+{
+  "name": "Samanta",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:39:20.321Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Listener",
+  "culturalSignificance": "The name Samanta is a variation of Samantha, which is derived from the Hebrew name Sh'ma, meaning 'listen.' It has a cultural presence in various regions, often seen as a strong and independent name.",
+  "modernContext": "In modern times, Samanta is a popular name in many English-speaking countries. It is often chosen for its melodic sound and association with strong female figures in media.",
+  "literaryReferences": "",
+  "pronunciationGuide": "səˈmæntə",
+  "variations": [
+    "Samantha",
+    "Samanta",
+    "Samanta"
+  ],
+  "similarNames": [
+    "Samantha",
+    "Samara",
+    "Samira",
+    "Sabrina",
+    "Serena"
+  ],
+  "nicknames": [
+    "Sam",
+    "Sami",
+    "Sammie"
+  ],
+  "personality": "Those named Samanta are often seen as empathetic and strong-willed individuals, with a knack for leadership and communication.",
+  "symbolism": "The name symbolizes attentiveness and a deep listening quality, often associated with understanding and wisdom.",
+  "funFact": "The name Samantha gained significant popularity after the TV show 'Bewitched' aired, featuring a character named Samantha Stephens.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Samanta Villar",
+      "profession": "Journalist",
+      "knownFor": [
+        "21 días",
+        "Conexión Samanta"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Samanta Schweblin",
+      "profession": "Author",
+      "knownFor": [
+        "Fever Dream",
+        "Mouthful of Birds"
+      ],
+      "awards": "Tig Notaro Prize"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Sex and the City",
+      "year": 1998,
+      "type": "TV Show",
+      "characterName": "Samantha Jones",
+      "characterDescription": "A confident and successful public relations executive.",
+      "imdbUrl": "https://www.imdb.com/title/tt0159206/",
+      "genre": "Comedy, Romance",
+      "verified": true,
+      "popularity": 85
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm a 'trisexual.' I'll try anything once.",
+      "character": "Samantha Jones",
+      "source": "Sex and the City",
+      "year": 1998,
+      "context": "Samantha expressing her open-minded approach to life.",
+      "genre": "Comedy, Romance",
+      "impact": "This quote captures Samantha's adventurous and bold personality."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Wednesday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time of culmination and fulfillment.",
+    "compatibleSigns": [
+      "Cancer",
+      "Pisces"
+    ],
+    "compatibleSignsDescription": "These signs are intuitive and emotionally in tune.",
+    "cosmicElement": "Water",
+    "cosmicElementDescription": "Associated with emotions, intuition, and healing.",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Symbolizes empathy, understanding, and compassion.",
+    "karmicLessons": "To embrace and share your intuitive gifts.",
+    "soulUrge": 2,
+    "soulUrgeDescription": "A desire for harmony and peace in personal and professional life."
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 350,
+    "peak": 150,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Listening is a master skill for personal and professional greatness.",
+    "author": "Robin S. Sharma",
+    "context": "Reflecting the meaning of the name Samanta, which signifies 'listener.'"
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Sa-man-ta"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Samanta",
+      "script": "Latin",
+      "scriptName": "Samanta",
+      "pronunciation": "saˈmanta",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Σαμάντα",
+      "script": "Greek",
+      "scriptName": "Σαμάντα",
+      "pronunciation": "saˈmanta",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "سامانتا",
+      "script": "Arabic",
+      "scriptName": "سامانتا",
+      "pronunciation": "saˈmanta",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "萨曼塔",
+      "script": "Han",
+      "scriptName": "萨曼塔",
+      "pronunciation": "sà mǎn tǎ",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Саманта",
+      "script": "Cyrillic",
+      "scriptName": "Саманта",
+      "pronunciation": "saˈmanta",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "סמנטה",
+      "script": "Hebrew",
+      "scriptName": "סמנטה",
+      "pronunciation": "saˈmanta",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Fever Dream",
+      "author": "Samanta Schweblin",
+      "publishedYear": 2014,
+      "genre": "Fiction",
+      "significance": "A critically acclaimed novel exploring themes of fear and motherhood.",
+      "nameRole": "author",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Modern",
+      "confidence": 0.9,
+      "reason": "Gained popularity in the modern era, especially post-1970s."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "Has been a consistent choice across decades."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.7,
+      "reason": "Associated with authors and literary characters."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Samanta is a name that resonates with strength and attentiveness, qualities that are cherished across cultures. Its roots are deep, yet its presence in modern society is vibrant and dynamic.",
+    "etymology_meaning": "Samanta is a variation of the name Samantha, which is believed to originate from the Hebrew word for 'listener.' This etymology highlights the name's association with attentiveness and wisdom.",
+    "famous_bearers": "Notable individuals like author Samanta Schweblin have brought acclaim to the name, showcasing its literary connection and cultural depth.",
+    "pop_culture_moments": "Samanta has appeared in various television shows and films, often as characters who are strong and independent, like Samantha Jones from 'Sex and the City.'",
+    "personality_profile": "People named Samanta are often seen as empathetic and communicative, with a natural ability to lead and inspire those around them.",
+    "variations_nicknames": "Common variations include Samantha and Samanta, with nicknames like Sam and Sami offering a casual and friendly touch.",
+    "popularity_data": "The name Samanta saw a rise in popularity during the late 20th century and continues to be a popular choice due to its pleasant sound and cultural resonance.",
+    "pairing_suggestions": "Samanta pairs well with middle names like Claire or Elise, creating a harmonious blend that flows effortlessly.",
+    "cultural_context": "While primarily used in English-speaking regions, Samanta enjoys popularity in Hispanic cultures as well, where it is pronounced with a slightly different inflection.",
+    "final_recommendation": "Samanta is an excellent choice for parents seeking a name that is both familiar and distinct, with a rich background and a promising future.",
+    "writer_name": "Alex Rivers",
+    "writer_title": "Cultural Historian & Name Etymology Expert"
+  },
+  "v11Writer": "alex",
+  "v11WriterName": "Alex Rivers",
+  "v11WriterTitle": "Cultural Historian & Name Etymology Expert"
+}

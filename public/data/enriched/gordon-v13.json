@@ -1,0 +1,294 @@
+{
+  "name": "Gordon",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:11:37.307Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Scottish",
+  "meaning": "Great hill",
+  "culturalSignificance": "Gordon is a name of Scottish origin, traditionally a surname linked to Clan Gordon, a significant Scottish clan. The name has historical ties to nobility and has been borne by several notable figures throughout Scottish history.",
+  "modernContext": "In contemporary times, Gordon is a well-known first name, particularly in English-speaking countries. It has been used by various public figures, contributing to its recognition and sustained, if modest, popularity.",
+  "literaryReferences": "The name Gordon appears in several works of fiction, often as a character with a strong or authoritative presence.",
+  "pronunciationGuide": "/ˈɡɔːrdən/",
+  "variations": [
+    "Gordan",
+    "Gordie",
+    "Gordy"
+  ],
+  "similarNames": [
+    "Jordan",
+    "Morgan",
+    "Brandon",
+    "Logan",
+    "Cameron"
+  ],
+  "nicknames": [
+    "Gord",
+    "Gordie",
+    "Dan"
+  ],
+  "personality": "The name Gordon is often associated with qualities such as strength, reliability, and leadership. Individuals with this name are perceived to have a solid and dependable character.",
+  "symbolism": "Gordon symbolizes steadfastness and a connection to nature, reflecting its meaning of 'great hill.'",
+  "funFact": "The name Gordon became particularly popular in the United States in the mid-20th century, peaking in the 1930s and 1940s.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Charles George Gordon",
+      "years": "1833-1885",
+      "category": "Military",
+      "achievements": [
+        "Governor of Sudan",
+        "Siege of Khartoum"
+      ],
+      "significance": "Charles George Gordon, also known as Gordon of Khartoum, was a British army officer and administrator who became a national hero for his defense of Khartoum during the Mahdist War.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Gordon Ramsay",
+      "profession": "Chef",
+      "knownFor": [
+        "Hell's Kitchen",
+        "MasterChef"
+      ],
+      "awards": "Multiple Michelin Stars"
+    },
+    {
+      "name": "Gordon Lightfoot",
+      "profession": "Musician",
+      "knownFor": [
+        "Sundown",
+        "If You Could Read My Mind"
+      ],
+      "awards": "Juno Awards"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Gordon Hayward",
+      "profession": "Athlete",
+      "sport": "Basketball",
+      "league": "NBA",
+      "team": "Charlotte Hornets",
+      "pastTeams": [
+        "Boston Celtics",
+        "Utah Jazz"
+      ],
+      "position": "Small forward",
+      "jerseyNumber": "20",
+      "years": "2010-Present",
+      "achievements": "NBA All-Star",
+      "knownFor": [
+        "Shooting",
+        "Versatility"
+      ],
+      "awards": "",
+      "stats": "Career averages of points, rebounds, assists",
+      "verified": true,
+      "source": "NBA official website"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Batman",
+      "year": 1989,
+      "type": "Movie",
+      "characterName": "Commissioner Gordon",
+      "characterDescription": "Trusted ally of Batman and police commissioner of Gotham City.",
+      "imdbUrl": "https://www.imdb.com/title/tt0096895/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 85
+    },
+    {
+      "title": "Gordon's War",
+      "year": 1973,
+      "type": "Movie",
+      "characterName": "Gordon Hudson",
+      "characterDescription": "Vietnam veteran seeking to clean up his neighborhood from drug dealers.",
+      "imdbUrl": "https://www.imdb.com/title/tt0070075/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 70
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "We have a signal now, for when I'm needed.",
+      "character": "Commissioner Gordon",
+      "source": "Batman",
+      "year": 1989,
+      "context": "Commissioner Gordon explaining the Bat-Signal's use.",
+      "genre": "Action",
+      "impact": "Symbolizes the partnership between Batman and the Gotham City Police."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Saturday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for fulfillment and clarity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Compatible due to shared Earth element traits.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability and practicality.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Known for creating solid foundations and structures.",
+    "karmicLessons": "Learning to balance work and personal life.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for security and stability."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 79,
+    "peakYear": 1940
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Gordon's character is the epitome of reliability and strength.",
+    "author": "Alex Rivers",
+    "context": "Reflecting on the qualities associated with the name Gordon."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Gor-don"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Gordon",
+      "script": "Latin",
+      "scriptName": "Gordon",
+      "pronunciation": "/ˈɡoɾðon/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Γκόρντον",
+      "script": "Greek",
+      "scriptName": "Γκόρντον",
+      "pronunciation": "/ˈɡorðon/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "غوردون",
+      "script": "Arabic",
+      "scriptName": "غوردون",
+      "pronunciation": "/ˈɡoːrdon/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "戈登",
+      "script": "Han",
+      "scriptName": "戈登",
+      "pronunciation": "/ɡə˥˥tən˧˥/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Гордон",
+      "script": "Cyrillic",
+      "scriptName": "Гордон",
+      "pronunciation": "/ˈɡordɔn/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "גורדון",
+      "script": "Hebrew",
+      "scriptName": "גורדון",
+      "pronunciation": "/ɡorˈdon/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "The Adventures of Gordon Pym",
+      "author": "Edgar Allan Poe",
+      "publishedYear": 1838,
+      "genre": "Fiction",
+      "significance": "A classic novel exploring adventure and survival.",
+      "nameRole": "protagonist",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Due to its long-standing use and historical significance."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Maintains consistent recognition across generations."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.75,
+      "reason": "Appears in classical literature and modern fiction."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Gordon's Gardenparty",
+      "artist": "The Cardigans",
+      "year": 1994,
+      "genre": "Pop",
+      "nameContext": "The name appears in the song's title and lyrics.",
+      "description": "A whimsical song by The Cardigans, capturing the essence of a light-hearted gathering.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Gordon%27s+Gardenparty+The+Cardigans",
+      "geniusUrl": "https://genius.com/The-cardigans-gordons-gardenparty-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Gordon is a name that evokes a sense of strength and reliability, deeply rooted in Scottish heritage. With its ties to historical figures and modern celebrities, it's a name that has stood the test of time. Whether in literature or on the big screen, Gordon has been a name synonymous with leadership and resilience.",
+    "etymology_meaning": "The name Gordon originates from Scotland, meaning 'great hill,' and was initially a surname. It is associated with Clan Gordon, a significant and powerful Scottish clan.",
+    "famous_bearers": "Famous people with the name Gordon include celebrity chef Gordon Ramsay and musician Gordon Lightfoot, both of whom have achieved international fame in their respective fields.",
+    "pop_culture_moments": "In pop culture, the name Gordon is well-known due to characters like Commissioner Gordon from the Batman series, symbolizing justice and integrity.",
+    "personality_profile": "People named Gordon are often seen as leaders, possessing a strong sense of duty and perseverance. They are reliable friends and often take on roles that require responsibility.",
+    "variations_nicknames": "Variations of the name include Gordan and Gordie, while common nicknames are Gord and Dan. These variations provide a range of options for those with the name.",
+    "popularity_data": "While its popularity peaked in the mid-20th century, the name Gordon continues to be a classic choice for parents looking for a strong, traditional name.",
+    "pairing_suggestions": "Gordon pairs well with classic names like James or Elizabeth, creating a harmonious balance of tradition and strength.",
+    "cultural_context": "The cultural background of Gordon is rich with Scottish history, making it a name that carries a strong sense of identity and heritage.",
+    "final_recommendation": "Gordon is a timeless choice for those seeking a name with historical significance and modern relevance. It's a name that promises to imbue a sense of strength and leadership.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

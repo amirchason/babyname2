@@ -1,0 +1,251 @@
+{
+  "name": "Madeline",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:28:32.316Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "female",
+  "origin": "Hebrew",
+  "meaning": "Woman from Magdala",
+  "culturalSignificance": "The name Madeline is derived from the Hebrew name Magdalene, which means 'from Magdala.' Magdala was a city on the Sea of Galilee known for its tower. This name has been popularized in various cultures through literature and religious texts.",
+  "modernContext": "Madeline is a classic name that has maintained its popularity over the years, particularly in English-speaking countries. It is often associated with elegance and sophistication, making it a preferred choice for parents seeking a timeless name.",
+  "literaryReferences": "Madeline is the title character in the beloved children's book series by Ludwig Bemelmans, which tells the adventures of a brave little girl in a convent school in Paris.",
+  "pronunciationGuide": "/ˈmædəˌlaɪn/",
+  "variations": [
+    "Madeleine",
+    "Madalyn",
+    "Madelyn",
+    "Maddalena"
+  ],
+  "similarNames": [
+    "Madison",
+    "Adeline",
+    "Caroline",
+    "Emmeline"
+  ],
+  "nicknames": [
+    "Maddie",
+    "Maddy",
+    "Lena",
+    "Mads"
+  ],
+  "personality": "People named Madeline are often perceived as intelligent, poised, and independent. They are known for their strong will and leadership qualities.",
+  "symbolism": "Madeline symbolizes purity and strength, often associated with the biblical figure Mary Magdalene, who was a devoted follower of Jesus.",
+  "funFact": "The name Madeline gained significant popularity in the United States in the late 20th century, partly due to the influence of the Madeline children's book series.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Christianity"
+    ],
+    "character": "Mary Magdalene",
+    "significance": "Mary Magdalene is a significant figure in Christianity, known as a devoted follower of Jesus who witnessed his crucifixion and resurrection.",
+    "keyStories": [
+      "Witnessing the resurrection of Jesus"
+    ],
+    "spiritualMeaning": "Repentance and devotion",
+    "historicalImpact": "Mary Magdalene is revered as a saint in many Christian traditions and has inspired numerous works of art and literature."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Madeline Kahn",
+      "profession": "Actress",
+      "knownFor": [
+        "Blazing Saddles",
+        "Young Frankenstein"
+      ],
+      "awards": "Tony Award, Academy Award nominations"
+    },
+    {
+      "name": "Madeline Miller",
+      "profession": "Author",
+      "knownFor": [
+        "The Song of Achilles",
+        "Circe"
+      ],
+      "awards": "Orange Prize for Fiction"
+    }
+  ],
+  "famousAthletes": [],
+  "moviesAndShows": [
+    {
+      "title": "Madeline",
+      "year": 1998,
+      "type": "Movie",
+      "characterName": "Madeline",
+      "characterDescription": "A brave and adventurous girl living in Paris",
+      "imdbUrl": "https://www.imdb.com/title/tt0123987/",
+      "genre": "Family, Comedy",
+      "verified": true,
+      "popularity": 75
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "In an old house in Paris that was covered with vines lived twelve little girls in two straight lines.",
+      "character": "Narrator",
+      "source": "Madeline",
+      "year": 1998,
+      "context": "Opening line of the Madeline movie and book series",
+      "genre": "Family, Comedy",
+      "impact": "Iconic opening that sets the scene for Madeline's adventures"
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Water",
+    "luckyColor": {
+      "name": "Blue",
+      "hex": "#0000FF"
+    },
+    "luckyGemstone": "Sapphire",
+    "luckyDay": "Friday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "A time for completion and celebration",
+    "compatibleSigns": [
+      "Pisces",
+      "Cancer"
+    ],
+    "compatibleSignsDescription": "Water signs that share emotional depth and sensitivity",
+    "cosmicElement": "The Dreamer",
+    "cosmicElementDescription": "Represents imagination and empathy",
+    "celestialArchetype": "The Healer",
+    "celestialArchetypeDescription": "Known for nurturing and caring nature",
+    "karmicLessons": "Learning to balance giving with receiving",
+    "soulUrge": 6,
+    "soulUrgeDescription": "Desire to nurture and create harmony"
+  },
+  "genderDistribution": {
+    "male": 0,
+    "female": 100
+  },
+  "ranking": {
+    "current": 95,
+    "peak": 50,
+    "peakYear": 2010
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "context": "Encouragement to embrace individuality"
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Mad-e-line"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Magdalena",
+      "script": "Latin",
+      "scriptName": "Magdalena",
+      "pronunciation": "/maɡðaˈlena/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Μαγδαληνή",
+      "script": "Greek",
+      "scriptName": "Μαγδαληνή",
+      "pronunciation": "/maɣðaliˈni/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "مادلين",
+      "script": "Arabic",
+      "scriptName": "مادلين",
+      "pronunciation": "/madlin/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "玛德琳",
+      "script": "Han",
+      "scriptName": "玛德琳",
+      "pronunciation": "/mǎ dé lín/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Мадлен",
+      "script": "Cyrillic",
+      "scriptName": "Мадлен",
+      "pronunciation": "/madˈlʲen/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "מגדלנה",
+      "script": "Hebrew",
+      "scriptName": "מגדלנה",
+      "pronunciation": "/maɡdaˈlena/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [
+    {
+      "title": "Madeline",
+      "author": "Ludwig Bemelmans",
+      "publishedYear": 1939,
+      "genre": "Children's literature",
+      "significance": "A classic children's book series that has been beloved for generations.",
+      "nameRole": "title",
+      "verified": true
+    }
+  ],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.95,
+      "reason": "Widely used over centuries and maintains a timeless appeal."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.9,
+      "reason": "Associated with the famous children’s book series."
+    },
+    {
+      "tag": "Biblical",
+      "confidence": 0.85,
+      "reason": "Derived from the name of a prominent biblical figure."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Madeline",
+      "artist": "Hanson",
+      "year": 1997,
+      "genre": "Pop",
+      "nameContext": "The song describes a girl named Madeline.",
+      "description": "A song by Hanson from their debut album, discussing themes of love and longing for a girl named Madeline.",
+      "theme": "positive",
+      "positiveVibeScore": 8,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Hanson+Madeline",
+      "geniusUrl": "https://genius.com/Hanson-madeline-lyrics",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "Madeline is a name that exudes charm and classic elegance. It carries with it an air of sophistication and history, having been a popular choice for parents across generations. Whether you're drawn to its literary associations or its graceful sound, Madeline remains a timeless favorite.",
+    "etymology_meaning": "The name Madeline originates from the Hebrew name Magdalene, meaning 'from Magdala,' a region renowned for its historical and biblical significance. This connection gives the name a rich cultural depth.",
+    "famous_bearers": "Famous individuals named Madeline include actress Madeline Kahn, known for her comedic talents, and author Madeline Miller, who has penned best-selling novels like 'The Song of Achilles.'",
+    "pop_culture_moments": "Madeline is best known in pop culture as the adventurous young girl in the beloved children's book series by Ludwig Bemelmans, which has been adapted into a film and TV series.",
+    "personality_profile": "Those named Madeline are often seen as poised and intelligent, with a natural inclination towards leadership. They are admired for their ability to navigate social situations with grace.",
+    "variations_nicknames": "Variations of Madeline include Madeleine and Madelyn, while common nicknames are Maddie and Maddy. These offer versatility for those who prefer a shorter, more casual form.",
+    "popularity_data": "Madeline has consistently ranked among the top baby names in the U.S., peaking in popularity in the early 2000s. Its enduring appeal speaks to its classic status.",
+    "pairing_suggestions": "Madeline pairs well with names like Oliver, William, and Charlotte, offering a harmonious blend of classic and contemporary styles.",
+    "cultural_context": "Madeline's cultural roots are steeped in biblical history, with Mary Magdalene being a key figure. This gives the name a spiritual resonance that many find appealing.",
+    "final_recommendation": "For parents seeking a name that is both timeless and elegant, Madeline presents an excellent choice. Its rich history and cultural significance make it a meaningful option.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}

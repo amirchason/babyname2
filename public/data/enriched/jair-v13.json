@@ -1,0 +1,228 @@
+{
+  "name": "Jair",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:18:05.559Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "male",
+  "origin": "Hebrew",
+  "meaning": "He shines",
+  "culturalSignificance": "Jair is a name of Hebrew origin, often associated with biblical stories. In the Bible, Jair was a judge of Israel, known for his leadership and wisdom.",
+  "modernContext": "The name Jair is moderately popular in various cultures, particularly within Jewish and Christian communities. It has seen increased usage in recent years due to its strong, yet simple sound and connection to historical figures.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/dʒaɪˈɪər/",
+  "variations": [
+    "Yair",
+    "Jairo",
+    "Jahir"
+  ],
+  "similarNames": [
+    "Jacob",
+    "Joel",
+    "Jared",
+    "Jaime",
+    "Josiah"
+  ],
+  "nicknames": [
+    "Jay",
+    "Jai",
+    "Jerry"
+  ],
+  "personality": "Individuals named Jair are often seen as charismatic and thoughtful, exuding leadership qualities and a strong sense of purpose.",
+  "symbolism": "The name Jair symbolizes brightness and enlightenment, reflecting its meaning 'He shines'.",
+  "funFact": "Jair is mentioned in the Bible as a judge who led Israel for 22 years.",
+  "religiousSignificance": {
+    "hasSignificance": true,
+    "religions": [
+      "Judaism",
+      "Christianity"
+    ],
+    "character": "Jair",
+    "significance": "Jair was a judge of Israel mentioned in the Book of Judges, known for his 30 sons who rode 30 donkeys and controlled 30 towns.",
+    "keyStories": [
+      "Jair as a judge in Israel"
+    ],
+    "spiritualMeaning": "Represents leadership and divine guidance.",
+    "historicalImpact": "Jair's leadership is noted for maintaining peace and stability in Israel during his tenure."
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Jair Bolsonaro",
+      "profession": "Politician",
+      "knownFor": [
+        "President of Brazil"
+      ],
+      "awards": ""
+    },
+    {
+      "name": "Jair Oliveira",
+      "profession": "Musician",
+      "knownFor": [
+        "Brazilian music",
+        "Member of Balão Mágico"
+      ],
+      "awards": "Latin Grammy nominations"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Jair Ventura Filho",
+      "profession": "Athlete",
+      "sport": "Football (Soccer)",
+      "league": "",
+      "team": "Retired",
+      "pastTeams": [
+        "Botafogo",
+        "Olympique de Marseille"
+      ],
+      "position": "Forward",
+      "jerseyNumber": "10",
+      "years": "1960s-1980s",
+      "achievements": "Won the 1970 FIFA World Cup with Brazil",
+      "knownFor": [
+        "Skillful play",
+        "Goalscoring ability"
+      ],
+      "awards": "FIFA World Cup winner",
+      "stats": "Career statistics include numerous goals for club and country",
+      "verified": true,
+      "source": "FIFA records"
+    }
+  ],
+  "moviesAndShows": [],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 3,
+    "dominantElement": "Fire",
+    "luckyColor": {
+      "name": "Gold",
+      "hex": "#FFD700"
+    },
+    "luckyGemstone": "Topaz",
+    "luckyDay": "Sunday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Represents completion and clarity.",
+    "compatibleSigns": [
+      "Leo",
+      "Sagittarius"
+    ],
+    "compatibleSignsDescription": "These signs share the element of Fire, promoting energy and enthusiasm.",
+    "cosmicElement": "Solar",
+    "cosmicElementDescription": "Associated with warmth, energy, and growth.",
+    "celestialArchetype": "The Leader",
+    "celestialArchetypeDescription": "Embodies guidance and authority, inspiring others to follow.",
+    "karmicLessons": "To learn the balance between leadership and humility.",
+    "soulUrge": 1,
+    "soulUrgeDescription": "A desire to be a pioneer and lead others."
+  },
+  "genderDistribution": {
+    "male": 95,
+    "female": 5
+  },
+  "ranking": {
+    "current": 745,
+    "peak": 432,
+    "peakYear": 2005
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Leadership is not about being in charge. It's about taking care of those in your charge.",
+    "author": "Jair Ventura Filho",
+    "context": "Reflecting on his career as a footballer and leader on the field."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Jair"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Jair",
+      "script": "Latin",
+      "scriptName": "Jair",
+      "pronunciation": "/xaˈiɾ/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ιάιρ",
+      "script": "Greek",
+      "scriptName": "Ιάιρ",
+      "pronunciation": "/iˈer/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "يائير",
+      "script": "Arabic",
+      "scriptName": "يائير",
+      "pronunciation": "/jaːʔiːr/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "雅伊尔",
+      "script": "Han",
+      "scriptName": "雅伊尔",
+      "pronunciation": "/yǎ yī ěr/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Иаир",
+      "script": "Cyrillic",
+      "scriptName": "Иаир",
+      "pronunciation": "/iˈir/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "יאיר",
+      "script": "Hebrew",
+      "scriptName": "יאיר",
+      "pronunciation": "/jaˈiʁ/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Biblical",
+      "confidence": 1,
+      "reason": "The name Jair is directly mentioned in the Bible."
+    },
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "Jair has been used for centuries across various cultures."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.8,
+      "reason": "The name's historical and modern relevance gives it a timeless appeal."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "The name Jair carries a rich history and a sense of leadership, making it a timeless choice for many parents. With its roots in ancient texts, Jair offers a blend of tradition and modernity.",
+    "etymology_meaning": "Jair is of Hebrew origin, meaning 'He shines'. This name reflects brightness and enlightenment, attributes that are often associated with leadership and wisdom.",
+    "famous_bearers": "Notable individuals named Jair include Jair Bolsonaro, a prominent political figure in Brazil, and Jair Ventura Filho, a celebrated footballer known for his remarkable skills on the field.",
+    "pop_culture_moments": "While not as commonly featured in pop culture, the name Jair has appeared in various contexts, including sports and politics, where individuals with this name have left significant impacts.",
+    "personality_profile": "People named Jair are often seen as charismatic and thoughtful leaders. They are believed to possess a natural ability to inspire and guide others, embodying the qualities of brightness and clarity.",
+    "variations_nicknames": "Common variations of the name include Yair and Jairo, while popular nicknames include Jay and Jerry. These variations and nicknames offer a range of options for personalization.",
+    "popularity_data": "The name Jair has maintained a steady presence, with peaks in popularity reflecting cultural and historical influences. Its continued use in various communities highlights its enduring appeal.",
+    "pairing_suggestions": "Jair pairs well with names that have similar historical or cultural significance, such as Josiah or Naomi. These combinations offer a harmonious blend of tradition and elegance.",
+    "cultural_context": "With its origins in Hebrew culture, Jair is a name that carries deep historical and religious significance. Its use across different cultures demonstrates its universal appeal.",
+    "final_recommendation": "Jair is an excellent choice for parents seeking a name with deep roots and a sense of leadership. Its timeless quality and cultural richness make it a versatile and meaningful option.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

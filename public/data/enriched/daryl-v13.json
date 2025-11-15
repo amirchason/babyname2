@@ -1,0 +1,261 @@
+{
+  "name": "Daryl",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:28:32.316Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "English",
+  "meaning": "Dear one",
+  "culturalSignificance": "Daryl is a name that gained popularity in the mid-20th century, particularly in English-speaking countries. It is often considered a unisex name, though it has historically been more common as a male name. The name has appeared in various cultural contexts, particularly in film and television.",
+  "modernContext": "In modern times, Daryl is often associated with characters from popular media, such as Daryl Dixon from 'The Walking Dead'. While its popularity has declined since its peak in the 1970s, it remains a recognizable and enduring name.",
+  "literaryReferences": "",
+  "pronunciationGuide": "/ˈdɛrəl/",
+  "variations": [
+    "Darrell",
+    "Darrel",
+    "Darel",
+    "Daryle",
+    "Darryl"
+  ],
+  "similarNames": [
+    "Darren",
+    "Damon",
+    "Daniel",
+    "Dustin",
+    "Dennis"
+  ],
+  "nicknames": [
+    "Darry",
+    "Daz",
+    "Dar",
+    "Ryl"
+  ],
+  "personality": "The name Daryl is often associated with a strong, reliable, and down-to-earth personality. People with this name are thought to be practical and trustworthy.",
+  "symbolism": "The name Daryl often symbolizes affection and a loving nature, as it is derived from 'dear'.",
+  "funFact": "Daryl is one of the few names that has been used as both a male and female name in various TV shows and movies.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Daryl Hannah",
+      "profession": "Actor",
+      "knownFor": [
+        "Splash",
+        "Blade Runner"
+      ],
+      "awards": "Saturn Award for Best Actress"
+    },
+    {
+      "name": "Daryl Hall",
+      "profession": "Musician",
+      "knownFor": [
+        "Hall & Oates",
+        "Private Eyes"
+      ],
+      "awards": "MTV Video Music Award for Best New Artist"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Daryl Strawberry",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "New York Mets",
+      "pastTeams": [
+        "Los Angeles Dodgers",
+        "San Francisco Giants"
+      ],
+      "position": "Right fielder",
+      "jerseyNumber": "18",
+      "years": "1983-1999",
+      "achievements": "Four-time World Series champion",
+      "knownFor": [
+        "Power hitting",
+        "All-Star appearances"
+      ],
+      "awards": "Rookie of the Year",
+      "stats": "335 home runs",
+      "verified": true,
+      "source": "Baseball Reference"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "The Walking Dead",
+      "year": 2010,
+      "type": "TV Show",
+      "characterName": "Daryl Dixon",
+      "characterDescription": "A skilled survivalist and crossbow expert.",
+      "imdbUrl": "https://www.imdb.com/title/tt1520211/",
+      "genre": "Drama, Horror, Thriller",
+      "verified": true,
+      "popularity": 92
+    },
+    {
+      "title": "Newhart",
+      "year": 1982,
+      "type": "TV Show",
+      "characterName": "Darryl",
+      "characterDescription": "One of the silent brothers known for comedic relief.",
+      "imdbUrl": "https://www.imdb.com/title/tt0083455/",
+      "genre": "Comedy",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [
+    {
+      "quote": "I'm better on my own. I don't need anybody else.",
+      "character": "Daryl Dixon",
+      "source": "The Walking Dead",
+      "year": 2010,
+      "context": "Expressing his lone-wolf nature in the post-apocalyptic world.",
+      "genre": "Drama, Horror, Thriller",
+      "impact": "Highlights the character's independence and resilience."
+    }
+  ],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Green",
+      "hex": "#008000"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Saturday",
+    "moonPhase": "Waxing Crescent",
+    "moonPhaseDescription": "A time for setting intentions and attracting positivity.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "Balance and practicality align with these signs.",
+    "cosmicElement": "Stability",
+    "cosmicElementDescription": "Represents groundedness and reliability.",
+    "celestialArchetype": "The Grounded One",
+    "celestialArchetypeDescription": "Embodies stability and practicality.",
+    "karmicLessons": "Learning the importance of adaptability and change.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "A desire for security and a stable foundation."
+  },
+  "genderDistribution": {
+    "male": 60,
+    "female": 40
+  },
+  "ranking": {
+    "current": 450,
+    "peak": 320,
+    "peakYear": 1975
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein",
+    "context": "Encouraging perseverance and balance."
+  },
+  "syllables": {
+    "count": 2,
+    "breakdown": "Dar-yl"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Daryl",
+      "script": "Latin",
+      "scriptName": "Daryl",
+      "pronunciation": "/ˈdaɾil/",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ντάριλ",
+      "script": "Greek",
+      "scriptName": "Ντάριλ",
+      "pronunciation": "/ˈda.ɾil/",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "داريل",
+      "script": "Arabic",
+      "scriptName": "داريل",
+      "pronunciation": "/daːril/",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "达里尔",
+      "script": "Han",
+      "scriptName": "达里尔",
+      "pronunciation": "/dá-lǐ-ěr/",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Дарил",
+      "script": "Cyrillic",
+      "scriptName": "Дарил",
+      "pronunciation": "/ˈdarʲɪl/",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "דאריל",
+      "script": "Hebrew",
+      "scriptName": "דאריל",
+      "pronunciation": "/daɾil/",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been used consistently over the decades."
+    },
+    {
+      "tag": "Modern",
+      "confidence": 0.7,
+      "reason": "While it peaked in popularity mid-20th century, it remains in use today."
+    },
+    {
+      "tag": "Literary",
+      "confidence": 0.5,
+      "reason": "Appears in various works of fiction and TV shows."
+    }
+  ],
+  "songs": [],
+  "v11BlogContent": {
+    "opening_hook": "Daryl is a name with a rich history and a modern appeal, known for its charm and simplicity. Whether you're a fan of classic names or looking for something with a contemporary twist, Daryl strikes a perfect balance. This name has been a favorite in both literary and pop culture, making it a timeless choice.",
+    "etymology_meaning": "The name Daryl originates from an English surname derived from the Old French 'd'Airelle', meaning 'from Airelle'. Over time, it has come to signify 'dear one', adding a layer of endearment to its character.",
+    "famous_bearers": "Notable individuals with the name Daryl include Daryl Hannah, an acclaimed actress known for her roles in 'Splash' and 'Blade Runner', and Daryl Hall of the musical duo Hall & Oates. These figures highlight the name's versatility across different fields.",
+    "pop_culture_moments": "In pop culture, Daryl is perhaps most famously associated with Daryl Dixon from 'The Walking Dead', a character known for his rugged survival skills and deep loyalty. The name also appears in the classic TV show 'Newhart', adding a comedic element to its repertoire.",
+    "personality_profile": "People named Daryl are often seen as strong, independent, and reliable. They are known for their practical approach to life and are often the backbone of their communities.",
+    "variations_nicknames": "Variations of the name Daryl include Darrell, Darrel, and Daryle, while common nicknames include Darry and Daz. These variations and nicknames offer a sense of familiarity and flexibility.",
+    "popularity_data": "Daryl reached its peak popularity in the 1970s and has maintained a steady presence ever since. While it may not top the charts today, its enduring appeal keeps it relevant.",
+    "pairing_suggestions": "Daryl pairs well with both classic and modern names, making it versatile for sibling sets. Consider pairing it with names like Lauren, Amelia, or Ethan for a harmonious blend.",
+    "cultural_context": "Culturally, Daryl has been embraced in English-speaking countries, where it carries a sense of warmth and familiarity. Its use in media and entertainment has further solidified its place in modern naming conventions.",
+    "final_recommendation": "If you're seeking a name that balances tradition with modernity, Daryl is a strong contender. Its rich history, cultural significance, and modern associations make it a name that stands the test of time.",
+    "writer_name": "Jamie Park",
+    "writer_title": "Data Analyst & Statistics Enthusiast"
+  },
+  "v11Writer": "jamie",
+  "v11WriterName": "Jamie Park",
+  "v11WriterTitle": "Data Analyst & Statistics Enthusiast"
+}

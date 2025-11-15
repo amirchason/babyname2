@@ -1,0 +1,264 @@
+{
+  "name": "Rodriguez",
+  "enrichmentVersion": "v13_super_enriched",
+  "enrichedAt": "2025-11-13T06:42:40.619Z",
+  "dataSource": "GPT-4o Cloud Enrichment",
+  "versionsIncluded": [
+    "v13"
+  ],
+  "gender": "unisex",
+  "origin": "Spanish",
+  "meaning": "Son of Rodrigo",
+  "culturalSignificance": "Rodriguez is a common surname in Spanish-speaking countries, originating from the given name Rodrigo, meaning 'famous ruler'. It reflects the patronymic naming tradition where 'ez' denotes 'son of'.",
+  "modernContext": "In modern times, Rodriguez is a widely recognized surname in the Hispanic community and has been carried by numerous influential figures in various fields such as sports, music, and politics.",
+  "literaryReferences": "",
+  "pronunciationGuide": "roʊˈdriːɡɛz",
+  "variations": [
+    "Rodrigues",
+    "Rodriquez",
+    "Rodríguez",
+    "Roderick"
+  ],
+  "similarNames": [
+    "Rodrigo",
+    "Roderick",
+    "Roderic",
+    "Ricardo",
+    "Fernando"
+  ],
+  "nicknames": [
+    "Rod",
+    "Rico",
+    "Rodge",
+    "Ricky"
+  ],
+  "personality": "The name Rodriguez often connotes leadership qualities, strength, and a sense of heritage and tradition.",
+  "symbolism": "Symbolically, Rodriguez can represent a connection to one's roots and heritage, emphasizing family lineage.",
+  "funFact": "Rodriguez is one of the most common surnames in the Spanish-speaking world, often ranking in the top ten in countries like Spain and Mexico.",
+  "religiousSignificance": {
+    "hasSignificance": false,
+    "religions": [],
+    "character": "",
+    "significance": "",
+    "keyStories": [],
+    "spiritualMeaning": "",
+    "historicalImpact": ""
+  },
+  "historicFigures": [
+    {
+      "fullName": "Francisco Rodriguez",
+      "years": "1856-1933",
+      "category": "Politician",
+      "achievements": [
+        "President of Costa Rica"
+      ],
+      "significance": "He served as President of Costa Rica and contributed to the country's political development in the late 19th century.",
+      "notableWorks": []
+    }
+  ],
+  "famousQuotes": [],
+  "famousPeople": [
+    {
+      "name": "Robert Rodriguez",
+      "profession": "Filmmaker",
+      "knownFor": [
+        "Sin City",
+        "Spy Kids"
+      ],
+      "awards": "ALMA Awards"
+    },
+    {
+      "name": "Alex Rodriguez",
+      "profession": "Baseball Player",
+      "knownFor": [
+        "New York Yankees",
+        "Seattle Mariners"
+      ],
+      "awards": "3× AL MVP"
+    }
+  ],
+  "famousAthletes": [
+    {
+      "name": "Alex Rodriguez",
+      "profession": "Athlete",
+      "sport": "Baseball",
+      "league": "MLB",
+      "team": "Retired",
+      "pastTeams": [
+        "New York Yankees",
+        "Texas Rangers"
+      ],
+      "position": "Third Baseman",
+      "jerseyNumber": "13",
+      "years": "1994-2016",
+      "achievements": "World Series Champion, 14× All-Star",
+      "knownFor": [
+        "Power hitting",
+        "Fielding"
+      ],
+      "awards": "3× AL MVP",
+      "stats": "696 home runs, 3,115 hits",
+      "verified": true,
+      "source": "MLB official records"
+    }
+  ],
+  "moviesAndShows": [
+    {
+      "title": "Machete",
+      "year": 2010,
+      "type": "Movie",
+      "characterName": "Machete Cortez",
+      "characterDescription": "A former Mexican Federale turned vigilante.",
+      "imdbUrl": "https://www.imdb.com/title/tt0985694/",
+      "genre": "Action",
+      "verified": true,
+      "popularity": 78
+    }
+  ],
+  "characterQuotes": [],
+  "celestialData": {
+    "luckyNumber": 7,
+    "dominantElement": "Earth",
+    "luckyColor": {
+      "name": "Emerald Green",
+      "hex": "#50C878"
+    },
+    "luckyGemstone": "Emerald",
+    "luckyDay": "Thursday",
+    "moonPhase": "Full Moon",
+    "moonPhaseDescription": "Symbolizes completion and illumination.",
+    "compatibleSigns": [
+      "Taurus",
+      "Virgo",
+      "Capricorn"
+    ],
+    "compatibleSignsDescription": "These signs share the Earth element, promoting stability and practicality.",
+    "cosmicElement": "Earth",
+    "cosmicElementDescription": "Represents stability, reliability, and groundedness.",
+    "celestialArchetype": "The Builder",
+    "celestialArchetypeDescription": "Associated with constructing foundations and maintaining stability.",
+    "karmicLessons": "Learning to balance practicality with emotion.",
+    "soulUrge": 4,
+    "soulUrgeDescription": "Desire for stability and building a secure foundation."
+  },
+  "genderDistribution": {
+    "male": 90,
+    "female": 10
+  },
+  "ranking": {
+    "current": 312,
+    "peak": 40,
+    "peakYear": 1990
+  },
+  "inspiration": {
+    "type": "quote",
+    "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "context": "A motivational quote about the relationship between happiness and success."
+  },
+  "syllables": {
+    "count": 3,
+    "breakdown": "Ro-dri-guez"
+  },
+  "translations": [
+    {
+      "language": "Spanish",
+      "name": "Rodríguez",
+      "script": "Latin",
+      "scriptName": "Rodríguez",
+      "pronunciation": "roˈðɾiɣeθ",
+      "rtl": false
+    },
+    {
+      "language": "Greek",
+      "name": "Ροντρίγκες",
+      "script": "Greek",
+      "scriptName": "Ροντρίγκες",
+      "pronunciation": "roˈðriɣes",
+      "rtl": false
+    },
+    {
+      "language": "Arabic",
+      "name": "رودريغيز",
+      "script": "Arabic",
+      "scriptName": "رودريغيز",
+      "pronunciation": "ru'udriyz",
+      "rtl": true
+    },
+    {
+      "language": "Chinese",
+      "name": "罗德里格斯",
+      "script": "Han",
+      "scriptName": "罗德里格斯",
+      "pronunciation": "Luódélǐgésī",
+      "rtl": false
+    },
+    {
+      "language": "Russian",
+      "name": "Родригес",
+      "script": "Cyrillic",
+      "scriptName": "Родригес",
+      "pronunciation": "rɐˈdrʲiɡʲɪs",
+      "rtl": false
+    },
+    {
+      "language": "Hebrew",
+      "name": "רודריגז",
+      "script": "Hebrew",
+      "scriptName": "רודריגז",
+      "pronunciation": "rodrigez",
+      "rtl": true
+    }
+  ],
+  "booksWithName": [],
+  "celebrityBabies": [],
+  "categories": [
+    {
+      "tag": "Classic",
+      "confidence": 0.9,
+      "reason": "The name has been in use for centuries and is deeply rooted in Spanish culture."
+    },
+    {
+      "tag": "Timeless",
+      "confidence": 0.85,
+      "reason": "Rodriguez has remained popular over generations without significant decline."
+    },
+    {
+      "tag": "Cultural",
+      "confidence": 0.95,
+      "reason": "Widely used across Spanish-speaking countries and regions."
+    }
+  ],
+  "songs": [
+    {
+      "title": "Rodriguez For a Night",
+      "artist": "Steely Dan",
+      "year": 2021,
+      "genre": "Rock",
+      "nameContext": "The name appears in the context of a song narrative.",
+      "description": "A track from Steely Dan's album, featuring the iconic storytelling and musical style of the band.",
+      "theme": "neutral",
+      "positiveVibeScore": 6,
+      "youtubeSearchUrl": "https://youtube.com/results?search_query=Rodriguez+For+a+Night+Steely+Dan",
+      "geniusUrl": "https://genius.com/search?q=Rodriguez+For+a+Night",
+      "verified": true
+    }
+  ],
+  "v11BlogContent": {
+    "opening_hook": "The name Rodriguez carries a rich cultural heritage and is recognized worldwide as a symbol of Hispanic identity. As a surname that has been borne by many notable figures, it represents strength and tradition.",
+    "etymology_meaning": "Rodriguez originates from the given name Rodrigo, meaning 'famous ruler' in Old Germanic languages. It reflects the patronymic tradition, meaning 'son of Rodrigo'.",
+    "famous_bearers": "The name is famously associated with individuals like Alex Rodriguez, a celebrated baseball player, and Robert Rodriguez, a renowned filmmaker.",
+    "pop_culture_moments": "Rodriguez frequently appears in films and literature, often symbolizing Hispanic culture and identity, such as in the character Machete in movies directed by Robert Rodriguez.",
+    "personality_profile": "People named Rodriguez are often perceived as dependable and strong-willed, carrying a sense of responsibility and leadership.",
+    "variations_nicknames": "Variations like Rodrigues and Rodriquez show the name's adaptation across regions, while nicknames like Rod and Rico add a personal touch.",
+    "popularity_data": "Rodriguez consistently ranks highly as a surname, particularly in Spanish-speaking countries, maintaining its presence across generations.",
+    "pairing_suggestions": "Rodriguez pairs well with traditional Spanish first names such as Jose, Maria, or Luis, creating a harmonious and culturally rooted full name.",
+    "cultural_context": "As a prominent surname in Hispanic culture, Rodriguez represents familial ties and historical roots, echoing the legacy of Spanish naming customs.",
+    "final_recommendation": "Choosing Rodriguez as a name signifies a connection to a rich cultural history and a celebration of Hispanic heritage. It's a timeless choice with deep roots.",
+    "writer_name": "Morgan Lee",
+    "writer_title": "Modern Parent & Name Trend Blogger"
+  },
+  "v11Writer": "morgan",
+  "v11WriterName": "Morgan Lee",
+  "v11WriterTitle": "Modern Parent & Name Trend Blogger"
+}
