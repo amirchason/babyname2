@@ -5,7 +5,7 @@ import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { ToastProvider } from './contexts/ToastContext';
 import { NameCacheProvider } from './contexts/NameCacheContext';
 import { LoadingProvider } from './contexts/LoadingContext';
-import HomePage from './pages/HomePage';
+import HomePageWrapper from './pages/HomePageWrapper';
 import LoadingSpinner from './components/LoadingSpinner';
 import LoadingAnimation from './components/LoadingAnimation';
 import Footer from './components/Footer';
@@ -163,7 +163,7 @@ function App() {
 
                 <AppLayout>
                   <Routes>
-                    <Route path="/" element={<HomePage />} />
+                    <Route path="/" element={<HomePageWrapper />} />
                     <Route path="/names" element={<NameListPage />} />
                     <Route path="/babynamelists" element={<BabyNameListsPage />} />
                     <Route path="/favorites" element={<FavoritesPage />} />
