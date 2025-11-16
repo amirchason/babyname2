@@ -158,9 +158,8 @@ const AppHeader: React.FC<AppHeaderProps> = ({
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 border-b border-transparent"
+      className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white shadow-sm"
       style={{
-        backgroundColor: 'transparent',
         overflow: 'visible'
       }}
     >
