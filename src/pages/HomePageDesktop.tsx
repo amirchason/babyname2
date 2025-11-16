@@ -7,7 +7,6 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Smartphone } from 'lucide-react';
-import Lottie from 'lottie-react';
 import { NameEntry } from '../services/nameService';
 import { useNameCache } from '../contexts/NameCacheContext';
 import { useDesktopView } from '../contexts/DesktopViewContext';
@@ -48,16 +47,6 @@ const HomePageDesktopContent: React.FC = () => {
   // Refresh trigger
   const [refreshTrigger, setRefreshTrigger] = useState({});
 
-  // Flower animation state
-  const [flowerAnimation, setFlowerAnimation] = useState<any>(null);
-
-  // Load flower animation
-  useEffect(() => {
-    fetch('/openai-flowers-remix.json')
-      .then(response => response.json())
-      .then(data => setFlowerAnimation(data))
-      .catch(error => console.error('Failed to load flower animation:', error));
-  }, []);
 
   // Mobile-optimized banner
   const [showMobileBanner, setShowMobileBanner] = useState(() => {
@@ -350,24 +339,78 @@ const HomePageDesktopContent: React.FC = () => {
               </motion.div>
             </div>
 
-            {/* Right: Flower Animation */}
+            {/* Right: Animated CSS Flower */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.3 }}
               className="flex justify-center lg:justify-end"
             >
-              <div className="w-full max-w-md">
-                {flowerAnimation ? (
-                  <Lottie
-                    animationData={flowerAnimation}
-                    loop={true}
-                    autoplay={true}
-                    style={{ width: '100%', height: 'auto' }}
-                  />
-                ) : (
-                  <div className="w-full aspect-square bg-gradient-to-br from-purple-100 to-pink-100 rounded-full animate-pulse" />
-                )}
+              <div className="w-full max-w-md relative">
+                {/* Animated Flower Design */}
+                <div className="relative w-full aspect-square">
+                  {/* Center circle */}
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-gradient-to-br from-yellow-300 to-orange-400 rounded-full shadow-lg z-10 animate-pulse" />
+
+                  {/* Petals */}
+                  {[...Array(8)].map((_, i) => (
+                    <div
+                      key={i}
+                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32"
+                      style={{
+                        transform: `translate(-50%, -50%) rotate(${i * 45}deg)`,
+                        animation: `float ${3 + i * 0.2}s ease-in-out infinite ${i * 0.2}s`,
+                      }}
+                    >
+                      <div
+                        className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-24 rounded-full opacity-80"
+                        style={{
+                          background: i % 2 === 0
+                            ? 'linear-gradient(135deg, #D8B2F2 0%, #FFB3D9 100%)'
+                            : 'linear-gradient(135deg, #FFB3D9 0%, #B3D9FF 100%)',
+                          boxShadow: '0 4px 15px rgba(216, 178, 242, 0.3)',
+                        }}
+                      />
+                    </div>
+                  ))}
+
+                  {/* Sparkles */}
+                  {[...Array(6)].map((_, i) => (
+                    <div
+                      key={`sparkle-${i}`}
+                      className="absolute w-2 h-2 bg-white rounded-full"
+                      style={{
+                        top: `${20 + Math.random() * 60}%`,
+                        left: `${20 + Math.random() * 60}%`,
+                        animation: `sparkle ${2 + i * 0.3}s ease-in-out infinite ${i * 0.4}s`,
+                        opacity: 0,
+                      }}
+                    />
+                  ))}
+                </div>
+
+                {/* CSS Animations */}
+                <style>{`
+                  @keyframes float {
+                    0%, 100% {
+                      transform: translate(-50%, -50%) translateY(0px) scale(1);
+                    }
+                    50% {
+                      transform: translate(-50%, -50%) translateY(-10px) scale(1.05);
+                    }
+                  }
+
+                  @keyframes sparkle {
+                    0%, 100% {
+                      opacity: 0;
+                      transform: scale(0);
+                    }
+                    50% {
+                      opacity: 1;
+                      transform: scale(1);
+                    }
+                  }
+                `}</style>
               </div>
             </motion.div>
           </div>
