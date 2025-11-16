@@ -25,7 +25,7 @@ const BabyNameListsPage: React.FC = () => {
 
   // Name search state
   const [genderFilter, setGenderFilter] = useState<'all' | 'male' | 'female' | 'unisex'>('all');
-  const [sortBy, setSortBy] = useState<'alphabetical' | 'popularity' | 'random'>('alphabetical');
+  const [sortBy, setSortBy] = useState<'alphabetical' | 'popularity' | 'random'>('popularity');
   const [sortReverse, setSortReverse] = useState(false);
   const [shuffleTrigger, setShuffleTrigger] = useState(0);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
