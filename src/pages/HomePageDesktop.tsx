@@ -7,6 +7,7 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Smartphone } from 'lucide-react';
+import Lottie from 'lottie-react';
 import { NameEntry } from '../services/nameService';
 import { useNameCache } from '../contexts/NameCacheContext';
 import { useDesktopView } from '../contexts/DesktopViewContext';
@@ -46,6 +47,17 @@ const HomePageDesktopContent: React.FC = () => {
 
   // Refresh trigger
   const [refreshTrigger, setRefreshTrigger] = useState({});
+
+  // Flower animation state
+  const [flowerAnimation, setFlowerAnimation] = useState<any>(null);
+
+  // Load flower animation
+  useEffect(() => {
+    fetch('/heroflowers.json')
+      .then(response => response.json())
+      .then(data => setFlowerAnimation(data))
+      .catch(error => console.error('Failed to load flower animation:', error));
+  }, []);
 
   // Mobile-optimized banner
   const [showMobileBanner, setShowMobileBanner] = useState(() => {
@@ -295,6 +307,72 @@ const HomePageDesktopContent: React.FC = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Hero Section with Flower Animation */}
+      <div className="relative bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-6 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            {/* Left: Text Content */}
+            <div className="text-center lg:text-left">
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="text-5xl xl:text-6xl font-bold text-gray-900 mb-4"
+              >
+                Find Your Baby's
+                <span className="block bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent">
+                  Perfect Name
+                </span>
+              </motion.h1>
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="text-xl text-gray-600 mb-6"
+              >
+                Explore 174,000+ meaningful names from diverse cultures with AI-powered insights
+              </motion.p>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="flex gap-4 justify-center lg:justify-start"
+              >
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-purple-600">{filteredNames.length.toLocaleString()}</div>
+                  <div className="text-sm text-gray-500">Names Available</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-pink-600">{cachedGenderCounts.male + cachedGenderCounts.female}</div>
+                  <div className="text-sm text-gray-500">Origins</div>
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Right: Flower Animation */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="flex justify-center lg:justify-end"
+            >
+              <div className="w-full max-w-md">
+                {flowerAnimation ? (
+                  <Lottie
+                    animationData={flowerAnimation}
+                    loop={true}
+                    autoplay={true}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                ) : (
+                  <div className="w-full aspect-square bg-gradient-to-br from-purple-100 to-pink-100 rounded-full animate-pulse" />
+                )}
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </div>
 
       {/* Toolbar */}
       <DesktopToolbar
