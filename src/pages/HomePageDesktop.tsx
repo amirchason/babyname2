@@ -53,7 +53,7 @@ const HomePageDesktopContent: React.FC = () => {
 
   // Load flower animation
   useEffect(() => {
-    fetch('/heroflowers.json')
+    fetch('/openai-flowers-remix.json')
       .then(response => response.json())
       .then(data => setFlowerAnimation(data))
       .catch(error => console.error('Failed to load flower animation:', error));
