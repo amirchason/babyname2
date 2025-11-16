@@ -4,6 +4,7 @@ import { Baby, Heart, ThumbsDown, Search, X, Menu, LogIn, LogOut, Layers, BookOp
 import { useAuth } from '../contexts/AuthContext';
 import favoritesService from '../services/favoritesService';
 import AdminMenu from './AdminMenu';
+import { useScrollDirection } from '../hooks/useScrollDirection';
 
 interface AppHeaderProps {
   title?: string;
@@ -114,6 +115,9 @@ const AppHeader: React.FC<AppHeaderProps> = ({
   // Video ref for controlling animation playback
   const videoRef = useRef<HTMLVideoElement>(null);
 
+  // Hide-on-scroll header behavior
+  const isHeaderVisible = useScrollDirection(100);
+
   // Play logo animation function (memoized for efficiency)
   const playLogoAnimation = useCallback(() => {
     if (videoRef.current) {
@@ -160,7 +164,9 @@ const AppHeader: React.FC<AppHeaderProps> = ({
     <header
       className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white shadow-sm"
       style={{
-        overflow: 'visible'
+        overflow: 'visible',
+        transform: isHeaderVisible ? 'translateY(0)' : 'translateY(-100%)',
+        transition: 'transform 0.3s ease-in-out'
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
