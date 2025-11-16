@@ -64,7 +64,7 @@ const FavoritesCounter = memo(() => {
       className="relative transition-all hover:opacity-80 flex-shrink-0"
       title="View favorites"
     >
-      {/* Hollow Heart Icon - 9% smaller: 76px - Ultra-thin stroke */}
+      {/* Hollow Heart Icon - 18% thinner to match header: 62px */}
       <Heart
         className={`transition-all ${
           heartBeat ? 'animate-heartbeat' : ''
@@ -74,20 +74,20 @@ const FavoritesCounter = memo(() => {
         strokeWidth={0.33}
         fill="none"
         style={{
-          width: '76px',
-          height: '76px'
+          width: '62px',
+          height: '62px'
         }}
       />
 
-      {/* Number inside heart - perfectly centered with larger text */}
+      {/* Number inside heart - perfectly centered with proportional text */}
       <span
         className={`absolute inset-0 flex items-center justify-center font-extralight transition-colors ${
           favoritesCount > 0 ? 'text-pink-600' : 'text-gray-500'
         }`}
         style={{
-          paddingTop: '3px',
+          paddingTop: '2px',
           letterSpacing: '-0.02em',
-          fontSize: '19px',
+          fontSize: '16px',
           fontWeight: '200'
         }}
       >
@@ -168,7 +168,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
         <DesktopHeader />
       </div>
 
-      {/* Mobile Header (<1024px) */}
+      {/* Mobile Header (<1024px) - 18% thinner */}
       <header
         className="lg:hidden fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white shadow-sm"
         style={{
@@ -177,7 +177,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
           transition: 'transform 0.3s ease-in-out'
         }}
       >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-start justify-between">
           {/* Logo - Navigate home or custom action */}
           <button
@@ -190,7 +190,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
               src="/baby-logo.webm"
               muted
               playsInline
-              className="h-20 w-20 sm:h-22 sm:w-22 rounded-lg object-cover"
+              className="h-[70px] w-[70px] sm:h-[72px] sm:w-[72px] rounded-lg object-cover"
               style={{ pointerEvents: 'none' }}
               onEnded={() => {
                 // Pause on last frame when animation completes

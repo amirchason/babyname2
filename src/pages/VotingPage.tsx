@@ -427,7 +427,7 @@ export default function VotingPage() {
         canonical={`https://soulseedbaby.com/vote/${voteId}`}
       />
 
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative">
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative pt-24">
       <ParallaxBackground />
 
       {/* Header */}

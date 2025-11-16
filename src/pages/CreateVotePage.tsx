@@ -190,7 +190,7 @@ export default function CreateVotePage() {
         canonical="https://soulseedbaby.com/create-vote"
       />
 
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative overflow-hidden py-4 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 relative overflow-hidden pt-24 pb-4 px-4">
       <h1 className="sr-only">Create Baby Name Vote</h1>
       <ParallaxBackground />
 
