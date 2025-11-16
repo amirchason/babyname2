@@ -5,6 +5,7 @@ import { useAuth } from '../contexts/AuthContext';
 import favoritesService from '../services/favoritesService';
 import AdminMenu from './AdminMenu';
 import { useScrollDirection } from '../hooks/useScrollDirection';
+import DesktopHeader from './Header/DesktopHeader';
 
 interface AppHeaderProps {
   title?: string;
@@ -161,14 +162,21 @@ const AppHeader: React.FC<AppHeaderProps> = ({
   }, [playLogoAnimation]);
 
   return (
-    <header
-      className="fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white shadow-sm"
-      style={{
-        overflow: 'visible',
-        transform: isHeaderVisible ? 'translateY(0)' : 'translateY(-100%)',
-        transition: 'transform 0.3s ease-in-out'
-      }}
-    >
+    <>
+      {/* AMAZING Desktop Header (≥1024px) */}
+      <div className="hidden lg:block">
+        <DesktopHeader />
+      </div>
+
+      {/* Mobile Header (<1024px) */}
+      <header
+        className="lg:hidden fixed top-0 left-0 right-0 z-50 border-b border-gray-200 bg-white shadow-sm"
+        style={{
+          overflow: 'visible',
+          transform: isHeaderVisible ? 'translateY(0)' : 'translateY(-100%)',
+          transition: 'transform 0.3s ease-in-out'
+        }}
+      >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-start justify-between">
           {/* Logo - Navigate home or custom action */}
@@ -534,6 +542,7 @@ const AppHeader: React.FC<AppHeaderProps> = ({
         )}
       </div>
     </header>
+    </>
   );
 };
 
