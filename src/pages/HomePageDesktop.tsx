@@ -20,6 +20,7 @@ import DesktopNameGrid from '../components/desktop/DesktopNameGrid';
 import DesktopNameTable from '../components/desktop/DesktopNameTable';
 import NameDetailModal from '../components/NameDetailModal';
 import Pagination from '../components/Pagination';
+import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
 
 const HomePageDesktopContent: React.FC = () => {
   const navigate = useNavigate();
@@ -243,125 +244,44 @@ const HomePageDesktopContent: React.FC = () => {
       {/* Header */}
       <AppHeader />
 
-      {/* Hero Section with Flower Animation */}
-      <div className="relative bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Left: Text Content */}
-            <div className="text-center lg:text-left">
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="text-5xl xl:text-6xl font-bold text-gray-900 mb-4"
-              >
-                Find Your Baby's
-                <span className="block bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-clip-text text-transparent">
-                  Perfect Name
-                </span>
-              </motion.h1>
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-xl text-gray-600 mb-6"
-              >
-                Explore 174,000+ meaningful names from diverse cultures with AI-powered insights
-              </motion.p>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="flex gap-4 justify-center lg:justify-start"
-              >
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-600">{filteredNames.length.toLocaleString()}</div>
-                  <div className="text-sm text-gray-500">Names Available</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-pink-600">{cachedGenderCounts.male + cachedGenderCounts.female}</div>
-                  <div className="text-sm text-gray-500">Origins</div>
-                </div>
-              </motion.div>
-            </div>
-
-            {/* Right: Animated CSS Flower */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="flex justify-center lg:justify-end"
-            >
-              <div className="w-full max-w-md relative">
-                {/* Animated Flower Design */}
-                <div className="relative w-full aspect-square">
-                  {/* Center circle */}
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-gradient-to-br from-yellow-300 to-orange-400 rounded-full shadow-lg z-10 animate-pulse" />
-
-                  {/* Petals */}
-                  {[...Array(8)].map((_, i) => (
-                    <div
-                      key={i}
-                      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32"
-                      style={{
-                        transform: `translate(-50%, -50%) rotate(${i * 45}deg)`,
-                        animation: `float ${3 + i * 0.2}s ease-in-out infinite ${i * 0.2}s`,
-                      }}
-                    >
-                      <div
-                        className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-24 rounded-full opacity-80"
-                        style={{
-                          background: i % 2 === 0
-                            ? 'linear-gradient(135deg, #D8B2F2 0%, #FFB3D9 100%)'
-                            : 'linear-gradient(135deg, #FFB3D9 0%, #B3D9FF 100%)',
-                          boxShadow: '0 4px 15px rgba(216, 178, 242, 0.3)',
-                        }}
-                      />
-                    </div>
-                  ))}
-
-                  {/* Sparkles */}
-                  {[...Array(6)].map((_, i) => (
-                    <div
-                      key={`sparkle-${i}`}
-                      className="absolute w-2 h-2 bg-white rounded-full"
-                      style={{
-                        top: `${20 + Math.random() * 60}%`,
-                        left: `${20 + Math.random() * 60}%`,
-                        animation: `sparkle ${2 + i * 0.3}s ease-in-out infinite ${i * 0.4}s`,
-                        opacity: 0,
-                      }}
-                    />
-                  ))}
-                </div>
-
-                {/* CSS Animations */}
-                <style>{`
-                  @keyframes float {
-                    0%, 100% {
-                      transform: translate(-50%, -50%) translateY(0px) scale(1);
-                    }
-                    50% {
-                      transform: translate(-50%, -50%) translateY(-10px) scale(1.05);
-                    }
-                  }
-
-                  @keyframes sparkle {
-                    0%, 100% {
-                      opacity: 0;
-                      transform: scale(0);
-                    }
-                    50% {
-                      opacity: 1;
-                      transform: scale(1);
-                    }
-                  }
-                `}</style>
-              </div>
-            </motion.div>
-          </div>
+      {/* Hero Section - Mobile-Style Flower Animation Background */}
+      <section className="relative pt-24 pb-16 px-4 min-h-[60vh] flex items-center justify-center overflow-hidden">
+        {/* Full Screen Flower Animation Background */}
+        <div className="absolute inset-0 w-full h-full opacity-60">
+          <UnicornFlowerBackground />
         </div>
-      </div>
+
+        {/* Hero Content */}
+        <div className="max-w-4xl mx-auto text-center relative z-10">
+          <motion.h1
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1.2,
+              ease: [0.25, 0.1, 0.25, 1.0]
+            }}
+            className="text-5xl md:text-7xl font-bold text-white mb-6"
+            style={{
+              textShadow: '0 2px 10px rgba(0, 0, 0, 0.3), 0 4px 20px rgba(0, 0, 0, 0.15)',
+              letterSpacing: '0.02em'
+            }}
+          >
+            The Name Is The Seed Of The Soul
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1.0] }}
+            className="text-xl md:text-2xl text-white/90 mb-8 font-light"
+            style={{
+              textShadow: '0 1px 8px rgba(0, 0, 0, 0.3)',
+              letterSpacing: '0.01em'
+            }}
+          >
+            Discover the perfect name from 150,000+ unique options
+          </motion.p>
+        </div>
+      </section>
 
       {/* Toolbar */}
       <DesktopToolbar
