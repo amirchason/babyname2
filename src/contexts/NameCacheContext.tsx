@@ -320,35 +320,73 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
       originCounts.set('English', englishRelatedCount);
     }
 
-    // Manual priority order based on research of top baby name origin searches
+    // FILTER: Remove origins with < 200 names and merge into parent categories
+    const MIN_ORIGIN_COUNT = 200;
+    const smallOriginMapping = new Map<string, string>([
+      // Specific South Asian → South Asian
+      ['Gujarati', 'South Asian'], ['Bengali', 'South Asian'], ['Punjabi', 'South Asian'],
+      ['Tamil', 'South Asian'], ['Telugu', 'South Asian'], ['Malayalam', 'South Asian'],
+      ['Kannada', 'South Asian'], ['Urdu', 'South Asian'], ['Marathi', 'South Asian'],
+      ['Sanskrit', 'South Asian'], ['Hindi', 'South Asian'],
+      // Specific European → European (Other)
+      ['Albanian', 'European (Other)'], ['Basque', 'European (Other)'], ['Bulgarian', 'Slavic'],
+      ['Croatian', 'Slavic'], ['Czech', 'Slavic'], ['Serbian', 'Slavic'], ['Slovak', 'Slavic'],
+      ['Hungarian', 'European (Other)'], ['Ukrainian', 'Slavic'], ['Romanian', 'European (Other)'],
+      ['Macedonian', 'European (Other)'], ['Slovenian', 'European (Other)'],
+      // Specific African → African
+      ['East African', 'African'], ['West African', 'African'], ['Southern African', 'African'],
+      ['Bantu', 'African'], ['Swahili', 'African'], ['Yoruba', 'African'], ['Igbo', 'African'],
+      // Central/West Asian → Central/West Asian (consolidate smaller ones)
+      ['Caucasian', 'Central/West Asian'], ['Central Asian', 'Central/West Asian'],
+      ['Tibetan', 'Central/West Asian'], ['Aramaic', 'Middle Eastern'],
+      // Polynesian → Indigenous & Oceanic
+      ['Polynesian', 'Indigenous & Oceanic'], ['Maori', 'Indigenous & Oceanic'],
+      ['Hawaiian', 'Indigenous & Oceanic'],
+      // Other small origins
+      ['Yiddish', 'Hebrew'], ['Biblical', 'Hebrew'], ['Mythological', 'Greek'],
+      ['Celtic', 'Scottish & Irish'], ['Welsh', 'Scottish & Irish'],
+      ['Nordic', 'Germanic & Nordic'],
+      // Contemporary/Modern categories → Contemporary
+      ['Invented', 'Contemporary'], ['Literary', 'Contemporary'], ['Modern', 'Contemporary'],
+    ]);
+
+    // Merge small origins into their parent categories
+    const filteredOriginCounts = new Map<string, number>();
+    originCounts.forEach((count, origin) => {
+      if (count < MIN_ORIGIN_COUNT && smallOriginMapping.has(origin)) {
+        // Merge into parent category
+        const parent = smallOriginMapping.get(origin)!;
+        filteredOriginCounts.set(parent, (filteredOriginCounts.get(parent) || 0) + count);
+      } else {
+        // Keep as is (either >= 200 or not mapped)
+        filteredOriginCounts.set(origin, (filteredOriginCounts.get(origin) || 0) + count);
+      }
+    });
+
+    // Manual priority order - ONLY origins with >= 200 names
     const originPriority = [
-      // Top Tier - Most searched globally
+      // Top Tier - Most searched globally (all have > 1000 names)
       'Hebrew', 'Latin', 'Greek', 'English', 'Spanish', 'Arabic',
-      // Second Tier - Very popular
-      'Scottish & Irish', 'French', 'Italian', 'Germanic', 'Celtic',
-      // Third Tier - Popular regional/cultural
-      'Indian', 'Chinese', 'Japanese', 'Hindi', 'Persian', 'Russian', 'Portuguese', 'Polish',
-      // Fourth Tier - Growing interest
-      'Korean', 'Nordic', 'Welsh', 'Dutch', 'Turkish', 'Sanskrit', 'Biblical', 'Slavic',
-      // Fifth Tier - Consolidated regional/cultural categories
-      'African', 'South Asian', 'Southeast Asian', 'Central/West Asian', 'European (Other)',
+      // Second Tier - Very popular (all have > 500 names)
+      'Scottish & Irish', 'French', 'Italian', 'Germanic & Nordic',
+      // Third Tier - Popular regional/cultural (> 300 names)
+      'Indian', 'Chinese', 'Japanese', 'Persian', 'Russian', 'Portuguese', 'Polish',
+      // Fourth Tier - Growing interest (> 200 names)
+      'Korean', 'Dutch', 'Turkish', 'Slavic', 'South Asian',
+      // Fifth Tier - Consolidated regional categories (> 200 names each)
+      'African', 'Southeast Asian', 'Central/West Asian', 'European (Other)',
       'Indigenous & Oceanic', 'Indigenous Americas', 'Middle Eastern', 'Latin American',
-      // Sixth Tier - Specific subcategories (if not consolidated)
-      'Gujarati', 'Bengali', 'Punjabi', 'Tamil', 'Telugu', 'Malayalam', 'Kannada', 'Urdu', 'Marathi',
-      'Albanian', 'Basque', 'Bulgarian', 'Caucasian', 'Central Asian', 'Croatian', 'Czech',
-      'East African', 'Hungarian', 'Polynesian', 'Serbian', 'Slovak', 'Southern African',
-      'Tibetan', 'Ukrainian', 'West African', 'Yiddish', 'Bantu', 'Aramaic',
       // Bottom Tier - Generic/utility categories
-      'Contemporary', 'Mythological', 'Religious', 'Romance', 'Descriptive', 'Invented',
-      // Always last
-      'Other', 'Unknown'
+      'Contemporary', 'Germanic', 'Romance', 'Other', 'Unknown'
     ];
 
     // Create a priority map for O(1) lookup
     const priorityMap = new Map(originPriority.map((origin, index) => [origin.toLowerCase(), index]));
 
-    const sortedOrigins = Array.from(originCounts.entries())
+    // Use filteredOriginCounts (with < 200 removed) instead of originCounts
+    const sortedOrigins = Array.from(filteredOriginCounts.entries())
       .map(([origin, count]) => ({ origin, count }))
+      .filter(({ count }) => count >= MIN_ORIGIN_COUNT) // Final filter: ensure >= 200
       .sort((a, b) => {
         const aPriority = priorityMap.get(a.origin.toLowerCase());
         const bPriority = priorityMap.get(b.origin.toLowerCase());
@@ -368,6 +406,7 @@ export const NameCacheProvider: React.FC<{ children: ReactNode }> = ({ children 
         return a.origin.localeCompare(b.origin);
       });
 
+    console.log(`📊 Origins after filtering (>= ${MIN_ORIGIN_COUNT} names): ${sortedOrigins.length} origins`);
     setAllOrigins(sortedOrigins);
   };
 
