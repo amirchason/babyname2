@@ -5,8 +5,8 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
-import { X, Smartphone } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { X } from 'lucide-react';
 import { NameEntry } from '../services/nameService';
 import { useNameCache } from '../contexts/NameCacheContext';
 import { useDesktopView } from '../contexts/DesktopViewContext';
@@ -48,11 +48,11 @@ const HomePageDesktopContent: React.FC = () => {
   const [refreshTrigger, setRefreshTrigger] = useState({});
 
 
-  // Mobile-optimized banner
-  const [showMobileBanner, setShowMobileBanner] = useState(() => {
-    const dismissed = localStorage.getItem('desktop_mobile_banner_dismissed');
-    return dismissed !== 'true';
-  });
+  // Mobile-optimized banner - REMOVED (user request)
+  // const [showMobileBanner, setShowMobileBanner] = useState(() => {
+  //   const dismissed = localStorage.getItem('desktop_mobile_banner_dismissed');
+  //   return dismissed !== 'true';
+  // });
 
   // Helper functions (from HomePage)
   const getNameLength = (name: string): string => {
@@ -239,11 +239,11 @@ const HomePageDesktopContent: React.FC = () => {
     setRefreshTrigger({});
   };
 
-  // Handle mobile banner dismiss
-  const handleDismissMobileBanner = () => {
-    localStorage.setItem('desktop_mobile_banner_dismissed', 'true');
-    setShowMobileBanner(false);
-  };
+  // Handle mobile banner dismiss - REMOVED (user request)
+  // const handleDismissMobileBanner = () => {
+  //   localStorage.setItem('desktop_mobile_banner_dismissed', 'true');
+  //   setShowMobileBanner(false);
+  // };
 
   // Reset pagination when filters change
   useEffect(() => {
@@ -254,48 +254,6 @@ const HomePageDesktopContent: React.FC = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
       <AppHeader />
-
-      {/* Mobile Optimization Banner */}
-      <AnimatePresence>
-        {showMobileBanner && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="relative bg-gradient-to-r from-purple-100 via-pink-100 to-purple-100 border-b-2 border-purple-200 overflow-hidden"
-          >
-            <div className="max-w-7xl mx-auto px-6 py-8 text-center relative">
-              {/* Close button */}
-              <button
-                onClick={handleDismissMobileBanner}
-                className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/50 transition-colors"
-                aria-label="Dismiss banner"
-              >
-                <X className="w-6 h-6 text-gray-600" />
-              </button>
-
-              {/* Icon */}
-              <div className="flex justify-center mb-4">
-                <div className="bg-white/80 rounded-full p-4">
-                  <Smartphone className="w-12 h-12 text-purple-600" />
-                </div>
-              </div>
-
-              {/* Main message */}
-              <h2 className="text-4xl font-bold text-gray-900 mb-3">
-                This app is optimized for mobile devices
-              </h2>
-
-              {/* Subtext */}
-              <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-                For the best experience with swipe gestures and mobile-first design,
-                please visit on your phone or tablet.
-              </p>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       {/* Hero Section with Flower Animation */}
       <div className="relative bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 border-b border-gray-200">
