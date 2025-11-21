@@ -21,6 +21,7 @@ import DesktopNameTable from '../components/desktop/DesktopNameTable';
 import NameDetailModal from '../components/NameDetailModal';
 import Pagination from '../components/Pagination';
 import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
+import FeaturedBlogs from '../components/FeaturedBlogs';
 
 const HomePageDesktopContent: React.FC = () => {
   const navigate = useNavigate();
@@ -282,6 +283,9 @@ const HomePageDesktopContent: React.FC = () => {
           </motion.p>
         </div>
       </section>
+
+      {/* Featured Blogs Section - 3 Random Blogs */}
+      <FeaturedBlogs />
 
       {/* Toolbar */}
       <DesktopToolbar

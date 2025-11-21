@@ -15,6 +15,7 @@ import NameDetailModal from '../components/NameDetailModal';
 import SwipingQuestionnaire from '../components/SwipingQuestionnaire';
 import AppHeader from '../components/AppHeader';
 import UnicornFlowerBackground from '../components/UnicornFlowerBackground';
+import FeaturedBlogs from '../components/FeaturedBlogs';
 import { oneSyllableNames } from '../data/oneSyllableNames';
 import SEOHead from '../components/SEO/SEOHead';
 import StructuredData from '../components/SEO/StructuredData';
@@ -929,6 +930,9 @@ const HomePage: React.FC = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Featured Blogs Section - 3 Random Blogs */}
+      <FeaturedBlogs />
 
       {/* ============================================ */}
       {/* LIST1 MODE - SMART FILTERS DRAWER          */}
