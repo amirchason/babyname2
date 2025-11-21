@@ -205,21 +205,9 @@ const HomePageDesktopContent: React.FC = () => {
     applySorting,
   ]);
 
-  // Process origins for sidebar
-  const sortedOrigins = useMemo(() => {
-    const originCounts = new Map<string, number>();
-
-    cachedNames.forEach(name => {
-      if (name.origin) {
-        const count = originCounts.get(name.origin) || 0;
-        originCounts.set(name.origin, count + 1);
-      }
-    });
-
-    return Array.from(originCounts.entries())
-      .map(([origin, count]) => ({ origin, count }))
-      .sort((a, b) => b.count - a.count);
-  }, [cachedNames]);
+  // Use consolidated origins from NameCacheContext (40 origins)
+  // This consolidates 100k+ raw origins into ~40 curated categories
+  const sortedOrigins = cachedOrigins;
 
   // Handle name click
   const handleNameClick = (name: NameEntry, index: number) => {
