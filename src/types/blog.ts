@@ -19,6 +19,7 @@ export interface BlogPost {
   updatedAt: number;
   tags: string[];
   category: string;
+  imageUrl?: string; // AI-generated pastel-themed image
   seo: {
     metaTitle: string;
     metaDescription: string;

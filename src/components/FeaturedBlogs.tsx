@@ -41,15 +41,39 @@ const FeaturedBlogs: React.FC = () => {
     }
   };
 
-  // Get gradient based on category
+  // Get PASTEL gradient based on category (softer, more baby-friendly)
   const getCategoryGradient = (category: string): string => {
     const normalized = category.toLowerCase();
-    if (normalized.includes('name')) return 'from-purple-500 via-pink-500 to-purple-600';
-    if (normalized.includes('pregnan')) return 'from-pink-500 via-rose-500 to-pink-600';
-    if (normalized.includes('milestone')) return 'from-blue-500 via-cyan-500 to-blue-600';
-    if (normalized.includes('gear')) return 'from-green-500 via-emerald-500 to-green-600';
-    if (normalized.includes('postpartum')) return 'from-violet-500 via-purple-500 to-violet-600';
-    return 'from-indigo-500 via-blue-500 to-indigo-600';
+    if (normalized.includes('name')) return 'from-purple-300 via-pink-300 to-purple-400';
+    if (normalized.includes('pregnan')) return 'from-pink-300 via-rose-300 to-pink-400';
+    if (normalized.includes('milestone')) return 'from-blue-300 via-cyan-300 to-blue-400';
+    if (normalized.includes('gear')) return 'from-green-300 via-emerald-300 to-green-400';
+    if (normalized.includes('postpartum')) return 'from-violet-300 via-purple-300 to-violet-400';
+    return 'from-indigo-300 via-blue-300 to-indigo-400';
+  };
+
+  // Get decorative pattern for image (consistent pastel theme)
+  const getImagePattern = (category: string, index: number) => {
+    const normalized = category.toLowerCase();
+
+    // Category-based emojis for visual interest
+    const icons = {
+      name: ['👶', '✨', '💝', '🌸'],
+      pregnancy: ['🤰', '💕', '🌺', '🦋'],
+      milestone: ['🎉', '📚', '⭐', '🎈'],
+      gear: ['🍼', '🧸', '👕', '🎀'],
+      postpartum: ['💗', '🌙', '☁️', '🌟'],
+      default: ['💫', '🌈', '💐', '🦄']
+    };
+
+    let iconSet = icons.default;
+    if (normalized.includes('name')) iconSet = icons.name;
+    else if (normalized.includes('pregnan')) iconSet = icons.pregnancy;
+    else if (normalized.includes('milestone')) iconSet = icons.milestone;
+    else if (normalized.includes('gear')) iconSet = icons.gear;
+    else if (normalized.includes('postpartum')) iconSet = icons.postpartum;
+
+    return iconSet[index % iconSet.length];
   };
 
   // Get category icon color
@@ -142,9 +166,22 @@ const FeaturedBlogs: React.FC = () => {
                 className="group block h-full"
               >
                 <div className="relative h-full bg-white rounded-xl sm:rounded-2xl shadow-md sm:shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col">
-                  {/* Gradient Header with Category - Compact on Mobile */}
-                  <div className={`relative h-32 sm:h-48 bg-gradient-to-br ${getCategoryGradient(blog.category || 'General')} overflow-hidden`}>
-                    {/* Animated Gradient Overlay */}
+                  {/* Image or Gradient Header with Category - Compact on Mobile */}
+                  <div className={`relative h-32 sm:h-48 overflow-hidden ${!blog.imageUrl ? `bg-gradient-to-br ${getCategoryGradient(blog.category || 'General')}` : ''}`}>
+                    {/* Blog Image (if available) */}
+                    {blog.imageUrl && (
+                      <img
+                        src={blog.imageUrl}
+                        alt={blog.title || 'Blog post image'}
+                        className="absolute inset-0 w-full h-full object-cover"
+                        onError={(e) => {
+                          // Fallback to gradient if image fails to load
+                          e.currentTarget.style.display = 'none';
+                        }}
+                      />
+                    )}
+
+                    {/* Animated Gradient Overlay (works on both images and gradients) */}
                     <motion.div
                       className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/20 to-white/0"
                       animate={{
