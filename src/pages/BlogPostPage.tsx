@@ -353,6 +353,23 @@ export default function BlogPostPage() {
             Back to Blog
           </Link>
 
+          {/* Hero Image - Full Width Banner */}
+          {post.imageUrl && (
+            <div className="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 rounded-xl sm:rounded-2xl overflow-hidden mb-6 sm:mb-8 shadow-lg">
+              <img
+                src={post.imageUrl}
+                alt={
+                  post.imageAlt ||
+                  `${post.title} - ${post.category || 'Parenting'} guide - Pastel illustration for baby name blog`
+                }
+                className="w-full h-full object-cover"
+                loading="eager"
+              />
+              {/* Gradient overlay for text readability */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+            </div>
+          )}
+
           {/* Article Header - Mobile Optimized */}
           <header className="mb-6 sm:mb-8">
             {/* Category */}

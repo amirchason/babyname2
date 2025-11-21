@@ -11,6 +11,7 @@ import { Clock, Calendar, ArrowRight, Sparkles, BookOpen } from 'lucide-react';
 import { collection, query, where, getDocs, limit } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { BlogPost } from '../types/blog';
+import imageAltTagService from '../services/imageAltTagService';
 
 const FeaturedBlogs: React.FC = () => {
   const [blogs, setBlogs] = useState<BlogPost[]>([]);
@@ -172,8 +173,12 @@ const FeaturedBlogs: React.FC = () => {
                     {blog.imageUrl && (
                       <img
                         src={blog.imageUrl}
-                        alt={blog.title || 'Blog post image'}
+                        alt={
+                          blog.imageAlt ||
+                          `${blog.title} - ${blog.category || 'Parenting'} guide - Pastel illustration`
+                        }
                         className="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
                         onError={(e) => {
                           // Fallback to gradient if image fails to load
                           e.currentTarget.style.display = 'none';

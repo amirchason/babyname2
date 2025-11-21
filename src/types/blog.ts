@@ -20,6 +20,7 @@ export interface BlogPost {
   tags: string[];
   category: string;
   imageUrl?: string; // AI-generated pastel-themed image
+  imageAlt?: string; // SEO-optimized alt tag for image
   seo: {
     metaTitle: string;
     metaDescription: string;

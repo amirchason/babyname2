@@ -3,14 +3,18 @@
  * Uses Google Gemini API (Nano Banana Pro Gemini 3)
  */
 
+import imageAltTagService from './imageAltTagService';
+
 export interface ImageGenerationRequest {
   title: string;
   category: string;
   excerpt?: string;
+  keywords?: string[];
 }
 
 export interface ImageGenerationResult {
   imageUrl: string;
+  imageAlt: string;
   prompt: string;
   timestamp: number;
 }
@@ -27,9 +31,16 @@ class GeminiImageService {
    * Generate a pastel-themed image for a blog post
    */
   async generateBlogImage(request: ImageGenerationRequest): Promise<ImageGenerationResult> {
+    // Generate SEO-optimized alt tag first
+    const imageAlt = await imageAltTagService.generateSEOAltTag({
+      title: request.title,
+      category: request.category,
+      keywords: request.keywords || []
+    });
+
     if (!this.isConfigured()) {
       console.warn('Gemini Image API key not configured');
-      return this.getFallbackImage(request);
+      return this.getFallbackImage(request, imageAlt);
     }
 
     try {
@@ -39,9 +50,10 @@ class GeminiImageService {
       // This is a placeholder structure that can be updated when we have the full API documentation
 
       console.log('Generated prompt for image:', prompt);
+      console.log('Generated SEO alt tag:', imageAlt);
 
       // For now, return a fallback until we implement the actual API call
-      return this.getFallbackImage(request);
+      return this.getFallbackImage(request, imageAlt);
 
       // TODO: Implement actual Gemini API call
       // const response = await fetch(`${this.baseUrl}/generateImage`, {
@@ -124,7 +136,7 @@ Composition:
    * Get fallback image based on category
    * Returns a data URL or placeholder image URL
    */
-  private getFallbackImage(request: ImageGenerationRequest): ImageGenerationResult {
+  private getFallbackImage(request: ImageGenerationRequest, imageAlt: string): ImageGenerationResult {
     const { category } = request;
     const normalized = category.toLowerCase();
 
@@ -137,6 +149,7 @@ Composition:
 
     return {
       imageUrl: svgDataUrl,
+      imageAlt: imageAlt,
       prompt: this.createPastelPrompt(request),
       timestamp: Date.now()
     };
